@@ -1,0 +1,109 @@
+{
+  "cluster_id": "cluster_06",
+  "saturation_criterion": "<2% new unique in last 100",
+  "min_papers_per_cluster": 200,
+  "bibliography_target_is_hard_floor": true,
+  "passes": [
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:new approach methodologies toxicology regulatory acceptance",
+      "records_examined": 25,
+      "new_unique_relevant": 11,
+      "new_unique_rate": 0.44,
+      "cumulative_unique": 11,
+      "cumulative_screened_in": 11
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:organ-on-chip microphysiological system drug toxicity prediction",
+      "records_examined": 12,
+      "new_unique_relevant": 6,
+      "new_unique_rate": 0.5,
+      "cumulative_unique": 17,
+      "cumulative_screened_in": 17
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:organoid disease model 3D culture human relevance",
+      "records_examined": 10,
+      "new_unique_relevant": 7,
+      "new_unique_rate": 0.7,
+      "cumulative_unique": 24,
+      "cumulative_screened_in": 24
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:in silico QSAR toxicity prediction model",
+      "records_examined": 13,
+      "new_unique_relevant": 7,
+      "new_unique_rate": 0.54,
+      "cumulative_unique": 31,
+      "cumulative_screened_in": 31
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:read-across IATA integrated approaches testing assessment chemical safety",
+      "records_examined": 7,
+      "new_unique_relevant": 5,
+      "new_unique_rate": 0.71,
+      "cumulative_unique": 36,
+      "cumulative_screened_in": 36
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:new approach methodologies FAIR data reusability infrastructure",
+      "records_examined": 12,
+      "new_unique_relevant": 3,
+      "new_unique_rate": 0.25,
+      "cumulative_unique": 39,
+      "cumulative_screened_in": 39
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:adverse outcome pathway ToxCast high-throughput screening",
+      "records_examined": 8,
+      "new_unique_relevant": 7,
+      "new_unique_rate": 0.88,
+      "cumulative_unique": 46,
+      "cumulative_screened_in": 46
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:in vitro to in vivo extrapolation IVIVE PBPK NAM",
+      "records_examined": 8,
+      "new_unique_relevant": 6,
+      "new_unique_rate": 0.75,
+      "cumulative_unique": 52,
+      "cumulative_screened_in": 52
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:defined approaches skin sensitisation OECD non-animal",
+      "records_examined": 6,
+      "new_unique_relevant": 6,
+      "new_unique_rate": 1.0,
+      "cumulative_unique": 58,
+      "cumulative_screened_in": 58
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:zebrafish embryo developmental toxicity alternative",
+      "records_examined": 5,
+      "new_unique_relevant": 5,
+      "new_unique_rate": 1.0,
+      "cumulative_unique": 63,
+      "cumulative_screened_in": 63
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:microphysiological system regulatory qualification drug development",
+      "records_examined": 5,
+      "new_unique_relevant": 4,
+      "new_unique_rate": 0.8,
+      "cumulative_unique": 67,
+      "cumulative_screened_in": 67
+    }
+  ],
+  "saturation_reached": false,
+  "note": "Continuation frame (light). Added 28 new unique-DOI findings (AOP/ToxCast HTS, IVIVE/PBPK, skin-sensitisation defined approaches, zebrafish embryo alternatives, MPS regulatory qualification). New-unique rate remained high (>=0.7); saturation NOT reached; hard floor 200 not yet met."
+}

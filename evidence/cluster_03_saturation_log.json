@@ -1,0 +1,64 @@
+{
+ "cluster_id": "cluster_03",
+ "saturation_criterion": "<2% new unique in last 100",
+ "min_papers_per_cluster": 200,
+ "passes": [
+  {
+   "pass_type": "keyword",
+   "query_or_method": "pubmed: FAIR data principles + research data management (2 queries, ~50 records)",
+   "records_examined": 50,
+   "new_unique_relevant": 15,
+   "new_unique_rate": 0.3,
+   "cumulative_unique": 15,
+   "cumulative_screened_in": 15
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc: FAIR guiding principles + metrics/machine-actionable/pid/cost/gofair/reuse (6 queries, ~150 records)",
+   "records_examined": 150,
+   "new_unique_relevant": 12,
+   "new_unique_rate": 0.08,
+   "cumulative_unique": 27,
+   "cumulative_screened_in": 27
+  },
+  {
+   "pass_type": "expansion_1",
+   "query_or_method": "epmc: refined metrics/pid/value/wilkinson-related (4 queries, ~100 records)",
+   "records_examined": 100,
+   "new_unique_relevant": 3,
+   "new_unique_rate": 0.03,
+   "cumulative_unique": 30,
+   "cumulative_screened_in": 30
+  },
+  {
+   "pass_type": "expansion_2",
+   "query_or_method": "frame2 keyword passes (pubmed FAIR/stewardship/DMP/RRID/PID/attitudes + epmc discovery)",
+   "records_examined": 160,
+   "new_unique_relevant": 30,
+   "new_unique_rate": 0.19,
+   "cumulative_unique": 60,
+   "cumulative_screened_in": 60
+  },
+  {
+   "pass_type": "snowball_round_1",
+   "query_or_method": "OpenAlex forward-cites on F-UJI (W3208936379) and dental-FAIR (W4281708427)",
+   "records_examined": 50,
+   "new_unique_relevant": 7,
+   "new_unique_rate": 0.14,
+   "cumulative_unique": 67,
+   "cumulative_screened_in": 67
+  },
+  {
+   "pass_type": "expansion_3",
+   "query_or_method": "frame3: pubmed CARE/Indigenous data governance + epmc RO-Crate/CoreTrustSeal + pubmed FAIR workflows + epmc data-paper credit (~90 records screened)",
+   "records_examined": 90,
+   "new_unique_relevant": 27,
+   "new_unique_rate": 0.3,
+   "cumulative_unique": 94,
+   "cumulative_screened_in": 94
+  }
+ ],
+ "saturation_fired": false,
+ "exit_reason": "frame_budget_reached",
+ "note": "Frame3 opened new subtopic seams (CARE/Indigenous data sovereignty, FAIR research software/RO-Crate, repository certification, data-paper credit) with ~30% new-unique yield - well above the 2% stop criterion. Saturation not met. Cumulative 94 of 200 floor; continuation required."
+}

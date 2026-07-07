@@ -1,0 +1,1684 @@
+{
+ "findings": [
+  {
+   "doi": "10.1371/journal.pbio.3000410",
+   "claim": "ARRIVE 2.0 update acknowledges that despite endorsement by funders and journals, adherence to the original ARRIVE guidelines has been inconsistent and expected improvements in reporting quality were not achieved.",
+   "claim_source_sentence": "The first step should be to ensure compliance with the ARRIVE Essential 10 as a minimum requirement.",
+   "evidence": "Consensus/Delphi guideline reorganising ARRIVE into Essential 10 + Recommended Set.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Reporting guideline for in vivo animal research (methodological)",
+   "replication_status": "single-study",
+   "text_access": "fulltext",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1093/rb/rbac076",
+   "claim": "Systematic review of degradable-metal bone/fracture animal studies found low adherence to ARRIVE 2.0, with overall coincidence rates of 42.0% (Essential 10) and 41.5% (Recommended Set).",
+   "claim_source_sentence": "As depicted in, in terms of the report quality evaluation of Essential 10 (22 sub-items), the overall coincidence rate was 42.0%.",
+   "evidence": "Systematic review of 263 publications / 275 experiments scored against ARRIVE 2.0.",
+   "effect_size": "Essential 10 coincidence 42.0%; Recommended Set 41.5%",
+   "effect_size_source_sentence": "As depicted in, in terms of the report quality evaluation of Essential 10 (22 sub-items), the overall coincidence rate was 42.0%.",
+   "n": 275,
+   "study_system": "Preclinical degradable-metal implant animal studies (bone defect/fracture)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.21037/cdt-24-413",
+    "10.1371/journal.pntd.0004194"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1371/journal.pntd.0004194",
+   "claim": "Systematic review of Chagas-disease preclinical drug studies found publication of ARRIVE guidelines did not enhance reporting quality; reporting of an ethics/3Rs compliance statement rose only from ~51% to 66% (non-significant, p=0.26).",
+   "claim_source_sentence": "Information about ethical statement and 3R’s Principles Before ARRIVE guidelines became widely available, approximately 51% of papers on animal models evaluating drugs for Chagas disease included a statement about compliance with local or international guidelines for experimentation with animals.",
+   "evidence": "Before/after ARRIVE comparison of 83 anti-T. cruzi publications.",
+   "effect_size": "ethics-statement reporting 51% before vs 66% after ARRIVE (p=0.26)",
+   "effect_size_source_sentence": "This percentage increased to 66% (p = 0.26) after ARRIVE guidelines were published.",
+   "n": 83,
+   "study_system": "Chagas disease (Trypanosoma cruzi) preclinical drug studies",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0183591",
+    "10.1136/bmjos-2017-000035"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.21037/cdt-24-413",
+   "claim": "Cross-sectional analysis of 943 interventional animal experiments in ARRIVE-publishing journals found compliance improved but remained partial: 15 of 38 subitems (39.5%) significantly improved from Pre-ARRIVE 1.0 to Post-ARRIVE 1.0, while no study ever reported all 38 subitems.",
+   "claim_source_sentence": "The compliance of 15 out of 38 subitems (39.5%) in Post-ARRIVE 1.0 has significantly improved compared to Pre-ARRIVE 1.0 (P<0.05).",
+   "evidence": "943 studies across three time windows around ARRIVE 1.0 and 2.0; abstract reports 'poor' reporting fell 46.05% -> 9.55%.",
+   "effect_size": "15/38 subitems (39.5%) significantly improved; none reported all 38 subitems",
+   "effect_size_source_sentence": "The compliance of 15 out of 38 subitems (39.5%) in Post-ARRIVE 1.0 has significantly improved compared to Pre-ARRIVE 1.0 (P<0.05).",
+   "n": 943,
+   "study_system": "Interventional animal experiments in ARRIVE-publishing journals",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1093/rb/rbac076",
+    "10.1016/j.jss.2018.10.038"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1016/j.jss.2018.10.038",
+   "claim": "Systematic review of liver-regeneration (portal vein occlusion/ALPPS) animal studies found post-ARRIVE era predicted higher reporting quality, but the observed improvement was clearly insufficient.",
+   "claim_source_sentence": "Although an improving trend has been observed in reporting quality over the past years, this effect was clearly insufficient.",
+   "evidence": "107 articles scored against the ARRIVE checklist; regression on predictors.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": 107,
+   "study_system": "Preclinical liver-regeneration animal studies",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1093/rb/rbac076"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1681/ASN.2018050515",
+   "claim": "Systematic review of kidney research reporting quality found substantial reporting deficits in preclinical studies across all leading journals, with little improvement over 20 years, especially for group-size calculations, primary vs secondary outcomes, and blinded analysis.",
+   "claim_source_sentence": "Reporting quality analysis of preclinical studies revealed substantial reporting deficits across all leading journals, with little improvement over the last 20 years, especially for group size calculations, defining primary versus secondary outcomes, and blinded analysis.",
+   "evidence": "135 preclinical studies from 1996, 2006, 2016 scored on CONSORT/ARRIVE-derived criteria.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": 135,
+   "study_system": "Preclinical kidney/nephrology animal studies",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1016/j.jss.2018.10.038"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1186/s41073-019-0069-3",
+   "claim": "IICARus randomised controlled trial: journal-requested completion of an ARRIVE checklist did not improve full compliance with the guidelines; no manuscript in either arm achieved full compliance.",
+   "claim_source_sentence": "We randomised 1689 PLOS ONE manuscripts: 845 manuscripts to the intervention and 844 to control.",
+   "evidence": "RCT of 1689 manuscripts at PLOS ONE; only husbandry (9b) improved (52.1%->74.1%).",
+   "effect_size": "0 manuscripts achieved full compliance; husbandry reporting 52.1% -> 74.1%",
+   "effect_size_source_sentence": "We randomised 1689 PLOS ONE manuscripts: 845 manuscripts to the intervention and 844 to control.",
+   "n": 1689,
+   "study_system": "In vivo animal-research manuscripts submitted to PLOS ONE",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [
+    "10.1136/bmjos-2017-000035",
+    "10.1371/journal.pone.0183591"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1136/bmjos-2017-000035",
+   "claim": "NPQIP observational study: after Nature journals mandated a checklist at revision, the proportion of in vivo articles meeting all 'Landis 4' bias-reduction items rose from 0/203 to 31/181 (16.4%), with no change in matched non-NPG articles.",
+   "claim_source_sentence": "The number of NPG articles meeting all relevant Landis 4 criteria increased from 0/203 prior to May 2013 to 31/181 (16.4%) after (two-sample test for equality of proportions without continuity correction, Χ²=36.2, df=1, p=1.8×10).",
+   "evidence": "448 NPG vs 448 matched non-NPG life-sciences articles before/after policy.",
+   "effect_size": "Landis 4 compliance 0/203 (0%) -> 31/181 (16.4%); non-NPG unchanged 1/164 -> 1/189",
+   "effect_size_source_sentence": "The number of NPG articles meeting all relevant Landis 4 criteria increased from 0/203 prior to May 2013 to 31/181 (16.4%) after (two-sample test for equality of proportions without continuity correction, Χ²=36.2, df=1, p=1.8×10).",
+   "n": 448,
+   "study_system": "Life-sciences (incl. in vivo) articles in Nature Publishing Group journals",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [
+    "10.1186/s41073-019-0069-3",
+    "10.1371/journal.pone.0183591"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1371/journal.pone.0183591",
+   "claim": "Comparing a checklist journal (Nature) to a non-checklist journal (Cell) from 2013 to 2015, reporting of randomization, blinding and sample-size estimation significantly improved, with improvement at least three times greater where a mandatory checklist was implemented.",
+   "claim_source_sentence": "On the other hand, whether experiments were randomized, blinded, or how the sample size was determined were stated in 20% or less of articles in 2013, and improved by 2015 ().",
+   "evidence": "80 in vivo articles across Nature vs Cell, 2013 vs 2015.",
+   "effect_size": "randomization/blinding/sample-size reporting <=20% in 2013; >=3x greater improvement with mandatory checklist",
+   "effect_size_source_sentence": "On the other hand, whether experiments were randomized, blinded, or how the sample size was determined were stated in 20% or less of articles in 2013, and improved by 2015 ().",
+   "n": 80,
+   "study_system": "In vivo animal studies in Nature vs Cell",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [
+    "10.1186/s41073-019-0069-3"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1177/0023677217724823",
+   "claim": "PREPARE guidelines argue that although many reporting guidelines exist, there is very little overarching guidance on how to plan animal experiments, which is the logical place to ensure quality.",
+   "claim_source_sentence": "Although there are a number of reporting guidelines available, there is very little overarching guidance on how to plan animal experiments, despite the fact that this is the logical place to start ensuring quality.",
+   "evidence": "PREPARE planning guidelines (formulation, dialogue, quality control).",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Planning guideline for animal research (methodological)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.3390/ani9110975",
+   "claim": "Review argues efforts to improve validity of animal experiments have concentrated on guidelines to improve the quality of animal experiments rather than the planning for them, and that the Three Rs and planning guidance are needed for reproducibility.",
+   "claim_source_sentence": "Efforts during the last 30 years to increase the internal and external validity of animal experiments have tended to concentrate on the production of guidelines to improve the quality ofanimal experiments, rather than forthem.",
+   "evidence": "Narrative review linking Three Rs, planning and reproducibility.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Animal experiment planning / Three Rs (methodological)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1111/vec.13312",
+   "claim": "Ten-year survey of prospective studies in a veterinary emergency journal: randomization and blinding were each fully reported in only 31.6% of papers, sample-size estimation in 8.0%, and no paper made data freely available without contacting authors.",
+   "claim_source_sentence": "Randomization was fully reported in 31.6% of papers (31/98).",
+   "evidence": "98 papers (2009-2019) scored with an operationalized checklist.",
+   "effect_size": "randomization 31.6%; blinding 31.6%; sample-size 8.0%; data availability 0/99",
+   "effect_size_source_sentence": "Sample size estimation was fully reported in 8.0% of papers (6/75).",
+   "n": 98,
+   "study_system": "Veterinary emergency/critical-care in vivo & ex vivo studies",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1016/j.vaa.2021.09.004"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1016/j.vaa.2021.09.004",
+   "claim": "Comparison of veterinary anaesthesia papers 10 years apart: full reporting of randomization rose from 13.6% to 85.7% and sample-size estimation from 0% to 20%, but blinding (49.2% vs 50.0%) and data availability (near zero) did not change; no item reached the 95% ideal.",
+   "claim_source_sentence": "Full reporting of randomization increased over time from 13.6% to 85.7% [95% confidence interval (CI), 57.8-86.6%; p < 0.0001], as did sample size estimation (from 0% to 20%; 95% CI, 7.6-32.4%; p = 0.002).",
+   "evidence": "59 (2009) vs 56 (2019) papers, operationalized checklist.",
+   "effect_size": "randomization 13.6%->85.7%; sample-size 0%->20%; blinding 49.2% vs 50.0% (ns)",
+   "effect_size_source_sentence": "Full reporting of randomization increased over time from 13.6% to 85.7% [95% confidence interval (CI), 57.8-86.6%; p < 0.0001], as did sample size estimation (from 0% to 20%; 95% CI, 7.6-32.4%; p = 0.002).",
+   "n": 115,
+   "study_system": "Veterinary anaesthesia/analgesia in vivo studies",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1111/vec.13312"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.3168/jds.2018-15797",
+   "claim": "Assessment of 120 controlled trials in the Journal of Dairy Science against the REFLECT checklist found sample-size justification, allocation concealment, blinding, study flow and baseline data were often not reported or incompletely described.",
+   "claim_source_sentence": "Although some items, such as treatment details and statistical analysis, were well reported, other areas, including sample size justification, allocation concealment, blinding, study flow, baseline data, and ancillary analyses, were often not reported or were incompletely described.",
+   "evidence": "120 controlled trials in JDS 2017, 18 REFLECT items.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": 120,
+   "study_system": "Livestock/dairy controlled trials",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1111/vec.13312"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.4315/0362-028x-73.3.579",
+   "claim": "The REFLECT statement extends the CONSORT 22-item checklist to randomized controlled trials in livestock and food safety, addressing group housing/allocation, deliberate challenge models and non-clinical outcomes.",
+   "claim_source_sentence": "The CONSORT statement consists of a 22-item checklist for reporting a RCT and a flow diagram to follow the number of participants at each stage of a trial.",
+   "evidence": "Explanation-and-elaboration document for REFLECT.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Livestock/food-safety RCT reporting guideline (methodological)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1371/journal.pbio.3001177",
+   "claim": "Cross-sectional study of 442 preclinical systematic reviews found quality of reporting inconsistent across reviews and article sections; fewer than half reported a risk-of-bias assessment for internal/external validity and none reported methods for construct validity.",
+   "claim_source_sentence": "Less than half of reviews reported that a risk of bias assessment for internal and external validity was undertaken, and none reported methods for evaluating construct validity.",
+   "evidence": "442 preclinical systematic reviews (2015-2018), 46-item checklist.",
+   "effect_size": "<50% reported risk-of-bias assessment; 0% reported construct-validity methods",
+   "effect_size_source_sentence": "Less than half of reviews reported that a risk of bias assessment for internal and external validity was undertaken, and none reported methods for evaluating construct validity.",
+   "n": 442,
+   "study_system": "Preclinical systematic reviews (animal experiments)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.7554/eLife.67527",
+   "claim": "Commentary on the Reproducibility Project: Cancer Biology estimates the preclinical 'diagnostic machine' has a Positive Predictive Value of about 47%, i.e. it recommends advancing many findings that are not reproducible.",
+   "claim_source_sentence": "Adding these three studies to the five studies that reproduced important parts of the original research articles, and dividing by 17 replication attempts, gives us an initial estimate of 47% for the Positive Predictive Value of the diagnostic machine.",
+   "evidence": "Analysis of RPCB replication outcomes (17 published Replication Studies of 50 planned).",
+   "effect_size": "Positive Predictive Value ~47% (lower bound 16%)",
+   "effect_size_source_sentence": "Adding these three studies to the five studies that reproduced important parts of the original research articles, and dividing by 17 replication attempts, gives us an initial estimate of 47% for the Positive Predictive Value of the diagnostic machine.",
+   "n": 17,
+   "study_system": "Preclinical cancer-biology replication studies",
+   "replication_status": "single-study",
+   "text_access": "fulltext",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1016/j.neubiorev.2018.01.003",
+   "claim": "Multidisciplinary consensus on rodent behavioral phenotyping concluded irreproducibility is prevalent and of concern and should be addressed at statistical, methodological and policy levels, aided by improved data and metadata sharing.",
+   "claim_source_sentence": "The general consensus was that the issue is prevalent and of concern, and should be addressed at the statistical, methodological and policy levels, but is not so severe as to call into question the validity and the usefulness of model organisms as a whole.",
+   "evidence": "Consensus workshop, Tel Aviv University 2015.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Rodent behavioral phenotyping (mice/rats)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.7554/eLife.70817",
+   "claim": "Analysis of 147 articles across nine disciplines found a positive sex difference was reported in 83 articles (57%), yet statistical evidence supporting claimed differences was often missing, indicating over-reporting following NIH sex-as-a-biological-variable policy.",
+   "claim_source_sentence": "A positive finding of a sex difference was reported in 83 articles, or 57%.",
+   "evidence": "147 recent articles reporting data by sex, examined for statistical support.",
+   "effect_size": "sex difference claimed in 83/147 (57%); often without statistical test",
+   "effect_size_source_sentence": "A positive finding of a sex difference was reported in 83 articles, or 57%.",
+   "n": 147,
+   "study_system": "Preclinical & biological studies reporting sex (multiple species)",
+   "replication_status": "single-study",
+   "text_access": "fulltext",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.5483/bmbrep.2018.51.4.034",
+   "claim": "Review notes funders (EU Commission, CIHR, NIH) and journals have adopted policies pushing integration of sex as a biological variable into basic and preclinical research, motivated by past sex-biased drug withdrawals.",
+   "claim_source_sentence": "Between years 1997 and 2000, the US Food and Drug Administration suspended ten prescription drugs producing severe adverse effects on the market.",
+   "evidence": "Mini-review of sex/gender research policies.",
+   "effect_size": "8 of 10 withdrawn drugs posed greater risk to women",
+   "effect_size_source_sentence": "Eight of the ten drugs caused greater health risks in women.",
+   "n": null,
+   "study_system": "Sex-as-a-biological-variable research policy (methodological)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1177/00236772231194957",
+   "claim": "Paper stresses randomization as a bias-reducing step to enhance reproducibility and ethical animal use, and presents a free app to help estimate adequate sample size for preclinical experiments.",
+   "claim_source_sentence": "Randomization is one of the crucial steps to enhance scientific rigor and is a commonly recognized bias-reducing instrument that increases the reliability and reproduction of studies involving animals (even with syngeneic animals).",
+   "evidence": "Methods/tool paper (Mouse Randomization app).",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Preclinical randomization tooling (methodological)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1371/journal.pbio.1001863",
+   "claim": "Policy proposal to distinguish exploratory from confirmatory preclinical research argues research policies should discourage using exploratory studies to support confirmatory inferences and customize design and reporting guidelines for each mode.",
+   "claim_source_sentence": "In particular, policies should discourage the common use of exploratory studies to support confirmatory inferences, promote a greater volume of confirmatory investigation, and customize design and reporting guidelines for each mode.",
+   "evidence": "Conceptual policy framework for preclinical translation.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Preclinical drug-development research policy (methodological)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.14573/altex.1708111",
+   "claim": "Review of EU non-technical summaries (NTS) mandated by Directive 2010/63 found summaries from Germany and the UK consistently deficient in describing what is done to the animals and what they might experience.",
+   "claim_source_sentence": "We consistently found that NTS from Germany and the UK were deficient in their description of what is being done to the animals and what they might experience as a result.",
+   "evidence": "Review of NTS accessibility/quality across member states.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "EU non-technical project summaries (governance/transparency)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.14573/altex.2310181"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.14573/altex.2310181",
+   "claim": "Follow-up review of EU non-technical summaries found improvement in five of six 'predicted harms' elements, but no improvement in reporting adverse effects: only 41% of German and 48% of UK NTS fully reported this element.",
+   "claim_source_sentence": "Only 41% of German NTS and 48% of UK NTS are fully reporting this important element of the \"predicted harms\" section.",
+   "evidence": "Repeat review of UK & German NTS after legislative changes.",
+   "effect_size": "adverse-effects fully reported: 41% (Germany), 48% (UK)",
+   "effect_size_source_sentence": "Only 41% of German NTS and 48% of UK NTS are fully reporting this important element of the \"predicted harms\" section.",
+   "n": null,
+   "study_system": "EU non-technical project summaries (governance/transparency)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.14573/altex.1708111"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1177/02611929221121076",
+   "claim": "Study shows Directive 2010/63 non-technical summaries can be systematically analysed for Three Rs-specific information, supporting AWERB scrutiny of licence applications and identifying gaps in 3Rs reporting.",
+   "claim_source_sentence": "This potentially customisable strategy could help toward the development of practical guidelines for use by Animal Welfare and Ethical Review Bodies (AWERBs) in establishments conducting animal research, in the process of scrutinising NTS during their pre-submission review of proposed licence applications.",
+   "evidence": "Systematic analysis method applied to respiratory-disease NTS.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "EU NTS / AWERB oversight (respiratory disease research)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.14573/altex.1911141",
+   "claim": "Survey of animal welfare bodies (AWBs) at eight Swedish universities found a majority of members predicted alternatives will never replace animal use, and researchers were significantly less positive toward the 3Rs than veterinarians.",
+   "claim_source_sentence": "A majority of the AWB members predicted that alternative methods will never replace animal use.",
+   "evidence": "44 of 90 AWB members surveyed (34 closed questions).",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": 44,
+   "study_system": "Animal welfare bodies at Swedish universities (governance)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1177/0023677219841080",
+   "claim": "Qualitative focus-group study across four Northern European countries found researchers criticized the practice of using more animals to improve statistical figures in order to get results published in highly ranked journals.",
+   "claim_source_sentence": "They also criticized the practice of using more animals to improve statistical figures to get results published in highly ranked journals - a finding we believe is new.",
+   "evidence": "Four focus groups analysed thematically.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Animal-research ethics/compliance (Northern Europe, qualitative)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1016/j.tibtech.2016.05.017",
+   "claim": "Analysis of animal-friendly affinity reagents notes Directive 2010/63/EU requires that animals not be used where alternatives exist, yet animal immunisation for antibody production is still authorised despite available recombinant alternatives.",
+   "claim_source_sentence": "Directive 2010/63/EU requires that animals are not used where alternatives exist.",
+   "evidence": "Review of recombinant/phage-display antibody alternatives and EU policy.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Antibody/affinity-reagent production (replacement)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1016/j.tracli.2017.06.005",
+   "claim": "Review of animal experimentation and the 3Rs notes regulations authorise animal use but require restrictive conditions, and that alternative methods cannot yet answer all biological/medical questions and are mostly complementary to in vivo methods.",
+   "claim_source_sentence": "The alternative methods do not allow, in the present state of the knowledge, to answer all the scientific questions in biology and medicine research.",
+   "evidence": "Narrative review of 3Rs and alternatives under Directive 2010/63.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Animal experimentation & alternatives (3Rs)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.14573/altex.1807101",
+   "claim": "Despite validated cell-based replacements, the number of animals used in Botulinum toxin batch tests across Europe remained at record levels, an estimated 400,000 animals per year based on official statistics and non-technical summaries.",
+   "claim_source_sentence": "However, the number of animals being used in batch tests across Europe remains at record levels; an estimated 400,000 animals per year, based on official statistics and non-technical summaries.",
+   "evidence": "Policy analysis of Botulinum toxin batch testing under Directive 2010/63.",
+   "effect_size": "~400,000 animals/year in Botulinum toxin batch testing (Europe)",
+   "effect_size_source_sentence": "However, the number of animals being used in batch tests across Europe remains at record levels; an estimated 400,000 animals per year, based on official statistics and non-technical summaries.",
+   "n": null,
+   "study_system": "Botulinum toxin batch testing (Europe, regulatory)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1002/elsc.202100167",
+   "claim": "Worldwide survey (551 respondents, 52 countries) on animal-derived reagents found most respondents (68%) considered their own knowledge of animal-free alternative materials inadequate, while such reagents raise reproducibility concerns from undefined components and batch-to-batch variability.",
+   "claim_source_sentence": "Educational/professional experience on non‐animal ingredients Most of respondents (68%) declared that their own level of information on animal‐free alternative materials and reagents was inadequate John Wiley & Sons, Ltd.",
+   "evidence": "Online survey across academia and industry.",
+   "effect_size": "68% of respondents self-rated knowledge of animal-free alternatives as inadequate",
+   "effect_size_source_sentence": "Educational/professional experience on non‐animal ingredients Most of respondents (68%) declared that their own level of information on animal‐free alternative materials and reagents was inadequate John Wiley & Sons, Ltd.",
+   "n": 551,
+   "study_system": "Animal-derived reagents in research (survey, global)",
+   "replication_status": "single-study",
+   "text_access": "fulltext",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.3389/fphys.2020.00645",
+   "claim": "The COST Action 'CephsAction' built a cephalopod-research community of over 200 representatives from 20 countries in response to Directive 2010/63/EU including cephalopods as the only protected invertebrates, developing consensus standards of care and experimentation.",
+   "claim_source_sentence": "This resulted in a network of over 200 representatives from 20 countries, about 50% of whom had no previous experience with these species.",
+   "evidence": "Historical outlook on cephalopod research governance and consensus building.",
+   "effect_size": "network of >200 representatives from 20 countries; ~50% new to the species",
+   "effect_size_source_sentence": "This resulted in a network of over 200 representatives from 20 countries, about 50% of whom had no previous experience with these species.",
+   "n": null,
+   "study_system": "Cephalopod research governance (Directive 2010/63/EU)",
+   "replication_status": "single-study",
+   "text_access": "fulltext",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1371/journal.pone.0194768",
+   "claim": "Analysis of Data Availability Statements from ~47,600 PLOS ONE papers found compliance rose over time (23.8% initially lacked a statement), but only about 20% of statements indicated data deposited in a repository, the policy's preferred method.",
+   "claim_source_sentence": "Of the 62,589 articles that were retrieved, 14,928 (23.8%) did not contain a Data Availability Statement.",
+   "evidence": "47,593 PLOS ONE papers, March 2014-May 2016.",
+   "effect_size": "23.8% lacked a DAS; only ~20% deposited data in a repository",
+   "effect_size_source_sentence": "Of the 62,589 articles that were retrieved, 14,928 (23.8%) did not contain a Data Availability Statement.",
+   "n": 47593,
+   "study_system": "Data Availability Statements in PLOS ONE",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1136/bmj-2023-075767",
+    "10.1186/s12916-022-02644-2"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1136/bmj-2023-075767",
+   "claim": "In a systematic review of data/code sharing, even the 105 included meta-research studies shared their own data poorly: complete individual participant data were publicly available for only 61%, with 18% partial and 21% sharing none.",
+   "claim_source_sentence": "Of these studies, complete individual participant data were publicly available in 70 (61%), 20 had published partial individual participant data (18%), and 24 had not shared any individual participant data publicly (21%).",
+   "evidence": "105 meta-research studies across 31 specialties; abstract reports declared vs actual public data availability of 8% vs 2% (2016-2021), code <0.5%.",
+   "effect_size": "own-data: 61% full IPD, 18% partial, 21% none; field-wide declared 8% / actual 2% data availability",
+   "effect_size_source_sentence": "Of these studies, complete individual participant data were publicly available in 70 (61%), 20 had published partial individual participant data (18%), and 24 had not shared any individual participant data publicly (21%).",
+   "n": 105,
+   "study_system": "Data/code sharing in medical & health research",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0194768",
+    "10.1186/s12916-022-02644-2"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1186/s12916-022-02644-2",
+   "claim": "Cross-sectional analysis of 306 oncology articles found one in five (19%) declared data publicly available, dropping to 16% on checking and <1% when checked against FAIR principles; policies encouraging sharing were no more effective than no policy.",
+   "claim_source_sentence": "One in five studies declared data were publicly available (59/306, 19%, 95% CI: 15-24%).",
+   "evidence": "306 cancer articles indexed in PubMed 2019.",
+   "effect_size": "declared 19%; actual 16%; FAIR-compliant <1%; code available 4%",
+   "effect_size_source_sentence": "However, when data availability was investigated this percentage dropped to 16% (49/306, 95% CI: 12-20%), and then to less than 1% (1/306, 95% CI: 0-2%) when data were checked for compliance with key FAIR principles.",
+   "n": 306,
+   "study_system": "Oncology research articles (data & code sharing)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1136/bmj-2023-075767",
+    "10.1371/journal.pone.0194768"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1161/STROKEAHA.113.003128",
+   "claim": "Systematic review/meta-analysis of animal lacunar-stroke intervention studies found a low median study-quality score (3 of 8 checklist items), evidence of publication bias, and lower reported efficacy in studies reporting blinding.",
+   "claim_source_sentence": "The median number of quality checklist items scored was 3 of 8 (interquartile range, 2-4).",
+   "evidence": "57 publications, 43 interventions; meta-analysis with trim-and-fill.",
+   "effect_size": "median quality 3/8 items; infarct size improved 34.2% (24.1-44.2)",
+   "effect_size_source_sentence": "The median number of quality checklist items scored was 3 of 8 (interquartile range, 2-4).",
+   "n": 57,
+   "study_system": "Animal models of lacunar stroke",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1089/neu.2023.0654",
+   "claim": "The NINDS-funded Translational Outcomes Project in Neurotrauma (TOP-NT) multi-site consortium is building a data infrastructure to enable sharing and reuse of preclinical animal TBI research following FAIR guidelines, to address reproducibility, rigor and transparency.",
+   "claim_source_sentence": "The NINDS-funded Translational Outcomes Project in Neurotrauma (TOP-NT) is a multi-site consortium designed to address the reproducibility, rigor, and transparency of pre-clinical development and validation of clinically relevant biomarkers for TBI.",
+   "evidence": "Consortium synopsis describing FAIR data infrastructure for multi-center preclinical TBI biomarker research.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Preclinical traumatic brain injury multi-site consortium (data infrastructure)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1007/s12021-021-09533-8",
+    "10.1016/j.euroneuro.2015.05.011"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1007/s12021-021-09533-8",
+   "claim": "The Open Data Commons for Spinal Cord Injury (odc-sci.org) is a specialized, community-curated FAIR data-sharing ecosystem for 'long-tail' preclinical data, developed to counter simple 'data dump' repositories that do not make data Findable, Accessible, Interoperable and Reusable.",
+   "claim_source_sentence": "We report on our experiences developing one such data-sharing ecosystem focusing on 'long-tail' preclinical data, the Open Data Commons for Spinal Cord Injury (odc-sci.org).",
+   "evidence": "Review of community-based agile design and adoption of ODC-SCI preclinical data commons.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Preclinical spinal cord injury data commons (infrastructure)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1089/neu.2023.0654",
+    "10.1016/j.euroneuro.2015.05.011"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1016/j.euroneuro.2015.05.011",
+   "claim": "The ECNP Preclinical Data Forum Network was formed to establish an open data-sharing platform for preclinical neuroscience, identifying poor statistical design, underpowered studies, biased reporting, lack of open data sharing and wrong research incentives as the main limitations on data reproducibility.",
+   "claim_source_sentence": "Current limitations impeding on data reproducibility are often poor statistical design, underpowered studies, lack of robust data, lack of methodological detail, biased reporting and lack of open data sharing, coupled with wrong research incentives.",
+   "evidence": "Synopsis of inaugural ECNP Preclinical Data Forum meeting (October 2014).",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Preclinical neuroscience data-sharing network (governance)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1089/neu.2023.0654",
+    "10.1007/s12021-021-09533-8"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1002/epi4.70053",
+   "claim": "The ILAE/AES Joint Translational Task Force developed preclinical common data elements (CDEs) and a case report form for rigor, reproducibility and transparency in epilepsy research, arguing their adoption will improve the reuse of preclinical data sets and translation.",
+   "claim_source_sentence": "Adoption of these CDEs and CRF will enhance data quality and transparent reporting to improve the reuse of preclinical data sets and the successful translation of preclinical epilepsy research.",
+   "evidence": "Companion paper to preclinical CDEs (TASK3-WG1A Pharmacology Working Group).",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Preclinical epilepsy research common data elements (methodological)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1002/epi4.12721"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1002/epi4.12721",
+   "claim": "Growing concerns over rigor and reproducibility of preclinical studies, including inconsistency across laboratories and poor clinical translation, have triggered efforts to harmonise methodology via preclinical common data elements and case report forms for epilepsy pharmacology.",
+   "claim_source_sentence": "Growing concerns over rigor and reproducibility of preclinical studies, including consistency across laboratories and translation to clinical populations, have triggered efforts to harmonize methodologies.",
+   "evidence": "Preclinical CDEs/CRFs for general pharmacology, PK/PD and tolerability in epilepsy research.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Preclinical epilepsy pharmacology CDEs (methodological)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1002/epi4.70053"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.15252/emmm.201708662",
+   "claim": "Because publications using humanized mice have grown without standardized reporting, an international community-driven resource, Minimal Information for Standardization of Humanized Mice (MISHUM), was created with comprehensive reporting guidelines to enhance rigor and reproducibility.",
+   "claim_source_sentence": "Therefore, an international community-driven resource called \"Minimal Information for Standardization of Humanized Mice\" (MISHUM) has been created for the purpose of enhancing rigor and reproducibility of studies in the field.",
+   "evidence": "Consensus reporting guideline (MISHUM) for humanized-mouse research.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Humanized mouse models reporting standardization (methodological)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1002/trc2.12038",
+   "claim": "The MODEL-AD Preclinical Testing Core established a rigorous screening pipeline with go/no-go decision points, emphasising confirmation of drug identity/concentration and an experimental design that is well powered and in line with ARRIVE guidelines to improve preclinical-to-clinical translation in Alzheimer's disease.",
+   "claim_source_sentence": "These include confirmation of the active pharmaceutical ingredient and at the precise concentration expected; and an experimental design that is well powered and in line with the Animal Research Reporting of In vivo Experiments (ARRIVE) guidelines.",
+   "evidence": "Validation of NIA-supported MODEL-AD preclinical testing pipeline with QC checkpoints.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Preclinical Alzheimer's disease mouse models (rigor pipeline)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1097/SHK.0000000000001164",
+   "claim": "Divergent outcomes with the same sepsis model and treatment prompted a call for standardized preclinical sepsis models; the NIH has mandated increased data reproducibility and rigor and issued funding announcements for developing and refining standardized models.",
+   "claim_source_sentence": "The National Institutes of Health mandated that investigators increase data reproducibility and the rigor of scientific experiments and has also issued research funding announcements about the development and refinement of standardized models.",
+   "evidence": "Editorial premise for standardizing the cecal ligation and puncture sepsis model.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Preclinical sepsis models (cecal ligation and puncture)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1161/CIRCRESAHA.117.312579",
+   "claim": "Although principles of methodological rigor (prespecified eligibility, adequate sample sizes, randomization, blinded assessment of standardized outcomes, transparent reporting) are widely endorsed, empirical evidence suggests such rigor is often lacking in pulmonary hypertension preclinical research.",
+   "claim_source_sentence": "Although these principles are widely endorsed, empirical evidence suggests that such rigor is often lacking in pulmonary hypertension preclinical research.",
+   "evidence": "Review of methodological rigor in preclinical pulmonary arterial hypertension research.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Preclinical pulmonary arterial hypertension models",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1681/ASN.2018050515",
+    "10.1161/STROKEAHA.113.003128"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1016/j.jneumeth.2023.110003",
+   "claim": "Following funding-agency guidelines requiring sex as a biological variable (SABV), practical guidance shows that including both sexes does not require larger sample sizes, and even when sex is an independent variable only a moderate increase in sample size is sufficient.",
+   "claim_source_sentence": "We show that including both sexes does not require larger sample sizes, and even if sex is included as an independent variable in the study design, a moderate increase in sample size is sufficient.",
+   "evidence": "Methodological review of practical SABV implementation in preclinical neuropsychopharmacology.",
+   "effect_size": "including both sexes requires no increase in sample size (moderate increase only if sex is an independent variable)",
+   "effect_size_source_sentence": "We show that including both sexes does not require larger sample sizes, and even if sex is included as an independent variable in the study design, a moderate increase in sample size is sufficient.",
+   "n": null,
+   "study_system": "Preclinical neuropsychopharmacology sex-as-a-biological-variable (methodological)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.5483/bmbrep.2018.51.4.034",
+    "10.7554/eLife.70817"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1177/026119291404200507",
+   "claim": "After a BUAV investigation found systematic failures in the care and monitoring of animals at Imperial College London, the expert Brown Report made 33 recommendations spanning the AWERB, unit operation, training and culture, many applicable to all animal facilities and redrafted here as an institutional checklist.",
+   "claim_source_sentence": "The report made 33 recommendations to improve practices at Imperial College, many of which were relevant to other institutions.",
+   "evidence": "Analysis of the Brown Report recommendations, redrafted as a governance checklist for animal facilities.",
+   "effect_size": "33 recommendations",
+   "effect_size_source_sentence": "The report made 33 recommendations to improve practices at Imperial College, many of which were relevant to other institutions.",
+   "n": null,
+   "study_system": "Institutional animal-research governance (AWERB, UK)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.3389/fbioe.2026.1823886",
+   "claim": "A systematic review/meta-analysis of neural stem cell transplantation in rodent TBI models assessed study quality with the CAMARADES checklist, yielding a median score of only 7.00 (IQR 6.25-7.00) across 18 preclinical studies.",
+   "claim_source_sentence": "The quality assessment based on the CAMARADES checklist yielded a median score of 7.00 (interquartile range: 6.25-7.00).",
+   "evidence": "18 preclinical rodent TBI studies scored on the CAMARADES checklist.",
+   "effect_size": "median CAMARADES quality 7.00 (IQR 6.25-7.00)",
+   "effect_size_source_sentence": "The quality assessment based on the CAMARADES checklist yielded a median score of 7.00 (interquartile range: 6.25-7.00).",
+   "n": 18,
+   "study_system": "Rodent traumatic brain injury (neural stem cell transplantation SR)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.3390/ijms27010527",
+    "10.1161/STROKEAHA.113.003128"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.3390/ijms27010527",
+   "claim": "A preclinical systematic review/meta-analysis of quercetin for atherosclerosis used the CAMARADES list to assess quality, reporting a mean methodological quality score of 7.73 out of 10 across 22 studies involving 421 animals.",
+   "claim_source_sentence": "A total of 22 studies involving 421 animals were included, with a mean methodological quality score of 7.73/10.",
+   "evidence": "22 preclinical atherosclerosis studies scored on the CAMARADES list.",
+   "effect_size": "mean CAMARADES quality 7.73/10",
+   "effect_size_source_sentence": "A total of 22 studies involving 421 animals were included, with a mean methodological quality score of 7.73/10.",
+   "n": 22,
+   "study_system": "Preclinical atherosclerosis (quercetin SR)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.3389/fbioe.2026.1823886",
+    "10.1161/STROKEAHA.113.003128"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1111/wrr.70133",
+   "claim": "A systematic review/meta-analysis of statins for wound healing followed PRISMA, SYRCLE and CAMARADES guidelines for study selection, data extraction and quality assessment, illustrating that animal-specific risk-of-bias tools (SYRCLE, CAMARADES) are now standard practice in preclinical evidence synthesis.",
+   "claim_source_sentence": "Multiple independent, blinded reviewers oversaw the study selection, data extraction and quality assessment, following PRISMA (1), SYRCLE (2) and CAMARADES guidelines.",
+   "evidence": "12 preclinical wound-healing studies (262 animals) synthesised under SYRCLE/CAMARADES.",
+   "effect_size": "pooled SMD 1.79 (95% CI 0.63-2.95)",
+   "effect_size_source_sentence": "Our findings indicate that statin treatment significantly enhances wound size reduction compared to control, with a pooled standardised mean difference (SMD) of 1.79 (95% CI: 0.63-2.95, p = 0.0040).",
+   "n": 12,
+   "study_system": "Preclinical wound healing (statins SR)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.3389/fbioe.2026.1823886",
+    "10.3390/ijms27010527"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1080/17437199.2025.2516010",
+   "claim": "A cross-sectional evaluation of 19 health psychology and behavioural medicine journals found poor adoption of the Transparency and Openness Promotion (TOP) standards: out of a possible 29, scores ranged from 1 to 13 (median 6), with preregistration and code-citation standards adopted least.",
+   "claim_source_sentence": "Out of a total possible score of 29, journal scores ranged from 1 to 13 (median = 6).",
+   "evidence": "19 journals rated with the TRUST journal-policy evaluation tool against TOP standards.",
+   "effect_size": "TOP score range 1-13 of 29 (median 6)",
+   "effect_size_source_sentence": "Out of a total possible score of 29, journal scores ranged from 1 to 13 (median = 6).",
+   "n": 19,
+   "study_system": "Health psychology/behavioural medicine journal policies (TOP)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.2106/JBJS.24.00955",
+    "10.1098/rsos.221093"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.2106/JBJS.24.00955",
+   "claim": "Across 1,084 articles in 10 leading orthopaedic journals (2020-2023), only 14% included a data-sharing statement, and of corresponding authors who responded to data requests only 12 of 22 (54.5%) expressed willingness to share, underscoring a gap between data-sharing policy and practice.",
+   "claim_source_sentence": "Of the 1,084 reviewed articles, only 14% included a DSS.",
+   "evidence": "1,084 orthopaedic articles screened for data-sharing statements plus an author-request audit.",
+   "effect_size": "14% included a data-sharing statement; 54.5% of responders willing to share",
+   "effect_size_source_sentence": "Of the 1,084 reviewed articles, only 14% included a DSS.",
+   "n": 1084,
+   "study_system": "Orthopaedic surgery journals (data-sharing compliance)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0194768",
+    "10.1186/s12916-022-02644-2"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1098/rsos.221093",
+   "claim": "A Theoretical Domains Framework survey of 88 journal editors found most supported adopting TOP (71%), yet 74% did not see implementing TOP as a high priority relative to other editorial responsibilities, citing structural barriers of time, resources and authority.",
+   "claim_source_sentence": "However, most editors (74%) did not see implementing TOP as a high priority compared with other editorial responsibilities.",
+   "evidence": "Behaviour-change survey of 88 journal editors on capability, opportunity and motivation to implement TOP.",
+   "effect_size": "71% supported adopting TOP; 74% did not prioritise implementation",
+   "effect_size_source_sentence": "Most participating editors supported adopting TOP at their journal (71%) and perceived other editors in their discipline to support adopting TOP (57%).",
+   "n": 88,
+   "study_system": "Journal editors' open-science policy attitudes (survey)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1186/s41073-021-00112-8",
+   "claim": "The TRUST Initiative developed systematic rating instruments and a process for assessing journal policies, procedures and practices against the TOP Guidelines (via the TOP Factor), demonstrated in a protocol for ~345 influential journals informing evidence-based policy.",
+   "claim_source_sentence": "As a demonstration of this process, we describe a protocol for studying approximately 345 influential journals that have published research used to inform evidence-based policy.",
+   "evidence": "Methods paper defining TRUST rating instruments for TOP implementation.",
+   "effect_size": "~345 influential journals (protocol)",
+   "effect_size_source_sentence": "As a demonstration of this process, we describe a protocol for studying approximately 345 influential journals that have published research used to inform evidence-based policy.",
+   "n": null,
+   "study_system": "Journal open-science policy rating methodology (TOP Factor/TRUST)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1016/j.isci.2020.101698",
+   "claim": "An automated tool (SciScore) scoring articles on key rigor criteria found that, despite steady improvements, fewer than half of the scoring criteria (such as blinding or power analysis) are routinely addressed by authors; the resulting Rigor and Transparency Index (RTI) had no correlation with the Journal Impact Factor.",
+   "claim_source_sentence": "We show that despite steady improvements, less than half of the scoring criteria, such as blinding or power analysis, are routinely addressed by authors; digging deeper, we examined the influence of specific checklists on average scores.",
+   "evidence": "Automated large-scale scoring of research articles; RTI proposed as a journal quality metric independent of impact factor.",
+   "effect_size": "<50% of rigor criteria routinely addressed; RTI vs Journal Impact Factor: no correlation",
+   "effect_size_source_sentence": "We show that despite steady improvements, less than half of the scoring criteria, such as blinding or power analysis, are routinely addressed by authors; digging deeper, we examined the influence of specific checklists on average scores.",
+   "n": null,
+   "study_system": "Biomedical literature rigor metric (SciScore/RTI, automated)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.2196/37324"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.2196/37324",
+   "claim": "An automated Rigor and Transparency Index (RTI 2.0) applied to over 2 million PubMed Central papers found rigor/transparency measures improved from RTI 2.29 (1997) to 4.13 (2020), yet journals, institutions and countries still fall short of replication papers, which scored significantly higher (RTI 7.61) than the original papers (RTI 3.39).",
+   "claim_source_sentence": "Using work by the Reproducibility Project: Cancer Biology, we determined that replication papers (RTI 7.61, SD 0.78) scored significantly higher (P<.001) than the original papers (RTI 3.39, SD 1.12), which according to the project required additional information from authors to begin replication efforts.",
+   "evidence": "RTI 2.0 (NLP-based) over >2 million PubMed Central papers, 1997-2020, plus journal/institution/country rankings.",
+   "effect_size": "RTI improved 2.29 -> 4.13 (1997-2020); replication papers RTI 7.61 (SD 0.78) vs originals 3.39 (SD 1.12), P<.001",
+   "effect_size_source_sentence": "Using work by the Reproducibility Project: Cancer Biology, we determined that replication papers (RTI 7.61, SD 0.78) scored significantly higher (P<.001) than the original papers (RTI 3.39, SD 1.12), which according to the project required additional information from authors to begin replication efforts.",
+   "n": null,
+   "study_system": "Biomedical literature reporting-quality metric (RTI 2.0, >2M papers)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1016/j.isci.2020.101698"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1093/ilar/ilz015",
+   "claim": "A review of reproducibility and rigor in animal-based research identifies weaknesses in the design, conduct and reporting of experiments (evidenced by systematic reviews and experimental studies) and recommends strategies including brief pre-registered study protocols, pre-registration, open publication and open data, and education.",
+   "claim_source_sentence": "Finally, we consider strategies for improvement including increased use of brief, pre-registered study protocols; pre-registration, open publication and open data; and the central importance of education in improving research performance.",
+   "evidence": "Narrative review of rigor/reproducibility issues and remedies in in vivo research.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Animal-based research reproducibility (review)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1136/bmjopen-2016-011784",
+   "claim": "An observational study of BMJ research articles found that despite the journal's strong data-sharing policy, only 7 of 157 articles (4.5%, 95% CI 1.8-9%) actually shared their data sets, and only 24% of the 21 clinical trials bound by the policy did so.",
+   "claim_source_sentence": "So only 7/157 research articles shared their data sets, 4.5% (95% CI 1.8% to 9%).",
+   "evidence": "160 randomly sampled BMJ research articles (2009-2015) plus email data requests.",
+   "effect_size": "4.5% (7/157) actually shared data (95% CI 1.8-9%); clinical trials 24%",
+   "effect_size_source_sentence": "So only 7/157 research articles shared their data sets, 4.5% (95% CI 1.8% to 9%).",
+   "n": 160,
+   "study_system": "Data sharing at the BMJ (observational)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0194768",
+    "10.1186/s12916-022-02644-2"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.19540/j.cnki.cjcmm.20240620.402",
+   "claim": "A SYRCLE risk-of-bias and ARRIVE 2.0 quality assessment of 71 animal studies of traditional Chinese medicine for cervical radiculopathy found methodological and reporting deficiencies, with high risk of bias in sample-size determination, randomization, blinding, outcome assessment and statistics, and poor reporting of protocol registration, data availability and conflict-of-interest declarations.",
+   "claim_source_sentence": "The existing animal experimental studies about the TCM treatment of CR exhibited methodological and reporting deficiencies.",
+   "evidence": "71 of 4,086 screened articles assessed with SYRCLE risk-of-bias tool and ARRIVE 2.0.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": 71,
+   "study_system": "Preclinical TCM cervical radiculopathy animal studies (SYRCLE/ARRIVE 2.0)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1093/rb/rbac076",
+    "10.1371/journal.pbio.3001177"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.3390/ani10071199",
+   "claim": "A review of animal-to-human translation argues that initiatives to address the internal validity and reporting quality of animal studies (ARRIVE and PREPARE guidelines) have been introduced but seldom implemented, and that progress on external validity has been virtually absent.",
+   "claim_source_sentence": "Several initiatives to address the internal validity and reporting quality of animal studies (e.g., Animals in Research: Reporting In Vivo Experiments (ARRIVE) and Planning Research and Experimental Procedures on Animals: Recommendations for Excellence (PREPARE) guidelines) have been introduced but seldom implemented.",
+   "evidence": "Review introducing the Framework to Identify Models of Disease (FIMD) for external validity of animal models.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Preclinical drug-development / animal-model translatability (methodological)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1093/rb/rbac076",
+    "10.21037/cdt-24-413"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1186/s42826-020-00054-0",
+   "claim": "A guideline paper for planning animal research argues that better reporting cannot improve the quality of work already carried out, and that improved planning (via the PREPARE checklist and early collaboration with the animal facility) is required to raise reproducibility and translatability.",
+   "claim_source_sentence": "Better reporting cannot, however, improve the quality of work that has already been carried out - for this purpose better planning is required.",
+   "evidence": "PREPARE planning guideline paper emphasising planning over reporting.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Planning guideline for animal research (PREPARE, methodological)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1177/0023677217724823",
+    "10.3390/ani9110975"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1186/s12917-026-05468-x",
+   "claim": "Systematic analysis of 272 registered animal-experiment protocols found major methodology-reporting gaps: 10.0% did not report randomization, none of the randomized studies addressed allocation concealment, and blinding was unreported by 24.6% during intervention and 35.3% at outcome measurement.",
+   "claim_source_sentence": "10.0% (27/272) did not report randomization, and none of the randomized studies (132/272) addressed allocation concealment.",
+   "evidence": "Systematic analysis of 272 preregistered animal-study protocols (PCT and ASR platforms) across 11 species and 31 countries.",
+   "effect_size": "10.0% (27/272) no randomization; 24.6% and 35.3% failed to report blinding at intervention/outcome",
+   "effect_size_source_sentence": "24.6% (67/272) and 35.3% (96/272) failed to report blinding during intervention implementation and outcome measurement, respectively.",
+   "n": 272,
+   "study_system": "Registered animal-experiment protocols (11 species, 31 countries)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1111/adb.70027",
+    "10.3349/ymj.2024.0409"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.3349/ymj.2024.0409",
+   "claim": "ARRIVE 2.0 adherence assessment of 90 stem-cell studies in Parkinson's-disease animal models found only 15 of 38 items (39.5%) had 80-100% compliance while 14 items (36.8%) had compliance below 50%; no study reported sample-size calculations, adverse events, or humane endpoints.",
+   "claim_source_sentence": "Of the 38 items, 15 (39.5%) had compliance levels between 80%–100%, 9 (23.7%) had compliance between 50%–79%, and 14 items (36.8%) had compliance between 0%–49%.",
+   "evidence": "Cross-sectional ARRIVE 2.0 scoring of 90 PD stem-cell animal studies (2025 animals).",
+   "effect_size": "15/38 items (39.5%) 80-100% compliance; 14/38 (36.8%) <50%",
+   "effect_size_source_sentence": "Of the 38 items, 15 (39.5%) had compliance levels between 80%–100%, 9 (23.7%) had compliance between 50%–79%, and 14 items (36.8%) had compliance between 0%–49%.",
+   "n": 90,
+   "study_system": "Stem-cell studies in Parkinson's-disease animal models",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1093/rb/rbac076",
+    "10.21037/cdt-24-413"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1016/j.ocarto.2026.100776",
+   "claim": "Editorial on reporting frameworks notes the EQUATOR Network now lists 673 reporting guidelines, arguing researchers cannot master all but must cultivate awareness of the landscape and align journal instructions with appropriate guidelines.",
+   "claim_source_sentence": "While researchers are not expected to know the details of all 673 currently listed guidelines, cultivating an awareness of this landscape and the ability to see the big picture is mandatory.",
+   "evidence": "Journal editorial (Osteoarthritis and Cartilage Open) framing EQUATOR reporting checklists as value streams.",
+   "effect_size": "673 reporting guidelines currently listed",
+   "effect_size_source_sentence": "While researchers are not expected to know the details of all 673 currently listed guidelines, cultivating an awareness of this landscape and the ability to see the big picture is mandatory.",
+   "n": null,
+   "study_system": "Reporting-guideline landscape (EQUATOR Network); OA research journal editorial",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1371/journal.pbio.3003464",
+   "claim": "An institutional analysis comparing published descriptions of 27 recently reported animal models against internal production records found the mutated allele sequence was not provided for 20 of 27 models, and validation checks revealed major discrepancies in three models that may affect reproducibility.",
+   "claim_source_sentence": "the sequence of the mutated allele was not provided for 20 of the 27 models",
+   "evidence": "Comparison of published model descriptions vs internal production/validation records for 27 GM mouse models.",
+   "effect_size": "20/27 models lacked mutated allele sequence; major discrepancies in 3 models",
+   "effect_size_source_sentence": "found minor inaccuracies in nine cases and, more concerningly, major discrepancies in three models that may affect the reproducibility of the research.",
+   "n": 27,
+   "study_system": "Genetically modified mouse models (reporting of genetic provenance)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1136/svn-2025-004159",
+   "claim": "SYRCLE risk-of-bias assessment of 71 animal studies of HDAC/sirtuins in ischaemic stroke rated 26 as low bias and 45 as moderate bias; only 56% scored positively for selective outcome reporting and 40% justified attrition/exclusions.",
+   "claim_source_sentence": "only 56% obtained positive scores for selective outcome reporting, and 40% provided justifications for attrition and exclusions.",
+   "evidence": "SYRCLE risk-of-bias scoring within a preclinical stroke meta-analysis of 71 studies (~1600 animals).",
+   "effect_size": "56% selective outcome reporting; 40% attrition justification; low bias 26/71, moderate 45/71",
+   "effect_size_source_sentence": "only 56% obtained positive scores for selective outcome reporting, and 40% provided justifications for attrition and exclusions.",
+   "n": 71,
+   "study_system": "Preclinical ischaemic-stroke animal studies (HDAC/sirtuins meta-analysis)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s13195-026-02018-3",
+    "10.1161/STROKEAHA.113.003128"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1186/s13195-026-02018-3",
+   "claim": "Systematic review of 18 ApoE4 blood-brain-barrier murine studies found only four studies explicitly described sample-size calculations, with high rates of unclear reporting in selection and performance bias domains (allocation concealment, randomised housing, caregiver blinding).",
+   "claim_source_sentence": "only four studies explicitly described sample size calculations",
+   "evidence": "SYRCLE/CAMARADES quality assessment within an ApoE4 BBB systematic review of 18 studies.",
+   "effect_size": "4/18 studies described sample-size calculations",
+   "effect_size_source_sentence": "only four studies explicitly described sample size calculations",
+   "n": 18,
+   "study_system": "ApoE4 blood-brain-barrier transgenic murine models (systematic review)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1136/svn-2025-004159"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1371/journal.pmed.1005145",
+   "claim": "Review of the data-transparency crisis cites that among 7,750 biomedical papers (2015-2020) only 9% pledged to share data and 3% actually did, and that among 1,792 manuscripts whose data-availability statement pledged sharing, 93% of authors did not respond or declined so only 6.8% supplied data.",
+   "claim_source_sentence": "A study analyzing 7,750 biomedical research papers published between 2015 and 2020 found that only 9% of all papers pledged to make their data publicly available, and a mere 3% of the total followed through with this commitment.",
+   "evidence": "Meta-research review synthesising large-scale audits of data-availability-statement compliance.",
+   "effect_size": "9% pledged, 3% actually shared (7,750 papers); 6.8% of 1,792 DAS-pledged authors supplied data",
+   "effect_size_source_sentence": "Among the 1,792 manuscripts whose DAS explicitly pledged data sharing, 1,669 authors (93%) either did not respond or declined to provide their data.",
+   "n": 7750,
+   "study_system": "Biomedical papers / data-availability statements (meta-research)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1111/adb.70027",
+    "10.1098/rspb.2025.1394"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1098/rspb.2025.1394",
+   "claim": "Study of data/code-sharing policy effects in ecology and evolution found mandatory policies raised sharing: post-mandate, 96.5% of research manuscripts in Proceedings B provided data and/or code via link or supplementary material.",
+   "claim_source_sentence": "96.5% of research manuscripts appeared to have provided data- and/or code via link or supplementary material",
+   "evidence": "Before/after analysis of data/code-sharing mandates across ecology and evolution journals (2340 Proceedings B submissions).",
+   "effect_size": "96.5% of Proceedings B research manuscripts provided data/code post-mandate",
+   "effect_size_source_sentence": "96.5% of research manuscripts appeared to have provided data- and/or code via link or supplementary material",
+   "n": 2340,
+   "study_system": "Ecology and evolution journals (data/code-sharing mandate)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pmed.1005145"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1136/bmjos-2021-100259",
+   "claim": "Three-year overview of the preclinicaltrials.eu animal-study preregistration platform reported 107 protocols submitted (all approved) as of January 2022, comprising 48 (55%) small-animal and 39 (45%) large-animal studies and 54 (62%) confirmatory studies.",
+   "claim_source_sentence": "As of 20 January 2022, 107 protocols have been submitted, all of which have eventually been approved.",
+   "evidence": "Descriptive 3-year overview of the preclinicaltrials.eu registry.",
+   "effect_size": "107 protocols; 48 (55%) small animal, 39 (45%) large animal; 54 (62%) confirmatory",
+   "effect_size_source_sentence": "They consist of both small animal (n=48, 55%) and large animal (n=39, 45%) studies and 54 studies (62%) are confirmatory studies.",
+   "n": 107,
+   "study_system": "Animal-study preregistration platform (preclinicaltrials.eu)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1111/adb.70027",
+   "claim": "Transparency/reproducibility audit of 255 opioid-addiction animal-model articles (2019-2023) found raw data accessible for only 3.1%, 0% sharing analytical code, 0% preregistered, 48.6% mentioning randomization, 36.1% mentioning masking, and 94.5% giving no sample-size justification.",
+   "claim_source_sentence": "The raw data were available and accessible for only 3.1% of articles.",
+   "evidence": "Meta-research audit of 255 opioid-addiction animal-model publications against transparency indicators.",
+   "effect_size": "3.1% data accessible; 0% code; 0% preregistered; 48.6% randomization; 36.1% masking; 94.5% no sample-size justification",
+   "effect_size_source_sentence": "94.5% of articles did not include a justification for their sample size, while only 4.7% justified their sample size with a sample size calculation or a power analysis.",
+   "n": 255,
+   "study_system": "Opioid-addiction animal-model studies (transparency audit)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pmed.1005145",
+    "10.3349/ymj.2024.0409"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.3390/jfb17020066",
+   "claim": "Systematic review of 436 preclinical rat bone-defect studies found 25% included no control group at all, with negative and positive controls present in only 56% and 34% of studies respectively, revealing substantial design/reporting inconsistency.",
+   "claim_source_sentence": "Notably, 25% (n = 109/436) of the studies did not include any control group.",
+   "evidence": "Systematic review scoring control-group adequacy across 436 rat bone-defect studies.",
+   "effect_size": "25% (109/436) no control group; negative control 56%, positive control 34%",
+   "effect_size_source_sentence": "A negative (e.g., empty defects or inert carriers) and positive (e.g., bone grafts or commercially available bone substitutes) control group was included in 56% (n = 245/436) and 34% (n = 149/436) of the included studies, respectively.",
+   "n": 436,
+   "study_system": "Preclinical rat calvarial/bone-defect models (systematic review)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1039/d6dd00111d",
+   "claim": "Survey of 171 materials-science journals across 17 publishers found 98% have a research data policy and 95% mention a data availability statement, yet only 7% require public sharing of all research data in all cases.",
+   "claim_source_sentence": "Only 7% of journals require public sharing of all research data in all cases",
+   "evidence": "Cross-sectional coding of research data policies across 171 materials-science journals.",
+   "effect_size": "98% have RDP, 95% mention DAS, 7% require public sharing of all data, 36.3% require availability by review/publication",
+   "effect_size_source_sentence": "98% of the journals we surveyed have an RDP, and 95% mention a DAS",
+   "n": 171,
+   "study_system": "Materials-science journals (research data policy audit)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1098/rspb.2025.1394",
+    "10.1371/journal.pmed.1005145"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1016/j.nsa.2026.106998",
+   "claim": "Position paper argues FAIR-compliant aggregation of historical control datasets could replace concurrent control groups with virtual cohorts, potentially reducing animal use by up to 25%, but only if large volumes of standardised interoperable data exist.",
+   "claim_source_sentence": "Early analyses suggest a potential reduction of animal use by up to 25%—but only if large volumes of standardised, interoperable historical data exist.",
+   "evidence": "Conceptual framework for a WellFAIR preclinical data-reuse ecosystem (virtual control groups, Born-FAIR tooling).",
+   "effect_size": "potential reduction of animal use by up to 25%",
+   "effect_size_source_sentence": "Early analyses suggest a potential reduction of animal use by up to 25%—but only if large volumes of standardised, interoperable historical data exist.",
+   "n": null,
+   "study_system": "Preclinical research data-reuse infrastructure (FAIR / virtual control groups)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1093/pnasnexus/pgac016",
+   "claim": "Declaration proposing common preregistration standards for animal research argues a significant fraction of animal experiments are never published and that harmonised standards across registries (OSF, preclinicaltrials.eu, animalstudyregistry.org) are needed to keep preregistration a valuable tool.",
+   "claim_source_sentence": "Common standards for these and future registries should be defined to ensure that preregistration becomes and remains a valuable tool in preclinical research",
+   "evidence": "Multi-stakeholder declaration proposing minimum common standards across animal-study registries.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Animal-research preregistration registries (governance/standards)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1186/s12874-024-02146-0",
+   "claim": "Guidance on PROSPERO4animals reports that 2282 animal systematic review protocols had been registered as of December 2023, positioning preregistration as a tool to reduce unplanned duplication and reporting bias in preclinical evidence synthesis.",
+   "claim_source_sentence": "As of December 4th 2023, 2282 animal systematic review protocols have been registered.",
+   "evidence": "Descriptive/guidance paper on the PROSPERO4animals preregistration stream.",
+   "effect_size": "2282 animal systematic-review protocols registered as of Dec 2023",
+   "effect_size_source_sentence": "As of December 4th 2023, 2282 animal systematic review protocols have been registered.",
+   "n": 2282,
+   "study_system": "Animal systematic-review preregistration (PROSPERO4animals)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.3389/fphys.2026.1813708",
+   "claim": "Review of 25 years of 3Rs application in safety pharmacology reports EU animal use continues to decline (8.2% reduction in 2023 vs 2022) and that regulatory uptake of non-animal methods is rising, with FDA hiPSC-cardiomyocyte study submissions increasing sharply.",
+   "claim_source_sentence": "Animal use is reported in many regions and continues to decline overall (e.g., an 8.2% reduction in the EU in 2023 vs 2022",
+   "evidence": "Narrative review of 3Rs implementation metrics and regulatory acceptance in safety pharmacology.",
+   "effect_size": "8.2% reduction in EU animal use 2023 vs 2022",
+   "effect_size_source_sentence": "Animal use is reported in many regions and continues to decline overall (e.g., an 8.2% reduction in the EU in 2023 vs 2022",
+   "n": null,
+   "study_system": "Safety pharmacology (3Rs implementation, EU/FDA regulatory context)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1371/journal.pone.0331675",
+   "claim": "Survey of 124 early-career researchers in Germany identifies communication gaps and stress as barriers to a culture of care in animal research, and positions the institutional animal welfare body as a mechanism to defuse conflicts and support 3Rs implementation.",
+   "claim_source_sentence": "In internal conflicts between two parties, an open discussion with different professionals, such as those within the animal welfare body, can also defuse tense relationships or situations and lead to a joint solution.",
+   "evidence": "Survey of 124 early-career researchers plus a workshop with 12 senior mentors on culture of care.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": 124,
+   "study_system": "Early-career animal researchers in Germany (culture of care governance)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.4274/tao.2025.2025-11-6",
+   "claim": "Comparison of 818 otorhinolaryngology animal-study publications across two periods (2005-2007 vs 2018-2020) found animal numbers used fell 49.1% and animal studies declined 41.5% despite a 51.8% rise in total publications, while ~10% of in vivo studies still failed to report animal numbers in both periods.",
+   "claim_source_sentence": "In total, 13,173 animals were used in the first period, whereas 6,695 were used in the second period, accounting for a 49.1% decrease.",
+   "evidence": "Bibliometric/reporting audit of 818 ORL animal-study publications across two time windows.",
+   "effect_size": "animals used fell 49.1% (13,173->6,695); animal studies -41.5%; ~10.9% vs 10.3% lacked animal-number reporting",
+   "effect_size_source_sentence": "In vivo studies lacking reported animal numbers constituted 10.9% in the first period and 10.3% in the second.",
+   "n": 818,
+   "study_system": "Otorhinolaryngology animal-study publications (two-period reporting audit)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1038/s44319-026-00764-x",
+   "claim": "A call for preregistration of in vitro research reports that only 54% of replicated in vitro experiments reproduced the original effect and that none of 193 methods could be replicated from the original manuscript alone, while noting preregistration remains marginal (536 animal protocols registered across registries by Jan 2026).",
+   "claim_source_sentence": "Only 54% of the replicated in vitro experiments exhibited a similar effect as the original study.",
+   "evidence": "Position paper marshalling replication and preregistration-uptake statistics to argue for in vitro preregistration.",
+   "effect_size": "54% of replicated in vitro experiments reproduced effect; 0/193 methods replicable from manuscript alone; 536 protocols registered",
+   "effect_size_source_sentence": "None of the 193 methods could be replicated based solely on the original manuscripts; each required some degree of clarification from the original authors.",
+   "n": 193,
+   "study_system": "In vitro research (reproducibility and preregistration)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1111/adb.70027",
+    "10.1371/journal.pmed.1005145"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1038/s41684-024-01476-2",
+   "claim": "COST Action IMPROVE position statement proposes a common interpretation of the 3Rs principles, noting that inconsistent interpretation of Replacement, Reduction and Refinement undermines harmonised governance; the interpretation was endorsed by a majority of network members.",
+   "claim_source_sentence": "The majority of members of the COST Action IMPROVE approved the interpretation presented here.",
+   "evidence": "Consensus/position statement from a European research network harmonising 3Rs definitions.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "3Rs principles interpretation (European research-network governance)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.2196/90588",
+   "claim": "Protocol for a meta-research study on AI-assisted systematic reviews argues that LLM use in review workflows has expanded rapidly since 2023 yet reporting of AI involvement is inconsistent, and that existing appraisal/reporting tools (AMSTAR 2, ROBIS, PRISMA 2020) do not capture AI-specific details such as model version, prompting, or human oversight.",
+   "claim_source_sentence": "LLM use in SR workflows has expanded rapidly since 2023; yet, reporting of AI involvement is inconsistent.",
+   "evidence": "Mixed-methods meta-research protocol proposing an AI Transparency and Disclosure Index for systematic reviews.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "AI-assisted systematic reviews (reporting-guideline gap)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.3390/ani16020206",
+   "claim": "The COMPASS reporting guideline for welfare-focused animal behaviour-modification research comprises 124 points across seven domains, developed to address recurring, presumed-unintentional methodological flaws and welfare concerns in contemporary animal welfare science.",
+   "claim_source_sentence": "The COMPASS Guidelines include protocols and codes that have been developed to address what are presumed to be unintentional, yet recurring, methodological flaws and welfare concerns identified in contemporary animal welfare science research.",
+   "evidence": "New consensus reporting guideline (COMPASS) enumerating 124 checklist points across seven domains.",
+   "effect_size": "124 points across seven domains (23+20+30+9+16+9+17)",
+   "effect_size_source_sentence": "23 under Controls and Calibration, 20 under Objectivity and Open Data, 30 under Motivation and Methods, 9 under Precautions and Protocols, 16 under Animal-centred Assessments, 9 under Study ethics and Standards, and 17 under Species-relevance and Scientific rigour.",
+   "n": null,
+   "study_system": "Animal behaviour-modification welfare research (reporting guideline)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.3390/ani13193005",
+   "claim": "Nationwide before/after study of 500 preclinical publications (250 from 2009, 250 from 2018) found explicit 3Rs reporting rose from 0% to only 3.2%, and just 8.4% of 2018 publications reported compliance with the 3Rs or ARRIVE guidelines, indicating persistently low uptake despite guideline availability.",
+   "claim_source_sentence": "Publications reporting on the 3Rs identified by a word search increased from zero in 2009 to eight publications (3.2%, 95% CI [1.4–6.2%]) in 2018.",
+   "evidence": "Word-search coding of 500 nationwide preclinical publications across two years for 3Rs/ARRIVE reporting.",
+   "effect_size": "3Rs reporting 0% (2009) -> 3.2% (2018); 8.4% of 2018 reported 3Rs/ARRIVE compliance (ARRIVE 7.2%)",
+   "effect_size_source_sentence": "Twenty-one publications (8.4%, 95% CI [5.3–12.6%]) from 2018 reported the study to be conducted in compliance with the 3Rs principles (1.2%, 95% CI [0.3–3.5%]) or the ARRIVE guidelines (7.2%, 95% CI [4.3–11.1%]).",
+   "n": 500,
+   "study_system": "Nationwide preclinical animal publications (3Rs/ARRIVE reporting, 2009 vs 2018)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.3349/ymj.2024.0409",
+    "10.1093/rb/rbac076"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1371/journal.pone.0299806",
+   "claim": "Survey of 559 biomedical journals from 11 prominent publishers found reporting-guideline endorsement remains partial and inconsistent: ARRIVE was web-endorsed by 22.2% and mentioned in author instructions by 38.6%, CONSORT by 16.1%/51.3%, revealing large gaps between formal endorsement and author guidance.",
+   "claim_source_sentence": "For animal research reporting, 124 or 22.2% of journals appeared as endorsers on ARRIVE's website, while 216 journals (38.6%) included ARRIVE mentions in their author instructions.",
+   "evidence": "Cross-sectional coding of five reporting-guideline endorsements across 559 journals.",
+   "effect_size": "ARRIVE 22.2% web-endorsed / 38.6% in IFA; CONSORT 16.1% / 51.3%; PRISMA 8.4% / 44.7%",
+   "effect_size_source_sentence": "For animal research reporting, 124 or 22.2% of journals appeared as endorsers on ARRIVE's website, while 216 journals (38.6%) included ARRIVE mentions in their author instructions.",
+   "n": 559,
+   "study_system": "Biomedical journals (reporting-guideline endorsement audit)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1093/ejo/cjae032",
+   "claim": "Assessment of 384 orthodontic animal-model studies against ARRIVE found a mean reporting score of 57.9 (range 34-74) out of a maximum near 76, with a priori sample-size calculation missing in 32% of studies, indicating incomplete adherence years after ARRIVE.",
+   "claim_source_sentence": "The mean score for the sample was 57.9 (SD 6.7 and range 34–74).",
+   "evidence": "ARRIVE-item scoring of 384 orthodontic animal studies.",
+   "effect_size": "mean ARRIVE score 57.9 (range 34-74); 32% lacked a priori sample-size calculation",
+   "effect_size_source_sentence": "In particular, in 32% of studies, there was a lack of reporting of the priori sample size calculation.",
+   "n": 384,
+   "study_system": "Orthodontic animal-model studies (ARRIVE reporting audit)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.3349/ymj.2024.0409",
+    "10.1093/rb/rbac076"
+   ],
+   "text_access": "fulltext"
+  },
+  {
+   "doi": "10.3390/ijms24043879",
+   "claim": "Systematic review of 492 teratoma-assay publications found only 37.6% mentioned the number of animals used and tumors were assessed by a pathologist in only 4.7% of studies, while validated animal-free alternatives (ScoreCard, PluriTest) were used in an estimated 10-20% of comparable articles.",
+   "claim_source_sentence": "Only 37.6% (n = 185) of the publications analyzed mentioned the number of animals used to perform the teratoma assay.",
+   "evidence": "Systematic review scoring reporting completeness and animal-free-method uptake across 492 teratoma-assay publications.",
+   "effect_size": "37.6% (185/492) reported animal numbers; pathologist assessment in 4.7%; animal-free-method uptake ~10-20%",
+   "effect_size_source_sentence": "Only 37.6% (n = 185) of the publications analyzed mentioned the number of animals used to perform the teratoma assay.",
+   "n": 492,
+   "study_system": "Teratoma-assay stem-cell publications (reporting completeness / 3Rs uptake)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.3390/ani13193005",
+    "10.3349/ymj.2024.0409"
+   ],
+   "text_access": "fulltext"
+  }
+ ],
+ "conflicts": [
+  {
+   "paper_a_doi": "10.1186/s41073-019-0069-3",
+   "paper_b_doi": "10.1136/bmjos-2017-000035",
+   "paper_a_claim": "No manuscript in either group achieved full compliance with the ARRIVE checklist.",
+   "paper_b_claim": "There was an improvement in the reporting of risks of bias in in vivo research in NPG journals following a change in editorial policy, to a level that to our knowledge has not been previously observed.",
+   "nature_of_conflict": "Whether journal checklist interventions improve reporting of animal research. IICARus (a randomised trial requesting ARRIVE-checklist completion at submission to PLOS ONE) found no improvement in full ARRIVE compliance, whereas NPQIP found a mandatory Nature checklist at revision raised full 'Landis 4' compliance from 0% to 16.4%. They differ on enforcement (voluntary request vs mandatory), outcome definition (full 108-item ARRIVE vs 4 bias items) and journal.",
+   "resolution_status": "resolved-by-method"
+  },
+  {
+   "paper_a_doi": "10.1371/journal.pntd.0004194",
+   "paper_b_doi": "10.1371/journal.pone.0183591",
+   "paper_a_claim": "Unfortunately, publication of ARRIVE guidelines did not seem to enhance reporting quality, compared to papers appeared before ARRIVE publication.",
+   "paper_b_claim": "We find that reporting of randomization, blinding, and sample-size estimation significantly improved when comparing Nature to Cell from 2013 to 2015, likely due to implementation of a checklist.",
+   "nature_of_conflict": "Whether ARRIVE/checklists improve reporting. The Chagas review found passive publication of ARRIVE did not improve reporting, while the Nature-vs-Cell study attributed significant improvement to an enforced submission checklist. The divergence maps onto passive dissemination versus active journal enforcement.",
+   "resolution_status": "resolved-by-method"
+  },
+  {
+   "paper_a_doi": "10.2196/37324",
+   "paper_b_doi": "10.1681/ASN.2018050515",
+   "paper_a_claim": "Between 1997 and 2020 (where data were readily available in our data set), rigor and transparency measures showed general improvement (RTI 2.29 to 4.13), suggesting that authors are taking the need for improved reporting seriously.",
+   "paper_b_claim": "Reporting quality analysis of preclinical studies revealed substantial reporting deficits across all leading journals, with little improvement over the last 20 years, especially for group size calculations, defining primary versus secondary outcomes, and blinded analysis.",
+   "nature_of_conflict": "Whether reporting quality of biomedical/preclinical research has improved over roughly two decades. A large automated cross-field metric (Rigor and Transparency Index over >2M papers) detects a general upward trend, whereas a domain-specific manual audit of kidney preclinical studies finds little improvement over 20 years. The divergence maps onto measurement scope and method (whole-literature automated keyword-based scoring vs deep manual scoring of specific design items) and on field.",
+   "resolution_status": "resolved-by-method"
+  },
+  {
+   "paper_a_doi": "10.1098/rspb.2025.1394",
+   "paper_b_doi": "10.1371/journal.pmed.1005145",
+   "paper_a_claim": "96.5% of research manuscripts appeared to have provided data- and/or code via link or supplementary material",
+   "paper_b_claim": "A study analyzing 7,750 biomedical research papers published between 2015 and 2020 found that only 9% of all papers pledged to make their data publicly available, and a mere 3% of the total followed through with this commitment.",
+   "nature_of_conflict": "Whether data-availability policies translate into actual data sharing: enforced mandatory data/code-sharing policies with editorial checks achieve near-universal (96.5%) provision, whereas voluntary data-availability-statement regimes yield only 3-7% of authors actually sharing usable data. The disagreement is on policy effectiveness and is explained by enforcement mechanism (mandatory-at-review vs voluntary statement).",
+   "resolution_status": "resolved-by-method"
+  }
+ ],
+ "unreplicated_claims": [
+  {
+   "claim": "Journal-requested ARRIVE checklist completion at submission does not improve full ARRIVE compliance (only 1 of 38 subitems improved).",
+   "source": "10.1186/s41073-019-0069-3",
+   "years_since_publication": 7
+  },
+  {
+   "claim": "Only about 20% of PLOS ONE Data Availability Statements indicate deposition in a repository (the preferred method).",
+   "source": "10.1371/journal.pone.0194768",
+   "years_since_publication": 8
+  },
+  {
+   "claim": "An estimated 400,000 animals per year are still used in Botulinum toxin batch testing in Europe despite validated cell-based replacements.",
+   "source": "10.14573/altex.1807101",
+   "years_since_publication": 8
+  },
+  {
+   "claim": "The Rigor and Transparency Index (automated methodological-quality metric) has no correlation with the Journal Impact Factor, i.e. high-impact journals are not more rigorous.",
+   "source": "10.1016/j.isci.2020.101698",
+   "years_since_publication": 6
+  },
+  {
+   "claim": "Most journal editors support adopting TOP (71%) yet 74% do not see implementing it as a high priority relative to other editorial duties.",
+   "source": "10.1098/rsos.221093",
+   "years_since_publication": 3
+  }
+ ],
+ "evidence_gaps": [
+  {
+   "topic": "Infrastructure and roadmaps for preclinical data reuse",
+   "what_is_missing": "Few primary studies quantify reuse of shared preclinical/animal datasets or evaluate repository infrastructure; most evidence measures availability, not downstream reuse.",
+   "why_it_matters": "Reuse is the mechanism by which FAIR data reduces animal waste; without reuse metrics, data-sharing mandates may not translate into fewer animals used."
+  },
+  {
+   "topic": "Causal effect of reporting-guideline endorsement on reporting quality",
+   "what_is_missing": "Only two randomised/controlled intervention designs (IICARus, NPQIP-related) exist; most evidence is before/after cross-sections confounded by secular trends.",
+   "why_it_matters": "Policy is being set (mandatory checklists) on largely observational evidence with conflicting results."
+  },
+  {
+   "topic": "IACUC/AWERB oversight effectiveness",
+   "what_is_missing": "Primary quantitative evidence that ethical-review-body scrutiny improves 3Rs implementation or reduces animal numbers is sparse; most studies survey attitudes.",
+   "why_it_matters": "Governance bodies are the front-line control on animal use, but their measured impact on waste/quality is largely undocumented (false_consensus_risk)."
+  }
+ ],
+ "strongest_evidence": {
+  "claim": "Actual public data availability in medical/health research is only ~2% (declared 8%), with public code sharing <0.5%, and policies encouraging sharing are no more effective than none.",
+  "why_strong": "Systematic review with IPD meta-analysis of 105 meta-research studies covering 2.1M articles across 31 specialties (10.1136/bmj-2023-075767), converging with independent PLOS ONE (10.1371/journal.pone.0194768) and oncology (10.1186/s12916-022-02644-2) analyses."
+ },
+ "weakest_evidence_cited": {
+  "claim": "NTS systematic-analysis method can support AWERB scrutiny of licence applications.",
+  "why_weak": "Single proof-of-concept applied to one disease domain (respiratory) with no outcome measure of improved oversight or reduced animal use (10.1177/02611929221121076)."
+ },
+ "papers_reviewed_count": 61,
+ "evidence_artifact_id": "cluster_08_evidence.json",
+ "figure_data": [
+  {
+   "comparison_id": "guideline-adherence-before-after",
+   "comparison_name": "Animal-research reporting/adherence before vs after guideline or policy mandates",
+   "papers": [
+    {
+     "doi": "10.1371/journal.pntd.0004194",
+     "metric": "papers reporting ethics/3Rs compliance statement (before vs after ARRIVE)",
+     "value": "51% -> 66%",
+     "value_source_sentence": "This percentage increased to 66% (p = 0.26) after ARRIVE guidelines were published.",
+     "ci_or_error": "p=0.26 (ns)",
+     "n": 83,
+     "n_analyzed": "83",
+     "n_definition": "publications screened",
+     "study_system": "Chagas preclinical drug studies",
+     "experimental_conditions": "before vs after ARRIVE publication",
+     "method": "systematic review vs ARRIVE checklist",
+     "text_access": "fulltext",
+     "scope_region": "global literature",
+     "scope_population": "anti-T. cruzi animal studies",
+     "taxonomic_level": "single guideline item (ethics statement)"
+    },
+    {
+     "doi": "10.1016/j.vaa.2021.09.004",
+     "metric": "papers fully reporting randomization (2009 vs 2019)",
+     "value": "13.6% -> 85.7%",
+     "value_source_sentence": "Full reporting of randomization increased over time from 13.6% to 85.7% [95% confidence interval (CI), 57.8-86.6%; p < 0.0001], as did sample size estimation (from 0% to 20%; 95% CI, 7.6-32.4%; p = 0.002).",
+     "ci_or_error": "95% CI 57.8-86.6%; p<0.0001",
+     "n": 115,
+     "n_analyzed": "115",
+     "n_definition": "papers scored",
+     "study_system": "Veterinary anaesthesia studies",
+     "experimental_conditions": "2009 vs 2019",
+     "method": "operationalized checklist",
+     "text_access": "abstract_only",
+     "scope_region": "single journal",
+     "scope_population": "in vivo veterinary anaesthesia studies",
+     "taxonomic_level": "single item (randomization)"
+    },
+    {
+     "doi": "10.1136/bmjos-2017-000035",
+     "metric": "articles meeting all Landis 4 bias items (before vs after Nature checklist)",
+     "value": "0% -> 16.4%",
+     "value_source_sentence": "The number of NPG articles meeting all relevant Landis 4 criteria increased from 0/203 prior to May 2013 to 31/181 (16.4%) after (two-sample test for equality of proportions without continuity correction, Χ²=36.2, df=1, p=1.8×10).",
+     "ci_or_error": "p=1.8x10^-9",
+     "n": 448,
+     "n_analyzed": "384",
+     "n_definition": "in vivo articles",
+     "study_system": "Nature Publishing Group journals",
+     "experimental_conditions": "before vs after May 2013 editorial policy",
+     "method": "74-item checklist",
+     "text_access": "abstract_only",
+     "scope_region": "NPG journals",
+     "scope_population": "in vivo life-sciences articles",
+     "taxonomic_level": "composite (4 bias items)"
+    },
+    {
+     "doi": "10.21037/cdt-24-413",
+     "metric": "studies with 'poor' reporting quality (Pre-ARRIVE1.0 -> Post-ARRIVE2.0)",
+     "value": "46.05% -> 9.55%",
+     "value_source_sentence": "The rate of studies with \"average\" reporting quality increased sequentially from 53.95% to 73.94% and then to 90.20%, and those with \"poor\" reporting quality decreased sequentially from 46.05% to 26.06% and then to 9.55% across the three periods.",
+     "ci_or_error": "P<0.001",
+     "n": 943,
+     "n_analyzed": "943",
+     "n_definition": "experiments",
+     "study_system": "ARRIVE-publishing journals",
+     "experimental_conditions": "three periods around ARRIVE 1.0/2.0",
+     "method": "38-subitem ARRIVE scoring",
+     "text_access": "fulltext",
+     "scope_region": "ARRIVE-publishing journals",
+     "scope_population": "interventional animal experiments",
+     "taxonomic_level": "composite reporting-quality band"
+    },
+    {
+     "doi": "10.1186/s41073-019-0069-3",
+     "metric": "manuscripts reporting animal husbandry (control vs ARRIVE-checklist intervention)",
+     "value": "52.1% -> 74.1%",
+     "value_source_sentence": "Details of animal husbandry (ARRIVE subitem 9b) was the only subitem to show improvements in reporting, with the proportion of compliant manuscripts rising from 52.1 to 74.1% ( = 34.0, df = 1, = 2.1 × 10) in the control and intervention groups, respectively.",
+     "ci_or_error": "only subitem improved",
+     "n": 1689,
+     "n_analyzed": "762",
+     "n_definition": "manuscripts",
+     "study_system": "PLOS ONE in vivo manuscripts",
+     "experimental_conditions": "checklist-request RCT (control vs intervention)",
+     "method": "108-item ARRIVE assessment",
+     "text_access": "fulltext",
+     "scope_region": "single mega-journal",
+     "scope_population": "in vivo animal manuscripts",
+     "taxonomic_level": "single subitem (husbandry)"
+    }
+   ],
+   "comparison_type": "timeline",
+   "what_it_reveals": "Guideline/policy mandates produce highly heterogeneous effects on animal-research reporting: large gains for single enforced items (randomization 13.6->85.7%) but small or null gains for full compliance (Landis 4 0->16.4%; Chagas ethics statement 51->66% ns), showing endorsement alone is insufficient.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "false",
+    "n_definition_uniform": "false",
+    "caveats": [
+     "Metrics differ: single-item reporting (randomization, husbandry, ethics statement) vs composite (Landis 4) vs reporting-quality band.",
+     "'Before/after' contrasts differ: calendar time (2009 vs 2019), pre/post ARRIVE publication, pre/post editorial policy, and RCT control vs intervention.",
+     "Denominators differ (single journal vs multi-journal vs mega-journal).",
+     "Comparison is illustrative of heterogeneity, not a like-for-like effect-size pooling."
+    ]
+   }
+  },
+  {
+   "comparison_id": "data-availability-declared-vs-actual",
+   "comparison_name": "Declared vs actual data availability under data-sharing policies",
+   "papers": [
+    {
+     "doi": "10.1371/journal.pone.0194768",
+     "metric": "statements indicating data deposited in a repository",
+     "value": "~20%",
+     "value_source_sentence": "However, only about 20% of statements indicate that data are deposited in a repository, which the PLOS policy states is the preferred method.",
+     "ci_or_error": null,
+     "n": 47593,
+     "n_analyzed": "47661",
+     "n_definition": "papers with Data Availability Statements",
+     "study_system": "PLOS ONE",
+     "experimental_conditions": "mandatory data-availability policy",
+     "method": "coding of Data Availability Statements",
+     "text_access": "fulltext",
+     "scope_region": "single mega-journal",
+     "scope_population": "all PLOS ONE papers",
+     "taxonomic_level": "repository-deposit category"
+    },
+    {
+     "doi": "10.1136/bmj-2023-075767",
+     "metric": "prevalence of declared vs actual public data availability",
+     "value": "declared 8% / actual 2%",
+     "value_source_sentence": "Meta-analyses showed a prevalence of declared and actual public data availability of 8% (95% confidence interval 5% to 11%) and 2% (1% to 3%), respectively, between 2016 and 2021.",
+     "ci_or_error": "95% CI: declared 5-11%, actual 1-3%",
+     "n": 105,
+     "n_analyzed": "2121580",
+     "n_definition": "meta-research studies (articles examined)",
+     "study_system": "Medical & health research",
+     "experimental_conditions": "2016-2021",
+     "method": "IPD meta-analysis of meta-research",
+     "text_access": "abstract_only",
+     "scope_region": "31 specialties",
+     "scope_population": "medical/health primary articles",
+     "taxonomic_level": "public data availability"
+    },
+    {
+     "doi": "10.1186/s12916-022-02644-2",
+     "metric": "declared vs actual vs FAIR-compliant data availability",
+     "value": "declared 19% / actual 16% / FAIR <1%",
+     "value_source_sentence": "However, when data availability was investigated this percentage dropped to 16% (49/306, 95% CI: 12-20%), and then to less than 1% (1/306, 95% CI: 0-2%) when data were checked for compliance with key FAIR principles.",
+     "ci_or_error": "95% CI: actual 12-20%; FAIR 0-2%",
+     "n": 306,
+     "n_analyzed": "306",
+     "n_definition": "oncology articles",
+     "study_system": "Oncology research",
+     "experimental_conditions": "PubMed-indexed 2019",
+     "method": "cross-sectional check of statements + FAIR audit",
+     "text_access": "fulltext",
+     "scope_region": "oncology literature",
+     "scope_population": "cancer-research articles",
+     "taxonomic_level": "data availability + FAIR compliance"
+    }
+   ],
+   "comparison_type": "convergent evidence",
+   "what_it_reveals": "Across journals and fields, actual public data availability is far below declared availability and collapses further against FAIR criteria (<1%), and encouraging policies are no more effective than none - a core obstacle to preclinical data reuse.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "false",
+    "n_definition_uniform": "false",
+    "caveats": [
+     "PLOS ONE metric is repository-deposit share among statements; others are declared/actual public availability across many journals.",
+     "Denominator definitions differ (papers vs meta-research studies vs articles).",
+     "FAIR-compliance sub-metric available only for the oncology study."
+    ]
+   }
+  },
+  {
+   "comparison_id": "actual-data-sharing-rates-under-policy",
+   "comparison_name": "Actual data-sharing / data-availability rates under journal data policies",
+   "papers": [
+    {
+     "doi": "10.1136/bmjopen-2016-011784",
+     "metric": "research articles that actually shared data despite a strong journal policy",
+     "value": "4.5% (7/157)",
+     "value_source_sentence": "So only 7/157 research articles shared their data sets, 4.5% (95% CI 1.8% to 9%).",
+     "ci_or_error": "95% CI 1.8-9%",
+     "n": 160,
+     "n_analyzed": "157",
+     "n_definition": "sampled research articles (excl. SR/meta-analysis)",
+     "study_system": "The BMJ",
+     "experimental_conditions": "strong BMJ data-sharing policy, 2009-2015",
+     "method": "statement coding + email data requests",
+     "text_access": "abstract_only",
+     "scope_region": "single journal",
+     "scope_population": "BMJ research articles",
+     "taxonomic_level": "actual data provision"
+    },
+    {
+     "doi": "10.2106/JBJS.24.00955",
+     "metric": "articles including a data-sharing statement",
+     "value": "14%",
+     "value_source_sentence": "Of the 1,084 reviewed articles, only 14% included a DSS.",
+     "ci_or_error": null,
+     "n": 1084,
+     "n_analyzed": "1084",
+     "n_definition": "orthopaedic research articles",
+     "study_system": "10 leading orthopaedic journals",
+     "experimental_conditions": "2020-2023",
+     "method": "screening for data-sharing statements",
+     "text_access": "abstract_only",
+     "scope_region": "orthopaedic journals",
+     "scope_population": "orthopaedic research articles",
+     "taxonomic_level": "presence of data-sharing statement"
+    },
+    {
+     "doi": "10.1186/s12916-022-02644-2",
+     "metric": "articles with actual public data availability",
+     "value": "16%",
+     "value_source_sentence": "However, when data availability was investigated this percentage dropped to 16% (49/306, 95% CI: 12-20%), and then to less than 1% (1/306, 95% CI: 0-2%) when data were checked for compliance with key FAIR principles.",
+     "ci_or_error": "95% CI 12-20%",
+     "n": 306,
+     "n_analyzed": "306",
+     "n_definition": "oncology articles",
+     "study_system": "Oncology research",
+     "experimental_conditions": "PubMed-indexed 2019",
+     "method": "cross-sectional check of statements",
+     "text_access": "abstract_only",
+     "scope_region": "oncology literature",
+     "scope_population": "cancer-research articles",
+     "taxonomic_level": "actual data availability"
+    }
+   ],
+   "comparison_type": "convergent evidence",
+   "what_it_reveals": "Across journals and fields, the actual rate at which research data are shared or even declared under data-sharing policies is very low (4.5-16%), reinforcing that policy endorsement rarely yields usable shared data and undercutting preclinical data-reuse goals.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "false",
+    "n_definition_uniform": "false",
+    "caveats": [
+     "Metrics differ: actual data sharing on request (BMJ) vs presence of a data-sharing statement (orthopaedic) vs verified actual public availability (oncology).",
+     "Fields and time windows differ (2009-2015 BMJ; 2020-2023 orthopaedic; 2019 oncology).",
+     "These are clinical/biomedical rather than exclusively preclinical corpora, used as convergent context for data-reuse feasibility."
+    ]
+   }
+  },
+  {
+   "comparison_id": "actual-data-sharing-rate",
+   "comparison_name": "Actual data-availability/sharing rate across meta-research audits",
+   "papers": [
+    {
+     "doi": "10.1371/journal.pmed.1005145",
+     "metric": "papers that actually shared data of those pledging",
+     "value": "3%",
+     "value_source_sentence": "A study analyzing 7,750 biomedical research papers published between 2015 and 2020 found that only 9% of all papers pledged to make their data publicly available, and a mere 3% of the total followed through with this commitment.",
+     "ci_or_error": null,
+     "n": 7750,
+     "n_analyzed": "7750",
+     "n_definition": "biomedical papers audited",
+     "study_system": "biomedical literature 2015-2020",
+     "experimental_conditions": "retrospective audit of data availability statements",
+     "method": "meta-research audit",
+     "text_access": "fulltext",
+     "scope_region": "whole biomedical literature",
+     "scope_population": "all audited papers",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1111/adb.70027",
+     "metric": "articles with raw data available and accessible",
+     "value": "3.1%",
+     "value_source_sentence": "The raw data were available and accessible for only 3.1% of articles.",
+     "ci_or_error": null,
+     "n": 255,
+     "n_analyzed": "255",
+     "n_definition": "animal-model articles audited",
+     "study_system": "opioid-addiction animal models 2019-2023",
+     "experimental_conditions": "transparency audit of published articles",
+     "method": "meta-research audit",
+     "text_access": "fulltext",
+     "scope_region": "opioid-addiction subfield",
+     "scope_population": "all audited articles",
+     "taxonomic_level": "subcategory"
+    },
+    {
+     "doi": "10.1039/d6dd00111d",
+     "metric": "journals requiring public sharing of all research data",
+     "value": "7%",
+     "value_source_sentence": "Only 7% of journals require public sharing of all research data in all cases",
+     "ci_or_error": null,
+     "n": 171,
+     "n_analyzed": "171",
+     "n_definition": "journals coded",
+     "study_system": "materials-science journals",
+     "experimental_conditions": "policy coding of journal instructions",
+     "method": "policy audit",
+     "text_access": "fulltext",
+     "scope_region": "materials-science journals",
+     "scope_population": "all coded journals",
+     "taxonomic_level": "broad category"
+    }
+   ],
+   "comparison_type": "convergent evidence",
+   "what_it_reveals": "Across independent audits, both actual data-sharing (3-3.1%) and mandatory-sharing journal policy (7%) remain very low, indicating data-availability statements rarely produce usable shared data.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "false",
+    "n_definition_uniform": "false",
+    "caveats": [
+     "Two entries measure realized data accessibility (share rate) while the materials-science entry measures journal policy strength (7% require sharing) - not directly the same quantity; fields differ (biomedical vs materials science)."
+    ]
+   }
+  }
+ ],
+ "search_failures": [
+  {
+   "suggested_reference": "IACUC/AWERB oversight (direct search)",
+   "searches_tried": [
+    "animal ethics committee IACUC AWERB oversight"
+   ],
+   "result": "zero results in PubMed for the combined-term query",
+   "action": "substituted broader governance queries; relevant papers found via Directive 2010/63 and welfare-body surveys"
+  },
+  {
+   "suggested_reference": "Preclinical data reuse infrastructure/FAIR roadmap (animal)",
+   "searches_tried": [
+    "preclinical data sharing reuse infrastructure repository FAIR roadmap animal"
+   ],
+   "result": "zero results in PubMed for the combined-term query",
+   "action": "data-availability/reuse evidence captured via data-sharing prevalence studies; dedicated infrastructure roadmap not retrieved this frame"
+  }
+ ]
+}

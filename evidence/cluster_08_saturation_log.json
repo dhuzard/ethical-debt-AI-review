@@ -1,0 +1,98 @@
+{
+ "cluster_id": "cluster_08",
+ "saturation_criterion": "<2% new unique in last 100",
+ "min_papers_per_cluster": 200,
+ "passes": [
+  {
+   "pass_type": "keyword",
+   "query_or_method": "pubmed: ARRIVE + reporting-quality + reproducibility-policy queries (batch 1)",
+   "records_examined": 100,
+   "new_unique_relevant": 22,
+   "new_unique_rate": 0.22,
+   "cumulative_unique": 22,
+   "cumulative_screened_in": 22
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "pubmed: Directive 2010/63 + data-availability + governance queries (batch 2)",
+   "records_examined": 80,
+   "new_unique_relevant": 11,
+   "new_unique_rate": 0.1375,
+   "cumulative_unique": 33,
+   "cumulative_screened_in": 33
+  },
+  {
+   "pass_type": "expansion_1",
+   "query_or_method": "pubmed/epmc: intervention trials (IICARus/NPQIP/Han) + stroke SR",
+   "records_examined": 40,
+   "new_unique_relevant": 3,
+   "new_unique_rate": 0.075,
+   "cumulative_unique": 36,
+   "cumulative_screened_in": 36
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "pubmed: SYRCLE / NIH-rigor / CAMARADES / preclinical-CDE / FAIR-data-infrastructure / culture-of-care queries (frame 3 batch 1)",
+   "records_examined": 95,
+   "new_unique_relevant": 18,
+   "new_unique_rate": 0.189,
+   "cumulative_unique": 54,
+   "cumulative_screened_in": 54
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "pubmed: TOP-guidelines adoption / data-availability-compliance / PREPARE-planning / Rigor-Transparency-Index queries (frame 3 batch 2)",
+   "records_examined": 55,
+   "new_unique_relevant": 4,
+   "new_unique_rate": 0.0727,
+   "cumulative_unique": 58,
+   "cumulative_screened_in": 58
+  },
+  {
+   "pass_type": "snowball_round_1",
+   "query_or_method": "openalex: forward-cites of IICARus (W2949899843), screened for reporting-quality/rigor relevance",
+   "records_examined": 25,
+   "new_unique_relevant": 3,
+   "new_unique_rate": 0.12,
+   "cumulative_unique": 61,
+   "cumulative_screened_in": 61
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc OA-filtered: ARRIVE reporting quality / preclinical SR reproducibility / reporting-completeness audit / SYRCLE risk-of-bias (frame 4 batch 1, fulltext-biased)",
+   "records_examined": 60,
+   "new_unique_relevant": 10,
+   "new_unique_rate": 0.167,
+   "cumulative_unique": 71,
+   "cumulative_screened_in": 71
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc OA-filtered: data-availability-statement compliance / 3Rs implementation policy / preregistration registry (frame 4 batch 2, fulltext-biased)",
+   "records_examined": 55,
+   "new_unique_relevant": 8,
+   "new_unique_rate": 0.145,
+   "cumulative_unique": 79,
+   "cumulative_screened_in": 79
+  },
+  {
+   "pass_type": "expansion_1",
+   "query_or_method": "epmc OA fulltext: in-vitro preregistration / 3Rs interpretation / AI-assisted SR quality / COMPASS guideline",
+   "records_examined": 30,
+   "new_unique_relevant": 4,
+   "new_unique_rate": 0.133,
+   "cumulative_unique": 83,
+   "cumulative_screened_in": 83
+  },
+  {
+   "pass_type": "snowball_round_2",
+   "query_or_method": "openalex OA search (2023+) ARRIVE adherence/reporting-quality as round-2 substitute (forward-cite seed returned 0); PMCID-resolved fulltext for 4 meta-research audits",
+   "records_examined": 20,
+   "new_unique_relevant": 4,
+   "new_unique_rate": 0.20,
+   "cumulative_unique": 87,
+   "cumulative_screened_in": 87
+  }
+ ],
+ "note": "Frame 4 (continuation) added 26 new unique-DOI findings (61 -> 87), ALL genuine fulltext (body-sourced sentences), raising overall fulltext count 12 -> 38 (43.7%). Saturation criterion (<2% new unique in last 100) has NOT fired: latest passes yielded 13-20% new unique. Continuation still required toward min_papers_per_cluster=200. OpenAlex forward-cite seed returned 0 results, substituted with OA topic search + PMCID-resolved fulltext."
+}

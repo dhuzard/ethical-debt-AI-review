@@ -1,1 +1,28 @@
-[PIPELINE OVERWRITES THIS FILE AT PHASE 1 WITH THE BYTE-FOR-BYTE ORIGINAL USER PROMPT — NO REFLOW, NO REFORMATTING]
+Start a comprehensive critical literature review titled: "The Ethical Debt""
+
+The three files in skills/ define the complete pipeline:
+
+skills/comprev-orchestrator-v29.md — The coordinator protocol. Read this FIRST.
+It defines the routing across 21 phases, gate artifacts, and the session protocol.
+Per-phase rules live in the agent skills, which the coordinator loads on demand.
+
+skills/comprev-reviewer-agent.md — The worker skill for LITREVIEW agents.
+Pass this to every LITREVIEW delegation so the agent can load it.
+
+skills/comprev-figure-construction.md — Already published as a skill on LITREVIEW agents.
+Section writers load it for figure production.
+
+GitHub Repository: https://github.com/dhuzard/ethical-debt-AI-review
+Push all outputs to this repo in Phase 20.
+
+Evidence parameters:
+- Target ≥200 papers per cluster, snowball 2 rounds
+- Saturation criterion: <2% new unique in last 100
+- Total bibliography target: ≥1000
+
+Table of Contents:
+1. Introduction
+2. [Your Section 2]
+3. [Your Section 3]
+...
+N. Conclusion

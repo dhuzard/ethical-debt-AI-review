@@ -1,0 +1,1506 @@
+{
+ "findings": [
+  {
+   "claim": "Meta-analysis of survey data estimated ~2% of scientists admit fabricating/falsifying data at least once.",
+   "claim_source_sentence": "Meta-analysis yielded a pooled weighted estimate of 1.97% (95%CI: 0.86–4.45), with significant heterogeneity (Cochran's Q = 61.7777, df = 6, P<0.0001).",
+   "evidence": "First meta-analysis of misconduct surveys; ~2% admit outright data fabrication/falsification, up to ~34% admit other QRPs.",
+   "effect_size": "1.97% (95%CI: 0.86–4.45)",
+   "effect_size_source_sentence": "Meta-analysis yielded a pooled weighted estimate of 1.97% (95%CI: 0.86–4.45), with significant heterogeneity (Cochran's Q = 61.7777, df = 6, P<0.0001).",
+   "n": 7,
+   "study_system": "scientists (survey meta-analysis)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1177/0956797611430953",
+    "10.1371/journal.pone.0304342"
+   ],
+   "doi": "10.1371/journal.pone.0005738",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Text-mining shows p-hacking is widespread across disciplines but its effect on meta-analytic consensus appears weak.",
+   "claim_source_sentence": "We found significant evidential value in every discipline represented in our text-mining data, irrespective of whether we tested the p-values from the Results or Abstracts (Table 1; Table 2).",
+   "evidence": "Concludes p-hacking is common but does not drastically alter consensus from meta-analyses; in tension with strong-distortion claims.",
+   "effect_size": "p-hacking widespread but weak effect on consensus",
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "scientific literature (p-values, multiple disciplines)",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [
+    "10.1371/journal.pmed.0020124"
+   ],
+   "doi": "10.1371/journal.pbio.1002106",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Statistical power in behavioural sciences has not improved in over 50 years despite repeated calls, consistent with incentives selecting for bad methods.",
+   "claim_source_sentence": "We show that despite over 50 years of reviews of low statistical power and its consequences, there has been no detectable increase.",
+   "evidence": "Argues incentives for publication cause natural selection of poor methods; replication slows but does not stop deterioration.",
+   "effect_size": "no detectable increase over 50+ years",
+   "effect_size_source_sentence": "We show that despite over 50 years of reviews of low statistical power and its consequences, there has been no detectable increase.",
+   "n": null,
+   "study_system": "behavioural sciences (power meta-analysis + model)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1098/rsos.160384",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "The Journal Impact Factor is explicitly used in review/promotion/tenure documents, far more at research-intensive institutions.",
+   "claim_source_sentence": "The percentage was higher for R-type institutions (40%) than for either M-type (18%) or B-type (0%) institutions (Table 2).",
+   "evidence": "23% of institutions mentioned JIF; use concentrated in research-intensive universities and overwhelmingly supportive.",
+   "effect_size": "40% (R-type) vs 18% (M-type) vs 0% (B-type)",
+   "effect_size_source_sentence": "The percentage was higher for R-type institutions (40%) than for either M-type (18%) or B-type (0%) institutions (Table 2).",
+   "n": 129,
+   "study_system": "US/Canada universities (RPT documents)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1136/bmj.m2081",
+    "10.1098/rsos.220334"
+   ],
+   "doi": "10.7554/elife.47338",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Traditional publication-count criteria dominate biomedical promotion/tenure guidelines while open-science criteria are rare.",
+   "claim_source_sentence": "Thirty two (35%) institutions had at least one mention of a specific number of peer reviewed publications.",
+   "evidence": "Peer-reviewed publications mentioned in 95% of guidelines; data sharing in 1%, open-access publishing/registration in none.",
+   "effect_size": "35% require a specific number of publications; data sharing mentioned by 1%",
+   "effect_size_source_sentence": "Thirty two (35%) institutions had at least one mention of a specific number of peer reviewed publications.",
+   "n": 92,
+   "study_system": "international universities (biomedical RPT guidelines)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.7554/elife.47338",
+    "10.1371/journal.pbio.2004089"
+   ],
+   "doi": "10.1136/bmj.m2081",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Even under strong public-data-archiving mandates, most archived ecology/evolution datasets are incomplete or unusable for reuse.",
+   "claim_source_sentence": "In most studies (56%), the archived datasets were incomplete, either because of missing data or insufficient metadata, resulting in a completeness score of 3 or less (Figs 1 and 2A).",
+   "evidence": "Mandates raise accessibility but not quality; 64% archived in a way that partially or fully prevented reuse.",
+   "effect_size": "56% incomplete; 64% archived in a way preventing reuse",
+   "effect_size_source_sentence": "In most studies (56%), the archived datasets were incomplete, either because of missing data or insufficient metadata, resulting in a completeness score of 3 or less (Figs 1 and 2A).",
+   "n": 100,
+   "study_system": "ecology/evolution datasets (n=100)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pbio.1002295",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Cross-national survey: nearly all researchers admit using at least one QRP, but frequency (prevalence) is much lower than involvement.",
+   "claim_source_sentence": "Ninety-four per cent admitted that they had used at least one of these QRPs, and the mean self-reported rate across all QRP items was 42%, with rates for the individual QRPs ranging from 17% to 57%.",
+   "evidence": "Distinguishes 'use at least once' from frequency; involvement widespread but not systematic use of specific QRPs.",
+   "effect_size": "94% used ≥1 QRP; mean rate 42% (range 17–57%)",
+   "effect_size_source_sentence": "Ninety-four per cent admitted that they had used at least one of these QRPs, and the mean self-reported rate across all QRP items was 42%, with rates for the individual QRPs ranging from 17% to 57%.",
+   "n": 3402,
+   "study_system": "researchers Denmark/UK/USA/Croatia/Austria",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0005738",
+    "10.1177/0956797611430953"
+   ],
+   "doi": "10.1371/journal.pone.0304342",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "When 73 teams analysed the same data and hypothesis, numerical results diverged enormously, revealing hidden analytic uncertainty.",
+   "claim_source_sentence": "Little more than half the reported estimates were statistically not significantly different from zero at 95% CI, while a quarter were significantly different and negative, and 16.9% were statistically significant and positive.",
+   "evidence": "Many-analysts design; >95% of variance in results unexplained even after coding all decisions.",
+   "effect_size": "~50% null, ~25% significant-negative, 16.9% significant-positive",
+   "effect_size_source_sentence": "Little more than half the reported estimates were statistically not significantly different from zero at 95% CI, while a quarter were significantly different and negative, and 16.9% were statistically significant and positive.",
+   "n": 161,
+   "study_system": "73 research teams / 161 researchers (same dataset)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1073/pnas.2203150119",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Image-duplication analysis of >20,000 papers found several percent contained inappropriately duplicated images, many suggestive of deliberate manipulation.",
+   "claim_source_sentence": "A systematic analysis of more than 20,000 articles published between 1995 and 2014 reported that 3.8% of these articles contained inappropriately duplicated images, with at least half of these cases suggestive of deliberate manipulation (24).",
+   "evidence": "Sets baseline fraud rate; argues paper-mill/broker entities enable fraud growing faster than legitimate science.",
+   "effect_size": "3.8% with duplicated images; >=half suggestive of deliberate manipulation",
+   "effect_size_source_sentence": "A systematic analysis of more than 20,000 articles published between 1995 and 2014 reported that 3.8% of these articles contained inappropriately duplicated images, with at least half of these cases suggestive of deliberate manipulation (24).",
+   "n": 20000,
+   "study_system": "biomedical articles (image screening); paper mills",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1073/pnas.2420092122",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Despite policy support, a large share of scientists do not make their data available, reflecting weak individual incentives.",
+   "claim_source_sentence": "In a study among 1,329 scientists, 46% reported they do not make their data electronically available to others [5].",
+   "evidence": "Develops a six-category model of data sharing; concludes better incentives are needed as data is not a knowledge commons.",
+   "effect_size": "46% do not make data electronically available",
+   "effect_size_source_sentence": "In a study among 1,329 scientists, 46% reported they do not make their data electronically available to others [5].",
+   "n": 1329,
+   "study_system": "academic researchers (survey + literature review)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0067332",
+    "10.1371/journal.pbio.1002295"
+   ],
+   "doi": "10.1371/journal.pone.0118053",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Registered reports increase the chance that null findings get published, addressing publication bias for early-career researchers.",
+   "claim_source_sentence": "RRs can thereby increase the chances of publishing null findings, as we demonstrate in 'Benefit 1: Greater faith in research'.",
+   "evidence": "Exploratory analysis: null findings substantially more likely to be published via open registered reports than conventional routes.",
+   "effect_size": "qualitative: RRs increase publication of null findings",
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "early-career researchers (open science)",
+   "replication_status": "unreplicated",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pbio.3000246",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "About a fifth of surveyed scientists implicitly associate questionable research practices with academic success.",
+   "claim_source_sentence": "Our main finding is that a considerable fraction of about a fifth of researchers associate success with problematic research practices, while only a small minority connect FFP and success.",
+   "evidence": "Implicit-association evidence that QRPs are perceived as career-advancing, unlike outright misconduct.",
+   "effect_size": "~one fifth (~20%) associate QRPs with success",
+   "effect_size_source_sentence": "Our main finding is that a considerable fraction of about a fifth of researchers associate success with problematic research practices, while only a small minority connect FFP and success.",
+   "n": 11747,
+   "study_system": "scientists Austria/Germany/Switzerland (SC-IAT)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1007/s11192-025-05357-4",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Some QRPs (e.g., HARKing, selective publication) may under some conditions have neutral or even net-positive effects, complicating the harm narrative.",
+   "claim_source_sentence": "a growing theoretical and empirical literature suggests that under specific conditions, practices such as HARKing and selectively publishing results may have a neutral or even net positive impact on research progress (Rubin, 2017; de Winter & Happee, 2013).",
+   "evidence": "Builds a principled QRP taxonomy; most-reported QRPs are selection of analyses/citations/covariates, i.e., omissions.",
+   "effect_size": "qualitative: some QRPs possibly neutral/net-positive",
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "survey definitions of QRPs (classification study)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1007/s11948-026-00589-w",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "A systematic replication project could only repeat a fraction of planned preclinical cancer experiments due to missing data and non-reproducible reporting.",
+   "claim_source_sentence": "The initial goal was to repeat 193 experiments from 53 high-impact papers published between 2010 and 2012, but the obstacles we encountered at every phase of the research lifecycle meant that we were only able to repeat 50 experiments from 23 papers.",
+   "evidence": "Data needed for power analyses publicly accessible for only 4 of 193 experiments; original authors unresponsive for 32%.",
+   "effect_size": "50 of 193 experiments (from 23 of 53 papers) could be repeated",
+   "effect_size_source_sentence": "The initial goal was to repeat 193 experiments from 53 high-impact papers published between 2010 and 2012, but the obstacles we encountered at every phase of the research lifecycle meant that we were only able to repeat 50 experiments from 23 papers.",
+   "n": 193,
+   "study_system": "preclinical cancer biology experiments",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.7554/elife.67995",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "A survey of researchers across six fields in Portuguese universities documents self-admitted QRPs and their perceived seriousness.",
+   "claim_source_sentence": "From the n = 9002 researchers contacted, we received n = 1573 responses, for a response rate of 17.4%.",
+   "evidence": "QRPs widespread across fields/seniority; younger, more prolific researchers and those dismissing seriousness admit more.",
+   "effect_size": "1,573 respondents; 17.4% response rate",
+   "effect_size_source_sentence": "From the n = 9002 researchers contacted, we received n = 1573 responses, for a response rate of 17.4%.",
+   "n": 1573,
+   "study_system": "researchers Portuguese universities (six fields)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0304342",
+    "10.1371/journal.pone.0005738"
+   ],
+   "doi": "10.1371/journal.pone.0339056",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Modelling implies most published research findings are more likely false than true, driven by low power, bias and flexibility.",
+   "claim_source_sentence": "Simulations show that for most study designs and settings, it is more likely for a research claim to be false than true.",
+   "evidence": "Foundational metascience argument linking bias/flexibility/financial interest to false findings.",
+   "effect_size": "P(false) > P(true) for most designs",
+   "effect_size_source_sentence": "Simulations show that for most study designs and settings, it is more likely for a research claim to be false than true.",
+   "n": null,
+   "study_system": "published research findings (analytic framework)",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [
+    "10.1371/journal.pbio.1002106"
+   ],
+   "doi": "10.1371/journal.pmed.0020124",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "An incentivised survey of >2,000 psychologists found QRP self-admission rates so high that some practices may be the prevailing norm.",
+   "claim_source_sentence": "This finding suggests that some questionable practices may constitute the prevailing research norm.",
+   "evidence": "Truth-telling incentives raised admissions, especially for less-defensible practices; QRPs may be normative.",
+   "effect_size": "self-admission 'surprisingly high'",
+   "effect_size_source_sentence": "Combining three different estimation methods, we found that the percentage of respondents who have engaged in questionable practices was surprisingly high.",
+   "n": 2000,
+   "study_system": "psychologists (incentivised survey)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0005738",
+    "10.1371/journal.pone.0304342"
+   ],
+   "doi": "10.1177/0956797611430953",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Reward systems that prize quantity and novelty over quality and reliability are a structural driver of biomedical research waste.",
+   "claim_source_sentence": "Finally, reward systems incentivise quantity more than quality, and novelty more than reliability.",
+   "evidence": "Part of the Lancet 'increasing value, reducing waste' series; explicitly indicts scientific reward systems.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "biomedical/public-health research (design/conduct/analysis)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1016/s0140-6736(13)62296-5",
+    "10.1371/journal.pmed.1000326"
+   ],
+   "doi": "10.1016/s0140-6736(13)62227-8",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Global biomedical research investment reached US$240 billion in 2010, yet much yields little worthwhile output, partly from avoidable waste in priority-setting.",
+   "claim_source_sentence": "The increase in annual global investment in biomedical research--reaching US$240 billion in 2010--has resulted in important health dividends for patients and the public.",
+   "evidence": "Quantifies the scale of biomedical R&D spend against which waste estimates are set.",
+   "effect_size": "US$240 billion (2010)",
+   "effect_size_source_sentence": "The increase in annual global investment in biomedical research--reaching US$240 billion in 2010--has resulted in important health dividends for patients and the public.",
+   "n": null,
+   "study_system": "global biomedical research funding",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1016/s0140-6736(13)62227-8",
+    "10.1016/s0140-6736(13)62296-5"
+   ],
+   "doi": "10.1016/s0140-6736(13)62229-1",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Because full study information is usually inaccessible, billions in research investment are wasted and bias is introduced.",
+   "claim_source_sentence": "When full information about studies is inaccessible, billions of dollars in investment are wasted, bias is introduced, and research and care of patients are detrimentally affected.",
+   "evidence": "Calls for institutions and funders to reward investigators who fully disseminate protocols, reports and datasets.",
+   "effect_size": "journal reports available for only half of all studies",
+   "effect_size_source_sentence": "However, protocols, full study reports, and participant-level datasets are rarely available, and journal reports are available for only half of all studies and are plagued by selective reporting of methods and results.",
+   "n": null,
+   "study_system": "health research reporting/data sharing",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1016/s0140-6736(13)62227-8",
+    "10.1016/s0140-6736(13)62229-1"
+   ],
+   "doi": "10.1016/s0140-6736(13)62296-5",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Disproportionate research regulation and inefficient management are additional, avoidable sources of biomedical research waste.",
+   "claim_source_sentence": "Obtaining regulatory and governance approval has become increasingly burdensome and disproportionate to the conceivable risks to research participants.",
+   "evidence": "Fourth of the Lancet waste series; recommends proportionate regulation and integrating research into practice.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "biomedical research regulation/management",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1016/s0140-6736(13)62297-7",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Trial and systematic-review output vastly outpaces capacity to synthesise it, with many redundant or unneeded studies.",
+   "claim_source_sentence": "There are now 75 trials, and 11 systematic reviews of trials, per day and a plateau in growth has not yet been reached.",
+   "evidence": "Argues unnecessary trials must be reduced and reviews prioritised to avoid waste.",
+   "effect_size": "75 trials and 11 systematic reviews per day",
+   "effect_size_source_sentence": "There are now 75 trials, and 11 systematic reviews of trials, per day and a plateau in growth has not yet been reached.",
+   "n": null,
+   "study_system": "clinical trials and systematic reviews (output)",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pmed.1000326",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Systematic reviews and meta-analyses are mass-produced far faster than primary research, many redundant, misleading, or conflicted.",
+   "claim_source_sentence": "Annual publications between 1991 and 2014 increased 2,728% for systematic reviews and 2,635% for meta-analyses versus only 153% for all PubMed-indexed items.",
+   "evidence": "185 antidepressant meta-analyses in 2007-2014; most reviews judged unnecessary, misleading, or conflicted.",
+   "effect_size": "+2,728% systematic reviews; +2,635% meta-analyses (1991–2014)",
+   "effect_size_source_sentence": "Annual publications between 1991 and 2014 increased 2,728% for systematic reviews and 2,635% for meta-analyses versus only 153% for all PubMed-indexed items.",
+   "n": null,
+   "study_system": "PubMed systematic reviews/meta-analyses",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1111/1468-0009.12210",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A manifesto proposes optimising methods, reporting, reproducibility, evaluation and incentives to make science more reliable.",
+   "claim_source_sentence": "Here we argue for the adoption of measures to optimize key elements of the scientific process: methods, reporting and dissemination, reproducibility, evaluation and incentives.",
+   "evidence": "Influential reform agenda; evidence for effectiveness described as partial and requiring iterative evaluation.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "scientific process (reform proposal)",
+   "replication_status": "unreplicated",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s41562-016-0021",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Preregistration separates prediction from postdiction and is proposed to raise the credibility of research findings.",
+   "claim_source_sentence": "Preregistration distinguishes analyses and outcomes that result from predictions from those that result from postdictions.",
+   "evidence": "Argues widespread preregistration will sharpen the hypothesis-generation vs testing distinction.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "research design (preregistration)",
+   "replication_status": "unreplicated",
+   "replication_evidence_dois": [],
+   "doi": "10.1073/pnas.1708274114",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Publishing incentives that reward novel positive results inflate false effects; reforms must make accuracy compete with publishability.",
+   "claim_source_sentence": "When incentives favor novelty over replication, false results persist in the literature unchallenged, reducing efficiency in knowledge accumulation.",
+   "evidence": "Restructuring-incentives proposal; a journal of negative results is argued to be an inadequate fix.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "scientific incentive structures",
+   "replication_status": "unreplicated",
+   "replication_evidence_dois": [],
+   "doi": "10.1177/1745691612459058",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Over ~50 years academic incentives have become perverse via funding competition, quantitative metrics and hypercompetition, risking integrity.",
+   "claim_source_sentence": "Over the last 50 years, we argue that incentives for academic scientists have become increasingly perverse in terms of competition for research funding, development of quantitative metrics to measure performance, and a changing business model for higher education itself.",
+   "evidence": "Warns a tipping point of untrustworthy science is possible; calls to de-emphasize output.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "academic research system (US)",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1089/ees.2016.0223",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Expert consensus holds the current faculty incentive/reward system is misaligned with societal needs and the reproducibility crisis.",
+   "claim_source_sentence": "A burgeoning number of scientific leaders believe the current system of faculty incentives and rewards is misaligned with the needs of society and disconnected from the evidence about the causes of the reproducibility crisis and suboptimal quality of the scientific publication record.",
+   "evidence": "22-member panel derived six principles for assessing scientists to realign incentives.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": 22,
+   "study_system": "clinical/life-science faculty assessment (expert panel)",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pbio.2004089",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The Hong Kong Principles propose rewarding researchers for integrity behaviours (open science, transparent reporting) rather than output.",
+   "claim_source_sentence": "Assessment of researchers still rarely includes considerations related to trustworthiness, rigor, and transparency.",
+   "evidence": "Five principles to drive research improvement by rewarding integrity-strengthening behaviours.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "researcher assessment (integrity framework)",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pbio.3000737",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Open research practices are associated with career benefits including more citations, media attention, collaborators and funding.",
+   "claim_source_sentence": "We review literature demonstrating that open research is associated with increases in citations, media attention, potential collaborators, job opportunities and funding opportunities.",
+   "evidence": "Argues open practices reward individual researchers, countering fears that sharing harms careers.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "researchers (open science career effects)",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.7554/elife.16800",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Metric-based evaluation (authorship, h-index, JIF) has turned science into a gameable scoring contest that harms early-career scholars.",
+   "claim_source_sentence": "This has resulted in the incentive structure of science increasingly mimicking economic principles, but rather than a monetary gain, the incentive is a higher score.",
+   "evidence": "Calls for changing incentive systems to reward quality and transparency.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "academia (ecology/evolution perspective)",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1098/rspb.2019.2047",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Citation counts and journal impact factors are weak, sometimes negative predictors of research quality, undermining their evaluative use.",
+   "claim_source_sentence": "Both citation counts and impact factors were weak and inconsistent predictors of research quality, so defined, and sometimes negatively related to quality.",
+   "evidence": "Large-scale evidence that high-stakes metrics do not track statistical accuracy, evidential value, or replicability.",
+   "effect_size": "weak/inconsistent, sometimes negative correlation",
+   "effect_size_source_sentence": "Both citation counts and impact factors were weak and inconsistent predictors of research quality, so defined, and sometimes negatively related to quality.",
+   "n": 45144,
+   "study_system": "journal articles + 190 replications (behavioural/brain sci)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.7554/elife.47338",
+    "10.1371/journal.pbio.2004089"
+   ],
+   "doi": "10.1098/rsos.220334",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Systematic multi-site replication projects revealed surprising failures to replicate many published psychology findings.",
+   "claim_source_sentence": "Systematic and multi-site replication projects assessed current understandings and observed surprising failures to replicate many published findings.",
+   "evidence": "Documents disincentives to conduct replications and framing of replication as personal attack.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "psychological science (replication)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.7554/elife.67995",
+    "10.1073/pnas.2203150119"
+   ],
+   "doi": "10.1146/annurev-psych-020821-114157",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Mis-specified random effects mean psychology results generalise far less than assumed, inflating false-positive rates.",
+   "claim_source_sentence": "Ignoring these constraints can dramatically inflate false-positive rates, and often leads researchers to draw sweeping verbal generalizations that lack a meaningful connection to the statistical quantities they are putatively based on.",
+   "evidence": "Locates the 'generalizability crisis' as a root cause of the replication crisis.",
+   "effect_size": "dramatic false-positive inflation",
+   "effect_size_source_sentence": "Ignoring these constraints can dramatically inflate false-positive rates, and often leads researchers to draw sweeping verbal generalizations that lack a meaningful connection to the statistical quantities they are putatively based on.",
+   "n": null,
+   "study_system": "psychology (linear mixed models)",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1017/s0140525x20001685",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Review/promotion/tenure processes have increasingly valued research over teaching/service and rely on venue prestige shortcuts.",
+   "claim_source_sentence": "For instance, over the last few decades, RPT processes have generally increased the value placed on research, at the expense of teaching and service, which often results in an incongruity between how faculty actually spend their time vs. what is considered in their evaluation.",
+   "evidence": "Documents reliance on impact factor/venue prestige rather than per-item quality in evaluation.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "faculty RPT processes",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.12688/f1000research.16493.1",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A ten-country Central/Eastern European survey found a favorable research environment and ethics training predict research integrity.",
+   "claim_source_sentence": "Moreover, seniority and ethics training were identified as predictors of adherence to the principles of research integrity.",
+   "evidence": "Latent-variable model links favorable research environment to lower misconduct incidence.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": 752,
+   "study_system": "biomedical scientists, 10 CEE countries",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s41598-026-39928-z",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Publication and reporting biases and QRPs are prevalent across neuroimaging, animal, preclinical, clinical and genetics literatures.",
+   "claim_source_sentence": "Recent systematic reviews and empirical evaluations of the cognitive sciences literature suggest that publication and other reporting biases are prevalent across diverse domains of cognitive science.",
+   "evidence": "Surveys detection methods and emerging solutions for reporting bias across preclinical and clinical domains.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "cognitive/neuroscience literature",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pbio.1002106",
+    "10.1371/journal.pone.0005738"
+   ],
+   "doi": "10.1016/j.tics.2014.02.010",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "TOP guidelines are poorly adopted in health psychology / behavioural medicine journal policies; preregistration and code-citation standards are adopted least.",
+   "claim_source_sentence": "TOP guidelines have to-date been poorly adopted within health psychology and behavioural medicine journal policies.",
+   "evidence": "Cross-sectional rating of 19 journals; standards for reporting guidelines and data transparency adopted most, preregistration and code citation least.",
+   "effect_size": "journal TOP scores ranged 1 to 13 (median 6) out of 29",
+   "effect_size_source_sentence": null,
+   "n": 19,
+   "study_system": "health psychology & behavioural medicine journals (n=19)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1080/17437199.2025.2516010",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Most journal editors support the TOP guidelines but do not treat implementation as a priority; time, resources and authority are barriers.",
+   "claim_source_sentence": "However, 74% (60/81) did not see TOP as a high priority compared with other editorial tasks, 65% (51/79) do not receive positive recognition from colleagues who are important to them when changing journal policies, and 58% (47/81) did not intend to implement TOP in the next year.",
+   "evidence": "Theory-based survey of 88 editors; 71% support adopting TOP yet most deprioritise it, revealing an attitude-behaviour gap.",
+   "effect_size": "74% did not see TOP as high priority; 58% did not intend to implement within a year",
+   "effect_size_source_sentence": "However, 74% (60/81) did not see TOP as a high priority compared with other editorial tasks, 65% (51/79) do not receive positive recognition from colleagues who are important to them when changing journal policies, and 58% (47/81) did not intend to implement TOP in the next year.",
+   "n": 88,
+   "study_system": "journal editors (n=88 survey)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1098/rsos.221093",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "The TOP Factor was created as an open-science alternative to the Journal Impact Factor; over 5000 signatories and ~1100 journals have adopted TOP standards, most often data citation.",
+   "claim_source_sentence": "Designed as an alternative to the Journal Impact Factor for evaluating journal quality, the TOP Factor is a quantitative metric that assesses the degree to which journal policies promote transparency and openness.",
+   "evidence": "Develops the TRUST rating instruments to compute the TOP Factor for journal policies, procedures and practices.",
+   "effect_size": "over 5000 signatories; ~1100 journals adopting one or more TOP standards",
+   "effect_size_source_sentence": "At the time of writing, the TOP Guidelines have over 5000 signatories, and 1100 journals have agreed to implement one or more of these standards, most often by specifying data citation standards (seefor a list of such journals).",
+   "n": null,
+   "study_system": "scientific journals (TOP Factor methodology)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s41073-021-00112-8",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Only 14% of articles in top orthopaedic journals included a data-sharing statement, and few contacted authors were willing to share data.",
+   "claim_source_sentence": "Of the 1,084 reviewed articles, only 14% included a DSS.",
+   "evidence": "Documents low uptake of data-sharing statements and low author willingness to share, arguing for TOP-based mandates.",
+   "effect_size": "14% had a data-sharing statement; 22/115 (19.1%) authors responded, 12 (54.5%) willing to share",
+   "effect_size_source_sentence": "Of the 115 emails sent to corresponding authors, only 22 (19.1%) yielded responses, and of those who responded, only 12 (54.5%) expressed a willingness to share their data.",
+   "n": 1084,
+   "study_system": "orthopaedic journal articles (n=1084)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.2106/JBJS.24.00955",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Introducing open-data badges at Psychological Science sharply increased data sharing, while comparison journals without badges stayed near 2-3%.",
+   "claim_source_sentence": "Across the four comparison journals, for the half years prior to 2014, an average of 3.3% of articles reported open data (range = 1.6% to 4.9%), and after January 1, 2014, the average was 2.1% (range = 1.8% to 2.3%).",
+   "evidence": "Badges raised reported open data from <3% to 39%; badge-earned data were also more likely to be actually available and usable.",
+   "effect_size": "comparison journals ~2-3% open data vs Psychological Science rising to 39%",
+   "effect_size_source_sentence": "Across the four comparison journals, for the half years prior to 2014, an average of 3.3% of articles reported open data (range = 1.6% to 4.9%), and after January 1, 2014, the average was 2.1% (range = 1.8% to 2.3%).",
+   "n": 2478,
+   "study_system": "Psychological Science + 4 comparison journals (n=2,478 articles)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0175583"
+   ],
+   "doi": "10.1371/journal.pbio.1002456",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "A Delphi consensus produced a transparency checklist to document the transparency of social and behavioural research reports.",
+   "claim_source_sentence": "We present a consensus-based checklist to improve and document the transparency of research reports in social and behavioural research.",
+   "evidence": "Consensus reform tool; adoption/effectiveness not yet empirically demonstrated.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "social & behavioural research reporting (Delphi consensus)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s41562-019-0772-6",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Journal submission guidelines encouraging the 'new statistics' and open practices increased confidence-interval use and open data/materials at Psychological Science.",
+   "claim_source_sentence": "In Psychological Science, the use of confidence intervals increased markedly overall, from 28% of articles in 2013 to 70% in 2015, as did the availability of open data (3 to 39%) and open materials (7 to 31%).",
+   "evidence": "Comparison journal changed less; supports journal-level guidelines as a lever for open practices.",
+   "effect_size": "open data 3%->39%; open materials 7%->31%; CIs 28%->70% (2013-2015)",
+   "effect_size_source_sentence": "In Psychological Science, the use of confidence intervals increased markedly overall, from 28% of articles in 2013 to 70% in 2015, as did the availability of open data (3 to 39%) and open materials (7 to 31%).",
+   "n": null,
+   "study_system": "Psychological Science & JEP:General articles",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pbio.1002456"
+   ],
+   "doi": "10.1371/journal.pone.0175583",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The MDAR minimum-reporting framework for the life sciences was piloted; most authors and editors found the accompanying checklist helpful.",
+   "claim_source_sentence": "Eighty percent of 211 corresponding authors who responded, and 84% of 33 editorial staff, found the checklist “very” or “somewhat” helpful.",
+   "evidence": "Cross-publisher framework operationalising TOP at article level; pilot on 289 manuscripts, checklist median completion 15 min.",
+   "effect_size": "80% of authors and 84% of editors found the MDAR checklist helpful",
+   "effect_size_source_sentence": "Eighty percent of 211 corresponding authors who responded, and 84% of 33 editorial staff, found the checklist “very” or “somewhat” helpful.",
+   "n": 289,
+   "study_system": "life-science journals (MDAR pilot, 289 manuscripts)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1073/pnas.2103238118",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Proposes three reforms to reduce bias in medical research: mandatory interest declarations, registered reports, and public study documentation via a WHO repository.",
+   "claim_source_sentence": "Null findings are more likely to be published through registered reports than traditional formats and registered reports are cited just as often as conventional papers.",
+   "evidence": "Critical overview arguing registered reports curtail HARKing/p-hacking and spin.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "medical research (reform proposal)",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1177/0141076820956799",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "A systematic mapping review identified 187 open-research initiatives in psychology (30 procedural, 70 structural, 87 community-based).",
+   "claim_source_sentence": "The total number of initiatives included for the review was 187.",
+   "evidence": "Maps the proliferation of grassroots and structural open-science initiatives; efficacy not evaluated.",
+   "effect_size": "187 initiatives: 30 procedural, 70 structural, 87 community-based",
+   "effect_size_source_sentence": "This systematic mapping review identified 187 international initiatives that aim to enhance awareness and uptake of open research practices in psychology, with each categorized into procedural (= 30), structural (= 70) and community-based change (= 87).",
+   "n": 187,
+   "study_system": "psychology open-research initiatives (mapping review)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1098/rsos.241726",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "In a replication of 100 psychology studies, only 36% of replications were statistically significant vs 97% of originals, and replication effects were half the size.",
+   "claim_source_sentence": "Thirty-six percent of replications had statistically significant results; 47% of original effect sizes were in the 95% confidence interval of the replication effect size; 39% of effects were subjectively rated to have replicated the original result; and if no bias in original results is assumed, combining original and replication results left 68% with statistically significant effects.",
+   "evidence": "Landmark large-scale replication defining the 'replication crisis'.",
+   "effect_size": "36% of replications significant vs 97% of originals; replication effects half the magnitude",
+   "effect_size_source_sentence": "Ninety-seven percent of original studies had statistically significant results.",
+   "n": 100,
+   "study_system": "100 psychology studies (replication)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.7554/elife.67995",
+    "10.1590/0074-02760200328"
+   ],
+   "doi": "10.1126/science.aac4716",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The Psychological Science Accelerator is a standing distributed laboratory network enabling large, diverse crowdsourced studies to improve reliability and generalizability.",
+   "claim_source_sentence": "The Psychological Science Accelerator (PSA) is a distributed network of laboratories designed to enable and support crowdsourced research projects.",
+   "evidence": "Infrastructure response to low power/nonrepresentative samples; ongoing (not time-limited).",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "distributed lab network (psychology)",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1177/2515245918797607",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Modelling a scientific community suggests that publishing potentially non-replicable studies and replicating only those of interest can maximize efficiency of knowledge gain.",
+   "claim_source_sentence": "We find that the publication of potentially non-replicable studies minimizes cost and maximizes efficiency of knowledge gain for the scientific community under a variety of assumptions.",
+   "evidence": "Contrarian modelling result: low replicability is not necessarily inefficient if managed; challenges replicate-before-publish reforms.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "scientific community (agent model)",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [
+    "10.1126/science.aac4716"
+   ],
+   "doi": "10.1038/s41467-019-14203-0",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Modelling shows that unless enough negative results are published, false claims can be canonized as fact; publication bias strongly skews the record.",
+   "claim_source_sentence": "In that analysis, 37 of 38 positive studies were published as positive results, but only 3 of 24 negative studies were published as negative results.",
+   "evidence": "Markov model of belief; data-dredging and p-hacking worsen canonization of false facts.",
+   "effect_size": "negative studies published at ~10% the rate of positive studies",
+   "effect_size_source_sentence": "Thus, negative studies were published at scarcely more than 10% the rate of positive studies.",
+   "n": null,
+   "study_system": "scientific claims (Markov model + case data)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.7554/elife.21451",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Median statistical power in cognitive neuroscience/psychology is low (0.12-0.73) with no improvement in half a century, and journal impact factor negatively correlates with power.",
+   "claim_source_sentence": "Median power to detect small, medium, and large effects was 0.12, 0.44, and 0.73, reflecting no improvement through the past half-century.",
+   "evidence": "26,841 statistical records from 3,801 papers; false report probability likely exceeds 50% for the literature.",
+   "effect_size": "median power 0.12/0.44/0.73; JIF negatively correlated with power; false report probability >50%",
+   "effect_size_source_sentence": "Median power to detect small, medium, and large effects was 0.12, 0.44, and 0.73, reflecting no improvement through the past half-century.",
+   "n": 3801,
+   "study_system": "3,801 cognitive neuroscience & psychology papers",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1098/rsos.160384"
+   ],
+   "doi": "10.1371/journal.pbio.2000797",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Psychology's replication concerns constitute a decades-old 'chronic crisis'; the lack of progress across decades is itself notable.",
+   "claim_source_sentence": "If a crisis does exists, then it is some kind of 'chronic' crisis, as psychologists have been censuring themselves over replicability for decades.",
+   "evidence": "Editorial framing the replication debate historically.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "psychology (editorial)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s40359-016-0135-2",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Papers from more academically productive US states were more likely to report positive (hypothesis-supporting) results, consistent with publish-or-perish pressures increasing bias.",
+   "claim_source_sentence": "The probability of papers to support the tested hypothesis increased significantly with the per capita academic productivity of the state of the corresponding author (b = 1.383±0.682, Wald test = 4.108, df = 1, p = 0.043, Odds-Ratio (95%CI) = 3.988(1.047–15.193),).",
+   "evidence": "Empirical support that competitive environments increase both productivity and bias.",
+   "effect_size": "Odds-Ratio 3.988 (95%CI 1.047-15.193) per unit per-capita productivity",
+   "effect_size_source_sentence": "The probability of papers to support the tested hypothesis increased significantly with the per capita academic productivity of the state of the corresponding author (b = 1.383±0.682, Wald test = 4.108, df = 1, p = 0.043, Odds-Ratio (95%CI) = 3.988(1.047–15.193),).",
+   "n": null,
+   "study_system": "US research papers across disciplines",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pone.0010271",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "A survey of 807 ecologists and evolutionary biologists found high QRP rates: 64% cherry-picking, 42% p-hacking, 51% HARKing.",
+   "claim_source_sentence": "Across the two groups, we found 64% of surveyed researchers reported they had at least once failed to report results because they were not statistically significant (cherry picking); 42% had collected more data after inspecting whether results were statistically significant (a form of p hacking) and 51% had reported an unexpected finding as though it had been hypothesised from the start (HARKing).",
+   "evidence": "QRP rates comparable to psychology, implying reproducibility problems extend to ecology/evolution.",
+   "effect_size": "64% cherry-picking, 42% p-hacking, 51% HARKing",
+   "effect_size_source_sentence": "Across the two groups, we found 64% of surveyed researchers reported they had at least once failed to report results because they were not statistically significant (cherry picking); 42% had collected more data after inspecting whether results were statistically significant (a form of p hacking) and 51% had reported an unexpected finding as though it had been hypothesised from the start (HARKing).",
+   "n": 807,
+   "study_system": "807 ecologists / evolutionary biologists",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0304342",
+    "10.1177/0956797611430953"
+   ],
+   "doi": "10.1371/journal.pone.0200303",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Catalogues 34 researcher degrees of freedom across planning, running, analysing and reporting that enable p-hacking; usable as a preregistration-quality checklist.",
+   "claim_source_sentence": "In this review article, we present an extensive list of 34 degrees of freedom that researchers have in formulating hypotheses, and in designing, running, analyzing, and reporting of psychological research.",
+   "evidence": "Provides the taxonomy later operationalised to assess preregistration quality.",
+   "effect_size": "34 researcher degrees of freedom",
+   "effect_size_source_sentence": "In this review article, we present an extensive list of 34 degrees of freedom that researchers have in formulating hypotheses, and in designing, running, analyzing, and reporting of psychological research.",
+   "n": 34,
+   "study_system": "psychological research methods (taxonomy)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pbio.3000937"
+   ],
+   "doi": "10.3389/fpsyg.2016.01832",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Simulations show even a single p-hacking strategy can raise false-positive rates from ~5% to at least 30%, with combinations far higher.",
+   "claim_source_sentence": "With regard to the different-hacking strategies, we found that even with a single strategy, false-positive rates can typically be raised to at least 30% from the typical 5% threshold with ‘reasonable effort’, that is, without assuming that researchers automate data mining procedures.",
+   "evidence": "Compiles 12 p-hacking strategies and quantifies false-positive inflation via simulation.",
+   "effect_size": "single strategy raises false positives from ~5% to >=30%",
+   "effect_size_source_sentence": "With regard to the different-hacking strategies, we found that even with a single strategy, false-positive rates can typically be raised to at least 30% from the typical 5% threshold with ‘reasonable effort’, that is, without assuming that researchers automate data mining procedures.",
+   "n": null,
+   "study_system": "p-hacking strategies (simulation)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pbio.1002106"
+   ],
+   "doi": "10.1098/rsos.220346",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "'Spin' - reporting that fails to faithfully reflect findings - is prevalent in the biomedical literature and can mislead readers.",
+   "claim_source_sentence": "Spin has been defined as a specific intentional or unintentional reporting that fails to faithfully reflect the nature and range of findings and that could affect the impression the results produce in readers.",
+   "evidence": "Reviews prevalence and effects of spin/misrepresentation, a distortion incentivised by publication pressure.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "biomedical literature (spin review)",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1073/pnas.1710755115",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "AI-enabled formulaic single-factor NHANES papers exploded from ~4/yr (2014-2021) to 190 in 2024, raising paper-mill and false-discovery concerns.",
+   "claim_source_sentence": "An average of 4 papers per annum were published between 2014 and 2021, increasing to 33, 82, and 190 in 2022, 2023, and 2024 (to October 9 only) respectively, with recent formulaic manuscripts targeting a relatively small number of indexed journals with moderate impact factor (averaging 3.6).",
+   "evidence": "341 formulaic NHANES papers identified; single-factor designs avoid multiple-comparison correction and enable data dredging.",
+   "effect_size": "4/yr (2014-2021) rising to 33 (2022), 82 (2023), 190 (2024)",
+   "effect_size_source_sentence": "An average of 4 papers per annum were published between 2014 and 2021, increasing to 33, 82, and 190 in 2022, 2023, and 2024 (to October 9 only) respectively, with recent formulaic manuscripts targeting a relatively small number of indexed journals with moderate impact factor (averaging 3.6).",
+   "n": 341,
+   "study_system": "NHANES-derived single-factor papers (n=341)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pbio.3003152",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Defines HARKing, cherry-picking, p-hacking, fishing and data dredging as questionable research practices that at the extreme amount to misconduct.",
+   "claim_source_sentence": "This knowledge must become widespread so that researchers and readers understand what approaches to statistical analysis and reporting amount to scientific misconduct.",
+   "evidence": "Didactic taxonomy of analysis/reporting QRPs.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "research methods (QRP taxonomy)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.4088/jcp.20f13804",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Comparing 105 preregistrations, structured formats restricted researcher degrees of freedom better than unstructured (large effect), but neither eliminated them; coders agreed on the number of hypotheses only 14% of the time.",
+   "claim_source_sentence": "Coders agreed on the number of hypotheses in only 14.29% of the scores.",
+   "evidence": "Preregistration effectiveness depends on format; even structured formats leave residual flexibility.",
+   "effect_size": "Cliff's Delta = 0.49 (structured > unstructured); hypothesis-count agreement 14.29%",
+   "effect_size_source_sentence": "The difference was large (Cliff’s Delta = 0.49).",
+   "n": 106,
+   "study_system": "OSF preregistrations (n=106)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pbio.3000937",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Argues that with slight modifications, preregistration and registered reports can make exploratory/discovery research more trustworthy.",
+   "claim_source_sentence": "I will argue that only slight modifications are needed to harness the potential of preregistration and make exploratory research more trustworthy and useful.",
+   "evidence": "Extends preregistration logic beyond confirmatory studies.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "exploratory biomedical research (perspective)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pbio.3000690",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A large preregistered study found no ego-depletion effect (d=0.22, ns) despite a prior meta-analytic d=0.62, illustrating publication-bias inflation.",
+   "claim_source_sentence": "Despite these efforts, we found no evidence of ego-depletion: participants in the Depletion Condition did not perform differently from participants in the Control Condition on the outcome task, contrary to the ego-depletion hypothesis.",
+   "evidence": "Preregistered high-powered null; contrasts with inflated meta-analytic effect.",
+   "effect_size": "no effect (d = 0.22, ns) vs prior meta-analytic d = 0.62",
+   "effect_size_source_sentence": "However, contrary to the predictions of the hypothesis, we observed no effect of condition,(198) = 1.46,= .146,= 0.22, with participants in the Depletion Condition (= .39,= .14) even showing slightly better performance than those in the Control Condition (= .36,= .13; see).",
+   "n": 200,
+   "study_system": "preregistered ego-depletion experiment (n=200)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pone.0147770",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "A journal's compulsory open-data mandate causally increased its article citations by ~1.5-4x (synthetic control), with spillover to earlier articles.",
+   "claim_source_sentence": "Specifically, the current-year citations of CIE increased from 0.2 ~ 0.4 to 0.9 ~ 1.0 after the open data policy, which means it increased by around 1.5 ~ 4.0 times.",
+   "evidence": "Natural experiment on a Chinese economics journal; open data as a reputation/impact lever.",
+   "effect_size": "citations increased ~1.5-4.0x after open-data mandate",
+   "effect_size_source_sentence": "Specifically, the current-year citations of CIE increased from 0.2 ~ 0.4 to 0.9 ~ 1.0 after the open data policy, which means it increased by around 1.5 ~ 4.0 times.",
+   "n": 37,
+   "study_system": "37 Chinese economics journals (synthetic control)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1007/s11192-021-03897-z",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Provides a practical guide for social-science journal editors to adopt open-science policies, since editors have power to mandate practices.",
+   "claim_source_sentence": "Journal editors have a large amount of power to advance open science in their respective fields by incentivising and mandating open policies and practices at their journals.",
+   "evidence": "Editor-focused implementation guide; part of the incentives-for-openness toolkit.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "social science journal editing (guide)",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s41073-023-00141-5",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Infrastructure and mandates for sharing microscopy/cell-image data are emerging, enabling reuse and new analytic tools.",
+   "claim_source_sentence": "We are now at the dawn of this revolution: infrastructure is being developed for data standardization, deposition, sharing, and analysis; some journals and funding agencies mandate data deposition; data journals publish high-content microscopy data sets; quantification becomes standard in scientific publications; new analytic tools are being developed and dispatched to the community; and huge data sets are being generated by individual labs and philanthropic initiatives.",
+   "evidence": "Perspective on data reuse enabled by deposition mandates and data journals.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "cell / microscopy image data (perspective)",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1091/mbc.e17-10-0606",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Meta-review of 75 studies: industry-sponsored drug/device studies more often report favorable efficacy (RR 1.27) and conclusions (RR 1.34), an industry bias not explained by standard risk-of-bias.",
+   "claim_source_sentence": "Industry sponsored studies more often had favorable efficacy results, RR: 1.27 (95% CI: 1.17 to 1.37) (25 papers) (moderate quality evidence), similar harms results RR: 1.37 (95% CI: 0.64 to 2.93) (four papers) (very low quality evidence) and more often favorable conclusions RR: 1.34 (95% CI: 1.19 to 1.51) (29 papers) (low quality evidence) compared with non-industry sponsored studies.",
+   "evidence": "Cochrane methodology review; funding-source incentive distorts published conclusions.",
+   "effect_size": "favorable efficacy RR 1.27 (1.17-1.37); favorable conclusions RR 1.34 (1.19-1.51)",
+   "effect_size_source_sentence": "Industry sponsored studies more often had favorable efficacy results, RR: 1.27 (95% CI: 1.17 to 1.37) (25 papers) (moderate quality evidence), similar harms results RR: 1.37 (95% CI: 0.64 to 2.93) (four papers) (very low quality evidence) and more often favorable conclusions RR: 1.34 (95% CI: 1.19 to 1.51) (29 papers) (low quality evidence) compared with non-industry sponsored studies.",
+   "n": 75,
+   "study_system": "75 studies of sponsorship & outcome (meta-review)",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1002/14651858.mr000033.pub3",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Argues software and data-management errors are pervasive and largely undetected, so any computed scientific result could be wrong.",
+   "claim_source_sentence": "Here I estimate that any reported scientific result could very well be wrong if data have passed through a computer, and that these errors may remain largely undetected.",
+   "evidence": "Calls for expanded validation of scientific software; a neglected reliability threat.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "scientific software / computation",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.12688/f1000research.5930.2",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Reframes the replication crisis as a 'credibility revolution', citing registered reports (perceived higher quality, more negative results) and structural/community changes.",
+   "claim_source_sentence": "Empirical evidence has also found that Registered Reports are perceived to be higher in research quality than regular articles, as well as equivalent in creativity and importance, while also allowing to report more negative results, which may provide further incentives for researchers to adopt this format.",
+   "evidence": "Optimistic synthesis of structural, procedural and community reforms.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "psychology / behavioural sciences (credibility-revolution review)",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s44271-023-00003-2",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "The Brazilian Reproducibility Initiative aims to replicate 60-100 experiments across a ~63-lab network, powering replications at 95% to counter effect-size inflation.",
+   "claim_source_sentence": "The Brazilian Reproducibility Initiative began recruiting collaborators to perform replication experiments in 2018, and currently aims to replicate between 60 and 100 experiments from Brazilian biomedical sciences.",
+   "evidence": "National-scale multicentre replication using a representative sample rather than highly cited papers.",
+   "effect_size": "60-100 experiments; ~63-lab network; 95% power per replication",
+   "effect_size_source_sentence": "Sample size was calculated to provide 95% power to detect the original effect in each replication.",
+   "n": 63,
+   "study_system": "Brazilian biomedical replication network (63 labs)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.7554/elife.67995",
+    "10.1126/science.aac4716"
+   ],
+   "doi": "10.1590/0074-02760200328",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "A manual audit of 250 psychology articles (2014-2017) found transparency practices far from routine: 2% shared raw data, 0% protocols, 3% preregistered, 14% shared materials.",
+   "claim_source_sentence": "Over half of the articles were publicly available (154/237, 65%, 95% confidence interval [CI] = [59%, 71%]); however, sharing of research materials (26/183; 14%, 95% CI = [10%, 19%]), study protocols (0/188; 0%, 95% CI = [0%, 1%]), raw data (4/188; 2%, 95% CI = [1%, 4%]), and analysis scripts (1/188; 1%, 95% CI = [0%, 1%]) was rare.",
+   "evidence": "Baseline prevalence estimates against which reform progress can be tracked; conflict-of-interest statements in only 39%.",
+   "effect_size": "raw data shared 2%; protocols 0%; preregistration 3%; materials 14%",
+   "effect_size_source_sentence": "Over half of the articles were publicly available (154/237, 65%, 95% confidence interval [CI] = [59%, 71%]); however, sharing of research materials (26/183; 14%, 95% CI = [10%, 19%]), study protocols (0/188; 0%, 95% CI = [0%, 1%]), raw data (4/188; 2%, 95% CI = [1%, 4%]), and analysis scripts (1/188; 1%, 95% CI = [0%, 1%]) was rare.",
+   "n": 250,
+   "study_system": "250 psychology articles (2014-2017)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pbio.1002456"
+   ],
+   "doi": "10.1177/1745691620979806",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "After the ICMJE data-sharing-statement requirement, 68.6% of trials in JAMA/Lancet/NEJM declared data sharing but only 0.6% actually made deidentified data publicly available - a wide declared-vs-actual gap.",
+   "claim_source_sentence": "The commitment to data sharing substantially decreases when we consider indicators of actual vs declared data sharing: of 334 articles declaring that they would share data, only 2 IPD sets (0.6%; 95% CI, 0.0%-1.5%) were actually deidentified and publicly available on the journal website.",
+   "evidence": "Mandating a statement raised declared intent but not actual availability; NIH-funded 89% vs industry 61% declared.",
+   "effect_size": "68.6% declared data sharing; only 0.6% actually publicly available",
+   "effect_size_source_sentence": "The commitment to data sharing substantially decreases when we consider indicators of actual vs declared data sharing: of 334 articles declaring that they would share data, only 2 IPD sets (0.6%; 95% CI, 0.0%-1.5%) were actually deidentified and publicly available on the journal website.",
+   "n": 487,
+   "study_system": "487 clinical trials in JAMA/Lancet/NEJM",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.2106/JBJS.24.00955",
+    "10.1371/journal.pbio.1002295"
+   ],
+   "doi": "10.1001/jamanetworkopen.2020.33972",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "A meta-synthesis of 45 studies found researchers withhold data largely because incentives, infrastructure, time and skills for sharing are lacking.",
+   "claim_source_sentence": "The lack of incentives for sharing research data with regards to academic appointment, promotion, recognition, and rewards need to be addressed.",
+   "evidence": "Qualitative synthesis linking non-sharing to absent rewards and infrastructure.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": 45,
+   "study_system": "45 studies of researcher data-sharing views (meta-synthesis)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0118053"
+   ],
+   "doi": "10.1371/journal.pone.0229182",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Analysis of RPT documents at 129 US/Canada universities found public-facing work is undervalued while traditional outputs and citation metrics dominate evaluation.",
+   "claim_source_sentence": "Moreover, the documents make significant mention of traditional research outputs and citation-based metrics: however, such outputs and metrics reward faculty work targeted to academics, and often disregard the public dimensions.",
+   "evidence": "Reward systems privilege academic-facing metrics over public-good dimensions of faculty work.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": 129,
+   "study_system": "129 US/Canada universities (RPT documents)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.7554/elife.47338",
+    "10.1136/bmj.m2081"
+   ],
+   "doi": "10.7554/elife.42254",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A survey of 2,222 social scientists found ghost and honorary authorship are frequent, driven partly by misconceptions of authorship criteria, distorting credit-based rankings.",
+   "claim_source_sentence": "Drawing on data from a survey of 2,222 social scientists from around the globe, we study the prevalence of authorship misconduct in the social sciences.",
+   "evidence": "Authorship misattribution alters academic rankings used in hiring/tenure; argues for contribution disclosures.",
+   "effect_size": "survey of 2,222 social scientists",
+   "effect_size_source_sentence": "Drawing on data from a survey of 2,222 social scientists from around the globe, we study the prevalence of authorship misconduct in the social sciences.",
+   "n": 2222,
+   "study_system": "2,222 social scientists (authorship survey)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pone.0267312",
+   "text_access": "abstract_only"
+  }
+ ],
+ "conflicts": [
+  {
+   "paper_a_doi": "10.1371/journal.pbio.1002106",
+   "paper_b_doi": "10.1371/journal.pmed.0020124",
+   "paper_a_claim": "We then illustrate how one can test for p-hacking when performing a meta-analysis and show that, while p-hacking is probably common, its effect seems to be weak relative to the real effect sizes being measured.",
+   "paper_b_claim": "Simulations show that for most study designs and settings, it is more likely for a research claim to be false than true.",
+   "nature_of_conflict": "Magnitude of distortion: the p-hacking text-mining study concludes analytic flexibility is common but only weakly distorts meta-analytic consensus, whereas the theoretical framework concludes bias/flexibility make most published findings outright false.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1177/0956797611430953",
+   "paper_b_doi": "10.1371/journal.pone.0304342",
+   "paper_a_claim": "This finding suggests that some questionable practices may constitute the prevailing research norm.",
+   "paper_b_claim": "The prevalence estimates, however, do not suggest outright systematic use of specific QRPs.",
+   "nature_of_conflict": "Interpretation of QRP prevalence: the incentivised psychology survey frames QRPs as the prevailing norm, while the cross-national study argues widespread one-time involvement does not amount to systematic/normative use once frequency is measured.",
+   "resolution_status": "resolved-by-method"
+  },
+  {
+   "paper_a_doi": "10.1038/s41562-016-0021",
+   "paper_b_doi": "10.1098/rsos.160384",
+   "paper_a_claim": "There is some evidence from both simulations and empirical studies supporting the likely effectiveness of these measures, but their broad adoption by researchers, institutions, funders and journals will require iterative evaluation and improvement.",
+   "paper_b_claim": "We additionally show that replication slows but does not stop the process of methodological deterioration.",
+   "nature_of_conflict": "Reform optimism: the manifesto expects methods/reporting/incentive measures to improve reliability, whereas the natural-selection model argues that as long as publication drives careers, incentives keep selecting bad methods and researcher-level fixes (even replication) are insufficient without institutional change.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1038/s41467-019-14203-0",
+   "paper_b_doi": "10.7554/elife.21451",
+   "paper_a_claim": "We find that the publication of potentially non-replicable studies minimizes cost and maximizes efficiency of knowledge gain for the scientific community under a variety of assumptions.",
+   "paper_b_claim": "Thus, negative studies were published at scarcely more than 10% the rate of positive studies.",
+   "nature_of_conflict": "Whether publishing potentially non-replicable / positive-only results is efficient (Lewandowsky & Oberauer model) or corrupts the record by canonizing false facts through publication bias (Nissen et al. model).",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1038/s44271-023-00003-2",
+   "paper_b_doi": "10.1371/journal.pbio.2000797",
+   "paper_a_claim": "Empirical evidence has also found that Registered Reports are perceived to be higher in research quality than regular articles, as well as equivalent in creativity and importance, while also allowing to report more negative results, which may provide further incentives for researchers to adopt this format.",
+   "paper_b_claim": "Median power to detect small, medium, and large effects was 0.12, 0.44, and 0.73, reflecting no improvement through the past half-century.",
+   "nature_of_conflict": "Optimism about reform: the credibility-revolution review argues open-science reforms have produced substantive improvement, whereas the power meta-analysis finds no improvement in statistical power over half a century.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1371/journal.pbio.1002456",
+   "paper_b_doi": "10.1371/journal.pbio.1002295",
+   "paper_a_claim": "Across the four comparison journals, for the half years prior to 2014, an average of 3.3% of articles reported open data (range = 1.6% to 4.9%), and after January 1, 2014, the average was 2.1% (range = 1.8% to 2.3%).",
+   "paper_b_claim": "In most studies (56%), the archived datasets were incomplete, either because of missing data or insufficient metadata, resulting in a completeness score of 3 or less (Figs 1 and 2A).",
+   "nature_of_conflict": "Whether transparency interventions deliver genuinely usable open data: badges increased data that was actually available/usable, whereas audits of mandated archives found most datasets incomplete or unusable.",
+   "resolution_status": "partially_resolved"
+  },
+  {
+   "paper_a_doi": "10.1001/jamanetworkopen.2020.33972",
+   "paper_b_doi": "10.1371/journal.pbio.1002456",
+   "paper_a_claim": "of 334 articles declaring that they would share data, only 2 IPD sets (0.6%; 95% CI, 0.0%-1.5%) were actually deidentified and publicly available on the journal website.",
+   "paper_b_claim": "When badges were earned, reportedly available data were more likely to be actually available, correct, usable, and complete than when badges were not earned.",
+   "nature_of_conflict": "Whether a policy requirement translates into actually available data: a blanket journal data-sharing mandate (ICMJE) produced near-zero actual public data (0.6%), whereas a voluntary badge-plus-verification incentive increased data that was actually available and usable.",
+   "resolution_status": "open"
+  }
+ ],
+ "unreplicated_claims": [
+  {
+   "claim": "Preregistration/registered reports will substantially increase publication of null results and credibility",
+   "source": "10.1073/pnas.1708274114",
+   "years_since_publication": 8
+  },
+  {
+   "claim": "Restructuring incentives to reward accuracy over publishability will reduce false findings",
+   "source": "10.1177/1745691612459058",
+   "years_since_publication": 13
+  },
+  {
+   "claim": "Publishing potentially non-replicable studies can maximize efficiency of knowledge gain for the scientific community",
+   "source": "10.1038/s41467-019-14203-0",
+   "years_since_publication": 6
+  }
+ ],
+ "evidence_gaps": [
+  {
+   "topic": "Causal effect of incentive/mandate reforms on behaviour",
+   "what_is_missing": "Randomized or quasi-experimental evidence that changing evaluation criteria (e.g., DORA, Hong Kong Principles) actually changes researcher behaviour or reduces waste",
+   "why_it_matters": "Most reform proposals are argued from theory or cross-sectional description; effectiveness is asserted, not demonstrated"
+  },
+  {
+   "topic": "Economic quantification of preclinical/animal data waste specifically",
+   "what_is_missing": "Field-specific dollar/animal estimates of waste attributable to non-sharing and non-reuse, as opposed to the aggregate biomedical '85% waste' framing",
+   "why_it_matters": "The waste thesis is dominated by clinical-trial examples; preclinical/animal-data waste is under-quantified"
+  },
+  {
+   "topic": "False consensus risk: the '85% of research is wasted' figure",
+   "what_is_missing": "Primary empirical derivation is repeated across the Lancet series and reviews but rests on a small set of assumptions",
+   "why_it_matters": "Widely cited headline figure risks becoming a false consensus if the primary derivation is not scrutinised"
+  },
+  {
+   "topic": "Causal effect of open-science policy interventions on research reliability (not just behaviour)",
+   "what_is_missing": "Evidence that TOP adoption, badges, or data mandates improve the reliability/replicability of findings, as opposed to increasing reported open-data rates or citations",
+   "why_it_matters": "Adoption metrics (TOP Factor, badge counts) are proxies; the ultimate outcome of interest - trustworthier findings - is rarely measured"
+  }
+ ],
+ "strongest_evidence": {
+  "claim": "Formal evaluation systems reward publication counts and journal impact factor while almost never rewarding open-science behaviours, and these metrics poorly predict research quality",
+  "why_strong": "Convergent multi-study evidence (document analyses of RPT guidelines at n=92 and n=129 institutions plus a 45,144-article quality analysis), fulltext-verified with quantitative results"
+ },
+ "weakest_evidence_cited": {
+  "claim": "Registered reports increase publication of null findings",
+  "why_weak": "Based on an exploratory analysis in a single early-career-perspective paper; not independently replicated"
+ },
+ "papers_reviewed_count": 75,
+ "evidence_artifact_id": "cluster_07_evidence.json",
+ "figure_data": [
+  {
+   "comparison_id": "qrp-prevalence-surveys",
+   "comparison_name": "Self-admitted QRP / misconduct prevalence across surveys",
+   "papers": [
+    {
+     "doi": "10.1371/journal.pone.0005738",
+     "metric": "% admitting data fabrication/falsification at least once (self, pooled)",
+     "value": "1.97",
+     "value_source_sentence": "Meta-analysis yielded a pooled weighted estimate of 1.97% (95%CI: 0.86–4.45), with significant heterogeneity (Cochran's Q = 61.7777, df = 6, P<0.0001).",
+     "ci_or_error": "95%CI 0.86–4.45",
+     "n": 7,
+     "n_analyzed": "7 surveys",
+     "n_definition": "survey questions pooled",
+     "study_system": "scientists (meta-analysis)",
+     "experimental_conditions": "anonymous self-report surveys",
+     "method": "meta-analysis of surveys",
+     "text_access": "fulltext",
+     "scope_region": "multiple fields/countries",
+     "scope_population": "all scientists",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1371/journal.pone.0304342",
+     "metric": "% admitting use of at least one QRP",
+     "value": "94",
+     "value_source_sentence": "Ninety-four per cent admitted that they had used at least one of these QRPs, and the mean self-reported rate across all QRP items was 42%, with rates for the individual QRPs ranging from 17% to 57%.",
+     "ci_or_error": null,
+     "n": 3402,
+     "n_analyzed": "3402 Danish respondents",
+     "n_definition": "survey respondents",
+     "study_system": "researchers (Denmark/UK/USA/Croatia/Austria)",
+     "experimental_conditions": "anonymous self-report survey",
+     "method": "cross-national survey",
+     "text_access": "fulltext",
+     "scope_region": "all fields",
+     "scope_population": "all researchers",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1007/s11192-025-05357-4",
+     "metric": "% implicitly associating QRPs with success",
+     "value": "~20",
+     "value_source_sentence": "Our main finding is that a considerable fraction of about a fifth of researchers associate success with problematic research practices, while only a small minority connect FFP and success.",
+     "ci_or_error": null,
+     "n": 11747,
+     "n_analyzed": "11747 scientists",
+     "n_definition": "survey respondents",
+     "study_system": "scientists (AT/DE/CH)",
+     "experimental_conditions": "single-category implicit association test",
+     "method": "SC-IAT",
+     "text_access": "fulltext",
+     "scope_region": "all fields",
+     "scope_population": "all scientists",
+     "taxonomic_level": "broad category"
+    }
+   ],
+   "comparison_type": "cross-study conflict",
+   "what_it_reveals": "QRP prevalence estimates vary enormously (from ~2% for serious data fabrication to ~94% admitting at least one QRP) depending on definition and whether 'use once' or frequency is measured.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "true",
+    "scope_population_uniform": "true",
+    "taxonomic_level_uniform": "true",
+    "n_definition_uniform": "false",
+    "caveats": [
+     "Metrics differ: serious FFP admission vs any-QRP admission vs implicit association with success - not directly comparable magnitudes",
+     "n definitions differ: pooled survey questions vs individual respondents"
+    ]
+   }
+  },
+  {
+   "comparison_id": "data-availability-quality",
+   "comparison_name": "Data availability/quality despite sharing policies",
+   "papers": [
+    {
+     "doi": "10.1371/journal.pbio.1002295",
+     "metric": "% archived datasets incomplete",
+     "value": "56",
+     "value_source_sentence": "In most studies (56%), the archived datasets were incomplete, either because of missing data or insufficient metadata, resulting in a completeness score of 3 or less (Figs 1 and 2A).",
+     "ci_or_error": null,
+     "n": 100,
+     "n_analyzed": "100 datasets",
+     "n_definition": "datasets audited",
+     "study_system": "ecology/evolution datasets",
+     "experimental_conditions": "journals with strong public-data-archiving policy",
+     "method": "dataset audit",
+     "text_access": "fulltext",
+     "scope_region": "ecology/evolution",
+     "scope_population": "published datasets",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.7554/elife.67995",
+     "metric": "experiments with publicly accessible data for power analysis",
+     "value": "4 of 193",
+     "value_source_sentence": "The initial goal was to repeat 193 experiments from 53 high-impact papers published between 2010 and 2012, but the obstacles we encountered at every phase of the research lifecycle meant that we were only able to repeat 50 experiments from 23 papers.",
+     "ci_or_error": null,
+     "n": 193,
+     "n_analyzed": "193 experiments",
+     "n_definition": "experiments targeted",
+     "study_system": "preclinical cancer biology",
+     "experimental_conditions": "replication project",
+     "method": "replication attempt",
+     "text_access": "fulltext",
+     "scope_region": "cancer biology",
+     "scope_population": "high-impact experiments",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1371/journal.pone.0118053",
+     "metric": "% scientists not making data electronically available",
+     "value": "46",
+     "value_source_sentence": "In a study among 1,329 scientists, 46% reported they do not make their data electronically available to others [5].",
+     "ci_or_error": null,
+     "n": 1329,
+     "n_analyzed": "1329 scientists",
+     "n_definition": "survey respondents",
+     "study_system": "academic researchers",
+     "experimental_conditions": "survey (cited within paper)",
+     "method": "survey",
+     "text_access": "fulltext",
+     "scope_region": "multiple fields",
+     "scope_population": "all scientists",
+     "taxonomic_level": "broad category"
+    }
+   ],
+   "comparison_type": "convergent evidence",
+   "what_it_reveals": "Across fields, even where data are nominally shared or mandated, a large fraction of datasets are unavailable, incomplete, or unusable for reuse - a concrete driver of research/data waste.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "true",
+    "n_definition_uniform": "false",
+    "caveats": [
+     "Different metrics: dataset completeness vs data accessibility vs researcher self-report of sharing",
+     "Fields differ (ecology/evolution vs cancer biology vs mixed)"
+    ]
+   }
+  },
+  {
+   "comparison_id": "rpt-evaluation-criteria",
+   "comparison_name": "Traditional vs open-science criteria in researcher evaluation",
+   "papers": [
+    {
+     "doi": "10.1136/bmj.m2081",
+     "metric": "% biomedical RPT guidelines mentioning peer-reviewed publication count / data sharing",
+     "value": "95 / 1",
+     "value_source_sentence": "Thirty two (35%) institutions had at least one mention of a specific number of peer reviewed publications.",
+     "ci_or_error": null,
+     "n": 92,
+     "n_analyzed": "92 guideline sets",
+     "n_definition": "institutional guidelines",
+     "study_system": "international biomedical faculties",
+     "experimental_conditions": "document analysis",
+     "method": "cross-sectional document analysis",
+     "text_access": "fulltext",
+     "scope_region": "international",
+     "scope_population": "biomedical faculties",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.7554/elife.47338",
+     "metric": "% research-intensive institutions mentioning the JIF in RPT",
+     "value": "40",
+     "value_source_sentence": "The percentage was higher for R-type institutions (40%) than for either M-type (18%) or B-type (0%) institutions (Table 2).",
+     "ci_or_error": null,
+     "n": 129,
+     "n_analyzed": "129 institutions",
+     "n_definition": "institutions sampled",
+     "study_system": "US/Canada universities",
+     "experimental_conditions": "RPT document analysis",
+     "method": "document analysis",
+     "text_access": "fulltext",
+     "scope_region": "US/Canada",
+     "scope_population": "universities",
+     "taxonomic_level": "broad category"
+    }
+   ],
+   "comparison_type": "convergent evidence",
+   "what_it_reveals": "Formal evaluation systems overwhelmingly reward traditional publication/impact metrics and almost never reward open-science behaviours such as data sharing, entrenching the incentives that produce waste.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "true",
+    "taxonomic_level_uniform": "true",
+    "n_definition_uniform": "true",
+    "caveats": [
+     "Different metrics (publication-count vs JIF mention) and regions (international vs US/Canada)"
+    ]
+   }
+  },
+  {
+   "comparison_id": "open-science-policy-interventions",
+   "comparison_name": "Effect of journal open-science policy interventions on open practices and impact",
+   "papers": [
+    {
+     "doi": "10.1371/journal.pone.0175583",
+     "metric": "% articles reporting open data, 2013 vs 2015",
+     "value": "3 to 39",
+     "value_source_sentence": "In Psychological Science, the use of confidence intervals increased markedly overall, from 28% of articles in 2013 to 70% in 2015, as did the availability of open data (3 to 39%) and open materials (7 to 31%).",
+     "ci_or_error": null,
+     "n": null,
+     "n_analyzed": "empirical articles 2013-2015",
+     "n_definition": "journal articles",
+     "study_system": "Psychological Science",
+     "experimental_conditions": "new submission guidelines + badges",
+     "method": "before/after article audit",
+     "text_access": "abstract_only",
+     "scope_region": "psychology",
+     "scope_population": "journal articles",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1371/journal.pbio.1002456",
+     "metric": "% articles reporting open data, comparison journals (no badges) before vs after",
+     "value": "3.3 to 2.1",
+     "value_source_sentence": "Across the four comparison journals, for the half years prior to 2014, an average of 3.3% of articles reported open data (range = 1.6% to 4.9%), and after January 1, 2014, the average was 2.1% (range = 1.8% to 2.3%).",
+     "ci_or_error": "range 1.6-4.9% then 1.8-2.3%",
+     "n": 2478,
+     "n_analyzed": "2,478 articles",
+     "n_definition": "journal articles",
+     "study_system": "4 comparison psychology journals",
+     "experimental_conditions": "no badges (control)",
+     "method": "before/after article audit",
+     "text_access": "fulltext",
+     "scope_region": "psychology",
+     "scope_population": "journal articles",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1007/s11192-021-03897-z",
+     "metric": "fold-change in article citations after open-data mandate",
+     "value": "1.5 to 4.0",
+     "value_source_sentence": "Specifically, the current-year citations of CIE increased from 0.2 ~ 0.4 to 0.9 ~ 1.0 after the open data policy, which means it increased by around 1.5 ~ 4.0 times.",
+     "ci_or_error": null,
+     "n": 37,
+     "n_analyzed": "37 journals (1 treated)",
+     "n_definition": "journals",
+     "study_system": "Chinese economics journals",
+     "experimental_conditions": "compulsory open-data mandate",
+     "method": "synthetic control",
+     "text_access": "fulltext",
+     "scope_region": "economics",
+     "scope_population": "journal articles",
+     "taxonomic_level": "broad category"
+    }
+   ],
+   "comparison_type": "convergent evidence",
+   "what_it_reveals": "Journal-level open-science policies (guidelines, badges, data mandates) shift author behaviour toward open practices and can raise citation impact, whereas comparison journals without such policies do not change.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "true",
+    "taxonomic_level_uniform": "true",
+    "n_definition_uniform": "false",
+    "caveats": [
+     "Metrics differ: % open-data reporting vs fold-change in citations",
+     "Fields differ (psychology vs economics)",
+     "Comparison-journal entry is a no-intervention control, not an intervention effect"
+    ]
+   }
+  },
+  {
+   "comparison_id": "declared-vs-actual-open-data",
+   "comparison_name": "Declared vs actual open-data availability under sharing policies",
+   "papers": [
+    {
+     "doi": "10.1001/jamanetworkopen.2020.33972",
+     "metric": "% declared vs % actually publicly available (clinical trials)",
+     "value": "68.6 declared / 0.6 actual",
+     "value_source_sentence": "The commitment to data sharing substantially decreases when we consider indicators of actual vs declared data sharing: of 334 articles declaring that they would share data, only 2 IPD sets (0.6%; 95% CI, 0.0%-1.5%) were actually deidentified and publicly available on the journal website.",
+     "ci_or_error": "95% CI 0.0-1.5% (actual)",
+     "n": 487,
+     "n_analyzed": "487 clinical trials",
+     "n_definition": "clinical trial articles",
+     "study_system": "JAMA/Lancet/NEJM clinical trials",
+     "experimental_conditions": "ICMJE data-sharing-statement requirement",
+     "method": "cross-sectional audit",
+     "text_access": "fulltext",
+     "scope_region": "clinical medicine",
+     "scope_population": "clinical trial articles",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1177/1745691620979806",
+     "metric": "% articles sharing raw data (psychology)",
+     "value": "2",
+     "value_source_sentence": "Over half of the articles were publicly available (154/237, 65%, 95% confidence interval [CI] = [59%, 71%]); however, sharing of research materials (26/183; 14%, 95% CI = [10%, 19%]), study protocols (0/188; 0%, 95% CI = [0%, 1%]), raw data (4/188; 2%, 95% CI = [1%, 4%]), and analysis scripts (1/188; 1%, 95% CI = [0%, 1%]) was rare.",
+     "ci_or_error": "95% CI 1-4%",
+     "n": 250,
+     "n_analyzed": "188 empirical articles",
+     "n_definition": "journal articles",
+     "study_system": "psychology articles 2014-2017",
+     "experimental_conditions": "no mandate (baseline audit)",
+     "method": "manual audit",
+     "text_access": "abstract_only",
+     "scope_region": "psychology",
+     "scope_population": "journal articles",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.2106/JBJS.24.00955",
+     "metric": "% articles with a data-sharing statement (orthopaedics)",
+     "value": "14",
+     "value_source_sentence": "Of the 1,084 reviewed articles, only 14% included a DSS.",
+     "ci_or_error": null,
+     "n": 1084,
+     "n_analyzed": "1,084 articles",
+     "n_definition": "journal articles",
+     "study_system": "orthopaedic journals",
+     "experimental_conditions": "no uniform mandate",
+     "method": "cross-sectional audit",
+     "text_access": "abstract_only",
+     "scope_region": "orthopaedic surgery",
+     "scope_population": "journal articles",
+     "taxonomic_level": "broad category"
+    }
+   ],
+   "comparison_type": "convergent evidence",
+   "what_it_reveals": "Across fields, actual open-data availability is very low even where policies request or mandate sharing; declared intent far exceeds usable public data.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "true",
+    "taxonomic_level_uniform": "true",
+    "n_definition_uniform": "true",
+    "caveats": [
+     "Metrics differ: declared-vs-actual availability vs raw-data-sharing rate vs data-statement presence",
+     "Fields differ (clinical trials vs psychology vs orthopaedics)"
+    ]
+   }
+  }
+ ],
+ "search_failures": [
+  {
+   "suggested_reference": "Chalmers & Glasziou original 'avoidable waste' 85% estimate (2009 Lancet)",
+   "searches_tried": [
+    "avoidable waste biomedical research",
+    "economics research waste avoidable 85 percent Chalmers"
+   ],
+   "result": "the 2009 primary paper did not surface cleanly in Europe PMC citation-sorted results; the 2014 Lancet series (five papers) was captured instead",
+   "action": "used 2014 series DOIs that were returned by the API; 2009 paper excluded to avoid memory-sourced DOI"
+  }
+ ]
+}

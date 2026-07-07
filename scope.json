@@ -1,0 +1,166 @@
+{
+  "title": "The Ethical Debt",
+  "subtitle": "Why wasting animal data is wasting animal lives",
+  "thesis_question": "If animals are used to generate scientific knowledge, does allowing the resulting data to become unfindable, unusable, or unreused constitute a distinct ethical failure of animal research — an 'ethical debt' — and can treating data stewardship (FAIR data, reuse, virtual control groups, NAM-generated data) as a dimension of animal welfare and of the 3Rs help repay it?",
+  "audience": "Preclinical and biomedical researchers, laboratory-animal scientists and 3Rs/animal-welfare specialists, research-data stewards and FAIR/open-science practitioners, funders, journal editors, and regulators of animal research.",
+  "length_target": {"sections": 9, "pages_estimate": "60-120"},
+  "clusters": [
+    {
+      "id": "cluster_01",
+      "name": "Preclinical reproducibility and translational failure",
+      "topics": ["reproducibility crisis in biomedical research", "translational attrition / bench-to-bedside failure", "irreproducibility cost estimates", "publication bias and non-publication of animal studies", "underpowered animal experiments and statistical power", "systematic reviews and meta-analyses of animal models", "risk of bias in in vivo research"],
+      "section_targets": ["section_01", "section_02"]
+    },
+    {
+      "id": "cluster_02",
+      "name": "The 3Rs, animal welfare ethics, and Reduction",
+      "topics": ["Replacement Reduction Refinement (3Rs) principle and evolution", "harm-benefit analysis of animal research", "moral status and ethics of animal experimentation", "severity assessment and cumulative harm", "culture of care", "Reduction strategies and experimental design", "the moral contract of animal research"],
+      "section_targets": ["section_01", "section_03"]
+    },
+    {
+      "id": "cluster_03",
+      "name": "FAIR data principles and research data management",
+      "topics": ["FAIR guiding principles (Findable Accessible Interoperable Reusable)", "research data management in the life sciences", "data stewardship and data curation", "FAIRification and FAIR metrics/maturity", "persistent identifiers (DOI, ORCID, RRID)", "machine-actionable metadata", "cost and value of data sharing"],
+      "section_targets": ["section_04"]
+    },
+    {
+      "id": "cluster_04",
+      "name": "Biomedical data sharing, repositories, metadata standards and ontologies",
+      "topics": ["biomedical data repositories and databases", "minimum information reporting standards (MIABE, MIAME, ARRIVE-adjacent data standards)", "biomedical ontologies and controlled vocabularies", "electronic lab notebooks and data capture", "data-sharing mandates and researcher attitudes", "secondary use of preclinical data", "interoperability and common data models"],
+      "section_targets": ["section_04", "section_05"]
+    },
+    {
+      "id": "cluster_05",
+      "name": "Virtual control groups, historical controls, and control-data reuse",
+      "topics": ["virtual control groups in toxicology and preclinical studies", "historical control data in regulatory studies", "concurrent vs historical controls", "Bayesian borrowing of external/historical controls", "control-group reuse as a Reduction strategy", "shared control databases", "meta-analytic reuse of animal control data"],
+      "section_targets": ["section_05"]
+    },
+    {
+      "id": "cluster_06",
+      "name": "New Approach Methodologies (NAMs) and non-animal data",
+      "topics": ["New Approach Methodologies in toxicology and biomedicine", "organ-on-chip and microphysiological systems", "organoids and 3D cell culture", "in silico modeling and QSAR", "read-across and integrated approaches to testing and assessment (IATA)", "regulatory acceptance of NAMs", "data infrastructure and reusability of NAM-generated data"],
+      "section_targets": ["section_06"]
+    },
+    {
+      "id": "cluster_07",
+      "name": "Research incentives, meta-science, and open-science reward systems",
+      "topics": ["publish-or-perish and academic reward structures", "metascience and research-on-research", "incentives for data sharing and credit for datasets", "questionable research practices and reform", "registered reports and preregistration", "open science policy and mandates", "economics of research waste"],
+      "section_targets": ["section_07"]
+    },
+    {
+      "id": "cluster_08",
+      "name": "Reporting guidelines and research governance",
+      "topics": ["ARRIVE guidelines and reporting quality of animal studies", "PREPARE guidelines and experimental planning", "journal and funder policies on animal research reporting", "research-integrity governance and oversight (IACUC/AWERB, Directive 2010/63/EU)", "reproducibility policy interventions", "data-availability statements and policy compliance", "roadmaps and infrastructure for data reuse"],
+      "section_targets": ["section_03", "section_08"]
+    }
+  ],
+  "sections": [
+    {"id": "section_01", "title": "Introduction", "filename": "01_introduction.md", "cluster_ids": ["cluster_01", "cluster_02"], "scope_notes": "Frames the moral contract of animal research and defines the central construct: the 'Ethical Debt' incurred when animals are used to generate data that is then allowed to become unusable. States the thesis that data welfare is a dimension of animal welfare. Written LAST (Phase 11); may only cite papers already introduced in body sections.", "written_at_phase": 11},
+    {"id": "section_02", "title": "The Reproducibility and Translation Crisis in Preclinical Research", "filename": "02_reproducibility_crisis.md", "cluster_ids": ["cluster_01"], "scope_notes": "Establishes the empirical scale of the problem: irreproducibility, translational attrition, non-publication and file-drawer loss, underpowering, and the resulting waste of animals and knowledge. Quantifies where possible; surfaces conflicts between optimistic and pessimistic estimates."},
+    {"id": "section_03", "title": "From Animal Welfare to Data Welfare: Reframing the 3Rs", "filename": "03_data_welfare_3rs.md", "cluster_ids": ["cluster_02", "cluster_08"], "scope_notes": "Develops the conceptual core: situates 'data welfare' within the 3Rs (especially Reduction) and the ethics/harm-benefit tradition, and argues data stewardship is part of the moral contract. Engages counter-arguments about whether data reuse is genuinely a welfare/3Rs concern."},
+    {"id": "section_04", "title": "FAIR Principles and the Preclinical Data Ecosystem", "filename": "04_fair_preclinical_data.md", "cluster_ids": ["cluster_03", "cluster_04"], "scope_notes": "Surveys FAIR principles, standards, ontologies, repositories, and persistent identifiers as applied to preclinical/animal data; assesses the state and barriers of adoption, and the gap between FAIR aspiration and preclinical practice."},
+    {"id": "section_05", "title": "Virtual Control Groups and Data Reuse as Reduction", "filename": "05_virtual_control_groups.md", "cluster_ids": ["cluster_04", "cluster_05"], "scope_notes": "Examines virtual/historical control groups, shared control databases, and secondary use/meta-analysis as concrete mechanisms that convert reusable data into fewer animals used. Weighs methodological risks (bias, comparability) against Reduction gains."},
+    {"id": "section_06", "title": "New Approach Methodologies and the Data They Generate", "filename": "06_nams_data.md", "cluster_ids": ["cluster_06"], "scope_notes": "Reviews NAMs (in vitro, organoids, organ-on-chip, in silico) and argues that NAM-generated data faces the same stewardship and reuse challenges; without FAIR data, NAMs risk recreating the ethical debt in a non-animal form."},
+    {"id": "section_07", "title": "Incentive Structures and the Political Economy of Research Data", "filename": "07_incentives.md", "cluster_ids": ["cluster_07"], "scope_notes": "Analyzes why usable data are nonetheless wasted: publish-or-perish, weak credit for datasets, funding and career incentives, and the economics of research waste. Draws on metascience evidence."},
+    {"id": "section_08", "title": "Governance, Standards, and Pathways to Repayment", "filename": "08_governance_pathways.md", "cluster_ids": ["cluster_08"], "scope_notes": "Assesses policy and infrastructure levers — reporting guidelines (ARRIVE/PREPARE), mandates, oversight bodies, repositories — and synthesizes a roadmap for repaying the ethical debt. Evaluates evidence for what interventions actually change behavior."},
+    {"id": "section_09", "title": "Conclusion", "filename": "09_conclusion.md", "cluster_ids": [], "scope_notes": "Synthesizes the argument that data welfare is animal welfare and that repaying the ethical debt is a collective obligation. Written LAST (Phase 11); introduces no new citations.", "written_at_phase": 11}
+  ],
+  "cluster_to_section_assignment": {
+    "cluster_01": ["section_01", "section_02"],
+    "cluster_02": ["section_01", "section_03"],
+    "cluster_03": ["section_04"],
+    "cluster_04": ["section_04", "section_05"],
+    "cluster_05": ["section_05"],
+    "cluster_06": ["section_06"],
+    "cluster_07": ["section_07"],
+    "cluster_08": ["section_03", "section_08"]
+  },
+  "toc_mapping": {
+    "1. Introduction": "section_01",
+    "2. [Your Section 2]": "section_02",
+    "3. [Your Section 3]": "section_03",
+    "4. [designed]": "section_04",
+    "5. [designed]": "section_05",
+    "6. [designed]": "section_06",
+    "7. [designed]": "section_07",
+    "8. [designed]": "section_08",
+    "N. Conclusion": "section_09"
+  },
+  "evidence_parameters": {
+    "min_papers_per_cluster": 200,
+    "saturation_criterion": "<2% new unique in last 100",
+    "snowball_rounds": 2,
+    "total_bibliography_target": 1000,
+    "bibliography_target_is_hard_floor": true
+  },
+  "evidence_parameters_provenance": "User prompt specified: 'Target ≥200 papers per cluster, snowball 2 rounds', 'Saturation criterion: <2% new unique in last 100', 'Total bibliography target: ≥1000'. A numeric per-cluster floor was given, so min_papers_per_cluster=200 (not null); saturation and snowball both apply. The prompt does not contain the substrings 'saturate', 'cover all', or 'every relevant', so the null-floor branch is not triggered.",
+  "review_request_path": "provenance/review_request.md",
+  "plan_content": [
+    {"name": "Phase 1: Scope and Thesis", "depends_on": [], "delegations": [
+      {"agent": "LITREVIEW", "steps": [
+        {"title": "Design clusters, sections, and targets from the user TOC", "description": "Read provenance/review_request.md; define 8 evidence clusters, 9 sections (Intro + 7 body + Conclusion), length targets, and parse evidence_parameters (min_papers_per_cluster=200, saturation '<2% new unique in last 100', snowball_rounds=2, total_bibliography_target=1000). Return scope.json with plan_content and cluster_to_section_assignment."}]},
+      {"agent": "DATAML", "steps": [
+        {"title": "Materialise provenance and gate_scope artifacts", "description": "Write provenance/review_request.txt (verbatim), provenance/review_request.md (three-section render + SHA256), and gate_scope.json (title, clusters, sections, evidence_parameters, review_request_path). Verify no template placeholders remain. Coordinator verifies: Phase 1V validator returns gate=pass on all 11 checks before generate_plan."}]}]},
+    {"name": "Phase 2: Evidence Gathering", "depends_on": ["Phase 1: Scope and Thesis"], "delegations": [
+      {"agent": "LITREVIEW", "steps": [
+        {"title": "Search databases and extract findings per cluster", "description": "For each of 8 clusters, query PubMed/Europe PMC/CrossRef, extract findings with verbatim source sentences and API-sourced DOIs/metadata, retrieve full text (≥50% target), then run snowball_rounds=2. Continue until min_papers_per_cluster=200 AND saturation '<2% new unique in last 100'. Save findings JSON every 30 papers; return continuation_required when the per-frame budget is hit. Coordinator verifies: papers≥200/cluster, conflicts>0, figure_data≥2/cluster, and Phase 2V evidence-validator confirms source sentences resolve, DOIs resolve, fulltext honesty, and BIBLIOGRAPHY_FLOOR_HARD (≥1000 DOIs) before advancing."}]}]},
+    {"name": "Phase 3: Citation Infrastructure", "depends_on": ["Phase 2: Evidence Gathering"], "delegations": [
+      {"agent": "DATAML", "steps": [
+        {"title": "Build citation_key_map and author_name_table via CrossRef", "description": "Query CrossRef for every DOI; generate unique citation keys and an author-name table. Coordinator verifies: Phase 3V citation-validator confirms CrossRef matching, key format and uniqueness, author match; citation_key_map version id is non-null (null blocks all downstream)."}]}]},
+    {"name": "Phase 4: Scaffold Construction", "depends_on": ["Phase 3: Citation Infrastructure"], "delegations": [
+      {"agent": "LITREVIEW", "steps": [
+        {"title": "Build argument arc, section plans, figure specs, style guide", "description": "Produce the scaffold: overall argument arc, per-section plans, ≥2 figure specifications per section (with cross-study comparisons where possible), cross-references, and a style guide. Coordinator verifies (inspection): ≥2 figures/section, cross-refs present, conflicts represented; save gate_scaffold_approved.json."}]}]},
+    {"name": "Phase 5: Evidence Curation", "depends_on": ["Phase 4: Scaffold Construction"], "delegations": [
+      {"agent": "DATAML", "steps": [
+        {"title": "Assign clusters to sections and build per-section evidence packages", "description": "Using cluster_to_section_assignment, deduplicate and assign findings/conflicts to sections; attach citation keys; build scaffold extracts. Coordinator verifies: Phase 5V curation-validator confirms no duplicates, anti-compression ≥75%, conflicts assigned, per-section paper counts meet floors; save gate_evidence_curated.json."}]}]},
+    {"name": "Phase 6: Figure Comparability Audit", "depends_on": ["Phase 5: Evidence Curation"], "delegations": [
+      {"agent": "LITREVIEW", "steps": [
+        {"title": "Blinded audit of figure_data comparability", "description": "Critic agents (NOT the scaffold authors) review each figure's underlying data for comparability, returning PASS/CAVEAT/SPLIT/REDESIGN. Coordinator pre-fetches paper abstracts and passes them inline (critic has no network). Coordinator verifies: 0 REDESIGN remaining; critic frame IDs ≠ author IDs; save gate_figure_audit.json."}]}]},
+    {"name": "Phase 7: Section Drafting", "depends_on": ["Phase 6: Figure Comparability Audit"], "delegations": [
+      {"agent": "LITREVIEW", "steps": [
+        {"title": "Draft each body section with MyST + LaTeX + figures + notebooks", "description": "One writer per body section (sections 02-08). Save .md prose BEFORE generating figures. Use :::{figure} colon fences, {cite:p}/{cite:t} keys, per-figure notebooks in figures/notebooks/. Filter citation_key_map to that section's keys only. Coordinator verifies: Phase 7V myst-validator confirms :name: not :label:, cite keys exist, ≥4.0 citations/synthesis paragraph, word/citation/figure counts; save gate_sections_drafted.json."}]}]},
+    {"name": "Phase 8: Section Critics", "depends_on": ["Phase 7: Section Drafting"], "delegations": [
+      {"agent": "LITREVIEW", "steps": [
+        {"title": "Blinded prose critique across 6 tracks", "description": "Critic agents (IDs ≠ writer IDs) review each section for evidence fidelity, conflict representation, and coverage, emitting MUST_FIX/SHOULD_CAVEAT/MINOR and a coverage classification of every uncited paper. Coordinator loops send-backs until MUST_FIX=0 and no unaddressed SHOULD_CITE; save gate_critic_complete.json."}]}]},
+    {"name": "Phase 9: Bibliography", "depends_on": ["Phase 8: Section Critics"], "delegations": [
+      {"agent": "DATAML", "steps": [
+        {"title": "Build references.bib from CrossRef", "description": "Generate ASCII-only BibTeX entries from CrossRef for every cited key; dedup; scan for contamination. Coordinator verifies: Phase 9V citation-validator confirms bib matches CrossRef, all keys present, 0 contamination; save gate_bibliography.json."}]}]},
+    {"name": "Phase 10: Integration", "depends_on": ["Phase 9: Bibliography"], "delegations": [
+      {"agent": "LITREVIEW", "steps": [
+        {"title": "Six integration passes across the body", "description": "Run passes for transitions, cross-references, terminology consistency, narrative continuity, figure numbering (\\ref not hard-coded), and structural hygiene. Coordinator verifies (inspection): 6 passes documented, no filename mismatches; save gate_integration.json."}]}]},
+    {"name": "Phase 11: Introduction and Conclusion", "depends_on": ["Phase 10: Integration"], "delegations": [
+      {"agent": "LITREVIEW", "steps": [
+        {"title": "Write Introduction and Conclusion last", "description": "Draft sections 01 and 09 after all body sections; they may ONLY cite papers already used in the body (no new citations). Coordinator verifies (inspection): no new citation keys introduced; save gate_intro_conclusion.json."}]}]},
+    {"name": "Phase 12: Bookend Critic", "depends_on": ["Phase 11: Introduction and Conclusion"], "delegations": [
+      {"agent": "LITREVIEW", "steps": [
+        {"title": "Blinded critic on intro/conclusion", "description": "Critic (ID ≠ writer) verifies every claim-citation pair in the intro/conclusion and that no novel uncited claims were introduced. Coordinator loops until MUST_FIX=0; save gate_bookend_critic.json."}]}]},
+    {"name": "Phase 13: Methods", "depends_on": ["Phase 12: Bookend Critic"], "delegations": [
+      {"agent": "DATAML", "steps": [
+        {"title": "Render Methods.md from pipeline metadata", "description": "Build content/Methods.md (8 subsections) documenting scope criteria, evidence parameters, search strategy, verification, and the pipeline ledger; embed the review-request prompt block. Coordinator verifies: 8 subsections present, ledger sub-block populated; save gate_methods.json."}]}]},
+    {"name": "Phase 14: Document Assembly", "depends_on": ["Phase 13: Methods"], "delegations": [
+      {"agent": "DATAML", "steps": [
+        {"title": "Assemble manuscript, update myst.yml toc, wire figures/notebooks", "description": "Collect all section .md, figures, notebooks; update myst.yml toc (do not rewrite from scratch); inject :::{dropdown} figure-code blocks matching figure count; build LaTeX. Coordinator verifies: Phase 14V myst-validator passes myst build plus all structural checks (BIBLIOGRAPHY_PATH_MATCHES_MYSTYML, BIB_CITE_KEYS_RESOLVE, EVIDENCE_PACKAGES_POPULATED, FIGURE_DROPDOWN_MATCH, FIGURE_NOTEBOOK_MATCH/SELF_CONTAINED, HEADING_STYLE_CONSISTENT, REVIEW_REQUEST_CAPTURED, PLUGIN_DIRECTIVES_INVOKED, NO_WRITER_SCRATCHPAD, CITE_DIRECTIVE_SYNTAX_CLEAN); save gate_assembly.json with section_md_vids_final."}]}]},
+    {"name": "Phase 15: Citation Triples", "depends_on": ["Phase 14: Document Assembly"], "delegations": [
+      {"agent": "DATAML", "steps": [
+        {"title": "Exhaustively extract citation triples", "description": "Extract one (sentence, cite_key, claim) triple per cite-key occurrence across all content — no sampling. Coordinator verifies: Phase 15V triples-validator confirms exhaustive count, sentences present in files, keys in bib; save citation_triples.json."}]}]},
+    {"name": "Phase 16: Citation Verification", "depends_on": ["Phase 15: Citation Triples"], "delegations": [
+      {"agent": "LITREVIEW", "steps": [
+        {"title": "Deep-verify every triple", "description": "5-step check on every triple (DOI → title → authors → metadata → full-text claim support), no tiering. Emit VERIFIED/MINOR/CHIMERIC/HALLUCINATED/MISATTRIBUTED. Coordinator verifies: all triples checked; collect verification reports."}]}]},
+    {"name": "Phase 17: Fix Preparation", "depends_on": ["Phase 16: Citation Verification"], "delegations": [
+      {"agent": "DATAML", "steps": [
+        {"title": "Build fix requests for non-VERIFIED triples", "description": "For every non-VERIFIED triple, build a fix request with ±10 lines of context and target file/line. Coordinator verifies: Phase 17V triples-validator confirms full coverage and context exists; save fix_requests.json."}]}]},
+    {"name": "Phase 18: Fix Execution", "depends_on": ["Phase 17: Fix Preparation"], "delegations": [
+      {"agent": "LITREVIEW", "steps": [
+        {"title": "Execute bibliography and text fixes", "description": "Apply each fix request (correct claim, swap citation, add caveat, or remove unsupported claim); update author_name_table for any new/renamed bib entries. Coordinator verifies (inspection): fixes address each request; collect fix diffs."}]}]},
+    {"name": "Phase 19: Fix Application", "depends_on": ["Phase 18: Fix Execution"], "delegations": [
+      {"agent": "DATAML", "steps": [
+        {"title": "Apply diffs in reverse order and re-validate", "description": "Apply fix diffs in reverse line order; verify zero orphaned citations. Coordinator verifies: Phase 19V myst-validator confirms build passes, zero orphans, FORBIDDEN_LEXICON clean repo-wide; update section_md_vids_final (19V supersedes 14V per filename)."}]}]},
+    {"name": "Phase 20: Repository Push", "depends_on": ["Phase 19: Fix Application"], "delegations": [
+      {"agent": "DATAML", "steps": [
+        {"title": "Phase 20a — Methods ledger refresh", "description": "Re-render Methods.md M.5/M.6 from the final pipeline ledger; replace any 'pending refresh' placeholder with actual gate outcomes and 'All 21 pipeline phases completed'. Save gate_phase_20a_methods_refresh.json (no Pending rows)."},
+        {"title": "Push all outputs to github.com/dhuzard/ethical-debt-AI-review", "description": "Push content/*.md, references.bib, figures, notebooks, myst.yml, Methods.md using the canonical section_md_vids_final map (never 'latest'). Coordinator verifies: Phase 20V myst-validator confirms fresh clone builds, files match canonical VIDs, METHODS_LEDGER_FRESH, AUTHOR_IDENTITY_NOT_PLACEHOLDER; save gate_repository_push.json."}]}]},
+    {"name": "Phase 21: Deploy Polish", "depends_on": ["Phase 20: Repository Push"], "delegations": [
+      {"agent": "DATAML", "steps": [
+        {"title": "Post-deployment UX gate", "description": "Run tier-A static checks against the built Pages-artifact tarball (NO_FRONTMATTER_LEAK, FIGURE_DROPDOWN_COMPLETE, FIGURE_ASSETS_RESOLVE, INTERNAL_LINK_HEALTH, PLUGIN_DATA_BOUND, DIRECTIVE_RENDERED_OK, FORBIDDEN_LEXICON_DEPLOYED, AUTHOR_IDENTITY_DEPLOYED) and tier-B live-URL checks (PER_PAGE_HTTP_200, EXTERNAL_LINK_HEALTH) when the deploy URL is reachable, else emit a manual user checklist. One targeted fix iteration max, then escalate. Save gate_phase21_deploy_polish.json."}]}]}
+  ]
+}

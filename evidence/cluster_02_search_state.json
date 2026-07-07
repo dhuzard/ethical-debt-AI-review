@@ -1,0 +1,52 @@
+{
+  "cluster_id": "cluster_02",
+  "section_id": "section_02",
+  "passes_completed": [
+    "pubmed:3Rs replacement reduction refinement animal research principle",
+    "pubmed:harm-benefit analysis animal research ethics",
+    "pubmed:ethics animal experimentation moral status animals",
+    "pubmed:severity assessment laboratory animals cumulative",
+    "pubmed:culture of care animal research welfare",
+    "pubmed:Reduction experimental design statistics animal experiments sample size",
+    "pubmed:severity assessment animal experiments welfare indicators",
+    "pubmed:cumulative severity animal welfare refinement",
+    "pubmed:refinement laboratory animals welfare assessment score sheet distress",
+    "epmc:moral contract animal research ethics",
+    "pubmed:harm-benefit analysis nonhuman primate neuroscience",
+    "pubmed:public attitudes acceptance animal research trust",
+    "pubmed:public opinion animal research survey acceptability",
+    "pubmed:humane endpoints refinement analgesia",
+    "pubmed:speciesism animal rights utilitarianism experimentation",
+    "pubmed:culture of care laboratory animal science staff wellbeing",
+    "pubmed:ARRIVE guidelines reporting quality reproducibility animal experiments",
+    "pubmed:grimace scale pain assessment refinement mice rats",
+    "pubmed:environmental enrichment refinement laboratory rodent welfare",
+    "snowball_round_1:related pmid 34851985 (public consultation on animal research)",
+    "snowball_round_1:related pmid 36386861 (unified ethical principles / Basel-Helsinki)",
+    "pubmed:culture of care laboratory animals",
+    "pubmed:harm-benefit analysis animal experiments severity (WWHow, model framework, stress review, interactive training)",
+    "pubmed:factorial design reduce animal numbers (ILAR, ATLA, power/negative results)",
+    "pubmed:environmental enrichment reproducibility mouse phenotype variability (Kentner, Wolfer, Lewejohann, lockbox)",
+    "pubmed:non-animal alternatives replacement organ-on-chip regulatory acceptance (NAMs liver spheroid, MPS)",
+    "pubmed:moral status sentience animal research (epistemic objection, brain organoid)",
+    "pubmed:welfare assessment score sheet refinement humane endpoint (cholestasis, transgenic protocols)",
+    "pubmed:compassion fatigue euthanasia laboratory animal personnel (COVID, US Army, ProQOL, German LAPs)",
+    "pubmed:retrospective actual severity assessment classification (FELASA/ECLAM/ESLAV report)"
+  ],
+  "passes_remaining": [
+    "openalex:culture of care / 3Rs reproducibility forward+backward citation expansion",
+    "snowball_round_2:backward refs on new fulltext seeds (ENEURO EE variation; ALTEX MPS)",
+    "pubmed:humane killing / euthanasia method refinement (CO2 alternatives)",
+    "pubmed:severity classification actual vs prospective divergence retrospective cohorts",
+    "epmc:moral contract / social contract animal research (deeper ethics)"
+  ],
+  "snowball_seeds_used": [
+    "10.1371/journal.pone.0260114",
+    "10.1016/j.crneur.2022.100060"
+  ],
+  "seen_dois_artifact_id": "cluster_02_seen_dois.txt",
+  "saturation_log_artifact_id": "cluster_02_saturation_log.json",
+  "papers_so_far": 83,
+  "evidence_artifact_id": "cluster_02_evidence.json",
+  "exit_reason": "frame_budget_reached"
+}

@@ -1,0 +1,1536 @@
+{
+  "findings": [
+    {
+      "claim": "Cumulative preclinical irreproducibility is estimated around 50% (point estimate 53.3%), implying roughly US$28 billion/year of non-reproducible US preclinical research.",
+      "claim_source_sentence": "A natural point estimate of the cumulative irreproducibility rate is the midpoint of the upper and lower bounds, or 53.3%.",
+      "evidence": "Probability-bounds economic modeling combining published irreproducibility estimates (range 51%-89%) with US life-science R&D spending; authors stress the estimate is uncertain.",
+      "effect_size": "point estimate 53.3% (bounds 18%-88.5%); ~US$28B/year",
+      "effect_size_source_sentence": "Nevertheless, we believe a 50% irreproducibility rate, leading to direct costs of approximately US$28B/year, provides a reasonable starting point for further debate.",
+      "n": null,
+      "study_system": "US preclinical life-science research (economic modeling)",
+      "replication_status": "unreplicated",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pbio.1002165",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "Almost all animal ischaemic-stroke publications reported significant effects; publication bias inflated pooled efficacy and ~16% of experiments appear unpublished.",
+      "claim_source_sentence": "Only 2.2% of publications identified in the included reviews did not report any significant findings.",
+      "evidence": "CAMARADES meta-analyses of 525 publications across 16 stroke interventions; Egger regression and trim-and-fill. Pooled efficacy fell from 31.2% to 23.8% after adjustment; ~214 (16%) experiments estimated missing.",
+      "effect_size": "bias detected in 10-16 of 16 interventions; efficacy overstated ~31% relative",
+      "effect_size_source_sentence": "The different methods used to ascertain publication bias gave somewhat different results; Egger regression suggested bias for all 16 interventions, whereas trim-and-fill suggested bias for ten of 16 interventions.",
+      "n": 525,
+      "study_system": "animal models of acute ischaemic stroke (CAMARADES)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pbio.1000344",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "Animal neurological-disease studies show far more statistically significant results than their power predicts, indicating pervasive selective-reporting bias.",
+      "claim_source_sentence": "The observed number of “positive” studies was O = 1,719, while the expected was E = 919.",
+      "evidence": "Excess-significance test across 4,445 datasets in 160 CAMARADES meta-analyses of six neurological conditions.",
+      "effect_size": "1,719 observed vs 919 expected positives; only 8/160 meta-analyses bias-free",
+      "effect_size_source_sentence": "Overall, only eight of the 160 meta-analyses had nominally significant results, no suggestion of bias related to small-study effects or excess of significant findings, and evidence procured from over 500 animals.",
+      "n": 4445,
+      "study_system": "animal studies of neurological diseases (160 meta-analyses)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pbio.1001609",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "A 20-year review found most experimental physics and dosimetry details are unreported in radiobiology studies, undermining reproducibility and translation.",
+      "claim_source_sentence": "For 1758 peer-reviewed articles from 469 journals, we evaluated the reporting of basic experimental physics and dosimetry details recommended by the authoritative National Institute of Standards and Technology symposium.",
+      "evidence": "Large-scale literature review of dosimetry/physics reporting against NIST-recommended parameters; highly cited journals were more likely to omit details.",
+      "effect_size": "1758 articles from 469 journals; majority of parameters not reported",
+      "effect_size_source_sentence": "For 1758 peer-reviewed articles from 469 journals, we evaluated the reporting of basic experimental physics and dosimetry details recommended by the authoritative National Institute of Standards and Technology symposium.",
+      "n": 1758,
+      "study_system": "radiobiology / radiation-biology publications",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1016/j.ijrobp.2019.06.2545",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Animal-experiment treatment effects often do not concord with clinical trials; corticosteroids benefited animal head-injury models but showed no benefit in patients.",
+      "claim_source_sentence": "Corticosteroids did not show any benefit in clinical trials of treatment for head injury but did show a benefit in animal models (pooled odds ratio for adverse functional outcome 0.58, 95% confidence interval 0.41 to 0.83).",
+      "evidence": "Systematic review comparing pooled animal effects with clinical-trial results across six interventions with unambiguous clinical evidence.",
+      "effect_size": "pooled OR 0.58 (95% CI 0.41-0.83) benefit in animals vs no benefit in humans",
+      "effect_size_source_sentence": "Corticosteroids did not show any benefit in clinical trials of treatment for head injury but did show a benefit in animal models (pooled odds ratio for adverse functional outcome 0.58, 95% confidence interval 0.41 to 0.83).",
+      "n": 6,
+      "study_system": "animal experiments vs clinical trials (6 interventions)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1136/bmj.39048.407928.BE",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "The Reproducibility Project: Cancer Biology completed only 26% of planned experiments; earlier industry audits reported just 25% (Bayer) and 11% (Amgen) replication.",
+      "claim_source_sentence": "These challenges meant that we only completed 50 of the 193 experiments (26%) we planned to repeat.",
+      "evidence": "Repeated experiments from high-impact cancer papers; abstract reports replication effect sizes 85% smaller than originals and 46% overall replication success.",
+      "effect_size": "26% of planned experiments completed; prior industry replication 25% (Bayer), 11% (Amgen)",
+      "effect_size_source_sentence": "Their success rates (25% for the Bayer report, and 11% for the Amgen report) provided disquieting initial evidence that preclinical research may be much less replicable than recognized.",
+      "n": 50,
+      "study_system": "preclinical cancer biology replication",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.7554/eLife.71601",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "Preclinical cancer papers were so incompletely reported that only 50 of 193 planned replications could be run; data to compute effect sizes were public for only 4 of 193 experiments.",
+      "claim_source_sentence": "The initial goal was to repeat 193 experiments from 53 high-impact papers published between 2010 and 2012, but the obstacles we encountered at every phase of the research lifecycle meant that we were only able to repeat 50 experiments from 23 papers.",
+      "evidence": "Documentation of barriers to replication; public data for 4/193 experiments, author data unobtainable for 68%, and 67% of protocols required modification.",
+      "effect_size": "50 of 193 experiments repeated (23 of 53 papers)",
+      "effect_size_source_sentence": "This resulted in 50 included papers for which we initiated the process of preparing a replication.",
+      "n": 193,
+      "study_system": "preclinical cancer biology (reproducibility barriers)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.7554/eLife.67995",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "Many planned replications of high-impact cancer papers could not be completed because of technical and methodological challenges, several stopped before any outcome.",
+      "claim_source_sentence": "Four papers initiated experimental work but were stopped without any experimental outcomes.",
+      "evidence": "Status report on 11 of 29 registered preclinical cancer replications not completed as Replication Studies.",
+      "effect_size": "of 29 target papers, 4 stopped with no experimental outcome",
+      "effect_size_source_sentence": "Four papers initiated experimental work but were stopped without any experimental outcomes.",
+      "n": 29,
+      "study_system": "preclinical cancer biology replication attempts",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.7554/eLife.73430",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "In a survey of ~454 laboratory-animal researchers, not-for-profit staff estimated only 50% of animal experiments are published and for-profit staff estimated 10%.",
+      "claim_source_sentence": "On average, those working in not-for-profit institutes (n = 421) estimated that 50 percent (interquartile range (IQR) 35 to 70) of all conducted laboratory animal experiments are published.",
+      "evidence": "Internet survey of laboratory-animal researchers across all animal laboratories in the Netherlands (474 responded).",
+      "effect_size": "not-for-profit estimate 50% published; for-profit estimate 10%",
+      "effect_size_source_sentence": "Researchers in a for-profit environment (n = 21) estimated that only 10 percent (5 to 50) is published.",
+      "n": 454,
+      "study_system": "laboratory-animal researchers survey (Netherlands)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pone.0043404",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "For 47 novel drugs, most animal efficacy studies were published only after the first human trial and a third of trial indications had no matching animal efficacy study.",
+      "claim_source_sentence": "Most (87%) accessible animal efficacy studies were reported after publication of the first trial, and for 17% of the drugs in our sample, no efficacy studies were published before the first trial report.",
+      "evidence": "Systematic search for all published animal efficacy studies supporting 47 drugs first trialled 2000-2003 (2462 studies).",
+      "effect_size": "2462 studies (avg 52/drug); 87% published after first trial; 35% of indications unmatched",
+      "effect_size_source_sentence": "We identified 2462 efficacy studies, representing an average of 52 studies per drug.",
+      "n": 47,
+      "study_system": "preclinical efficacy studies for novel drugs",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1111/bph.12771",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Only 65% of internally funded medical research projects (46% involving animals) produced at least one peer-reviewed publication, indicating persistent non-publication.",
+      "claim_source_sentence": "Over the ten-year period, 65% of the approved research proposals produced at least one peer-reviewed publication.",
+      "evidence": "Retrospective analysis of all 363 projects funded by an internal medical-faculty program 2004-2013.",
+      "effect_size": "65% published; 167 (46%) of projects involved animal experiments",
+      "effect_size_source_sentence": "Taken together, 167 (46%) of the funded projects required permission to perform animal experiments.",
+      "n": 363,
+      "study_system": "university-funded medical research projects (Germany)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pone.0243092",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "Follow-up tracking of 210 animal-study proposals (publication rate ~70%) found researchers whose studies were published responded more often (54.4%) than those with none (48.3%).",
+      "claim_source_sentence": "Regarding the 172 proposals with confirmed conduction, the response rate was higher for proposals generating at least one results publication according to our previous study (54.4%, 62/114 proposals) than for those without any publications (48.3%, 28/58 proposals).",
+      "evidence": "Web-based survey of researchers responsible for 210 animal-study proposals; abstract reports publication rate rose from 67% to 70%.",
+      "effect_size": "publication-associated response 54.4% vs 48.3%; 210 proposals",
+      "effect_size_source_sentence": "For each year, 12 rodent and three non-rodent studies had been randomly selected, summing up to the total of 210 proposals.",
+      "n": 210,
+      "study_system": "animal-study proposals (Germany)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pone.0250362",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "Hedgehog-pathway inhibitors were hoped to treat up to a quarter of cancers but clinically responded in only two rare tumor types, a translational failure traced to flawed models and unconscious bias.",
+      "claim_source_sentence": "Although such inhibitors were once hoped to be efficacious in up to 25% of human cancer, clinical studies showed responses only in basal cell carcinoma and the HH subtype of medulloblastoma.",
+      "evidence": "Case study of two decades of academic Hedgehog inhibitor development and its preclinical-to-clinical failure.",
+      "effect_size": "hoped 25% of cancers; clinical response limited to 2 tumor types",
+      "effect_size_source_sentence": "Although such inhibitors were once hoped to be efficacious in up to 25% of human cancer, clinical studies showed responses only in basal cell carcinoma and the HH subtype of medulloblastoma.",
+      "n": null,
+      "study_system": "Hedgehog pathway inhibitors, cancer (case study)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1098/rsob.180098",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A database of 3,920 rodent NAFLD models revealed highly heterogeneous, rarely replicated designs, illustrating poor reproducibility of in vivo disease modeling.",
+      "claim_source_sentence": "Study designs were highly heterogeneous, and therefore, few models had been cited more than once.",
+      "evidence": "Systematic review compiling 3,920 rodent NAFLD models to assess phenotype and design variability.",
+      "effect_size": "3,920 rodent models; few cited more than once",
+      "effect_size_source_sentence": "We generated a database of 3,920 rodent models of NAFLD.",
+      "n": 3920,
+      "study_system": "rodent models of NAFLD (systematic review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1002/hep.31897",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A review of the 260 most-cited sepsis-model papers found therapy given after sepsis onset in only 36% and comorbidities included in only 5% of studies.",
+      "claim_source_sentence": "Only in 36% of the animal studies the experimental therapy was given after the onset of sepsis.",
+      "evidence": "Structured literature review of 260 highly cited sepsis-model papers underpinning the MQTiPSS guidelines; mice used in 79%, euthanasia criteria defined in 9%.",
+      "effect_size": "therapy after sepsis onset 36%; comorbidity included 5%; mice 79%",
+      "effect_size_source_sentence": "Of concern is also a low inclusion of biological variables and co-morbidities in the study design; only 5% of the reviewed studies featured any type of co-morbidity.",
+      "n": 260,
+      "study_system": "preclinical sepsis-model publications",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1097/SHK.0000000000001243",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "In a survey of 156 cerebrovascular articles, only 30% stated a primary hypothesis and few reported randomization or blinding, with ~20% using inappropriate/unassessable statistics.",
+      "claim_source_sentence": "Surprisingly, only 30% of publications explicitly stated a primary research hypothesis; however, 97% indicated the aim or purpose; 44% indicated both, and only 3% gave neither a hypothesis nor an aim (percentages given herein and below represent the mean of both reviewers).",
+      "evidence": "Checklist-based assessment of all 156 original articles in the 2008 volume of a leading cerebrovascular journal.",
+      "effect_size": "only 30% stated a hypothesis; ~20% inappropriate statistics",
+      "effect_size_source_sentence": "Surprisingly, only 30% of publications explicitly stated a primary research hypothesis; however, 97% indicated the aim or purpose; 44% indicated both, and only 3% gave neither a hypothesis nor an aim (percentages given herein and below represent the mean of both reviewers).",
+      "n": 156,
+      "study_system": "cerebrovascular research publications (JCBFM 2008)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1038/jcbfm.2010.217",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "Animal studies in plastic-surgery journals in 2014 showed extensive waste: only 21.4% blinded outcome assessment and 25.5% mentioned randomization.",
+      "claim_source_sentence": "Only 24/112 (21.4%) had blinding of the primary outcome measure, 28/110 (25.5%) of articles that required randomization mentioned it.",
+      "evidence": "Systematic review of 112 animal studies across six plastic-surgery journals in 2014; a 2009 survey of 271 studies had found 87% no randomization and 86% no blinding.",
+      "effect_size": "blinding 21.4%; randomization mentioned 25.5%",
+      "effect_size_source_sentence": "Only 24/112 (21.4%) had blinding of the primary outcome measure, 28/110 (25.5%) of articles that required randomization mentioned it.",
+      "n": 112,
+      "study_system": "animal studies in plastic-surgery journals (2014)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1016/j.bjps.2015.06.012",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Nearly a decade after ARRIVE, 100 Shock animal papers still rarely reported sample-size justification (10%), randomization (43%) or blinding (23%), and only one reported effect sizes.",
+      "claim_source_sentence": "Few papers reported best-practice methods, such as sample size justification (10%), randomization (43%), randomization method (7%), blinding (23%).",
+      "evidence": "Systematic assessment of 100 randomly selected animal papers (2014-2018) versus 40 pre-ARRIVE papers.",
+      "effect_size": "sample-size justification 10%; randomization 43%; blinding 23%",
+      "effect_size_source_sentence": "Few papers reported best-practice methods, such as sample size justification (10%), randomization (43%), randomization method (7%), blinding (23%).",
+      "n": 100,
+      "study_system": "animal-based articles in Shock (2014-2018)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1097/SHK.0000000000001544",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A survey of 1,371 Indian and 236 Sri Lankan animal studies found poor reporting of age, sex, sample-size, blinding and randomization, confirming limited ARRIVE impact.",
+      "claim_source_sentence": "The findings revealed poor reporting standards in animal experiments carried out in India and Sri Lanka, confirming the limited impact of the ARRIVE guidelines.",
+      "evidence": "Systematic survey of 1,607 animal-study publications from India and Sri Lanka (1905-2017).",
+      "effect_size": "1371 (India) + 236 (Sri Lanka) publications assessed",
+      "effect_size_source_sentence": "A systematic survey of 1371 and 236 publications from India and Sri Lanka, respectively, which were published between 1905 and 2017 and indexed in NCBI-PubMed, Cinhal, MEDLINE and Scopus, was carried out.",
+      "n": 1371,
+      "study_system": "animal-experiment publications (India, Sri Lanka)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1177/0261192920923105",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Large-animal stroke models scored on a 0-24 quality scale show the same shortcomings as small-animal models, with poor randomization, allocation concealment and blinding.",
+      "claim_source_sentence": "Each study was assigned a score from 0 (lowest quality) to 24 (highest quality), with each category having a quality value of 0 (lowest quality) to 6 (highest quality).",
+      "evidence": "Systematic review of methodological quality in large-animal stroke research (1990-2019) using STAIR/ARRIVE criteria.",
+      "effect_size": "quality scored 0-24 across four categories",
+      "effect_size_source_sentence": "Each study was assigned a score from 0 (lowest quality) to 24 (highest quality), with each category having a quality value of 0 (lowest quality) to 6 (highest quality).",
+      "n": null,
+      "study_system": "large-animal stroke models (systematic review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1177/0271678X20931062",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "Leading meta-researchers argue there is compelling evidence that the majority of new biomedical discoveries will not stand the test of time.",
+      "claim_source_sentence": "However, unfortunately, there is compelling evidence that the majority of these discoveries will not stand the test of time.",
+      "evidence": "Review synthesizing evidence and causes of low reproducibility in basic and preclinical research.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "basic and preclinical biomedical research (review)",
+      "replication_status": "unreplicated",
+      "replication_evidence_dois": [],
+      "doi": "10.1161/CIRCRESAHA.114.303819",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "The average statistical power of neuroscience studies is very low, inflating effect-size estimates and lowering the reliability of reported findings.",
+      "claim_source_sentence": "Here, we show that the average statistical power of studies in the neurosciences is very low.",
+      "evidence": "Analysis of statistical power across neuroscience meta-analyses; low power reduces positive predictive value.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "neuroscience studies (power analysis)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1038/nrn3475",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Drug-development attrition can be extreme: only about one in 33 compounds entering clinical testing in castration-resistant prostate cancer reaches FDA approval.",
+      "claim_source_sentence": "Currently, one in 33 compounds that enters clinical testing will be awarded US Food and Drug Administration approval.",
+      "evidence": "Analysis of 77 compounds in phase I-III trials in castration-resistant prostate cancer (1998-2011); risk-adjusted cost $1.411bn per approval.",
+      "effect_size": "cumulative pass rate 3% (1 in 33); risk-adjusted cost $1.411bn",
+      "effect_size_source_sentence": "The cumulative pass rate for first-line compounds in CRPC was 3% and was far below aggregate industry expectations.",
+      "n": 77,
+      "study_system": "castration-resistant prostate cancer drug development",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1111/bju.12309",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A systematic review of 14 quercetin Alzheimer's-model studies (45 treated + 53 control mice) used the SYRCLE risk-of-bias tool and flagged missing sample-size calculations and low method quality.",
+      "claim_source_sentence": "A total of 45 mice AD models were treated with quercetin in different dose and time manners (20–30 mg/kg, from 2 weeks to 3 months), and another 53 mice in the control group were correspondingly treated with vehicle.",
+      "evidence": "Systematic review and forest-plot meta-analysis of 14 preclinical quercetin AD studies with SYRCLE risk-of-bias assessment.",
+      "effect_size": "14 studies; 45 treated + 53 control mice pooled",
+      "effect_size_source_sentence": "It was notable that eight of the total 14 articles (57%) were published in the past three years, indicating an increasing interest on the anti-AD properties of quercetin.",
+      "n": 14,
+      "study_system": "quercetin in animal Alzheimer models (systematic review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.3390/ijms21020493",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "A multicentre pig myocardial-infarction network with centralized randomization and blinded core-lab analysis was built to counter the poor rigor/reproducibility behind failed cardioprotection translation.",
+      "claim_source_sentence": "One reason for the lack of translation is the lack of rigor and reproducibility in pre-clinical studies.",
+      "evidence": "Ten-site European pig acute-myocardial-infarction network validated with ischemic preconditioning as a positive control; centralized randomization and blinded core-lab infarct analysis.",
+      "effect_size": "multicentre network (10 sites) with centralized randomization/blinded core lab",
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "multicentre preclinical pig myocardial-infarction network",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1007/s00395-024-01083-9",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Modeling of study power, bias and pre-study odds implies that for most designs and fields a research claim is more likely false than true.",
+      "claim_source_sentence": "Simulations show that for most study designs and settings, it is more likely for a research claim to be false than true.",
+      "evidence": "Theoretical/simulation framework relating truth of findings to power, bias, number of studies and pre-study odds.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "research findings across scientific fields (simulation)",
+      "replication_status": "unreplicated",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pmed.0020124",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "SYRCLE's risk-of-bias tool adapts the Cochrane tool to animal intervention studies, adding items (e.g. random housing, blinded outcome assessment) specific to in vivo experiments.",
+      "claim_source_sentence": "With regard to adequately blinding outcome assessment (entry 7), possible differences between the experimental and control groups in methods used for outcome assessment should be described and judged.",
+      "evidence": "Methodological development of a 10-entry risk-of-bias tool for animal studies based on the Cochrane RoB tool.",
+      "effect_size": "10 risk-of-bias entries (selection, performance, detection, attrition, reporting, other)",
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "animal intervention studies (risk-of-bias methodology)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1186/1471-2288-14-43",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "An alternative explanation for irreproducibility is that rigorous standardization of animals and environment reduces external validity (reaction-norm view).",
+      "claim_source_sentence": "An important aspect that is generally overlooked is the lack of external validity caused by rigorous standardization of both the animals and the environment.",
+      "evidence": "Conceptual/reaction-norm analysis arguing standardization can paradoxically harm reproducibility across labs.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "in vivo animal research (reaction-norm theory)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [],
+      "doi": "10.1007/s12064-021-00340-y",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A guidance framework argues reproducibility follows from rigor plus transparency, via pre-specified analysis plans and active laboratory management.",
+      "claim_source_sentence": "These actions will support a culture where rigor + transparency = reproducibility.",
+      "evidence": "Perspective distilling the reproducibility crisis into a within/across-study framework and practical steps.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "preclinical research (reproducibility guidance)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [],
+      "doi": "10.1097/ACM.0000000000002351",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Publication bias and poor internal validity (low randomization, allocation concealment, blinding) undermine animal disease models, with publication bias alone accounting for about one-third of reported stroke efficacy.",
+      "claim_source_sentence": "Publication bias may account for one-third or more of the efficacy reported in systematic reviews of animal stroke studies, and probably also plays a substantial role in the experimental literature for other diseases.",
+      "evidence": "Research-in-translation review summarising systematic reviews of animal models (stroke, Parkinson's, MS, ALS, emergencies) and their internal/external validity problems.",
+      "effect_size": "~one-third of reported efficacy attributable to publication bias",
+      "effect_size_source_sentence": "Publication bias may account for one-third or more of the efficacy reported in systematic reviews of animal stroke studies, and probably also plays a substantial role in the experimental literature for other diseases.",
+      "n": null,
+      "study_system": "animal models of disease vs human trials (review)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1371/journal.pbio.1000344"
+      ],
+      "doi": "10.1371/journal.pmed.1000245",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "An NINDS stakeholder workshop recommended that, at minimum, animal studies report sample-size estimation, randomization, blinding and data handling to improve the predictive value of preclinical research.",
+      "claim_source_sentence": "The main workshop recommendation is that at a minimum studies should report on sample-size estimation, whether and how animals were randomized, whether investigators were blind to the treatment, and the handling of data.",
+      "evidence": "Consensus report (the 'Landis 4' criteria) from a June 2012 NINDS workshop on methodological reporting of animal studies.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "preclinical animal research reporting standards (workshop)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1038/nature11556",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "In an RCT of 1,689 manuscripts, requesting a completed ARRIVE checklist at submission did not improve full compliance: no manuscript in either arm met all ARRIVE items and only ~1% reported all four Landis criteria.",
+      "claim_source_sentence": "1.5% (5/340) of the control group manuscripts) and 0.9% (3/332) of intervention group manuscripts reported all four subitems of the Landis criteria.",
+      "evidence": "Randomised controlled trial at PLOS ONE (2015) assessing whether requesting ARRIVE checklist completion improves compliance; outcome adjudication against 108 operationalised items.",
+      "effect_size": "full ARRIVE compliance 0%; all four Landis criteria reported 1.5% (control) vs 0.9% (intervention)",
+      "effect_size_source_sentence": "1.5% (5/340) of the control group manuscripts) and 0.9% (3/332) of intervention group manuscripts reported all four subitems of the Landis criteria.",
+      "n": 1689,
+      "study_system": "in vivo animal manuscripts at PLOS ONE (RCT)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1186/s41073-019-0069-3",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "The Animal Study Registry was launched in 2019 to enable preregistration of animal studies, aiming to increase transparency, reproducibility and welfare.",
+      "claim_source_sentence": "The Animal Study Registry (ASR; www.animalstudyregistry.org) was launched in January 2019 for preregistration of animal studies in order to increase transparency and reproducibility of bioscience research and to promote animal welfare.",
+      "evidence": "Description of a German federal preregistration platform for exploratory and confirmatory animal studies.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "preclinical animal studies (preregistration platform)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pbio.3000463",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Annual global biomedical research investment reached US$240 billion in 2010, but a substantial part is avoidably wasted through poorly prioritised research questions.",
+      "claim_source_sentence": "The increase in annual global investment in biomedical research--reaching US$240 billion in 2010--has resulted in important health dividends for patients and the public.",
+      "evidence": "First paper of the Lancet 'increasing value, reducing waste' series, on how research priorities are set.",
+      "effect_size": "US$240 billion global investment in 2010",
+      "effect_size_source_sentence": "The increase in annual global investment in biomedical research--reaching US$240 billion in 2010--has resulted in important health dividends for patients and the public.",
+      "n": null,
+      "study_system": "biomedical research funding/priorities (analysis)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1016/S0140-6736(13)62229-1",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "The biomedical research enterprise consumes roughly a quarter of a trillion dollars per year, much avoidably wasted; the 2014 Lancet series issued 17 recommendations to five stakeholder groups.",
+      "claim_source_sentence": "The biomedical research complex has been estimated to consume almost a quarter of a trillion US dollars every year.",
+      "evidence": "Follow-up review assessing the early impact of the 2014 Lancet increasing-value/reducing-waste series.",
+      "effect_size": "~US$0.25 trillion/year; 17 recommendations to 5 stakeholder groups",
+      "effect_size_source_sentence": "17 recommendations were addressed to five main stakeholders-funders, regulators, journals, academic institutions, and researchers.",
+      "n": null,
+      "study_system": "biomedical research waste (review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1016/S0140-6736(15)00307-4",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A large proportion of biomedical research investment is avoidably wasted; the INQUIRE consensus developed a stakeholder framework (13 countries) to raise clinical-research quality.",
+      "claim_source_sentence": "Compelling evidence has demonstrated that a large proportion of investment in biomedical research is wasted; this waste is avoidable.",
+      "evidence": "Systematic review plus 4-round Delphi across seven stakeholder groups to define a quality framework for patient-oriented clinical research.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "patient-oriented clinical research quality (Delphi framework)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pmed.1002580",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Inappropriate experimental design and inadequate statistical planning routinely lead either to wasted animals or to underpowered studies whose results lack reliability.",
+      "claim_source_sentence": "In particular, inappropriate experimental designs, inadequate statistical planning, and insufficient reporting standards continue to undermine both scientific validity and ethical justification, often leading either to the unnecessary use of animals or to underpowered studies whose results lack reliability.",
+      "evidence": "Methodological review providing a framework for sample-size determination in experimental biology/pharmacology under the 3Rs Reduction principle.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "animal experimental design / sample-size (review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.3389/fphar.2026.1786234",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Cancer cell lines diversify genetically in culture: across 27 MCF7 strains only 35% of 95 coding SNVs/indels were shared by all strains, and drug responses differed markedly, threatening reproducibility.",
+      "claim_source_sentence": "Only 35% of 95 non-synonymous single nucleotide variants (SNVs) and indels affecting coding sequence or splicing were shared by all strains.",
+      "evidence": "Genomic characterisation of 106 cell lines and 27 MCF7 strains grown in two labs, plus drug-response profiling against 321 compounds.",
+      "effect_size": "only 35% of 95 coding SNVs/indels shared across all 27 MCF7 strains",
+      "effect_size_source_sentence": "Only 35% of 95 non-synonymous single nucleotide variants (SNVs) and indels affecting coding sequence or splicing were shared by all strains.",
+      "n": 27,
+      "study_system": "human cancer cell lines (MCF7 strains)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1038/s41586-018-0409-3",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "Only 39% of 100 top-journal psychology studies could be unambiguously reproduced; the contextual sensitivity of the research topic predicted replication success.",
+      "claim_source_sentence": "For example, the Reproducibility Project, a large-scale replication attempt of 100 studies published in top psychology journals found that only 39% could be unambiguously reproduced.",
+      "evidence": "Re-coding of the 100 Reproducibility Project: Psychology studies for contextual sensitivity, related to replication outcomes.",
+      "effect_size": "39% unambiguously reproduced of 100 studies",
+      "effect_size_source_sentence": "For example, the Reproducibility Project, a large-scale replication attempt of 100 studies published in top psychology journals found that only 39% could be unambiguously reproduced.",
+      "n": 100,
+      "study_system": "psychology replication (contextual analysis)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1073/pnas.1521897113",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Prediction markets predicted replication outcomes of 44 psychology studies and estimated a low median prior probability (9%) that the tested hypotheses were true.",
+      "claim_source_sentence": "We find that the hypotheses being tested in psychology typically have low prior probabilities of being true (median, 9%) and that a \"statistically significant\" finding needs to be confirmed in a well-powered replication to have a high probability of being true.",
+      "evidence": "Prediction markets on 44 studies replicated in the Reproducibility Project: Psychology, outperforming individual survey forecasts.",
+      "effect_size": "median prior probability of being true 9%; 44 studies",
+      "effect_size_source_sentence": "We find that the hypotheses being tested in psychology typically have low prior probabilities of being true (median, 9%) and that a \"statistically significant\" finding needs to be confirmed in a well-powered replication to have a high probability of being true.",
+      "n": 44,
+      "study_system": "psychology replication (prediction markets)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1073/pnas.1516179112",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "The NIH now expects sex as a biological variable to be factored into the design, analysis and reporting of vertebrate-animal and human studies, addressing a recognised source of preclinical irreproducibility.",
+      "claim_source_sentence": "In June 2015, the National Institutes of Health (NIH) released a Guide notice (NOT-OD-15-102) that highlighted the expectation of the NIH that the possible role of sex as a biologic variable be factored into research design, analyses, and reporting of vertebrate animal and human studies.",
+      "evidence": "Workshop-based guidance from the NIH Office of Research on Women's Health on integrating sex as a biological variable in preclinical research.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "preclinical research design (sex as a variable)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1096/fj.201600781R",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A scoping review found published animal-to-human translational success spans the full 0-100% range; e.g. animal-human toxicity concordance was 71% across species (63% nonrodents, 43% rodents).",
+      "claim_source_sentence": "The range of published translational success rates is 0% to 100%.",
+      "evidence": "Systematic scoping review of 121 umbrella studies quantitatively comparing animal and human results (compounds, studies, symptoms).",
+      "effect_size": "toxicity concordance 71% all species; 63% nonrodents; 43% rodents",
+      "effect_size_source_sentence": "The concordance rates between animal and human toxicity were 71% when all species were considered, with nonrodents alone predictive for 63% and rodents for 43% of the events.",
+      "n": 121,
+      "study_system": "animal-to-human translation (scoping review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1186/s12967-019-1976-2",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "In simulations from 50 real preclinical studies, single-laboratory experiments (even when powered >0.8) failed to predict the true effect size in more than half of cases, whereas multi-laboratory designs improved accuracy.",
+      "claim_source_sentence": "Therefore, although the studies were sufficiently powered (>0.8) to detect a treatment effect, single-laboratory studies failed to predict the true effect size accurately in more than half of the cases.",
+      "evidence": "Simulation based on 440 preclinical studies across 13 interventions (stroke, MI, breast cancer) comparing single- vs multi-lab designs.",
+      "effect_size": "single-lab studies failed to predict true effect in >50% of cases despite power >0.8; multi-lab designs raised coverage",
+      "effect_size_source_sentence": "Therefore, although the studies were sufficiently powered (>0.8) to detect a treatment effect, single-laboratory studies failed to predict the true effect size accurately in more than half of the cases.",
+      "n": 440,
+      "study_system": "preclinical animal studies (simulation; stroke/MI/breast cancer)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1038/s41583-020-0313-3"
+      ],
+      "doi": "10.1371/journal.pbio.2003693",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "Among 807 ecologists and evolutionary biologists, questionable research practices were prevalent: 64% had failed to report non-significant results, 42% collected more data after checking significance, and 51% HARKed.",
+      "claim_source_sentence": "Across the two groups, we found 64% of surveyed researchers reported they had at least once failed to report results because they were not statistically significant (cherry picking); 42% had collected more data after inspecting whether results were statistically significant (a form of p hacking) and 51% had reported an unexpected finding as though it had been hypothesised from the start (HARKing).",
+      "evidence": "Survey of 807 researchers (494 ecologists, 313 evolutionary biologists) on self-reported questionable research practices.",
+      "effect_size": "64% cherry-picking; 42% p-hacking; 51% HARKing",
+      "effect_size_source_sentence": "Across the two groups, we found 64% of surveyed researchers reported they had at least once failed to report results because they were not statistically significant (cherry picking); 42% had collected more data after inspecting whether results were statistically significant (a form of p hacking) and 51% had reported an unexpected finding as though it had been hypothesised from the start (HARKing).",
+      "n": 807,
+      "study_system": "ecology & evolution researchers (QRP survey)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pone.0200303",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Replicating 21 social-science experiments from Nature and Science, 62% showed a significant effect in the same direction, with replication effect sizes averaging ~50% of the originals.",
+      "claim_source_sentence": "We find a significant effect in the same direction as the original study for 13 (62%) studies, and the effect size of the replications is on average about 50% of the original effect size.",
+      "evidence": "High-powered, preregistered replications of 21 social-science experiments published in Nature/Science 2010-2015, with peer-reviewed analysis plans.",
+      "effect_size": "62% (13/21) replicated; replication effect ~50% of original",
+      "effect_size_source_sentence": "We find a significant effect in the same direction as the original study for 13 (62%) studies, and the effect size of the replications is on average about 50% of the original effect size.",
+      "n": 21,
+      "study_system": "social science experiments (Nature/Science replication)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1038/s41562-018-0399-z",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Experts recommend replacing rigorous within-study standardization with systematic heterogenization of animal study samples and conditions to improve reproducibility.",
+      "claim_source_sentence": "In contrast to the current gold standard of rigorous standardization in experimental animal research, we recommend the use of systematic heterogenization of study samples and conditions by actively incorporating biological variation into study design through diversifying study samples and conditions.",
+      "evidence": "Expert consensus (Blonay 2019) providing rationale and a road map for heterogenization to address context-dependent biological variation.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "experimental animal research (reproducibility strategy)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1371/journal.pbio.2003693"
+      ],
+      "doi": "10.1038/s41583-020-0313-3",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Even high-impact preclinical findings face ~90% drug-development attrition, and species differences between animal models and humans motivated the FDA Modernization Act 2.0 (2022) permitting non-animal alternatives.",
+      "claim_source_sentence": "Although animal models have helped us achieve significant strides in our understanding of fundamental biology, researchers increasingly recognize the fundamental species differences between animal models and humans that have substantial pharmacogenomic implications.",
+      "evidence": "Perspective on the FDA Modernization Act 2.0 and human-relevant alternatives (iPSCs, organoids, organs-on-chips, AI/ML) to animal testing.",
+      "effect_size": "~90% drug-development attrition rate",
+      "effect_size_source_sentence": "Depending on one's perspective, this attrition rate of 90% may be viewed as either a failure or as a success, but it serves to illustrate the magnitude of the difficulties in translation that beset even findings of high impact.",
+      "n": null,
+      "study_system": "preclinical drug development / non-animal alternatives (perspective)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1172/JCI175824",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "Genomic responses in mouse models of acute inflammation (trauma, burns, endotoxaemia) correlate poorly with the corresponding human conditions, with murine orthologs matching significant human changes close to random.",
+      "claim_source_sentence": "Among genes changed significantly in humans, the murine orthologs are close to random in matching their human counterparts (e.g., R(2) between 0.0 and 0.1).",
+      "evidence": "Comparison of genome-wide expression responses to acute inflammatory stress in humans versus mouse models across trauma, burns and endotoxaemia.",
+      "effect_size": "R2 between 0.0 and 0.1 (near-random human-mouse concordance)",
+      "effect_size_source_sentence": "Among genes changed significantly in humans, the murine orthologs are close to random in matching their human counterparts (e.g., R(2) between 0.0 and 0.1).",
+      "n": null,
+      "study_system": "mouse models of human inflammation (genomics)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [
+        "10.1073/pnas.1401965111"
+      ],
+      "doi": "10.1073/pnas.1222878110",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Reanalysing the same datasets by focusing on genes significantly changed in both species, mouse-model gene expression showed strong correlations with human inflammatory conditions, arguing mice do recapitulate human disorders.",
+      "claim_source_sentence": "Contrary to the previous findings, the gene expression levels in the mouse models showed extraordinarily significant correlations with those of the human conditions (Spearman's rank correlation coefficient: 0.43-0.68; genes changed in the same direction: 77-93%; P = 6.5 × 10(-11) to 1.2 × 10(-35)).",
+      "evidence": "Re-evaluation of the Seok et al datasets restricting to genes significantly changed in both humans and mice, plus pathway meta-analysis.",
+      "effect_size": "Spearman rho 0.43-0.68; 77-93% genes same direction",
+      "effect_size_source_sentence": "Contrary to the previous findings, the gene expression levels in the mouse models showed extraordinarily significant correlations with those of the human conditions (Spearman's rank correlation coefficient: 0.43-0.68; genes changed in the same direction: 77-93%; P = 6.5 × 10(-11) to 1.2 × 10(-35)).",
+      "n": null,
+      "study_system": "mouse models of human inflammation (genomics reanalysis)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [
+        "10.1073/pnas.1222878110"
+      ],
+      "doi": "10.1073/pnas.1401965111",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "The NC3Rs-commissioned survey underpinning ARRIVE found that only 59% of 271 animal-research articles stated the study hypothesis/objective and animal characteristics, and most reported neither randomisation (87% did not) nor blinding (86% did not).",
+      "claim_source_sentence": "The survey, commissioned by the National Centre for the Replacement, Refinement and Reduction of Animals in Research (NC3Rs), a UK Government-sponsored scientific organisation, found that only 59% of the 271 randomly chosen articles assessed stated the hypothesis or objective of the study, and the number and characteristics of the animals used (i.e., species/strain, sex, and age/weight).",
+      "evidence": "Original ARRIVE guidelines paper, citing the NC3Rs survey of 271 animal-research publications and introducing a 20-item reporting checklist.",
+      "effect_size": "59% stated hypothesis/animal characteristics; 87% did not report randomisation; 86% did not report blinding; n=271",
+      "effect_size_source_sentence": "Most of the papers surveyed did not report using randomisation (87%) or blinding (86%) to reduce bias in animal selection and outcome assessment.",
+      "n": 271,
+      "study_system": "animal-research publications (ARRIVE reporting checklist)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pbio.1000412",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "A decade after the original ARRIVE guidelines, adherence remained inconsistent and expected improvements in reporting quality had not been achieved, prompting ARRIVE 2.0 and an 'Essential 10' minimum set.",
+      "claim_source_sentence": "Despite considerable levels of endorsement by funders and journals over the years, adherence to the guidelines has been inconsistent, and the anticipated improvements in the quality of reporting in animal research publications have not been achieved.",
+      "evidence": "Updated ARRIVE 2.0 guidelines with a Delphi-prioritised two-tier structure (Essential 10 plus Recommended Set).",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "in vivo animal research reporting (updated guidelines)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pbio.3000410",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Journal reports are available for only about half of all studies and are plagued by selective reporting; inaccessible protocols, reports and datasets waste billions of dollars and introduce bias.",
+      "claim_source_sentence": "However, protocols, full study reports, and participant-level datasets are rarely available, and journal reports are available for only half of all studies and are plagued by selective reporting of methods and results.",
+      "evidence": "Lancet waste-series paper on inaccessible research, recommending rewards for dissemination, reporting standards, and enforced registration/data-sharing.",
+      "effect_size": "journal reports available for only ~50% of studies",
+      "effect_size_source_sentence": "However, protocols, full study reports, and participant-level datasets are rarely available, and journal reports are available for only half of all studies and are plagued by selective reporting of methods and results.",
+      "n": null,
+      "study_system": "health research reporting/access (review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1016/S0140-6736(13)62296-5",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Analysis suggests animal models are poor predictors of human drug safety, and human subjects have been harmed in clinical testing of drugs deemed safe by animal studies.",
+      "claim_source_sentence": "Animal testing is used in pharmaceutical and industrial research to predict human toxicity, and yet analysis suggests that animal models are poor predictors of drug safety in humans.",
+      "evidence": "Review of the validity of animal research for predicting human toxicity in pharmaceutical development, including likelihood-ratio/predictive-value analysis.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "animal toxicity testing for drug safety (review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1016/j.jacbts.2019.10.008",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "There is widespread concern about the quality, reproducibility and translatability of animal studies; PREPARE provides overarching guidance for the planning stage that most reporting guidelines omit.",
+      "claim_source_sentence": "There is widespread concern about the quality, reproducibility and translatability of studies involving research animals.",
+      "evidence": "PREPARE guidelines covering formulation, scientist-facility dialogue, and quality control before an animal experiment begins.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "animal study planning (guidelines)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1177/0023677217724823",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A critical ethics review concludes that animal experiments, regardless of species or disease area, are highly unreliable with too little predictive value to justify the harms imposed on humans.",
+      "claim_source_sentence": "The bottom line is that animal experiments, no matter the species used or the type of disease research undertaken, are highly unreliable—and they have too little predictive value to justify the resultant risks of harms for humans, for reasons I now explain.",
+      "evidence": "Ethics review synthesising scientific literature that questions the reliability and predictive value of animal modeling for human outcomes.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "animal experimentation validity (ethics review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1017/S0963180115000079",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "The quality of meta-analyses varies immensely; recent reviews show many ecology/evolution meta-analyses miss or poorly perform critical steps routine in the medical and social sciences.",
+      "claim_source_sentence": "For example, recent reviews have revealed that many meta-analyses in ecology and evolution miss, or perform poorly, several critical steps that are routinely implemented in the medical and social sciences [,] (but also see [,]).",
+      "evidence": "Methodological guidance for critically appraising meta-analyses that pool non-human/animal studies.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "biological meta-analysis (appraisal methodology)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1186/s12915-017-0357-7",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "Large-scale replication projects yielded success rates substantially lower than expected, triggering the 'replication crisis'; the authors reframe this as a credibility revolution with positive structural changes.",
+      "claim_source_sentence": "The emergence of large-scale replication projects yielding successful rates substantially lower than expected caused the behavioural, cognitive, and social sciences to experience a so-called 'replication crisis'.",
+      "evidence": "Perspective reviewing structural, procedural and community changes following the replication crisis.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "behavioural/cognitive/social science (meta-science perspective)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1038/s44271-023-00003-2",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "After many clinical trial failures of new chemical entities with promising preclinical profiles, animal models across all therapeutic areas have been criticised for limited ability to predict efficacy, safety and toxicity in humans.",
+      "claim_source_sentence": "In the wake of numerous clinical trial failures of new chemical entities (NCEs) with promising preclinical profiles, animal models in all therapeutic areas have been increasingly criticized for their limited ability to predict NCE efficacy, safety and toxicity in humans.",
+      "evidence": "Review of challenges in the predictive validation of animal models and methodological flaws contributing to translational failure.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "animal models of human disease (translation review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1016/j.bcp.2013.08.006",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Even with rigorously equated apparatus, protocols and environment, identical inbred mouse strains showed systematic behavioural differences across three laboratories, so mutant characterisations can be lab-idiosyncratic.",
+      "claim_source_sentence": "Strains differed markedly in all behaviors, and despite standardization, there were systematic differences in behavior across labs.",
+      "evidence": "Simultaneous testing of several inbred strains and a null mutant on six behaviours in three laboratories with equated apparatus and protocols.",
+      "effect_size": "systematic cross-lab behavioural differences despite standardization (3 labs, 6 behaviours)",
+      "effect_size_source_sentence": "Strains differed markedly in all behaviors, and despite standardization, there were systematic differences in behavior across labs.",
+      "n": null,
+      "study_system": "inbred mouse strains, behavioural testing (3 laboratories)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1371/journal.pbio.2003693",
+        "10.1038/s41583-020-0313-3"
+      ],
+      "doi": "10.1126/science.284.5420.1670",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Text-mining shows p-hacking is widespread across science, but its effect appears weak relative to real effect sizes, so it probably does not drastically alter meta-analytic consensuses.",
+      "claim_source_sentence": "We then illustrate how one can test for p-hacking when performing a meta-analysis and show that, while p-hacking is probably common, its effect seems to be weak relative to the real effect sizes being measured.",
+      "evidence": "Text-mining of p-value distributions across the scientific literature plus a meta-analytic test for p-hacking.",
+      "effect_size": "p-hacking widespread but weak effect relative to real effect sizes",
+      "effect_size_source_sentence": "We then illustrate how one can test for p-hacking when performing a meta-analysis and show that, while p-hacking is probably common, its effect seems to be weak relative to the real effect sizes being measured.",
+      "n": null,
+      "study_system": "scientific literature (p-value text-mining)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pbio.1002106",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Systematic reviews and meta-analyses are mass-produced (266,782 and 58,611 PubMed items to end-2015; growth of ~2,700% since 1991), and the large majority are probably unnecessary, misleading or conflicted.",
+      "claim_source_sentence": "In the period January 1, 1986, to December 4, 2015, PubMed tags 266,782 items as \"systematic reviews\" and 58,611 as \"meta-analyses.\"",
+      "evidence": "PubMed survey and empirical evaluation of the growth and quality of systematic reviews and meta-analyses.",
+      "effect_size": "266,782 systematic reviews & 58,611 meta-analyses (1986-2015); +2,728%/+2,635% growth 1991-2014 vs 153% overall",
+      "effect_size_source_sentence": "Annual publications between 1991 and 2014 increased 2,728% for systematic reviews and 2,635% for meta-analyses versus only 153% for all PubMed-indexed items.",
+      "n": null,
+      "study_system": "systematic reviews & meta-analyses (bibliometric survey)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1111/1468-0009.12210",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Under mandatory cell-line authentication at a major cancer journal, at least 5.2% of human cell lines used in submitted manuscripts were misidentified, confirming that misidentified cell lines remain a persistent threat to reproducibility.",
+      "claim_source_sentence": "By verifying the available cell line authentication documentation and cross‐checking the Cellosaurus database, 216 (5.2%) misidentified cell lines were identified, including 186 misidentified cell lines that were completely overgrown and replaced by a contaminator cell line, 16 mixtures of two cell lines, and 14 reported nonintentional hybrid cell lines (Fig).",
+      "evidence": "Analysis of 747 manuscripts containing original data on 4,138 human cell lines submitted to the International Journal of Cancer over 3 years (July 2018-June 2021) under a mandatory STR-based authentication policy; ~65% of submissions lacked valid authentication documents.",
+      "effect_size": "216/4,138 (5.2%) cell lines misidentified; ~4% of manuscripts rejected for severe cell-line problems",
+      "effect_size_source_sentence": "By verifying the available cell line authentication documentation and cross‐checking the Cellosaurus database, 216 (5.2%) misidentified cell lines were identified, including 186 misidentified cell lines that were completely overgrown and replaced by a contaminator cell line, 16 mixtures of two cell lines, and 14 reported nonintentional hybrid cell lines (Fig).",
+      "n": 4138,
+      "study_system": "human cancer cell lines in submitted manuscripts (International Journal of Cancer)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.15252/embj.2022111307",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "A cell line purchased from a commercial vendor as primary rabbit aortic endothelial cells was found by DNA barcoding to be purely of bovine origin, demonstrating that even commercially sourced cells can be misidentified and undermine data reproducibility.",
+      "claim_source_sentence": "Results revealed that despite purchase through a commercial vendor, the cell line marketed as primary rabbit aortic endothelial cells were of bovine origin.",
+      "evidence": "Authentication of a commercially purchased cell line by STR profiling, flow cytometry, PCR and cytochrome c oxidase subunit 1 (CO1) DNA barcoding against a fresh rabbit positive control.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "commercially sourced cell line authentication (radiation biology)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1667/RADE-21-00148.1",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A meta-analysis of misconduct surveys found about 2% of scientists admit to fabricating or falsifying data at least once, and up to a third admit other questionable research practices, with much higher rates when reporting on colleagues.",
+      "claim_source_sentence": "A pooled weighted average of 1.97% (N = 7, 95%CI: 0.86-4.45) of scientists admitted to have fabricated, falsified or modified data or results at least once--a serious form of misconduct by any standard--and up to 33.7% admitted other questionable research practices.",
+      "evidence": "First meta-analysis of 18 surveys (21 in systematic review) asking scientists about research misconduct; meta-regression showed medical/pharmacological researchers reported misconduct more frequently.",
+      "effect_size": "1.97% admit fabrication/falsification; up to 33.7% admit other QRPs; 14.12% report colleagues falsifying",
+      "effect_size_source_sentence": "A pooled weighted average of 1.97% (N = 7, 95%CI: 0.86-4.45) of scientists admitted to have fabricated, falsified or modified data or results at least once--a serious form of misconduct by any standard--and up to 33.7% admitted other questionable research practices.",
+      "n": 18,
+      "study_system": "surveys of scientists (misconduct meta-analysis)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pone.0005738",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "In a random sample of life-sciences publications, reporting of measures to reduce risk of bias was limited, with randomisation reported significantly less often in high-impact journals and very limited bias-reduction reporting from leading UK institutions.",
+      "claim_source_sentence": "Here we show limited reporting of measures to reduce the risk of bias in a random sample of life sciences publications, significantly lower reporting of randomisation in work published in journals of high impact, and very limited reporting of measures to reduce the risk of bias in publications from leading United Kingdom institutions.",
+      "evidence": "Bibliometric assessment of risk-of-bias reporting (randomisation, blinding, sample-size calculation, conflict-of-interest) across a random sample of in vivo life-sciences papers, by journal impact and institution.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "in vivo life-sciences publications (risk-of-bias reporting)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1371/journal.pbio.1000412"
+      ],
+      "doi": "10.1371/journal.pbio.1002273",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Among 49 highly cited clinical research studies, 16% were later contradicted and another 16% found effects stronger than subsequent studies; non-randomized and smaller studies were most likely to be refuted over time.",
+      "claim_source_sentence": "Of these, 7 (16%) were contradicted by subsequent studies, 7 others (16%) had found effects that were stronger than those of subsequent studies, 20 (44%) were replicated, and 11 (24%) remained largely unchallenged.",
+      "evidence": "Analysis of all original clinical research cited >1000 times in major journals 1990-2003, compared against subsequent larger/better-controlled studies.",
+      "effect_size": "7/45 (16%) contradicted; 7/45 (16%) initially stronger; 20 (44%) replicated; 11 (24%) unchallenged",
+      "effect_size_source_sentence": "Of these, 7 (16%) were contradicted by subsequent studies, 7 others (16%) had found effects that were stronger than those of subsequent studies, 20 (44%) were replicated, and 11 (24%) remained largely unchallenged.",
+      "n": 49,
+      "study_system": "highly cited clinical research studies (citation analysis)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1001/jama.294.2.218",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Claims from highly cited observational studies persist in the literature despite refutation by randomized trials: even in 2005, half of articles citing two vitamin E cardioprotection studies still endorsed the (contradicted) benefit.",
+      "claim_source_sentence": "For the 2 vitamin E epidemiological studies, even in 2005, 50% of citing articles remained favorable.",
+      "evidence": "Citation-stance analysis of articles referencing contradicted highly cited epidemiological studies (vitamin E, beta-carotene, estrogen) before and after refuting RCTs.",
+      "effect_size": "50% of citing articles remained favorable in 2005; 62.5% (beta-carotene) and 61.7% (estrogen) favorable in 2006",
+      "effect_size_source_sentence": "In 2006, 62.5% of articles referencing the highly cited article that had proposed beta-carotene and 61.7% of those referencing the highly cited article on estrogen effectiveness were still favorable; 100% and 96%, respectively, of the citations appeared in specialty journals; and citations were significantly less favorable (P = .001 and P = .009, respectively) when the major contradicting trials were also mentioned.",
+      "n": null,
+      "study_system": "citation persistence of contradicted claims (medical literature)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1001/jama.298.21.2517",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Male bias in animal research is pervasive, most prominent in neuroscience where single-sex studies of males outnumber those of females 5.5 to 1, and the belief that female mammals are intrinsically more variable is without foundation.",
+      "claim_source_sentence": "Male bias was evident in 8 disciplines and most prominent in neuroscience, with single-sex studies of male animals outnumbering those of females 5.5 to 1.",
+      "evidence": "Review of sex bias across 10 biological fields in 2009 with historical precedents; found male bias increasing in non-human studies while declining in human studies.",
+      "effect_size": "male single-sex studies outnumber female 5.5:1 in neuroscience; male bias in 8 of 10 fields",
+      "effect_size_source_sentence": "Male bias was evident in 8 disciplines and most prominent in neuroscience, with single-sex studies of male animals outnumbering those of females 5.5 to 1.",
+      "n": 10,
+      "study_system": "sex bias across biological fields (bibliometric review)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.7554/eLife.56344"
+      ],
+      "doi": "10.1016/j.neubiorev.2010.07.002",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A decade after documentation of male bias, inclusion of both sexes increased across nine biological disciplines, but in eight of them there was no increase in data actually analysed by sex, and single-sex rationales relied on misconceptions about female hormonal variability.",
+      "claim_source_sentence": "There was a significant increase in the proportion of studies that included both sexes across all nine disciplines, but in eight of the disciplines there was no change in the proportion studies that included data analyzed by sex.",
+      "evidence": "Bibliometric analysis of 34 journals across nine disciplines in 2019, compared with Beery & Zucker's 2009 survey, assessing the impact of the 2016 NIH sex-as-a-biological-variable policy.",
+      "effect_size": "both-sex inclusion up in all 9 disciplines; no change in sex-based analysis in 8 of 9",
+      "effect_size_source_sentence": "There was a significant increase in the proportion of studies that included both sexes across all nine disciplines, but in eight of the disciplines there was no change in the proportion studies that included data analyzed by sex.",
+      "n": 34,
+      "study_system": "sex inclusion in biological sciences (10-year follow-up bibliometric)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1016/j.neubiorev.2010.07.002"
+      ],
+      "doi": "10.7554/eLife.56344",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Autism-associated neuroligin-3 mutant mouse studies have been over-represented by male subjects; extending analysis to females revealed sex-specific morphine responses, illustrating how male-only designs distort conclusions about disease mechanisms.",
+      "claim_source_sentence": "The mechanistic basis for these sex differences remains poorly understood, due in part to historical bias in biomedical research favoring analysis of male subjects, and the exclusion of female subjects.",
+      "evidence": "Behavioural study of constitutive and conditional neuroligin-3 knockout mice showing female mice, unlike males, retained normal psychomotor sensitization to chronic morphine.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "neuroligin-3 knockout mice, morphine sensitization (sex differences)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1007/s00213-024-06660-3",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Basic cough research uses only male guinea pigs despite cough hypersensitivity mainly affecting postmenopausal women, and a pilot study found female cough responses were both higher and more variable than males.",
+      "claim_source_sentence": "Only male guinea pigs are used in basic cough research and exclusion of females leads to gender bias.",
+      "evidence": "Pilot study assessing suitability of a female guinea-pig cough model (citric acid challenge, 12 per sex, reproducibility tested four times).",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": 24,
+      "study_system": "guinea-pig cough model (sex/gender bias)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1016/j.resp.2016.12.006",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A meta-analysis of 28 preclinical spinal-cord-injury studies found significant benefit of omega-3 PUFAs but funnel-plot asymmetry indicating publication bias (trim-and-fill imputed 13 missing locomotor-recovery studies) and only median CAMARADES risk-of-bias quality of 4 out of 7.",
+      "claim_source_sentence": "Trim-and-fill analysis estimated 13, 3, 0 and 4 missing studies for locomotor recovery, cell survival, neuropathic pain, and lesion volume, respectively.",
+      "evidence": "Random-effects meta-analysis of 28 animal SCI studies of PUFAs with CAMARADES risk-of-bias scoring and funnel-plot/trim-and-fill publication-bias assessment.",
+      "effect_size": "locomotor SMD 1.037 (95% CI 0.809-1.264); 13 missing studies imputed; CAMARADES median 4/7",
+      "effect_size_source_sentence": "A total of 28 studies were included and the results showed the claim that PUFAs have a beneficial therapeutic effect for promoting locomotor recovery (SMD = 1.037, 95% CI = 0.809-1.2644, p = <0.001) and cell survival (SMD = 1.101, 95% CI = 0.889-1.313, p = <0.001) in animal models of SCI.",
+      "n": 28,
+      "study_system": "preclinical spinal-cord-injury PUFA studies (meta-analysis)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1016/j.plefa.2023.102554",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Drug-induced liver injury remains a leading cause of drug attrition and market withdrawal, accounting for about half of acute liver failure cases, because conventional 2D and animal models poorly replicate human hepatic function - motivating New Approach Methodologies (spheroids, organoids, organ-on-chip).",
+      "claim_source_sentence": "Drug-induced liver injury (DILI) i.e., liver damage caused by pharmaceutical and other chemical substances, represents a significant clinical challenge in both its diagnosis and treatment, with DILI remaining a major factor in drug attrition and market withdrawal, accounting for approximately 50 % of reported cases of acute liver failure.",
+      "evidence": "Review and development of a 3D human hepatic spheroid model (parenchymal + non-parenchymal cells) as a non-animal alternative for preclinical DILI safety screening under the 3Rs and REACH/Directive 2010/63/EU.",
+      "effect_size": "DILI accounts for ~50% of acute liver failure cases",
+      "effect_size_source_sentence": "Drug-induced liver injury (DILI) i.e., liver damage caused by pharmaceutical and other chemical substances, represents a significant clinical challenge in both its diagnosis and treatment, with DILI remaining a major factor in drug attrition and market withdrawal, accounting for approximately 50 % of reported cases of acute liver failure.",
+      "n": null,
+      "study_system": "human liver models / New Approach Methodologies (DILI)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1016/j.taap.2025.117520",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A systematic review of resveratrol in Parkinson's-disease rodent models found that despite promising neuroprotective results no prior systematic analysis of methodological quality existed, and used SYRCLE's risk-of-bias tool across highly heterogeneous PD models.",
+      "claim_source_sentence": "In this review, we retrieved and analyzed 18 studies describing the therapeutic effect of resveratrol on PD animal models.",
+      "evidence": "Systematic review and meta-analysis of 18 resveratrol PD animal studies across five model types (MPTP, rotenone, 6-OHDA, paraquat/maneb, transgenic) with SYRCLE risk-of-bias assessment.",
+      "effect_size": "18 studies across 5 PD model types",
+      "effect_size_source_sentence": "In this review, we retrieved and analyzed 18 studies describing the therapeutic effect of resveratrol on PD animal models.",
+      "n": 18,
+      "study_system": "resveratrol Parkinson's rodent models (systematic review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.3389/fphar.2021.644219",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A systematic review of baicalein in Parkinson's-disease animal models found the methodological quality of all included preclinical studies ranged only from 2 to 5, reflecting weak internal validity in preclinical neuroprotection research.",
+      "claim_source_sentence": "The methodological quality of all preclinical trials is ranged from 2 to 5.",
+      "evidence": "Systematic review of 16 baicalein PD animal studies across four induced-model types (MPP+, rotenone, 6-OHDA, acrolein) using a methodological quality checklist.",
+      "effect_size": "16 studies; methodological quality scores 2-5",
+      "effect_size_source_sentence": "The methodological quality of all preclinical trials is ranged from 2 to 5.",
+      "n": 16,
+      "study_system": "baicalein Parkinson's animal models (systematic review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1016/j.phymed.2018.09.215",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Of 101 highly promising basic-science findings, only 27 led to a published randomized trial, 19 to a positive trial, and just 5 were licensed for clinical use (one used extensively), showing translation of promising basic research into practice is slow and rare.",
+      "claim_source_sentence": "By October 2002, 27 of the promising technologies had resulted in at least one published randomized trial, 19 of which had led to the publication of at least one positive randomized trial.",
+      "evidence": "Follow-up of 101 findings published 1979-1983 in six major basic-science journals that explicitly claimed therapeutic/preventive promise, tracked to clinical use by 2002; industry involvement accelerated translation ~8-fold.",
+      "effect_size": "101 promising findings -> 27 with an RCT, 19 positive RCT, 5 licensed, 1 used extensively; industry involvement ~8x faster",
+      "effect_size_source_sentence": "By October 2002, 27 of the promising technologies had resulted in at least one published randomized trial, 19 of which had led to the publication of at least one positive randomized trial.",
+      "n": 101,
+      "study_system": "highly promising basic-science findings (translation tracking)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1016/s0002-9343(03)00013-5",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A systematic review of animal depression-model antidepressant studies found intermediate ARRIVE reporting quality (0.63), high SYRCLE risk of bias for blinding and random outcome assessment, and that only 2.35% of authors provided requested data.",
+      "claim_source_sentence": "The Risk of Bias assessment based on the SYRCLE tool revealed a high risk related to the blinding and the random outcome assessment.",
+      "evidence": "Systematic review/meta-analysis of 25 primary animal depression-model studies (forced swim test, SSRIs) with SYRCLE risk-of-bias and ARRIVE quality assessment.",
+      "effect_size": "ARRIVE quality ratio 0.63 (intermediate); only 2.35% (5/212) authors responded to data requests",
+      "effect_size_source_sentence": "Only 2.35% (5 out of 212) of corresponding authors responded to our data request.",
+      "n": 25,
+      "study_system": "animal depression models / antidepressants (systematic review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.3390/pharmaceutics16091144",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A meta-analysis of 561 forced-swim-test antidepressant studies found small-study effects and publication bias inflated the pooled effect size (especially in mice), compromising the validity of the widely used FST antidepressant literature.",
+      "claim_source_sentence": "Small study effects and publication bias inflated CES estimates, especially in mice, while results in rats were more variable.",
+      "evidence": "Systematic review of 2588 forced-swim-test records with a random sample of 561 studies meta-analysed (metafor), SYRCLE/CAMARADES risk-of-bias assessment and publication-bias testing.",
+      "effect_size": "combined effect Hedges' g 1.66 (95% CI 1.53-1.79), k=561; heterogeneity I^2=81.5%",
+      "effect_size_source_sentence": "Despite high inconsistency ( I ² = 81.5%), the global CES was large and significant [Hedges' g = 1.66, 95% CI (1.53; 1.79), k = 561, power > 80%], consistent across most subgroups.",
+      "n": 561,
+      "study_system": "forced swim test antidepressant studies (meta-analysis)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1097/FBP.0000000000000844",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Umbilical cord blood therapy showed statistically significant improvements across preclinical lung-injury outcomes in 23 animal studies, but in clinical studies showed no significant reduction in bronchopulmonary dysplasia and certainty of evidence was low, exemplifying the preclinical-to-clinical translation gap.",
+      "claim_source_sentence": "In clinical studies, 103 preterm infants have received UCB-derived therapy for preterm lung injury and no significant difference was observed in the development of BPD (RR, 0.93, 95%CI [0.73, 1.18]).",
+      "evidence": "Systematic review and meta-analysis of 23 preclinical and 6 clinical UCB-therapy studies for preterm lung injury; GRADE certainty assessed as 'low'.",
+      "effect_size": "preclinical alveolarization SMD 1.32 (0.99-1.65) significant vs clinical BPD RR 0.93 (0.73-1.18) NS; GRADE certainty low",
+      "effect_size_source_sentence": "Statistically significant improvements were seen across several preclinical outcomes, including alveolarization (SMD, 1.32, 95%CI [0.99, 1.65]), angiogenesis (SMD, 1.53, 95%CI [0.87, 2.18]), and anti-inflammatory cytokines (SMD, 1.68, 95%CI [1.03, 2.34]).",
+      "n": 23,
+      "study_system": "umbilical cord blood therapy for preterm lung injury (preclinical vs clinical)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1093/stcltm/szae033",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Genome-wide significant variants from earlier GWAS replicated in later UK Biobank GWAS 85% of the time overall, but only 58.1% for binary phenotypes versus 94.8% for quantitative phenotypes, showing reproducibility depends strongly on phenotype type and power.",
+      "claim_source_sentence": "The overall replication rate was 85.0%; although lower for binary than quantitative phenotypes (58.1% versus 94.8% respectively).",
+      "evidence": "Analysis of 6289 genome-wide significant SNVs across nine phenotypes from 4.4 million participants, comparing discovery GWAS with later UK Biobank replication GWAS.",
+      "effect_size": "overall replication 85.0%; binary 58.1% vs quantitative 94.8%; -18% effect size (binary), +12% (quantitative)",
+      "effect_size_source_sentence": "The overall replication rate was 85.0%; although lower for binary than quantitative phenotypes (58.1% versus 94.8% respectively).",
+      "n": 6289,
+      "study_system": "GWAS variant replication (UK Biobank)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1038/s41598-021-97896-y",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Robust replication of initial genetic association findings is difficult in complex diseases such as obesity, with non-replication arising both from initial false positives (small samples, population stratification, multiple-testing errors) and from underpowered replication and gene-environment interactions.",
+      "claim_source_sentence": "An obvious cause of non-replication in genetic association studies is the initial report of a false positive result, which can be explained by a non-heritable phenotype, insufficient sample size, improper correction for multiple testing, population stratification, technical biases, insufficient quality control or inappropriate statistical analyses.",
+      "evidence": "Review of pitfalls in genetic association studies with guidelines for discovery and replication, focused on the obesity field.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "genetic association studies (obesity; methodological review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1038/ijo.2012.82",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Analysis of a 242-paper citation network showed that unfounded authority for an unproven biomedical belief was manufactured through citation bias, amplification and invention, with 220,553 citation paths supporting a claim not established by data.",
+      "claim_source_sentence": "The network contained 242 papers and 675 citations addressing the belief, with 220,553 citation paths supporting it.",
+      "evidence": "Social-network/graph-theory analysis of the complete PubMed citation network around the claim that beta-amyloid is produced by and injures skeletal muscle in inclusion body myositis.",
+      "effect_size": "242 papers, 675 citations, 220,553 supporting citation paths",
+      "effect_size_source_sentence": "The network contained 242 papers and 675 citations addressing the belief, with 220,553 citation paths supporting it.",
+      "n": 242,
+      "study_system": "biomedical citation network (unfounded authority)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1136/bmj.b2680",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Many neurodegenerative-disease clinical trials failed because preclinical and translational studies over-estimated efficacy through poor design, exclusion of negative data, and lack of randomisation and blinding; a minimum set of scientific-rigor recommendations (RIGOR/STAIR/STEPS) is proposed.",
+      "claim_source_sentence": "Recent reviews of preclinical data suggests that many studies have over-estimated efficacy due to poor or inadequate study design, exclusion of important data (negative or neutral) and lack of study randomization and blinding.",
+      "evidence": "Perspective describing minimum translational-research standards (model justification, randomization, blinding, power analysis, statistics, conflict-of-interest, multi-species/independent-lab replication) for neurodegenerative therapy development.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "translational neurodegeneration research (rigor recommendations)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.4172/2155-9562.1000e111",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A patient-partnered preclinical systematic review of CCR5 antagonists for stroke found a significant reduction in infarct volume (SMD -1.02) but high risk of bias in all five included studies and critical evidence gaps against STAIR/SRRR recommendations.",
+      "claim_source_sentence": "CCR5 antagonists reduced infarct volume (standard mean difference -1.02; 95% confidence interval -1.58 to -0.46) when compared to stroke-only controls.",
+      "evidence": "Systematic review and random-effects meta-analysis of 5 animal stroke studies (10 experiments) of CCR5 antagonists with SYRCLE risk-of-bias and STAIR/SRRR alignment, co-produced with stroke patient partners.",
+      "effect_size": "infarct volume SMD -1.02 (95% CI -1.58 to -0.46); 11 of 16 behavioural outcomes improved; high risk of bias in all 5 studies",
+      "effect_size_source_sentence": "CCR5 antagonists reduced infarct volume (standard mean difference -1.02; 95% confidence interval -1.58 to -0.46) when compared to stroke-only controls.",
+      "n": 5,
+      "study_system": "animal stroke models, CCR5 antagonists (systematic review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.7554/eLife.103245",
+      "text_access": "abstract_only"
+    }
+  ],
+  "conflicts": [
+    {
+      "paper_a_doi": "10.1007/s12064-021-00340-y",
+      "paper_b_doi": "10.1097/ACM.0000000000002351",
+      "paper_a_claim": "An important aspect that is generally overlooked is the lack of external validity caused by rigorous standardization of both the animals and the environment.",
+      "paper_b_claim": "These actions will support a culture where rigor + transparency = reproducibility.",
+      "nature_of_conflict": "Whether rigorous standardization of animals and environment improves reproducibility (rigor+transparency framing) or harms it by reducing external validity (reaction-norm framing) - internal reproducibility vs external validity.",
+      "resolution_status": "open"
+    },
+    {
+      "paper_a_doi": "10.1371/journal.pone.0043404",
+      "paper_b_doi": "10.1371/journal.pone.0250362",
+      "paper_a_claim": "On average, those working in not-for-profit institutes (n = 421) estimated that 50 percent (interquartile range (IQR) 35 to 70) of all conducted laboratory animal experiments are published.",
+      "paper_b_claim": "Regarding the 172 proposals with confirmed conduction, the response rate was higher for proposals generating at least one results publication according to our previous study (54.4%, 62/114 proposals) than for those without any publications (48.3%, 28/58 proposals).",
+      "nature_of_conflict": "Magnitude of non-publication of animal research: opinion surveys estimate only ~50% of experiments are published, whereas empirical protocol-to-publication tracking finds ~70% publication rates.",
+      "resolution_status": "resolved-by-method"
+    },
+    {
+      "paper_a_doi": "10.1371/journal.pbio.2003693",
+      "paper_b_doi": "10.1038/nrn3475",
+      "paper_a_claim": "Single-laboratory studies generally failed to predict effect size accurately, and larger sample sizes rendered effect size estimates even less accurate.",
+      "paper_b_claim": "Here, we show that the average statistical power of studies in the neurosciences is very low.",
+      "nature_of_conflict": "Prescription for improving preclinical reliability: increasing statistical power/sample size within a single standardized laboratory (power view) versus the finding that larger single-lab samples worsen effect-size accuracy unless samples are heterogenized across laboratories.",
+      "resolution_status": "open"
+    },
+    {
+      "paper_a_doi": "10.1073/pnas.1222878110",
+      "paper_b_doi": "10.1073/pnas.1401965111",
+      "paper_a_claim": "Among genes changed significantly in humans, the murine orthologs are close to random in matching their human counterparts (e.g., R(2) between 0.0 and 0.1).",
+      "paper_b_claim": "Contrary to the previous findings, the gene expression levels in the mouse models showed extraordinarily significant correlations with those of the human conditions (Spearman's rank correlation coefficient: 0.43-0.68; genes changed in the same direction: 77-93%; P = 6.5 × 10(-11) to 1.2 × 10(-35)).",
+      "nature_of_conflict": "Using the identical gene-expression datasets, the two analyses reach opposite conclusions on whether mouse inflammation models mimic human disease; the discrepancy traces to gene-selection method (all human-significant genes vs genes significant in both species).",
+      "resolution_status": "resolved-by-method"
+    },
+    {
+      "paper_a_doi": "10.1038/s41598-021-97896-y",
+      "paper_b_doi": "10.1038/ijo.2012.82",
+      "paper_a_claim": "The overall replication rate was 85.0%; although lower for binary than quantitative phenotypes (58.1% versus 94.8% respectively).",
+      "paper_b_claim": "A robust replication of initial genetic association findings has proved to be difficult in human complex diseases and more specifically in the obesity field.",
+      "nature_of_conflict": "Whether genetic-association findings reproduce well: large well-powered biobank GWAS report high replication (~85%), whereas the earlier candidate-gene/association-study era found robust replication elusive; the disagreement reflects study power and design (genome-wide biobank-scale vs underpowered candidate-gene studies).",
+      "resolution_status": "resolved-by-method"
+    }
+  ],
+  "unreplicated_claims": [
+    {
+      "claim": "The majority of new biomedical discoveries will not stand the test of time (reproducibility-crisis framing).",
+      "source": "10.1161/CIRCRESAHA.114.303819",
+      "years_since_publication": 11
+    },
+    {
+      "claim": "Cumulative preclinical irreproducibility is ~53% and costs ~US$28B/year in the US.",
+      "source": "10.1371/journal.pbio.1002165",
+      "years_since_publication": 11
+    },
+    {
+      "claim": "For most study designs and fields a research claim is more likely false than true.",
+      "source": "10.1371/journal.pmed.0020124",
+      "years_since_publication": 21
+    }
+  ],
+  "evidence_gaps": [
+    {
+      "topic": "Irreproducibility cost estimates outside the US",
+      "what_is_missing": "The cited US$28B/year figure is US-only and modeled from bounded assumptions; comparable empirical cost estimates for Europe, Asia or globally are largely absent.",
+      "why_it_matters": "Policy and funding decisions on data reuse and FAIR rest on a single modeled figure whose sensitivity and generalizability are rarely tested."
+    },
+    {
+      "topic": "Primary experimental source for the headline preclinical irreproducibility percentages",
+      "what_is_missing": "The often-repeated 11% (Amgen) and 25% (Bayer) reproducibility rates are known only through secondary reporting; the underlying per-experiment datasets are not public.",
+      "why_it_matters": "false_consensus_risk: field-defining statistics rest on non-transparent industry reports that cannot be independently audited."
+    },
+    {
+      "topic": "Link between non-publication of animal studies and downstream clinical harm",
+      "what_is_missing": "Quantitative evidence connecting specific unpublished/negative animal studies to avoidable failed clinical trials or patient harm is sparse.",
+      "why_it_matters": "The ethical (3Rs) and translational stakes of publication bias are asserted more often than measured."
+    }
+  ],
+  "strongest_evidence": {
+    "claim": "Publication bias and excess significance inflate apparent efficacy in animal disease-model literature (e.g. stroke efficacy falling from 31.2% to 23.8%; 1,719 significant results observed vs 919 expected in neurological models).",
+    "why_strong": "Based on systematic CAMARADES meta-analyses of thousands of datasets with quantitative trim-and-fill/Egger and excess-significance tests, full-text verified, and convergent across two independent analyses (Sena 2010; Tsilidis 2013)."
+  },
+  "weakest_evidence_cited": {
+    "claim": "Cumulative preclinical irreproducibility is ~53% and costs US$28B/year.",
+    "why_weak": "A modeled point estimate from a very wide probability-bounds range (18%-88.5%) built on a few non-transparent industry reports; the authors themselves note costs could be much smaller or larger."
+  },
+  "papers_reviewed_count": 115,
+  "evidence_artifact_id": "cluster_01_evidence",
+  "figure_data": [
+    {
+      "comparison_id": "blinding-reporting-rates",
+      "comparison_name": "Reported use of blinding of outcome assessment in preclinical audits",
+      "papers": [
+        {
+          "doi": "10.1016/j.bjps.2015.06.012",
+          "metric": "% animal studies with blinded outcome assessment",
+          "value": "21.4",
+          "value_source_sentence": "Only 24/112 (21.4%) had blinding of the primary outcome measure, 28/110 (25.5%) of articles that required randomization mentioned it.",
+          "ci_or_error": null,
+          "n": 112,
+          "n_analyzed": null,
+          "n_definition": "articles assessed",
+          "study_system": "plastic-surgery animal studies (2014)",
+          "experimental_conditions": "post-ARRIVE audit",
+          "method": "systematic survey",
+          "text_access": "abstract_only",
+          "scope_region": "whole domain",
+          "scope_population": "animal studies audited",
+          "taxonomic_level": "broad category"
+        },
+        {
+          "doi": "10.1097/SHK.0000000000001544",
+          "metric": "% animal studies reporting blinding",
+          "value": "23",
+          "value_source_sentence": "Few papers reported best-practice methods, such as sample size justification (10%), randomization (43%), randomization method (7%), blinding (23%).",
+          "ci_or_error": null,
+          "n": 100,
+          "n_analyzed": null,
+          "n_definition": "articles assessed",
+          "study_system": "Shock journal animal studies (2014-2018)",
+          "experimental_conditions": "post-ARRIVE audit",
+          "method": "systematic survey",
+          "text_access": "abstract_only",
+          "scope_region": "whole domain",
+          "scope_population": "animal studies audited",
+          "taxonomic_level": "broad category"
+        }
+      ],
+      "comparison_type": "convergent evidence",
+      "what_it_reveals": "Independent post-ARRIVE journal audits converge on ~21-23% blinding of outcome assessment, showing that under-reporting of a core bias-control measure persists across fields.",
+      "suggested_plot_type": "grouped bar",
+      "homogeneity_check": {
+        "scope_region_uniform": "false",
+        "scope_population_uniform": "false",
+        "taxonomic_level_uniform": "true",
+        "n_definition_uniform": "true",
+        "caveats": [
+          "Different fields (plastic surgery vs critical care) and journals; both report blinding of the primary outcome measure directly and post-ARRIVE."
+        ]
+      }
+    },
+    {
+      "comparison_id": "animal-study-publication-rates",
+      "comparison_name": "Publication / non-publication of animal experiments across studies",
+      "papers": [
+        {
+          "doi": "10.1371/journal.pbio.1000344",
+          "metric": "estimated non-publication rate (%)",
+          "value": "14",
+          "value_source_sentence": "We estimate that a further 214 experiments (in addition to the 1,359 identified through rigorous systematic review; non publication rate 14%) have been conducted but not reported.",
+          "ci_or_error": null,
+          "n": 525,
+          "n_analyzed": null,
+          "n_definition": "publications in stroke reviews",
+          "study_system": "animal stroke meta-analyses",
+          "experimental_conditions": "trim-and-fill estimate",
+          "method": "meta-analysis",
+          "text_access": "abstract_only",
+          "scope_region": "whole domain",
+          "scope_population": "animal studies audited",
+          "taxonomic_level": "broad category"
+        },
+        {
+          "doi": "10.1371/journal.pone.0043404",
+          "metric": "estimated % experiments published (researcher opinion)",
+          "value": "50",
+          "value_source_sentence": "On average, those working in not-for-profit institutes (n = 421) estimated that 50 percent (interquartile range (IQR) 35 to 70) of all conducted laboratory animal experiments are published.",
+          "ci_or_error": "IQR 35-70",
+          "n": 454,
+          "n_analyzed": null,
+          "n_definition": "survey respondents",
+          "study_system": "lab-animal researchers (Netherlands)",
+          "experimental_conditions": "opinion survey",
+          "method": "survey",
+          "text_access": "fulltext",
+          "scope_region": "whole domain",
+          "scope_population": "animal studies audited",
+          "taxonomic_level": "broad category"
+        },
+        {
+          "doi": "10.1371/journal.pone.0250362",
+          "metric": "% animal-study proposals published",
+          "value": "70",
+          "value_source_sentence": "Results showed that the publication rate increased from 67% in our follow-up study to 70%.",
+          "ci_or_error": null,
+          "n": 210,
+          "n_analyzed": null,
+          "n_definition": "proposals tracked",
+          "study_system": "animal-study proposals (Germany)",
+          "experimental_conditions": "protocol-to-publication tracking",
+          "method": "cohort tracking",
+          "text_access": "abstract_only",
+          "scope_region": "whole domain",
+          "scope_population": "animal studies audited",
+          "taxonomic_level": "broad category"
+        },
+        {
+          "doi": "10.1111/bph.12771",
+          "metric": "% drugs with no efficacy studies published before first trial",
+          "value": "17",
+          "value_source_sentence": "Most (87%) accessible animal efficacy studies were reported after publication of the first trial, and for 17% of the drugs in our sample, no efficacy studies were published before the first trial report.",
+          "ci_or_error": null,
+          "n": 47,
+          "n_analyzed": null,
+          "n_definition": "drugs",
+          "study_system": "efficacy studies for novel drugs",
+          "experimental_conditions": "drug-cohort search",
+          "method": "systematic search",
+          "text_access": "abstract_only",
+          "scope_region": "whole domain",
+          "scope_population": "animal studies audited",
+          "taxonomic_level": "broad category"
+        }
+      ],
+      "comparison_type": "cross-study conflict",
+      "what_it_reveals": "Estimates of how much animal research reaches publication vary widely by method - meta-analytic missing-study estimates (~14% unpublished), opinion surveys (~50% published) and empirical tracking (~70% published) - bounding the scale of non-publication.",
+      "suggested_plot_type": "grouped bar",
+      "homogeneity_check": {
+        "scope_region_uniform": "false",
+        "scope_population_uniform": "false",
+        "taxonomic_level_uniform": "false",
+        "n_definition_uniform": "false",
+        "caveats": [
+          "Metrics are not identical: missing-experiment estimate (Sena), opinion of % published (ter Riet), empirical publication rate (Deutsch), drug-cohort pre-trial publication (Federico). Comparable only as bounds on non-publication."
+        ]
+      }
+    },
+    {
+      "comparison_id": "replication-success-rates-across-fields",
+      "comparison_name": "Direct-replication success rates across research fields",
+      "papers": [
+        {
+          "doi": "10.1073/pnas.1521897113",
+          "metric": "% studies unambiguously reproduced",
+          "value": "39",
+          "value_source_sentence": "For example, the Reproducibility Project, a large-scale replication attempt of 100 studies published in top psychology journals found that only 39% could be unambiguously reproduced.",
+          "ci_or_error": null,
+          "n": 100,
+          "n_analyzed": null,
+          "n_definition": "original studies replicated",
+          "study_system": "psychology (RPP)",
+          "experimental_conditions": "direct replication",
+          "method": "multi-site replication",
+          "text_access": "abstract_only",
+          "scope_region": "whole domain",
+          "scope_population": "published studies",
+          "taxonomic_level": "broad category"
+        },
+        {
+          "doi": "10.1038/s41562-018-0399-z",
+          "metric": "% studies significant same direction",
+          "value": "62",
+          "value_source_sentence": "We find a significant effect in the same direction as the original study for 13 (62%) studies, and the effect size of the replications is on average about 50% of the original effect size.",
+          "ci_or_error": null,
+          "n": 21,
+          "n_analyzed": null,
+          "n_definition": "original studies replicated",
+          "study_system": "social science (Nature/Science)",
+          "experimental_conditions": "preregistered high-powered replication",
+          "method": "multi-site replication",
+          "text_access": "abstract_only",
+          "scope_region": "whole domain",
+          "scope_population": "published studies",
+          "taxonomic_level": "broad category"
+        }
+      ],
+      "comparison_type": "convergent evidence",
+      "what_it_reveals": "Systematic replication projects across psychology and social science converge on the finding that only 39-62% of high-profile published effects replicate directly, and replicated effect sizes are ~50% of originals.",
+      "suggested_plot_type": "grouped bar",
+      "homogeneity_check": {
+        "scope_region_uniform": "true",
+        "scope_population_uniform": "true",
+        "taxonomic_level_uniform": "true",
+        "n_definition_uniform": "true",
+        "caveats": [
+          "Metrics differ slightly: 'unambiguously reproduced' (RPP) vs 'significant effect in same direction' (Camerer); both index direct-replication success of published effects."
+        ]
+      }
+    },
+    {
+      "comparison_id": "mouse-human-inflammation-concordance",
+      "comparison_name": "Mouse-to-human genomic concordance in inflammation: same data, opposite conclusions",
+      "papers": [
+        {
+          "doi": "10.1073/pnas.1222878110",
+          "metric": "human-mouse concordance (R^2)",
+          "value": "0.0-0.1",
+          "value_source_sentence": "Among genes changed significantly in humans, the murine orthologs are close to random in matching their human counterparts (e.g., R(2) between 0.0 and 0.1).",
+          "ci_or_error": null,
+          "n": null,
+          "n_analyzed": null,
+          "n_definition": "gene-expression datasets",
+          "study_system": "mouse inflammation models",
+          "experimental_conditions": "genes significant in humans",
+          "method": "genome-wide expression correlation",
+          "text_access": "abstract_only",
+          "scope_region": "whole transcriptome",
+          "scope_population": "orthologous genes",
+          "taxonomic_level": "broad category"
+        },
+        {
+          "doi": "10.1073/pnas.1401965111",
+          "metric": "human-mouse concordance (Spearman rho)",
+          "value": "0.43-0.68",
+          "value_source_sentence": "Contrary to the previous findings, the gene expression levels in the mouse models showed extraordinarily significant correlations with those of the human conditions (Spearman's rank correlation coefficient: 0.43-0.68; genes changed in the same direction: 77-93%; P = 6.5 × 10(-11) to 1.2 × 10(-35)).",
+          "ci_or_error": "P = 6.5e-11 to 1.2e-35",
+          "n": null,
+          "n_analyzed": null,
+          "n_definition": "gene-expression datasets",
+          "study_system": "mouse inflammation models",
+          "experimental_conditions": "genes significant in both species",
+          "method": "genome-wide expression correlation",
+          "text_access": "abstract_only",
+          "scope_region": "whole transcriptome",
+          "scope_population": "orthologous genes",
+          "taxonomic_level": "broad category"
+        }
+      ],
+      "comparison_type": "cross-study conflict",
+      "what_it_reveals": "The same datasets yield near-random (R^2 0-0.1) or strong (Spearman 0.43-0.68) mouse-human concordance depending solely on gene-selection method, illustrating how analytic choices drive opposite translational conclusions.",
+      "suggested_plot_type": "grouped bar",
+      "homogeneity_check": {
+        "scope_region_uniform": "true",
+        "scope_population_uniform": "true",
+        "taxonomic_level_uniform": "true",
+        "n_definition_uniform": "true",
+        "caveats": [
+          "Correlation metrics differ (R^2 vs Spearman rho) and are not directly numerically comparable; the point is the qualitative reversal from the same underlying data."
+        ]
+      }
+    },
+    {
+      "comparison_id": "qrp-self-report-prevalence",
+      "comparison_name": "Self-reported prevalence of questionable research practices across surveys",
+      "papers": [
+        {
+          "doi": "10.1371/journal.pone.0005738",
+          "metric": "% scientists admitting other questionable research practices (pooled, self-report)",
+          "value": "33.7",
+          "value_source_sentence": "A pooled weighted average of 1.97% (N = 7, 95%CI: 0.86-4.45) of scientists admitted to have fabricated, falsified or modified data or results at least once--a serious form of misconduct by any standard--and up to 33.7% admitted other questionable research practices.",
+          "ci_or_error": null,
+          "n": 18,
+          "n_analyzed": null,
+          "n_definition": "surveys in meta-analysis",
+          "study_system": "scientists across fields (misconduct survey meta-analysis)",
+          "experimental_conditions": "self-report of own behaviour",
+          "method": "meta-analysis of surveys",
+          "text_access": "abstract_only",
+          "scope_region": "whole domain",
+          "scope_population": "surveyed scientists",
+          "taxonomic_level": "broad category"
+        },
+        {
+          "doi": "10.1371/journal.pone.0200303",
+          "metric": "% researchers who failed to report non-significant results (cherry-picking)",
+          "value": "64",
+          "value_source_sentence": "Across the two groups, we found 64% of surveyed researchers reported they had at least once failed to report results because they were not statistically significant (cherry picking); 42% had collected more data after inspecting whether results were statistically significant (a form of p hacking) and 51% had reported an unexpected finding as though it had been hypothesised from the start (HARKing).",
+          "ci_or_error": null,
+          "n": 807,
+          "n_analyzed": null,
+          "n_definition": "survey respondents",
+          "study_system": "ecologists & evolutionary biologists (QRP survey)",
+          "experimental_conditions": "self-report of own behaviour",
+          "method": "survey",
+          "text_access": "abstract_only",
+          "scope_region": "whole domain",
+          "scope_population": "surveyed researchers",
+          "taxonomic_level": "broad category"
+        }
+      ],
+      "comparison_type": "convergent evidence",
+      "what_it_reveals": "Self-report surveys converge on the finding that questionable research practices are common (roughly a third to two-thirds of researchers admit at least one), a behavioural driver of irreproducibility and effect-size inflation.",
+      "suggested_plot_type": "grouped bar",
+      "homogeneity_check": {
+        "scope_region_uniform": "true",
+        "scope_population_uniform": "true",
+        "taxonomic_level_uniform": "true",
+        "n_definition_uniform": "false",
+        "caveats": [
+          "The two values index different specific QRPs: Fanelli's 33.7% is a pooled 'any other QRP' self-report across many surveys, whereas Fraser's 64% is specifically cherry-picking (non-reporting of non-significant results); n also differs (surveys vs individual respondents). Comparable only as bounds on QRP prevalence."
+        ]
+      }
+    }
+  ],
+  "search_failures": [
+    {
+      "suggested_reference": "Begley & Ellis 2012 'Raise standards for preclinical cancer research' (Nature 483:531) - the 11% (6/53) reproducibility figure",
+      "searches_tried": [
+        "Raise standards preclinical cancer research reproducibility"
+      ],
+      "result": "Found in PubMed (PMID 22460880, DOI 10.1038/483531a) but abstract is '[Abstract not available]' and no open full text was retrieved; the 6/53 figure could not be traced to retrieved text. The 11% Amgen figure is, however, quoted verbatim in retrieved full text of 10.7554/eLife.71601.",
+      "action": "excluded from findings (no retrievable source sentence for this DOI)"
+    },
+    {
+      "suggested_reference": "Prinz, Schlange & Asadullah 2011 'Believe it or not' (Nat Rev Drug Discov) - Bayer ~20-25% reproducibility",
+      "searches_tried": [
+        "Believe it or not reproducibility published data drug targets",
+        "Prinz Schlange Asadullah reproducibility published data potential drug targets",
+        "Believe it or not[Title] published data drug targets"
+      ],
+      "result": "Not returned by PubMed searches (query over-expansion); DOI not obtained from an API response. The 25% Bayer figure is quoted verbatim in retrieved full text of 10.7554/eLife.71601.",
+      "action": "excluded from findings pending a successful database hit"
+    },
+    {
+      "suggested_reference": "EQIPD framework for rigor in animal experiments (Nat Methods 2022, DOI 10.1038/s41592-022-01615-y, PMID 36064774) and Young/Ioannidis 2008 'Why current publication practices may distort science' (DOI 10.1371/journal.pmed.0050201)",
+      "searches_tried": [
+        "EQIPD framework rigor design conduct analysis documentation animal experiments",
+        "openalex forward snowball on Errington eLife.71601"
+      ],
+      "result": "DOIs obtained from API but no usable source sentence retrieved: EQIPD abstract is '[Abstract not available]' in PubMed with no PMC full text; Young 2008 PubMed abstract is only an editor's one-line summary, not an extractable finding sentence.",
+      "action": "excluded from findings (no verbatim source sentence available)"
+    },
+    {
+      "suggested_reference": "Baker 2016 '1,500 scientists lift the lid on reproducibility' (Nature 533:452) - the survey where >70% of researchers failed to reproduce another scientist's experiments and >50% failed to reproduce their own",
+      "searches_tried": [
+        "1500 scientists reproducibility survey Nature",
+        "Europe PMC DOI:10.1038/533452a resultType=core",
+        "WebFetch nature.com/articles/533452a"
+      ],
+      "result": "DOI obtained from Europe PMC (10.1038/533452a, Nature news feature); Europe PMC record has no abstract text and nature.com redirects to an authentication page (paywalled), so no verbatim source sentence could be retrieved for this DOI.",
+      "action": "excluded from findings (no retrievable verbatim source sentence)"
+    }
+  ]
+}

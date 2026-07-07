@@ -2,14 +2,17 @@ version: 1
 extends:
   - content/authors.yml
 project:
-  title: "REVIEW TITLE — Update in myst.yml"
-  subtitle: A Reproducible Computational Review
+  title: "The Ethical Debt"
+  subtitle: Why wasting animal data is wasting animal lives
   description: >
-    Update this description for your review topic.
+    A manifesto on data welfare, FAIR preclinical data, the 3Rs, NAMs, virtual control groups, and research incentives. The Ethical Debt of preclinical research is created when animals are used to generate knowledge, but the resulting data are allowed to become unusable. Data welfare is animal welfare because preserving, structuring, annotating, citing and reusing animal-derived data is part of the moral contract of animal research.
   keywords:
     - neuroscience
     - critical review
     - reproducible research
+    - FAIR data
+    - animal welfare
+    - 3Rs
   license: MIT
   open_access: true
   numbering:
@@ -46,7 +49,7 @@ project:
       template: ./latex/template
 site:
   template: book-theme
-  title: "Computational Review"
+  title: "The Ethical Debt"
   nav:
     - title: GitHub
-      url: https://github.com/AllenNeuralDynamics/ComputationalReviewTemplate
+      url: https://github.com/dhuzard/ethical-debt-AI-review

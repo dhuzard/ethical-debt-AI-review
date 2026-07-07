@@ -1,0 +1,49 @@
+{
+ "cluster_id": "cluster_04",
+ "section_id": "section_04",
+ "passes_completed": [
+  "pubmed:biomedical data repository sharing reuse FAIR",
+  "pubmed:minimum information reporting standard MIAME microarray",
+  "pubmed:biomedical ontology controlled vocabulary gene ontology OBO",
+  "pubmed:electronic laboratory notebook research data management",
+  "pubmed:common data model interoperability OMOP biomedical",
+  "pubmed:data sharing mandate researcher attitudes barriers",
+  "pubmed:FAIR principles scientific data stewardship",
+  "pubmed:data availability statement compliance journals",
+  "pubmed:data sharing incentives credit data citation research",
+  "pubmed:gene ontology annotation quality evaluation errors",
+  "pubmed:MIAPE proteomics minimum information experiment",
+  "pubmed:MIABE minimum information bioactive entity",
+  "pubmed:electronic laboratory notebook adoption reproducibility",
+  "pubmed:OMOP common data model interoperability network study",
+  "pubmed:data repository certification CoreTrustSeal TRUST",
+  "pubmed:biocuration controlled vocabulary annotation quality database",
+  "pubmed:metadata completeness public sequencing repository (GEO)",
+  "snowball_round_1 (forward: MIABE W2045717408, TRUST W3024722698; +GAQ W2166361106 seed IDs)",
+  "pubmed:biobank data sharing governance consent secondary use",
+  "pubmed/epmc:electronic laboratory notebook adoption survey metadata",
+  "epmc:data reuse citation advantage shared datasets / open science impact",
+  "pubmed:ISA framework investigation study assay metadata standard (ISA-TAB-Nano, linkedISA, pISA-tree)",
+  "pubmed:MIBBI minimum information checklists reporting",
+  "pubmed:model-organism/phenotype ontology annotation (Alliance of Genome Resources; HPO/UMLS normalization)",
+  "pubmed/epmc:bioimaging image data repository microscopy (EMDB/EMPIAR; imaging data management)",
+  "epmc:measurement systematic review data-sharing KAP; LLM metadata annotation"
+ ],
+ "passes_remaining": [
+  "snowball_round_2 (backward referenced_works on ISA/MIBBI/GO seeds) - deferred",
+  "pubmed:data citation quantified download/reuse counts (still thin)",
+  "pubmed:sequence read archive / GEO submission quality longitudinal"
+ ],
+ "snowball_seeds_used": [
+  "10.1038/nrd3503 (W2045717408, forward)",
+  "10.1038/s41597-020-0486-7 (W3024722698, forward)",
+  "10.1093/nar/gkm1167 (W2166361106, seed id)"
+ ],
+ "seen_dois_artifact_id": "cluster_04_seen_dois.txt",
+ "saturation_log_artifact_id": "cluster_04_saturation_log.json",
+ "papers_so_far": 99,
+ "evidence_artifact_id": "cluster_04_evidence.json",
+ "exit_reason": "frame_budget_reached",
+ "continuation_required": true,
+ "frame3_new_added": 23
+}

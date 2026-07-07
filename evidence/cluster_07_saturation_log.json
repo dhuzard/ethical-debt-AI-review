@@ -1,0 +1,26 @@
+{
+ "cluster_id": "cluster_07",
+ "saturation_criterion": "<2% new unique in last 100",
+ "min_papers_per_cluster": 200,
+ "frame_budget": 40,
+ "exit_reason": "frame_budget_reached",
+ "passes": [
+  {"pass_type": "keyword", "query_or_method": "epmc:questionable research practices prevalence scientists (CITED desc)", "records_examined": 25, "new_unique_relevant": 6, "new_unique_rate": 0.24, "cumulative_unique": 6, "cumulative_screened_in": 6},
+  {"pass_type": "keyword", "query_or_method": "epmc:registered reports preregistration publication bias (CITED desc)", "records_examined": 25, "new_unique_relevant": 5, "new_unique_rate": 0.20, "cumulative_unique": 11, "cumulative_screened_in": 11},
+  {"pass_type": "keyword", "query_or_method": "epmc:data sharing incentives credit citation researchers (CITED desc)", "records_examined": 25, "new_unique_relevant": 6, "new_unique_rate": 0.24, "cumulative_unique": 17, "cumulative_screened_in": 17},
+  {"pass_type": "keyword", "query_or_method": "epmc:reproducibility metascience research findings (CITED desc)", "records_examined": 25, "new_unique_relevant": 6, "new_unique_rate": 0.24, "cumulative_unique": 23, "cumulative_screened_in": 23},
+  {"pass_type": "keyword", "query_or_method": "epmc:avoidable waste biomedical research (CITED desc)", "records_examined": 25, "new_unique_relevant": 4, "new_unique_rate": 0.16, "cumulative_unique": 27, "cumulative_screened_in": 27},
+  {"pass_type": "keyword", "query_or_method": "epmc:academic reward system evaluation metrics DORA (CITED desc)", "records_examined": 25, "new_unique_relevant": 5, "new_unique_rate": 0.20, "cumulative_unique": 32, "cumulative_screened_in": 32},
+  {"pass_type": "keyword", "query_or_method": "epmc:measuring prevalence QRP incentives truth telling + Why Most Published Findings False (CITED desc)", "records_examined": 50, "new_unique_relevant": 5, "new_unique_rate": 0.10, "cumulative_unique": 37, "cumulative_screened_in": 37},
+  {"pass_type": "keyword", "query_or_method": "pubmed+epmc:TOP guidelines transparency openness adoption", "records_examined": 40, "new_unique_relevant": 8, "new_unique_rate": 0.20, "cumulative_unique": 45, "cumulative_screened_in": 45},
+  {"pass_type": "keyword", "query_or_method": "pubmed:preregistration positive result rate / registered reports outcomes + data-sharing mandate compliance", "records_examined": 30, "new_unique_relevant": 3, "new_unique_rate": 0.10, "cumulative_unique": 48, "cumulative_screened_in": 48},
+  {"pass_type": "keyword", "query_or_method": "epmc:data citation data paper reuse credit scientometrics (CITED desc)", "records_examined": 25, "new_unique_relevant": 3, "new_unique_rate": 0.12, "cumulative_unique": 51, "cumulative_screened_in": 51},
+  {"pass_type": "keyword", "query_or_method": "epmc:HARKing p-hacking questionable research practices (CITED desc)", "records_examined": 25, "new_unique_relevant": 8, "new_unique_rate": 0.32, "cumulative_unique": 59, "cumulative_screened_in": 59},
+  {"pass_type": "keyword", "query_or_method": "epmc:estimating reproducibility psychological science replication (CITED desc)", "records_examined": 25, "new_unique_relevant": 3, "new_unique_rate": 0.12, "cumulative_unique": 62, "cumulative_screened_in": 62},
+  {"pass_type": "keyword", "query_or_method": "epmc:many labs replication crowdsourced + slow science + open data citation advantage + data availability compliance (CITED desc)", "records_examined": 100, "new_unique_relevant": 6, "new_unique_rate": 0.06, "cumulative_unique": 68, "cumulative_screened_in": 68},
+  {"pass_type": "snowball_round_1", "query_or_method": "openalex forward-cites on reward-system seed W2794944797 (10.1371/journal.pbio.2004089), sort cited_by_count desc", "records_examined": 25, "new_unique_relevant": 5, "new_unique_rate": 0.20, "cumulative_unique": 73, "cumulative_screened_in": 73},
+  {"pass_type": "snowball_round_2", "query_or_method": "openalex forward-cites on OSC 2015 seed W1897139626 (10.1126/science.aac4716), sort cited_by_count desc", "records_examined": 25, "new_unique_relevant": 2, "new_unique_rate": 0.08, "cumulative_unique": 75, "cumulative_screened_in": 75}
+ ],
+ "saturation_reached": false,
+ "note": "Continuation frame stopped at the per-child findings budget (38 new this frame; 75 cumulative), NOT at saturation. Across all passes this frame the new-unique rate stayed at or above ~6% (>2% threshold) and never fell below 2% in two consecutive passes, so the cluster has NOT saturated. Cumulative unique (75) remains far below the 200-paper floor; the coordinator should fork a further continuation (NIH DMS-policy compliance, data-paper citation incentives, COMPare outcome-switching, registered-reports null-rate before/after, DORA/Leiden adoption, and snowball_round_3 on the Fanelli and Camerer seeds)."
+}

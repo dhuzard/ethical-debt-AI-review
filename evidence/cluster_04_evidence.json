@@ -1,0 +1,1723 @@
+{
+ "cluster_id": "cluster_04",
+ "cluster_name": "Biomedical data sharing, repositories, metadata standards and ontologies",
+ "findings": [
+  {
+   "claim": "In 306 oncology papers, only 48% of articles under a blanket mandatory data-sharing policy actually made data available, and none of six under a mandatory code-sharing policy shared code.",
+   "claim_source_sentence": "Less than half of the 29 articles that were subject to a blanket mandatory data sharing policy were observed to make data available (14/29, 48%, 95% CI: 31–66%). Furthermore, of the six studies that performed inferential statistics and were subjected to a blanket mandatory code sharing policy, none reported sharing code.",
+   "evidence": "",
+   "effect_size": "14/29, 48% (data); 0/6 (code)",
+   "effect_size_source_sentence": "Less than half of the 29 articles that were subject to a blanket mandatory data sharing policy were observed to make data available (14/29, 48%, 95% CI: 31–66%).",
+   "n": 306,
+   "study_system": "306 cancer-related journal articles indexed in PubMed 2019",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1136/bmj-2023-075767",
+    "10.1136/bmjopen-2016-011784"
+   ],
+   "doi": "10.1186/s12916-022-02644-2",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "The FAIR principles paper cites Harvard Dataverse (>60,000 datasets) as an exemplar general-purpose FAIR repository open to all fields.",
+   "claim_source_sentence": "Harvard Dataverse, with more than 60,000 datasets, is the largest of the current Dataverse repositories, and is open to all researchers from all research fields.",
+   "evidence": "",
+   "effect_size": "more than 60,000 datasets",
+   "effect_size_source_sentence": "Harvard Dataverse, with more than 60,000 datasets, is the largest of the current Dataverse repositories, and is open to all researchers from all research fields.",
+   "n": null,
+   "study_system": "Scholarly data management principles / Dataverse repository",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1093/bib/bbz044",
+    "10.1038/s41597-022-01491-3"
+   ],
+   "doi": "10.1038/sdata.2016.18",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "The Open Data Commons for Spinal Cord Injury (a FAIR repository for long-tail preclinical data) had 248 registered users and 57 labs by July 2020.",
+   "claim_source_sentence": "As of July 2020, 248 users are registered on the site and 57 different laboratories across Canada, Europe and USA have been created.",
+   "evidence": "",
+   "effect_size": "248 users; 57 laboratories",
+   "effect_size_source_sentence": "As of July 2020, 248 users are registered on the site and 57 different laboratories across Canada, Europe and USA have been created.",
+   "n": 248,
+   "study_system": "Preclinical spinal cord injury data-sharing repository (odc-sci.org)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1007/s12021-021-09533-8",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "The Cell Ontology 2016 revision added 125 new kidney cell subtype classes via coordination with the Kidney and Urinary Pathway Ontology.",
+   "claim_source_sentence": "This has resulted in the addition of 125 new classes to represent kidney cell subtypes.",
+   "evidence": "",
+   "effect_size": "125 new classes",
+   "effect_size_source_sentence": "This has resulted in the addition of 125 new classes to represent kidney cell subtypes.",
+   "n": null,
+   "study_system": "Cell Ontology (OBO Foundry candidate ontology)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s13326-016-0088-7",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "The TmaDB tissue-microarray repository held 18 TMA experiments covering clinical specimens from 1095 people as of April 2005, and aligns with MIAME-style reporting.",
+   "claim_source_sentence": "The number of people whose clinical specimens have been analysed on TMA is 1095 (April 2005).",
+   "evidence": "",
+   "effect_size": "18 experiments; 1095 people",
+   "effect_size_source_sentence": "The number of people whose clinical specimens have been analysed on TMA is 1095 (April 2005).",
+   "n": 1095,
+   "study_system": "Tissue microarray data repository (TmaDB)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/1471-2105-6-218",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Harmonising two genomic datasets into a Genomic Common Data Model (extending OMOP-CDM) exposed structural heterogeneity: a 49-gene targeted panel versus 16,896-gene whole-exome data.",
+   "claim_source_sentence": "For example, in the cancer panel of AUSOM, 49 cancer-related genes were targeted for sequencing, while the TCGA data were harvested using whole-exome sequencing with 16,896 genes.",
+   "evidence": "",
+   "effect_size": "49 vs 16,896 genes",
+   "effect_size_source_sentence": "For example, in the cancer panel of AUSOM, 49 cancer-related genes were targeted for sequencing, while the TCGA data were harvested using whole-exome sequencing with 16,896 genes.",
+   "n": null,
+   "study_system": "Genomic Common Data Model (OMOP-CDM extension); lung cancer sequencing",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0212463",
+    "10.1093/jamiaopen/ooae045"
+   ],
+   "doi": "10.2196/13249",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Harmonising All of Us EHR data into OMOP relies on the OMOP vocabulary of over 3 million terms drawn from 43 standard terminologies.",
+   "claim_source_sentence": "OMOP maintains its own terminology dictionary, consisting of over 3 million terms from 43 standard terminologies.",
+   "evidence": "",
+   "effect_size": "over 3 million terms; 43 terminologies",
+   "effect_size_source_sentence": "OMOP maintains its own terminology dictionary, consisting of over 3 million terms from 43 standard terminologies.",
+   "n": null,
+   "study_system": "OMOP common data model / i2b2-to-OMOP transformation (All of Us)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.2196/13249",
+    "10.1093/jamiaopen/ooae045"
+   ],
+   "doi": "10.1371/journal.pone.0212463",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "MENDS-on-FHIR transformed OMOP-CDM data (4.38M patients; 3.24M in-cohort) into standards-based FHIR resources for chronic-disease surveillance.",
+   "claim_source_sentence": "From a total OMOP CDM patient population of 4.38 million, 3.24 million met the very broad MENDS cohort inclusion criteria.",
+   "evidence": "",
+   "effect_size": "4.38 million; 3.24 million",
+   "effect_size_source_sentence": "From a total OMOP CDM patient population of 4.38 million, 3.24 million met the very broad MENDS cohort inclusion criteria.",
+   "n": null,
+   "study_system": "OMOP CDM + HL7 FHIR interoperability pipeline for disease surveillance",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.2196/13249",
+    "10.1371/journal.pone.0212463"
+   ],
+   "doi": "10.1093/jamiaopen/ooae045",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Despite the BMJ's strong data-sharing policy, only 4.5% of 157 sampled research articles actually made raw data easily available.",
+   "claim_source_sentence": "The percentage of data easily available from the 157 articles was only 4.5% (95% CI 1.8% to 9%).",
+   "evidence": "",
+   "effect_size": "4.5% (95% CI 1.8% to 9%)",
+   "effect_size_source_sentence": "The percentage of data easily available from the 157 articles was only 4.5% (95% CI 1.8% to 9%).",
+   "n": 157,
+   "study_system": "BMJ research articles 2009-2015 (data-sharing audit)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s12916-022-02644-2",
+    "10.1136/bmj-2023-075767"
+   ],
+   "doi": "10.1136/bmjopen-2016-011784",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "A meta-analysis of 105 meta-research studies found only ~8% of 2016-2021 medical papers declared public data availability and just 2% actually shared data.",
+   "claim_source_sentence": "Aggregation of the findings of sufficiently similar studies suggested that on average, 8% of medical papers published between 2016 and 2021 declared that their data were publicly available and 2% actually shared their data publicly.",
+   "evidence": "",
+   "effect_size": "8% declared; 2% actual",
+   "effect_size_source_sentence": "Aggregation of the findings of sufficiently similar studies suggested that on average, 8% of medical papers published between 2016 and 2021 declared that their data were publicly available and 2% actually shared their data publicly.",
+   "n": 105,
+   "study_system": "Systematic review/meta-analysis of data & code sharing in medicine",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s12916-022-02644-2",
+    "10.1136/bmjopen-2016-011784"
+   ],
+   "doi": "10.1136/bmj-2023-075767",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "A systematic review of FAIR-supporting initiatives for precision oncology narrowed references to 60 for full-text analysis, then recommended existing standards (GDC, ICD, HGVS).",
+   "claim_source_sentence": "A full-text review was then performed on 60 references.",
+   "evidence": "",
+   "effect_size": "60 references",
+   "effect_size_source_sentence": "A full-text review was then performed on 60 references.",
+   "n": 60,
+   "study_system": "Precision oncology FAIR data-sharing initiatives (systematic literature review)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/bib/bbz044",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Image FAIR Digital Objects (iFDOs) plus supporting infrastructure met 36 of 41 Research Data Alliance FAIR recommendations for marine image data.",
+   "claim_source_sentence": "Of the 41 RDA recommendations, 36 are achieved, 2 are not viable in the image data context and 3 are in preparation for upcoming versions of the iFDO standard.",
+   "evidence": "",
+   "effect_size": "36 of 41 recommendations",
+   "effect_size_source_sentence": "Of the 41 RDA recommendations, 36 are achieved, 2 are not viable in the image data context and 3 are in preparation for upcoming versions of the iFDO standard.",
+   "n": null,
+   "study_system": "Marine underwater image data / FAIR digital objects",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s41597-022-01491-3",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "MicrO, an OBO-Foundry microbiology ontology, reuses >12,000 terms imported from 19 other OBO ontologies, linked by >24,130 logical axioms.",
+   "claim_source_sentence": "MicrO incorporates more than 12,000 additional relevant terms from 19 other ontologies in the OBO Foundry Library and these imported terms are connected to MicrO classes using a large number of logical axioms (over 24,130, with 5,446 specific to MicrO).",
+   "evidence": "",
+   "effect_size": ">12,000 imported terms; 19 ontologies; >24,130 axioms",
+   "effect_size_source_sentence": "MicrO incorporates more than 12,000 additional relevant terms from 19 other ontologies in the OBO Foundry Library and these imported terms are connected to MicrO classes using a large number of logical axioms (over 24,130, with 5,446 specific to MicrO).",
+   "n": null,
+   "study_system": "Prokaryotic phenotype/metabolic ontology (MicrO), OBO Foundry",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s13326-016-0060-6",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "The OBO-format Crop Ontology annotated 150 IMIS-database traits, matching 74 to the maize trait ontology and 35 to the Trait Ontology.",
+   "claim_source_sentence": "150 traits of the IMIS database were analysed using the subset maize trait ontology (CO_322) and TO; 74 traits were matched to those of maize trait ontology and 35 to those of TO",
+   "evidence": "",
+   "effect_size": "74 and 35 of 150 traits matched",
+   "effect_size_source_sentence": "150 traits of the IMIS database were analysed using the subset maize trait ontology (CO_322) and TO; 74 traits were matched to those of maize trait ontology and 35 to those of TO",
+   "n": 150,
+   "study_system": "Crop trait ontology (OBO format) for breeders' databases (CGIAR)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/aobpla/plq008",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "MIAME defines the minimum information required for microarray data to be interpretable and independently verifiable, seeding minimum-information reporting standards.",
+   "claim_source_sentence": "Here we present a proposal, the Minimum Information About a Microarray Experiment (MIAME), that describes the minimum information required to ensure that microarray data can be easily interpreted and that results derived from its analysis can be independently verified.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Microarray gene-expression reporting standard (MIAME)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1038/nbt1391",
+    "10.1089/omi.2006.10.231"
+   ],
+   "doi": "10.1038/ng1201-365",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "MISFISHIE (modeled on MIAME) specifies six categories of minimum information for in situ hybridization and immunohistochemistry experiments.",
+   "claim_source_sentence": "MISFISHIE describes six types of information to be provided for each experiment: experimental design, biomaterials and treatments, reporters, staining, imaging data and image characterizations.",
+   "evidence": "",
+   "effect_size": "six types of information",
+   "effect_size_source_sentence": "MISFISHIE describes six types of information to be provided for each experiment: experimental design, biomaterials and treatments, reporters, staining, imaging data and image characterizations.",
+   "n": null,
+   "study_system": "Gene-expression localization reporting standard (MISFISHIE)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/nbt1391",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "MIAPA proposes minimum reporting standards for phylogenetic analyses, explicitly modeled on the MIAME microarray standard.",
+   "claim_source_sentence": "Encouraged by the development of the Minimum Information About a Microarray Experiment (MIAME) standard, we propose a similar roadmap for the development of a Minimal Information About a Phylogenetic Analysis (MIAPA) standard.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Phylogenetic analysis reporting standard (MIAPA)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1089/omi.2006.10.231",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Chemistry argues that minimum-information standards, ELNs and LIMS are needed because paper notebooks and dead-end proprietary formats still dominate labs.",
+   "claim_source_sentence": "Thus, an agreement is needed on minimum information standards for data handling to support structured approaches to data reporting.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Research data management / minimum information standards in chemistry",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1002/anie.202203038",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The OBO Foundry was created to counter ontology proliferation, coordinating reform of ontologies (including the Gene Ontology) under shared development principles to enable data integration.",
+   "claim_source_sentence": "Unfortunately, the very success of this approach has led to a proliferation of ontologies, which itself creates obstacles to integration.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Open Biomedical Ontologies (OBO) Foundry",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s13326-016-0088-7",
+    "10.1093/bioinformatics/btt266"
+   ],
+   "doi": "10.1038/nbt1346",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The Gene Ontology provides structured controlled vocabularies for annotating genes, with a reference-genome effort to improve annotation quantity and quality.",
+   "claim_source_sentence": "To improve the quantity and quality of gene product annotations available from its public repository, the GO Consortium has launched a focused effort to provide comprehensive and detailed annotation of orthologous genes across a number of 'reference' genomes, including human and several key model organisms.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Gene Ontology project (controlled vocabularies for gene annotation)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1038/nbt1346",
+    "10.1371/journal.pone.0040519"
+   ],
+   "doi": "10.1093/nar/gkm883",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "An enrichment audit identified over 1900 nonalignments between terms across GO, ChEBI and the Cell Ontology, revealing gaps in cross-ontology logical definitions.",
+   "claim_source_sentence": "We describe a methodology by which we have identified over 1900 instances of nonredundant nonalignments between terms from the Gene Ontology (GO) biological process (BP), cellular component (CC) and molecular function (MF) ontologies, Chemical Entities of Biological Interest (ChEBI) and the Cell Type Ontology (CL).",
+   "evidence": "",
+   "effect_size": "over 1900 nonalignments",
+   "effect_size_source_sentence": "We describe a methodology by which we have identified over 1900 instances of nonredundant nonalignments between terms from the Gene Ontology (GO) biological process (BP), cellular component (CC) and molecular function (MF) ontologies, Chemical Entities of Biological Interest (ChEBI) and the Cell Type Ontology (CL).",
+   "n": null,
+   "study_system": "Cross-ontology alignment among GO, ChEBI, Cell Ontology",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/bioinformatics/btn194",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "An audit of GO molecular-function annotations estimated 64% of UniProtKB proteins are incompletely annotated and inconsistencies affect 83% of functions and >=23% of proteins.",
+   "claim_source_sentence": "Based on our analysis, we estimate that 64% of the UniProtKB proteins are incompletely annotated, and that inconsistent annotations affect 83% of the protein functions and at least 23% of the proteins.",
+   "evidence": "",
+   "effect_size": "64% incomplete; 83% of functions; >=23% of proteins inconsistent",
+   "effect_size_source_sentence": "Based on our analysis, we estimate that 64% of the UniProtKB proteins are incompletely annotated, and that inconsistent annotations affect 83% of the protein functions and at least 23% of the proteins.",
+   "n": null,
+   "study_system": "Gene Ontology molecular-function annotations of UniProtKB proteins",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s12859-021-04479-9"
+   ],
+   "doi": "10.1371/journal.pone.0040519",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A text-mining study formalises four distinct types of Gene Ontology annotation inconsistency, aiming to automatically flag inconsistent annotations as literature and the vocabulary grow.",
+   "claim_source_sentence": "In this work, we introduce a formalisation of biological database annotation inconsistencies, identifying four distinct types of inconsistency.",
+   "evidence": "",
+   "effect_size": "four distinct types",
+   "effect_size_source_sentence": "In this work, we introduce a formalisation of biological database annotation inconsistencies, identifying four distinct types of inconsistency.",
+   "n": null,
+   "study_system": "Literature-based Gene Ontology annotation consistency (BC4GO corpus)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s12859-021-04479-9",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The FaceBase craniofacial data repository shows a self-curation model can deliver FAIR, reusable data at scale.",
+   "claim_source_sentence": "FaceBase demonstrates that a model in which researchers \"self-curate\" their data can be successful and scalable.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Craniofacial/dental FAIR data repository (FaceBase Consortium)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1177/00220345221107905",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "ImmuneData unifies five NIAID immunology repositories (ImmPort, ImmuneSpace, ITN TrialShare, ImmGen, IEDB) under one ontology-driven schema to support FAIR data reuse.",
+   "claim_source_sentence": "The system provides integrated access to five immunology data repositories funded by the National Institute of Allergy and Infectious Diseases, Division of Allergy, Immunology and Transplantation, including ImmPort, ImmuneSpace, ITN TrialShare, ImmGen and IEDB.",
+   "evidence": "",
+   "effect_size": "five repositories",
+   "effect_size_source_sentence": "The system provides integrated access to five immunology data repositories funded by the National Institute of Allergy and Infectious Diseases, Division of Allergy, Immunology and Transplantation, including ImmPort, ImmuneSpace, ITN TrialShare, ImmGen and IEDB.",
+   "n": null,
+   "study_system": "Immunology data discovery across five repositories (ImmuneData)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/database/baac003",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Despite billions in public investment in nanosafety research, reuse of accumulated nanosafety data lags, motivating a FAIR-aligned Nanosafety Data Interface.",
+   "claim_source_sentence": "Nanotechnology is a key enabling technology with billions of euros in global investment from public funding, which include large collaborative projects that have investigated environmental and health safety aspects of nanomaterials, but the reuse of accumulated data is clearly lagging behind.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Nanosafety data (physicochemical, toxicity, omics, exposure)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s41565-021-00911-6",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Of 79 otolaryngology journals with data-sharing policies, 91% required globally unique persistent metadata identifiers but there were clear gaps in accessibility and reusability.",
+   "claim_source_sentence": "Seventy-two policies (of 79; 91%) designated that metadata should have globally unique and persistent identifiers.",
+   "evidence": "",
+   "effect_size": "72/79, 91%",
+   "effect_size_source_sentence": "Seventy-two policies (of 79; 91%) designated that metadata should have globally unique and persistent identifiers.",
+   "n": 100,
+   "study_system": "Otolaryngology journal data-sharing policies vs FAIR principles",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1177/00034894231185642",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Of 1792 papers whose data-availability statement promised sharing, 93% of authors did not respond or declined, and only 6.8% provided data.",
+   "claim_source_sentence": "Among 1792 manuscripts in which the DAS indicated that authors are willing to share their data, 1669 (93%) authors either did not respond or declined to share their data with us.",
+   "evidence": "",
+   "effect_size": "1669/1792, 93% did not share",
+   "effect_size_source_sentence": "Among 1792 manuscripts in which the DAS indicated that authors are willing to share their data, 1669 (93%) authors either did not respond or declined to share their data with us.",
+   "n": 3556,
+   "study_system": "Data-availability statements in 333 BioMed Central open-access journals",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s12916-022-02644-2",
+    "10.1136/bmjopen-2016-011784"
+   ],
+   "doi": "10.1016/j.jclinepi.2022.05.019",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Among 1,084 articles in top orthopaedic journals (2020-2023) only 14% carried a data-sharing statement, and just 12 of 115 contacted authors agreed to share.",
+   "claim_source_sentence": "Of the 1,084 reviewed articles, only 14% included a DSS.",
+   "evidence": "",
+   "effect_size": "14% of 1,084",
+   "effect_size_source_sentence": "Of the 1,084 reviewed articles, only 14% included a DSS.",
+   "n": 1084,
+   "study_system": "Top orthopaedic journals data-sharing statements (2020-2023)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1136/bmjopen-2024-092490",
+    "10.1186/s12916-022-02644-2"
+   ],
+   "doi": "10.2106/JBJS.24.00955",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In leading gastroenterology journals (2018-2023), 42% of 953 articles contained a data-sharing statement, with journals with mandatory policies showing higher compliance.",
+   "claim_source_sentence": "Of the 953 articles that met inclusion criteria, 400 (400/953; 42.0%) contained a DSS.",
+   "evidence": "",
+   "effect_size": "400/953, 42.0%",
+   "effect_size_source_sentence": "Of the 953 articles that met inclusion criteria, 400 (400/953; 42.0%) contained a DSS.",
+   "n": 953,
+   "study_system": "Gastroenterology journal data-sharing statements (2018-2023)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.2106/JBJS.24.00955",
+    "10.1186/s12916-022-02644-2"
+   ],
+   "doi": "10.1136/bmjopen-2024-092490",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A critique argues that universal mandatory raw-data-sharing mandates are ill-suited to qualitative research and can harm rigorous, ethical practice.",
+   "claim_source_sentence": "Overall, we argue that universal open raw data mandates cannot adequately represent the diversity of qualitative research, and that MIRD may harm rigorous and ethical research practice within health psychology and beyond.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Mandatory data-sharing policy critique (qualitative health-psychology research)",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [
+    "10.1136/bmj-2023-075767"
+   ],
+   "doi": "10.1177/13591053231225903",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Electronic laboratory notebooks meet data volume, complexity, accessibility and preservation needs better than paper notebooks, if the system fits the research context.",
+   "claim_source_sentence": "These systems can more readily meet volume, complexity, accessibility and preservation requirements than paper notebooks.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Electronic laboratory notebooks in academic research environments",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s41596-021-00645-8",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A well-designed ELN implemented in a GLP/regulated bioanalytical lab improved efficiency, productivity and regulatory compliance and turned individual data into department knowledge.",
+   "claim_source_sentence": "By taking into consideration both data generation and project documentation needs, a well-designed ELN can deliver significant improvements in laboratory efficiency, work productivity, and regulatory compliance.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Electronic lab notebook in GLP/regulated bioanalytical laboratory",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.4155/bio.11.116",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A systematic review frames the absence of career incentives (beyond publication/citation counts) as the rate-limiting barrier to biomedical data sharing.",
+   "claim_source_sentence": "The lack of incentives has been described as the rate-limiting step for data sharing.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Incentive mechanisms for biomedical data sharing (systematic review)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0117619"
+   ],
+   "doi": "10.1089/bio.2020.0037",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A survey of ~250 researchers found few expect published data to be peer-reviewed, yet peer-reviewed data commanded much greater trust and prestige; formal citation was the favored credit mechanism.",
+   "claim_source_sentence": "Few respondents expected published data to be peer-reviewed, but peer-reviewed data enjoyed much greater trust and prestige.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Researcher attitudes to data publication and peer review (survey)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pone.0117619",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "An interoperable similarity-based cohort-identification method built on the OMOP Common Data Model achieved AUC 0.966 across six clinical trials, portable to any OMOP site.",
+   "claim_source_sentence": "Our algorithm achieves an average Area Under the Curve (AUC) of 0.966 and an average Precision at 5 of 0.983.",
+   "evidence": "",
+   "effect_size": "AUC 0.966; Precision@5 0.983",
+   "effect_size_source_sentence": "Our algorithm achieves an average Area Under the Curve (AUC) of 0.966 and an average Precision at 5 of 0.983.",
+   "n": null,
+   "study_system": "OMOP Common Data Model cohort identification (6 clinical trials)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1007/s41666-017-0005-6",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The eTRANSAFE IMI consortium produced FAIR data-sharing and model-verification guidelines to integrate curated and newly generated preclinical drug-safety data across partners.",
+   "claim_source_sentence": "The research reproducibility guidelines presented in this study lay the foundation for a comprehensive data sharing and knowledge management plans accounting for research data management in the drug safety space - FAIR data sharing guidelines, and the model verification guidelines as generic deliverables that best practices that can be reused by other scientific community members at large.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Translational drug-safety data integration (eTRANSAFE, IMI)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.12688/f1000research.74024.1",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The Rat Genome Database has grown from a rat-only resource into a FAIR multi-organism translational resource (rat plus human and eight model organisms).",
+   "claim_source_sentence": "Collectively, RGD focuses on providing a continuously improving, consistent, and high-quality data resource for researchers while advancing data reproducibility and fulfilling Findable, Accessible, Interoperable, and Reusable (FAIR) data principles.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Rat Genome Database (FAIR multi-organism model-organism resource)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/genetics/iyad042",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The TRUST Principles (Transparency, Responsibility, User focus, Sustainability, Technology) frame repository trustworthiness as requiring ongoing external audit and certification, not a one-off status.",
+   "claim_source_sentence": "Trustworthiness is not a one-off achievement; it cannot be taken for granted without regular audit and certification.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Digital data repositories / repository certification (TRUST Principles)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s41597-020-0486-7",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Most Gene Ontology annotations are generated by automated electronic inference (IEA) rather than expert literature curation, so the bulk of GO annotation is broad and not experimentally verified.",
+   "claim_source_sentence": "These IEA annotations account for more than 90% of GO annotations and the basis for these annotations is continually reviewed so that all IEA annotations are updated on a weekly basis.",
+   "evidence": "",
+   "effect_size": "more than 90%",
+   "effect_size_source_sentence": "These IEA annotations account for more than 90% of GO annotations and the basis for these annotations is continually reviewed so that all IEA annotations are updated on a weekly basis.",
+   "n": null,
+   "study_system": "Gene Ontology annotations across nine model eukaryotes (EBI-GOA)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0040519",
+    "10.1093/genetics/iyae027"
+   ],
+   "doi": "10.1093/nar/gkm1167",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "A decade-long undergraduate crowdsourcing competition (CACAO) added nearly 5,000 high-quality literature-based Gene Ontology annotations, showing community biocuration can scale expert annotation.",
+   "claim_source_sentence": "Here, we describe the successful implementation over nearly a decade of a university instruction-based model resulting in nearly 5,000 high-quality community annotations added to the GO database.",
+   "evidence": "",
+   "effect_size": "nearly 5,000 annotations",
+   "effect_size_source_sentence": "Here, we describe the successful implementation over nearly a decade of a university instruction-based model resulting in nearly 5,000 high-quality community annotations added to the GO database.",
+   "n": null,
+   "study_system": "Crowdsourced GO biocuration (CACAO/GONUTS, undergraduate teams)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pcbi.1009463",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "A DIGE proteomics study of salbutamol effects on rat muscle was published as an exemplar of MIAPE-compliant data deposition in PRIDE, identifying 31 non-redundant proteins at 24 h (and 110 at 96 h).",
+   "claim_source_sentence": "At the 24 h time point 17 spots of interest were identified: 4 spots were down-regulated, 13 spots up-regulated from which 31 non-redundant proteins were identified [Additional file].",
+   "evidence": "",
+   "effect_size": "31 non-redundant proteins (24 h); 110 (96 h)",
+   "effect_size_source_sentence": "At the 24 h time point 17 spots of interest were identified: 4 spots were down-regulated, 13 spots up-regulated from which 31 non-redundant proteins were identified [Additional file].",
+   "n": null,
+   "study_system": "Rat skeletal muscle DIGE proteomics; MIAPE-compliant PRIDE deposition",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/1756-0500-4-86",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Vaxjo 2.0 used an LLM-assisted, manually reviewed pipeline to compile 448 ontology-represented vaccine adjuvants into a structured knowledge base.",
+   "claim_source_sentence": "Using the annotation pipeline defined in, the Vaxjo 2.0 development team collected and annotated a total of 448 vaccine adjuvants, derived from various resources.",
+   "evidence": "",
+   "effect_size": "448 vaccine adjuvants",
+   "effect_size_source_sentence": "Using the annotation pipeline defined in, the Vaxjo 2.0 development team collected and annotated a total of 448 vaccine adjuvants, derived from various resources.",
+   "n": null,
+   "study_system": "Vaccine adjuvant knowledge base (Vaxjo 2.0) with Vaccine Ontology + LLM curation",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.3389/fcimb.2026.1763384",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "DisProt 9 grew curated intrinsic-disorder content ~30% and improved reliability via a new reviewing process, adopting the Minimum Information About Disorder Experiments (MIADE) standard and crediting curators through APICURON.",
+   "claim_source_sentence": "PROGRESS AND NEW FEATURES Database content DisProt 9 includes 2038 protein entries and 4,477 pieces of evidence of state transitions, interactions and functions, featuring a 30% increase over the last release (DisProt 8), along with 2578 publications annotated, accounting for a 28% increase compared with DisProt 8.",
+   "evidence": "",
+   "effect_size": "2038 entries; 30% increase",
+   "effect_size_source_sentence": "PROGRESS AND NEW FEATURES Database content DisProt 9 includes 2038 protein entries and 4,477 pieces of evidence of state transitions, interactions and functions, featuring a 30% increase over the last release (DisProt 8), along with 2578 publications annotated, accounting for a 28% increase compared with DisProt 8.",
+   "n": null,
+   "study_system": "Intrinsically disordered protein database (DisProt 9), MIADE standard",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/nar/gkab1082",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "A co-annotation-pattern QC system (Term Matrix) detected and corrected large numbers of erroneous GO annotations, including over 380,000 inferred annotations traced to 54 InterPro2GO mapping errors.",
+   "claim_source_sentence": "Fifty-four InterPro2GO mappings were corrected, affecting over 5900 annotations in the GOC database and over 380 000 inferred annotations across all species in the GOA dataset (calculated from family size in InterPro version 77).",
+   "evidence": "",
+   "effect_size": "over 380,000 inferred annotations corrected",
+   "effect_size_source_sentence": "Fifty-four InterPro2GO mappings were corrected, affecting over 5900 annotations in the GOC database and over 380 000 inferred annotations across all species in the GOA dataset (calculated from family size in InterPro version 77).",
+   "n": null,
+   "study_system": "Gene Ontology annotation QC (Term Matrix, co-annotation rules)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1093/nar/gkm1167",
+    "10.1371/journal.pone.0040519"
+   ],
+   "doi": "10.1098/rsob.200149",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "In computational drug discovery, electronic laboratory notebooks are increasingly replacing paper records, driven by the need to organize growing volumes of biological data and support reproducibility.",
+   "claim_source_sentence": "Scientists are increasingly adopting the use of eLNs in their research laboratories owing to the inherent need to organize the growing volume of biological data [].",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Electronic laboratory notebooks in computational drug discovery / cheminformatics",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s13321-020-0408-x",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "A rule-based ETL converted a Traditional Korean Medicine hospital EHR (88,449 patients) into the OMOP CDM, requiring bespoke terminology extensions for concepts absent from standard vocabularies.",
+   "claim_source_sentence": "The WKTKM database established through this study contains the records of 88,449 patients, which is the first large-scale dataset converted to OMOP CDM in the field of oriental medicine.",
+   "evidence": "",
+   "effect_size": "88,449 patients",
+   "effect_size_source_sentence": "The WKTKM database established through this study contains the records of 88,449 patients, which is the first large-scale dataset converted to OMOP CDM in the field of oriental medicine.",
+   "n": 88449,
+   "study_system": "Traditional Korean Medicine hospital EHR -> OMOP CDM",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.3390/cancers15164059",
+    "10.3389/fdata.2024.1435510"
+   ],
+   "doi": "10.1186/s12911-026-03418-z",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "A student reanalysis of six PRIDE proteomics deposits found systemic metadata/format gaps produced large discrepancies (13,068 vs 4,923 proteins), showing open-access deposition does not guarantee reusability ('data tombs').",
+   "claim_source_sentence": "In contrast, the team's search identified 13,068 unique proteins after filtering.",
+   "evidence": "",
+   "effect_size": "13,068 (reanalysis) vs 4,923 (original) proteins",
+   "effect_size_source_sentence": "In contrast, the team's search identified 13,068 unique proteins after filtering.",
+   "n": null,
+   "study_system": "Reanalysis of six public PRIDE proteomics projects",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s41597-026-06614-8",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Embedding Schema.org/JSON-LD machine-readable metadata (with DDI and OMOP CDM) made population-health datasets from Malawi and Kenya discoverable via generic search engines, improving FAIRness and reuse.",
+   "claim_source_sentence": "Our structured representation methodology makes the IDSR data set easily discoverable through platforms such as Google Dataset Search.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Population-health surveillance data (Malawi, Kenya); machine-readable metadata + OMOP",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.2196/56237",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "In the curated TAIR reference plant genome, even the best-covered GO aspect (cellular component) had experimental or predicted localization for only 90% of the proteome, underscoring persistent functional-annotation gaps.",
+   "claim_source_sentence": "The most well-annotated aspect is the GO cellular component with 90% of the proteome having either experimental or predicted localization.",
+   "evidence": "",
+   "effect_size": "90% (cellular component)",
+   "effect_size_source_sentence": "The most well-annotated aspect is the GO cellular component with 90% of the proteome having either experimental or predicted localization.",
+   "n": null,
+   "study_system": "Arabidopsis reference genome GO annotation (TAIR 2024)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/genetics/iyae027",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Manual biocuration underlies the Comparative Toxicogenomics Database: curators read the literature and hand-code chemical-gene, chemical-disease and gene-disease interactions using controlled vocabularies.",
+   "claim_source_sentence": "To help build the curation content of CTD, biocurators read the scientific literature and manually curate three types of molecular interactions: chemical-gene, chemical-disease and gene-disease relationships ().",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Comparative Toxicogenomics Database (manual literature curation)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/database/bar034",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "MIAPE defines the minimum information the HUPO Proteomics Standards Initiative recommends for reporting proteomics experiments (e.g., gel electrophoresis, mass spectrometry) to enable standardized storage and dissemination.",
+   "claim_source_sentence": "To encourage the standardized collection, integration, storage and dissemination of proteomics data, the Human Proteome Organization's Proteomics Standards Initiative develops guidance modules for reporting the use of techniques such as gel electrophoresis and mass spectrometry.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Proteomics minimum-information reporting standard (MIAPE)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1002/pmic.200600549",
+    "10.1016/j.jprot.2013.02.026"
+   ],
+   "doi": "10.1038/nbt1329",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The MIAPE specification codifies the appropriate level of detail for describing each component of a proteomics experiment, developed by the HUPO-PSI community.",
+   "claim_source_sentence": "These guidelines are codified as the MIAPE (Minimum Information About a Proteomics Experiment) specification, the first modules of which are now finalized.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Proteomics minimum-information reporting standard (MIAPE primer)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1038/nbt1329",
+    "10.1016/j.jprot.2013.02.026"
+   ],
+   "doi": "10.1002/pmic.200600549",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The MIAPE Quant module specifies the minimum information for quantitative mass-spectrometry proteomics so a dataset can be critically analyzed or a pipeline reproduced when submitted to a database or journal.",
+   "claim_source_sentence": "The MIAPE Quant guidelines describe the HUPO-PSI proposal concerning the minimum information to be reported when a quantitative data set, derived from mass spectrometry (MS), is submitted to a database or as supplementary information to a journal.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Quantitative proteomics reporting standard (MIAPE Quant / mzQuantML)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1038/nbt1329",
+    "10.1002/pmic.200600549"
+   ],
+   "doi": "10.1016/j.jprot.2013.02.026",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "GelML is the HUPO-PSI XML data-exchange format that operationalizes the MIAPE gel-electrophoresis reporting guidelines so gel proteomics data can be captured and exchanged with public repositories.",
+   "claim_source_sentence": "The Human Proteome Organisation's Proteomics Standards Initiative has developed the GelML (gel electrophoresis markup language) data exchange format for representing gel electrophoresis experiments performed in proteomics investigations.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Gel electrophoresis proteomics data-exchange format (GelML)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1002/pmic.201000120",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A proposed kidney-disease minimum-information reporting guideline (drawing on PhenX and MIAPE) was validated by 53 domain-specialist survey respondents and mapped to existing ontologies.",
+   "claim_source_sentence": "The online survey was completed by 53 respondents; the majority of respondents were dual clinician-researchers (57%), based in Australia (35%), Africa (33%) and North America (22%).",
+   "evidence": "",
+   "effect_size": "53 respondents",
+   "effect_size_source_sentence": "The online survey was completed by 53 respondents; the majority of respondents were dual clinician-researchers (57%), based in Australia (35%), Africa (33%) and North America (22%).",
+   "n": 53,
+   "study_system": "Kidney-disease research/clinical data reporting guideline",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1136/bmjopen-2019-029539",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "MIABE proposes minimum reporting guidelines for bioactive entities (drugs, pesticides, food additives), developed by pharma, data providers and academics to make compound bioactivity data mineable.",
+   "claim_source_sentence": "Here, we propose a solution: the definition of reporting guidelines for bioactive entities - the Minimum Information About a Bioactive Entity (MIABE) - which has been developed by representatives of pharmaceutical companies, data resource providers and academic groups.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Bioactive-entity minimum-information reporting standard (MIABE)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/nrd3503",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "AiiDAlab reports integrating provenance-tracked computational workflows with electronic laboratory notebooks for FAIR-compliant data management across scientific domains.",
+   "claim_source_sentence": "We present recent developments toward integrating with electronic laboratory notebooks (ELNs) for FAIR-compliant data management, adoption in large-scale facilities for secure access to experimental data and analytical tools, and applications in educational settings.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Reproducible computational workflow platform + ELN integration (AiiDAlab)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1039/d5dd00567a",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "An open-science drug-discovery data roadmap argues robust reuse requires precise ontologies and standardized vocabularies plus centralized, mine-able electronic lab notebooks.",
+   "claim_source_sentence": "Robust data management requires precise ontologies and standardized vocabulary while a centralized database architecture across laboratories facilitates data integration into high-value datasets.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Open-science early-stage drug discovery data management (SGC roadmap)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s41467-024-49777-x",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A FAIR assessment of two OMOP-CDM ICU databases on the EHDEN portal scored only 15.5 and 12 out of 25, with the main gaps being missing globally unique identifiers and weak metadata standardization.",
+   "claim_source_sentence": "The total scores achieved were 15.5 and 12 out of a maximum of 25.",
+   "evidence": "",
+   "effect_size": "15.5 and 12 of 25",
+   "effect_size_source_sentence": "The total scores achieved were 15.5 and 12 out of a maximum of 25.",
+   "n": null,
+   "study_system": "FAIRness of OMOP-CDM ICU databases on the EHDEN portal",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1016/j.ijmedinf.2023.105104",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The Protein Circular Dichroism Data Bank (PCDDB) archives CD spectra with curated experimental metadata, with every entry passing validation and curation for completeness and quality.",
+   "claim_source_sentence": "All entries undergo validation and curation procedures to ensure completeness, consistency and quality of the data included.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Protein circular dichroism spectral repository (PCDDB)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/nar/gkq1026",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A published dataset deposited HLA-A nanopore sequencing for 64 people living with HIV (32 with, 32 without periodontitis) in NCBI SRA and Figshare explicitly to enable reuse.",
+   "claim_source_sentence": "The dataset includes nanopore sequencing data (FASTQ format) for HLA-A alleles obtained from 64 PLWH participants (32 with periodontitis and 32 without).",
+   "evidence": "",
+   "effect_size": "64 participants",
+   "effect_size_source_sentence": "The dataset includes nanopore sequencing data (FASTQ format) for HLA-A alleles obtained from 64 PLWH participants (32 with periodontitis and 32 without).",
+   "n": 64,
+   "study_system": "HLA-A/periodontitis dataset in SRA + Figshare (data reuse example)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s13104-025-07590-9",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The INSPIRE project integrated heterogeneous longitudinal African mental-health data into a staging database using DDI-Lifecycle and OMOP CDM vocabularies to enable standardized sharing.",
+   "claim_source_sentence": "Adherence to metadata standards ensures data quality, promotes interoperability, and expands opportunities for data sharing in mental health research.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Longitudinal mental-health data harmonization (INSPIRE, DDI + OMOP)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s12911-026-03418-z",
+    "10.2196/56237"
+   ],
+   "doi": "10.3389/fdata.2024.1435510",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The ASH Research Collaborative Data Hub built disease-specific real-world-data models in myeloma and sickle cell disease using OMOP CDM and HL7 FHIR standards to support a learning health system.",
+   "claim_source_sentence": "Initial models have been built in multiple myeloma (MM) and sickle cell disease (SCD) using the Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM) and Fast Healthcare Interoperability Resources (FHIR) standards.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Hematology real-world-data infrastructure (ASH RC Data Hub, OMOP + FHIR)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1182/bloodadvances.2021005902",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A clinical-research-informatics review of 517 papers concluded the field's dominant thrust is real-world-evidence generation through reuse of EHR data, enabled by OMOP-style semantic interoperability.",
+   "claim_source_sentence": "The most significant research efforts in the CRI field are currently focusing on real world evidence generation and especially the reuse of EHR data.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Clinical research informatics field survey (EHR data reuse, OMOP)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1055/s-0040-1702007",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A GREEKC/GO collaboration produced a curated catalogue of over 1400 human DNA-binding transcription factors and propagated GO annotation to almost sixty thousand such factors across over a hundred species.",
+   "claim_source_sentence": "This catalogue has facilitated an improvement in the GO annotation of human DNA-binding transcription factors and led to the GO annotation of almost sixty thousand DNA-binding transcription factors in over a hundred species.",
+   "evidence": "",
+   "effect_size": "~60,000 factors; >100 species",
+   "effect_size_source_sentence": "This catalogue has facilitated an improvement in the GO annotation of human DNA-binding transcription factors and led to the GO annotation of almost sixty thousand DNA-binding transcription factors in over a hundred species.",
+   "n": null,
+   "study_system": "GO curation of DNA-binding transcription factors (GREEKC/GO)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1016/j.bbagrm.2021.194765",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The Evidence and Conclusion Ontology (ECO) supplies over 1500 terms capturing the evidence behind biological assertions, and is used by the Gene Ontology, UniProt and many model-organism databases to track annotation provenance and quality.",
+   "claim_source_sentence": "ECO contains over 1500 terms and is in use by many leading biological resources including the Gene Ontology, UniProt and several model organism databases.",
+   "evidence": "",
+   "effect_size": "over 1500 terms",
+   "effect_size_source_sentence": "ECO contains over 1500 terms and is in use by many leading biological resources including the Gene Ontology, UniProt and several model organism databases.",
+   "n": null,
+   "study_system": "Evidence & Conclusion Ontology (ECO) for annotation provenance",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1007/978-1-4939-3743-1_18"
+   ],
+   "doi": "10.1093/nar/gky1036",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "HPIDB 2.0 provides 45,238 manually curated host-pathogen molecular-interaction entries meeting IMEx community annotation standards.",
+   "claim_source_sentence": "HPIDB 2.0 (http://www.agbase.msstate.edu/hpi/main.html) is a resource for HPI data, and contains 45, 238 manually curated entries in the current release.",
+   "evidence": "",
+   "effect_size": "45,238 curated entries",
+   "effect_size_source_sentence": "HPIDB 2.0 (http://www.agbase.msstate.edu/hpi/main.html) is a resource for HPI data, and contains 45, 238 manually curated entries in the current release.",
+   "n": null,
+   "study_system": "Host-pathogen interaction database (HPIDB 2.0, IMEx standards)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/database/baw103",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A systematic assessment of 253 omics studies (164,000+ samples) found public metadata is markedly incomplete: on average only 74.8% of important phenotypes were shared, limiting reuse and reproducibility.",
+   "claim_source_sentence": "We observed that studies often omit over a quarter of important phenotypes, with an average of only 74.8% of them shared either in the text of publication or the corresponding repository.",
+   "evidence": "",
+   "effect_size": "74.8% of phenotypes shared",
+   "effect_size_source_sentence": "We observed that studies often omit over a quarter of important phenotypes, with an average of only 74.8% of them shared either in the text of publication or the corresponding repository.",
+   "n": 253,
+   "study_system": "Metadata completeness of omics studies in Gene Expression Omnibus",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1038/s41597-026-06614-8",
+    "10.1016/j.ijmedinf.2023.105104"
+   ],
+   "doi": "10.1101/2021.11.22.469640",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Curation of the ChEMBL bioactivity database is a mixed manual/automated effort that standardises activity measurements to common types and units and flags outliers, ambiguities and potential errors to improve data integrity.",
+   "claim_source_sentence": "Importantly, a curated linkage between indexed 2D chemical structures and biological targets is provided, whereby measurements are standardised to common types and units, where possible.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "ChEMBL public bioactivity database curation and quality",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1007/s10822-015-9860-5",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "The LINCS program defined metadata specifications with controlled vocabularies and minimum-information checklists, recommending them for adoption beyond LINCS to make high-throughput screening data interoperable.",
+   "claim_source_sentence": "Types of standards that are relevant for reporting biological screening experiments and results include i) minimum information checklists, ii) controlled vocabularies and ontologies, and iii) data format specifications.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "LINCS high-throughput screening metadata standard",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1093/jamia/ocv001"
+   ],
+   "doi": "10.1177/1087057114522514",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "The Nanomaterial Data Curation Initiative argues that assessing whether curated nanomaterial data are sufficiently complete and of acceptable quality is non-trivial, requiring minimum-information checklists and quality schemes.",
+   "claim_source_sentence": "The current paper addresses the question of how to evaluate the degree to which curated nanomaterial data are \"sufficiently complete\" and of \"acceptable quality\".",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Nanomaterial data curation completeness/quality evaluation",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1039/c5nr08944a",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "The HUPO Proteomics Standards Initiative frames its output as five deliverable categories - minimum information guidelines, data formats, controlled vocabularies, resources/software, and dissemination - that accelerated proteomics by enabling data exchange and repository deposition.",
+   "claim_source_sentence": "The PSI has 5 categories of deliverables that have guided the group.",
+   "evidence": "",
+   "effect_size": "5 categories",
+   "effect_size_source_sentence": "The PSI has 5 categories of deliverables that have guided the group.",
+   "n": null,
+   "study_system": "HUPO Proteomics Standards Initiative data-representation standards",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1038/nbt1329",
+    "10.1016/j.jprot.2013.02.026"
+   ],
+   "doi": "10.1093/jamia/ocv001",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "canSAR integrates public biological annotation, chemical screening, RNAi screening, expression and 3D structural data into a single cancer translational-research and drug-discovery resource.",
+   "claim_source_sentence": "canSAR is a fully integrated cancer research and drug discovery resource developed to utilize the growing publicly available biological annotation, chemical screening, RNA interference screening, expression, amplification and 3D structural data.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Integrated cancer translational-research/drug-discovery database (canSAR)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/nar/gkr881",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "OpenNeuro (a FAIR, BIDS-standard neuroimaging archive) shares more than 600 datasets from over 20,000 participants and documents more than 150 published reuses, providing rare direct evidence that standardized deposition yields downstream reuse.",
+   "claim_source_sentence": "The impact of the shared data is evident in a growing number of published reuses, currently totalling more than 150 publications.",
+   "evidence": "",
+   "effect_size": "more than 150 reuse publications; >600 datasets; >20,000 participants",
+   "effect_size_source_sentence": "The impact of the shared data is evident in a growing number of published reuses, currently totalling more than 150 publications.",
+   "n": null,
+   "study_system": "OpenNeuro FAIR neuroimaging data archive (BIDS standard)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.7554/eLife.71774",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A systematic review of COVID-19 datasets found only 28.5% of 12,324 PubMed Central full-text articles linked any dataset, with substantial heterogeneity in how datasets were shared, hosted and cited.",
+   "claim_source_sentence": "We found that 28.5% of 12 324 COVID-19 full-text articles in PubMed Central provided at least one dataset link.",
+   "evidence": "",
+   "effect_size": "28.5% of 12,324 articles",
+   "effect_size_source_sentence": "We found that 28.5% of 12 324 COVID-19 full-text articles in PubMed Central provided at least one dataset link.",
+   "n": 12324,
+   "study_system": "COVID-19 dataset sharing in PubMed Central articles (systematic review)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1016/j.jclinepi.2022.05.019",
+    "10.1136/bmj-2023-075767"
+   ],
+   "doi": "10.1093/bib/bbaa331",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Analysis of GDPR/DGA/EHDS shows EU regulations aim to enable cross-border health-data access and consent-based data altruism, but for rare diseases the secondary-use framework and genomic/biobank exceptions create a fragmented legal landscape.",
+   "claim_source_sentence": "These regulations open opportunities to enhance cross-border data access, the promotion of data altruism, and the development of data governance models facilitating biomedical research.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "EU health-data regulation (GDPR, Data Governance Act, European Health Data Space) applied to rare-disease research",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1163/15718093-bja10169",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Because Italy has one of Europe's most restrictive frameworks for genetic data, misaligned regulation means accessing biobank data to train AI systems will be severely limited without reform.",
+   "claim_source_sentence": "We conclude by arguing that currently, regulatory frameworks are misaligned and unless addressed, accessing data within Italian biobanks to train AI will be severely limited.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Italian population biobanks; secondary use of biobank data for AI training",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1007/s41649-024-00282-9",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "An assessment of 27 longitudinal population-health cohorts found data can generally be shared for secondary use, but purposes and preconditions are highly variable, and heterogeneous use conditions impede pooling for common reuse.",
+   "claim_source_sentence": "The data use and data sharing conditions applicable to 27 population health cohorts were assessed.",
+   "evidence": "",
+   "effect_size": "27 population-health cohorts assessed",
+   "effect_size_source_sentence": "The data use and data sharing conditions applicable to 27 population health cohorts were assessed.",
+   "n": 27,
+   "study_system": "27 longitudinal population-health cohorts (consent/governance documents)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1089/bio.2020.0171",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "An online survey of European biobank professionals probed secondary use of data, re-contacting participants, and sharing with industry, revealing a need to improve informed-consent procedures and legal guidance for data/sample sharing.",
+   "claim_source_sentence": "We conducted an online survey among biobankers and researchers to investigate secondary use of data, informing and/or re-contacting participants, sharing of data with third parties from industry, participant engagement, and collaboration with industrial partners.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "European biobank professionals (BBMRI network survey)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pone.0221496",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Despite near-universal policy backing for open access in genomics, repositories of human data and samples may need to operate under managed access to protect privacy and honor participant consent, showing open-data ideals collide with human-subject constraints.",
+   "claim_source_sentence": "A commitment to open access in genomics research has found almost universal backing in science and health policy circles, but repositories of data and samples from human subjects may have to operate under managed access, to protect privacy, align with participant consent and ensure that the resource can be managed in a sustainable way.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Generation Scotland genomics biobank (access governance)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s12910-017-0240-7",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A content analysis of 30 ethics regulatory documents from 22 African countries found governance frameworks for genomic sample and data sharing were the most sparsely covered aspect, leaving researchers and ethics committees without adequate guidance.",
+   "claim_source_sentence": "We sourced 30 ethics regulatory documents from 22 African countries.",
+   "evidence": "",
+   "effect_size": "30 ethics regulatory documents from 22 African countries",
+   "effect_size_source_sentence": "We sourced 30 ethics regulatory documents from 22 African countries.",
+   "n": 30,
+   "study_system": "Ethics guidelines/policies from 22 African countries (genomics & biobanking)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s12910-016-0165-6",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A survey of user-defined metadata in the LabTrove electronic lab notebook found many users make little effort to add metadata, endangering their ability to recover data later, despite the ELN providing metadata infrastructure.",
+   "claim_source_sentence": "The findings indicate that while some groups are comfortable with metadata and are able to design a metadata structure that works effectively, many users are making little attempts to use it, thereby endangering their ability to recover data in the future.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "LabTrove electronic lab notebook (University of Southampton); metadata-usage survey",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1021/ci500469f",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A PRISMA scoping review identified 485 studies on Open Science impacts, reporting mostly positive/mixed effects on citations, reuse and reproducibility, but the main barrier to impact is lack of skills, resources and infrastructure to effectively reuse existing research.",
+   "claim_source_sentence": "We identify 485 studies related to all aspects of OS, including Open Access (OA), Open/FAIR Data (OFD), Open Code/Software, Open Evaluation and Citizen Science (CS).",
+   "evidence": "",
+   "effect_size": "485 studies synthesized",
+   "effect_size_source_sentence": "We identify 485 studies related to all aspects of OS, including Open Access (OA), Open/FAIR Data (OFD), Open Code/Software, Open Evaluation and Citizen Science (CS).",
+   "n": 485,
+   "study_system": "Open Science literature (scoping review across OA, open/FAIR data, code, citizen science)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1098/rsos.241248",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The AgBioData data-reuse working group identified limitations of data standards, metadata deficiencies, poor interoperability, unclear data ownership, and skill/resource gaps as the principal bottlenecks to reuse in agricultural genomics.",
+   "claim_source_sentence": "Here, we identify the limitations of data standards, metadata deficiencies, data interoperability, data ownership, data availability, user skill level, resource availability, and equity issues, with a specific focus on agricultural genomics research.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Agricultural genomics/transcriptomics data reuse (AgBioData consortium)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/gigascience/giae106",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A global-health data-sharing analysis argues sharing efficiency should be measured by the flow of benefits and decision-making authority to disadvantaged regions rather than by the volume or speed of data transfer, reframing mandates around equity.",
+   "claim_source_sentence": "To genuinely advance global health equity, data sharing efficiency should be measured not by the volume or speed of data transfer, but by the deliberate flow of benefits, capacity and decision-making authority to structurally disadvantaged regions.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Global-health data and biospecimen sharing governance",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1136/bmjgh-2025-022013",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Achieving FAIR principles in experimental environmental-health science relies on metadata-collection tools such as the Investigation/Study/Assay (ISA) framework, but requires significant cultural shifts in data management to close gaps in expertise.",
+   "claim_source_sentence": "These include global efforts by the Functional Genomics Data Society to develop metadata collection tools such as the Investigation, Study, Assay (ISA) framework, and the Center for Expanded Data Annotation and Retrieval.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Experimental environmental-health (meta)data; ISA framework and CEDAR",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1289/EHP11484",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "pISA-tree implements the ISA model as an enriched project/Investigation/Study/Assay directory tree with templated metadata generated at each level, enabling guided, standardized, FAIR-compliant metadata capture for life-science projects.",
+   "claim_source_sentence": "It enables on-the-fly creation of enriched directory tree structure (project/Investigation/Study/Assay) based on the ISA model, in a standardised manner via consecutive batch files.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "pISA-tree data-management framework (ISA model, FAIRDOMHub integration)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s41597-022-01805-5",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Reuse of a decade of nanosafety Comet-assay genotoxicity data was hampered by poorly described metadata, non-standard terminology and lack of harmonized reporting formats, motivating FAIRification via the eNanoMapper data model.",
+   "claim_source_sentence": "Despite a great amount of nanosafety data having been produced over the last decade in international collaborative initiatives, their interpretation, integration and reuse has been hampered by several obstacles, such as poorly described (meta)data, non-standard terminology, lack of harmonized reporting formats and criteria.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Nanosafety Comet-assay genotoxicity data (eNanoMapper / Gov4Nano)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1016/j.comtox.2021.100190",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "linkedISA adds a semantic-web (RDF) layer to ISA-Tab, making experimental metadata machine-processable and mappable to community ontologies so that datasets become reproducible, comparable and reusable.",
+   "claim_source_sentence": "Reporting and sharing experimental metadata- such as the experimental design, characteristics of the samples, and procedures applied, along with the analysis results, in a standardised manner ensures that datasets are comprehensible and, in principle, reproducible, comparable and reusable.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "ISA-Tab semantic representation (linkedISA / RDF)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/1471-2105-15-S14-S4",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "ISA-TAB-Nano was created because a lack of standardization means most shared nanomaterial data are incomplete, poorly integrated and unsuitable for meaningful interpretation or reuse or for building predictive models.",
+   "claim_source_sentence": "Owing to the lack of standardization in representing and sharing nanomaterial data, most of the data currently shared via publications and data resources are incomplete, poorly-integrated, and not suitable for meaningful interpretation and re-use of the data.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Nanomaterial research data sharing (ISA-TAB-Nano spreadsheet standard)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/1472-6750-13-2",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A community consultation in the UK bioimaging field found good imaging-data management remains a major challenge, with a lack of standardized practices and limited training, prompting a three-module curriculum covering metadata, storage/sharing and public-repository submission.",
+   "claim_source_sentence": "However, good data management remains a major challenge across imaging facilities, with lack of standardised practices and limited training opportunities.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "UK bioimaging community (imaging data stewardship survey/curriculum)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1111/jmi.70078",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The cryoEM field's large volumes of 3D electron-microscopy data and metadata are archived in the EMDB and EMPIAR public repositories; Chart Builder adds FAIR-supporting interactive visualization and export directly from that archival metadata.",
+   "claim_source_sentence": "The cryogenic sample-electron microscopy (cryoEM) field has generated significant amounts of 3D Electron Microscopy (3DEM) volumetric data and associated metadata, now comprehensively archived in the Electron Microscopy Data Bank (EMDB - www.emdatabank.org) and the Electron Microscopy Public Image Archive (EMPIAR - www.empiar.org).",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "EMDB / EMPIAR cryoEM public image data archives",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.3389/fbinf.2026.1763403",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The Alliance of Genome Resources unifies seven model-organism knowledgebases plus the Gene Ontology into a shared knowledge commons, using common gene-ortholog assertions to make curated function, phenotype and disease annotations comparable across species.",
+   "claim_source_sentence": "The Alliance is a consortium of seven model organism knowledgebases (mouse, rat, yeast, nematode, zebrafish, frog, fruit fly) and the Gene Ontology resource.",
+   "evidence": "",
+   "effect_size": "seven model-organism knowledgebases plus the Gene Ontology",
+   "effect_size_source_sentence": "The Alliance is a consortium of seven model organism knowledgebases (mouse, rat, yeast, nematode, zebrafish, frog, fruit fly) and the Gene Ontology resource.",
+   "n": 7,
+   "study_system": "Alliance of Genome Resources (7 model-organism databases + GO)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1007/s00335-023-10015-2",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The MIBBI project catalogues the proliferating minimum-information reporting checklists across biology/biomedicine and coordinates their development, addressing fragmentation among domain-specific standards.",
+   "claim_source_sentence": "The Minimum Information for Biological and Biomedical Investigations (MIBBI) project provides a resource for those exploring the range of extant minimum information checklists and fosters coordinated development of such checklists.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Minimum-information reporting checklists ecosystem (MIBBI foundry)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/nbt.1411",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In deep phenotyping of 198 dystrophic-epidermolysis-bullosa patients, only 13,485 of 33,347 extracted phenotypes mapped to a UMLS or HPO concept (19,862 unmapped), exposing the coverage limits of current ontologies for clinical free-text.",
+   "claim_source_sentence": "Of these phenotypes, 13,485 were correctly mapped to a UMLS or HPO concept, while 19,862 were not.",
+   "evidence": "",
+   "effect_size": "13,485 of 33,347 phenotypes mapped to UMLS/HPO; 19,862 unmapped",
+   "effect_size_source_sentence": "Of these phenotypes, 13,485 were correctly mapped to a UMLS or HPO concept, while 19,862 were not.",
+   "n": 198,
+   "study_system": "198 dystrophic-epidermolysis-bullosa patients; UMLS/HPO concept normalization of clinical text",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.3233/SHTI260726",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "An AI-powered chemistry ELN (AI4Green4Students) with built-in sustainability metrics and structured data documentation improved undergraduate adherence to sustainable laboratory practices when deployed in a real lab course.",
+   "claim_source_sentence": "Implementation in a Year 3 undergraduate chemistry lab project indicated improved adherence to sustainable practices, suggesting that the ELN supports the integration of sustainable chemistry into laboratory teaching.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "AI4Green4Students electronic lab notebook (undergraduate chemistry teaching)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1021/acs.jchemed.4c01393",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A measurement systematic review found that of 60 independent surveys (72 publications) assessing data-sharing knowledge/attitudes/practices, fewer than one-third reported pilot testing and only three reported measurement properties, indicating a weak, non-comparable evidence base.",
+   "claim_source_sentence": "We screened 3684 title-abstracts, reviewed 104 full texts and extracted data from 72 publications representing 60 independent surveys.",
+   "evidence": "",
+   "effect_size": "72 publications / 60 independent surveys; only 3 reported measurement properties",
+   "effect_size_source_sentence": "We screened 3684 title-abstracts, reviewed 104 full texts and extracted data from 72 publications representing 60 independent surveys.",
+   "n": 72,
+   "study_system": "Quantitative surveys of biomedical data-sharing KAP (measurement systematic review, COSMIN)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1136/bmjopen-2025-100314",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Search-augmented LLMs combined with a specialized metadata schema annotated datasets spread across multiple repositories; Gemini 2.5 Pro reached 97.1% precision, outperforming GPT-4.1 and Claude Sonnet 4, suggesting automation can cut manual metadata-curation effort.",
+   "claim_source_sentence": "Many biomedical articles reference multiple datasets across different public repositories, complicating accurate metadata capture and downstream re-use.",
+   "evidence": "",
+   "effect_size": "Gemini 2.5 Pro precision 97.1% (vs GPT-4.1 81.9%, Claude Sonnet 4 88.6%)",
+   "effect_size_source_sentence": "Gemini 2.5 Pro achieved higher precision (97.1%) than GPT-4.1 (81.9%, p < 0.001) and Claude Sonnet 4 (88.6%, p < 0.001).",
+   "n": null,
+   "study_system": "Multi-repository dataset metadata annotation (GEO + others) via search-augmented LLMs",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s13104-026-07632-w",
+   "text_access": "abstract_only"
+  }
+ ],
+ "conflicts": [
+  {
+   "paper_a_doi": "10.1186/s12916-022-02644-2",
+   "paper_b_doi": "10.1016/j.jclinepi.2022.05.019",
+   "paper_a_claim": "authors publishing work in journals with mandatory data sharing policies were associated with nearly a tenfold increase in the odds of sharing data than those publishing in journals with no policy (OR: 9.5, 95% CI: 3.26–30.85).",
+   "paper_b_claim": "Even when authors indicate in their manuscript that they will share data upon request, the compliance rate is the same as for authors who do not provide the DAS, suggesting that the DAS may not be sufficient to ensure data sharing.",
+   "nature_of_conflict": "Whether journal data-sharing requirements translate into actual availability: a blanket mandatory-deposit policy is associated with ~10x higher odds of sharing, whereas a data-availability statement promising sharing on request yields the same (near-zero) compliance as no statement at all.",
+   "resolution_status": "resolved-by-method"
+  },
+  {
+   "paper_a_doi": "10.1038/nbt1346",
+   "paper_b_doi": "10.1371/journal.pone.0040519",
+   "paper_a_claim": "The result is an expanding family of ontologies designed to be interoperable and logically well formed and to incorporate accurate representations of biological reality.",
+   "paper_b_claim": "Based on our analysis, we estimate that 64% of the UniProtKB proteins are incompletely annotated, and that inconsistent annotations affect 83% of the protein functions and at least 23% of the proteins.",
+   "nature_of_conflict": "Ontology developers assert coordinated ontologies deliver interoperable, accurate representations enabling data integration, but audits of the resulting Gene Ontology annotations find most protein annotations incomplete and inconsistent, undercutting the reliable-integration promise in practice.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1136/bmj-2023-075767",
+   "paper_b_doi": "10.1177/13591053231225903",
+   "paper_a_claim": "The effectiveness of mandatory data sharing policies varied substantially by journal and type of data, a finding that might be informative for policy makers when designing policies and allocating resources to audit compliance.",
+   "paper_b_claim": "Overall, we argue that universal open raw data mandates cannot adequately represent the diversity of qualitative research, and that MIRD may harm rigorous and ethical research practice within health psychology and beyond.",
+   "nature_of_conflict": "Whether open-data mandates should be universal: meta-research on (mostly quantitative) medical data treats mandates as effective levers worth strengthening and auditing, while a qualitative-research critique argues universal raw-data mandates are epistemologically and ethically inappropriate and can harm research quality.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1016/j.jprot.2013.02.026",
+   "paper_b_doi": "10.1038/s41597-026-06614-8",
+   "paper_a_claim": "The guidelines have been developed with input from a broad spectrum of stakeholders in the proteomics field to represent a true consensus view of the most important data types and metadata, required for a quantitative experiment to be analyzed critically or a data analysis pipeline to be reproduced.",
+   "paper_b_claim": "These shortcomings yielded large discrepancies in the analysis results (e.g., 13,068 vs. 4,923 proteins; 108 vs. 11 differentially expressed proteins), and, in one instance, a highlighted protein lacked robust support in the deposited identifications.",
+   "nature_of_conflict": "MIAPE/HUPO-PSI reporting guidelines assert they capture the minimum metadata needed for a proteomics dataset to be critically re-analyzed or a pipeline reproduced, yet a 2026 reanalysis of six public PRIDE deposits found missing metadata and proprietary formats produced large reanalysis discrepancies - i.e. the standards are insufficient or unenforced in practice, leaving open-access data as non-reproducible 'data tombs'.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1101/2021.11.22.469640",
+   "paper_b_doi": "10.7554/eLife.71774",
+   "paper_a_claim": "Only 11.5% of studies completely shared all phenotypes, while 37.9% shared less than 40% of the phenotypes.",
+   "paper_b_claim": "The impact of the shared data is evident in a growing number of published reuses, currently totalling more than 150 publications.",
+   "nature_of_conflict": "Whether depositing data in public repositories actually yields reuse: a systematic GEO audit finds most omics studies share badly incomplete metadata (only 11.5% fully), which limits secondary use, whereas a repository built on an enforced community standard (OpenNeuro/BIDS) documents substantial realized reuse (>150 publications) - suggesting enforced standards plus curation, not mere open deposition, drive reuse.",
+   "resolution_status": "resolved-by-method"
+  },
+  {
+   "paper_a_doi": "10.1021/ci500469f",
+   "paper_b_doi": "10.1038/s41597-022-01805-5",
+   "paper_a_claim": "The findings indicate that while some groups are comfortable with metadata and are able to design a metadata structure that works effectively, many users are making little attempts to use it, thereby endangering their ability to recover data in the future.",
+   "paper_b_claim": "Templates-based metadata is generated in parallel at each level enabling guided submission of experiment metadata.",
+   "nature_of_conflict": "Whether providing metadata infrastructure yields reusable metadata: the LabTrove ELN study finds free-form, user-defined metadata is largely under-used and threatens data recovery, whereas pISA-tree argues templated/guided ISA-model capture ensures standardized metadata. The disagreement is on whether tool design (free-form vs enforced templates) determines metadata quality.",
+   "resolution_status": "resolved-by-method"
+  }
+ ],
+ "unreplicated_claims": [
+  {
+   "claim": "A community self-curation model for a preclinical (spinal cord injury) data commons achieves sustained adoption (248 users, 57 labs).",
+   "source": "10.1007/s12021-021-09533-8",
+   "years_since_publication": 5
+  },
+  {
+   "claim": "OMOP-to-FHIR transformation can convert a whole OMOP CDM population into standards-compliant FHIR resources with <1% non-compliance for national disease surveillance.",
+   "source": "10.1093/jamiaopen/ooae045",
+   "years_since_publication": 2
+  },
+  {
+   "claim": "A Genomic Common Data Model extending OMOP-CDM enables cross-institution sharing/harmonisation of clinical sequencing data.",
+   "source": "10.2196/13249",
+   "years_since_publication": 7
+  }
+ ],
+ "evidence_gaps": [
+  {
+   "topic": "FAIR data actually increasing reuse of preclinical/animal data",
+   "what_is_missing": "Primary quantitative demonstration that FAIRification or repository deposition measurably increased downstream reuse of preclinical/animal datasets - the benefit is asserted across many descriptor and review papers but rarely measured.",
+   "why_it_matters": "Risk of false consensus: 'FAIR improves reuse' is repeated widely, yet the causal reuse gain (especially for preclinical data waste) is largely unquantified."
+  },
+  {
+   "topic": "Secondary use / repositories for long-tail preclinical animal data",
+   "what_is_missing": "Dedicated repositories and reuse studies for heterogeneous preclinical animal data are scarce; direct database searches for preclinical animal data reuse returned essentially no results beyond isolated commons (ODC-SCI, eTRANSAFE).",
+   "why_it_matters": "Preclinical data waste is the review's core concern, but the infrastructure and evidence base for reusing this specific data type is thin compared with clinical/omics data."
+  },
+  {
+   "topic": "Whether minimum-information standards (MIAME/MISFISHIE-type) improved reproducibility/reuse",
+   "what_is_missing": "Empirical evaluation linking adoption of minimum-information reporting standards to measurable gains in data interpretability, independent verification, or reuse.",
+   "why_it_matters": "Standards are justified by the promise of independent verifiability, but the downstream effect on actual reuse/reproducibility is not directly demonstrated."
+  },
+  {
+   "topic": "MIABE and MIAPE minimum-information standards",
+   "what_is_missing": "PubMed queries combining MIABE/MIAPE with minimum-information terms returned no usable primary records in this frame; these standards were not retrievable via the queries run.",
+   "why_it_matters": "The cluster's coverage of proteomics (MIAPE) and bioactive-entity (MIABE) reporting standards is currently a gap to close in a continuation frame."
+  }
+ ],
+ "strongest_evidence": {
+  "claim": "Actual public availability of research data in medicine is extremely low (~2% actually shared vs ~8% declared) and voluntary/on-request mechanisms do not work, a pattern independently replicated across many specialties and audits.",
+  "why_strong": "Convergent across a 105-study IPD meta-analysis and multiple independent single-field audits (BMJ 4.5%, oncology, gastroenterology, orthopaedics, BioMed Central author-contact study), with quantified effect sizes and consistent direction."
+ },
+ "weakest_evidence_cited": {
+  "claim": "Community/consortium data repositories (FaceBase, ImmuneData, ODC-SCI, RGD) successfully deliver FAIR, reusable data.",
+  "why_weak": "These are self-reported single-consortium descriptor papers reporting adoption metrics (user counts, dataset counts) without independent evaluation of whether the data were actually reused or reproduced downstream."
+ },
+ "papers_reviewed_count": 99,
+ "evidence_artifact_id": "cluster_04_evidence.json",
+ "figure_data": [
+  {
+   "comparison_id": "actual-data-availability-rates",
+   "comparison_name": "Actual (verified) data availability vs declared, across meta-research audits",
+   "papers": [
+    {
+     "doi": "10.1136/bmj-2023-075767",
+     "metric": "% of medical papers that actually shared data publicly (2016-2021)",
+     "value": "2%",
+     "value_source_sentence": "Aggregation of the findings of sufficiently similar studies suggested that on average, 8% of medical papers published between 2016 and 2021 declared that their data were publicly available and 2% actually shared their data publicly.",
+     "ci_or_error": "1% to 3%",
+     "n": 105,
+     "n_analyzed": "2121580 articles across 105 meta-research studies",
+     "n_definition": "meta-research studies pooled",
+     "study_system": "Medical & health sciences literature (meta-analysis)",
+     "experimental_conditions": "actual public availability, verified retrieval",
+     "method": "systematic review + IPD meta-analysis",
+     "text_access": "fulltext",
+     "scope_region": "whole medical/health literature",
+     "scope_population": "all original medical research articles",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1136/bmjopen-2016-011784",
+     "metric": "% of articles whose raw data were easily available on request",
+     "value": "4.5%",
+     "value_source_sentence": "The percentage of data easily available from the 157 articles was only 4.5% (95% CI 1.8% to 9%).",
+     "ci_or_error": "1.8% to 9%",
+     "n": 157,
+     "n_analyzed": "157",
+     "n_definition": "research articles sampled",
+     "study_system": "BMJ research articles 2009-2015",
+     "experimental_conditions": "data requested by email / checked availability",
+     "method": "observational audit",
+     "text_access": "fulltext",
+     "scope_region": "single high-profile journal (BMJ)",
+     "scope_population": "all research articles (excl. reviews/meta-analyses)",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1016/j.jclinepi.2022.05.019",
+     "metric": "% of authors promising data who actually provided it on request",
+     "value": "6.8%",
+     "value_source_sentence": "Among 254 (14%) of 1792 authors who responded to our query for data sharing, only 123 (6.8%) provided the requested data.",
+     "ci_or_error": null,
+     "n": 1792,
+     "n_analyzed": "1792 manuscripts whose DAS promised sharing",
+     "n_definition": "manuscripts with a share-promising DAS",
+     "study_system": "333 BioMed Central open-access journals (Jan 2019)",
+     "experimental_conditions": "data requested from corresponding authors",
+     "method": "mixed-methods author-contact audit",
+     "text_access": "abstract_only",
+     "scope_region": "open-access journal portfolio",
+     "scope_population": "articles with data-availability statement promising sharing",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1186/s12916-022-02644-2",
+     "metric": "% of declared-available datasets meeting key FAIR criteria",
+     "value": "0.3%",
+     "value_source_sentence": "Furthermore, when data were available for assessment, only one study (0.3%, 95% CI: 0–2%) was found to comply with the remaining four FAIR assessment criteria (Fig.).",
+     "ci_or_error": "0% to 2%",
+     "n": 306,
+     "n_analyzed": "59 datasets declared available, 1 FAIR-compliant",
+     "n_definition": "cancer articles sampled",
+     "study_system": "306 oncology articles (2019)",
+     "experimental_conditions": "declared availability checked against FAIR self-assessment",
+     "method": "cross-sectional analysis",
+     "text_access": "fulltext",
+     "scope_region": "oncology literature",
+     "scope_population": "cancer-diagnosis research articles",
+     "taxonomic_level": "broad category"
+    }
+   ],
+   "comparison_type": "convergent evidence",
+   "what_it_reveals": "Across independent audits in different specialties and journals, the fraction of studies whose data are actually obtainable/reusable is 0.3-6.8% - far below declared availability - showing a persistent declared-vs-actual gap regardless of policy.",
+   "suggested_plot_type": "forest plot",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "true",
+    "n_definition_uniform": "false",
+    "caveats": [
+     "Metric definitions differ: 'actually shared publicly' vs 'easily available on request' vs 'provided data when emailed' vs 'FAIR-compliant among those declared available' - all capture 'reader can actually get usable data' but are not identical.",
+     "Denominators differ (all sampled articles vs only those with a share-promising statement).",
+     "Scope ranges from whole-literature meta-analysis to single-journal audits."
+    ]
+   }
+  },
+  {
+   "comparison_id": "dss-prevalence-across-specialties",
+   "comparison_name": "Prevalence of data-sharing statements across specialty journals and years",
+   "papers": [
+    {
+     "doi": "10.2106/JBJS.24.00955",
+     "metric": "% of articles containing a data-sharing statement",
+     "value": "14%",
+     "value_source_sentence": "Of the 1,084 reviewed articles, only 14% included a DSS.",
+     "ci_or_error": null,
+     "n": 1084,
+     "n_analyzed": "1084",
+     "n_definition": "original research articles screened",
+     "study_system": "Top 10 orthopaedic journals, 2020-2023",
+     "experimental_conditions": "DSS presence anywhere in article",
+     "method": "cross-sectional screen",
+     "text_access": "abstract_only",
+     "scope_region": "orthopaedic surgery journals",
+     "scope_population": "original research articles",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1136/bmjopen-2024-092490",
+     "metric": "% of articles containing a data-sharing statement",
+     "value": "42.0%",
+     "value_source_sentence": "Of the 953 articles that met inclusion criteria, 400 (400/953; 42.0%) contained a DSS.",
+     "ci_or_error": null,
+     "n": 953,
+     "n_analyzed": "953",
+     "n_definition": "original research articles screened",
+     "study_system": "5 leading gastroenterology journals, 2018-2023",
+     "experimental_conditions": "DSS presence in article",
+     "method": "cross-sectional analysis",
+     "text_access": "abstract_only",
+     "scope_region": "gastroenterology journals",
+     "scope_population": "clinical-trial / original research articles",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1186/s12916-022-02644-2",
+     "metric": "% of articles with a formalised data-availability statement",
+     "value": "21%",
+     "value_source_sentence": "In contrast, 65 (21%) and 8 (3%) articles featured formalised, stand-alone sections dedicated to addressing data and code availability respectively (i.e. data and code availability statements).",
+     "ci_or_error": null,
+     "n": 306,
+     "n_analyzed": "306",
+     "n_definition": "cancer articles screened",
+     "study_system": "Oncology articles indexed in PubMed 2019",
+     "experimental_conditions": "formalised stand-alone DAS section",
+     "method": "cross-sectional analysis",
+     "text_access": "fulltext",
+     "scope_region": "oncology literature",
+     "scope_population": "cancer-diagnosis research articles",
+     "taxonomic_level": "broad category"
+    }
+   ],
+   "comparison_type": "cross-study conflict",
+   "what_it_reveals": "Data-sharing-statement prevalence varies three-fold across specialties/time (14% orthopaedics 2020-23; 21% oncology 2019; 42% gastroenterology 2018-23), reflecting uneven policy uptake; but even high-DSS fields show statements rarely correspond to obtainable data.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "true",
+    "n_definition_uniform": "true",
+    "caveats": [
+     "Oncology figure counts only formalised stand-alone DAS sections, whereas orthopaedics/gastroenterology count any DSS - oncology value is a conservative lower bound.",
+     "Different publication-year windows (2018-2023 vs 2019 vs 2020-2023).",
+     "All are top-tier/specialty journals, not field-representative random samples."
+    ]
+   }
+  },
+  {
+   "comparison_id": "reuse-readiness-of-deposited-data",
+   "comparison_name": "How far deposited data fall short of reuse-readiness (metadata completeness / FAIRness / sharing rate)",
+   "papers": [
+    {
+     "doi": "10.1101/2021.11.22.469640",
+     "metric": "% of important phenotypes (metadata) actually shared",
+     "value": "74.8%",
+     "value_source_sentence": "We observed that studies often omit over a quarter of important phenotypes, with an average of only 74.8% of them shared either in the text of publication or the corresponding repository.",
+     "ci_or_error": null,
+     "n": 253,
+     "n_analyzed": "253 studies / 164,000+ samples",
+     "n_definition": "omics studies audited",
+     "study_system": "Gene Expression Omnibus omics studies",
+     "experimental_conditions": "phenotype metadata presence in text or repository",
+     "method": "systematic metadata-completeness assessment",
+     "text_access": "abstract_only",
+     "scope_region": "public omics repository (GEO) + publications",
+     "scope_population": "human and non-human mammalian omics studies",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1016/j.ijmedinf.2023.105104",
+     "metric": "FAIR-metric score achieved (of 25)",
+     "value": "15.5/25",
+     "value_source_sentence": "The total scores achieved were 15.5 and 12 out of a maximum of 25.",
+     "ci_or_error": "12-15.5 of 25 across two databases",
+     "n": 2,
+     "n_analyzed": "2 ICU databases",
+     "n_definition": "OMOP-CDM databases assessed",
+     "study_system": "Dutch ICU databases on EHDEN portal (OMOP CDM)",
+     "experimental_conditions": "manual FAIRsFAIR 17-metric self-assessment",
+     "method": "FAIR maturity self-assessment",
+     "text_access": "abstract_only",
+     "scope_region": "OMOP-CDM repository portal (EHDEN)",
+     "scope_population": "ICU research databases",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1093/bib/bbaa331",
+     "metric": "% of full-text articles that link any dataset",
+     "value": "28.5%",
+     "value_source_sentence": "We found that 28.5% of 12 324 COVID-19 full-text articles in PubMed Central provided at least one dataset link.",
+     "ci_or_error": null,
+     "n": 12324,
+     "n_analyzed": "12,324 COVID-19 full-text articles",
+     "n_definition": "COVID-19 full-text articles screened",
+     "study_system": "COVID-19 articles in PubMed Central",
+     "experimental_conditions": "dataset URL link present in full text",
+     "method": "systematic review",
+     "text_access": "abstract_only",
+     "scope_region": "PubMed Central COVID-19 literature",
+     "scope_population": "COVID-19 research articles",
+     "taxonomic_level": "broad category"
+    }
+   ],
+   "comparison_type": "convergent evidence",
+   "what_it_reveals": "Across very different settings - omics metadata completeness (74.8%), OMOP-CDM FAIR maturity (15.5/25), and COVID-19 dataset linking (28.5%) - deposited data consistently fall well short of being fully reuse-ready, converging with the actual-availability audits on a persistent gap between deposition and usable reuse.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "true",
+    "n_definition_uniform": "false",
+    "caveats": [
+     "Metrics are not identical: phenotype-metadata completeness (%), FAIR-maturity score (of 25), and article-level dataset-linking rate (%) each measure a different facet of reuse-readiness.",
+     "Denominators differ (studies vs databases vs articles) and scales differ (percentage vs 0-25 score); a shared axis should normalise to '% of ideal'.",
+     "The EHDEN value is a small-n (2 databases) self-assessment, not a population estimate."
+    ]
+   }
+  }
+ ],
+ "search_failures": [
+  {
+   "suggested_reference": "MIABE (Minimum Information About a Bioactive Entity) and MIAPE (Minimum Information About a Proteomics Experiment) reporting standards",
+   "searches_tried": [
+    "minimum information reporting standard biology MIAME MIABE",
+    "minimum information reporting standard MIAME microarray"
+   ],
+   "result": "MIAME-anchored queries returned microarray/standards records but no MIABE or MIAPE primary records surfaced in this frame",
+   "action": "logged as evidence gap; excluded from findings (defer to continuation)"
+  },
+  {
+   "suggested_reference": "Secondary use / reuse of preclinical animal study data in repositories",
+   "searches_tried": [
+    "secondary use preclinical animal data reuse sharing",
+    "preclinical animal study data repository sharing systematic review"
+   ],
+   "result": "zero results in PubMed for both queries",
+   "action": "excluded from findings; captured indirectly via ODC-SCI (10.1007/s12021-021-09533-8) and eTRANSAFE (10.12688/f1000research.74024.1)"
+  }
+ ]
+}

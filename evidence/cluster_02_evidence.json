@@ -1,0 +1,1701 @@
+{
+  "findings": [
+    {
+      "claim": "A retrospective harm-benefit analysis of preclinical animal studies for six interventions found that, weighing actual harms against actual clinical benefits, fewer than 7% of studies were ethically permissible under Bateson's Cube.",
+      "claim_source_sentence": "Only the moderate bisphosphonate studies, less than 7% of the total, appeared to minimise harms to animals whilst being associated with benefit for humans.",
+      "evidence": "Discussion. First systematic retrospective HBA across preclinical studies; expert panel most commonly rated animal harms as 'severe'; regulatory systems failed to prevent severe suffering or ensure only rigorous research.",
+      "effect_size": "less than 7% permissible; 97% (n=206) did not report analgesia",
+      "effect_size_source_sentence": "Thirteen percent of studies (n = 27) failed to report use of anaesthesia and 97% (n = 206) did not report analgesia use.",
+      "n": null,
+      "study_system": "preclinical animal studies (antifibrinolytics, bisphosphonates, corticosteroids, Tirilazad, antenatal corticosteroids, thrombolytics; rats, rabbits, primates)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1186/cc13694",
+        "10.1667/RADE-22-00124.1"
+      ],
+      "doi": "10.1371/journal.pone.0193758",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "A meta-analysis found conventional (shoebox) laboratory housing significantly exacerbates stress-sensitive disease and all-cause mortality in rodents relative to enriched housing, so typical research rodents are 'CRAMPED', raising validity concerns.",
+      "claim_source_sentence": "Together, they indicate that typical research rodents should be termed ‘CRAMPED’ (cold, rotund, abnormal, male-biased, poorly surviving, enclosed and distressed).",
+      "evidence": "Results. Random-effects meta-analysis of 214 studies (6495 animals); conventional housing exacerbated cancer, cardiovascular disease, stroke, anxiety and depression, and raised mortality; questions generalisability of data from conventionally housed rodents.",
+      "effect_size": "cancer SMD = 0.71 (medium effect)",
+      "effect_size_source_sentence": "Cancer  Meta-analysis of 72 studies (from 46 articles) showed that CH significantly exacerbated cancer morbidity, with a medium effect size (SMD = 0.71,= 8.29,< 0.0001) (Fig.).",
+      "n": 6495,
+      "study_system": "laboratory mice and rats (meta-analysis of housing effects)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1186/s12915-021-01184-0",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "A former IACUC chair argues that applying harm-benefit analysis to individual animal projects induces a bias against basic research and can increase animal harm, and should be replaced by two independent principles (societal benefit; minimal justified harm).",
+      "claim_source_sentence": "The argument above that HBA in IACUC discussions may result in a bias against basic research is not a mere theoretical concern.",
+      "evidence": "Sections 2-4. Because benefits of basic research are unmeasurable/unpredictable, HBA weighting is unfeasible; a 'built-in tension prevails between HBA and the 3Rs' where benefit arguments can push toward more severe models.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "animal research ethics / IACUC project evaluation (commentary)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [
+        "10.1177/0023677218783004",
+        "10.1016/j.ejphar.2015.03.040"
+      ],
+      "doi": "10.3390/ani10020291",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "The authors argue that the EU Directive's harm-benefit analysis, by prioritising foreseeable practical benefits over knowledge gain, drives researchers to over-promise and thereby erodes the credibility of animal research.",
+      "claim_source_sentence": "Repeated failure to delivering on stated promises of practical benefits will lead science into a loss of credibility.",
+      "evidence": "Sections 2-3. Single projects yield data that is necessary but never sufficient for practical benefits; benefit realisation is impossible to predict and exceeds researchers' responsibility; concept of benefit in HBA needs re-evaluation to embrace value of knowledge.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "EU Directive 2010/63/EU harm-benefit analysis (animal research ethics)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [
+        "10.1016/j.ejphar.2015.03.040"
+      ],
+      "doi": "10.3390/ani7090070",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "A review of critical-care animal research found that reported attention to the 3Rs was poor: anaesthesia monitoring, pain treatment, appropriate euthanasia and sample-size calculation were rarely reported, and only 22% met a basic composite welfare outcome.",
+      "claim_source_sentence": "Seventeen (22% of 77) met the composite outcome of, if indicated, using anesthesia and pain control, and stating the method of euthanasia.",
+      "evidence": "Results. 77 consecutive publications from 3 high-impact critical-care journals (Jan-Jun 2012); most public-funded; poor reporting threatens public support and may contribute to poor translation.",
+      "effect_size": "sample-size calculation used in 5% (4/77)",
+      "effect_size_source_sentence": "A sample-size calculation was rarely used (four (5%) of 77).",
+      "n": 77,
+      "study_system": "critical care animal research publications (mammals)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1371/journal.pone.0193758",
+        "10.1667/RADE-22-00124.1"
+      ],
+      "doi": "10.1186/cc13694",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "As project evaluators the authors argue the 3Rs remain the ethical/methodological backbone of animal research and are inextricably linked to scientific quality, but each R differs in applicability (e.g. 'methodological inertia' hampers Replacement more than Refinement).",
+      "claim_source_sentence": "This has been a crucial strategic move: it inspired the idea that animal welfare was directly related to scientific quality and therefore was in the scientists’ interests to care for it.",
+      "evidence": "Introduction / Application sections. Argues criticism that the 3Rs 'failed' because animals are still used misconstrues the welfare (not rights) basis; proposes a shared platform of evaluators to improve pragmatic application.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "3Rs principle application (Italian project-evaluation experience)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [
+        "10.1136/bmjos-2018-000048"
+      ],
+      "doi": "10.3389/fphys.2022.914939",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "The authors argue the welfare-focused 3Rs are insufficient to make animal research ethical and propose a complementary '6R' framework adding Robustness, Registration and Reporting to safeguard scientific value.",
+      "claim_source_sentence": "In times where approximately 50% of animal studies are not reported,only the preregistration of animal study protocols allows the identification of biased, delayed or unreported results.",
+      "evidence": "Body. Animal research is ethical only when of scientific and social value; publication bias and non-reporting undermine value; national 3Rs centres already promote registration/robustness/reporting policies.",
+      "effect_size": "approximately 50% of animal studies are not reported",
+      "effect_size_source_sentence": "In times where approximately 50% of animal studies are not reported,only the preregistration of animal study protocols allows the identification of biased, delayed or unreported results.",
+      "n": null,
+      "study_system": "animal research ethics framework (proposal)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1093/ilar/ilab023",
+        "10.1016/j.ejphar.2015.03.040"
+      ],
+      "doi": "10.1136/bmjos-2018-000048",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "A 12 Rs framework is proposed as a unifying construct organising animal research ethics into animal-welfare, social-value and scientific-integrity domains, with harm-benefit analysis as the culminating safeguard; it cites a reproducibility crisis motivating the scientific-integrity Rs.",
+      "claim_source_sentence": "A survey undertaken by Monya Baker, published for Nature reported that 70% of respondents could not replicate other researchers’ pre-clinical studies, with 50% also unable to repeat their own studies [].",
+      "evidence": "Section 2.4/3. Distributive justice implies refinement should take precedence over reduction ('20 animals each have one injection rather than one animal having all twenty'); incorporates utilitarian, deontological, principlist and care-ethics theories.",
+      "effect_size": "70% could not replicate others' studies; 50% could not replicate own",
+      "effect_size_source_sentence": "A survey undertaken by Monya Baker, published for Nature reported that 70% of respondents could not replicate other researchers’ pre-clinical studies, with 50% also unable to repeat their own studies [].",
+      "n": null,
+      "study_system": "animal research ethics framework (global, all species)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1136/bmjos-2018-000048",
+        "10.1016/j.ejphar.2015.03.040"
+      ],
+      "doi": "10.3390/ani13071128",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "The authors argue the 3Rs are simultaneously a framework for minimising animal harm and a means of improving scientific quality and translation, so refinement and reduction can act in synergy with better science rather than against it.",
+      "claim_source_sentence": "While focused primarily on the ethical imperative to minimize harm to animals in science, in developing the 3Rs, Russell and Burch also maintained that scientific excellence and the humane use of laboratory animals are inextricably linked.",
+      "evidence": "Sections 4-6. Notes interplay/conflict among the 3Rs (reduction can raise per-animal harm, resolved by prioritising refinement); cites a refined pulmonary-embolism model that reduced mice per experiment by ~90%; frames the utilitarian/animal-rights/hybrid ethical basis.",
+      "effect_size": "around 90% reduction in mice per experiment (refined PE model)",
+      "effect_size_source_sentence": "Not only were they successful in strengthening the model by broadening the spectrum beyond a single extreme (i.e. fatal pulmonary embolism) and measuring a specific biological response rather than events with non-specific causes, but also they were able to reduce the number of mice per experiment by around 90% ().",
+      "n": null,
+      "study_system": "animal disease models / 3Rs in drug development (review)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [
+        "10.3390/ani10020291"
+      ],
+      "doi": "10.1016/j.ejphar.2015.03.040",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "Using worked case studies and the Experimental Design Assistant, the authors show there is no single optimum animal-experiment design; each choice (blocking, covariates, factorial designs, standardisation) trades off internal against external validity and must be reported with its caveats.",
+      "claim_source_sentence": "As there is no perfect experiment for the question being considered, it means we should acknowledge the strengths and weaknesses of our experiments when reporting our results.",
+      "evidence": "Body. Discusses pseudo-replication, standardisation fallacy, sex bias and factorial designs; poor design wastes animals contrary to Reduction; harm-benefit analysis requires the design to be robust.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "preclinical animal experimental design (case studies)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1136/bmjos-2020-100126",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "Focusing on Reduction, the authors argue that minimising animal numbers is not mere numeric reduction but correct experimental design and statistics, since both too many and too few animals waste resources and are unethical.",
+      "claim_source_sentence": "The use of too many EUs, besides being unethical, would lead to a waste of effort and resources in terms of money and time. At the same time, the use of an insufficient number of animals could lead to the loss of a significant result due to the lack of statistical power.",
+      "evidence": "Section 2.2 / Directive. Recommends biostatistician involvement and randomisation/blinding; describes Directive 2010/63/EU Annex VIII four severity categories and Animal-Welfare Bodies; interactions among the 3Rs can be positive or negative.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "3Rs / Reduction and experimental design (EU regulatory context)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.3390/ani13020277",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "In radiation-countermeasure dose-reduction-factor experiments, historically hundreds of animals were used with no power calculation; the authors show formal sample-size calculation can more than halve animal numbers while retaining power to detect meaningful effects.",
+      "claim_source_sentence": "Half of these DRF experiments used 185 or more animals, and three quarters used 100 or more.",
+      "evidence": "Results/Discussion. None of 27 reviewed DRF studies reported a power/sample-size calculation; retrospective and prospective feasibility studies showed calculated sample sizes (72 and 84) held their projected power, aligning with the Reduction principle.",
+      "effect_size": "calculated sample sizes were less than half of typically used numbers",
+      "effect_size_source_sentence": "Even so, our calculated samples sizes were less than half of the original and typically used sample size for a DRF experiment.",
+      "n": 28,
+      "study_system": "radiation countermeasure dose-reduction-factor experiments (mice)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1111/brv.12237",
+        "10.1016/j.ejphar.2015.03.040"
+      ],
+      "doi": "10.1667/RADE-22-00124.1",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "An IACUC review of ethical considerations in animal research frames animal research committees as central to evaluating protocols for feasibility, rational animal use and animal welfare, with the 3Rs (replacement, reduction, refinement) as the guiding principle.",
+      "claim_source_sentence": "Animal research committees play a primary role in evaluating experimental research protocols, from their feasibility to the rational use of animals, but above all in seeking animal welfare.",
+      "evidence": "Abstract. Educational overview aimed at sensitising laboratory-animal users to proper and rational animal use; introduces IACUC functions and the 3Rs.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "laboratory animal research ethics (IACUC overview)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.24875/RIC.20000380",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A contemporary review argues the 3Rs have evolved beyond an ethical obligation into a science-led approach, with 3Rs technologies delivering faster, more reproducible and more cost-effective research alongside improved welfare.",
+      "claim_source_sentence": "On the contrary, relevant examples demonstrate the opportunity to practise better science using 3Rs technologies which deliver faster, more reproducible and more cost-effective results.",
+      "evidence": "Abstract. Argues 3Rs move out of an 'ethical silo'; public support is conditional and a balance must be struck between welfare and high-quality science.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "3Rs contemporary approach (review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1017/S0007114517002227",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Sixty years after the 3Rs were formulated, their adoption and implementation across the global research community has been slow and patchy, though awareness is rising as welfare is linked to reproducibility and translatability.",
+      "claim_source_sentence": "Sixty years since their inception, the extent to which the 3Rs have been adopted and implemented by the global scientific and medical research communities has unfortunately been slow and patchy.",
+      "evidence": "Abstract. Notes changing awareness driven by the impact of animal welfare on reproducibility, reliability and translatability of animal data.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "3Rs implementation and application (review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1042/ETLS20190061",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "In experimental biology the authors advocate applying the 3Rs to improve science, endorsing effect sizes with confidence intervals over p-values for interpreting data and for calculating minimum sample size, thereby serving Reduction.",
+      "claim_source_sentence": "We endorse focusing on effect sizes accompanied by confidence intervals as a more appropriate means of interpreting data; in turn, sample size could be calculated based on effect size precision.",
+      "evidence": "Abstract. Argues appropriate use of the 3Rs empowers scientists to justify research and yields higher-quality science; notes replacement is sometimes inappropriate for species-specific models.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "experimental animal biology (behaviour, neurobiology, physiology, toxicology)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1242/jeb.147058",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Reviewing strategies for weighing harms and benefits, the authors distinguish a 'discourse' model (committee deliberation) and a 'metric' model (predefined weighting scheme) and argue the two are not mutually exclusive and can be combined.",
+      "claim_source_sentence": "Ultimately, we argue that the two models are not mutually exclusive and may be combined to make the most of their advantages while reducing the disadvantages of how harm-benefit analysis in typically undertaken.",
+      "evidence": "Abstract. In practice the discourse model lacks transparency/consistency/fairness while the metric model is criticised as technocratic; defends a combined HBA rather than abandonment.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "harm-benefit analysis models (review)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [
+        "10.3390/ani10020291"
+      ],
+      "doi": "10.1177/0023677218783004",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A philosophical review of the moral status of animals argues that, despite differing foundations, the practical implications of leading theories of animal moral status converge far more than expected when applied to animal research.",
+      "claim_source_sentence": "Such an examination demonstrates, I believe, that the practical implications of leading theories converge far more than might be expected.",
+      "evidence": "Abstract. Reviews leading theories of moral status, pivotal unresolved theoretical issues, and their application to the animal-research setting.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "moral status of animals (philosophical review)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [
+        "10.1007/7854_2014_329"
+      ],
+      "doi": "10.1353/ken.0.0112",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "The authors survey emerging moral-status issues raised by new science (in vitro brains, part-human animals, synthetic embryos, artificial wombs), noting enduring challenges in determining the moral status of novel beings including in animal research.",
+      "claim_source_sentence": "It introduces the papers in this Special Issue, contextualises their contributions to the moral status literature, and highlights some enduring challenges of determining the moral status of novel types of beings.",
+      "evidence": "Abstract. Places animal research alongside abortion and embryo experimentation as established moral-status debates while surveying newer boundary cases.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "moral status (bioethics review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1007/s40592-020-00124-y",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Examining animal models of psychopathology, the authors criticise justifications for assigning higher moral status to humans and more cognitively complex animals, and challenge the assumption that less complex animals suffer less.",
+      "claim_source_sentence": "First, we criticise some justifications for the claim that human beings and more complex animals have higher moral status.",
+      "evidence": "Abstract. Notes the irony that the best models for psychopathology are the most morally problematic; argues equal moral status for beings capable of conscious strivings is more plausible.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "behavioural neuroscience animal models (moral status)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [
+        "10.1353/ken.0.0112"
+      ],
+      "doi": "10.1007/7854_2014_329",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Interviews with oversight-committee members and scientists on human-nonhuman chimeric research found that concepts of enhanced moral status and consciousness were not very useful in practice because they are hard to define; decision-making relied instead on standard animal-welfare assessment.",
+      "claim_source_sentence": "Our findings suggest that concepts of enhanced moral status and consciousness are not very useful in human-nonhuman-animal chimeric research in part because their meanings are not easily defined, which presents challenges to applying the concepts in research.",
+      "evidence": "Abstract. Interviews with 12 ESCRO members, 9 IACUC members and 14 scientists; humanization/moral-status concepts displaced by welfare-based reasoning.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "human-nonhuman-animal chimeric research oversight (interview study)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1002/hast.1431",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A panel discussion argues that a culture of care in animal research must expand the 3Rs to include the wellbeing of the people who care for research animals, because their wellbeing is strongly related to performance.",
+      "claim_source_sentence": "Overall, the discussion has shown that we must also promote human wellbeing when promoting culture of care in animal research, because there is strong relationship between culture of care and individual performance.",
+      "evidence": "Abstract. Identifies stigmatization of work, tension between research aims and animal wellbeing, and emotional stress/compassion fatigue among animal-care staff.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "culture of care / animal-care personnel wellbeing (panel discussion)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1177/00236772221102238",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A scoping review of culture of care in laboratory-animal science found compassion fatigue is the most frequently described work-related stress and likely widespread, but no study empirically linked work-related stress to research quality.",
+      "claim_source_sentence": "Compassion fatigue was the most frequently described work-related stress, and its prevalence across Europe and North America is likely to be widespread.",
+      "evidence": "Abstract. 49 publications mapped; strategies to mitigate stress lack empirical evidence of success; the assumed stress-to-quality link is unproven.",
+      "effect_size": "49 publications included for data mapping",
+      "effect_size_source_sentence": "A total of 49 publications were included for data mapping.",
+      "n": 49,
+      "study_system": "laboratory animal personnel (scoping review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1177/00236772241259089",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A historical analysis argues that British animal-research governance came to foreground a 'culture of care' only in the late twentieth century, once responsibility for animal welfare was distributed across a differentiated community with diverse expertise.",
+      "claim_source_sentence": "We conclude that animal research governance could only become conceived as a problem of 'culture' and thus social relations when responsibility for care and animal welfare was distributed across a differentiated community, in which diverse forms of expertise were required for the practice of humane animal research.",
+      "evidence": "Abstract. Contrasts the 1876 Cruelty to Animals Act with the 1986 ASPA as two 'constitutions' of animal research.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "history of British animal-research governance 1876-2000",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1016/j.shpsa.2022.03.004",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "The author proposes telomere attrition as an objective, cumulative and dose-dependent molecular biomarker of an animal's lifetime negative experience, offering a common-currency welfare indicator for cumulative severity assessment.",
+      "claim_source_sentence": "I propose that telomere attrition, a cellular biomarker of biological age, provides a molecular measure of cumulative experience that could be used to assess the welfare impact of husbandry regimes and/or experimental procedures on non-human animals.",
+      "evidence": "Abstract. Reviews human and animal evidence that stress accelerates telomere attrition cumulatively and dose-dependently; proposed as a 'Holy Grail' cumulative welfare indicator.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "cumulative welfare / severity biomarker (review; mice, chickens, humans)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1002/bies.201500127",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A Sheep Grimace Scale based on facial expressions was established and validated as an objective severity-assessment tool that correlated with clinical severity and salivary cortisol after tibia osteotomy, supporting refinement under Directive 2010/63/EU.",
+      "claim_source_sentence": "In conclusion, the SGS represents a valuable approach for severity assessment that may help support and refine a widely used welfare assessment for sheep during experimental procedures, thereby meeting legislation requirements and minimizing the occurrence of unrecognized distress in animal experimentation.",
+      "evidence": "Abstract. SGS scored by blinded observers; high inter-observer reliability (ICC 0.92) and 68.2% accuracy; positive correlation with clinical severity.",
+      "effect_size": "Pearson correlation of 0.47 between clinical severity and SGS",
+      "effect_size_source_sentence": "Clinical severity and SGS scores correlated positively with a Pearson´s correlation coefficient of 0.47.",
+      "n": null,
+      "study_system": "laboratory sheep (severity assessment, tibia osteotomy)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pone.0175839",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A 15-year database of blood samples from 39 rhesus monkeys used in neuroscience found no support for long-term cumulative harmful effects of implants, fluid control and repeated procedures, providing a reference for severity assessment of NHP experiments.",
+      "claim_source_sentence": "A careful analysis of indicative primate blood markers for chronic inflammation, hydration status, and stress levels, their comparison to baseline values from both the same animals and the literature, and evaluation of additional hematologic, physiological, and behavioral parameters did not provide support for the notion of long-term, cumulative effects on the monkeys' healthiness and well-being.",
+      "evidence": "Abstract. Addresses the debate over whether 'mildly severe' neuroscientific procedures cause cumulative harm; longitudinal blood-marker data from 39 macaques over 15 years.",
+      "effect_size": "no cumulative effect detected across markers (n=39 monkeys, 15 years)",
+      "effect_size_source_sentence": "We here make use of a database of blood samples drawn over a period of 15 years from 39 rhesus monkeys () to address the issue of long-term, cumulative effects of neuroscientific procedures.",
+      "n": 39,
+      "study_system": "non-human primates (rhesus macaques) in neuroscience research",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1523/ENEURO.0284-21.2021",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Incorporating information from historical control animals from similar past experiments can, without loss of statistical power, reduce the number of current control animals needed by more than half, advancing the Reduction principle.",
+      "claim_source_sentence": "We show that, under our simulation conditions, the number of current control subjects can be reduced by more than half by including historical controls in the analyses.",
+      "evidence": "Abstract. Simulations across typical designs; more assumed similarity yields larger savings; in some scenarios control groups may be unnecessary.",
+      "effect_size": "current control animals reduced by more than half",
+      "effect_size_source_sentence": "We show that, under our simulation conditions, the number of current control subjects can be reduced by more than half by including historical controls in the analyses.",
+      "n": null,
+      "study_system": "biomedical experiments with animal control groups (simulation)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1667/RADE-22-00124.1"
+      ],
+      "doi": "10.1111/brv.12237",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "The authors argue severity assessment in laboratory animals is still mainly subjective and evidence-based methods are scarce, and set out a systematic mapping review of corticosterone measurement in mice as an objective aid to severity assessment.",
+      "claim_source_sentence": "Objective measures, amongst which determination of the concentrations of stress hormones, can be used to aid severity assessment.",
+      "evidence": "Abstract. Mapping review screened 13,520 references and included 5337 primary studies of endogenous corticosterone in mice to build an objective severity-assessment resource.",
+      "effect_size": "5337 primary studies included (from 13,520 references screened)",
+      "effect_size_source_sentence": "So far, we have screened 13,520 references, and included 5337 on primary studies with measurements of endogenous corticosterone in.",
+      "n": 5337,
+      "study_system": "laboratory mice (corticosterone measurement; systematic mapping review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1177/0023677219868499",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Reviewing multiple animal-research ethical frameworks (3Rs, 3Ss, 3Vs, 4Fs, 6Ps), the authors conclude the 3Rs have repeatedly withstood replacement and that the alternatives are complementary refinements, proposing a unified set as the basis for an international 'animal research Helsinki declaration'.",
+      "claim_source_sentence": "Yet, the 3Rs appear to have regularly withstood the replacement challenge.",
+      "evidence": "Sections 6-7, body. Argues the newer sets of principles extend rather than replace the 3Rs and could be consolidated into an amended Basel Declaration; notes all reporting countries conducting NHP neuroscience run some form of harm-benefit analysis.",
+      "effect_size": "13 countries conducting NHP neuroscience research all perform some form of HBA",
+      "effect_size_source_sentence": "They note that all reporting countries (13 countries in total that conduct nonhuman primate neuroscience research and participated in the survey) conduct some form of HBA.",
+      "n": 13,
+      "study_system": "nonhuman primate neuroscience research ethics (international frameworks review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1016/j.crneur.2022.100060",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "A refinement study found a standard multimodal analgesia regimen using buprenorphine caused severe strain-specific side effects (pica behaviour, automutilation) that drove male Sprague-Dawley rats to humane endpoints, showing a refinement intended to reduce suffering can itself increase harm.",
+      "claim_source_sentence": "Severe side effects of subcutaneous buprenorphine exposure in the first hours after surgery were observed in Crl:CD(SD) rats, whereas LEW:NHanZtm rats showed better compatibility; especially differences in pica behaviour was noticeable, which was observed in three Crl:CD(SD) rats as soon as they woke up after anaesthesia.",
+      "evidence": "Findings/Discussion, body. Two of eight Crl:CD(SD) rats reached humane endpoints from pica-related complications; the authors recommend avoiding buprenorphine in male SD rats.",
+      "effect_size": "pica behaviour in three of eight Crl:CD(SD) rats; two euthanized at humane endpoint",
+      "effect_size_source_sentence": "Severe side effects of subcutaneous buprenorphine exposure in the first hours after surgery were observed in Crl:CD(SD) rats, whereas LEW:NHanZtm rats showed better compatibility; especially differences in pica behaviour was noticeable, which was observed in three Crl:CD(SD) rats as soon as they woke up after anaesthesia.",
+      "n": 8,
+      "study_system": "laboratory rats (Sprague-Dawley vs Lewis strains; analgesia refinement)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [
+        "10.1002/ejp.712"
+      ],
+      "doi": "10.1186/s13028-022-00661-y",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "In a mouse laparotomy model the NSAID meloxicam (even at high doses) reduced post-surgical inflammation but failed to prevent pain, showing a commonly used analgesic refinement may not actually alleviate suffering.",
+      "claim_source_sentence": "Meloxicam at 5 and 20 mg/kg significantly reduced abdominal inflammation; however, all other parameters indicated pain or another negatively affective state remained.",
+      "evidence": "Results/Discussion, body. Behaviour and Mouse Grimace Scale changes persisted despite effective COX-2 inhibition, dissociating inflammation from pain.",
+      "effect_size": "~50% activity reduction with ~40% rise in MGS scores lasting at least 24 hours",
+      "effect_size_source_sentence": "Although the behaviour changes could have been attributed to stress or(), probably not according to their agreement with the MGS findings in both time-course and magnitude; a 50% activity reduction accompanied a 40% rise in MGS scores lasting at least 24 hours.",
+      "n": 9,
+      "study_system": "BALB/c mice (laparotomy pain model, meloxicam analgesia)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [
+        "10.1186/s13028-022-00661-y"
+      ],
+      "doi": "10.1002/ejp.712",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "A metareview of 29 review articles found no consensus on what environmental enrichment should be or achieve, with most reviews conceptualising it as increasing natural behaviour and improving welfare, and argues inconsistent 'enrichment' terminology slows housing refinement.",
+      "claim_source_sentence": "Most articles acknowledged that the blanket use of the terms 'enriched' and 'enrichment' should be avoided, but alternative terminology was not agreed upon.",
+      "evidence": "Results/Conclusions, body. Advocates value-neutral descriptors of exactly what is modified and how it affects welfare, to avoid framing basic housing features as luxuries.",
+      "effect_size": "welfare improvement and natural behaviour cited as goals in 23 and 20 of 29 articles",
+      "effect_size_source_sentence": "Improving animal welfare and increasing natural behaviour were also the most commonly mentioned goals of enrichment (mentioned in 23 and 20 articles, respectively).",
+      "n": 29,
+      "study_system": "laboratory rats and mice (metareview of enrichment reviews)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.3390/ani12040414",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "A refinement study of 'separated pair housing' (a divided cage allowing sensory but not physical contact) for male mice found only limited benefits - pair-housed mice built more complex nests at 8 weeks - but no unambiguous long-term wellbeing improvement over single housing.",
+      "claim_source_sentence": "Eight weeks after mice had been transferred to the housing systems, nests of higher complexity were found in the pair housing system (Mann-Whitney-U = 189.500, z = 2.333,= 0.019).",
+      "evidence": "Results, body. Burrowing, anxiety, social behaviour and stress-hormone measures did not differ across housing systems; the nest-complexity advantage disappeared when single-housed mice were later paired.",
+      "effect_size": "nest complexity higher in pair housing at week 8 (z = 2.333, p = 0.019)",
+      "effect_size_source_sentence": "Eight weeks after mice had been transferred to the housing systems, nests of higher complexity were found in the pair housing system (Mann-Whitney-U = 189.500, z = 2.333,= 0.019).",
+      "n": null,
+      "study_system": "male C57BL/6JRj mice (separated pair-housing refinement)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1038/s41598-020-67902-w",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "An online survey of 356 people working with laboratory rodents in Spain found high welfare awareness but that only ~11% judged animal stress as 'little to none', that researchers perceived less suffering than caretakers, and that a minority were never given the choice not to euthanize animals.",
+      "claim_source_sentence": "A small percentage of animal caretakers/technicians (11/21 %) and researchers (29/11,4 %) reported that they were never given the choice not to euthanize the rodents they work with (Fig.c).",
+      "evidence": "Results, body. 345 of 356 had euthanized a rodent; caretakers/technicians and researchers perceived higher stress/pain than welfare officers; job rarely discussed outside inner social circle.",
+      "effect_size": "345 of 356 participants (96.9%) had euthanized a rodent",
+      "effect_size_source_sentence": "A total of 345 participants (96.9 %) had euthanized a rodent.",
+      "n": 356,
+      "study_system": "laboratory rodent personnel in Spain (researchers, caretakers, welfare officers; survey)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1186/s42826-021-00098-w",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "In an online public consultation on five hypothetical animal-research protocols, US participants (n=1521) were on average ambivalent (mean 4.5 of 7), with support sensitive to species and purpose - lowest for Parkinson's research on monkeys and highest for organ transplant research on pigs.",
+      "claim_source_sentence": "Quantitative responses for the proposed research ranged between 1 and 7, with a mean +/- SE of 4.5 +/- 0.06 indicating ambivalence towards the proposed research.",
+      "evidence": "Results, body. Four themes underpinned reasoning (impact on animals/humans, scientific merit, alternatives); support for specific protocols was higher than typically reported for animal research generally.",
+      "effect_size": "mean support 4.5 +/- 0.06 on a 1-7 scale (n=1521)",
+      "effect_size_source_sentence": "Quantitative responses for the proposed research ranged between 1 and 7, with a mean +/- SE of 4.5 +/- 0.06 indicating ambivalence towards the proposed research.",
+      "n": 1521,
+      "study_system": "US public (online consultation on animal-research protocols)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1016/j.fct.2024.114644",
+        "10.1177/026119291604400407"
+      ],
+      "doi": "10.1371/journal.pone.0260114",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "A pre/post survey of scientists in European laboratory-animal-science courses found they invert Russell & Burch's 3Rs hierarchy - prioritising Refinement over Reduction and Reduction over Replacement - a ranking the authors note may conflict with public and regulatory expectations.",
+      "claim_source_sentence": "Finally, the hierarchy of the 3Rs envisaged by Russell and Burch-with Replacement as the main goal, Reduction as an option when there are no non-animal alternatives, and Refinement as the last principle to be applied-appears to have been inverted by European scientists working today: they place Refinement first and Replacement last.",
+      "evidence": "Discussion, body. Across four case-study dilemmas the majority prioritised Refinement; courses raised 3Rs awareness but did not change low belief that animal experiments can be fully replaced.",
+      "effect_size": "~two thirds of researchers prioritized Refinement, one third Reduction",
+      "effect_size_source_sentence": "Confirming our previous finding [], we found that approximately two thirds of researchers prioritized Refinement and one third prioritized Reduction.",
+      "n": 310,
+      "study_system": "European laboratory-animal-science course participants (scientists; survey)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pone.0200895",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "A multidisciplinary review argues that because rising availability of alternatives has not reduced total animal numbers, there is public/political pressure and internal 'discord' over whether the 3Rs can still guide morally acceptable animal use.",
+      "claim_source_sentence": "Hence, third, there is discord between the view that the 3Rs principle allows only for minimal change and may even sustain the status quo rather than leading to desirable, more radical, change.",
+      "evidence": "Body. Reframes the debate around three dimensions - scientific innovation needed, implementation of existing 3R methods, and adequacy of the 3Rs as an ethical framework given growing moral responsibilities to animals.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "3Rs principle in contemporary animal research (multidisciplinary review)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [
+        "10.14573/altex.2303061"
+      ],
+      "doi": "10.3389/fvets.2023.1185706",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "A systematic review of 263 preclinical degradable-metal bone studies found low adherence to ARRIVE 2.0, with overall coincidence rates of only 42.0% (Essential 10) and 41.5% (Recommended Set), and protocol registration/data access almost never reported.",
+      "claim_source_sentence": "As depicted in, in terms of the report quality evaluation of Essential 10 (22 sub-items), the overall coincidence rate was 42.0%.",
+      "evidence": "Results, body. Non-coincidence for protocol registration and data access was 100% and 89.4% respectively; the authors conclude reporting quality was low and lacked transparency on design.",
+      "effect_size": "Essential 10 coincidence 42.0%; Recommended Set 41.5%",
+      "effect_size_source_sentence": "In addition, in terms of the ARRIVE Recommended Set (16 sub-items), the overall coincidence rate was 41.5%.",
+      "n": 263,
+      "study_system": "preclinical degradable-metal bone-defect/fracture animal studies (ARRIVE 2.0 review)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1177/026119291003800613",
+        "10.1007/s10029-020-02351-y"
+      ],
+      "doi": "10.1093/rb/rbac076",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "Using RFID-tracked binary choice tests, group-housed female mice showed no single consistent enrichment ranking but reliably preferred certain items (a paper-filled lattice ball); high consensus errors revealed strong individual differences, arguing varied enrichment better serves welfare-based refinement.",
+      "claim_source_sentence": "Of all foraging enrichment items, the lattice ball received the highest worth value (WV) during the 46-hour testing interval (mean WV: 0.51; CE: 29.17%), both during active (WV: 0.48; CE: 33.3%) and inactive time (WV: 0.42; CE: 45.83%).",
+      "evidence": "Results/Discussion, body. Worth values were closely spaced within categories with high consensus errors, indicating no item satisfies all individuals equally.",
+      "effect_size": "lattice ball mean worth value 0.51 (consensus error 29.17%)",
+      "effect_size_source_sentence": "Of all foraging enrichment items, the lattice ball received the highest worth value (WV) during the 46-hour testing interval (mean WV: 0.51; CE: 29.17%), both during active (WV: 0.48; CE: 33.3%) and inactive time (WV: 0.42; CE: 45.83%).",
+      "n": 12,
+      "study_system": "female C57BL/6J laboratory mice (enrichment preference, RFID choice tests)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pone.0278709",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "A meta-analysis of German non-technical project summaries classified by disease code showed ~80% of authorised animal studies target specific human diseases, enabling data-driven targeting of 3R development to high-volume research areas including controversial nonhuman-primate research.",
+      "claim_source_sentence": "Approximately 80% of the NTSs analysed in this study were assigned to an ICD-10 code, and the percentage of NTSs in each ICD-10 category remained largely stable over 2 consecutive years.",
+      "evidence": "Results/Discussion, body. 5,298 summaries analysed; 68 NTSs authorised for nonhuman primates in 2015 (4,024 animals); indexing fosters transparency for controversial NHP research and targeting of 3R measures.",
+      "effect_size": "5,298 non-technical summaries analysed (2,328 in 2014; 2,970 in 2015)",
+      "effect_size_source_sentence": "For this pilot study, duly completed NTSs transferred to us in 2014 (= 2,328) and 2015 (= 2,970), i.e., a total of 5,298 NTSs, were analysed.",
+      "n": 5298,
+      "study_system": "German non-technical project summaries (AnimalTestInfo database; all species incl. nonhuman primates)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1093/ilar/ilz007",
+        "10.1177/02611929221121076"
+      ],
+      "doi": "10.1371/journal.pbio.2003217",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "A US national survey (n=2,028) on attitudes to animal research found veterinarians were the most trusted information source and that messages emphasising ethical oversight and mutual human-animal benefit raised acceptance and reduced strong opposition.",
+      "claim_source_sentence": "Veterinarians were the most trusted source (81%), followed by scientists, medical doctors, and professors.",
+      "evidence": "Abstract. Attitudes varied by demographics and were shaped by perceptions of humane care and information credibility; veterinarians positioned to lead welfare-focused public dialogue.",
+      "effect_size": "acceptance rose from 44% to 55%; strong opposition fell from 50% to 35%",
+      "effect_size_source_sentence": "Messages highlighting ethical oversight and mutual benefits for humans and animals increased acceptance (from 44% to 55%) and reduced strong opposition (from 50% to 35%).",
+      "n": 2028,
+      "study_system": "US adult public (national survey on animal-research attitudes)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1093/ilar/ilz007",
+        "10.1371/journal.pone.0260114"
+      ],
+      "doi": "10.2460/ajvr.25.06.0190",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A welfare scoresheet applied to rats after severe fluid-percussion traumatic brain injury showed suffering was limited to ~4 days with recovery within 10-15 days (worse in females), enabling refinement via analgesia and humane endpoints.",
+      "claim_source_sentence": "Implementation of this scoresheet in Sprague-Dawley rats subjected to severe lateral fluid percussion TBI revealed a period of suffering limited to four days, followed by a recovery to normal welfare scores within 10-15 days, with females showing a worse impact than males.",
+      "evidence": "Abstract. Scoresheet combines general welfare and TBI-specific indices; supports humane endpoints (30% weight loss, score >=90 and/or respiratory problems).",
+      "effect_size": "suffering limited to 4 days; recovery within 10-15 days",
+      "effect_size_source_sentence": "Implementation of this scoresheet in Sprague-Dawley rats subjected to severe lateral fluid percussion TBI revealed a period of suffering limited to four days, followed by a recovery to normal welfare scores within 10-15 days, with females showing a worse impact than males.",
+      "n": null,
+      "study_system": "Sprague-Dawley rats (severe TBI welfare assessment)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1177/00236772221107269",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A survey of 250 European mouse and primate research papers from 1986 and 2006 found no increase over 20 years in reporting of 3Rs implementation, with mouse papers averaging 0/10 and primate papers 1.5/10.",
+      "claim_source_sentence": "There was no significant increase in overall reporting score over time, for either mouse or primate research.",
+      "evidence": "Abstract. Scored Replacement/Reduction/Refinement reporting out of 10; supports calls for journals to update reporting policies.",
+      "effect_size": "mouse papers averaged 0/10; primate papers 1.5/10",
+      "effect_size_source_sentence": "By 2006, mouse research papers scored an average of 0 out of a possible 10, and primate research papers scored an average of 1.5.",
+      "n": 250,
+      "study_system": "European mouse and primate research papers (3Rs reporting survey)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1093/rb/rbac076",
+        "10.1007/s10029-020-02351-y"
+      ],
+      "doi": "10.1177/026119291003800613",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A survey of 28 UK animal-research establishments found recognition of pain, suffering and distress relied largely on subjective clinical signs, with only nine of 28 using score sheets, highlighting the need for more objective severity assessment.",
+      "claim_source_sentence": "Clinical signs used as indicators of potential pain, suffering or distress are largely subjective.",
+      "evidence": "Abstract. 137 people interviewed; few establishments had time/resources to formally review adverse effects against licence predictions.",
+      "effect_size": "28 establishments; 9 used score sheets, 7 used computerized data systems",
+      "effect_size_source_sentence": "All 28 establishments use clinical observation sheets to assist the recognition of adverse effects, nine use score sheets and seven use computerized data management systems.",
+      "n": 28,
+      "study_system": "UK scientific procedure establishments (pain/distress assessment survey)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1258/002367702320389044",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A philosophical analysis argues that comparing the intrinsic value and competing claims of animals versus humans is intractable and that utilitarianism is unhelpful for resolving it, concluding the animal-research moral impasse runs deeper than acknowledged.",
+      "claim_source_sentence": "My conclusion is that the various difficulties mentioned above have a deeper source than we have so far acknowledged, and that this reflects that the moral reality is less tidy and more complex than many theories portray.",
+      "evidence": "Abstract. Argues animals have some but lesser intrinsic value; the right-to-life question in sacrificing animals for humans is more perplexing than usually assumed.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "moral status of animals / animal-research ethics (philosophical analysis)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [
+        "10.1353/ken.0.0112"
+      ],
+      "doi": "10.1076/jmep.27.5.589.10322",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "An online survey (n=965) on chemical risk assessment found the public experiences negative affect toward in vivo animal testing and is open to non-animal alternatives, with higher acceptance of alternatives-only testing for consumer products than for medicines and foods.",
+      "claim_source_sentence": "The results suggest that people make trade-offs, as they experience negative affect regarding in vivo testing, which partly might explain their openness regarding certain alternatives.",
+      "evidence": "Abstract. In vitro tests rated most able to detect chemical harm; public assumptions could act as a barrier to New Approach Methodologies unless understood.",
+      "effect_size": "in vitro tests rated highest ability to detect chemical harm, then in vivo, then in silico",
+      "effect_size_source_sentence": "In vitro tests were attributed the highest ability to determine harmful effects of chemicals for different endpoints, followed by in vivo and in silico tests.",
+      "n": 965,
+      "study_system": "public (survey on animal testing and alternatives in chemical risk assessment)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1371/journal.pone.0260114",
+        "10.1177/026119291604400407"
+      ],
+      "doi": "10.1016/j.fct.2024.114644",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "The authors define culture of care in laboratory animal science as a commitment to animal welfare, scientific quality, staff wellbeing and transparency, and - noting no standard metric exists - propose a Capability Maturity Model to quantify it.",
+      "claim_source_sentence": "Even though several tools for assessing the culture of care within an institution have been proposed, an ultimate standard for measuring the concept is lacking.",
+      "evidence": "Abstract. Culture of care built through proactive 3Rs implementation, sharing best practice, empowering staff and caring leadership; proposed model quantifies maturity.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "laboratory animal science culture of care (review/proposal)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1177/02611929221131313",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A systematic review of grimace scales for pain assessment found 12 scales across 9 species with considerable variability, only four (mouse, rat, horse, cat) having high-level evidence and reliability/validity generally understudied.",
+      "claim_source_sentence": "The Mouse, Rat, Horse and Feline Grimace Scales exhibited high level of evidence.",
+      "evidence": "Abstract. Construct validity most reported; reliability and other validity forms understudied; gaps identified for psychometric testing and instrument refinement.",
+      "effect_size": "12 scales across 9 species",
+      "effect_size_source_sentence": "Twelve scales for 9 species were included (mice, rats, rabbits, horses, piglets, sheep or lamb, ferrets, cats, and donkeys).",
+      "n": 12,
+      "study_system": "grimace/facial-expression pain scales in nonhuman mammals (systematic review)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1371/journal.pone.0175839",
+        "10.1002/ejp.712"
+      ],
+      "doi": "10.1097/j.pain.0000000000002474",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A systematic review of animal hernia-mesh studies unexpectedly found reporting quality was significantly higher before the ARRIVE guidelines than after, indicating guideline publication alone did not improve reporting.",
+      "claim_source_sentence": "The number of fully reported (sub)items per article was on average significantly higher for pre-ARRIVE than post-ARRIVE for overall species (mean (SD) = 14.0 (2.8) vs. 12.6 (2.5), P < 0.001).",
+      "evidence": "Abstract. Pre>post held for rabbit and pig studies; authors nonetheless argue general reporting improved markedly and more improvement is needed under ARRIVE 2.0.",
+      "effect_size": "14.0 vs 12.6 sub-items reported (pre vs post ARRIVE; P<0.001)",
+      "effect_size_source_sentence": "The number of fully reported (sub)items per article was on average significantly higher for pre-ARRIVE than post-ARRIVE for overall species (mean (SD) = 14.0 (2.8) vs. 12.6 (2.5), P < 0.001).",
+      "n": null,
+      "study_system": "animal hernia-repair mesh studies (ARRIVE reporting quality review)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [
+        "10.1093/rb/rbac076",
+        "10.1177/026119291003800613"
+      ],
+      "doi": "10.1007/s10029-020-02351-y",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A high-containment infection facility describes using medical imaging for earlier humane endpoints and a software-based Animal Welfare Assessment Grid (AWAG) to quantify the lifetime experience of animals including macaques, illustrating cumulative-severity refinement.",
+      "claim_source_sentence": "Furthermore, we have demonstrated our improvements in animal welfare through use of a software-based Animal Welfare Assessment Grid that was developed with help of NC3Rs funding and enables us to quantify the lifetime experience of animals.",
+      "evidence": "Abstract. Directional-flow containment allows group housing and enrichment for mice, ferrets, hamsters, rabbits and macaques; imaging refines application of early humane endpoints.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "high-containment infection models (mice, ferrets, hamsters, rabbits, macaques)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1177/00236772241247104",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Using a validated olfactory judgment-bias task, environmentally enriched mice showed relative 'optimism' and tumor-bearing male mice showed pessimism, providing a refined affective-state welfare measure sensitive to housing quality and disease.",
+      "claim_source_sentence": "In C57BL/6 and Balb/c mice faced with ambiguous cues, latencies to dig were sensitive to high/low welfare housing: environmentally-enriched animals responded with relative 'optimism' through shorter latencies.",
+      "evidence": "Abstract. First valid mouse judgment-bias task and first demonstration of pessimism in tumor-bearing animals; task still needs refinement for sensitivity.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "C57BL/6 and Balb/c mice (judgment bias / affective-state welfare)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1016/j.physbeh.2021.113465",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "In individually housed rats, providing nesting-material enrichment throughout life did not change the ~5% prevalence of overgrooming-related self-injury but reduced its severity at follow-up, supporting enrichment as refinement.",
+      "claim_source_sentence": "These results suggest that nesting material enrichment provided throughout an animal's life may reduce overgrooming-related self-injury.",
+      "evidence": "Abstract. 20 cases (~5%) of self-injury observed across 405 rats; baseline-enriched rats had lower severity scores at one-, two- and four-week follow-ups.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "individually housed laboratory rats (nesting enrichment, self-injury)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1177/0023677218777536"
+      ],
+      "doi": "10.1177/0023677219894356",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A study of breeding mice found lack of cage enrichment increased preweaning pup mortality and delayed development, reframing 'normal' litter loss as an underestimated, refinement-addressable welfare issue.",
+      "claim_source_sentence": "Our data reveal that lack of enrichment results in greater preweaning pup mortality, reduced weight and delayed development.",
+      "evidence": "Abstract. Post-birth enrichment could not prevent litter loss but improved development; underscores early pup counting for refinement strategies.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "C57BL/6J breeding mice (enrichment, pup mortality)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1177/0023677219894356",
+        "10.3390/ani12040414"
+      ],
+      "doi": "10.1177/0023677218777536",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Comparing Swiss animal-law definitions of the 3Rs with Russell & Burch's originals, the authors identify a problematic species-focused departure in the definition of Replacement and argue the law fails to apply the 3Rs most effectively, proposing 'total sum of distress' as a corrective.",
+      "claim_source_sentence": "We then identify one risky departure from the original definition of replacement in Swiss law, which shows a problematic focus on species.",
+      "evidence": "Abstract. Discusses 3R conflict resolution, timing of application, problematic prioritisations and choices of convenience; revives Russell & Burch's total-sum-of-distress concept.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "Swiss animal-research law and the 3Rs (ethical/legal analysis)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [
+        "10.3389/fvets.2023.1185706"
+      ],
+      "doi": "10.14573/altex.2303061",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "The authors argue scientists' historical reticence about animal research ceded the narrative to opponents and eroded public support, and that openness/transparency is essential to preserve the research community's 'permission' to conduct justifiable animal studies.",
+      "claim_source_sentence": "This imbalance has led to suspicion and lagging public support for this work.",
+      "evidence": "Abstract. Circumstantial evidence links open dialogue with reduced targeting/harassment and improved job pride; responsibility for openness falls on all involved in animal research.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "public communication of animal research (review/commentary)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1371/journal.pbio.2003217",
+        "10.2460/ajvr.25.06.0190"
+      ],
+      "doi": "10.1093/ilar/ilz007",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "An NC3Rs working-group report gives evidence-based refinement recommendations (humane endpoints, analgesia, welfare assessment, enrichment) to minimise pain, suffering and distress in rodent epilepsy and seizure models while improving study quality.",
+      "claim_source_sentence": "This report provides background information and recommendations aimed at minimising pain, suffering and distress in rodent models of epilepsy and seizures in order to improve animal welfare and optimise the quality of studies in this area.",
+      "evidence": "Abstract. Based on systematic review, community survey and expert working group; covers model choice, perioperative care, social housing, reporting and data sharing.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "rodent models of epilepsy and seizures (refinement guidance)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1016/j.jneumeth.2015.09.007",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A survey of the general public, medical students and scientists found the public expects animal research to be of high methodological quality and to translate to humans more than 60% of the time - expectations far exceeding what empirical data show is achieved.",
+      "claim_source_sentence": "Expectations for AR are much higher than empirical data show to have been achieved.",
+      "evidence": "Abstract. 1379 public responses; respondents expect monitored anaesthesia/analgesia, randomisation and blinding, and reject cost/difficulty as justifications for lower quality.",
+      "effect_size": "1379 public responses; expected human translation >60% of the time",
+      "effect_size_source_sentence": "Asked about their expectations of translation to humans (of toxicity, carcinogenicity, teratogenicity and treatment findings), most expect translation more than 60% of the time.",
+      "n": 1379,
+      "study_system": "general public, medical students, scientists (survey on animal-research expectations)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1371/journal.pone.0260114",
+        "10.1016/j.fct.2024.114644"
+      ],
+      "doi": "10.1177/026119291604400407",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "In an orthotopic pancreatic-cancer mouse model, a multivariate model combining faecal corticosterone, body weight, distress score, burrowing and nesting activity graded animal distress and detected chemotherapy side effects, providing a simple non-invasive severity-assessment approach.",
+      "claim_source_sentence": "Thus, the present study revealed that single readout parameters, as well as multivariate analysis, can help to assess the severity of animal experiments and detect side effects of therapies.",
+      "evidence": "Abstract. Multifactorial logistic-regression model of distress in C57BL/6J mice; burrowing and faecal corticosterone metabolites among best single readouts; supports evidence-based severity levels for harm-benefit analysis.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "orthotopic pancreatic-cancer mouse model (C57BL/6J mice; severity assessment)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1111/nyas.14338",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "The modular Where-What-How (WWHow) concept uses intra-operative characteristics (anatomical location, tissue trauma) from surgical pain models in mice and rats to prospectively predict the maximum expected severity of procedures, enabling refinement and evidence-based dialogue with authorities.",
+      "claim_source_sentence": "The WWHow concept integrates intra-operative characteristics for predicting the maximum expected severity of surgical procedures.",
+      "evidence": "Abstract. Prospective severity categorisation (non-recovery/mild/moderate/severe) required in project approval; WWHow claims congruence with established catalogs while allowing adaptation and confounder identification.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "mice and rats (post-operative prospective severity assessment)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1177/0023677217744587",
+        "10.3390/ani13050800"
+      ],
+      "doi": "10.3389/fvets.2022.841431",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A review argues poor welfare induces stress that can severely confound research results, and that the EU Directive 2010/63 severity terms (mild/moderate/severe) have limited practical value when researchers use purely subjective assessments without reference scales.",
+      "claim_source_sentence": "However, as long as some researchers use purely subjective assessments without a supporting structure and reference scales, or no assessment method at all, these terms may have limited practical value.",
+      "evidence": "Abstract. Reviews physiological, hormonal, immunological and behavioural stress measures; endorses harm-benefit analysis with the caveat that if doubt exists the animal's welfare should take priority.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "laboratory animals (stress and welfare assessment; harm-benefit review)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1177/00236772251396310",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A model framework proposes that the degree of deviation from normality of measurable biological criteria (temperature, body weight, body condition, behaviour) reflects the level of pain, suffering and distress, giving a mathematical tool to assess ongoing and cumulative severity and trigger humane endpoints.",
+      "claim_source_sentence": "The underlying assumption of the model framework is that the degree of deviation from normality of specified measurable biological criteria will reflect the level of pain, suffering, distress and lasting harm incurred by or during an experiment.",
+      "evidence": "Abstract. Presents a mathematical model to compute degree of harm/severity, enabling alleviative treatment, humane killing, or withdrawal when a severity limit is breached; criteria double as scientific outcome measures.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "laboratory animals (cumulative-severity estimation model framework)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.3390/ani13050800",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "An interactive stress-assessment exercise in basic animal-experimentation training significantly improved participants' ability to recognise and grade stress severity in laboratory animals, yet a minority still could not distinguish healthy from stressed animals, underlining the subjectivity of severity judgements.",
+      "claim_source_sentence": "The results were assessed comparatively and showed a significant increase in performance in all categories (-value < 0.001).",
+      "evidence": "Abstract. Pre/post image-and-video assessment benchmarked against experienced scientists and caretakers; most participants could grade severity as mild/moderate/severe but a small number could not, showing strong influence of subjectivity.",
+      "effect_size": "significant increase in performance in all categories (p < 0.001)",
+      "effect_size_source_sentence": "The results were assessed comparatively and showed a significant increase in performance in all categories (-value < 0.001).",
+      "n": null,
+      "study_system": "animal-science course participants (stress-severity assessment training)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.3390/ani11072145",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A philosophical analysis argues sentience is necessary and sufficient for moral status and that the 'epistemic objection' (our uncertainty about which animals or AI are sentient) cannot justify an alternative criterion; if sentience is unknowable then moral status itself is unknowable.",
+      "claim_source_sentence": "It follows that doubts about our epistemic access to sentience cannot be used to motivate an alternative criterion of moral status.",
+      "evidence": "Abstract. Distinguishes what determines moral status from what criterion should be used in practice; concludes criteria must be based on sentience despite deep uncertainty.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "animal and machine ethics (moral status and sentience; philosophical analysis)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [
+        "10.1353/ken.0.0112"
+      ],
+      "doi": "10.1007/s11948-022-00408-y",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Factorial experimental designs let each animal contribute information on every factor (sex, strain, age, timing), making experiments more efficient than the older one-factor-at-a-time approach and allowing reductions in animal numbers without loss of scientific validity.",
+      "claim_source_sentence": "Two examples of real factorial experiments reveal how using this approach can potentially lead to a reduction in animal use and savings in financial and scientific resources without loss of scientific validity.",
+      "evidence": "Abstract. Factorial designs maximise the difference between vehicle and positive control, either reducing animal numbers or increasing sensitivity to detect smaller effects.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "drug-discovery animal experiments (mice; factorial design for Reduction)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.30802/AALAS-JAALAS-19-000042",
+        "10.1136/bmjos-2020-100126"
+      ],
+      "doi": "10.1093/ilar.43.4.223",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Factorial experimental designs, in which each animal contributes information on every factor and interactions can be detected, were used at a pharmaceutical company to effectively reduce the numbers of animals used in routine in vivo drug screens.",
+      "claim_source_sentence": "These designs have been used successfully at AstraZeneca in the optimisation of in vivo drug screening experiments, where their use has effectively reduced the numbers of animals used in some routine screens.",
+      "evidence": "Abstract. Fractional factorial designs cut treatment combinations to manageable levels; each animal informs the effect of every factor, giving more information than one-variable-at-a-time.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "in vivo drug screening (factorial experimental design; Reduction)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1093/ilar.43.4.223",
+        "10.30802/AALAS-JAALAS-19-000042"
+      ],
+      "doi": "10.1177/026119290403202s10",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Under-tank pebble-picture enrichment significantly reduced chronic stress (tank-water cortisol) in singly housed zebrafish to the level of group-housed fish, showing an out-of-tank visual enrichment can refine zebrafish housing without hygiene concerns.",
+      "claim_source_sentence": "In fact, single housed zebrafish with pebble pictures showed the same cortisol levels as group housed zebrafish without pebble pictures.",
+      "evidence": "Results. Crossover choice test showed a preference for pebble images equal to that for conspecifics; cortisol significantly reduced with pebble pictures and additive with group housing.",
+      "effect_size": "single-housed zebrafish with pebble pictures had the same cortisol levels as group-housed zebrafish",
+      "effect_size_source_sentence": "In fact, single housed zebrafish with pebble pictures showed the same cortisol levels as group housed zebrafish without pebble pictures.",
+      "n": null,
+      "study_system": "zebrafish (Danio rerio) (visual enrichment, cortisol; housing refinement)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1371/journal.pone.0298657",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "The authors argue traditional power calculations for animal-number justification exist only for simple, low-powered designs (e.g. paired t-tests) that require more animals than necessary, and that randomized block and factorial designs increase power, reproducibility and reduce animal use.",
+      "claim_source_sentence": "The use of more sophisticated designs in animal experiments will inevitably improve power, reproducibility, and reduce animal use.",
+      "evidence": "Abstract. Argues statistical power reflects signal-to-noise, not just sample size; failure to report design/test creates a dilemma for IACUCs evaluating animal-number justifications.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "animal experimental design / statistical power (review; Reduction)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1093/ilar.43.4.223",
+        "10.1136/bmjos-2020-100126"
+      ],
+      "doi": "10.30802/AALAS-JAALAS-19-000042",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A systematic review of 1130 direct coefficient-of-variation comparisons found environmentally enriched mice and rats were not more variable than standard-housed animals (and treated controls were sometimes more variable), refuting the argument that enrichment undermines reproducibility.",
+      "claim_source_sentence": "Using pairedtests, we found no differences between EE and standard housed mice or rats on CVs across traits (> 0.05), regardless of control housing type (e.g., running wheel, isolated, social/group housing) or whether animals were naive or manipulated/treated (e.g., drug treated, knockout models, surgery).",
+      "evidence": "Results (body). 1130 CV comparisons (618 naive, 512 treated); controls had higher CVs than EE on overall behaviour; authors argue standard barren caging is not a true control condition.",
+      "effect_size": "1130 direct CV comparisons (618 naive, 512 treated); no increase in variability with EE",
+      "effect_size_source_sentence": "In total, there were 1130 direct comparisons of CVs between EE and control animals included here (618 naive pair comparisons and 512 manipulated/treated pair comparisons;).",
+      "n": 1130,
+      "study_system": "laboratory mice and rats (environmental enrichment; phenotypic variability; systematic review)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1038/432821a",
+        "10.1111/j.1601-183X.2005.00140.x"
+      ],
+      "doi": "10.1523/ENEURO.0539-20.2021",
+      "text_access": "fulltext"
+    },
+    {
+      "claim": "Home-cage 'lockbox' puzzle enrichment improved the affective state and problem-solving of laboratory mice without compromising phenotype or data reproducibility, and even reduced the coefficient of variation for some variables versus conventional or super-enriched housing.",
+      "claim_source_sentence": "Neither relevant phenotype of the mice nor reproducibility of the data were compromised by LE, similar to SEE.",
+      "evidence": "Abstract. Lockbox enrichment (open-source) improved sequential problem-solving over super-environmental enrichment; relative variability decreased for some variables under lockbox access.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "female C57BL/6JCrl mice (lockbox cognitive enrichment; refinement and reproducibility)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1523/ENEURO.0539-20.2021",
+        "10.1038/432821a"
+      ],
+      "doi": "10.12688/openreseurope.17624.2",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "In a landmark study, environmental enrichment increased neither individual variability in behavioural tests nor the risk of obtaining conflicting data in replicate studies, showing mouse housing can be markedly improved without compromising standardization.",
+      "claim_source_sentence": "Here we show that environmental enrichment increases neither individual variability in behavioural tests nor the risk of obtaining conflicting data in replicate studies.",
+      "evidence": "Abstract. Directly addresses the standardization-fallacy concern; standard cages impair brain development and increase stereotypies, all lessened by enrichment.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "laboratory mice (C57BL/6, DBA; enrichment and reproducibility)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1523/ENEURO.0539-20.2021",
+        "10.1111/j.1601-183X.2005.00140.x"
+      ],
+      "doi": "10.1038/432821a",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "Systematically varying housing, laboratory and experimenter showed that although absolute behavioural values differed between labs and experimenters, the effects of enriched versus unstructured housing were consistent across labs when standardization was applied.",
+      "claim_source_sentence": "However, with regard to the differences between enriched and unstructured housing conditions, overall consistent results were achieved by different experimenters in both laboratories.",
+      "evidence": "Abstract. Barrier and elevated-plus-maze tests differed by lab/experimenter, but housing-condition effects were robust; behavioural phenotyping reliability holds with appropriate standardization and controls.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "C57BL/6 mice (housing, laboratory and experimenter effects on behaviour)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1038/432821a",
+        "10.1523/ENEURO.0539-20.2021"
+      ],
+      "doi": "10.1111/j.1601-183X.2005.00140.x",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A 3D human hepatic spheroid model built from parenchymal and non-parenchymal liver cells is presented as a New Approach Methodology, rooted in the 3Rs principle of Replacement, that can assess drug-induced liver injury over 30 days as a human-relevant alternative to animal models.",
+      "claim_source_sentence": "Rooted in the 3Rs principle of Replacement, Reduction and Refinement, and driven by regulatory frameworks such as REACH (Regulation (EC) No 1907/2006) and Directive 2010/63/EU, which promote ethical alternatives in toxicological studies, one strategy for overcoming issues prevalent when assessing DILI has been the development and adoption of NAMs, or New Approach Methodologies.",
+      "evidence": "Abstract. NAMs (spheroids, organoids, organ-on-chip) recapitulate tissue-relevant liver biology; challenges remain for regulatory acceptance, standardisation and integration into risk-assessment frameworks.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "human liver spheroid model (HepG2 + non-parenchymal cells; NAM/Replacement)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1016/j.taap.2025.117520",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A workshop of 46 experts from academia, industry and regulators concluded that despite academic hype, microphysiological systems have not been widely adopted by pharma nor reached regulated drug authorization, with assay qualification and a stakeholder communication gap the major barriers, creating a 'regulatory acceptance dilemma' for animal replacement.",
+      "claim_source_sentence": "Despite the MPS hype in academia and by platform providers, which says this technology is about to reshape the entire in vitro culture landscape in basic and applied research, MPS approaches have neither been widely adopted by the pharmaceutical industry yet nor reached regulated drug authorization processes at all.",
+      "evidence": "Abstract. Identifies qualification level and communication gap as major challenges; provides a roadmap toward regulatory-accepted MPS models and further laboratory-animal reduction/replacement.",
+      "effect_size": "46 experts from academia, industry and regulatory agencies",
+      "effect_size_source_sentence": "Here, 46 leading experts from all stakeholders - academia, MPS supplier industry, pharmaceutical and consumer products industries, and leading regulatory agencies - worldwide have analyzed existing challenges and hurdles along the MPS-based assay life cycle in a second workshop of this kind in June 2019.",
+      "n": 46,
+      "study_system": "microphysiological systems / organ-on-chip (drug development; Replacement adoption)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.14573/altex.2001241",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A bioethics analysis argues that the wellbeing of sentient human brain organoids should not receive greater moral consideration than that of nonhuman research animals, because none of the leading justifications for humans' higher moral status apply to organoids.",
+      "claim_source_sentence": "It argues that, contrary to common intuitions, the wellbeing of sentient human brain organoids should not be granted greater moral consideration than the wellbeing of nonhuman research animals.",
+      "evidence": "Abstract. Does not deny typical humans have higher moral status than animals, but holds the justifications for that status fail for brain organoids and for organoids of other species.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "human brain organoids versus research animals (moral status; bioethics)",
+      "replication_status": "disputed",
+      "replication_evidence_dois": [
+        "10.1007/s40592-020-00124-y"
+      ],
+      "doi": "10.1111/bioe.13290",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "In a murine bile-duct-ligation (cholestasis) model, retrospective analysis identified that 10-20% body-weight loss combined with a greater-than-79.4% reduction in burrowing activity predicted death within two days, defining an earlier, more humane endpoint that refines the experiment.",
+      "claim_source_sentence": "Using this approach, we determined that a body weight loss of 10-20% combined with a reduction of burrowing activity by more than 79.4% was able to predict that these animals would die within two days.",
+      "evidence": "Abstract. Cox proportional-hazards analysis of score-sheet criteria; adding behavioural parameters (burrowing) defined an earlier humane endpoint and reduces suffering.",
+      "effect_size": "10-20% body-weight loss plus >79.4% reduced burrowing predicted death within 2 days",
+      "effect_size_source_sentence": "Using this approach, we determined that a body weight loss of 10-20% combined with a reduction of burrowing activity by more than 79.4% was able to predict that these animals would die within two days.",
+      "n": null,
+      "study_system": "BALB/cANCrl mice (cholestasis; humane-endpoint refinement)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.1177/00236772221107269",
+        "10.1111/nyas.14338"
+      ],
+      "doi": "10.14573/altex.1909111",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A review comparing welfare/phenotype-characterization protocols (SHIRPA, Morton & Griffiths score sheet, FRIMORFO) for transgenic mice found the amount and detail of information varied considerably between schemes, and proposed a mandatory instruction document accompanying each strain to identify humane endpoints.",
+      "claim_source_sentence": "The protocols described are useful for characterizing the phenotype and judging welfare disturbances, however the total amount of information and the degree of detail varies considerably from one scheme to another.",
+      "evidence": "Abstract. Evaluated protocols against four goals including refining welfare by identifying humane endpoints and preventing duplication of existing models; recommends a certificate of instruction per strain.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "transgenic and traditional mouse strains (welfare-assessment protocols; refinement)",
+      "replication_status": "single-study",
+      "replication_evidence_dois": [],
+      "doi": "10.1258/002367703762226647",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A FELASA/ECLAM/ESLAV working group notes the severity examples in Directive 2010/63/EU Annex VIII are few and have little descriptive power, and provides guidance for prospectively and retrospectively assigning severity (non-recovery/mild/moderate/severe) to reduce welfare consequences and benchmark refinement.",
+      "claim_source_sentence": "The examples of severity classification given in Annex VIII are limited in number, and have little descriptive power to aid assignment.",
+      "evidence": "Abstract. Consistency of severity classification across Member States is a key requirement; worked animal models illustrate assessment from project inception to final actual-severity reporting.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "laboratory animal procedures (EU Directive severity classification; consensus guidance)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.3390/ani11072145",
+        "10.3389/fvets.2022.841431"
+      ],
+      "doi": "10.1177/0023677217744587",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A survey of 200 animal-research personnel found 86% had experienced compassion fatigue at some point and 41% experienced a compassion-fatigue event during the COVID-19 pandemic; among those responsible for euthanizing healthy animals who had an event, 88% reported effects on their personal or professional life.",
+      "claim_source_sentence": "A total of 86% of participants had experienced CF at some point in their career, with 41% experiencing a CF event (new or worsening symptoms of CF) during the pandemic.",
+      "evidence": "Abstract. 96% were essential workers yet 67% did not feel valued; 78% said internal compassion-fatigue programmes did not help alleviate symptoms.",
+      "effect_size": "86% ever experienced compassion fatigue; 41% a CF event during the pandemic",
+      "effect_size_source_sentence": "A total of 86% of participants had experienced CF at some point in their career, with 41% experiencing a CF event (new or worsening symptoms of CF) during the pandemic.",
+      "n": 200,
+      "study_system": "laboratory animal personnel (compassion fatigue; COVID-19 survey)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.3389/fvets.2020.00114",
+        "10.1177/00236772241259089"
+      ],
+      "doi": "10.30802/AALAS-JAALAS-21-000030",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A cross-sectional ProQOL study of US Army laboratory-animal-medicine personnel found most reported high compassion satisfaction and low burnout, with higher compassion fatigue associated with working with nonhuman primates, loneliness and euthanasia distress.",
+      "claim_source_sentence": "Factors associated with higher levels of CF and lower CS included working with NHPs, difficulty working with primary investigators, loneliness, and euthanasia distress.",
+      "evidence": "Abstract. Used the Professional Quality of Life Scale (burnout + secondary traumatic stress) with linear regression to identify occupational stressors in Department of Defense animal research.",
+      "effect_size": null,
+      "effect_size_source_sentence": null,
+      "n": null,
+      "study_system": "US Army veterinary / laboratory-animal personnel (compassion fatigue survey)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.3389/fvets.2020.00114",
+        "10.30802/AALAS-JAALAS-21-000030"
+      ],
+      "doi": "10.30802/AALAS-JAALAS-20-000080",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "In 801 North American laboratory-animal personnel, poorer professional quality of life (more compassion fatigue) was associated with lower social support, higher perceived animal stress/pain, less enrichment, physical euthanasia methods and less control over performing euthanasia.",
+      "claim_source_sentence": "Personnel who reported higher compassion fatigue also reported lower social support, higher animal stress/pain, higher desire to implement more enrichment, and less control over performing euthanasia ('s < 0.05).",
+      "evidence": "Abstract. Neither primary animal type nor frequency of euthanasia predicted professional quality of life; findings point to interventions (social support, less animal stress, more enrichment, euthanasia control).",
+      "effect_size": "801 personnel surveyed; associations significant at p < 0.05",
+      "effect_size_source_sentence": "A total of 801 personnel in the United States or Canada completed an online survey regarding professional quality of life, social support, euthanasia, enrichment, stress/pain levels, and human-animal interactions.",
+      "n": 801,
+      "study_system": "US/Canada laboratory animal personnel (professional quality of life; compassion fatigue)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.30802/AALAS-JAALAS-21-000030",
+        "10.1371/journal.pone.0298744"
+      ],
+      "doi": "10.3389/fvets.2020.00114",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A baseline survey of 198 animal-research personnel found professional quality of life correlated with job satisfaction and retention, and that compassion fatigue was driven by institutional culture (70% of participants) even more than by working with animals (58%).",
+      "claim_source_sentence": "In response to open-ended questions, participants said their compassion fatigue was impacted by institutional culture (70% of participants), animal research (58%), general mental health (41%), and specific compassion fatigue support (24%).",
+      "evidence": "Abstract. Higher compassion satisfaction linked to higher retention and job satisfaction; higher burnout linked to lower job satisfaction; supports institutional investment in resiliency.",
+      "effect_size": "institutional culture cited by 70%, animal research 58%, mental health 41%, specific support 24%",
+      "effect_size_source_sentence": "In response to open-ended questions, participants said their compassion fatigue was impacted by institutional culture (70% of participants), animal research (58%), general mental health (41%), and specific compassion fatigue support (24%).",
+      "n": 198,
+      "study_system": "US laboratory animal personnel (professional quality of life; compassion fatigue)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.3389/fvets.2020.00114",
+        "10.30802/AALAS-JAALAS-21-000030"
+      ],
+      "doi": "10.1371/journal.pone.0298744",
+      "text_access": "abstract_only"
+    },
+    {
+      "claim": "A survey of 932 laboratory-animal professionals in German-speaking countries found euthanasia of surplus animals and being unable to alleviate animal distress were job-specific stressors, but general stressors (work-privacy conflict, emotional demands) explained at least as much psychological strain, informing culture-of-care interventions.",
+      "claim_source_sentence": "Tasks like the euthanasia of surplus animals or being unable to alleviate animal distress due to scientific needs emerged as job-specific stressors.",
+      "evidence": "Abstract. Hierarchical regression on GHQ-12 and COPSOQ; general stressors explained at least as much variance as job-specific ones; results could foster a culture of care protecting personnel, animals and research results.",
+      "effect_size": "932 laboratory animal professionals surveyed",
+      "effect_size_source_sentence": "The final sample included 932 anonymous LAP participants.",
+      "n": 932,
+      "study_system": "laboratory animal professionals in German-speaking countries (psychological strain; culture of care)",
+      "replication_status": "replicated",
+      "replication_evidence_dois": [
+        "10.3389/fvets.2020.00114",
+        "10.30802/AALAS-JAALAS-21-000030"
+      ],
+      "doi": "10.1177/00236772261417391",
+      "text_access": "abstract_only"
+    }
+  ],
+  "conflicts": [
+    {
+      "paper_a_doi": "10.3390/ani10020291",
+      "paper_b_doi": "10.1177/0023677218783004",
+      "paper_a_claim": "Given these caveats of HBA, I call policy-makers to reconsider the place of HBA in animal research.",
+      "paper_b_claim": "Ultimately, we argue that the two models are not mutually exclusive and may be combined to make the most of their advantages while reducing the disadvantages of how harm-benefit analysis in typically undertaken.",
+      "nature_of_conflict": "Whether project-level harm-benefit analysis should be abandoned and replaced by independent harm-minimisation principles (Gutfreund) or retained and improved by combining discourse and metric weighting models (Grimm, Olsson & Sandoe).",
+      "resolution_status": "open"
+    },
+    {
+      "paper_a_doi": "10.1136/bmjos-2018-000048",
+      "paper_b_doi": "10.3389/fphys.2022.914939",
+      "paper_a_claim": "However, animal welfare alone does not suffice to make animal research ethical if the research does not have sufficient scientific value.",
+      "paper_b_claim": "It is not always possible to apply the Principle in all of its three aspects, but this does not absolutely mean that the Principle as an idea is neither obsolete nor ineffective.",
+      "nature_of_conflict": "Whether the classic 3Rs framework is inadequate and must be expanded with scientific-value principles (Strech & Dirnagl's 6Rs) or remains conceptually sufficient and merely under-applied (Vitale & Ricceri).",
+      "resolution_status": "open"
+    },
+    {
+      "paper_a_doi": "10.1007/7854_2014_329",
+      "paper_b_doi": "10.1353/ken.0.0112",
+      "paper_a_claim": "First, we criticise some justifications for the claim that human beings and more complex animals have higher moral status.",
+      "paper_b_claim": "Such an examination demonstrates, I believe, that the practical implications of leading theories converge far more than might be expected.",
+      "nature_of_conflict": "Whether graded moral status by cognitive complexity is philosophically defensible (challenged by Bovenkerk & Kaldewaij) or whether competing moral-status theories nonetheless converge enough to guide practice (DeGrazia).",
+      "resolution_status": "open"
+    },
+    {
+      "paper_a_doi": "10.1523/ENEURO.0284-21.2021",
+      "paper_b_doi": "10.1002/bies.201500127",
+      "paper_a_claim": "A careful analysis of indicative primate blood markers for chronic inflammation, hydration status, and stress levels, their comparison to baseline values from both the same animals and the literature, and evaluation of additional hematologic, physiological, and behavioral parameters did not provide support for the notion of long-term, cumulative effects on the monkeys' healthiness and well-being.",
+      "paper_b_claim": "I propose that telomere attrition, a cellular biomarker of biological age, provides a molecular measure of cumulative experience that could be used to assess the welfare impact of husbandry regimes and/or experimental procedures on non-human animals.",
+      "nature_of_conflict": "Whether repeated 'mildly severe' laboratory procedures produce measurable long-term cumulative harm: an NHP blood-marker dataset detects none, whereas the telomere-attrition framework predicts cumulative physiological damage that conventional markers may miss.",
+      "resolution_status": "open"
+    },
+    {
+      "paper_a_doi": "10.1371/journal.pone.0260114",
+      "paper_b_doi": "10.1177/026119291604400407",
+      "paper_a_claim": "In general, scenarios involving chronic pain in mice, organ transplantation in pigs and skin cancer in fish all exhibited higher levels of support than what is typically reported for animal research [,].",
+      "paper_b_claim": "Expectations for AR are much higher than empirical data show to have been achieved.",
+      "nature_of_conflict": "Whether public attitudes to animal research are more supportive than commonly assumed (specific protocols attract higher-than-typical support) or fundamentally fragile because they rest on unmet expectations of methodological quality and human translation.",
+      "resolution_status": "open"
+    },
+    {
+      "paper_a_doi": "10.1177/00236772251396310",
+      "paper_b_doi": "10.3390/ani10020291",
+      "paper_a_claim": "A harm-benefit analysis can be used to weigh the welfare and quality of life of animals in scientific studies against the resulting benefits to other animals or humans, provided that animal welfare can be validly assessed.",
+      "paper_b_claim": "The argument above that HBA in IACUC discussions may result in a bias against basic research is not a mere theoretical concern.",
+      "nature_of_conflict": "Whether project-level harm-benefit analysis is a valid and usable tool for weighing animal welfare against benefits (Wolfensohn et al.) or is structurally biased against basic research and should be replaced by independent principles (Gutfreund).",
+      "resolution_status": "open"
+    },
+    {
+      "paper_a_doi": "10.3390/ani11072145",
+      "paper_b_doi": "10.1177/0023677217744587",
+      "paper_a_claim": "In all groups, the vast majority of participants were able to recognise stress in laboratory animals.",
+      "paper_b_claim": "The examples of severity classification given in Annex VIII are limited in number, and have little descriptive power to aid assignment.",
+      "nature_of_conflict": "How reliably procedure severity can be assigned in practice: a training study finds most personnel can recognise and grade stress after instruction, whereas the FELASA working group finds the regulatory severity framework too underspecified to support consistent assignment.",
+      "resolution_status": "open"
+    }
+  ],
+  "unreplicated_claims": [
+    {
+      "claim": "Telomere attrition can serve as an objective cumulative welfare indicator integrating lifetime positive and negative experience in laboratory animals.",
+      "source": "10.1002/bies.201500127",
+      "years_since_publication": 11
+    },
+    {
+      "claim": "No study has empirically linked work-related stress / compassion fatigue among laboratory-animal personnel to measurable research quality, despite the claim being widely repeated.",
+      "source": "10.1177/00236772241259089",
+      "years_since_publication": 2
+    },
+    {
+      "claim": "A software-based Animal Welfare Assessment Grid (AWAG) can quantify an animal's lifetime cumulative welfare experience across species including macaques.",
+      "source": "10.1177/00236772241247104",
+      "years_since_publication": 2
+    },
+    {
+      "claim": "Microphysiological systems / organ-on-chip models, despite generating over a thousand publications per year, have not yet been widely adopted by the pharmaceutical industry or accepted in regulated drug-authorization processes as animal replacements.",
+      "source": "10.14573/altex.2001241",
+      "years_since_publication": 6
+    }
+  ],
+  "evidence_gaps": [
+    {
+      "topic": "Harm-benefit analysis accountability",
+      "what_is_missing": "Prospective validation that project-level HBA reliably predicts realised benefit; almost all evidence is retrospective or theoretical.",
+      "why_it_matters": "HBA is the legal cornerstone of animal-research regulation, yet its objectivity and predictive validity remain largely untested."
+    },
+    {
+      "topic": "Culture of care and research quality",
+      "what_is_missing": "Primary experimental demonstration that culture-of-care programmes or staff wellbeing improve animal welfare or data quality.",
+      "why_it_matters": "Culture of care is being written into policy and frameworks on the assumption of a wellbeing-to-quality link that has not been measured (false_consensus_risk)."
+    },
+    {
+      "topic": "Cumulative severity",
+      "what_is_missing": "Longitudinal, species-general objective biomarkers of cumulative lifetime harm; current evidence is single-species and often contradictory (e.g. NHP blood markers show no cumulative effect while telomere models predict one).",
+      "why_it_matters": "Directive 2010/63/EU requires assessment of cumulative severity but validated cross-species tools are lacking."
+    },
+    {
+      "topic": "Efficacy of standard analgesia protocols (Refinement)",
+      "what_is_missing": "Evidence that commonly used analgesics (e.g. buprenorphine, meloxicam) actually prevent pain rather than merely being administered; controlled studies show failure to prevent pain or drug-induced harm reaching humane endpoints.",
+      "why_it_matters": "Refinement is assumed to reduce suffering, but if standard analgesia is ineffective or harmful the welfare side of the harm-benefit analysis is overstated."
+    },
+    {
+      "topic": "Adoption of non-animal Replacement methods (NAMs)",
+      "what_is_missing": "Evidence that validated New Approach Methodologies (organ-on-chip, spheroids, organoids) are actually adopted by industry and accepted by regulators at scale, rather than demonstrated only in proof-of-concept papers.",
+      "why_it_matters": "Replacement is the highest priority of the 3Rs, but a 'regulatory acceptance dilemma' and qualification/communication gaps mean technical feasibility has not translated into reduced animal use."
+    }
+  ],
+  "strongest_evidence": {
+    "claim": "Conventional laboratory housing significantly worsens stress-sensitive disease and mortality in rodents relative to enriched housing, with medium-to-large effect sizes.",
+    "why_strong": "Pre-registered random-effects meta-analysis of 214 studies and 6495 animals with quantified effect sizes and confidence intervals, and an explicit test showing enrichment did not inflate data variability."
+  },
+  "weakest_evidence_cited": {
+    "claim": "A 15-year NHP blood-marker dataset shows mildly-severe neuroscience procedures cause no long-term cumulative harm.",
+    "why_weak": "Single-laboratory, single-species observational dataset (39 macaques) with no untreated longitudinal control group; a null result that cannot exclude cumulative effects on unmeasured welfare dimensions."
+  },
+  "papers_reviewed_count": 83,
+  "evidence_artifact_id": "cluster_02_evidence.json",
+  "figure_data": [
+    {
+      "comparison_id": "sample-size-power-welfare-reporting",
+      "comparison_name": "Reporting of sample-size/power calculation and analgesia in animal studies",
+      "papers": [
+        {
+          "doi": "10.1186/cc13694",
+          "metric": "publications reporting a sample-size calculation",
+          "value": "5% (4 of 77)",
+          "value_source_sentence": "A sample-size calculation was rarely used (four (5%) of 77).",
+          "ci_or_error": null,
+          "n": 77,
+          "n_analyzed": "77",
+          "n_definition": "animal research publications reviewed",
+          "study_system": "critical care animal research (mammals)",
+          "experimental_conditions": "3 high-impact critical-care journals, Jan-Jun 2012",
+          "method": "structured audit of reporting",
+          "text_access": "fulltext",
+          "scope_region": "critical care research field",
+          "scope_population": "consecutive mammalian animal studies",
+          "taxonomic_level": "reporting-compliance rate"
+        },
+        {
+          "doi": "10.1667/RADE-22-00124.1",
+          "metric": "DRF experiments presenting a power/sample-size calculation",
+          "value": "0 of 28",
+          "value_source_sentence": "Even though all the experiments were reported as approved by animal research review committees, such as an Institutional Animal Care and Use Committee, which typically require justification for animal numbers in an experiment, no power or sample size calculation was presented for any of the 28 DRF experiments.",
+          "ci_or_error": null,
+          "n": 28,
+          "n_analyzed": "28",
+          "n_definition": "dose-reduction-factor experiments reviewed",
+          "study_system": "radiation countermeasure experiments (mice)",
+          "experimental_conditions": "literature review of DRF studies 2000-2013 plus updates",
+          "method": "literature review",
+          "text_access": "fulltext",
+          "scope_region": "radiation countermeasure field",
+          "scope_population": "DRF experiments",
+          "taxonomic_level": "reporting-compliance rate"
+        },
+        {
+          "doi": "10.1371/journal.pone.0193758",
+          "metric": "studies not reporting analgesia use",
+          "value": "97% (206)",
+          "value_source_sentence": "Thirteen percent of studies (n = 27) failed to report use of anaesthesia and 97% (n = 206) did not report analgesia use.",
+          "ci_or_error": null,
+          "n": null,
+          "n_analyzed": "206",
+          "n_definition": "preclinical studies not reporting analgesia",
+          "study_system": "preclinical animal studies (6 interventions)",
+          "experimental_conditions": "retrospective harm-benefit analysis sample",
+          "method": "systematic data extraction",
+          "text_access": "fulltext",
+          "scope_region": "6 clinical intervention areas",
+          "scope_population": "preclinical animal studies",
+          "taxonomic_level": "reporting-compliance rate"
+        }
+      ],
+      "comparison_type": "convergent evidence",
+      "what_it_reveals": "Across independent audits, formal Reduction (sample-size/power calculation) and Refinement (analgesia) are reported in only a small minority of animal studies, indicating systemic under-implementation of the 3Rs in the published record.",
+      "suggested_plot_type": "grouped bar",
+      "homogeneity_check": {
+        "scope_region_uniform": "false",
+        "scope_population_uniform": "false",
+        "taxonomic_level_uniform": "true",
+        "n_definition_uniform": "false",
+        "caveats": [
+          "Different metrics (sample-size calc vs analgesia reporting) and different fields (critical care, radiation countermeasures, six intervention areas); all are reporting-compliance percentages but not the same denominator or the same 3R."
+        ]
+      }
+    },
+    {
+      "comparison_id": "reduction-magnitude-design-methods",
+      "comparison_name": "Magnitude of animal-number Reduction achievable through improved design",
+      "papers": [
+        {
+          "doi": "10.1667/RADE-22-00124.1",
+          "metric": "reduction in DRF experiment sample size via power calculation",
+          "value": "less than half of typical numbers",
+          "value_source_sentence": "Even so, our calculated samples sizes were less than half of the original and typically used sample size for a DRF experiment.",
+          "ci_or_error": null,
+          "n": 28,
+          "n_analyzed": "72 and 84 calculated vs 185+ typical",
+          "n_definition": "animals per DRF experiment",
+          "study_system": "radiation countermeasure experiments (mice)",
+          "experimental_conditions": "retrospective + prospective feasibility studies",
+          "method": "power/sample-size calculation",
+          "text_access": "fulltext",
+          "scope_region": "radiation countermeasure field",
+          "scope_population": "DRF experiments",
+          "taxonomic_level": "percent animal reduction"
+        },
+        {
+          "doi": "10.1016/j.ejphar.2015.03.040",
+          "metric": "reduction in mice per experiment via refined pulmonary-embolism model",
+          "value": "around 90%",
+          "value_source_sentence": "Not only were they successful in strengthening the model by broadening the spectrum beyond a single extreme (i.e. fatal pulmonary embolism) and measuring a specific biological response rather than events with non-specific causes, but also they were able to reduce the number of mice per experiment by around 90% ().",
+          "ci_or_error": null,
+          "n": null,
+          "n_analyzed": null,
+          "n_definition": "mice per experiment",
+          "study_system": "pulmonary embolism mouse model",
+          "experimental_conditions": "refined imaging-based model under anaesthesia",
+          "method": "model refinement",
+          "text_access": "fulltext",
+          "scope_region": "thrombosis/pulmonary embolism research",
+          "scope_population": "mouse model experiments",
+          "taxonomic_level": "percent animal reduction"
+        },
+        {
+          "doi": "10.1111/brv.12237",
+          "metric": "reduction in current control animals via historical controls",
+          "value": "more than half",
+          "value_source_sentence": "We show that, under our simulation conditions, the number of current control subjects can be reduced by more than half by including historical controls in the analyses.",
+          "ci_or_error": null,
+          "n": null,
+          "n_analyzed": null,
+          "n_definition": "current control animals",
+          "study_system": "biomedical experiments with control groups (simulation)",
+          "experimental_conditions": "historical-control borrowing under varied assumptions",
+          "method": "statistical simulation",
+          "text_access": "abstract_only",
+          "scope_region": "biomedical experiments generally",
+          "scope_population": "control-group animals",
+          "taxonomic_level": "percent animal reduction"
+        }
+      ],
+      "comparison_type": "convergent evidence",
+      "what_it_reveals": "Independent methodological approaches (power-based sample sizing, model refinement, historical controls) each report roughly halving-to-90% reductions in animal numbers, quantifying the practical headroom for the Reduction principle.",
+      "suggested_plot_type": "grouped bar",
+      "homogeneity_check": {
+        "scope_region_uniform": "false",
+        "scope_population_uniform": "false",
+        "taxonomic_level_uniform": "true",
+        "n_definition_uniform": "false",
+        "caveats": [
+          "Reductions are relative to different baselines (whole experiment vs control group only) and via different mechanisms; percentages are not directly additive."
+        ]
+      }
+    },
+    {
+      "comparison_id": "reporting-3rs-arrive-adherence",
+      "comparison_name": "Under-reporting/under-implementation of the 3Rs across independent audits",
+      "papers": [
+        {
+          "doi": "10.1177/026119291003800613",
+          "metric": "3Rs reporting score (out of 10)",
+          "value": "0 (mice), 1.5 (primates)",
+          "value_source_sentence": "By 2006, mouse research papers scored an average of 0 out of a possible 10, and primate research papers scored an average of 1.5.",
+          "ci_or_error": null,
+          "n": 250,
+          "n_analyzed": "250",
+          "n_definition": "research papers scored",
+          "study_system": "European mouse & primate papers",
+          "experimental_conditions": "papers from 1986 and 2006, 16 journals",
+          "method": "reporting audit (score out of 10)",
+          "text_access": "abstract_only",
+          "scope_region": "European biomedical research",
+          "scope_population": "mouse and primate research papers",
+          "taxonomic_level": "reporting-compliance metric"
+        },
+        {
+          "doi": "10.1093/rb/rbac076",
+          "metric": "ARRIVE 2.0 Essential 10 coincidence rate",
+          "value": "42.0%",
+          "value_source_sentence": "As depicted in, in terms of the report quality evaluation of Essential 10 (22 sub-items), the overall coincidence rate was 42.0%.",
+          "ci_or_error": null,
+          "n": 263,
+          "n_analyzed": "263",
+          "n_definition": "studies reviewed",
+          "study_system": "degradable-metal bone studies",
+          "experimental_conditions": "systematic review to ARRIVE 2.0",
+          "method": "ARRIVE 2.0 adherence scoring",
+          "text_access": "fulltext",
+          "scope_region": "orthopaedic implant research",
+          "scope_population": "animal bone-defect/fracture studies",
+          "taxonomic_level": "reporting-compliance metric"
+        },
+        {
+          "doi": "10.1007/s10029-020-02351-y",
+          "metric": "fully reported ARRIVE (sub)items per article (pre vs post ARRIVE)",
+          "value": "14.0 pre vs 12.6 post",
+          "value_source_sentence": "The number of fully reported (sub)items per article was on average significantly higher for pre-ARRIVE than post-ARRIVE for overall species (mean (SD) = 14.0 (2.8) vs. 12.6 (2.5), P < 0.001).",
+          "ci_or_error": "SD 2.8 (pre), 2.5 (post)",
+          "n": null,
+          "n_analyzed": null,
+          "n_definition": "articles scored",
+          "study_system": "hernia-mesh animal studies",
+          "experimental_conditions": "5-year windows pre/post ARRIVE-2010",
+          "method": "ARRIVE item-count comparison",
+          "text_access": "abstract_only",
+          "scope_region": "abdominal wall hernia research",
+          "scope_population": "animal hernia-repair studies",
+          "taxonomic_level": "reporting-compliance metric"
+        }
+      ],
+      "comparison_type": "convergent evidence",
+      "what_it_reveals": "Independent audits across three research fields converge that 3Rs implementation and ARRIVE-style reporting remain low (and did not improve after guideline publication), quantifying systemic under-implementation of the 3Rs in the published record.",
+      "suggested_plot_type": "grouped bar",
+      "homogeneity_check": {
+        "scope_region_uniform": "false",
+        "scope_population_uniform": "false",
+        "taxonomic_level_uniform": "true",
+        "n_definition_uniform": "true",
+        "caveats": [
+          "Metrics differ (score out of 10 vs percent coincidence vs count of items); denominators and guideline versions differ, so bars are not directly comparable and should be shown on separate scales."
+        ]
+      }
+    },
+    {
+      "comparison_id": "public-support-animal-research",
+      "comparison_name": "Conditional public support for animal research",
+      "papers": [
+        {
+          "doi": "10.1371/journal.pone.0260114",
+          "metric": "mean support for proposed protocols (1-7 scale)",
+          "value": "4.5",
+          "value_source_sentence": "Quantitative responses for the proposed research ranged between 1 and 7, with a mean +/- SE of 4.5 +/- 0.06 indicating ambivalence towards the proposed research.",
+          "ci_or_error": "+/-0.06 SE",
+          "n": 1521,
+          "n_analyzed": "1521",
+          "n_definition": "survey participants",
+          "study_system": "US public",
+          "experimental_conditions": "online consultation on 5 hypothetical protocols",
+          "method": "7-point support scale",
+          "text_access": "fulltext",
+          "scope_region": "United States",
+          "scope_population": "adult public",
+          "taxonomic_level": "attitude metric"
+        },
+        {
+          "doi": "10.2460/ajvr.25.06.0190",
+          "metric": "acceptance of animal research after pro-research messaging",
+          "value": "55% (from 44%)",
+          "value_source_sentence": "Messages highlighting ethical oversight and mutual benefits for humans and animals increased acceptance (from 44% to 55%) and reduced strong opposition (from 50% to 35%).",
+          "ci_or_error": null,
+          "n": 2028,
+          "n_analyzed": "2028",
+          "n_definition": "survey participants",
+          "study_system": "US public",
+          "experimental_conditions": "national online survey, pro/con messaging",
+          "method": "percent acceptance",
+          "text_access": "abstract_only",
+          "scope_region": "United States",
+          "scope_population": "adult public",
+          "taxonomic_level": "attitude metric"
+        },
+        {
+          "doi": "10.1177/026119291604400407",
+          "metric": "expected human translation rate of animal research",
+          "value": ">60%",
+          "value_source_sentence": "Asked about their expectations of translation to humans (of toxicity, carcinogenicity, teratogenicity and treatment findings), most expect translation more than 60% of the time.",
+          "ci_or_error": null,
+          "n": 1379,
+          "n_analyzed": "1379",
+          "n_definition": "general-public responses",
+          "study_system": "general public",
+          "experimental_conditions": "validated survey, multi-source public sample",
+          "method": "expected-translation elicitation",
+          "text_access": "abstract_only",
+          "scope_region": "North America",
+          "scope_population": "general public",
+          "taxonomic_level": "attitude metric"
+        }
+      ],
+      "comparison_type": "convergent evidence",
+      "what_it_reveals": "Across surveys, public support for animal research is conditional and ambivalent, sensitive to messaging and species, and premised on expectations of high quality and human translation that exceed what the field achieves.",
+      "suggested_plot_type": "grouped bar",
+      "homogeneity_check": {
+        "scope_region_uniform": "false",
+        "scope_population_uniform": "true",
+        "taxonomic_level_uniform": "true",
+        "n_definition_uniform": "true",
+        "caveats": [
+          "Metrics are different constructs (7-point support score, percent acceptance, expected translation rate) and should not be plotted on a single shared axis."
+        ]
+      }
+    },
+    {
+      "comparison_id": "personnel-wellbeing-survey-scale",
+      "comparison_name": "Sample sizes of empirical surveys on laboratory-animal personnel wellbeing / compassion fatigue",
+      "papers": [
+        {
+          "doi": "10.30802/AALAS-JAALAS-21-000030",
+          "metric": "animal-research personnel surveyed",
+          "value": "200",
+          "value_source_sentence": "In the current study, 200 persons involved with animal research completed an online survey to gauge whether CF among laboratory animal personnel had increased during the pandemic.",
+          "ci_or_error": null,
+          "n": 200,
+          "n_analyzed": "200",
+          "n_definition": "personnel completing the survey",
+          "study_system": "laboratory animal personnel (USA; COVID-19 period)",
+          "experimental_conditions": "online survey during COVID-19 pandemic",
+          "method": "cross-sectional online survey",
+          "text_access": "abstract_only",
+          "scope_region": "United States",
+          "scope_population": "animal-research personnel",
+          "taxonomic_level": "survey sample size"
+        },
+        {
+          "doi": "10.3389/fvets.2020.00114",
+          "metric": "animal-research personnel surveyed",
+          "value": "801",
+          "value_source_sentence": "A total of 801 personnel in the United States or Canada completed an online survey regarding professional quality of life, social support, euthanasia, enrichment, stress/pain levels, and human-animal interactions.",
+          "ci_or_error": null,
+          "n": 801,
+          "n_analyzed": "801",
+          "n_definition": "personnel completing the survey",
+          "study_system": "laboratory animal personnel (USA/Canada)",
+          "experimental_conditions": "cross-sectional convenience sample",
+          "method": "cross-sectional online survey (ProQOL)",
+          "text_access": "abstract_only",
+          "scope_region": "United States and Canada",
+          "scope_population": "animal-research personnel",
+          "taxonomic_level": "survey sample size"
+        },
+        {
+          "doi": "10.1371/journal.pone.0298744",
+          "metric": "animal-research personnel surveyed",
+          "value": "198",
+          "value_source_sentence": "Baseline data was collected from 198 participants.",
+          "ci_or_error": null,
+          "n": 198,
+          "n_analyzed": "198",
+          "n_definition": "personnel completing the baseline survey",
+          "study_system": "laboratory animal personnel (USA; six institutions)",
+          "experimental_conditions": "baseline of a longitudinal resiliency trial",
+          "method": "cross-sectional mixed-methods survey (ProQOL)",
+          "text_access": "abstract_only",
+          "scope_region": "United States",
+          "scope_population": "animal-research personnel",
+          "taxonomic_level": "survey sample size"
+        },
+        {
+          "doi": "10.1177/00236772261417391",
+          "metric": "laboratory animal professionals surveyed",
+          "value": "932",
+          "value_source_sentence": "The final sample included 932 anonymous LAP participants.",
+          "ci_or_error": null,
+          "n": 932,
+          "n_analyzed": "932",
+          "n_definition": "professionals completing the survey",
+          "study_system": "laboratory animal professionals (German-speaking countries)",
+          "experimental_conditions": "online survey summer 2023 (GHQ-12, COPSOQ)",
+          "method": "cross-sectional online survey",
+          "text_access": "abstract_only",
+          "scope_region": "German-speaking countries (Europe)",
+          "scope_population": "laboratory animal professionals",
+          "taxonomic_level": "survey sample size"
+        }
+      ],
+      "comparison_type": "convergent evidence",
+      "what_it_reveals": "A growing empirical literature (hundreds to ~1000 personnel per survey across the USA, Canada and Europe) documents compassion fatigue and psychological strain in laboratory-animal staff, giving the 'culture of care' debate a quantitative base even though none links staff wellbeing to research quality.",
+      "suggested_plot_type": "grouped bar",
+      "homogeneity_check": {
+        "scope_region_uniform": "false",
+        "scope_population_uniform": "true",
+        "taxonomic_level_uniform": "true",
+        "n_definition_uniform": "true",
+        "caveats": [
+          "Surveys span different countries (USA, USA/Canada, German-speaking Europe) and years (2020-2023); one (JAALAS-21-000030) was conducted during the COVID-19 pandemic which may inflate reported strain; instruments differ (ProQOL vs GHQ-12/COPSOQ)."
+        ]
+      }
+    }
+  ],
+  "search_failures": [
+    {
+      "suggested_reference": "Direct empirical study linking 'moral contract' of animal research to public attitudes",
+      "searches_tried": [
+        "moral contract justification animal research public attitudes (PubMed)",
+        "\"moral contract\" animal research ethics (Europe PMC)"
+      ],
+      "result": "zero on-topic results in PubMed; Europe PMC returned unrelated records",
+      "action": "excluded from evidence"
+    }
+  ]
+}
