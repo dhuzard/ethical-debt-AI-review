@@ -32,14 +32,24 @@
   "epmc:RO-Crate FAIR research software workflow",
   "epmc:CoreTrustSeal trustworthy repository certification",
   "pubmed:FAIR research software RO-Crate reproducibility metadata",
-  "epmc:data paper data journal citation credit incentive data sharing"
+  "epmc:data paper data journal citation credit incentive data sharing",
+  "pubmed:ORCID adoption researcher identifier uptake coverage",
+  "pubmed:OMOP common data model interoperability FAIR clinical",
+  "epmc:FAIR metrics evaluation clinical data",
+  "epmc:research data infrastructure EOSC European open science cloud",
+  "epmc:data steward role skills training competencies",
+  "epmc:semantic interoperability health data standards",
+  "epmc:FAIR implementation profile community standards",
+  "epmc:metadata quality completeness repository assessment",
+  "epmc:data curation cost benefit return on investment value reuse",
+  "epmc:ORCID persistent identifier adoption institutional researchers",
+  "epmc:FAIR data proteomics metabolomics imaging additional domains",
+  "epmc:persistent identifier DOI data citation credit reuse"
  ],
  "passes_remaining": [
-  "snowball_round_2 (backward refs + forward-cites on TRUST 10.1038/s41597-020-0486-7, WCI-FW workflows 10.1038/s41597-025-04451-9, CARE seeds)",
-  "epmc:FAIR metrics FAIR maturity evaluation additional domains (imaging/proteomics)",
-  "pubmed:data curation cost value return on investment quantified",
-  "epmc:ORCID adoption uptake researcher identifier coverage empirical",
-  "pubmed:common data model OMOP interoperability FAIR clinical"
+  "snowball_round_2 (OpenAlex fwd/back on TRUST 10.1038/s41597-020-0486-7, WCI-FW 10.1038/s41597-025-04451-9, CARE seeds) - deferred",
+  "epmc:data curation cost/ROI quantified in currency (still thin)",
+  "pubmed:FAIR software/workflow RO-Crate additional"
  ],
  "snowball_seeds_used": [
   "10.1016/j.patter.2021.100370",
@@ -49,8 +59,8 @@
  ],
  "seen_dois_artifact_id": "cluster_03_seen_dois.txt",
  "saturation_log_artifact_id": "cluster_03_saturation_log.json",
- "papers_so_far": 94,
+ "papers_so_far": 124,
  "evidence_artifact_id": "cluster_03_evidence.json",
  "exit_reason": "frame_budget_reached",
- "note": "Continuation frame 3 added 27 new unique-DOI findings (cumulative 94) covering CARE/Indigenous data sovereignty, FAIR research software/RO-Crate/workflows, repository certification (TRUST/CoreTrustSeal/OFCT), and data-paper/data-citation credit. 2 new conflicts (FAIR-vs-CARE governance; certification effectiveness). Yield still high (~ >90% of screened hits new); saturation not fired. min_papers_per_cluster=200 not yet met; continuation required."
+ "note": "Continuation frame 4 added 30 new unique-DOI findings (cumulative 124) via keyword passes on FAIR additional domains (proteomics/photon-neutron/UAV/brain-BIDS/Raman), EOSC & research-data infrastructure, data-steward professionalisation surveys (Italy), ORCID/PID coverage & metadata completeness (Crossref/INGV/taxonomic PIDs), data-curation cost/sustainability (palaeo databases ~85% <15yr lifespan), metadata quality/curation (omics harmonization), semantic interoperability & common data models (OMOP/FHIR/openEHR, INSPIRE datahub, SPHN imaging). 1 new conflict (metadata standardization: manual curation increases vs automated FAIRification degrades completeness). Snowball_round_2 deferred (keyword yield high). min_papers_per_cluster=200 not met; continuation required."
 }

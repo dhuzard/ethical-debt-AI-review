@@ -3,7 +3,7 @@
  "saturation_criterion": "<2% new unique in last 100",
  "criterion_fired": false,
  "consecutive_low_passes": 0,
- "note": "Continuation frame 3: added 23 new unique-DOI findings across biobank data-sharing governance/consent, ELN adoption & metadata usage, ISA/MIBBI minimum-information standards, model-organism/phenotype ontologies, bioimaging repositories (EMDB/EMPIAR), and a measurement systematic review of data-sharing KAP. Keyword/EPMC passes still yield >2% new unique relevant papers; cumulative unique (99) remains below the 200 floor, so saturation NOT reached. Continuation required.",
+ "note": "Continuation frame 4 (LIGHT): added 27 new unique-DOI findings across proteomics repositories/reuse (PRIDE, ProteomeXchange, SDRF-Proteomics metadata, solid-tumor reuse, BioSamples), GEO/omics metadata completeness (incl. GPT-4/CEDAR standardization, data-contributor authorship), neuroscience data-sharing infrastructure (BRAIN Initiative ecosystem, DABI/DANDI/OpenNeuro/Brain-CODE comparison, BIDS, ROH benefits, legal/metadata gaps), data citation & open-data citation advantage (JDDCP roadmap, Chinese-economics mandate, 122k-publication analysis), genomics controlled access (broad-sharing definitions, NCI GDC harmonization, HTAN, GA4GH lexicon, genomic-data-mgmt scoping review), clinical-trial data-sharing platform request-vs-publication concordance (Vivli/CSDR/YODA/SOAR-BMS), RefSeq curation standards, and FAIRification-induced EHR data-quality issues. Added 1 conflict (open-data citation-advantage magnitude) and 1 figure_data (public-record completeness/fidelity, heavily caveated). Keyword/EPMC passes still yield >2% new unique relevant; cumulative unique (126) remains below the 200 floor, so saturation NOT reached. Continuation required.",
  "passes": [
   {
    "pass_type": "keyword",
@@ -148,11 +148,21 @@
    "new_unique_rate": 0.209,
    "cumulative_unique": 99,
    "cumulative_screened_in": 99
+  },
+  {
+   "pass_type": "keyword+epmc (continuation frame 4)",
+   "query_or_method": "PRIDE/ProteomeXchange proteomics reuse; OpenNeuro/DANDI/BRAIN neuroscience sharing; GEO metadata completeness; GigaScience/data-citation & open-data citation advantage; Genomic Data Commons controlled access; clinical-trial platform YODA/Vivli concordance; data-availability/RefSeq/FAIRification DQ",
+   "records_examined": 150,
+   "new_unique_relevant": 27,
+   "new_unique_rate": 0.18,
+   "cumulative_unique": 126,
+   "cumulative_screened_in": 126
   }
  ],
  "frame_findings_committed": 38,
  "exit_reason": "frame_budget_reached",
  "frame2_findings_committed": 38,
- "cumulative_findings_total": 99,
- "frame3_findings_committed": 23
+ "cumulative_findings_total": 126,
+ "frame3_findings_committed": 23,
+ "frame4_findings_committed": 27
 }

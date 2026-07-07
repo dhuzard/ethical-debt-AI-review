@@ -1,24 +1,20 @@
 {
   "phase": 2,
-  "status": "in_progress_paused_external_limit",
-  "paused_reason": "Account session/usage limit hit 2026-07-07; resets 21:30 Europe/Paris. Four in-flight continuation agents (cluster_04/05/07/08 frame 2) terminated BEFORE their append-merge writes — no disk changes from those frames; their prior-frame data is intact.",
+  "status": "in_progress",
+  "note": "Autonomous evidence gathering. Hit account session limits twice (recovered each time). Scheduling: keep 4 background LITREVIEW agents in flight; freed slot -> cluster with fewest papers still <200. Light frames (~22-25 findings, snowball 1-2 rounds, PubMed-first, cap single retrieval ~90s). OA-fulltext priority for any cluster whose fulltext rate <~25%. No-nested-subagents rule enforced.",
   "target": {"min_papers_per_cluster": 200, "total_bibliography_target": 1000, "snowball_rounds": 2, "saturation": "<2% new unique in last 100"},
-  "banked_on_disk_2026_07_07": {
-    "cluster_01": {"papers": 61, "fulltext": 22, "conflicts": 4, "figure_data": 4, "state": "idle_needs_continuation"},
-    "cluster_02": {"papers": 58, "fulltext": 24, "conflicts": 5, "figure_data": 4, "state": "idle_needs_continuation"},
-    "cluster_03": {"papers": 67, "fulltext": 28, "conflicts": 4, "figure_data": 3, "state": "idle_needs_continuation"},
-    "cluster_04": {"papers": 38, "fulltext": 14, "conflicts": 3, "figure_data": 2, "state": "idle_needs_continuation (f2 lost, no writes)"},
-    "cluster_05": {"papers": 37, "fulltext": 8, "conflicts": 4, "figure_data": 2, "state": "idle_needs_continuation (f2 lost, no writes)"},
-    "cluster_06": {"papers": 39, "fulltext": 9, "conflicts": 4, "figure_data": 2, "state": "idle_needs_continuation"},
-    "cluster_07": {"papers": 37, "fulltext": 15, "conflicts": 3, "figure_data": 3, "state": "idle_needs_continuation (f2 lost, no writes)"},
-    "cluster_08": {"papers": 36, "fulltext": 12, "conflicts": 2, "figure_data": 2, "state": "idle_needs_continuation (f2 lost, no writes)"}
+  "banked_on_disk": {
+    "cluster_01": {"papers": 84, "fulltext_pct": 27},
+    "cluster_02": {"papers": 83, "fulltext_pct": 30},
+    "cluster_03": {"papers": 94, "fulltext_pct": 30},
+    "cluster_04": {"papers": 99, "fulltext_pct": 30},
+    "cluster_05": {"papers": 76, "fulltext_pct": 18, "flag": "below 20% fulltext floor - OA-fulltext frames queued"},
+    "cluster_06": {"papers": 90, "fulltext_pct": 36},
+    "cluster_07": {"papers": 75, "fulltext_pct": 41},
+    "cluster_08": {"papers": 87, "fulltext_pct": 44}
   },
-  "total_findings": 373,
-  "cross_cluster_unique_dois": 357,
-  "resume_plan": {
-    "scheduling_policy": "Keep 4 background LITREVIEW agents in flight; each freed slot goes to the cluster with the FEWEST papers still under 200 (not saturated, <6 frames). Each agent reads its cluster_NN_evidence.json + _search_state.json + _seen_dois.txt and appends (dedup by DOI, never shrink). Enforce the no-nested-subagents rule.",
-    "next_action_queue_by_fewest_papers": ["cluster_08 (36)", "cluster_07 (37)", "cluster_05 (37)", "cluster_04 (38)", "cluster_06 (39)", "cluster_02 (58)", "cluster_01 (61)", "cluster_03 (67)"],
-    "remaining_estimate": "~4-5 more frames per cluster to reach 200; expect cross-cluster dedup to yield ~1000-1300 unique for the >=1000 hard floor.",
-    "after_phase_2": "Delegate Phase 2V to an independent comprev-evidence-validator agent (DOI resolution, source-sentence-in-abstract honesty, fulltext honesty, BIBLIOGRAPHY_FLOOR_HARD >=1000). Then save gate_evidence_compliance.json and advance to Phase 3."
-  }
+  "total_findings": 688,
+  "cross_cluster_unique_dois": 655,
+  "in_flight_at_last_update": ["cluster_07 f3b", "cluster_05 f3b OA", "cluster_02 f4", "cluster_01 f4"],
+  "after_phase_2": "Delegate Phase 2V to an independent comprev-evidence-validator agent (DOI resolution, source-sentence-in-abstract honesty, fulltext honesty, BIBLIOGRAPHY_FLOOR_HARD >=1000, per-cluster fulltext>=20%). Save gate_evidence_compliance.json, then Phase 3."
 }

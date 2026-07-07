@@ -128,7 +128,16 @@
       "new_unique_rate": 0.2,
       "cumulative_unique": 83,
       "cumulative_screened_in": 83
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "continuation frame 4 (LIGHT, Europe PMC core): humane killing/CO2 alternatives; social contract/moral status; 3Rs education & culture of care; reduction/research-integrity; pain/analgesia IACUC; GM welfare & severity; NHP ethics/welfare",
+      "records_examined": 200,
+      "new_unique_relevant": 28,
+      "new_unique_rate": 0.14,
+      "cumulative_unique": 111,
+      "cumulative_screened_in": 111
     }
   ],
-  "note": "Continuation frame 3 (LIGHT) added 25 new unique-DOI findings (total 83; 25 fulltext / 58 abstract_only). Saturation criterion (<2% new unique across two consecutive passes) NOT met and cumulative (83) below min_papers_per_cluster=200; continuation required. exit_reason=frame_budget_reached."
+  "note": "Continuation frame 4 (LIGHT) added 28 new unique-DOI findings (total 111; 25 fulltext / 86 abstract_only); +2 conflicts (CO2 vs inhalant-anaesthetic refinement; HBA deliberation vs scoring) and +1 figure_data (CO2 vs alternative euthanasia agents). Saturation criterion (<2% new unique across two consecutive passes) NOT met and cumulative (111) below min_papers_per_cluster=200; continuation required. exit_reason=frame_budget_reached."
 }

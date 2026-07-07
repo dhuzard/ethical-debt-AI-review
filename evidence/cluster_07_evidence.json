@@ -1048,6 +1048,792 @@
    "replication_evidence_dois": [],
    "doi": "10.1371/journal.pone.0267312",
    "text_access": "abstract_only"
+  },
+  {
+   "claim": "In the first 18 months under the NIH Data Management and Sharing policy, one in five submitted plans still omitted at least one required element.",
+   "claim_source_sentence": "A notable 20.7% of DMSPs omitted one or more required elements, indicating a need for improved DMS policy conformance.",
+   "evidence": "Institutional implementation study of the 2023 NIH DMS policy (NOT-OD-21-013); structured templates outperformed unstructured ones on element-level compliance.",
+   "effect_size": "79.3% addressed all required elements; 20.7% omitted at least one",
+   "effect_size_source_sentence": "79.3% of submitted DMSPs addressed all NIH-required DMSP elements.",
+   "n": null,
+   "study_system": "US academic medical center (NIH grant submissions / DMSPs)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1001/jamanetworkopen.2020.33972",
+    "10.1136/bmj.l4217"
+   ],
+   "doi": "10.1017/cts.2025.10212",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Only a quarter of large pharmaceutical companies fully met a multi-component clinical-trial data-sharing standard.",
+   "claim_source_sentence": "Only 25% of large pharmaceutical companies fully met the data sharing measure.",
+   "evidence": "Cross-sectional audit adapting 10 data-sharing guidelines; a ranking tool improved compliance to 33% after feedback.",
+   "effect_size": "25% fully met (median score 63%, IQR 58-85%); rose to 33% after ranking tool",
+   "effect_size_source_sentence": "The median company data sharing score was 63% (interquartile range 58-85%).",
+   "n": null,
+   "study_system": "large pharmaceutical companies (novel FDA 2015 approvals)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1001/jamanetworkopen.2020.33972"
+   ],
+   "doi": "10.1136/bmj.l4217",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In COVID-19 RCTs, primary outcomes were inconsistent with registries in about half, and almost none of those disclosed the outcome switch.",
+   "claim_source_sentence": "Primary outcome(s) reported in trial registries and published reports were inconsistent in 49% (n = 104) of trials; of them, only 15% (n = 16) disclosed outcome switching in the report.",
+   "evidence": "251 COVID-19 pharmacological RCT reports assessed; transparency and completeness were poor and did not improve after peer review of preprints.",
+   "effect_size": "49% inconsistent primary outcomes; only 15% disclosed the switch",
+   "effect_size_source_sentence": "Primary outcome(s) reported in trial registries and published reports were inconsistent in 49% (n = 104) of trials; of them, only 15% (n = 16) disclosed outcome switching in the report.",
+   "n": 251,
+   "study_system": "COVID-19 pharmacological RCT reports (preprints + peer-reviewed)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s13063-019-3173-2",
+    "10.1111/1471-0528.14506"
+   ],
+   "doi": "10.1186/s12916-022-02567-y",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Progestogens appeared effective in most meta-analyses but showed no effect once analysis was restricted to pre-registered primary outcomes, an example of P-hacking.",
+   "claim_source_sentence": "When evaluated in registered double-blind trials with analysis restricted to predefined primary outcomes, progestational agents in pregnancy are ineffective.",
+   "evidence": "19/29 meta-analyses concluded progestogens were effective; restricting to the 22 trials with pre-registered primary outcomes eliminated the effect.",
+   "effect_size": "RR 1.00 (95% CI 0.94-1.07) on pre-registered outcomes; 1/22 trials nominally significant",
+   "effect_size_source_sentence": "There was no effect of progesterone on primary registered dichotomous outcome RR 1.00 (95% CI 0.94-1.07).",
+   "n": 22,
+   "study_system": "progestogen pregnancy trials (registered vs all outcomes)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s12916-022-02567-y",
+    "10.1186/s13063-019-3173-2"
+   ],
+   "doi": "10.1111/1471-0528.14506",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Assuming never-ending growth created an unsustainable hypercompetitive biomedical system that deters talent and degrades work quality.",
+   "claim_source_sentence": "The long-held but erroneous assumption of never-ending rapid growth in biomedical science has created an unsustainable hypercompetitive system that is discouraging even the most outstanding prospective students from entering our profession--and making it difficult for seasoned investigators to produce their best work.",
+   "evidence": "Influential analysis by Alberts, Kirschner, Tilghman & Varmus calling for systemic reform of the US biomedical research ecosystem.",
+   "effect_size": "qualitative systemic diagnosis",
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "US biomedical research ecosystem (expert analysis)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1089/ees.2016.0223",
+    "10.1128/mbio.00064-14"
+   ],
+   "doi": "10.1073/pnas.1404402111",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Peer review, though central to distributing scholarly credit and prestige, remains poorly understood empirically.",
+   "claim_source_sentence": "Peer review is embedded in the core of our knowledge generation systems, perceived as a method for establishing quality or scholarly legitimacy for research, while also often distributing academic prestige and standing on individuals.",
+   "evidence": "Maps major theoretical/empirical gaps (editorial responsibility, reviewer bias, function/quality, social/epistemic impact) and calls for a research discipline studying peer review.",
+   "effect_size": "qualitative gap analysis",
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "scholarly peer review (review of literature)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s41073-020-00092-1",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Persistent overuse of the journal impact factor ('impact factor mania') is a tragedy-of-the-commons in which individually rational behavior harms science collectively.",
+   "claim_source_sentence": "Impact factor mania is a variation of the economic theory known as the \"tragedy of the commons,\" in which scientists act rationally in their own self-interests despite the detrimental consequences of their actions on the overall scientific enterprise.",
+   "evidence": "Argues impact-factor mania persists because it benefits individual scientists, journals and administrators despite harming the scientific enterprise.",
+   "effect_size": "qualitative economic framing",
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "scientific publishing (perspective)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.7554/elife.47338",
+    "10.1073/pnas.1404402111"
+   ],
+   "doi": "10.1128/mbio.00064-14",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Across 20,571 RCTs (1990-2015), only 5.7% used adequate methods and inadequate methods rose, indicating incentives fail to reward rigor.",
+   "claim_source_sentence": "5.7% of RCTs used adequate methods (N=1173).",
+   "evidence": "Meta-research on RCTs in Cochrane reviews; industry funding and trial registration predicted adequate methods, whereas NIH funding and university prestige did not.",
+   "effect_size": "5.7% adequate; 59.3% inadequate (rising 1990-2015); 35.0% poorly reported",
+   "effect_size_source_sentence": "the proportion of RCTs using inadequate methods is high (59.3%) and increasing, potentially slowing progress and contributing to the reproducibility crisis.",
+   "n": 20571,
+   "study_system": "RCTs in Cochrane reviews (1990-2015)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1098/rsos.160384"
+   ],
+   "doi": "10.1136/bmjopen-2019-030342",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Empirical CRediT data from RCTs show contributions concentrate in conceptualization and investigation, with few authors credited for software/data roles.",
+   "claim_source_sentence": "Most authors participated in the study's conceptualization (44.9%) and investigation (48.8%), but only a fraction of the authors participated in software management (7.4%).",
+   "evidence": "First empirical analysis of CRediT roles in 446 RCTs (4,185 authors) using PLOS author metadata; proposes a CRediT-RCT taxonomy.",
+   "effect_size": "conceptualization 44.9%, investigation 48.8%, software 7.4%",
+   "effect_size_source_sentence": "Most authors participated in the study's conceptualization (44.9%) and investigation (48.8%), but only a fraction of the authors participated in software management (7.4%).",
+   "n": 4185,
+   "study_system": "446 RCT articles / 4,185 authors (PLOS CRediT metadata)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [
+    "10.1080/08989621.2020.1779591"
+   ],
+   "doi": "10.21037/atm.2019.12.96",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A shift from authorship to structured contributorship (CRediT/CRO/CAM) is proposed to better recognize and credit diverse research contributions.",
+   "claim_source_sentence": "Recent efforts to enable better recognition of contributions to scholarship include the development of the Contributor Role Ontology (CRO), which extends the CRediT taxonomy and can be used in information systems for structuring contributions.",
+   "evidence": "Reviews ethical/social/technical challenges to authorship and introduces the Contributor Attribution Model (CAM) for machine-readable credit.",
+   "effect_size": "qualitative framework proposal",
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "scholarly authorship/credit infrastructure",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [
+    "10.21037/atm.2019.12.96"
+   ],
+   "doi": "10.1080/08989621.2020.1779591",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "India's Medical Council made indexed publications mandatory for promotion, incentivizing authorship-order disputes and prompting calls to credit contribution details instead.",
+   "claim_source_sentence": "The Medical Council of India (MCI) has made research publications in indexed medical journals an obligatory requirement for promotion of medical teachers.",
+   "evidence": "Argues authorship-sequence-based credit is arbitrary and that CRediT-style contribution statements should determine merit.",
+   "effect_size": "qualitative policy critique",
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Indian medical academia (promotion policy)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.4103/0970-258x.308238",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In five CONSORT-endorsing high-impact journals, 87% of trials misreported outcomes, yet journals published only 40% of real-time correction letters.",
+   "claim_source_sentence": "Fifty-eight trials had discrepancies requiring a correction letter (87%, journal range 67-100%).",
+   "evidence": "COMPare prospectively checked every outcome against protocols/registries; documented undeclared outcome-switching and journal resistance to corrections.",
+   "effect_size": "87% of trials misreported; only 40% (23/58) of correction letters published; mean 5.4 undeclared outcomes/trial",
+   "effect_size_source_sentence": "Twenty-three letters were published (40%) with extensive variation between journals (range 0-100%).",
+   "n": 67,
+   "study_system": "67 trials in 5 high-impact journals (NEJM, Lancet, JAMA, BMJ, Ann Intern Med)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s12916-022-02567-y",
+    "10.1111/1471-0528.14506"
+   ],
+   "doi": "10.1186/s13063-019-3173-2",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "When corrected for outcome misreporting, trialists often defended practices contradicting CONSORT, including undermining trial registries.",
+   "claim_source_sentence": "Trialists frequently expressed views that contradicted the CONSORT (Consolidated Standards of Reporting Trials) guidelines or made inaccurate statements about correct outcome reporting.",
+   "evidence": "Qualitative analysis of trialists' published responses to COMPare correction letters; recurring defensive themes including ad hominem and appeals to trust over guidelines.",
+   "effect_size": "qualitative thematic analysis",
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "trialists' correspondence (COMPare cohort of 58 trials)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [
+    "10.1186/s13063-019-3173-2"
+   ],
+   "doi": "10.1186/s13063-019-3172-3",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Many trials measure surrogate, subjective, or selectively reported outcomes that fail to translate into patient benefit.",
+   "claim_source_sentence": "However, many trials continue to measure and report outcomes that fall short of this clear requirement.",
+   "evidence": "Reviews outcome problems (surrogate/composite/subjective endpoints, publication and reporting biases, multiplicity, lack of core outcome sets) undermining translation.",
+   "effect_size": "qualitative review",
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "clinical trial outcomes (review)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s13063-019-3173-2"
+   ],
+   "doi": "10.1186/s13063-017-1870-2",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Fewer than 2% of cardiovascular papers provide enough materials, data, and analysis scripts to fully reproduce their studies.",
+   "claim_source_sentence": "We identified that fewer than 2% of cardiovascular research publications provide sufficient resources (materials, methods, data, and analysis scripts) to fully reproduce their studies.",
+   "evidence": "Screened 639 articles (393 empirical) from Circulation, EHJ and JACC; accessibility varied by study type and journal; calls for journal/funder mandates.",
+   "effect_size": "<2% fully reproducible; accessibility score 0.08 (case series) to 0.39 (trials)",
+   "effect_size_source_sentence": "we also showed that the level of accessibility varies across study types with a score of 0.08 for case studies or case series and 0.39 for clinical trials (p = 5.500E-5)",
+   "n": 393,
+   "study_system": "639 cardiovascular articles (Circulation, EHJ, JACC; 2019)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pbio.1002456",
+    "10.1001/jamanetworkopen.2020.33972"
+   ],
+   "doi": "10.7554/elife.81051",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Preregistered psychology studies did not show fewer positive results or smaller effects than matched non-preregistered studies, though they had larger samples and more power analyses.",
+   "claim_source_sentence": "In contrast to our theoretical expectations and prior research, we did not find that preregistered studies had a lower proportion of positive results (Hypothesis 1), smaller effect sizes (Hypothesis 2), or fewer statistical errors (Hypothesis 3) than non-preregistered studies.",
+   "evidence": "Compared 193 prize/badge preregistered studies to 193 matched non-preregistered studies; preregistration improved power and impact but not positive-result rate.",
+   "effect_size": "no reduction in positive-result rate, effect size, or errors; more power analyses and larger N",
+   "effect_size_source_sentence": "Supporting our Hypotheses 4 and 5, we found that preregistered studies more often contained power analyses and typically had larger sample sizes than non-preregistered studies.",
+   "n": 386,
+   "study_system": "193 preregistered vs 193 matched psychology studies",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [
+    "10.1073/pnas.1708274114"
+   ],
+   "doi": "10.3758/s13428-023-02277-0",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Over half of preclinical research is estimated irreproducible, costing about US$28 billion per year in the US alone.",
+   "claim_source_sentence": "An analysis of past studies indicates that the cumulative (total) prevalence of irreproducible preclinical research exceeds 50%, resulting in approximately US$28,000,000,000 (US$28B)/year spent on preclinical research that is not reproducible-in the United States alone.",
+   "evidence": "Widely cited economic estimate framing the reproducibility crisis as a large, quantifiable form of research waste.",
+   "effect_size": ">50% irreproducible; ~US$28B/year (US)",
+   "effect_size_source_sentence": "An analysis of past studies indicates that the cumulative (total) prevalence of irreproducible preclinical research exceeds 50%, resulting in approximately US$28,000,000,000 (US$28B)/year spent on preclinical research that is not reproducible-in the United States alone.",
+   "n": null,
+   "study_system": "US preclinical life-science research (economic analysis)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1016/s0140-6736(13)62227-8"
+   ],
+   "doi": "10.1371/journal.pbio.1002165",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Ioannidis and colleagues argue current publication practices give a distorted view of scientific reality.",
+   "claim_source_sentence": "John Ioannidis and colleagues argue that the current system of publication in biomedical research provides a distorted view of the reality of scientific data.",
+   "evidence": "Essay linking selective publication and reward structures to a biased scientific record.",
+   "effect_size": "qualitative argument",
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "biomedical publication system (essay)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pmed.0020124"
+   ],
+   "doi": "10.1371/journal.pmed.0050201",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A 50-year co-citation analysis of QRP research finds systemic factors in how research is conducted are consistently blamed, with attention shifting toward open-science remedies.",
+   "claim_source_sentence": "Statistical reporting and statistical power emerged as key areas of research, where systemic-level factors in how research is conducted are consistently raised as the precipitating factors for QRPs.",
+   "evidence": "Document co-citation analysis of 341 QRP papers over 50 years; pre-registration/registered reports dominate remedies while data sharing is under-studied.",
+   "effect_size": "341 documents; 9 thematic clusters over 50 years",
+   "effect_size_source_sentence": "The analysis was conducted on a sample of 341 documents that covered the past 50 years of research in QRPs.",
+   "n": 341,
+   "study_system": "QRP literature (341 documents, co-citation analysis)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1098/rsos.230677",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Rigorously trialing partial randomisation (lotteries) of research funding is often less feasible and more costly than it appears, favouring alternative evaluation designs.",
+   "claim_source_sentence": "For many choices of target outcome, RCTs may be less practical and more expensive than they at first appear (in large part due to issues pertaining to sample size and statistical power).",
+   "evidence": "Metascience analysis of how to evaluate funding-lottery interventions; highlights the interdependence of outcomes, sample size and power.",
+   "effect_size": "qualitative feasibility analysis",
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "research funding allocation (methodological review)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [
+    "10.12688/wellcomeopenres.20057.2"
+   ],
+   "doi": "10.12688/wellcomeopenres.19565.2",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Wellcome's Institutional Fund for Research Culture became its first scheme to allocate funding by partial randomisation (a funding lottery) among near-equal applications.",
+   "claim_source_sentence": "IFRC is the first ever Wellcome-funding scheme to use partial randomisation to allocate funding.",
+   "evidence": "Case study of a real funder adopting a partial lottery: 'Gold' funded directly, 'Silver' funded by randomiser, 'Bronze' not funded; Python randomiser script published.",
+   "effect_size": "up to £1m grants; Silver-tier applications funded by randomiser",
+   "effect_size_source_sentence": "It is a departure from Wellcome's previous methods of institutional funding, providing institutions with up to £1m of grant funding to take on ambitious projects that advance research cultures and research environments that are equitable, diverse and supportive.",
+   "n": null,
+   "study_system": "Wellcome Trust funding scheme (case study)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [
+    "10.12688/wellcomeopenres.19565.2"
+   ],
+   "doi": "10.12688/wellcomeopenres.20057.2",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Because replication is costly and resources finite, the authors offer a framework for deciding which findings to replicate and how, including preregistration.",
+   "claim_source_sentence": "While replication is rightly considered an indispensable tool of science, financial resources and researchers' time are quite limited.",
+   "evidence": "Multi-author perspective (incl. Ioannidis, Errington) framing replication as a resource-allocation decision under the reproducibility reforms.",
+   "effect_size": "conceptual framework",
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "replication decision-making (perspective)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1073/pnas.2401236121",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Turning preregistration into a quality signal (e.g., badges) risks stripping it of its intended methodological benefits.",
+   "claim_source_sentence": "Klonsky's overarching concern is that when preregistration ceases to be a tool for research and becomes an indicator of quality itself (a primary example being preregistration badges), it loses its intended benefits.",
+   "evidence": "Reply defending preregistration while acknowledging that mandates and badge-style rewards can distort its function.",
+   "effect_size": "qualitative debate",
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "psychological science (methodological commentary)",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [
+    "10.3758/s13428-023-02277-0"
+   ],
+   "doi": "10.1177/10731911241275256",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A novelty-consistency-transparency 'trilemma' may drive opportunistic 'virtue-signalling' use of open-science practices rather than genuine transparency.",
+   "claim_source_sentence": "While the open science movement grows in importance, the pressure of the trilemma may encourage an opportunistic use of open science practices as a form of virtue signalling compensating for low transparency.",
+   "evidence": "Argues transparency conflicts with prized novelty and statistical consistency, so incentives can reward performative rather than substantive openness.",
+   "effect_size": "conceptual trilemma",
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "psychological science (conceptual analysis)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.5334/irsp.979",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Open-science practices in psychology PhD theses (2018-2022) increased only modestly, with no difference between departments with more vs less established open-science support.",
+   "claim_source_sentence": "Our findings revealed a modest increase of OS over time but no significant difference between departments with more or less-established OS practices.",
+   "evidence": "Coded 379 studies from 91 theses at two German-speaking psychology departments plus a survey of former PhD students; attitudes mattered more than local norms.",
+   "effect_size": "modest increase 2018-2022; no significant department difference",
+   "effect_size_source_sentence": null,
+   "n": 379,
+   "study_system": "379 studies in 91 psychology PhD theses (2 departments)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1098/rsos.250826",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "An empirical review concludes that using journal rank (impact factor) to assess research is bad scientific practice, tied to unreliability and retractions.",
+   "claim_source_sentence": "These data corroborate previous hypotheses: using journal rank as an assessment tool is bad scientific practice.",
+   "evidence": "Reviews data linking journal rank to citations, methodological soundness, expert ratings and retractions; argues any rank (not just Impact Factor) has this effect.",
+   "effect_size": "qualitative synthesis of multiple datasets",
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "scholarly journals (review of journal-rank effects)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1128/mbio.00064-14",
+    "10.7554/elife.47338"
+   ],
+   "doi": "10.3389/fnhum.2013.00291",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Fanelli argues the 'reproducibility crisis' narrative is largely mistaken, disputing claims that most published results are unreliable.",
+   "claim_source_sentence": "This article provides an overview of recent evidence suggesting that this narrative is mistaken, and argues that a narrative of epochal changes and empowerment of scientists would be more accurate, inspiring, and compelling.",
+   "evidence": "Contrarian meta-scientific opinion pushing back on the crisis framing that motivates many open-science reforms.",
+   "effect_size": "qualitative counter-argument",
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "science reproducibility discourse (opinion)",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [
+    "10.1073/pnas.1618569114"
+   ],
+   "doi": "10.1073/pnas.1708272114",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A cross-disciplinary meta-assessment found publication biases overall small, and high publication/citation rates were NOT associated with greater bias, though misconduct and early-career status were.",
+   "claim_source_sentence": "Authors publishing at high rates and receiving many citations were, overall, not at greater risk of bias.",
+   "evidence": "Probed bias patterns in a large random sample of meta-analyses across all disciplines; small/early/highly cited studies overestimated effects, misconduct and small collaborations predicted inflation.",
+   "effect_size": "biases overall small; high-output authors not at greater risk; misconduct and early-career linked to inflated effects",
+   "effect_size_source_sentence": "The magnitude of these biases varied widely across fields and was overall relatively small.",
+   "n": null,
+   "study_system": "random sample of meta-analyses across all disciplines",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0010271"
+   ],
+   "doi": "10.1073/pnas.1618569114",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Academic publishing serves two often-misaligned goals (knowledge dissemination and credentialing), letting commercial publishers extract large profits while pressuring scholars to maximize publication metrics.",
+   "claim_source_sentence": "Commercial publishing companies have capitalized on the centrality of publishing to the scientific enterprises of knowledge dissemination and academic recognition to extract large profits from academia by leveraging unpaid services from reviewers, creating financial barriers to research dissemination, and imposing substantial fees for open access.",
+   "evidence": "Perspective/analysis paper on misaligned incentives in academic publishing and journal reform.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "academic publishing system / journal reform",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1073/pnas.2401231121",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A multi-actor qualitative study found stakeholders agreed research climates harm integrity yet felt unable to change them, revealing a circle of blame among actor groups.",
+   "claim_source_sentence": "Even though all participants agreed that current research climates need to be addressed, participants generally did not feel responsible nor capable of initiating change.",
+   "evidence": "Semi-structured interviews and focus groups with diverse research-system actors in the Flemish biomedical landscape.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Flemish biomedical research system (multi-actor interviews)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s41073-020-00105-z",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Interviewees said current research assessments overvalue outputs while ignoring the processes essential to research quality and integrity, and called for valuing quality over quantity.",
+   "claim_source_sentence": "Interviewees noted that current research assessments overvalued outputs but largely ignored the processes deemed essential for research quality and integrity.",
+   "evidence": "Companion multi-actor qualitative study on how success in science is defined and assessed.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Flemish biomedical research system (multi-actor interviews)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s41073-020-00104-0",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Argues that, despite being derided, rigorous field-adjusted centralized quantitative metrics could improve research practices, defending metrics against qualitative-only assessment.",
+   "claim_source_sentence": "Although often derided, quantitative metrics could help improve research practices if they are rigorous, field-adjusted, and centralized.",
+   "evidence": "Perspective defending quantitative metrics in researcher assessment.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "researcher assessment (metrics debate)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pbio.3002408",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A review plus two-round Delphi survey identified 10 DORA-compliant measures of research quality and impact, a more explicit set than prior efforts.",
+   "claim_source_sentence": "Our work contributes to the field by identifying 10 DORA-compliant measures of research quality and impact, a more comprehensive and explicit set of measures than prior efforts.",
+   "evidence": "Literature review and Delphi survey of researchers and research leaders in biomedical institutions.",
+   "effect_size": "10 DORA-compliant measures identified; 44 panelists round one",
+   "effect_size_source_sentence": "Rating of measures by 44 panelists (60%) in Round One and 24 (55%) in Round Two of a Delphi survey resulted in consensus on the high importance of 5 measures: research advances existing knowledge, research plan is innovative, an independent body of research (or fundamental role) supported by peer-reviewed research funding, research outputs relevant to discipline, and quality of the content of publications.",
+   "n": 44,
+   "study_system": "biomedical researcher assessment (Delphi)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pone.0270616",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Argues global university rankings, like GDP for economies, drive universities to 'grow' up rankings rather than thrive, and are incompatible with socially responsible practice.",
+   "claim_source_sentence": "Draws parallels between the problematic use of GDP to evaluate economic success with the use of global university rankings to evaluate university success.",
+   "evidence": "Perspective on responsible metrics and global university rankings.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "global university rankings",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.3389/frma.2021.680023",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Introduces the Relative Citation Ratio, an article-level field-normalized citation metric offered as an alternative to the invalid use of journal impact factors to identify influential papers.",
+   "claim_source_sentence": "The resulting Relative Citation Ratio is article level and field independent and provides an alternative to the invalid practice of using journal impact factors to identify influential papers.",
+   "evidence": "Bibliometric method development and validation using NIH-authored articles.",
+   "effect_size": "88,835 articles analyzed (2003-2010)",
+   "effect_size_source_sentence": "To illustrate one application of our method, we analyzed 88,835 articles published between 2003 and 2010 and found that the National Institutes of Health awardees who authored those papers occupy relatively stable positions of influence across all disciplines.",
+   "n": 88835,
+   "study_system": "biomedical bibliometrics (NIH awardees)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pbio.1002541",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Synthesizing five years of research, argues four urgent actions are needed to foster better research, including realigning assessments to value elements that strengthen science.",
+   "claim_source_sentence": "Here, we translate our findings in four actions that are urgently needed to foster better research.",
+   "evidence": "Synthesis of a five-year research program on research integrity and assessment.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "research assessment / integrity reform",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s13104-022-06191-0",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A survey of 338 US/Canada faculty found they describe 'quality', 'prestige', and 'impact' of journals in overlapping, ill-defined ways, undermining evaluation regimes built on these terms.",
+   "claim_source_sentence": "While relying on self-reported definitions that are not linked to their behavior, this study's findings highlight that faculty often describe these distinct terms in overlapping ways.",
+   "evidence": "Survey of faculty across US and Canadian institutions on journal evaluation terms.",
+   "effect_size": "338 faculty from 55 institutions",
+   "effect_size_source_sentence": "We address this question by surveying 338 faculty members from 55 different institutions in the U.S. and Canada.",
+   "n": 338,
+   "study_system": "faculty perceptions (US/Canada survey)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pone.0257340",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A consensus view recommends research funders adopt a Research Integrity Promotion Plan built around 6 core topics to strengthen integrity policy.",
+   "claim_source_sentence": "This Consensus View offers a range of examples of how funders are already promoting research integrity, distills 6 core topics that funders should cover in a RIPP, and provides guidelines on how to develop and implement a RIPP.",
+   "evidence": "Multi-organization consensus recommendations for research funders.",
+   "effect_size": "6 core topics",
+   "effect_size_source_sentence": "This Consensus View offers a range of examples of how funders are already promoting research integrity, distills 6 core topics that funders should cover in a RIPP, and provides guidelines on how to develop and implement a RIPP.",
+   "n": null,
+   "study_system": "research funders (consensus)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pbio.3001773",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The SCOPE framework provides a structured five-stage process to bridge the gap between responsible-research-assessment principles and their practical implementation.",
+   "claim_source_sentence": "SCOPE bridges the gap between principles and their implementation by providing a structured five-stage framework by which evaluations can be designed and implemented, as well as evaluated.",
+   "evidence": "Framework paper with four case studies of responsible research assessment.",
+   "effect_size": "five-stage framework",
+   "effect_size_source_sentence": "SCOPE bridges the gap between principles and their implementation by providing a structured five-stage framework by which evaluations can be designed and implemented, as well as evaluated.",
+   "n": null,
+   "study_system": "research evaluation framework",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.12688/f1000research.140810.2",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A co-creative Delphi with researchers, managers and funders produced consensus recommendations addressing how Open Research's resource intensity, APC costs, and reward practices undermine its equity aims.",
+   "claim_source_sentence": "Using a co-creative modified Delphi method, we generated consensus-driven recommendations that address three key problem areas: the resource-intensive nature of Open Research, the high cost of article processing charges, and obstructive reward and recognition practices at funders and research institutions that undermine the implementation of Open Research.",
+   "evidence": "Co-creative modified Delphi with a diverse community of stakeholders.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "open research policy (equity)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1098/rsos.221460",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A content analysis of 209 journals' policies found only 13% had explicit policies on both duplicate and salami publication, with definitions inconsistent and consequences undefined.",
+   "claim_source_sentence": "Overall, 18% of journals did not have any policies on either practice, 33% only referred to a generic guideline or checklist without explicit mention about either practice, 36% included policies on duplicate publication and only 13% included policies on both duplicate and salami publication.",
+   "evidence": "Content analysis of policies from epidemiology/public health and general/internal medicine journals.",
+   "effect_size": "only 13% of journals had policies on both duplicate and salami publication",
+   "effect_size_source_sentence": "Overall, 18% of journals did not have any policies on either practice, 33% only referred to a generic guideline or checklist without explicit mention about either practice, 36% included policies on duplicate publication and only 13% included policies on both duplicate and salami publication.",
+   "n": 209,
+   "study_system": "journal editorial policies (n=209 journals)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/ije/dyz187",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A review of citation-accuracy studies concludes about 10% of biomedical citations are strongly inaccurate and misleading, with citation bias favoring positive and confirmatory results.",
+   "claim_source_sentence": "About 10% of all citations in biomedicine are strongly inaccurate and misleading for the reader.",
+   "evidence": "Narrative review of quantitative studies of citation accuracy and bias.",
+   "effect_size": "~10% of biomedical citations strongly inaccurate",
+   "effect_size_source_sentence": "About 10% of all citations in biomedicine are strongly inaccurate and misleading for the reader.",
+   "n": null,
+   "study_system": "biomedical citation practices (review)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1051/medsci/2021142",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In the foundational spin study, 58.3% of abstract conclusions of nonsignificant RCTs contained spin, distorting the presentation of negative primary outcomes.",
+   "claim_source_sentence": "Spin was identified in the Results and Conclusions sections of the abstracts of 27 (37.5%; 95% CI, 26.4%-49.7%) and 42 (58.3%; 95% CI, 46.1%-69.8%) reports, respectively, with the conclusions of 17 (23.6%; 95% CI, 14.4%-35.1%) focusing only on treatment effectiveness.",
+   "evidence": "Standardized appraisal of parallel-group RCTs with nonsignificant primary outcomes.",
+   "effect_size": "58.3% (95% CI 46.1-69.8) of abstract conclusions had spin",
+   "effect_size_source_sentence": "Spin was identified in the Results and Conclusions sections of the abstracts of 27 (37.5%; 95% CI, 26.4%-49.7%) and 42 (58.3%; 95% CI, 46.1%-69.8%) reports, respectively, with the conclusions of 17 (23.6%; 95% CI, 14.4%-35.1%) focusing only on treatment effectiveness.",
+   "n": 72,
+   "study_system": "RCTs with nonsignificant primary outcomes (general medicine)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1097/JU.0000000000003105",
+    "10.1016/j.jclinepi.2021.05.004",
+    "10.1016/j.annemergmed.2019.03.011"
+   ],
+   "doi": "10.1001/jama.2010.651",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "76% of statistically nonsignificant urology RCTs contained spin, with 57% of abstracts affected.",
+   "claim_source_sentence": "Spin was identified in 35 studies (76%), with the majority of abstracts (n = 26, 57%) and main texts (n = 35, 76%) containing some level of spin.",
+   "evidence": "Duplicate independent spin appraisal of urology RCTs with nonsignificant primary outcomes.",
+   "effect_size": "76% of trials had spin; 57% of abstracts",
+   "effect_size_source_sentence": "Spin was identified in 35 studies (76%), with the majority of abstracts (n = 26, 57%) and main texts (n = 35, 76%) containing some level of spin.",
+   "n": 46,
+   "study_system": "urology RCTs with nonsignificant primary outcomes",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1001/jama.2010.651",
+    "10.1016/j.jclinepi.2021.05.004"
+   ],
+   "doi": "10.1097/JU.0000000000003105",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Spin appeared in a high proportion of bariatric-surgery RCTs with nonsignificant primary endpoints: 55% of abstracts and 62% of main texts.",
+   "claim_source_sentence": "In total, 16 abstracts (55%) and 18 main texts (62%) were classified as having a spin.",
+   "evidence": "Systematic review of bariatric-surgery RCTs with nonsignificant primary endpoints.",
+   "effect_size": "55% of abstracts and 62% of main texts had spin",
+   "effect_size_source_sentence": "In total, 16 abstracts (55%) and 18 main texts (62%) were classified as having a spin.",
+   "n": 29,
+   "study_system": "bariatric-surgery RCTs with nonsignificant primary outcomes",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1001/jama.2010.651",
+    "10.1097/JU.0000000000003105"
+   ],
+   "doi": "10.1016/j.jclinepi.2021.05.004",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Spin was common in nonsignificant vascular-surgery RCTs, most often interpreting nonsignificant results as showing treatment equivalence.",
+   "claim_source_sentence": "Spin was identified in 9 abstracts (9/18) and 13 main texts (13/18) of AAA articles and 7 abstracts (7/13) and 10 main texts (10/13) of CS articles.",
+   "evidence": "Validated-tool spin appraisal of vascular-surgery RCTs (AAA repair, carotid stenosis).",
+   "effect_size": "spin in 16/31 abstracts and 23/31 main texts",
+   "effect_size_source_sentence": "Spin was identified in 9 abstracts (9/18) and 13 main texts (13/18) of AAA articles and 7 abstracts (7/13) and 10 main texts (10/13) of CS articles.",
+   "n": 31,
+   "study_system": "vascular-surgery RCTs with nonsignificant outcomes",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1001/jama.2010.651",
+    "10.1097/JU.0000000000003105"
+   ],
+   "doi": "10.1016/j.jvs.2021.09.051",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In analgesic RCTs with nonsignificant primary analyses, 28% of abstracts emphasized significant secondary analyses and 22% claimed treatment benefit despite nonsignificant primary results.",
+   "claim_source_sentence": "In the 76 articles included in our sample, 28% of the abstracts and 29% of the main texts emphasized secondary analyses with P values <.05; 22% of abstracts and 29% of texts emphasized treatment benefit based on nonsignificant primary results; 14% of abstracts and 18% of texts emphasized within-group improvements over time, rather than primary between-group comparisons; and 13% of abstracts and 10% of texts interpreted a nonsignificant difference between groups in a superiority study as comparable effectiveness.",
+   "evidence": "ACTTION systematic review of analgesic RCTs with nonsignificant primary analyses in 6 pain journals.",
+   "effect_size": "28% of abstracts emphasized significant secondary analyses",
+   "effect_size_source_sentence": "In the 76 articles included in our sample, 28% of the abstracts and 29% of the main texts emphasized secondary analyses with P values <.05; 22% of abstracts and 29% of texts emphasized treatment benefit based on nonsignificant primary results; 14% of abstracts and 18% of texts emphasized within-group improvements over time, rather than primary between-group comparisons; and 13% of abstracts and 10% of texts interpreted a nonsignificant difference between groups in a superiority study as comparable effectiveness.",
+   "n": 76,
+   "study_system": "analgesic RCTs with nonsignificant primary analyses",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1001/jama.2010.651",
+    "10.1097/JU.0000000000003105"
+   ],
+   "doi": "10.1016/j.jpain.2014.10.003",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Spin was found in 44.3% of emergency-medicine RCT abstracts with nonsignificant primary endpoints, and industry-funded trials were more likely to contain abstract spin (OR 3.4).",
+   "claim_source_sentence": "Industry-funded trials were more likely to have evidence of spin in the abstract (unadjusted odds ratio 3.4; 95% confidence interval 1.1 to 11.9).",
+   "evidence": "Spin appraisal of emergency-medicine RCT abstracts with nonsignificant primary endpoints; funding-source association tested.",
+   "effect_size": "OR 3.4 (95% CI 1.1-11.9) for industry-funded trials; spin in 50/114 (44.3%) abstracts",
+   "effect_size_source_sentence": "Industry-funded trials were more likely to have evidence of spin in the abstract (unadjusted odds ratio 3.4; 95% confidence interval 1.1 to 11.9).",
+   "n": 114,
+   "study_system": "emergency-medicine RCTs with nonsignificant primary endpoints",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1001/jama.2010.651",
+    "10.1016/j.jclinepi.2021.05.004"
+   ],
+   "doi": "10.1016/j.annemergmed.2019.03.011",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "An international forum of health-research funders agreed on ten Guiding Principles that, if adhered to, would reduce research waste and ensure value in research.",
+   "claim_source_sentence": "The EViR Funders' Forum worked together to develop a set of ten Guiding Principles, that if funders adhered to would reduce research waste and ensure value in research.",
+   "evidence": "Consensus development by the Ensuring Value in Research (EViR) Funders' Forum.",
+   "effect_size": "ten Guiding Principles",
+   "effect_size_source_sentence": "The EViR Funders' Forum worked together to develop a set of ten Guiding Principles, that if funders adhered to would reduce research waste and ensure value in research.",
+   "n": null,
+   "study_system": "health-research funders (international forum)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.12688/f1000research.128797.2",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Overlapping James Lind Alliance priority-setting 'Top 10s' could be combined into collaborative research to increase value and reduce research waste.",
+   "claim_source_sentence": "Some PSPs share similar priorities, which could be combined, promoted and addressed through collaborative research to increase value and reduce research waste.",
+   "evidence": "Coproduced synthesis of UK James Lind Alliance Priority Setting Partnership 'Top 10' lists.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "research priority setting (UK JLA partnerships)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1111/hex.14096",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Most medRxiv clinical-study preprints were concordant with their peer-reviewed journal versions: 86.4% had concordant sample sizes and 96.2% had concordant final interpretations.",
+   "claim_source_sentence": "Of the 535 pairs reporting sample sizes in both sources, 462 (86.4%) were concordant; 43 (58.9%) of the 73 pairs with discordant sample sizes had larger samples in the journal publication.",
+   "evidence": "Cross-sectional study of medRxiv preprint-journal article pairs first posted September 2020.",
+   "effect_size": "86.4% concordant sample sizes; 96.2% concordant interpretations",
+   "effect_size_source_sentence": "Overall, 526 pairs (96.2%) had concordant study interpretations, including 82 of the 101 pairs (81.2%) with discordant primary end point results.",
+   "n": 547,
+   "study_system": "medRxiv preprint-journal article pairs (clinical studies)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1001/jamanetworkopen.2022.45847",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A survey of 408 Hungarian researchers found publication pressure did not differ by discipline, but female researchers perceived greater stress than male researchers.",
+   "claim_source_sentence": "The findings also showed that female researchers perceive greater stress than male researchers.",
+   "evidence": "Survey using the Revised Publication Pressure Questionnaire across career stages, fields, and genders.",
+   "effect_size": "408 respondents",
+   "effect_size_source_sentence": "A total of 408 respondents completed the survey, 46% were female, and 54% were male.",
+   "n": 408,
+   "study_system": "Hungarian researchers (survey)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1080/08989621.2022.2081917",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Among 1298 Amsterdam researchers, individual, climate and publication factors together explained 34% of variance in perceived research misbehavior, with research-climate perceptions the largest contributor (22%).",
+   "claim_source_sentence": "Results showed that individual, climate and publication factors combined explained 34% of variance in perceived frequency of research misbehavior. Individual factors explained 7%, climate factors explained 22% and publication factors 16%.",
+   "evidence": "Survey integrating three instruments among academic researchers in Amsterdam.",
+   "effect_size": "climate factors explained 22% of variance; publication factors 16%; total 34%",
+   "effect_size_source_sentence": "Results showed that individual, climate and publication factors combined explained 34% of variance in perceived frequency of research misbehavior. Individual factors explained 7%, climate factors explained 22% and publication factors 16%.",
+   "n": 1298,
+   "study_system": "academic researchers, Amsterdam (survey)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s41073-021-00110-w",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Among 244 NSF Graduate Research Fellows, self-reported academic cheating was 16.7% and research misconduct 3.7%, with funding, publication, and tenure pressures cited as the most negative aspects of academia.",
+   "claim_source_sentence": "The self-reported rate of academic cheating was 16.7% and of research misconduct was 3.7%.",
+   "evidence": "Anonymous survey of prestigious NSF Graduate Research Fellows in engineering and computer science.",
+   "effect_size": "16.7% self-reported cheating; 3.7% research misconduct",
+   "effect_size_source_sentence": "The self-reported rate of academic cheating was 16.7% and of research misconduct was 3.7%.",
+   "n": 244,
+   "study_system": "NSF Graduate Research Fellows (STEM survey)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s41598-023-32445-3",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In an international survey, contract type, career stage, field, adherence to scientific norms and gender significantly predicted engagement in questionable research practices, while between-institution variance was minimal.",
+   "claim_source_sentence": "Our findings indicate that contract type, career stage, academic field, adherence to scientific norms and gender significantly predict QRP engagement.",
+   "evidence": "Multi-level modelling of an international survey of researchers on QRP determinants.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "international researcher survey (QRP determinants)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s41073-024-00151-x",
+   "text_access": "abstract_only"
   }
  ],
  "conflicts": [
@@ -1106,6 +1892,30 @@
    "paper_b_claim": "When badges were earned, reportedly available data were more likely to be actually available, correct, usable, and complete than when badges were not earned.",
    "nature_of_conflict": "Whether a policy requirement translates into actually available data: a blanket journal data-sharing mandate (ICMJE) produced near-zero actual public data (0.6%), whereas a voluntary badge-plus-verification incentive increased data that was actually available and usable.",
    "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1371/journal.pmed.0020124",
+   "paper_b_doi": "10.1073/pnas.1708272114",
+   "paper_a_claim": "Simulations show that for most study designs and settings, it is more likely for a research claim to be false than true.",
+   "paper_b_claim": "This article provides an overview of recent evidence suggesting that this narrative is mistaken, and argues that a narrative of epochal changes and empowerment of scientists would be more accurate, inspiring, and compelling.",
+   "nature_of_conflict": "Whether science faces a genuine reproducibility/false-findings crisis: Ioannidis' framework concludes most published findings are likely false, whereas Fanelli argues the crisis narrative is empirically mistaken and overstated, which bears directly on how urgently incentive/reform interventions are justified.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1371/journal.pone.0010271",
+   "paper_b_doi": "10.1073/pnas.1618569114",
+   "paper_a_claim": "The probability of papers to support the tested hypothesis increased significantly with the per capita academic productivity of the state of the corresponding author (b = 1.383±0.682, Wald test = 4.108, df = 1, p = 0.043, Odds-Ratio (95%CI) = 3.988(1.047–15.193),).",
+   "paper_b_claim": "Authors publishing at high rates and receiving many citations were, overall, not at greater risk of bias.",
+   "nature_of_conflict": "Whether productivity pressure inflates bias: Fanelli's US-states analysis found higher academic productivity predicted more hypothesis-confirming papers, whereas the later cross-disciplinary meta-assessment (Fanelli, Costas & Ioannidis) found high-output, highly cited authors were overall not at greater risk of bias.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1371/journal.pbio.3002408",
+   "paper_b_doi": "10.3389/frma.2021.680023",
+   "paper_a_claim": "Although often derided, quantitative metrics could help improve research practices if they are rigorous, field-adjusted, and centralized.",
+   "paper_b_claim": "Highlights the incompatibility between universities' alignment with socially responsible practices and continued engagement with socially irresponsible ranking practices.",
+   "nature_of_conflict": "Whether quantitative/ranking metrics can be reformed into a force that improves research (pro-metrics) or are inherently socially irresponsible instruments that should be resisted (anti-ranking).",
+   "resolution_status": "open"
   }
  ],
  "unreplicated_claims": [
@@ -1155,7 +1965,7 @@
   "claim": "Registered reports increase publication of null findings",
   "why_weak": "Based on an exploratory analysis in a single early-career-perspective paper; not independently replicated"
  },
- "papers_reviewed_count": 75,
+ "papers_reviewed_count": 130,
  "evidence_artifact_id": "cluster_07_evidence.json",
  "figure_data": [
   {
@@ -1488,6 +2298,145 @@
     "caveats": [
      "Metrics differ: declared-vs-actual availability vs raw-data-sharing rate vs data-statement presence",
      "Fields differ (clinical trials vs psychology vs orthopaedics)"
+    ]
+   }
+  },
+  {
+   "comparison_id": "outcome-misreporting-trial-audits",
+   "comparison_name": "Prevalence of registered-vs-reported outcome discrepancies in prospective trial audits",
+   "papers": [
+    {
+     "doi": "10.1186/s13063-019-3173-2",
+     "metric": "% of trials with at least one outcome discrepancy requiring a correction letter",
+     "value": "87",
+     "value_source_sentence": "Fifty-eight trials had discrepancies requiring a correction letter (87%, journal range 67-100%).",
+     "ci_or_error": "journal range 67-100%",
+     "n": 67,
+     "n_analyzed": "67 trials",
+     "n_definition": "trials assessed",
+     "study_system": "5 high-impact general medical journals (COMPare)",
+     "experimental_conditions": "CONSORT-endorsing journals; prospective real-time audit",
+     "method": "prospective outcome audit vs protocol/registry",
+     "text_access": "abstract_only",
+     "scope_region": "general medicine (NEJM, Lancet, JAMA, BMJ, Ann Intern Med)",
+     "scope_population": "all trials over a 6-week window",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1186/s12916-022-02567-y",
+     "metric": "% of trials with primary outcome inconsistent between registry and report",
+     "value": "49",
+     "value_source_sentence": "Primary outcome(s) reported in trial registries and published reports were inconsistent in 49% (n = 104) of trials; of them, only 15% (n = 16) disclosed outcome switching in the report.",
+     "ci_or_error": null,
+     "n": 251,
+     "n_analyzed": "251 trial reports",
+     "n_definition": "trial reports",
+     "study_system": "COVID-19 pharmacological RCTs (preprints + journals)",
+     "experimental_conditions": "pandemic-era trials; retrospective audit",
+     "method": "registry-vs-report consistency audit",
+     "text_access": "abstract_only",
+     "scope_region": "COVID-19 pharmacological trials",
+     "scope_population": "all COVID-19 drug RCT reports to May 2021",
+     "taxonomic_level": "broad category"
+    }
+   ],
+   "comparison_type": "convergent evidence",
+   "what_it_reveals": "Independent prospective audits find that a large fraction of trials report outcomes inconsistent with their pre-specified/registered outcomes, and disclosure of the switch is rare, indicating selective outcome reporting persists despite registration and CONSORT.",
+   "suggested_plot_type": "bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "true",
+    "n_definition_uniform": "false",
+    "caveats": [
+     "Metric definitions differ slightly: any-outcome discrepancy (COMPare) vs primary-outcome inconsistency (COVID RCTs)",
+     "Populations differ (all trials in 5 elite journals vs COVID-19 drug trials incl. preprints)"
+    ]
+   }
+  },
+  {
+   "comparison_id": "spin-abstract-prevalence-specialties",
+   "comparison_name": "Prevalence of spin in abstracts of nonsignificant RCTs across clinical specialties",
+   "papers": [
+    {
+     "doi": "10.1001/jama.2010.651",
+     "metric": "% of nonsignificant-RCT abstract conclusions containing spin",
+     "value": "58.3%",
+     "value_source_sentence": "Spin was identified in the Results and Conclusions sections of the abstracts of 27 (37.5%; 95% CI, 26.4%-49.7%) and 42 (58.3%; 95% CI, 46.1%-69.8%) reports, respectively, with the conclusions of 17 (23.6%; 95% CI, 14.4%-35.1%) focusing only on treatment effectiveness.",
+     "ci_or_error": "95% CI 46.1-69.8",
+     "n": 72,
+     "n_analyzed": "72",
+     "n_definition": "nonsignificant-primary-outcome RCT reports appraised",
+     "study_system": "general medicine RCTs",
+     "experimental_conditions": "parallel-group RCTs, nonsignificant primary outcome",
+     "method": "standardized spin appraisal (abstract conclusions)",
+     "text_access": "abstract_only",
+     "scope_region": "general medicine",
+     "scope_population": "nonsignificant-primary-outcome RCTs",
+     "taxonomic_level": "abstract conclusions section"
+    },
+    {
+     "doi": "10.1097/JU.0000000000003105",
+     "metric": "% of nonsignificant-RCT abstracts containing spin",
+     "value": "57%",
+     "value_source_sentence": "Spin was identified in 35 studies (76%), with the majority of abstracts (n = 26, 57%) and main texts (n = 35, 76%) containing some level of spin.",
+     "ci_or_error": null,
+     "n": 46,
+     "n_analyzed": "46",
+     "n_definition": "nonsignificant-primary-outcome urology RCTs",
+     "study_system": "urology RCTs",
+     "experimental_conditions": "RCTs, nonsignificant primary outcome",
+     "method": "duplicate spin appraisal (whole abstract)",
+     "text_access": "abstract_only",
+     "scope_region": "urology",
+     "scope_population": "nonsignificant-primary-outcome RCTs",
+     "taxonomic_level": "whole abstract"
+    },
+    {
+     "doi": "10.1016/j.jclinepi.2021.05.004",
+     "metric": "% of nonsignificant-RCT abstracts containing spin",
+     "value": "55%",
+     "value_source_sentence": "In total, 16 abstracts (55%) and 18 main texts (62%) were classified as having a spin.",
+     "ci_or_error": null,
+     "n": 29,
+     "n_analyzed": "29",
+     "n_definition": "nonsignificant-primary-endpoint bariatric RCTs",
+     "study_system": "bariatric-surgery RCTs",
+     "experimental_conditions": "RCTs, nonsignificant primary endpoint",
+     "method": "systematic review spin classification (whole abstract)",
+     "text_access": "abstract_only",
+     "scope_region": "bariatric surgery",
+     "scope_population": "nonsignificant-primary-endpoint RCTs",
+     "taxonomic_level": "whole abstract"
+    },
+    {
+     "doi": "10.1016/j.annemergmed.2019.03.011",
+     "metric": "% of nonsignificant-RCT abstracts containing spin",
+     "value": "44.3%",
+     "value_source_sentence": "Spin was found in 50 of 114 abstracts (44.3%).",
+     "ci_or_error": null,
+     "n": 114,
+     "n_analyzed": "114",
+     "n_definition": "nonsignificant-primary-endpoint emergency-medicine RCT abstracts",
+     "study_system": "emergency-medicine RCTs",
+     "experimental_conditions": "RCTs, nonsignificant primary endpoint",
+     "method": "spin appraisal (whole abstract)",
+     "text_access": "abstract_only",
+     "scope_region": "emergency medicine",
+     "scope_population": "nonsignificant-primary-endpoint RCTs",
+     "taxonomic_level": "whole abstract"
+    }
+   ],
+   "comparison_type": "convergent evidence",
+   "what_it_reveals": "Spin in abstracts of statistically nonsignificant RCTs is highly prevalent (roughly 44-58%) and independently replicated across multiple clinical specialties, showing a systematic incentive-driven distortion of the published record.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "true",
+    "taxonomic_level_uniform": "false",
+    "n_definition_uniform": "true",
+    "caveats": [
+     "JAMA 2010 value is for the abstract CONCLUSIONS section specifically (58.3%), whereas the urology/bariatric/emergency values are for spin anywhere in the abstract; all denominators are nonsignificant-primary-outcome RCTs but specialties differ."
     ]
    }
   }

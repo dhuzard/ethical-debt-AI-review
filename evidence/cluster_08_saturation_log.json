@@ -89,10 +89,46 @@
    "query_or_method": "openalex OA search (2023+) ARRIVE adherence/reporting-quality as round-2 substitute (forward-cite seed returned 0); PMCID-resolved fulltext for 4 meta-research audits",
    "records_examined": 20,
    "new_unique_relevant": 4,
-   "new_unique_rate": 0.20,
+   "new_unique_rate": 0.2,
    "cumulative_unique": 87,
    "cumulative_screened_in": 87
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "pubmed/epmc: IACUC/AEC harm-benefit decision tools, approval-rate, scientific-review-in-oversight, global harmonisation, African AECs (frame 5 batch 1, governance)",
+   "records_examined": 70,
+   "new_unique_relevant": 10,
+   "new_unique_rate": 0.143,
+   "cumulative_unique": 97,
+   "cumulative_screened_in": 97
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "pubmed/epmc: NIH-SABV funder-policy uptake, automated rigor-tools, NC3Rs EDA/blinding/design guidance, PROSPERO SR-timing, multilab preclinical network, open-data trend, image-integrity governance (frame 5 batch 2)",
+   "records_examined": 65,
+   "new_unique_relevant": 13,
+   "new_unique_rate": 0.2,
+   "cumulative_unique": 110,
+   "cumulative_screened_in": 110
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc: TOP/badges/preregistration + reporting-guideline adherence + journal endorsement + ICMJE data-sharing + transparency prevalence + research-integrity meta-science (frame 6 batch 1)",
+   "records_examined": 200,
+   "new_unique_relevant": 20,
+   "new_unique_rate": 0.1,
+   "cumulative_unique": 130,
+   "cumulative_screened_in": 130
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc: clinical-trial registration + results-reporting compliance (EUCTR/FDAAA/ICTRP) + registry-publication discrepancies + institutional dashboards + industry-sponsorship bias (frame 6 batch 2)",
+   "records_examined": 150,
+   "new_unique_relevant": 10,
+   "new_unique_rate": 0.0667,
+   "cumulative_unique": 140,
+   "cumulative_screened_in": 140
   }
  ],
- "note": "Frame 4 (continuation) added 26 new unique-DOI findings (61 -> 87), ALL genuine fulltext (body-sourced sentences), raising overall fulltext count 12 -> 38 (43.7%). Saturation criterion (<2% new unique in last 100) has NOT fired: latest passes yielded 13-20% new unique. Continuation still required toward min_papers_per_cluster=200. OpenAlex forward-cite seed returned 0 results, substituted with OA topic search + PMCID-resolved fulltext."
+ "note": "Frame 6 added 30 new unique-DOI findings (110->140), all abstract_only (verbatim Europe PMC abstract sentences). Added 2 conflicts (badges-intervention vs guideline-adherence-gap; journal-endorsement g3804 vs ARRIVE-no-effect pntd) and 2 figure_data (trial results-reporting compliance range 1.6-49.5%; guideline-adherence suboptimal reviews 86-88%). Productive veins: clinical-trial registration/results-reporting compliance, journal open-science policy effects (badges 3->39%, ICMJE DSS 68.6% declared, DAS present 93.7% but only 20.8% linked), reporting-guideline adherence reviews, research-integrity meta-science. Saturation (<2% new unique in last 100) NOT fired (10% and 6.7%). Continuation still required toward 200 (140/200). GLP/Horizon-Europe queries returned high clinical-guideline noise; deferred."
 }

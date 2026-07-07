@@ -1367,6 +1367,376 @@
    "replication_evidence_dois": [],
    "doi": "10.1186/s13104-026-07632-w",
    "text_access": "abstract_only"
+  },
+  {
+   "claim": "Across 253 omics studies (164,000 samples) plus an extended set of 61,000 GEO studies, over 25% of critical metadata were omitted and only 11.5% of studies shared all phenotypes.",
+   "claim_source_sentence": "We find that over 25% of critical metadata are omitted, with only 74.8% of relevant phenotypes available in publications or public repositories.",
+   "evidence": "",
+   "effect_size": "25% metadata omitted; 11.5% studies fully shared; 37.9% shared <40%",
+   "effect_size_source_sentence": "Only 11.5% of studies completely shared all phenotypes, while 37.9% shared less than 40% of the phenotypes.",
+   "n": 253,
+   "study_system": "253 omics studies (164,000 samples) + extended 61,000 GEO studies (2.1M samples), human and non-human mammalian",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1093/bib/bbaf560",
+    "10.1021/acs.jproteome.5c00958"
+   ],
+   "doi": "10.1186/s13059-025-03725-0",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In GEO, microarray still comprises ~48% of bacterial transcriptomic entries, and lack of standard formats limits reusability to at least 44% of ~45,000 microarray entries.",
+   "claim_source_sentence": "Thus, we delve into the availability and processability of bacterial microarray data in GEO, showing a complex panorama where the lack of standard formats limits our reusability potential to at least 44% of the ~45 000 microarray entries.",
+   "evidence": "",
+   "effect_size": "microarray ~48% of bacterial entries; reusable >=44% of ~45,000 entries",
+   "effect_size_source_sentence": "Notwithstanding the accelerated growth in RNA-seq experiments, microarray still accounts for ~48% of bacterial transcriptomic entries in GEO, highlighting the need to revalue this data.",
+   "n": null,
+   "study_system": "~45,000 bacterial microarray entries in Gene Expression Omnibus (GEO)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s13059-025-03725-0"
+   ],
+   "doi": "10.1093/bib/bbaf560",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "About 80% of GEO dataset contributors are first or corresponding authors of the associated original paper, indicating growing recognition of data work.",
+   "claim_source_sentence": "Our findings reveal that approximately 80% of dataset contributors play pivotal roles in their respective original papers, either as first or corresponding authors, with this proportion continuing to rise.",
+   "evidence": "",
+   "effect_size": "~80% of dataset contributors are first/corresponding authors",
+   "effect_size_source_sentence": "Our findings reveal that approximately 80% of dataset contributors play pivotal roles in their respective original papers, either as first or corresponding authors, with this proportion continuing to rise.",
+   "n": null,
+   "study_system": "GEO datasets linked to PMC open-access papers (authorship analysis)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s41597-025-06340-7",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Standardizing GEO/BioSample metadata with GPT-4 guided by CEDAR templates raised dataset retrieval recall from 17.65% to 62.87%.",
+   "claim_source_sentence": "The average recall increases dramatically, from 17.65% with baseline raw metadata to 62.87% with GPT-4+CEDAR.",
+   "evidence": "",
+   "effect_size": "recall 17.65% -> 62.87%",
+   "effect_size_source_sentence": "The average recall increases dramatically, from 17.65% with baseline raw metadata to 62.87% with GPT-4+CEDAR.",
+   "n": null,
+   "study_system": "BioSample and GEO metadata (NCBI); GPT-4 + CEDAR templates",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/gigascience/giag019",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The PRIDE proteomics repository received on average ~534 dataset submissions per month over the prior three years.",
+   "claim_source_sentence": "The number of submitted datasets to PRIDE Archive (the archival component of PRIDE) has reached on average around 534 datasets per month.",
+   "evidence": "",
+   "effect_size": "~534 datasets/month",
+   "effect_size_source_sentence": "The number of submitted datasets to PRIDE Archive (the archival component of PRIDE) has reached on average around 534 datasets per month.",
+   "n": null,
+   "study_system": "PRIDE mass-spectrometry proteomics data repository (EMBL-EBI)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1093/nar/gkaf1146"
+   ],
+   "doi": "10.1093/nar/gkae1011",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Through June 2025 ProteomeXchange's six member databases had received 64,330 datasets, with 30,097 (47%) submitted in just the last three years.",
+   "claim_source_sentence": "Through June 2025, 64 330 datasets had been submitted to ProteomeXchange resources, and from those, 30 097 (47%) just in the last 3 years.",
+   "evidence": "",
+   "effect_size": "64,330 total; 30,097 (47%) in last 3 years",
+   "effect_size_source_sentence": "Through June 2025, 64 330 datasets had been submitted to ProteomeXchange resources, and from those, 30 097 (47%) just in the last 3 years.",
+   "n": null,
+   "study_system": "ProteomeXchange consortium (PRIDE, PeptideAtlas, MassIVE, jPOST, iProX, Panorama Public)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1093/nar/gkae1011"
+   ],
+   "doi": "10.1093/nar/gkaf1146",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Despite full embrace of data sharing, proteomics dataset metadata (sample and design level) remains limited, and adoption of the SDRF-Proteomics standard is low with weak incentives and enforcement.",
+   "claim_source_sentence": "Although standards such as Sample and Data Relationship Format for Proteomics (SDRF-Proteomics) and supporting tools are already available, their adoption remains limited.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Proteomics community metadata provision / SDRF-Proteomics standard",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s13059-025-03725-0"
+   ],
+   "doi": "10.1021/acs.jproteome.5c00958",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In solid-tumor proteomics, data availability has not translated into straightforward reuse because heterogeneous design, acquisition, workflows and metadata quality limit reproducibility and cross-study comparability.",
+   "claim_source_sentence": "Nevertheless, data availability has not been translated into straightforward reuse: differences in experimental design, acquisition strategies, quantification workflows and metadata quality still limit the reproducibility and cross-study comparability.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Solid-tumor (colorectal, prostate) proteomics public repository datasets",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.3390/proteomes14020016",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Secondary use of public omics data (human embryonic kidney cell lines) is impeded by widespread data-reporting issues, prompting a call to re-evaluate open-access curation and submission procedures.",
+   "claim_source_sentence": "This paper aims to draw attention to widespread issues with data reporting and encourages data owners to meticulously curate submissions to maximize not only their immediate research impact but also the long-term legacy of datasets.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Human embryonic kidney (HEK293) cell-line omics data in public repositories",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/nar/gkae901",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "BioSamples is a centralized EMBL-EBI hub storing sample metadata for multiple repositories (ENA, ArrayExpress, EGA) to make samples FAIR and integrable across multi-omics data.",
+   "claim_source_sentence": "BioSamples serves as the central place to store the sample metadata for multiple repositories and archives at EMBL-EBI, including the European Nucleotide Archive, ArrayExpress, and the European Phenome-Genome Archive.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "BioSamples sample-metadata database (EMBL-EBI)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/nar/gkaf1133",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The genomics consensus that human data should be 'broadly' shared rests on imprecise, interchangeable definitions of 'broad', producing inconsistent implementation across landmark studies.",
+   "claim_source_sentence": "In this Perspective, we identify definitions of broad that have been used interchangeably, despite their distinct implications.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Human genomic data-sharing policy (six landmark genomics studies)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s41588-024-02049-2",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "NCI Genomic Data Commons pipelines are published as text SOPs that are hard to reproduce because documentation lags code, so authors converted them into executable containerized workflows to enable uniform cross-repository processing.",
+   "claim_source_sentence": "It is difficult to document a computational workflow to the level of detail and accuracy required to reproduce the results.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "NCI Genomic Data Commons (GDC) DNA-Seq / mRNA-Seq pipelines vs GTEx",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pone.0318676",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The BRAIN Initiative's seven distributed data archives face interoperability and stewardship challenges, notably harmonizing tiered informed-consent access for human data across archives.",
+   "claim_source_sentence": "The BRAIN Initiative-funded archive ecosystem faces interoperability and data stewardship challenges, such as achieving and maintaining interoperability of data and archives and harmonizing research participants' informed consents for tiers of access for human data across multiple archives.",
+   "evidence": "",
+   "effect_size": "seven data archives",
+   "effect_size_source_sentence": "First, we compare and contrast the characteristics of the seven BRAIN Initiative data archives germane to data sharing and reuse, namely data submission and access procedures and aspects of interoperability.",
+   "n": null,
+   "study_system": "Seven BRAIN Initiative neuroscience data archives (34 stakeholder interviews)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.7554/eLife.94000",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A comparison of four freely available intracranial neuroelectrophysiology repositories (DABI, DANDI, OpenNeuro, Brain-CODE) shows they rely on the BIDS and NWB standards for accessibility.",
+   "claim_source_sentence": "This paper compares four freely available intracranial neuroelectrophysiology data repositories: Data Archive for the BRAIN Initiative (DABI), Distributed Archives for Neurophysiology Data Integration (DANDI), OpenNeuro, and Brain-CODE.",
+   "evidence": "",
+   "effect_size": "four repositories",
+   "effect_size_source_sentence": "This paper compares four freely available intracranial neuroelectrophysiology data repositories: Data Archive for the BRAIN Initiative (DABI), Distributed Archives for Neurophysiology Data Integration (DANDI), OpenNeuro, and Brain-CODE.",
+   "n": null,
+   "study_system": "Intracranial neuroelectrophysiology repositories (DABI, DANDI, OpenNeuro, Brain-CODE)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s41597-023-02614-0",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Neuroscience has shifted from anemic data sharing to largely open science, served by a globally distributed ecosystem of data-type-specialized repositories whose FAIRness requires coordination across many stakeholders.",
+   "claim_source_sentence": "Neuroscience has made significant strides over the past decade in moving from a largely closed science characterized by anemic data sharing, to a largely open science where the amount of publicly available neuroscience data has increased dramatically.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Neuroscience data-repository ecosystem (INCF/FAIR infrastructure)",
+   "replication_status": "replication_unknown",
+   "replication_evidence_dois": [],
+   "doi": "10.3389/fninf.2023.1276407",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Despite scientific benefits, only a fraction of human brain data is currently shared because of various disincentives.",
+   "claim_source_sentence": "Sharing human brain data can yield scientific benefits, but because of various disincentives, only a fraction of these data is currently shared.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "NIH BRAIN Initiative Research Opportunities in Humans (ROH) Consortium neurophysiology data",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.7554/eLife.94000"
+   ],
+   "doi": "10.1016/j.neuron.2023.09.029",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The Brain Imaging Data Structure (BIDS) is a community-driven standard for organizing data and metadata across a growing range of neuroscience modalities.",
+   "claim_source_sentence": "The Brain Imaging Data Structure (BIDS) is a community-driven standard for the organization of data and metadata from a growing range of neuroscience modalities.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Brain Imaging Data Structure (BIDS) metadata standard",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1162/imag_a_00103",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Reuse of human neuroscience data for AI is blocked by cross-country legal heterogeneity and by missing standards for metadata annotation.",
+   "claim_source_sentence": "Finally, it elaborates on the problem of missing standards for metadata annotation and introduces initiatives that aim at developing tools to make neuroscientific data acquisition and analysis pipelines FAIR by design.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Human neuroscience data sharing (legal frameworks + metadata standards)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.3389/fninf.2023.1276407"
+   ],
+   "doi": "10.3389/fgene.2023.1086802",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A publisher-agnostic roadmap operationalizes the Joint Declaration of Data Citation Principles across the paper lifecycle (pre-submission, submission, production, publication).",
+   "claim_source_sentence": "This article presents a practical roadmap for scholarly publishers to implement data citation in accordance with the Joint Declaration of Data Citation Principles (JDDCP), a synopsis and harmonization of the recommendations of major science policy bodies.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Scholarly-publisher data-citation implementation (FORCE11 JDDCP / BioCADDIE)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/sdata.2018.259",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A mandatory open-data policy at a Chinese economics journal (natural experiment across 37 journals) significantly increased article citations, per synthetic-control estimation.",
+   "claim_source_sentence": "We use the data of 37 Chinese economics journals from 2001 to 2019 and apply synthetic control method to causally estimate the effects of open data, and our results show that open data has significantly increased the citations of journal articles.",
+   "evidence": "",
+   "effect_size": "significant citation increase (synthetic control)",
+   "effect_size_source_sentence": null,
+   "n": 37,
+   "study_system": "37 Chinese economics journals 2001-2019 (China Industrial Economics open-data mandate)",
+   "replication_status": "contested",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0311493"
+   ],
+   "doi": "10.1007/s11192-021-03897-z",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "GA4GH released a standardized lexicon of data-sharing terms (including 'data visiting' and 'federated data analysis') to reduce inconsistent terminology impeding cross-border genomics collaboration.",
+   "claim_source_sentence": "To address these barriers, the Global Alliance for Genomics and Health (GA4GH), a global standards-setting organization in genomics, has developed a standardized lexicon of key terms for data sharing, including the nascent terms data visiting and federated data analysis.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "GA4GH genomics data-sharing terminology / governance",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s40246-025-00784-z",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The Human Tumor Atlas Network's first phase shared 8,425 biospecimens from 2,042 participants profiled with more than 20 molecular assays via standards, infrastructure and governance.",
+   "claim_source_sentence": "Data from the first phase of the Human Tumor Atlas Network (HTAN) are now available, comprising 8,425 biospecimens from 2,042 research participants profiled with more than 20 molecular assays.",
+   "evidence": "",
+   "effect_size": "8,425 biospecimens; 2,042 participants; >20 assays",
+   "effect_size_source_sentence": "Data from the first phase of the Human Tumor Atlas Network (HTAN) are now available, comprising 8,425 biospecimens from 2,042 research participants profiled with more than 20 molecular assays.",
+   "n": 2042,
+   "study_system": "Human Tumor Atlas Network (HTAN) multi-omics cancer data",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s41592-025-02643-0",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A scoping review of genomic-data-management platforms distilled 53 studies into 26 functional and 20 non-functional interface requirements grouped around data management, analysis, visualization, and security/governance.",
+   "claim_source_sentence": "From 410 initial items, 210 items were preliminarily selected, and 53 items were included in the final analysis.",
+   "evidence": "",
+   "effect_size": "410 screened -> 53 included; 26 functional + 20 non-functional requirements",
+   "effect_size_source_sentence": "From 410 initial items, 210 items were preliminarily selected, and 53 items were included in the final analysis.",
+   "n": 53,
+   "study_system": "Scoping review (PRISMA-ScR) of genomic/health data-management platform requirements",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.2196/78405",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Across four clinical-trial data-sharing platforms, only 25% of data-request proposals were fully concordant with their resulting publications on all three shared characteristics (Vivli: 35/117, 29.9%).",
+   "claim_source_sentence": "Across four clinical data sharing platforms, data request proposals were often discordant with their corresponding publications, with only 25% concordant across all three key proposal characteristics reported by each platform.",
+   "evidence": "",
+   "effect_size": "25% fully concordant overall; Vivli 35/117 (29.9%); CSDR 20/106 (18.9%); YODA 15/65 (23.1%)",
+   "effect_size_source_sentence": "Of 117 Vivli publication-request pairs, 76 (65.0%) were fully concordant for the trials requested and analyzed, 61 (52.1%) for study objectives, and 57 (48.7%) for statistical methods; 35 (29.9%) pairs were fully concordant across the 3 characteristics.",
+   "n": 291,
+   "study_system": "291 publication-request pairs across Vivli, ClinicalStudyDataRequest.com, Yale Open Data Access, SOAR-BMS",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1177/17407745241304355",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Analyzing ~122,000 publications, sharing data in a repository conferred only a modest 4.3% citation advantage and preprints 20.2%, while sharing code showed no significant advantage.",
+   "claim_source_sentence": "We also find that sharing data in an online repository correlates with a smaller yet still positive citation advantage of 4.3% (±.8) on average.",
+   "evidence": "",
+   "effect_size": "data +4.3% (+/-.8); preprint +20.2% (+/-.7); code: no significant advantage",
+   "effect_size_source_sentence": "We find that the early release of a publication as a preprint correlates with a significant positive citation advantage of about 20.2% (±.7) on average.",
+   "n": 122000,
+   "study_system": "~122,000 PLOS + PMC-OA publications 2018-2023 (Open Science Indicators)",
+   "replication_status": "contested",
+   "replication_evidence_dois": [
+    "10.1007/s11192-021-03897-z"
+   ],
+   "doi": "10.1371/journal.pone.0311493",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "NCBI RefSeq combines automated processes with expert curation to maintain reference genomic, transcript and protein sequence standards across the tree of life, underpinning downstream omics interpretation.",
+   "claim_source_sentence": "The Reference Sequence (RefSeq) resource created at the National Center for Biotechnology Information (NCBI) leverages both automatic processes and expert curation to create a robust set of reference sequences of genomic, transcript and protein data spanning the tree of life.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "NCBI RefSeq reference-sequence resource (25 years of curation)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/nar/gkae1038",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "FAIRifying rare-disease EHR data into an FHIR standard format itself introduced 1,977 new completeness issues (1,988 total DQ issues), of which 68% were subsequently resolved.",
+   "claim_source_sentence": "Specifically, FHIR-DS contained 1988 distinct DQ issues: nine ambiguous RD cases, two missing data items, and 1977 completeness issues induced by the FAIRification processes.",
+   "evidence": "",
+   "effect_size": "1,988 DQ issues (1,977 completeness) induced by FAIRification; 68% resolved",
+   "effect_size_source_sentence": "We could successfully resolve the majority (68%) of all identified DQ issues in FHIR-DS.",
+   "n": 24,
+   "study_system": "Rare-disease EHR data across 24 German University Medical Centers (CORD-MI / Medical Informatics Initiative)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s12911-025-03153-x",
+   "text_access": "abstract_only"
   }
  ],
  "conflicts": [
@@ -1417,6 +1787,14 @@
    "paper_b_claim": "Templates-based metadata is generated in parallel at each level enabling guided submission of experiment metadata.",
    "nature_of_conflict": "Whether providing metadata infrastructure yields reusable metadata: the LabTrove ELN study finds free-form, user-defined metadata is largely under-used and threatens data recovery, whereas pISA-tree argues templated/guided ISA-model capture ensures standardized metadata. The disagreement is on whether tool design (free-form vs enforced templates) determines metadata quality.",
    "resolution_status": "resolved-by-method"
+  },
+  {
+   "paper_a_doi": "10.1007/s11192-021-03897-z",
+   "paper_b_doi": "10.1371/journal.pone.0311493",
+   "paper_a_claim": "our results show that open data has significantly increased the citations of journal articles.",
+   "paper_b_claim": "We also find that sharing data in an online repository correlates with a smaller yet still positive citation advantage of 4.3% (±.8) on average.",
+   "nature_of_conflict": "Magnitude of the open-data citation advantage: a synthetic-control study of a Chinese economics journal mandate reports a large increase in article citations, whereas a 122,000-publication analysis finds only a modest 4.3% advantage for depositing data (and none for sharing code).",
+   "resolution_status": "open"
   }
  ],
  "unreplicated_claims": [
@@ -1466,7 +1844,7 @@
   "claim": "Community/consortium data repositories (FaceBase, ImmuneData, ODC-SCI, RGD) successfully deliver FAIR, reusable data.",
   "why_weak": "These are self-reported single-consortium descriptor papers reporting adoption metrics (user counts, dataset counts) without independent evaluation of whether the data were actually reused or reproduced downstream."
  },
- "papers_reviewed_count": 99,
+ "papers_reviewed_count": 126,
  "evidence_artifact_id": "cluster_04_evidence.json",
  "figure_data": [
   {
@@ -1696,6 +2074,75 @@
      "Metrics are not identical: phenotype-metadata completeness (%), FAIR-maturity score (of 25), and article-level dataset-linking rate (%) each measure a different facet of reuse-readiness.",
      "Denominators differ (studies vs databases vs articles) and scales differ (percentage vs 0-25 score); a shared axis should normalise to '% of ideal'.",
      "The EHDEN value is a small-n (2 databases) self-assessment, not a population estimate."
+    ]
+   }
+  },
+  {
+   "comparison_id": "public-record-completeness-fidelity",
+   "comparison_name": "Share of public records/requests meeting a metadata-completeness or reuse-fidelity bar",
+   "papers": [
+    {
+     "doi": "10.1186/s13059-025-03725-0",
+     "metric": "studies sharing all phenotypes",
+     "value": "11.5%",
+     "value_source_sentence": "Only 11.5% of studies completely shared all phenotypes, while 37.9% shared less than 40% of the phenotypes.",
+     "ci_or_error": null,
+     "n": 253,
+     "n_analyzed": "253",
+     "n_definition": "omics studies",
+     "study_system": "GEO/omics studies (human + non-human mammalian)",
+     "experimental_conditions": "metadata completeness audit of phenotypes",
+     "method": "metadata completeness scoring",
+     "text_access": "abstract_only",
+     "scope_region": "transcriptomic/omics repositories",
+     "scope_population": "all studies audited",
+     "taxonomic_level": "study-level"
+    },
+    {
+     "doi": "10.1093/bib/bbaf560",
+     "metric": "microarray entries reusable given standard formats",
+     "value": "44%",
+     "value_source_sentence": "Thus, we delve into the availability and processability of bacterial microarray data in GEO, showing a complex panorama where the lack of standard formats limits our reusability potential to at least 44% of the ~45 000 microarray entries.",
+     "ci_or_error": null,
+     "n": null,
+     "n_analyzed": "~45000",
+     "n_definition": "bacterial microarray entries",
+     "study_system": "bacterial microarray entries in GEO",
+     "experimental_conditions": "format/processability reusability assessment",
+     "method": "reusability assessment of records",
+     "text_access": "abstract_only",
+     "scope_region": "GEO bacterial transcriptomics",
+     "scope_population": "microarray entries",
+     "taxonomic_level": "record-level"
+    },
+    {
+     "doi": "10.1177/17407745241304355",
+     "metric": "request-publication pairs fully concordant on 3 characteristics",
+     "value": "25%",
+     "value_source_sentence": "Across four clinical data sharing platforms, data request proposals were often discordant with their corresponding publications, with only 25% concordant across all three key proposal characteristics reported by each platform.",
+     "ci_or_error": null,
+     "n": 291,
+     "n_analyzed": "291",
+     "n_definition": "publication-request pairs",
+     "study_system": "clinical-trial data-sharing platform requests (Vivli, CSDR, YODA, SOAR-BMS)",
+     "experimental_conditions": "concordance of proposed vs published analysis",
+     "method": "cross-sectional concordance classification",
+     "text_access": "abstract_only",
+     "scope_region": "clinical-trial data-sharing platforms",
+     "scope_population": "data-request/publication pairs",
+     "taxonomic_level": "request-level"
+    }
+   ],
+   "comparison_type": "convergent evidence",
+   "what_it_reveals": "Across very different biomedical data-sharing settings, only a minority (11-44%) of public records or data-use requests meet full metadata-completeness or analysis-fidelity standards, illustrating a recurring reuse/quality gap.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "false",
+    "n_definition_uniform": "false",
+    "caveats": [
+     "Metrics are NOT the same construct: entry-1 is % of studies sharing ALL phenotypes (completeness), entry-2 is % of microarray records reusable given format standards, entry-3 is % of request-publication pairs concordant on analysis specification. n definitions differ (studies vs records vs request pairs). Use only as qualitative convergence that a minority of public records/requests meet a full-fidelity bar, not a like-for-like quantitative comparison."
     ]
    }
   }

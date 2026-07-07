@@ -34,24 +34,42 @@
   "epmc:data availability statement compliance sharing policy journals (CITED)",
   "epmc:many labs replication variation effect size crowdsourced (CITED)",
   "openalex:snowball_round_1 (forward-cites on reward-system seed W2794944797 [10.1371/journal.pbio.2004089]; backward referenced_works retrieved)",
-  "openalex:snowball_round_2 (forward-cites on OSC 2015 seed W1897139626 [10.1126/science.aac4716])"
+  "openalex:snowball_round_2 (forward-cites on OSC 2015 seed W1897139626 [10.1126/science.aac4716])",
+  "pubmed:NIH Data Management and Sharing Policy compliance data availability",
+  "pubmed:outcome switching clinical trials selective reporting COMPare",
+  "epmc:outcome switching trials COMPare Goldacre misreported",
+  "pubmed:CRediT contributor roles taxonomy authorship credit",
+  "epmc:hypercompetition research funding incentives scientific quality",
+  "pubmed:San Francisco Declaration Research Assessment responsible metrics",
+  "epmc:registered reports positive results literature preregistration (relevance)",
+  "epmc:research funding grant peer review lottery randomisation allocation (relevance)",
+  "epmc:economics irreproducibility preclinical research cost estimate (relevance)",
+  "openalex:snowball_round_3 (forward-cites on Fanelli publish-or-perish seed W1966297423 [10.1371/journal.pone.0010271], sort cited_by_count desc)",
+  "epmc:DORA Leiden manifesto responsible research metrics assessment (CITED desc) - yielded RCR/SCOPE/RIPP/DORA-compliant/misalignment-incentives/rethinking-success/mis-measuring-universities/equitable-open-research",
+  "pubmed:salami slicing least publishable unit publication practices (resolved 10.1093/ije/dyz187)",
+  "pubmed:citation distortion inaccurate references biomedical literature (resolved 10.1051/medsci/2021142)",
+  "pubmed:spin nonsignificant results abstracts RCTs interpretation (JAMA-foundational + urology/bariatric/vascular/analgesic/emergency-medicine)",
+  "pubmed:research waste funders priority setting reduce (EViR Funders Forum + JLA Top10s)",
+  "pubmed:preprint published article concordance quality COVID (resolved 10.1001/jamanetworkopen.2022.45847 medRxiv concordance)",
+  "pubmed:publication pressure survey academics perceptions integrity (Hungarian PPQr + Amsterdam misbehavior-variance + NSF Fellows + QRP organisational culture)"
  ],
  "passes_remaining": [
-  "epmc:NIH 2023 Data Management and Sharing Policy compliance rate",
-  "epmc:data paper as publication incentive citation advantage",
-  "epmc:COMPare trial outcome switching prevalence before after",
-  "epmc:preregistration effect on positive-result rate before/after (Registered Reports null rate)",
-  "epmc:DORA Leiden Manifesto responsible metrics adoption effect",
-  "openalex:snowball_round_3 (Fanelli publish-or-perish + Camerer SSRP seeds)"
+  "openalex:snowball_round_4 (Freedman economics-of-reproducibility seed + Begley/Ellis + Fanelli 'negative results disappearing' 10.1007/s11192-011-0494-7 not in PubMed - resolve via Crossref/OpenAlex text)",
+  "epmc:data paper as publication incentive citation advantage (deeper)",
+  "epmc:preprint growth/peer-review concordance beyond medRxiv (CITED-sort still returns genomics noise; needs field-constrained query)",
+  "epmc:research parasites data sharing secondary-analysis credit (CITED-sort hit literal 'parasites' biology noise; needs exact-phrase query)",
+  "epmc:team science hyperauthorship collaboration credit CRediT (CITED-sort returned health-services noise; needs relevance/field constraint)"
  ],
  "snowball_seeds_used": [
   "10.1371/journal.pbio.2004089",
-  "10.1126/science.aac4716"
+  "10.1126/science.aac4716",
+  "10.1371/journal.pone.0010271"
  ],
  "seen_dois_artifact_id": "cluster_07_seen_dois.txt",
  "saturation_log_artifact_id": "cluster_07_saturation_log.json",
- "papers_so_far": 75,
+ "papers_so_far": 130,
  "evidence_artifact_id": "cluster_07_evidence.json",
  "exit_reason": "frame_budget_reached",
- "notes": "Continuation frame added 38 new unique-DOI findings (37 -> 75). 16 of the 38 new findings are fulltext (body-sentence extraction via PMC fullTextXML, all >15KB with <body>); remainder abstract_only from PubMed metadata / Europe PMC. Snowball: forward-citation on OpenAlex worked (reward-system seed W2794944797 and OSC seed W1897139626); backward referenced_works retrieved for the reward-system seed (W-IDs, not individually resolved this frame). Camerer SSRP (10.1038/s41562-018-0399-z) surfaced in snowball_round_2 but is not in PubMed (no PMID/PMCID) and was deferred rather than sourced from memory. New-unique rate remained well above the 2% saturation threshold; cumulative unique (75) still far below the 200-paper floor, so a further continuation is required."
+ "notes_frame4": "Fourth continuation frame added 27 new unique-DOI findings (103 -> 130). All 27 sourced from API responses (PubMed get_article_metadata abstracts; DOIs verified via PubMed search + convert_article_ids; Europe PMC CITED-sort for discovery of the DORA/responsible-metrics cluster). All 27 marked text_access=abstract_only with clean verbatim abstract source sentences (avoided sentences containing HTML entities such as nbsp/thin-space/>= for clean substring matching). Threads worked: (1) DORA/Leiden responsible-metrics -> 12 findings (misalignment-of-incentives PNAS reform, in-defense-of-quantitative-metrics Ioannidis, DORA-compliant Delphi measures, mis-measuring-universities rankings, Relative Citation Ratio, SCOPE framework, RIPP funder integrity plan, equitable-open-research Delphi, faculty define quality/prestige/impact, two-part rethinking-success multi-actor study, failure-of-success synthesis); (2) salami/duplicate publication journal policies (only 13% cover both) + citation misuse/distortion (~10% biomedical citations strongly inaccurate); (3) SPIN in abstracts of nonsignificant RCTs -> 6 findings replicated across specialties (JAMA-foundational 58.3%, urology 76%, bariatric 55%, vascular, analgesic ACTTION, emergency-medicine 44.3% with industry-funding OR 3.4); (4) research waste/value -> EViR Funders' Forum ten Guiding Principles + JLA priority-setting; (5) preprint concordance -> medRxiv-journal pairs 86.4% concordant sample sizes, 96.2% concordant interpretations; (6) publication pressure/QRP culture -> Hungarian PPQr survey, Amsterdam research-misbehavior variance (climate 22%), NSF Fellows misconduct rates, QRP organisational-culture determinants. Added 1 new CONFLICT (pro-quantitative-metrics Ioannidis 10.1371/journal.pbio.3002408 vs anti-ranking mis-measuring-universities 10.3389/frma.2021.680023) and 1 figure_data (spin-in-abstracts prevalence across 4 specialties). Note: PubMed auto-translation over-ANDed multi-term meta-science queries (preprint/registered-reports/replication-incentives queries returned 0 or clinical-trial-protocol noise); Europe PMC relevance-sort broke WebFetch (returned only API version); registered-reports PubMed query mistranslated to clinical-trial registrations. New-unique rate stayed well above 2% (frame yield ~24 relevant per ~120 records examined). Cumulative unique (130) still below 200 floor -> further continuation required.",
+ "notes": "Third continuation frame added 28 new unique-DOI findings (75 -> 103). All 28 sourced from API responses (PubMed metadata abstracts + Europe PMC/OpenAlex discovery); DOIs verified from API, claim_source_sentence verbatim from abstracts. All 28 marked text_access=abstract_only (clean verbatim abstract sentences; one PhD-theses abstract had HTML tag-stripping artifacts 'coded= 379' so only clean sentences were used). Key adds: NIH DMS policy institutional compliance (10.1017/cts.2025.10212), COMPare outcome-switching trilogy (Goldacre), Freedman economics-of-reproducibility $28B (10.1371/journal.pbio.1002165), Fanelli reproducibility-crisis + meta-assessment-of-bias snowball, funding-lottery/partial-randomisation (Wellcome), CRediT contributorship empirical, impact-factor-mania/journal-rank (Casadevall & Fang; Brembs). Added 2 new CONFLICTs (crisis-exists vs crisis-narrative-mistaken; productivity-inflates-bias vs high-output-authors-not-more-biased) and 1 figure_data comparison (outcome-misreporting prevalence). PubMed auto-translation over-ANDed multi-term meta-science queries (several 0-result); Europe PMC CITED-sort surfaced GBD/methods noise for broad terms, so relevance-sort was used. New-unique rate stayed well above 2% saturation threshold; cumulative unique (103) still below 200 floor, so a further continuation is required."
 }

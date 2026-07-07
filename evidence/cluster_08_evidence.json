@@ -1254,6 +1254,750 @@
     "10.3349/ymj.2024.0409"
    ],
    "text_access": "fulltext"
+  },
+  {
+   "doi": "10.1186/s12910-025-01297-z",
+   "claim": "Scoping review of ethical decision-making for animal protocols identified 17 resources/tools guiding harm-benefit analysis, and concluded that deliberation among committee members should be favoured over numeric scoring approaches and case-by-case decisions preferred over accuracy-driven ones.",
+   "claim_source_sentence": "17 resources that can guide HBA and decision-making were identified.",
+   "evidence": "Scoping review (PubMed/Scopus/Web of Science, 1985-2023, Europe & North America) of harm-benefit analysis decision tools.",
+   "effect_size": "17 HBA decision resources identified",
+   "effect_size_source_sentence": "17 resources that can guide HBA and decision-making were identified.",
+   "n": 17,
+   "study_system": "Animal research ethics review / harm-benefit analysis (scoping review)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0318570"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.3390/ani14060846",
+   "claim": "Analysis of animal research oversight finds that almost all proposed experiments are approved despite some being ethically unacceptable, raising public-trust concerns; the authors propose a transparent platform to show how unethical experiments are screened out.",
+   "claim_source_sentence": "Although some experiments remain unacceptable irrespective of their harm-benefit ratios, almost all experiments are approved.",
+   "evidence": "Analysis/commentary on approval rates and transparency in animal research regulation.",
+   "effect_size": "almost all experiments approved",
+   "effect_size_source_sentence": "Although some experiments remain unacceptable irrespective of their harm-benefit ratios, almost all experiments are approved.",
+   "n": null,
+   "study_system": "Animal research oversight / approval rate (governance)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s41073-025-00169-9",
+    "10.1080/23294515.2022.2123868"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1371/journal.pbio.3000243",
+   "claim": "Machine-assisted systematic review/meta-analysis of 337 animal chemotherapy-induced peripheral neuropathy studies found most (84%) used only male animals and only modest reporting of measures to reduce risk of bias.",
+   "claim_source_sentence": "Most studies (84%) used male animals only.",
+   "evidence": "Machine-learning/text-mining assisted systematic review of 337 CIPN animal studies; power analyses for behavioural tests.",
+   "effect_size": "84% used male animals only (337 publications)",
+   "effect_size_source_sentence": "Most studies (84%) used male animals only.",
+   "n": 337,
+   "study_system": "Animal models of chemotherapy-induced peripheral neuropathy (systematic review)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.7554/eLife.70817",
+    "10.1002/ame2.70182"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1038/s41562-016-0021",
+   "claim": "A manifesto for reproducible science argues for adopting measures to optimise methods, reporting/dissemination, reproducibility, evaluation and incentives, but notes broad adoption by researchers, institutions, funders and journals will require iterative evaluation and improvement.",
+   "claim_source_sentence": "Here we argue for the adoption of measures to optimize key elements of the scientific process: methods, reporting and dissemination, reproducibility, evaluation and incentives.",
+   "evidence": "Consensus manifesto on measures to improve reproducibility across the research ecosystem.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Research reproducibility policy (methodological/consensus)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1016/j.nsa.2025.105527",
+   "claim": "A proposed Benefit Assessment Matrix for Animal Ethics Committees/IACUCs is built on the premise that rigorous high-quality research is more likely to yield benefit than low-rigor research, so linking ethical approval to research quality would phase out poor-quality animal research.",
+   "claim_source_sentence": "The organizational premise is that rigorous high-quality research is more likely to produce tangible benefit than poor quality, low rigor research.",
+   "evidence": "Proposal of a Benefit Assessment Matrix to operationalise harm-benefit evaluation for ethics committees.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Animal ethics committee harm-benefit tooling (methodological proposal)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s12910-025-01297-z"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1186/s41073-025-00169-9",
+   "claim": "Review of US IACUC challenges finds structural limitations (no required subject-matter or replacement-methods expertise; alternatives only 'considered' not required; duplication not verified; most institutions approve via single-member Designated Member Review) and concludes funders and journals should not treat IACUC approval as evidence of ethical adherence beyond legal minimums.",
+   "claim_source_sentence": "Because of the limitations of the review process, funding institutions and scientific journals should not use Institutional Animal Care and Use Committee approval of submissions as evidence of adherence to ethical guidelines beyond those legally required.",
+   "evidence": "Editorial review of literature on US IACUC structural challenges and reform options; contrasts with EU harm-benefit/alternatives requirements.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "US Institutional Animal Care and Use Committees (governance)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1080/23294515.2022.2123868",
+    "10.3390/ani14060846"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1371/journal.pone.0318570",
+   "claim": "Scoping review of 12 empirical studies of Animal Ethics Committee/IACUC decision-making found deficits in the assessment of the 3Rs and in the weighing of harms and benefits, with process, applicant and committee factors influencing decisions.",
+   "claim_source_sentence": "Qualitative content analysis revealed deficits in the assessment of the 3Rs (Replacement, Reduction or Refinement) or the weighing of harms and benefits.",
+   "evidence": "Scoping review of empirical literature (2012-2024) on AEC/IACUC decision-making (12 studies).",
+   "effect_size": "12 empirical studies (4 quantitative, 5 qualitative, 3 mixed)",
+   "effect_size_source_sentence": "Twelve papers were included in the final results, four of which were quantitative, five qualitative, and three were mixed methods.",
+   "n": 12,
+   "study_system": "Animal ethics committee / IACUC decision-making (scoping review)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s12910-025-01297-z"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1177/00236772241309745",
+   "claim": "Review argues that global harmonisation of animal care and use is weak and proposes performance-based outcome standards (across ethical review/oversight, housing, training, veterinary care, experimental design/reporting and transparency) to improve reproducibility and welfare.",
+   "claim_source_sentence": "In conclusion, the establishment of harmonised performance standards and the promotion of performance-based outcomes hold the potential to significantly improve global animal welfare in research and contribute to scientific advancement.",
+   "evidence": "Review of the state of global harmonisation in animal research and a performance-based standards solution.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Global harmonisation of laboratory-animal governance (review)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1177/00236772231178656",
+   "claim": "A Pan-African expert network from 12 countries produced Africa-centric guidelines with 11 key elements for establishing and running Institutional Animal Ethics Committees, addressing limited ethical/regulatory oversight of animal research across the continent.",
+   "claim_source_sentence": "To strengthen this governance framework, the Pan-African Network for Laboratory Animal Science and Ethics brought together experts from 12 African countries to create an Africa-centric practical guide to facilitate the establishment and appropriate functioning of Institutional Animal Ethics Committees across Africa.",
+   "evidence": "Consensus governance guideline (11 key elements) for African IACUCs.",
+   "effect_size": "experts from 12 countries; 11 key elements",
+   "effect_size_source_sentence": "They focus on 11 key elements, including responsibilities of institutions and of the Institutional Official; composition of the Committee; its responsibilities, functioning and authority; ethical application and review processes; oversight and monitoring of animal care and use and of training and competence; quality assurance; and the roles of other responsible parties.",
+   "n": null,
+   "study_system": "African Institutional Animal Ethics Committees (governance guideline)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1080/23294515.2022.2123868",
+   "claim": "Interview study of 45 IRB/IACUC members and researchers found oversight members often assume prior/funding review affirms scientific merit and some explicitly disclaim scientific review, producing a 'mission lapse' where no body is clearly responsible for ensuring animal (or human) research is scientifically justified.",
+   "claim_source_sentence": "We conclude with a discussion of how the lack of a clear mandate regarding scientific review within US federal regulations may undermine ethical engagement of whether human and animal research is scientifically justified, resulting in a \"mission lapse\" wherein no organizational body is clearly responsible for ensuring that the research being conducted has the potential to advance science and benefit society.",
+   "evidence": "Qualitative interview study (45 interviews) of IRB/IACUC members on scientific review in oversight.",
+   "effect_size": "45 interviews",
+   "effect_size_source_sentence": "We draw upon 45 interviews with IRB and IACUC members and researchers with oversight experience about their perceptions of their own roles in reviewing the quality and value of scientific protocols.",
+   "n": 45,
+   "study_system": "IRB/IACUC research oversight (qualitative interviews, US)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s41073-025-00169-9"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1038/s43856-026-01547-0",
+   "claim": "Analysis of 574 NIH-funded publications (2017-2024) found the Sex as a Biological Variable policy increased sex inclusion (61% include both sexes) but a persistent analysis gap: among both-sex studies 83% reported sample size by sex yet only 44% conducted sex-based analyses.",
+   "claim_source_sentence": "Among studies to include both sexes, 83% report sample sizes by sex, yet only 44% conduct sex-based analyses.",
+   "evidence": "Cross-sectional evaluation of 574 publications linked to grants from 21 NIH Institutes/Centers.",
+   "effect_size": "61% include both sexes; 83% report n by sex; 44% conduct sex-based analyses",
+   "effect_size_source_sentence": "Among studies to include both sexes, 83% report sample sizes by sex, yet only 44% conduct sex-based analyses.",
+   "n": 574,
+   "study_system": "NIH-funded biomedical research (SABV policy uptake)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.7554/eLife.70817",
+    "10.1002/ame2.70182"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1371/journal.pone.0342225",
+   "claim": "A comparison of 11 automated rigor/transparency-checking tools across 9 ScreenIT criteria found that checklists like ARRIVE and CONSORT are not always followed and peer review often misses missing items, and that combining tools outperformed any single tool for several criteria.",
+   "claim_source_sentence": "We have conducted a broad comparison of 11 automated tools across 9 different rigor criteria from the ScreenIT group.",
+   "evidence": "Benchmark comparison of 11 automated rigor-detection tools (ScreenIT) across 9 criteria.",
+   "effect_size": "11 automated tools across 9 rigor criteria",
+   "effect_size_source_sentence": "We have conducted a broad comparison of 11 automated tools across 9 different rigor criteria from the ScreenIT group.",
+   "n": 11,
+   "study_system": "Automated rigor/transparency checking tools (meta-research)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1016/j.isci.2020.101698",
+    "10.2196/37324"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1038/s41684-026-01683-z",
+   "claim": "A six-laboratory preclinical assessment network demonstrated the feasibility of rigorous multi-site preclinical evaluation, enrolling 2,615 rodents across 5 acute ischemic stroke models with centralized packaging, randomization, blinded analysis and data archiving in a multistage multiarm design.",
+   "claim_source_sentence": "This network enrolled 2,615 rodents in 5 different models and implemented a multistage, multiarm statistical design that sequentially eliminated candidate interventions during interim analyses.",
+   "evidence": "Methods paper demonstrating a rigorous six-lab preclinical assessment network (stroke); 9,274 behavioural tasks and 3,652 MRIs blindly analysed.",
+   "effect_size": "6-lab network; 2,615 rodents; 5 models; 9,274 behavioural tasks; 3,652 MRIs",
+   "effect_size_source_sentence": "This network enrolled 2,615 rodents in 5 different models and implemented a multistage, multiarm statistical design that sequentially eliminated candidate interventions during interim analyses.",
+   "n": 2615,
+   "study_system": "Multilaboratory preclinical stroke assessment network (rodents)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1002/ame2.70182",
+   "claim": "Review of sex as a biological variable in nonclinical studies notes converging regulatory expectations (ICH, NIH SABV, SAGER) and highlights that male-only designs are also a 3Rs/Reduction welfare concern because they generate surpluses of unused females in breeding colonies.",
+   "claim_source_sentence": "Sex bias is also an animal welfare concern: male-only strategies can generate surpluses of unused females in breeding colonies, challenging the 3Rs-particularly Reduction-when evaluated at the project or facility level.",
+   "evidence": "Integrative review linking scientific rigor, animal welfare and regulatory expectations for sex-inclusive nonclinical design.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Nonclinical/preclinical sex-as-a-biological-variable (review)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1038/s43856-026-01547-0",
+    "10.5483/bmbrep.2018.51.4.034"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1371/journal.pbio.3003438",
+   "claim": "Analysis of 608 animal subarachnoid-haemorrhage articles found 243 (40.0%) had image-related problems, yet publisher self-correction had largely stalled: only 55 (22.6%) corrected, 19 (7.8%) retracted, and 87.7% of problematic articles had a corresponding author affiliated with an institute in China.",
+   "claim_source_sentence": "We included 608 articles, of which 243 articles were identified as problematic (40.0%).",
+   "evidence": "Image-integrity audit of all animal studies in a systematic review of SAH early brain injury.",
+   "effect_size": "243/608 (40.0%) problematic; 55 (22.6%) corrected; 19 (7.8%) retracted",
+   "effect_size_source_sentence": "We included 608 articles, of which 243 articles were identified as problematic (40.0%).",
+   "n": 608,
+   "study_system": "Animal subarachnoid-haemorrhage studies (image-integrity/governance)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1186/s12874-025-02672-5",
+   "claim": "Analysis of 1,365 registered PROSPERO protocols for systematic reviews of animal studies found only 694 (51%) resulted in a published review (suggesting publication bias), with a median time to publish of 16.2 months and 69% longer to submission than authors anticipated.",
+   "claim_source_sentence": "Among these, 694 (51%) resulted in a published systematic review.",
+   "evidence": "Registry analysis of 1,365 PROSPERO animal-study SR protocols with publication-status search.",
+   "effect_size": "694/1365 (51%) protocols published; median publish time 16.2 months",
+   "effect_size_source_sentence": "Among these, 694 (51%) resulted in a published systematic review.",
+   "n": 1365,
+   "study_system": "Systematic reviews of animal studies (PROSPERO registry)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1371/journal.pbio.2003779",
+   "claim": "The Experimental Design Assistant (EDA) is a web-based NC3Rs tool that guides in vivo researchers through experimental design and analysis, giving automated feedback and a graphical summary to aid communication with funders and regulators and to address causes of irreproducibility.",
+   "claim_source_sentence": "The EDA is a web-based tool that guides the in vivo researcher through the experimental design and analysis process, providing automated feedback on the proposed design and generating a graphical summary that aids communication with colleagues, funders, regulatory authorities, and the wider scientific community.",
+   "evidence": "Introduction of the NC3Rs Experimental Design Assistant (design-support infrastructure).",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "NC3Rs Experimental Design Assistant (design tool/infrastructure)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1136/bmjos-2020-100126"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1136/bmjos-2018-000048",
+   "claim": "Argues the 3Rs are insufficient for ethical animal research because animal welfare alone does not make research ethical without scientific value; proposes adding Robustness, Registration and Reporting (a 6R framework) to safeguard scientific value.",
+   "claim_source_sentence": "However, animal welfare alone does not suffice to make animal research ethical if the research does not have sufficient scientific value.",
+   "evidence": "Conceptual proposal extending the 3Rs to a 6R framework (robustness, registration, reporting).",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Animal-research ethics framework (3Rs/6R, conceptual)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1371/journal.pbio.3001873",
+   "claim": "Qualitative interview study exploring 30 animal experiments found blinding (masking) was rarely implemented in some settings, with significant barriers arising from operational and informatic welfare-management systems that prioritise welfare without enabling masking, and a conflict between individual-animal welfare and delivering a robust experiment.",
+   "claim_source_sentence": "Lack of masking has been shown to correlate with an overestimation of treatment efficacy and false positive findings.",
+   "evidence": "Qualitative interviews across academic and commercial settings exploring 30 experiments and barriers to masking.",
+   "effect_size": "30 experiments explored",
+   "effect_size_source_sentence": "We conducted multiple interviews, to explore 30 different experiments, and found examples of excellent practice but also areas where masking was rarely implemented.",
+   "n": 30,
+   "study_system": "Blinding/masking in in vivo experiments (qualitative)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1530/JOE-22-0330",
+   "claim": "Review on designing, conducting and reporting reproducible animal experiments emphasises open research practices, recommending study preregistration, preprints and data management/sharing alongside internal-validity safeguards to improve reproducibility.",
+   "claim_source_sentence": "We then discuss the importance of open research practices such as study preregistration and the use of preprints and describe recommendations around data management and sharing.",
+   "evidence": "Educational review of reproducibility practices for in vivo experiments (design, conduct, reporting, open research).",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Reproducible animal experimentation (review)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1177/02698811231182607",
+   "claim": "An international working group of 14 distilled 10 key considerations (the iTRIPP guidelines) for planning and reporting behavioural animal studies in preclinical psychopharmacology, intended to complement general reporting guidelines and improve translational relevance.",
+   "claim_source_sentence": "The following paper distils the outcomes of the working group's discussions into 10 key considerations for the planning and reporting of behavioural studies in animal models relevant to psychiatric disorders.",
+   "evidence": "Consensus guideline (iTRIPP) from a 14-member working group for preclinical psychopharmacology.",
+   "effect_size": "10 key considerations (working group of 14)",
+   "effect_size_source_sentence": "The following paper distils the outcomes of the working group's discussions into 10 key considerations for the planning and reporting of behavioural studies in animal models relevant to psychiatric disorders.",
+   "n": null,
+   "study_system": "Preclinical psychopharmacology reporting guideline (iTRIPP)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1136/bmjos-2020-100126",
+   "claim": "Using Experimental Design Assistant case studies, this review shows there is no perfect animal-experiment design and that a harm-benefit analysis is ethically required to justify animal use, with design choices (pseudo-replication, blocking, sex bias, standardisation fallacy) materially affecting the conclusions that can be drawn.",
+   "claim_source_sentence": "Ethically, when working with animals we need to conduct a harm-benefit analysis to ensure the animal use is justified for the scientific gain.",
+   "evidence": "Case-study review of animal-experiment design trade-offs using the EDA graphical summaries.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Animal experimental design (case-study review)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pbio.2003779"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1371/journal.pone.0328065",
+   "claim": "A manual FAIR/openness audit of 555 bioscience papers at one university (2014-2023) found the fraction sharing all relevant data rose significantly from 7% in 2014 to 45% in 2023, with data-availability statements and preprints correlating with more and better data sharing.",
+   "claim_source_sentence": "The fraction of publications that share all relevant data increased significantly, from 7% in 2014 to 45% in 2023.",
+   "evidence": "Manual FAIR/openness scoring of 555 University of Edinburgh bioscience papers, benchmarked against the ODDPub automated tool.",
+   "effect_size": "share all relevant data: 7% (2014) -> 45% (2023)",
+   "effect_size_source_sentence": "The fraction of publications that share all relevant data increased significantly, from 7% in 2014 to 45% in 2023.",
+   "n": 555,
+   "study_system": "University bioscience data-sharing practices (institutional audit)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0194768"
+   ],
+   "text_access": "abstract_only"
+  },
+  {
+   "doi": "10.1073/pnas.1708274114",
+   "claim": "The preregistration revolution argues that defining hypotheses and analysis plans before observing outcomes separates confirmatory from exploratory analysis and improves credibility of findings.",
+   "claim_source_sentence": "Widespread adoption of preregistration will increase distinctiveness between hypothesis generation and hypothesis testing and will improve the credibility of research findings.",
+   "evidence": "Conceptual/methodological article proposing preregistration as governance mechanism across disciplines.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Research methodology (preregistration as reproducibility policy)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1371/journal.pbio.1002456",
+   "claim": "Introduction of open-data/open-materials badges at Psychological Science raised reported open data from under 3% to 39% within about 18 months, an order-of-magnitude increase, with no change in comparison journals.",
+   "claim_source_sentence": "Before badges, less than 3% of Psychological Science articles reported open data.",
+   "evidence": "Interrupted time-series of one journal adopting badges vs comparison journals.",
+   "effect_size": "open-data reporting <3% before badges, 23% after, 39% by first half 2015",
+   "effect_size_source_sentence": "After badges, 23% reported open data, with an accelerating trend; 39% reported open data in the first half of 2015, an increase of more than an order of magnitude from baseline.",
+   "n": null,
+   "study_system": "Psychological Science journal (open-practice badges intervention)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1371/journal.pbio.3000737",
+   "claim": "The Hong Kong Principles propose five principles for assessing researchers so that hiring/promotion incentives reward research-integrity behaviors (responsible practices, transparent reporting, open science).",
+   "claim_source_sentence": "We present five principles: responsible research practices; transparent reporting; open science (open research); valuing a diversity of types of research; and recognizing all contributions to research and scholarly activity.",
+   "evidence": "Consensus framework from the 6th World Conference on Research Integrity.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Research-assessment / integrity governance framework",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1371/journal.pbio.2004089",
+   "claim": "A 22-member expert panel concluded the current faculty incentive/reward system is misaligned with societal needs and disconnected from the causes of the reproducibility crisis, deriving six principles for assessing scientists.",
+   "claim_source_sentence": "A burgeoning number of scientific leaders believe the current system of faculty incentives and rewards is misaligned with the needs of society and disconnected from the evidence about the causes of the reproducibility crisis and suboptimal quality of the scientific publication record.",
+   "evidence": "Expert-panel workshop synthesis of 22 critique documents.",
+   "effect_size": "22-member panel; six principles from 22 key documents",
+   "effect_size_source_sentence": "This resulted in six principles for assessing scientists and associated research and policy implications.",
+   "n": 22,
+   "study_system": "Research-assessment policy (hiring/promotion/tenure)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.7554/elife.67995",
+   "claim": "The Reproducibility Project: Cancer Biology aimed to repeat 193 experiments from 53 papers but the data needed to compute effect sizes was publicly accessible for only 4 of 193 experiments, and authors could not supply data for 68% of experiments.",
+   "claim_source_sentence": "First, many original papers failed to report key descriptive and inferential statistics: the data needed to compute effect sizes and conduct power analyses was publicly accessible for just 4 of 193 experiments.",
+   "evidence": "Meta-research report of barriers encountered in a large preclinical replication project.",
+   "effect_size": "data to compute effect sizes publicly accessible for only 4 of 193 experiments",
+   "effect_size_source_sentence": "First, many original papers failed to report key descriptive and inferential statistics: the data needed to compute effect sizes and conduct power analyses was publicly accessible for just 4 of 193 experiments.",
+   "n": 193,
+   "study_system": "Preclinical cancer biology (replication project)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1186/s41073-020-00092-1",
+   "claim": "A meta-research analysis finds peer review remains poorly understood, with major gaps around editorial accountability, reviewer bias, and the social/epistemic impact of review, calling for shared standards and data infrastructure.",
+   "claim_source_sentence": "We identify core themes including editorial responsibility, the subjectivity and bias of reviewers, the function and quality of peer review, and the social and epistemic implications of peer review.",
+   "evidence": "Conceptual gap analysis of peer-review research.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Peer review as quality-control governance (meta-research)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1136/bmj.g3804",
+   "claim": "A systematic review found only 9 of 101 health-research reporting guidelines had been evaluated for the relation between journal endorsement and completeness of reporting, concluding evidence is insufficient to establish that endorsement improves reporting.",
+   "claim_source_sentence": "Insufficient evidence exists to determine the relation between journals' endorsement of reporting guidelines and the completeness of reporting of published health research reports.",
+   "evidence": "Systematic review of evaluations of reporting-guideline endorsement effects.",
+   "effect_size": "only 9 of 101 guidelines evaluated for endorsement-completeness relation; 26 evaluations identified",
+   "effect_size_source_sentence": "The completeness of reporting of only nine of 101 health research reporting guidelines (excluding CONSORT) has been evaluated in relation to journals' endorsement.",
+   "n": 26,
+   "study_system": "Journal endorsement of reporting guidelines (systematic review)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.2147/jmdh.s43952",
+   "claim": "A systematic scoping review of 50 systematic reviews found 86.0% reported suboptimal adherence to reporting guidelines (CONSORT, PRISMA, STROBE, etc.) despite their widespread availability.",
+   "claim_source_sentence": "Overall, 86.0% of studies reported suboptimal levels of adherence to reporting guidelines.",
+   "evidence": "Scoping review of 50 systematic reviews of guideline adherence.",
+   "effect_size": "86.0% of included reviews reported suboptimal adherence",
+   "effect_size_source_sentence": "Overall, 86.0% of studies reported suboptimal levels of adherence to reporting guidelines.",
+   "n": 50,
+   "study_system": "Reporting-guideline adherence across health-care literature",
+   "replication_status": "replicated",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": [
+    "10.2147/jmdh.s155103"
+   ]
+  },
+  {
+   "doi": "10.1371/journal.pone.0035621",
+   "claim": "A survey of 116 health-research journals found only 41 (35%) posted online instructions to peer reviewers, and of those only 19/41 (46%) mentioned reporting guidelines, usually vaguely rather than with clear usage instructions.",
+   "claim_source_sentence": "Only 41/116 journals (35%) provided online instructions.",
+   "evidence": "Cross-sectional survey of journal instructions to peer reviewers.",
+   "effect_size": "41/116 (35%) had online reviewer instructions; 19/41 (46%) mentioned reporting guidelines",
+   "effect_size_source_sentence": "Almost half of the online instructions 19/41 (46%) mentioned reporting guidelines usually as general statements suggesting they may be useful or asking whether authors had followed them rather than clear instructions about how to use them.",
+   "n": 116,
+   "study_system": "Health-research journals (peer-review instructions on reporting guidelines)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.2147/jmdh.s155103",
+   "claim": "An updated systematic review of reviews (124 studies) found 87.9% reported suboptimal adherence to reporting guidelines, indicating reporting quality remained inadequate 21 years after CONSORT.",
+   "claim_source_sentence": "We found that 87.9% of the included studies reported suboptimal adherence to reporting guidelines.",
+   "evidence": "Systematic review of reviews spanning CONSORT, PRISMA, STROBE, ARRIVE, etc.",
+   "effect_size": "87.9% of included reviews reported suboptimal adherence",
+   "effect_size_source_sentence": "We found that 87.9% of the included studies reported suboptimal adherence to reporting guidelines.",
+   "n": 124,
+   "study_system": "Reporting-guideline adherence (reviews of reviews, 1996-2016)",
+   "replication_status": "replicated",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": [
+    "10.2147/jmdh.s43952"
+   ]
+  },
+  {
+   "doi": "10.1001/jamanetworkopen.2020.33972",
+   "claim": "After ICMJE required data-sharing statements, 68.6% of 487 clinical-trial articles in JAMA/Lancet/NEJM declared data sharing, but rates diverged by funder (NIH-funded 89% vs industry-funded 61%).",
+   "claim_source_sentence": "A total of 334 of 487 articles (68.6%; 95% CI, 64%-73%) declared data sharing, with nonindustry NIH-funded trials exhibiting the highest rates of declared data sharing (89%; 95% CI, 80%-98%) and industry-funded trials the lowest (61%; 95% CI, 54%-68%).",
+   "evidence": "Cross-sectional study of DSS implementation in three ICMJE journals.",
+   "effect_size": "68.6% declared data sharing (NIH-funded 89%, industry 61%)",
+   "effect_size_source_sentence": "A total of 334 of 487 articles (68.6%; 95% CI, 64%-73%) declared data sharing, with nonindustry NIH-funded trials exhibiting the highest rates of declared data sharing (89%; 95% CI, 80%-98%) and industry-funded trials the lowest (61%; 95% CI, 54%-68%).",
+   "n": 487,
+   "study_system": "Clinical trials in JAMA/Lancet/NEJM (ICMJE data-sharing statement)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1177/1745691620979806",
+   "claim": "A manual audit of 250 psychology articles (2014-2017) found transparency practices rare: raw data shared in 2% (4/188), preregistration 3% (5/188), study protocols 0%, and analysis scripts 1%.",
+   "claim_source_sentence": "Over half of the articles were publicly available (154/237, 65%, 95% confidence interval [CI] = [59%, 71%]); however, sharing of research materials (26/183; 14%, 95% CI = [10%, 19%]), study protocols (0/188; 0%, 95% CI = [0%, 1%]), raw data (4/188; 2%, 95% CI = [1%, 4%]), and analysis scripts (1/188; 1%, 95% CI = [0%, 1%]) was rare.",
+   "evidence": "Manual coding of a random sample of psychology articles.",
+   "effect_size": "raw data shared 2% (4/188); preregistration 3% (5/188); protocols 0%",
+   "effect_size_source_sentence": "Over half of the articles were publicly available (154/237, 65%, 95% confidence interval [CI] = [59%, 71%]); however, sharing of research materials (26/183; 14%, 95% CI = [10%, 19%]), study protocols (0/188; 0%, 95% CI = [0%, 1%]), raw data (4/188; 2%, 95% CI = [1%, 4%]), and analysis scripts (1/188; 1%, 95% CI = [0%, 1%]) was rare.",
+   "n": 250,
+   "study_system": "Psychology articles 2014-2017 (transparency prevalence baseline)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1371/journal.pone.0239283",
+   "claim": "A systematic literature review synthesized drivers and inhibitors of open research data sharing/use across 32 studies into eleven categories, arguing incentives must be tailored to discipline-specific barriers.",
+   "claim_source_sentence": "This study's purpose is to systematically review the literature on individual researchers' drivers and inhibitors for sharing and using open research data.",
+   "evidence": "Thematic systematic review of 32 open-data studies (2004-2019).",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": 32,
+   "study_system": "Open research data adoption (systematic literature review)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1371/journal.pbio.3000411",
+   "claim": "The ARRIVE 2.0 explanation-and-elaboration document notes that despite widespread endorsement the impact of the original ARRIVE guidelines on animal-research reporting transparency was limited, prompting revision into 21 items.",
+   "claim_source_sentence": "Despite widespread endorsement by the scientific community, the impact of ARRIVE on the transparency of reporting in animal research publications has been limited.",
+   "evidence": "Guideline companion document for ARRIVE 2.0.",
+   "effect_size": "21 items in ARRIVE 2.0",
+   "effect_size_source_sentence": "It provides further information about each of the 21 items in ARRIVE 2.0, including the rationale and supporting evidence for their inclusion in the guidelines, elaboration of details to report, and examples of good reporting from the published literature.",
+   "n": null,
+   "study_system": "Animal-research reporting guideline (ARRIVE 2.0 E&E)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1371/journal.pone.0005738",
+   "claim": "A meta-analysis of survey data estimated 1.97% of scientists admitted fabricating/falsifying data at least once, and up to 33.7% admitted other questionable research practices.",
+   "claim_source_sentence": "A pooled weighted average of 1.97% (N = 7, 95%CI: 0.86-4.45) of scientists admitted to have fabricated, falsified or modified data or results at least once--a serious form of misconduct by any standard--and up to 33.7% admitted other questionable research practices.",
+   "evidence": "Meta-analysis of 18 misconduct surveys.",
+   "effect_size": "1.97% admitted fabrication/falsification; up to 33.7% admitted other QRPs",
+   "effect_size_source_sentence": "A pooled weighted average of 1.97% (N = 7, 95%CI: 0.86-4.45) of scientists admitted to have fabricated, falsified or modified data or results at least once--a serious form of misconduct by any standard--and up to 33.7% admitted other questionable research practices.",
+   "n": 21,
+   "study_system": "Research-misconduct surveys (meta-analysis)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1073/pnas.1618569114",
+   "claim": "A meta-assessment of bias across disciplines found overall biases relatively small but consistent risks that small, early, and highly-cited studies overestimate effects and non-peer-reviewed studies underestimate them.",
+   "claim_source_sentence": "However, we consistently observed a significant risk of small, early, and highly cited studies to overestimate effects and of studies not published in peer-reviewed journals to underestimate them.",
+   "evidence": "Analysis of a large random sample of meta-analyses across all disciplines.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Meta-analyses across disciplines (bias meta-assessment)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1371/journal.pone.0010271",
+   "claim": "An empirical study found papers were more likely to report positive results when corresponding authors worked in US states with higher per-capita academic productivity, supporting a link between publication pressure and bias.",
+   "claim_source_sentence": "Across all disciplines, papers were more likely to support a tested hypothesis if their corresponding authors were working in states that, according to NSF data, produced more academic papers per capita.",
+   "evidence": "Ecological analysis of positive-result frequency vs state productivity.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "US research output (publish-or-perish and outcome bias)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1371/journal.pone.0230416",
+   "claim": "Analysis of 531,889 PLOS/BMC articles found data-availability statements became near-universal after mandated policies (93.7% PLOS, 88.2% BMC in 2018) but only 20.8%/12.2% actually linked to data in a repository; repository-linked articles had up to 25.36% higher citations.",
+   "claim_source_sentence": "In 2018 93.7% of 21,793 PLOS articles and 88.2% of 31,956 BMC articles had data availability statements.",
+   "evidence": "Automated labelling and citation-regression analysis of DAS.",
+   "effect_size": "DAS present 93.7% PLOS / 88.2% BMC (2018); only 20.8% PLOS / 12.2% BMC linked to repository data",
+   "effect_size_source_sentence": "In 2017 and 2018, 20.8% of PLOS publications and 12.2% of BMC publications provided DAS containing a link to data in a repository.",
+   "n": 531889,
+   "study_system": "PLOS and BMC articles (data-availability statement policy effect)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1136/bmjos-2018-000002",
+   "claim": "The ARRIVE revision position paper states that despite considerable community support, the original 2010 ARRIVE guidelines had limited impact on the quality of animal-research reporting, motivating a tiered revision.",
+   "claim_source_sentence": "Despite considerable levels of support from the scientific community, the impact on the quality of reporting in animal research publications has been limited.",
+   "evidence": "Position paper of the ARRIVE revision working group.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Animal-research reporting guideline (ARRIVE revision rationale)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.12688/f1000research.11334.1",
+   "claim": "A progress review of reproducibility initiatives recalls that Amgen scientists reproduced only 6 of 53 landmark preclinical studies, and evaluates funder/journal/researcher roles in addressing irreproducibility.",
+   "claim_source_sentence": "Since 2012, when scientists from Amgen reported that they were able to reproduce only 6 of 53 \"landmark\" preclinical studies, the biomedical research community began discussing the scale of the reproducibility problem and developing initiatives to address critical challenges.",
+   "evidence": "GBSI review of reproducibility initiatives since 2013.",
+   "effect_size": "6 of 53 landmark preclinical studies reproduced",
+   "effect_size_source_sentence": "Since 2012, when scientists from Amgen reported that they were able to reproduce only 6 of 53 \"landmark\" preclinical studies, the biomedical research community began discussing the scale of the reproducibility problem and developing initiatives to address critical challenges.",
+   "n": 53,
+   "study_system": "Preclinical biomedical reproducibility (initiative landscape review)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1136/bmj.k3218",
+   "claim": "A cohort study of 7274 due trials on the EU Clinical Trials Register found only 49.5% posted results within the required 12 months, with commercial sponsors far more compliant (68.1%) than non-commercial ones (11.0%).",
+   "claim_source_sentence": "Of 7274 trials where results were due, 49.5% (95% confidence interval 48.4% to 50.7%) reported results.",
+   "evidence": "Retrospective cohort study auditing EUCTR results-posting compliance.",
+   "effect_size": "49.5% reported results (commercial 68.1% vs non-commercial 11.0%, adjusted OR 23.2)",
+   "effect_size_source_sentence": "Of 7274 trials where results were due, 49.5% (95% confidence interval 48.4% to 50.7%) reported results.",
+   "n": 7274,
+   "study_system": "EU Clinical Trials Register (results-reporting mandate compliance)",
+   "replication_status": "replicated",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": [
+    "10.1186/s13063-021-05330-5",
+    "10.1136/bmjopen-2023-081343"
+   ]
+  },
+  {
+   "doi": "10.1371/journal.pone.0193088",
+   "claim": "A cross-sectional study of 10,492 trials dual-registered on ClinicalTrials.gov and EUCTR found 16.2% discrepant on completion status, mostly trials completed on ClinicalTrials.gov but still marked ongoing on EUCTR.",
+   "claim_source_sentence": "16.2% were discrepant on completion status.",
+   "evidence": "Cohort of dual-registered trials comparing completion statuses.",
+   "effect_size": "16.2% discrepant on completion status; 33.9% of EUCTR-'ongoing' were 'completed' on ClinicalTrials.gov",
+   "effect_size_source_sentence": "Overall, 33.9% of dual-registered trials described as 'ongoing' on EUCTR were listed as 'completed' on ClinicalTrials.gov.",
+   "n": 10492,
+   "study_system": "Dual-registered clinical trials (registry data-quality/governance)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1186/s12874-023-01840-9",
+   "claim": "A longitudinal meta-research study of 473 ethically approved Swiss clinical trials (2016-2020) found 91% were registered at all but only 69% prospectively registered, with investigator-sponsored prospective registration rising from 59% to 70% over five years.",
+   "claim_source_sentence": "Of 473 included clinical trials, 432 (91%) were registered at all and 326 (69%) were prospectively registered.",
+   "evidence": "Cohort of ethics-approved trials with registry linkage.",
+   "effect_size": "91% registered, 69% prospectively registered",
+   "effect_size_source_sentence": "Of 473 included clinical trials, 432 (91%) were registered at all and 326 (69%) were prospectively registered.",
+   "n": 473,
+   "study_system": "Swiss ethics-approved clinical trials (registration compliance)",
+   "replication_status": "replicated",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": [
+    "10.1371/journal.pmed.1004175"
+   ]
+  },
+  {
+   "doi": "10.1186/s13063-021-05330-5",
+   "claim": "A tracking-tool evaluation of 30 UK universities found that of 1634 due trials on ClinicalTrials.gov only 1.6% (26) had reported results within a year of completion, while 89.8% remained unreported.",
+   "claim_source_sentence": "In October 2020, the universities included in our study were sponsoring 1634 due trials, only 1.6% (n = 26) of which had reported results within a year of completion.",
+   "evidence": "Automated tracker of university trial-reporting performance.",
+   "effect_size": "1.6% (26/1634) reported within a year; 89.8% unreported",
+   "effect_size_source_sentence": "In October 2020, the universities included in our study were sponsoring 1634 due trials, only 1.6% (n = 26) of which had reported results within a year of completion.",
+   "n": 1634,
+   "study_system": "30 UK universities on ClinicalTrials.gov (reporting performance)",
+   "replication_status": "replicated",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": [
+    "10.1136/bmj.k3218"
+   ]
+  },
+  {
+   "doi": "10.1371/journal.pmed.1004175",
+   "claim": "An institutional-dashboard case study of 2,895 trials at 35 German University Medical Centers found prospective registration rose from 33% to 75% on ClinicalTrials.gov, but timely results reporting within 2 years was only 41%.",
+   "claim_source_sentence": "Across all UMCs, prospective registration increased from 33% (n = 58/178) to 75% (n = 144/193) for trials registered in ClinicalTrials.gov and from 0% (n = 0/44) to 79% (n = 19/24) for trials registered in DRKS over the period considered.",
+   "evidence": "Semiautomated cohort assessment with interactive dashboard.",
+   "effect_size": "prospective registration 33% to 75% (ClinicalTrials.gov); timely results reporting 41%",
+   "effect_size_source_sentence": "Across all UMCs, prospective registration increased from 33% (n = 58/178) to 75% (n = 144/193) for trials registered in ClinicalTrials.gov and from 0% (n = 0/44) to 79% (n = 19/24) for trials registered in DRKS over the period considered.",
+   "n": 2895,
+   "study_system": "35 German University Medical Centers (trial-transparency dashboard)",
+   "replication_status": "replicated",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": [
+    "10.1186/s12874-023-01840-9"
+   ]
+  },
+  {
+   "doi": "10.1371/journal.pmed.0050217",
+   "claim": "A review of FDA New Drug Application efficacy trials found 78% (128/164) were published, with trials having favorable primary outcomes far more likely to be published (OR 4.7), and outcomes/conclusions frequently altered between the NDA and the publication.",
+   "claim_source_sentence": "Seventy-eight percent (128/164) of efficacy trials contained in FDA reviews of NDAs were published.",
+   "evidence": "Observational comparison of NDA trial data vs publications.",
+   "effect_size": "78% (128/164) published; favorable-outcome trials OR 4.7 for publication",
+   "effect_size_source_sentence": "In a multivariate model, trials with favorable primary outcomes (OR = 4.7, 95% confidence interval [CI] 1.33-17.1, p = 0.018) and active controls (OR = 3.4, 95% CI 1.02-11.2, p = 0.047) were more likely to be published.",
+   "n": 164,
+   "study_system": "FDA New Drug Application efficacy trials (selective publication)",
+   "replication_status": "replicated",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": [
+    "10.1002/14651858.mr000033.pub3"
+   ]
+  },
+  {
+   "doi": "10.1002/14651858.mr000033.pub3",
+   "claim": "An updated Cochrane methodology review (75 studies) found industry-sponsored drug/device studies more often reported favorable efficacy (RR 1.27) and favorable conclusions (RR 1.34) than non-industry studies, an industry bias not explained by standard risk-of-bias assessment.",
+   "claim_source_sentence": "Industry sponsored studies more often had favorable efficacy results, RR: 1.27 (95% CI: 1.17 to 1.37) (25 papers) (moderate quality evidence), similar harms results RR: 1.37 (95% CI: 0.64 to 2.93) (four papers) (very low quality evidence) and more often favorable conclusions RR: 1.34 (95% CI: 1.19 to 1.51) (29 papers) (low quality evidence) compared with non-industry sponsored studies.",
+   "evidence": "Cochrane systematic review of sponsorship-outcome association.",
+   "effect_size": "favorable efficacy RR 1.27 (1.17-1.37); favorable conclusions RR 1.34 (1.19-1.51)",
+   "effect_size_source_sentence": "Industry sponsored studies more often had favorable efficacy results, RR: 1.27 (95% CI: 1.17 to 1.37) (25 papers) (moderate quality evidence), similar harms results RR: 1.37 (95% CI: 0.64 to 2.93) (four papers) (very low quality evidence) and more often favorable conclusions RR: 1.34 (95% CI: 1.19 to 1.51) (29 papers) (low quality evidence) compared with non-industry sponsored studies.",
+   "n": 75,
+   "study_system": "Industry-sponsored drug/device studies (Cochrane methodology review)",
+   "replication_status": "replicated",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": [
+    "10.1371/journal.pmed.0050217"
+   ]
+  },
+  {
+   "doi": "10.1136/bmjopen-2023-081343",
+   "claim": "A systematic review of mesenchymal stromal cell trials for musculoskeletal disorders found 52 of 100 registry trials neither posted nor published results, only 64% of published trials had registered a protocol, and 16 of 25 showed primary-endpoint discrepancies between registry and publication.",
+   "claim_source_sentence": "Of the 100 registry trials, 52 trials with in total 2 993 participants had neither posted results in the registry nor published results.",
+   "evidence": "Systematic review of registry and published MSC trials.",
+   "effect_size": "52/100 registry trials unreported; 43/67 (64%) published trials registered a protocol",
+   "effect_size_source_sentence": "Forty-three of the 67 published trials (64%) had registered a pretrial protocol.",
+   "n": 124,
+   "study_system": "Mesenchymal stromal cell trials for musculoskeletal disorders (registration/reporting compliance)",
+   "replication_status": "replicated",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": [
+    "10.1136/bmj.k3218"
+   ]
+  },
+  {
+   "doi": "10.1016/j.eclinm.2024.103066",
+   "claim": "A meta-epidemiological study of AI clinical trials found only 101 of 1106 completed registered trials had published results, with researchers preferring rapid journal publication (37.6% within a year) over registry posting (15.8%) and frequent registry-publication discrepancies.",
+   "claim_source_sentence": "The clinical trial registry search identified 3710 trials evaluating the use of AI in clinical settings, of which 1106 trials are completed, yet only 101 trials have published results.",
+   "evidence": "Linkage analysis of AI-trial registrations to publications.",
+   "effect_size": "101 of 1106 completed AI trials published results; 37.6% within one year via articles vs 15.8% via registries",
+   "effect_size_source_sentence": "There were more results in trial registries than in articles, but researchers showed a clear preference for rapid dissemination of results through peer-reviewed articles (37.6% published within one year) over trial registries (15.8%).",
+   "n": 1106,
+   "study_system": "AI clinical trials (registration/results-reporting discrepancies)",
+   "replication_status": "replicated",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0193088"
+   ]
+  },
+  {
+   "doi": "10.1136/bmjopen-2015-008932",
+   "claim": "An analysis of the ICTRP found annual clinical-trial registrations rose from 3294 in 2004 to 23,384 in 2013 after the 2004 ICMJE registration-as-publication-condition policy, a fivefold rise relative to publications, but uneven across regions.",
+   "claim_source_sentence": "The annual number of registered clinical trials increased from 3294 in 2004 to 23,384 in 2013.",
+   "evidence": "Longitudinal analysis of ICTRP registration counts.",
+   "effect_size": "annual registrations rose from 3294 (2004) to 23,384 (2013); fivefold vs publications",
+   "effect_size_source_sentence": "The annual number of registered clinical trials increased from 3294 in 2004 to 23,384 in 2013.",
+   "n": 186523,
+   "study_system": "ICTRP global trial registration (post-ICMJE 2004 policy effect)",
+   "replication_status": "replicated",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": [
+    "10.1186/s12874-023-01840-9"
+   ]
   }
  ],
  "conflicts": [
@@ -1288,6 +2032,38 @@
    "paper_b_claim": "A study analyzing 7,750 biomedical research papers published between 2015 and 2020 found that only 9% of all papers pledged to make their data publicly available, and a mere 3% of the total followed through with this commitment.",
    "nature_of_conflict": "Whether data-availability policies translate into actual data sharing: enforced mandatory data/code-sharing policies with editorial checks achieve near-universal (96.5%) provision, whereas voluntary data-availability-statement regimes yield only 3-7% of authors actually sharing usable data. The disagreement is on policy effectiveness and is explained by enforcement mechanism (mandatory-at-review vs voluntary statement).",
    "resolution_status": "resolved-by-method"
+  },
+  {
+   "paper_a_doi": "10.1371/journal.pone.0328065",
+   "paper_b_doi": "10.1136/bmj-2023-075767",
+   "paper_a_claim": "The fraction of publications that share all relevant data increased significantly, from 7% in 2014 to 45% in 2023.",
+   "paper_b_claim": "Meta-analyses showed a prevalence of declared and actual public data availability of 8% (95% confidence interval 5% to 11%) and 2% (1% to 3%), respectively, between 2016 and 2021.",
+   "nature_of_conflict": "Whether research data sharing is substantially improving. A single-institution manual audit (University of Edinburgh biosciences) finds a strong rise to 45% of papers sharing all relevant data by 2023, whereas a field-wide IPD meta-analysis of medical/health research finds actual public data availability stuck at ~2%. The divergence maps onto scope (one progressive institution vs whole literature) and metric definition ('all relevant data' incl. supplementary/genomic deposits vs verified reusable public availability).",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1016/j.nsa.2025.105527",
+   "paper_b_doi": "10.1186/s41073-025-00169-9",
+   "paper_a_claim": "The organizational premise is that rigorous high-quality research is more likely to produce tangible benefit than poor quality, low rigor research.",
+   "paper_b_claim": "Because of the limitations of the review process, funding institutions and scientific journals should not use Institutional Animal Care and Use Committee approval of submissions as evidence of adherence to ethical guidelines beyond those legally required.",
+   "nature_of_conflict": "Whether ethics-committee/IACUC review can be trusted to safeguard the scientific quality (and hence benefit) of animal research. One proposes a Benefit Assessment Matrix presuming committees can and should assess research rigor/benefit; the other argues US IACUCs structurally lack the expertise and mandate to judge scientific merit, so their approval should not be taken as evidence of ethical adherence. The disagreement is on the feasibility of quality/benefit judgement within existing oversight bodies.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1371/journal.pbio.1002456",
+   "paper_b_doi": "10.2147/jmdh.s155103",
+   "paper_a_claim": "Before badges, less than 3% of Psychological Science articles reported open data.",
+   "paper_b_claim": "We found that 87.9% of the included studies reported suboptimal adherence to reporting guidelines.",
+   "nature_of_conflict": "Efficacy of transparency interventions: an enforced, incentivised journal signal (open-practice badges) produced an order-of-magnitude jump in open-data sharing at one journal, whereas two decades of voluntary reporting-guideline availability left ~88% of the literature with suboptimal adherence - implying guideline existence alone is far weaker than enforced incentives.",
+   "resolution_status": "partially_resolved"
+  },
+  {
+   "paper_a_doi": "10.1136/bmj.g3804",
+   "paper_b_doi": "10.1371/journal.pntd.0004194",
+   "paper_a_claim": "Insufficient evidence exists to determine the relation between journals' endorsement of reporting guidelines and the completeness of reporting of published health research reports.",
+   "paper_b_claim": "Information about ethical statement and 3R's Principles Before ARRIVE guidelines became widely available, approximately 51% of papers on animal models evaluating drugs for Chagas disease included a statement about compliance with local or international guidelines for experimentation with animals.",
+   "nature_of_conflict": "Whether journal endorsement/publication of reporting guidelines improves reporting: a systematic review finds insufficient evidence that endorsement is linked to completeness, while a before/after ARRIVE study finds guideline publication produced no significant improvement (51%->66%, p=0.26) - both undercut the assumption that endorsement drives better reporting but disagree on whether any endorsement-completeness signal exists at all.",
+   "resolution_status": "open"
   }
  ],
  "unreplicated_claims": [
@@ -1342,7 +2118,7 @@
   "claim": "NTS systematic-analysis method can support AWERB scrutiny of licence applications.",
   "why_weak": "Single proof-of-concept applied to one disease domain (respiratory) with no outcome measure of improved oversight or reduced animal use (10.1177/02611929221121076)."
  },
- "papers_reviewed_count": 61,
+ "papers_reviewed_count": 140,
  "evidence_artifact_id": "cluster_08_evidence.json",
  "figure_data": [
   {
@@ -1659,6 +2435,217 @@
     "n_definition_uniform": "false",
     "caveats": [
      "Two entries measure realized data accessibility (share rate) while the materials-science entry measures journal policy strength (7% require sharing) - not directly the same quantity; fields differ (biomedical vs materials science)."
+    ]
+   }
+  },
+  {
+   "comparison_id": "data-sharing-trend-institutional-vs-fieldwide",
+   "comparison_name": "Data-sharing improvement over time: single-institution trend vs field-wide actual availability",
+   "papers": [
+    {
+     "doi": "10.1371/journal.pone.0328065",
+     "metric": "publications sharing all relevant data (2014 vs 2023)",
+     "value": "7% -> 45%",
+     "value_source_sentence": "The fraction of publications that share all relevant data increased significantly, from 7% in 2014 to 45% in 2023.",
+     "ci_or_error": null,
+     "n": 555,
+     "n_analyzed": "555",
+     "n_definition": "research papers manually scored",
+     "study_system": "University of Edinburgh biosciences",
+     "experimental_conditions": "2014 vs 2023, manual FAIR/openness scoring",
+     "method": "manual openness/FAIR scoring",
+     "text_access": "abstract_only",
+     "scope_region": "single institution",
+     "scope_population": "bioscience research papers",
+     "taxonomic_level": "share-all-relevant-data category"
+    },
+    {
+     "doi": "10.1136/bmj-2023-075767",
+     "metric": "actual public data availability (field-wide)",
+     "value": "2%",
+     "value_source_sentence": "Meta-analyses showed a prevalence of declared and actual public data availability of 8% (95% confidence interval 5% to 11%) and 2% (1% to 3%), respectively, between 2016 and 2021.",
+     "ci_or_error": "95% CI 1-3%",
+     "n": 105,
+     "n_analyzed": "2121580",
+     "n_definition": "meta-research studies (articles examined)",
+     "study_system": "Medical & health research",
+     "experimental_conditions": "2016-2021",
+     "method": "IPD meta-analysis of meta-research",
+     "text_access": "abstract_only",
+     "scope_region": "31 specialties",
+     "scope_population": "medical/health primary articles",
+     "taxonomic_level": "verified public availability"
+    },
+    {
+     "doi": "10.1186/s12916-022-02644-2",
+     "metric": "actual public data availability (oncology)",
+     "value": "16% (FAIR <1%)",
+     "value_source_sentence": "However, when data availability was investigated this percentage dropped to 16% (49/306, 95% CI: 12-20%), and then to less than 1% (1/306, 95% CI: 0-2%) when data were checked for compliance with key FAIR principles.",
+     "ci_or_error": "95% CI 12-20%; FAIR 0-2%",
+     "n": 306,
+     "n_analyzed": "306",
+     "n_definition": "oncology articles",
+     "study_system": "Oncology research",
+     "experimental_conditions": "PubMed-indexed 2019",
+     "method": "cross-sectional check + FAIR audit",
+     "text_access": "abstract_only",
+     "scope_region": "oncology literature",
+     "scope_population": "cancer-research articles",
+     "taxonomic_level": "verified public availability + FAIR"
+    }
+   ],
+   "comparison_type": "cross-study conflict",
+   "what_it_reveals": "Optimistic single-institution trends (7%->45% sharing all relevant data) sit against field-wide audits showing actual reusable/public data availability of only ~2-16% (and <1% FAIR-compliant), showing that measured improvement depends heavily on scope and on how 'shared data' is defined.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "false",
+    "n_definition_uniform": "false",
+    "caveats": [
+     "Edinburgh entry is single-institution manual scoring of 'all relevant data shared' (incl. supplementary/genomic); the other two are field-wide verified public availability.",
+     "Time windows differ (2014-2023 vs 2016-2021 vs 2019).",
+     "FAIR-compliance sub-metric available only for the oncology study."
+    ]
+   }
+  },
+  {
+   "comparison_id": "clinical-trial-results-reporting-compliance",
+   "comparison_name": "Results-reporting / publication compliance for registered trials under mandates",
+   "papers": [
+    {
+     "doi": "10.1136/bmj.k3218",
+     "metric": "trials posting results within required window (EUCTR)",
+     "value": "49.5%",
+     "value_source_sentence": "Of 7274 trials where results were due, 49.5% (95% confidence interval 48.4% to 50.7%) reported results.",
+     "ci_or_error": "95% CI 48.4-50.7%",
+     "n": 7274,
+     "n_analyzed": "7274",
+     "n_definition": "due trials",
+     "study_system": "EU Clinical Trials Register",
+     "experimental_conditions": "results due by Dec 2016",
+     "method": "registry audit",
+     "text_access": "abstract_only",
+     "scope_region": "EU trials register",
+     "scope_population": "all due trials",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1186/s13063-021-05330-5",
+     "metric": "trials reporting results within one year of completion (UK universities)",
+     "value": "1.6%",
+     "value_source_sentence": "In October 2020, the universities included in our study were sponsoring 1634 due trials, only 1.6% (n = 26) of which had reported results within a year of completion.",
+     "ci_or_error": null,
+     "n": 1634,
+     "n_analyzed": "1634",
+     "n_definition": "due trials",
+     "study_system": "30 UK universities on ClinicalTrials.gov",
+     "experimental_conditions": "as of Oct 2020",
+     "method": "tracker audit",
+     "text_access": "abstract_only",
+     "scope_region": "UK university sponsors",
+     "scope_population": "due academic trials",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1016/j.eclinm.2024.103066",
+     "metric": "completed AI trials with published results",
+     "value": "101 of 1106 (9.1%)",
+     "value_source_sentence": "The clinical trial registry search identified 3710 trials evaluating the use of AI in clinical settings, of which 1106 trials are completed, yet only 101 trials have published results.",
+     "ci_or_error": null,
+     "n": 1106,
+     "n_analyzed": "1106",
+     "n_definition": "completed trials",
+     "study_system": "AI clinical trials",
+     "experimental_conditions": "registered before Dec 2023",
+     "method": "registry-publication linkage",
+     "text_access": "abstract_only",
+     "scope_region": "AI-in-healthcare trials",
+     "scope_population": "completed registered trials",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1136/bmjopen-2023-081343",
+     "metric": "registry trials with NO posted or published results",
+     "value": "52 of 100 (52%)",
+     "value_source_sentence": "Of the 100 registry trials, 52 trials with in total 2 993 participants had neither posted results in the registry nor published results.",
+     "ci_or_error": null,
+     "n": 100,
+     "n_analyzed": "100",
+     "n_definition": "registry trials",
+     "study_system": "Mesenchymal stromal cell trials (musculoskeletal)",
+     "experimental_conditions": "completed before Jan 2021",
+     "method": "systematic review",
+     "text_access": "abstract_only",
+     "scope_region": "MSC musculoskeletal trials",
+     "scope_population": "registry trials",
+     "taxonomic_level": "broad category"
+    }
+   ],
+   "comparison_type": "cross-study conflict",
+   "what_it_reveals": "Across independent audits, results-reporting/publication compliance for registered trials ranges enormously (1.6%-49.5% reporting; ~48-91% unreported), and is systematically worse for academic/non-commercial sponsors, showing registration/reporting mandates are widely unmet - but the metrics are not directly comparable (different denominators, windows, and definitions of 'reported').",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "true",
+    "n_definition_uniform": "false",
+    "caveats": [
+     "Denominators differ: EUCTR 'due trials' vs UK 'due trials within 1 year' vs AI 'completed trials' vs MSC 'registry trials'.",
+     "Two entries report share reporting (49.5%, 1.6%) while two report share NOT reporting (9.1% published; 52% unreported) - direction must be aligned when plotting.",
+     "Time windows and fields differ (EU-wide vs UK universities vs AI vs MSC)."
+    ]
+   }
+  },
+  {
+   "comparison_id": "reporting-guideline-adherence-suboptimal-reviews",
+   "comparison_name": "Share of reviews finding suboptimal adherence to reporting guidelines",
+   "papers": [
+    {
+     "doi": "10.2147/jmdh.s43952",
+     "metric": "included reviews reporting suboptimal adherence",
+     "value": "86.0%",
+     "value_source_sentence": "Overall, 86.0% of studies reported suboptimal levels of adherence to reporting guidelines.",
+     "ci_or_error": null,
+     "n": 50,
+     "n_analyzed": "50",
+     "n_definition": "systematic reviews included",
+     "study_system": "health-care literature (2013 scoping review)",
+     "experimental_conditions": "1996-2012",
+     "method": "scoping review of reviews",
+     "text_access": "abstract_only",
+     "scope_region": "health-care literature",
+     "scope_population": "guideline-adherence reviews",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.2147/jmdh.s155103",
+     "metric": "included reviews reporting suboptimal adherence",
+     "value": "87.9%",
+     "value_source_sentence": "We found that 87.9% of the included studies reported suboptimal adherence to reporting guidelines.",
+     "ci_or_error": null,
+     "n": 124,
+     "n_analyzed": "124",
+     "n_definition": "reviews included",
+     "study_system": "medical literature (2018 update)",
+     "experimental_conditions": "1996-2016",
+     "method": "systematic review of reviews",
+     "text_access": "abstract_only",
+     "scope_region": "medical literature",
+     "scope_population": "guideline-adherence reviews",
+     "taxonomic_level": "broad category"
+    }
+   ],
+   "comparison_type": "convergent evidence",
+   "what_it_reveals": "Two independent reviews of reviews, five years apart, converge on ~86-88% of studies showing suboptimal adherence to reporting guidelines, indicating the reporting-quality gap persisted despite two decades of guideline availability.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "true",
+    "taxonomic_level_uniform": "true",
+    "n_definition_uniform": "true",
+    "caveats": [
+     "Overlapping but not identical guideline sets and time windows (2012 vs 2016 cutoff); the later review adds ARRIVE and CHEERS."
     ]
    }
   }

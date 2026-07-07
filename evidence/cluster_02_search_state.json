@@ -31,14 +31,20 @@
     "pubmed:moral status sentience animal research (epistemic objection, brain organoid)",
     "pubmed:welfare assessment score sheet refinement humane endpoint (cholestasis, transgenic protocols)",
     "pubmed:compassion fatigue euthanasia laboratory animal personnel (COVID, US Army, ProQOL, German LAPs)",
-    "pubmed:retrospective actual severity assessment classification (FELASA/ECLAM/ESLAV report)"
+    "pubmed:retrospective actual severity assessment classification (FELASA/ECLAM/ESLAV report)",
+    "epmc:humane killing/euthanasia CO2 alternatives (rodent killing review, hypobaric hypoxia mice, CO2 attitudes n=592, Newcastle Good Death, isoflurane/sevoflurane, Swiss symposium, Rat Grimace euthanasia)",
+    "epmc:social contract/moral status animals (Beyond Anthropocentrism 3Rs, Rawls & animal moral personality, UK Named Vet Surgeons openness)",
+    "epmc:3Rs education/training & culture of care (Implementing CoC Germany n=503, medical grad awareness n=288, FELASA experimental design teaching, HBA decision-tools scoping review, 4R ethnopharmacology, ECR culture of care, vet-student compassion)",
+    "epmc:reduction/research-integrity (image-related problems SAH animal studies n=608)",
+    "epmc:pain/analgesia recognition (IACUC ethics of uncertainty analgesia rodents)",
+    "epmc:genetically modified/transgenic welfare burden & severity (immunodeficient mouse severity, GA harm-assessment guideline, evidence-based comparative severity mice, facility-manager 6Rs)",
+    "epmc:non-human primate ethics/necessity (PWIN macaque welfare 5784 EU primates, NHP behavioural-management survey 49 facilities/50842, Beauchamp-DeGrazia principles, 13-country NHP framework, neurogenesis primate vs rodent)"
   ],
   "passes_remaining": [
-    "openalex:culture of care / 3Rs reproducibility forward+backward citation expansion",
-    "snowball_round_2:backward refs on new fulltext seeds (ENEURO EE variation; ALTEX MPS)",
-    "pubmed:humane killing / euthanasia method refinement (CO2 alternatives)",
-    "pubmed:severity classification actual vs prospective divergence retrospective cohorts",
-    "epmc:moral contract / social contract animal research (deeper ethics)"
+    "snowball_round_2:OpenAlex forward-cites on euthanasia/culture-of-care seeds (deferred — frame budget reached)",
+    "epmc:severity classification actual vs prospective divergence retrospective cohorts (deeper)",
+    "pubmed:zebrafish/aquatic & non-mammalian model welfare and 3Rs",
+    "pubmed:reduction via systematic review / preclinical evidence synthesis and duplication"
   ],
   "snowball_seeds_used": [
     "10.1371/journal.pone.0260114",
@@ -46,7 +52,7 @@
   ],
   "seen_dois_artifact_id": "cluster_02_seen_dois.txt",
   "saturation_log_artifact_id": "cluster_02_saturation_log.json",
-  "papers_so_far": 83,
+  "papers_so_far": 111,
   "evidence_artifact_id": "cluster_02_evidence.json",
   "exit_reason": "frame_budget_reached"
 }

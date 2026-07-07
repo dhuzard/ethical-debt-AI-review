@@ -102,8 +102,80 @@
       "new_unique_rate": 0.8,
       "cumulative_unique": 67,
       "cumulative_screened_in": 67
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:tumor-on-chip cancer model predictivity",
+      "records_examined": 12,
+      "new_unique_relevant": 5,
+      "new_unique_rate": 0.42,
+      "cumulative_unique": 72,
+      "cumulative_screened_in": 72
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:gut-on-chip / intestinal organoid absorption",
+      "records_examined": 4,
+      "new_unique_relevant": 3,
+      "new_unique_rate": 0.75,
+      "cumulative_unique": 75,
+      "cumulative_screened_in": 75
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:cardiotoxicity human iPSC cardiomyocyte screening",
+      "records_examined": 6,
+      "new_unique_relevant": 6,
+      "new_unique_rate": 1.0,
+      "cumulative_unique": 81,
+      "cumulative_screened_in": 81
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:developmental toxicity in vitro battery + DNT",
+      "records_examined": 6,
+      "new_unique_relevant": 6,
+      "new_unique_rate": 1.0,
+      "cumulative_unique": 87,
+      "cumulative_screened_in": 87
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:ToxCast Tox21 HTS bioactivity + exposure NAM + QSAR",
+      "records_examined": 6,
+      "new_unique_relevant": 5,
+      "new_unique_rate": 0.83,
+      "cumulative_unique": 92,
+      "cumulative_screened_in": 92
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:liver-on-chip / gut-liver-on-chip hepatotoxicity",
+      "records_examined": 3,
+      "new_unique_relevant": 2,
+      "new_unique_rate": 0.67,
+      "cumulative_unique": 94,
+      "cumulative_screened_in": 94
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:NAM FAIR data reusability (AOP roadmap)",
+      "records_examined": 1,
+      "new_unique_relevant": 1,
+      "new_unique_rate": 1.0,
+      "cumulative_unique": 95,
+      "cumulative_screened_in": 95
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:kidney proximal tubule chip nephrotoxicity",
+      "records_examined": 2,
+      "new_unique_relevant": 2,
+      "new_unique_rate": 1.0,
+      "cumulative_unique": 97,
+      "cumulative_screened_in": 97
     }
   ],
   "saturation_reached": false,
-  "note": "Continuation frame (light). Added 28 new unique-DOI findings (AOP/ToxCast HTS, IVIVE/PBPK, skin-sensitisation defined approaches, zebrafish embryo alternatives, MPS regulatory qualification). New-unique rate remained high (>=0.7); saturation NOT reached; hard floor 200 not yet met."
+  "note": "Continuation frame 2 (light). Added 29 new unique-DOI findings across tumor/gut/liver/kidney-on-chip, iPSC cardiotoxicity, DNT/reproductive in vitro batteries, ToxCast/Tox21 HTS + exposure NAMs + QSAR (CoMPARA), and FAIR AOP data stewardship. New-unique rate stayed high; saturation NOT reached; hard floor 200 not yet met. Cumulative unique findings now 119."
 }

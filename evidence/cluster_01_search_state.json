@@ -60,7 +60,21 @@
     "reproducibility genetic association studies obesity non-replication (Li & Meyre)",
     "3D liver spheroid NAMs new approach methodologies DILI drug attrition alternatives",
     "scientific rigor recommendations RIGOR STAIR STEPS translational (Lapchak)",
-    "preclinical systematic review CCR5 antagonists stroke SYRCLE STAIR (Sharif/Lalu)"
+    "preclinical systematic review CCR5 antagonists stroke SYRCLE STAIR (Sharif/Lalu)",
+    "cage effects microbiome batch variation reproducibility rodent (Feng/Guryanova JoVE, Allaband/Zarrinpar Nat Metab time-of-sampling)",
+    "clinical development success rates drug approval phase transition (Schuhmacher drudis, DiMasi MJT, gastric COC, lymphoma bloodadv, pediatric-oncology pone.0234911, biopharm cost mAbs, antibodies-to-watch 2024)",
+    "systematic review risk of bias preclinical animal meta-analysis CAMARADES (anthracycline cardiomyopathy, IL-1RA stroke McCann, Fructus Psoraleae osteoporosis, exercise-seizure, mitotherapy AD/PD, biomaterial stroke, gene-therapy SCI)",
+    "Estimating reproducibility psychological science Open Science Collaboration (Nosek aac4716, Gilbert aad7243 comment, Ingre-Nilsonne rsos, Boschen pone.0283353, Fitzpatrick simulation-cost)",
+    "Llovera[Author] preclinical randomized controlled multicentre stroke anti-CD49d (scitranslmed.aaa9853, Dirnagl pRCT resolved)",
+    "diabetic wound MSC extracellular vesicles preclinical SYRCLE meta-analysis (Yue fendo, Bailey/Lalu s12015)",
+    "antibody validation reproducibility reagents (Pillai-Kastoori WB jbc, Sfanos/De Marzo IHC ajur >3.8M research-grade, Venkataraman/Blackshaw PCRP nmeth 1406 mAbs)",
+    "animal model external validity systematic review preclinical translation (Henderson pmed.1001489, Rongen/Wever ejphar, Ferreira FIMD ani10071199, ALS-neuroimaging fvets, WEB-device s00701, PDX-colorectal oncotarget, meniscus ten.TEC, MSC-KOA joca)",
+    "negative results non-publication bias animal experiments reporting (ter Riet 0043404 seen)",
+    "reproducibility mouse strain genetic background variation phenotype (Know-thy-mouse tig, naive-PSC stem, mutant-mice gbb.12364, Mouse-Phenome-DB pone.0288209, ecosystem-cancer dmm.049795)",
+    "reproducibility gut microbiome diet environment rodent experiments (bedding JAALAS, chow-timing s41684)",
+    "target validation reproducibility drug discovery preclinical rigor (AD best-practices alzrt90, MODEL-AD trc2.12038)",
+    "meta-analysis heterogeneity neuroprotection stroke efficacy animal quality (metformin fphar.2022, electroacupuncture NRR, IA-SCI fneur.2020.588479, creatine-PD 1871527315, IPC pone.0142021, renal-IPoC pone.0150863, sunitinib eLife.08351)",
+    "Camerer 2018 social-science replication Nature Human Behaviour (RESOLVED: 10.1038/s41562-018-0399-z already in findings via Europe PMC title search)"
   ],
   "passes_completed": [
     "pubmed:reproducibility_crisis_preclinical",
@@ -92,14 +106,25 @@
     "pubmed:sex_as_biological_variable_male_bias (Beery-Zucker neubiorev, Woitowich eLife56344, Brandner morphine, Plevkova cough)",
     "pubmed:misconduct_and_contradiction_landmarks (Fanelli pone.0005738, Ioannidis jama.294.2.218, Tatsioni jama.298.21.2517, Macleod pbio.1002273, Greenberg bmj.b2680, Contopoulos-Ioannidis Am-J-Med)",
     "pubmed:preclinical_meta_analyses_risk_of_bias (PUFA-SCI plefa, resveratrol fphar.2021, baicalein phymed, forced-swim FBP, depression-models pharmaceutics, UCB stcltm, CCR5 eLife.103245)",
-    "pubmed:genetics_reproducibility_and_NAMs (O'Sullivan srep, Li-Meyre ijo, DILI-NAMs taap, Lapchak RIGOR-STAIR)"
+    "pubmed:genetics_reproducibility_and_NAMs (O'Sullivan srep, Li-Meyre ijo, DILI-NAMs taap, Lapchak RIGOR-STAIR)",
+    "pubmed:cage_effects_microbiome_batch_variation (Feng/Guryanova AOM-DSS 10.3791/68351, Allaband/Zarrinpar 10.1038/s42255-024-01064-1)",
+    "pubmed:clinical_development_success_rates_drug_attrition (Schuhmacher drudis, DiMasi MJT, gastric COC, lymphoma bloodadv, pediatric pone.0234911, biopharm-cost mAbs, antibodies-to-watch-2024)",
+    "pubmed:CAMARADES_SYRCLE_preclinical_meta_analyses (anthracycline-cardiomyopathy scd, IL-1RA-stroke s12975, osteoporosis-Fructus-Psoraleae, exercise-seizure fneur, mitotherapy-AD-PD, biomaterial-stroke fneur, gene-therapy-SCI)",
+    "pubmed:Open_Science_Collaboration_psychology_replication (aac4716 + Gilbert aad7243 CONFLICT, Ingre-Nilsonne rsos181190, Boschen pone.0283353, Fitzpatrick s11538 cost-range)",
+    "pubmed:multicentre_confirmatory_preclinical_trials (RESOLVED: Llovera/Dirnagl anti-CD49d pRCT 10.1126/scitranslmed.aaa9853)",
+    "pubmed:diabetic_wound_MSC_EV_preclinical_SR (Yue fendo 10.3389/fendo.2024.1375632, Bailey/Lalu 10.1007/s12015-021-10164-4)",
+    "pubmed:antibody_reagent_validation_reproducibility (jbc WB, ajur IHC, nmeth PCRP)",
+    "pubmed:external_validity_systematic_reviews (pmed.1001489, ejphar.2015, ani10071199, fvets.2023.1135282, s00701-2023, oncotarget.11184, ten.TEC.2017.0080, joca.2018.01.010)",
+    "pubmed:mouse_genetic_background_and_environment_reproducibility (tig.2006, stem.2020.07.019, gbb.12364, pone.0288209, dmm.049795, JAALAS-bedding, s41684-chow-timing)",
+    "pubmed:target_validation_and_AD_translation (alzrt90, trc2.12038)",
+    "pubmed:neuroprotection_preclinical_meta_analyses_quality (fphar.2022.1009169 metformin, NRR electroacupuncture, fneur.2020.588479 IA-SCI, 1871527315 creatine-PD, pone.0142021 IPC, pone.0150863 renal-IPoC, eLife.08351 sunitinib)",
+    "epmc:Camerer_social_science_replication (RESOLVED: matched to 10.1038/s41562-018-0399-z already in findings)"
   ],
   "passes_remaining": [
-    "snowball_round_3 (OpenAlex forward on Button nrn3475, Sena pbio.1000344, Macleod pbio.1002273; skipped this frame to conserve budget)",
-    "pubmed:multicentre_confirmatory_preclinical_trials (Llovera/Dirnagl pRCT; not yet resolved to DOI)",
-    "pubmed:cage_effects_microbiome_batch_variation_reproducibility",
-    "epmc:Camerer_economics_replication (10.1126/science.aaf0918 verbatim abstract sentence still pending)",
-    "resolve_verbatim:Baker_2016_Nature_533452a (paywalled news; needs a non-paywalled full-text source)"
+    "snowball_round_3 (OpenAlex forward on Button nrn3475, Sena pbio.1000344, Macleod pbio.1002273; still deferred to conserve budget / avoid 429)",
+    "resolve_verbatim:Baker_2016_Nature_533452a (paywalled news; still needs a non-paywalled full-text source for a verbatim sentence)",
+    "pubmed:additional_disease-area_preclinical_meta_analyses (sepsis, TBI, spinal-cord-injury drug meta-analyses not yet exhausted)",
+    "pubmed:organ-on-chip / NAM validation reproducibility (MPS biomicrofluidics 10.1063/5.0179444 identified but deferred)"
   ],
   "snowball_seeds_used": [
     "10.1371/journal.pbio.1002165",
@@ -107,6 +132,6 @@
     "10.7554/eLife.71601",
     "10.1371/journal.pmed.0020124"
   ],
-  "unique_dois_count": 84,
+  "unique_dois_count": 135,
   "exit_reason": "frame_budget_reached"
 }
