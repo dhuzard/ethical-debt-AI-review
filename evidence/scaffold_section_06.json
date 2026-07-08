@@ -1,0 +1,226 @@
+{
+ "section_id": "section_06",
+ "section_plan": {
+  "id": "section_06",
+  "title": "New Approach Methodologies and the Data They Generate",
+  "canonical_label": "sec-nams-data",
+  "clusters": [
+   "cluster_06"
+  ],
+  "thesis": "New Approach Methodologies (NAMs) - in silico models, organoids, organ-on-chip, high-throughput screening - reach usable, sometimes high predictivity for narrow, well-defined endpoints and can displace specific animal tests. But regulatory readiness is contested, readouts are variable, and NAMs generate large, heterogeneous datasets that will re-create the ethical/scientific debt unless they are stewarded to FAIR standards from the outset.",
+  "key_evidence": [
+   "Mehta2025",
+   "Song2024",
+   "Hong2022",
+   "Tao2021",
+   "Comess2020",
+   "Yao2025",
+   "Bishop2023",
+   "Sunildutt2023",
+   "Yu2024",
+   "Inau2023"
+  ],
+  "conflicts_to_present": [
+   {
+    "a_key": "Carmichael2022",
+    "b_key": "Holmer2025",
+    "nature": "Regulatory readiness of NAMs: proponents assert NAMs are already fit to assure chemical safety in defined settings, whereas an EU endocrine-disruptor review documents continued dependence on animal data to identify adversity - readiness claimed versus readiness demonstrated."
+   },
+   {
+    "a_key": "Hartung2025a",
+    "b_key": "Marx2020",
+    "nature": "Transformative promise versus adoption reality for microphysiological systems: one frames MPS as already revolutionising drug development and reducing animal use, while an expert workshop notes MPS have not been widely adopted by industry nor reached regulated drug authorisation."
+   },
+   {
+    "a_key": "Kato2022",
+    "b_key": "Kopec2021",
+    "nature": "Reproducibility of MPS readouts: an independent robustness study of a liver MPS finds appreciable within- and between-study variability that undercuts high-throughput utility, whereas MPS advocates present the platforms as standardized and predictive - the same reproducibility problem that afflicts animal models."
+   }
+  ],
+  "connection_prev": "sec-virtual-controls reduced animal use by reusing animal data; this section covers the Replacement route - non-animal methods - and shows that Replacement does not escape the data problem but relocates it to high-dimensional NAM outputs.",
+  "connection_next": "NAM data, VCG data, and FAIR data all fail to be stewarded for the same underlying reason; sec-incentives exposes that reason as the reward system of research, which prices data stewardship at essentially zero.",
+  "cross_references": [
+   "sec-fair-preclinical",
+   "sec-virtual-controls",
+   "sec-incentives",
+   "sec-conclusion"
+  ],
+  "word_count_target": 4000,
+  "figures": [
+   "fig:sec06-nam-vs-invivo",
+   "fig:sec06-in-silico-performance",
+   "fig:sec06-nam-data-scale"
+  ]
+ },
+ "previous_section": "sec-virtual-controls reduced animal use by reusing animal data; this section covers the Replacement route - non-animal methods - and shows that Replacement does not escape the data problem but relocates it to high-dimensional NAM outputs.",
+ "next_section": "NAM data, VCG data, and FAIR data all fail to be stewarded for the same underlying reason; sec-incentives exposes that reason as the reward system of research, which prices data stewardship at essentially zero.",
+ "figure_specs": [
+  {
+   "label": "fig:sec06-nam-vs-invivo",
+   "type": "cross-study comparison",
+   "section": "section_06",
+   "argument_supported": "Shows NAM assays reach usable-to-high predictivity against in vivo/consensus references for defined endpoints, but each study uses a different endpoint - performance is real yet fragmented.",
+   "data_source": "nam-predictive-performance-vs-invivo",
+   "what_it_reveals": "Plotting sensitivity and specificity for five NAM assay types together reveals both that predictivity is respectable and that the endpoints are non-comparable, which is exactly why FAIR standardisation of NAM data matters.",
+   "caption_draft": "Figure 15. Predictive performance of NAM assays against in vivo or consensus references. Reconstructed-skin genotoxicity (77%/88%, Pfuhler2020), reporter genotoxicity (84.4%/91.2%, Hendriks2024), skin sensitisation (85.0%/68.2%, Corvaro2024), hepatotoxicity spheroids (86%/100%, Sirenko2016), and HTS-based modelling (balanced accuracy 0.55-0.88, Filer2022) show moderate-to-high, endpoint-specific predictivity. Sensitivity and specificity are shown as paired markers; the heterogeneity of endpoints is flagged in the axis notes."
+  },
+  {
+   "label": "fig:sec06-in-silico-performance",
+   "type": "cross-study comparison",
+   "section": "section_06",
+   "argument_supported": "Shows in silico/QSAR NAMs reach high accuracy for narrow endpoints, supporting their use for targeted Replacement while underscoring endpoint fragmentation.",
+   "data_source": "in-silico-predictive-performance",
+   "what_it_reveals": "A common accuracy axis across three distinct in silico endpoints makes the 'high but narrow' pattern legible and motivates the call for standardised, FAIR NAM outputs that could be pooled.",
+   "caption_draft": "Figure 16. Predictive accuracy of in silico/QSAR NAMs across endpoints. Derek Nexus phototoxicity (77%, Ahuja2024), a QSAR pregnancy-category model (94.11% external accuracy, KelleciCelik2022), and interspecies aquatic QSAR-ICE models (>75% cross-validation success, Hong2022) demonstrate usable predictivity for well-defined endpoints. Different endpoints and metrics are labelled per bar; a common 100% reference line is shown."
+  },
+  {
+   "label": "fig:sec06-nam-data-scale",
+   "type": "data summary",
+   "section": "section_06",
+   "argument_supported": "Establishes that NAMs generate large, heterogeneous datasets, so Replacement relocates rather than removes the stewardship debt - the same reuse failure will recur unless NAM data are made FAIR.",
+   "data_source": "nam-fair-data-resource-scale",
+   "what_it_reveals": "Summarising the scale of curated NAM resources (100,000+ substances; 2,000+ nanomaterials) makes concrete that a new data-welfare debt is being created in non-animal research right now.",
+   "caption_draft": "Figure 17. Scale of curated NAM/chemical data resources built for reuse. FAIR-oriented resources aggregate >100,000 substances (MohammedTaha2022), >2,000 nanomaterials (Afantitis2020), and 25 meta-analysed proteomic datasets (Bahl2023). NAMs replace animals but generate high-dimensional data that will incur a new ethical and scientific debt unless stewarded to FAIR standards. A log scale is used; exact counts are labelled."
+  }
+ ],
+ "figure_style_guide": {
+  "color_palette": {
+   "declared_nominal": {
+    "hex": "#56B4E9",
+    "meaning": "Declared / stated / nominal values (data-availability statements, DMP compliance, pledged sharing)"
+   },
+   "actual_verified": {
+    "hex": "#0072B2",
+    "meaning": "Actual / verified / usable values (data truly available, FAIR-compliant)"
+   },
+   "debt_loss_negative": {
+    "hex": "#D55E00",
+    "meaning": "Data waste, bias inflation, loss, non-reproducibility - the debt"
+   },
+   "repayment_gain_positive": {
+    "hex": "#009E73",
+    "meaning": "Reduction achieved, reuse, gain, repayment mechanisms"
+   },
+   "highlight_conflict": {
+    "hex": "#E69F00",
+    "meaning": "Conflicting/divergent estimates or the highlighted disputed value in a cross-study conflict"
+   },
+   "secondary_category": {
+    "hex": "#CC79A7",
+    "meaning": "Secondary category (e.g., non-animal/NAM series, or a third comparator group)"
+   },
+   "emphasis": {
+    "hex": "#F0E442",
+    "meaning": "Callout/emphasis fill for a single focal bar or annotation band (use sparingly, always with a text label)"
+   },
+   "neutral_baseline": {
+    "hex": "#999999",
+    "meaning": "Baseline, reference line, or context/other studies not in focus"
+   },
+   "ink": {
+    "hex": "#222222",
+    "meaning": "Text, axes, and primary rules"
+   }
+  },
+  "category_colors": {
+   "declared_vs_actual": {
+    "declared": "#56B4E9",
+    "actual": "#0072B2",
+    "fair_compliant": "#004C6D"
+   },
+   "debt_vs_repayment": {
+    "debt": "#D55E00",
+    "repayment": "#009E73"
+   },
+   "before_vs_after": {
+    "before": "#999999",
+    "after": "#0072B2"
+   },
+   "animal_vs_nonanimal": {
+    "animal_data": "#0072B2",
+    "nam_nonanimal": "#CC79A7"
+   },
+   "convergent_vs_conflict": {
+    "convergent_series": "#0072B2",
+    "conflict_low": "#56B4E9",
+    "conflict_high": "#E69F00"
+   }
+  },
+  "font": {
+   "family": "Source Sans Pro (fallback: Arial, Helvetica, sans-serif)",
+   "title_pt": 12,
+   "axis_label_pt": 10,
+   "tick_pt": 9,
+   "annotation_pt": 8.5,
+   "caption_pt": 9
+  },
+  "line_weights": {
+   "axis_pt": 1.0,
+   "data_line_pt": 2.0,
+   "error_bar_pt": 1.0,
+   "reference_line_pt": 0.75,
+   "reference_line_style": "dashed",
+   "bar_edge_pt": 0.5
+  },
+  "dpi": 300,
+  "background": "white",
+  "redundant_cues": true,
+  "redundant_cues_note": "Never encode meaning by hue alone. Pair every colour with a second channel: hatch/pattern fills for declared vs actual (open hatch vs solid), distinct markers (circle/triangle/square) on forest and line plots, direct value labels on every bar, and short text annotations naming the focal contrast. Palette is the Okabe-Ito colourblind-safe set; verify with a deuteranopia/protanopia simulation before export."
+ },
+ "cross_cutting_elements": {
+  "recurring_themes": [
+   "The declared-versus-actual gap: across FAIR audits, incentive studies and governance evaluations, stated intent (data-availability statements, DMP compliance, sharing pledges) vastly exceeds usable reality; recurs in sec-fair-preclinical, sec-incentives and sec-governance.",
+   "Convergence on ~2% actual data availability as the empirical anchor of the whole review, replicated across specialties and methods.",
+   "Reuse as Reduction: reusing existing data (historical/virtual controls, shared datasets, NAM outputs) is framed throughout as a direct 3Rs Reduction dividend, not merely good data hygiene.",
+   "False-consensus risk: several field-defining figures (11%/25% industry irreproducibility, US$28B/year, '85% of research wasted') rest on non-transparent or modeled sources and are flagged wherever cited.",
+   "Enforcement beats endorsement: passive publication of guidelines rarely changes behaviour; mandated, checked requirements do - a thread from sec-data-welfare through sec-incentives to sec-governance.",
+   "The animal-welfare stake: every data-stewardship failure is repeatedly tied back to its cost in animal lives, keeping the ethical argument foregrounded over the purely technical one.",
+   "Method-dependence of headline numbers: the same phenomenon (publication rate, concordance, QRP prevalence, sharing trend) yields very different values by method, so juxtaposition rather than single figures is the analytical style."
+  ],
+  "terminology": {
+   "ethical_debt": "The obligation incurred when animals are used to generate knowledge but the resulting data are allowed to become unfindable, unusable, or unreused; unpaid, it is discharged in further animal lives. Coined and used as the review's organising metaphor.",
+   "data_welfare": "The claim that stewardship of animal-derived data (findability, reusability, complete reporting) is a dimension of animal welfare and of the 3Rs, because wasting the data wastes the welfare cost that produced it.",
+   "FAIR": "Findable, Accessible, Interoperable, Reusable - the Wilkinson et al. (2016) principles for machine-actionable data stewardship. Distinguish FAIR (a stewardship standard) from 'open' (an access status); data can be FAIR without being fully open.",
+   "three_Rs": "Replacement, Reduction, Refinement (Russell & Burch) - the ethical/legal framework for humane animal research. The review argues data welfare extends all three, chiefly Reduction and Refinement.",
+   "VCG": "Virtual Control Group - a control arm reconstructed from curated historical control-animal data to partially or wholly replace concurrent controls, reducing control-animal use. Related term HCD = historical control data.",
+   "NAM": "New Approach Methodology - non-animal methods (in silico/QSAR models, organoids, organ-on-chip/microphysiological systems, high-throughput screening) used to predict toxicity or biology; serve Replacement but generate data needing stewardship.",
+   "reproducibility_vs_replicability": "Reproducibility = obtaining consistent results using the same data and analysis; replicability = obtaining consistent results in a new study with new data. The review uses 'reproducibility crisis' broadly but distinguishes the two where the evidence does (e.g., direct-replication projects test replicability; re-analysis disputes test reproducibility).",
+   "HBA": "Harm-Benefit Analysis - the project-level weighing of animal harm against expected benefit that anchors animal-research regulation; its objectivity and predictive validity are contested.",
+   "QRP": "Questionable Research Practice - selective reporting, p-hacking, undisclosed flexibility short of outright fabrication; a behavioural driver of the crisis.",
+   "ARRIVE": "Animal Research: Reporting of In Vivo Experiments - the reporting guideline whose adherence and enforcement are evaluated in sec-governance."
+  },
+  "abbreviations": {
+   "FAIR": "Findable, Accessible, Interoperable, Reusable",
+   "3Rs": "Replacement, Reduction, Refinement",
+   "VCG": "Virtual Control Group",
+   "HCD": "Historical Control Data",
+   "NAM": "New Approach Methodology",
+   "MPS": "Microphysiological System (organ-on-chip)",
+   "QSAR": "Quantitative Structure-Activity Relationship",
+   "AOP": "Adverse Outcome Pathway",
+   "HTS": "High-Throughput Screening",
+   "DILI": "Drug-Induced Liver Injury",
+   "HBA": "Harm-Benefit Analysis",
+   "IACUC": "Institutional Animal Care and Use Committee",
+   "AWERB": "Animal Welfare and Ethical Review Body",
+   "ARRIVE": "Animal Research: Reporting of In Vivo Experiments",
+   "QRP": "Questionable Research Practice",
+   "RPT": "Review, Promotion and Tenure",
+   "JIF": "Journal Impact Factor",
+   "DMP": "Data Management Plan",
+   "DMSP": "Data Management and Sharing Plan",
+   "DAS": "Data Availability Statement",
+   "RWD": "Real-World Data",
+   "ECA": "External Control Arm",
+   "NOAEL": "No-Observed-Adverse-Effect Level",
+   "SEND": "Standard for Exchange of Nonclinical Data",
+   "OMOP": "Observational Medical Outcomes Partnership (Common Data Model)",
+   "GWAS": "Genome-Wide Association Study",
+   "OA": "Open Access",
+   "TOP": "Transparency and Openness Promotion (guidelines)",
+   "PID": "Persistent Identifier",
+   "GEO": "Gene Expression Omnibus"
+  },
+  "voice_tone": "Critical, evidence-anchored, and quantitative, but ethically serious rather than polemical. Foreground effect sizes and their provenance; state uncertainty and flag false-consensus risks explicitly rather than smoothing them over. Prefer juxtaposition of divergent estimates to single headline numbers. Keep the animal-welfare stake visible without moralising. Third person, present tense for findings; hedged claims ('the evidence suggests', 'audits converge on') proportional to evidence strength."
+ }
+}

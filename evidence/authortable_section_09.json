@@ -1,0 +1,209 @@
+{
+ "Sena2010": {
+  "doi": "10.1371/journal.pbio.1000344",
+  "family": "Sena",
+  "given": "Emily S.",
+  "all_families": [
+   "Sena",
+   "van der Worp",
+   "Bath",
+   "Howells",
+   "Macleod"
+  ],
+  "year": 2010,
+  "title": "Publication Bias in Reports of Animal Stroke Studies Leads to Major Overstatement of Efficacy",
+  "container": "PLoS Biology",
+  "citet_display": "Sena et al.",
+  "crossref_ok": true
+ },
+ "Freedman2015": {
+  "doi": "10.1371/journal.pbio.1002165",
+  "family": "Freedman",
+  "given": "Leonard P.",
+  "all_families": [
+   "Freedman",
+   "Cockburn",
+   "Simcoe"
+  ],
+  "year": 2015,
+  "title": "The Economics of Reproducibility in Preclinical Research",
+  "container": "PLOS Biology",
+  "citet_display": "Freedman et al.",
+  "crossref_ok": true
+ },
+ "Gurjanov2024b": {
+  "doi": "10.14573/altex.2403141",
+  "family": "Gurjanov",
+  "given": null,
+  "all_families": [
+   "Gurjanov",
+   "Vaas",
+   "Steger-Hartmann"
+  ],
+  "year": 2024,
+  "title": "The road to virtual control groups and the importance of proper body-weight selection",
+  "container": "ALTEX",
+  "citet_display": "Gurjanov et al.",
+  "crossref_ok": true
+ },
+ "Comess2020": {
+  "doi": "10.3389/frai.2020.00031",
+  "family": "Comess",
+  "given": "Saskia",
+  "all_families": [
+   "Comess",
+   "Akbay",
+   "Vasiliou",
+   "Hines",
+   "Joppa",
+   "Vasiliou",
+   "Kleinstreuer"
+  ],
+  "year": 2020,
+  "title": "Bringing Big Data to Bear in Environmental Public Health: Challenges and Recommendations",
+  "container": "Frontiers in Artificial Intelligence",
+  "citet_display": "Comess et al.",
+  "crossref_ok": true
+ },
+ "Wilkinson2016": {
+  "doi": "10.1038/sdata.2016.18",
+  "family": "Wilkinson",
+  "given": "Mark D.",
+  "all_families": [
+   "Wilkinson",
+   "Dumontier",
+   "Aalbersberg",
+   "Appleton",
+   "Axton",
+   "Baak",
+   "Blomberg",
+   "Boiten",
+   "da Silva Santos",
+   "Bourne",
+   "Bouwman",
+   "Brookes",
+   "Clark",
+   "Crosas",
+   "Dillo",
+   "Dumon",
+   "Edmunds",
+   "Evelo",
+   "Finkers",
+   "Gonzalez-Beltran",
+   "Gray",
+   "Groth",
+   "Goble",
+   "Grethe",
+   "Heringa",
+   "’t Hoen",
+   "Hooft",
+   "Kuhn",
+   "Kok",
+   "Kok",
+   "Lusher",
+   "Martone",
+   "Mons",
+   "Packer",
+   "Persson",
+   "Rocca-Serra",
+   "Roos",
+   "van Schaik",
+   "Sansone",
+   "Schultes",
+   "Sengstag",
+   "Slater",
+   "Strawn",
+   "Swertz",
+   "Thompson",
+   "van der Lei",
+   "van Mulligen",
+   "Velterop",
+   "Waagmeester",
+   "Wittenburg",
+   "Wolstencroft",
+   "Zhao",
+   "Mons"
+  ],
+  "year": 2016,
+  "title": "The FAIR Guiding Principles for scientific data management and stewardship",
+  "container": "Scientific Data",
+  "citet_display": "Wilkinson et al.",
+  "crossref_ok": true
+ },
+ "Hair2019": {
+  "doi": "10.1186/s41073-019-0069-3",
+  "family": "Hair",
+  "given": null,
+  "all_families": [
+   "Hair",
+   "Macleod",
+   "Sena"
+  ],
+  "year": 2019,
+  "title": "A randomised controlled trial of an Intervention to Improve Compliance with the ARRIVE guidelines (IICARus)",
+  "container": "Research Integrity and Peer Review",
+  "citet_display": "Hair et al.",
+  "crossref_ok": true
+ },
+ "StegerHartmann2020": {
+  "doi": "10.14573/altex.2001311",
+  "family": "Steger-Hartmann",
+  "given": "Thomas",
+  "all_families": [
+   "Steger-Hartmann"
+  ],
+  "year": 2020,
+  "title": "Introducing the concept of virtual control groups into preclinical toxicology testing",
+  "container": "ALTEX",
+  "citet_display": "Steger-Hartmann",
+  "crossref_ok": true
+ },
+ "Hamilton2023": {
+  "doi": "10.1136/bmj-2023-075767",
+  "family": "Hamilton",
+  "given": "Daniel G",
+  "all_families": [
+   "Hamilton",
+   "Hong",
+   "Fraser",
+   "Rowhani-Farid",
+   "Fidler",
+   "Page"
+  ],
+  "year": 2023,
+  "title": "Prevalence and predictors of data and code sharing in the medical and health sciences: systematic review with meta-analysis of individual participant data",
+  "container": "BMJ",
+  "citet_display": "Hamilton et al.",
+  "crossref_ok": true
+ },
+ "Pound2018": {
+  "doi": "10.1371/journal.pone.0193758",
+  "family": "Pound",
+  "given": "Pandora",
+  "all_families": [
+   "Pound",
+   "Nicol"
+  ],
+  "year": 2018,
+  "title": "Retrospective harm benefit analysis of pre-clinical animal research for six treatment interventions",
+  "container": "PLOS ONE",
+  "citet_display": "Pound and Nicol",
+  "crossref_ok": true
+ },
+ "Rice2020": {
+  "doi": "10.1136/bmj.m2081",
+  "family": "Rice",
+  "given": "Danielle B",
+  "all_families": [
+   "Rice",
+   "Raffoul",
+   "Ioannidis",
+   "Moher"
+  ],
+  "year": 2020,
+  "title": "Academic criteria for promotion and tenure in biomedical sciences faculties: cross sectional analysis of international sample of universities",
+  "container": "BMJ",
+  "citet_display": "Rice et al.",
+  "crossref_ok": true
+ }
+}

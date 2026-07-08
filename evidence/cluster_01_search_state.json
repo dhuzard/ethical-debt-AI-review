@@ -74,7 +74,27 @@
     "reproducibility gut microbiome diet environment rodent experiments (bedding JAALAS, chow-timing s41684)",
     "target validation reproducibility drug discovery preclinical rigor (AD best-practices alzrt90, MODEL-AD trc2.12038)",
     "meta-analysis heterogeneity neuroprotection stroke efficacy animal quality (metformin fphar.2022, electroacupuncture NRR, IA-SCI fneur.2020.588479, creatine-PD 1871527315, IPC pone.0142021, renal-IPoC pone.0150863, sunitinib eLife.08351)",
-    "Camerer 2018 social-science replication Nature Human Behaviour (RESOLVED: 10.1038/s41562-018-0399-z already in findings via Europe PMC title search)"
+    "Camerer 2018 social-science replication Nature Human Behaviour (RESOLVED: 10.1038/s41562-018-0399-z already in findings via Europe PMC title search)",
+    "OA (Europe PMC): reproducibility preclinical research rigor",
+    "OA: publication bias animal studies meta-analysis preclinical",
+    "OA: irreproducibility cost preclinical research estimate billion",
+    "OA: blinding randomization reporting animal experiments survey",
+    "OA: preregistration OR registered report animal preclinical study",
+    "OA: reporting quality ARRIVE compliance animal experiments assessment",
+    "OA: preclinical systematic review risk of bias randomisation blinding CAMARADES",
+    "preclinical SR/MA risk of bias neuropathic pain animal model",
+    "study quality effect size overestimation animal stroke meta-analysis (Crossley-Sena STROKEAHA.107.498725)",
+    "RhoA/ROCK SCI meta-analysis publication bias (jamaneurol.2013.4684, WNL.0000000000007718)",
+    "Ginsenoside-Rg1 experimental ischemic stroke SR/MA (srep07790 fulltext)",
+    "animal model human concordance drug toxicity NAM (s00204-006-0091-3, 15569527.2024.2387596)",
+    "sepsis preclinical SR/MA risk of bias (szae003, CCM 3181fa0468)",
+    "TBI preclinical meta-analysis publication bias (s12035, bja.2018.07.024, neu.2022.0020)",
+    "5xFAD Alzheimer mouse variability replication (gbb.12794)",
+    "Brazilian Reproducibility Initiative multicenter (eLife.41602)",
+    "preclinical multicentre replication trial (s13104-025-07206-2, s41598-019-47981-0)",
+    "reporting quality zebrafish SR/MA (s41598-023-45350-6)",
+    "multi-institutional preclinical FLASH dosimetry audit (ijrobp.2024.03.017)",
+    "osteoarthritis animal model SR SYRCLE (s13018-024-04660-9, joca.2018.10.001, joca.2022.11.014)"
   ],
   "passes_completed": [
     "pubmed:reproducibility_crisis_preclinical",
@@ -118,13 +138,24 @@
     "pubmed:mouse_genetic_background_and_environment_reproducibility (tig.2006, stem.2020.07.019, gbb.12364, pone.0288209, dmm.049795, JAALAS-bedding, s41684-chow-timing)",
     "pubmed:target_validation_and_AD_translation (alzrt90, trc2.12038)",
     "pubmed:neuroprotection_preclinical_meta_analyses_quality (fphar.2022.1009169 metformin, NRR electroacupuncture, fneur.2020.588479 IA-SCI, 1871527315 creatine-PD, pone.0142021 IPC, pone.0150863 renal-IPoC, eLife.08351 sunitinib)",
-    "epmc:Camerer_social_science_replication (RESOLVED: matched to 10.1038/s41562-018-0399-z already in findings)"
+    "epmc:Camerer_social_science_replication (RESOLVED: matched to 10.1038/s41562-018-0399-z already in findings)",
+    "epmc_oa_fulltext:Ioannidis_how_to_make_research_true (pmed.1001747) + female-rats-not-more-variable (s13293-016-0087-5) + rodent-age (0023677216653984)",
+    "epmc_oa_fulltext:manifesto_reproducible_science (s41562-016-0021) + Reproducibility2020_GBSI_28B (f1000research.11334.1) + TBI-progesterone-translation (02699052.2015.1065344) + metaresearch-ecology (biosci/biw159)",
+    "epmc_oa_fulltext:rigor_surveys_and_reporting_quality (Researchers-View pone.0165999, 2009-vs-2018 pone.0275962, What-has-preclinical-SR-done bmjos-2021-100219)",
+    "epmc_oa_fulltext:preclinical_meta_analyses_risk_of_bias (MSC-sepsis eLife.17850, CIPN pbio.3000243, stem-cell-SCI pbio.1001738, fever-stroke 2396987318776421, argon/xenon bja.2022.04.016, cannabinoid-pain pain.0002269, topoisomerase-glioma oncotarget.24334, burrowing-pain pain.0002632)",
+    "epmc_oa_fulltext:methodological_reviews (risk-of-bias-tools s40779-020-00238-8, cardioprotection-rigor s00395-018-0696-8, technological-advances-metaresearch bmjos-2020-100131, SAGER s41073-016-0007-6)",
+    "pubmed:neuropathic_pain_preclinical_SR (pain neutrophils, exosome DPN, SCS PR9 fulltext, cannabinoids ocular, exercise-neuropathy fimmu fulltext)",
+    "pubmed:meta_epidemiology_bias_stroke_SCI (STROKEAHA.107.498725, jamaneurol.2013.4684, WNL.0000000000007718, srep07790 fulltext)",
+    "pubmed:NAM_concordance_alternatives (s00204-006-0091-3, 15569527.2024.2387596 fulltext)",
+    "pubmed:sepsis_TBI_preclinical_SR (szae003, CCM 3181fa0468, s12035, bja.2018.07.024, neu.2022.0020)",
+    "pubmed:model_variability_and_multicenter (gbb.12794, eLife.41602, s13104-025-07206-2 fulltext, s41598-019-47981-0 fulltext, s41598-023-45350-6, ijrobp.2024.03.017)",
+    "pubmed:osteoarthritis_cartilage_preclinical_SR (s13018-024-04660-9, joca.2018.10.001, joca.2022.11.014)"
   ],
   "passes_remaining": [
-    "snowball_round_3 (OpenAlex forward on Button nrn3475, Sena pbio.1000344, Macleod pbio.1002273; still deferred to conserve budget / avoid 429)",
-    "resolve_verbatim:Baker_2016_Nature_533452a (paywalled news; still needs a non-paywalled full-text source for a verbatim sentence)",
-    "pubmed:additional_disease-area_preclinical_meta_analyses (sepsis, TBI, spinal-cord-injury drug meta-analyses not yet exhausted)",
-    "pubmed:organ-on-chip / NAM validation reproducibility (MPS biomicrofluidics 10.1063/5.0179444 identified but deferred)"
+    "snowball_round_3 (OpenAlex forward on nrn3475 / pbio.1000344 / pbio.1002273 - deferred; low marginal yield expected)",
+    "resolve_verbatim:Baker_2016_Nature_533452a (still needs non-paywalled full-text source)",
+    "epmc_oa:remaining disease-area preclinical SRs (diabetes/glioma/cardio SYRCLE-CAMARADES) - diminishing new-unique yield (~0.3/pass)",
+    "epmc_oa:organ-on-chip / NAM validation reproducibility (MPS biomicrofluidics, 3D CRC) - deferred"
   ],
   "snowball_seeds_used": [
     "10.1371/journal.pbio.1002165",
@@ -132,6 +163,14 @@
     "10.7554/eLife.71601",
     "10.1371/journal.pmed.0020124"
   ],
-  "unique_dois_count": 135,
-  "exit_reason": "frame_budget_reached"
+  "continuation_frames_completed": [
+    "frame_1_initial",
+    "frame_2_continuation",
+    "frame_3_continuation_OA_fulltext",
+    "frame_4_continuation_disease_area_and_multicenter"
+  ],
+  "frame_3_summary": "Added 22 new unique-DOI findings, ALL genuine fulltext (body sentences from Europe PMC OA fullTextXML / PMC). Raised cluster fulltext rate from ~17% (23/135) to 28.7% (45/157). Added 1 conflict (standardization vs heterogenization: bm.2021.010502 vs s41583-020-0313-3) and 1 convergent figure_data (randomisation-reporting across 6 preclinical SRs).",
+  "unique_dois_count": 182,
+  "exit_reason": "frame_budget_reached",
+  "frame_4_summary": "Added 25 new unique-DOI findings (6 genuine fulltext: SCS PR9, exercise-neuropathy fimmu, Ginsenoside srep07790, Draize 2387596, PINPRICS s13104, Shank2 s41598-019). Added 2 conflicts (TBI publication-bias bja.2018 vs s12035-022; standardization vs heterogenization s41598-019-47981-0 vs s41583-020-0313-3) and 1 convergent figure_data (bias-driven efficacy overestimation across stroke/SCI meta-analyses: 13.1%/7.2%/27%). Cluster fulltext 45/157 -> 51/182."
 }

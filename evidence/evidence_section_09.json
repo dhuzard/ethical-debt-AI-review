@@ -1,0 +1,209 @@
+{
+ "section_id": "section_09",
+ "section_title": "Conclusion",
+ "cluster_source": "synthesis",
+ "synthesis_section": true,
+ "findings": [
+  {
+   "claim": "Cumulative preclinical irreproducibility is estimated around 50% (point estimate 53.3%), implying roughly US$28 billion/year of non-reproducible US preclinical research.",
+   "claim_source_sentence": "A natural point estimate of the cumulative irreproducibility rate is the midpoint of the upper and lower bounds, or 53.3%.",
+   "evidence": "Probability-bounds economic modeling combining published irreproducibility estimates (range 51%-89%) with US life-science R&D spending; authors stress the estimate is uncertain.",
+   "effect_size": "point estimate 53.3% (bounds 18%-88.5%); ~US$28B/year",
+   "effect_size_source_sentence": "Nevertheless, we believe a 50% irreproducibility rate, leading to direct costs of approximately US$28B/year, provides a reasonable starting point for further debate.",
+   "n": null,
+   "study_system": "US preclinical life-science research (economic modeling)",
+   "replication_status": "unreplicated",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pbio.1002165",
+   "text_access": "fulltext",
+   "cite_key": "Freedman2015",
+   "argument_role": "landmark"
+  },
+  {
+   "claim": "Almost all animal ischaemic-stroke publications reported significant effects; publication bias inflated pooled efficacy and ~16% of experiments appear unpublished.",
+   "claim_source_sentence": "Only 2.2% of publications identified in the included reviews did not report any significant findings.",
+   "evidence": "CAMARADES meta-analyses of 525 publications across 16 stroke interventions; Egger regression and trim-and-fill. Pooled efficacy fell from 31.2% to 23.8% after adjustment; ~214 (16%) experiments estimated missing.",
+   "effect_size": "bias detected in 10-16 of 16 interventions; efficacy overstated ~31% relative",
+   "effect_size_source_sentence": "The different methods used to ascertain publication bias gave somewhat different results; Egger regression suggested bias for all 16 interventions, whereas trim-and-fill suggested bias for ten of 16 interventions.",
+   "n": 525,
+   "study_system": "animal models of acute ischaemic stroke (CAMARADES)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pbio.1000344",
+   "text_access": "fulltext",
+   "cite_key": "Sena2010",
+   "argument_role": "core"
+  },
+  {
+   "claim": "In an RCT of 1,689 manuscripts, requesting a completed ARRIVE checklist at submission did not improve full compliance: no manuscript in either arm met all ARRIVE items and only ~1% reported all four Landis criteria.",
+   "claim_source_sentence": "1.5% (5/340) of the control group manuscripts) and 0.9% (3/332) of intervention group manuscripts reported all four subitems of the Landis criteria.",
+   "evidence": "Randomised controlled trial at PLOS ONE (2015) assessing whether requesting ARRIVE checklist completion improves compliance; outcome adjudication against 108 operationalised items.",
+   "effect_size": "full ARRIVE compliance 0%; all four Landis criteria reported 1.5% (control) vs 0.9% (intervention)",
+   "effect_size_source_sentence": "1.5% (5/340) of the control group manuscripts) and 0.9% (3/332) of intervention group manuscripts reported all four subitems of the Landis criteria.",
+   "n": 1689,
+   "study_system": "in vivo animal manuscripts at PLOS ONE (RCT)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s41073-019-0069-3",
+   "text_access": "fulltext",
+   "cite_key": "Hair2019",
+   "argument_role": "core"
+  },
+  {
+   "claim": "A retrospective harm-benefit analysis of preclinical animal studies for six interventions found that, weighing actual harms against actual clinical benefits, fewer than 7% of studies were ethically permissible under Bateson's Cube.",
+   "claim_source_sentence": "Only the moderate bisphosphonate studies, less than 7% of the total, appeared to minimise harms to animals whilst being associated with benefit for humans.",
+   "evidence": "Discussion. First systematic retrospective HBA across preclinical studies; expert panel most commonly rated animal harms as 'severe'; regulatory systems failed to prevent severe suffering or ensure only rigorous research.",
+   "effect_size": "less than 7% permissible; 97% (n=206) did not report analgesia",
+   "effect_size_source_sentence": "Thirteen percent of studies (n = 27) failed to report use of anaesthesia and 97% (n = 206) did not report analgesia use.",
+   "n": null,
+   "study_system": "preclinical animal studies (antifibrinolytics, bisphosphonates, corticosteroids, Tirilazad, antenatal corticosteroids, thrombolytics; rats, rabbits, primates)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/cc13694",
+    "10.1667/RADE-22-00124.1"
+   ],
+   "doi": "10.1371/journal.pone.0193758",
+   "text_access": "fulltext",
+   "cite_key": "Pound2018",
+   "argument_role": "landmark"
+  },
+  {
+   "claim": "The FAIR Principles frame good data management as the conduit to knowledge discovery and to downstream reuse by both humans and machines.",
+   "claim_source_sentence": "Good data management is not a goal in itself, but rather is the key conduit leading to knowledge discovery and innovation, and to subsequent data and knowledge integration and reuse by the community after the data publication process.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "FAIR guiding principles for scholarly data (foundational statement)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/sdata.2016.18",
+   "text_access": "fulltext",
+   "cite_key": "Wilkinson2016",
+   "argument_role": "confirmatory"
+  },
+  {
+   "claim": "A meta-analysis of medical/health research found declared public data availability of only 8% and actual availability of only 2% (2016-2021), with public code sharing under 0.5%.",
+   "claim_source_sentence": "Meta-analyses showed a prevalence of declared and actual public data availability of 8% (95% confidence interval 5% to 11%) and 2% (1% to 3%), respectively, between 2016 and 2021.",
+   "evidence": "",
+   "effect_size": "declared 8% (95% CI 5-11%), actual 2% (95% CI 1-3%) public data availability",
+   "effect_size_source_sentence": "Meta-analyses showed a prevalence of declared and actual public data availability of 8% (95% confidence interval 5% to 11%) and 2% (1% to 3%), respectively, between 2016 and 2021.",
+   "n": null,
+   "study_system": "Medical and health sciences articles (meta-analysis of 105 meta-research studies, 2,121,580 articles)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1177/00220345221101321",
+    "10.1371/journal.pone.0147942"
+   ],
+   "doi": "10.1136/bmj-2023-075767",
+   "text_access": "abstract_only",
+   "cite_key": "Hamilton2023",
+   "argument_role": "landmark"
+  },
+  {
+   "claim": "The seminal proposal to introduce virtual control groups into preclinical toxicology argued that a repository of historical animal control-group data could be used to construct VCGs for toxicity studies, with a stated potential of about 25% reduction in animal use.",
+   "claim_source_sentence": "Historical animal control group data may lead to a repository, which could be used to construct virtual control groups (VCGs) for toxicity studies.",
+   "evidence": "Abstract: introduces the VCG concept; also states the ~25% reduction estimate (corroborated by altex.2403141 and 01926233241300310).",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "regulatory animal toxicity studies (concept paper)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.14573/altex.2403141",
+    "10.1177/01926233241300310"
+   ],
+   "doi": "10.14573/altex.2001311",
+   "text_access": "abstract_only",
+   "cite_key": "StegerHartmann2020",
+   "argument_role": "confirmatory"
+  },
+  {
+   "claim": "VCGs created from historical control data can cut the number of concurrent control animals in regulatory toxicity studies by up to 25%, with initial body weight (a surrogate for age) shown to be a critical matching variable.",
+   "claim_source_sentence": "Virtual control groups (VCGs) created from historical control data (HCD) can reduce the number of concurrent control group animals needed in regulatory toxicity studies by up to 25%.",
+   "evidence": "Abstract: reduction estimate and role of body-weight selection.",
+   "effect_size": "up to 25% reduction in concurrent control animals",
+   "effect_size_source_sentence": "Virtual control groups (VCGs) created from historical control data (HCD) can reduce the number of concurrent control group animals needed in regulatory toxicity studies by up to 25%.",
+   "n": null,
+   "study_system": "28-day rodent toxicity studies; body-weight matching for VCG sampling",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.14573/altex.2001311",
+    "10.1177/01926233241300310"
+   ],
+   "doi": "10.14573/altex.2403141",
+   "text_access": "abstract_only",
+   "cite_key": "Gurjanov2024b",
+   "argument_role": "landmark"
+  },
+  {
+   "claim": "Fewer than 10% of chemicals in commerce have been screened for safety, a data gap motivating both high-throughput NAMs and FAIR data infrastructure in environmental public health.",
+   "claim_source_sentence": "Out of the tens of thousands of individual chemicals currently in commerce (and many more mixtures, natural products, and metabolites) <10% have been screened for safety.",
+   "evidence": "Body (Introduction) of an expert perspective on bringing FAIR big data and AI/ML to environmental public health, co-authored by NICEATM leadership.",
+   "effect_size": "<10% of commercial chemicals screened for safety",
+   "effect_size_source_sentence": "Out of the tens of thousands of individual chemicals currently in commerce (and many more mixtures, natural products, and metabolites) <10% have been screened for safety.",
+   "n": null,
+   "study_system": "environmental public health chemical safety data / FAIR + AI infrastructure",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1016/j.yrtph.2020.104583"
+   ],
+   "doi": "10.3389/frai.2020.00031",
+   "text_access": "fulltext",
+   "cite_key": "Comess2020",
+   "argument_role": "landmark"
+  },
+  {
+   "claim": "Traditional publication-count criteria dominate biomedical promotion/tenure guidelines while open-science criteria are rare.",
+   "claim_source_sentence": "Thirty two (35%) institutions had at least one mention of a specific number of peer reviewed publications.",
+   "evidence": "Peer-reviewed publications mentioned in 95% of guidelines; data sharing in 1%, open-access publishing/registration in none.",
+   "effect_size": "35% require a specific number of publications; data sharing mentioned by 1%",
+   "effect_size_source_sentence": "Thirty two (35%) institutions had at least one mention of a specific number of peer reviewed publications.",
+   "n": 92,
+   "study_system": "international universities (biomedical RPT guidelines)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.7554/elife.47338",
+    "10.1371/journal.pbio.2004089"
+   ],
+   "doi": "10.1136/bmj.m2081",
+   "text_access": "fulltext",
+   "cite_key": "Rice2020",
+   "argument_role": "landmark"
+  }
+ ],
+ "argument_groups": {
+  "establishing": {
+   "thesis": "The Ethical Debt is real, measurable, and self-reinforcing, but it is repayable. FAIR stewardship, data reuse and virtual control groups, and disciplined stewardship of NAM-generated data each break the loop, provided incentive and governance reform make stewardship count. The strongest ethical claim of the review is also its simplest: because animals paid for the data with their lives, letting the data go to waste is a welfare harm, and repaying the debt saves animals. Key questions remain empirically open.",
+   "supporting_findings": [
+    "Freedman2015",
+    "Sena2010",
+    "Pound2018"
+   ],
+   "counter_findings": [],
+   "synthesis": "Closing section; returns to the Ethical Debt cycle introduced in sec-introduction and flags open questions for future work."
+  },
+  "complication": {
+   "thesis": "The Ethical Debt is real, measurable, and self-reinforcing, but it is repayable. FAIR stewardship, data reuse and virtual control groups, and disciplined stewardship of NAM-generated data each break the loop, provided incentive and governance reform make stewardship count. The strongest ethical claim of the review is also its simplest: because animals paid for the data with their lives, letting the data go to waste is a welfare harm, and repaying the debt saves animals. Key questions remain empirically open.",
+   "supporting_findings": [
+    "Hamilton2023",
+    "Wilkinson2016",
+    "StegerHartmann2020"
+   ],
+   "counter_findings": [],
+   "synthesis": "Closing section; returns to the Ethical Debt cycle introduced in sec-introduction and flags open questions for future work."
+  },
+  "synthesis": {
+   "thesis": "The Ethical Debt is real, measurable, and self-reinforcing, but it is repayable. FAIR stewardship, data reuse and virtual control groups, and disciplined stewardship of NAM-generated data each break the loop, provided incentive and governance reform make stewardship count. The strongest ethical claim of the review is also its simplest: because animals paid for the data with their lives, letting the data go to waste is a welfare harm, and repaying the debt saves animals. Key questions remain empirically open.",
+   "supporting_findings": [
+    "Gurjanov2024b",
+    "Rice2020",
+    "Hair2019"
+   ],
+   "counter_findings": [],
+   "synthesis": "Closing section; returns to the Ethical Debt cycle introduced in sec-introduction and flags open questions for future work."
+  }
+ },
+ "conflicts": [],
+ "figure_data": []
+}

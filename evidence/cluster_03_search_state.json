@@ -44,12 +44,30 @@
   "epmc:data curation cost benefit return on investment value reuse",
   "epmc:ORCID persistent identifier adoption institutional researchers",
   "epmc:FAIR data proteomics metabolomics imaging additional domains",
-  "epmc:persistent identifier DOI data citation credit reuse"
+  "epmc:persistent identifier DOI data citation credit reuse",
+  "epmc:knowledge graph biomedical linked data FAIR",
+  "epmc:F-UJI automated FAIR assessment maturity indicators",
+  "pubmed:FAIR clinical genomic data sharing interoperability",
+  "epmc:data management plan machine actionable",
+  "epmc:reproducibility computational notebook Jupyter sharing",
+  "epmc:GO FAIR implementation network community data stewardship",
+  "epmc:data paper data journal peer review dataset descriptor Scientific Data",
+  "epmc:dataset citation persistent identifier DOI data reuse credit incentive",
+  "epmc-OA:FAIR data implementation case study institution",
+  "epmc-OA:data stewardship maturity model organization assessment",
+  "epmc-OA:reproducibility code data availability published study",
+  "epmc-OA:FAIR metrics automated evaluation dataset assessment tool",
+  "epmc-OA:research data repository certification trustworthy CoreTrustSeal",
+  "epmc-OA:clinical trial data sharing reuse benefit patient",
+  "epmc-OA:metadata standard interoperability adoption ontology biomedical",
+  "epmc-OA:open research data economic value cost benefit return investment",
+  "fulltext-retrieval:PMC batches (23 body-sourced fulltext extractions, frame6)"
  ],
  "passes_remaining": [
-  "snowball_round_2 (OpenAlex fwd/back on TRUST 10.1038/s41597-020-0486-7, WCI-FW 10.1038/s41597-025-04451-9, CARE seeds) - deferred",
-  "epmc:data curation cost/ROI quantified in currency (still thin)",
-  "pubmed:FAIR software/workflow RO-Crate additional"
+  "snowball_round_2 (OpenAlex fwd/back on data-citation-advantage 10.1371/journal.pone.0230416, Scholix 10.1016/j.patter.2020.100007, CODECHECK) - deferred",
+  "epmc-OA:FAIR healthcare-professional awareness/perceptions surveys (10.3390/healthcare13243183 unfetched)",
+  "epmc-OA:IPUMS/census interoperable survey data (10.1038/sdata.2018.7 unfetched)",
+  "epmc:data curation cost/ROI quantified in currency (still thin)"
  ],
  "snowball_seeds_used": [
   "10.1016/j.patter.2021.100370",
@@ -59,8 +77,8 @@
  ],
  "seen_dois_artifact_id": "cluster_03_seen_dois.txt",
  "saturation_log_artifact_id": "cluster_03_saturation_log.json",
- "papers_so_far": 124,
+ "papers_so_far": 178,
  "evidence_artifact_id": "cluster_03_evidence.json",
  "exit_reason": "frame_budget_reached",
- "note": "Continuation frame 4 added 30 new unique-DOI findings (cumulative 124) via keyword passes on FAIR additional domains (proteomics/photon-neutron/UAV/brain-BIDS/Raman), EOSC & research-data infrastructure, data-steward professionalisation surveys (Italy), ORCID/PID coverage & metadata completeness (Crossref/INGV/taxonomic PIDs), data-curation cost/sustainability (palaeo databases ~85% <15yr lifespan), metadata quality/curation (omics harmonization), semantic interoperability & common data models (OMOP/FHIR/openEHR, INSPIRE datahub, SPHN imaging). 1 new conflict (metadata standardization: manual curation increases vs automated FAIRification degrades completeness). Snowball_round_2 deferred (keyword yield high). min_papers_per_cluster=200 not met; continuation required."
+ "note": "Continuation frame 6 added 24 new unique-DOI findings (cumulative 178) with full-text priority: 23 of 24 are body-sourced fulltext, raising the cluster full-text rate from ~18% (28/154) to ~29% (51/178). Via 8 Europe PMC OA keyword passes + targeted PMC full-text retrieval. New material: data-availability follow-through gaps (pmed.1005145 9%->3%; cpt.70206 2% PGx accessible; s13063 1% of trial-data requests for reproduction), reproducibility consensus & qualitative barriers (OSIRIS pbio.3003726; pone.0348512 60-interview study), metadata/ontology interoperability at scale (Mondo iyaf215; CMEO s12911-025-03272-5 50+ CVD studies; LinkML giaf152; ClarID s13326-026-00349-6; NIAID Discovery Portal msystems.01270-25 4.3M datasets; ISO/IEC 11179 NCD vault fdgth.2025.1685733; I-ETL s12911-025-03188-0), imaging data-sharing standards (s44319-025-00652-w 57.3M studies), open-PK reuse benefit (PKRxiv cpt.70206), reporting guidelines (TRIPOD-Code s41512-025-00217-4), and equity/governance (Maori data sovereignty snz2.70048; collective-action bmjgh-2025-022013). Added 1 conflict (ISO/IEC 11179 sufficiency) + 1 figure_data (measured open-data availability rates). min_papers_per_cluster=200 not met (178); continuation required."
 }

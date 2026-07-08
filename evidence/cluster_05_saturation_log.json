@@ -99,5 +99,25 @@
   "cumulative_unique": 123,
   "cumulative_screened_in": 123,
   "timestamp": "2026-07-07"
+ },
+ {
+  "pass_type": "continuation_frame_5_pubmed",
+  "query_or_method": "PubMed external-control-arm/synthetic-control/RWD + rodent carcinogenicity HCD + SEND + reduction/relative-potency sweep; PMC fulltext extraction",
+  "records_examined": 96,
+  "new_unique_relevant": 23,
+  "new_unique_rate": 0.2396,
+  "cumulative_unique": 146,
+  "cumulative_screened_in": 146,
+  "timestamp": "2026-07-07"
+ },
+ {
+  "pass_type": "continuation_frame_6_pubmed",
+  "query_or_method": "PubMed sweep (Bayesian borrowing pediatric extrapolation; propensity-score external control single-arm; power-prior type-I-error inflation; commensurate/dynamic borrowing; external-control FDA/EMA regulatory acceptance) + PMC fulltext extraction",
+  "records_examined": 118,
+  "new_unique_relevant": 27,
+  "new_unique_rate": 0.2288,
+  "cumulative_unique": 173,
+  "cumulative_screened_in": 173,
+  "timestamp": "2026-07-07"
  }
 ]

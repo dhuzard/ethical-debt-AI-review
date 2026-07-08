@@ -1998,6 +1998,821 @@
    "replication_evidence_dois": [
     "10.1186/s12874-023-01840-9"
    ]
+  },
+  {
+   "doi": "10.3390/ani13142367",
+   "claim": "A decade after entry into force, EU Directive 2010/63/EU is credited with major welfare improvements but authors identify multiple legislative/guidance areas (severity classification, retrospective assessment, statistical reporting) still needing clarification.",
+   "claim_source_sentence": "The Directive sets clear provisions for its scope, the authorization procedures, animal welfare bodies, national committees, cost/benefit analysis, severity classification, retrospective assessment, and statistical reporting, among many others.",
+   "evidence": "Governance/oversight analysis of Directive 2010/63.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "EU Directive 2010/63/EU legislation and guidance documents",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.3390/ani13162581",
+   "claim": "Severity classification under Directive 2010/63 is often under-specified for particular models, producing inconsistencies within and between institutions; two Belgian institutions co-developed a shared classification across procedure categories to reduce this.",
+   "claim_source_sentence": "This, in turn, may lead to inconsistencies in severity classification between countries, within countries and even within institutions.",
+   "evidence": "",
+   "effect_size": "16 (sub)categories of in-house procedures classified",
+   "effect_size_source_sentence": "This work started with listing all in-house procedures and assigning them to 16 (sub)categories.",
+   "n": null,
+   "study_system": "Laboratory animal procedures, two Belgian academic institutions",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1371/journal.pone.0297375",
+   "claim": "A cross-national analysis of the harm-benefit analysis (HBA) cornerstone of Directive 2010/63 found deficient legal transposition and inconsistent implementation across EU member states.",
+   "claim_source_sentence": "The results of our study show that there are (1) deficits in the transposition of the HBA requirement into national laws, (2) significant discrepancies in available policy documents relating to HBA, and (3) insufficiently consistent implementations of HBA in European countries.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "EU member states national law and policy documents (harm-benefit analysis)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.3390/ani14152154",
+   "claim": "Swiss federal transparency reporting on animal experimentation covers species and suffering but omits key public-interest information (animal fate, surplus animals, funding, harm-benefit analysis); authors give seven recommendations to extend legal disclosure.",
+   "claim_source_sentence": "Federal reporting on animal experimentation indicates a total of 585,991 animals used in experiments in Switzerland in 2022.",
+   "evidence": "",
+   "effect_size": "585,991 animals used in 2022",
+   "effect_size_source_sentence": "Federal reporting on animal experimentation indicates a total of 585,991 animals used in experiments in Switzerland in 2022.",
+   "n": null,
+   "study_system": "Swiss animal-experimentation reporting law and public disclosure",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1371/journal.pone.0285429",
+   "claim": "A bioinformatics composite-measure framework combining behavioral and biochemical parameters enabled evidence-based, individualized severity classification of laboratory mice comparable across induced and genetic models.",
+   "claim_source_sentence": "In conclusion, the bioinformatics approach confirmed the suitability of the composite measure schemes for evidence-based comparative severity assessment in adult and young mice.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Mouse models (severity/welfare assessment tooling)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1089/neu.2023.0653",
+   "claim": "The TOP-NT multicenter preclinical TBI consortium built harmonization infrastructure (SOPs, common data elements, centralized repository) to enable cross-site reproducibility and data reuse.",
+   "claim_source_sentence": "As part of this process, TOP-NT (1) produced a library of TBI-relevant standard operating procedures to coordinate workflow, (2) aligned 481 pre-clinical and clinical common data elements (CDEs), and (3) generated 272 new pre-clinical TBI CDEs.",
+   "evidence": "",
+   "effect_size": "481 CDEs aligned; 272 new preclinical TBI CDEs generated",
+   "effect_size_source_sentence": "As part of this process, TOP-NT (1) produced a library of TBI-relevant standard operating procedures to coordinate workflow, (2) aligned 481 pre-clinical and clinical common data elements (CDEs), and (3) generated 272 new pre-clinical TBI CDEs.",
+   "n": null,
+   "study_system": "Multicenter preclinical TBI research (5 centers, rat models)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1038/s41684-024-01335-0",
+   "claim": "A minimal metadata set (MNMS) aligned to ARRIVE 2.0 is proposed to make in vivo animal data FAIR-compliant and repurposable, addressing wasted data from missing metadata.",
+   "claim_source_sentence": "MNMS aligns with an existing validated guideline for reporting in vivo data (ARRIVE 2.0) and contributes to making in vivo data FAIR-compliant.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Nonclinical in vivo (animal) data metadata standards",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1038/s41597-023-02242-8",
+   "claim": "Despite FAIR mandates from funders and publishers, few animal studies share all data and tools; a DataLad/GIN workflow is offered as a low-cost infrastructure blueprint for reproducible multimodal animal datasets.",
+   "claim_source_sentence": "Despite FAIR guidelines and the increasing demand from funding agencies and publishers, only a few animal studies share all experimental data and processing tools.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Animal research data management (DataLad/GIN infrastructure)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1161/strokeaha.125.052056",
+   "claim": "To close the preclinical-to-clinical translational gap in stroke, the PRISM consortium recommends rigorous multicenter preclinical RCTs (mpRCTs) mimicking phase-3 trials, with common data elements and standardized protocols.",
+   "claim_source_sentence": "To address this, the field is moving toward rigorous, multicenter preclinical randomized controlled trials (mpRCTs) that mimic phase 3 clinical trials in several key components.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Preclinical ischemic stroke research (multicenter RCT design)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.3389/fneur.2023.1187095",
+   "claim": "In IMI public-private neurodegeneration projects, data sharing is disincentivised by academic reward systems and impeded by unclear GDPR compliance guidance, alongside organizational and technical barriers.",
+   "claim_source_sentence": "We also identify sociotechnical hurdles, such as academic recognition and reward systems that disincentivise data sharing, and legal challenges linked to heightened perceptions of data privacy risk, compounded by a lack of clear guidance on GDPR compliance mechanisms for public-private research.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Neurodegenerative-disease research data sharing (IMI public-private partnerships)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1162/99608f92.a9717b34",
+   "claim": "Published meta-analyses can be biased because literature contains narratives about data rather than data; sharing individual participant data under FAIR governance is proposed, subject to a harmonization-information trade-off.",
+   "claim_source_sentence": "Meta-analyses of published literature may produce biased conclusions due to the lack of transparency in data collection, publication bias, and inaccessibility to the data underlying a publication ('dark data').",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Individual participant data sharing in biomedicine (FAIR governance)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.12688/f1000research.128797.2",
+   "claim": "The Ensuring Value in Research (EViR) Funders' Forum agreed ten Guiding Principles that, if adopted, would reduce research waste and increase value across the research lifecycle.",
+   "claim_source_sentence": "The EViR Funders' Forum worked together to develop a set of ten Guiding Principles, that if funders adhered to would reduce research waste and ensure value in research.",
+   "evidence": "",
+   "effect_size": "10 Guiding Principles",
+   "effect_size_source_sentence": "The EViR Funders' Forum worked together to develop a set of ten Guiding Principles, that if funders adhered to would reduce research waste and ensure value in research.",
+   "n": null,
+   "study_system": "International health-research funding agencies (governance/waste-reduction)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.12688/f1000research.18471.2",
+   "claim": "A research funder (PCORI) self-audited its policies against international value/waste recommendations, finding strengths but growth areas including public protocol availability, data-sharing policy, and reducing redundant funding.",
+   "claim_source_sentence": "Of the 17 recommendations, 15 were applicable to PCORI's research mission and focus.",
+   "evidence": "",
+   "effect_size": "15 of 17 recommendations applicable",
+   "effect_size_source_sentence": "Of the 17 recommendations, 15 were applicable to PCORI's research mission and focus.",
+   "n": null,
+   "study_system": "Research funder (PCORI) self-assessment against value-in-research recommendations",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1186/s12915-025-02134-w",
+   "claim": "Extending the psychology 'theory crisis' to biology, the authors argue that vague/misapplied theories generate poor hypotheses and research waste, complementing methodology-focused replication reforms.",
+   "claim_source_sentence": "We argue such failure is one aspect of a theory crisis because misapplied and misunderstood theories lead to poor hypotheses and research waste.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Biology research (hypothesis quality / research waste)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1371/journal.pone.0348512",
+   "claim": "A cross-disciplinary interview study of 60 EU/UK researchers found reproducibility is a socially and institutionally mediated activity dependent on supportive policies, infrastructure and equitable resourcing rather than individual choice.",
+   "claim_source_sentence": "Semi-structured interviews were conducted with 60 researchers affiliated with universities and research institutions across the European Union and the United Kingdom.",
+   "evidence": "",
+   "effect_size": "60 researchers interviewed",
+   "effect_size_source_sentence": "Semi-structured interviews were conducted with 60 researchers affiliated with universities and research institutions across the European Union and the United Kingdom.",
+   "n": 60,
+   "study_system": "Researchers across disciplines (EU/UK) - reproducibility barriers",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1371/journal.pone.0319334",
+   "claim": "A survey of 452 professors in the USA and India revealed national and disciplinary gaps in reproducibility/transparency attention, aggravated by incentive misalignment and resource constraints.",
+   "claim_source_sentence": "In this study, we surveyed 452 professors from universities across the USA and India to understand perspectives on scientific processes and identify key points for intervention.",
+   "evidence": "",
+   "effect_size": "452 professors surveyed",
+   "effect_size_source_sentence": "In this study, we surveyed 452 professors from universities across the USA and India to understand perspectives on scientific processes and identify key points for intervention.",
+   "n": 452,
+   "study_system": "University professors (USA and India) - reproducibility perceptions",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1098/rsos.250826",
+   "claim": "Coding of 379 studies in 91 psychology PhD theses (2018-2022) showed only a modest increase in open-science practice over time and no difference between departments with more vs less established open-science implementation.",
+   "claim_source_sentence": "Our findings revealed a modest increase of OS over time but no significant difference between departments with more or less-established OS practices.",
+   "evidence": "",
+   "effect_size": "379 studies coded across 91 theses",
+   "effect_size_source_sentence": "We manually coded <i>n</i> = 379 studies from <i>k</i> = 91 theses and surveyed former PhD students about perceived norms, attitudes and perceived behavioural control regarding OS practices.",
+   "n": 379,
+   "study_system": "Psychology PhD theses (German-speaking departments) - open-science uptake",
+   "replication_status": "replicated",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": [
+    "10.1186/s13104-026-07685-x",
+    "10.1101/2025.11.07.687141"
+   ]
+  },
+  {
+   "doi": "10.7554/elife.57067",
+   "claim": "Across 1,207 institutions worldwide, top-performing universities published ~80-90% of research open access by 2017; European/North American growth was repository-driven while Latin American/African growth was gold-OA driven.",
+   "claim_source_sentence": "We studied 1,207 institutions from across the world, and found that, in 2017, the top-performing universities published around 80-90% of their research open access.",
+   "evidence": "",
+   "effect_size": "80-90% OA at top-performing universities; 1,207 institutions",
+   "effect_size_source_sentence": "We studied 1,207 institutions from across the world, and found that, in 2017, the top-performing universities published around 80-90% of their research open access.",
+   "n": 1207,
+   "study_system": "Research institutions worldwide (open-access policy performance)",
+   "replication_status": "disputed",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": [
+    "10.21203/rs.3.rs-7904485/v1"
+   ]
+  },
+  {
+   "doi": "10.1186/s13104-026-07685-x",
+   "claim": "A survey of applied-ethology researchers found low uptake of open-science practices: preprints 25%, preregistration 9%, and only 21% aware of FAIR principles, with lack of training the main barrier.",
+   "claim_source_sentence": "Preprints (25%) and preregistration (9%) were uncommon, with lack of training cited as the main barrier.",
+   "evidence": "",
+   "effect_size": "Preprints 25%; preregistration 9%; FAIR awareness 21%",
+   "effect_size_source_sentence": "Preprints (25%) and preregistration (9%) were uncommon, with lack of training cited as the main barrier.",
+   "n": 112,
+   "study_system": "Applied-ethology researchers (ISAE 2021 congress survey)",
+   "replication_status": "replicated",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": [
+    "10.1098/rsos.250826",
+    "10.1101/2025.11.07.687141"
+   ]
+  },
+  {
+   "doi": "10.1093/pnasnexus/pgaf238",
+   "claim": "A meta-research audit of 98 pandemic-era COVID-19 mental-health meta-analyses found 70.6% had PRISMA reporting-conduct discrepancies and 57.1% high methodological risk of bias; none were fully computationally reproducible.",
+   "claim_source_sentence": "Of these meta-analyses, a substantial proportion (70.6%) showed discrepancies between Preferred Reporting Items for Systematic Reviews and Meta-Analyses-guided reporting and actual research conducts, while 57.1% exhibited high methodological ROBs due to insufficient data sources and lack of sensitivity analysis.",
+   "evidence": "",
+   "effect_size": "70.6% PRISMA reporting-conduct discrepancy; 57.1% high ROB",
+   "effect_size_source_sentence": "Of these meta-analyses, a substantial proportion (70.6%) showed discrepancies between Preferred Reporting Items for Systematic Reviews and Meta-Analyses-guided reporting and actual research conducts, while 57.1% exhibited high methodological ROBs due to insufficient data sources and lack of sensitivity analysis.",
+   "n": 98,
+   "study_system": "Fast-tracked COVID-19 mental-health meta-analyses (meta-research audit)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.3389/fmed.2025.1715361",
+   "claim": "A German funding call supported 17 preclinical confirmatory multi-laboratory studies plus a meta-research project; lessons include the need for new roles (preclinical research coordinators) and improved rules for large academic studies.",
+   "claim_source_sentence": "In a unique funding call, 17 studies in Germany aimed to confirm exploratory findings across various biomedical research fields in a rigorously planned and executed multi-laboratory set-up.",
+   "evidence": "",
+   "effect_size": "17 confirmatory multi-laboratory studies",
+   "effect_size_source_sentence": "In a unique funding call, 17 studies in Germany aimed to confirm exploratory findings across various biomedical research fields in a rigorously planned and executed multi-laboratory set-up.",
+   "n": 17,
+   "study_system": "Preclinical confirmatory multi-laboratory studies (Germany funding programme)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.12688/openreseurope.22183.1",
+   "claim": "The first Italian national survey of data stewardship found most institutions employ staff doing data-management support tasks but rarely with formal recognition, reflecting absence of a standardized professional profile.",
+   "claim_source_sentence": "Data cleaning was performed on the 77 valid entries collected (out of 88 responses) before conducting the descriptive analyses.",
+   "evidence": "",
+   "effect_size": "77 valid survey entries (of 88)",
+   "effect_size_source_sentence": "Data cleaning was performed on the 77 valid entries collected (out of 88 responses) before conducting the descriptive analyses.",
+   "n": 77,
+   "study_system": "Italian universities/research institutions (data-stewardship workforce survey)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1101/2025.11.07.687141",
+   "claim": "In a survey of all Swiss animal-study directors (418/1,385 respondents), preregistration remained uncommon and 39.2% had never heard of it, indicating a large awareness/uptake gap despite its potential to curb questionable research practices.",
+   "claim_source_sentence": "Of the 1,385 invited study directors, 418 completed the survey (30.2% return rate; 41% female; age  M = 47.1,  SD = 9.52).",
+   "evidence": "",
+   "effect_size": "418 of 1,385 study directors (30.2% return); 39.2% never heard of preregistration",
+   "effect_size_source_sentence": "Of the 1,385 invited study directors, 418 completed the survey (30.2% return rate; 41% female; age  M = 47.1,  SD = 9.52).",
+   "n": 418,
+   "study_system": "Animal-study directors in Switzerland (preregistration attitudes survey)",
+   "replication_status": "replicated",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": [
+    "10.1186/s13104-026-07685-x",
+    "10.1098/rsos.250826"
+   ]
+  },
+  {
+   "doi": "10.3390/ani14192896",
+   "claim": "An interdisciplinary framework for animal-research ethics maps seven phases of animal experiments and identifies 16 key ethical/legal/practical challenges an ethical framework must address.",
+   "claim_source_sentence": "In total, 16 key ethical, legal, and practical challenges that an ethical framework for the use of animals in research needs to address are identified and analyzed.",
+   "evidence": "",
+   "effect_size": "16 key challenges across 7 experiment phases",
+   "effect_size_source_sentence": "In total, 16 key ethical, legal, and practical challenges that an ethical framework for the use of animals in research needs to address are identified and analyzed.",
+   "n": null,
+   "study_system": "Animal-research ethics framework (interdisciplinary/international)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1186/s12874-026-02848-7",
+   "claim": "Reporting of dog-assisted intervention trials was found suboptimal; using EQUATOR methodology a systematic review identified 85 reporting shortcomings, leading to SPIRIT/CONSORT 2025 extension items via Delphi consensus.",
+   "claim_source_sentence": "However, reporting of DAI trial designs and results are suboptimal, preventing the development of a robust evidence base to guide research and practice in this area.",
+   "evidence": "",
+   "effect_size": "85 reporting shortcomings (44 SPIRIT, 41 CONSORT)",
+   "effect_size_source_sentence": "The systematic review (phase 1) identified 85 shortcomings in reporting DAI (44 applied to SPIRIT and 41 to CONSORT) to include in the extension development.",
+   "n": 83,
+   "study_system": "Dog-assisted intervention trials (SPIRIT/CONSORT reporting-guideline extension)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.3390/ani13050800",
+   "claim": "A mathematical model framework estimates ongoing animal 'suffering' from deviation of measurable biological criteria from normal, to apply humane endpoints and national legal severity limits (Directive 2010/63/EU) prospectively and retrospectively.",
+   "claim_source_sentence": "The underlying assumption of the model framework is that the degree of deviation from normality of specified measurable biological criteria will reflect the level of pain, suffering, distress and lasting harm incurred by or during an experiment.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Animal experiments (severity/harm quantification under Directive 2010/63)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.1136/bmjgh-2023-013917",
+   "claim": "A mixed-methods survey of 145 global-health researchers found general adherence to research-integrity and fairness principles, with variation shaped by donor-landscape rigidity, institutional investment, guidelines, mentoring and power differentials.",
+   "claim_source_sentence": "Out of 145 participants in the quantitative survey (8.4% response rate), findings indicate that global health researchers generally adhere to principles of research integrity and fairness, with variations in reported behaviours.",
+   "evidence": "",
+   "effect_size": "145 participants (8.4% response rate)",
+   "effect_size_source_sentence": "Out of 145 participants in the quantitative survey (8.4% response rate), findings indicate that global health researchers generally adhere to principles of research integrity and fairness, with variations in reported behaviours.",
+   "n": 145,
+   "study_system": "Global-health researchers (research-integrity and fairness survey)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "doi": "10.21203/rs.3.rs-7904485/v1",
+   "claim": "In Tunisia, over 60% of publications remain paywalled and high article-processing charges hinder open access, illustrating open-access uptake barriers in low-resource settings despite funder/global OA mandates.",
+   "claim_source_sentence": "Over 60% of Tunisian publications remain behind paywalls, limiting their visibility and impact.",
+   "evidence": "",
+   "effect_size": "Over 60% behind paywalls",
+   "effect_size_source_sentence": "Over 60% of Tunisian publications remain behind paywalls, limiting their visibility and impact.",
+   "n": null,
+   "study_system": "Tunisian research publications (open-access adoption, low-resource setting)",
+   "replication_status": "disputed",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": [
+    "10.7554/elife.57067"
+   ]
+  },
+  {
+   "doi": "10.1177/03063127251392603",
+   "claim": "A 40-year analysis of research-integrity discourse in Science and Nature shows accountability for integrity has been progressively reassembled beyond individual researchers to include institutions, funders, journals and whistleblowers.",
+   "claim_source_sentence": "We identify key narrative threads and turning points in understanding who is accountable for ensuring research integrity-extending beyond individual researchers to include institutions, funding bodies, journals, and whistleblowers.",
+   "evidence": "",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Research-integrity governance discourse (Science and Nature, 40 years)",
+   "replication_status": "single-study",
+   "text_access": "abstract_only",
+   "replication_evidence_dois": []
+  },
+  {
+   "claim": "CONSORT 2025, the updated randomised-trial reporting guideline, added seven new items and a new open-science section to a 30-item checklist via a 317-participant Delphi and 30-expert consensus meeting.",
+   "claim_source_sentence": "We added seven new checklist items, revised three items, deleted one item, and integrated several items from key CONSORT extensions.",
+   "evidence": "Reporting-guideline update establishing a 30-item minimum checklist for randomised trials, now including an open-science section.",
+   "effect_size": "30-item checklist; 7 new items; 317 Delphi participants",
+   "effect_size_source_sentence": "The list of potential changes to the checklist was assessed in a large, international, online, three-round Delphi survey involving 317 participants and discussed at a two-day online expert consensus meeting of 30 invited international experts.",
+   "n": 317,
+   "study_system": "randomised controlled trial reporting (EQUATOR consensus)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1136/bmj-2024-081123",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The PRIOR statement is a new EQUATOR reporting guideline for overviews of reviews, finalising a 27-item (plus 19 sub-item) checklist through a modified Delphi consensus.",
+   "claim_source_sentence": "The final checklist includes 27 main items (with 19 sub-items) across all stages of an overview of reviews.",
+   "evidence": "Fills a reporting-guidance gap for overviews of reviews of healthcare interventions.",
+   "effect_size": "27 main items (19 sub-items)",
+   "effect_size_source_sentence": "The final checklist includes 27 main items (with 19 sub-items) across all stages of an overview of reviews.",
+   "n": 52,
+   "study_system": "overviews of reviews reporting (EQUATOR consensus)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1136/bmj-2022-070849",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "TRIPOD-LLM extends the TRIPOD+AI reporting guideline to studies using large language models in healthcare, providing a modular 19-item / 50-subitem checklist emphasising transparency and human oversight.",
+   "claim_source_sentence": "As a living document, TRIPOD-LLM will evolve with the field, aiming to enhance the quality, reproducibility and clinical applicability of LLM research in healthcare through comprehensive reporting.",
+   "evidence": "Standardised reporting guideline for large language model studies, developed by expedited Delphi and expert consensus.",
+   "effect_size": "19 main items and 50 subitems",
+   "effect_size_source_sentence": "TRIPOD-LLM provides a comprehensive checklist of 19 main items and 50 subitems, covering key aspects from title to discussion.",
+   "n": null,
+   "study_system": "large language model studies in healthcare (reporting guideline)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s41591-024-03425-5",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "SPIRIT 2025 updated the trial-protocol reporting guideline to a 34-item checklist, adding an open-science section and patient-involvement item via a 317-participant Delphi process.",
+   "claim_source_sentence": "The updated SPIRIT 2025 statement consists of an evidence based checklist of 34 minimum items to address in a trial protocol, along with a diagram illustrating the schedule of enrolment, interventions, and assessments for trial participants.",
+   "evidence": "Updated minimum-item guidance for randomised-trial protocols, now including open science and public involvement.",
+   "effect_size": "34-item checklist; 317 Delphi participants",
+   "effect_size_source_sentence": "Overall, 317 individuals participated in the Delphi consensus process and 30 experts attended the consensus meeting.",
+   "n": 317,
+   "study_system": "randomised-trial protocol reporting (EQUATOR consensus)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1136/bmj-2024-081477",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The CONSORT-Outcomes 2022 extension adds 17 outcome-specific reporting items to CONSORT 2010; most (83%) of 128 candidate recommendations were absent from the parent guideline.",
+   "claim_source_sentence": "The scoping review and consultation with experts identified 128 recommendations relevant to reporting outcomes in trial reports, the majority (83%) of which were not included in the CONSORT 2010 statement.",
+   "evidence": "Targets selective non-reporting of trial outcomes through 17 harmonised outcome-specific items.",
+   "effect_size": "17 items; 83% of 128 recommendations not in CONSORT 2010",
+   "effect_size_source_sentence": "The scoping review and consultation with experts identified 128 recommendations relevant to reporting outcomes in trial reports, the majority (83%) of which were not included in the CONSORT 2010 statement.",
+   "n": 124,
+   "study_system": "clinical trial outcome reporting (EQUATOR consensus)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1001/jama.2022.21022",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The SPIRIT-Outcomes 2022 extension adds 9 outcome-specific items to trial protocols; 72% of 108 candidate recommendations were not covered by SPIRIT 2013.",
+   "claim_source_sentence": "The scoping review and consultation with experts identified 108 recommendations relevant to outcome-specific reporting to be addressed in trial protocols, the majority (72%) of which were not included in the SPIRIT 2013 statement.",
+   "evidence": "Aims to reduce selective outcome nonreporting by prespecifying outcomes in protocols.",
+   "effect_size": "9 items; 72% of 108 recommendations not in SPIRIT 2013",
+   "effect_size_source_sentence": "The scoping review and consultation with experts identified 108 recommendations relevant to outcome-specific reporting to be addressed in trial protocols, the majority (72%) of which were not included in the SPIRIT 2013 statement.",
+   "n": 124,
+   "study_system": "clinical trial protocol outcome reporting (EQUATOR consensus)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1001/jama.2022.21243",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "PRISMA-COSMIN for OMIs 2024 is a PRISMA 2020 extension for systematic reviews of outcome measurement instruments, yielding a 54-(sub)item checklist including an open-science section.",
+   "claim_source_sentence": "The final checklist to facilitate the reporting of full systematic review reports contains 54 (sub)items addressing the review's title, abstract, plain language summary, open science, introduction, methods, results, and discussion.",
+   "evidence": "Reporting standard to make systematic reviews of measurement instruments reproducible and appraisable.",
+   "effect_size": "54 (sub)items",
+   "effect_size_source_sentence": "The final checklist to facilitate the reporting of full systematic review reports contains 54 (sub)items addressing the review's title, abstract, plain language summary, open science, introduction, methods, results, and discussion.",
+   "n": 103,
+   "study_system": "systematic reviews of outcome measurement instruments (EQUATOR consensus)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1016/j.jclinepi.2024.111422",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The RIGHT-COI&F checklist adds 27 items (18 on conflicts of interest, 9 on funding) to guide transparent reporting of COIs and funding in health-care guidelines.",
+   "claim_source_sentence": "The checklist contains 27 items: 18 about the COIs of contributors and 9 about the funding of the guideline project.",
+   "evidence": "Governance instrument to standardise disclosure of conflicts of interest and funding in guideline documents.",
+   "effect_size": "27 items (18 COI, 9 funding)",
+   "effect_size_source_sentence": "The checklist contains 27 items: 18 about the COIs of contributors and 9 about the funding of the guideline project.",
+   "n": 44,
+   "study_system": "health-care guideline COI/funding reporting (EQUATOR consensus)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.7326/M23-3274",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The CONSORT-iNeurostim extension adds 7 new checklist items (including a 14-item intervention subchecklist) for reporting trials of implantable neurostimulation devices.",
+   "claim_source_sentence": "The CONSORT-iNeurostim extension includes 7 new checklist items, including one item for reporting the neurostimulation intervention comprising a separate checklist of 14 items.",
+   "evidence": "Device-specific reporting guideline addressing common methodological deficiencies in neurostimulation trials.",
+   "effect_size": "7 new items (+14-item intervention subchecklist)",
+   "effect_size_source_sentence": "The CONSORT-iNeurostim extension includes 7 new checklist items, including one item for reporting the neurostimulation intervention comprising a separate checklist of 14 items.",
+   "n": 42,
+   "study_system": "implantable neurostimulation device trials (EQUATOR consensus)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1016/j.eclinm.2024.102932",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A CARE extension for acupuncture case reports was developed via EQUATOR methodology, producing a 30-item checklist refined by 38 experts across three Delphi rounds.",
+   "claim_source_sentence": "Through an extensive literature review and a series of expert interviews, the final CARE for acupuncture checklist comprised of 30 items.",
+   "evidence": "Specialty reporting guideline to improve completeness of acupuncture case reports.",
+   "effect_size": "30 items",
+   "effect_size_source_sentence": "Through an extensive literature review and a series of expert interviews, the final CARE for acupuncture checklist comprised of 30 items.",
+   "n": 38,
+   "study_system": "acupuncture case reports (EQUATOR consensus)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1136/bmjebm-2025-113641",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "TRIPOD-Code is a protocol for a TRIPOD extension governing transparent reporting and availability of analytical code in prediction-model studies.",
+   "claim_source_sentence": "TRIPOD-Code focuses specifically on the transparent reporting of analytical code used in prediction model studies, including code for data preprocessing, model development, and model evaluation.",
+   "evidence": "Extends reporting governance to research code as a reproducibility artefact.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "prediction-model study code repositories (protocol)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s41512-025-00217-4",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In 1039 Chinese medical journals, only 24.1% endorsed CONSORT and 0.8% its extensions, with other guidelines endorsed by 14.8-17.2%, indicating low uptake of reporting guidelines.",
+   "claim_source_sentence": "Among included journals, 24.1% endorsed CONSORT, and 0.8% endorsed CONSORT extensions.",
+   "evidence": "Cross-sectional bibliometric audit of journal-level reporting-guideline endorsement.",
+   "effect_size": "24.1% endorsed CONSORT; 0.8% extensions",
+   "effect_size_source_sentence": "Among included journals, 24.1% endorsed CONSORT, and 0.8% endorsed CONSORT extensions.",
+   "n": 1039,
+   "study_system": "Chinese medical journals (n=1039)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s12874-022-01789-1",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The Lancet increasing-value/reducing-waste series argues research funders bear primary responsibility for avoidable waste in priority-setting, against a backdrop of US$240 billion annual biomedical investment.",
+   "claim_source_sentence": "Research funders have primary responsibility for reductions in waste resulting from decisions about what research to do.",
+   "evidence": "Landmark policy series on avoidable research waste at the priority-setting stage.",
+   "effect_size": "US$240 billion annual biomedical research investment (2010)",
+   "effect_size_source_sentence": "The increase in annual global investment in biomedical research--reaching US$240 billion in 2010--has resulted in important health dividends for patients and the public.",
+   "n": null,
+   "study_system": "biomedical research funding/priority-setting governance",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1016/S0140-6736(13)62229-1",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The INQUIRE framework offers a consensus, stakeholder-derived structure spanning five research stages to help academic institutions increase value and reduce avoidable research waste.",
+   "claim_source_sentence": "Compelling evidence has demonstrated that a large proportion of investment in biomedical research is wasted; this waste is avoidable.",
+   "evidence": "Institution-facing quality framework operationalising the value/waste agenda.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "academic clinical research quality framework (16-country Delphi)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pmed.1002580",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Reiterating the landmark estimate that 85% of biomedical research is avoidably wasted, this analysis links waste to imbalanced outcome selection and poor design, execution and reporting.",
+   "claim_source_sentence": "Ten years ago, Chalmers and Glasziou pointed out in the Lancet that 85% of all biomedical research was being avoidably wasted because of imbalanced research question/outcome selection, as well as poor study design, execution, and reporting.",
+   "evidence": "Applies the value/waste framework to a specific field, invoking the 85%-waste figure.",
+   "effect_size": "85% of biomedical research avoidably wasted",
+   "effect_size_source_sentence": "Ten years ago, Chalmers and Glasziou pointed out in the Lancet that 85% of all biomedical research was being avoidably wasted because of imbalanced research question/outcome selection, as well as poor study design, execution, and reporting.",
+   "n": null,
+   "study_system": "orthodontic research (value/waste commentary)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1016/S0140-6736(13)62229-1"
+   ],
+   "doi": "10.1016/j.jebdp.2019.04.005",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A 'scientists warning' argues that unnecessary research bureaucracy is a global impediment that wastes resources and slows scientific progress, proposing a Bureaucracy Charter as a governance remedy.",
+   "claim_source_sentence": "Unnecessary bureaucratic measures limit productivity, waste vital resources and drain workforces of engagement, enthusiasm, motivation, commitment and cohesion.",
+   "evidence": "Counterpoint perspective on the costs of over-governance in research systems.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "research governance/bureaucracy (commentary)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1111/1751-7915.70371",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In a survey of 454 laboratory-animal researchers, respondents judged that only about 50% of animal experiments are published, considering non-publication of negative results prevalent and biasing.",
+   "claim_source_sentence": "Overall, 454 researchers participated.",
+   "evidence": "Survey quantifying perceived publication bias and its drivers in animal research.",
+   "effect_size": "~50% of animal experiments published (IQR 32-70)",
+   "effect_size_source_sentence": "They considered publication bias a problem in animal research (7 (5 to 8)) and thought that about 50% (32-70) of animal experiments are published.",
+   "n": 454,
+   "study_system": "laboratory-animal researchers, Netherlands (survey, n=454)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1001/jamaneurol.2013.4684"
+   ],
+   "doi": "10.1371/journal.pone.0043404",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A meta-analysis of RhoA/ROCK blockade in experimental spinal cord injury found ~30% of experiments unpublished, and correcting for this reduced the apparent efficacy from 21% to 15% locomotor improvement.",
+   "claim_source_sentence": "Assessment of publication bias by the trim and fill method suggested that 30% of experiments remain unpublished.",
+   "evidence": "Demonstrates inflation of preclinical effect sizes by publication and reporting bias.",
+   "effect_size": "27% overestimation of efficacy (21% to 15% improvement)",
+   "effect_size_source_sentence": "Inclusion of these theoretical missing studies suggested a 27% overestimation of efficacy, reducing the overall efficacy to a 15% improvement in locomotor recovery.",
+   "n": 725,
+   "study_system": "rodent spinal cord injury (30 studies, 725 animals)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0043404"
+   ],
+   "doi": "10.1001/jamaneurol.2013.4684",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Using directed acyclic graphs, this study shows post-randomisation animal attrition can induce collider-stratification (selection) bias in preclinical stroke research even when treatment has no true effect.",
+   "claim_source_sentence": "Even when the treatment had no causal effect, our simulations revealed substantial bias across different scenarios.",
+   "evidence": "Methodological governance work exposing an under-recognised bias source in preclinical trials.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "preclinical stroke research (causal simulation)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1177/0271678X241275760",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A best-practice review attributes much of the irreproducibility of preclinical mouse studies to reporting bias and improper analysis rather than the model itself, and sets minimum design standards.",
+   "claim_source_sentence": "Newer studies, however, point to bias in reporting results and improper data analysis as key factors that limit reproducibility and validity of preclinical mouse research.",
+   "evidence": "Reframes the reproducibility problem toward reporting/analysis rigor governance.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "mouse disease models (methodological review)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1242/dmm.024547",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Across 36 contrast-induced-nephropathy prediction-model studies, median TRIPOD adherence was only 60% and did not improve after the TRIPOD statement was published (p=0.770).",
+   "claim_source_sentence": "Median TRIPOD checklist adherence was 60% (34%-77%), and no significant improvement was found since the publication of the TRIPOD checklist (p=0.770).",
+   "evidence": "Empirical evidence that publishing a reporting guideline did not by itself improve reporting.",
+   "effect_size": "60% median adherence; no improvement post-publication (p=0.770)",
+   "effect_size_source_sentence": "Median TRIPOD checklist adherence was 60% (34%-77%), and no significant improvement was found since the publication of the TRIPOD checklist (p=0.770).",
+   "n": 36,
+   "study_system": "contrast-induced nephropathy prediction models (n=36)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s12874-021-01469-6",
+    "10.1016/j.jclinepi.2022.12.005"
+   ],
+   "doi": "10.1136/bmjopen-2021-052568",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In noninferiority oncology RCTs with nonsignificant primary results, spin (misleading reporting) was present in 75% of reports, most often in abstracts.",
+   "claim_source_sentence": "Spin was identified in 39 reports (75.0%; 95% CI, 61.6%-84.9%), including the abstract (34 reports [65.4%; 95% CI, 51.1%-76.9%]) and the main text (38 reports [73.1%; 95% CI, 59.7%-83.3%]).",
+   "evidence": "Quantifies distorted interpretation of negative trials in oncology.",
+   "effect_size": "75.0% of reports contained spin",
+   "effect_size_source_sentence": "Spin was identified in 39 reports (75.0%; 95% CI, 61.6%-84.9%), including the abstract (34 reports [65.4%; 95% CI, 51.1%-76.9%]) and the main text (38 reports [73.1%; 95% CI, 59.7%-83.3%]).",
+   "n": 52,
+   "study_system": "noninferiority oncology RCTs (n=52)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1016/j.bja.2023.01.001",
+    "10.1097/DCR.0000000000000425"
+   ],
+   "doi": "10.1001/jamanetworkopen.2021.35765",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In high-impact anaesthesia journals, 40% of statistically negative RCTs contained spin (89% of it in the abstract conclusion), and positive trials had a low median fragility index of 4.",
+   "claim_source_sentence": "For the statistically negative studies, 66 articles (40%) presented spin; 89% of these occurrences of spin were described in the conclusion of the abstract.",
+   "evidence": "Shows spin and statistical fragility in a second specialty literature.",
+   "effect_size": "40% of negative RCTs contained spin",
+   "effect_size_source_sentence": "For the statistically negative studies, 66 articles (40%) presented spin; 89% of these occurrences of spin were described in the conclusion of the abstract.",
+   "n": 162,
+   "study_system": "anaesthesia RCTs (n=162)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1001/jamanetworkopen.2021.35765",
+    "10.1002/ana.78125"
+   ],
+   "doi": "10.1016/j.bja.2023.01.001",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Visual abstracts of RCTs were frequently incomplete (primary-outcome results shown in only 30%) and, among nonsignificant trials, 57% exhibited at least one type of spin.",
+   "claim_source_sentence": "The information conveyed in VAs was frequently incomplete and inaccurate, highlighting the urgent need to refer to appropriate specific reporting guidelines to avoid misinterpretation by readers.",
+   "evidence": "Extends spin/reporting-completeness governance concerns to visual abstracts.",
+   "effect_size": "57% of visual abstracts (nonsignificant trials) showed spin; primary-outcome results in only 30%",
+   "effect_size_source_sentence": "The information provided in VAs was frequently incomplete: primary outcome identification, primary outcome results, and harms were respectively described or displayed in only 47% (n = 116/247), 30% (n = 75/247), and 35% (n = 88/253).",
+   "n": 253,
+   "study_system": "randomised-trial visual abstracts (n=253)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1001/jamanetworkopen.2021.35765"
+   ],
+   "doi": "10.1016/j.jclinepi.2024.111544",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In robotic colorectal surgery studies with nonsignificant primary outcomes, spin appeared in 82%, and half failed to disclose funding while 39% omitted conflict-of-interest statements.",
+   "claim_source_sentence": "Evidence of spin was found in 82% of studies.",
+   "evidence": "Links spin to poor conflict-of-interest and funding disclosure.",
+   "effect_size": "82% of studies contained spin",
+   "effect_size_source_sentence": "Evidence of spin was found in 82% of studies.",
+   "n": 38,
+   "study_system": "robotic colorectal surgery studies (n=38)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1001/jamanetworkopen.2021.35765",
+    "10.1016/j.bja.2023.01.001"
+   ],
+   "doi": "10.1097/DCR.0000000000000425",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In multiple-sclerosis RCTs with nonsignificant primary outcomes, spin appeared in 62.5% and was associated with smaller sample size and non-Q1 journals.",
+   "claim_source_sentence": "Spin appeared in at least one section in 25 articles (62.5%) and in 3 or more in 19 articles (47.5%).",
+   "evidence": "Associates spin with study size, journal tier and author region.",
+   "effect_size": "62.5% of MS RCTs contained spin",
+   "effect_size_source_sentence": "Spin appeared in at least one section in 25 articles (62.5%) and in 3 or more in 19 articles (47.5%).",
+   "n": 40,
+   "study_system": "multiple sclerosis RCTs (n=40)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1001/jamanetworkopen.2021.35765",
+    "10.1016/j.bja.2023.01.001"
+   ],
+   "doi": "10.1002/ana.78125",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Machine-learning prediction-model studies adhered to a median of only 38.7% of TRIPOD items, with model specification and performance rarely reported.",
+   "claim_source_sentence": "Overall, articles adhered to a median of 38.7% (IQR 31.0-46.4%) of TRIPOD items.",
+   "evidence": "Documents severe incompleteness of reporting in ML prediction models.",
+   "effect_size": "38.7% median TRIPOD adherence",
+   "effect_size_source_sentence": "Overall, articles adhered to a median of 38.7% (IQR 31.0-46.4%) of TRIPOD items.",
+   "n": 152,
+   "study_system": "machine-learning clinical prediction models (n=152)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1136/bmjopen-2021-052568",
+    "10.1016/j.ejrad.2026.112760"
+   ],
+   "doi": "10.1186/s12874-021-01469-6",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Spin appeared in 88.4% of hip/knee arthroplasty pilot and feasibility trials, with the highest rates in privately funded (95.7%) and pharmacologic (100%) studies.",
+   "claim_source_sentence": "Spin appeared in 88.4% of studies (95% CI 83.3-93.6).",
+   "evidence": "Shows near-ubiquitous spin in feasibility trials, highest under private funding.",
+   "effect_size": "88.4% of studies contained spin; 95.7% of privately funded",
+   "effect_size_source_sentence": "Spin was frequent in abstracts (78.9%) and discussions (79.6%), with the highest rates also observed in privately funded (95.7%) and pharmacologic (100%) studies.",
+   "n": 147,
+   "study_system": "hip/knee arthroplasty pilot and feasibility trials (n=147)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1001/jamanetworkopen.2021.35765",
+    "10.1016/j.bja.2023.01.001"
+   ],
+   "doi": "10.1186/s40814-026-01846-2",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Imaging studies using neural-network models for cancer showed mean TRIPOD-AI adherence of only 69%, with data-processing, missing-data and external-validation items reported by under a third.",
+   "claim_source_sentence": "Across these studies, the reporting adherence to the TRIPOD-AI checklist was moderate with a mean of 69% (range 65-75%).",
+   "evidence": "Confirms incomplete AI-model reporting even against the newer TRIPOD-AI guideline.",
+   "effect_size": "69% mean TRIPOD-AI adherence (range 65-75%)",
+   "effect_size_source_sentence": "Across these studies, the reporting adherence to the TRIPOD-AI checklist was moderate with a mean of 69% (range 65-75%).",
+   "n": 100,
+   "study_system": "cancer imaging neural-network models (n=100)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/s12874-021-01469-6",
+    "10.1136/bmjopen-2021-052568"
+   ],
+   "doi": "10.1016/j.ejrad.2026.112760",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Comparing preprint and published COVID-19 prediction-model studies, TRIPOD adherence rose by a median of only 3 percentage points, suggesting peer review had a trivial effect on reporting completeness.",
+   "claim_source_sentence": "The preprint reporting quality of COVID-19 prediction modeling studies is poor and did not improve much after peer review, suggesting peer review had a trivial effect on the completeness of reporting during the pandemic.",
+   "evidence": "Empirical test showing peer review barely improved reporting completeness.",
+   "effect_size": "median +3 percentage points adherence change (0-14 pp)",
+   "effect_size_source_sentence": "The median change in adherence was just 3 percentage points (pp, min-max: 0-14 pp) across all studies.",
+   "n": 19,
+   "study_system": "COVID-19 prediction-model studies, preprint vs published (n=19)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1136/bmjopen-2021-052568",
+    "10.1186/s12874-021-01469-6"
+   ],
+   "doi": "10.1016/j.jclinepi.2022.12.005",
+   "text_access": "abstract_only"
   }
  ],
  "conflicts": [
@@ -2064,6 +2879,30 @@
    "paper_b_claim": "Information about ethical statement and 3R's Principles Before ARRIVE guidelines became widely available, approximately 51% of papers on animal models evaluating drugs for Chagas disease included a statement about compliance with local or international guidelines for experimentation with animals.",
    "nature_of_conflict": "Whether journal endorsement/publication of reporting guidelines improves reporting: a systematic review finds insufficient evidence that endorsement is linked to completeness, while a before/after ARRIVE study finds guideline publication produced no significant improvement (51%->66%, p=0.26) - both undercut the assumption that endorsement drives better reporting but disagree on whether any endorsement-completeness signal exists at all.",
    "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.7554/elife.57067",
+   "paper_b_doi": "10.21203/rs.3.rs-7904485/v1",
+   "paper_a_claim": "We studied 1,207 institutions from across the world, and found that, in 2017, the top-performing universities published around 80-90% of their research open access.",
+   "paper_b_claim": "Over 60% of Tunisian publications remain behind paywalls, limiting their visibility and impact.",
+   "nature_of_conflict": "Effectiveness/reach of open-access policies is starkly uneven by context: high-income top-performing institutions approach near-universal OA (80-90%), whereas a low-resource national system (Tunisia) remains majority paywalled (>60%), driven by APC/funding barriers.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.7554/elife.57067",
+   "paper_b_doi": "10.1098/rsos.250826",
+   "paper_a_claim": "The proportion of research outputs published in open access journals or made available on other freely-accessible platforms has increased over the past two decades, driven largely by funder mandates, institutional policies, grass-roots advocacy, and changing attitudes in the research community.",
+   "paper_b_claim": "Our findings revealed a modest increase of OS over time but no significant difference between departments with more or less-established OS practices.",
+   "nature_of_conflict": "Whether institutional/policy interventions effectively raise open-research uptake: OA publishing shows strong mandate/repository-driven growth, but preregistration/data-sharing open-science practices in PhD theses rose only modestly and were unaffected by departmental OS implementation - so policy effect appears practice-specific.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1001/jamanetworkopen.2021.35765",
+   "paper_b_doi": "10.1186/s40814-026-01846-2",
+   "paper_a_claim": "Multivariable analysis found that novel experimental treatment (OR, 4.64; 95% CI, 0.98-22.02) and funding only from nonprofit sources only (OR, 5.20; 95% CI, 1.21-22.29) were associated with spin.",
+   "paper_b_claim": "Spin was frequent in abstracts (78.9%) and discussions (79.6%), with the highest rates also observed in privately funded (95.7%) and pharmacologic (100%) studies.",
+   "nature_of_conflict": "Opposite direction of the funding-source/spin association: the oncology study links spin to nonprofit funding, whereas the arthroplasty study finds the highest spin rates in privately/industry-funded studies.",
+   "resolution_status": "open"
   }
  ],
  "unreplicated_claims": [
@@ -2118,7 +2957,7 @@
   "claim": "NTS systematic-analysis method can support AWERB scrutiny of licence applications.",
   "why_weak": "Single proof-of-concept applied to one disease domain (respiratory) with no outcome measure of improved oversight or reduced animal use (10.1177/02611929221121076)."
  },
- "papers_reviewed_count": 140,
+ "papers_reviewed_count": 199,
  "evidence_artifact_id": "cluster_08_evidence.json",
  "figure_data": [
   {
@@ -2646,6 +3485,234 @@
     "n_definition_uniform": "true",
     "caveats": [
      "Overlapping but not identical guideline sets and time windows (2012 vs 2016 cutoff); the later review adds ARRIVE and CHEERS."
+    ]
+   }
+  },
+  {
+   "comparison_id": "open-access-uptake-context",
+   "comparison_name": "Open-access uptake: high-income top-performing institutions vs a low-resource national system",
+   "papers": [
+    {
+     "doi": "10.7554/elife.57067",
+     "metric": "share of outputs published open access (%)",
+     "value": "80-90",
+     "value_source_sentence": "We studied 1,207 institutions from across the world, and found that, in 2017, the top-performing universities published around 80-90% of their research open access.",
+     "ci_or_error": null,
+     "n": 1207,
+     "n_analyzed": "1,207 institutions",
+     "n_definition": "institutions analyzed",
+     "study_system": "Research institutions worldwide",
+     "experimental_conditions": "2017 outputs, top-performing universities",
+     "method": "bibliometric OA analysis",
+     "text_access": "abstract_only",
+     "scope_region": "global (top-performing universities)",
+     "scope_population": "top-performing universities",
+     "taxonomic_level": "institution-level"
+    },
+    {
+     "doi": "10.21203/rs.3.rs-7904485/v1",
+     "metric": "share of outputs behind paywalls (%)",
+     "value": ">60",
+     "value_source_sentence": "Over 60% of Tunisian publications remain behind paywalls, limiting their visibility and impact.",
+     "ci_or_error": null,
+     "n": null,
+     "n_analyzed": "national publication corpus (Scopus)",
+     "n_definition": "national publications",
+     "study_system": "Tunisian research publications",
+     "experimental_conditions": "Scopus-indexed national output",
+     "method": "Scopus bibliometric analysis",
+     "text_access": "abstract_only",
+     "scope_region": "Tunisia (national)",
+     "scope_population": "all national publications",
+     "taxonomic_level": "country-level"
+    }
+   ],
+   "comparison_type": "cross-study conflict",
+   "what_it_reveals": "Open-access policy effects are highly unequal across economic contexts: near-universal OA at well-resourced institutions vs majority-paywalled output in a low-resource setting, highlighting that reporting/access governance mandates do not translate uniformly.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "false",
+    "n_definition_uniform": "false",
+    "caveats": [
+     "Metrics are complementary rather than identical: elife reports OA share (%) among top-performing universities; the Tunisia study reports paywalled share (%) of the whole national corpus.",
+     "Scope differs: global top-performers (best-case) vs a single national system (average-case) - not a like-for-like population.",
+     "Tunisia figure is from a preprint; elife figure is peer-reviewed."
+    ]
+   }
+  },
+  {
+   "comparison_id": "spin-prevalence-across-clinical-fields",
+   "comparison_name": "Prevalence of spin (misleading reporting) across clinical fields",
+   "papers": [
+    {
+     "doi": "10.1001/jamanetworkopen.2021.35765",
+     "metric": "proportion of reports containing spin",
+     "value": "75.0%",
+     "value_source_sentence": "Spin was identified in 39 reports (75.0%; 95% CI, 61.6%-84.9%), including the abstract (34 reports [65.4%; 95% CI, 51.1%-76.9%]) and the main text (38 reports [73.1%; 95% CI, 59.7%-83.3%]).",
+     "ci_or_error": "95% CI 61.6-84.9",
+     "n": 52,
+     "n_analyzed": "52",
+     "n_definition": "trial reports assessed",
+     "study_system": "noninferiority oncology RCTs (nonsignificant primary outcome)",
+     "experimental_conditions": "nonsignificant primary endpoint",
+     "method": "cross-sectional spin assessment",
+     "text_access": "abstract_only",
+     "scope_region": "oncology",
+     "scope_population": "noninferiority RCTs with nonsignificant primary outcome",
+     "taxonomic_level": "field-level"
+    },
+    {
+     "doi": "10.1016/j.bja.2023.01.001",
+     "metric": "proportion of negative RCTs containing spin",
+     "value": "40%",
+     "value_source_sentence": "For the statistically negative studies, 66 articles (40%) presented spin; 89% of these occurrences of spin were described in the conclusion of the abstract.",
+     "ci_or_error": null,
+     "n": 162,
+     "n_analyzed": "162",
+     "n_definition": "RCT reports analysed for spin",
+     "study_system": "anaesthesia RCTs",
+     "experimental_conditions": "statistically negative RCTs",
+     "method": "cross-sectional spin assessment",
+     "text_access": "abstract_only",
+     "scope_region": "anaesthesia",
+     "scope_population": "statistically negative RCTs",
+     "taxonomic_level": "field-level"
+    },
+    {
+     "doi": "10.1097/DCR.0000000000000425",
+     "metric": "proportion of studies with spin",
+     "value": "82%",
+     "value_source_sentence": "Evidence of spin was found in 82% of studies.",
+     "ci_or_error": null,
+     "n": 38,
+     "n_analyzed": "38",
+     "n_definition": "comparative studies assessed",
+     "study_system": "robotic colorectal surgery studies (nonsignificant primary outcome)",
+     "experimental_conditions": "nonsignificant difference in primary outcome",
+     "method": "cross-sectional spin assessment",
+     "text_access": "abstract_only",
+     "scope_region": "colorectal surgery",
+     "scope_population": "studies with nonsignificant primary outcome",
+     "taxonomic_level": "field-level"
+    },
+    {
+     "doi": "10.1002/ana.78125",
+     "metric": "proportion of RCTs with spin",
+     "value": "62.5%",
+     "value_source_sentence": "Spin appeared in at least one section in 25 articles (62.5%) and in 3 or more in 19 articles (47.5%).",
+     "ci_or_error": null,
+     "n": 40,
+     "n_analyzed": "40",
+     "n_definition": "RCTs meeting inclusion criteria",
+     "study_system": "multiple sclerosis RCTs (nonsignificant primary outcome)",
+     "experimental_conditions": "nonsignificant primary outcome",
+     "method": "cross-sectional spin assessment",
+     "text_access": "abstract_only",
+     "scope_region": "neurology (multiple sclerosis)",
+     "scope_population": "phase 3/4 RCTs with nonsignificant primary outcome",
+     "taxonomic_level": "field-level"
+    },
+    {
+     "doi": "10.1186/s40814-026-01846-2",
+     "metric": "proportion of trials with spin",
+     "value": "88.4%",
+     "value_source_sentence": "Spin appeared in 88.4% of studies (95% CI 83.3-93.6).",
+     "ci_or_error": "95% CI 83.3-93.6",
+     "n": 147,
+     "n_analyzed": "147",
+     "n_definition": "pilot/feasibility trials sampled",
+     "study_system": "hip/knee arthroplasty pilot and feasibility trials",
+     "experimental_conditions": "pilot/feasibility trials (all)",
+     "method": "cross-sectional spin assessment",
+     "text_access": "abstract_only",
+     "scope_region": "orthopaedic surgery",
+     "scope_population": "pilot and feasibility trials (irrespective of significance)",
+     "taxonomic_level": "field-level"
+    }
+   ],
+   "comparison_type": "convergent evidence",
+   "what_it_reveals": "Spin is highly prevalent across clinical fields, but denominators differ (some restrict to statistically negative/nonsignificant trials, others include all trials), so absolute percentages are not directly comparable.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "true",
+    "n_definition_uniform": "false",
+    "caveats": [
+     "Denominator differs: oncology/anaesthesia/colorectal/MS restrict to nonsignificant or statistically negative trials, whereas arthroplasty counts all pilot/feasibility trials.",
+     "Spin definitions/instruments vary slightly across studies."
+    ]
+   }
+  },
+  {
+   "comparison_id": "tripod-reporting-adherence-across-domains",
+   "comparison_name": "TRIPOD reporting-guideline adherence (median/mean % of items) across domains",
+   "papers": [
+    {
+     "doi": "10.1186/s12874-021-01469-6",
+     "metric": "median TRIPOD adherence (% of items)",
+     "value": "38.7%",
+     "value_source_sentence": "Overall, articles adhered to a median of 38.7% (IQR 31.0-46.4%) of TRIPOD items.",
+     "ci_or_error": "IQR 31.0-46.4",
+     "n": 152,
+     "n_analyzed": "152",
+     "n_definition": "ML prediction-model studies",
+     "study_system": "machine-learning clinical prediction models (all fields)",
+     "experimental_conditions": "TRIPOD 22-item checklist",
+     "method": "metaresearch adherence assessment",
+     "text_access": "abstract_only",
+     "scope_region": "all medical fields",
+     "scope_population": "ML prediction-model studies",
+     "taxonomic_level": "guideline-item level"
+    },
+    {
+     "doi": "10.1136/bmjopen-2021-052568",
+     "metric": "median TRIPOD adherence (% of items)",
+     "value": "60%",
+     "value_source_sentence": "Median TRIPOD checklist adherence was 60% (34%-77%), and no significant improvement was found since the publication of the TRIPOD checklist (p=0.770).",
+     "ci_or_error": "range 34-77",
+     "n": 36,
+     "n_analyzed": "36",
+     "n_definition": "CIN prediction-model studies",
+     "study_system": "contrast-induced nephropathy prediction models (CAG/PCI)",
+     "experimental_conditions": "TRIPOD 22-item checklist",
+     "method": "metaresearch adherence assessment",
+     "text_access": "abstract_only",
+     "scope_region": "cardiology/nephrology",
+     "scope_population": "CIN prediction-model development studies",
+     "taxonomic_level": "guideline-item level"
+    },
+    {
+     "doi": "10.1016/j.ejrad.2026.112760",
+     "metric": "mean TRIPOD-AI adherence (% of items)",
+     "value": "69%",
+     "value_source_sentence": "Across these studies, the reporting adherence to the TRIPOD-AI checklist was moderate with a mean of 69% (range 65-75%).",
+     "ci_or_error": "range 65-75",
+     "n": 100,
+     "n_analyzed": "100",
+     "n_definition": "cancer imaging ANN studies",
+     "study_system": "cancer imaging neural-network models",
+     "experimental_conditions": "TRIPOD-AI checklist",
+     "method": "metaresearch adherence assessment",
+     "text_access": "abstract_only",
+     "scope_region": "oncologic imaging",
+     "scope_population": "ANN cancer screening/diagnosis studies",
+     "taxonomic_level": "guideline-item level"
+    }
+   ],
+   "comparison_type": "convergent evidence",
+   "what_it_reveals": "Reporting completeness of prediction models is consistently incomplete (39-69% of items) across domains and even against the newer TRIPOD-AI guideline.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "true",
+    "n_definition_uniform": "true",
+    "caveats": [
+     "Central-tendency measure differs (two report median, one reports mean).",
+     "Guideline version differs: two assess TRIPOD (22 items), one assesses TRIPOD-AI."
     ]
    }
   }

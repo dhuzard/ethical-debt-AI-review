@@ -1,0 +1,3679 @@
+{
+ "Bert2019": {
+  "doi": "10.1371/journal.pbio.3000463",
+  "family": "Bert",
+  "given": "Bettina",
+  "all_families": [
+   "Bert",
+   "Heinl",
+   "Chmielewska",
+   "Schwarz",
+   "Grune",
+   "Hensel",
+   "Greiner",
+   "Schönfelder"
+  ],
+  "year": 2019,
+  "title": "Refining animal research: The Animal Study Registry",
+  "container": "PLOS Biology",
+  "citet_display": "Bert et al.",
+  "crossref_ok": true
+ },
+ "Lamontagne2010": {
+  "doi": "10.1097/CCM.0b013e3181fa0468",
+  "family": "Lamontagne",
+  "given": "François",
+  "all_families": [
+   "Lamontagne",
+   "Briel",
+   "Duffett",
+   "Fox-Robichaud",
+   "Cook",
+   "Guyatt",
+   "Lesur",
+   "Meade"
+  ],
+  "year": 2010,
+  "title": "Systematic review of reviews including animal studies addressing therapeutic interventions for sepsis*",
+  "container": "Critical Care Medicine",
+  "citet_display": "Lamontagne et al.",
+  "crossref_ok": true
+ },
+ "Souren2022": {
+  "doi": "10.15252/embj.2022111307",
+  "family": "Souren",
+  "given": "Nicole Y",
+  "all_families": [
+   "Souren",
+   "Fusenig",
+   "Heck",
+   "Dirks",
+   "Capes‐Davis",
+   "Bianchini",
+   "Plass"
+  ],
+  "year": 2022,
+  "title": "Cell line authentication: a necessity for reproducible biomedical research",
+  "container": "The EMBO Journal",
+  "citet_display": "Souren et al.",
+  "crossref_ok": true
+ },
+ "Leenaars2019b": {
+  "doi": "10.1186/s12967-019-1976-2",
+  "family": "Leenaars",
+  "given": "Cathalijn H. C.",
+  "all_families": [
+   "Leenaars",
+   "Kouwenaar",
+   "Stafleu",
+   "Bleich",
+   "Ritskes-Hoitinga",
+   "De Vries",
+   "Meijboom"
+  ],
+  "year": 2019,
+  "title": "Animal to human translation: a systematic scoping review of reported concordance rates",
+  "container": "Journal of Translational Medicine",
+  "citet_display": "Leenaars et al.",
+  "crossref_ok": true
+ },
+ "Lu2025": {
+  "doi": "10.1186/s13287-025-04432-0",
+  "family": "Lu",
+  "given": "Xianying",
+  "all_families": [
+   "Lu",
+   "Xu",
+   "Dong",
+   "Bai",
+   "Ji",
+   "Chen",
+   "Chen",
+   "Hou",
+   "Gao"
+  ],
+  "year": 2025,
+  "title": "Cell-derived exosome therapy for diabetic peripheral neuropathy: a preclinical animal studies systematic review and meta-analysis",
+  "container": "Stem Cell Research &amp; Therapy",
+  "citet_display": "Lu et al.",
+  "crossref_ok": true
+ },
+ "Miller2016": {
+  "doi": "10.1096/fj.201600781R",
+  "family": "Miller",
+  "given": "Leah R.",
+  "all_families": [
+   "Miller",
+   "Marks",
+   "Becker",
+   "Hurn",
+   "Chen",
+   "Woodruff",
+   "McCarthy",
+   "Sohrabji",
+   "Schiebinger",
+   "Wetherington",
+   "Makris",
+   "Arnold",
+   "Einstein",
+   "Miller",
+   "Sandberg",
+   "Maier",
+   "Cornelison",
+   "Clayton"
+  ],
+  "year": 2016,
+  "title": "Considering sex as a biological variable in preclinical research",
+  "container": "The FASEB Journal",
+  "citet_display": "Miller et al.",
+  "crossref_ok": true
+ },
+ "Reynolds2020": {
+  "doi": "10.1097/SHK.0000000000001544",
+  "family": "Reynolds",
+  "given": "Penny S.",
+  "all_families": [
+   "Reynolds",
+   "Garvan"
+  ],
+  "year": 2020,
+  "title": "Preclinical Research Reporting in Shock: Room for Improvement",
+  "container": "Shock",
+  "citet_display": "Reynolds and Garvan",
+  "crossref_ok": true
+ },
+ "Aquarius2023": {
+  "doi": "10.1007/s00701-023-05638-y",
+  "family": "Aquarius",
+  "given": "René",
+  "all_families": [
+   "Aquarius",
+   "Elbertsen",
+   "de Vries",
+   "Boogaarts",
+   "Wever"
+  ],
+  "year": 2023,
+  "title": "A systematic review of the Woven EndoBridge device—do findings in pre-clinical animal models compare to clinical results?",
+  "container": "Acta Neurochirurgica",
+  "citet_display": "Aquarius et al.",
+  "crossref_ok": true
+ },
+ "Cannon2023": {
+  "doi": "10.3389/fvets.2023.1135282",
+  "family": "Cannon",
+  "given": "Amelia Elaine",
+  "all_families": [
+   "Cannon",
+   "Zürrer",
+   "Zejlon",
+   "Kulcsar",
+   "Lewandowski",
+   "Piehl",
+   "Granberg",
+   "Ineichen"
+  ],
+  "year": 2023,
+  "title": "Neuroimaging findings in preclinical amyotrophic lateral sclerosis models—How well do they mimic the clinical phenotype? A systematic review",
+  "container": "Frontiers in Veterinary Science",
+  "citet_display": "Cannon et al.",
+  "crossref_ok": true
+ },
+ "Ioannidis2005a": {
+  "doi": "10.1001/jama.294.2.218",
+  "family": "Ioannidis",
+  "given": "John P. A.",
+  "all_families": [
+   "Ioannidis"
+  ],
+  "year": 2005,
+  "title": "Contradicted and Initially Stronger Effects in Highly Cited Clinical Research",
+  "container": "JAMA",
+  "citet_display": "Ioannidis",
+  "crossref_ok": true
+ },
+ "Camerer2018": {
+  "doi": "10.1038/s41562-018-0399-z",
+  "family": "Camerer",
+  "given": "Colin F.",
+  "all_families": [
+   "Camerer",
+   "Dreber",
+   "Holzmeister",
+   "Ho",
+   "Huber",
+   "Johannesson",
+   "Kirchler",
+   "Nave",
+   "Nosek",
+   "Pfeiffer",
+   "Altmejd",
+   "Buttrick",
+   "Chan",
+   "Chen",
+   "Forsell",
+   "Gampa",
+   "Heikensten",
+   "Hummer",
+   "Imai",
+   "Isaksson",
+   "Manfredi",
+   "Rose",
+   "Wagenmakers",
+   "Wu"
+  ],
+  "year": 2018,
+  "title": "Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015",
+  "container": "Nature Human Behaviour",
+  "citet_display": "Camerer et al.",
+  "crossref_ok": true
+ },
+ "terRiet2012": {
+  "doi": "10.1371/journal.pone.0043404",
+  "family": "ter Riet",
+  "given": "Gerben",
+  "all_families": [
+   "ter Riet",
+   "Korevaar",
+   "Leenaars",
+   "Sterk",
+   "Van Noorden",
+   "Bouter",
+   "Lutter",
+   "Elferink",
+   "Hooft"
+  ],
+  "year": 2012,
+  "title": "Publication Bias in Laboratory Animal Research: A Survey on Magnitude, Drivers, Consequences and Potential Solutions",
+  "container": "PLoS ONE",
+  "citet_display": "ter Riet et al.",
+  "crossref_ok": true
+ },
+ "vanderWorp2010": {
+  "doi": "10.1371/journal.pmed.1000245",
+  "family": "van der Worp",
+  "given": "H. Bart",
+  "all_families": [
+   "van der Worp",
+   "Howells",
+   "Sena",
+   "Porritt",
+   "Rewell",
+   "O'Collins",
+   "Macleod"
+  ],
+  "year": 2010,
+  "title": "Can Animal Models of Disease Reliably Inform Human Studies?",
+  "container": "PLoS Medicine",
+  "citet_display": "van der Worp et al.",
+  "crossref_ok": true
+ },
+ "Li2012": {
+  "doi": "10.1038/ijo.2012.82",
+  "family": "Li",
+  "given": "A",
+  "all_families": [
+   "Li",
+   "Meyre"
+  ],
+  "year": 2012,
+  "title": "Challenges in reproducibility of genetic association studies: lessons learned from the obesity field",
+  "container": "International Journal of Obesity",
+  "citet_display": "Li and Meyre",
+  "crossref_ok": true
+ },
+ "Fu2022": {
+  "doi": "10.3389/fphar.2022.1009169",
+  "family": "Fu",
+  "given": "Wenqiao",
+  "all_families": [
+   "Fu",
+   "Tang",
+   "Che",
+   "Tan",
+   "Ma",
+   "He"
+  ],
+  "year": 2022,
+  "title": "Neuropharmacological efficacy of metformin for stroke in rodents: A meta-analysis of preclinical trials",
+  "container": "Frontiers in Pharmacology",
+  "citet_display": "Fu et al.",
+  "crossref_ok": true
+ },
+ "Sharif2025": {
+  "doi": "10.7554/eLife.103245",
+  "family": "Sharif",
+  "given": "Ayni",
+  "all_families": [
+   "Sharif",
+   "Jeffers",
+   "Fergusson",
+   "Bapuji",
+   "Nicholls",
+   "Humphrey",
+   "Johnston",
+   "Mitchell",
+   "Speirs",
+   "Stronghill",
+   "Vuckovic",
+   "Wulf",
+   "Shorr",
+   "Dowlatshahi",
+   "Corbett",
+   "Lalu"
+  ],
+  "year": 2025,
+  "title": "Preclinical systematic review of CCR5 antagonists as cerebroprotective and stroke recovery enhancing agents",
+  "container": "eLife",
+  "citet_display": "Sharif et al.",
+  "crossref_ok": true
+ },
+ "Ma2020": {
+  "doi": "10.1186/s40779-020-00238-8",
+  "family": "Ma",
+  "given": "Lin-Lu",
+  "all_families": [
+   "Ma",
+   "Wang",
+   "Yang",
+   "Huang",
+   "Weng",
+   "Zeng"
+  ],
+  "year": 2020,
+  "title": "Methodological quality (risk of bias) assessment tools for primary and secondary medical studies: what are they and which is better?",
+  "container": "Military Medical Research",
+  "citet_display": "Ma et al.",
+  "crossref_ok": true
+ },
+ "AKHTAR2015": {
+  "doi": "10.1017/S0963180115000079",
+  "family": "AKHTAR",
+  "given": "AYSHA",
+  "all_families": [
+   "AKHTAR"
+  ],
+  "year": 2015,
+  "title": "The Flaws and Human Harms of Animal Experimentation",
+  "container": "Cambridge Quarterly of Healthcare Ethics",
+  "citet_display": "AKHTAR",
+  "crossref_ok": true
+ },
+ "Ratajczak2024": {
+  "doi": "10.3390/pharmaceutics16091144",
+  "family": "Ratajczak",
+  "given": "Piotr",
+  "all_families": [
+   "Ratajczak",
+   "Martyński",
+   "Zięba",
+   "Świło",
+   "Kopciuch",
+   "Paczkowska",
+   "Zaprutko",
+   "Kus"
+  ],
+  "year": 2024,
+  "title": "Comparative Efficacy of Animal Depression Models and Antidepressant Treatment: A Systematic Review and Meta-Analysis",
+  "container": "Pharmaceutics",
+  "citet_display": "Ratajczak et al.",
+  "crossref_ok": true
+ },
+ "Schuhmacher2025": {
+  "doi": "10.1016/j.drudis.2025.104291",
+  "family": "Schuhmacher",
+  "given": "Alexander",
+  "all_families": [
+   "Schuhmacher",
+   "Hinder",
+   "Brief",
+   "Gassmann",
+   "Hartl"
+  ],
+  "year": 2025,
+  "title": "Benchmarking R&amp;D success rates of leading pharmaceutical companies: an empirical analysis of FDA approvals (2006–2022)",
+  "container": "Drug Discovery Today",
+  "citet_display": "Schuhmacher et al.",
+  "crossref_ok": true
+ },
+ "Voelkl2018": {
+  "doi": "10.1371/journal.pbio.2003693",
+  "family": "Voelkl",
+  "given": "Bernhard",
+  "all_families": [
+   "Voelkl",
+   "Vogt",
+   "Sena",
+   "Würbel"
+  ],
+  "year": 2018,
+  "title": "Reproducibility of preclinical animal research improves with heterogeneity of study samples",
+  "container": "PLOS Biology",
+  "citet_display": "Voelkl et al.",
+  "crossref_ok": true
+ },
+ "deJonge2019": {
+  "doi": "10.1177/2396987318776421",
+  "family": "de Jonge",
+  "given": "Jeroen C",
+  "all_families": [
+   "de Jonge",
+   "Wallet",
+   "van der Worp"
+  ],
+  "year": 2019,
+  "title": "Fever worsens outcomes in animal models of ischaemic stroke: A systematic review and meta-analysis",
+  "container": "European Stroke Journal",
+  "citet_display": "de Jonge et al.",
+  "crossref_ok": true
+ },
+ "Gilbert2016": {
+  "doi": "10.1126/science.aad7243",
+  "family": "Gilbert",
+  "given": "Daniel T.",
+  "all_families": [
+   "Gilbert",
+   "King",
+   "Pettigrew",
+   "Wilson"
+  ],
+  "year": 2016,
+  "title": "Comment on “Estimating the reproducibility of psychological science”",
+  "container": "Science",
+  "citet_display": "Gilbert et al.",
+  "crossref_ok": true
+ },
+ "Martins2025": {
+  "doi": "10.1097/FBP.0000000000000844",
+  "family": "Martins",
+  "given": "Tamires",
+  "all_families": [
+   "Martins",
+   "Ramos-Hryb",
+   "da Silva",
+   "do Prado",
+   "Eckert",
+   "Triches",
+   "da Costa",
+   "Bolzan",
+   "McCann",
+   "Lino de Oliveira"
+  ],
+  "year": 2025,
+  "title": "Antidepressant effect or bias? Systematic review and meta-analysis of studies using the forced swimming test",
+  "container": "Behavioural Pharmacology",
+  "citet_display": "Martins et al.",
+  "crossref_ok": true
+ },
+ "Attia2017": {
+  "doi": "10.2174/1871527315666161104161855",
+  "family": "Attia",
+  "given": "Attia",
+  "all_families": [
+   "Attia",
+   "Ahmed",
+   "Gadelkarim",
+   "Morsi",
+   "Awad",
+   "Elnenny",
+   "Ghanem",
+   "El-Jaafary",
+   "Negida"
+  ],
+  "year": 2017,
+  "title": "Meta-Analysis of Creatine for Neuroprotection Against Parkinson’s Disease",
+  "container": "CNS &amp; Neurological Disorders - Drug Targets",
+  "citet_display": "Attia et al.",
+  "crossref_ok": true
+ },
+ "Freedman2017": {
+  "doi": "10.12688/f1000research.11334.1",
+  "family": "Freedman",
+  "given": "Leonard P.",
+  "all_families": [
+   "Freedman",
+   "Venugopalan",
+   "Wisman"
+  ],
+  "year": 2017,
+  "title": "Reproducibility2020: Progress and priorities",
+  "container": "F1000Research",
+  "citet_display": "Freedman et al.",
+  "crossref_ok": true
+ },
+ "Yang2025": {
+  "doi": "10.4103/NRR.NRR-D-24-01030",
+  "family": "Yang",
+  "given": "Guohui",
+  "all_families": [
+   "Yang",
+   "Guan",
+   "Liu",
+   "Lin",
+   "Xing",
+   "Feng",
+   "Li",
+   "Wu",
+   "Wang",
+   "Luo"
+  ],
+  "year": 2025,
+  "title": "Electroacupuncture for the treatment of ischemic stroke: A preclinical meta-analysis and systematic review",
+  "container": "Neural Regeneration Research",
+  "citet_display": "Yang et al.",
+  "crossref_ok": true
+ },
+ "Fitzpatrick2018": {
+  "doi": "10.1007/s11538-018-0496-1",
+  "family": "Fitzpatrick",
+  "given": "B. G.",
+  "all_families": [
+   "Fitzpatrick"
+  ],
+  "year": 2018,
+  "title": "Issues in Reproducible Simulation Research",
+  "container": "Bulletin of Mathematical Biology",
+  "citet_display": "Fitzpatrick",
+  "crossref_ok": true
+ },
+ "Plevkova2017": {
+  "doi": "10.1016/j.resp.2016.12.006",
+  "family": "Plevkova",
+  "given": "Jana",
+  "all_families": [
+   "Plevkova",
+   "Buday",
+   "Kavalcikova − Bogdanova",
+   "Kovacikova",
+   "Ruzinak"
+  ],
+  "year": 2017,
+  "title": "Role of gender in basic cough research",
+  "container": "Respiratory Physiology &amp; Neurobiology",
+  "citet_display": "Plevkova et al.",
+  "crossref_ok": true
+ },
+ "Antonic2013": {
+  "doi": "10.1371/journal.pbio.1001738",
+  "family": "Antonic",
+  "given": "Ana",
+  "all_families": [
+   "Antonic",
+   "Sena",
+   "Lees",
+   "Wills",
+   "Skeers",
+   "Batchelor",
+   "Macleod",
+   "Howells"
+  ],
+  "year": 2013,
+  "title": "Stem Cell Transplantation in Traumatic Spinal Cord Injury: A Systematic Review and Meta-Analysis of Animal Studies",
+  "container": "PLoS Biology",
+  "citet_display": "Antonic et al.",
+  "crossref_ok": true
+ },
+ "Fraser2018": {
+  "doi": "10.1371/journal.pone.0200303",
+  "family": "Fraser",
+  "given": "Hannah",
+  "all_families": [
+   "Fraser",
+   "Parker",
+   "Nakagawa",
+   "Barnett",
+   "Fidler"
+  ],
+  "year": 2018,
+  "title": "Questionable research practices in ecology and evolution",
+  "container": "PLOS ONE",
+  "citet_display": "Fraser et al.",
+  "crossref_ok": true
+ },
+ "Ingre2018": {
+  "doi": "10.1098/rsos.181190",
+  "family": "Ingre",
+  "given": "Michael",
+  "all_families": [
+   "Ingre",
+   "Nilsonne"
+  ],
+  "year": 2018,
+  "title": "Estimating statistical power, posterior probability and publication bias of psychological research using the observed replication rate",
+  "container": "Royal Society Open Science",
+  "citet_display": "Ingre and Nilsonne",
+  "crossref_ok": true
+ },
+ "Im2021": {
+  "doi": "10.1002/hep.31897",
+  "family": "Im",
+  "given": "Yu Ri",
+  "all_families": [
+   "Im",
+   "Hunter",
+   "de Gracia Hahn",
+   "Duret",
+   "Cheah",
+   "Dong",
+   "Fairey",
+   "Hjalmarsson",
+   "Li",
+   "Lim",
+   "McKeown",
+   "Mitrofan",
+   "Rao",
+   "Utukuri",
+   "Rowe",
+   "Mann"
+  ],
+  "year": 2021,
+  "title": "A Systematic Review of Animal Models of NAFLD Finds High‐Fat, High‐Fructose Diets Most Closely Resemble Human NAFLD",
+  "container": "Hepatology",
+  "citet_display": "Im et al.",
+  "crossref_ok": true
+ },
+ "Bolan2019": {
+  "doi": "10.3389/fneur.2019.00924",
+  "family": "Bolan",
+  "given": "Faye",
+  "all_families": [
+   "Bolan",
+   "Louca",
+   "Heal",
+   "Cunningham"
+  ],
+  "year": 2019,
+  "title": "The Potential of Biomaterial-Based Approaches as Therapies for Ischemic Stroke: A Systematic Review and Meta-Analysis of Pre-clinical Studies",
+  "container": "Frontiers in Neurology",
+  "citet_display": "Bolan et al.",
+  "crossref_ok": true
+ },
+ "Brandner2024": {
+  "doi": "10.1007/s00213-024-06660-3",
+  "family": "Brandner",
+  "given": "Dieter D.",
+  "all_families": [
+   "Brandner",
+   "Mashal",
+   "Grissom",
+   "Rothwell"
+  ],
+  "year": 2024,
+  "title": "Sex differences in morphine sensitivity of neuroligin-3 knockout mice",
+  "container": "Psychopharmacology",
+  "citet_display": "Brandner et al.",
+  "crossref_ok": true
+ },
+ "Devlin2022": {
+  "doi": "10.1242/dmm.049795",
+  "family": "Devlin",
+  "given": "Ryan",
+  "all_families": [
+   "Devlin",
+   "Roberts"
+  ],
+  "year": 2022,
+  "title": "Building a healthy mouse model ecosystem to interrogate cancer biology",
+  "container": "Disease Models &amp; Mechanisms",
+  "citet_display": "Devlin and Roberts",
+  "crossref_ok": true
+ },
+ "Lalu2016": {
+  "doi": "10.7554/eLife.17850",
+  "family": "Lalu",
+  "given": "Manoj M",
+  "all_families": [
+   "Lalu",
+   "Sullivan",
+   "Mei",
+   "Moher",
+   "Straus",
+   "Fergusson",
+   "Stewart",
+   "Jazi",
+   "MacLeod",
+   "Winston",
+   "Marshall",
+   "Hutton",
+   "Walley",
+   "McIntyre"
+  ],
+  "year": 2016,
+  "title": "Evaluating mesenchymal stem cell therapy for sepsis with preclinical meta-analyses prior to initiating a first-in-human trial",
+  "container": "eLife",
+  "citet_display": "Lalu et al.",
+  "crossref_ok": true
+ },
+ "Jonker2016": {
+  "doi": "10.1371/journal.pone.0150863",
+  "family": "Jonker",
+  "given": "Simone J.",
+  "all_families": [
+   "Jonker",
+   "Menting",
+   "Warlé",
+   "Ritskes-Hoitinga",
+   "Wever"
+  ],
+  "year": 2016,
+  "title": "Preclinical Evidence for the Efficacy of Ischemic Postconditioning against Renal Ischemia-Reperfusion Injury, a Systematic Review and Meta-Analysis",
+  "container": "PLOS ONE",
+  "citet_display": "Jonker et al.",
+  "crossref_ok": true
+ },
+ "Lin2021": {
+  "doi": "10.1155/2021/2098820",
+  "family": "Lin",
+  "given": "Zhou",
+  "all_families": [
+   "Lin",
+   "Zheng",
+   "Chen",
+   "Chen",
+   "Dong"
+  ],
+  "year": 2021,
+  "title": "Antiosteoporosis Effect and Possible Mechanisms of the Ingredients of Fructus Psoraleae in Animal Models of Osteoporosis: A Preclinical Systematic Review and Meta‐Analysis",
+  "container": "Oxidative Medicine and Cellular Longevity",
+  "citet_display": "Lin et al.",
+  "crossref_ok": true
+ },
+ "Xing2018": {
+  "doi": "10.1016/j.joca.2018.01.010",
+  "family": "Xing",
+  "given": "D.",
+  "all_families": [
+   "Xing",
+   "Kwong",
+   "Yang",
+   "Hou",
+   "Zhang",
+   "Ma",
+   "Lin"
+  ],
+  "year": 2018,
+  "title": "Intra-articular injection of mesenchymal stem cells in treating knee osteoarthritis: a systematic review of animal studies",
+  "container": "Osteoarthritis and Cartilage",
+  "citet_display": "Xing et al.",
+  "crossref_ok": true
+ },
+ "IOANNIDIS2016": {
+  "doi": "10.1111/1468-0009.12210",
+  "family": "IOANNIDIS",
+  "given": "JOHN P.A.",
+  "all_families": [
+   "IOANNIDIS"
+  ],
+  "year": 2016,
+  "title": "The Mass Production of Redundant, Misleading, and Conflicted Systematic Reviews and Meta‐analyses",
+  "container": "The Milbank Quarterly",
+  "citet_display": "IOANNIDIS",
+  "crossref_ok": true
+ },
+ "Hooijmans2014": {
+  "doi": "10.1186/1471-2288-14-43",
+  "family": "Hooijmans",
+  "given": "Carlijn R",
+  "all_families": [
+   "Hooijmans",
+   "Rovers",
+   "de Vries",
+   "Leenaars",
+   "Ritskes-Hoitinga",
+   "Langendam"
+  ],
+  "year": 2014,
+  "title": "SYRCLE’s risk of bias tool for animal studies",
+  "container": "BMC Medical Research Methodology",
+  "citet_display": "Hooijmans et al.",
+  "crossref_ok": true
+ },
+ "Zhu2019": {
+  "doi": "10.1016/j.phymed.2018.09.215",
+  "family": "Zhu",
+  "given": "Qi",
+  "all_families": [
+   "Zhu",
+   "Zhuang",
+   "Lu"
+  ],
+  "year": 2019,
+  "title": "Neuroprotective effects of baicalein in animal models of Parkinson's disease: A systematic review of experimental studies",
+  "container": "Phytomedicine",
+  "citet_display": "Zhu et al.",
+  "crossref_ok": true
+ },
+ "Crabbe1999": {
+  "doi": "10.1126/science.284.5420.1670",
+  "family": "Crabbe",
+  "given": "John C.",
+  "all_families": [
+   "Crabbe",
+   "Wahlsten",
+   "Dudek"
+  ],
+  "year": 1999,
+  "title": "Genetics of Mouse Behavior: Interactions with Laboratory Environment",
+  "container": "Science",
+  "citet_display": "Crabbe et al.",
+  "crossref_ok": true
+ },
+ "Fidler2017": {
+  "doi": "10.1093/biosci/biw159",
+  "family": "Fidler",
+  "given": "Fiona",
+  "all_families": [
+   "Fidler",
+   "Chee",
+   "Wintle",
+   "Burgman",
+   "McCarthy",
+   "Gordon"
+  ],
+  "year": 2017,
+  "title": "Metaresearch for Evaluating Reproducibility in Ecology and Evolution",
+  "container": "BioScience",
+  "citet_display": "Fidler et al.",
+  "crossref_ok": true
+ },
+ "Greenberg2009": {
+  "doi": "10.1136/bmj.b2680",
+  "family": "Greenberg",
+  "given": "S. A",
+  "all_families": [
+   "Greenberg"
+  ],
+  "year": 2009,
+  "title": "How citation distortions create unfounded authority: analysis of a citation network",
+  "container": "BMJ",
+  "citet_display": "Greenberg",
+  "crossref_ok": true
+ },
+ "Allaband2024": {
+  "doi": "10.1038/s42255-024-01064-1",
+  "family": "Allaband",
+  "given": "Celeste",
+  "all_families": [
+   "Allaband",
+   "Lingaraju",
+   "Flores Ramos",
+   "Kumar",
+   "Javaheri",
+   "Tiu",
+   "Dantas Machado",
+   "Richter",
+   "Elijah",
+   "Haddad",
+   "Leone",
+   "Dorrestein",
+   "Knight",
+   "Zarrinpar"
+  ],
+  "year": 2024,
+  "title": "Time of sample collection is critical for the replicability of microbiome analyses",
+  "container": "Nature Metabolism",
+  "citet_display": "Allaband et al.",
+  "crossref_ok": true
+ },
+ "Ioannidis2014c": {
+  "doi": "10.1371/journal.pmed.1001747",
+  "family": "Ioannidis",
+  "given": "John P. A.",
+  "all_families": [
+   "Ioannidis"
+  ],
+  "year": 2014,
+  "title": "How to Make More Published Research True",
+  "container": "PLoS Medicine",
+  "citet_display": "Ioannidis",
+  "crossref_ok": true
+ },
+ "Curran2018": {
+  "doi": "10.1098/rsob.180098",
+  "family": "Curran",
+  "given": "Tom",
+  "all_families": [
+   "Curran"
+  ],
+  "year": 2018,
+  "title": "Reproducibility of academic preclinical translational research: lessons from the development of Hedgehog pathway inhibitors to treat cancer",
+  "container": "Open Biology",
+  "citet_display": "Curran",
+  "crossref_ok": true
+ },
+ "Voelkl2021": {
+  "doi": "10.1007/s12064-021-00340-y",
+  "family": "Voelkl",
+  "given": "Bernhard",
+  "all_families": [
+   "Voelkl",
+   "Würbel"
+  ],
+  "year": 2021,
+  "title": "A reaction norm perspective on reproducibility",
+  "container": "Theory in Biosciences",
+  "citet_display": "Voelkl and Würbel",
+  "crossref_ok": true
+ },
+ "NasreNasser2022": {
+  "doi": "10.1007/s12035-022-02970-9",
+  "family": "Nasre-Nasser",
+  "given": "Raif Gregorio",
+  "all_families": [
+   "Nasre-Nasser",
+   "Severo",
+   "Pires",
+   "Hort",
+   "Arbo"
+  ],
+  "year": 2022,
+  "title": "Effects of Progesterone on Preclinical Animal Models of Traumatic Brain Injury: Systematic Review and Meta-analysis",
+  "container": "Molecular Neurobiology",
+  "citet_display": "Nasre-Nasser et al.",
+  "crossref_ok": true
+ },
+ "OLeary2022": {
+  "doi": "10.1111/gbb.12794",
+  "family": "O'Leary",
+  "given": "Timothy P.",
+  "all_families": [
+   "O'Leary",
+   "Brown"
+  ],
+  "year": 2022,
+  "title": "Visuo‐spatial learning and memory impairments in the 5xFAD mouse model of Alzheimer's disease: Effects of age, sex, albinism, and motor impairments",
+  "container": "Genes, Brain and Behavior",
+  "citet_display": "O'Leary and Brown",
+  "crossref_ok": true
+ },
+ "PercieduSert2020a": {
+  "doi": "10.1371/journal.pbio.3000410",
+  "family": "Percie du Sert",
+  "given": "Nathalie",
+  "all_families": [
+   "Percie du Sert",
+   "Hurst",
+   "Ahluwalia",
+   "Alam",
+   "Avey",
+   "Baker",
+   "Browne",
+   "Clark",
+   "Cuthill",
+   "Dirnagl",
+   "Emerson",
+   "Garner",
+   "Holgate",
+   "Howells",
+   "Karp",
+   "Lazic",
+   "Lidster",
+   "MacCallum",
+   "Macleod",
+   "Pearl",
+   "Petersen",
+   "Rawle",
+   "Reynolds",
+   "Rooney",
+   "Sena",
+   "Silberberg",
+   "Steckler",
+   "Würbel"
+  ],
+  "year": 2020,
+  "title": "The ARRIVE guidelines 2.0: Updated guidelines for reporting animal research",
+  "container": "PLOS Biology",
+  "citet_display": "Percie du Sert et al.",
+  "crossref_ok": true
+ },
+ "Seok2013": {
+  "doi": "10.1073/pnas.1222878110",
+  "family": "Seok",
+  "given": "Junhee",
+  "all_families": [
+   "Seok",
+   "Warren",
+   "Cuenca",
+   "Mindrinos",
+   "Baker",
+   "Xu",
+   "Richards",
+   "McDonald-Smith",
+   "Gao",
+   "Hennessy",
+   "Finnerty",
+   "López",
+   "Honari",
+   "Moore",
+   "Minei",
+   "Cuschieri",
+   "Bankey",
+   "Johnson",
+   "Sperry",
+   "Nathens",
+   "Billiar",
+   "West",
+   "Jeschke",
+   "Klein",
+   "Gamelli",
+   "Gibran",
+   "Brownstein",
+   "Miller-Graziano",
+   "Calvano",
+   "Mason",
+   "Cobb",
+   "Rahme",
+   "Lowry",
+   "Maier",
+   "Moldawer",
+   "Herndon",
+   "Davis",
+   "Xiao",
+   "Tompkins",
+   "Abouhamze",
+   "Balis",
+   "Camp",
+   "De",
+   "Harbrecht",
+   "Hayden",
+   "Kaushal",
+   "O’Keefe",
+   "Kotz",
+   "Qian",
+   "Schoenfeld",
+   "Shapiro",
+   "Silver",
+   "Smith",
+   "Storey",
+   "Tibshirani",
+   "Toner",
+   "Wilhelmy",
+   "Wispelwey",
+   "Wong"
+  ],
+  "year": 2013,
+  "title": "Genomic responses in mouse models poorly mimic human inflammatory diseases",
+  "container": "Proceedings of the National Academy of Sciences",
+  "citet_display": "Seok et al.",
+  "crossref_ok": true
+ },
+ "Amaral2019": {
+  "doi": "10.7554/eLife.41602",
+  "family": "Amaral",
+  "given": "Olavo B",
+  "all_families": [
+   "Amaral",
+   "Neves",
+   "Wasilewska-Sampaio",
+   "Carneiro"
+  ],
+  "year": 2019,
+  "title": "The Brazilian Reproducibility Initiative",
+  "container": "eLife",
+  "citet_display": "Amaral et al.",
+  "crossref_ok": true
+ },
+ "Su2021": {
+  "doi": "10.3389/fphar.2021.644219",
+  "family": "Su",
+  "given": "Cheng-Fu",
+  "all_families": [
+   "Su",
+   "Jiang",
+   "Zhang",
+   "Iyaswamy",
+   "Li"
+  ],
+  "year": 2021,
+  "title": "Resveratrol in Rodent Models of Parkinson’s Disease: A Systematic Review of Experimental Studies",
+  "container": "Frontiers in Pharmacology",
+  "citet_display": "Su et al.",
+  "crossref_ok": true
+ },
+ "Errington2021a": {
+  "doi": "10.7554/eLife.67995",
+  "family": "Errington",
+  "given": "Timothy M",
+  "all_families": [
+   "Errington",
+   "Denis",
+   "Perfito",
+   "Iorns",
+   "Nosek"
+  ],
+  "year": 2021,
+  "title": "Challenges for assessing replicability in preclinical cancer biology",
+  "container": "eLife",
+  "citet_display": "Errington et al.",
+  "crossref_ok": true
+ },
+ "Tutty2025": {
+  "doi": "10.1016/j.taap.2025.117520",
+  "family": "Tutty",
+  "given": "Melissa Anne",
+  "all_families": [
+   "Tutty",
+   "Simone",
+   "Prina-Mello"
+  ],
+  "year": 2025,
+  "title": "Development of a complex 3D in vitro alternative model to evaluate the safety of advanced materials",
+  "container": "Toxicology and Applied Pharmacology",
+  "citet_display": "Tutty et al.",
+  "crossref_ok": true
+ },
+ "Rongen2015": {
+  "doi": "10.1016/j.ejphar.2015.03.035",
+  "family": "Rongen",
+  "given": "Gerard A.",
+  "all_families": [
+   "Rongen",
+   "Wever"
+  ],
+  "year": 2015,
+  "title": "Cardiovascular pharmacotherapy: Innovation stuck in translation",
+  "container": "European Journal of Pharmacology",
+  "citet_display": "Rongen and Wever",
+  "crossref_ok": true
+ },
+ "Luo2026": {
+  "doi": "10.1182/bloodadvances.2025017752",
+  "family": "Luo",
+  "given": "Zhiping",
+  "all_families": [
+   "Luo",
+   "Li",
+   "Primeaux",
+   "Shah",
+   "Lin",
+   "Iyer",
+   "Nastoupil",
+   "Green",
+   "Westin",
+   "Flowers",
+   "Chihara"
+  ],
+  "year": 2026,
+  "title": "Clinical trial success rate in lymphoma: fate of trials and agents from 2000 to 2019",
+  "container": "Blood Advances",
+  "citet_display": "Luo et al.",
+  "crossref_ok": true
+ },
+ "Freshwater2015": {
+  "doi": "10.1016/j.bjps.2015.06.012",
+  "family": "Freshwater",
+  "given": "M. Felix",
+  "all_families": [
+   "Freshwater"
+  ],
+  "year": 2015,
+  "title": "Laboratory animal research published in plastic surgery journals in 2014 has extensive waste: A systematic review",
+  "container": "Journal of Plastic, Reconstructive &amp; Aesthetic Surgery",
+  "citet_display": "Freshwater",
+  "crossref_ok": true
+ },
+ "Serdar2021": {
+  "doi": "10.11613/bm.2021.010502",
+  "family": "Serdar",
+  "given": "Ceyhan Ceran",
+  "all_families": [
+   "Serdar",
+   "Cihan",
+   "Yücel",
+   "Serdar"
+  ],
+  "year": 2021,
+  "title": "Sample size, power and effect size revisited: simplified and practical approaches in pre-clinical, clinical and laboratory studies",
+  "container": "Biochemia medica",
+  "citet_display": "Serdar et al.",
+  "crossref_ok": true
+ },
+ "Deutsch2020": {
+  "doi": "10.1371/journal.pone.0243092",
+  "family": "Deutsch",
+  "given": "Susanne",
+  "all_families": [
+   "Deutsch",
+   "Reuter",
+   "Rose",
+   "Tolba"
+  ],
+  "year": 2020,
+  "title": "Publication rates of research projects of an internal funding program of a university medical center in Germany: A retrospective study (2004–2013)",
+  "container": "PLOS ONE",
+  "citet_display": "Deutsch et al.",
+  "crossref_ok": true
+ },
+ "Ashraf2024": {
+  "doi": "10.1016/j.ijrobp.2024.03.017",
+  "family": "Ashraf",
+  "given": "M Ramish",
+  "all_families": [
+   "Ashraf",
+   "Melemenidis",
+   "Liu",
+   "Grilj",
+   "Jansen",
+   "Velasquez",
+   "Connell",
+   "Schulz",
+   "Bailat",
+   "Libed",
+   "Manjappa",
+   "Dutt",
+   "Soto",
+   "Lau",
+   "Garza",
+   "Larsen",
+   "Skinner",
+   "Yu",
+   "Surucu",
+   "Graves",
+   "Maxim",
+   "Kry",
+   "Vozenin",
+   "Schüler",
+   "Loo"
+  ],
+  "year": 2024,
+  "title": "Multi-Institutional Audit of FLASH and Conventional Dosimetry With a 3D Printed Anatomically Realistic Mouse Phantom",
+  "container": "International Journal of Radiation Oncology*Biology*Physics",
+  "citet_display": "Ashraf et al.",
+  "crossref_ok": true
+ },
+ "Venkataraman2018": {
+  "doi": "10.1038/nmeth.4632",
+  "family": "Venkataraman",
+  "given": "Anand",
+  "all_families": [
+   "Venkataraman",
+   "Yang",
+   "Irizarry",
+   "Mackiewicz",
+   "Mita",
+   "Kuang",
+   "Xue",
+   "Ghosh",
+   "Liu",
+   "Ramos",
+   "Hu",
+   "Bayron Kain",
+   "Keegan",
+   "Saul",
+   "Colantonio",
+   "Zhang",
+   "Behn",
+   "Song",
+   "Albino",
+   "Asencio",
+   "Ramos",
+   "Lugo",
+   "Morell",
+   "Rivera",
+   "Ruiz",
+   "Almodovar",
+   "Nazario",
+   "Murphy",
+   "Vargas",
+   "Rivera-Pacheco",
+   "Rosa",
+   "Vargas",
+   "McDade",
+   "Clark",
+   "Yoo",
+   "Khambadkone",
+   "de Melo",
+   "Stevanovic",
+   "Jiang",
+   "Li",
+   "Yap",
+   "Jones",
+   "Tandon",
+   "Campbell",
+   "Montelione",
+   "Anderson",
+   "Myers",
+   "Boeke",
+   "Fenyö",
+   "Whiteley",
+   "Bader",
+   "Pino",
+   "Eichinger",
+   "Zhu",
+   "Blackshaw"
+  ],
+  "year": 2018,
+  "title": "A toolbox of immunoprecipitation-grade monoclonal antibodies to human transcription factors",
+  "container": "Nature Methods",
+  "citet_display": "Venkataraman et al.",
+  "crossref_ok": true
+ },
+ "Vicente2021": {
+  "doi": "10.1667/RADE-21-00148.1",
+  "family": "Vicente",
+  "given": "Elisabeth",
+  "all_families": [
+   "Vicente",
+   "Lesniewski",
+   "Newman",
+   "Vujaskovic",
+   "Jackson"
+  ],
+  "year": 2021,
+  "title": "Best Practices for Authentication of Cell Lines to Ensure Data Reproducibility and Integrity",
+  "container": "Radiation Research",
+  "citet_display": "Vicente et al.",
+  "crossref_ok": true
+ },
+ "Munafo2017": {
+  "doi": "10.1038/s41562-016-0021",
+  "family": "Munafò",
+  "given": "Marcus R.",
+  "all_families": [
+   "Munafò",
+   "Nosek",
+   "Bishop",
+   "Button",
+   "Chambers",
+   "Percie du Sert",
+   "Simonsohn",
+   "Wagenmakers",
+   "Ware",
+   "Ioannidis"
+  ],
+  "year": 2017,
+  "title": "A manifesto for reproducible science",
+  "container": "Nature Human Behaviour",
+  "citet_display": "Munafò et al.",
+  "crossref_ok": true
+ },
+ "Head2015": {
+  "doi": "10.1371/journal.pbio.1002106",
+  "family": "Head",
+  "given": "Megan L.",
+  "all_families": [
+   "Head",
+   "Holman",
+   "Lanfear",
+   "Kahn",
+   "Jennions"
+  ],
+  "year": 2015,
+  "title": "The Extent and Consequences of P-Hacking in Science",
+  "container": "PLOS Biology",
+  "citet_display": "Head et al.",
+  "crossref_ok": true
+ },
+ "Llovera2015": {
+  "doi": "10.1126/scitranslmed.aaa9853",
+  "family": "Llovera",
+  "given": "Gemma",
+  "all_families": [
+   "Llovera",
+   "Hofmann",
+   "Roth",
+   "Salas-Pérdomo",
+   "Ferrer-Ferrer",
+   "Perego",
+   "Zanier",
+   "Mamrak",
+   "Rex",
+   "Party",
+   "Agin",
+   "Fauchon",
+   "Orset",
+   "Haelewyn",
+   "De Simoni",
+   "Dirnagl",
+   "Grittner",
+   "Planas",
+   "Plesnila",
+   "Vivien",
+   "Liesz"
+  ],
+  "year": 2015,
+  "title": "Results of a preclinical randomized controlled multicenter trial (pRCT): Anti-CD49d treatment for acute brain ischemia",
+  "container": "Science Translational Medicine",
+  "citet_display": "Llovera et al.",
+  "crossref_ok": true
+ },
+ "Landis2012": {
+  "doi": "10.1038/nature11556",
+  "family": "Landis",
+  "given": "Story C.",
+  "all_families": [
+   "Landis",
+   "Amara",
+   "Asadullah",
+   "Austin",
+   "Blumenstein",
+   "Bradley",
+   "Crystal",
+   "Darnell",
+   "Ferrante",
+   "Fillit",
+   "Finkelstein",
+   "Fisher",
+   "Gendelman",
+   "Golub",
+   "Goudreau",
+   "Gross",
+   "Gubitz",
+   "Hesterlee",
+   "Howells",
+   "Huguenard",
+   "Kelner",
+   "Koroshetz",
+   "Krainc",
+   "Lazic",
+   "Levine",
+   "Macleod",
+   "McCall",
+   "Moxley III",
+   "Narasimhan",
+   "Noble",
+   "Perrin",
+   "Porter",
+   "Steward",
+   "Unger",
+   "Utz",
+   "Silberberg"
+  ],
+  "year": 2012,
+  "title": "A call for transparent reporting to optimize the predictive value of preclinical research",
+  "container": "Nature",
+  "citet_display": "Landis et al.",
+  "crossref_ok": true
+ },
+ "Sena2010": {
+  "doi": "10.1371/journal.pbio.1000344",
+  "family": "Sena",
+  "given": "Emily S.",
+  "all_families": [
+   "Sena",
+   "van der Worp",
+   "Bath",
+   "Howells",
+   "Macleod"
+  ],
+  "year": 2010,
+  "title": "Publication Bias in Reports of Animal Stroke Studies Leads to Major Overstatement of Efficacy",
+  "container": "PLoS Biology",
+  "citet_display": "Sena et al.",
+  "crossref_ok": true
+ },
+ "Kringe2020": {
+  "doi": "10.1177/0271678X20931062",
+  "family": "Kringe",
+  "given": "Leona",
+  "all_families": [
+   "Kringe",
+   "Sena",
+   "Motschall",
+   "Bahor",
+   "Wang",
+   "Herrmann",
+   "Mülling",
+   "Meckel",
+   "Boltze"
+  ],
+  "year": 2020,
+  "title": "Quality and validity of large animal experiments in stroke: A systematic review",
+  "container": "Journal of Cerebral Blood Flow &amp; Metabolism",
+  "citet_display": "Kringe et al.",
+  "crossref_ok": true
+ },
+ "Kilkenny2010": {
+  "doi": "10.1371/journal.pbio.1000412",
+  "family": "Kilkenny",
+  "given": "Carol",
+  "all_families": [
+   "Kilkenny",
+   "Browne",
+   "Cuthill",
+   "Emerson",
+   "Altman"
+  ],
+  "year": 2010,
+  "title": "Improving Bioscience Research Reporting: The ARRIVE Guidelines for Reporting Animal Research",
+  "container": "PLoS Biology",
+  "citet_display": "Kilkenny et al.",
+  "crossref_ok": true
+ },
+ "Cunningham2022": {
+  "doi": "10.4103/1673-5374.347941",
+  "family": "Cunningham",
+  "given": "Catriona J.",
+  "all_families": [
+   "Cunningham",
+   "Viskontas",
+   "Janowicz",
+   "Sani",
+   "Håkansson",
+   "Heidari",
+   "Huang",
+   "Bo"
+  ],
+  "year": 2022,
+  "title": "The potential of gene therapies for spinal cord injury repair: a systematic review and meta-analysis of pre-clinical studies",
+  "container": "Neural Regeneration Research",
+  "citet_display": "Cunningham et al.",
+  "crossref_ok": true
+ },
+ "Kleinbongard2024": {
+  "doi": "10.1007/s00395-024-01083-9",
+  "family": "Kleinbongard",
+  "given": "Petra",
+  "all_families": [
+   "Kleinbongard",
+   "Arriola",
+   "Badimon",
+   "Crisostomo",
+   "Giricz",
+   "Gyöngyösi",
+   "Heusch",
+   "Ibanez",
+   "Kiss",
+   "de Kleijn",
+   "Podesser",
+   "Carracedo",
+   "Rodríguez-Sinovas",
+   "Ruiz-Meana",
+   "Sanchez Margallo",
+   "Vilahur",
+   "Zamorano",
+   "Zaragoza",
+   "Ferdinandy",
+   "Hausenloy"
+  ],
+  "year": 2024,
+  "title": "The IMproving Preclinical Assessment of Cardioprotective Therapies (IMPACT): multicenter pig study on the effect of ischemic preconditioning",
+  "container": "Basic Research in Cardiology",
+  "citet_display": "Kleinbongard et al.",
+  "crossref_ok": true
+ },
+ "Aiyede2022": {
+  "doi": "10.1089/neu.2022.0020",
+  "family": "Aiyede",
+  "given": "Mimieveshiofuo",
+  "all_families": [
+   "Aiyede",
+   "Lim",
+   "Russell",
+   "Patel",
+   "Gueven",
+   "Howells",
+   "Bye"
+  ],
+  "year": 2022,
+  "title": "A Systematic Review and Meta-Analysis on the Therapeutic Efficacy of Heparin and Low Molecular Weight Heparins in Animal Studies of Traumatic Brain Injury",
+  "container": "Journal of Neurotrauma",
+  "citet_display": "Aiyede et al.",
+  "crossref_ok": true
+ },
+ "Currie2019": {
+  "doi": "10.1371/journal.pbio.3000243",
+  "family": "Currie",
+  "given": "Gillian L.",
+  "all_families": [
+   "Currie",
+   "Angel-Scott",
+   "Colvin",
+   "Cramond",
+   "Hair",
+   "Khandoker",
+   "Liao",
+   "Macleod",
+   "McCann",
+   "Morland",
+   "Sherratt",
+   "Stewart",
+   "Tanriver-Ayder",
+   "Thomas",
+   "Wang",
+   "Wodarski",
+   "Xiong",
+   "Rice",
+   "Sena"
+  ],
+  "year": 2019,
+  "title": "Animal models of chemotherapy-induced peripheral neuropathy: A machine-assisted systematic review and meta-analysis",
+  "container": "PLOS Biology",
+  "citet_display": "Currie et al.",
+  "crossref_ok": true
+ },
+ "Takao2014": {
+  "doi": "10.1073/pnas.1401965111",
+  "family": "Takao",
+  "given": "Keizo",
+  "all_families": [
+   "Takao",
+   "Miyakawa"
+  ],
+  "year": 2014,
+  "title": "Genomic responses in mouse models greatly mimic human inflammatory diseases",
+  "container": "Proceedings of the National Academy of Sciences",
+  "citet_display": "Takao and Miyakawa",
+  "crossref_ok": true
+ },
+ "Macleod2015": {
+  "doi": "10.1371/journal.pbio.1002273",
+  "family": "Macleod",
+  "given": "Malcolm R.",
+  "all_families": [
+   "Macleod",
+   "Lawson McLean",
+   "Kyriakopoulou",
+   "Serghiou",
+   "de Wilde",
+   "Sherratt",
+   "Hirst",
+   "Hemblade",
+   "Bahor",
+   "Nunes-Fonseca",
+   "Potluru",
+   "Thomson",
+   "Baginskitae",
+   "Egan",
+   "Vesterinen",
+   "Currie",
+   "Churilov",
+   "Howells",
+   "Sena"
+  ],
+  "year": 2015,
+  "title": "Risk of Bias in Reports of In Vivo Research: A Focus for Improvement",
+  "container": "PLOS Biology",
+  "citet_display": "Macleod et al.",
+  "crossref_ok": true
+ },
+ "Zhang2020": {
+  "doi": "10.3390/ijms21020493",
+  "family": "Zhang",
+  "given": "Xiao-Wen",
+  "all_families": [
+   "Zhang",
+   "Chen",
+   "Ouyang",
+   "Lu"
+  ],
+  "year": 2020,
+  "title": "Quercetin in Animal Models of Alzheimer’s Disease: A Systematic Review of Preclinical Studies",
+  "container": "International Journal of Molecular Sciences",
+  "citet_display": "Zhang et al.",
+  "crossref_ok": true
+ },
+ "Yamaura2023": {
+  "doi": "10.1016/j.joca.2022.11.014",
+  "family": "Yamaura",
+  "given": "K.",
+  "all_families": [
+   "Yamaura",
+   "Nelson",
+   "Nishimura",
+   "Rutledge",
+   "Ravuri",
+   "Bahney",
+   "Philippon",
+   "Huard"
+  ],
+  "year": 2023,
+  "title": "The effects of losartan or angiotensin II receptor antagonists on cartilage: a systematic review",
+  "container": "Osteoarthritis and Cartilage",
+  "citet_display": "Yamaura et al.",
+  "crossref_ok": true
+ },
+ "Ferreira2020": {
+  "doi": "10.3390/ani10071199",
+  "family": "Ferreira",
+  "given": "Guilherme S.",
+  "all_families": [
+   "Ferreira",
+   "Veening-Griffioen",
+   "Boon",
+   "Moors",
+   "van Meer"
+  ],
+  "year": 2020,
+  "title": "Levelling the Translational Gap for Animal to Human Efficacy Data",
+  "container": "Animals",
+  "citet_display": "Ferreira et al.",
+  "crossref_ok": true
+ },
+ "Sfanos2019": {
+  "doi": "10.1016/j.ajur.2018.11.006",
+  "family": "Sfanos",
+  "given": "Karen S.",
+  "all_families": [
+   "Sfanos",
+   "Yegnasubramanian",
+   "Nelson",
+   "Lotan",
+   "Kulac",
+   "Hicks",
+   "Zheng",
+   "Bieberich",
+   "Haffner",
+   "De Marzo"
+  ],
+  "year": 2019,
+  "title": "If this is true, what does it imply? How end-user antibody validation facilitates insights into biology and disease",
+  "container": "Asian Journal of Urology",
+  "citet_display": "Sfanos et al.",
+  "crossref_ok": true
+ },
+ "OBrien2006": {
+  "doi": "10.1007/s00204-006-0091-3",
+  "family": "O’Brien",
+  "given": "P. J.",
+  "all_families": [
+   "O’Brien",
+   "Irwin",
+   "Diaz",
+   "Howard-Cofield",
+   "Krejsa",
+   "Slaughter",
+   "Gao",
+   "Kaludercic",
+   "Angeline",
+   "Bernardi",
+   "Brain",
+   "Hougham"
+  ],
+  "year": 2006,
+  "title": "High concordance of drug-induced human hepatotoxicity with in vitro cytotoxicity measured in a novel cell-based model using high content screening",
+  "container": "Archives of Toxicology",
+  "citet_display": "O’Brien et al.",
+  "crossref_ok": true
+ },
+ "Moher2016": {
+  "doi": "10.1016/S0140-6736(15)00307-4",
+  "family": "Moher",
+  "given": "David",
+  "all_families": [
+   "Moher",
+   "Glasziou",
+   "Chalmers",
+   "Nasser",
+   "Bossuyt",
+   "Korevaar",
+   "Graham",
+   "Ravaud",
+   "Boutron"
+  ],
+  "year": 2016,
+  "title": "Increasing value and reducing waste in biomedical research: who's listening?",
+  "container": "The Lancet",
+  "citet_display": "Moher et al.",
+  "crossref_ok": true
+ },
+ "Fanelli2009": {
+  "doi": "10.1371/journal.pone.0005738",
+  "family": "Fanelli",
+  "given": "Daniele",
+  "all_families": [
+   "Fanelli"
+  ],
+  "year": 2009,
+  "title": "How Many Scientists Fabricate and Falsify Research? A Systematic Review and Meta-Analysis of Survey Data",
+  "container": "PLoS ONE",
+  "citet_display": "Fanelli",
+  "crossref_ok": true
+ },
+ "Mazoit2026": {
+  "doi": "10.3389/fphar.2026.1786234",
+  "family": "Mazoit",
+  "given": "Jean Xavier",
+  "all_families": [
+   "Mazoit",
+   "Gonin"
+  ],
+  "year": 2026,
+  "title": "Reduce or not reduce: a practical guide to calculate sample size for various experimental design in studies involving animals",
+  "container": "Frontiers in Pharmacology",
+  "citet_display": "Mazoit and Gonin",
+  "crossref_ok": true
+ },
+ "Errington2021c": {
+  "doi": "10.7554/eLife.73430",
+  "family": "Errington",
+  "given": "Timothy M",
+  "all_families": [
+   "Errington",
+   "Denis",
+   "Allison",
+   "Araiza",
+   "Aza-Blanc",
+   "Bower",
+   "Campos",
+   "Chu",
+   "Denson",
+   "Donham",
+   "Harr",
+   "Haven",
+   "Iorns",
+   "Kwok",
+   "McDonald",
+   "Pelech",
+   "Perfito",
+   "Pike",
+   "Sampey",
+   "Settles",
+   "Scott",
+   "Sharma",
+   "Tolentino",
+   "Trinh",
+   "Tsui",
+   "Willis",
+   "Wood",
+   "Young"
+  ],
+  "year": 2021,
+  "title": "Experiments from unfinished Registered Reports in the Reproducibility Project: Cancer Biology",
+  "container": "eLife",
+  "citet_display": "Errington et al.",
+  "crossref_ok": true
+ },
+ "McCann2016": {
+  "doi": "10.1007/s12975-016-0489-z",
+  "family": "McCann",
+  "given": "Sarah K.",
+  "all_families": [
+   "McCann",
+   "Cramond",
+   "Macleod",
+   "Sena"
+  ],
+  "year": 2016,
+  "title": "Systematic Review and Meta-Analysis of the Efficacy of Interleukin-1 Receptor Antagonist in Animal Models of Stroke: an Update",
+  "container": "Translational Stroke Research",
+  "citet_display": "McCann et al.",
+  "crossref_ok": true
+ },
+ "Kousholt2022": {
+  "doi": "10.1371/journal.pone.0275962",
+  "family": "Kousholt",
+  "given": "Birgitte S.",
+  "all_families": [
+   "Kousholt",
+   "Præstegaard",
+   "Stone",
+   "Thomsen",
+   "Johansen",
+   "Ritskes-Hoitinga",
+   "Wegener"
+  ],
+  "year": 2022,
+  "title": "Reporting quality in preclinical animal experimental research in 2009 and 2018: A nationwide systematic investigation",
+  "container": "PLOS ONE",
+  "citet_display": "Kousholt et al.",
+  "crossref_ok": true
+ },
+ "BannachBrown2021": {
+  "doi": "10.1136/bmjos-2020-100131",
+  "family": "Bannach-Brown",
+  "given": "Alexandra",
+  "all_families": [
+   "Bannach-Brown",
+   "Hair",
+   "Bahor",
+   "Soliman",
+   "Macleod",
+   "Liao"
+  ],
+  "year": 2021,
+  "title": "Technological advances in preclinical meta-research",
+  "container": "BMJ Open Science",
+  "citet_display": "Bannach-Brown et al.",
+  "crossref_ok": true
+ },
+ "MacIntoshSmith2023": {
+  "doi": "10.1016/j.plefa.2023.102554",
+  "family": "MacIntosh-Smith",
+  "given": "W.A.C.",
+  "all_families": [
+   "MacIntosh-Smith",
+   "Abdallah",
+   "Cunningham"
+  ],
+  "year": 2023,
+  "title": "The potential effects of polyunsaturated ω-3 fatty acids on spinal cord injury: A systematic review &amp; meta-analysis of preclinical evidence",
+  "container": "Prostaglandins, Leukotrienes and Essential Fatty Acids",
+  "citet_display": "MacIntosh-Smith et al.",
+  "crossref_ok": true
+ },
+ "Crossley2008": {
+  "doi": "10.1161/STROKEAHA.107.498725",
+  "family": "Crossley",
+  "given": "Nicolas A.",
+  "all_families": [
+   "Crossley",
+   "Sena",
+   "Goehler",
+   "Horn",
+   "van der Worp",
+   "Bath",
+   "Macleod",
+   "Dirnagl"
+  ],
+  "year": 2008,
+  "title": "Empirical Evidence of Bias in the Design of Experimental Stroke Studies",
+  "container": "Stroke",
+  "citet_display": "Crossley et al.",
+  "crossref_ok": true
+ },
+ "Freedman2015": {
+  "doi": "10.1371/journal.pbio.1002165",
+  "family": "Freedman",
+  "given": "Leonard P.",
+  "all_families": [
+   "Freedman",
+   "Cockburn",
+   "Simcoe"
+  ],
+  "year": 2015,
+  "title": "The Economics of Reproducibility in Preclinical Research",
+  "container": "PLOS Biology",
+  "citet_display": "Freedman et al.",
+  "crossref_ok": true
+ },
+ "Chan2014": {
+  "doi": "10.1016/S0140-6736(13)62296-5",
+  "family": "Chan",
+  "given": "An-Wen",
+  "all_families": [
+   "Chan",
+   "Song",
+   "Vickers",
+   "Jefferson",
+   "Dickersin",
+   "Gøtzsche",
+   "Krumholz",
+   "Ghersi",
+   "van der Worp"
+  ],
+  "year": 2014,
+  "title": "Increasing value and reducing waste: addressing inaccessible research",
+  "container": "The Lancet",
+  "citet_display": "Chan et al.",
+  "crossref_ok": true
+ },
+ "vonNiederhausern2018": {
+  "doi": "10.1371/journal.pmed.1002580",
+  "family": "von Niederhäusern",
+  "given": "Belinda",
+  "all_families": [
+   "von Niederhäusern",
+   "Guyatt",
+   "Briel",
+   "Pauli-Magnus"
+  ],
+  "year": 2018,
+  "title": "Academic response to improving value and reducing waste: A comprehensive framework for INcreasing QUality In patient-oriented academic clinical REsearch (INQUIRE)",
+  "container": "PLOS Medicine",
+  "citet_display": "von Niederhäusern et al.",
+  "crossref_ok": true
+ },
+ "Smith2017": {
+  "doi": "10.1177/0023677217724823",
+  "family": "Smith",
+  "given": "Adrian J",
+  "all_families": [
+   "Smith",
+   "Clutton",
+   "Lilley",
+   "Hansen",
+   "Brattelid"
+  ],
+  "year": 2017,
+  "title": "PREPARE: guidelines for planning animal research and testing",
+  "container": "Laboratory Animals",
+  "citet_display": "Smith et al.",
+  "crossref_ok": true
+ },
+ "Dreber2015": {
+  "doi": "10.1073/pnas.1516179112",
+  "family": "Dreber",
+  "given": "Anna",
+  "all_families": [
+   "Dreber",
+   "Pfeiffer",
+   "Almenberg",
+   "Isaksson",
+   "Wilson",
+   "Chen",
+   "Nosek",
+   "Johannesson"
+  ],
+  "year": 2015,
+  "title": "Using prediction markets to estimate the reproducibility of scientific research",
+  "container": "Proceedings of the National Academy of Sciences",
+  "citet_display": "Dreber et al.",
+  "crossref_ok": true
+ },
+ "Islam2021": {
+  "doi": "10.30802/AALAS-JAALAS-20-000139",
+  "family": "Islam",
+  "given": "Mohammed R",
+  "all_families": [
+   "Islam",
+   "Schultz",
+   "Varghese",
+   "Abrishami",
+   "Villano",
+   "Singer"
+  ],
+  "year": 2021,
+  "title": "Weight Gain, Glucose Tolerance, and the Gut Microbiome of Male C57BL/6J Mice Housed on Corncob or Paper Bedding and Fed Normal or High-Fat Diet",
+  "container": "Journal of the American Association for Laboratory Animal Science",
+  "citet_display": "Islam et al.",
+  "crossref_ok": true
+ },
+ "Reichlin2016": {
+  "doi": "10.1371/journal.pone.0165999",
+  "family": "Reichlin",
+  "given": "Thomas S.",
+  "all_families": [
+   "Reichlin",
+   "Vogt",
+   "Würbel"
+  ],
+  "year": 2016,
+  "title": "The Researchers’ View of Scientific Rigor—Survey on the Conduct and Reporting of In Vivo Research",
+  "container": "PLOS ONE",
+  "citet_display": "Reichlin et al.",
+  "crossref_ok": true
+ },
+ "Farid2020": {
+  "doi": "10.1080/19420862.2020.1754999",
+  "family": "Farid",
+  "given": "Suzanne S.",
+  "all_families": [
+   "Farid",
+   "Baron",
+   "Stamatis",
+   "Nie",
+   "Coffman"
+  ],
+  "year": 2020,
+  "title": "Benchmarking biopharmaceutical process development and manufacturing cost contributions to R&amp;D",
+  "container": "mAbs",
+  "citet_display": "Farid et al.",
+  "crossref_ok": true
+ },
+ "Feng2025": {
+  "doi": "10.3791/68351",
+  "family": "Feng",
+  "given": "Yang",
+  "all_families": [
+   "Feng",
+   "Yuan",
+   "Zuniga",
+   "Islam",
+   "Avram",
+   "Guryanova"
+  ],
+  "year": 2025,
+  "title": "Optimized Mouse Model to Induce Colitis-Associated Colon Cancer using Azoxymethane and Dextran Sulfate Sodium for Tumor Immunology and Therapy Studies",
+  "container": "Journal of Visualized Experiments",
+  "citet_display": "Feng et al.",
+  "crossref_ok": true
+ },
+ "Zhang2022": {
+  "doi": "10.1097/j.pain.0000000000002632",
+  "family": "Zhang",
+  "given": "Xue Ying",
+  "all_families": [
+   "Zhang",
+   "Barakat",
+   "Diaz-delCastillo",
+   "Vollert",
+   "Sena",
+   "Heegaard",
+   "Rice",
+   "Soliman"
+  ],
+  "year": 2022,
+  "title": "Systematic review and meta-analysis of studies in which burrowing behaviour was assessed in rodent models of disease-associated persistent pain",
+  "container": "Pain",
+  "citet_display": "Zhang et al.",
+  "crossref_ok": true
+ },
+ "Yue2024": {
+  "doi": "10.3389/fendo.2024.1375632",
+  "family": "Yue",
+  "given": "Guangren",
+  "all_families": [
+   "Yue",
+   "Li",
+   "Liu",
+   "Yu",
+   "Cao",
+   "Wang"
+  ],
+  "year": 2024,
+  "title": "Efficacy of MSC-derived small extracellular vesicles in treating type II diabetic cutaneous wounds: a systematic review and meta-analysis of animal models",
+  "container": "Frontiers in Endocrinology",
+  "citet_display": "Yue et al.",
+  "crossref_ok": true
+ },
+ "Huang2024": {
+  "doi": "10.1186/s13018-024-04660-9",
+  "family": "Huang",
+  "given": "Yingjie",
+  "all_families": [
+   "Huang",
+   "Huang",
+   "Chen",
+   "Luo",
+   "Feng",
+   "Deng",
+   "Li",
+   "Li",
+   "Sun"
+  ],
+  "year": 2024,
+  "title": "Efficacy and immune-inflammatory mechanism of acupuncture-related therapy in animal models of knee osteoarthritis: a preclinical systematic review and network meta-analysis",
+  "container": "Journal of Orthopaedic Surgery and Research",
+  "citet_display": "Huang et al.",
+  "crossref_ok": true
+ },
+ "Federico2014": {
+  "doi": "10.1111/bph.12771",
+  "family": "Federico",
+  "given": "C A",
+  "all_families": [
+   "Federico",
+   "Carlisle",
+   "Kimmelman",
+   "Fergusson"
+  ],
+  "year": 2014,
+  "title": "Late, never or non‐existent: the inaccessibility of preclinical evidence for new drugs",
+  "container": "British Journal of Pharmacology",
+  "citet_display": "Federico et al.",
+  "crossref_ok": true
+ },
+ "Lopes2020": {
+  "doi": "10.1089/scd.2020.0044",
+  "family": "Lopes",
+  "given": "Gabriela Maciel",
+  "all_families": [
+   "Lopes",
+   "Grudzinski",
+   "Beyer Nardi",
+   "Leguisamo"
+  ],
+  "year": 2020,
+  "title": "Cell Therapy Improves Cardiac Function in Anthracycline-Induced Cardiomyopathy Preclinical Models: A Systematic Review and Meta-Analysis",
+  "container": "Stem Cells and Development",
+  "citet_display": "Lopes et al.",
+  "crossref_ok": true
+ },
+ "Modiri2025": {
+  "doi": "10.1186/s12883-025-04241-1",
+  "family": "Modiri",
+  "given": "Aynur",
+  "all_families": [
+   "Modiri",
+   "Hosseini",
+   "Abolhasanpour",
+   "Azizi",
+   "Sadeh"
+  ],
+  "year": 2025,
+  "title": "Mitotherapy in Alzheimer’s and Parkinson’s diseases: A systematic review of preclinical studies",
+  "container": "BMC Neurology",
+  "citet_display": "Modiri et al.",
+  "crossref_ok": true
+ },
+ "Tenuta2013": {
+  "doi": "10.1111/bju.12309",
+  "family": "Tenuta",
+  "given": "Alessandro",
+  "all_families": [
+   "Tenuta",
+   "Klotz",
+   "Parker"
+  ],
+  "year": 2013,
+  "title": "Clinical trial risk in castration‐resistant prostate cancer: immunotherapies show promise",
+  "container": "BJU International",
+  "citet_display": "Tenuta et al.",
+  "crossref_ok": true
+ },
+ "Brown2016": {
+  "doi": "10.18632/oncotarget.11184",
+  "family": "Brown",
+  "given": "Kai M.",
+  "all_families": [
+   "Brown",
+   "Xue",
+   "Mittal",
+   "Samra",
+   "Smith",
+   "Hugh"
+  ],
+  "year": 2016,
+  "title": "Patient-derived xenograft models of colorectal cancer in pre-clinical research: a systematic review",
+  "container": "Oncotarget",
+  "citet_display": "Brown et al.",
+  "crossref_ok": true
+ },
+ "Nakagawa2017": {
+  "doi": "10.1186/s12915-017-0357-7",
+  "family": "Nakagawa",
+  "given": "Shinichi",
+  "all_families": [
+   "Nakagawa",
+   "Noble",
+   "Senior",
+   "Lagisz"
+  ],
+  "year": 2017,
+  "title": "Meta-evaluation of meta-analysis: ten appraisal questions for biologists",
+  "container": "BMC Biology",
+  "citet_display": "Nakagawa et al.",
+  "crossref_ok": true
+ },
+ "Bailey2021": {
+  "doi": "10.1007/s12015-021-10164-4",
+  "family": "Bailey",
+  "given": "Adrian J. M.",
+  "all_families": [
+   "Bailey",
+   "Li",
+   "Kirkham",
+   "Tieu",
+   "Maganti",
+   "Shorr",
+   "Fergusson",
+   "Lalu",
+   "Elomazzen",
+   "Allan"
+  ],
+  "year": 2021,
+  "title": "MSC-Derived Extracellular Vesicles to Heal Diabetic Wounds: a Systematic Review and Meta-Analysis of Preclinical Animal Studies",
+  "container": "Stem Cell Reviews and Reports",
+  "citet_display": "Bailey et al.",
+  "crossref_ok": true
+ },
+ "Raabe2024": {
+  "doi": "10.1080/15569527.2024.2387596",
+  "family": "Raabe",
+  "given": "Hans A.",
+  "all_families": [
+   "Raabe",
+   "Costin",
+   "Allen",
+   "Lowit",
+   "Corvaro",
+   "O’Dell",
+   "Breeden-Alemi",
+   "Page",
+   "Perron",
+   "Flint Silva",
+   "Westerink",
+   "Baker",
+   "Sullivan"
+  ],
+  "year": 2024,
+  "title": "Human relevance of in vivo and in vitro skin irritation tests for hazard classification of pesticides",
+  "container": "Cutaneous and Ocular Toxicology",
+  "citet_display": "Raabe et al.",
+  "crossref_ok": true
+ },
+ "Button2013": {
+  "doi": "10.1038/nrn3475",
+  "family": "Button",
+  "given": "Katherine S.",
+  "all_families": [
+   "Button",
+   "Ioannidis",
+   "Mokrysz",
+   "Nosek",
+   "Flint",
+   "Robinson",
+   "Munafò"
+  ],
+  "year": 2013,
+  "title": "Power failure: why small sample size undermines the reliability of neuroscience",
+  "container": "Nature Reviews Neuroscience",
+  "citet_display": "Button et al.",
+  "crossref_ok": true
+ },
+ "Crescioli2024": {
+  "doi": "10.1080/19420862.2023.2297450",
+  "family": "Crescioli",
+  "given": "Silvia",
+  "all_families": [
+   "Crescioli",
+   "Kaplon",
+   "Chenoweth",
+   "Wang",
+   "Visweswaraiah",
+   "Reichert"
+  ],
+  "year": 2024,
+  "title": "Antibodies to watch in 2024",
+  "container": "mAbs",
+  "citet_display": "Crescioli et al.",
+  "crossref_ok": true
+ },
+ "Reis2023": {
+  "doi": "10.1038/s41598-023-45350-6",
+  "family": "Reis",
+  "given": "Carlos G.",
+  "all_families": [
+   "Reis",
+   "Bastos",
+   "Chitolina",
+   "Gallas-Lopes",
+   "Zanona",
+   "Becker",
+   "Herrmann",
+   "Piato"
+  ],
+  "year": 2023,
+  "title": "Neurobehavioral effects of fungicides in zebrafish: a systematic review and meta-analysis",
+  "container": "Scientific Reports",
+  "citet_display": "Reis et al.",
+  "crossref_ok": true
+ },
+ "Boehmerle2025": {
+  "doi": "10.1186/s13104-025-07206-2",
+  "family": "Boehmerle",
+  "given": "Wolfgang",
+  "all_families": [
+   "Boehmerle",
+   "Hagenacker",
+   "Leo",
+   "Schmitt",
+   "Lehmann",
+   "Klein",
+   "Stegherr",
+   "Konietschke",
+   "Endres",
+   "Huehnchen"
+  ],
+  "year": 2025,
+  "title": "Results of the preclinical multicenter randomized controlled paclitaxel-induced neuropathy prevention replication study (PINPRICS)",
+  "container": "BMC Research Notes",
+  "citet_display": "Boehmerle et al.",
+  "crossref_ok": true
+ },
+ "Scuteri2022": {
+  "doi": "10.1016/j.biopha.2021.112505",
+  "family": "Scuteri",
+  "given": "D.",
+  "all_families": [
+   "Scuteri",
+   "Rombolà",
+   "Hamamura",
+   "Sakurada",
+   "Watanabe",
+   "Sakurada",
+   "Guida",
+   "Boccella",
+   "Maione",
+   "Gallo Afflitto",
+   "Nucci",
+   "Tonin",
+   "Bagetta",
+   "Corasaniti"
+  ],
+  "year": 2022,
+  "title": "Is there a rational basis for cannabinoids research and development in ocular pain therapy? A systematic review of preclinical evidence",
+  "container": "Biomedicine &amp; Pharmacotherapy",
+  "citet_display": "Scuteri et al.",
+  "crossref_ok": true
+ },
+ "Liang2022": {
+  "doi": "10.1016/j.bja.2022.04.016",
+  "family": "Liang",
+  "given": "Min",
+  "all_families": [
+   "Liang",
+   "Ahmad",
+   "Dickinson"
+  ],
+  "year": 2022,
+  "title": "Neuroprotection by the noble gases argon and xenon as treatments for acquired brain injury: a preclinical systematic review and meta-analysis",
+  "container": "British Journal of Anaesthesia",
+  "citet_display": "Liang et al.",
+  "crossref_ok": true
+ },
+ "Tatsioni2007": {
+  "doi": "10.1001/jama.298.21.2517",
+  "family": "Tatsioni",
+  "given": "Athina",
+  "all_families": [
+   "Tatsioni",
+   "Bonitsis",
+   "Ioannidis"
+  ],
+  "year": 2007,
+  "title": "Persistence of Contradicted Claims in the Literature",
+  "container": "JAMA",
+  "citet_display": "Tatsioni et al.",
+  "crossref_ok": true
+ },
+ "vandeLagemaat2017": {
+  "doi": "10.1111/gbb.12364",
+  "family": "van de Lagemaat",
+  "given": "L. N.",
+  "all_families": [
+   "van de Lagemaat",
+   "Stanford",
+   "Pettit",
+   "Strathdee",
+   "Strathdee",
+   "Elsegood",
+   "Fricker",
+   "Croning",
+   "Komiyama",
+   "Grant"
+  ],
+  "year": 2017,
+  "title": "Standardized experiments in mutant mice reveal behavioural similarity on\n                    <scp>129S5</scp>\n                    and\n                    <scp>C57BL</scp>\n                    /\n                    <scp>6J</scp>\n                    backgrounds",
+  "container": "Genes, Brain and Behavior",
+  "citet_display": "van de Lagemaat et al.",
+  "crossref_ok": true
+ },
+ "Errington2021b": {
+  "doi": "10.7554/eLife.71601",
+  "family": "Errington",
+  "given": "Timothy M",
+  "all_families": [
+   "Errington",
+   "Mathur",
+   "Soderberg",
+   "Denis",
+   "Perfito",
+   "Iorns",
+   "Nosek"
+  ],
+  "year": 2021,
+  "title": "Investigating the replicability of preclinical cancer biology",
+  "container": "eLife",
+  "citet_display": "Errington et al.",
+  "crossref_ok": true
+ },
+ "Voelkl2020": {
+  "doi": "10.1038/s41583-020-0313-3",
+  "family": "Voelkl",
+  "given": "Bernhard",
+  "all_families": [
+   "Voelkl",
+   "Altman",
+   "Forsman",
+   "Forstmeier",
+   "Gurevitch",
+   "Jaric",
+   "Karp",
+   "Kas",
+   "Schielzeth",
+   "Van de Casteele",
+   "Würbel"
+  ],
+  "year": 2020,
+  "title": "Reproducibility of animal research in light of biological variation",
+  "container": "Nature Reviews Neuroscience",
+  "citet_display": "Voelkl et al.",
+  "crossref_ok": true
+ },
+ "Henderson2015": {
+  "doi": "10.7554/eLife.08351",
+  "family": "Henderson",
+  "given": "Valerie C",
+  "all_families": [
+   "Henderson",
+   "Demko",
+   "Hakala",
+   "MacKinnon",
+   "Federico",
+   "Fergusson",
+   "Kimmelman"
+  ],
+  "year": 2015,
+  "title": "A meta-analysis of threats to valid clinical inference in preclinical research of sunitinib",
+  "container": "eLife",
+  "citet_display": "Henderson et al.",
+  "crossref_ok": true
+ },
+ "ArroyoAraujo2019": {
+  "doi": "10.1038/s41598-019-47981-0",
+  "family": "Arroyo-Araujo",
+  "given": "María",
+  "all_families": [
+   "Arroyo-Araujo",
+   "Graf",
+   "Maco",
+   "van Dam",
+   "Schenker",
+   "Drinkenburg",
+   "Koopmans",
+   "de Boer",
+   "Cullum-Doyle",
+   "Noldus",
+   "Loos",
+   "van Dommelen",
+   "Spooren",
+   "Biemans",
+   "Buhl",
+   "Kas"
+  ],
+  "year": 2019,
+  "title": "Reproducibility via coordinated standardization: a multi-center study in a Shank2 genetic rat model for Autism Spectrum Disorders",
+  "container": "Scientific Reports",
+  "citet_display": "Arroyo-Araujo et al.",
+  "crossref_ok": true
+ },
+ "Ioannidis2005b": {
+  "doi": "10.1371/journal.pmed.0020124",
+  "family": "Ioannidis",
+  "given": "John P. A.",
+  "all_families": [
+   "Ioannidis"
+  ],
+  "year": 2005,
+  "title": "Why Most Published Research Findings Are False",
+  "container": "PLoS Medicine",
+  "citet_display": "Ioannidis",
+  "crossref_ok": true
+ },
+ "VanBavel2016": {
+  "doi": "10.1073/pnas.1521897113",
+  "family": "Van Bavel",
+  "given": "Jay J.",
+  "all_families": [
+   "Van Bavel",
+   "Mende-Siedlecki",
+   "Brady",
+   "Reinero"
+  ],
+  "year": 2016,
+  "title": "Contextual sensitivity in scientific reproducibility",
+  "container": "Proceedings of the National Academy of Sciences",
+  "citet_display": "Van Bavel et al.",
+  "crossref_ok": true
+ },
+ "OSullivan2021": {
+  "doi": "10.1038/s41598-021-97896-y",
+  "family": "O’Sullivan",
+  "given": "Jack W.",
+  "all_families": [
+   "O’Sullivan",
+   "Ioannidis"
+  ],
+  "year": 2021,
+  "title": "Reproducibility in the UK biobank of genome-wide significant signals discovered in earlier genome-wide association studies",
+  "container": "Scientific Reports",
+  "citet_display": "O’Sullivan and Ioannidis",
+  "crossref_ok": true
+ },
+ "Wasylewski2020": {
+  "doi": "10.1371/journal.pone.0234911",
+  "family": "Wasylewski",
+  "given": "Mateusz T.",
+  "all_families": [
+   "Wasylewski",
+   "Strzebonska",
+   "Koperny",
+   "Polak",
+   "Kimmelman",
+   "Waligora"
+  ],
+  "year": 2020,
+  "title": "Clinical development success rates and social value of pediatric Phase 1 trials in oncology",
+  "container": "PLOS ONE",
+  "citet_display": "Wasylewski et al.",
+  "crossref_ok": true
+ },
+ "Dhillon2022": {
+  "doi": "10.1097/COC.0000000000000963",
+  "family": "Dhillon",
+  "given": "Sumeet",
+  "all_families": [
+   "Dhillon",
+   "Lopes",
+   "Parker"
+  ],
+  "year": 2022,
+  "title": "The Effect of Biomarkers on Clinical Trial Risk in Gastric Cancer",
+  "container": "American Journal of Clinical Oncology",
+  "citet_display": "Dhillon et al.",
+  "crossref_ok": true
+ },
+ "Deckers2019": {
+  "doi": "10.1016/j.joca.2018.10.001",
+  "family": "Deckers",
+  "given": "C.",
+  "all_families": [
+   "Deckers",
+   "Stephan",
+   "Wever",
+   "Hooijmans",
+   "Hannink"
+  ],
+  "year": 2019,
+  "title": "The protective effect of anterior cruciate ligament reconstruction on articular cartilage: a systematic review of animal studies",
+  "container": "Osteoarthritis and Cartilage",
+  "citet_display": "Deckers et al.",
+  "crossref_ok": true
+ },
+ "Arida2021": {
+  "doi": "10.3389/fneur.2021.771123",
+  "family": "Arida",
+  "given": "Ricardo Mario",
+  "all_families": [
+   "Arida",
+   "Passos",
+   "Graciani",
+   "Brogin",
+   "Ribeiro",
+   "Faber",
+   "Gutierre",
+   "Teixeira-Machado"
+  ],
+  "year": 2021,
+  "title": "The Potential Role of Previous Physical Exercise Program to Reduce Seizure Susceptibility: A Systematic Review and Meta-Analysis of Animal Studies",
+  "container": "Frontiers in Neurology",
+  "citet_display": "Arida et al.",
+  "crossref_ok": true
+ },
+ "Purcell2024": {
+  "doi": "10.1093/stcltm/szae033",
+  "family": "Purcell",
+  "given": "Elisha",
+  "all_families": [
+   "Purcell",
+   "Shah",
+   "Powell",
+   "Nguyen",
+   "Zhou",
+   "McDonald",
+   "Allison",
+   "Malhotra"
+  ],
+  "year": 2024,
+  "title": "Umbilical cord blood-derived therapy for preterm lung injury: a systematic review and meta-analysis",
+  "container": "Stem Cells Translational Medicine",
+  "citet_display": "Purcell et al.",
+  "crossref_ok": true
+ },
+ "Begley2015": {
+  "doi": "10.1161/CIRCRESAHA.114.303819",
+  "family": "Begley",
+  "given": "C. Glenn",
+  "all_families": [
+   "Begley",
+   "Ioannidis"
+  ],
+  "year": 2015,
+  "title": "Reproducibility in Science",
+  "container": "Circulation Research",
+  "citet_display": "Begley and Ioannidis",
+  "crossref_ok": true
+ },
+ "SukoffRizzo2020": {
+  "doi": "10.1002/trc2.12038",
+  "family": "Sukoff Rizzo",
+  "given": "Stacey J.",
+  "all_families": [
+   "Sukoff Rizzo",
+   "Masters",
+   "Onos",
+   "Quinney",
+   "Sasner",
+   "Oblak",
+   "Lamb",
+   "Territo"
+  ],
+  "year": 2020,
+  "title": "Improving preclinical to clinical translation in Alzheimer's disease research",
+  "container": "Alzheimer's &amp; Dementia: Translational Research &amp; Clinical Interventions",
+  "citet_display": "Sukoff Rizzo et al.",
+  "crossref_ok": true
+ },
+ "Hum2024": {
+  "doi": "10.1093/stcltm/szae003",
+  "family": "Hum",
+  "given": "Christine",
+  "all_families": [
+   "Hum",
+   "Tahir",
+   "Mei",
+   "Champagne",
+   "Fergusson",
+   "Lalu",
+   "Stewart",
+   "Walley",
+   "Marshall",
+   "dos Santos",
+   "Winston",
+   "Mendelson",
+   "Dave",
+   "McIntyre"
+  ],
+  "year": 2024,
+  "title": "Efficacy and Safety of Umbilical Cord-Derived Mesenchymal Stromal Cell Therapy in Preclinical Models of Sepsis: A Systematic Review and Meta-analysis",
+  "container": "Stem Cells Translational Medicine",
+  "citet_display": "Hum et al.",
+  "crossref_ok": true
+ },
+ "BenDavid2018": {
+  "doi": "10.1038/s41586-018-0409-3",
+  "family": "Ben-David",
+  "given": "Uri",
+  "all_families": [
+   "Ben-David",
+   "Siranosian",
+   "Ha",
+   "Tang",
+   "Oren",
+   "Hinohara",
+   "Strathdee",
+   "Dempster",
+   "Lyons",
+   "Burns",
+   "Nag",
+   "Kugener",
+   "Cimini",
+   "Tsvetkov",
+   "Maruvka",
+   "O’Rourke",
+   "Garrity",
+   "Tubelli",
+   "Bandopadhayay",
+   "Tsherniak",
+   "Vazquez",
+   "Wong",
+   "Birger",
+   "Ghandi",
+   "Thorner",
+   "Bittker",
+   "Meyerson",
+   "Getz",
+   "Beroukhim",
+   "Golub"
+  ],
+  "year": 2018,
+  "title": "Genetic and transcriptional evolution alters cancer cell line drug response",
+  "container": "Nature",
+  "citet_display": "Ben-David et al.",
+  "crossref_ok": true
+ },
+ "Stein2015": {
+  "doi": "10.3109/02699052.2015.1065344",
+  "family": "Stein",
+  "given": "Donald G.",
+  "all_families": [
+   "Stein"
+  ],
+  "year": 2015,
+  "title": "Embracing failure: What the Phase III progesterone studies can teach about TBI clinical trials",
+  "container": "Brain Injury",
+  "citet_display": "Stein",
+  "crossref_ok": true
+ },
+ "Draeger2020": {
+  "doi": "10.1016/j.ijrobp.2019.06.2545",
+  "family": "Draeger",
+  "given": "Emily",
+  "all_families": [
+   "Draeger",
+   "Sawant",
+   "Johnstone",
+   "Koger",
+   "Becker",
+   "Vujaskovic",
+   "Jackson",
+   "Poirier"
+  ],
+  "year": 2020,
+  "title": "A Dose of Reality: How 20 Years of Incomplete Physics and Dosimetry Reporting in Radiobiology Studies May Have Contributed to the Reproducibility Crisis",
+  "container": "International Journal of Radiation Oncology*Biology*Physics",
+  "citet_display": "Draeger et al.",
+  "crossref_ok": true
+ },
+ "Watzlawick2019": {
+  "doi": "10.1212/WNL.0000000000007718",
+  "family": "Watzlawick",
+  "given": "Ralf",
+  "all_families": [
+   "Watzlawick",
+   "Antonic",
+   "Sena",
+   "Kopp",
+   "Rind",
+   "Dirnagl",
+   "Macleod",
+   "Howells",
+   "Schwab"
+  ],
+  "year": 2019,
+  "title": "Outcome heterogeneity and bias in acute experimental spinal cord injury",
+  "container": "Neurology",
+  "citet_display": "Watzlawick et al.",
+  "crossref_ok": true
+ },
+ "Chalmers2014": {
+  "doi": "10.1016/S0140-6736(13)62229-1",
+  "family": "Chalmers",
+  "given": "Iain",
+  "all_families": [
+   "Chalmers",
+   "Bracken",
+   "Djulbegovic",
+   "Garattini",
+   "Grant",
+   "Gülmezoglu",
+   "Howells",
+   "Ioannidis",
+   "Oliver"
+  ],
+  "year": 2014,
+  "title": "How to increase value and reduce waste when research priorities are set",
+  "container": "The Lancet",
+  "citet_display": "Chalmers et al.",
+  "crossref_ok": true
+ },
+ "Deutsch2021": {
+  "doi": "10.1371/journal.pone.0250362",
+  "family": "Deutsch",
+  "given": "Susanne",
+  "all_families": [
+   "Deutsch",
+   "Heider",
+   "Glage",
+   "Bleich",
+   "Tolba",
+   "Strech",
+   "Wieschowski"
+  ],
+  "year": 2021,
+  "title": "Web-based survey among animal researchers on publication practices and incentives for increasing publication rates",
+  "container": "PLOS ONE",
+  "citet_display": "Deutsch et al.",
+  "crossref_ok": true
+ },
+ "Lapchak2012": {
+  "doi": "10.4172/2155-9562.1000e111",
+  "family": "Lapchak",
+  "given": "Paul A.",
+  "all_families": [
+   "Lapchak"
+  ],
+  "year": 2012,
+  "title": "Scientific Rigor Recommendations for Optimizing the Clinical Applicability of Translational Research",
+  "container": "Journal of Neurology &amp; Neurophysiology",
+  "citet_display": "Lapchak",
+  "crossref_ok": true
+ },
+ "Soliman2021": {
+  "doi": "10.1097/j.pain.0000000000002269",
+  "family": "Soliman",
+  "given": "Nadia",
+  "all_families": [
+   "Soliman",
+   "Haroutounian",
+   "Hohmann",
+   "Krane",
+   "Liao",
+   "Macleod",
+   "Segelcke",
+   "Sena",
+   "Thomas",
+   "Vollert",
+   "Wever",
+   "Alaverdyan",
+   "Barakat",
+   "Barthlow",
+   "Bozer",
+   "Davidson",
+   "Diaz-delCastillo",
+   "Dolgorukova",
+   "Ferdousi",
+   "Healy",
+   "Hong",
+   "Hopkins",
+   "James",
+   "Leake",
+   "Malewicz",
+   "Mansfield",
+   "Mardon",
+   "Mattimoe",
+   "McLoone",
+   "Noes-Holt",
+   "Pogatzki-Zahn",
+   "Power",
+   "Pradier",
+   "Romanos-Sirakis",
+   "Segelcke",
+   "Vinagre",
+   "Yanes",
+   "Zhang",
+   "Zhang",
+   "Finn",
+   "Rice"
+  ],
+  "year": 2021,
+  "title": "Systematic review and meta-analysis of cannabinoids, cannabis-based medicines, and endocannabinoid system modulators tested for antinociceptive effects in animal models of injury-related or pathological persistent pain",
+  "container": "Pain",
+  "citet_display": "Soliman et al.",
+  "crossref_ok": true
+ },
+ "Watzlawick2014": {
+  "doi": "10.1001/jamaneurol.2013.4684",
+  "family": "Watzlawick",
+  "given": "Ralf",
+  "all_families": [
+   "Watzlawick",
+   "Sena",
+   "Dirnagl",
+   "Brommer",
+   "Kopp",
+   "Macleod",
+   "Howells",
+   "Schwab"
+  ],
+  "year": 2014,
+  "title": "Effect and Reporting Bias of RhoA/ROCK-Blockade Intervention on Locomotor Recovery After Spinal Cord Injury",
+  "container": "JAMA Neurology",
+  "citet_display": "Watzlawick et al.",
+  "crossref_ok": true
+ },
+ "Heidari2016": {
+  "doi": "10.1186/s41073-016-0007-6",
+  "family": "Heidari",
+  "given": "Shirin",
+  "all_families": [
+   "Heidari",
+   "Babor",
+   "De Castro",
+   "Tort",
+   "Curno"
+  ],
+  "year": 2016,
+  "title": "Sex and Gender Equity in Research: rationale for the SAGER guidelines and recommended use",
+  "container": "Research Integrity and Peer Review",
+  "citet_display": "Heidari et al.",
+  "crossref_ok": true
+ },
+ "Xie2015": {
+  "doi": "10.1038/srep07790",
+  "family": "Xie",
+  "given": "Cheng-long",
+  "all_families": [
+   "Xie",
+   "Wang",
+   "Xue",
+   "Zhang",
+   "Gan",
+   "Liu"
+  ],
+  "year": 2015,
+  "title": "A systematic review and meta-analysis of Ginsenoside-Rg1 (G-Rg1) in experimental ischemic stroke",
+  "container": "Scientific Reports",
+  "citet_display": "Xie et al.",
+  "crossref_ok": true
+ },
+ "Jue2018": {
+  "doi": "10.18632/oncotarget.24334",
+  "family": "Jue",
+  "given": "Toni Rose",
+  "all_families": [
+   "Jue",
+   "Sena",
+   "Macleod",
+   "McDonald",
+   "Hirst"
+  ],
+  "year": 2018,
+  "title": "A systematic review and meta-analysis of topoisomerase inhibition in pre-clinical glioma models",
+  "container": "Oncotarget",
+  "citet_display": "Jue et al.",
+  "crossref_ok": true
+ },
+ "Mugan2025": {
+  "doi": "10.1097/PR9.0000000000001228",
+  "family": "Mugan",
+  "given": "Dave",
+  "all_families": [
+   "Mugan",
+   "Vuong",
+   "Dietz",
+   "Obara"
+  ],
+  "year": 2025,
+  "title": "Characterization of preclinical models to investigate spinal cord stimulation for neuropathic pain: a systematic review and meta-analysis",
+  "container": "PAIN Reports",
+  "citet_display": "Mugan et al.",
+  "crossref_ok": true
+ },
+ "Ortmann2020": {
+  "doi": "10.1016/j.stem.2020.07.019",
+  "family": "Ortmann",
+  "given": "Daniel",
+  "all_families": [
+   "Ortmann",
+   "Brown",
+   "Czechanski",
+   "Aydin",
+   "Muraro",
+   "Huang",
+   "Tomaz",
+   "Osnato",
+   "Canu",
+   "Wesley",
+   "Skelly",
+   "Stegle",
+   "Choi",
+   "Churchill",
+   "Baker",
+   "Rugg-Gunn",
+   "Munger",
+   "Reinholdt",
+   "Vallier"
+  ],
+  "year": 2020,
+  "title": "Naive Pluripotent Stem Cells Exhibit Phenotypic Variability that Is Driven by Genetic Variation",
+  "container": "Cell Stem Cell",
+  "citet_display": "Ortmann et al.",
+  "crossref_ok": true
+ },
+ "Koop2023": {
+  "doi": "10.3389/fimmu.2023.1215566",
+  "family": "Koop",
+  "given": "Meghan A.",
+  "all_families": [
+   "Koop",
+   "Sleijser-Koehorst",
+   "Hooijmans",
+   "Tdlohreg",
+   "Lutke Schipholt",
+   "Scholten-Peeters",
+   "Coppieters"
+  ],
+  "year": 2023,
+  "title": "The potential protective effects of pre-injury exercise on neuroimmune responses following experimentally-induced traumatic neuropathy: a systematic review with meta-analysis",
+  "container": "Frontiers in Immunology",
+  "citet_display": "Koop et al.",
+  "crossref_ok": true
+ },
+ "Samsa2019": {
+  "doi": "10.1097/ACM.0000000000002351",
+  "family": "Samsa",
+  "given": "Greg",
+  "all_families": [
+   "Samsa",
+   "Samsa"
+  ],
+  "year": 2019,
+  "title": "A Guide to Reproducibility in Preclinical Research",
+  "container": "Academic Medicine",
+  "citet_display": "Samsa and Samsa",
+  "crossref_ok": true
+ },
+ "Huerta2024": {
+  "doi": "10.1097/j.pain.0000000000003450",
+  "family": "Huerta",
+  "given": "Miguel Á.",
+  "all_families": [
+   "Huerta",
+   "Molina-Álvarez",
+   "García",
+   "Tejada",
+   "Goicoechea",
+   "Ghasemlou",
+   "Ruiz-Cantero",
+   "Cobos"
+  ],
+  "year": 2024,
+  "title": "The role of neutrophils in pain: systematic review and meta-analysis of animal studies",
+  "container": "Pain",
+  "citet_display": "Huerta et al.",
+  "crossref_ok": true
+ },
+ "DiMasi2014": {
+  "doi": "10.1097/MJT.0b013e318269198f",
+  "family": "DiMasi",
+  "given": "Joseph A.",
+  "all_families": [
+   "DiMasi"
+  ],
+  "year": 2014,
+  "title": "Pharmaceutical R&amp;D Performance by Firm Size",
+  "container": "American Journal of Therapeutics",
+  "citet_display": "DiMasi",
+  "crossref_ok": true
+ },
+ "OpenScienceCollaboration2015": {
+  "doi": "10.1126/science.aac4716",
+  "family": "Open Science Collaboration",
+  "given": null,
+  "all_families": [
+   "Open Science Collaboration"
+  ],
+  "year": 2015,
+  "title": "Estimating the reproducibility of psychological science",
+  "container": "Science",
+  "citet_display": "Open Science Collaboration",
+  "crossref_ok": true
+ },
+ "Henderson2013": {
+  "doi": "10.1371/journal.pmed.1001489",
+  "family": "Henderson",
+  "given": "Valerie C.",
+  "all_families": [
+   "Henderson",
+   "Kimmelman",
+   "Fergusson",
+   "Grimshaw",
+   "Hackam"
+  ],
+  "year": 2013,
+  "title": "Threats to Validity in the Design and Conduct of Preclinical Efficacy Studies: A Systematic Review of Guidelines for In Vivo Animal Experiments",
+  "container": "PLoS Medicine",
+  "citet_display": "Henderson et al.",
+  "crossref_ok": true
+ },
+ "Russell2022": {
+  "doi": "10.1136/bmjos-2021-100219",
+  "family": "Russell",
+  "given": "Ash Allanna Mark",
+  "all_families": [
+   "Russell",
+   "Sutherland",
+   "Landowski",
+   "Macleod",
+   "Howells"
+  ],
+  "year": 2022,
+  "title": "What has preclinical systematic review ever done for us?",
+  "container": "BMJ Open Science",
+  "citet_display": "Russell et al.",
+  "crossref_ok": true
+ },
+ "Btker2018": {
+  "doi": "10.1007/s00395-018-0696-8",
+  "family": "Bøtker",
+  "given": "Hans Erik",
+  "all_families": [
+   "Bøtker",
+   "Hausenloy",
+   "Andreadou",
+   "Antonucci",
+   "Boengler",
+   "Davidson",
+   "Deshwal",
+   "Devaux",
+   "Di Lisa",
+   "Di Sante",
+   "Efentakis",
+   "Femminò",
+   "García-Dorado",
+   "Giricz",
+   "Ibanez",
+   "Iliodromitis",
+   "Kaludercic",
+   "Kleinbongard",
+   "Neuhäuser",
+   "Ovize",
+   "Pagliaro",
+   "Rahbek-Schmidt",
+   "Ruiz-Meana",
+   "Schlüter",
+   "Schulz",
+   "Skyschally",
+   "Wilder",
+   "Yellon",
+   "Ferdinandy",
+   "Heusch"
+  ],
+  "year": 2018,
+  "title": "Practical guidelines for rigor and reproducibility in preclinical and clinical studies on cardioprotection",
+  "container": "Basic Research in Cardiology",
+  "citet_display": "Bøtker et al.",
+  "crossref_ok": true
+ },
+ "Wever2015": {
+  "doi": "10.1371/journal.pone.0142021",
+  "family": "Wever",
+  "given": "Kimberley E.",
+  "all_families": [
+   "Wever",
+   "Hooijmans",
+   "Riksen",
+   "Sterenborg",
+   "Sena",
+   "Ritskes-Hoitinga",
+   "Warlé"
+  ],
+  "year": 2015,
+  "title": "Determinants of the Efficacy of Cardiac Ischemic Preconditioning: A Systematic Review and Meta-Analysis of Animal Studies",
+  "container": "PLOS ONE",
+  "citet_display": "Wever et al.",
+  "crossref_ok": true
+ },
+ "Jackson2016": {
+  "doi": "10.1177/0023677216653984",
+  "family": "Jackson",
+  "given": "Samuel J",
+  "all_families": [
+   "Jackson",
+   "Andrews",
+   "Ball",
+   "Bellantuono",
+   "Gray",
+   "Hachoumi",
+   "Holmes",
+   "Latcham",
+   "Petrie",
+   "Potter",
+   "Rice",
+   "Ritchie",
+   "Stewart",
+   "Strepka",
+   "Yeoman",
+   "Chapman"
+  ],
+  "year": 2016,
+  "title": "Does age matter? The impact of rodent age on study outcomes",
+  "container": "Laboratory Animals",
+  "citet_display": "Jackson et al.",
+  "crossref_ok": true
+ },
+ "Woitowich2020": {
+  "doi": "10.7554/eLife.56344",
+  "family": "Woitowich",
+  "given": "Nicole C",
+  "all_families": [
+   "Woitowich",
+   "Beery",
+   "Woodruff"
+  ],
+  "year": 2020,
+  "title": "A 10-year follow-up study of sex inclusion in the biological sciences",
+  "container": "eLife",
+  "citet_display": "Woitowich et al.",
+  "crossref_ok": true
+ },
+ "PillaiKastoori2020": {
+  "doi": "10.1074/jbc.RA119.010472",
+  "family": "Pillai-Kastoori",
+  "given": "Lakshmi",
+  "all_families": [
+   "Pillai-Kastoori",
+   "Heaton",
+   "Shiflett",
+   "Roberts",
+   "Solache",
+   "Schutz-Geschwender"
+  ],
+  "year": 2020,
+  "title": "Antibody validation for Western blot: By the user, for the user",
+  "container": "Journal of Biological Chemistry",
+  "citet_display": "Pillai-Kastoori et al.",
+  "crossref_ok": true
+ },
+ "Korbmacher2023": {
+  "doi": "10.1038/s44271-023-00003-2",
+  "family": "Korbmacher",
+  "given": "Max",
+  "all_families": [
+   "Korbmacher",
+   "Azevedo",
+   "Pennington",
+   "Hartmann",
+   "Pownall",
+   "Schmidt",
+   "Elsherif",
+   "Breznau",
+   "Robertson",
+   "Kalandadze",
+   "Yu",
+   "Baker",
+   "O’Mahony",
+   "Olsnes",
+   "Shaw",
+   "Gjoneska",
+   "Yamada",
+   "Röer",
+   "Murphy",
+   "Alzahawi",
+   "Grinschgl",
+   "Oliveira",
+   "Wingen",
+   "Yeung",
+   "Liu",
+   "König",
+   "Albayrak-Aydemir",
+   "Lecuona",
+   "Micheli",
+   "Evans"
+  ],
+  "year": 2023,
+  "title": "The replication crisis has led to positive structural, procedural, and community changes",
+  "container": "Communications Psychology",
+  "citet_display": "Korbmacher et al.",
+  "crossref_ok": true
+ },
+ "Knuth2024": {
+  "doi": "10.1038/s41684-024-01477-1",
+  "family": "Knuth",
+  "given": "Megan M.",
+  "all_families": [
+   "Knuth",
+   "Campos",
+   "Smith",
+   "Hutchins",
+   "Lewis",
+   "York",
+   "Coghill",
+   "Franklin",
+   "MacFarlane",
+   "Ericsson",
+   "Magnuson",
+   "Ideraabdullah"
+  ],
+  "year": 2024,
+  "title": "Timing of standard chow exposure determines the variability of mouse phenotypic outcomes and gut microbiota profile",
+  "container": "Lab Animal",
+  "citet_display": "Knuth et al.",
+  "crossref_ok": true
+ },
+ "ContopoulosIoannidis2003": {
+  "doi": "10.1016/s0002-9343(03)00013-5",
+  "family": "Contopoulos-Ioannidis",
+  "given": "Despina G.",
+  "all_families": [
+   "Contopoulos-Ioannidis",
+   "Ntzani",
+   "Ioannidis"
+  ],
+  "year": 2003,
+  "title": "Translation of highly promising basic science research into clinical applications",
+  "container": "The American Journal of Medicine",
+  "citet_display": "Contopoulos-Ioannidis et al.",
+  "crossref_ok": true
+ },
+ "Perel2006": {
+  "doi": "10.1136/bmj.39048.407928.BE",
+  "family": "Perel",
+  "given": "Pablo",
+  "all_families": [
+   "Perel",
+   "Roberts",
+   "Sena",
+   "Wheble",
+   "Briscoe",
+   "Sandercock",
+   "Macleod",
+   "Mignini",
+   "Jayaram",
+   "Khan"
+  ],
+  "year": 2006,
+  "title": "Comparison of treatment effects between animal experiments and clinical trials: systematic review",
+  "container": "BMJ",
+  "citet_display": "Perel et al.",
+  "crossref_ok": true
+ },
+ "Liddle2021": {
+  "doi": "10.3389/fneur.2020.588479",
+  "family": "Liddle",
+  "given": "Lane J.",
+  "all_families": [
+   "Liddle",
+   "Dirks",
+   "Fedor",
+   "Almekhlafi",
+   "Colbourne"
+  ],
+  "year": 2021,
+  "title": "A Systematic Review and Meta-Analysis of Animal Studies Testing Intra-Arterial Chilled Infusates After Ischemic Stroke",
+  "container": "Frontiers in Neurology",
+  "citet_display": "Liddle et al.",
+  "crossref_ok": true
+ },
+ "Archer2018": {
+  "doi": "10.1016/j.bja.2018.07.024",
+  "family": "Archer",
+  "given": "D.P.",
+  "all_families": [
+   "Archer",
+   "McCann",
+   "Walker",
+   "Premji",
+   "Rogan",
+   "Hutton",
+   "Gray"
+  ],
+  "year": 2018,
+  "title": "Neuroprotection by anaesthetics in rodent models of traumatic brain injury: a systematic review and network meta-analysis",
+  "container": "British Journal of Anaesthesia",
+  "citet_display": "Archer et al.",
+  "crossref_ok": true
+ },
+ "Singh2020": {
+  "doi": "10.1177/0261192920923105",
+  "family": "Singh",
+  "given": "Vijay Pal",
+  "all_families": [
+   "Singh",
+   "Jain",
+   "Gupta",
+   "Vijayakumar",
+   "Pratap",
+   "Maheshwari",
+   "Thoradeniya"
+  ],
+  "year": 2020,
+  "title": "The Quality of Reporting Raises Questions on the Experimental Validity of Animal Studies Conducted in India and Sri Lanka: Preliminary Analysis of a Systematic Survey",
+  "container": "Alternatives to Laboratory Animals",
+  "citet_display": "Singh et al.",
+  "crossref_ok": true
+ },
+ "Aigner2023": {
+  "doi": "10.1371/journal.pone.0288209",
+  "family": "Aigner",
+  "given": "Bernhard",
+  "all_families": [
+   "Aigner",
+   "Heumann"
+  ],
+  "year": 2023,
+  "title": "Variability of clinical chemical and hematological parameters, immunological parameters, and behavioral tests in data sets of the Mouse Phenome Database",
+  "container": "PLOS ONE",
+  "citet_display": "Aigner and Heumann",
+  "crossref_ok": true
+ },
+ "Zushin2023": {
+  "doi": "10.1172/JCI175824",
+  "family": "Zushin",
+  "given": "Peter-James H.",
+  "all_families": [
+   "Zushin",
+   "Mukherjee",
+   "Wu"
+  ],
+  "year": 2023,
+  "title": "FDA Modernization Act 2.0: transitioning beyond animal models with human cells, organoids, and AI/ML-based approaches",
+  "container": "Journal of Clinical Investigation",
+  "citet_display": "Zushin et al.",
+  "crossref_ok": true
+ },
+ "Tsilidis2013": {
+  "doi": "10.1371/journal.pbio.1001609",
+  "family": "Tsilidis",
+  "given": "Konstantinos K.",
+  "all_families": [
+   "Tsilidis",
+   "Panagiotou",
+   "Sena",
+   "Aretouli",
+   "Evangelou",
+   "Howells",
+   "Salman",
+   "Macleod",
+   "Ioannidis"
+  ],
+  "year": 2013,
+  "title": "Evaluation of Excess Significance Bias in Animal Studies of Neurological Diseases",
+  "container": "PLoS Biology",
+  "citet_display": "Tsilidis et al.",
+  "crossref_ok": true
+ },
+ "TAFT2006": {
+  "doi": "10.1016/j.tig.2006.09.010",
+  "family": "TAFT",
+  "given": "R",
+  "all_families": [
+   "TAFT",
+   "DAVISSON",
+   "WILES"
+  ],
+  "year": 2006,
+  "title": "Know thy mouse",
+  "container": "Trends in Genetics",
+  "citet_display": "TAFT et al.",
+  "crossref_ok": true
+ },
+ "Shineman2011": {
+  "doi": "10.1186/alzrt90",
+  "family": "Shineman",
+  "given": "Diana W",
+  "all_families": [
+   "Shineman",
+   "Basi",
+   "Bizon",
+   "Colton",
+   "Greenberg",
+   "Hollister",
+   "Lincecum",
+   "Leblanc",
+   "Lee",
+   "Luo",
+   "Morgan",
+   "Morse",
+   "Refolo",
+   "Riddell",
+   "Scearce-Levie",
+   "Sweeney",
+   "Yrjänheikki",
+   "Fillit"
+  ],
+  "year": 2011,
+  "title": "Accelerating drug discovery for Alzheimer's disease: best practices for preclinical animal studies",
+  "container": "Alzheimer's Research &amp; Therapy",
+  "citet_display": "Shineman et al.",
+  "crossref_ok": true
+ },
+ "McGonigle2014": {
+  "doi": "10.1016/j.bcp.2013.08.006",
+  "family": "McGonigle",
+  "given": "Paul",
+  "all_families": [
+   "McGonigle",
+   "Ruggeri"
+  ],
+  "year": 2014,
+  "title": "Animal models of human disease: Challenges in enabling translation",
+  "container": "Biochemical Pharmacology",
+  "citet_display": "McGonigle and Ruggeri",
+  "crossref_ok": true
+ },
+ "Hair2019": {
+  "doi": "10.1186/s41073-019-0069-3",
+  "family": "Hair",
+  "given": null,
+  "all_families": [
+   "Hair",
+   "Macleod",
+   "Sena"
+  ],
+  "year": 2019,
+  "title": "A randomised controlled trial of an Intervention to Improve Compliance with the ARRIVE guidelines (IICARus)",
+  "container": "Research Integrity and Peer Review",
+  "citet_display": "Hair et al.",
+  "crossref_ok": true
+ },
+ "Zingarelli2019": {
+  "doi": "10.1097/SHK.0000000000001243",
+  "family": "Zingarelli",
+  "given": "Basilia",
+  "all_families": [
+   "Zingarelli",
+   "Coopersmith",
+   "Drechsler",
+   "Efron",
+   "Marshall",
+   "Moldawer",
+   "Wiersinga",
+   "Xiao",
+   "Osuchowski",
+   "Thiemermann"
+  ],
+  "year": 2019,
+  "title": "Part I: Minimum Quality Threshold in Preclinical Sepsis Studies (MQTiPSS) for Study Design and Humane Modeling Endpoints",
+  "container": "Shock",
+  "citet_display": "Zingarelli et al.",
+  "crossref_ok": true
+ },
+ "Beery2011": {
+  "doi": "10.1016/j.neubiorev.2010.07.002",
+  "family": "Beery",
+  "given": "Annaliese K.",
+  "all_families": [
+   "Beery",
+   "Zucker"
+  ],
+  "year": 2011,
+  "title": "Sex bias in neuroscience and biomedical research",
+  "container": "Neuroscience &amp; Biobehavioral Reviews",
+  "citet_display": "Beery and Zucker",
+  "crossref_ok": true
+ },
+ "Vesterinen2010": {
+  "doi": "10.1038/jcbfm.2010.217",
+  "family": "Vesterinen",
+  "given": "Hanna V",
+  "all_families": [
+   "Vesterinen",
+   "Egan",
+   "Deister",
+   "Schlattmann",
+   "Macleod",
+   "Dirnagl"
+  ],
+  "year": 2010,
+  "title": "Systematic Survey of the Design, Statistical Analysis, and Reporting of Studies Published in the 2008 Volume of the\n                    <i>Journal of Cerebral Blood Flow and Metabolism</i>",
+  "container": "Journal of Cerebral Blood Flow &amp; Metabolism",
+  "citet_display": "Vesterinen et al.",
+  "crossref_ok": true
+ },
+ "Boschen2023": {
+  "doi": "10.1371/journal.pone.0283353",
+  "family": "Böschen",
+  "given": "Ingmar",
+  "all_families": [
+   "Böschen"
+  ],
+  "year": 2023,
+  "title": "Changes in methodological study characteristics in psychology between 2010-2021",
+  "container": "PLOS ONE",
+  "citet_display": "Böschen",
+  "crossref_ok": true
+ },
+ "Bansal2017": {
+  "doi": "10.1089/ten.TEC.2017.0080",
+  "family": "Bansal",
+  "given": "Sonia",
+  "all_families": [
+   "Bansal",
+   "Keah",
+   "Neuwirth",
+   "O'Reilly",
+   "Qu",
+   "Seiber",
+   "Mandalapu",
+   "Mauck",
+   "Zgonis"
+  ],
+  "year": 2017,
+  "title": "Large Animal Models of Meniscus Repair and Regeneration: A Systematic Review of the State of the Field",
+  "container": "Tissue Engineering Part C: Methods",
+  "citet_display": "Bansal et al.",
+  "crossref_ok": true
+ },
+ "Becker2016": {
+  "doi": "10.1186/s13293-016-0087-5",
+  "family": "Becker",
+  "given": "Jill B.",
+  "all_families": [
+   "Becker",
+   "Prendergast",
+   "Liang"
+  ],
+  "year": 2016,
+  "title": "Female rats are not more variable than male rats: a meta-analysis of neuroscience studies",
+  "container": "Biology of Sex Differences",
+  "citet_display": "Becker et al.",
+  "crossref_ok": true
+ },
+ "VanNorman2019": {
+  "doi": "10.1016/j.jacbts.2019.10.008",
+  "family": "Van Norman",
+  "given": "Gail A.",
+  "all_families": [
+   "Van Norman"
+  ],
+  "year": 2019,
+  "title": "Limitations of Animal Studies for Predicting Toxicity in Clinical Trials",
+  "container": "JACC: Basic to Translational Science",
+  "citet_display": "Van Norman",
+  "crossref_ok": true
+ }
+}

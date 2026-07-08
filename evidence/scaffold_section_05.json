@@ -1,0 +1,227 @@
+{
+ "section_id": "section_05",
+ "section_plan": {
+  "id": "section_05",
+  "title": "Virtual Control Groups and Data Reuse as Reduction",
+  "canonical_label": "sec-virtual-controls",
+  "clusters": [
+   "cluster_04",
+   "cluster_05"
+  ],
+  "thesis": "Reusing historical control-animal data as virtual control groups (VCGs) converts abstract data reuse into concrete Reduction - roughly a quarter fewer control animals - and the infrastructure to do it already exists at scale. But the payoff is conditional: concordance with concurrent controls is endpoint-dependent, temporal and cross-laboratory drift can bias conclusions, and no regulator has yet accepted a VCG-based study, so the ethical dividend remains partly theoretical.",
+  "key_evidence": [
+   "DuchateauNguyen2026",
+   "Adedeji2024",
+   "Kellner2025",
+   "Gurjanov2023",
+   "Gurjanov2024b",
+   "StegerHartmann2020",
+   "Wright2023b",
+   "Struebing2024",
+   "TorresEspin2021",
+   "Shin2019"
+  ],
+  "conflicts_to_present": [
+   {
+    "a_key": "DuchateauNguyen2026",
+    "b_key": "Adedeji2024",
+    "nature": "Degree of VCG-concurrent-control concordance: a liver-enzyme simulation reports high agreement (>=90% in 68.5% of comparisons) whereas a clinical-pathology review reports 31-49% of quantitative parameters non-reproducible when concurrent controls are replaced - the central VCG tradeoff."
+   },
+   {
+    "a_key": "Nambiar2012",
+    "b_key": "Kellner2025",
+    "nature": "Temporal stability of historical control data: a rasH2 tumour-incidence analysis argues for minimal drift over a decade, while a multi-company clinical-pathology database finds study year is the single most influential covariate - determines whether pooled control data can be trusted."
+   },
+   {
+    "a_key": "Panzacchi2025",
+    "b_key": "Aguilar2017",
+    "nature": "Adequacy of historical control data for carcinogenicity conclusions: the Ramazzini Institute relies on its own and NTP historical controls to support treatment-related tumour findings, whereas EFSA rejected such conclusions partly because the historical controls were decades out of date and lacked a concurrent control."
+   }
+  ],
+  "connection_prev": "sec-fair-preclinical showed generic sharing rarely produces reuse; this section presents the clearest counter-case, where reusing a specific, well-curated data type (control-animal data) yields a measurable Reduction dividend, while inheriting the same data-quality and drift problems.",
+  "connection_next": "VCGs reuse animal data to reduce animal use; sec-nams-data addresses the complementary strategy - replacing animals with non-animal methods - and shows those methods generate their own data that must be stewarded to avoid re-incurring the debt.",
+  "cross_references": [
+   "sec-fair-preclinical",
+   "sec-data-welfare",
+   "sec-nams-data",
+   "sec-governance"
+  ],
+  "word_count_target": 4500,
+  "figures": [
+   "fig:sec05-vcg-reduction",
+   "fig:sec05-vcg-concordance",
+   "fig:sec05-shared-control-scale"
+  ]
+ },
+ "previous_section": "sec-fair-preclinical showed generic sharing rarely produces reuse; this section presents the clearest counter-case, where reusing a specific, well-curated data type (control-animal data) yields a measurable Reduction dividend, while inheriting the same data-quality and drift problems.",
+ "next_section": "VCGs reuse animal data to reduce animal use; sec-nams-data addresses the complementary strategy - replacing animals with non-animal methods - and shows those methods generate their own data that must be stewarded to avoid re-incurring the debt.",
+ "figure_specs": [
+  {
+   "label": "fig:sec05-vcg-reduction",
+   "type": "cross-study comparison",
+   "section": "section_05",
+   "argument_supported": "Quantifies the Reduction dividend of virtual control groups and control-data borrowing, showing convergence on ~25% control-animal reduction plus a clinical analogue.",
+   "data_source": "vcg-hcd-animal-reduction-estimates",
+   "what_it_reveals": "Convergence of three preclinical estimates on ~25% - alongside a clinical Bayesian-borrowing enrolment reduction - shows the reduction figure is stable across independent groups, making it a defensible planning number.",
+   "caption_draft": "Figure 12. Estimated animal/enrolment reduction from virtual control groups and Bayesian control-borrowing. Preclinical proposals converge on ~25% control-animal reduction (StegerHartmann2020; Gurjanov2024b; Adedeji2024), while a device-trial Bayesian dynamic-borrowing design reduced enrolment from 2,386 to ~1,497 under congruence (Chiaruttini2025). Reusing control data operationalises Reduction. Preclinical (animal-count) and clinical (enrolment) reductions are distinguished by category colour."
+  },
+  {
+   "label": "fig:sec05-vcg-concordance",
+   "type": "cross-study comparison",
+   "section": "section_05",
+   "argument_supported": "Presents the central VCG tradeoff - that reduction comes at an endpoint-dependent concordance cost - so the ethical dividend is real but not free.",
+   "data_source": "vcg-concurrent-control-concordance",
+   "what_it_reveals": "Setting high overall agreement (82%, 68.5%) against high clinical-pathology non-reproducibility (31-49%) on one axis shows the tradeoff is endpoint-specific, not a single verdict for or against VCGs.",
+   "caption_draft": "Figure 13. Concordance between virtual/omitted-concurrent-control analyses and true concurrent controls. Omitting the concurrent control confirmed 82% of significant NHP parameters (Mecklenburg2023) and VCGs reproduced rat liver-enzyme decisions with >=90% agreement in 68.5% of comparisons (DuchateauNguyen2026), yet 31-49% of quantitative clinical-pathology parameters were non-reproducible when VCGs replaced concurrent controls (Adedeji2024). Agreement (repayment colour) and non-reproducibility (debt colour) are plotted together to show the endpoint-dependent tradeoff."
+  },
+  {
+   "label": "fig:sec05-shared-control-scale",
+   "type": "data summary",
+   "section": "section_05",
+   "argument_supported": "Establishes that the infrastructure for control-data reuse already exists at scale, so the bottleneck is acceptance and stewardship, not data volume.",
+   "data_source": "shared-control-database-scale",
+   "what_it_reveals": "A single summary of database scales (tens of thousands of animals/studies) makes concrete that reuse is a solved data-availability problem for this specific data type, unlike the general FAIR failure in sec-fair-preclinical.",
+   "caption_draft": "Figure 14. Scale of shared preclinical control/nonclinical databases. Curated resources already hold control and toxicology data at scale: 10,896 rats across 106 studies in RITA (Deschl2002), >60,000 rats plus 1,300 dogs and 500 monkeys in eTRANSAFE (Moresis2024), 6,500 legacy studies from eTOX (Pognan2021), and >10,000 SEND datasets in the FDA CDER repository (Snyder2024). The reuse infrastructure exists; acceptance and stewardship are the bottleneck. A log scale is used because counts span orders of magnitude; exact values are labelled."
+  }
+ ],
+ "figure_style_guide": {
+  "color_palette": {
+   "declared_nominal": {
+    "hex": "#56B4E9",
+    "meaning": "Declared / stated / nominal values (data-availability statements, DMP compliance, pledged sharing)"
+   },
+   "actual_verified": {
+    "hex": "#0072B2",
+    "meaning": "Actual / verified / usable values (data truly available, FAIR-compliant)"
+   },
+   "debt_loss_negative": {
+    "hex": "#D55E00",
+    "meaning": "Data waste, bias inflation, loss, non-reproducibility - the debt"
+   },
+   "repayment_gain_positive": {
+    "hex": "#009E73",
+    "meaning": "Reduction achieved, reuse, gain, repayment mechanisms"
+   },
+   "highlight_conflict": {
+    "hex": "#E69F00",
+    "meaning": "Conflicting/divergent estimates or the highlighted disputed value in a cross-study conflict"
+   },
+   "secondary_category": {
+    "hex": "#CC79A7",
+    "meaning": "Secondary category (e.g., non-animal/NAM series, or a third comparator group)"
+   },
+   "emphasis": {
+    "hex": "#F0E442",
+    "meaning": "Callout/emphasis fill for a single focal bar or annotation band (use sparingly, always with a text label)"
+   },
+   "neutral_baseline": {
+    "hex": "#999999",
+    "meaning": "Baseline, reference line, or context/other studies not in focus"
+   },
+   "ink": {
+    "hex": "#222222",
+    "meaning": "Text, axes, and primary rules"
+   }
+  },
+  "category_colors": {
+   "declared_vs_actual": {
+    "declared": "#56B4E9",
+    "actual": "#0072B2",
+    "fair_compliant": "#004C6D"
+   },
+   "debt_vs_repayment": {
+    "debt": "#D55E00",
+    "repayment": "#009E73"
+   },
+   "before_vs_after": {
+    "before": "#999999",
+    "after": "#0072B2"
+   },
+   "animal_vs_nonanimal": {
+    "animal_data": "#0072B2",
+    "nam_nonanimal": "#CC79A7"
+   },
+   "convergent_vs_conflict": {
+    "convergent_series": "#0072B2",
+    "conflict_low": "#56B4E9",
+    "conflict_high": "#E69F00"
+   }
+  },
+  "font": {
+   "family": "Source Sans Pro (fallback: Arial, Helvetica, sans-serif)",
+   "title_pt": 12,
+   "axis_label_pt": 10,
+   "tick_pt": 9,
+   "annotation_pt": 8.5,
+   "caption_pt": 9
+  },
+  "line_weights": {
+   "axis_pt": 1.0,
+   "data_line_pt": 2.0,
+   "error_bar_pt": 1.0,
+   "reference_line_pt": 0.75,
+   "reference_line_style": "dashed",
+   "bar_edge_pt": 0.5
+  },
+  "dpi": 300,
+  "background": "white",
+  "redundant_cues": true,
+  "redundant_cues_note": "Never encode meaning by hue alone. Pair every colour with a second channel: hatch/pattern fills for declared vs actual (open hatch vs solid), distinct markers (circle/triangle/square) on forest and line plots, direct value labels on every bar, and short text annotations naming the focal contrast. Palette is the Okabe-Ito colourblind-safe set; verify with a deuteranopia/protanopia simulation before export."
+ },
+ "cross_cutting_elements": {
+  "recurring_themes": [
+   "The declared-versus-actual gap: across FAIR audits, incentive studies and governance evaluations, stated intent (data-availability statements, DMP compliance, sharing pledges) vastly exceeds usable reality; recurs in sec-fair-preclinical, sec-incentives and sec-governance.",
+   "Convergence on ~2% actual data availability as the empirical anchor of the whole review, replicated across specialties and methods.",
+   "Reuse as Reduction: reusing existing data (historical/virtual controls, shared datasets, NAM outputs) is framed throughout as a direct 3Rs Reduction dividend, not merely good data hygiene.",
+   "False-consensus risk: several field-defining figures (11%/25% industry irreproducibility, US$28B/year, '85% of research wasted') rest on non-transparent or modeled sources and are flagged wherever cited.",
+   "Enforcement beats endorsement: passive publication of guidelines rarely changes behaviour; mandated, checked requirements do - a thread from sec-data-welfare through sec-incentives to sec-governance.",
+   "The animal-welfare stake: every data-stewardship failure is repeatedly tied back to its cost in animal lives, keeping the ethical argument foregrounded over the purely technical one.",
+   "Method-dependence of headline numbers: the same phenomenon (publication rate, concordance, QRP prevalence, sharing trend) yields very different values by method, so juxtaposition rather than single figures is the analytical style."
+  ],
+  "terminology": {
+   "ethical_debt": "The obligation incurred when animals are used to generate knowledge but the resulting data are allowed to become unfindable, unusable, or unreused; unpaid, it is discharged in further animal lives. Coined and used as the review's organising metaphor.",
+   "data_welfare": "The claim that stewardship of animal-derived data (findability, reusability, complete reporting) is a dimension of animal welfare and of the 3Rs, because wasting the data wastes the welfare cost that produced it.",
+   "FAIR": "Findable, Accessible, Interoperable, Reusable - the Wilkinson et al. (2016) principles for machine-actionable data stewardship. Distinguish FAIR (a stewardship standard) from 'open' (an access status); data can be FAIR without being fully open.",
+   "three_Rs": "Replacement, Reduction, Refinement (Russell & Burch) - the ethical/legal framework for humane animal research. The review argues data welfare extends all three, chiefly Reduction and Refinement.",
+   "VCG": "Virtual Control Group - a control arm reconstructed from curated historical control-animal data to partially or wholly replace concurrent controls, reducing control-animal use. Related term HCD = historical control data.",
+   "NAM": "New Approach Methodology - non-animal methods (in silico/QSAR models, organoids, organ-on-chip/microphysiological systems, high-throughput screening) used to predict toxicity or biology; serve Replacement but generate data needing stewardship.",
+   "reproducibility_vs_replicability": "Reproducibility = obtaining consistent results using the same data and analysis; replicability = obtaining consistent results in a new study with new data. The review uses 'reproducibility crisis' broadly but distinguishes the two where the evidence does (e.g., direct-replication projects test replicability; re-analysis disputes test reproducibility).",
+   "HBA": "Harm-Benefit Analysis - the project-level weighing of animal harm against expected benefit that anchors animal-research regulation; its objectivity and predictive validity are contested.",
+   "QRP": "Questionable Research Practice - selective reporting, p-hacking, undisclosed flexibility short of outright fabrication; a behavioural driver of the crisis.",
+   "ARRIVE": "Animal Research: Reporting of In Vivo Experiments - the reporting guideline whose adherence and enforcement are evaluated in sec-governance."
+  },
+  "abbreviations": {
+   "FAIR": "Findable, Accessible, Interoperable, Reusable",
+   "3Rs": "Replacement, Reduction, Refinement",
+   "VCG": "Virtual Control Group",
+   "HCD": "Historical Control Data",
+   "NAM": "New Approach Methodology",
+   "MPS": "Microphysiological System (organ-on-chip)",
+   "QSAR": "Quantitative Structure-Activity Relationship",
+   "AOP": "Adverse Outcome Pathway",
+   "HTS": "High-Throughput Screening",
+   "DILI": "Drug-Induced Liver Injury",
+   "HBA": "Harm-Benefit Analysis",
+   "IACUC": "Institutional Animal Care and Use Committee",
+   "AWERB": "Animal Welfare and Ethical Review Body",
+   "ARRIVE": "Animal Research: Reporting of In Vivo Experiments",
+   "QRP": "Questionable Research Practice",
+   "RPT": "Review, Promotion and Tenure",
+   "JIF": "Journal Impact Factor",
+   "DMP": "Data Management Plan",
+   "DMSP": "Data Management and Sharing Plan",
+   "DAS": "Data Availability Statement",
+   "RWD": "Real-World Data",
+   "ECA": "External Control Arm",
+   "NOAEL": "No-Observed-Adverse-Effect Level",
+   "SEND": "Standard for Exchange of Nonclinical Data",
+   "OMOP": "Observational Medical Outcomes Partnership (Common Data Model)",
+   "GWAS": "Genome-Wide Association Study",
+   "OA": "Open Access",
+   "TOP": "Transparency and Openness Promotion (guidelines)",
+   "PID": "Persistent Identifier",
+   "GEO": "Gene Expression Omnibus"
+  },
+  "voice_tone": "Critical, evidence-anchored, and quantitative, but ethically serious rather than polemical. Foreground effect sizes and their provenance; state uncertainty and flag false-consensus risks explicitly rather than smoothing them over. Prefer juxtaposition of divergent estimates to single headline numbers. Keep the animal-welfare stake visible without moralising. Third person, present tense for findings; hedged claims ('the evidence suggests', 'audits converge on') proportional to evidence strength."
+ }
+}

@@ -1670,6 +1670,682 @@
    "replication_evidence_dois": [],
    "doi": "10.1177/0192623320968181",
    "text_access": "abstract_only"
+  },
+  {
+   "claim": "Of anticancer products approved in the EU on single-arm trials, external controls are noted as a way to contextualize results but carry limitations that must be addressed.",
+   "claim_source_sentence": "External controls may facilitate in the contextualization process, but the associated limitations must be addressed.",
+   "evidence": "Review of EU anticancer approvals based on single-arm trials (SATs); external controls used to contextualize benefit magnitude via ESMO-MCBS.",
+   "effect_size": "18 products approved on 21 SATs",
+   "effect_size_source_sentence": "Eighteen medicinal products were approved based on 21 SATs-few medicinal products were supported by >1 SAT.",
+   "n": 18,
+   "study_system": "EU (EMA) anticancer marketing authorizations based on single-arm trials",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1016/j.esmoop.2023.101209",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Externally controlled trials face data challenges because real-world data on testing timing/process differ from trial protocols, biasing comparisons.",
+   "claim_source_sentence": "Even where data may be recorded and decisions made consistent with clinical trials, there may be differences with respect to the timing and process of testing, which may influence the availability of testing.",
+   "evidence": "Viewpoint enumerating identification, outcome, and time-selection challenges when using RWD as an external control arm for single-arm trials.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Real-world data external control arms (methodology viewpoint)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.2196/43484",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Across seven oncology external control arm case studies, selection bias and confounding were the most common critiques, but regulators and HTA bodies rarely agreed on their critiques.",
+   "claim_source_sentence": "Across case studies, selection bias and confounding were the most common ECA critiques.",
+   "evidence": "Comparison of 7 oncology ECA case studies evaluated by FDA/EMA/Health Canada and HTA agencies; low inter-agency agreement on critiques.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": 7,
+   "study_system": "Regulatory/HTA evaluations of 7 oncology external control arms",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1016/j.jval.2022.05.016",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Across 20 notable regulatory applications using patient-level RWD as external controls, regulatory decisions were strongly influenced by the quality and usability of the RWD.",
+   "claim_source_sentence": "Regulatory decisions were strongly influenced by the quality and usability of the RWD.",
+   "evidence": "Review of 20 oncology/rare-disease licensing applications contextualizing single-arm trials with patient-level RWD external controls.",
+   "effect_size": "20 applications",
+   "effect_size_source_sentence": "This review focuses on 20 notable new drug or biologic licensing applications that included patient-level RWD or other external data for contextualization of trial results.",
+   "n": 20,
+   "study_system": "Regulatory applications using RWD external controls (oncology, rare disease)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1007/s43441-022-00413-0",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "RWD-based external control groups can be highly informative when well conducted and designed to balance patient characteristics, e.g., replicating an RCT while controlling for >120 confounders by propensity matching.",
+   "claim_source_sentence": "In their study, the authors identified the patient population by adapting eligibility criteria from the CAROLINA study and by using propensity score matching to control for >120 potential confounding variables.",
+   "evidence": "Review of RWD external control arms in oncology drug development; describes replication of the CAROLINA RCT using US claims data with propensity matching.",
+   "effect_size": ">120 potential confounding variables",
+   "effect_size_source_sentence": "In their study, the authors identified the patient population by adapting eligibility criteria from the CAROLINA study and by using propensity score matching to control for >120 potential confounding variables.",
+   "n": null,
+   "study_system": "Oncology external control groups from real-world data",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [
+    "10.1164/rccm.202210-1947OC"
+   ],
+   "doi": "10.3389/fonc.2021.695936",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Beyond regulatory external control arms, biopharma leverages RWE across the development process to inform pipeline, trial design, endpoints and sample size.",
+   "claim_source_sentence": "Although much of the recent literature on RWE has focused on potential regulatory uses (e.g., product approvals in oncology or rare diseases based on single-arm trials with external control arms), this article reviews how biopharmaceutical companies can leverage RWE to inform internal decisions made throughout the product development process.",
+   "evidence": "Review of real-world evidence uses in drug development including external control arms and Bayesian priors.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Real-world evidence in biopharmaceutical drug development",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1002/cpt.2480",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In a systematic review of 2015-2020 FDA oncology approvals, only 11 of 133 original approvals (8.3%) used RWE for efficacy, all retrospective, with a mean IND-to-approval time of 5.7 years.",
+   "claim_source_sentence": "Among these, 11 (8.3%) included RWE in support of efficacy with an average time from IND submission to approval of 5.7 years.",
+   "evidence": "Systematic review of FDA oncology NDA/BLA approvals; RWE external controls complemented single-arm efficacy in successful approvals but drew FDA critiques on confounding and RECIST comparability.",
+   "effect_size": "11/133 (8.3%); mean 5.7 years",
+   "effect_size_source_sentence": "Among these, 11 (8.3%) included RWE in support of efficacy with an average time from IND submission to approval of 5.7 years.",
+   "n": 133,
+   "study_system": "FDA oncology product approvals 2015-2020 using real-world evidence",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [
+    "10.1164/rccm.202210-1947OC"
+   ],
+   "doi": "10.1158/1078-0432.CCR-21-2639",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Hybrid trial designs supplementing single-arm data with RWD-derived external comparators have already succeeded in some regulatory decisions, raising the prospect of augmenting or replacing RCTs.",
+   "claim_source_sentence": "Some of these approaches have already been successfully used in regulatory decisions, raising the possibility that studies using RWD could increasingly be used to augment or replace traditional RCTs for the demonstration of drug effectiveness in certain contexts.",
+   "evidence": "Review of hybrid RCT/RWD trial designs including external comparators for regulatory decision-making.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Hybrid trial designs using real-world data (regulatory)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1002/pds.4932",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The SEND standard for nonclinical data is FDA-required but its implementation guide's flexibility produces significant variability across datasets, hampering cross-study reuse.",
+   "claim_source_sentence": "The SEND Implementation Guide (SENDIG) allows for considerable flexibility in how data is represented; interpretation of these guidelines has led to significant variability in the approach to SEND dataset creation.",
+   "evidence": "Proposal to harmonize SEND datasets to enable cross-study analysis of warehoused nonclinical toxicology control data.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "SEND (Standard for Exchange of Nonclinical Data) toxicology datasets",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1016/j.yrtph.2019.104542",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A synthetic control arm built from mixed clinical-trial and real-world data for elderly DLBCL patients reproduced an RCT control arm, with no significant survival difference vs the SENIOR experimental arm.",
+   "claim_source_sentence": "In newly diagnosed elderly DLBCL patients, the use of SCAs can mimic the control arm of an RCT and could be used to build comparative CT for elderly patients and come up with fast-innovative CTs.",
+   "evidence": "Mixed synthetic control arm (LNH09-7B trial + REALYSA real-world) for >=80 y DLBCL, balanced by stabilized IPTW on propensity scores.",
+   "effect_size": "HR 0.743 [0.494-1.118]",
+   "effect_size_source_sentence": "OS of Mixed SCA vs. SENIOR experimental arm were not statistically different, with a HR of 0.743 [0.494-1.118] (p = 0.1654).",
+   "n": null,
+   "study_system": "Diffuse large B-cell lymphoma (>=80 y) synthetic control arm",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1038/s41408-025-01374-x",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A real-world synthetic control arm for relapsed SCLC estimated a survival benefit of lurbinectedin vs historical standard of care (adjusted HR 0.61).",
+   "claim_source_sentence": "The adjusted hazard ratio comparing lurbinectedin with the historical standard of care (referent group) was 0.61 (95% CI 0.45-0.82; unadjusted HR: 0.72; 95% CI 0.54-0.97).",
+   "evidence": "Synthetic control arm from Alberta real-world databases (n=174) vs single-arm lurbinectedin trial (n=105); Cox model adjusted for CTFI and stage.",
+   "effect_size": "adjusted HR 0.61 (95% CI 0.45-0.82)",
+   "effect_size_source_sentence": "The adjusted hazard ratio comparing lurbinectedin with the historical standard of care (referent group) was 0.61 (95% CI 0.45-0.82; unadjusted HR: 0.72; 95% CI 0.54-0.97).",
+   "n": 174,
+   "study_system": "Relapsed small cell lung cancer synthetic control arm (real-world)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1007/s11523-023-00995-1",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A real-world synthetic comparator was used as an external control for the single-arm TRANSCEND trial to compare liso-cel with conventional therapies in relapsed/refractory LBCL.",
+   "claim_source_sentence": "This study used a real-world population as a synthetic comparator for the single-arm TRANSCEND NHL 001 study (TRANSCEND; NCT02631044) to evaluate the efficacy of lisocabtagene maraleucel (liso-cel) compared with conventional (noncellular) therapies in patients with relapsed/refractory (R/R) large B-cell lymphoma (LBCL).",
+   "evidence": "Propensity-matched real-world synthetic control (n=257 per arm) vs single-arm CAR-T trial data.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": 257,
+   "study_system": "Relapsed/refractory large B-cell lymphoma synthetic control (CAR-T)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1080/10428194.2022.2160200",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "An automated deep-learning propensity method (BCAUS) balances covariates across arbitrarily many observational intervention arms, tested on a diabetes dataset of over 100,000 individuals across >100 arms.",
+   "claim_source_sentence": "We tested BCAUS on the semi-synthetic Infant Health & Development Program dataset with a single intervention arm, and a real-world observational study of diabetes interventions with over 100,000 individuals spread across more than a hundred intervention arms.",
+   "evidence": "Methods paper for scalable propensity-score covariate balancing in massive multi-arm observational comparisons.",
+   "effect_size": ">100,000 individuals; >100 arms",
+   "effect_size_source_sentence": "We tested BCAUS on the semi-synthetic Infant Health & Development Program dataset with a single intervention arm, and a real-world observational study of diabetes interventions with over 100,000 individuals spread across more than a hundred intervention arms.",
+   "n": 100000,
+   "study_system": "Multi-arm observational causal inference (propensity balancing)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s12874-021-01383-x",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Choosing statistically efficient designs and the most powerful analysis for relative-potency assays is framed as an ethical requirement because experiments involve animal sacrifice, and enables animal reduction.",
+   "claim_source_sentence": "Using the most powerful statistical designs and analyses is always preferred, but is an ethical requirement when experiments involve animal sacrifice.",
+   "evidence": "Simulation comparison of five interval estimators of relative potency; Wald intervals in equal-response designs give best power and near-nominal coverage at small n, reducing animal numbers.",
+   "effect_size": "coverage 97.1% at n=24",
+   "effect_size_source_sentence": "Fieller's CIs held the nominal 95% level most closely among all the methods, not deviating by more than 0.5 percentage points when sample sizes were >=40, and was 97.1% for the smallest sample size of 24.",
+   "n": 24,
+   "study_system": "Parallel-line quantal assays (toxicology / radiation countermeasure animal studies)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1080/10543406.2018.1535500",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "A critical re-evaluation of a rodent carcinogenicity bioassay stresses that proper interpretation requires attention to multiple comparisons and to both concurrent and historical controls.",
+   "claim_source_sentence": "This involves attention to study details, including reliable histopathologic diagnoses, and proper statistical analyses, including consideration of multiple comparisons, concurrent and historical controls.",
+   "evidence": "Re-analysis of JBRC n-butyl methacrylate 2-year bioassays; concludes tumor increases are consistent with chance and not treatment-related, contra IARC 2B classification.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "n-butyl methacrylate rodent carcinogenicity bioassay (rats, mice)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1080/10408444.2025.2451885",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "An expert-panel weight-of-evidence review of glyphosate carcinogenicity discounted a significant high-dose tumor increase because it fell within the historical control range.",
+   "claim_source_sentence": "Glyphosate has been rigorously and extensively tested for carcinogenicity by administration to mice (five studies) and to rats (nine studies).",
+   "evidence": "Expert panel reassessed IARC's glyphosate data; used historical control ranges and dose-response/consistency criteria to conclude glyphosate is not a carcinogen in laboratory animals.",
+   "effect_size": "5 mouse studies; 9 rat studies",
+   "effect_size_source_sentence": "Glyphosate has been rigorously and extensively tested for carcinogenicity by administration to mice (five studies) and to rats (nine studies).",
+   "n": null,
+   "study_system": "Glyphosate rodent carcinogenicity (mouse and rat bioassays)",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [
+    "10.1186/s12940-025-01187-2"
+   ],
+   "doi": "10.1080/10408444.2016.1214679",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Supplementing a small historical control database with 25 additional matched-diet studies widened tumor-incidence ranges and thereby weakened, to 'no' evidence, the carcinogenicity signal for vanadium pentoxide in rats.",
+   "claim_source_sentence": "This widened the HC tumor incidence ranges, thereby weakening the limited evidence for the carcinogenicity of inhaled V(2)O(5) in rats relative to HCs.",
+   "evidence": "Re-analysis of NTP vanadium pentoxide bioassay; expanded NTP-2000 diet HCD reclassified 'some/equivocal' evidence to 'no' evidence, and flagged the study's own male control as a near-outlier.",
+   "effect_size": "25 additional studies added to HCD",
+   "effect_size_source_sentence": "We supplemented the early NTP-2000 diet HC data with data from 25 additional NTP-2000 diet studies conducted subsequent to the V(2)O(5) bioassay.",
+   "n": 25,
+   "study_system": "Vanadium pentoxide carcinogenicity in F344/N rats (historical controls)",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [
+    "10.1177/0192623309339606"
+   ],
+   "doi": "10.1016/j.yrtph.2012.06.017",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In rodent cancer bioassays the concurrent control is the most relevant comparator, with historical control data useful only in specific situations and as one input to a weight-of-evidence assessment; range statistics are highly outlier-sensitive.",
+   "claim_source_sentence": "While the concurrent control group provides the most relevant control data for determining treatment-related effects in a study, evaluation of HCD may be useful in certain situations.",
+   "evidence": "Points-to-consider paper; recommends median/IQR boxplots over range/mean/SD for HCD, using Poly-3 survival-adjusted rates, because the range is dominated by single outlier studies.",
+   "effect_size": "mean 3.31%, SD 6.47%, range 0-34%",
+   "effect_size_source_sentence": "These studies had a mean of 3.31%, a standard deviation of 6.47% and a range of 0% to 34% for all routes and vehicles.",
+   "n": 1447,
+   "study_system": "NTP rodent carcinogenicity historical control data (B6C3F1 mice)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1080/10408444.2025.2451885"
+   ],
+   "doi": "10.1177/0192623309339606",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Body-growth rate strongly influences background liver tumor incidence in B6C3F1 mice, so dietary control of body weight standardizes background tumor incidence and predicts a terminal background rate of 15-20%.",
+   "claim_source_sentence": "In B6C3F1 mice, the rate of body growth influences susceptibility to liver neoplasia and large variations in body weight can complicate the interpretation of bioassay data.",
+   "evidence": "Historical control populations (~2,750 male, ~2,300 female mice) used to build idealized weight curves; dietary-controlled mice matched predicted background tumor rates.",
+   "effect_size": "terminal background liver tumor incidence 15-20%",
+   "effect_size_source_sentence": "Resulting tumor risk data were then used to construct idealized weight curves for male and female B6C3F1 mice; these curves predict a terminal background liver tumor incidence of 15-20%.",
+   "n": 2750,
+   "study_system": "B6C3F1 mouse chronic bioassay background liver tumor incidence",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1177/0192623309339606"
+   ],
+   "doi": "10.1016/j.taap.2003.07.006",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Interpreting a chronic bioassay of D5 depended on which of four historical control sets (varying heterogeneity) was used, showing HCD-choice sensitivity in a marginal carcinogenicity call.",
+   "claim_source_sentence": "Four sets of (historical) control groups were formed, with varying heterogeneity.",
+   "evidence": "Statistical re-analysis of D5 uterine endometrial adenocarcinoma; effect at 160 ppm was significant or borderline depending on control set and whether the high dose was included.",
+   "effect_size": "160 ppm: 5/60 cases vs control 0/60",
+   "effect_size_source_sentence": "Four groups of 60 Fischer-344 female rats were analyzed for uterine endometrial adenocarcinoma (inhalation study with exposure levels in ppm/number of observed cases: 0/0, 10/1, 40/0, and 160/5) by exact regression (logistic, Poisson), the max poly-3 trend test, and a random effects probit model.",
+   "n": 60,
+   "study_system": "Decamethylcyclopentasiloxane (D5) F344 rat uterine adenocarcinoma bioassay",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1016/j.yrtph.2015.12.005",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "NTP historical control tumor rates differ markedly between rat strains: female Sprague Dawley vs F344/N rats differ ~18-fold in mononuclear cell leukemia background (0.9% vs 16.7%), undermining cross-strain control reuse.",
+   "claim_source_sentence": "Our analyses revealed statistically significant strain differences, with female SD rats having lower incidence rates for clitoral gland adenoma (0.2% vs. 5.8%) and mononuclear cell leukemia (0.9% vs. 16.7%) and higher incidence rates for mammary gland fibroadenoma (67.4% vs. 48.4%), mammary gland carcinoma (10.2% vs. 2.4%), and thyroid gland C cell adenoma (25.4% vs. 13.6%) relative to female F344/N rats.",
+   "evidence": "Comparison of NTP historical control tumor incidence between nine female SD rat studies and matched F344/N studies.",
+   "effect_size": "MNCL 0.9% (SD) vs 16.7% (F344)",
+   "effect_size_source_sentence": "Our analyses revealed statistically significant strain differences, with female SD rats having lower incidence rates for clitoral gland adenoma (0.2% vs. 5.8%) and mononuclear cell leukemia (0.9% vs. 16.7%) and higher incidence rates for mammary gland fibroadenoma (67.4% vs. 48.4%), mammary gland carcinoma (10.2% vs. 2.4%), and thyroid gland C cell adenoma (25.4% vs. 13.6%) relative to female F344/N rats.",
+   "n": 9,
+   "study_system": "NTP historical control data, female SD vs F344/N rats",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1080/10408444.2016.1174669"
+   ],
+   "doi": "10.1177/0192623310373777",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The F344 rat's highly variable spontaneous mononuclear cell leukemia background led NTP to change stocks and warrants greater-than-usual reliance on historical control data to interpret treatment effects.",
+   "claim_source_sentence": "We show that due to the highly variable background incidence of F344 MNCL, more reliance on historical control data than is usual for most tumor responses is warranted to evaluate potential effect of any chemical treatment in this rat strain.",
+   "evidence": "Retrospective review of F344 MNCL, Leydig cell tumors and tunica vaginalis mesothelioma; high/variable spontaneous backgrounds reduce human relevance and complicate control comparisons.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "F344 rat cancer bioassay spontaneous tumors (NTP)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1177/0192623310373777"
+   ],
+   "doi": "10.1080/10408444.2016.1174669",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In a 2-year inhalation bioassay, several tumor incidences that exceeded the Japan Bioassay Research Center historical control range were treated as evidence of carcinogenicity for 1,1,1-trichloroethane.",
+   "claim_source_sentence": "Thus, this study provided clear evidence of inhalation carcinogenicity for TCE in both rats and mice.",
+   "evidence": "TCE inhalation bioassay in F344 rats and BDF1 mice; tumor increases (e.g., bronchiolo-alveolar adenomas at 3200 ppm, malignant lymphomas) exceeded JBRC historical control ranges.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "1,1,1-trichloroethane inhalation carcinogenicity (F344 rats, BDF1 mice)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.3109/08958378.2013.780116",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A predictive-distribution power-prior method estimates the borrowing parameter so that type I error is controlled by calibrating to the similarity of new and historical control data.",
+   "claim_source_sentence": "The method is based on predictive distributions and parameterized in such a way that the type I error can be controlled by calibrating to the degree of similarity between the new and historical data.",
+   "evidence": "Empirical power prior for dynamic borrowing from a single historical control study while controlling type I error.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Statistical methodology; single historical control dataset, normal outcomes",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1111/biom.12835",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In hybrid designs augmenting an RCT with external controls via power priors, prior-data conflict risks biasing treatment-effect estimates and can distort conclusions.",
+   "claim_source_sentence": "However, the use of external control data poses a risk of introducing bias, particularly in the presence of prior-data conflict, which can distort treatment effect estimates.",
+   "evidence": "Constrained power-prior borrowing to control type I error in hybrid designs.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Statistical methodology; hybrid RCT + external control designs",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1080/10543406.2025.2575940",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "When a uniformly most powerful test exists, strict type I error control means external-information borrowing yields no power gain, undercutting a central justification for dynamic borrowing.",
+   "claim_source_sentence": "This shows that no power gain can be expected from borrowing of external information when strict control of type I error rate is required.",
+   "evidence": "Formal proof via UMP testing that strict type I error control eliminates power gains from borrowing; example of pediatric arm appended to adult trial.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Statistical theory; dichotomous outcome, pediatric arm appended to adult trial",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1016/j.cct.2019.105858"
+   ],
+   "doi": "10.1002/bimj.201800395",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Theoretical analysis shows that requiring frequentist type I error control forces elimination of any favorable borrowing of historical prior information.",
+   "claim_source_sentence": "As demonstrated theoretically, the type I error control denies any borrowing of favorable prior information.",
+   "evidence": "Bayesian hypothesis testing with inferential/null/design priors; calibrated critical values remove borrowing benefit.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Statistical methodology; historical data borrowing, type I error",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1002/bimj.201800395"
+   ],
+   "doi": "10.1016/j.cct.2019.105858",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Among shrinkage priors for borrowing multiple historical controls (horseshoe, Dirichlet-Laplace, spike-and-slab lasso, spike-and-slab), the spike-and-slab prior best handled heterogeneous historical controls.",
+   "claim_source_sentence": "Among these four priors, the spike-and-slab prior performed the best for heterogeneous historical controls.",
+   "evidence": "Potential-bias model with Bayesian shrinkage priors for dynamic borrowing of multiple historical controls.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Statistical methodology; multiple historical control datasets",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1002/pst.2453",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Of 45 FDA approvals (2000-2019) that leveraged external controls, retrospectively derived natural-history controls were the most common source at 44%.",
+   "claim_source_sentence": "Of the 45 approvals evaluated, historical controls derived retrospectively from natural history data were the most common source (44%) of external control, including retrospective reviews of patient medical records (see Fig.).",
+   "evidence": "Review of FDA regulatory approvals accepting external control data; none used prospective natural-history data.",
+   "effect_size": "44% of 45 approvals used retrospective natural-history controls",
+   "effect_size_source_sentence": "Of the 45 approvals evaluated, historical controls derived retrospectively from natural history data were the most common source (44%) of external control, including retrospective reviews of patient medical records (see Fig.).",
+   "n": 45,
+   "study_system": "FDA drug/biologic approvals 2000-2019 using external controls",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1007/s43441-021-00302-y",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "In a framework study of single-arm-trial approvals, almost half (45%) of FDA applications were criticized for using external control arms that were not contemporaneous with the single-arm trial.",
+   "claim_source_sentence": "Almost half (45%) of FDA-reviewed applications were criticized for using ECAs that were not contemporaneous to the SAT.",
+   "evidence": "Systematic review of 20 FDA and 17 EMA single-arm-trial-based approvals (2019-2022); non-contemporaneous ECAs a common critique.",
+   "effect_size": "45% of FDA applications criticized for non-contemporaneous ECAs",
+   "effect_size_source_sentence": "Almost half (45%) of FDA-reviewed applications were criticized for using ECAs that were not contemporaneous to the SAT.",
+   "n": 20,
+   "study_system": "FDA and EMA single-arm-trial-based approvals 2019-2022",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1007/s43441-024-00693-8",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "Comparing meta-analytic and power-prior borrowing for binary endpoints, power was higher with the power prior (and a beta-binomial meta-analytic model) when historical trials were homogeneous.",
+   "claim_source_sentence": "When historical trials were homogeneous, the power was higher in the power prior approach and the meta-analytic approach using a beta-binomial model with a less noninformative prior than the other approaches.",
+   "evidence": "Simulation comparing meta-analytic vs power-prior borrowing of historical control information; heterogeneity inflated type I error.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Statistical simulation; binary endpoints, small-scale trial with multiple historical trials",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1007/s43441-019-00088-0",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Scaled Gaussian kernel density estimation priors allow the degree of historical borrowing to differ by parameter, unlike many existing power/commensurate priors.",
+   "claim_source_sentence": "Additionally, unlike some of the existing methods in this area, SGKDE priors permit the amount of information borrowing to differ by parameter.",
+   "evidence": "New SGKDE prior for dynamic borrowing, applied to design a new trial using a completed RSV maternal-vaccine phase III trial.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Statistical methodology; RSV maternal vaccine phase III historical data",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1002/sim.10032",
+   "text_access": "fulltext"
+  },
+  {
+   "claim": "In early-phase oncology hybrid-control simulations based on MORPHEUS-UC, joint frequentist methods and noninformative priors within Bayesian dynamic borrowing were preferred, especially when treatment effects were heterogeneous across trials.",
+   "claim_source_sentence": "The results show that the proposed joint frequentist methods and noninformative priors within Bayesian dynamic borrowing with no adjustment on covariates are preferred, especially when treatment effects across the three trials are heterogeneous.",
+   "evidence": "Simulation combining two Roche historical trial datasets to build a hybrid control for an atezolizumab arm.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Simulation; phase Ib/II oncology (MORPHEUS-UC), survival outcomes",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1002/pst.2336",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Incorporating historical control data can reduce the number of concurrent controls required when historical and current control data agree, but risks bias when they are inconsistent.",
+   "claim_source_sentence": "Incorporating historical control data could lead to more efficient trials, reducing the number of controls required in the current study when the historical and current control data agree.",
+   "evidence": "Equivalence-probability-weighted power prior for using historical control data in two-arm trials.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Statistical methodology; two-arm RCT with historical controls",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1002/pst.1990",
+    "10.1177/17407745231158906"
+   ],
+   "doi": "10.1002/pst.2088",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Digital twins (PROCOVA, prognostic-score based) and Bayesian dynamic borrowing are two competing approaches to incorporate external control data and reduce sample sizes in small populations.",
+   "claim_source_sentence": "Bayesian dynamic borrowing (BDB) has been a popular choice as it claims to protect against potential prior data conflict.",
+   "evidence": "Comparison of digital twins and Bayesian dynamic borrowing for external control incorporation.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Statistical methodology; external control data, small populations",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1002/pst.2376",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Supplementing concurrent controls with historical controls can reduce recruitment requirements and increase each patient's probability of receiving a potentially superior treatment.",
+   "claim_source_sentence": "Supplementing prospectively enrolled, concurrent controls with historical controls can reduce recruitment requirements and provide patients a higher likelihood of enrolling in a new and possibly superior treatment arm.",
+   "evidence": "Re-evaluation of dynamic use of historical controls in rare-disease clinical trials.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Rare disease clinical trial design",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1177/17407745231158906",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Constraining the baseline hazard shape in Bayesian time-to-event borrowing simplifies computation but reduces the ability to borrow historical information effectively.",
+   "claim_source_sentence": "However, we show that this approximation comes at a cost when trying to borrow historical information.",
+   "evidence": "Semiparametric Bayesian borrowing model for time-to-event outcomes with flexible baseline hazard.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Statistical methodology; time-to-event outcomes, single historical control",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1093/biostatistics/kxag006",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A principal problem of incorporating historical control data into a new trial is potential inflation of the type I error rate, which the power prior addresses by tuning the borrowing parameter between 0 and 1.",
+   "claim_source_sentence": "A main problem of the incorporation of historical data is the possible inflation of the type I error rate.",
+   "evidence": "Practical comparison of methods for incorporating historical two-arm data with binary outcomes.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Statistical methodology; binary outcome, single historical trial",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1002/pst.2023",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "In open platform trials, using all available (non-concurrent) controls for late-entry arms increases power but population drift can bias estimates and inflate type I error.",
+   "claim_source_sentence": "Using all available data can increase power and precision; however, drift in population parameters can yield biased estimates and impact type I error rate.",
+   "evidence": "Simulation applying historical-control incorporation methods to late-entry arms in platform trials.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Simulation; open platform trial with late-entry experimental arms",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1016/j.cct.2022.106972",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "A septic-shock external-cooling trial design retains concurrent control arms while adaptively incorporating historical control data via a Bayesian survival model with a spike-and-slab prior.",
+   "claim_source_sentence": "The trial will include concurrent external cooling and control arms while adaptively incorporating historical control arm data.",
+   "evidence": "Robust adaptive incorporation of historical control data in a randomized survival trial (60-day survival, septic shock).",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Clinical trial design; septic shock, 60-day survival",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1214/20-ba1229",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Leveraging historical data in phase 2 oncology RCTs (Bayesian augmented control) can improve efficiency and reduce sample size without loss of power, but inconsistency with the current control biases estimates.",
+   "claim_source_sentence": "Leveraging historical data into the design and analysis of phase 2 randomized controlled trials can improve efficiency of drug development programs.",
+   "evidence": "Two oncology Bayesian augmented control case studies (glioblastoma and another indication).",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Phase 2 oncology RCTs (glioblastoma case study)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1002/pst.2088",
+    "10.1177/17407745231158906"
+   ],
+   "doi": "10.1002/pst.1990",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The elastic commensurate prior dynamically adjusts the weight of external control data by a congruence measure, maintaining power while limiting bias and type I error inflation.",
+   "claim_source_sentence": "Integrating external data into a clinical trial can introduce systematic bias in estimates and inflate the study's type I error due to differences in study design and enrollment criteria.",
+   "evidence": "Elastic commensurate prior combining commensurate and elastic prior methods for dynamic borrowing.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Statistical methodology; external control borrowing",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1002/sim.70129",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Because roughly 80% of children are treated off-label, extrapolation that leverages adult data via Bayesian methods is increasingly used to establish pediatric efficacy with fewer patients.",
+   "claim_source_sentence": "Children represent a large underserved population of \"therapeutic orphans,\" as an estimated 80% of children are treated off-label.",
+   "evidence": "Statistical modeling for Bayesian extrapolation of adult clinical trial information to pediatric populations.",
+   "effect_size": "~80% of children treated off-label",
+   "effect_size_source_sentence": "Children represent a large underserved population of \"therapeutic orphans,\" as an estimated 80% of children are treated off-label.",
+   "n": null,
+   "study_system": "Pediatric drug development; Bayesian extrapolation from adults",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1002/pst.1807",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Difficulty recruiting children to RCTs leaves pediatric treatment evidence weaker than adult evidence, motivating Bayesian borrowing of adult data to strengthen pediatric conclusions.",
+   "claim_source_sentence": "There are challenges associated with recruiting children to take part in randomised clinical trials and as a result, compared to adults, in many disease areas we are less certain about which treatments are most safe and effective.",
+   "evidence": "Comparison of four Bayesian methods for incorporating adult trial data into pediatric analyses.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Pediatric clinical trials; Bayesian extrapolation methods",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pone.0281791",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The pediatric belimumab lupus trial could not be independently powered, so the FDA used a post-hoc Bayesian analysis borrowing from adult phase 3 studies to support approval in children.",
+   "claim_source_sentence": "Due to the rarity of childhood-onset systemic lupus erythematosus (cSLE), the pediatric study (NCT01649765) conducted to support approval of intravenous (IV) belimumab in that population could not be designed with adequate power for efficacy to make statistical inferences based solely on the pediatric data.",
+   "evidence": "Real FDA regulatory application of Bayesian borrowing from adult data to approve IV belimumab in children with lupus.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Childhood-onset systemic lupus erythematosus; IV belimumab pediatric trial",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1177/09612033251349930",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Borrowing strength from external trials or real-world control data may allow investigators to reduce or even eliminate the concurrent control group when randomization is unethical or infeasible.",
+   "claim_source_sentence": "Borrowing strength using relevant individual patient data on control from external trials or real-world data (RWD) sources may then allow us to reduce, or even eliminate, the concurrent control group.",
+   "evidence": "Methodological overview advocating rigorous application of external controls beyond randomized trials.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Clinical trial methodology; external controls / RWD",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1002/cpt.1723",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "For external control arms to give unbiased efficacy estimates, single-arm and external patients must be aligned, typically by propensity score approaches (with G-computation and doubly-debiased ML as alternatives).",
+   "claim_source_sentence": "To provide an unbiased estimation of efficacy, the clinical profiles of patients from single and external arms should be aligned, typically using propensity score approaches.",
+   "evidence": "Evaluation of propensity score, G-computation and doubly-debiased machine-learning approaches for external control arms.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Methodology; external control arm analysis",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s12874-022-01799-z",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "Eflornithine's benefit in high-risk neuroblastoma was assessed by using patient-level data from a prior phase III trial (ANBL0032) as an external control for a single-arm phase II study.",
+   "claim_source_sentence": "Eflornithine (DFMO) to reduce risk of relapse after completion of immunotherapy was investigated previously in a single-arm, phase II study (NMTRC003B; ClinicalTrials.gov identifier: NCT02395666) that suggested improved event-free survival (EFS) and overall survival (OS) compared with historical rates in a phase III trial (Children Oncology Group ANBL0032; ClinicalTrials.gov identifier: NCT00026312).",
+   "evidence": "Externally controlled analysis reusing prior phase III control data for a pediatric single-arm oncology study.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "High-risk neuroblastoma; single-arm phase II with external control",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1200/jco.22.02875",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The novel agent GEN-1 in ovarian cancer was evaluated by comparing a single-arm phase IB study against patient-level historic clinical trial data reused from unrelated neoadjuvant trials.",
+   "claim_source_sentence": "To inform continued development of the novel immune agent GEN-1, we compared ovarian cancer patients' end points from a neoadjuvant single-arm phase IB study with those of similar historic clinical trial (HCT) patients who received standard neoadjuvant chemotherapy.",
+   "evidence": "Reuse of pooled historic clinical trial (Medidata) control data as an external comparator for a single-arm study.",
+   "effect_size": null,
+   "effect_size_source_sentence": null,
+   "n": null,
+   "study_system": "Ovarian cancer; single-arm phase IB vs historic clinical trial controls",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1200/cci.22.00103",
+   "text_access": "abstract_only"
+  },
+  {
+   "claim": "The ASTERIX project developed novel small-population trial methods whose applicability and added value were assessed against real orphan-drug programs in European Public Assessment Reports.",
+   "claim_source_sentence": "The ASTERIX project developed a number of novel methods suited to study small populations.",
+   "evidence": "Evaluation of thirteen novel small-population methods using 26 orphan-drug EPARs.",
+   "effect_size": "thirteen novel methods evaluated using 26 EPARs",
+   "effect_size_source_sentence": "The applicability and added value of thirteen novel methods developed within ASTERIX were evaluated using data from 26 European Public Assessment Reports (EPARs) for orphan medicinal products",
+   "n": 26,
+   "study_system": "Orphan medicinal products; 26 European Public Assessment Reports",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s13023-018-0925-0",
+   "text_access": "abstract_only"
   }
  ],
  "conflicts": [
@@ -1752,6 +2428,30 @@
    "paper_b_claim": "Our results suggest, with caveats noted, that survival patterns between real-world and CT cohorts in this NSCLC setting are not statistically significantly different.",
    "nature_of_conflict": "Whether real-world-data (registry/EHR) external controls reproduce concurrent/trial control outcomes: the IPF study found real-world-data external controls diverged from the trial's concurrent control (only historical-RCT-derived ECs matched), while the NSCLC study found real-world external-control survival not significantly different from the trial cohort.",
    "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1164/rccm.202210-1947OC",
+   "paper_b_doi": "10.3389/fonc.2021.695936",
+   "paper_a_claim": "Pulmonary Fibrosis Foundation Patient Registry ECs and EHR ECs experienced a slower rate of FVC decline compared with the BMS-placebo arm, resulting in treatment-effect point estimates outside of the 95% CI of the original BMS-986020 RCT.",
+   "paper_b_claim": "However, when such studies are well conducted - and well designed to balance patient characteristics across study arms - RWD can be highly informative.",
+   "nature_of_conflict": "Whether real-world-data external controls (registry/EHR) reproduce concurrent randomized control-arm outcomes: the IPF study found RWD-derived external controls diverged from the RCT placebo arm (estimates outside the RCT 95% CI) while only RCT-derived external controls matched, whereas the oncology review argues well-conducted, balanced RWD external controls can be highly informative and replicate RCT results.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1016/j.yrtph.2012.06.017",
+   "paper_b_doi": "10.1177/0192623309339606",
+   "paper_a_claim": "This widened the HC tumor incidence ranges, thereby weakening the limited evidence for the carcinogenicity of inhaled V(2)O(5) in rats relative to HCs.",
+   "paper_b_claim": "As the number of studies increases, the range of the distribution increases so that the range of historical control rates may be too high to be useful.",
+   "nature_of_conflict": "Whether expanding the historical control range to reinterpret a carcinogenicity signal is sound: the vanadium re-analysis relies on a widened HCD range to downgrade a concurrent-control-based signal to 'no evidence', while the statistical points-to-consider paper warns that an ever-widening HCD range becomes too broad to be useful and can cause genuine treatment effects to be overlooked when a study result is judged 'within range'.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1002/bimj.201800395",
+   "paper_b_doi": "10.1002/pst.1990",
+   "paper_a_claim": "This shows that no power gain can be expected from borrowing of external information when strict control of type I error rate is required.",
+   "paper_b_claim": "Leveraging historical data into the design and analysis of phase 2 randomized controlled trials can improve efficiency of drug development programs.",
+   "nature_of_conflict": "Whether borrowing historical/external control data delivers genuine efficiency (power/sample-size) gains: the theoretical result argues strict type I error control precludes any power gain, whereas applied borrowing methods claim reduced sample size without loss of power.",
+   "resolution_status": "open"
   }
  ],
  "unreplicated_claims": [
@@ -1801,7 +2501,7 @@
   "claim": "VCGs can be extended to reduce control non-human primate use.",
   "why_weak": "Aspirational; no NHP VCG concordance data exist and the same review flags NHP variability as a barrier."
  },
- "papers_reviewed_count": 100,
+ "papers_reviewed_count": 173,
  "evidence_artifact_id": "cluster_05_evidence.json",
  "figure_data": [
   {
@@ -2278,6 +2978,129 @@
      "Indications differ (IPF, NSCLC, nAMD).",
      "External-control data sources differ (historical RCT/registry/EHR vs EMR vs EHR).",
      "This comparison contrasts qualitative agreement/disagreement, not a single common effect metric."
+    ]
+   }
+  },
+  {
+   "comparison_id": "hcd-background-lesion-incidence-variability",
+   "comparison_name": "Spontaneous background tumor incidence in rodent historical control data: magnitude and strain/model dependence",
+   "papers": [
+    {
+     "doi": "10.1177/0192623310373777",
+     "metric": "female mononuclear cell leukemia background incidence (SD vs F344/N)",
+     "value": "0.9% (SD) vs 16.7% (F344/N)",
+     "value_source_sentence": "Our analyses revealed statistically significant strain differences, with female SD rats having lower incidence rates for clitoral gland adenoma (0.2% vs. 5.8%) and mononuclear cell leukemia (0.9% vs. 16.7%) and higher incidence rates for mammary gland fibroadenoma (67.4% vs. 48.4%), mammary gland carcinoma (10.2% vs. 2.4%), and thyroid gland C cell adenoma (25.4% vs. 13.6%) relative to female F344/N rats.",
+     "ci_or_error": null,
+     "n": 9,
+     "n_analyzed": "9 matched study pairs",
+     "n_definition": "NTP bioassay studies pooled into HCD",
+     "study_system": "NTP HCD female SD vs F344/N rats",
+     "experimental_conditions": "2-year NTP bioassay controls, matched sex/lab/diet/route",
+     "method": "historical control incidence comparison",
+     "text_access": "abstract_only",
+     "scope_region": "systemic (leukemia)",
+     "scope_population": "female rats, two strains",
+     "taxonomic_level": "specific tumor type"
+    },
+    {
+     "doi": "10.1177/0192623309339606",
+     "metric": "male B6C3F1 hepatoblastoma HCD mean incidence",
+     "value": "3.31% (range 0-34%)",
+     "value_source_sentence": "These studies had a mean of 3.31%, a standard deviation of 6.47% and a range of 0% to 34% for all routes and vehicles.",
+     "ci_or_error": "SD 6.47%; range 0-34%",
+     "n": 1447,
+     "n_analyzed": "1447 male mice across 29 studies",
+     "n_definition": "control animals pooled in HCD",
+     "study_system": "NTP HCD male B6C3F1 mice",
+     "experimental_conditions": "NTP-2000 diet, 2-year bioassay controls",
+     "method": "historical control database summary statistics",
+     "text_access": "fulltext",
+     "scope_region": "liver",
+     "scope_population": "male B6C3F1 mice",
+     "taxonomic_level": "specific tumor type"
+    },
+    {
+     "doi": "10.1016/j.taap.2003.07.006",
+     "metric": "B6C3F1 terminal background liver tumor incidence",
+     "value": "15-20%",
+     "value_source_sentence": "Resulting tumor risk data were then used to construct idealized weight curves for male and female B6C3F1 mice; these curves predict a terminal background liver tumor incidence of 15-20%.",
+     "ci_or_error": null,
+     "n": 2750,
+     "n_analyzed": "~2,750 male; ~2,300 female (ad libitum HCD)",
+     "n_definition": "historical control mice",
+     "study_system": "B6C3F1 mouse chronic bioassay HCD",
+     "experimental_conditions": "ad libitum vs dietary-controlled body weight",
+     "method": "body-weight/tumor-risk modelling from HCD",
+     "text_access": "abstract_only",
+     "scope_region": "liver",
+     "scope_population": "B6C3F1 mice (body-weight dependent)",
+     "taxonomic_level": "organ tumor category"
+    }
+   ],
+   "comparison_type": "convergent evidence",
+   "what_it_reveals": "Spontaneous background tumor incidence in rodent controls is large and highly dependent on strain, body weight/diet, and tumor type (e.g., ~18-fold strain difference in leukemia; 0-34% range for a single tumor), which is the core reason historical/virtual control reuse demands strict matching and outlier-robust statistics.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "false",
+    "n_definition_uniform": "true",
+    "caveats": [
+     "Different tumor endpoints (mononuclear cell leukemia vs hepatoblastoma vs aggregate liver tumors) and different species/strains (SD/F344 rats vs B6C3F1 mice) - values are not directly comparable magnitudes but jointly illustrate the breadth and variability of spontaneous background incidence in HCD.",
+     "One value is a two-strain contrast, one is a mean with range, one is a modelled terminal incidence."
+    ]
+   }
+  },
+  {
+   "comparison_id": "external-control-source-regulatory",
+   "comparison_name": "Dominance of retrospective natural-history / RWD as external-control source in regulatory approvals",
+   "papers": [
+    {
+     "doi": "10.1007/s43441-021-00302-y",
+     "metric": "Retrospective natural-history data as external-control source among approvals using external controls",
+     "value": "44%",
+     "value_source_sentence": "Of the 45 approvals evaluated, historical controls derived retrospectively from natural history data were the most common source (44%) of external control, including retrospective reviews of patient medical records (see Fig.).",
+     "ci_or_error": null,
+     "n": 45,
+     "n_analyzed": "45",
+     "n_definition": "FDA approvals (2000-2019) that used external controls",
+     "study_system": "FDA drug/biologic approvals",
+     "experimental_conditions": "Regulatory review, 2000-2019",
+     "method": "Document review of approval packages",
+     "text_access": "fulltext",
+     "scope_region": "US FDA",
+     "scope_population": "All external-control approvals in selected therapeutic areas",
+     "taxonomic_level": "external-control-source category"
+    },
+    {
+     "doi": "10.1007/s43441-024-00693-8",
+     "metric": "Real-world-data external control arms (registries/natural history) among single-arm-trial approvals",
+     "value": "45%",
+     "value_source_sentence": "Real-world-data (RWD) ECAs, were utilized by a sizable proportion of both FDA (45%) and EMA-approved (47%) applicants.",
+     "ci_or_error": null,
+     "n": 20,
+     "n_analyzed": "20",
+     "n_definition": "FDA single-arm-trial-based approvals 2019-2022",
+     "study_system": "FDA single-arm-trial approvals",
+     "experimental_conditions": "Regulatory review, 2019-2022",
+     "method": "Systematic abstraction of approval packages",
+     "text_access": "fulltext",
+     "scope_region": "US FDA",
+     "scope_population": "Non-oncology single-arm-trial first-indication approvals",
+     "taxonomic_level": "external-control-source category"
+    }
+   ],
+   "comparison_type": "convergent evidence",
+   "what_it_reveals": "Across two independent regulatory reviews, retrospectively assembled natural-history / real-world data is the dominant external-control source (44-45%) in approvals that substitute external for concurrent controls, despite guidance preferring prospective natural history.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "true",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "true",
+    "n_definition_uniform": "false",
+    "caveats": [
+     "Denominators differ: 45 covers all external-control approvals 2000-2019 in selected therapeutic areas; 20 covers non-oncology single-arm-trial first-indication approvals 2019-2022.",
+     "First study's 44% is share of retrospective natural-history controls among external-control approvals; second study's 45% is share of applicants using RWD external control arms (all registry/natural-history based)."
     ]
    }
   }

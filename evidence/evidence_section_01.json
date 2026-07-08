@@ -1,0 +1,515 @@
+{
+ "section_id": "section_01",
+ "section_title": "Introduction",
+ "cluster_source": "synthesis",
+ "synthesis_section": true,
+ "findings": [
+  {
+   "claim": "Cumulative preclinical irreproducibility is estimated around 50% (point estimate 53.3%), implying roughly US$28 billion/year of non-reproducible US preclinical research.",
+   "claim_source_sentence": "A natural point estimate of the cumulative irreproducibility rate is the midpoint of the upper and lower bounds, or 53.3%.",
+   "evidence": "Probability-bounds economic modeling combining published irreproducibility estimates (range 51%-89%) with US life-science R&D spending; authors stress the estimate is uncertain.",
+   "effect_size": "point estimate 53.3% (bounds 18%-88.5%); ~US$28B/year",
+   "effect_size_source_sentence": "Nevertheless, we believe a 50% irreproducibility rate, leading to direct costs of approximately US$28B/year, provides a reasonable starting point for further debate.",
+   "n": null,
+   "study_system": "US preclinical life-science research (economic modeling)",
+   "replication_status": "unreplicated",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pbio.1002165",
+   "text_access": "fulltext",
+   "cite_key": "Freedman2015",
+   "argument_role": "landmark"
+  },
+  {
+   "claim": "Almost all animal ischaemic-stroke publications reported significant effects; publication bias inflated pooled efficacy and ~16% of experiments appear unpublished.",
+   "claim_source_sentence": "Only 2.2% of publications identified in the included reviews did not report any significant findings.",
+   "evidence": "CAMARADES meta-analyses of 525 publications across 16 stroke interventions; Egger regression and trim-and-fill. Pooled efficacy fell from 31.2% to 23.8% after adjustment; ~214 (16%) experiments estimated missing.",
+   "effect_size": "bias detected in 10-16 of 16 interventions; efficacy overstated ~31% relative",
+   "effect_size_source_sentence": "The different methods used to ascertain publication bias gave somewhat different results; Egger regression suggested bias for all 16 interventions, whereas trim-and-fill suggested bias for ten of 16 interventions.",
+   "n": 525,
+   "study_system": "animal models of acute ischaemic stroke (CAMARADES)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pbio.1000344",
+   "text_access": "fulltext",
+   "cite_key": "Sena2010",
+   "argument_role": "core"
+  },
+  {
+   "claim": "Animal-experiment treatment effects often do not concord with clinical trials; corticosteroids benefited animal head-injury models but showed no benefit in patients.",
+   "claim_source_sentence": "Corticosteroids did not show any benefit in clinical trials of treatment for head injury but did show a benefit in animal models (pooled odds ratio for adverse functional outcome 0.58, 95% confidence interval 0.41 to 0.83).",
+   "evidence": "Systematic review comparing pooled animal effects with clinical-trial results across six interventions with unambiguous clinical evidence.",
+   "effect_size": "pooled OR 0.58 (95% CI 0.41-0.83) benefit in animals vs no benefit in humans",
+   "effect_size_source_sentence": "Corticosteroids did not show any benefit in clinical trials of treatment for head injury but did show a benefit in animal models (pooled odds ratio for adverse functional outcome 0.58, 95% confidence interval 0.41 to 0.83).",
+   "n": 6,
+   "study_system": "animal experiments vs clinical trials (6 interventions)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1136/bmj.39048.407928.BE",
+   "text_access": "abstract_only",
+   "cite_key": "Perel2006",
+   "argument_role": "core"
+  },
+  {
+   "claim": "Preclinical cancer papers were so incompletely reported that only 50 of 193 planned replications could be run; data to compute effect sizes were public for only 4 of 193 experiments.",
+   "claim_source_sentence": "The initial goal was to repeat 193 experiments from 53 high-impact papers published between 2010 and 2012, but the obstacles we encountered at every phase of the research lifecycle meant that we were only able to repeat 50 experiments from 23 papers.",
+   "evidence": "Documentation of barriers to replication; public data for 4/193 experiments, author data unobtainable for 68%, and 67% of protocols required modification.",
+   "effect_size": "50 of 193 experiments repeated (23 of 53 papers)",
+   "effect_size_source_sentence": "This resulted in 50 included papers for which we initiated the process of preparing a replication.",
+   "n": 193,
+   "study_system": "preclinical cancer biology (reproducibility barriers)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.7554/eLife.67995",
+   "text_access": "fulltext",
+   "cite_key": "Errington2021a",
+   "argument_role": "core"
+  },
+  {
+   "claim": "In a survey of ~454 laboratory-animal researchers, not-for-profit staff estimated only 50% of animal experiments are published and for-profit staff estimated 10%.",
+   "claim_source_sentence": "On average, those working in not-for-profit institutes (n = 421) estimated that 50 percent (interquartile range (IQR) 35 to 70) of all conducted laboratory animal experiments are published.",
+   "evidence": "Internet survey of laboratory-animal researchers across all animal laboratories in the Netherlands (474 responded).",
+   "effect_size": "not-for-profit estimate 50% published; for-profit estimate 10%",
+   "effect_size_source_sentence": "Researchers in a for-profit environment (n = 21) estimated that only 10 percent (5 to 50) is published.",
+   "n": 454,
+   "study_system": "laboratory-animal researchers survey (Netherlands)",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [],
+   "doi": "10.1371/journal.pone.0043404",
+   "text_access": "fulltext",
+   "cite_key": "terRiet2012",
+   "argument_role": "core"
+  },
+  {
+   "claim": "For 47 novel drugs, most animal efficacy studies were published only after the first human trial and a third of trial indications had no matching animal efficacy study.",
+   "claim_source_sentence": "Most (87%) accessible animal efficacy studies were reported after publication of the first trial, and for 17% of the drugs in our sample, no efficacy studies were published before the first trial report.",
+   "evidence": "Systematic search for all published animal efficacy studies supporting 47 drugs first trialled 2000-2003 (2462 studies).",
+   "effect_size": "2462 studies (avg 52/drug); 87% published after first trial; 35% of indications unmatched",
+   "effect_size_source_sentence": "We identified 2462 efficacy studies, representing an average of 52 studies per drug.",
+   "n": 47,
+   "study_system": "preclinical efficacy studies for novel drugs",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1111/bph.12771",
+   "text_access": "abstract_only",
+   "cite_key": "Federico2014",
+   "argument_role": "core"
+  },
+  {
+   "claim": "A retrospective harm-benefit analysis of preclinical animal studies for six interventions found that, weighing actual harms against actual clinical benefits, fewer than 7% of studies were ethically permissible under Bateson's Cube.",
+   "claim_source_sentence": "Only the moderate bisphosphonate studies, less than 7% of the total, appeared to minimise harms to animals whilst being associated with benefit for humans.",
+   "evidence": "Discussion. First systematic retrospective HBA across preclinical studies; expert panel most commonly rated animal harms as 'severe'; regulatory systems failed to prevent severe suffering or ensure only rigorous research.",
+   "effect_size": "less than 7% permissible; 97% (n=206) did not report analgesia",
+   "effect_size_source_sentence": "Thirteen percent of studies (n = 27) failed to report use of anaesthesia and 97% (n = 206) did not report analgesia use.",
+   "n": null,
+   "study_system": "preclinical animal studies (antifibrinolytics, bisphosphonates, corticosteroids, Tirilazad, antenatal corticosteroids, thrombolytics; rats, rabbits, primates)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1186/cc13694",
+    "10.1667/RADE-22-00124.1"
+   ],
+   "doi": "10.1371/journal.pone.0193758",
+   "text_access": "fulltext",
+   "cite_key": "Pound2018",
+   "argument_role": "landmark"
+  },
+  {
+   "claim": "A meta-analysis found conventional (shoebox) laboratory housing significantly exacerbates stress-sensitive disease and all-cause mortality in rodents relative to enriched housing, so typical research rodents are 'CRAMPED', raising validity concerns.",
+   "claim_source_sentence": "Together, they indicate that typical research rodents should be termed ‘CRAMPED’ (cold, rotund, abnormal, male-biased, poorly surviving, enclosed and distressed).",
+   "evidence": "Results. Random-effects meta-analysis of 214 studies (6495 animals); conventional housing exacerbated cancer, cardiovascular disease, stroke, anxiety and depression, and raised mortality; questions generalisability of data from conventionally housed rodents.",
+   "effect_size": "cancer SMD = 0.71 (medium effect)",
+   "effect_size_source_sentence": "Cancer  Meta-analysis of 72 studies (from 46 articles) showed that CH significantly exacerbated cancer morbidity, with a medium effect size (SMD = 0.71,= 8.29,< 0.0001) (Fig.).",
+   "n": 6495,
+   "study_system": "laboratory mice and rats (meta-analysis of housing effects)",
+   "replication_status": "single-study",
+   "replication_evidence_dois": [],
+   "doi": "10.1186/s12915-021-01184-0",
+   "text_access": "fulltext",
+   "cite_key": "Cait2022",
+   "argument_role": "core"
+  },
+  {
+   "claim": "A review of critical-care animal research found that reported attention to the 3Rs was poor: anaesthesia monitoring, pain treatment, appropriate euthanasia and sample-size calculation were rarely reported, and only 22% met a basic composite welfare outcome.",
+   "claim_source_sentence": "Seventeen (22% of 77) met the composite outcome of, if indicated, using anesthesia and pain control, and stating the method of euthanasia.",
+   "evidence": "Results. 77 consecutive publications from 3 high-impact critical-care journals (Jan-Jun 2012); most public-funded; poor reporting threatens public support and may contribute to poor translation.",
+   "effect_size": "sample-size calculation used in 5% (4/77)",
+   "effect_size_source_sentence": "A sample-size calculation was rarely used (four (5%) of 77).",
+   "n": 77,
+   "study_system": "critical care animal research publications (mammals)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1371/journal.pone.0193758",
+    "10.1667/RADE-22-00124.1"
+   ],
+   "doi": "10.1186/cc13694",
+   "text_access": "fulltext",
+   "cite_key": "Bara2014",
+   "argument_role": "landmark"
+  },
+  {
+   "claim": "The authors argue the welfare-focused 3Rs are insufficient to make animal research ethical and propose a complementary '6R' framework adding Robustness, Registration and Reporting to safeguard scientific value.",
+   "claim_source_sentence": "In times where approximately 50% of animal studies are not reported,only the preregistration of animal study protocols allows the identification of biased, delayed or unreported results.",
+   "evidence": "Body. Animal research is ethical only when of scientific and social value; publication bias and non-reporting undermine value; national 3Rs centres already promote registration/robustness/reporting policies.",
+   "effect_size": "approximately 50% of animal studies are not reported",
+   "effect_size_source_sentence": "In times where approximately 50% of animal studies are not reported,only the preregistration of animal study protocols allows the identification of biased, delayed or unreported results.",
+   "n": null,
+   "study_system": "animal research ethics framework (proposal)",
+   "replication_status": "replicated",
+   "replication_evidence_dois": [
+    "10.1093/ilar/ilab023",
+    "10.1016/j.ejphar.2015.03.040"
+   ],
+   "doi": "10.1136/bmjos-2018-000048",
+   "text_access": "fulltext",
+   "cite_key": "Strech2019",
+   "argument_role": "landmark"
+  },
+  {
+   "claim": "The authors argue the 3Rs are simultaneously a framework for minimising animal harm and a means of improving scientific quality and translation, so refinement and reduction can act in synergy with better science rather than against it.",
+   "claim_source_sentence": "While focused primarily on the ethical imperative to minimize harm to animals in science, in developing the 3Rs, Russell and Burch also maintained that scientific excellence and the humane use of laboratory animals are inextricably linked.",
+   "evidence": "Sections 4-6. Notes interplay/conflict among the 3Rs (reduction can raise per-animal harm, resolved by prioritising refinement); cites a refined pulmonary-embolism model that reduced mice per experiment by ~90%; frames the utilitarian/animal-rights/hybrid ethical basis.",
+   "effect_size": "around 90% reduction in mice per experiment (refined PE model)",
+   "effect_size_source_sentence": "Not only were they successful in strengthening the model by broadening the spectrum beyond a single extreme (i.e. fatal pulmonary embolism) and measuring a specific biological response rather than events with non-specific causes, but also they were able to reduce the number of mice per experiment by around 90% ().",
+   "n": null,
+   "study_system": "animal disease models / 3Rs in drug development (review)",
+   "replication_status": "disputed",
+   "replication_evidence_dois": [
+    "10.3390/ani10020291"
+   ],
+   "doi": "10.1016/j.ejphar.2015.03.040",
+   "text_access": "fulltext",
+   "cite_key": "Graham2015",
+   "argument_role": "core"
+  }
+ ],
+ "argument_groups": {
+  "establishing": {
+   "thesis": "Animals are used to generate knowledge, but a large and measurable fraction of the resulting data is never published, shared, or made reusable; because generating that data imposed a welfare cost, allowing it to be wasted is an unpaid ethical debt that is discharged in further animal lives. This section defines the debt, states the four-part repayment thesis (FAIR data, reuse, virtual control groups, NAM-data stewardship), and previews the argument.",
+   "supporting_findings": [
+    "Freedman2015",
+    "Sena2010",
+    "terRiet2012"
+   ],
+   "counter_findings": [],
+   "synthesis": "Having asserted that wasted animal data is a welfare harm, the introduction hands off to sec-repro-crisis, which supplies the empirical foundation: that preclinical evidence is systematically irreproducible and poorly translated, so the data being lost is also the data most in need of scrutiny."
+  },
+  "complication": {
+   "thesis": "Animals are used to generate knowledge, but a large and measurable fraction of the resulting data is never published, shared, or made reusable; because generating that data imposed a welfare cost, allowing it to be wasted is an unpaid ethical debt that is discharged in further animal lives. This section defines the debt, states the four-part repayment thesis (FAIR data, reuse, virtual control groups, NAM-data stewardship), and previews the argument.",
+   "supporting_findings": [
+    "Perel2006",
+    "Errington2021a",
+    "Federico2014"
+   ],
+   "counter_findings": [],
+   "synthesis": "Having asserted that wasted animal data is a welfare harm, the introduction hands off to sec-repro-crisis, which supplies the empirical foundation: that preclinical evidence is systematically irreproducible and poorly translated, so the data being lost is also the data most in need of scrutiny."
+  },
+  "synthesis": {
+   "thesis": "Animals are used to generate knowledge, but a large and measurable fraction of the resulting data is never published, shared, or made reusable; because generating that data imposed a welfare cost, allowing it to be wasted is an unpaid ethical debt that is discharged in further animal lives. This section defines the debt, states the four-part repayment thesis (FAIR data, reuse, virtual control groups, NAM-data stewardship), and previews the argument.",
+   "supporting_findings": [
+    "Pound2018",
+    "Cait2022",
+    "Strech2019"
+   ],
+   "counter_findings": [],
+   "synthesis": "Having asserted that wasted animal data is a welfare harm, the introduction hands off to sec-repro-crisis, which supplies the empirical foundation: that preclinical evidence is systematically irreproducible and poorly translated, so the data being lost is also the data most in need of scrutiny."
+  }
+ },
+ "conflicts": [
+  {
+   "paper_a_doi": "10.1126/science.aac4716",
+   "paper_b_doi": "10.1126/science.aad7243",
+   "paper_a_claim": "Thirty-six percent of replications had statistically significant results; 47% of original effect sizes were in the 95% confidence interval of the replication effect size.",
+   "paper_b_claim": "Indeed, the data are consistent with the opposite conclusion, namely, that the reproducibility of psychological science is quite high.",
+   "nature_of_conflict": "Whether the Reproducibility Project: Psychology demonstrates low reproducibility (only 36% of replications significant) or, after correcting for alleged statistical errors and accounting for sampling/power, actually shows high reproducibility; a dispute over replication metrics and error rates rather than the underlying data.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1007/s12064-021-00340-y",
+   "paper_b_doi": "10.1097/ACM.0000000000002351",
+   "paper_a_claim": "An important aspect that is generally overlooked is the lack of external validity caused by rigorous standardization of both the animals and the environment.",
+   "paper_b_claim": "These actions will support a culture where rigor + transparency = reproducibility.",
+   "nature_of_conflict": "Whether rigorous standardization of animals and environment improves reproducibility (rigor+transparency framing) or harms it by reducing external validity (reaction-norm framing) - internal reproducibility vs external validity.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1371/journal.pone.0043404",
+   "paper_b_doi": "10.1371/journal.pone.0250362",
+   "paper_a_claim": "On average, those working in not-for-profit institutes (n = 421) estimated that 50 percent (interquartile range (IQR) 35 to 70) of all conducted laboratory animal experiments are published.",
+   "paper_b_claim": "Regarding the 172 proposals with confirmed conduction, the response rate was higher for proposals generating at least one results publication according to our previous study (54.4%, 62/114 proposals) than for those without any publications (48.3%, 28/58 proposals).",
+   "nature_of_conflict": "Magnitude of non-publication of animal research: opinion surveys estimate only ~50% of experiments are published, whereas empirical protocol-to-publication tracking finds ~70% publication rates.",
+   "resolution_status": "resolved-by-method"
+  },
+  {
+   "paper_a_doi": "10.1371/journal.pbio.2003693",
+   "paper_b_doi": "10.1038/nrn3475",
+   "paper_a_claim": "Single-laboratory studies generally failed to predict effect size accurately, and larger sample sizes rendered effect size estimates even less accurate.",
+   "paper_b_claim": "Here, we show that the average statistical power of studies in the neurosciences is very low.",
+   "nature_of_conflict": "Prescription for improving preclinical reliability: increasing statistical power/sample size within a single standardized laboratory (power view) versus the finding that larger single-lab samples worsen effect-size accuracy unless samples are heterogenized across laboratories.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1073/pnas.1222878110",
+   "paper_b_doi": "10.1073/pnas.1401965111",
+   "paper_a_claim": "Among genes changed significantly in humans, the murine orthologs are close to random in matching their human counterparts (e.g., R(2) between 0.0 and 0.1).",
+   "paper_b_claim": "Contrary to the previous findings, the gene expression levels in the mouse models showed extraordinarily significant correlations with those of the human conditions (Spearman's rank correlation coefficient: 0.43-0.68; genes changed in the same direction: 77-93%; P = 6.5 × 10(-11) to 1.2 × 10(-35)).",
+   "nature_of_conflict": "Using the identical gene-expression datasets, the two analyses reach opposite conclusions on whether mouse inflammation models mimic human disease; the discrepancy traces to gene-selection method (all human-significant genes vs genes significant in both species).",
+   "resolution_status": "resolved-by-method"
+  },
+  {
+   "paper_a_doi": "10.1038/s41598-021-97896-y",
+   "paper_b_doi": "10.1038/ijo.2012.82",
+   "paper_a_claim": "The overall replication rate was 85.0%; although lower for binary than quantitative phenotypes (58.1% versus 94.8% respectively).",
+   "paper_b_claim": "A robust replication of initial genetic association findings has proved to be difficult in human complex diseases and more specifically in the obesity field.",
+   "nature_of_conflict": "Whether genetic-association findings reproduce well: large well-powered biobank GWAS report high replication (~85%), whereas the earlier candidate-gene/association-study era found robust replication elusive; the disagreement reflects study power and design (genome-wide biobank-scale vs underpowered candidate-gene studies).",
+   "resolution_status": "resolved-by-method"
+  },
+  {
+   "paper_a_doi": "10.3389/fphar.2022.1009169",
+   "paper_b_doi": "10.1371/journal.pbio.1000344",
+   "paper_a_claim": "Overall, metformin treatment improves severe outcomes triggered by stroke.",
+   "paper_b_claim": "Only 2.2% of publications identified in the included reviews did not report any significant findings.",
+   "nature_of_conflict": "Individual-drug preclinical stroke meta-analyses (e.g. metformin) report strong, statistically significant neuroprotection on every endpoint, whereas cross-intervention analysis shows almost all animal stroke publications report significant benefit and that publication bias inflates pooled efficacy - casting doubt on the reliability of any single positive preclinical meta-analysis.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.11613/bm.2021.010502",
+   "paper_b_doi": "10.1038/s41583-020-0313-3",
+   "paper_a_claim": "Thus, far fewer animals are needed in the research because genetic differences that could affect the study results are kept to a minimum.",
+   "paper_b_claim": "In contrast to the current gold standard of rigorous standardization in experimental animal research, we recommend the use of systematic heterogenization of study samples and conditions by actively incorporating biological variation into study design through diversifying study samples and conditions.",
+   "nature_of_conflict": "Whether minimizing genetic/environmental variation in animal experiments is beneficial (reducing required sample size by cutting nuisance variability, the standardization view) or harmful (yielding idiosyncratic, poorly reproducible results with weak external validity, which argues instead for systematic heterogenization).",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1016/j.bja.2018.07.024",
+   "paper_b_doi": "10.1007/s12035-022-02970-9",
+   "paper_a_claim": "The effect-size estimates do not appear to be exaggerated by selective publication, experimental manipulation, or study design.",
+   "paper_b_claim": "A funnel plot asymmetry was detected, suggesting a possible publication bias.",
+   "nature_of_conflict": "Two preclinical TBI neuroprotection meta-analyses disagree on whether the rodent literature is distorted by publication bias: the anaesthetics network meta-analysis found no evidence of selective-publication exaggeration, whereas the progesterone meta-analysis detected funnel-plot asymmetry indicating publication bias.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1038/s41598-019-47981-0",
+   "paper_b_doi": "10.1038/s41583-020-0313-3",
+   "paper_a_claim": "The present study demonstrates that rigorous alignment of experimental protocols between three research centers resulted in comparable experimental findings across sites for both genotype and treatment effects.",
+   "paper_b_claim": "An important aspect that is generally overlooked is the lack of external validity caused by rigorous standardization of both the animals and the environment.",
+   "nature_of_conflict": "Disagreement over whether standardization/harmonization improves or harms cross-laboratory reproducibility: the Shank2 multicenter study shows rigorously aligned (standardized) protocols yield highly replicable results across sites, whereas the heterogenization view holds that rigorous standardization reduces external validity and reproducibility.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.3390/ani10020291",
+   "paper_b_doi": "10.1177/0023677218783004",
+   "paper_a_claim": "Given these caveats of HBA, I call policy-makers to reconsider the place of HBA in animal research.",
+   "paper_b_claim": "Ultimately, we argue that the two models are not mutually exclusive and may be combined to make the most of their advantages while reducing the disadvantages of how harm-benefit analysis in typically undertaken.",
+   "nature_of_conflict": "Whether project-level harm-benefit analysis should be abandoned and replaced by independent harm-minimisation principles (Gutfreund) or retained and improved by combining discourse and metric weighting models (Grimm, Olsson & Sandoe).",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1136/bmjos-2018-000048",
+   "paper_b_doi": "10.3389/fphys.2022.914939",
+   "paper_a_claim": "However, animal welfare alone does not suffice to make animal research ethical if the research does not have sufficient scientific value.",
+   "paper_b_claim": "It is not always possible to apply the Principle in all of its three aspects, but this does not absolutely mean that the Principle as an idea is neither obsolete nor ineffective.",
+   "nature_of_conflict": "Whether the classic 3Rs framework is inadequate and must be expanded with scientific-value principles (Strech & Dirnagl's 6Rs) or remains conceptually sufficient and merely under-applied (Vitale & Ricceri).",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1007/7854_2014_329",
+   "paper_b_doi": "10.1353/ken.0.0112",
+   "paper_a_claim": "First, we criticise some justifications for the claim that human beings and more complex animals have higher moral status.",
+   "paper_b_claim": "Such an examination demonstrates, I believe, that the practical implications of leading theories converge far more than might be expected.",
+   "nature_of_conflict": "Whether graded moral status by cognitive complexity is philosophically defensible (challenged by Bovenkerk & Kaldewaij) or whether competing moral-status theories nonetheless converge enough to guide practice (DeGrazia).",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1523/ENEURO.0284-21.2021",
+   "paper_b_doi": "10.1002/bies.201500127",
+   "paper_a_claim": "A careful analysis of indicative primate blood markers for chronic inflammation, hydration status, and stress levels, their comparison to baseline values from both the same animals and the literature, and evaluation of additional hematologic, physiological, and behavioral parameters did not provide support for the notion of long-term, cumulative effects on the monkeys' healthiness and well-being.",
+   "paper_b_claim": "I propose that telomere attrition, a cellular biomarker of biological age, provides a molecular measure of cumulative experience that could be used to assess the welfare impact of husbandry regimes and/or experimental procedures on non-human animals.",
+   "nature_of_conflict": "Whether repeated 'mildly severe' laboratory procedures produce measurable long-term cumulative harm: an NHP blood-marker dataset detects none, whereas the telomere-attrition framework predicts cumulative physiological damage that conventional markers may miss.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1371/journal.pone.0260114",
+   "paper_b_doi": "10.1177/026119291604400407",
+   "paper_a_claim": "In general, scenarios involving chronic pain in mice, organ transplantation in pigs and skin cancer in fish all exhibited higher levels of support than what is typically reported for animal research [,].",
+   "paper_b_claim": "Expectations for AR are much higher than empirical data show to have been achieved.",
+   "nature_of_conflict": "Whether public attitudes to animal research are more supportive than commonly assumed (specific protocols attract higher-than-typical support) or fundamentally fragile because they rest on unmet expectations of methodological quality and human translation.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1177/00236772251396310",
+   "paper_b_doi": "10.3390/ani10020291",
+   "paper_a_claim": "A harm-benefit analysis can be used to weigh the welfare and quality of life of animals in scientific studies against the resulting benefits to other animals or humans, provided that animal welfare can be validly assessed.",
+   "paper_b_claim": "The argument above that HBA in IACUC discussions may result in a bias against basic research is not a mere theoretical concern.",
+   "nature_of_conflict": "Whether project-level harm-benefit analysis is a valid and usable tool for weighing animal welfare against benefits (Wolfensohn et al.) or is structurally biased against basic research and should be replaced by independent principles (Gutfreund).",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.3390/ani11072145",
+   "paper_b_doi": "10.1177/0023677217744587",
+   "paper_a_claim": "In all groups, the vast majority of participants were able to recognise stress in laboratory animals.",
+   "paper_b_claim": "The examples of severity classification given in Annex VIII are limited in number, and have little descriptive power to aid assignment.",
+   "nature_of_conflict": "How reliably procedure severity can be assigned in practice: a training study finds most personnel can recognise and grade stress after instruction, whereas the FELASA working group finds the regulatory severity framework too underspecified to support consistent assignment.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1371/journal.pone.0203793",
+   "paper_b_doi": "10.3390/ani13203161",
+   "paper_a_claim": "The rise in catecholamine concentrations suggests that CO2 exposure might be linked to a higher stress response compared to isoflurane and sevoflurane exposure, although we did not observe a behavioral correlate for that.",
+   "paper_b_claim": "CO2 (0.9 ± 0.18) and isoflurane (1.2 ± 0.20) recorded the highest scores",
+   "nature_of_conflict": "Whether volatile inhalant anaesthetics are a genuine welfare refinement over CO2 for rodent euthanasia: a mouse blood-catecholamine study finds CO2 more stressful than isoflurane/sevoflurane, whereas a Rat Grimace Scale study finds isoflurane produces the highest facial pain scores of the agents tested.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1186/s12910-025-01297-z",
+   "paper_b_doi": "10.1177/00236772251396310",
+   "paper_a_claim": "Decision-making based on deliberation among committee members should be supported over the use of scoring approaches.",
+   "paper_b_claim": "A harm-benefit analysis can be used to weigh the welfare and quality of life of animals in scientific studies against the resulting benefits to other animals or humans, provided that animal welfare can be validly assessed.",
+   "nature_of_conflict": "Whether harm-benefit analysis should rely on deliberative, case-by-case committee judgement (scoping review favours deliberation over scoring) or on validated quantitative welfare-scoring tools (Wolfensohn et al.'s AWAG approach), i.e. deliberation versus metric scoring as the more valid basis for HBA.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.3389/fvets.2025.1593954",
+   "paper_b_doi": "10.3390/ani10020291",
+   "paper_a_claim": "This study develops a composite HBA method composed of the relevant and useful elements from current guidance documents and provides instructions on conducting such an analysis.",
+   "paper_b_claim": "The argument above that HBA in IACUC discussions may result in a bias against basic research is not a mere theoretical concern.",
+   "nature_of_conflict": "Whether project-level harm-benefit analysis can be operationalised into a coherent, workable decision tool (compound model) or is inherently biased against basic research and should be replaced by two independent principles (societal benefit; minimal justified harm).",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1371/journal.pone.0016461",
+   "paper_b_doi": "10.1371/journal.pbio.2003693",
+   "paper_a_claim": "Although heterogenization significantly increased within-experiment variation relative to between-experiment variation, the effect was too weak to account for the large variation between laboratories and improve reproducibility substantially.",
+   "paper_b_claim": "By contrast, multi-laboratory designs including as few as 2 to 4 laboratories increased coverage probability by up to 42 percentage points without a need for larger sample sizes.",
+   "nature_of_conflict": "An empirical six-laboratory test found simple within-study heterogenization too weak to overcome between-laboratory variation, whereas a simulation across 440 studies concludes that multi-laboratory designs with only 2-4 labs substantially improve reproducibility of effect-size estimates; they disagree on how effective heterogenization/multi-lab strategies are for solving poor reproducibility.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.3390/ani13213377",
+   "paper_b_doi": "10.1002/brv.70125",
+   "paper_a_claim": "As invertebrates are generally classified as non-sentient animals, the replacement dimension tends to favor them as prevalent models in experimental research.",
+   "paper_b_claim": "There is strong evidence of sentience in octopuses and cuttlefish, which are assessed with very high or high confidence in meeting six of eight criteria.",
+   "nature_of_conflict": "One framework treats invertebrates as generally non-sentient, making them preferred 'replacement' models under the 3Rs, while the cephalopod assessment finds strong evidence of sentience in some invertebrates (octopus, cuttlefish), undercutting the assumption that invertebrate use is ethically low-cost replacement.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1017/awf.2023.21",
+   "paper_b_doi": "10.1111/epi.14028",
+   "paper_a_claim": "Neither the overall score nor any individual parameter yielded satisfactory results for predicting survival.",
+   "paper_b_claim": "This finding provides first evidence that nest scoring might serve as a simple and valid approach to evaluate rat well-being during routine assessment schemes.",
+   "nature_of_conflict": "In a rat surgery/cirrhosis model, standard severity score-sheet parameters were found insufficient to predict mortality, whereas a rat kindling study concludes that a single simple measure (nest scoring) is a valid approach to assess well-being; they disagree on how reliably simple welfare scores capture severity.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1186/s12967-025-06084-3",
+   "paper_b_doi": "10.3390/ani13142357",
+   "paper_a_claim": "In this context, replacement emerges as the key principle-an imperative that should be prioritized over all other considerations.",
+   "paper_b_claim": "Experimentation in animal models is essential to understand the pathogenesis of human diseases and, considering the high prevalence of liver disease worldwide, to understand the pathophysiology of disease progression and the molecular pathways involved, due to the complexity of the liver as an organ and its relationship with the rest of the organism.",
+   "nature_of_conflict": "Whether new approach methodologies can and should completely replace animals now (replacement as an overriding imperative) versus the position that animal models remain essential for understanding complex human-disease pathogenesis and progression.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1016/j.nsa.2025.105527",
+   "paper_b_doi": "10.3390/ani10020291",
+   "paper_a_claim": "More specifically, we describe a Benefit Assessment Matrix that can provide a streamlined and practical guide for both scientists and Animal Ethics Committees or equivalent bodies such as Institutional Animal Care and Use Committees to assess the benefit of proposed research.",
+   "paper_b_claim": "The argument above that HBA in IACUC discussions may result in a bias against basic research is not a mere theoretical concern.",
+   "nature_of_conflict": "Whether ethics committees should formally assess the benefit of proposed animal research (a Benefit Assessment Matrix to phase out low-value work) versus the position that benefit/harm-benefit assessment biases committees against basic research and should be replaced by independent principles.",
+   "resolution_status": "open"
+  },
+  {
+   "paper_a_doi": "10.1177/0023677219887998",
+   "paper_b_doi": "10.3390/ani9110969",
+   "paper_a_claim": "To prevent it supporting a 'tick-box' exercise, the framework must not be used as an auditing tool, but as a starting point for consideration and discussion about how care manifests within the context and constraints of individual establishments.",
+   "paper_b_claim": "Many currently-used criteria and indicators tend to be human-centric and subjective, and we suggest using further objective indicators and animal-centric, 3Rs-based criteria.",
+   "nature_of_conflict": "How to assess culture of care: caution against objective auditing/benchmarking that risks becoming a tick-box exercise versus advocacy for more objective, measurable animal-centric 3Rs-based indicators and benchmarking.",
+   "resolution_status": "open"
+  }
+ ],
+ "figure_data": [
+  {
+   "comparison_id": "animal-study-publication-rates",
+   "comparison_name": "Publication / non-publication of animal experiments across studies",
+   "papers": [
+    {
+     "doi": "10.1371/journal.pbio.1000344",
+     "metric": "estimated non-publication rate (%)",
+     "value": "14",
+     "value_source_sentence": "We estimate that a further 214 experiments (in addition to the 1,359 identified through rigorous systematic review; non publication rate 14%) have been conducted but not reported.",
+     "ci_or_error": null,
+     "n": 525,
+     "n_analyzed": null,
+     "n_definition": "publications in stroke reviews",
+     "study_system": "animal stroke meta-analyses",
+     "experimental_conditions": "trim-and-fill estimate",
+     "method": "meta-analysis",
+     "text_access": "abstract_only",
+     "scope_region": "whole domain",
+     "scope_population": "animal studies audited",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1371/journal.pone.0043404",
+     "metric": "estimated % experiments published (researcher opinion)",
+     "value": "50",
+     "value_source_sentence": "On average, those working in not-for-profit institutes (n = 421) estimated that 50 percent (interquartile range (IQR) 35 to 70) of all conducted laboratory animal experiments are published.",
+     "ci_or_error": "IQR 35-70",
+     "n": 454,
+     "n_analyzed": null,
+     "n_definition": "survey respondents",
+     "study_system": "lab-animal researchers (Netherlands)",
+     "experimental_conditions": "opinion survey",
+     "method": "survey",
+     "text_access": "fulltext",
+     "scope_region": "whole domain",
+     "scope_population": "animal studies audited",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1371/journal.pone.0250362",
+     "metric": "% animal-study proposals published",
+     "value": "70",
+     "value_source_sentence": "Results showed that the publication rate increased from 67% in our follow-up study to 70%.",
+     "ci_or_error": null,
+     "n": 210,
+     "n_analyzed": null,
+     "n_definition": "proposals tracked",
+     "study_system": "animal-study proposals (Germany)",
+     "experimental_conditions": "protocol-to-publication tracking",
+     "method": "cohort tracking",
+     "text_access": "abstract_only",
+     "scope_region": "whole domain",
+     "scope_population": "animal studies audited",
+     "taxonomic_level": "broad category"
+    },
+    {
+     "doi": "10.1111/bph.12771",
+     "metric": "% drugs with no efficacy studies published before first trial",
+     "value": "17",
+     "value_source_sentence": "Most (87%) accessible animal efficacy studies were reported after publication of the first trial, and for 17% of the drugs in our sample, no efficacy studies were published before the first trial report.",
+     "ci_or_error": null,
+     "n": 47,
+     "n_analyzed": null,
+     "n_definition": "drugs",
+     "study_system": "efficacy studies for novel drugs",
+     "experimental_conditions": "drug-cohort search",
+     "method": "systematic search",
+     "text_access": "abstract_only",
+     "scope_region": "whole domain",
+     "scope_population": "animal studies audited",
+     "taxonomic_level": "broad category"
+    }
+   ],
+   "comparison_type": "cross-study conflict",
+   "what_it_reveals": "Estimates of how much animal research reaches publication vary widely by method - meta-analytic missing-study estimates (~14% unpublished), opinion surveys (~50% published) and empirical tracking (~70% published) - bounding the scale of non-publication.",
+   "suggested_plot_type": "grouped bar",
+   "homogeneity_check": {
+    "scope_region_uniform": "false",
+    "scope_population_uniform": "false",
+    "taxonomic_level_uniform": "false",
+    "n_definition_uniform": "false",
+    "caveats": [
+     "Metrics are not identical: missing-experiment estimate (Sena), opinion of % published (ter Riet), empirical publication rate (Deutsch), drug-cohort pre-trial publication (Federico). Comparable only as bounds on non-publication."
+    ]
+   },
+   "audit_verdict": "PENDING"
+  }
+ ]
+}

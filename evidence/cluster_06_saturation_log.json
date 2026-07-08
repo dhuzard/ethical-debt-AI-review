@@ -174,8 +174,125 @@
       "new_unique_rate": 1.0,
       "cumulative_unique": 97,
       "cumulative_screened_in": 97
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:microphysiological system validation reproducibility qualification / tissue chip consortium",
+      "records_examined": 20,
+      "new_unique_relevant": 5,
+      "new_unique_rate": 0.25,
+      "cumulative_unique": 124,
+      "cumulative_screened_in": 124
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:organoid biobank standardization + living biobank QC + automation",
+      "records_examined": 20,
+      "new_unique_relevant": 5,
+      "new_unique_rate": 0.25,
+      "cumulative_unique": 129,
+      "cumulative_screened_in": 129
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:in silico applicability domain + QSAR toxicity value + biomagnification",
+      "records_examined": 18,
+      "new_unique_relevant": 3,
+      "new_unique_rate": 0.17,
+      "cumulative_unique": 132,
+      "cumulative_screened_in": 132
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:next generation risk assessment NAM (PBK/read-across/ASPA/EU-ToxRisk)",
+      "records_examined": 38,
+      "new_unique_relevant": 7,
+      "new_unique_rate": 0.18,
+      "cumulative_unique": 139,
+      "cumulative_screened_in": 139
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:computational toxicology data integration FAIR (ICE/COSMOS/NORMAN/PROTEOMAS/nanoinformatics)",
+      "records_examined": 17,
+      "new_unique_relevant": 5,
+      "new_unique_rate": 0.29,
+      "cumulative_unique": 144,
+      "cumulative_screened_in": 144
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:retinal organoid disease model drug screening",
+      "records_examined": 12,
+      "new_unique_relevant": 4,
+      "new_unique_rate": 0.33,
+      "cumulative_unique": 148,
+      "cumulative_screened_in": 148
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:kidney organoid nephrotoxicity screening + tubuloid",
+      "records_examined": 12,
+      "new_unique_relevant": 5,
+      "new_unique_rate": 0.42,
+      "cumulative_unique": 153,
+      "cumulative_screened_in": 153
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:3D bioprinting tissue model drug toxicity",
+      "records_examined": 12,
+      "new_unique_relevant": 4,
+      "new_unique_rate": 0.33,
+      "cumulative_unique": 157,
+      "cumulative_screened_in": 157
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:spheroid hepatotoxicity high content 3D liver",
+      "records_examined": 3,
+      "new_unique_relevant": 2,
+      "new_unique_rate": 0.67,
+      "cumulative_unique": 159,
+      "cumulative_screened_in": 159
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:blood brain barrier chip microphysiological permeability",
+      "records_examined": 7,
+      "new_unique_relevant": 4,
+      "new_unique_rate": 0.57,
+      "cumulative_unique": 163,
+      "cumulative_screened_in": 163
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:gut microbiome host-microbe microfluidic (HuMiX)",
+      "records_examined": 1,
+      "new_unique_relevant": 1,
+      "new_unique_rate": 1.0,
+      "cumulative_unique": 164,
+      "cumulative_screened_in": 164
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:predictive validity in vitro assay concordance sensitivity specificity",
+      "records_examined": 5,
+      "new_unique_relevant": 3,
+      "new_unique_rate": 0.6,
+      "cumulative_unique": 167,
+      "cumulative_screened_in": 167
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "pubmed:chemical category grouping read-across regulatory (OECD/metabolism/plant protection)",
+      "records_examined": 6,
+      "new_unique_relevant": 3,
+      "new_unique_rate": 0.5,
+      "cumulative_unique": 170,
+      "cumulative_screened_in": 170
     }
   ],
   "saturation_reached": false,
-  "note": "Continuation frame 2 (light). Added 29 new unique-DOI findings across tumor/gut/liver/kidney-on-chip, iPSC cardiotoxicity, DNT/reproductive in vitro batteries, ToxCast/Tox21 HTS + exposure NAMs + QSAR (CoMPARA), and FAIR AOP data stewardship. New-unique rate stayed high; saturation NOT reached; hard floor 200 not yet met. Cumulative unique findings now 119."
+  "note": "Continuation frame 4 (light). Added 26 new unique-DOI findings emphasizing (i) organoid disease models and reproducibility/maturity limitations (retinal 100%-efficiency protocol, kidney organoid/tubuloid nephrotoxicity, PT immaturity, AMD/Alzheimer retinal ROs), (ii) microphysiological-system reproducibility/standardization (bioprinted kidney organoids CV 1-4%, manufactured BBB barrier chip, Brain-Chip neuroinflammation, uSiM pericyte BBB, HuMiX gut-microbe chip), (iii) NAM predictive-validity/concordance vs in vivo (RS Comet, ToxTracker, GARDskin, iPSC liver spheroid, ToxCast metabolic ToxPi), and (iv) read-across/regulatory (metabolism-tool benchmarking, ACCase herbicide category formation, FDA Modernization Act 2.0). New-unique yield remained high (~0.3-1.0 per pass); saturation NOT reached; hard floor 200 not yet met. Cumulative unique findings now 170; 9 of 26 new findings full-text."
 }

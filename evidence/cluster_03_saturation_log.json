@@ -65,9 +65,27 @@
    "new_unique_rate": 0.12,
    "cumulative_unique": 124,
    "cumulative_screened_in": 124
+  },
+  {
+   "pass_type": "expansion_5",
+   "query_or_method": "frame5: epmc/pubmed keyword passes on FAIR knowledge graphs & linked data, machine-actionable metadata (MCP), reproducible computational workflows (Jupyter/AiiDA/CODECHECK), data-journal/data-citation & incentives, sharing-rate quantification, FAIR assessment (F-UJI/low-carbon energy), equity/governance (Indigenous/LMIC) (~160 records screened)",
+   "records_examined": 160,
+   "new_unique_relevant": 30,
+   "new_unique_rate": 0.19,
+   "cumulative_unique": 154,
+   "cumulative_screened_in": 154
+  },
+  {
+   "pass_type": "expansion_6",
+   "query_or_method": "frame6 (full-text priority): 8 Europe PMC OA keyword passes (FAIR implementation case study, data-stewardship maturity, reproducibility/code availability, FAIR metrics tool, repository certification/trust, clinical-trial data-sharing benefit, metadata/ontology interoperability adoption, open-data economic value) + targeted PMC full-text retrieval; ~185 records screened",
+   "records_examined": 185,
+   "new_unique_relevant": 24,
+   "new_unique_rate": 0.13,
+   "cumulative_unique": 178,
+   "cumulative_screened_in": 178
   }
  ],
  "saturation_fired": false,
  "exit_reason": "frame_budget_reached",
- "note": "Frame4 opened FAIR-additional-domain seams (proteomics, photon/neutron, UAV, brain BIDS, Raman), EOSC/TRE infrastructure & maturity models, data-steward professionalisation, ORCID/PID coverage & metadata completeness, curation cost/database sustainability, and semantic interoperability/common data models. ~12% new-unique yield, well above 2% stop criterion. Cumulative 124 of 200 floor; continuation required."
+ "note": "Frame6 prioritized full text: of 24 new findings, 23 were body-sourced fulltext, lifting the cluster full-text rate from ~18% (28/154) to ~29% (51/178). New seams: data-transparency/data-availability follow-through (9%->3% pledged->delivered; 2% PGx publications accessible; 1% of trial-data requests for reproduction), reproducibility consensus/qualitative barriers (OSIRIS 31/44 items; 60-interview study), metadata/ontology interoperability at scale (Mondo 21 resources->25k concepts; CMEO 50+ CVD studies; LinkML; ClarID; NIAID Discovery Portal 4.3M datasets/42 repos; ISO/IEC 11179 NCD vault; I-ETL SNOMED mapping gaps), imaging data-sharing standards (57.3M radiology studies), open-PK reuse benefit (PKRxiv AUC ratio 0.94), and equity/governance (Maori data sovereignty 12 rights; CARE/collective-action frameworks challenging open-data-as-common-good). Added 1 conflict (ISO/IEC 11179 sufficiency for FAIR) and 1 figure_data (measured open-data availability rates). ~13% new-unique yield, far above 2% stop criterion. Cumulative 178 of 200 floor; continuation required."
 }

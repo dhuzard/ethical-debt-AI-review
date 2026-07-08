@@ -137,7 +137,25 @@
       "new_unique_rate": 0.14,
       "cumulative_unique": 111,
       "cumulative_screened_in": 111
+    },
+    {
+      "pass_type": "keyword",
+      "query_or_method": "continuation frame 6 (LIGHT, PubMed+PMC full-text): zebrafish/aquatic & invertebrate welfare 3Rs; reproducibility/heterogenization & multi-lab reduction; sample-size/power & blinding-randomisation reporting; retrospective severity score-sheets; cephalopod/decapod/echinoderm sentience & moral status; harm-benefit authorization vs evidence",
+      "records_examined": 150,
+      "new_unique_relevant": 26,
+      "new_unique_rate": 0.17,
+      "cumulative_unique": 164,
+      "cumulative_screened_in": 164
+    },
+    {
+      "pass_type": "expansion_7",
+      "query_or_method": "continuation frame 7 (LIGHT, Europe PMC OA + PubMed): culture-of-care intervention & staff wellbeing; 3R-implementation SR/meta-analysis; confirmatory multi-lab reduction; predictive accuracy of distress indicators (ROC/AUC); Benefit-Assessment-Matrix & US IACUC structural limits; moral status / speciesism philosophy; ethological housing bias & rat cage height; 3Rs history",
+      "records_examined": 150,
+      "new_unique_relevant": 28,
+      "new_unique_rate": 0.19,
+      "cumulative_unique": 192,
+      "cumulative_screened_in": 192
     }
   ],
-  "note": "Continuation frame 4 (LIGHT) added 28 new unique-DOI findings (total 111; 25 fulltext / 86 abstract_only); +2 conflicts (CO2 vs inhalant-anaesthetic refinement; HBA deliberation vs scoring) and +1 figure_data (CO2 vs alternative euthanasia agents). Saturation criterion (<2% new unique across two consecutive passes) NOT met and cumulative (111) below min_papers_per_cluster=200; continuation required. exit_reason=frame_budget_reached."
+  "note": "Continuation frame 7 (LIGHT) added 28 new unique-DOI findings (running total 192; 43 fulltext / 149 abstract_only); +3 conflicts (NAMs-as-full-replacement-now vs animal-models-essential; Benefit-Assessment-Matrix vs HBA-biases-against-basic-research; culture-of-care objective-indicators/benchmarking vs anti-tick-box). Targeted queries 'Bayesian/sequential adaptive design reduce animals', 'NHP reduction via tissue-sharing', and '3Rs award/prize impact' returned near-zero relevant OA hits (logged in passes_remaining / search_failures). Saturation criterion (<2% new unique across two consecutive passes) NOT met (0.19 this pass) but cumulative (192) still below min_papers_per_cluster=200; continuation required. exit_reason=frame_budget_reached."
 }

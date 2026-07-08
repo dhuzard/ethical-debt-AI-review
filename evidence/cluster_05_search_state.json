@@ -37,12 +37,29 @@
   "pubmed:VICT3R virtual control group nonclinical",
   "pubmed:false positive rate control group comparison toxicity study",
   "pubmed:digital twin simulation virtual control animal preclinical",
-  "continuation_frame_4: PubMed sweep + PMC fulltext extraction (23 new findings)"
+  "continuation_frame_4: PubMed sweep + PMC fulltext extraction (23 new findings)",
+  "pubmed:external control arm regulatory decision oncology approval",
+  "pubmed:synthetic control arm real world data comparator",
+  "pubmed:historical control carcinogenicity rodent bioassay tumor incidence",
+  "pubmed:SEND standardized exchange nonclinical data FDA submission",
+  "pubmed:historical control database toxicologic pathology background lesion incidence",
+  "pubmed:reduction animal numbers statistical power toxicology 3Rs / relative potency",
+  "pubmed:virtual control group historical data nonclinical safety feasibility",
+  "continuation_frame_5: PubMed external-control + carcinogenicity HCD sweep + PMC fulltext (23 new findings)",
+  "pubmed:Bayesian borrowing pediatric trial extrapolation",
+  "pubmed:propensity score matching external control single arm",
+  "pubmed:power prior type I error inflation borrowing historical control",
+  "pubmed:commensurate prior dynamic borrowing clinical trial design",
+  "pubmed:external control arm regulatory acceptance FDA rare disease approval",
+  "pubmed:digital control arm oncology single arm external comparator",
+  "pubmed:meta-analytic predictive prior implementation clinical trial control",
+  "continuation_frame_6: PubMed Bayesian-borrowing/pediatric-extrapolation/power-prior/external-control regulatory sweep + PMC fulltext (27 new findings)"
  ],
  "passes_remaining": [
   "openalex:backward references of VICT3R/eTRANSAFE review seeds (deferred)",
-  "europepmc-OA:3Rs data-sharing consortium reduction control animals (0 PubMed hits; retry Europe PMC)",
-  "openalex:forward-cite VICT3R/synthetic-control seeds round 3 (deferred)"
+  "europepmc-OA:3Rs data-sharing consortium reduction control animals (low yield)",
+  "pubmed:pediatric extrapolation PK/PD borrowing (pst.2031/pst.2043/s43441-020-00220-5 vein, partially tapped)",
+  "pubmed:real-world external control arm oncology application case studies (large application literature, sample-only)"
  ],
  "snowball_seeds_used": [
   "10.14573/altex.2001311",
@@ -53,7 +70,7 @@
  ],
  "seen_dois_artifact_id": "cluster_05_seen_dois.txt",
  "saturation_log_artifact_id": "cluster_05_saturation_log.json",
- "papers_so_far": 123,
+ "papers_so_far": 173,
  "evidence_artifact_id": "cluster_05_evidence.json",
  "exit_reason": "frame_budget_reached"
 }

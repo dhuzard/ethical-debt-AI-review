@@ -34,13 +34,27 @@
   "epmc:GigaScience data paper reuse + data citation (citation roadmap, open-data citation advantage economics, Colavizza 122k analysis)",
   "epmc:Genomic Data Commons controlled access (broad genomic sharing definitions, NCI GDC harmonization, HTAN, GA4GH lexicon, genomic data mgmt scoping review)",
   "pubmed:clinical trial data-sharing platform YODA/Vivli concordance",
-  "pubmed:data availability upon request / citation advantage (RefSeq curation, rare-disease EHR FAIRification DQ)"
+  "pubmed:data availability upon request / citation advantage (RefSeq curation, rare-disease EHR FAIRification DQ)",
+  "epmc:metabolomics MetaboLights/Metabolomics Workbench repository reuse (KMAP, pan-repository reanalysis, CloMet, HHEAR exposome)",
+  "epmc:image data repository IDR/BioImage Archive/SSBD/OMERO bioimaging sharing+reuse; global imaging standards",
+  "epmc:EHR secondary-use data quality/completeness (practical completeness assessment, OMOP lung-cancer mapping, FHIR biomarker fidelity, LOINC unit harmonization)",
+  "epmc:ontology mapping/interoperability (terminology granularity metrics, Mondo, OAE, BioAssay Ontology/ELN Pistoia)",
+  "epmc:reproducible workflow/provenance + ELN (IntegriLAB blockchain ELN, QuNex recipes)",
+  "epmc:biobank governance + willingness-to-share (Japan biobanks, genomics-company assetization, Australia genomic governance, Korea NPBBD survey, iAgree simulation, genomic-literacy review)",
+  "pubmed:REDCap/EDC EAV + common data element/metadata harmonization (CohortExplorer, LM metadata harmonization)",
+  "epmc-OA:research data sharing policy compliance (NIH DMSP structured-template compliance, rehab-journal DSS audit, SSA researcher survey, Australian data-custodian interviews)",
+  "epmc-OA:metadata standard adoption genomics (agricultural rsID/EVA adoption, ClarID human-readable identifier, openEHR pharmacogenetics model, zebrafish data-standard gaps)",
+  "epmc-OA:data reuse secondary analysis (global-health reuse interviews, NIAID Discovery Portal, EHR phenotype-library review, federated European genomic infrastructures)",
+  "epmc-OA:FAIR biomedical repository assessment (DZD diabetes FAIRification workflow comparison, MIFE/MIFD fermentation minimum-information model, INFRAFRONTIER/EMMA quality principles, imaging-biomarker catalog)",
+  "epmc-OA:open data barriers survey (60-researcher reproducibility interviews, AFI cohort sharing survey)",
+  "epmc-OA:ontology quality evaluation biomedical (LLM Gene Ontology annotation vs Bi-GRU)",
+  "epmc-OA:clinical data model interoperability OHDSI (tabular-health CDM systematic review, OMOP ECLS extension, cancer->OMOP harmonization scoping review, EHDS data-quality labelling)"
  ],
  "passes_remaining": [
   "snowball_round_2 (backward referenced_works on ISA/MIBBI/GO seeds) - deferred",
   "pubmed:sequence read archive (SRA) submission quality longitudinal (thin)",
-  "pubmed:metabolomics MetaboLights / Metabolomics Workbench repository reuse",
-  "pubmed:imaging repository IDR reuse quantified"
+  "pubmed:data provenance materials/chemistry workflow repositories (partly out-of-scope)",
+  "pubmed:PDX/organoid model repository metadata (unexplored)"
  ],
  "snowball_seeds_used": [
   "10.1038/nrd3503 (W2045717408, forward)",
@@ -49,10 +63,12 @@
  ],
  "seen_dois_artifact_id": "cluster_04_seen_dois.txt",
  "saturation_log_artifact_id": "cluster_04_saturation_log.json",
- "papers_so_far": 126,
+ "papers_so_far": 176,
  "evidence_artifact_id": "cluster_04_evidence.json",
  "exit_reason": "frame_budget_reached",
  "continuation_required": true,
  "frame3_new_added": 23,
- "frame4_new_added": 27
+ "frame4_new_added": 27,
+ "frame5_new_added": 26,
+ "frame6_new_added": 24
 }

@@ -49,20 +49,30 @@
   "epmc:research-integrity meta-science fabrication/meta-bias/publish-or-perish (frame6 b1)",
   "epmc:clinical-trial registration + results-reporting compliance EUCTR/FDAAA/ICTRP (frame6 b2)",
   "epmc:trial registry-publication discrepancies + institutional transparency dashboards (frame6 b2)",
-  "epmc:PROSPERO/registered-reports/spin/industry-sponsorship bias (frame6 b2)"
+  "epmc:PROSPERO/registered-reports/spin/industry-sponsorship bias (frame6 b2)",
+  "epmc:GLP good-laboratory-practice preclinical QA + Horizon-Europe/UKRI OA mandate compliance (frame7 b1; noisy, screened)",
+  "epmc:reporting quality animal LMIC + CAMARADES animal SR methodological quality (frame7 b1)",
+  "epmc:preclinical data-sharing repository/infrastructure neuroscience FAIR + avoidable-waste meta-research (frame7 b1)",
+  "epmc:OA funder-mandate compliance + registered-reports + reproducibility-crisis QRP survey + Directive 2010/63 severity/retrospective (frame7 b2)",
+  "epmc:common-data-elements harmonization multicenter preclinical TBI/SCI (frame7 b2)",
+  "pubmed:EQUATOR reporting-guideline development/extension completeness (frame8)",
+  "pubmed:reproducibility badges + research-waste value + selective-outcome-reporting-bias preclinical (frame8)",
+  "pubmed:spin misleading-reporting abstracts RCTs across specialties (frame8)",
+  "pubmed:TRIPOD prediction-model reporting adherence/completeness metaresearch (frame8)",
+  "pubmed:peer-reviewer intervention reporting-guideline compliance (frame8)"
  ],
  "passes_remaining": [
-  "openalex:preclinical data-reuse downstream metrics (still thin)",
-  "epmc_OA:Horizon-Europe/UKRI funder open-access mandate compliance longitudinal (still thin)",
-  "epmc:GLP good-laboratory-practice preclinical QA (query returned clinical-guideline noise; refine)",
-  "snowball_round_2 (OpenAlex forward-cites on trial-transparency/reporting-governance seeds)"
+  "epmc:GLP/QA preclinical (still high clinical-guideline noise; largely exhausted)",
+  "snowball_round_2 (OpenAlex forward-cites on data-infrastructure/CDE seeds; deferred, thin remaining yield)",
+  "pubmed:additional CONSORT/SPIRIT/PRISMA extension development papers (many co-publication duplicate DOIs remain; low marginal value)",
+  "pubmed:spin in further specialties (dentistry, wound care, myeloma duplicates available; diminishing uniqueness)"
  ],
  "snowball_seeds_used": [
   "10.1186/s41073-019-0069-3"
  ],
  "seen_dois_artifact_id": "cluster_08_seen_dois.txt",
  "saturation_log_artifact_id": "cluster_08_saturation_log.json",
- "papers_so_far": 140,
+ "papers_so_far": 199,
  "evidence_artifact_id": "cluster_08_evidence.json",
  "exit_reason": "frame_budget_reached"
 }

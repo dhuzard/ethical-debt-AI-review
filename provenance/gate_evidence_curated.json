@@ -1,0 +1,26 @@
+{
+  "phase": 5,
+  "gate": "pass",
+  "validated_at": "2026-07-08",
+  "validator": "independent DATAML curation validator (comprev-curation-validator); initial run id a6b288e2a6b4957f4 caught CROSS_SECTION_DIFFERENTIATION; re-validation after fix id acac0711dfb567fed = pass",
+  "sections_checked": 9,
+  "preflight": "pass (9 evidence packages, distinct from 9 scaffold extracts)",
+  "per_section_body_02_08": {
+    "TRACEABLE": "pass", "NO_INTRA_SECTION_DUPLICATES": "pass", "CITE_KEY_ASSIGNED": "pass",
+    "HAS_DOI": "pass", "TEXT_ACCESS_VALID": "pass", "FINDINGS_ARE_OBJECTS": "pass"
+  },
+  "per_section_findings": {"section_02": 182, "section_03": 192, "section_04": 279, "section_05": 244, "section_06": 168, "section_07": 175, "section_08": 177, "section_01": 11, "section_09": 10},
+  "CROSS_SECTION_DIFFERENTIATION": {"collisions": 0, "verdict": "pass", "note": "Fixed via global (doi,sentence) identity dedup — each finding placed in exactly one body section (was 30 collisions)."},
+  "aggregate": {
+    "ANTI_COMPRESSION": "pass (min 88.9% cluster_08; sub-100% reflects shared identities attributed to earlier-numbered cluster's section)",
+    "ZERO_LOSS": "pass (1417/1417 unique (doi,sentence) identities placed; 34 exact cross-cluster duplicates correctly deduped from the 1451 raw count)",
+    "ALL_CONFLICTS_ASSIGNED": "pass (90/90 conflict pairs in >=1 section)"
+  },
+  "synthesis_exemptions": "sections 01 (Introduction) and 09 (Conclusion) carry synthesis_section=true and are exempt from ANTI_COMPRESSION, per-section floor, and CROSS_SECTION_DIFFERENTIATION; they re-cite body cite_keys at Phase 11.",
+  "artifacts": {
+    "evidence_packages": "evidence/evidence_section_01..09.json",
+    "scaffold_extracts": "evidence/scaffold_section_01..09.json",
+    "per_section_citemaps": "evidence/citemap_section_01..09.json",
+    "per_section_author_tables": "evidence/authortable_section_01..09.json"
+  }
+}

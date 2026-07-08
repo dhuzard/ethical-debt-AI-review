@@ -1,0 +1,228 @@
+{
+ "section_id": "section_03",
+ "section_plan": {
+  "id": "section_03",
+  "title": "From Animal Welfare to Data Welfare: Reframing the 3Rs",
+  "canonical_label": "sec-data-welfare",
+  "clusters": [
+   "cluster_02",
+   "cluster_08"
+  ],
+  "thesis": "The 3Rs (Replacement, Reduction, Refinement) are the ethical and legal architecture of animal research, yet they are systematically under-implemented and are increasingly argued to be insufficient without a scientific-value/reporting dimension. This section introduces 'data welfare': the claim that complete reporting, FAIR stewardship and reuse of animal-derived data extend Reduction and Refinement, so wasting data is a welfare failure the 3Rs should already forbid.",
+  "key_evidence": [
+   "Pound2018",
+   "Cait2022",
+   "Bara2014",
+   "Strech2019",
+   "Brink2023",
+   "Graham2015",
+   "Landes2023",
+   "Morahan2024",
+   "Ding2022",
+   "PercieduSert2020a",
+   "Bergen2023"
+  ],
+  "conflicts_to_present": [
+   {
+    "a_key": "Strech2019",
+    "b_key": "Vitale2022",
+    "nature": "Whether the classic 3Rs are inadequate and must be expanded with scientific-value/reporting principles (the 6R/12R view) or remain conceptually sufficient and merely under-applied - the pivotal debate for positioning data welfare as a needed extension."
+   },
+   {
+    "a_key": "Richter2011",
+    "b_key": "Voelkl2018",
+    "nature": "Whether within-study heterogenization is too weak to overcome between-laboratory variation (empirical six-lab test) or whether multi-laboratory designs substantially improve reproducibility without larger samples (simulation) - a Reduction-versus-reproducibility tension carried over from sec-repro-crisis."
+   },
+   {
+    "a_key": "Robinson2019",
+    "b_key": "Hawkins2019",
+    "nature": "How to assess a culture of care: caution against objective auditing that becomes a tick-box exercise versus advocacy for objective, animal-centric indicators - mirrors the reporting-guideline compliance debate revisited in sec-governance."
+   }
+  ],
+  "connection_prev": "Takes the crisis documented in sec-repro-crisis and reinterprets it ethically: the same publication bias, missing analgesia reporting, and non-reuse that degrade science also constitute unmet 3Rs obligations, so the quality problem is recast as a welfare problem.",
+  "connection_next": "Data welfare is only actionable if data can actually be made reusable; sec-fair-preclinical tests whether the FAIR principles - the leading operationalisation of data welfare - deliver reuse in practice.",
+  "cross_references": [
+   "sec-repro-crisis",
+   "sec-fair-preclinical",
+   "sec-virtual-controls",
+   "sec-governance"
+  ],
+  "word_count_target": 4000,
+  "figures": [
+   "fig:sec03-welfare-to-data-welfare",
+   "fig:sec03-reduction-magnitude",
+   "fig:sec03-3rs-underreporting"
+  ]
+ },
+ "previous_section": "Takes the crisis documented in sec-repro-crisis and reinterprets it ethically: the same publication bias, missing analgesia reporting, and non-reuse that degrade science also constitute unmet 3Rs obligations, so the quality problem is recast as a welfare problem.",
+ "next_section": "Data welfare is only actionable if data can actually be made reusable; sec-fair-preclinical tests whether the FAIR principles - the leading operationalisation of data welfare - deliver reuse in practice.",
+ "figure_specs": [
+  {
+   "label": "fig:sec03-welfare-to-data-welfare",
+   "type": "conceptual schematic",
+   "section": "section_03",
+   "argument_supported": "Makes the central conceptual move of the review: that data stewardship extends each of the 3Rs, so data welfare is a welfare concept rather than a data-management afterthought.",
+   "data_source": "conceptual",
+   "what_it_reveals": "Overlaying the data lifecycle on the 3Rs shows precisely which stewardship acts extend which R (reporting/reuse -> Reduction; FAIR/registration -> Refinement of the record; reuse and NAM outputs -> Replacement), turning an argued bridge into a legible map.",
+   "caption_draft": "Figure 6. From the 3Rs to data welfare. The classical 3Rs (Replacement, Reduction, Refinement) are overlaid on the data lifecycle: complete reporting and reuse extend Reduction (fewer new animals per unit of knowledge), FAIR stewardship and registration extend Refinement of the scientific record, and reuse of existing data and NAM outputs extend Replacement. 'Data welfare' names the claim that letting animal-derived data become unusable is itself a welfare harm. Proposed 6R and 12R expansions (Strech2019; Brink2023) are indicated at the points they add."
+  },
+  {
+   "label": "fig:sec03-reduction-magnitude",
+   "type": "cross-study comparison",
+   "section": "section_03",
+   "argument_supported": "Quantifies how much animal use can be reduced through better design and data reuse, grounding the 'reuse as Reduction' reframe in concrete magnitudes.",
+   "data_source": "reduction-magnitude-design-methods",
+   "what_it_reveals": "Placing three independent methods (power-based sizing, model refinement, historical controls) side by side shows they each deliver Reduction of the same order (half to ~90%), making the reframe quantitatively credible rather than aspirational.",
+   "caption_draft": "Figure 7. Achievable Reduction in animal numbers by method. Formal power/sample-size calculation cut required numbers to less than half of typical usage (Landes2023), a refined pulmonary-embolism model reduced mice per experiment by ~90% (Graham2015), and historical controls cut current control animals by more than half (Kramer2015). Reuse and design improvements deliver Reduction of the same order as the debt they help repay. Bars use repayment colouring with direct value labels."
+  },
+  {
+   "label": "fig:sec03-3rs-underreporting",
+   "type": "cross-study comparison",
+   "section": "section_03",
+   "argument_supported": "Shows the 3Rs are widely under-implemented in practice, so the welfare framework already on the books is not being met - the gap data welfare must address.",
+   "data_source": "sample-size-power-welfare-reporting",
+   "what_it_reveals": "Juxtaposing a Reduction indicator (sample-size calculation) with a Refinement indicator (analgesia reporting) across audits reveals that both pillars fail simultaneously, not in isolation.",
+   "caption_draft": "Figure 8. Under-reporting of Reduction and Refinement in animal studies. Sample-size/power calculation was reported in only 5% of critical-care studies (Bara2014) and 0 of 28 radiation-countermeasure experiments (Landes2023), while 97% of studies did not report analgesia use (Pound2018). Formal application of the 3Rs is the exception, not the rule. Reduction and Refinement indicators are distinguished by hatch pattern as well as colour."
+  }
+ ],
+ "figure_style_guide": {
+  "color_palette": {
+   "declared_nominal": {
+    "hex": "#56B4E9",
+    "meaning": "Declared / stated / nominal values (data-availability statements, DMP compliance, pledged sharing)"
+   },
+   "actual_verified": {
+    "hex": "#0072B2",
+    "meaning": "Actual / verified / usable values (data truly available, FAIR-compliant)"
+   },
+   "debt_loss_negative": {
+    "hex": "#D55E00",
+    "meaning": "Data waste, bias inflation, loss, non-reproducibility - the debt"
+   },
+   "repayment_gain_positive": {
+    "hex": "#009E73",
+    "meaning": "Reduction achieved, reuse, gain, repayment mechanisms"
+   },
+   "highlight_conflict": {
+    "hex": "#E69F00",
+    "meaning": "Conflicting/divergent estimates or the highlighted disputed value in a cross-study conflict"
+   },
+   "secondary_category": {
+    "hex": "#CC79A7",
+    "meaning": "Secondary category (e.g., non-animal/NAM series, or a third comparator group)"
+   },
+   "emphasis": {
+    "hex": "#F0E442",
+    "meaning": "Callout/emphasis fill for a single focal bar or annotation band (use sparingly, always with a text label)"
+   },
+   "neutral_baseline": {
+    "hex": "#999999",
+    "meaning": "Baseline, reference line, or context/other studies not in focus"
+   },
+   "ink": {
+    "hex": "#222222",
+    "meaning": "Text, axes, and primary rules"
+   }
+  },
+  "category_colors": {
+   "declared_vs_actual": {
+    "declared": "#56B4E9",
+    "actual": "#0072B2",
+    "fair_compliant": "#004C6D"
+   },
+   "debt_vs_repayment": {
+    "debt": "#D55E00",
+    "repayment": "#009E73"
+   },
+   "before_vs_after": {
+    "before": "#999999",
+    "after": "#0072B2"
+   },
+   "animal_vs_nonanimal": {
+    "animal_data": "#0072B2",
+    "nam_nonanimal": "#CC79A7"
+   },
+   "convergent_vs_conflict": {
+    "convergent_series": "#0072B2",
+    "conflict_low": "#56B4E9",
+    "conflict_high": "#E69F00"
+   }
+  },
+  "font": {
+   "family": "Source Sans Pro (fallback: Arial, Helvetica, sans-serif)",
+   "title_pt": 12,
+   "axis_label_pt": 10,
+   "tick_pt": 9,
+   "annotation_pt": 8.5,
+   "caption_pt": 9
+  },
+  "line_weights": {
+   "axis_pt": 1.0,
+   "data_line_pt": 2.0,
+   "error_bar_pt": 1.0,
+   "reference_line_pt": 0.75,
+   "reference_line_style": "dashed",
+   "bar_edge_pt": 0.5
+  },
+  "dpi": 300,
+  "background": "white",
+  "redundant_cues": true,
+  "redundant_cues_note": "Never encode meaning by hue alone. Pair every colour with a second channel: hatch/pattern fills for declared vs actual (open hatch vs solid), distinct markers (circle/triangle/square) on forest and line plots, direct value labels on every bar, and short text annotations naming the focal contrast. Palette is the Okabe-Ito colourblind-safe set; verify with a deuteranopia/protanopia simulation before export."
+ },
+ "cross_cutting_elements": {
+  "recurring_themes": [
+   "The declared-versus-actual gap: across FAIR audits, incentive studies and governance evaluations, stated intent (data-availability statements, DMP compliance, sharing pledges) vastly exceeds usable reality; recurs in sec-fair-preclinical, sec-incentives and sec-governance.",
+   "Convergence on ~2% actual data availability as the empirical anchor of the whole review, replicated across specialties and methods.",
+   "Reuse as Reduction: reusing existing data (historical/virtual controls, shared datasets, NAM outputs) is framed throughout as a direct 3Rs Reduction dividend, not merely good data hygiene.",
+   "False-consensus risk: several field-defining figures (11%/25% industry irreproducibility, US$28B/year, '85% of research wasted') rest on non-transparent or modeled sources and are flagged wherever cited.",
+   "Enforcement beats endorsement: passive publication of guidelines rarely changes behaviour; mandated, checked requirements do - a thread from sec-data-welfare through sec-incentives to sec-governance.",
+   "The animal-welfare stake: every data-stewardship failure is repeatedly tied back to its cost in animal lives, keeping the ethical argument foregrounded over the purely technical one.",
+   "Method-dependence of headline numbers: the same phenomenon (publication rate, concordance, QRP prevalence, sharing trend) yields very different values by method, so juxtaposition rather than single figures is the analytical style."
+  ],
+  "terminology": {
+   "ethical_debt": "The obligation incurred when animals are used to generate knowledge but the resulting data are allowed to become unfindable, unusable, or unreused; unpaid, it is discharged in further animal lives. Coined and used as the review's organising metaphor.",
+   "data_welfare": "The claim that stewardship of animal-derived data (findability, reusability, complete reporting) is a dimension of animal welfare and of the 3Rs, because wasting the data wastes the welfare cost that produced it.",
+   "FAIR": "Findable, Accessible, Interoperable, Reusable - the Wilkinson et al. (2016) principles for machine-actionable data stewardship. Distinguish FAIR (a stewardship standard) from 'open' (an access status); data can be FAIR without being fully open.",
+   "three_Rs": "Replacement, Reduction, Refinement (Russell & Burch) - the ethical/legal framework for humane animal research. The review argues data welfare extends all three, chiefly Reduction and Refinement.",
+   "VCG": "Virtual Control Group - a control arm reconstructed from curated historical control-animal data to partially or wholly replace concurrent controls, reducing control-animal use. Related term HCD = historical control data.",
+   "NAM": "New Approach Methodology - non-animal methods (in silico/QSAR models, organoids, organ-on-chip/microphysiological systems, high-throughput screening) used to predict toxicity or biology; serve Replacement but generate data needing stewardship.",
+   "reproducibility_vs_replicability": "Reproducibility = obtaining consistent results using the same data and analysis; replicability = obtaining consistent results in a new study with new data. The review uses 'reproducibility crisis' broadly but distinguishes the two where the evidence does (e.g., direct-replication projects test replicability; re-analysis disputes test reproducibility).",
+   "HBA": "Harm-Benefit Analysis - the project-level weighing of animal harm against expected benefit that anchors animal-research regulation; its objectivity and predictive validity are contested.",
+   "QRP": "Questionable Research Practice - selective reporting, p-hacking, undisclosed flexibility short of outright fabrication; a behavioural driver of the crisis.",
+   "ARRIVE": "Animal Research: Reporting of In Vivo Experiments - the reporting guideline whose adherence and enforcement are evaluated in sec-governance."
+  },
+  "abbreviations": {
+   "FAIR": "Findable, Accessible, Interoperable, Reusable",
+   "3Rs": "Replacement, Reduction, Refinement",
+   "VCG": "Virtual Control Group",
+   "HCD": "Historical Control Data",
+   "NAM": "New Approach Methodology",
+   "MPS": "Microphysiological System (organ-on-chip)",
+   "QSAR": "Quantitative Structure-Activity Relationship",
+   "AOP": "Adverse Outcome Pathway",
+   "HTS": "High-Throughput Screening",
+   "DILI": "Drug-Induced Liver Injury",
+   "HBA": "Harm-Benefit Analysis",
+   "IACUC": "Institutional Animal Care and Use Committee",
+   "AWERB": "Animal Welfare and Ethical Review Body",
+   "ARRIVE": "Animal Research: Reporting of In Vivo Experiments",
+   "QRP": "Questionable Research Practice",
+   "RPT": "Review, Promotion and Tenure",
+   "JIF": "Journal Impact Factor",
+   "DMP": "Data Management Plan",
+   "DMSP": "Data Management and Sharing Plan",
+   "DAS": "Data Availability Statement",
+   "RWD": "Real-World Data",
+   "ECA": "External Control Arm",
+   "NOAEL": "No-Observed-Adverse-Effect Level",
+   "SEND": "Standard for Exchange of Nonclinical Data",
+   "OMOP": "Observational Medical Outcomes Partnership (Common Data Model)",
+   "GWAS": "Genome-Wide Association Study",
+   "OA": "Open Access",
+   "TOP": "Transparency and Openness Promotion (guidelines)",
+   "PID": "Persistent Identifier",
+   "GEO": "Gene Expression Omnibus"
+  },
+  "voice_tone": "Critical, evidence-anchored, and quantitative, but ethically serious rather than polemical. Foreground effect sizes and their provenance; state uncertainty and flag false-consensus risks explicitly rather than smoothing them over. Prefer juxtaposition of divergent estimates to single headline numbers. Keep the animal-welfare stake visible without moralising. Third person, present tense for findings; hedged claims ('the evidence suggests', 'audits converge on') proportional to evidence strength."
+ }
+}

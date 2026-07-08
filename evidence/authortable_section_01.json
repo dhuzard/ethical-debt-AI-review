@@ -1,0 +1,969 @@
+{
+ "Freedman2015": {
+  "doi": "10.1371/journal.pbio.1002165",
+  "family": "Freedman",
+  "given": "Leonard P.",
+  "all_families": [
+   "Freedman",
+   "Cockburn",
+   "Simcoe"
+  ],
+  "year": 2015,
+  "title": "The Economics of Reproducibility in Preclinical Research",
+  "container": "PLOS Biology",
+  "citet_display": "Freedman et al.",
+  "crossref_ok": true
+ },
+ "NasreNasser2022": {
+  "doi": "10.1007/s12035-022-02970-9",
+  "family": "Nasre-Nasser",
+  "given": "Raif Gregorio",
+  "all_families": [
+   "Nasre-Nasser",
+   "Severo",
+   "Pires",
+   "Hort",
+   "Arbo"
+  ],
+  "year": 2022,
+  "title": "Effects of Progesterone on Preclinical Animal Models of Traumatic Brain Injury: Systematic Review and Meta-analysis",
+  "container": "Molecular Neurobiology",
+  "citet_display": "Nasre-Nasser et al.",
+  "crossref_ok": true
+ },
+ "Voelkl2021": {
+  "doi": "10.1007/s12064-021-00340-y",
+  "family": "Voelkl",
+  "given": "Bernhard",
+  "all_families": [
+   "Voelkl",
+   "Würbel"
+  ],
+  "year": 2021,
+  "title": "A reaction norm perspective on reproducibility",
+  "container": "Theory in Biosciences",
+  "citet_display": "Voelkl and Würbel",
+  "crossref_ok": true
+ },
+ "Azilagbetor2025b": {
+  "doi": "10.1186/s12910-025-01297-z",
+  "family": "Azilagbetor",
+  "given": "David Mawufemor",
+  "all_families": [
+   "Azilagbetor",
+   "Shaw",
+   "Gaab",
+   "Morales",
+   "Elger",
+   "Geneviève"
+  ],
+  "year": 2025,
+  "title": "A scoping review of ethical decisions and decision tools for experimental animal protocols",
+  "container": "BMC Medical Ethics",
+  "citet_display": "Azilagbetor et al.",
+  "crossref_ok": true
+ },
+ "Deutsch2021": {
+  "doi": "10.1371/journal.pone.0250362",
+  "family": "Deutsch",
+  "given": "Susanne",
+  "all_families": [
+   "Deutsch",
+   "Heider",
+   "Glage",
+   "Bleich",
+   "Tolba",
+   "Strech",
+   "Wieschowski"
+  ],
+  "year": 2021,
+  "title": "Web-based survey among animal researchers on publication practices and incentives for increasing publication rates",
+  "container": "PLOS ONE",
+  "citet_display": "Deutsch et al.",
+  "crossref_ok": true
+ },
+ "Seok2013": {
+  "doi": "10.1073/pnas.1222878110",
+  "family": "Seok",
+  "given": "Junhee",
+  "all_families": [
+   "Seok",
+   "Warren",
+   "Cuenca",
+   "Mindrinos",
+   "Baker",
+   "Xu",
+   "Richards",
+   "McDonald-Smith",
+   "Gao",
+   "Hennessy",
+   "Finnerty",
+   "López",
+   "Honari",
+   "Moore",
+   "Minei",
+   "Cuschieri",
+   "Bankey",
+   "Johnson",
+   "Sperry",
+   "Nathens",
+   "Billiar",
+   "West",
+   "Jeschke",
+   "Klein",
+   "Gamelli",
+   "Gibran",
+   "Brownstein",
+   "Miller-Graziano",
+   "Calvano",
+   "Mason",
+   "Cobb",
+   "Rahme",
+   "Lowry",
+   "Maier",
+   "Moldawer",
+   "Herndon",
+   "Davis",
+   "Xiao",
+   "Tompkins",
+   "Abouhamze",
+   "Balis",
+   "Camp",
+   "De",
+   "Harbrecht",
+   "Hayden",
+   "Kaushal",
+   "O’Keefe",
+   "Kotz",
+   "Qian",
+   "Schoenfeld",
+   "Shapiro",
+   "Silver",
+   "Smith",
+   "Storey",
+   "Tibshirani",
+   "Toner",
+   "Wilhelmy",
+   "Wispelwey",
+   "Wong"
+  ],
+  "year": 2013,
+  "title": "Genomic responses in mouse models poorly mimic human inflammatory diseases",
+  "container": "Proceedings of the National Academy of Sciences",
+  "citet_display": "Seok et al.",
+  "crossref_ok": true
+ },
+ "Smith2018": {
+  "doi": "10.1177/0023677217744587",
+  "family": "Smith",
+  "given": "David",
+  "all_families": [
+   "Smith",
+   "Anderson",
+   "Degryse",
+   "Bol",
+   "Criado",
+   "Ferrara",
+   "Franco",
+   "Gyertyan",
+   "Orellana",
+   "Ostergaard",
+   "Varga",
+   "Voipio"
+  ],
+  "year": 2018,
+  "title": "Classification and reporting of severity experienced by animals used in scientific procedures: FELASA/ECLAM/ESLAV Working Group report",
+  "container": "Laboratory Animals",
+  "citet_display": "Smith et al.",
+  "crossref_ok": true
+ },
+ "CrespiAbril2023": {
+  "doi": "10.3390/ani13213377",
+  "family": "Crespi-Abril",
+  "given": "Augusto César",
+  "all_families": [
+   "Crespi-Abril",
+   "Rubilar"
+  ],
+  "year": 2023,
+  "title": "Ethical Considerations for Echinoderms: New Initiatives in Welfare",
+  "container": "Animals",
+  "citet_display": "Crespi-Abril and Rubilar",
+  "crossref_ok": true
+ },
+ "Pound2018": {
+  "doi": "10.1371/journal.pone.0193758",
+  "family": "Pound",
+  "given": "Pandora",
+  "all_families": [
+   "Pound",
+   "Nicol"
+  ],
+  "year": 2018,
+  "title": "Retrospective harm benefit analysis of pre-clinical animal research for six treatment interventions",
+  "container": "PLOS ONE",
+  "citet_display": "Pound and Nicol",
+  "crossref_ok": true
+ },
+ "Robinson2019": {
+  "doi": "10.1177/0023677219887998",
+  "family": "Robinson",
+  "given": "Sally",
+  "all_families": [
+   "Robinson",
+   "Sparrow",
+   "Williams",
+   "Decelle",
+   "Bertelsen",
+   "Reid",
+   "Chlebus"
+  ],
+  "year": 2019,
+  "title": "The European Federation of the Pharmaceutical Industry and Associations’ Research and Animal Welfare Group: Assessing and benchmarking ‘Culture of Care’ in the context of using animals for scientific purpose",
+  "container": "Laboratory Animals",
+  "citet_display": "Robinson et al.",
+  "crossref_ok": true
+ },
+ "terRiet2012": {
+  "doi": "10.1371/journal.pone.0043404",
+  "family": "ter Riet",
+  "given": "Gerben",
+  "all_families": [
+   "ter Riet",
+   "Korevaar",
+   "Leenaars",
+   "Sterk",
+   "Van Noorden",
+   "Bouter",
+   "Lutter",
+   "Elferink",
+   "Hooft"
+  ],
+  "year": 2012,
+  "title": "Publication Bias in Laboratory Animal Research: A Survey on Magnitude, Drivers, Consequences and Potential Solutions",
+  "container": "PLoS ONE",
+  "citet_display": "ter Riet et al.",
+  "crossref_ok": true
+ },
+ "Strech2019": {
+  "doi": "10.1136/bmjos-2018-000048",
+  "family": "Strech",
+  "given": "Daniel",
+  "all_families": [
+   "Strech",
+   "Dirnagl"
+  ],
+  "year": 2019,
+  "title": "3Rs missing: animal research without scientific value is unethical3Rs\n\t\t\t\t\t\tmissing: animal research without scientific value is unethical",
+  "container": "BMJ Open Science",
+  "citet_display": "Strech and Dirnagl",
+  "crossref_ok": true
+ },
+ "Errington2021a": {
+  "doi": "10.7554/eLife.67995",
+  "family": "Errington",
+  "given": "Timothy M",
+  "all_families": [
+   "Errington",
+   "Denis",
+   "Perfito",
+   "Iorns",
+   "Nosek"
+  ],
+  "year": 2021,
+  "title": "Challenges for assessing replicability in preclinical cancer biology",
+  "container": "eLife",
+  "citet_display": "Errington et al.",
+  "crossref_ok": true
+ },
+ "Li2012": {
+  "doi": "10.1038/ijo.2012.82",
+  "family": "Li",
+  "given": "A",
+  "all_families": [
+   "Li",
+   "Meyre"
+  ],
+  "year": 2012,
+  "title": "Challenges in reproducibility of genetic association studies: lessons learned from the obesity field",
+  "container": "International Journal of Obesity",
+  "citet_display": "Li and Meyre",
+  "crossref_ok": true
+ },
+ "Bovenkerk2014": {
+  "doi": "10.1007/7854_2014_329",
+  "family": "Bovenkerk",
+  "given": "Bernice",
+  "all_families": [
+   "Bovenkerk",
+   "Kaldewaij"
+  ],
+  "year": 2014,
+  "title": "The Use of Animal Models in Behavioural Neuroscience Research",
+  "container": "Current Topics in Behavioral Neurosciences",
+  "citet_display": "Bovenkerk and Kaldewaij",
+  "crossref_ok": true
+ },
+ "Hawkins2019": {
+  "doi": "10.3390/ani9110969",
+  "family": "Hawkins",
+  "given": "Penny",
+  "all_families": [
+   "Hawkins",
+   "Bertelsen"
+  ],
+  "year": 2019,
+  "title": "3Rs-Related and Objective Indicators to Help Assess the Culture of Care",
+  "container": "Animals",
+  "citet_display": "Hawkins and Bertelsen",
+  "crossref_ok": true
+ },
+ "Federico2014": {
+  "doi": "10.1111/bph.12771",
+  "family": "Federico",
+  "given": "C A",
+  "all_families": [
+   "Federico",
+   "Carlisle",
+   "Kimmelman",
+   "Fergusson"
+  ],
+  "year": 2014,
+  "title": "Late, never or non‐existent: the inaccessibility of preclinical evidence for new drugs",
+  "container": "British Journal of Pharmacology",
+  "citet_display": "Federico et al.",
+  "crossref_ok": true
+ },
+ "Samsa2019": {
+  "doi": "10.1097/ACM.0000000000002351",
+  "family": "Samsa",
+  "given": "Greg",
+  "all_families": [
+   "Samsa",
+   "Samsa"
+  ],
+  "year": 2019,
+  "title": "A Guide to Reproducibility in Preclinical Research",
+  "container": "Academic Medicine",
+  "citet_display": "Samsa and Samsa",
+  "crossref_ok": true
+ },
+ "Fu2022": {
+  "doi": "10.3389/fphar.2022.1009169",
+  "family": "Fu",
+  "given": "Wenqiao",
+  "all_families": [
+   "Fu",
+   "Tang",
+   "Che",
+   "Tan",
+   "Ma",
+   "He"
+  ],
+  "year": 2022,
+  "title": "Neuropharmacological efficacy of metformin for stroke in rodents: A meta-analysis of preclinical trials",
+  "container": "Frontiers in Pharmacology",
+  "citet_display": "Fu et al.",
+  "crossref_ok": true
+ },
+ "Moller2018": {
+  "doi": "10.1111/epi.14028",
+  "family": "Möller",
+  "given": "Christina",
+  "all_families": [
+   "Möller",
+   "Wolf",
+   "van Dijk",
+   "Di Liberto",
+   "Russmann",
+   "Keck",
+   "Palme",
+   "Hellweg",
+   "Gass",
+   "Otzdorff",
+   "Potschka"
+  ],
+  "year": 2018,
+  "title": "Toward evidence‐based severity assessment in rat models with repeated seizures: I. Electrical kindling",
+  "container": "Epilepsia",
+  "citet_display": "Möller et al.",
+  "crossref_ok": true
+ },
+ "OpenScienceCollaboration2015": {
+  "doi": "10.1126/science.aac4716",
+  "family": "Open Science Collaboration",
+  "given": null,
+  "all_families": [
+   "Open Science Collaboration"
+  ],
+  "year": 2015,
+  "title": "Estimating the reproducibility of psychological science",
+  "container": "Science",
+  "citet_display": "Open Science Collaboration",
+  "crossref_ok": true
+ },
+ "DominguezOliva2023": {
+  "doi": "10.3390/ani13203161",
+  "family": "Domínguez-Oliva",
+  "given": "Adriana",
+  "all_families": [
+   "Domínguez-Oliva",
+   "Olmos-Hernández",
+   "Hernández-Ávalos",
+   "Lecona-Butrón",
+   "Mora-Medina",
+   "Mota-Rojas"
+  ],
+  "year": 2023,
+  "title": "Rat Grimace Scale as a Method to Evaluate Animal Welfare, Nociception, and Quality of the Euthanasia Method of Wistar Rats",
+  "container": "Animals",
+  "citet_display": "Domínguez-Oliva et al.",
+  "crossref_ok": true
+ },
+ "Serdar2021": {
+  "doi": "10.11613/bm.2021.010502",
+  "family": "Serdar",
+  "given": "Ceyhan Ceran",
+  "all_families": [
+   "Serdar",
+   "Cihan",
+   "Yücel",
+   "Serdar"
+  ],
+  "year": 2021,
+  "title": "Sample size, power and effect size revisited: simplified and practical approaches in pre-clinical, clinical and laboratory studies",
+  "container": "Biochemia medica",
+  "citet_display": "Serdar et al.",
+  "crossref_ok": true
+ },
+ "Richter2011": {
+  "doi": "10.1371/journal.pone.0016461",
+  "family": "Richter",
+  "given": "S. Helene",
+  "all_families": [
+   "Richter",
+   "Garner",
+   "Zipser",
+   "Lewejohann",
+   "Sachser",
+   "Touma",
+   "Schindler",
+   "Chourbaji",
+   "Brandwein",
+   "Gass",
+   "van Stipdonk",
+   "van der Harst",
+   "Spruijt",
+   "Võikar",
+   "Wolfer",
+   "Würbel"
+  ],
+  "year": 2011,
+  "title": "Effect of Population Heterogenization on the Reproducibility of Mouse Behavior: A Multi-Laboratory Study",
+  "container": "PLoS ONE",
+  "citet_display": "Richter et al.",
+  "crossref_ok": true
+ },
+ "Bara2014": {
+  "doi": "10.1186/cc13694",
+  "family": "Bara",
+  "given": "Meredith",
+  "all_families": [
+   "Bara",
+   "Joffe"
+  ],
+  "year": 2014,
+  "title": "The ethical dimension in published animal research in critical care: the public face of science",
+  "container": "Critical Care",
+  "citet_display": "Bara and Joffe",
+  "crossref_ok": true
+ },
+ "Voelkl2018": {
+  "doi": "10.1371/journal.pbio.2003693",
+  "family": "Voelkl",
+  "given": "Bernhard",
+  "all_families": [
+   "Voelkl",
+   "Vogt",
+   "Sena",
+   "Würbel"
+  ],
+  "year": 2018,
+  "title": "Reproducibility of preclinical animal research improves with heterogeneity of study samples",
+  "container": "PLOS Biology",
+  "citet_display": "Voelkl et al.",
+  "crossref_ok": true
+ },
+ "DeGrazia1991": {
+  "doi": "10.1353/ken.0.0112",
+  "family": "DeGrazia",
+  "given": "David",
+  "all_families": [
+   "DeGrazia"
+  ],
+  "year": 1991,
+  "title": "The Moral Status of Animals and Their Use in Research: A Philosophical Review",
+  "container": "Kennedy Institute of Ethics Journal",
+  "citet_display": "DeGrazia",
+  "crossref_ok": true
+ },
+ "Gilbert2016": {
+  "doi": "10.1126/science.aad7243",
+  "family": "Gilbert",
+  "given": "Daniel T.",
+  "all_families": [
+   "Gilbert",
+   "King",
+   "Pettigrew",
+   "Wilson"
+  ],
+  "year": 2016,
+  "title": "Comment on “Estimating the reproducibility of psychological science”",
+  "container": "Science",
+  "citet_display": "Gilbert et al.",
+  "crossref_ok": true
+ },
+ "Brunt2021b": {
+  "doi": "10.1371/journal.pone.0260114",
+  "family": "Brunt",
+  "given": "Michael W.",
+  "all_families": [
+   "Brunt",
+   "Weary"
+  ],
+  "year": 2021,
+  "title": "Public consultation in the evaluation of animal research protocols",
+  "container": "PLOS ONE",
+  "citet_display": "Brunt and Weary",
+  "crossref_ok": true
+ },
+ "Button2013": {
+  "doi": "10.1038/nrn3475",
+  "family": "Button",
+  "given": "Katherine S.",
+  "all_families": [
+   "Button",
+   "Ioannidis",
+   "Mokrysz",
+   "Nosek",
+   "Flint",
+   "Robinson",
+   "Munafò"
+  ],
+  "year": 2013,
+  "title": "Power failure: why small sample size undermines the reliability of neuroscience",
+  "container": "Nature Reviews Neuroscience",
+  "citet_display": "Button et al.",
+  "crossref_ok": true
+ },
+ "Wolfensohn2025": {
+  "doi": "10.1177/00236772251396310",
+  "family": "Wolfensohn",
+  "given": "Sarah E.",
+  "all_families": [
+   "Wolfensohn",
+   "Baumans",
+   "van der Staay",
+   "Arndt"
+  ],
+  "year": 2025,
+  "title": "Implications of stress for animal welfare and animal-based research\n                    <sup>†</sup>",
+  "container": "Laboratory Animals",
+  "citet_display": "Wolfensohn et al.",
+  "crossref_ok": true
+ },
+ "Sena2010": {
+  "doi": "10.1371/journal.pbio.1000344",
+  "family": "Sena",
+  "given": "Emily S.",
+  "all_families": [
+   "Sena",
+   "van der Worp",
+   "Bath",
+   "Howells",
+   "Macleod"
+  ],
+  "year": 2010,
+  "title": "Publication Bias in Reports of Animal Stroke Studies Leads to Major Overstatement of Efficacy",
+  "container": "PLoS Biology",
+  "citet_display": "Sena et al.",
+  "crossref_ok": true
+ },
+ "Wegener2021": {
+  "doi": "10.1523/ENEURO.0284-21.2021",
+  "family": "Wegener",
+  "given": "Detlef",
+  "all_families": [
+   "Wegener",
+   "Oh (胡箪棋)",
+   "Lukaß",
+   "Böer",
+   "Kreiter"
+  ],
+  "year": 2021,
+  "title": "Blood Analysis of Laboratory<i>Macaca mulatta</i>Used for Neuroscience Research: Investigation of Long-Term and Cumulative Effects of Implants, Fluid Control, and Laboratory Procedures",
+  "container": "eneuro",
+  "citet_display": "Wegener et al.",
+  "crossref_ok": true
+ },
+ "Perel2006": {
+  "doi": "10.1136/bmj.39048.407928.BE",
+  "family": "Perel",
+  "given": "Pablo",
+  "all_families": [
+   "Perel",
+   "Roberts",
+   "Sena",
+   "Wheble",
+   "Briscoe",
+   "Sandercock",
+   "Macleod",
+   "Mignini",
+   "Jayaram",
+   "Khan"
+  ],
+  "year": 2006,
+  "title": "Comparison of treatment effects between animal experiments and clinical trials: systematic review",
+  "container": "BMJ",
+  "citet_display": "Perel et al.",
+  "crossref_ok": true
+ },
+ "Graham2015": {
+  "doi": "10.1016/j.ejphar.2015.03.040",
+  "family": "Graham",
+  "given": "Melanie L.",
+  "all_families": [
+   "Graham",
+   "Prescott"
+  ],
+  "year": 2015,
+  "title": "The multifactorial role of the 3Rs in shifting the harm-benefit analysis in animal models of disease",
+  "container": "European Journal of Pharmacology",
+  "citet_display": "Graham and Prescott",
+  "crossref_ok": true
+ },
+ "Schnell2026": {
+  "doi": "10.1002/brv.70125",
+  "family": "Schnell",
+  "given": "Alexandra K.",
+  "all_families": [
+   "Schnell",
+   "Browning",
+   "Crump",
+   "Burn",
+   "Birch"
+  ],
+  "year": 2026,
+  "title": "Sentience in cephalopod molluscs: an updated assessment",
+  "container": "Biological Reviews",
+  "citet_display": "Schnell et al.",
+  "crossref_ok": true
+ },
+ "Archer2018": {
+  "doi": "10.1016/j.bja.2018.07.024",
+  "family": "Archer",
+  "given": "D.P.",
+  "all_families": [
+   "Archer",
+   "McCann",
+   "Walker",
+   "Premji",
+   "Rogan",
+   "Hutton",
+   "Gray"
+  ],
+  "year": 2018,
+  "title": "Neuroprotection by anaesthetics in rodent models of traumatic brain injury: a systematic review and network meta-analysis",
+  "container": "British Journal of Anaesthesia",
+  "citet_display": "Archer et al.",
+  "crossref_ok": true
+ },
+ "Grimm2018": {
+  "doi": "10.1177/0023677218783004",
+  "family": "Grimm",
+  "given": "Herwig",
+  "all_families": [
+   "Grimm",
+   "Olsson",
+   "Sandøe"
+  ],
+  "year": 2018,
+  "title": "Harm–benefit analysis – what is the added value? A review of alternative strategies for weighing harms and benefits as part of the assessment of animal research",
+  "container": "Laboratory Animals",
+  "citet_display": "Grimm et al.",
+  "crossref_ok": true
+ },
+ "Voelkl2020": {
+  "doi": "10.1038/s41583-020-0313-3",
+  "family": "Voelkl",
+  "given": "Bernhard",
+  "all_families": [
+   "Voelkl",
+   "Altman",
+   "Forsman",
+   "Forstmeier",
+   "Gurevitch",
+   "Jaric",
+   "Karp",
+   "Kas",
+   "Schielzeth",
+   "Van de Casteele",
+   "Würbel"
+  ],
+  "year": 2020,
+  "title": "Reproducibility of animal research in light of biological variation",
+  "container": "Nature Reviews Neuroscience",
+  "citet_display": "Voelkl et al.",
+  "crossref_ok": true
+ },
+ "Vitale2022": {
+  "doi": "10.3389/fphys.2022.914939",
+  "family": "Vitale",
+  "given": "Augusto",
+  "all_families": [
+   "Vitale",
+   "Ricceri"
+  ],
+  "year": 2022,
+  "title": "The principle of the 3Rs between aspiration and reality",
+  "container": "Frontiers in Physiology",
+  "citet_display": "Vitale and Ricceri",
+  "crossref_ok": true
+ },
+ "ArroyoAraujo2019": {
+  "doi": "10.1038/s41598-019-47981-0",
+  "family": "Arroyo-Araujo",
+  "given": "María",
+  "all_families": [
+   "Arroyo-Araujo",
+   "Graf",
+   "Maco",
+   "van Dam",
+   "Schenker",
+   "Drinkenburg",
+   "Koopmans",
+   "de Boer",
+   "Cullum-Doyle",
+   "Noldus",
+   "Loos",
+   "van Dommelen",
+   "Spooren",
+   "Biemans",
+   "Buhl",
+   "Kas"
+  ],
+  "year": 2019,
+  "title": "Reproducibility via coordinated standardization: a multi-center study in a Shank2 genetic rat model for Autism Spectrum Disorders",
+  "container": "Scientific Reports",
+  "citet_display": "Arroyo-Araujo et al.",
+  "crossref_ok": true
+ },
+ "Takao2014": {
+  "doi": "10.1073/pnas.1401965111",
+  "family": "Takao",
+  "given": "Keizo",
+  "all_families": [
+   "Takao",
+   "Miyakawa"
+  ],
+  "year": 2014,
+  "title": "Genomic responses in mouse models greatly mimic human inflammatory diseases",
+  "container": "Proceedings of the National Academy of Sciences",
+  "citet_display": "Takao and Miyakawa",
+  "crossref_ok": true
+ },
+ "Gutfreund2020": {
+  "doi": "10.3390/ani10020291",
+  "family": "Gutfreund",
+  "given": "Yoram",
+  "all_families": [
+   "Gutfreund"
+  ],
+  "year": 2020,
+  "title": "Harm-Benefit Analysis May Not Be the Best Approach to Ensure Minimal Harms and Maximal Benefits of Animal Research—Alternatives Should Be Explored",
+  "container": "Animals",
+  "citet_display": "Gutfreund",
+  "crossref_ok": true
+ },
+ "OSullivan2021": {
+  "doi": "10.1038/s41598-021-97896-y",
+  "family": "O’Sullivan",
+  "given": "Jack W.",
+  "all_families": [
+   "O’Sullivan",
+   "Ioannidis"
+  ],
+  "year": 2021,
+  "title": "Reproducibility in the UK biobank of genome-wide significant signals discovered in earlier genome-wide association studies",
+  "container": "Scientific Reports",
+  "citet_display": "O’Sullivan and Ioannidis",
+  "crossref_ok": true
+ },
+ "Manthey2021": {
+  "doi": "10.3390/ani11072145",
+  "family": "Manthey",
+  "given": "Theres",
+  "all_families": [
+   "Manthey",
+   "Nagel-Riedasch",
+   "Dülsner"
+  ],
+  "year": 2021,
+  "title": "The Interactive Stress Assessment in Basic Animal Science Training",
+  "container": "Animals",
+  "citet_display": "Manthey et al.",
+  "crossref_ok": true
+ },
+ "MartinezLopez2023": {
+  "doi": "10.3390/ani13142357",
+  "family": "Martinez-Lopez",
+  "given": "Sebastian",
+  "all_families": [
+   "Martinez-Lopez",
+   "Angel-Gomis",
+   "Sanchez-Ardid",
+   "Pastor-Campos",
+   "Picó",
+   "Gomez-Hurtado"
+  ],
+  "year": 2023,
+  "title": "The 3Rs in Experimental Liver Disease",
+  "container": "Animals",
+  "citet_display": "Martinez-Lopez et al.",
+  "crossref_ok": true
+ },
+ "Fruhwein2025": {
+  "doi": "10.1186/s12967-025-06084-3",
+  "family": "Frühwein",
+  "given": "Hamideh",
+  "all_families": [
+   "Frühwein",
+   "Paul"
+  ],
+  "year": 2025,
+  "title": "“Lost in translation?” Animal research in the era of precision medicine",
+  "container": "Journal of Translational Medicine",
+  "citet_display": "Frühwein and Paul",
+  "crossref_ok": true
+ },
+ "Joffe2016": {
+  "doi": "10.1177/026119291604400407",
+  "family": "Joffe",
+  "given": "Ari R.",
+  "all_families": [
+   "Joffe",
+   "Bara",
+   "Anton",
+   "Nobis"
+  ],
+  "year": 2016,
+  "title": "Expectations for the Methodology and Translation of Animal Research: A Survey of the General Public, Medical Students and Animal Researchers in North America",
+  "container": "Alternatives to Laboratory Animals",
+  "citet_display": "Joffe et al.",
+  "crossref_ok": true
+ },
+ "Krueger2023": {
+  "doi": "10.1017/awf.2023.21",
+  "family": "Krueger",
+  "given": "Johanne C",
+  "all_families": [
+   "Krueger",
+   "Habigt",
+   "Helmedag",
+   "Uhlig",
+   "Moss",
+   "Bleich",
+   "Tolba",
+   "Rossaint",
+   "Hein",
+   "Mechelinck"
+  ],
+  "year": 2023,
+  "title": "Evaluation of score parameters for severity assessment of surgery and liver cirrhosis in rats",
+  "container": "Animal Welfare",
+  "citet_display": "Krueger et al.",
+  "crossref_ok": true
+ },
+ "Cait2022": {
+  "doi": "10.1186/s12915-021-01184-0",
+  "family": "Cait",
+  "given": "Jessica",
+  "all_families": [
+   "Cait",
+   "Cait",
+   "Scott",
+   "Winder",
+   "Mason"
+  ],
+  "year": 2022,
+  "title": "Conventional laboratory housing increases morbidity and mortality in research rodents: results of a meta-analysis",
+  "container": "BMC Biology",
+  "citet_display": "Cait et al.",
+  "crossref_ok": true
+ },
+ "Hajosi2025": {
+  "doi": "10.3389/fvets.2025.1593954",
+  "family": "Hajosi",
+  "given": "Dominik",
+  "all_families": [
+   "Hajosi",
+   "Grimm"
+  ],
+  "year": 2025,
+  "title": "Solving the riddle by puzzling it out: overcoming the challenges of harm–benefit analysis by assembling a compound model and practice-oriented tool",
+  "container": "Frontiers in Veterinary Science",
+  "citet_display": "Hajosi and Grimm",
+  "crossref_ok": true
+ },
+ "Bateson2015": {
+  "doi": "10.1002/bies.201500127",
+  "family": "Bateson",
+  "given": "Melissa",
+  "all_families": [
+   "Bateson"
+  ],
+  "year": 2015,
+  "title": "Cumulative stress in research animals: Telomere attrition as a biomarker in a welfare context?",
+  "container": "BioEssays",
+  "citet_display": "Bateson",
+  "crossref_ok": true
+ },
+ "Marquardt2018": {
+  "doi": "10.1371/journal.pone.0203793",
+  "family": "Marquardt",
+  "given": "Nicole",
+  "all_families": [
+   "Marquardt",
+   "Feja",
+   "Hünigen",
+   "Plendl",
+   "Menken",
+   "Fink",
+   "Bert"
+  ],
+  "year": 2018,
+  "title": "Euthanasia of laboratory mice: Are isoflurane and sevoflurane real alternatives to carbon dioxide?",
+  "container": "PLOS ONE",
+  "citet_display": "Marquardt et al.",
+  "crossref_ok": true
+ },
+ "Bespalov2026": {
+  "doi": "10.1016/j.nsa.2025.105527",
+  "family": "Bespalov",
+  "given": "Anton",
+  "all_families": [
+   "Bespalov",
+   "Dirnagl",
+   "Ferland-Beckham",
+   "Guillén",
+   "Laber",
+   "Turner",
+   "Reynolds"
+  ],
+  "year": 2026,
+  "title": "Striking a balance: A proposed benefit assessment matrix for ethical animal research",
+  "container": "Neuroscience Applied",
+  "citet_display": "Bespalov et al.",
+  "crossref_ok": true
+ }
+}

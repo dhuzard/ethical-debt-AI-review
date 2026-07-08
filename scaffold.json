@@ -1,0 +1,514 @@
+{
+  "title": "The Ethical Debt",
+  "subtitle": "Why wasting animal data is wasting animal lives",
+  "thesis": "The Ethical Debt of preclinical research is incurred when animals are used to generate knowledge but the resulting data are allowed to become unfindable, unusable, or unreused. Data welfare is a dimension of animal welfare and of the 3Rs; repaying the debt means FAIR data, reuse, virtual control groups, and stewardship of NAM-generated data.",
+  "argument_arc": {
+    "act_1": {
+      "label": "Establish the crisis and reframe welfare as data welfare",
+      "sections": ["section_01", "section_02", "section_03"],
+      "section_labels": ["sec-introduction", "sec-repro-crisis", "sec-data-welfare"],
+      "narrative": "Open by naming the Ethical Debt and showing it is not rhetorical: preclinical research suffers a measurable reproducibility and translation crisis (Section 02), and a large fraction of animal-derived data never reaches a usable, shared form. This forces a conceptual move (Section 03): if generating data is a welfare cost, then squandering that data is itself a welfare harm. Data stewardship is thereby folded into the 3Rs as 'data welfare', converting an abstract data-management problem into an animal-ethics obligation."
+    },
+    "act_2": {
+      "label": "The mechanisms and their complications",
+      "sections": ["section_04", "section_05", "section_06", "section_07"],
+      "section_labels": ["sec-fair-preclinical", "sec-virtual-controls", "sec-nams-data", "sec-incentives"],
+      "narrative": "Examine the machinery of repayment and where it breaks. FAIR principles promise reuse but audits show declared availability rarely becomes actual, reusable data (Section 04). Virtual control groups turn reuse into concrete Reduction, but concordance is endpoint-dependent and regulatory acceptance is unproven (Section 05). NAMs displace animals yet generate high-dimensional data that re-create the same stewardship debt (Section 06). Underneath all three, the incentive and political economy of research rewards publication counts and penalises data stewardship (Section 07), explaining why the gaps persist."
+    },
+    "act_3": {
+      "label": "Governance, synthesis, and open questions",
+      "sections": ["section_08", "section_09"],
+      "section_labels": ["sec-governance", "sec-conclusion"],
+      "narrative": "Turn to what works. Governance evidence shows enforcement (not endorsement) of standards moves behaviour, though effects are heterogeneous and field-wide sharing remains low (Section 08). The conclusion (Section 09) synthesises the repayment pathway, closes the debt loop opened in the introduction, and marks the unresolved empirical questions: whether FAIRification causally increases reuse, whether VCGs will be accepted by regulators, and whether evaluation reform changes behaviour."
+    }
+  },
+  "sections": [
+    {
+      "id": "section_01",
+      "title": "Introduction: The Ethical Debt of Preclinical Research",
+      "canonical_label": "sec-introduction",
+      "clusters": ["cluster_01", "cluster_02"],
+      "thesis": "Animals are used to generate knowledge, but a large and measurable fraction of the resulting data is never published, shared, or made reusable; because generating that data imposed a welfare cost, allowing it to be wasted is an unpaid ethical debt that is discharged in further animal lives. This section defines the debt, states the four-part repayment thesis (FAIR data, reuse, virtual control groups, NAM-data stewardship), and previews the argument.",
+      "key_evidence": ["Freedman2015", "Sena2010", "terRiet2012", "Perel2006", "Errington2021a", "Federico2014", "Pound2018", "Cait2022", "Strech2019", "Graham2015", "Bara2014"],
+      "conflicts_to_present": [],
+      "connection_prev": "Opening section; no predecessor.",
+      "connection_next": "Having asserted that wasted animal data is a welfare harm, the introduction hands off to sec-repro-crisis, which supplies the empirical foundation: that preclinical evidence is systematically irreproducible and poorly translated, so the data being lost is also the data most in need of scrutiny.",
+      "cross_references": ["sec-repro-crisis", "sec-data-welfare", "sec-fair-preclinical", "sec-conclusion"],
+      "word_count_target": 2800,
+      "figures": ["fig:sec01-ethical-debt-cycle", "fig:sec01-animal-data-loss"]
+    },
+    {
+      "id": "section_02",
+      "title": "The Reproducibility and Translation Crisis in Preclinical Research",
+      "canonical_label": "sec-repro-crisis",
+      "clusters": ["cluster_01"],
+      "thesis": "Preclinical animal research is distorted by publication bias, selective reporting, weak internal validity, and poor concordance with human outcomes, so a large share of published animal findings is unreliable and fails to translate. The crisis is not merely wasteful of money but of the animals whose data cannot be trusted or reused, establishing the stakes for the rest of the review.",
+      "key_evidence": ["Sena2010", "Tsilidis2013", "Freedman2015", "Errington2021a", "Errington2021b", "Errington2021c", "Perel2006", "Draeger2020", "Federico2014", "terRiet2012"],
+      "conflicts_to_present": [
+        {"a_key": "Seok2013", "b_key": "Takao2014", "nature": "Using the same inflammation gene-expression datasets, one analysis finds near-random mouse-human concordance (R^2 0.0-0.1) and the other finds strong concordance (Spearman 0.43-0.68); the discrepancy is driven entirely by gene-selection method, showing analytic choices, not the animal data, decide translatability."},
+        {"a_key": "OpenScienceCollaboration2015", "b_key": "Gilbert2016", "nature": "Whether large replication projects demonstrate low reproducibility (only ~36% of replications significant) or, after correcting for alleged statistical artefacts, are consistent with high reproducibility; a live dispute about how deep the crisis really is."},
+        {"a_key": "Voelkl2021", "b_key": "Samsa2019", "nature": "Whether rigorous standardization of animals and environment improves reproducibility (rigor + transparency framing) or harms it by destroying external validity (reaction-norm framing) - two opposed prescriptions for fixing preclinical reliability."}
+      ],
+      "connection_prev": "Follows sec-introduction by supplying the empirical crisis the debt thesis presupposes: the introduction claimed animal data are wasted; this section shows the published animal record is also biased and non-translating, so both the missing and the present data are compromised.",
+      "connection_next": "The crisis is usually framed as a scientific-quality problem; sec-data-welfare reframes it as an animal-welfare problem, arguing that irreproducibility and non-reuse are welfare harms that the 3Rs must therefore govern.",
+      "cross_references": ["sec-introduction", "sec-data-welfare", "sec-incentives", "sec-governance"],
+      "word_count_target": 4200,
+      "figures": ["fig:sec02-translational-attrition", "fig:sec02-bias-inflation", "fig:sec02-mouse-human-concordance"]
+    },
+    {
+      "id": "section_03",
+      "title": "From Animal Welfare to Data Welfare: Reframing the 3Rs",
+      "canonical_label": "sec-data-welfare",
+      "clusters": ["cluster_02", "cluster_08"],
+      "thesis": "The 3Rs (Replacement, Reduction, Refinement) are the ethical and legal architecture of animal research, yet they are systematically under-implemented and are increasingly argued to be insufficient without a scientific-value/reporting dimension. This section introduces 'data welfare': the claim that complete reporting, FAIR stewardship and reuse of animal-derived data extend Reduction and Refinement, so wasting data is a welfare failure the 3Rs should already forbid.",
+      "key_evidence": ["Pound2018", "Cait2022", "Bara2014", "Strech2019", "Brink2023", "Graham2015", "Landes2023", "Morahan2024", "Ding2022", "PercieduSert2020a", "Bergen2023"],
+      "conflicts_to_present": [
+        {"a_key": "Strech2019", "b_key": "Vitale2022", "nature": "Whether the classic 3Rs are inadequate and must be expanded with scientific-value/reporting principles (the 6R/12R view) or remain conceptually sufficient and merely under-applied - the pivotal debate for positioning data welfare as a needed extension."},
+        {"a_key": "Richter2011", "b_key": "Voelkl2018", "nature": "Whether within-study heterogenization is too weak to overcome between-laboratory variation (empirical six-lab test) or whether multi-laboratory designs substantially improve reproducibility without larger samples (simulation) - a Reduction-versus-reproducibility tension carried over from sec-repro-crisis."},
+        {"a_key": "Robinson2019", "b_key": "Hawkins2019", "nature": "How to assess a culture of care: caution against objective auditing that becomes a tick-box exercise versus advocacy for objective, animal-centric indicators - mirrors the reporting-guideline compliance debate revisited in sec-governance."}
+      ],
+      "connection_prev": "Takes the crisis documented in sec-repro-crisis and reinterprets it ethically: the same publication bias, missing analgesia reporting, and non-reuse that degrade science also constitute unmet 3Rs obligations, so the quality problem is recast as a welfare problem.",
+      "connection_next": "Data welfare is only actionable if data can actually be made reusable; sec-fair-preclinical tests whether the FAIR principles - the leading operationalisation of data welfare - deliver reuse in practice.",
+      "cross_references": ["sec-repro-crisis", "sec-fair-preclinical", "sec-virtual-controls", "sec-governance"],
+      "word_count_target": 4000,
+      "figures": ["fig:sec03-welfare-to-data-welfare", "fig:sec03-reduction-magnitude", "fig:sec03-3rs-underreporting"]
+    },
+    {
+      "id": "section_04",
+      "title": "FAIR Principles and the Preclinical Data Ecosystem",
+      "canonical_label": "sec-fair-preclinical",
+      "clusters": ["cluster_03", "cluster_04"],
+      "thesis": "FAIR (Findable, Accessible, Interoperable, Reusable) data are the standard mechanism for repaying the data-welfare debt, but audits across domains show declared availability rarely becomes actual, reusable data: sharing rates are low, formal compliance does not translate into usable datasets, and even shared data score poorly on reusability. Preclinical animal data are especially poorly served by this ecosystem.",
+      "key_evidence": ["Uribe2022", "Huang2025b", "VanTuyl2016", "deGroot2024", "Wilkinson2016", "Inau2023", "Hamilton2023", "Hamilton2022", "RowhaniFarid2016", "TorresEspin2021"],
+      "conflicts_to_present": [
+        {"a_key": "Inau2023", "b_key": "VanTuyl2016", "nature": "Whether FAIR principles and sharing mandates translate into actual usable data sharing (review-level optimism) or whether audits find most mandated projects share nothing usable (empirical pessimism) - the defining gap of the FAIR ecosystem."},
+        {"a_key": "Wilkinson2016", "b_key": "Carroll2022b", "nature": "Governance orientation of reuse: FAIR frames maximal findability and community reuse as the goal, whereas the CARE Principles / Indigenous Data Sovereignty movement argues reuse must be governed on the data subjects' terms - an important ethical qualifier for maximal-openness claims."},
+        {"a_key": "Pernet2023", "b_key": "GarciaClosas2023", "nature": "Whether it is sustainable to keep and curate all datasets indefinitely for rapid FAIR access given monetary and ecological cost, or whether those costs are outweighed by reproducibility and reuse benefits - the cost/benefit case for universal retention."}
+      ],
+      "connection_prev": "sec-data-welfare argued that data stewardship is a welfare duty; this section examines FAIR, the concrete standard meant to discharge that duty, and asks whether it actually works.",
+      "connection_next": "Because generic FAIR sharing so rarely yields reuse, sec-virtual-controls turns to a specific, high-value form of reuse - reusing control-animal data as virtual control groups - where the Reduction payoff is directly quantifiable.",
+      "cross_references": ["sec-data-welfare", "sec-virtual-controls", "sec-nams-data", "sec-incentives", "sec-governance"],
+      "word_count_target": 4500,
+      "figures": ["fig:sec04-actual-vs-declared-availability", "fig:sec04-dmp-vs-realized", "fig:sec04-fair-reusability"]
+    },
+    {
+      "id": "section_05",
+      "title": "Virtual Control Groups and Data Reuse as Reduction",
+      "canonical_label": "sec-virtual-controls",
+      "clusters": ["cluster_04", "cluster_05"],
+      "thesis": "Reusing historical control-animal data as virtual control groups (VCGs) converts abstract data reuse into concrete Reduction - roughly a quarter fewer control animals - and the infrastructure to do it already exists at scale. But the payoff is conditional: concordance with concurrent controls is endpoint-dependent, temporal and cross-laboratory drift can bias conclusions, and no regulator has yet accepted a VCG-based study, so the ethical dividend remains partly theoretical.",
+      "key_evidence": ["DuchateauNguyen2026", "Adedeji2024", "Kellner2025", "Gurjanov2023", "Gurjanov2024b", "StegerHartmann2020", "Wright2023b", "Struebing2024", "TorresEspin2021", "Shin2019"],
+      "conflicts_to_present": [
+        {"a_key": "DuchateauNguyen2026", "b_key": "Adedeji2024", "nature": "Degree of VCG-concurrent-control concordance: a liver-enzyme simulation reports high agreement (>=90% in 68.5% of comparisons) whereas a clinical-pathology review reports 31-49% of quantitative parameters non-reproducible when concurrent controls are replaced - the central VCG tradeoff."},
+        {"a_key": "Nambiar2012", "b_key": "Kellner2025", "nature": "Temporal stability of historical control data: a rasH2 tumour-incidence analysis argues for minimal drift over a decade, while a multi-company clinical-pathology database finds study year is the single most influential covariate - determines whether pooled control data can be trusted."},
+        {"a_key": "Panzacchi2025", "b_key": "Aguilar2017", "nature": "Adequacy of historical control data for carcinogenicity conclusions: the Ramazzini Institute relies on its own and NTP historical controls to support treatment-related tumour findings, whereas EFSA rejected such conclusions partly because the historical controls were decades out of date and lacked a concurrent control."}
+      ],
+      "connection_prev": "sec-fair-preclinical showed generic sharing rarely produces reuse; this section presents the clearest counter-case, where reusing a specific, well-curated data type (control-animal data) yields a measurable Reduction dividend, while inheriting the same data-quality and drift problems.",
+      "connection_next": "VCGs reuse animal data to reduce animal use; sec-nams-data addresses the complementary strategy - replacing animals with non-animal methods - and shows those methods generate their own data that must be stewarded to avoid re-incurring the debt.",
+      "cross_references": ["sec-fair-preclinical", "sec-data-welfare", "sec-nams-data", "sec-governance"],
+      "word_count_target": 4500,
+      "figures": ["fig:sec05-vcg-reduction", "fig:sec05-vcg-concordance", "fig:sec05-shared-control-scale"]
+    },
+    {
+      "id": "section_06",
+      "title": "New Approach Methodologies and the Data They Generate",
+      "canonical_label": "sec-nams-data",
+      "clusters": ["cluster_06"],
+      "thesis": "New Approach Methodologies (NAMs) - in silico models, organoids, organ-on-chip, high-throughput screening - reach usable, sometimes high predictivity for narrow, well-defined endpoints and can displace specific animal tests. But regulatory readiness is contested, readouts are variable, and NAMs generate large, heterogeneous datasets that will re-create the ethical/scientific debt unless they are stewarded to FAIR standards from the outset.",
+      "key_evidence": ["Mehta2025", "Song2024", "Hong2022", "Tao2021", "Comess2020", "Yao2025", "Bishop2023", "Sunildutt2023", "Yu2024", "Inau2023"],
+      "conflicts_to_present": [
+        {"a_key": "Carmichael2022", "b_key": "Holmer2025", "nature": "Regulatory readiness of NAMs: proponents assert NAMs are already fit to assure chemical safety in defined settings, whereas an EU endocrine-disruptor review documents continued dependence on animal data to identify adversity - readiness claimed versus readiness demonstrated."},
+        {"a_key": "Hartung2025a", "b_key": "Marx2020", "nature": "Transformative promise versus adoption reality for microphysiological systems: one frames MPS as already revolutionising drug development and reducing animal use, while an expert workshop notes MPS have not been widely adopted by industry nor reached regulated drug authorisation."},
+        {"a_key": "Kato2022", "b_key": "Kopec2021", "nature": "Reproducibility of MPS readouts: an independent robustness study of a liver MPS finds appreciable within- and between-study variability that undercuts high-throughput utility, whereas MPS advocates present the platforms as standardized and predictive - the same reproducibility problem that afflicts animal models."}
+      ],
+      "connection_prev": "sec-virtual-controls reduced animal use by reusing animal data; this section covers the Replacement route - non-animal methods - and shows that Replacement does not escape the data problem but relocates it to high-dimensional NAM outputs.",
+      "connection_next": "NAM data, VCG data, and FAIR data all fail to be stewarded for the same underlying reason; sec-incentives exposes that reason as the reward system of research, which prices data stewardship at essentially zero.",
+      "cross_references": ["sec-fair-preclinical", "sec-virtual-controls", "sec-incentives", "sec-conclusion"],
+      "word_count_target": 4000,
+      "figures": ["fig:sec06-nam-vs-invivo", "fig:sec06-in-silico-performance", "fig:sec06-nam-data-scale"]
+    },
+    {
+      "id": "section_07",
+      "title": "Incentive Structures and the Political Economy of Research Data",
+      "canonical_label": "sec-incentives",
+      "clusters": ["cluster_07"],
+      "thesis": "The persistence of the data-welfare debt is not a technical accident but a predictable output of the incentive system: evaluation rewards publication counts and journal impact while pricing data sharing at near-zero, questionable research practices are common, and declared openness vastly exceeds actual openness. Reform proposals exist but the evidence that they change behaviour - rather than metrics - is thin.",
+      "key_evidence": ["Rice2020", "McKiernan2019", "Smaldino2016", "Schneider2024", "Roche2015", "Fecher2015", "Fanelli2009", "Breznau2022", "Head2015", "Richardson2025"],
+      "conflicts_to_present": [
+        {"a_key": "Munafo2017", "b_key": "Smaldino2016", "nature": "Reform optimism versus structural pessimism: the manifesto for reproducible science expects methods/reporting/incentive measures to improve reliability, whereas the natural-selection model argues that as long as publication drives careers, bad methods will keep being selected for - determines whether repaying the debt is feasible without changing incentives."},
+        {"a_key": "Kidwell2016", "b_key": "Roche2015", "nature": "Whether transparency interventions deliver usable open data: open-practice badges increased data that was actually available and complete, whereas audits of mandated archives found most datasets incomplete or unusable - voluntary signalling versus mandate effectiveness."},
+        {"a_key": "Ioannidis2023b", "b_key": "Gadd2021", "nature": "Whether quantitative/ranking metrics can be reformed into a force that improves research (rigorous, field-adjusted metrics) or are inherently socially irresponsible instruments universities should resist - the governance dilemma for any metric-based reform."}
+      ],
+      "connection_prev": "sec-nams-data showed the stewardship failure recurs even for non-animal data; this section identifies the common cause across FAIR, VCG and NAM data - a reward structure that does not value stewardship.",
+      "connection_next": "If incentives explain why voluntary stewardship fails, sec-governance asks what enforced standards, mandates and reporting guidelines can actually achieve, and where they fall short.",
+      "cross_references": ["sec-repro-crisis", "sec-fair-preclinical", "sec-governance", "sec-conclusion"],
+      "word_count_target": 3800,
+      "figures": ["fig:sec07-rpt-criteria", "fig:sec07-declared-vs-actual", "fig:sec07-qrp-prevalence"]
+    },
+    {
+      "id": "section_08",
+      "title": "Governance, Standards, and Pathways to Repayment",
+      "canonical_label": "sec-governance",
+      "clusters": ["cluster_08"],
+      "thesis": "Reporting guidelines, data-sharing mandates and ethical-review bodies are the levers for repaying the debt, and the evidence shows enforcement (checklists mandated at revision, editorial checks) can move behaviour where passive endorsement does not. But effects are heterogeneous and often small, field-wide sharing remains near 2%, and the causal link from governance to actual reuse and reduced animal use is largely unmeasured - so a concrete, evidence-based repayment pathway must be built rather than assumed.",
+      "key_evidence": ["Ding2022", "Gulin2015", "Hair2019", "Macleod2019b", "Han2017", "Bergen2023", "Munro2022", "Hunniford2021", "PercieduSert2020a", "Deeb2025"],
+      "conflicts_to_present": [
+        {"a_key": "Hair2019", "b_key": "Macleod2019b", "nature": "Whether journal checklist interventions improve reporting: a randomised trial requesting ARRIVE-checklist completion found no manuscript achieved full compliance, whereas an observational study of a checklist mandated at revision found a previously unobserved improvement in bias reporting - enforcement design decides the effect."},
+        {"a_key": "Gulin2015", "b_key": "Han2017", "nature": "Whether ARRIVE/checklists improve reporting: a Chagas-disease review found passive publication of ARRIVE did not improve reporting, while a Nature-versus-Cell comparison attributed significant gains to an implemented checklist - endorsement versus implementation."},
+        {"a_key": "Deeb2025", "b_key": "Hamilton2023", "nature": "Whether data sharing is substantially improving: a single-institution audit finds sharing of all relevant data rose 7% to 45%, whereas field-wide meta-research still measures only ~2% actual public availability - local stewardship progress versus a largely static field-wide baseline."}
+      ],
+      "connection_prev": "sec-incentives showed voluntary stewardship fails under current rewards; this section evaluates the enforced alternative - guidelines, mandates and ethical review - and finds enforcement helps but is not sufficient.",
+      "connection_next": "sec-conclusion synthesises the four repayment mechanisms and the governance findings into an integrated pathway and states the open empirical questions that remain.",
+      "cross_references": ["sec-data-welfare", "sec-fair-preclinical", "sec-incentives", "sec-conclusion"],
+      "word_count_target": 4200,
+      "figures": ["fig:sec08-guideline-timeline", "fig:sec08-declared-vs-actual-availability", "fig:sec08-institution-vs-fieldwide"]
+    },
+    {
+      "id": "section_09",
+      "title": "Conclusion: Repaying the Ethical Debt",
+      "canonical_label": "sec-conclusion",
+      "clusters": [],
+      "thesis": "The Ethical Debt is real, measurable, and self-reinforcing, but it is repayable. FAIR stewardship, data reuse and virtual control groups, and disciplined stewardship of NAM-generated data each break the loop, provided incentive and governance reform make stewardship count. The strongest ethical claim of the review is also its simplest: because animals paid for the data with their lives, letting the data go to waste is a welfare harm, and repaying the debt saves animals. Key questions remain empirically open.",
+      "key_evidence": ["Freedman2015", "Sena2010", "Pound2018", "Hamilton2023", "Wilkinson2016", "StegerHartmann2020", "Gurjanov2024b", "Rice2020", "Hair2019", "Comess2020"],
+      "conflicts_to_present": [],
+      "connection_prev": "Draws together the governance evidence of sec-governance with the mechanism sections (sec-fair-preclinical, sec-virtual-controls, sec-nams-data) and the incentive diagnosis of sec-incentives into a single repayment pathway.",
+      "connection_next": "Closing section; returns to the Ethical Debt cycle introduced in sec-introduction and flags open questions for future work.",
+      "cross_references": ["sec-introduction", "sec-repro-crisis", "sec-data-welfare", "sec-fair-preclinical", "sec-virtual-controls", "sec-nams-data", "sec-incentives", "sec-governance"],
+      "word_count_target": 2200,
+      "figures": ["fig:sec09-repayment-roadmap"]
+    }
+  ],
+  "cross_cutting": {
+    "recurring_themes": [
+      "The declared-versus-actual gap: across FAIR audits, incentive studies and governance evaluations, stated intent (data-availability statements, DMP compliance, sharing pledges) vastly exceeds usable reality; recurs in sec-fair-preclinical, sec-incentives and sec-governance.",
+      "Convergence on ~2% actual data availability as the empirical anchor of the whole review, replicated across specialties and methods.",
+      "Reuse as Reduction: reusing existing data (historical/virtual controls, shared datasets, NAM outputs) is framed throughout as a direct 3Rs Reduction dividend, not merely good data hygiene.",
+      "False-consensus risk: several field-defining figures (11%/25% industry irreproducibility, US$28B/year, '85% of research wasted') rest on non-transparent or modeled sources and are flagged wherever cited.",
+      "Enforcement beats endorsement: passive publication of guidelines rarely changes behaviour; mandated, checked requirements do - a thread from sec-data-welfare through sec-incentives to sec-governance.",
+      "The animal-welfare stake: every data-stewardship failure is repeatedly tied back to its cost in animal lives, keeping the ethical argument foregrounded over the purely technical one.",
+      "Method-dependence of headline numbers: the same phenomenon (publication rate, concordance, QRP prevalence, sharing trend) yields very different values by method, so juxtaposition rather than single figures is the analytical style."
+    ],
+    "terminology": {
+      "ethical_debt": "The obligation incurred when animals are used to generate knowledge but the resulting data are allowed to become unfindable, unusable, or unreused; unpaid, it is discharged in further animal lives. Coined and used as the review's organising metaphor.",
+      "data_welfare": "The claim that stewardship of animal-derived data (findability, reusability, complete reporting) is a dimension of animal welfare and of the 3Rs, because wasting the data wastes the welfare cost that produced it.",
+      "FAIR": "Findable, Accessible, Interoperable, Reusable - the Wilkinson et al. (2016) principles for machine-actionable data stewardship. Distinguish FAIR (a stewardship standard) from 'open' (an access status); data can be FAIR without being fully open.",
+      "three_Rs": "Replacement, Reduction, Refinement (Russell & Burch) - the ethical/legal framework for humane animal research. The review argues data welfare extends all three, chiefly Reduction and Refinement.",
+      "VCG": "Virtual Control Group - a control arm reconstructed from curated historical control-animal data to partially or wholly replace concurrent controls, reducing control-animal use. Related term HCD = historical control data.",
+      "NAM": "New Approach Methodology - non-animal methods (in silico/QSAR models, organoids, organ-on-chip/microphysiological systems, high-throughput screening) used to predict toxicity or biology; serve Replacement but generate data needing stewardship.",
+      "reproducibility_vs_replicability": "Reproducibility = obtaining consistent results using the same data and analysis; replicability = obtaining consistent results in a new study with new data. The review uses 'reproducibility crisis' broadly but distinguishes the two where the evidence does (e.g., direct-replication projects test replicability; re-analysis disputes test reproducibility).",
+      "HBA": "Harm-Benefit Analysis - the project-level weighing of animal harm against expected benefit that anchors animal-research regulation; its objectivity and predictive validity are contested.",
+      "QRP": "Questionable Research Practice - selective reporting, p-hacking, undisclosed flexibility short of outright fabrication; a behavioural driver of the crisis.",
+      "ARRIVE": "Animal Research: Reporting of In Vivo Experiments - the reporting guideline whose adherence and enforcement are evaluated in sec-governance."
+    },
+    "abbreviations": {
+      "FAIR": "Findable, Accessible, Interoperable, Reusable",
+      "3Rs": "Replacement, Reduction, Refinement",
+      "VCG": "Virtual Control Group",
+      "HCD": "Historical Control Data",
+      "NAM": "New Approach Methodology",
+      "MPS": "Microphysiological System (organ-on-chip)",
+      "QSAR": "Quantitative Structure-Activity Relationship",
+      "AOP": "Adverse Outcome Pathway",
+      "HTS": "High-Throughput Screening",
+      "DILI": "Drug-Induced Liver Injury",
+      "HBA": "Harm-Benefit Analysis",
+      "IACUC": "Institutional Animal Care and Use Committee",
+      "AWERB": "Animal Welfare and Ethical Review Body",
+      "ARRIVE": "Animal Research: Reporting of In Vivo Experiments",
+      "QRP": "Questionable Research Practice",
+      "RPT": "Review, Promotion and Tenure",
+      "JIF": "Journal Impact Factor",
+      "DMP": "Data Management Plan",
+      "DMSP": "Data Management and Sharing Plan",
+      "DAS": "Data Availability Statement",
+      "RWD": "Real-World Data",
+      "ECA": "External Control Arm",
+      "NOAEL": "No-Observed-Adverse-Effect Level",
+      "SEND": "Standard for Exchange of Nonclinical Data",
+      "OMOP": "Observational Medical Outcomes Partnership (Common Data Model)",
+      "GWAS": "Genome-Wide Association Study",
+      "OA": "Open Access",
+      "TOP": "Transparency and Openness Promotion (guidelines)",
+      "PID": "Persistent Identifier",
+      "GEO": "Gene Expression Omnibus"
+    },
+    "voice_tone": "Critical, evidence-anchored, and quantitative, but ethically serious rather than polemical. Foreground effect sizes and their provenance; state uncertainty and flag false-consensus risks explicitly rather than smoothing them over. Prefer juxtaposition of divergent estimates to single headline numbers. Keep the animal-welfare stake visible without moralising. Third person, present tense for findings; hedged claims ('the evidence suggests', 'audits converge on') proportional to evidence strength."
+  },
+  "integration_points": {
+    "shared_evidence": [
+      {"cite_key": "Wilkinson2016", "sections": ["sec-fair-preclinical", "sec-conclusion"], "role": "Defines FAIR; introduced in sec-fair-preclinical (and appears in cluster_04 as repository exemplar), recalled in the conclusion as the standard for repayment."},
+      {"cite_key": "Hamilton2023", "sections": ["sec-fair-preclinical", "sec-governance", "sec-conclusion"], "role": "The ~2% actual-availability anchor; the single most cross-cutting empirical result, used in sec-fair-preclinical, in sec-governance conflicts, and as a callback."},
+      {"cite_key": "Hamilton2022", "sections": ["sec-fair-preclinical", "sec-governance"], "role": "Oncology mandate audit; supplies the 'declared vs actual vs FAIR' collapse used in both the FAIR ecosystem and governance sections."},
+      {"cite_key": "Sena2010", "sections": ["sec-introduction", "sec-repro-crisis"], "role": "Stroke publication-bias meta-analysis; anchors both the intro's data-loss figure and the crisis section, and appears in a cluster_01 conflict (Fu2022 vs Sena2010)."},
+      {"cite_key": "terRiet2012", "sections": ["sec-introduction", "sec-repro-crisis"], "role": "Non-publication survey; used in the intro data-loss figure and the crisis section; also a node in the publication-magnitude debate (terRiet2012 vs Deutsch2021)."},
+      {"cite_key": "Inau2023", "sections": ["sec-fair-preclinical", "sec-nams-data"], "role": "FAIR-in-health scoping review; grounds the FAIR-ecosystem critique and the claim that NAM-generated data inherit the same immature FAIR adoption."},
+      {"cite_key": "Voelkl2018", "sections": ["sec-repro-crisis", "sec-data-welfare"], "role": "Multi-laboratory reproducibility simulation; introduced in the crisis section's standardization debate and revisited in the data-welfare heterogenization conflict (Richter2011 vs Voelkl2018)."},
+      {"cite_key": "TorresEspin2021", "sections": ["sec-fair-preclinical", "sec-virtual-controls"], "role": "ODC-SCI, a FAIR repository for long-tail preclinical data; example of scarce preclinical reuse infrastructure in sec-fair-preclinical and of reusable control data in sec-virtual-controls."},
+      {"cite_key": "Adedeji2024", "sections": ["sec-virtual-controls"], "role": "VCG non-reproducibility review; the counterweight in three separate VCG conflicts (vs DuchateauNguyen2026, vs Li2024a, vs StegerHartmann2020)."},
+      {"cite_key": "Fanelli2009", "sections": ["sec-repro-crisis", "sec-incentives"], "role": "Misconduct/QRP meta-analysis; the ~2% fabrication baseline used in both the crisis QRP figure and the incentives prevalence figure."},
+      {"cite_key": "Kidwell2016", "sections": ["sec-incentives", "sec-governance"], "role": "Open-practice badges; the pro-enforcement exhibit reused in incentive and governance conflicts (vs Roche2015; vs Jin2018)."},
+      {"cite_key": "PercieduSert2020a", "sections": ["sec-data-welfare", "sec-governance"], "role": "ARRIVE 2.0; the reporting-standard reference bridging the data-welfare reframe and the governance evaluation of guideline adherence."},
+      {"cite_key": "Pound2018", "sections": ["sec-introduction", "sec-data-welfare", "sec-conclusion"], "role": "Retrospective harm-benefit analysis (<7% permissible; 97% no analgesia); recurring ethical exhibit linking welfare failure to data failure."}
+    ],
+    "developing_debates": [
+      {"debate": "Do sharing policies/mandates translate into actual usable data?", "introduced_in": "sec-fair-preclinical", "seed_conflicts": ["Inau2023 vs VanTuyl2016", "Hamidi2025 vs VanTuyl2016 (figure formal-dmp-compliance-vs-realized-sharing)"], "revisited_in": ["sec-incentives (Danchev2021 vs Kidwell2016; declared-vs-actual-open-data)", "sec-governance (Hair2019 vs Macleod2019b; Deeb2025 vs Hamilton2023)"], "resolution_status": "Partly resolved: enforcement with checks works better than endorsement, but field-wide availability stays near 2%."},
+      {"debate": "Does standardization help or harm reproducibility (standardize vs heterogenize)?", "introduced_in": "sec-repro-crisis", "seed_conflicts": ["Voelkl2021 vs Samsa2019", "ArroyoAraujo2019 vs Voelkl2020"], "revisited_in": ["sec-data-welfare (Richter2011 vs Voelkl2018; Serdar2021 vs Voelkl2020)"], "resolution_status": "Open: multi-laboratory designs favoured for external validity, but Reduction pressure pulls the other way."},
+      {"debate": "Is the reproducibility/false-findings crisis genuine or overstated?", "introduced_in": "sec-repro-crisis", "seed_conflicts": ["OpenScienceCollaboration2015 vs Gilbert2016"], "revisited_in": ["sec-incentives (Ioannidis2005b vs Fanelli2018)"], "resolution_status": "Open, but the review sides with a real, method-dependent crisis rather than dismissing it."},
+      {"debate": "Do VCGs preserve concurrent-control conclusions?", "introduced_in": "sec-virtual-controls", "seed_conflicts": ["DuchateauNguyen2026 vs Adedeji2024", "Nambiar2012 vs Kellner2025"], "revisited_in": ["sec-conclusion (flagged as open: regulatory acceptance and endpoint-dependence)"], "resolution_status": "Open: high agreement for some endpoints, high non-reproducibility for clinical pathology; no regulatory acceptance yet."},
+      {"debate": "Are the 3Rs sufficient or do they need a scientific-value/data dimension?", "introduced_in": "sec-data-welfare", "seed_conflicts": ["Strech2019 vs Vitale2022"], "revisited_in": ["sec-conclusion (data welfare proposed as the needed extension)"], "resolution_status": "The review adopts the expansion view, positioning data welfare as the extension."},
+      {"debate": "Can incentives/metrics be reformed to reward stewardship, or are they structurally corrupting?", "introduced_in": "sec-incentives", "seed_conflicts": ["Munafo2017 vs Smaldino2016", "Ioannidis2023b vs Gadd2021"], "revisited_in": ["sec-governance (enforcement evidence)", "sec-conclusion (open question)"], "resolution_status": "Open: reform is necessary but its causal effect on behaviour is largely unproven."}
+    ],
+    "narrative_callbacks": [
+      "sec-conclusion returns explicitly to the Ethical Debt cycle of fig:sec01-ethical-debt-cycle, mapping each repayment mechanism onto the loop it interrupts.",
+      "sec-data-welfare recalls the specific harms quantified in sec-repro-crisis (publication bias, non-translation) and re-labels them as welfare harms.",
+      "sec-virtual-controls calls back to sec-fair-preclinical's finding that generic sharing fails, presenting control-data reuse as the exception that proves reuse is possible when data are curated.",
+      "sec-nams-data calls back to sec-fair-preclinical and sec-virtual-controls to argue the stewardship debt recurs for non-animal data.",
+      "sec-incentives calls back across sec-fair-preclinical, sec-virtual-controls and sec-nams-data to name the reward system as the common cause of all three stewardship failures.",
+      "sec-governance and sec-conclusion recall the ~2% actual-availability anchor (Hamilton2023) established in sec-fair-preclinical as the benchmark against which reform must be judged."
+    ]
+  },
+  "figure_style_guide": {
+    "color_palette": {
+      "declared_nominal": {"hex": "#56B4E9", "meaning": "Declared / stated / nominal values (data-availability statements, DMP compliance, pledged sharing)"},
+      "actual_verified": {"hex": "#0072B2", "meaning": "Actual / verified / usable values (data truly available, FAIR-compliant)"},
+      "debt_loss_negative": {"hex": "#D55E00", "meaning": "Data waste, bias inflation, loss, non-reproducibility - the debt"},
+      "repayment_gain_positive": {"hex": "#009E73", "meaning": "Reduction achieved, reuse, gain, repayment mechanisms"},
+      "highlight_conflict": {"hex": "#E69F00", "meaning": "Conflicting/divergent estimates or the highlighted disputed value in a cross-study conflict"},
+      "secondary_category": {"hex": "#CC79A7", "meaning": "Secondary category (e.g., non-animal/NAM series, or a third comparator group)"},
+      "emphasis": {"hex": "#F0E442", "meaning": "Callout/emphasis fill for a single focal bar or annotation band (use sparingly, always with a text label)"},
+      "neutral_baseline": {"hex": "#999999", "meaning": "Baseline, reference line, or context/other studies not in focus"},
+      "ink": {"hex": "#222222", "meaning": "Text, axes, and primary rules"}
+    },
+    "category_colors": {
+      "declared_vs_actual": {"declared": "#56B4E9", "actual": "#0072B2", "fair_compliant": "#004C6D"},
+      "debt_vs_repayment": {"debt": "#D55E00", "repayment": "#009E73"},
+      "before_vs_after": {"before": "#999999", "after": "#0072B2"},
+      "animal_vs_nonanimal": {"animal_data": "#0072B2", "nam_nonanimal": "#CC79A7"},
+      "convergent_vs_conflict": {"convergent_series": "#0072B2", "conflict_low": "#56B4E9", "conflict_high": "#E69F00"}
+    },
+    "font": {"family": "Source Sans Pro (fallback: Arial, Helvetica, sans-serif)", "title_pt": 12, "axis_label_pt": 10, "tick_pt": 9, "annotation_pt": 8.5, "caption_pt": 9},
+    "line_weights": {"axis_pt": 1.0, "data_line_pt": 2.0, "error_bar_pt": 1.0, "reference_line_pt": 0.75, "reference_line_style": "dashed", "bar_edge_pt": 0.5},
+    "dpi": 300,
+    "background": "white",
+    "redundant_cues": true,
+    "redundant_cues_note": "Never encode meaning by hue alone. Pair every colour with a second channel: hatch/pattern fills for declared vs actual (open hatch vs solid), distinct markers (circle/triangle/square) on forest and line plots, direct value labels on every bar, and short text annotations naming the focal contrast. Palette is the Okabe-Ito colourblind-safe set; verify with a deuteranopia/protanopia simulation before export."
+  },
+  "figure_specs": [
+    {
+      "label": "fig:sec01-ethical-debt-cycle",
+      "type": "conceptual schematic",
+      "section": "section_01",
+      "argument_supported": "Defines the Ethical Debt as a self-reinforcing cycle in which data loss drives repeated animal use, and locates the four repayment mechanisms as interventions that break the loop.",
+      "data_source": "conceptual",
+      "what_it_reveals": "Prose can list the steps but the loop graphic makes their circularity and causality explicit - that unusable data is not a downstream inconvenience but a driver of new animal use - and shows exactly where FAIR, reuse/VCG, and NAM stewardship intervene.",
+      "caption_draft": "Figure 1. The Ethical Debt cycle. Animals are used to generate knowledge (top); the resulting data are frequently rendered unfindable, unusable, or unshared (right); knowledge therefore cannot be reused (bottom); and equivalent experiments are repeated in new animals (left), incurring further welfare cost. Arcs mark the interventions that repay the debt - FAIR data stewardship, data reuse and virtual control groups, and stewardship of NAM-generated data - each interrupting the loop at a different point. Data welfare is thereby positioned as a dimension of animal welfare."
+    },
+    {
+      "label": "fig:sec01-animal-data-loss",
+      "type": "cross-study comparison",
+      "section": "section_01",
+      "argument_supported": "Grounds the debt thesis empirically: a large fraction of animal-generated data never reaches the shared, reusable record, and even the most optimistic estimate leaves substantial loss.",
+      "data_source": "animal-study-publication-rates",
+      "what_it_reveals": "Juxtaposing method-divergent estimates (meta-analytic missing-study, opinion survey, prospective protocol tracking) reveals both the method-dependence of the headline number and the irreducible loss that survives even the highest estimate - a nuance single figures hide.",
+      "caption_draft": "Figure 2. How much animal-experiment data reaches the published record, by estimation method. Meta-analytic detection of missing studies implies ~14% of stroke experiments went unpublished (Sena2010); researcher surveys estimate only ~50% of experiments are ever published (terRiet2012); prospective protocol-to-publication tracking finds ~70% (Deutsch2021); and ~17% of drugs had no efficacy study published before the first human trial (Federico2014). Even the most favourable estimate leaves a large fraction of animal-derived data unavailable for reuse. Bars use debt colouring; values are labelled directly."
+    },
+    {
+      "label": "fig:sec02-translational-attrition",
+      "type": "cross-study comparison",
+      "section": "section_02",
+      "argument_supported": "Quantifies translational failure at the clinical end of the preclinical pipeline, showing convergent low approval rates that motivate scrutiny of preclinical evidence.",
+      "data_source": "clinical-approval-success-rates",
+      "what_it_reveals": "Placing five independent estimates on one axis shows convergence (roughly 5-14% phase-1-to-approval), which is more persuasive than any single figure and separates oncology-specific lows from the general rate.",
+      "caption_draft": "Figure 3. Convergent estimates of clinical development success (phase 1 to approval). Independent analyses place the likelihood of approval at 14.3% (Schuhmacher2025; DiMasi2014), 7% (Dhillon2022), 6.1% (Luo2026), and 5% for paediatric drugs (Wasylewski2020). The convergence quantifies the translational attrition downstream of preclinical animal studies. Markers distinguish studies; the shaded band spans the convergent 5-14% range."
+    },
+    {
+      "label": "fig:sec02-bias-inflation",
+      "type": "cross-study comparison",
+      "section": "section_02",
+      "argument_supported": "Shows that internal-validity flaws and publication bias each independently inflate reported preclinical efficacy, so the published effect is systematically overstated.",
+      "data_source": "bias-inflation-preclinical-neuro-SRs",
+      "what_it_reveals": "A forest layout puts three additive inflation sources on a common effect-size axis, revealing that the distortions compound rather than compete - impossible to see when the estimates are reported in separate paragraphs.",
+      "caption_draft": "Figure 4. Bias-driven overestimation of efficacy in preclinical neuro/stroke/spinal-cord-injury meta-analyses. Lack of blinded ischaemia induction inflates effect sizes by ~13.1% (Crossley2008), lack of blinded outcome assessment by ~7.2% (Watzlawick2019), and publication bias by ~27% (Watzlawick2014). Each source independently exaggerates apparent efficacy; plotted on one axis, the distortions compound. Points show the inflation estimate; whiskers show reported uncertainty where available."
+    },
+    {
+      "label": "fig:sec02-mouse-human-concordance",
+      "type": "cross-study comparison",
+      "section": "section_02",
+      "argument_supported": "Demonstrates that analytic choices, not the animal data themselves, can determine whether a model is judged to translate - a core reproducibility vulnerability.",
+      "data_source": "mouse-human-inflammation-concordance",
+      "what_it_reveals": "Setting Seok2013 (near-random) beside Takao2014 (strong) from the same datasets makes the analysis-dependence vivid: two defensible pipelines reach opposite verdicts on the same animals' data.",
+      "caption_draft": "Figure 5. Same data, opposite conclusions: mouse-to-human genomic concordance in inflammation. Using the same datasets, Seok2013 reports near-random concordance (R^2 0.0-0.1) while Takao2014, after a different gene-selection step, reports strong concordance (Spearman rho 0.43-0.68). The contrast (highlight colouring) shows how analytic degrees of freedom, not the animal data alone, can decide whether a model is deemed translatable. Metrics are non-identical and are labelled per bar to avoid false equivalence."
+    },
+    {
+      "label": "fig:sec03-welfare-to-data-welfare",
+      "type": "conceptual schematic",
+      "section": "section_03",
+      "argument_supported": "Makes the central conceptual move of the review: that data stewardship extends each of the 3Rs, so data welfare is a welfare concept rather than a data-management afterthought.",
+      "data_source": "conceptual",
+      "what_it_reveals": "Overlaying the data lifecycle on the 3Rs shows precisely which stewardship acts extend which R (reporting/reuse -> Reduction; FAIR/registration -> Refinement of the record; reuse and NAM outputs -> Replacement), turning an argued bridge into a legible map.",
+      "caption_draft": "Figure 6. From the 3Rs to data welfare. The classical 3Rs (Replacement, Reduction, Refinement) are overlaid on the data lifecycle: complete reporting and reuse extend Reduction (fewer new animals per unit of knowledge), FAIR stewardship and registration extend Refinement of the scientific record, and reuse of existing data and NAM outputs extend Replacement. 'Data welfare' names the claim that letting animal-derived data become unusable is itself a welfare harm. Proposed 6R and 12R expansions (Strech2019; Brink2023) are indicated at the points they add."
+    },
+    {
+      "label": "fig:sec03-reduction-magnitude",
+      "type": "cross-study comparison",
+      "section": "section_03",
+      "argument_supported": "Quantifies how much animal use can be reduced through better design and data reuse, grounding the 'reuse as Reduction' reframe in concrete magnitudes.",
+      "data_source": "reduction-magnitude-design-methods",
+      "what_it_reveals": "Placing three independent methods (power-based sizing, model refinement, historical controls) side by side shows they each deliver Reduction of the same order (half to ~90%), making the reframe quantitatively credible rather than aspirational.",
+      "caption_draft": "Figure 7. Achievable Reduction in animal numbers by method. Formal power/sample-size calculation cut required numbers to less than half of typical usage (Landes2023), a refined pulmonary-embolism model reduced mice per experiment by ~90% (Graham2015), and historical controls cut current control animals by more than half (Kramer2015). Reuse and design improvements deliver Reduction of the same order as the debt they help repay. Bars use repayment colouring with direct value labels."
+    },
+    {
+      "label": "fig:sec03-3rs-underreporting",
+      "type": "cross-study comparison",
+      "section": "section_03",
+      "argument_supported": "Shows the 3Rs are widely under-implemented in practice, so the welfare framework already on the books is not being met - the gap data welfare must address.",
+      "data_source": "sample-size-power-welfare-reporting",
+      "what_it_reveals": "Juxtaposing a Reduction indicator (sample-size calculation) with a Refinement indicator (analgesia reporting) across audits reveals that both pillars fail simultaneously, not in isolation.",
+      "caption_draft": "Figure 8. Under-reporting of Reduction and Refinement in animal studies. Sample-size/power calculation was reported in only 5% of critical-care studies (Bara2014) and 0 of 28 radiation-countermeasure experiments (Landes2023), while 97% of studies did not report analgesia use (Pound2018). Formal application of the 3Rs is the exception, not the rule. Reduction and Refinement indicators are distinguished by hatch pattern as well as colour."
+    },
+    {
+      "label": "fig:sec04-actual-vs-declared-availability",
+      "type": "cross-study comparison",
+      "section": "section_04",
+      "argument_supported": "The flagship evidence that data are declared but not actually available or reusable, anchoring the FAIR-ecosystem critique and the review's ~2% benchmark.",
+      "data_source": "actual-data-availability-rates",
+      "what_it_reveals": "A forest plot of verified-availability rates across specialties (0.3-6.8%) shows the failure is not one field's problem but a convergent, replicated ceiling far below declared availability.",
+      "caption_draft": "Figure 9. Actual (verified) data availability across meta-research audits. Only ~2% of medical papers actually shared data (Hamilton2023), 4.5% provided raw data on request (RowhaniFarid2016), 6.8% of authors who promised data provided it (Gabelica2022), and just 0.3% of declared-available datasets met key FAIR criteria (Hamilton2022). Actual reusability sits far below declared availability. Points show the audited rate; whiskers show 95% confidence intervals where reported."
+    },
+    {
+      "label": "fig:sec04-dmp-vs-realized",
+      "type": "cross-study comparison",
+      "section": "section_04",
+      "argument_supported": "Demonstrates the policy-behaviour gap directly: formal data-management-plan compliance is high while realized sharing is near zero, so mandates on paper do not produce usable data.",
+      "data_source": "formal-dmp-compliance-vs-realized-sharing",
+      "what_it_reveals": "Putting compliance (79.3%), zero-sharing (76%), and actual availability (2%) on one axis exposes the collapse from paperwork to practice in a single view - the defining pathology of the FAIR ecosystem.",
+      "caption_draft": "Figure 10. Formal data-management-plan compliance versus realized sharing. While 79.3% of NIH data-management plans addressed all required elements (Hamidi2025), 76% of DMP-covered projects shared no data at all (VanTuyl2016) and field-wide actual public availability is ~2% (Hamilton2023). Compliance on paper does not translate into usable data. Declared/compliance bars use declared colouring; realized bars use actual colouring."
+    },
+    {
+      "label": "fig:sec04-fair-reusability",
+      "type": "cross-study comparison",
+      "section": "section_04",
+      "argument_supported": "Shows that even when data are shared, they score low on FAIR Reusability, so 'shared' is not 'reusable' - sharing is necessary but far from sufficient.",
+      "data_source": "fair-reusability-scores",
+      "what_it_reveals": "Convergence of two unrelated domains on ~2-3/10 reusability indicates a general reusability deficit rather than a domain artefact, reinforcing that the debt persists past nominal sharing.",
+      "caption_draft": "Figure 11. FAIR Reusability sub-scores of shared datasets. Independent assessments converge on low reusability even when data are shared: 2.4/10 for a dental research corpus (Uribe2022) and 2-3/10 for urban air-quality datasets (Syed2025). Sharing is necessary but far from sufficient for reuse. The 10-point scale maximum is shown as a dashed reference line."
+    },
+    {
+      "label": "fig:sec05-vcg-reduction",
+      "type": "cross-study comparison",
+      "section": "section_05",
+      "argument_supported": "Quantifies the Reduction dividend of virtual control groups and control-data borrowing, showing convergence on ~25% control-animal reduction plus a clinical analogue.",
+      "data_source": "vcg-hcd-animal-reduction-estimates",
+      "what_it_reveals": "Convergence of three preclinical estimates on ~25% - alongside a clinical Bayesian-borrowing enrolment reduction - shows the reduction figure is stable across independent groups, making it a defensible planning number.",
+      "caption_draft": "Figure 12. Estimated animal/enrolment reduction from virtual control groups and Bayesian control-borrowing. Preclinical proposals converge on ~25% control-animal reduction (StegerHartmann2020; Gurjanov2024b; Adedeji2024), while a device-trial Bayesian dynamic-borrowing design reduced enrolment from 2,386 to ~1,497 under congruence (Chiaruttini2025). Reusing control data operationalises Reduction. Preclinical (animal-count) and clinical (enrolment) reductions are distinguished by category colour."
+    },
+    {
+      "label": "fig:sec05-vcg-concordance",
+      "type": "cross-study comparison",
+      "section": "section_05",
+      "argument_supported": "Presents the central VCG tradeoff - that reduction comes at an endpoint-dependent concordance cost - so the ethical dividend is real but not free.",
+      "data_source": "vcg-concurrent-control-concordance",
+      "what_it_reveals": "Setting high overall agreement (82%, 68.5%) against high clinical-pathology non-reproducibility (31-49%) on one axis shows the tradeoff is endpoint-specific, not a single verdict for or against VCGs.",
+      "caption_draft": "Figure 13. Concordance between virtual/omitted-concurrent-control analyses and true concurrent controls. Omitting the concurrent control confirmed 82% of significant NHP parameters (Mecklenburg2023) and VCGs reproduced rat liver-enzyme decisions with >=90% agreement in 68.5% of comparisons (DuchateauNguyen2026), yet 31-49% of quantitative clinical-pathology parameters were non-reproducible when VCGs replaced concurrent controls (Adedeji2024). Agreement (repayment colour) and non-reproducibility (debt colour) are plotted together to show the endpoint-dependent tradeoff."
+    },
+    {
+      "label": "fig:sec05-shared-control-scale",
+      "type": "data summary",
+      "section": "section_05",
+      "argument_supported": "Establishes that the infrastructure for control-data reuse already exists at scale, so the bottleneck is acceptance and stewardship, not data volume.",
+      "data_source": "shared-control-database-scale",
+      "what_it_reveals": "A single summary of database scales (tens of thousands of animals/studies) makes concrete that reuse is a solved data-availability problem for this specific data type, unlike the general FAIR failure in sec-fair-preclinical.",
+      "caption_draft": "Figure 14. Scale of shared preclinical control/nonclinical databases. Curated resources already hold control and toxicology data at scale: 10,896 rats across 106 studies in RITA (Deschl2002), >60,000 rats plus 1,300 dogs and 500 monkeys in eTRANSAFE (Moresis2024), 6,500 legacy studies from eTOX (Pognan2021), and >10,000 SEND datasets in the FDA CDER repository (Snyder2024). The reuse infrastructure exists; acceptance and stewardship are the bottleneck. A log scale is used because counts span orders of magnitude; exact values are labelled."
+    },
+    {
+      "label": "fig:sec06-nam-vs-invivo",
+      "type": "cross-study comparison",
+      "section": "section_06",
+      "argument_supported": "Shows NAM assays reach usable-to-high predictivity against in vivo/consensus references for defined endpoints, but each study uses a different endpoint - performance is real yet fragmented.",
+      "data_source": "nam-predictive-performance-vs-invivo",
+      "what_it_reveals": "Plotting sensitivity and specificity for five NAM assay types together reveals both that predictivity is respectable and that the endpoints are non-comparable, which is exactly why FAIR standardisation of NAM data matters.",
+      "caption_draft": "Figure 15. Predictive performance of NAM assays against in vivo or consensus references. Reconstructed-skin genotoxicity (77%/88%, Pfuhler2020), reporter genotoxicity (84.4%/91.2%, Hendriks2024), skin sensitisation (85.0%/68.2%, Corvaro2024), hepatotoxicity spheroids (86%/100%, Sirenko2016), and HTS-based modelling (balanced accuracy 0.55-0.88, Filer2022) show moderate-to-high, endpoint-specific predictivity. Sensitivity and specificity are shown as paired markers; the heterogeneity of endpoints is flagged in the axis notes."
+    },
+    {
+      "label": "fig:sec06-in-silico-performance",
+      "type": "cross-study comparison",
+      "section": "section_06",
+      "argument_supported": "Shows in silico/QSAR NAMs reach high accuracy for narrow endpoints, supporting their use for targeted Replacement while underscoring endpoint fragmentation.",
+      "data_source": "in-silico-predictive-performance",
+      "what_it_reveals": "A common accuracy axis across three distinct in silico endpoints makes the 'high but narrow' pattern legible and motivates the call for standardised, FAIR NAM outputs that could be pooled.",
+      "caption_draft": "Figure 16. Predictive accuracy of in silico/QSAR NAMs across endpoints. Derek Nexus phototoxicity (77%, Ahuja2024), a QSAR pregnancy-category model (94.11% external accuracy, KelleciCelik2022), and interspecies aquatic QSAR-ICE models (>75% cross-validation success, Hong2022) demonstrate usable predictivity for well-defined endpoints. Different endpoints and metrics are labelled per bar; a common 100% reference line is shown."
+    },
+    {
+      "label": "fig:sec06-nam-data-scale",
+      "type": "data summary",
+      "section": "section_06",
+      "argument_supported": "Establishes that NAMs generate large, heterogeneous datasets, so Replacement relocates rather than removes the stewardship debt - the same reuse failure will recur unless NAM data are made FAIR.",
+      "data_source": "nam-fair-data-resource-scale",
+      "what_it_reveals": "Summarising the scale of curated NAM resources (100,000+ substances; 2,000+ nanomaterials) makes concrete that a new data-welfare debt is being created in non-animal research right now.",
+      "caption_draft": "Figure 17. Scale of curated NAM/chemical data resources built for reuse. FAIR-oriented resources aggregate >100,000 substances (MohammedTaha2022), >2,000 nanomaterials (Afantitis2020), and 25 meta-analysed proteomic datasets (Bahl2023). NAMs replace animals but generate high-dimensional data that will incur a new ethical and scientific debt unless stewarded to FAIR standards. A log scale is used; exact counts are labelled."
+    },
+    {
+      "label": "fig:sec07-rpt-criteria",
+      "type": "cross-study comparison",
+      "section": "section_07",
+      "argument_supported": "Shows evaluation systems reward publication counts and impact while almost never rewarding data sharing, identifying the structural cause of the stewardship failure.",
+      "data_source": "rpt-evaluation-criteria",
+      "what_it_reveals": "Placing publication-count prevalence (95%) beside data-sharing prevalence (1%) and JIF use (40%) in one view exposes the near-total asymmetry of the reward structure that prose would understate.",
+      "caption_draft": "Figure 18. What researcher-evaluation systems reward. Biomedical promotion/tenure guidelines mention peer-reviewed publication counts in 95% of cases but data sharing in only 1% (Rice2020), and 40% of research-intensive institutions invoke the Journal Impact Factor in review/promotion/tenure (McKiernan2019). The incentive structure prices data stewardship at essentially zero. Traditional and open-science criteria are distinguished by colour and hatch."
+    },
+    {
+      "label": "fig:sec07-declared-vs-actual",
+      "type": "cross-study comparison",
+      "section": "section_07",
+      "argument_supported": "Shows declared intent vastly exceeds actual open data, demonstrating that incentives do not reach behaviour and that pledges are not a proxy for usable data.",
+      "data_source": "declared-vs-actual-open-data",
+      "what_it_reveals": "The paired declared-vs-actual bars (68.6% vs 0.6%) make the incentive-to-behaviour gap unmistakable and connect the incentive diagnosis to the ~2% availability anchor.",
+      "caption_draft": "Figure 19. Declared versus actual open data under sharing policies. Clinical-trial papers declared data sharing at 68.6% but only 0.6% were actually available (Danchev2021); psychology raw-data sharing was ~2% (Hardwicke2021); orthopaedic data-sharing statements appeared in 14% of articles (Major2025). Stated intent is not a proxy for usable data. Declared and actual values are paired per study with declared/actual colouring and hatch."
+    },
+    {
+      "label": "fig:sec07-qrp-prevalence",
+      "type": "cross-study comparison",
+      "section": "section_07",
+      "argument_supported": "Documents the behavioural substrate of the crisis: questionable research practices are common under current incentives, though estimates depend heavily on definition.",
+      "data_source": "qrp-prevalence-surveys",
+      "what_it_reveals": "The wide spread (2% fabrication to 94% any-QRP) on one axis makes explicit that definition drives the number, teaching the reader to distrust single QRP figures - a methodological point as much as an empirical one.",
+      "caption_draft": "Figure 20. Self-reported prevalence of questionable research practices. Estimates span from ~2% admitting outright data fabrication (Fanelli2009) to 94% admitting at least one QRP (Schneider2024), with ~20% implicitly associating QRPs with career success (Velicu2025). The spread reflects definitional choices but converges on the conclusion that incentive-driven QRPs are common. Each bar is annotated with its definition to prevent false comparison."
+    },
+    {
+      "label": "fig:sec08-guideline-timeline",
+      "type": "timeline",
+      "section": "section_08",
+      "argument_supported": "Shows guideline/policy mandates produce heterogeneous, often small effects on animal-research reporting, and that enforcement rather than endorsement drives change.",
+      "data_source": "guideline-adherence-before-after",
+      "what_it_reveals": "Before/after pairs across studies reveal that the same class of intervention yields anything from a null to an 85-point swing depending on enforcement - a dispersion invisible in any single before/after statistic.",
+      "caption_draft": "Figure 21. Animal-research reporting before versus after guideline/policy mandates. Effects are heterogeneous: randomization reporting rose 13.6% -> 85.7% under an enforced checklist (Munro2022) and Landis-4 compliance 0% -> 16.4% after a Nature policy (Macleod2019b), yet passive publication of ARRIVE moved ethics/3Rs statements only 51% -> 66% (Gulin2015), and a randomised checklist trial improved husbandry reporting modestly (52.1% -> 74.1%, Hair2019); 'poor' reporting fell 46.05% -> 9.55% post-ARRIVE 2.0 (Lin2024). Before and after points are joined by arrows; enforced interventions are marked."
+    },
+    {
+      "label": "fig:sec08-declared-vs-actual-availability",
+      "type": "cross-study comparison",
+      "section": "section_08",
+      "argument_supported": "Shows actual availability collapses further against FAIR criteria and that encouraging policies are no more effective than none - setting the bar reform must clear.",
+      "data_source": "data-availability-declared-vs-actual",
+      "what_it_reveals": "Stacking declared, actual, and FAIR-compliant rates reveals an order-of-magnitude loss at each stricter criterion, quantifying exactly how far governance has to move the field.",
+      "caption_draft": "Figure 22. Declared, actual, and FAIR-compliant data availability. Repository-deposit statements appear in ~20% of papers (Federer2018), but actual public availability is ~2% against 8% declared (Hamilton2023), and FAIR-compliant availability falls below 1% even where 19% declared and 16% were nominally available (Hamilton2022). Each stricter criterion removes roughly another order of magnitude. The three criteria use a graded declared-to-actual colour ramp with direct labels."
+    },
+    {
+      "label": "fig:sec08-institution-vs-fieldwide",
+      "type": "cross-study comparison",
+      "section": "section_08",
+      "argument_supported": "Frames the live debate on whether data sharing is improving, contrasting an optimistic single-institution trend with a sober field-wide baseline - the empirical crux for judging reform.",
+      "data_source": "data-sharing-trend-institutional-vs-fieldwide",
+      "what_it_reveals": "Juxtaposing the 7%->45% institutional rise with ~2-16% field-wide availability shows that local, actively stewarded progress does not generalise, cautioning against extrapolating success stories.",
+      "caption_draft": "Figure 23. Is data sharing improving? A single-institution audit found sharing of all relevant data rose 7% -> 45% (2014-2023, Deeb2025), but field-wide audits still measure only ~2% actual availability (Hamilton2023) and ~16% in oncology with <1% FAIR (Hamilton2022). Local progress under active stewardship contrasts with a largely unchanged field-wide baseline. The institutional trend and field-wide points are visually separated and colour-coded conflict-high versus actual."
+    },
+    {
+      "label": "fig:sec09-repayment-roadmap",
+      "type": "conceptual schematic",
+      "section": "section_09",
+      "argument_supported": "Synthesises the four repayment mechanisms and their governance/incentive gating into a single pathway, and marks the unresolved empirical questions.",
+      "data_source": "conceptual",
+      "what_it_reveals": "Integrates FAIR, reuse/VCG, NAM stewardship, and incentive/governance reform into one diagram keyed to the debt cycle of Figure 1, showing how the parts combine and where evidence is still missing - a synthesis text cannot hold in view at once.",
+      "caption_draft": "Figure 24. Repaying the Ethical Debt: an integrated pathway. The repayment mechanisms - FAIR stewardship (sec-fair-preclinical), data reuse and virtual control groups (sec-virtual-controls), and stewardship of NAM-generated data (sec-nams-data) - converge on reduced animal use, gated by incentive and governance reform (sec-incentives, sec-governance). Open questions, flagged in the debt colour, mark where evidence is still missing: regulatory acceptance of VCGs, the causal effect of FAIRification on actual reuse, and whether evaluation reform changes behaviour. The diagram closes the loop opened in Figure 1."
+    }
+  ]
+}

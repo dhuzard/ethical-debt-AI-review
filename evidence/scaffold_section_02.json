@@ -1,0 +1,226 @@
+{
+ "section_id": "section_02",
+ "section_plan": {
+  "id": "section_02",
+  "title": "The Reproducibility and Translation Crisis in Preclinical Research",
+  "canonical_label": "sec-repro-crisis",
+  "clusters": [
+   "cluster_01"
+  ],
+  "thesis": "Preclinical animal research is distorted by publication bias, selective reporting, weak internal validity, and poor concordance with human outcomes, so a large share of published animal findings is unreliable and fails to translate. The crisis is not merely wasteful of money but of the animals whose data cannot be trusted or reused, establishing the stakes for the rest of the review.",
+  "key_evidence": [
+   "Sena2010",
+   "Tsilidis2013",
+   "Freedman2015",
+   "Errington2021a",
+   "Errington2021b",
+   "Errington2021c",
+   "Perel2006",
+   "Draeger2020",
+   "Federico2014",
+   "terRiet2012"
+  ],
+  "conflicts_to_present": [
+   {
+    "a_key": "Seok2013",
+    "b_key": "Takao2014",
+    "nature": "Using the same inflammation gene-expression datasets, one analysis finds near-random mouse-human concordance (R^2 0.0-0.1) and the other finds strong concordance (Spearman 0.43-0.68); the discrepancy is driven entirely by gene-selection method, showing analytic choices, not the animal data, decide translatability."
+   },
+   {
+    "a_key": "OpenScienceCollaboration2015",
+    "b_key": "Gilbert2016",
+    "nature": "Whether large replication projects demonstrate low reproducibility (only ~36% of replications significant) or, after correcting for alleged statistical artefacts, are consistent with high reproducibility; a live dispute about how deep the crisis really is."
+   },
+   {
+    "a_key": "Voelkl2021",
+    "b_key": "Samsa2019",
+    "nature": "Whether rigorous standardization of animals and environment improves reproducibility (rigor + transparency framing) or harms it by destroying external validity (reaction-norm framing) - two opposed prescriptions for fixing preclinical reliability."
+   }
+  ],
+  "connection_prev": "Follows sec-introduction by supplying the empirical crisis the debt thesis presupposes: the introduction claimed animal data are wasted; this section shows the published animal record is also biased and non-translating, so both the missing and the present data are compromised.",
+  "connection_next": "The crisis is usually framed as a scientific-quality problem; sec-data-welfare reframes it as an animal-welfare problem, arguing that irreproducibility and non-reuse are welfare harms that the 3Rs must therefore govern.",
+  "cross_references": [
+   "sec-introduction",
+   "sec-data-welfare",
+   "sec-incentives",
+   "sec-governance"
+  ],
+  "word_count_target": 4200,
+  "figures": [
+   "fig:sec02-translational-attrition",
+   "fig:sec02-bias-inflation",
+   "fig:sec02-mouse-human-concordance"
+  ]
+ },
+ "previous_section": "Follows sec-introduction by supplying the empirical crisis the debt thesis presupposes: the introduction claimed animal data are wasted; this section shows the published animal record is also biased and non-translating, so both the missing and the present data are compromised.",
+ "next_section": "The crisis is usually framed as a scientific-quality problem; sec-data-welfare reframes it as an animal-welfare problem, arguing that irreproducibility and non-reuse are welfare harms that the 3Rs must therefore govern.",
+ "figure_specs": [
+  {
+   "label": "fig:sec02-translational-attrition",
+   "type": "cross-study comparison",
+   "section": "section_02",
+   "argument_supported": "Quantifies translational failure at the clinical end of the preclinical pipeline, showing convergent low approval rates that motivate scrutiny of preclinical evidence.",
+   "data_source": "clinical-approval-success-rates",
+   "what_it_reveals": "Placing five independent estimates on one axis shows convergence (roughly 5-14% phase-1-to-approval), which is more persuasive than any single figure and separates oncology-specific lows from the general rate.",
+   "caption_draft": "Figure 3. Convergent estimates of clinical development success (phase 1 to approval). Independent analyses place the likelihood of approval at 14.3% (Schuhmacher2025; DiMasi2014), 7% (Dhillon2022), 6.1% (Luo2026), and 5% for paediatric drugs (Wasylewski2020). The convergence quantifies the translational attrition downstream of preclinical animal studies. Markers distinguish studies; the shaded band spans the convergent 5-14% range."
+  },
+  {
+   "label": "fig:sec02-bias-inflation",
+   "type": "cross-study comparison",
+   "section": "section_02",
+   "argument_supported": "Shows that internal-validity flaws and publication bias each independently inflate reported preclinical efficacy, so the published effect is systematically overstated.",
+   "data_source": "bias-inflation-preclinical-neuro-SRs",
+   "what_it_reveals": "A forest layout puts three additive inflation sources on a common effect-size axis, revealing that the distortions compound rather than compete - impossible to see when the estimates are reported in separate paragraphs.",
+   "caption_draft": "Figure 4. Bias-driven overestimation of efficacy in preclinical neuro/stroke/spinal-cord-injury meta-analyses. Lack of blinded ischaemia induction inflates effect sizes by ~13.1% (Crossley2008), lack of blinded outcome assessment by ~7.2% (Watzlawick2019), and publication bias by ~27% (Watzlawick2014). Each source independently exaggerates apparent efficacy; plotted on one axis, the distortions compound. Points show the inflation estimate; whiskers show reported uncertainty where available."
+  },
+  {
+   "label": "fig:sec02-mouse-human-concordance",
+   "type": "cross-study comparison",
+   "section": "section_02",
+   "argument_supported": "Demonstrates that analytic choices, not the animal data themselves, can determine whether a model is judged to translate - a core reproducibility vulnerability.",
+   "data_source": "mouse-human-inflammation-concordance",
+   "what_it_reveals": "Setting Seok2013 (near-random) beside Takao2014 (strong) from the same datasets makes the analysis-dependence vivid: two defensible pipelines reach opposite verdicts on the same animals' data.",
+   "caption_draft": "Figure 5. Same data, opposite conclusions: mouse-to-human genomic concordance in inflammation. Using the same datasets, Seok2013 reports near-random concordance (R^2 0.0-0.1) while Takao2014, after a different gene-selection step, reports strong concordance (Spearman rho 0.43-0.68). The contrast (highlight colouring) shows how analytic degrees of freedom, not the animal data alone, can decide whether a model is deemed translatable. Metrics are non-identical and are labelled per bar to avoid false equivalence."
+  }
+ ],
+ "figure_style_guide": {
+  "color_palette": {
+   "declared_nominal": {
+    "hex": "#56B4E9",
+    "meaning": "Declared / stated / nominal values (data-availability statements, DMP compliance, pledged sharing)"
+   },
+   "actual_verified": {
+    "hex": "#0072B2",
+    "meaning": "Actual / verified / usable values (data truly available, FAIR-compliant)"
+   },
+   "debt_loss_negative": {
+    "hex": "#D55E00",
+    "meaning": "Data waste, bias inflation, loss, non-reproducibility - the debt"
+   },
+   "repayment_gain_positive": {
+    "hex": "#009E73",
+    "meaning": "Reduction achieved, reuse, gain, repayment mechanisms"
+   },
+   "highlight_conflict": {
+    "hex": "#E69F00",
+    "meaning": "Conflicting/divergent estimates or the highlighted disputed value in a cross-study conflict"
+   },
+   "secondary_category": {
+    "hex": "#CC79A7",
+    "meaning": "Secondary category (e.g., non-animal/NAM series, or a third comparator group)"
+   },
+   "emphasis": {
+    "hex": "#F0E442",
+    "meaning": "Callout/emphasis fill for a single focal bar or annotation band (use sparingly, always with a text label)"
+   },
+   "neutral_baseline": {
+    "hex": "#999999",
+    "meaning": "Baseline, reference line, or context/other studies not in focus"
+   },
+   "ink": {
+    "hex": "#222222",
+    "meaning": "Text, axes, and primary rules"
+   }
+  },
+  "category_colors": {
+   "declared_vs_actual": {
+    "declared": "#56B4E9",
+    "actual": "#0072B2",
+    "fair_compliant": "#004C6D"
+   },
+   "debt_vs_repayment": {
+    "debt": "#D55E00",
+    "repayment": "#009E73"
+   },
+   "before_vs_after": {
+    "before": "#999999",
+    "after": "#0072B2"
+   },
+   "animal_vs_nonanimal": {
+    "animal_data": "#0072B2",
+    "nam_nonanimal": "#CC79A7"
+   },
+   "convergent_vs_conflict": {
+    "convergent_series": "#0072B2",
+    "conflict_low": "#56B4E9",
+    "conflict_high": "#E69F00"
+   }
+  },
+  "font": {
+   "family": "Source Sans Pro (fallback: Arial, Helvetica, sans-serif)",
+   "title_pt": 12,
+   "axis_label_pt": 10,
+   "tick_pt": 9,
+   "annotation_pt": 8.5,
+   "caption_pt": 9
+  },
+  "line_weights": {
+   "axis_pt": 1.0,
+   "data_line_pt": 2.0,
+   "error_bar_pt": 1.0,
+   "reference_line_pt": 0.75,
+   "reference_line_style": "dashed",
+   "bar_edge_pt": 0.5
+  },
+  "dpi": 300,
+  "background": "white",
+  "redundant_cues": true,
+  "redundant_cues_note": "Never encode meaning by hue alone. Pair every colour with a second channel: hatch/pattern fills for declared vs actual (open hatch vs solid), distinct markers (circle/triangle/square) on forest and line plots, direct value labels on every bar, and short text annotations naming the focal contrast. Palette is the Okabe-Ito colourblind-safe set; verify with a deuteranopia/protanopia simulation before export."
+ },
+ "cross_cutting_elements": {
+  "recurring_themes": [
+   "The declared-versus-actual gap: across FAIR audits, incentive studies and governance evaluations, stated intent (data-availability statements, DMP compliance, sharing pledges) vastly exceeds usable reality; recurs in sec-fair-preclinical, sec-incentives and sec-governance.",
+   "Convergence on ~2% actual data availability as the empirical anchor of the whole review, replicated across specialties and methods.",
+   "Reuse as Reduction: reusing existing data (historical/virtual controls, shared datasets, NAM outputs) is framed throughout as a direct 3Rs Reduction dividend, not merely good data hygiene.",
+   "False-consensus risk: several field-defining figures (11%/25% industry irreproducibility, US$28B/year, '85% of research wasted') rest on non-transparent or modeled sources and are flagged wherever cited.",
+   "Enforcement beats endorsement: passive publication of guidelines rarely changes behaviour; mandated, checked requirements do - a thread from sec-data-welfare through sec-incentives to sec-governance.",
+   "The animal-welfare stake: every data-stewardship failure is repeatedly tied back to its cost in animal lives, keeping the ethical argument foregrounded over the purely technical one.",
+   "Method-dependence of headline numbers: the same phenomenon (publication rate, concordance, QRP prevalence, sharing trend) yields very different values by method, so juxtaposition rather than single figures is the analytical style."
+  ],
+  "terminology": {
+   "ethical_debt": "The obligation incurred when animals are used to generate knowledge but the resulting data are allowed to become unfindable, unusable, or unreused; unpaid, it is discharged in further animal lives. Coined and used as the review's organising metaphor.",
+   "data_welfare": "The claim that stewardship of animal-derived data (findability, reusability, complete reporting) is a dimension of animal welfare and of the 3Rs, because wasting the data wastes the welfare cost that produced it.",
+   "FAIR": "Findable, Accessible, Interoperable, Reusable - the Wilkinson et al. (2016) principles for machine-actionable data stewardship. Distinguish FAIR (a stewardship standard) from 'open' (an access status); data can be FAIR without being fully open.",
+   "three_Rs": "Replacement, Reduction, Refinement (Russell & Burch) - the ethical/legal framework for humane animal research. The review argues data welfare extends all three, chiefly Reduction and Refinement.",
+   "VCG": "Virtual Control Group - a control arm reconstructed from curated historical control-animal data to partially or wholly replace concurrent controls, reducing control-animal use. Related term HCD = historical control data.",
+   "NAM": "New Approach Methodology - non-animal methods (in silico/QSAR models, organoids, organ-on-chip/microphysiological systems, high-throughput screening) used to predict toxicity or biology; serve Replacement but generate data needing stewardship.",
+   "reproducibility_vs_replicability": "Reproducibility = obtaining consistent results using the same data and analysis; replicability = obtaining consistent results in a new study with new data. The review uses 'reproducibility crisis' broadly but distinguishes the two where the evidence does (e.g., direct-replication projects test replicability; re-analysis disputes test reproducibility).",
+   "HBA": "Harm-Benefit Analysis - the project-level weighing of animal harm against expected benefit that anchors animal-research regulation; its objectivity and predictive validity are contested.",
+   "QRP": "Questionable Research Practice - selective reporting, p-hacking, undisclosed flexibility short of outright fabrication; a behavioural driver of the crisis.",
+   "ARRIVE": "Animal Research: Reporting of In Vivo Experiments - the reporting guideline whose adherence and enforcement are evaluated in sec-governance."
+  },
+  "abbreviations": {
+   "FAIR": "Findable, Accessible, Interoperable, Reusable",
+   "3Rs": "Replacement, Reduction, Refinement",
+   "VCG": "Virtual Control Group",
+   "HCD": "Historical Control Data",
+   "NAM": "New Approach Methodology",
+   "MPS": "Microphysiological System (organ-on-chip)",
+   "QSAR": "Quantitative Structure-Activity Relationship",
+   "AOP": "Adverse Outcome Pathway",
+   "HTS": "High-Throughput Screening",
+   "DILI": "Drug-Induced Liver Injury",
+   "HBA": "Harm-Benefit Analysis",
+   "IACUC": "Institutional Animal Care and Use Committee",
+   "AWERB": "Animal Welfare and Ethical Review Body",
+   "ARRIVE": "Animal Research: Reporting of In Vivo Experiments",
+   "QRP": "Questionable Research Practice",
+   "RPT": "Review, Promotion and Tenure",
+   "JIF": "Journal Impact Factor",
+   "DMP": "Data Management Plan",
+   "DMSP": "Data Management and Sharing Plan",
+   "DAS": "Data Availability Statement",
+   "RWD": "Real-World Data",
+   "ECA": "External Control Arm",
+   "NOAEL": "No-Observed-Adverse-Effect Level",
+   "SEND": "Standard for Exchange of Nonclinical Data",
+   "OMOP": "Observational Medical Outcomes Partnership (Common Data Model)",
+   "GWAS": "Genome-Wide Association Study",
+   "OA": "Open Access",
+   "TOP": "Transparency and Openness Promotion (guidelines)",
+   "PID": "Persistent Identifier",
+   "GEO": "Gene Expression Omnibus"
+  },
+  "voice_tone": "Critical, evidence-anchored, and quantitative, but ethically serious rather than polemical. Foreground effect sizes and their provenance; state uncertainty and flag false-consensus risks explicitly rather than smoothing them over. Prefer juxtaposition of divergent estimates to single headline numbers. Keep the animal-welfare stake visible without moralising. Third person, present tense for findings; hedged claims ('the evidence suggests', 'audits converge on') proportional to evidence strength."
+ }
+}

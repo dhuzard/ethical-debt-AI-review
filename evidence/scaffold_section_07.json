@@ -1,0 +1,226 @@
+{
+ "section_id": "section_07",
+ "section_plan": {
+  "id": "section_07",
+  "title": "Incentive Structures and the Political Economy of Research Data",
+  "canonical_label": "sec-incentives",
+  "clusters": [
+   "cluster_07"
+  ],
+  "thesis": "The persistence of the data-welfare debt is not a technical accident but a predictable output of the incentive system: evaluation rewards publication counts and journal impact while pricing data sharing at near-zero, questionable research practices are common, and declared openness vastly exceeds actual openness. Reform proposals exist but the evidence that they change behaviour - rather than metrics - is thin.",
+  "key_evidence": [
+   "Rice2020",
+   "McKiernan2019",
+   "Smaldino2016",
+   "Schneider2024",
+   "Roche2015",
+   "Fecher2015",
+   "Fanelli2009",
+   "Breznau2022",
+   "Head2015",
+   "Richardson2025"
+  ],
+  "conflicts_to_present": [
+   {
+    "a_key": "Munafo2017",
+    "b_key": "Smaldino2016",
+    "nature": "Reform optimism versus structural pessimism: the manifesto for reproducible science expects methods/reporting/incentive measures to improve reliability, whereas the natural-selection model argues that as long as publication drives careers, bad methods will keep being selected for - determines whether repaying the debt is feasible without changing incentives."
+   },
+   {
+    "a_key": "Kidwell2016",
+    "b_key": "Roche2015",
+    "nature": "Whether transparency interventions deliver usable open data: open-practice badges increased data that was actually available and complete, whereas audits of mandated archives found most datasets incomplete or unusable - voluntary signalling versus mandate effectiveness."
+   },
+   {
+    "a_key": "Ioannidis2023b",
+    "b_key": "Gadd2021",
+    "nature": "Whether quantitative/ranking metrics can be reformed into a force that improves research (rigorous, field-adjusted metrics) or are inherently socially irresponsible instruments universities should resist - the governance dilemma for any metric-based reform."
+   }
+  ],
+  "connection_prev": "sec-nams-data showed the stewardship failure recurs even for non-animal data; this section identifies the common cause across FAIR, VCG and NAM data - a reward structure that does not value stewardship.",
+  "connection_next": "If incentives explain why voluntary stewardship fails, sec-governance asks what enforced standards, mandates and reporting guidelines can actually achieve, and where they fall short.",
+  "cross_references": [
+   "sec-repro-crisis",
+   "sec-fair-preclinical",
+   "sec-governance",
+   "sec-conclusion"
+  ],
+  "word_count_target": 3800,
+  "figures": [
+   "fig:sec07-rpt-criteria",
+   "fig:sec07-declared-vs-actual",
+   "fig:sec07-qrp-prevalence"
+  ]
+ },
+ "previous_section": "sec-nams-data showed the stewardship failure recurs even for non-animal data; this section identifies the common cause across FAIR, VCG and NAM data - a reward structure that does not value stewardship.",
+ "next_section": "If incentives explain why voluntary stewardship fails, sec-governance asks what enforced standards, mandates and reporting guidelines can actually achieve, and where they fall short.",
+ "figure_specs": [
+  {
+   "label": "fig:sec07-rpt-criteria",
+   "type": "cross-study comparison",
+   "section": "section_07",
+   "argument_supported": "Shows evaluation systems reward publication counts and impact while almost never rewarding data sharing, identifying the structural cause of the stewardship failure.",
+   "data_source": "rpt-evaluation-criteria",
+   "what_it_reveals": "Placing publication-count prevalence (95%) beside data-sharing prevalence (1%) and JIF use (40%) in one view exposes the near-total asymmetry of the reward structure that prose would understate.",
+   "caption_draft": "Figure 18. What researcher-evaluation systems reward. Biomedical promotion/tenure guidelines mention peer-reviewed publication counts in 95% of cases but data sharing in only 1% (Rice2020), and 40% of research-intensive institutions invoke the Journal Impact Factor in review/promotion/tenure (McKiernan2019). The incentive structure prices data stewardship at essentially zero. Traditional and open-science criteria are distinguished by colour and hatch."
+  },
+  {
+   "label": "fig:sec07-declared-vs-actual",
+   "type": "cross-study comparison",
+   "section": "section_07",
+   "argument_supported": "Shows declared intent vastly exceeds actual open data, demonstrating that incentives do not reach behaviour and that pledges are not a proxy for usable data.",
+   "data_source": "declared-vs-actual-open-data",
+   "what_it_reveals": "The paired declared-vs-actual bars (68.6% vs 0.6%) make the incentive-to-behaviour gap unmistakable and connect the incentive diagnosis to the ~2% availability anchor.",
+   "caption_draft": "Figure 19. Declared versus actual open data under sharing policies. Clinical-trial papers declared data sharing at 68.6% but only 0.6% were actually available (Danchev2021); psychology raw-data sharing was ~2% (Hardwicke2021); orthopaedic data-sharing statements appeared in 14% of articles (Major2025). Stated intent is not a proxy for usable data. Declared and actual values are paired per study with declared/actual colouring and hatch."
+  },
+  {
+   "label": "fig:sec07-qrp-prevalence",
+   "type": "cross-study comparison",
+   "section": "section_07",
+   "argument_supported": "Documents the behavioural substrate of the crisis: questionable research practices are common under current incentives, though estimates depend heavily on definition.",
+   "data_source": "qrp-prevalence-surveys",
+   "what_it_reveals": "The wide spread (2% fabrication to 94% any-QRP) on one axis makes explicit that definition drives the number, teaching the reader to distrust single QRP figures - a methodological point as much as an empirical one.",
+   "caption_draft": "Figure 20. Self-reported prevalence of questionable research practices. Estimates span from ~2% admitting outright data fabrication (Fanelli2009) to 94% admitting at least one QRP (Schneider2024), with ~20% implicitly associating QRPs with career success (Velicu2025). The spread reflects definitional choices but converges on the conclusion that incentive-driven QRPs are common. Each bar is annotated with its definition to prevent false comparison."
+  }
+ ],
+ "figure_style_guide": {
+  "color_palette": {
+   "declared_nominal": {
+    "hex": "#56B4E9",
+    "meaning": "Declared / stated / nominal values (data-availability statements, DMP compliance, pledged sharing)"
+   },
+   "actual_verified": {
+    "hex": "#0072B2",
+    "meaning": "Actual / verified / usable values (data truly available, FAIR-compliant)"
+   },
+   "debt_loss_negative": {
+    "hex": "#D55E00",
+    "meaning": "Data waste, bias inflation, loss, non-reproducibility - the debt"
+   },
+   "repayment_gain_positive": {
+    "hex": "#009E73",
+    "meaning": "Reduction achieved, reuse, gain, repayment mechanisms"
+   },
+   "highlight_conflict": {
+    "hex": "#E69F00",
+    "meaning": "Conflicting/divergent estimates or the highlighted disputed value in a cross-study conflict"
+   },
+   "secondary_category": {
+    "hex": "#CC79A7",
+    "meaning": "Secondary category (e.g., non-animal/NAM series, or a third comparator group)"
+   },
+   "emphasis": {
+    "hex": "#F0E442",
+    "meaning": "Callout/emphasis fill for a single focal bar or annotation band (use sparingly, always with a text label)"
+   },
+   "neutral_baseline": {
+    "hex": "#999999",
+    "meaning": "Baseline, reference line, or context/other studies not in focus"
+   },
+   "ink": {
+    "hex": "#222222",
+    "meaning": "Text, axes, and primary rules"
+   }
+  },
+  "category_colors": {
+   "declared_vs_actual": {
+    "declared": "#56B4E9",
+    "actual": "#0072B2",
+    "fair_compliant": "#004C6D"
+   },
+   "debt_vs_repayment": {
+    "debt": "#D55E00",
+    "repayment": "#009E73"
+   },
+   "before_vs_after": {
+    "before": "#999999",
+    "after": "#0072B2"
+   },
+   "animal_vs_nonanimal": {
+    "animal_data": "#0072B2",
+    "nam_nonanimal": "#CC79A7"
+   },
+   "convergent_vs_conflict": {
+    "convergent_series": "#0072B2",
+    "conflict_low": "#56B4E9",
+    "conflict_high": "#E69F00"
+   }
+  },
+  "font": {
+   "family": "Source Sans Pro (fallback: Arial, Helvetica, sans-serif)",
+   "title_pt": 12,
+   "axis_label_pt": 10,
+   "tick_pt": 9,
+   "annotation_pt": 8.5,
+   "caption_pt": 9
+  },
+  "line_weights": {
+   "axis_pt": 1.0,
+   "data_line_pt": 2.0,
+   "error_bar_pt": 1.0,
+   "reference_line_pt": 0.75,
+   "reference_line_style": "dashed",
+   "bar_edge_pt": 0.5
+  },
+  "dpi": 300,
+  "background": "white",
+  "redundant_cues": true,
+  "redundant_cues_note": "Never encode meaning by hue alone. Pair every colour with a second channel: hatch/pattern fills for declared vs actual (open hatch vs solid), distinct markers (circle/triangle/square) on forest and line plots, direct value labels on every bar, and short text annotations naming the focal contrast. Palette is the Okabe-Ito colourblind-safe set; verify with a deuteranopia/protanopia simulation before export."
+ },
+ "cross_cutting_elements": {
+  "recurring_themes": [
+   "The declared-versus-actual gap: across FAIR audits, incentive studies and governance evaluations, stated intent (data-availability statements, DMP compliance, sharing pledges) vastly exceeds usable reality; recurs in sec-fair-preclinical, sec-incentives and sec-governance.",
+   "Convergence on ~2% actual data availability as the empirical anchor of the whole review, replicated across specialties and methods.",
+   "Reuse as Reduction: reusing existing data (historical/virtual controls, shared datasets, NAM outputs) is framed throughout as a direct 3Rs Reduction dividend, not merely good data hygiene.",
+   "False-consensus risk: several field-defining figures (11%/25% industry irreproducibility, US$28B/year, '85% of research wasted') rest on non-transparent or modeled sources and are flagged wherever cited.",
+   "Enforcement beats endorsement: passive publication of guidelines rarely changes behaviour; mandated, checked requirements do - a thread from sec-data-welfare through sec-incentives to sec-governance.",
+   "The animal-welfare stake: every data-stewardship failure is repeatedly tied back to its cost in animal lives, keeping the ethical argument foregrounded over the purely technical one.",
+   "Method-dependence of headline numbers: the same phenomenon (publication rate, concordance, QRP prevalence, sharing trend) yields very different values by method, so juxtaposition rather than single figures is the analytical style."
+  ],
+  "terminology": {
+   "ethical_debt": "The obligation incurred when animals are used to generate knowledge but the resulting data are allowed to become unfindable, unusable, or unreused; unpaid, it is discharged in further animal lives. Coined and used as the review's organising metaphor.",
+   "data_welfare": "The claim that stewardship of animal-derived data (findability, reusability, complete reporting) is a dimension of animal welfare and of the 3Rs, because wasting the data wastes the welfare cost that produced it.",
+   "FAIR": "Findable, Accessible, Interoperable, Reusable - the Wilkinson et al. (2016) principles for machine-actionable data stewardship. Distinguish FAIR (a stewardship standard) from 'open' (an access status); data can be FAIR without being fully open.",
+   "three_Rs": "Replacement, Reduction, Refinement (Russell & Burch) - the ethical/legal framework for humane animal research. The review argues data welfare extends all three, chiefly Reduction and Refinement.",
+   "VCG": "Virtual Control Group - a control arm reconstructed from curated historical control-animal data to partially or wholly replace concurrent controls, reducing control-animal use. Related term HCD = historical control data.",
+   "NAM": "New Approach Methodology - non-animal methods (in silico/QSAR models, organoids, organ-on-chip/microphysiological systems, high-throughput screening) used to predict toxicity or biology; serve Replacement but generate data needing stewardship.",
+   "reproducibility_vs_replicability": "Reproducibility = obtaining consistent results using the same data and analysis; replicability = obtaining consistent results in a new study with new data. The review uses 'reproducibility crisis' broadly but distinguishes the two where the evidence does (e.g., direct-replication projects test replicability; re-analysis disputes test reproducibility).",
+   "HBA": "Harm-Benefit Analysis - the project-level weighing of animal harm against expected benefit that anchors animal-research regulation; its objectivity and predictive validity are contested.",
+   "QRP": "Questionable Research Practice - selective reporting, p-hacking, undisclosed flexibility short of outright fabrication; a behavioural driver of the crisis.",
+   "ARRIVE": "Animal Research: Reporting of In Vivo Experiments - the reporting guideline whose adherence and enforcement are evaluated in sec-governance."
+  },
+  "abbreviations": {
+   "FAIR": "Findable, Accessible, Interoperable, Reusable",
+   "3Rs": "Replacement, Reduction, Refinement",
+   "VCG": "Virtual Control Group",
+   "HCD": "Historical Control Data",
+   "NAM": "New Approach Methodology",
+   "MPS": "Microphysiological System (organ-on-chip)",
+   "QSAR": "Quantitative Structure-Activity Relationship",
+   "AOP": "Adverse Outcome Pathway",
+   "HTS": "High-Throughput Screening",
+   "DILI": "Drug-Induced Liver Injury",
+   "HBA": "Harm-Benefit Analysis",
+   "IACUC": "Institutional Animal Care and Use Committee",
+   "AWERB": "Animal Welfare and Ethical Review Body",
+   "ARRIVE": "Animal Research: Reporting of In Vivo Experiments",
+   "QRP": "Questionable Research Practice",
+   "RPT": "Review, Promotion and Tenure",
+   "JIF": "Journal Impact Factor",
+   "DMP": "Data Management Plan",
+   "DMSP": "Data Management and Sharing Plan",
+   "DAS": "Data Availability Statement",
+   "RWD": "Real-World Data",
+   "ECA": "External Control Arm",
+   "NOAEL": "No-Observed-Adverse-Effect Level",
+   "SEND": "Standard for Exchange of Nonclinical Data",
+   "OMOP": "Observational Medical Outcomes Partnership (Common Data Model)",
+   "GWAS": "Genome-Wide Association Study",
+   "OA": "Open Access",
+   "TOP": "Transparency and Openness Promotion (guidelines)",
+   "PID": "Persistent Identifier",
+   "GEO": "Gene Expression Omnibus"
+  },
+  "voice_tone": "Critical, evidence-anchored, and quantitative, but ethically serious rather than polemical. Foreground effect sizes and their provenance; state uncertainty and flag false-consensus risks explicitly rather than smoothing them over. Prefer juxtaposition of divergent estimates to single headline numbers. Keep the animal-welfare stake visible without moralising. Third person, present tense for findings; hedged claims ('the evidence suggests', 'audits converge on') proportional to evidence strength."
+ }
+}

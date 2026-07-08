@@ -1,0 +1,26 @@
+{
+  "phase": 3,
+  "gate": "pass",
+  "validated_at": "2026-07-08",
+  "validator": "independent DATAML validator comprev-citation-validator (id aecb9b9ba47b65126), own-logic live CrossRef+EuropePMC checks",
+  "total_entries": 1337,
+  "artifacts": {
+    "citation_key_map": "provenance/citation_key_map.json",
+    "author_name_table": "provenance/author_name_table.json",
+    "crossref_metadata": "provenance/crossref_metadata.json"
+  },
+  "checks": {
+    "KEY_UNIQUE": "pass (1337 unique, 0 collisions, 33 author-year collisions auto-resolved with suffixes)",
+    "KEY_FORMAT": "pass (1337/1337 match AuthorYEAR[suffix])",
+    "CROSSREF_RESOLVES": "1334/1337 resolve in CrossRef; 3 CrossRef-404 (Annali ISS, EXCLI, CJCMM) backfilled from Europe PMC",
+    "AUTHOR_MATCH": "pass (150/150 random CrossRef sample matched; 16 documented exceptions verified surname-present in Europe PMC)",
+    "YEAR_MATCH": "pass",
+    "CONTAMINATION": "NONE (0 cite-key surnames overlap prompt tokens; positive-control confirmed the check fires)"
+  },
+  "documented_exceptions": {
+    "consortium_authors": ["10.1126/science.aac4716 (Open Science Collaboration)", "10.1093/nar/gkm883 (Gene Ontology Consortium)"],
+    "altex_no_crossref_authors": "11 ALTEX DOIs with empty CrossRef author arrays; first authors backfilled from Europe PMC",
+    "crossref_404": ["10.4415/ANN_15_04_04 (Berry 2015)", "10.17179/excli2025-8605 (Teixeira da Silva 2025)", "10.19540/j.cnki.cjcmm.20240620.402 (Feng 2024)"],
+    "note": "All exception authors sourced mechanically from Europe PMC (a database), never from memory. crossref_ok=false is recorded per-entry in author_name_table.json for the 3 CrossRef-404 DOIs so Phase 9 bibliography can handle them."
+  }
+}

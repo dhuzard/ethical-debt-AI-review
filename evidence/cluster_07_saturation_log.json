@@ -5,33 +5,370 @@
  "frame_budget": 30,
  "exit_reason": "frame_budget_reached",
  "passes": [
-  {"pass_type": "keyword", "query_or_method": "epmc:questionable research practices prevalence scientists (CITED desc)", "records_examined": 25, "new_unique_relevant": 6, "new_unique_rate": 0.24, "cumulative_unique": 6, "cumulative_screened_in": 6},
-  {"pass_type": "keyword", "query_or_method": "epmc:registered reports preregistration publication bias (CITED desc)", "records_examined": 25, "new_unique_relevant": 5, "new_unique_rate": 0.20, "cumulative_unique": 11, "cumulative_screened_in": 11},
-  {"pass_type": "keyword", "query_or_method": "epmc:data sharing incentives credit citation researchers (CITED desc)", "records_examined": 25, "new_unique_relevant": 6, "new_unique_rate": 0.24, "cumulative_unique": 17, "cumulative_screened_in": 17},
-  {"pass_type": "keyword", "query_or_method": "epmc:reproducibility metascience research findings (CITED desc)", "records_examined": 25, "new_unique_relevant": 6, "new_unique_rate": 0.24, "cumulative_unique": 23, "cumulative_screened_in": 23},
-  {"pass_type": "keyword", "query_or_method": "epmc:avoidable waste biomedical research (CITED desc)", "records_examined": 25, "new_unique_relevant": 4, "new_unique_rate": 0.16, "cumulative_unique": 27, "cumulative_screened_in": 27},
-  {"pass_type": "keyword", "query_or_method": "epmc:academic reward system evaluation metrics DORA (CITED desc)", "records_examined": 25, "new_unique_relevant": 5, "new_unique_rate": 0.20, "cumulative_unique": 32, "cumulative_screened_in": 32},
-  {"pass_type": "keyword", "query_or_method": "epmc:measuring prevalence QRP incentives truth telling + Why Most Published Findings False (CITED desc)", "records_examined": 50, "new_unique_relevant": 5, "new_unique_rate": 0.10, "cumulative_unique": 37, "cumulative_screened_in": 37},
-  {"pass_type": "keyword", "query_or_method": "pubmed+epmc:TOP guidelines transparency openness adoption", "records_examined": 40, "new_unique_relevant": 8, "new_unique_rate": 0.20, "cumulative_unique": 45, "cumulative_screened_in": 45},
-  {"pass_type": "keyword", "query_or_method": "pubmed:preregistration positive result rate / registered reports outcomes + data-sharing mandate compliance", "records_examined": 30, "new_unique_relevant": 3, "new_unique_rate": 0.10, "cumulative_unique": 48, "cumulative_screened_in": 48},
-  {"pass_type": "keyword", "query_or_method": "epmc:data citation data paper reuse credit scientometrics (CITED desc)", "records_examined": 25, "new_unique_relevant": 3, "new_unique_rate": 0.12, "cumulative_unique": 51, "cumulative_screened_in": 51},
-  {"pass_type": "keyword", "query_or_method": "epmc:HARKing p-hacking questionable research practices (CITED desc)", "records_examined": 25, "new_unique_relevant": 8, "new_unique_rate": 0.32, "cumulative_unique": 59, "cumulative_screened_in": 59},
-  {"pass_type": "keyword", "query_or_method": "epmc:estimating reproducibility psychological science replication (CITED desc)", "records_examined": 25, "new_unique_relevant": 3, "new_unique_rate": 0.12, "cumulative_unique": 62, "cumulative_screened_in": 62},
-  {"pass_type": "keyword", "query_or_method": "epmc:many labs replication crowdsourced + slow science + open data citation advantage + data availability compliance (CITED desc)", "records_examined": 100, "new_unique_relevant": 6, "new_unique_rate": 0.06, "cumulative_unique": 68, "cumulative_screened_in": 68},
-  {"pass_type": "snowball_round_1", "query_or_method": "openalex forward-cites on reward-system seed W2794944797 (10.1371/journal.pbio.2004089), sort cited_by_count desc", "records_examined": 25, "new_unique_relevant": 5, "new_unique_rate": 0.20, "cumulative_unique": 73, "cumulative_screened_in": 73},
-  {"pass_type": "snowball_round_2", "query_or_method": "openalex forward-cites on OSC 2015 seed W1897139626 (10.1126/science.aac4716), sort cited_by_count desc", "records_examined": 25, "new_unique_relevant": 2, "new_unique_rate": 0.08, "cumulative_unique": 75, "cumulative_screened_in": 75},
-  {"pass_type": "keyword", "query_or_method": "pubmed:NIH DMS policy compliance + outcome switching COMPare + CRediT contributor roles (metadata-confirmed abstracts)", "records_examined": 60, "new_unique_relevant": 8, "new_unique_rate": 0.13, "cumulative_unique": 83, "cumulative_screened_in": 83},
-  {"pass_type": "keyword", "query_or_method": "epmc:hypercompetition research funding incentives quality (relevance) + COMPare Goldacre outcome switching", "records_examined": 50, "new_unique_relevant": 7, "new_unique_rate": 0.14, "cumulative_unique": 90, "cumulative_screened_in": 90},
-  {"pass_type": "keyword", "query_or_method": "epmc:registered reports positive results (relevance) + funding lottery randomisation + economics irreproducibility preclinical (relevance)", "records_examined": 75, "new_unique_relevant": 10, "new_unique_rate": 0.13, "cumulative_unique": 100, "cumulative_screened_in": 100},
-  {"pass_type": "snowball_round_3", "query_or_method": "openalex forward-cites on Fanelli publish-or-perish seed W1966297423 (10.1371/journal.pone.0010271), sort cited_by_count desc; metadata-confirmed 3 in-PubMed", "records_examined": 25, "new_unique_relevant": 3, "new_unique_rate": 0.12, "cumulative_unique": 103, "cumulative_screened_in": 103},
-  {"pass_type": "keyword", "query_or_method": "epmc:DORA Leiden manifesto responsible research metrics assessment (CITED desc) + PubMed convert/get_metadata for 12 DORA/responsible-metrics DOIs", "records_examined": 25, "new_unique_relevant": 12, "new_unique_rate": 0.48, "cumulative_unique": 115, "cumulative_screened_in": 115},
-  {"pass_type": "keyword", "query_or_method": "pubmed:salami slicing least publishable unit + citation distortion inaccurate references (metadata-confirmed abstracts)", "records_examined": 20, "new_unique_relevant": 2, "new_unique_rate": 0.10, "cumulative_unique": 117, "cumulative_screened_in": 117},
-  {"pass_type": "keyword", "query_or_method": "pubmed:spin nonsignificant results abstracts RCTs interpretation (relevance) - 6 spin studies across specialties", "records_examined": 24, "new_unique_relevant": 6, "new_unique_rate": 0.25, "cumulative_unique": 123, "cumulative_screened_in": 123},
-  {"pass_type": "keyword", "query_or_method": "pubmed:research waste funders priority setting reduce (relevance) - EViR Funders Forum + JLA Top10s", "records_examined": 16, "new_unique_relevant": 2, "new_unique_rate": 0.125, "cumulative_unique": 125, "cumulative_screened_in": 125},
-  {"pass_type": "keyword", "query_or_method": "pubmed:preprint published article concordance quality COVID (relevance) - medRxiv concordance", "records_examined": 12, "new_unique_relevant": 1, "new_unique_rate": 0.083, "cumulative_unique": 126, "cumulative_screened_in": 126},
-  {"pass_type": "keyword", "query_or_method": "pubmed:publication pressure survey academics perceptions integrity (relevance) - PPQr Hungary + Amsterdam misbehavior-variance + NSF Fellows + QRP culture", "records_examined": 17, "new_unique_relevant": 4, "new_unique_rate": 0.235, "cumulative_unique": 130, "cumulative_screened_in": 130}
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:questionable research practices prevalence scientists (CITED desc)",
+   "records_examined": 25,
+   "new_unique_relevant": 6,
+   "new_unique_rate": 0.24,
+   "cumulative_unique": 6,
+   "cumulative_screened_in": 6
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:registered reports preregistration publication bias (CITED desc)",
+   "records_examined": 25,
+   "new_unique_relevant": 5,
+   "new_unique_rate": 0.2,
+   "cumulative_unique": 11,
+   "cumulative_screened_in": 11
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:data sharing incentives credit citation researchers (CITED desc)",
+   "records_examined": 25,
+   "new_unique_relevant": 6,
+   "new_unique_rate": 0.24,
+   "cumulative_unique": 17,
+   "cumulative_screened_in": 17
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:reproducibility metascience research findings (CITED desc)",
+   "records_examined": 25,
+   "new_unique_relevant": 6,
+   "new_unique_rate": 0.24,
+   "cumulative_unique": 23,
+   "cumulative_screened_in": 23
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:avoidable waste biomedical research (CITED desc)",
+   "records_examined": 25,
+   "new_unique_relevant": 4,
+   "new_unique_rate": 0.16,
+   "cumulative_unique": 27,
+   "cumulative_screened_in": 27
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:academic reward system evaluation metrics DORA (CITED desc)",
+   "records_examined": 25,
+   "new_unique_relevant": 5,
+   "new_unique_rate": 0.2,
+   "cumulative_unique": 32,
+   "cumulative_screened_in": 32
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:measuring prevalence QRP incentives truth telling + Why Most Published Findings False (CITED desc)",
+   "records_examined": 50,
+   "new_unique_relevant": 5,
+   "new_unique_rate": 0.1,
+   "cumulative_unique": 37,
+   "cumulative_screened_in": 37
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "pubmed+epmc:TOP guidelines transparency openness adoption",
+   "records_examined": 40,
+   "new_unique_relevant": 8,
+   "new_unique_rate": 0.2,
+   "cumulative_unique": 45,
+   "cumulative_screened_in": 45
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "pubmed:preregistration positive result rate / registered reports outcomes + data-sharing mandate compliance",
+   "records_examined": 30,
+   "new_unique_relevant": 3,
+   "new_unique_rate": 0.1,
+   "cumulative_unique": 48,
+   "cumulative_screened_in": 48
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:data citation data paper reuse credit scientometrics (CITED desc)",
+   "records_examined": 25,
+   "new_unique_relevant": 3,
+   "new_unique_rate": 0.12,
+   "cumulative_unique": 51,
+   "cumulative_screened_in": 51
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:HARKing p-hacking questionable research practices (CITED desc)",
+   "records_examined": 25,
+   "new_unique_relevant": 8,
+   "new_unique_rate": 0.32,
+   "cumulative_unique": 59,
+   "cumulative_screened_in": 59
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:estimating reproducibility psychological science replication (CITED desc)",
+   "records_examined": 25,
+   "new_unique_relevant": 3,
+   "new_unique_rate": 0.12,
+   "cumulative_unique": 62,
+   "cumulative_screened_in": 62
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:many labs replication crowdsourced + slow science + open data citation advantage + data availability compliance (CITED desc)",
+   "records_examined": 100,
+   "new_unique_relevant": 6,
+   "new_unique_rate": 0.06,
+   "cumulative_unique": 68,
+   "cumulative_screened_in": 68
+  },
+  {
+   "pass_type": "snowball_round_1",
+   "query_or_method": "openalex forward-cites on reward-system seed W2794944797 (10.1371/journal.pbio.2004089), sort cited_by_count desc",
+   "records_examined": 25,
+   "new_unique_relevant": 5,
+   "new_unique_rate": 0.2,
+   "cumulative_unique": 73,
+   "cumulative_screened_in": 73
+  },
+  {
+   "pass_type": "snowball_round_2",
+   "query_or_method": "openalex forward-cites on OSC 2015 seed W1897139626 (10.1126/science.aac4716), sort cited_by_count desc",
+   "records_examined": 25,
+   "new_unique_relevant": 2,
+   "new_unique_rate": 0.08,
+   "cumulative_unique": 75,
+   "cumulative_screened_in": 75
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "pubmed:NIH DMS policy compliance + outcome switching COMPare + CRediT contributor roles (metadata-confirmed abstracts)",
+   "records_examined": 60,
+   "new_unique_relevant": 8,
+   "new_unique_rate": 0.13,
+   "cumulative_unique": 83,
+   "cumulative_screened_in": 83
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:hypercompetition research funding incentives quality (relevance) + COMPare Goldacre outcome switching",
+   "records_examined": 50,
+   "new_unique_relevant": 7,
+   "new_unique_rate": 0.14,
+   "cumulative_unique": 90,
+   "cumulative_screened_in": 90
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:registered reports positive results (relevance) + funding lottery randomisation + economics irreproducibility preclinical (relevance)",
+   "records_examined": 75,
+   "new_unique_relevant": 10,
+   "new_unique_rate": 0.13,
+   "cumulative_unique": 100,
+   "cumulative_screened_in": 100
+  },
+  {
+   "pass_type": "snowball_round_3",
+   "query_or_method": "openalex forward-cites on Fanelli publish-or-perish seed W1966297423 (10.1371/journal.pone.0010271), sort cited_by_count desc; metadata-confirmed 3 in-PubMed",
+   "records_examined": 25,
+   "new_unique_relevant": 3,
+   "new_unique_rate": 0.12,
+   "cumulative_unique": 103,
+   "cumulative_screened_in": 103
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:DORA Leiden manifesto responsible research metrics assessment (CITED desc) + PubMed convert/get_metadata for 12 DORA/responsible-metrics DOIs",
+   "records_examined": 25,
+   "new_unique_relevant": 12,
+   "new_unique_rate": 0.48,
+   "cumulative_unique": 115,
+   "cumulative_screened_in": 115
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "pubmed:salami slicing least publishable unit + citation distortion inaccurate references (metadata-confirmed abstracts)",
+   "records_examined": 20,
+   "new_unique_relevant": 2,
+   "new_unique_rate": 0.1,
+   "cumulative_unique": 117,
+   "cumulative_screened_in": 117
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "pubmed:spin nonsignificant results abstracts RCTs interpretation (relevance) - 6 spin studies across specialties",
+   "records_examined": 24,
+   "new_unique_relevant": 6,
+   "new_unique_rate": 0.25,
+   "cumulative_unique": 123,
+   "cumulative_screened_in": 123
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "pubmed:research waste funders priority setting reduce (relevance) - EViR Funders Forum + JLA Top10s",
+   "records_examined": 16,
+   "new_unique_relevant": 2,
+   "new_unique_rate": 0.125,
+   "cumulative_unique": 125,
+   "cumulative_screened_in": 125
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "pubmed:preprint published article concordance quality COVID (relevance) - medRxiv concordance",
+   "records_examined": 12,
+   "new_unique_relevant": 1,
+   "new_unique_rate": 0.083,
+   "cumulative_unique": 126,
+   "cumulative_screened_in": 126
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "pubmed:publication pressure survey academics perceptions integrity (relevance) - PPQr Hungary + Amsterdam misbehavior-variance + NSF Fellows + QRP culture",
+   "records_examined": 17,
+   "new_unique_relevant": 4,
+   "new_unique_rate": 0.235,
+   "cumulative_unique": 130,
+   "cumulative_screened_in": 130
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "pubmed+epmc:research culture wellbeing mental health academia survey - EMCA workplace culture + US postdoc COVID + Montenegro workaholism-burnout",
+   "records_examined": 14,
+   "new_unique_relevant": 3,
+   "new_unique_rate": 0.214,
+   "cumulative_unique": 133,
+   "cumulative_screened_in": 133
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:narrative CV research assessment reform academic evaluation - Stanford rigor CV + temporal-autonomy focus groups + funder NCV scoping review + NCV workshop",
+   "records_examined": 20,
+   "new_unique_relevant": 4,
+   "new_unique_rate": 0.2,
+   "cumulative_unique": 137,
+   "cumulative_screened_in": 137
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:questionable research practices intervention training reduce - KEMRI RI training + Uganda faculty ethics-training assoc + graduate authorship-training RCT",
+   "records_examined": 20,
+   "new_unique_relevant": 3,
+   "new_unique_rate": 0.15,
+   "cumulative_unique": 140,
+   "cumulative_screened_in": 140
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:data paper citation advantage reward incentive dataset reuse - drivers/inhibitors SR + Ecuador OS-adoption + data-sharing-platform credit interviews",
+   "records_examined": 40,
+   "new_unique_relevant": 3,
+   "new_unique_rate": 0.075,
+   "cumulative_unique": 143,
+   "cumulative_screened_in": 143
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:hyperauthorship authorship inflation team science credit - INAP + rise of the middle author + strategic co-authorship",
+   "records_examined": 20,
+   "new_unique_relevant": 3,
+   "new_unique_rate": 0.15,
+   "cumulative_unique": 146,
+   "cumulative_screened_in": 146
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:replication value + preregistration + open-data badges intervention - peer-review discordance meta-research + predicting-replicability elicitation + OS-interventions scoping review + reproducibility-barriers interviews",
+   "records_examined": 60,
+   "new_unique_relevant": 4,
+   "new_unique_rate": 0.067,
+   "cumulative_unique": 150,
+   "cumulative_screened_in": 150
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:coercive citation self-citation gaming metrics - metrics-against-gamed-metrics review",
+   "records_examined": 20,
+   "new_unique_relevant": 1,
+   "new_unique_rate": 0.05,
+   "cumulative_unique": 151,
+   "cumulative_screened_in": 151
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:paper mills fabricated research fraud detection integrity - fight-fake-papers review + red-flagging 5.8% + ML cancer paper-mill 9.87% + retracted-AI bibliometric",
+   "records_examined": 20,
+   "new_unique_relevant": 4,
+   "new_unique_rate": 0.2,
+   "cumulative_unique": 155,
+   "cumulative_screened_in": 155
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc:open data citation advantage article-level vs journal-level metrics - Arabi article-level recognition",
+   "records_examined": 20,
+   "new_unique_relevant": 1,
+   "new_unique_rate": 0.05,
+   "cumulative_unique": 156,
+   "cumulative_screened_in": 156
+  },
+  {
+   "pass_type": "snowball_round_4",
+   "query_or_method": "openalex newest forward-citers of reward-system seed W2794944797 (10.1371/journal.pbio.2004089), sort publication_date desc",
+   "records_examined": 30,
+   "new_unique_relevant": 0,
+   "new_unique_rate": 0.0,
+   "cumulative_unique": 156,
+   "cumulative_screened_in": 156
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc(OA):reproducibility intervention open-science practices + data-transparency crisis (fulltext body extraction)",
+   "records_examined": 25,
+   "new_unique_relevant": 3,
+   "new_unique_rate": 0.12,
+   "cumulative_unique": 159,
+   "cumulative_screened_in": 159
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc(OA):open-access citation advantage + selective reporting Campbell + animal-model transparency + IPD data-request (fulltext body extraction)",
+   "records_examined": 25,
+   "new_unique_relevant": 5,
+   "new_unique_rate": 0.2,
+   "cumulative_unique": 164,
+   "cumulative_screened_in": 164
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc(OA):academic impact of open science + sports/exercise replication + research-waste bibliometric + behavioral-addictions OS + responsible authorship culture (fulltext body extraction)",
+   "records_examined": 25,
+   "new_unique_relevant": 5,
+   "new_unique_rate": 0.2,
+   "cumulative_unique": 169,
+   "cumulative_screened_in": 169
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "epmc(OA)+pubmed metadata:preregistration/registered-reports + assessment reform (Stockholm/generosity/trustworthiness) + incentives/waste (abstract extraction)",
+   "records_examined": 25,
+   "new_unique_relevant": 9,
+   "new_unique_rate": 0.36,
+   "cumulative_unique": 178,
+   "cumulative_screened_in": 178
+  },
+  {
+   "pass_type": "keyword",
+   "query_or_method": "pubmed metadata:responsible research evaluation Peru RENACYT + AHSS open research typology + Global South scholarly communication (abstract extraction)",
+   "records_examined": 15,
+   "new_unique_relevant": 3,
+   "new_unique_rate": 0.2,
+   "cumulative_unique": 181,
+   "cumulative_screened_in": 181
+  }
  ],
  "saturation_reached": false,
+ "note_frame5": "Fifth continuation frame stopped at the ~25-30 per-child findings budget (26 new this frame; 156 cumulative), NOT at saturation. Across this frame's passes the new-unique rate ranged ~5-21% (the isolated snowball_round_4 pass yielded 0 because the 2026 Scientometrics/Research Evaluation/LIS Research forward-citers are not indexed in Europe PMC and had no retrievable verbatim text, so they were excluded per integrity rather than added from memory). No two consecutive passes fell below the 2% threshold, so the cluster has NOT saturated. Cumulative unique (156) remains below the 200-paper floor; the coordinator should fork a further continuation. Suggested remaining threads: resolve non-biomedical metascience venues via Crossref/publisher fulltext (Scientometrics top-2%-database critique, Research Evaluation peer-review-reform, LIS Research data-sharing-intentions), field-constrained preprint/peer-review concordance, quantified grant-application burden/success-rate, and exact-phrase 'available on request' data-obtain-rate audits.",
  "note_frame4": "Fourth continuation frame stopped at the ~25-30 per-child findings budget (27 new this frame; 130 cumulative), NOT at saturation. Across this frame's passes the new-unique rate ranged ~8-48% (well above the 2% threshold) and never fell below 2% in two consecutive passes, so the cluster has NOT saturated. The DORA/responsible-metrics thread was especially productive (12 new from one CITED-sorted EPMC pass). Cumulative unique (130) remains below the 200-paper floor; the coordinator should fork a further continuation. Suggested remaining threads: OpenAlex snowball_round_4 (Freedman/Begley-Ellis economics-of-reproducibility seeds), deeper data-paper citation-incentive work, field-constrained preprint/peer-review-concordance and team-science/hyperauthorship queries (broad EPMC CITED-sorts return genomics/health-services noise), and research-parasites data-sharing-credit (needs exact-phrase query to avoid biology 'parasites' noise).",
- "note": "Third continuation frame stopped at the per-child findings budget (28 new this frame; 103 cumulative), NOT at saturation. Across all passes this frame the new-unique rate stayed between ~12% and ~14% (well above the 2% threshold) and never fell below 2% in two consecutive passes, so the cluster has NOT saturated. Cumulative unique (103) remains below the 200-paper floor; the coordinator should fork a further continuation. Suggested remaining threads: DORA/Leiden-Manifesto responsible-metrics adoption (needs relevance-sorted EPMC, PubMed over-ANDs), preprint growth/peer-review concordance (CITED-sort returned GBD/methods noise), snowball_round_4 on Freedman economics-of-reproducibility and Begley/Ellis preclinical-cancer seeds (some not PubMed-indexed - resolve verbatim text via Crossref/OpenAlex), salami-slicing/least-publishable-unit, and deeper data-paper citation-incentive work."
+ "note": "Third continuation frame stopped at the per-child findings budget (28 new this frame; 103 cumulative), NOT at saturation. Across all passes this frame the new-unique rate stayed between ~12% and ~14% (well above the 2% threshold) and never fell below 2% in two consecutive passes, so the cluster has NOT saturated. Cumulative unique (103) remains below the 200-paper floor; the coordinator should fork a further continuation. Suggested remaining threads: DORA/Leiden-Manifesto responsible-metrics adoption (needs relevance-sorted EPMC, PubMed over-ANDs), preprint growth/peer-review concordance (CITED-sort returned GBD/methods noise), snowball_round_4 on Freedman economics-of-reproducibility and Begley/Ellis preclinical-cancer seeds (some not PubMed-indexed - resolve verbatim text via Crossref/OpenAlex), salami-slicing/least-publishable-unit, and deeper data-paper citation-incentive work.",
+ "note_frame6": "Sixth continuation frame added 25 new unique-DOI findings (156 -> 181), reaching the ~22-target of a LIGHT frame (hard stop 28 not hit). FULL-TEXT PRIORITY frame: 13 of the 25 new findings (52%) are text_access=fulltext, each sourced from a genuine Europe PMC open-access fullTextXML body (>15KB, <body> present) with the source sentence verified verbatim by direct substring match against the stripped body text; three body sentences were corrected to exact form (curly apostrophe U+2019 in the 452-professors PLOS ONE study; thin-space U+2006 in '39 768' in the research-waste bibliometric; citation-marker handling in the PLOS Medicine data-transparency review). This lifted the cluster full-text rate from 19.9% (below the 20% floor) to 24.3%. New quantitative fulltext threads: (a) data-availability/obtain-rate cluster quantifying the pledge-practice gap (only 6.8% of 1,792 pledging manuscripts supplied data [pmed.1005145]; 20.8% of responding trialists shared IPD [jbies-24-00548]; raw data available for only 3.1% of 255 animal-opioid studies [adb.70027]) -> new figure_data 'data-actually-shared-rates'; (b) open-access citation advantage empirics (med-ed n=43,275 ~23% advantage RCR 1.17 vs 0.87 [10.1080/10872981.2026.2652722]; orthopaedics n=97,806 OA coef 0.175 [10.1186/s10195-026-00911-z]) vs scoping-review caveat that only 47.8% of studies find any advantage [rsos.241248] -> new CONFLICT; (c) replication-success rates (sports/exercise 28% successful [s40279]; parapsychology preregistration 16% vs 46.6% significant [peerj.21360]); (d) open-science adoption/attitudes (behavioral addictions preregistration 76%/data-sharing 65% [2006.2025.00398]; pre-post course OSF accounts 7->78 [f1000research.155832.2]; 452-professor reproducibility survey [pone.0319334]); (e) assessment-reform/incentive-culture pieces (Stockholm Declaration, generosity-as-method, trustworthiness framework, bureaucracy-as-impediment, stem-cell hyperbole reward structures, two-crises social psychology, Peru RENACYT retractions~productivity, AHSS open-research typology, Global South publishing, NIH 2025 public-access APC equity). New-unique rate stayed 0.12-0.36 across all passes (well above the 2% threshold; no two consecutive sub-2% passes), so the cluster has NOT saturated. Cumulative unique (181) remains below the 200 floor -> a further continuation is required. Remaining threads: quantified grant-application burden/success-rate, field-constrained preprint/peer-review concordance, and non-biomedical metascience venues (Scientometrics/Research Evaluation) needing Crossref/publisher fulltext."
 }

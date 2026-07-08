@@ -1,168 +1,173 @@
-{
- "cluster_id": "cluster_04",
- "saturation_criterion": "<2% new unique in last 100",
- "criterion_fired": false,
- "consecutive_low_passes": 0,
- "note": "Continuation frame 4 (LIGHT): added 27 new unique-DOI findings across proteomics repositories/reuse (PRIDE, ProteomeXchange, SDRF-Proteomics metadata, solid-tumor reuse, BioSamples), GEO/omics metadata completeness (incl. GPT-4/CEDAR standardization, data-contributor authorship), neuroscience data-sharing infrastructure (BRAIN Initiative ecosystem, DABI/DANDI/OpenNeuro/Brain-CODE comparison, BIDS, ROH benefits, legal/metadata gaps), data citation & open-data citation advantage (JDDCP roadmap, Chinese-economics mandate, 122k-publication analysis), genomics controlled access (broad-sharing definitions, NCI GDC harmonization, HTAN, GA4GH lexicon, genomic-data-mgmt scoping review), clinical-trial data-sharing platform request-vs-publication concordance (Vivli/CSDR/YODA/SOAR-BMS), RefSeq curation standards, and FAIRification-induced EHR data-quality issues. Added 1 conflict (open-data citation-advantage magnitude) and 1 figure_data (public-record completeness/fidelity, heavily caveated). Keyword/EPMC passes still yield >2% new unique relevant; cumulative unique (126) remains below the 200 floor, so saturation NOT reached. Continuation required.",
- "passes": [
-  {
-   "pass_type": "keyword",
-   "query_or_method": "pubmed:biomedical data repository sharing reuse FAIR",
-   "records_examined": 15,
-   "new_unique_relevant": 15,
-   "new_unique_rate": 1.0,
-   "cumulative_unique": 15,
-   "cumulative_screened_in": 15
-  },
-  {
-   "pass_type": "keyword",
-   "query_or_method": "pubmed:FAIR principles scientific data stewardship / precision oncology / marine / nanosafety",
-   "records_examined": 58,
-   "new_unique_relevant": 9,
-   "new_unique_rate": 0.155,
-   "cumulative_unique": 24,
-   "cumulative_screened_in": 24
-  },
-  {
-   "pass_type": "keyword",
-   "query_or_method": "pubmed:minimum information reporting standard MIAME microarray",
-   "records_examined": 8,
-   "new_unique_relevant": 5,
-   "new_unique_rate": 0.625,
-   "cumulative_unique": 29,
-   "cumulative_screened_in": 29
-  },
-  {
-   "pass_type": "keyword",
-   "query_or_method": "pubmed:biomedical ontology controlled vocabulary gene ontology OBO",
-   "records_examined": 29,
-   "new_unique_relevant": 6,
-   "new_unique_rate": 0.207,
-   "cumulative_unique": 35,
-   "cumulative_screened_in": 35
-  },
-  {
-   "pass_type": "keyword",
-   "query_or_method": "pubmed:electronic laboratory notebook research data management",
-   "records_examined": 43,
-   "new_unique_relevant": 2,
-   "new_unique_rate": 0.047,
-   "cumulative_unique": 37,
-   "cumulative_screened_in": 37
-  },
-  {
-   "pass_type": "keyword",
-   "query_or_method": "pubmed:common data model interoperability OMOP biomedical",
-   "records_examined": 28,
-   "new_unique_relevant": 4,
-   "new_unique_rate": 0.143,
-   "cumulative_unique": 41,
-   "cumulative_screened_in": 41
-  },
-  {
-   "pass_type": "keyword",
-   "query_or_method": "pubmed:data availability statement compliance journals",
-   "records_examined": 31,
-   "new_unique_relevant": 6,
-   "new_unique_rate": 0.194,
-   "cumulative_unique": 47,
-   "cumulative_screened_in": 47
-  },
-  {
-   "pass_type": "keyword",
-   "query_or_method": "pubmed:data sharing mandate researcher attitudes barriers",
-   "records_examined": 11,
-   "new_unique_relevant": 2,
-   "new_unique_rate": 0.182,
-   "cumulative_unique": 49,
-   "cumulative_screened_in": 49
-  },
-  {
-   "pass_type": "keyword",
-   "query_or_method": "pubmed:data sharing incentives credit data citation research",
-   "records_examined": 4,
-   "new_unique_relevant": 2,
-   "new_unique_rate": 0.5,
-   "cumulative_unique": 51,
-   "cumulative_screened_in": 51
-  },
-  {
-   "pass_type": "keyword",
-   "query_or_method": "pubmed:gene ontology annotation quality evaluation errors",
-   "records_examined": 8,
-   "new_unique_relevant": 3,
-   "new_unique_rate": 0.375,
-   "cumulative_unique": 54,
-   "cumulative_screened_in": 54
-  },
-  {
-   "pass_type": "keyword",
-   "query_or_method": "pubmed:MIAPE proteomics minimum information experiment",
-   "records_examined": 13,
-   "new_unique_relevant": 8,
-   "new_unique_rate": 0.615,
-   "cumulative_unique": 46,
-   "cumulative_screened_in": 46
-  },
-  {
-   "pass_type": "keyword",
-   "query_or_method": "pubmed:biocuration controlled vocabulary annotation quality database",
-   "records_examined": 16,
-   "new_unique_relevant": 10,
-   "new_unique_rate": 0.625,
-   "cumulative_unique": 56,
-   "cumulative_screened_in": 56
-  },
-  {
-   "pass_type": "keyword",
-   "query_or_method": "pubmed:OMOP common data model interoperability network study",
-   "records_examined": 21,
-   "new_unique_relevant": 7,
-   "new_unique_rate": 0.333,
-   "cumulative_unique": 63,
-   "cumulative_screened_in": 63
-  },
-  {
-   "pass_type": "keyword",
-   "query_or_method": "pubmed:metadata completeness / GEO / TRUST certification / MIABE",
-   "records_examined": 24,
-   "new_unique_relevant": 6,
-   "new_unique_rate": 0.25,
-   "cumulative_unique": 69,
-   "cumulative_screened_in": 69
-  },
-  {
-   "pass_type": "snowball_round_1",
-   "query_or_method": "forward snowball on MIABE (W2045717408) + TRUST (W3024722698)",
-   "records_examined": 49,
-   "new_unique_relevant": 7,
-   "new_unique_rate": 0.143,
-   "cumulative_unique": 76,
-   "cumulative_screened_in": 76
-  },
-  {
-   "pass_type": "keyword+epmc (continuation frame 3)",
-   "query_or_method": "biobank governance; ELN adoption/metadata; ISA/MIBBI standards; phenotype/GO ontologies; bioimaging repositories; data-sharing KAP review",
-   "records_examined": 110,
-   "new_unique_relevant": 23,
-   "new_unique_rate": 0.209,
-   "cumulative_unique": 99,
-   "cumulative_screened_in": 99
-  },
-  {
-   "pass_type": "keyword+epmc (continuation frame 4)",
-   "query_or_method": "PRIDE/ProteomeXchange proteomics reuse; OpenNeuro/DANDI/BRAIN neuroscience sharing; GEO metadata completeness; GigaScience/data-citation & open-data citation advantage; Genomic Data Commons controlled access; clinical-trial platform YODA/Vivli concordance; data-availability/RefSeq/FAIRification DQ",
-   "records_examined": 150,
-   "new_unique_relevant": 27,
-   "new_unique_rate": 0.18,
-   "cumulative_unique": 126,
-   "cumulative_screened_in": 126
-  }
- ],
- "frame_findings_committed": 38,
- "exit_reason": "frame_budget_reached",
- "frame2_findings_committed": 38,
- "cumulative_findings_total": 126,
- "frame3_findings_committed": 23,
- "frame4_findings_committed": 27
-}
+[
+ {
+  "pass_type": "keyword",
+  "query_or_method": "pubmed:biomedical data repository sharing reuse FAIR",
+  "records_examined": 15,
+  "new_unique_relevant": 15,
+  "new_unique_rate": 1.0,
+  "cumulative_unique": 15,
+  "cumulative_screened_in": 15
+ },
+ {
+  "pass_type": "keyword",
+  "query_or_method": "pubmed:FAIR principles scientific data stewardship / precision oncology / marine / nanosafety",
+  "records_examined": 58,
+  "new_unique_relevant": 9,
+  "new_unique_rate": 0.155,
+  "cumulative_unique": 24,
+  "cumulative_screened_in": 24
+ },
+ {
+  "pass_type": "keyword",
+  "query_or_method": "pubmed:minimum information reporting standard MIAME microarray",
+  "records_examined": 8,
+  "new_unique_relevant": 5,
+  "new_unique_rate": 0.625,
+  "cumulative_unique": 29,
+  "cumulative_screened_in": 29
+ },
+ {
+  "pass_type": "keyword",
+  "query_or_method": "pubmed:biomedical ontology controlled vocabulary gene ontology OBO",
+  "records_examined": 29,
+  "new_unique_relevant": 6,
+  "new_unique_rate": 0.207,
+  "cumulative_unique": 35,
+  "cumulative_screened_in": 35
+ },
+ {
+  "pass_type": "keyword",
+  "query_or_method": "pubmed:electronic laboratory notebook research data management",
+  "records_examined": 43,
+  "new_unique_relevant": 2,
+  "new_unique_rate": 0.047,
+  "cumulative_unique": 37,
+  "cumulative_screened_in": 37
+ },
+ {
+  "pass_type": "keyword",
+  "query_or_method": "pubmed:common data model interoperability OMOP biomedical",
+  "records_examined": 28,
+  "new_unique_relevant": 4,
+  "new_unique_rate": 0.143,
+  "cumulative_unique": 41,
+  "cumulative_screened_in": 41
+ },
+ {
+  "pass_type": "keyword",
+  "query_or_method": "pubmed:data availability statement compliance journals",
+  "records_examined": 31,
+  "new_unique_relevant": 6,
+  "new_unique_rate": 0.194,
+  "cumulative_unique": 47,
+  "cumulative_screened_in": 47
+ },
+ {
+  "pass_type": "keyword",
+  "query_or_method": "pubmed:data sharing mandate researcher attitudes barriers",
+  "records_examined": 11,
+  "new_unique_relevant": 2,
+  "new_unique_rate": 0.182,
+  "cumulative_unique": 49,
+  "cumulative_screened_in": 49
+ },
+ {
+  "pass_type": "keyword",
+  "query_or_method": "pubmed:data sharing incentives credit data citation research",
+  "records_examined": 4,
+  "new_unique_relevant": 2,
+  "new_unique_rate": 0.5,
+  "cumulative_unique": 51,
+  "cumulative_screened_in": 51
+ },
+ {
+  "pass_type": "keyword",
+  "query_or_method": "pubmed:gene ontology annotation quality evaluation errors",
+  "records_examined": 8,
+  "new_unique_relevant": 3,
+  "new_unique_rate": 0.375,
+  "cumulative_unique": 54,
+  "cumulative_screened_in": 54
+ },
+ {
+  "pass_type": "keyword",
+  "query_or_method": "pubmed:MIAPE proteomics minimum information experiment",
+  "records_examined": 13,
+  "new_unique_relevant": 8,
+  "new_unique_rate": 0.615,
+  "cumulative_unique": 46,
+  "cumulative_screened_in": 46
+ },
+ {
+  "pass_type": "keyword",
+  "query_or_method": "pubmed:biocuration controlled vocabulary annotation quality database",
+  "records_examined": 16,
+  "new_unique_relevant": 10,
+  "new_unique_rate": 0.625,
+  "cumulative_unique": 56,
+  "cumulative_screened_in": 56
+ },
+ {
+  "pass_type": "keyword",
+  "query_or_method": "pubmed:OMOP common data model interoperability network study",
+  "records_examined": 21,
+  "new_unique_relevant": 7,
+  "new_unique_rate": 0.333,
+  "cumulative_unique": 63,
+  "cumulative_screened_in": 63
+ },
+ {
+  "pass_type": "keyword",
+  "query_or_method": "pubmed:metadata completeness / GEO / TRUST certification / MIABE",
+  "records_examined": 24,
+  "new_unique_relevant": 6,
+  "new_unique_rate": 0.25,
+  "cumulative_unique": 69,
+  "cumulative_screened_in": 69
+ },
+ {
+  "pass_type": "snowball_round_1",
+  "query_or_method": "forward snowball on MIABE (W2045717408) + TRUST (W3024722698)",
+  "records_examined": 49,
+  "new_unique_relevant": 7,
+  "new_unique_rate": 0.143,
+  "cumulative_unique": 76,
+  "cumulative_screened_in": 76
+ },
+ {
+  "pass_type": "keyword+epmc (continuation frame 3)",
+  "query_or_method": "biobank governance; ELN adoption/metadata; ISA/MIBBI standards; phenotype/GO ontologies; bioimaging repositories; data-sharing KAP review",
+  "records_examined": 110,
+  "new_unique_relevant": 23,
+  "new_unique_rate": 0.209,
+  "cumulative_unique": 99,
+  "cumulative_screened_in": 99
+ },
+ {
+  "pass_type": "keyword+epmc (continuation frame 4)",
+  "query_or_method": "PRIDE/ProteomeXchange proteomics reuse; OpenNeuro/DANDI/BRAIN neuroscience sharing; GEO metadata completeness; GigaScience/data-citation & open-data citation advantage; Genomic Data Commons controlled access; clinical-trial platform YODA/Vivli concordance; data-availability/RefSeq/FAIRification DQ",
+  "records_examined": 150,
+  "new_unique_relevant": 27,
+  "new_unique_rate": 0.18,
+  "cumulative_unique": 126,
+  "cumulative_screened_in": 126
+ },
+ {
+  "pass_type": "keyword+epmc (continuation frame 5, LIGHT)",
+  "query_or_method": "metabolomics repositories (MetaboLights/MW/KMAP/pan-repository/CloMet/HHEAR); bioimaging repositories (SSBD/OMERO/global imaging standards); EHR secondary-use data quality/completeness (practical completeness, OMOP lung-cancer mapping, FHIR biomarker fidelity, LOINC unit harmonization); ontology mapping/interoperability (terminology granularity metrics, Mondo, OAE, BioAssay Ontology); reproducible workflow/ELN (IntegriLAB, QuNex); biobank governance & willingness-to-share (Japan, genomic assetization, Australia, Korea NPBBD, iAgree, genomic-literacy review); REDCap/EDC EAV & LM metadata harmonization",
+  "records_examined": 135,
+  "new_unique_relevant": 26,
+  "new_unique_rate": 0.193,
+  "cumulative_unique": 152,
+  "cumulative_screened_in": 152
+ },
+ {
+  "pass_type": "expansion_frame6_epmc_OA",
+  "query_or_method": "8 Europe PMC OA topical queries + PubMed metadata for abstracts; 12 fulltext BODY extractions, 12 abstract_only",
+  "records_examined": 120,
+  "new_unique_relevant": 24,
+  "new_unique_rate": 0.2,
+  "cumulative_unique": 176,
+  "cumulative_screened_in": 176
+ }
+]

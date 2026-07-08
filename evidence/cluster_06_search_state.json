@@ -22,17 +22,31 @@
     "pubmed:benchmark dose in vitro transcriptomics point of departure",
     "pubmed:ECVAM validation alternative method reproducibility",
     "pubmed:NAM FAIR data reusability toxicology database curation",
-    "pubmed:kidney proximal tubule chip nephrotoxicity in vitro"
+    "pubmed:kidney proximal tubule chip nephrotoxicity in vitro",
+    "pubmed:microphysiological system validation reproducibility qualification",
+    "pubmed:organoid biobank standardization reproducibility",
+    "pubmed:in silico prediction model applicability domain uncertainty regulatory",
+    "pubmed:next generation risk assessment NAM chemical safety",
+    "pubmed:read-across uncertainty framework category chemical grouping",
+    "pubmed:computational toxicology data integration FAIR interoperability",
+    "pubmed:tissue chip drug development consortium translational",
+    "pubmed:human cell based assay qualification context of use regulatory",
+    "pubmed:retinal organoid disease model drug screening",
+    "pubmed:kidney organoid nephrotoxicity screening + tubuloid",
+    "pubmed:3D bioprinting tissue model drug toxicity",
+    "pubmed:spheroid hepatotoxicity high content 3D liver",
+    "pubmed:blood brain barrier chip microphysiological permeability",
+    "pubmed:gut microbiome host-microbe microfluidic (HuMiX)",
+    "pubmed:predictive validity in vitro assay concordance sensitivity specificity",
+    "pubmed:chemical category grouping read-across regulatory (OECD/metabolism/plant protection)"
   ],
   "passes_remaining": [
-    "snowball_round_1",
-    "snowball_round_2",
-    "epmc:NAM data FAIR ontology reuse (broader)"
+    "snowball_round_1 (deferred; keyword yield still productive but saturation not reached)"
   ],
   "snowball_seeds_used": [],
   "seen_dois_artifact_id": "cluster_06_seen_dois.txt",
   "saturation_log_artifact_id": "cluster_06_saturation_log.json",
-  "papers_so_far": 119,
+  "papers_so_far": 170,
   "evidence_artifact_id": "cluster_06_evidence.json",
   "exit_reason": "frame_budget_reached"
 }
