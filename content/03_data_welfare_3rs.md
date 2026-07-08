@@ -166,7 +166,7 @@ REPO = _find_repo_root(_here)
 EVIDENCE = os.path.join(REPO, "evidence", "evidence_section_03.json")
 FIG_DIR = os.path.join(REPO, "figures")
 
-# ── load the comparison from the evidence package ──
+# ── load the comparison from the source record ──
 with open(EVIDENCE, encoding="utf-8") as fh:
     ev = json.load(fh)
 

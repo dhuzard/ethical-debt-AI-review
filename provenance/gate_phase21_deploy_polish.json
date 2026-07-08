@@ -1,0 +1,71 @@
+{
+ "gate": "phase_21_deploy_polish",
+ "verdict": "PASS_WITH_BLOCKED_TIER_B",
+ "validated_at": "2026-07-08",
+ "deploy_accessible": false,
+ "input_source": "local _build/html (identical to CI build artifact)",
+ "deploy_blocker": "GitHub Pages could not be enabled: POST /repos/dhuzard/ethical-debt-AI-review/pages returned HTTP 422 \"Your current plan does not support GitHub Pages for this repository\" (private repo on a plan without private-Pages). The CI build job succeeds; the actions/deploy-pages job fails. Requires a USER decision: make the repository public (free Pages), upgrade the plan, or deploy the built _build/html elsewhere.",
+ "checks": {
+  "BUILD_GREEN_AT_HEAD": {
+   "verdict": "PASS",
+   "tier": "A",
+   "evidence": "myst build --html exit 0, 31 endpoints 200 (CI build step green; deploy-pages step blocked by plan)"
+  },
+  "DEPLOY_ARTIFACT_AVAILABLE": {
+   "verdict": "PASS",
+   "tier": "A",
+   "evidence": "_build/html present (14 pages), = CI upload artifact"
+  },
+  "NO_FRONTMATTER_LEAK": {
+   "verdict": "PASS",
+   "tier": "A"
+  },
+  "DIRECTIVE_RENDERED_OK": {
+   "verdict": "PASS",
+   "tier": "A",
+   "evidence": "no literal {cite}/:::{}/{numref} in rendered bodies"
+  },
+  "FORBIDDEN_LEXICON_DEPLOYED": {
+   "verdict": "PASS",
+   "tier": "A",
+   "evidence": "rendered review prose + body figure-code dropdowns clean after neutralizing 2 comments (sec02,sec03). The Methods reproducibility layer intentionally names pipeline components (skill filenames, pipeline-diagram comments) — consistent with the prominent AI-Generated Content Disclosure; not review prose."
+  },
+  "FIGURE_ASSETS_RESOLVE": {
+   "verdict": "PASS",
+   "tier": "A",
+   "evidence": "22/22 <img> resolve in artifact"
+  },
+  "INTERNAL_LINK_HEALTH": {
+   "verdict": "PASS",
+   "tier": "A",
+   "evidence": "myst build 0 link errors; all {ref}/{numref} resolve"
+  },
+  "AUTHOR_IDENTITY_DEPLOYED": {
+   "verdict": "PASS",
+   "tier": "A",
+   "evidence": "0 real placeholders; apparent hits (Anonymous, Author N) were substring false positives (anonymous surveys; author no/name(s))"
+  },
+  "PLUGIN_DATA_BOUND": {
+   "verdict": "PASS",
+   "tier": "A",
+   "evidence": "authorship-explorer + evidence-explorer render with data (yaml dep resolved; deploy.yml installs it in CI)"
+  },
+  "FIGURE_DROPDOWN_COMPLETE": {
+   "verdict": "PASS",
+   "tier": "A",
+   "evidence": "22 figure-code dropdowns == 22 figures"
+  },
+  "PER_PAGE_HTTP_200": {
+   "verdict": "BLOCKED",
+   "tier": "B",
+   "evidence": "no live URL (Pages unavailable)"
+  },
+  "EXTERNAL_LINK_HEALTH": {
+   "verdict": "BLOCKED",
+   "tier": "B",
+   "evidence": "requires live site"
+  }
+ },
+ "manual_checklist_artifact_id": "provenance/manual_phase21_checklist.md",
+ "note": "All Tier A checks pass; the two Tier B (live-URL) checks are blocked because GitHub Pages is unavailable for this private repo/plan. Coordinator escalates the deploy decision to the user."
+}

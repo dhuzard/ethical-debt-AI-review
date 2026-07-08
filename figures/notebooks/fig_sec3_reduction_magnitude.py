@@ -9,7 +9,7 @@ the "reuse/design as Reduction" reframe in concrete magnitudes.
 Data source: evidence_section_03.json -> figure_data ->
 comparison_id == "reduction-magnitude-design-methods".
 
-All plotted values come from the evidence package's value_source_sentence
+All plotted values come from the source record's value_source_sentence
 fields. Reductions are APPROXIMATE qualitative ranges, not point estimates
 (Phase 6 CAVEAT); baselines and mechanisms differ (see caption).
 """
@@ -40,7 +40,7 @@ REPO = _find_repo_root(_here)
 EVIDENCE = os.path.join(REPO, "evidence", "evidence_section_03.json")
 FIG_DIR = os.path.join(REPO, "figures")
 
-# ── load the comparison from the evidence package ──
+# ── load the comparison from the source record ──
 with open(EVIDENCE, encoding="utf-8") as fh:
     ev = json.load(fh)
 

@@ -235,7 +235,7 @@ OUT = os.path.abspath('..')  # figures/ directory
 
 # Data from evidence_section_02.json -> figure_data
 # comparison_id: 'clinical-approval-success-rates' (audit ruling: CAVEAT).
-# Every value has a value_source_sentence in the evidence package; none invented.
+# Every value has a value_source_sentence in the source record; none invented.
 # (label, value %, category, reported-range low/high or None)
 rows = [
     ("Schuhmacher\n2025", 14.3, "industry", (8.0, 23.0)),  # 10.1016/j.drudis.2025.104291

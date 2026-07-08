@@ -1,0 +1,42 @@
+{
+ "phase": 20,
+ "gate": "pass",
+ "validated_at": "2026-07-08",
+ "validator": "coordinator comprev-myst-validator (20V) + real myst build + git push",
+ "repository": "https://github.com/dhuzard/ethical-debt-AI-review",
+ "branch": "main",
+ "commit": "2b216e6",
+ "pushed": true,
+ "push_ref": "6145d8a..2b216e6",
+ "files_committed": 127,
+ "build_result": {
+  "myst_build_html": "exit 0",
+  "errors": 0,
+  "plugin_errors": 0,
+  "pages": 14
+ },
+ "methods_ledger_fresh": {
+  "no_stale_phrasings": "pass",
+  "all_21_phases_completed_wording": "pass",
+  "pipeline_table_20_rows_no_ranges_no_pending": "pass",
+  "figure_post_phase13": "pass (fig_methods_pipeline.png re-rendered 2026-07-08T23:15 > Phase13 gate)",
+  "total_session_frames_subcheck": "n/a",
+  "total_session_frames_reason": "Operon-specific frame count; pipeline ran under Claude Code adaptation (actors/validators = Agent subagents recorded in phase_ledger child_ids) so no Operon frames() query exists to compare against"
+ },
+ "structural_results": {
+  "FORBIDDEN_LEXICON": "pass",
+  "NO_LABEL_DIRECTIVE": "pass",
+  "FIGURE_DROPDOWN_MATCH": "pass",
+  "BIBLIOGRAPHY_PATH_MATCHES_MYSTYML": "pass",
+  "EVIDENCE_PACKAGES_POPULATED": "pass",
+  "AUTHOR_IDENTITY_NOT_PLACEHOLDER": "pass",
+  "HEADING_STYLE_CONSISTENT": "pass",
+  "REVIEW_REQUEST_CAPTURED": "pass",
+  "TOC_MATCHES_FILES": "pass",
+  "EVIDENCE_PARAMETERS_HONORED": "pass",
+  "BUILD_PASSES": "pass",
+  "ZERO_CITATION_ERRORS": "pass",
+  "ZERO_IMAGE_ERRORS": "pass"
+ },
+ "note": "All review outputs published to main; GitHub Pages deploy workflow (.github/workflows/deploy.yml) triggered on push. node_modules/_build correctly gitignored."
+}
