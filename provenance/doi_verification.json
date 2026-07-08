@@ -1,0 +1,4964 @@
+{
+ "results": {
+  "AKHTAR2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Abernathy2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Abrisqueta2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Adedeji2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Afantitis2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Aguilar2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "AguilarGomez2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ahuja2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Aigner2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Aiyede2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Albert2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Alberts2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Allaband2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Allen2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Alperin2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Alt2024a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Alt2024b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Amaral2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Amarasekara2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ameli2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "AndaurNavarro2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Andaya2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Antonic2013": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "App2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Aquarius2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Aquarius2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Arabi2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Archer2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Arida2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Armond2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Arondekar2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Arora2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "ArroyoAraujo2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ashraf2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Attia2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "AubertBonn2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "AubertBonn2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "AxiakFlammer2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ayata2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Azilagbetor2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Azilagbetor2025b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bachchair2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bada2008": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bahl2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bailey2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bailey2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bakker2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ball2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "BannachBrown2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "BannachBrown2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bansal2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bara2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Barrett2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Baskaran2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bastian2010": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bataille2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bateson2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Batista2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "BaumfeldAndre2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bearth2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Becker2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Beery2011": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Begley2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bejoy2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Beken2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Belthangady2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "BenDavid2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bennett2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bergen2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bert2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bertelli2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bertin2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bespalov2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Biddle2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Birtele2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bishop2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Blackwell2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Boehmerle2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "BoemmelWegmann2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bolan2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bonassera2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Booler2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Boschen2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bosgra2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Boutron2010": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bovenkerk2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Boyce2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Boyle2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Boyne2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bradshaw2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Brancato2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Brandner2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Brazma2001": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Brembs2013": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Breznau2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Brink2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Brnstad2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Brohmer2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Brooker2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Brown2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Brown2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Brown2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Browning2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Brunt2021b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Btker2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Bugajska2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Burman2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Butcher2022a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Butcher2022b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Button2013": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Buza2008": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Cai2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Cait2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Calac2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Caldoni2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Callegaro2021": {
+   "cat": "MINOR",
+   "detail": "year bib=2021 cr=2023",
+   "title_sim": 1.0
+  },
+  "Camerer2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Campbell2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Cannon2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Carbone2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Carfagna2020a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Carfagna2020b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Carius2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Carmichael2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Carroll2022b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Casadevall2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Casati2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Casati2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Cassotta2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Catillon2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Cenci2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "CerdaCosme2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Chakravorti2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Chalmers2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Chan2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Chan2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Chang2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Chapman2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Chatzimanouil2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Chen2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Chen2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Chiaruttini2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Chou2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Christensen2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Chung2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "ClarkAdnyamathanha2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Clarkson2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Clarkson2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Coja2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Colavizza2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Colavizza2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Coles2023": {
+   "cat": "MINOR",
+   "detail": "year bib=2023 cr=2025",
+   "title_sim": 1.0
+  },
+  "Collazo2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Colman2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Combrisson2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Comess2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "ContopoulosIoannidis2003": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Corcho2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Corsi2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Corvaro2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Crabbe1999": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Crescioli2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "CrespiAbril2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Crossley2008": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Csobonyeiova2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Cucherat2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Cunningham2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Curran2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Currie2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Dagenais2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Dalla2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Danchev2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Daniel2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Das2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "DeGrazia1991": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "DeGrazia2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "DePalma2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "DeVleeschauwer2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Deckers2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Deeb2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "DelasCuevas2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Demarquette2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Derakhchan2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Deschl2002": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Deutsch2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Deutsch2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Devaraju2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Devlin2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Devriendt2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Dhillon2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "DiMasi2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ding2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ding2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Dinse2010": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "DominguezOliva2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Dominijanni2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Donaldson2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Dougherty2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Dowding2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Draeger2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Dreber2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Dron2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Drost2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Duan2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Duan2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Duarte2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "DuchateauNguyen2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Dudda2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "DumasMallet2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Dung2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Duran2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Eben2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Eckmann2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Edwards2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ehrlich2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Elmore2009": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Elmore2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Elsman2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Enkelmann2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Enoch2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Entradas2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Errington2021a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Errington2021b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Errington2021c": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Evangelista2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ezendam2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Fabre2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Fan2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Fanelli2009": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Fanelli2010": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Fanelli2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Fanelli2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Fanelli2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Faria2012": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Farid2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Fay2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Fecher2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Federer2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Federico2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Feit2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Felt2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Feng2024": {
+   "cat": "BROKEN-DOI",
+   "detail": "HTTP 404"
+  },
+  "Feng2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ferrara2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ferreira2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Fidler2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Filer2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Finster2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Fitzpatrick2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Flanagan2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Fleminger2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Flitti2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Foster2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Franco2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Franzen2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Franzosa2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Fraser2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Freedman2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Freedman2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Freshwater2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Friederichs2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Fritsche2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Fruhwein2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Fu2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gabelica2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gadd2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gagliardi2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gallifant2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "GamaloSiebers2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gant2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Garba2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Garcia2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "GarciaClosas2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "GarciaSifuentes2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gaskell2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gaskill2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gates2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gilani2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gilbert2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Giofre2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Goldacre2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Goldacre2019a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Goldacre2019b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Golden2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "GoniBalentziaga2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gonnabathula2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "GonzalezUarquin2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Graham2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gray2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Green2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Greenberg2009": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Grevot2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Grimm2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Grimm2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Grynoch2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gsteiger2013": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Guerra2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Guffroy2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gulin2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gurjanov2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gurjanov2024a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gurjanov2024b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Gutfreund2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Haase2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hadoux2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hair2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hair2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hajosi2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hajosi2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hall2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hamidi2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hamilton2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hamilton2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Han2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hardwicke2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Harkin2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Harrell2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hartley2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hartung2025a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hartung2025b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Harun2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hassenstein2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Haven2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hawkins2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hawkins2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hawkins2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "He2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "He2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Head2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Heckerman2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Heeney2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Heidari2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Heinl2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Heinl2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Henderson2013": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Henderson2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hendriks2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Heneghan2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "HerresPawlis2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Higgins2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hilton2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Himanen2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hines2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hirst2012": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Holmer2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Holtedahl2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Holzer2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hong2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hong2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hooijmans2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hopewell2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Horbach2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hormann2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hosseini2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hoyberghs2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hua2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Huang2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Huang2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Huang2025a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Huang2025b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hudda2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hudson2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Huerta2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hum2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hunniford2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hupf2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hupf2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Hutchins2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "IOANNIDIS2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Idakwo2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Im2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Inau2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ingre2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ioannidis2005a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ioannidis2005b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ioannidis2014b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ioannidis2014c": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ioannidis2023a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ioannidis2023b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Isaacs2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Islam2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Isogawa2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ito2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "IvimeyCook2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Izem2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Jackson2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Jahanshahi2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Jaksa2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "James2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Jay2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Jeffries2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Jeliazkova2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Jin2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Joffe2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "John2012": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Jonker2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Jorgensen2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Jorgensen2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Juberg2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Judzinska2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Jue2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Justice2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kadyrov2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kafkafi2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kahane2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kalantari2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kane2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kapp2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Karmaus2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Karmaus2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Karp2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Karp2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kasai2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kato2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kebenei2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Keenan2002": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Keenan2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Keestra2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "KelleciCelik2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kellner2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kentner2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kenyani2011": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Khan2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kidwell2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kilkenny2010": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kim2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kim2023a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kim2023b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kim2026a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kim2026b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kimmelman2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kirchner2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kirk2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kirk2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kishi2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Klatte2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Klebel2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Klein2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kleinbongard2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Klose2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kluxen2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kluxen2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Knuth2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ko2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kocyigit2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kohler2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kolle2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kong2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Koop2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kopanska2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kopanska2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kopec2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kopp2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "KoppSchneider2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Korbmacher2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kousholt2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kousholt2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kozula2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kramer2015": {
+   "cat": "MINOR",
+   "detail": "year bib=2015 cr=2017",
+   "title_sim": 1.0
+  },
+  "Kringe2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Krueger2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ksa2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kumar2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kumar2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kumbhar2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Kush2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "LaFollette2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ladeira2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Laing2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lalu2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lamb2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lamontagne2010": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Landes2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Landes2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Landes2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Landis2012": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lapchak2012": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Late2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lauwereyns2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lawlor2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Leakey2003": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lee2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lee2025a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lee2025b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Leenaars2019a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Leenaars2019b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lei2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Leist2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Letailleur2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Levet2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lewandowsky2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lewejohann2005": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lewis2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "LewisWilson2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Li2012": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Li2024a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Li2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Liang2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Liddle2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lim2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lin2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lin2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lin2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lin2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Linakis2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lindsjo2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Linkov1998": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Litman2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Littell2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Liu2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Liu2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Liu2025b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Llovera2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Loiseau2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Long2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lopes2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Loser2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lotfi2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Louey2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "LouisMaerten2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lu2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lu2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Lukas2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Luo2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Luthi2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ma2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "MacArthurClark2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "MacArthurClark2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "MacIntoshSmith2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Macleod2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Macleod2019a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Macleod2019b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Macleod2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Macmillan2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Majdi2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Malicki2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mangla2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mansouri2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Manthey2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Marcelino2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Marck2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mariani2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Marinou2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Markiewicz2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Maronpot2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Marquardt2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "MartinRodriguez2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "MartinezBartolome2013": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "MartinezLopez2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Martins2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Marx2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Marx2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "MascarenasGarcia2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mathur2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Maxwell2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mayernik2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "MayoWilson2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mayor2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mazoit2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "McCann2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "McCloskey2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "McGonigle2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "McGreevy2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "McKiernan2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "McKiernan2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mecklenburg2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mehta2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Menke2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Menke2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Menssen2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Menssen2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mhamdi2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Miao2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Migliorini2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Milford2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Miller2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Miller2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "MillonesGomez2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mirlohi2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mitchell2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mitroiu2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Modiri2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "MohammedTaha2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Moher2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Moher2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Moher2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mohr2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Moller2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mone2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mongeon2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "MontillaRojo2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Morahan2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Morales2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Moresis2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mortensen2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Moyer2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mugan2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mukhopadhyay2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mulder2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Muller2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Munafo2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Mundinger2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "MunozMuriedas2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Munro2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Murphy2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Murphy2025a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Murray2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Musen2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Naaman2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Nada2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Nakagawa2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Nakagawa2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Nakanoh2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Nakao2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Nambiar2012": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "NasreNasser2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Nawaji2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Nawroth2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Neuenschwander2010": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Neuenschwander2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Neves2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ngu2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Nguyen2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ni2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Nickels2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Nikolakopoulos2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Nissen2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Noga2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Nolte2011": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Nosek2012": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Nosek2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Nosek2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Nwafor2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "OBrien2006": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "OLeary2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "OSullivan2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Oesterheld2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ohigashi2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ohnishi2013": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Oishi2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Onuma2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Onyango2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "OpenScienceCollaboration2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ortmann2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Osborne2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ouedraogo2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Overbey2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Oyetade2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "PachanoBravo2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Page2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Palazzi2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Pan2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Panzacchi2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Papadiamantis2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Paranjpe2013": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Paranjpe2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Park2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Park2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Parween2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Patel2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Patra2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Pavlovic2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Pedder2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Pediaditakis2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Peng2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Peng2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Peng2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "PercieduSert2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "PercieduSert2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "PercieduSert2020a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "PercieduSert2020b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Perel2006": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Perez2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Pernet2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Perrier2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Persson2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Pestana2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Petek2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "PetitDemouliere2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Petkov2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "PetrescuMag2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Pfuhler2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Piekniewska2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Pignatti2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "PillaiKastoori2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Pin2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Pippin2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Plevkova2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Pognan2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Polak2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Poldrack2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Pollard2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Pottackal2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Potter2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Pound2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Priboi2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Prior2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Prior2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Prior2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Prosser2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Provencher2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Pruschak2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Purcell2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Puttmann2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Qian2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Qiu2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Quan2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Quist2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Raabe2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Radabaugh2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Rahman2008": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Raitano2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Rassy2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ratajczak2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Ratta2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Reiber2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Reichlin2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Reifenrath2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Reimann2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Reis2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Reiser2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Remick2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Reynolds2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "ReynoldsVaughn2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Rice2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Richardson2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Richter2011": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Rieder2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Rising2008": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Robinson2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Roche2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Rogiers2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Rolfo2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Romantsik2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Rongen2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Rotter2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Roughan2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Rovida2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "RowhaniFarid2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Rowland2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Rowlands2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Roy2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Rumpel2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Rush2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Russell2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Russo2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "SATO2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Saarinen2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Sabel2025a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Sabel2025b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Sailer2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Saili2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "SalianMehta2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Salman2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Samsa2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Sanz2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Sargeant2010": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Sauer2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Scancar2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Schaduangrat2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Schafer2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Schimanski2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Schimera2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Schmeiss2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Schmidli2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Schmidt2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Schneider2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Schnell2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Schnieders2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Schuh2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Schuhmacher2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Schwartz2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Scott2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Scuteri2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Sempa2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Sena2010": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Seok2013": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Serdar2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Sewell2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Sewell2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Sfanos2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Shah2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Shanahan2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Sharif2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Shaw2002": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Shaw2004": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Shenton2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Shineman2011": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Singh2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Sirenko2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Skydsgaard2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Smaldino2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Smith2007": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Smith2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Smith2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Smith2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Smith2020a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Smith2020b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Snyder2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Soergel2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Soliman2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Solle2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Song2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Song2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Souren2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Spaenig2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Speir2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Srensen2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Stafford2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Starr2012": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Steckler2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Stefan2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "StegerHartmann2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "StegerHartmann2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "StegerHartmann2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "StegerHartmann2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Stein2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Stevens2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Stotl2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Strech2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Strickland2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Stripecke2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Struebing2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Su2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Subramaniam2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Suchak2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Suh2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "SukoffRizzo2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Sunildutt2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Swaminathan2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Syed2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Szucs2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "TAFT2006": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Tahar2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Takao2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Tao2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "TappeTheodor2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Tatsioni2007": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Taverna2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Taylor2007": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Taylor2008": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Taylor2010": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Taylor2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Taylor2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Taylor2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Taylor2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Taylor2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Tcheremenskaia2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Tennant2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Tenuta2013": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Testa2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Thabane2013": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Thomas2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "ThompsonIritani2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Thurston2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Tian2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Tihanyi2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Tollefsen2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Toomey2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "TorresEspin2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "TorresEspin2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Trueblood2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Tsilidis2013": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Tutty2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Uribe2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Vadadokhau2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "VanBavel2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "VanLe2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "VanNorman2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "VanTuyl2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Vanslambrouck2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Varmazyad2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Vasilevsky2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Veith2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Velicu2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Velummailum2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Venkataraman2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Vennin2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Verbitsky2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Verderio2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Vesteghem2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Vesterinen2010": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Vicente2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Viergever2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "VillarValero2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Villela2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Vitale2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Vize2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Voelkl2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Voelkl2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Voelkl2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Vogt2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Vormann2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Vrabel2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Waithira2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Walker2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Walker2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Walker2026b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Waltz2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wang2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wang2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wang2024a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wang2024b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wang2025a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wang2025b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wang2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wanner2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Warden2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Warren2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wasylewski2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Watanabe2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Watford2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Watzlawick2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Watzlawick2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Weber2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Weener2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wegener2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Weidema2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "West2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Westmore2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wever2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Whitlock2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wicherts2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wignall2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wilkinson2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Williams2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Willoughby2014": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wilson2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Winder2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wisdom2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wise2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wittau2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wittich2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Woicke2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Woitowich2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wolfensohn2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wolfer2004": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wood2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Woods2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wright2023a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wright2023b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Wu2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Xie2015": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Xing2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Xun2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Yamaura2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Yang2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Yang2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Yao2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Yap2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Yi2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Yin2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Young2008": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Young2016": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Young2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Young2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Yu2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Yu2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Yuan2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Yue2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Yun2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Zarn2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Zeng2011": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Zhan2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Zhang2019b": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Zhang2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Zhang2021": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Zhang2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Zhang2024a": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Zheng2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Zhou2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Zhu2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Zhu2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Zingarelli2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Zocholl2025": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Zoubi2026": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Zuiderwijk2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "Zushin2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "daFonsecaCardoso2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "deGroot2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "deJonge2019": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "terRiet2012": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "vanRijt2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "vanTongeren2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "vandeLagemaat2017": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "vandenAkker2023": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "vanderNaald2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "vanderWorp2010": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "vonHellfeld2022": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "vonKortzfleisch2020": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "vonNiederhausern2018": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  },
+  "vonderBeck2024": {
+   "cat": "VERIFIED",
+   "detail": "",
+   "title_sim": 1.0
+  }
+ },
+ "bhatt_contamination": []
+}

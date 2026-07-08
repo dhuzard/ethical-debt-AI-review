@@ -1,0 +1,689 @@
+{
+ "section": "section_03",
+ "findings": [
+  {
+   "track": 3,
+   "severity": "MUST_FIX",
+   "location": "Section-wide Refinement thread — cumulative-harm conflict absent",
+   "claim_text": "The section never raises whether repeated 'mild/moderate' laboratory procedures produce measurable long-term cumulative harm; the Refinement discussion treats severity as per-procedure only.",
+   "cite_keys_involved": [
+    "Wegener2021",
+    "Bateson2015"
+   ],
+   "issue": "Conflict [3] fully suppressed: Wegener2021 (15-yr NHP blood-marker dataset finds NO cumulative harm) and Bateson2015 (telomere attrition as cumulative-severity biomarker predicting harm conventional markers miss) are BOTH uncited and the cumulative-harm question is nowhere in the text.",
+   "evidence": "Wegener2021 verbatim: '...did not provide support for the notion of long-term, cumulative effects on the monkeys' healthiness and well-being.' Bateson2015 verbatim: 'I propose that telomere attrition... provides a molecular measure of cumulative experience that could be used to assess the welfare impact... of experimental procedures.'",
+   "suggested_fix": "Add a sentence in the Refinement/severity paragraph noting the open dispute: repeated 'mild' procedures may impose cumulative damage conventional markers miss (Bateson2015), whereas a long NHP dataset detects none (Wegener2021) — a gap better-reported severity data would help resolve."
+  },
+  {
+   "track": 3,
+   "severity": "MUST_FIX",
+   "location": "'Is Refinement overtaking Replacement?' — severity-assignment reliability",
+   "claim_text": "\"severity assessment remains largely subjective with evidence-based methods scarce {cite:p}`Leenaars2019a`, and the regulatory severity categories are widely judged too underspecified to assign consistently {cite:p}`Smith2018, DeVleeschauwer2023`\"",
+   "cite_keys_involved": [
+    "Manthey2021",
+    "Smith2018"
+   ],
+   "issue": "Conflict [6] one-sided: only the pessimistic 'too subjective/underspecified' side is given. Manthey2021 (the countervailing side) is omitted — an in-training exercise significantly improved personnel's ability to recognise and grade stress severity, showing reliability is partly trainable.",
+   "evidence": "Manthey2021 verbatim: 'The results were assessed comparatively and showed a significant increase in performance in all categories (p<0.001)' (a minority still could not distinguish healthy from stressed animals). Smith2018 verbatim: 'The examples of severity classification given in Annex VIII are limited in number, and have little descriptive power to aid assignment.'",
+   "suggested_fix": "Cite Manthey2021 and hedge: severity judgement is subjective and the categories under-specified (Smith2018, Leenaars2019a), yet targeted training measurably improves grading reliability (Manthey2021), even if residual subjectivity remains."
+  },
+  {
+   "track": 3,
+   "severity": "MUST_FIX",
+   "location": "'3Rs as a moral contract' (sentience expansion) and Replacement framing",
+   "claim_text": "\"the recognition of sentience keeps expanding — to cephalopods on high-confidence evidence {cite:p}`Schnell2026`\"",
+   "cite_keys_involved": [
+    "CrespiAbril2023",
+    "Schnell2026"
+   ],
+   "issue": "Conflict [11] one-sided: Schnell2026 (strong evidence of cephalopod sentience) is cited, but CrespiAbril2023 — which notes invertebrates' presumed non-sentience is exactly what makes them favoured 'replacement' models — is omitted. Expanding sentience undercuts the 'invertebrates = low-cost replacement' logic the review elsewhere leans on.",
+   "evidence": "CrespiAbril2023 verbatim: invertebrates' presumed non-sentience 'favours them as replacement models'; proposes a broadened 5Rs. Schnell2026 verbatim: 'There is strong evidence of sentience in octopuses and cuttlefish... six of eight criteria.'",
+   "suggested_fix": "Add CrespiAbril2023: note the tension that invertebrates are treated as ethically cheap 'replacement' models precisely because assumed non-sentient (CrespiAbril2023), an assumption the sentience evidence (Schnell2026) is steadily eroding."
+  },
+  {
+   "track": 3,
+   "severity": "MUST_FIX",
+   "location": "'Is Refinement overtaking Replacement?' — reliability of welfare score-sheets",
+   "claim_text": "Severity-scoring discussion cites only validated grimace scales (Evangelista2021) plus the 'subjective/scarce' framing; the reliability of routine score-sheets to predict outcomes is not engaged.",
+   "cite_keys_involved": [
+    "Krueger2023",
+    "Moller2018"
+   ],
+   "issue": "Conflict [12] fully suppressed: Krueger2023 (standard score-sheet parameters insufficient to predict death in a rat cirrhosis model) and Moller2018 (a simple evidence-based severity classification is valid) are BOTH uncited, so the disagreement over how reliably simple welfare scores capture severity is absent.",
+   "evidence": "Krueger2023 verbatim: humane endpoint had to be re-derived ('scores exceeding 20') because standard parameters under-predicted death. Moller2018 verbatim: kindling paradigm classifiable as 'moderate severity based on a longer-lasting mild impact.'",
+   "suggested_fix": "Add both: routine score-sheets can fail to predict mortality and need model-specific re-calibration (Krueger2023), even as comprehensive evidence-based analyses can validly assign severity in other models (Moller2018)."
+  },
+  {
+   "track": 4,
+   "severity": "SHOULD_CAVEAT",
+   "location": "'Is Refinement overtaking Replacement?'",
+   "claim_text": "\"severity assessment remains largely subjective with evidence-based methods scarce {cite:p}`Leenaars2019a`\"",
+   "cite_keys_involved": [
+    "Leenaars2019a",
+    "TappeTheodor2022",
+    "Reiber2023",
+    "Morton2023",
+    "Talbot2023",
+    "Leitner2026"
+   ],
+   "issue": "The claim faithfully quotes Leenaars2019a, but the same package contains numerous validated/emerging evidence-based severity tools (TappeTheodor2022 — replicated; Reiber2023; Morton2023; Talbot2023; Leitner2026). Presenting only 'scarce' understates the maturing tool base.",
+   "evidence": "TappeTheodor2022 (replicated): 'The WWHow concept integrates intra-operative characteristics for predicting the maximum expected severity of surgical procedures.' Reiber2023: bioinformatics composite schemes 'confirmed... for evidence-based comparative severity assessment.'",
+   "suggested_fix": "Hedge: 'robust, cross-model-validated methods remain scarce, though a growing set of evidence-based severity tools is being developed and validated {cite:p}`TappeTheodor2022, Reiber2023`.'"
+  },
+  {
+   "track": 2,
+   "severity": "SHOULD_CAVEAT",
+   "location": "Public-compact paragraph",
+   "claim_text": "\"Support is real but conditional and sensitive to species and purpose, averaging no better than ambivalence in structured consultations {cite:p}`Brunt2021b`\"",
+   "cite_keys_involved": [
+    "Brunt2021b",
+    "Joffe2016"
+   ],
+   "issue": "The section uses Brunt2021b only for the 'ambivalence' reading; the conflict [4] facet — that specific high-benefit scenarios drew HIGHER-than-typical support (the 'more supportive than commonly assumed' side vs Joffe2016) — is dropped. Both papers are cited so the conflict is not fully suppressed, but the framing is one-directional.",
+   "evidence": "Brunt2021b: scenarios 'all exhibited higher levels of support than what is typically reported for animal research'; overall mean 4.5/7 (ambivalence). Joffe2016: 'Expectations for AR are much higher than empirical data show to have been achieved.'",
+   "suggested_fix": "Add the counter-facet: while overall attitudes average ambivalent, specific high-benefit scenarios drew higher-than-typical support (Brunt2021b), complicating the 'fragile support' reading drawn from Joffe2016."
+  },
+  {
+   "track": 3,
+   "severity": "SHOULD_CAVEAT",
+   "location": "'A framework honoured in the breach' — checklist enforcement",
+   "claim_text": "\"A checklist mandated at submission has been associated with more complete reporting {cite:p}`Han2017`, whereas the mere publication of reporting guidelines left adherence unchanged or even lower {cite:p}`Liu2021`\"",
+   "cite_keys_involved": [
+    "Han2017",
+    "Macleod2019b",
+    "Liu2021"
+   ],
+   "issue": "The section presents mandated checklists favourably, but the citemap contains Macleod2019b (the IICARus randomised trial), whose null result — a mandated ARRIVE checklist at peer review did NOT improve compliance — nuances the 'mandating works' claim. (Macleod2019b has no section_03 finding, so this is a caveat rather than a coverage SHOULD_CITE.)",
+   "evidence": "Han2017 and Macleod2019b both in citemap; the mandated-checklist evidence is mixed (association in Han2017 vs a null RCT in Macleod2019b/IICARus).",
+   "suggested_fix": "Soften: 'mandating a checklist at submission has been associated with more complete reporting {cite:p}`Han2017`, though a randomised trial of enforced checklist review found no improvement {cite:p}`Macleod2019b` — enforcement helps but is not sufficient.'"
+  },
+  {
+   "track": 1,
+   "severity": "MINOR",
+   "location": "'A framework honoured in the breach' (para after fig-sec3-3rs-underreporting)",
+   "claim_text": "\"...mouse papers averaging zero of ten possible items {cite:p}`Taylor2010`; ... sample-size estimation reported in 1.0% {cite:p}`Park2023`; ... adherence to the ARRIVE 2.0 essentials at 42% {cite:p}`Ding2022`; ... a 2.35% data-sharing response rate {cite:p}`Ratajczak2024`. These are replicated findings, not outliers...\"",
+   "cite_keys_involved": [
+    "Taylor2010",
+    "Park2023",
+    "Ding2022",
+    "Ratajczak2024"
+   ],
+   "issue": "Cross-paper synthesis pools four different metrics (a 10-item 3Rs score, sample-size reporting, ARRIVE-essentials adherence, data-sharing response rate) with different denominators as 'the same low rates.' Directionally sound (text notes 'across specialties, methods, and decades'), but the metrics are not commensurable point-for-point; 42% is not a low single-digit rate like the others.",
+   "evidence": "Each statistic measures a distinct reporting item; ARRIVE-essentials adherence (42%) differs in kind from single-digit sample-size/analgesia rates.",
+   "suggested_fix": "Minor wording: 'consistently low across distinct reporting metrics' rather than implying a single comparable rate."
+  },
+  {
+   "track": 5,
+   "severity": "MINOR",
+   "location": "Citation hygiene",
+   "claim_text": "\"male-only study designs generate surpluses of unused female animals... {cite:p}`Onuma2026`\"",
+   "cite_keys_involved": [
+    "Onuma2026",
+    "ONUMA2026"
+   ],
+   "issue": "Package contains two distinct papers whose cite_keys differ only by case: Onuma2026 (10.1002/ame2.70182, correctly cited here) and ONUMA2026 (10.1292/jvms.25-0455, uncited vet-student compassion study). Case-insensitive BibTeX/MyST tooling can collide or mis-resolve these.",
+   "evidence": "citemap: '10.1002/ame2.70182':'Onuma2026' and '10.1292/jvms.25-0455':'ONUMA2026'.",
+   "suggested_fix": "Rename one key (e.g. ONUMA2026 -> Onuma2026b) to remove the case-only collision before bibliography build."
+  }
+ ],
+ "summary": {
+  "conflicts_in_package": 16,
+  "conflicts_represented_in_text": 12,
+  "conflicts_suppressed": 4,
+  "suppressed_conflicts": [
+   {
+    "paper_a": "Wegener2021",
+    "paper_b": "Bateson2015",
+    "topic": "cumulative harm from repeated 'mild' procedures (NHP dataset detects none vs telomere-attrition biomarker) — both sides omitted"
+   },
+   {
+    "paper_a": "Manthey2021",
+    "paper_b": "Smith2018",
+    "topic": "reliability of procedure-severity assignment (training improves grading vs regulatory categories underspecified) — Manthey2021 side omitted"
+   },
+   {
+    "paper_a": "CrespiAbril2023",
+    "paper_b": "Schnell2026",
+    "topic": "invertebrate sentience vs use as low-cost 'replacement' models — CrespiAbril2023 side omitted"
+   },
+   {
+    "paper_a": "Krueger2023",
+    "paper_b": "Moller2018",
+    "topic": "reliability of simple welfare score-sheets to capture/predict severity — both sides omitted"
+   }
+  ],
+  "papers_in_package": 211,
+  "papers_cited": 106,
+  "papers_should_cite": 6,
+  "papers_waived_out_of_scope": 44,
+  "papers_waived_redundant": 55,
+  "papers_waived_low_quality": 0,
+  "coverage_review": [
+   {
+    "cite_key": "Allioux2022",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Rat TBI welfare-scoresheet refinement; represented by the severity-assessment/refinement cluster (Evangelista2021, Leenaars2019a)."
+   },
+   {
+    "cite_key": "Ameli2024",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Culture-of-care 'animal agency' qualitative study; represented by culture-of-care cluster (Morahan2024, Young2024, Ameli2025)."
+   },
+   {
+    "cite_key": "Andersson2021",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Zebrafish holding-density welfare; section's housing/enrichment evidence is rodent-focused."
+   },
+   {
+    "cite_key": "Azilagbetor2025a",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Patient/public engagement in animal-research policy; represented by the public-compact cluster (Joffe2016, Loser2026)."
+   },
+   {
+    "cite_key": "Baker2026",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "NHP behavioural-management practice variation across facilities; not the data-welfare/Reduction arc."
+   },
+   {
+    "cite_key": "Baldwin2023",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Contractarian moral-status argument; represented by moral-status cluster (DeGrazia1991, Bovenkerk2014, Dung2022)."
+   },
+   {
+    "cite_key": "Bateson2015",
+    "classification": "SHOULD_CITE",
+    "reason": "Conflict-3 side: proposes telomere attrition as cumulative-severity biomarker predicting harm conventional markers miss; the whole cumulative-harm debate is absent from the section."
+   },
+   {
+    "cite_key": "Berry2015",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Cephalopods added to Directive on sentience evidence; represented by Schnell2026 (sentience expansion)."
+   },
+   {
+    "cite_key": "Bert2017",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Meta-analysis of German project summaries to target 3R development by disease area; tangential to the reporting/reuse argument."
+   },
+   {
+    "cite_key": "Bosker2009",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Fish reproductive-toxicity low-power/design-refinement; represented by Reduction-by-design cluster (Landes2023, Gaskill2020)."
+   },
+   {
+    "cite_key": "Brohmer2025",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "No section_03 finding in the package; open-science/meta-research paper curated for another section."
+   },
+   {
+    "cite_key": "Browning2025",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Commercial cephalopod slaughter welfare gap; not laboratory data welfare."
+   },
+   {
+    "cite_key": "Brunt2021a",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "CO2-euthanasia attitudes/barriers survey; represented by euthanasia-refinement cluster and Brunt2021b."
+   },
+   {
+    "cite_key": "BurbanoL2020",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "In-silico zebrafish behavioural modelling; peripheral to the reuse/Reduction argument."
+   },
+   {
+    "cite_key": "Byrd2024",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Zebrafish visual-enrichment cortisol study; section's enrichment claims concern rodents."
+   },
+   {
+    "cite_key": "CasparCohen2026",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Macaque-specific lifelong welfare-assessment tool development; NHP husbandry, not data welfare."
+   },
+   {
+    "cite_key": "Chatzimanouil2018",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "No section_03 finding; ARRIVE-adherence reporting study belongs to the reproducibility section."
+   },
+   {
+    "cite_key": "Chung2026",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "No section_03 finding; pilot/feasibility-methods paper, other-section scope."
+   },
+   {
+    "cite_key": "CrespiAbril2023",
+    "classification": "SHOULD_CITE",
+    "reason": "Conflict-11 side: invertebrates' presumed non-sentience is precisely what makes them favoured 'replacement' models; undercuts section's sentience-expansion point (Schnell2026) and Replacement framing."
+   },
+   {
+    "cite_key": "Deeb2025",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "No section_03 finding; not tied to any section_03 claim."
+   },
+   {
+    "cite_key": "Dennis2024",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "AWAG cumulative-severity + imaging humane endpoints; represented by severity-assessment cluster."
+   },
+   {
+    "cite_key": "Diaz2021",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "IACUC overview framing 3Rs as guiding principle; represented by 3Rs-governance cluster (Vitale2022, MacArthurClark2017)."
+   },
+   {
+    "cite_key": "Ernst2021",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Porcine surgical-Apgar refinement score; represented by severity/refinement-scoring cluster."
+   },
+   {
+    "cite_key": "Figdor2022",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Argument to phase out mental-disorder animal models; represented by Replacement/model-validity debate (Fruhwein2025)."
+   },
+   {
+    "cite_key": "Fry2025",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "FELASA experimental-design teaching to reduce animal use; represented by Reduction-by-design cluster (Gaskill2020, Karp2021)."
+   },
+   {
+    "cite_key": "Golz2024",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Zebrafish-embryo thyroid-disruption ecotoxicology replacement assay; out of the mammalian 3Rs arc."
+   },
+   {
+    "cite_key": "GonzalezUarquin2025",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Early-career-researcher distress/culture of care; represented by culture-of-care cluster."
+   },
+   {
+    "cite_key": "Grimm2017",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "EU-Directive HBA over-promising critique; represented by the harm-benefit-analysis conflict cluster (Grimm2018, Gutfreund2020)."
+   },
+   {
+    "cite_key": "Gulin2015",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "No section_03 finding; disease-model reproducibility paper for another section."
+   },
+   {
+    "cite_key": "Hager2017",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Validated Sheep Grimace Scale; represented by grimace-scale review Evangelista2021."
+   },
+   {
+    "cite_key": "Hair2019",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "No section_03 finding; ARRIVE 2.0 guideline paper belongs to the reporting/governance section."
+   },
+   {
+    "cite_key": "Hamilton2023",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "No section_03 finding; not linked to a section_03 claim."
+   },
+   {
+    "cite_key": "Hartig2023",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "NHP research regulatory harmonisation across 13 countries; governance of NHP work, not the section's topic."
+   },
+   {
+    "cite_key": "Hawkins2002",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "UK survey: pain assessment subjective, few score sheets; represented by the 'severity subjective' claim (Smith2018, Leenaars2019a)."
+   },
+   {
+    "cite_key": "Hobbiesiefken2023",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Mouse enrichment-item preference; represented by enrichment/refinement cluster."
+   },
+   {
+    "cite_key": "Hohlbaum2020",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Separated-pair-housing refinement, limited benefit; represented by enrichment/refinement cluster."
+   },
+   {
+    "cite_key": "Hohlbaum2024",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Lockbox enrichment does not harm reproducibility (reduces CV); represented by enrichment-vs-variability cluster (Kentner2021, Wolfer2004, Cait2022)."
+   },
+   {
+    "cite_key": "Huang2020",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "No section_03 finding; reproducibility-project paper, other-section scope."
+   },
+   {
+    "cite_key": "Ito2021",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "No section_03 finding; not tied to a section_03 claim."
+   },
+   {
+    "cite_key": "IvimeyCook2025",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "No section_03 finding; data-reuse/meta-analysis methods paper, other-section scope."
+   },
+   {
+    "cite_key": "Jegstrup2003",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Transgenic-mouse welfare-protocol heterogeneity; represented by severity/score-sheet cluster."
+   },
+   {
+    "cite_key": "Jin2018",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "No section_03 finding; not tied to a section_03 claim."
+   },
+   {
+    "cite_key": "Kammertoens2021",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Immunodeficient-mice classed painful despite no detectable harm; represented by severity-category-underspecification cluster (Smith2018, DeVleeschauwer2023)."
+   },
+   {
+    "cite_key": "Khoo2020",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Nesting enrichment reduces self-injury severity; represented by enrichment-as-refinement cluster."
+   },
+   {
+    "cite_key": "Kidwell2016",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "No section_03 finding; open-data-badges paper belongs to the open-science/FAIR section."
+   },
+   {
+    "cite_key": "Koplin2020",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Moral status of novel entities (in-vitro brains, synthetic embryos); not lab-animal research ethics arc."
+   },
+   {
+    "cite_key": "Koplin2024",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Brain-organoid vs animal moral status; organoid ethics, tangential."
+   },
+   {
+    "cite_key": "Krueger2023",
+    "classification": "SHOULD_CITE",
+    "reason": "Conflict-12 side: standard severity score-sheet parameters were insufficient to predict death in a rat cirrhosis-surgery model; section presents severity scoring only via validated grimace scales."
+   },
+   {
+    "cite_key": "Kumstel2020",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Multivariate distress model in pancreatic-cancer mice; represented by severity-assessment cluster."
+   },
+   {
+    "cite_key": "Leidinger2018",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Enrichment reduces pup mortality; represented by enrichment cluster."
+   },
+   {
+    "cite_key": "Leitner2026",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Mouse distress indicators (body weight vs burrowing); represented by severity-assessment cluster."
+   },
+   {
+    "cite_key": "Li2002",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Moral-status intractability / utilitarianism-unhelpful; represented by moral-status cluster (DeGrazia1991)."
+   },
+   {
+    "cite_key": "Li2024b",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Survey of medical-student welfare awareness; education-awareness topic outside the reuse/Reduction arc."
+   },
+   {
+    "cite_key": "Lidster2016",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "NC3Rs epilepsy-model refinement guidance; represented by refinement cluster (Roughan2015, Carbone2019)."
+   },
+   {
+    "cite_key": "Liu2025c",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "'4R' (add Responsibility) proposal; represented by R-expansion cluster (vonderBeck2024, PetrescuMag2025, Brink2023)."
+   },
+   {
+    "cite_key": "Macleod2019b",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "No section_03 finding (see SHOULD_CAVEAT S3: IICARus checklist-RCT null result nuances Han2017); primarily reproducibility-section scope."
+   },
+   {
+    "cite_key": "Manthey2021",
+    "classification": "SHOULD_CITE",
+    "reason": "Conflict-6 side: training significantly improves personnel's ability to recognise/grade stress severity; section presents only the 'severity too subjective/underspecified' side (Leenaars2019a, Smith2018)."
+   },
+   {
+    "cite_key": "Marshall2022",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Human-nonhuman chimera oversight moral status; not the section's use of moral status."
+   },
+   {
+    "cite_key": "MartinRodriguez2026",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "No section_03 finding; not tied to a section_03 claim."
+   },
+   {
+    "cite_key": "Mazhary2019",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Rat cage-height barriers largely non-scientific; represented by housing-refinement argument (Cait2022)."
+   },
+   {
+    "cite_key": "McGlacken2024",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "NVS 'openness' tensions / culture of dialogue; represented by openness + culture-of-care cluster (MacArthurClark2019, Loser2026, Young2024)."
+   },
+   {
+    "cite_key": "Mehmood2024",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Partial replacement with less-sentient organisms; represented by Replacement cluster (Tutty2025)."
+   },
+   {
+    "cite_key": "Menke2022",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "No section_03 finding; other-section meta-research scope."
+   },
+   {
+    "cite_key": "Mertz2024",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Meta-level mapping of animal-research-ethics as a field; scoping/agenda paper not tied to a section claim."
+   },
+   {
+    "cite_key": "Mhamdi2025",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "No section_03 finding; unrefereed preprint with no package evidence."
+   },
+   {
+    "cite_key": "Mitchell2021",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "NHP neuroimaging welfare-standards comparison; NHP regulation, off-arc."
+   },
+   {
+    "cite_key": "Mocho2025",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "FELASA fish-euthanasia recommendations; not the section's mammalian euthanasia/refinement thread."
+   },
+   {
+    "cite_key": "Moller2018",
+    "classification": "SHOULD_CITE",
+    "reason": "Conflict-12 side: comprehensive evidence-based severity analysis validates a simple measure (kindling model = moderate); other side of the score-sheet-reliability conflict, omitted."
+   },
+   {
+    "cite_key": "Morton2023",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Mathematical cumulative-severity model; represented by severity-assessment cluster."
+   },
+   {
+    "cite_key": "ONUMA2026",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Vet-student compassion pre/post survey; represented by culture/compassion cluster. NB key differs from cited Onuma2026 only by case."
+   },
+   {
+    "cite_key": "ONeill2025",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Open-source limited-bedding apparatus for reproducible early-life-stress model; represented by standardisation/reproducibility cluster (vonKortzfleisch2020)."
+   },
+   {
+    "cite_key": "Palmer2022",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Rehoming/Named-Veterinary-Surgeon qualitative care study; rehoming scope not covered."
+   },
+   {
+    "cite_key": "Panyod2026",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Antibiotic-regimen refinement for pseudo-germ-free mice; specific model-refinement technique, off-arc."
+   },
+   {
+    "cite_key": "Podlasz2026",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Advocacy for zebrafish adoption to support 3Rs; species-promotion, tangential."
+   },
+   {
+    "cite_key": "Powell2024",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Decapod-crustacean sentience & legislation; represented by Schnell2026 (sentience expansion)."
+   },
+   {
+    "cite_key": "Racz2021",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Zebrafish VIE-tagging refinement technique; fish procedure, off-arc."
+   },
+   {
+    "cite_key": "Ratuski2022",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Enrichment-terminology metareview; represented by enrichment cluster (Kentner2021)."
+   },
+   {
+    "cite_key": "Reiber2023",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Validated bioinformatics severity-classification tool; represented by severity-assessment cluster (see SHOULD_CAVEAT S1 on 'methods scarce')."
+   },
+   {
+    "cite_key": "Resasco2021",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Judgment-bias affective-state welfare in mice; represented by enrichment/affective-state cluster."
+   },
+   {
+    "cite_key": "RodriguezPerez2024",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Experimental bioethics of '3R dilemmas'; represented by R-prioritisation cluster (Franco2018, LouisMaerten2024)."
+   },
+   {
+    "cite_key": "Roe2021",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Ethnography of care/harm coexistence; represented by culture-of-care cluster (Young2024, Rumpel2026)."
+   },
+   {
+    "cite_key": "Roth2026",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Biocentric interface design for animal-cognition research; niche methodology."
+   },
+   {
+    "cite_key": "RuizSancho2026",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Species-dependent student attitudes; represented by public-attitudes cluster (Brunt2021b, Bearth2024)."
+   },
+   {
+    "cite_key": "Sabrautzki2021",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Zebrafish welfare score-sheet; fish severity classification, off the rodent arc."
+   },
+   {
+    "cite_key": "Schlanser2021",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "US-Army compassion-fatigue ProQOL survey; represented by compassion-fatigue cluster (Thurston2021, LaFollette2020)."
+   },
+   {
+    "cite_key": "Shaw2024",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Swiss animal-dignity-law critique; represented by Swiss-law analysis Perez2023."
+   },
+   {
+    "cite_key": "Skidmore2020",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "UK laboratory-animal rehoming survey; rehoming scope not in section."
+   },
+   {
+    "cite_key": "Sneddon2017",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Effect-sizes/CIs as Reduction; represented by Reduction-statistics cluster (Gaskill2020, Verderio2023)."
+   },
+   {
+    "cite_key": "Stevens2014",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "No section_03 finding; reporting/meta-research paper for another section."
+   },
+   {
+    "cite_key": "Swain2025",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Physicians' justifications for military live-tissue training; specific practice ethics, off-arc."
+   },
+   {
+    "cite_key": "Talbot2023",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "RELSA composite severity score; represented by severity-assessment cluster."
+   },
+   {
+    "cite_key": "Tang2023",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Drug-discovery NAM shift; represented by NAMs/Replacement cluster (Marx2020, Weidema2025, PetrescuMag2025)."
+   },
+   {
+    "cite_key": "TappeTheodor2022",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Validated (replicated) WWHow prospective severity prediction; represented by severity-assessment cluster (also cited in SHOULD_CAVEAT S1)."
+   },
+   {
+    "cite_key": "Thallmair2025",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Score-sheets often flawed + design procedure; represented by severity-assessment cluster."
+   },
+   {
+    "cite_key": "Torok2026",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Housing generates chronic stress/bias; represented by CRAMPED/housing cluster (Cait2022, Kentner2021)."
+   },
+   {
+    "cite_key": "Tremoleda2022",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Culture-of-care training initiatives; represented by culture-of-care cluster (Ferrara2022, Enkelmann2023)."
+   },
+   {
+    "cite_key": "Verhave2024",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Blinding/randomisation to reduce bias; represented by bias/rigor cluster (Vogt2016)."
+   },
+   {
+    "cite_key": "Wang2021",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "NLP risk-of-bias classifier tooling for large-scale meta-research monitoring; reproducibility-monitoring scope."
+   },
+   {
+    "cite_key": "Wegener2021",
+    "classification": "SHOULD_CITE",
+    "reason": "Conflict-3 side: 15-yr NHP blood-marker dataset finds NO long-term cumulative harm from repeated 'mild' procedures; section omits the cumulative-harm question entirely."
+   },
+   {
+    "cite_key": "Zhang2019a",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Cholestasis humane-endpoint refinement (burrowing/weight); represented by refinement/humane-endpoint cluster."
+   },
+   {
+    "cite_key": "Zhang2023",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "NHP neurogenesis models valuable; represented by animal-models-essential side (MartinezLopez2023)."
+   },
+   {
+    "cite_key": "Zhili2026",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Organoid ethical-review governance; organoid ethics, tangential."
+   },
+   {
+    "cite_key": "Zintzsch2020",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Prospective harm assessment for GA animals is hard; represented by HBA-difficulty cluster (Gutfreund2020)."
+   },
+   {
+    "cite_key": "vandenBrandeler2024",
+    "classification": "WAIVED_OUT_OF_SCOPE",
+    "reason": "Social epistemology of 'speciesist ignorance'; philosophy of ignorance, not a section claim."
+   },
+   {
+    "cite_key": "vanderStaay2025",
+    "classification": "WAIVED_REDUNDANT",
+    "reason": "Three-step welfare-assessment-tool development; represented by welfare-assessment/severity cluster."
+   }
+  ]
+ }
+}

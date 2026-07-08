@@ -1,0 +1,155 @@
+{
+ "section": "06",
+ "findings": [
+  {
+   "track": 2,
+   "severity": "SHOULD_CAVEAT",
+   "location": "Subsection 'The strongest counter-argument: NAMs are ready now' (FDA Modernization Acts sentence)",
+   "claim_text": "and the US FDA Modernization Acts now permit microphysiological systems alongside or instead of animals in investigational filings {cite:p}`Kumar2026, Rowland2026, Patra2026, Mone2020`",
+   "cite_keys_involved": ["Mone2020", "Kumar2026", "Rowland2026", "Patra2026"],
+   "issue": "Misattribution. Mone2020 is the EU-ToxRisk consortium paper on NAM-enhanced read-across (36 partners, EU-REACH/OECD context); it says nothing about the US FDA Modernization Acts or microphysiological systems in IND filings. It is an extraneous/wrong citation attached to a US-regulatory MPS claim. The claim itself is carried by Kumar2026 (FDA Mod Acts 2.0/3.0 allow MPS in IND), Rowland2026 (NAM/EV biomarkers under FDA Mod Act), and Patra2026 (intestinal organoids framed as FDA NAMs), so the claim is not unsupported — only mis-cited. This pairing would fail Phase 16 full-text verification.",
+   "evidence": "Mone2020 package claim: 'The EU-ToxRisk consortium (36 partners) developed a mechanistic, AOP-guided strategy for NAM-enhanced read-across as an animal-free chemical-risk-assessment approach.' No mention of FDA, Modernization Acts, MPS, or IND submissions.",
+   "suggested_fix": "Remove Mone2020 from this citation group. If coverage of Mone2020 is required, cite it where read-across is discussed (e.g. the 'read-across is an internationally recognised validated method' sentence with Rovida2020/Hartung2025b/Pestana2021, or the EU-ToxRisk/read-across tension near Ball2016/Pestana2021/Leist2025)."
+  },
+  {
+   "track": 2,
+   "severity": "SHOULD_CAVEAT",
+   "location": "Subsection 'The strongest counter-argument: NAMs are ready now' (steelman list)",
+   "claim_text": "microphysiological systems are framed as already revolutionising drug development and reducing animal use {cite:p}`Marx2025, Kopanska2022`",
+   "cite_keys_involved": ["Marx2025", "Kopanska2022"],
+   "issue": "Interpretive mismatch. Marx2025 is the 2023 t4 MPS workshop progress-assessment whose core finding is that industrial adoption of MPS 'remained slow' and the 2020 regulatory-acceptance recommendations were 'still not implemented' — a cautionary appraisal, not a claim that MPS are 'already revolutionising drug development and reducing animal use.' Using it to source the promissory steelman inverts the paper's actual conclusion. Kopanska2022 (MPS reducing drug-development costs) does legitimately carry the promissory framing, so the sentence is not unsupported, but Marx2025 is the wrong anchor for 'already revolutionising.' (Marx2025 is correctly used elsewhere for the cautious/developmental middle ground in the MPS conflict box and the reproducibility paragraph.)",
+   "evidence": "Marx2025 package claim: 'By the 2023 t4 MPS workshop, academic MPS had matured but industrial adoption remained slow and the 2020 regulatory-acceptance recommendations were still not implemented, needing context-of-use qualification and standardization.'",
+   "suggested_fix": "Drop Marx2025 from this promissory clause (leave Kopanska2022, or add Hartung2025a/Marx2020's proponent side), or reword to attribute the 'revolutionising' framing to the drug-development/editorial sources only. Keep Marx2025 for the cautious side where it already appears."
+  },
+  {
+   "track": 6,
+   "severity": "SHOULD_CAVEAT",
+   "location": "Subsection 'Human tissue models recover biology that animals miss' (liver MPS DILI performance)",
+   "claim_text": "a liver microphysiological model reported 100% sensitivity and 90% specificity for drug-induced liver injury {cite:p}`Varmazyad2026`",
+   "cite_keys_involved": ["Varmazyad2026"],
+   "issue": "Trace-to-primary-data. The 100%/90% DILI figure is not a value measured in Varmazyad2026; the package's own source sentence shows Varmazyad2026 (a liver-MPS qualification-roadmap review) is quoting the number from another study ('with a reported sensitivity of 100% and specificity of 90% ... [ ]'). A headline 100% sensitivity presented via a secondary source is exactly the false-consensus risk Track 6 targets. The section's verb 'reported' provides partial hedging, but the reader cannot tell this is a second-hand figure rather than Varmazyad2026's own validation result.",
+   "evidence": "Varmazyad2026 effect_size_source_sentence: 'It provides a model that more accurately reflects human biology than traditional approaches, with a reported sensitivity of 100% and specificity of 90% for predicting drug-induced liver injury (DILI) [].' The bracketed reference indicates the value is quoted from a primary study.",
+   "suggested_fix": "Trace to and cite the primary DILI-validation study, or make the secondary nature explicit, e.g. 'a liver-MPS qualification review cites a reported 100% sensitivity and 90% specificity for DILI {cite:p}`Varmazyad2026`.' Consider noting the number is a single reported figure, not an independently replicated benchmark."
+  },
+  {
+   "track": 2,
+   "severity": "SHOULD_CAVEAT",
+   "location": "Subsection 'The same reproducibility problem, in a new medium' (animal reference-standard reproducibility)",
+   "claim_text": "standardised endocrine assays replicating at 72% and 74% and rodent carcinogenicity outcomes agreeing only 65–86% between sexes of one species and 36–74% between rat and mouse {cite:p}`Karmaus2026`",
+   "cite_keys_involved": ["Karmaus2026"],
+   "issue": "Quantitative claim not covered by the package's authoritative sentence. The verbatim evidence for Karmaus2026 supports only the Hershberger/uterotrophic figures (72% and 74%). The rodent-carcinogenicity concordance figures (65–86% between sexes; 36–74% rat vs mouse) are not present in the extracted source sentence, and a Europe PMC fetch of the abstract confirms the abstract does not report them. The paper is fulltext-access and topically the correct source (a next-generation-toxicology review of in vivo study variability including carcinogenicity), and the figures are consistent with the classic rodent-carcinogenicity concordance literature, so this is likely a genuine full-text figure rather than a fabrication — but it is unverified against the package and must be confirmed in Phase 16 full-text verification.",
+   "evidence": "Karmaus2026 effect_size_source_sentence: 'The Hershberger and uterotrophic assays gave similar degrees of replicability: 72% and 74%, respectively.' Europe PMC abstract: '...replicability of in vivo toxicological guideline studies varies widely by study type, endpoint complexity, and classification approach' — no carcinogenicity percentages in the abstract.",
+   "suggested_fix": "Confirm the 65–86% and 36–74% carcinogenicity figures against the Karmaus2026 full text (Phase 16). If the full text does not carry both figures, cite the primary source or drop the unverified numbers, keeping the verbatim-supported 72%/74% endocrine-assay claim."
+  },
+  {
+   "track": 1,
+   "severity": "MINOR",
+   "location": "Subsection 'Predictivity is real, but it is endpoint-specific' (agrochemical mixtures)",
+   "claim_text": "a proof-of-concept extension to agrochemical mixtures achieved 85.0% sensitivity {cite:p}`Corvaro2024`",
+   "cite_keys_involved": ["Corvaro2024"],
+   "issue": "Selective reporting in prose: the sentence cites only the favourable sensitivity (85.0%) and omits the substantially lower specificity (68.2%) and overall accuracy (76.2%) from the same study. This is mitigated because the paired figure caption ({numref}`fig-sec6-nam-vs-invivo`) discloses '85.0%/68.2%', so the balance is not suppressed section-wide; the prose alone reads more favourably than the data.",
+   "evidence": "Corvaro2024 effect_size_source_sentence: 'The overall accuracy, sensitivity, and specificity were 76.2% (32/42), 85.0% (17/20), and 68.2% (15/22), respectively.'",
+   "suggested_fix": "Add the specificity in prose, e.g. '...achieved 85.0% sensitivity but only 68.2% specificity {cite:p}`Corvaro2024`', to match the figure caption."
+  },
+  {
+   "track": 2,
+   "severity": "MINOR",
+   "location": "Subsection 'Predictivity is real, but it is endpoint-specific' (in silico stream, phototoxicity)",
+   "claim_text": "Expert-rule and QSAR software predicted phototoxicity with 77% overall accuracy {cite:p}`Ahuja2024`",
+   "cite_keys_involved": ["Ahuja2024"],
+   "issue": "The 77% overall accuracy is specifically the Derek Nexus expert-rule system in Ahuja2024, not a combined 'expert-rule and QSAR software' figure. Ahuja2024 evaluated both Derek Nexus and the OECD QSAR Toolbox; attributing the 77% to the pair slightly overstates the QSAR-Toolbox component's standing. The figure caption correctly labels it 'classification accuracy (77%, phototoxicity).'",
+   "evidence": "Ahuja2024 effect_size_source_sentence: 'Derek Nexus predicted phototoxicity of the compounds, with a sensitivity of 63%, specificity of 93% ... overall accuracy of 77% and balanced accuracy of 78%.'",
+   "suggested_fix": "Attribute the 77% to Derek Nexus specifically, e.g. 'an expert-rule system (Derek Nexus) predicted phototoxicity with 77% overall accuracy {cite:p}`Ahuja2024`.'"
+  },
+  {
+   "track": 1,
+   "severity": "MINOR",
+   "location": "Subsection 'Narrow validity: coverage gaps and metabolic blind spots' (inconclusive defined-approach calls)",
+   "claim_text": "because component-assay limitations propagate, defined approaches yield inconclusive calls for borderline or out-of-domain chemicals {cite:p}`Macmillan2022, Maxwell2014`",
+   "cite_keys_involved": ["Macmillan2022", "Maxwell2014"],
+   "issue": "Weak co-citation. Macmillan2022 directly supports the claim (inconclusive DA predictions for borderline/out-of-domain chemicals). Maxwell2014 is about a mechanistic skin-sensitisation QRA model benchmarked against human patch-test data (a different paradigm) and does not report inconclusive defined-approach calls; it is at best tangential support for this specific claim.",
+   "evidence": "Maxwell2014 claim: 'A mechanistic skin-sensitisation model benchmarked against human clinical data ... is proposed as a new paradigm for quantitative risk assessment.' Macmillan2022 claim: '... defined approaches can give inconclusive skin-sensitisation predictions for borderline or out-of-domain chemicals.'",
+   "suggested_fix": "Rely on Macmillan2022 (and Ezendam2016/Kolle2020 on component limitations) for the inconclusive-call claim; move Maxwell2014 to the human-benchmarking point where it fits better."
+  },
+  {
+   "track": 1,
+   "severity": "MINOR",
+   "location": "Subsection 'Predictivity is real, but it is endpoint-specific' (skin sensitisation defined approaches)",
+   "claim_text": "defined approaches integrating multiple non-animal methods underpin the first OECD guideline of its kind, presented as performing equivalently to or better than animal tests {cite:p}`Casati2022, Casati2017, Kolle2020`",
+   "cite_keys_involved": ["Casati2022", "Casati2017", "Kolle2020"],
+   "issue": "Kolle2020 is a precondition/caveat commentary ('reference data must not replicate the limitations of the murine LLNA'); it does not assert equal-or-better performance of defined approaches. The 'equivalent to or better than animal tests' framing is carried by Casati2022 (and supported by Casati2017 on single-method insufficiency). Grouping Kolle2020 with the positive-performance claim slightly overstates its stance — it is more naturally the caveat citation (where it is correctly used later, 'reference data must be chosen so as not to reproduce the limitations of the animal assay').",
+   "evidence": "Kolle2020 claim: 'A precondition for valid defined approaches is that reference data must not replicate the limitations of the murine local lymph node assay.' Casati2022 claim: 'the first of its kind ... precedent for regulatory adoption ... with performances equivalent to, or better than, traditional animal tests.'",
+   "suggested_fix": "Drop Kolle2020 from the positive-performance citation group (it already appears at the caveat sentence); keep Casati2022/Casati2017."
+  },
+  {
+   "track": 6,
+   "severity": "MINOR",
+   "location": "Subsection 'Human tissue models recover biology that animals miss' (renal clearance)",
+   "claim_text": "proximal-tubule chips estimate renal clearance within 10–20% of clinical values after scaling {cite:p}`Roy2026`",
+   "cite_keys_involved": ["Roy2026"],
+   "issue": "Trace-to-primary-data (lower stakes). Roy2026 is an organs-on-chips review; the '10–20% RMSE of clinical values' figure is a review-quoted statistic (package sentence ends '... after IVIVE scaling [,]', indicating a secondary citation), presented in prose as a direct performance number. Less egregious than the Varmazyad2026 100% figure but the same secondary-source pattern.",
+   "evidence": "Roy2026 effect_size_source_sentence: 'Proximal tubule-on-a-chip platforms ... with chip-derived clearance estimates typically within 10–20% RMSE of clinical values after IVIVE scaling [,].'",
+   "suggested_fix": "No blocking change; optionally note the figure is a review-reported range, or trace to the primary proximal-tubule-chip clearance study."
+  },
+  {
+   "track": 1,
+   "severity": "MINOR",
+   "location": "Subsection 'The same reproducibility problem, in a new medium' (zebrafish inter-lab variability)",
+   "claim_text": "the zebrafish developmental-toxicity protocol varies between laboratories, producing discordant data for identical compounds {cite:p}`Hoyberghs2020, Jeffries2015, vonHellfeld2022`",
+   "cite_keys_involved": ["Hoyberghs2020", "Jeffries2015", "vonHellfeld2022"],
+   "issue": "The inter-laboratory-variability/discordance claim is carried specifically by Hoyberghs2020. Jeffries2015 (FET vs larval growth-survival comparison) and vonHellfeld2022 (neonicotinoid behavioural correlation with mammalian data) are zebrafish-assay papers but do not report inter-laboratory protocol variability or discordant data for identical compounds. Loose co-citation to a specific reproducibility claim.",
+   "evidence": "Hoyberghs2020 claim: 'the protocol of this zebrafish embryo assay varies between labs, resulting in discordant data for identical compounds.' Jeffries2015/vonHellfeld2022 findings concern predictive utility and mammalian correlation, not inter-lab variability.",
+   "suggested_fix": "Cite Hoyberghs2020 (and vonHellfeld2022's standardization framing if desired) for the inter-lab-variability clause; place Jeffries2015 with the FET-utility/replacement material."
+  },
+  {
+   "track": 4,
+   "severity": "MINOR",
+   "location": "Subsection 'The debt relocates: NAMs generate data that will be wasted too' (exposure NAMs)",
+   "claim_text": "high-throughput exposure methods deliberately expand chemical coverage far beyond what traditional assessment reached {cite:p}`Isaacs2022, Onyango2023`",
+   "cite_keys_involved": ["Isaacs2022", "Onyango2023"],
+   "issue": "The 'expand chemical coverage' claim is carried by Isaacs2022 (ExpoCast landscape analysis, exposure NAMs drastically improve coverage). Onyango2023 is a weight-of-evidence risk assessment of six UV filters against human Cmax and does not speak to expanding chemical coverage; it is a marginal co-citation to this claim.",
+   "evidence": "Isaacs2022 claim: 'exposure NAMs drastically improve the coverage of the chemical landscape compared to traditional approaches.' Onyango2023 claim: 'organic UV filters have low intrinsic biological activity and risk of toxicity ... consistent with in vivo studies.'",
+   "suggested_fix": "Cite Isaacs2022 for the coverage-expansion clause; relocate Onyango2023 to a weight-of-evidence example."
+  },
+  {
+   "track": 1,
+   "severity": "MINOR",
+   "location": "Multiple subsections (large multi-key coverage clusters)",
+   "claim_text": "e.g. 'The same tissue-engineering advances extend across tumour, lung, kidney, and retinal systems ... {cite:p}`Haase2020, Veith2024, Testa2025, Taverna2024, Wisdom2023, Kim2023a, Kim2022, Vormann2018, Nakanoh2025, Nakao2025, Oishi2024, James2024, Parween2026, Birtele2024, Hong2021`' and 'a variability that only disciplined, comparable reporting can resolve {cite:p}`Zhou2026, Zhang2024a, Liu2024, Lee2025a`'",
+   "cite_keys_involved": ["Haase2020", "Veith2024", "Testa2025", "Taverna2024", "Wisdom2023", "Kim2023a", "Kim2022", "Nakanoh2025", "Nakao2025", "James2024", "Parween2026", "Birtele2024", "Zhou2026", "Zhang2024a", "Liu2024", "Lee2025a"],
+   "issue": "Coverage-driven cramming (Red Flags checklist). Because the section cites every one of the 169 package papers, several sentences bundle 6–15 loosely-related papers behind a single broad clause. The papers are individually on-topic (tumour/lung/kidney/retinal models; cardiac screening methods), so no claim is misrepresented, but the density means individual papers get near-zero specific support and the sentences function as list-dumps rather than synthesis. The Zhou2026/Zhang2024a/Liu2024/Lee2025a cluster attached to 'disciplined, comparable reporting' is the loosest — those are cardiac/qAOP method papers, not reporting-standards papers.",
+   "evidence": "These are 'confirmatory' argument-role papers in the package cited once each to achieve full coverage; their individual claims (e.g. Liu2024 = CRISPR screen for doxorubicin-cardiotoxicity target CA12; Lee2025a = dual-cardiotoxicity MEA assay) do not specifically bear on 'comparable reporting resolving 3D-vs-2D variability.'",
+   "suggested_fix": "No blocking change; consider trimming the loosest clusters or splitting them so each broad clause cites the 2–3 most directly relevant papers, moving the remainder to more specific sentences. Non-blocking stylistic tightening."
+  }
+ ],
+ "summary": {
+  "conflicts_in_package": 11,
+  "conflicts_represented_in_text": 11,
+  "conflicts_suppressed": 0,
+  "suppressed_conflicts": [],
+  "conflict_survival_note": "All 11 packaged conflicts have BOTH DOIs cited in the section (mechanical pre-check passes 11/11). Five are surfaced in explicit ':::{admonition} Evidence Conflict' boxes, each closing with 'unresolved'/'open' language (Carmichael2022 vs Holmer2025; Hartung2025a vs Marx2020; Casati2022 vs Macmillan2022; Juberg2023 vs Klose2021; Kato2022 vs Kopec2021 with Moyer2025 interposed). The remaining six are represented as in-prose tensions and are not falsely resolved: Sunildutt2023 vs Dominijanni2021 (3D-readout reliability), Mehta2025 vs Sewell2024 (projected savings vs adoption barriers), Tcheremenskaia2021 vs Kopp2024 (in silico reliability vs incomplete experimental concordance), Moyer2025 vs Fabre2020 (MPS vs simpler NAMs), Ball2016 vs Pestana2021 (read-across readiness), and Hong2021 vs Sirenko2016 (3D-vs-2D direction, explicitly presented as cell-type-driven and unresolved). The NAM-readiness-vs-regulatory-qualification-gap tension flagged in the task is fully represented.",
+  "papers_in_package": 169,
+  "papers_cited": 169,
+  "papers_should_cite": 0,
+  "papers_waived_out_of_scope": 0,
+  "papers_waived_redundant": 0,
+  "papers_waived_low_quality": 0,
+  "coverage_review": [],
+  "coverage_accounting_invariant": "papers_cited(169) + papers_should_cite(0) + papers_waived_out_of_scope(0) + papers_waived_redundant(0) + papers_waived_low_quality(0) == papers_in_package(169). OK. len(coverage_review)(0) == papers_in_package - papers_cited (169-169=0). OK.",
+  "coverage_invariant_ok": true,
+  "coverage_note": "Every one of the 169 package papers (citemap has 169 unique cite_keys) is cited in the section via {cite:p} directives; zero uncited papers, so coverage_review is empty and there are no SHOULD_CITE MUST_FIX items. Cite-key extraction used the canonical extract_cite_keys helper (decomposes multi-key directives on commas). No cited key falls outside the citation_key_map (zero hallucinated keys). Note: 100% coverage is achieved partly via dense multi-key coverage clusters (see MINOR Track-1 finding) — a stylistic, non-blocking consequence, not a correctness defect.",
+  "track_notes": {
+   "track1_cross_paper": "Progression/scale numbers (293/1060/2171/4165 chemicals; 34/67 benchmarks) all trace to the correct primary papers. Figures 1-3 explicitly refuse to pool non-comparable metrics (captions carry the mandatory 'not a single pooled accuracy' / 'not a shared accuracy axis' / 'incompatible units' caveats from figure_data), directly satisfying the Track-1 warning about sensitivity/specificity across different reference standards. Minor loose co-citations flagged above.",
+   "track2_deep_check": "20+ consequential quantitative claims spot-checked against verbatim source sentences: Pfuhler2020 (77/88, 80/97, WLR 93%), Hendriks2024 (84.4/91.2), Sirenko2016 (36/42, 100% predictivity), Drost2019 (87% with in silico integration - correctly hedged), KelleciCelik2022 (94.11% external), Mansouri2020 (~80%), Levet2026 (92% on training set - correctly labelled), Judzinska2026 (~18% of 178), Ladeira2026 (30.76%+46.15%), Spaenig2026 (tenfold 50%, threefold 31%), Kong2026 (CV <5%->20%), Lawlor2020 (93-99%), Harkin2024 (100% vs 30-80%), Oishi2024 (41%), McCloskey2024 (~67%), Vormann2018 (35%), Boyce2022 (1.1-29%/14.7-28.3%), Mehta2025 ($3B), Rogiers2026 (46 exposures), Hartung2025b (~62%) - all accurate. Interpretive-mismatch and secondary-source issues flagged as SHOULD_CAVEAT (Mone2020, Marx2025, Varmazyad2026, Karmaus2026).",
+   "track3_conflict_survival": "11/11 represented; 0 suppressed; none falsely resolved. Strongest dimension of the section.",
+   "track4_scope_inflation": "Well controlled. The thesis and topic sentences consistently scope predictivity to 'narrow and well-defined endpoints' / 'specific animal tests' and explicitly deny a common accuracy scale. No unqualified 'NAMs work' generalisation from single-endpoint validity was found; the section's central move is precisely the opposite (endpoint-specific predictivity + relocated debt). One minor coverage-cluster over-reach noted.",
+   "track5_coverage": "Exhaustive; 0 uncited papers; invariant holds.",
+   "track6_trace_to_primary": "Most performance claims rest on primary validation studies. Two review-quoted headline figures presented as direct measurements flagged: Varmazyad2026 100%/90% DILI (SHOULD_CAVEAT) and Roy2026 10-20% RMSE (MINOR). No uncited mechanistic 'textbook fact' claims found."
+  },
+  "counts": {
+   "must_fix": 0,
+   "should_caveat": 4,
+   "minor": 8
+  }
+ }
+}

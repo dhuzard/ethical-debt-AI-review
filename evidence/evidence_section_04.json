@@ -4478,7 +4478,14 @@
      "Air quality value is a reported range (2-3), dental is a mean with SD."
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "CAVEAT",
+   "audit_verdict_resolved": "CAVEAT",
+   "mandatory_caption_caveats": [
+    "Reusability scores come from different tools (Uribe: custom Wilkinson v0.3d; Syed: F-UJI) whose /10 scales are not guaranteed identical.",
+    "Units differ: individual shared-data articles (Uribe, n=112, mean+/-SD) vs whole datasets (Syed, n=4, a range); Syed's value rests on only four datasets."
+   ],
+   "suggested_restructure": "",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "data-metadata-sharing-rates",
@@ -4623,7 +4630,14 @@
      "BMJ value is a pooled meta-analytic estimate with a CI; the others are single-study point estimates."
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "SPLIT",
+   "audit_verdict_resolved": "CAVEAT_FORCED_FROM_SPLIT",
+   "mandatory_caption_caveats": [
+    "Hamidi's 79.3% measures plan completeness (formal compliance, high=good); VanTuyl's 76% measures projects that shared nothing usable (high=bad); Hamilton's 2% measures realized public availability. The 79% and 76% are near-identical numbers of opposite meaning.",
+    "Units and scale differ: plans (n=358), projects (n=25), articles (n~2.1M)."
+   ],
+   "suggested_restructure": "Phase 7 writer: separate 'formal compliance / plan quality' from 'realized availability' and harmonize polarity (VanTuyl 24% shared usable). Do not plot 79.3/76/2 on a single axis.",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "repository-data-sharing-rates",
@@ -4839,7 +4853,13 @@
      "Scope ranges from whole-literature meta-analysis to single-journal audits."
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "CAVEAT",
+   "audit_verdict_resolved": "CAVEAT",
+   "mandatory_caption_caveats": [
+    "Mechanism and denominator differ: actually-public among all articles (Hamilton2023, 2%), obtainable on request (RowhaniFarid, 4.5%), provided among only manuscripts that promised sharing (Gabelica, 6.8%), FAIR-compliant among only declared-available datasets (Hamilton2022, 0.3%, a stricter conditional bar)."
+   ],
+   "suggested_restructure": "",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "dss-prevalence-across-specialties",

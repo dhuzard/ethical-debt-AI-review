@@ -1,0 +1,72 @@
+{
+ "phase": 14,
+ "gate": "pass",
+ "validated_at": "2026-07-08",
+ "validator": "coordinator-run comprev-myst-validator checks + real `myst build --html` (mystmd v1.10.1)",
+ "build_result": {
+  "tool": "myst build --html",
+  "exit": 0,
+  "myst_errors": 0,
+  "myst_warnings": 0,
+  "pages_built": 14,
+  "citation_errors": 0,
+  "image_errors": 0,
+  "unknown_directive_errors": 0,
+  "note": "All 14 TOC pages served 200 (frontmatter, intro, 7 body sections, conclusion, methods, evidence-database, provenance)."
+ },
+ "assembly_actions": [
+  "Added body sections 02-08 + conclusion 09 to myst.yml toc (were missing)",
+  "Injected 22 ':::{dropdown} 📓 Figure code' blocks (3/body section + 1 Methods) from figures/notebooks/*.ipynb (bare form, no icon/color, max line 135 chars)",
+  "Populated content/provenance.md (forbidden-lexicon-clean)"
+ ],
+ "per_file_results": {
+  "NO_LABEL_DIRECTIVE": "pass",
+  "NO_DUPLICATE_NAME": "pass",
+  "NO_ICON_COLOR": "pass",
+  "FIGURE_DROPDOWN_MATCH": "pass",
+  "FIGURE_HAS_IMAGE_PATH": "pass",
+  "FIGURE_WIDTH_DECLARED": "pass",
+  "NO_PROCESS_LANGUAGE": "pass",
+  "FORBIDDEN_LEXICON": "pass",
+  "NO_WRITER_SCRATCHPAD": "pass",
+  "CITE_DIRECTIVE_SYNTAX_CLEAN": "pass",
+  "DIRECTIVE_WHITELIST_VIOLATION": "pass",
+  "CITE_KEYS_EXIST": "pass",
+  "NO_BARE_AUTHOR_NAMES": "pass (build 0 warnings)"
+ },
+ "structural_results": {
+  "TOC_MATCHES_FILES": "pass",
+  "BIBLIOGRAPHY_PATH_MATCHES_MYSTYML": "pass",
+  "UNRESOLVED_CITE_KEYS": 0,
+  "BROKEN_FIGURE_REFS": 0,
+  "FIGURE_DROPDOWN_MATCH": "pass",
+  "FIGURE_NOTEBOOK_MATCH": "pass",
+  "FIGURE_NOTEBOOK_SELF_CONTAINED": "pass",
+  "HEADING_STYLE_CONSISTENT": "pass",
+  "METHODS_LEDGER_FRESH": "n/a",
+  "METHODS_LEDGER_FRESH_reason": "Phase 20V-only check; Methods refreshed at Phase 20a",
+  "EVIDENCE_JSONS_EXIST": "pass",
+  "EVIDENCE_FINDINGS_ARE_OBJECTS": "pass",
+  "EVIDENCE_PACKAGES_POPULATED": "pass",
+  "NO_WRITER_SCRATCHPAD": "pass",
+  "CITE_DIRECTIVE_SYNTAX_CLEAN": "pass",
+  "PLUGIN_DIRECTIVES_INVOKED": "pass",
+  "PLUGIN_DIRECTIVES_INVOKED_note": "validated by clean build: authorship-explorer, evidence-explorer, dropdown all render; 0 unknown-directive errors",
+  "FIGURE_WIDTH_DECLARED": "pass",
+  "MYSTMD_INSTALLED": "pass",
+  "BUILD_PASSES": "pass",
+  "ZERO_CITATION_ERRORS": "pass",
+  "ZERO_IMAGE_ERRORS": "pass",
+  "BIB_CITE_KEYS_RESOLVE": "n/a",
+  "BIB_CITE_KEYS_RESOLVE_reason": "real myst build ran (checks 10-13 active); mechanical fallback not needed",
+  "AUTHORS_YML_EXISTS": "pass",
+  "AUTHOR_IDENTITY_NOT_PLACEHOLDER": "pass",
+  "ALL_PLUGINS_LISTED": "pass",
+  "REVIEW_REQUEST_CAPTURED": "pass",
+  "EVIDENCE_PARAMETERS_HONORED": "pass"
+ },
+ "forbidden_lexicon": {
+  "scoped_exclusions": []
+ },
+ "gate_passed": true
+}

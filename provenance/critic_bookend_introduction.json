@@ -1,0 +1,107 @@
+{
+  "section": "introduction",
+  "critic": "blinded_bookend_phase12",
+  "target_file": "content/01_introduction.md",
+  "method": "Every {cite:p}/{cite:t} pairing in the Introduction was classified INHERITED (same claim-citation pairing validated in a body section, sections 02-08) vs NOVEL (new claim attached to an existing key). Novel/borderline pairings were verified against the cited paper's Europe PMC abstract (DOI mapped via provenance/citation_key_map.json); on any fetch failure the fallback was the claim_source in the relevant body section. Master-citation safety net run mechanically.",
+  "summary": {
+    "total_citation_pairs": 100,
+    "inherited_pairs": 92,
+    "novel_pairs_checked": 8,
+    "must_fix_count": 1,
+    "should_caveat_count": 2,
+    "minor_count": 4,
+    "keys_outside_master": [],
+    "unique_keys_in_intro": 71,
+    "keys_not_appearing_in_any_body_section": []
+  },
+  "master_citation_safety_net": {
+    "assertion": "intro_keys SUBSET_OF master_citation_set",
+    "result": "PASS",
+    "keys_outside_master": [],
+    "note": "All 71 unique intro cite-keys are present in provenance/master_citation_set.json, and every one appears in at least one body section (no orphan keys)."
+  },
+  "findings": [
+    {
+      "track": 1,
+      "severity": "MUST_FIX",
+      "location": "Paragraph 9 (incentives/governance preview)",
+      "claim_text": "The decisive test is the gap between what researchers declare and what they deliver: an editorial data-sharing requirement produced near-universal declarations of willingness but under one percent of trials with data actually available {cite:p}`Danchev2021, Fanelli2009`.",
+      "cite_keys_involved": ["Fanelli2009", "Danchev2021"],
+      "issue": "Misattribution / interpretive mismatch. The specific claim (an editorial data-sharing requirement produced near-universal declared willingness but <1% actual availability) is fully and correctly supported by Danchev2021. Fanelli2009 is attached to a claim it does not support: it is a meta-analysis of misconduct surveys about fabrication/falsification and other questionable research practices, with nothing about data-sharing declarations, data-availability statements, or repository deposition. This is a NOVEL pairing found only in the Introduction (in the body, Fanelli2009 is used in sections 02 and 07 exclusively for QRP/fabrication prevalence). Moreover the direction is wrong for a 'declare-vs-deliver' analogy: Fanelli2009 documents self-report UNDER-stating true misconduct, whereas the data-sharing case is researchers OVER-declaring willingness relative to delivery.",
+      "evidence": "Europe PMC abstract of Fanelli2009 (10.1371/journal.pone.0005738): 'How many scientists fabricate and falsify research?' Reports ~1.97% admitting fabrication/falsification/modification and up to 33.7% admitting other QRPs; 14.12% report falsification by colleagues, up to 72% report other QRPs by colleagues. The abstract makes no reference to data sharing, data-availability statements, willingness to share, or repositories.",
+      "suggested_fix": "Remove `Fanelli2009` from this pairing, leaving `{cite:p}`Danchev2021``, which carries the claim on its own. If a second supporting citation is wanted for the general declare-vs-deliver phenomenon in data sharing, use a data-sharing self-report source already in the review (e.g. Gabelica2022 or MartinRodriguez2026), not a misconduct-prevalence paper."
+    },
+    {
+      "track": 2,
+      "severity": "SHOULD_CAVEAT",
+      "location": "Paragraph 10 (analytical-style statement)",
+      "claim_text": "several field-defining figures rest on modelled or non-transparent sources that we flag wherever they appear rather than smooth over {cite:p}`Freedman2015, Ioannidis2014c, Hamilton2023`.",
+      "cite_keys_involved": ["Hamilton2023", "Freedman2015", "Ioannidis2014c"],
+      "issue": "Body-summary mischaracterisation. Freedman2015 (a modelled $28B economic estimate) and Ioannidis2014c (the '85% wasted' synthesis) are correctly described by the body as modelled / not-fully-transparent (section 02 explicitly: 'the US$28 billion figure is a modeled estimate... the \"85% wasted\" claim is a synthesis rather than a measurement'). Hamilton2023 does NOT belong in the 'modelled or non-transparent sources' group: section 04 describes it as 'The most robust finding in this literature', an empirical individual-participant-data meta-analysis pooling 105 meta-research studies over >2 million articles. Grouping the review's most robust empirical anchor with its two explicitly hedged modelled/synthetic figures misrepresents how the body treats it.",
+      "evidence": "Section 04: 'The most robust finding in this literature is that stated data availability vastly exceeds real availability' and '...roughly 8% ... declared ... while only about 2% actually shared them' (Hamilton2023, IPD meta-analysis). Section 02 restricts the 'modelled/non-transparent' caution to Freedman2015 and Ioannidis2014c.",
+      "suggested_fix": "Remove `Hamilton2023` from this cite group. If the intent is to also flag the 2% figure as one the review interrogates, cite it separately with accurate framing (e.g. 'the empirical 2% availability anchor {cite:p}`Hamilton2023`'), distinguishing it from the modelled Freedman2015/Ioannidis2014c figures."
+    },
+    {
+      "track": 1,
+      "severity": "SHOULD_CAVEAT",
+      "location": "Paragraph 7 (virtual-control-groups preview)",
+      "claim_text": "Concordance between virtual and concurrent controls is endpoint-dependent, with high agreement for categorical decisions such as dose-limiting toxicities and substantial non-reproducibility for continuous clinical-pathology parameters {cite:p}`DuchateauNguyen2026, Adedeji2024`.",
+      "cite_keys_involved": ["Adedeji2024", "DuchateauNguyen2026"],
+      "issue": "Partial novel pairing. The 'substantial non-reproducibility for continuous clinical-pathology parameters' half is correctly supported by Adedeji2024 (the 31/40/49% clinical-pathology finding) and the general endpoint-dependence framing matches the body's evidence-conflict box. But the 'high agreement for categorical decisions such as dose-limiting toxicities' half is not established by either cited key: in the body the dose-limiting-toxicities result ('all four dose-limiting toxicities were identifiable without any reference to the concurrent control') is Mecklenburg2023, which the Introduction does not cite. Adedeji2024's abstract discusses clinical-pathology non-reproducibility, not categorical/DLT concordance; DuchateauNguyen2026 concerns continuous liver-enzyme effect-size agreement, not DLTs.",
+      "evidence": "Europe PMC abstract of Adedeji2024 (10.1177/01926233241300310): focuses on 'non-reproducibility of some quantitative endpoints ... clinical pathology parameters being the most affected'; does NOT address dose-limiting toxicities or categorical-endpoint agreement, and gives no ~25% figure. Section 05 attributes the DLT categorical-agreement finding to Mecklenburg2023 (not cited in the Introduction).",
+      "suggested_fix": "Add `Mecklenburg2023` to this pairing to support the dose-limiting-toxicities example, or drop the specific 'such as dose-limiting toxicities' clause and keep the supported contrast (categorical/histopathology decisions survive better than continuous clinical-pathology parameters) cited to the papers that establish it."
+    },
+    {
+      "track": 3,
+      "severity": "MINOR",
+      "location": "Paragraph 10 (empirical-anchor statement)",
+      "claim_text": "The empirical anchor the review returns to most often — that actual, usable data availability sits near two percent while declared availability and paperwork compliance sit far above it — recurs across FAIR audits, incentive studies, and governance evaluations alike ... {cite:p}`Hamilton2022, VanTuyl2016, Macleod2019b`.",
+      "cite_keys_involved": ["Hamilton2022", "VanTuyl2016", "Macleod2019b"],
+      "issue": "Figure-precision / mild scope inflation. The literal 'near two percent' actual-availability figure is Hamilton2023's, not any of the three keys cited here. The three cited studies report related-but-different low numbers: Hamilton2022 = ~16% available / 0.3% FAIR-compliant (oncology); VanTuyl2016 = 76% of DMP projects shared nothing usable (i.e. ~24% shared something); Macleod2019b = 16.4% full bias-reporting compliance. The qualitative 'declared/paperwork >> actual/usable' pattern genuinely recurs across these domains (and Hamilton2022's 0.3% FAIR rate is sub-2%), so the sentence is defensible, but the specific '~2%' number is not what these three report and the body itself (fig-sec4-dmp-vs-realized caveat) warns against conflating VanTuyl2016's 76%/24% with Hamilton2023's 2%.",
+      "evidence": "Section 04 (Hamilton2022: 0.3% FAIR, ~16% available; VanTuyl2016: 76% zero) and Section 08 (Macleod2019b: 0%->16.4%); the 2% figure is sourced to Hamilton2023 throughout.",
+      "suggested_fix": "Either co-cite `Hamilton2023` as the source of the '~2%' anchor, or reword to 'actual/usable availability and reporting compliance sit far below declared availability' so the cited trio supports the pattern rather than the precise 2% value."
+    },
+    {
+      "track": 3,
+      "severity": "MINOR",
+      "location": "Paragraph 8 (NAMs preview, topic sentence)",
+      "claim_text": "In silico and QSAR models, organoids, organ-on-chip systems, and high-throughput screening reach usable and sometimes high predictivity for narrow, well-defined endpoints and can displace specific animal tests {cite:p}`Pfuhler2020, Sirenko2016`.",
+      "cite_keys_involved": ["Pfuhler2020", "Sirenko2016"],
+      "issue": "Type/category scope inflation in a preview sentence. Four NAM classes are enumerated (in silico/QSAR, organoids, organ-on-chip, HTS) but only two keys are attached, and neither covers the in-silico/QSAR or organ-on-chip classes: Pfuhler2020 is a reconstructed-human-skin (organotypic) genotoxicity assay and Sirenko2016 is a 3D human hepatocyte-spheroid HTS assay. Both support 'tissue/organoid + HTS assays reach high predictivity for narrow endpoints and can displace specific animal tests', but the in-silico/QSAR and organ-on-chip parts of the enumeration are unsupported by these two cites (the body sources those to Ahuja2024/KelleciCelik2022/Hong2022 and the organ-on-chip literature).",
+      "evidence": "Section 06 cites Pfuhler2020 (reconstructed-skin genotoxicity 77/88) and Sirenko2016 (36/42 hepatotoxins) for tissue/HTS predictivity; in-silico/QSAR predictivity is cited to separate keys.",
+      "suggested_fix": "Acceptable as a section preview, but for precision either narrow the enumeration to the assay classes the two cites cover, or add representative in-silico/QSAR and organ-on-chip keys already used in section 06."
+    },
+    {
+      "track": 1,
+      "severity": "MINOR",
+      "location": "Paragraph 8 (NAMs preview)",
+      "claim_text": "NAM validation is often anchored to concordance with animal data that were themselves never validated for human relevance and are only moderately reproducible, so the yardstick is shaky {cite:p}`Karmaus2026`.",
+      "cite_keys_involved": ["Karmaus2026"],
+      "issue": "Partial single-key attribution. Karmaus2026 supports the 'only moderately reproducible' half (rodent carcinogenicity concordance 65-86% within species, 36-74% rat-vs-mouse; endocrine assays 72/74%). The 'never validated for human relevance ... yardstick is shaky' framing is attributed in the body to Kopanska2026 ('concordance with animal data is a scientifically weak anchor and ... human relevance, not animal agreement, should be the criterion'), which is not co-cited here. Karmaus2026's scope plausibly touches the human-relevance point, so this is minor, but the body's explicit source for that half is a different key.",
+      "evidence": "Section 06: reproducibility figures attributed to Karmaus2026; the 'human relevance not animal agreement' validation-framework argument attributed to Kopanska2026.",
+      "suggested_fix": "Consider co-citing `Kopanska2026` alongside Karmaus2026 for the 'never validated for human relevance' clause, matching the body's attribution."
+    },
+    {
+      "track": 1,
+      "severity": "MINOR",
+      "location": "Paragraph 3 (reproducibility-crisis preview)",
+      "claim_text": "Internal-validity failures and publication bias each independently inflate apparent efficacy, so the published effect is systematically overstated {cite:p}`Freedman2015, vanderWorp2010`.",
+      "cite_keys_involved": ["Freedman2015", "vanderWorp2010"],
+      "issue": "Mild pairing looseness. vanderWorp2010 directly supports 'publication bias ... inflate[s] apparent efficacy' (publication bias accounts for a third or more of reported stroke efficacy). Freedman2015 is the irreproducibility cost model; it decomposes irreproducibility into study-design/internal-validity, reagents, protocols and analysis, so it is a defensible anchor for 'internal-validity failures ... inflate apparent efficacy', but in the body the quantitative internal-validity inflation is carried by Crossley2008/Watzlawick2019/Watzlawick2014 (fig-sec2-bias-inflation), not Freedman2015. No correction strictly required.",
+      "evidence": "Section 02: internal-validity effect-size inflation quantified via Crossley2008/Watzlawick2019/Watzlawick2014; publication-bias inflation via vanderWorp2010; Freedman2015 used for the cost model and irreproducibility-cause decomposition.",
+      "suggested_fix": "Optional: the pairing is acceptable; if tightening is desired, the internal-validity-inflation half could cite the fig-sec2-bias-inflation sources. No blocking action."
+    }
+  ],
+  "track1_novel_pairs_detail": [
+    {"claim_context": "data-sharing declaration vs <1% availability", "key": "Fanelli2009", "classification": "NOVEL", "verified": "abstract", "verdict": "misattributed (MUST_FIX)"},
+    {"claim_context": "endpoint-dependent VCG concordance; dose-limiting-toxicities categorical agreement", "key": "Adedeji2024", "classification": "NOVEL", "verified": "abstract", "verdict": "supports non-reproducibility half only; DLT half unsupported (SHOULD_CAVEAT)"},
+    {"claim_context": "endpoint-dependent VCG concordance; dose-limiting-toxicities categorical agreement", "key": "DuchateauNguyen2026", "classification": "NOVEL", "verified": "body claim_source", "verdict": "supports continuous liver-enzyme agreement; DLT categorical half not its finding (SHOULD_CAVEAT, shared with Adedeji2024)"},
+    {"claim_context": "field-defining figures rest on modelled or non-transparent sources", "key": "Hamilton2023", "classification": "NOVEL", "verified": "body claim_source", "verdict": "mischaracterised as modelled/non-transparent; body calls it most robust empirical finding (SHOULD_CAVEAT)"},
+    {"claim_context": "~2% usable availability recurs across audits", "key": "Hamilton2022/VanTuyl2016/Macleod2019b", "classification": "NOVEL", "verified": "body claim_source", "verdict": "pattern supported, literal 2% figure is Hamilton2023's (MINOR)"},
+    {"claim_context": "four NAM classes reach high predictivity", "key": "Pfuhler2020/Sirenko2016", "classification": "NOVEL", "verified": "body claim_source", "verdict": "two keys cover tissue/HTS only, not in-silico/QSAR/organ-on-chip enumeration (MINOR)"},
+    {"claim_context": "animal reference data never validated for human relevance and shaky", "key": "Karmaus2026", "classification": "NOVEL", "verified": "body claim_source", "verdict": "supports reproducibility half; human-relevance half is Kopanska2026 in body (MINOR)"},
+    {"claim_context": "internal-validity failures inflate apparent efficacy", "key": "Freedman2015", "classification": "NOVEL", "verified": "body claim_source", "verdict": "defensible via irreproducibility-cause decomposition (MINOR)"}
+  ],
+  "track2_body_summary_accuracy": "The seven section previews (repro/translation crisis -> section 02; data welfare -> section 03; FAIR -> section 04; virtual control groups -> section 05; NAMs -> section 06; incentives -> section 07; governance -> section 08) faithfully represent the body sections, including the conditional/contested framing (heterogenisation debate, VCG endpoint-dependent concordance, NAM readiness dispute, incentive-reform dispute, enforcement-over-endorsement). Two body-summary inaccuracies flagged above (Hamilton2023 mischaracterised as modelled; the ~2% figure over-attributed across a trio). No conflict is presented as resolved where the body leaves it open; the Introduction consistently marks each mechanism as 'conditional'.",
+  "track3_scope_inflation": "Bookend scope inflation is generally well controlled: the Introduction repeatedly hedges ('roughly', 'about', 'up to', 'contested', 'conditional') and juxtaposes method-divergent estimates rather than single headline numbers. Minor type/category inflation flagged for the four-class NAM enumeration cited to two assays (Pfuhler2020/Sirenko2016), and mild figure-generalisation for the ~2% anchor. No temporal ('established') inflation on single unreplicated studies detected."
+}

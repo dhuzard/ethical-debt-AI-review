@@ -1,46 +1,263 @@
 {
-  "title": "The Ethical Debt",
-  "subtitle": "Why wasting animal data is wasting animal lives",
-  "review_request_path": "provenance/review_request.md",
-  "review_request_verbatim_path": "provenance/review_request.txt",
-  "review_request_sha256": "7f4e02e859cde126d8d2d2c6ef608c9bc36a7ed67b19adf78f76ee5917f3971e",
-  "length_target": {"sections": 9, "pages_estimate": "60-120"},
-  "clusters": [
-    {"id": "cluster_01", "name": "Preclinical reproducibility and translational failure", "topics": ["reproducibility crisis in biomedical research", "translational attrition / bench-to-bedside failure", "irreproducibility cost estimates", "publication bias and non-publication of animal studies", "underpowered animal experiments and statistical power", "systematic reviews and meta-analyses of animal models", "risk of bias in in vivo research"], "section_targets": ["section_01", "section_02"]},
-    {"id": "cluster_02", "name": "The 3Rs, animal welfare ethics, and Reduction", "topics": ["Replacement Reduction Refinement (3Rs) principle and evolution", "harm-benefit analysis of animal research", "moral status and ethics of animal experimentation", "severity assessment and cumulative harm", "culture of care", "Reduction strategies and experimental design", "the moral contract of animal research"], "section_targets": ["section_01", "section_03"]},
-    {"id": "cluster_03", "name": "FAIR data principles and research data management", "topics": ["FAIR guiding principles (Findable Accessible Interoperable Reusable)", "research data management in the life sciences", "data stewardship and data curation", "FAIRification and FAIR metrics/maturity", "persistent identifiers (DOI, ORCID, RRID)", "machine-actionable metadata", "cost and value of data sharing"], "section_targets": ["section_04"]},
-    {"id": "cluster_04", "name": "Biomedical data sharing, repositories, metadata standards and ontologies", "topics": ["biomedical data repositories and databases", "minimum information reporting standards", "biomedical ontologies and controlled vocabularies", "electronic lab notebooks and data capture", "data-sharing mandates and researcher attitudes", "secondary use of preclinical data", "interoperability and common data models"], "section_targets": ["section_04", "section_05"]},
-    {"id": "cluster_05", "name": "Virtual control groups, historical controls, and control-data reuse", "topics": ["virtual control groups in toxicology and preclinical studies", "historical control data in regulatory studies", "concurrent vs historical controls", "Bayesian borrowing of external/historical controls", "control-group reuse as a Reduction strategy", "shared control databases", "meta-analytic reuse of animal control data"], "section_targets": ["section_05"]},
-    {"id": "cluster_06", "name": "New Approach Methodologies (NAMs) and non-animal data", "topics": ["New Approach Methodologies in toxicology and biomedicine", "organ-on-chip and microphysiological systems", "organoids and 3D cell culture", "in silico modeling and QSAR", "read-across and integrated approaches to testing and assessment (IATA)", "regulatory acceptance of NAMs", "data infrastructure and reusability of NAM-generated data"], "section_targets": ["section_06"]},
-    {"id": "cluster_07", "name": "Research incentives, meta-science, and open-science reward systems", "topics": ["publish-or-perish and academic reward structures", "metascience and research-on-research", "incentives for data sharing and credit for datasets", "questionable research practices and reform", "registered reports and preregistration", "open science policy and mandates", "economics of research waste"], "section_targets": ["section_07"]},
-    {"id": "cluster_08", "name": "Reporting guidelines and research governance", "topics": ["ARRIVE guidelines and reporting quality of animal studies", "PREPARE guidelines and experimental planning", "journal and funder policies on animal research reporting", "research-integrity governance and oversight", "reproducibility policy interventions", "data-availability statements and policy compliance", "roadmaps and infrastructure for data reuse"], "section_targets": ["section_03", "section_08"]}
-  ],
-  "sections": [
-    {"id": "section_01", "title": "Introduction", "filename": "01_introduction.md", "cluster_ids": ["cluster_01", "cluster_02"]},
-    {"id": "section_02", "title": "The Reproducibility and Translation Crisis in Preclinical Research", "filename": "02_reproducibility_crisis.md", "cluster_ids": ["cluster_01"]},
-    {"id": "section_03", "title": "From Animal Welfare to Data Welfare: Reframing the 3Rs", "filename": "03_data_welfare_3rs.md", "cluster_ids": ["cluster_02", "cluster_08"]},
-    {"id": "section_04", "title": "FAIR Principles and the Preclinical Data Ecosystem", "filename": "04_fair_preclinical_data.md", "cluster_ids": ["cluster_03", "cluster_04"]},
-    {"id": "section_05", "title": "Virtual Control Groups and Data Reuse as Reduction", "filename": "05_virtual_control_groups.md", "cluster_ids": ["cluster_04", "cluster_05"]},
-    {"id": "section_06", "title": "New Approach Methodologies and the Data They Generate", "filename": "06_nams_data.md", "cluster_ids": ["cluster_06"]},
-    {"id": "section_07", "title": "Incentive Structures and the Political Economy of Research Data", "filename": "07_incentives.md", "cluster_ids": ["cluster_07"]},
-    {"id": "section_08", "title": "Governance, Standards, and Pathways to Repayment", "filename": "08_governance_pathways.md", "cluster_ids": ["cluster_08"]},
-    {"id": "section_09", "title": "Conclusion", "filename": "09_conclusion.md", "cluster_ids": []}
-  ],
-  "cluster_to_section_assignment": {
-    "cluster_01": ["section_01", "section_02"],
-    "cluster_02": ["section_01", "section_03"],
-    "cluster_03": ["section_04"],
-    "cluster_04": ["section_04", "section_05"],
-    "cluster_05": ["section_05"],
-    "cluster_06": ["section_06"],
-    "cluster_07": ["section_07"],
-    "cluster_08": ["section_03", "section_08"]
+ "title": "The Ethical Debt",
+ "subtitle": "Why wasting animal data is wasting animal lives",
+ "review_request_path": "provenance/review_request.md",
+ "review_request_verbatim_path": "provenance/review_request.txt",
+ "review_request_sha256": "7f4e02e859cde126d8d2d2c6ef608c9bc36a7ed67b19adf78f76ee5917f3971e",
+ "length_target": {
+  "sections": 9,
+  "pages_estimate": "60-120"
+ },
+ "clusters": [
+  {
+   "id": "cluster_01",
+   "name": "Preclinical reproducibility and translational failure",
+   "topics": [
+    "reproducibility crisis in biomedical research",
+    "translational attrition / bench-to-bedside failure",
+    "irreproducibility cost estimates",
+    "publication bias and non-publication of animal studies",
+    "underpowered animal experiments and statistical power",
+    "systematic reviews and meta-analyses of animal models",
+    "risk of bias in in vivo research"
+   ],
+   "section_targets": [
+    "section_01",
+    "section_02"
+   ]
   },
-  "evidence_parameters": {
-    "min_papers_per_cluster": 200,
-    "saturation_criterion": "<2% new unique in last 100",
-    "snowball_rounds": 2,
-    "total_bibliography_target": 1000,
-    "bibliography_target_is_hard_floor": true
+  {
+   "id": "cluster_02",
+   "name": "The 3Rs, animal welfare ethics, and Reduction",
+   "topics": [
+    "Replacement Reduction Refinement (3Rs) principle and evolution",
+    "harm-benefit analysis of animal research",
+    "moral status and ethics of animal experimentation",
+    "severity assessment and cumulative harm",
+    "culture of care",
+    "Reduction strategies and experimental design",
+    "the moral contract of animal research"
+   ],
+   "section_targets": [
+    "section_01",
+    "section_03"
+   ]
+  },
+  {
+   "id": "cluster_03",
+   "name": "FAIR data principles and research data management",
+   "topics": [
+    "FAIR guiding principles (Findable Accessible Interoperable Reusable)",
+    "research data management in the life sciences",
+    "data stewardship and data curation",
+    "FAIRification and FAIR metrics/maturity",
+    "persistent identifiers (DOI, ORCID, RRID)",
+    "machine-actionable metadata",
+    "cost and value of data sharing"
+   ],
+   "section_targets": [
+    "section_04"
+   ]
+  },
+  {
+   "id": "cluster_04",
+   "name": "Biomedical data sharing, repositories, metadata standards and ontologies",
+   "topics": [
+    "biomedical data repositories and databases",
+    "minimum information reporting standards",
+    "biomedical ontologies and controlled vocabularies",
+    "electronic lab notebooks and data capture",
+    "data-sharing mandates and researcher attitudes",
+    "secondary use of preclinical data",
+    "interoperability and common data models"
+   ],
+   "section_targets": [
+    "section_04",
+    "section_05"
+   ]
+  },
+  {
+   "id": "cluster_05",
+   "name": "Virtual control groups, historical controls, and control-data reuse",
+   "topics": [
+    "virtual control groups in toxicology and preclinical studies",
+    "historical control data in regulatory studies",
+    "concurrent vs historical controls",
+    "Bayesian borrowing of external/historical controls",
+    "control-group reuse as a Reduction strategy",
+    "shared control databases",
+    "meta-analytic reuse of animal control data"
+   ],
+   "section_targets": [
+    "section_05"
+   ]
+  },
+  {
+   "id": "cluster_06",
+   "name": "New Approach Methodologies (NAMs) and non-animal data",
+   "topics": [
+    "New Approach Methodologies in toxicology and biomedicine",
+    "organ-on-chip and microphysiological systems",
+    "organoids and 3D cell culture",
+    "in silico modeling and QSAR",
+    "read-across and integrated approaches to testing and assessment (IATA)",
+    "regulatory acceptance of NAMs",
+    "data infrastructure and reusability of NAM-generated data"
+   ],
+   "section_targets": [
+    "section_06"
+   ]
+  },
+  {
+   "id": "cluster_07",
+   "name": "Research incentives, meta-science, and open-science reward systems",
+   "topics": [
+    "publish-or-perish and academic reward structures",
+    "metascience and research-on-research",
+    "incentives for data sharing and credit for datasets",
+    "questionable research practices and reform",
+    "registered reports and preregistration",
+    "open science policy and mandates",
+    "economics of research waste"
+   ],
+   "section_targets": [
+    "section_07"
+   ]
+  },
+  {
+   "id": "cluster_08",
+   "name": "Reporting guidelines and research governance",
+   "topics": [
+    "ARRIVE guidelines and reporting quality of animal studies",
+    "PREPARE guidelines and experimental planning",
+    "journal and funder policies on animal research reporting",
+    "research-integrity governance and oversight",
+    "reproducibility policy interventions",
+    "data-availability statements and policy compliance",
+    "roadmaps and infrastructure for data reuse"
+   ],
+   "section_targets": [
+    "section_03",
+    "section_08"
+   ]
   }
+ ],
+ "sections": [
+  {
+   "id": "section_01",
+   "title": "Introduction",
+   "filename": "01_introduction.md",
+   "cluster_ids": [
+    "cluster_01",
+    "cluster_02"
+   ]
+  },
+  {
+   "id": "section_02",
+   "title": "The Reproducibility and Translation Crisis in Preclinical Research",
+   "filename": "02_reproducibility_crisis.md",
+   "cluster_ids": [
+    "cluster_01"
+   ]
+  },
+  {
+   "id": "section_03",
+   "title": "From Animal Welfare to Data Welfare: Reframing the 3Rs",
+   "filename": "03_data_welfare_3rs.md",
+   "cluster_ids": [
+    "cluster_02",
+    "cluster_08"
+   ]
+  },
+  {
+   "id": "section_04",
+   "title": "FAIR Principles and the Preclinical Data Ecosystem",
+   "filename": "04_fair_preclinical_data.md",
+   "cluster_ids": [
+    "cluster_03",
+    "cluster_04"
+   ]
+  },
+  {
+   "id": "section_05",
+   "title": "Virtual Control Groups and Data Reuse as Reduction",
+   "filename": "05_virtual_control_groups.md",
+   "cluster_ids": [
+    "cluster_04",
+    "cluster_05"
+   ]
+  },
+  {
+   "id": "section_06",
+   "title": "New Approach Methodologies and the Data They Generate",
+   "filename": "06_nams_data.md",
+   "cluster_ids": [
+    "cluster_06"
+   ]
+  },
+  {
+   "id": "section_07",
+   "title": "Incentive Structures and the Political Economy of Research Data",
+   "filename": "07_incentives.md",
+   "cluster_ids": [
+    "cluster_07"
+   ]
+  },
+  {
+   "id": "section_08",
+   "title": "Governance, Standards, and Pathways to Repayment",
+   "filename": "08_governance_pathways.md",
+   "cluster_ids": [
+    "cluster_08"
+   ]
+  },
+  {
+   "id": "section_09",
+   "title": "Conclusion",
+   "filename": "09_conclusion.md",
+   "cluster_ids": []
+  }
+ ],
+ "cluster_to_section_assignment": {
+  "cluster_01": [
+   "section_01",
+   "section_02"
+  ],
+  "cluster_02": [
+   "section_01",
+   "section_03"
+  ],
+  "cluster_03": [
+   "section_04"
+  ],
+  "cluster_04": [
+   "section_04",
+   "section_05"
+  ],
+  "cluster_05": [
+   "section_05"
+  ],
+  "cluster_06": [
+   "section_06"
+  ],
+  "cluster_07": [
+   "section_07"
+  ],
+  "cluster_08": [
+   "section_03",
+   "section_08"
+  ]
+ },
+ "evidence_parameters": {
+  "min_papers_per_cluster": null,
+  "min_papers_per_cluster_target": 200,
+  "min_papers_per_cluster_status": "documented near-target exit: achieved 168-199 unique DOIs/cluster (85-99.5% of the 200 target). User accepted at Phase 2 ('Accept corpus & proceed') rather than pushing all clusters to strict >=200; see provenance/gate_evidence_compliance.json documented_exits.PAPER_COUNT_FLOOR and user_signoff.",
+  "saturation_criterion": null,
+  "saturation_criterion_target": "<2% new unique in last 100",
+  "saturation_criterion_status": "documented exit: clusters 05 (virtual controls) and 06 (NAMs) showed genuine saturation signals; remaining clusters closed ~1 frame short under the same user-accepted near-target exit. Per-cluster saturation logs preserved at evidence/cluster_NN_saturation_log.json.",
+  "snowball_rounds": 2,
+  "total_bibliography_target": 1000,
+  "bibliography_target_is_hard_floor": true,
+  "total_bibliography_achieved": 1337
+ }
 }

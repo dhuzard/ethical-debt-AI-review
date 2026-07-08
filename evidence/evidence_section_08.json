@@ -3091,7 +3091,14 @@
      "Comparison is illustrative of heterogeneity, not a like-for-like effect-size pooling."
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "SPLIT",
+   "audit_verdict_resolved": "CAVEAT_FORCED_FROM_SPLIT",
+   "mandatory_caption_caveats": [
+    "Lin2024 plots % 'poor' reporting quality (lower is better) - inverted polarity relative to the others.",
+    "Hair2019 is a randomized control-vs-intervention contrast, not a time trend. Items differ (single items vs composite Landis 4 vs quality band)."
+   ],
+   "suggested_restructure": "Phase 7 writer: convert Lin2024 to positive polarity (% average-or-better = 100 - % poor, 53.95->90.45) or an explicitly inverted sub-axis; move Hair2019 to a separate RCT (control-vs-intervention) panel; label each entry's item and the exact nature of its before/after contrast.",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "data-availability-declared-vs-actual",
@@ -3163,7 +3170,14 @@
      "FAIR-compliance sub-metric available only for the oncology study."
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "CAVEAT",
+   "audit_verdict_resolved": "CAVEAT",
+   "mandatory_caption_caveats": [
+    "Federer2018's ~20% is the proportion of data-availability statements that cite a repository (among PLOS ONE papers that have such a statement), not a declared/actual availability rate.",
+    "Hamilton2023 (declared 8%/actual 2%, medicine-wide) and Hamilton2022 (declared 19%/actual 16%/FAIR <1%, oncology) are declared-vs-actual availability; denominators and scopes differ."
+   ],
+   "suggested_restructure": "",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "actual-data-sharing-rates-under-policy",
@@ -3377,7 +3391,14 @@
      "FAIR-compliance sub-metric available only for the oncology study."
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "CAVEAT",
+   "audit_verdict_resolved": "CAVEAT",
+   "mandatory_caption_caveats": [
+    "Not a like-for-like comparison: Deeb2025 (7->45%) is 'shared all relevant data' by a manual openness/FAIR score at one institution (Edinburgh biosciences, incl. supplementary/genomic deposits, 2014->2023 trend); Hamilton2023 (2%) and Hamilton2022 (16%) are verified actual public availability, field-wide.",
+    "The gap is confounded by metric definition, discipline, data type, and time window; Deeb is a trend, the Hamilton values are single pooled estimates."
+   ],
+   "suggested_restructure": "",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "clinical-trial-results-reporting-compliance",

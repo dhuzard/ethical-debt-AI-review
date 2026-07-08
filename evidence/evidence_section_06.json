@@ -2752,7 +2752,14 @@
      "n definitions differ (compounds vs antibiotics vs models)"
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "CAVEAT",
+   "audit_verdict_resolved": "CAVEAT",
+   "mandatory_caption_caveats": [
+    "Different metrics on different endpoints: Ahuja2024 = classification accuracy (77%, phototoxicity); KelleciCelik2022 = external-validation accuracy (94.11%, FDA pregnancy category, 97 antibiotics, chosen over internal 83.82%); Hong2022 = cross-validation success rate of interspecies regression models (>75%), a model-reliability rate, not chemical-level accuracy.",
+    "Reference standards differ (known phototoxicity, FDA pregnancy categories, experimental aquatic toxicity)."
+   ],
+   "suggested_restructure": "",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "3d-nam-model-quantitative-readouts",
@@ -2986,7 +2993,13 @@
      "Values span several orders of magnitude and are not additive or directly comparable"
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "REDESIGN",
+   "audit_verdict_resolved": "CAVEAT_FORCED_FROM_REDESIGN",
+   "mandatory_caption_caveats": [
+    "Counts are in incompatible units (100,000 chemical substances vs >2,000 nanomaterials vs 25 datasets); the four-order-of-magnitude spread is a unit artifact and does not represent comparable resource sizes."
+   ],
+   "suggested_restructure": "Phase 7 writer: DO NOT plot on a shared numeric axis. Present as a table/inventory (resource, type, count, unit) or as separate single-value callouts with the unit explicit for each; remove any bar-height comparison implying one resource is larger than another.",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "nam-predictive-performance-vs-invivo",
@@ -3093,7 +3106,14 @@
      "EHP6779 value is a model balanced-accuracy range across model variants, not a single-assay sensitivity."
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "CAVEAT",
+   "audit_verdict_resolved": "CAVEAT",
+   "mandatory_caption_caveats": [
+    "Not a single pooled accuracy: four are assay sensitivity/specificity pairs against different reference standards (in vivo genotoxicity, in vivo skin sensitisation, curated hepatotoxins), and Filer2022 is a balanced-accuracy range (0.55-0.88) across ToxPi model variants vs a literature-consensus reference.",
+    "Endpoints span genotoxicity, skin sensitisation, hepatotoxicity, metabolic disruption; Sirenko2016's 100% is 'predictivity' (no false positives among safe compounds); Pfuhler2020's 77/88 are coded-laboratory calls (agreed-criteria calls 80/97)."
+   ],
+   "suggested_restructure": "",
+   "fabrication_flag_resolution": "cite_key_canonical"
   }
  ]
 }

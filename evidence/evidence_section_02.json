@@ -2986,7 +2986,14 @@
      "Endpoints differ slightly: 'likelihood of first approval' and 'clinical approval success rate' (industry-wide, phase 1 to approval) vs oncology-specific FDA approval/registration rates. Denominators differ (active ingredients, firms, distinct agents, phase 1 trials). Comparable only as order-of-magnitude estimates of translational success."
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "CAVEAT",
+   "audit_verdict_resolved": "CAVEAT",
+   "mandatory_caption_caveats": [
+    "Industry-wide all-indication estimates (Schuhmacher 14.3%, DiMasi 14.3%) are shown alongside single-indication oncology estimates (Dhillon 7%, Luo 6.1%, Wasylewski 5%); part of the spread reflects indication, not a shared baseline.",
+    "Denominators differ (active ingredients, agents, drugs, phase-1 trials). DiMasi's 14.3% is the top-10-firm self-originated subgroup (the paper also reports 16.4% and 18.4%). Wasylewski's rate is per phase-1 trial, for pediatric registration."
+   ],
+   "suggested_restructure": "",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "blinding-reporting-rates",
@@ -3145,7 +3152,13 @@
      "Correlation metrics differ (R^2 vs Spearman rho) and are not directly numerically comparable; the point is the qualitative reversal from the same underlying data."
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "SPLIT",
+   "audit_verdict_resolved": "CAVEAT_FORCED_FROM_SPLIT",
+   "mandatory_caption_caveats": [
+    "Seok reports R^2 (0.0-0.1) for genes significant in humans; Takao reports Spearman rho (0.43-0.68) for genes significant in both species. Different statistics on different gene subsets; not numerically comparable. The apparent reversal is a methodological reanalysis of identical data, not a measured biological difference."
+   ],
+   "suggested_restructure": "Phase 7 writer: present as a two-row annotated table with explicit columns for the statistic (R^2 vs Spearman rho) and the gene-selection criterion; do not place both on a common correlation axis.",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "qrp-self-report-prevalence",
@@ -3464,7 +3477,14 @@
      "Denominators are animals pooled across differing numbers of meta-analyses/studies."
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "CAVEAT",
+   "audit_verdict_resolved": "CAVEAT",
+   "mandatory_caption_caveats": [
+    "Crossley (13.1%) and Watzlawick2019 (7.2%) are percentage-point effect-size inflations from different single design items (blinded induction of ischemia vs blinded outcome assessment).",
+    "Watzlawick2014's 27% is a proportional efficacy overestimation from publication-bias correction (21% to 15%), not a percentage-point figure. Models differ (stroke vs spinal cord injury; Watzlawick2014 is RhoA/ROCK-specific)."
+   ],
+   "suggested_restructure": "",
+   "fabrication_flag_resolution": "cite_key_canonical"
   }
  ]
 }

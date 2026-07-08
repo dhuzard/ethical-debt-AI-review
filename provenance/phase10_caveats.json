@@ -1,0 +1,290 @@
+{
+ "phase": 10,
+ "note": "SHOULD_CAVEAT amendments from Phase 8 blinded critics. Citation discipline: use only keys_already_cited + keys_addable_from_citemap; NO other new citations.",
+ "items": [
+  {
+   "id": 1,
+   "section": "section_02",
+   "file": "content/02_reproducibility_crisis.md",
+   "track": 1,
+   "issue": "Metric conflation in a cross-paper 'echo' claim. The 26% is a completion/feasibility rate (26% of 193 planned experiments could be run at all), whereas the Bayer 25% and Amgen 11% figures are replicat",
+   "suggested_fix": "Clarify the metric, e.g. '...26% of planned experiments could even be completed — a feasibility ceiling that sits alongside the earlier Bayer (25%) and Amgen (11%) replication-success audits...', or s",
+   "keys_already_cited": [
+    "Errington2021b",
+    "Errington2021a"
+   ],
+   "keys_addable_from_citemap": [],
+   "keys_unavailable": [],
+   "action": "APPLY: reframe/caveat/qualify per suggested_fix; you MAY add keys_addable_from_citemap; do NOT add keys_unavailable"
+  },
+  {
+   "id": 2,
+   "section": "section_03",
+   "file": "content/03_data_welfare_3rs.md",
+   "track": 4,
+   "issue": "The claim faithfully quotes Leenaars2019a, but the same package contains numerous validated/emerging evidence-based severity tools (TappeTheodor2022 — replicated; Reiber2023; Morton2023; Talbot2023; L",
+   "suggested_fix": "Hedge: 'robust, cross-model-validated methods remain scarce, though a growing set of evidence-based severity tools is being developed and validated {cite:p}`TappeTheodor2022, Reiber2023`.'",
+   "keys_already_cited": [
+    "Leenaars2019a"
+   ],
+   "keys_addable_from_citemap": [
+    "TappeTheodor2022",
+    "Reiber2023",
+    "Morton2023",
+    "Talbot2023",
+    "Leitner2026"
+   ],
+   "keys_unavailable": [],
+   "action": "APPLY: reframe/caveat/qualify per suggested_fix; you MAY add keys_addable_from_citemap; do NOT add keys_unavailable"
+  },
+  {
+   "id": 3,
+   "section": "section_03",
+   "file": "content/03_data_welfare_3rs.md",
+   "track": 2,
+   "issue": "The section uses Brunt2021b only for the 'ambivalence' reading; the conflict [4] facet — that specific high-benefit scenarios drew HIGHER-than-typical support (the 'more supportive than commonly assum",
+   "suggested_fix": "Add the counter-facet: while overall attitudes average ambivalent, specific high-benefit scenarios drew higher-than-typical support (Brunt2021b), complicating the 'fragile support' reading drawn from ",
+   "keys_already_cited": [
+    "Brunt2021b",
+    "Joffe2016"
+   ],
+   "keys_addable_from_citemap": [],
+   "keys_unavailable": [],
+   "action": "APPLY: reframe/caveat/qualify per suggested_fix; you MAY add keys_addable_from_citemap; do NOT add keys_unavailable"
+  },
+  {
+   "id": 4,
+   "section": "section_03",
+   "file": "content/03_data_welfare_3rs.md",
+   "track": 3,
+   "issue": "The section presents mandated checklists favourably, but the citemap contains Macleod2019b (the IICARus randomised trial), whose null result — a mandated ARRIVE checklist at peer review did NOT improv",
+   "suggested_fix": "Soften: 'mandating a checklist at submission has been associated with more complete reporting {cite:p}`Han2017`, though a randomised trial of enforced checklist review found no improvement {cite:p}`Ma",
+   "keys_already_cited": [
+    "Han2017",
+    "Liu2021"
+   ],
+   "keys_addable_from_citemap": [
+    "Macleod2019b"
+   ],
+   "keys_unavailable": [],
+   "action": "APPLY: reframe/caveat/qualify per suggested_fix; you MAY add keys_addable_from_citemap; do NOT add keys_unavailable"
+  },
+  {
+   "id": 5,
+   "section": "section_04",
+   "file": "content/04_fair_preclinical_data.md",
+   "track": 2,
+   "issue": "Provenance/verification gap: these five section-cited keys have NO finding in evidence_section_04.json (they exist only in the citemap and, for four of them, in conflict verbatims). Their claims are t",
+   "suggested_fix": "Add curated package findings (with verbatim source sentences) for these 5 papers so the audit trail is complete; at minimum flag them for Phase 16 full-text verification. No prose change required for ",
+   "keys_already_cited": [
+    "Hamilton2022",
+    "Gabelica2022",
+    "Smith2007",
+    "Colavizza2024",
+    "Prosser2024"
+   ],
+   "keys_addable_from_citemap": [],
+   "keys_unavailable": [],
+   "action": "PHASE16_NOTE_ONLY: do not edit; these 5 keys lack finding objects and are verified against full text in Phase 16"
+  },
+  {
+   "id": 6,
+   "section": "section_04",
+   "file": "content/04_fair_preclinical_data.md",
+   "track": 2,
+   "issue": "The specific numeric reusability sub-scores (Uribe 2.4/10; Syed 2-3/10) are not present in the package source sentences for these papers. Uribe2022's package verbatim documents only '200 of 7,509 arti",
+   "suggested_fix": "Confirm the 2.4/10 and 2-3/10 figures against full text in Phase 16; keep the figure-caption caveats (already noting n=112 / n=4 and different tools).",
+   "keys_already_cited": [
+    "Uribe2022",
+    "Syed2025"
+   ],
+   "keys_addable_from_citemap": [],
+   "keys_unavailable": [],
+   "action": "APPLY: reframe/caveat/qualify per suggested_fix; you MAY add keys_addable_from_citemap; do NOT add keys_unavailable"
+  },
+  {
+   "id": 7,
+   "section": "section_04",
+   "file": "content/04_fair_preclinical_data.md",
+   "track": 4,
+   "issue": "Scope: the package source sentence is a single interviewee's quote ('A geospatial analyst... described spending 80% of their time curating data'). The prose generalizes one anecdote into a field-wide ",
+   "suggested_fix": "Qualify as illustrative, e.g. 'one analyst described spending 80% of their time on curation before analysis (Waithira2026)', rather than stating it as a general rate.",
+   "keys_already_cited": [
+    "Waithira2026"
+   ],
+   "keys_addable_from_citemap": [],
+   "keys_unavailable": [],
+   "action": "APPLY: reframe/caveat/qualify per suggested_fix; you MAY add keys_addable_from_citemap; do NOT add keys_unavailable"
+  },
+  {
+   "id": 8,
+   "section": "section_04",
+   "file": "content/04_fair_preclinical_data.md",
+   "track": 3,
+   "issue": "This package conflict is entirely absent from the section (neither side cited). It concerns participants'/donors' MOTIVATIONS to share genomic data (financial vs altruistic), which is a recruitment/co",
+   "suggested_fix": "No action required beyond an explicit scope note; if the coordinator disagrees, a one-line acknowledgment could be added where incentives (Woods2022) are discussed.",
+   "keys_already_cited": [],
+   "keys_addable_from_citemap": [
+    "Schmeiss2026",
+    "Kim2026a"
+   ],
+   "keys_unavailable": [],
+   "action": "APPLY: reframe/caveat/qualify per suggested_fix; you MAY add keys_addable_from_citemap; do NOT add keys_unavailable"
+  },
+  {
+   "id": 9,
+   "section": "section_05",
+   "file": "content/05_virtual_control_groups.md",
+   "track": 2,
+   "issue": "Quantitative-attribution mismatch. The specific figure 'more than 120 potential confounders' is attached to Swaminathan2023, Walker2024 and Struebing2024, but none of these three carries a >120-confou",
+   "suggested_fix": "Add Yap2022 to (or substitute it into) the citation group for the '>120 potential confounders' clause, or soften to 'heavy covariate adjustment' without the specific 120 figure for those three papers.",
+   "keys_already_cited": [
+    "Swaminathan2023",
+    "Walker2024",
+    "Struebing2024",
+    "Yap2022"
+   ],
+   "keys_addable_from_citemap": [],
+   "keys_unavailable": [],
+   "action": "APPLY: reframe/caveat/qualify per suggested_fix; you MAY add keys_addable_from_citemap; do NOT add keys_unavailable"
+  },
+  {
+   "id": 10,
+   "section": "section_06",
+   "file": "content/06_nams_data.md",
+   "track": 2,
+   "issue": "Misattribution. Mone2020 is the EU-ToxRisk consortium paper on NAM-enhanced read-across (36 partners, EU-REACH/OECD context); it says nothing about the US FDA Modernization Acts or microphysiological ",
+   "suggested_fix": "Remove Mone2020 from this citation group. If coverage of Mone2020 is required, cite it where read-across is discussed (e.g. the 'read-across is an internationally recognised validated method' sentence",
+   "keys_already_cited": [
+    "Mone2020",
+    "Kumar2026",
+    "Rowland2026",
+    "Patra2026"
+   ],
+   "keys_addable_from_citemap": [],
+   "keys_unavailable": [],
+   "action": "APPLY: reframe/caveat/qualify per suggested_fix; you MAY add keys_addable_from_citemap; do NOT add keys_unavailable"
+  },
+  {
+   "id": 11,
+   "section": "section_06",
+   "file": "content/06_nams_data.md",
+   "track": 2,
+   "issue": "Interpretive mismatch. Marx2025 is the 2023 t4 MPS workshop progress-assessment whose core finding is that industrial adoption of MPS 'remained slow' and the 2020 regulatory-acceptance recommendations",
+   "suggested_fix": "Drop Marx2025 from this promissory clause (leave Kopanska2022, or add Hartung2025a/Marx2020's proponent side), or reword to attribute the 'revolutionising' framing to the drug-development/editorial so",
+   "keys_already_cited": [
+    "Marx2025",
+    "Kopanska2022"
+   ],
+   "keys_addable_from_citemap": [],
+   "keys_unavailable": [],
+   "action": "APPLY: reframe/caveat/qualify per suggested_fix; you MAY add keys_addable_from_citemap; do NOT add keys_unavailable"
+  },
+  {
+   "id": 12,
+   "section": "section_06",
+   "file": "content/06_nams_data.md",
+   "track": 6,
+   "issue": "Trace-to-primary-data. The 100%/90% DILI figure is not a value measured in Varmazyad2026; the package's own source sentence shows Varmazyad2026 (a liver-MPS qualification-roadmap review) is quoting th",
+   "suggested_fix": "Trace to and cite the primary DILI-validation study, or make the secondary nature explicit, e.g. 'a liver-MPS qualification review cites a reported 100% sensitivity and 90% specificity for DILI {cite:",
+   "keys_already_cited": [
+    "Varmazyad2026"
+   ],
+   "keys_addable_from_citemap": [],
+   "keys_unavailable": [],
+   "action": "APPLY: reframe/caveat/qualify per suggested_fix; you MAY add keys_addable_from_citemap; do NOT add keys_unavailable"
+  },
+  {
+   "id": 13,
+   "section": "section_06",
+   "file": "content/06_nams_data.md",
+   "track": 2,
+   "issue": "Quantitative claim not covered by the package's authoritative sentence. The verbatim evidence for Karmaus2026 supports only the Hershberger/uterotrophic figures (72% and 74%). The rodent-carcinogenici",
+   "suggested_fix": "Confirm the 65–86% and 36–74% carcinogenicity figures against the Karmaus2026 full text (Phase 16). If the full text does not carry both figures, cite the primary source or drop the unverified numbers",
+   "keys_already_cited": [
+    "Karmaus2026"
+   ],
+   "keys_addable_from_citemap": [],
+   "keys_unavailable": [],
+   "action": "APPLY: reframe/caveat/qualify per suggested_fix; you MAY add keys_addable_from_citemap; do NOT add keys_unavailable"
+  },
+  {
+   "id": 14,
+   "section": "section_07",
+   "file": "content/07_incentives.md",
+   "track": 6,
+   "issue": "Trace-to-primary-data: the 3.8% image-duplication figure is not Richardson2025's own measurement — Richardson2025 repeats it from a prior systematic analysis (Bik et al., its reference 24). The packag",
+   "suggested_fix": "Either attribute the baseline to the primary source or signal the secondary nature, e.g.: 'an early systematic screen of more than twenty thousand articles reported several percent with inappropriatel",
+   "keys_already_cited": [
+    "Richardson2025"
+   ],
+   "keys_addable_from_citemap": [],
+   "keys_unavailable": [],
+   "action": "APPLY: reframe/caveat/qualify per suggested_fix; you MAY add keys_addable_from_citemap; do NOT add keys_unavailable"
+  },
+  {
+   "id": 15,
+   "section": "section_07",
+   "file": "content/07_incentives.md",
+   "track": 4,
+   "issue": "Mild scope inflation. A single cardiovascular audit (639 articles, 3 journals) plus one animal-opioid audit (Blackwell2025) is used to assert the problem is 'systemic rather than confined to one speci",
+   "suggested_fix": "Soften to 'adds a second specialty to the same pattern' or explicitly ground the systemic claim in the multi-field evidence already marshalled (psychology, clinical, ecology), e.g.: 'echoes the same p",
+   "keys_already_cited": [
+    "Heckerman2025",
+    "Blackwell2025"
+   ],
+   "keys_addable_from_citemap": [],
+   "keys_unavailable": [],
+   "action": "APPLY: reframe/caveat/qualify per suggested_fix; you MAY add keys_addable_from_citemap; do NOT add keys_unavailable"
+  },
+  {
+   "id": 16,
+   "section": "section_08",
+   "file": "content/08_governance_pathways.md",
+   "track": 3,
+   "issue": "Under-surfaced packaged conflict (resolved-by-method). The package flags Menke2022 (RTI rose 2.29->4.13 across ~2 decades over >2M papers, 'suggesting authors are taking the need for improved reportin",
+   "suggested_fix": "Add a clause where Menke2022 is used, e.g. '...a slow real improvement on whole-literature automated indices ({cite:p}`Menke2022`), though item-level manual audits in specific fields still find little",
+   "keys_already_cited": [
+    "Menke2022",
+    "Chatzimanouil2018",
+    "Tihanyi2019",
+    "Lin2024"
+   ],
+   "keys_addable_from_citemap": [],
+   "keys_unavailable": [],
+   "action": "APPLY: reframe/caveat/qualify per suggested_fix; you MAY add keys_addable_from_citemap; do NOT add keys_unavailable"
+  },
+  {
+   "id": 17,
+   "section": "section_08",
+   "file": "content/08_governance_pathways.md",
+   "track": 2,
+   "issue": "Interpretive mismatch / over-citation. The quantitative claim ('mutated allele sequence omitted for 20 of 27 models') is supported ONLY by Pavlovic2025. DeSio2020 is a historical outlook on cephalopod",
+   "suggested_fix": "Drop DeSio2020 from this clause (leave {cite:p}`Pavlovic2025` alone for the 20/27 figure), or relocate DeSio2020 to a sentence about consensus care standards / Directive-driven community building wher",
+   "keys_already_cited": [
+    "Pavlovic2025",
+    "DeSio2020"
+   ],
+   "keys_addable_from_citemap": [],
+   "keys_unavailable": [],
+   "action": "APPLY: reframe/caveat/qualify per suggested_fix; you MAY add keys_addable_from_citemap; do NOT add keys_unavailable"
+  },
+  {
+   "id": 18,
+   "section": "section_08",
+   "file": "content/08_governance_pathways.md",
+   "track": 4,
+   "issue": "Field-provenance scope point for a section explicitly about the ANIMAL/preclinical ethical debt. The largest 'enforcement works' magnitudes are drawn from non-animal literatures: Kidwell2016 is Psycho",
+   "suggested_fix": "Add one clause noting the transfer, e.g. 'the largest documented enforcement effects come from psychology and ecology journals ({cite:p}`Kidwell2016, IvimeyCook2025`); the best animal-specific enforce",
+   "keys_already_cited": [
+    "Kidwell2016",
+    "IvimeyCook2025",
+    "Macleod2019b",
+    "Han2017"
+   ],
+   "keys_addable_from_citemap": [],
+   "keys_unavailable": [],
+   "action": "APPLY: reframe/caveat/qualify per suggested_fix; you MAY add keys_addable_from_citemap; do NOT add keys_unavailable"
+  }
+ ]
+}

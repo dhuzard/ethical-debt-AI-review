@@ -1,0 +1,344 @@
+{
+ "phase": 8,
+ "gate": "pass",
+ "validated_at": "2026-07-08",
+ "protocol": "comprev-critic (blinded section critics; actor-critic separation held: critic frames != Phase 7 writer frames)",
+ "total_must_fix_found": 16,
+ "total_must_fix_remaining": 0,
+ "must_fix_resolution_log": {
+  "section_02": "Voelkl2018 n corrected 50->440 studies/13 interventions",
+  "section_03": "4 suppressed Refinement/severity conflicts restored (Wegener2021/Bateson2015, Manthey2021, CrespiAbril2023, Krueger2023/Moller2018); survival 0.48->1.00 after de-replicating 11 cluster_08 governance conflicts to sec08",
+  "section_04": "Hamilton2022 0.3% denominator corrected (1/306 all-sampled, prose+caption+figure re-rendered); 3 suppressed conflicts added (Stotl2025/Gilani2025, MartinezBartolome2013/Vadadokhau2026, Finster2025 OMOP); ELN cites Schaduangrat2020/Zeng2011",
+  "section_05": "0 MUST_FIX",
+  "section_06": "0 MUST_FIX",
+  "section_07": "5 fixes: Flanagan2026 direction corrected (majority responded), Fanelli2018 & Lewandowsky2020 open conflicts restored, Klebel2025 OA-advantage reframed as inconsistent, Bakker2020 added; survival 0.75->1.00",
+  "section_08": "Munro2022 reclassified from enforced to uncontrolled-secular-trend in figure+PNG+thesis sentence+caption (coordinator finished caption after writer 500)"
+ },
+ "mechanical_audits": {
+  "conflict_survival_failures": "NONE",
+  "figure_caption_problems": 0,
+  "heading_problems": 0,
+  "hardcoded_xref_problems": 0,
+  "note": "sec03 conflict set corrected 27->16 (cluster_08 governance replications moved to their home sec08, 0 orphaned); sec05 9 cluster_04 FAIR conflicts legitimately deferred to sec04 (critic-confirmed, in-scope survival 100%)"
+ },
+ "sections": {
+  "section_02": {
+   "must_fix_found": 1,
+   "must_fix_remaining": 0,
+   "should_caveat": 1,
+   "minor": 6,
+   "conflicts_in_package": 10,
+   "post_revision_conflict_survival": 1.0,
+   "papers_in_package": 182,
+   "papers_cited_at_review": 182,
+   "papers_should_cite_at_review": 0,
+   "coverage_invariant_ok": true,
+   "orphan_keys_post_revision": []
+  },
+  "section_03": {
+   "must_fix_found": 4,
+   "must_fix_remaining": 0,
+   "should_caveat": 3,
+   "minor": 2,
+   "conflicts_in_package": 16,
+   "post_revision_conflict_survival": 1.0,
+   "papers_in_package": 211,
+   "papers_cited_at_review": 106,
+   "papers_should_cite_at_review": 6,
+   "coverage_invariant_ok": true,
+   "orphan_keys_post_revision": []
+  },
+  "section_04": {
+   "must_fix_found": 5,
+   "must_fix_remaining": 0,
+   "should_caveat": 4,
+   "minor": 8,
+   "conflicts_in_package": 17,
+   "post_revision_conflict_survival": 0.88,
+   "papers_in_package": 269,
+   "papers_cited_at_review": 84,
+   "papers_should_cite_at_review": 5,
+   "coverage_invariant_ok": true,
+   "orphan_keys_post_revision": []
+  },
+  "section_05": {
+   "must_fix_found": 0,
+   "must_fix_remaining": 0,
+   "should_caveat": 1,
+   "minor": 3,
+   "conflicts_in_package": 22,
+   "post_revision_conflict_survival": 0.59,
+   "papers_in_package": 244,
+   "papers_cited_at_review": 173,
+   "papers_should_cite_at_review": 0,
+   "coverage_invariant_ok": true,
+   "orphan_keys_post_revision": []
+  },
+  "section_06": {
+   "must_fix_found": 0,
+   "must_fix_remaining": 0,
+   "should_caveat": 4,
+   "minor": 8,
+   "conflicts_in_package": 11,
+   "post_revision_conflict_survival": 1.0,
+   "papers_in_package": 169,
+   "papers_cited_at_review": 169,
+   "papers_should_cite_at_review": 0,
+   "coverage_invariant_ok": true,
+   "orphan_keys_post_revision": []
+  },
+  "section_07": {
+   "must_fix_found": 5,
+   "must_fix_remaining": 0,
+   "should_caveat": 2,
+   "minor": 3,
+   "conflicts_in_package": 12,
+   "post_revision_conflict_survival": 1.0,
+   "papers_in_package": 175,
+   "papers_cited_at_review": 132,
+   "papers_should_cite_at_review": 3,
+   "coverage_invariant_ok": true,
+   "orphan_keys_post_revision": []
+  },
+  "section_08": {
+   "must_fix_found": 1,
+   "must_fix_remaining": 0,
+   "should_caveat": 3,
+   "minor": 4,
+   "conflicts_in_package": 11,
+   "post_revision_conflict_survival": 1.0,
+   "papers_in_package": 180,
+   "papers_cited_at_review": 180,
+   "papers_should_cite_at_review": 0,
+   "coverage_invariant_ok": true,
+   "orphan_keys_post_revision": []
+  }
+ },
+ "should_caveat_deferred_to_phase10": [
+  {
+   "section": "02",
+   "track": 1,
+   "location": "Sec 'The file drawer: non-publication of whole experiments' (final sentence of the Reproducibility Project: Cancer Biology paragraph)",
+   "issue": "Metric conflation in a cross-paper 'echo' claim. The 26% is a completion/feasibility rate (26% of 193 planned experiments could be run at all), whereas the Bayer 25% and Amgen 11% figures are replicat",
+   "suggested_fix": "Clarify the metric, e.g. '...26% of planned experiments could even be completed — a feasibility ceiling that sits alongside the earlier Bayer (25%) and Amgen (11%) replication-success audits...', or s",
+   "cite_keys": [
+    "Errington2021b",
+    "Errington2021a"
+   ]
+  },
+  {
+   "section": "03",
+   "track": 4,
+   "location": "'Is Refinement overtaking Replacement?'",
+   "issue": "The claim faithfully quotes Leenaars2019a, but the same package contains numerous validated/emerging evidence-based severity tools (TappeTheodor2022 — replicated; Reiber2023; Morton2023; Talbot2023; L",
+   "suggested_fix": "Hedge: 'robust, cross-model-validated methods remain scarce, though a growing set of evidence-based severity tools is being developed and validated {cite:p}`TappeTheodor2022, Reiber2023`.'",
+   "cite_keys": [
+    "Leenaars2019a",
+    "TappeTheodor2022",
+    "Reiber2023",
+    "Morton2023",
+    "Talbot2023",
+    "Leitner2026"
+   ]
+  },
+  {
+   "section": "03",
+   "track": 2,
+   "location": "Public-compact paragraph",
+   "issue": "The section uses Brunt2021b only for the 'ambivalence' reading; the conflict [4] facet — that specific high-benefit scenarios drew HIGHER-than-typical support (the 'more supportive than commonly assum",
+   "suggested_fix": "Add the counter-facet: while overall attitudes average ambivalent, specific high-benefit scenarios drew higher-than-typical support (Brunt2021b), complicating the 'fragile support' reading drawn from ",
+   "cite_keys": [
+    "Brunt2021b",
+    "Joffe2016"
+   ]
+  },
+  {
+   "section": "03",
+   "track": 3,
+   "location": "'A framework honoured in the breach' — checklist enforcement",
+   "issue": "The section presents mandated checklists favourably, but the citemap contains Macleod2019b (the IICARus randomised trial), whose null result — a mandated ARRIVE checklist at peer review did NOT improv",
+   "suggested_fix": "Soften: 'mandating a checklist at submission has been associated with more complete reporting {cite:p}`Han2017`, though a randomised trial of enforced checklist review found no improvement {cite:p}`Ma",
+   "cite_keys": [
+    "Han2017",
+    "Macleod2019b",
+    "Liu2021"
+   ]
+  },
+  {
+   "section": "04",
+   "track": 2,
+   "location": "Multiple (declared-vs-actual gap; policy paragraph; interoperability; retention; qualitative-harm)",
+   "issue": "Provenance/verification gap: these five section-cited keys have NO finding in evidence_section_04.json (they exist only in the citemap and, for four of them, in conflict verbatims). Their claims are t",
+   "suggested_fix": "Add curated package findings (with verbatim source sentences) for these 5 papers so the audit trail is complete; at minimum flag them for Phase 16 full-text verification. No prose change required for ",
+   "cite_keys": [
+    "Hamilton2022",
+    "Gabelica2022",
+    "Smith2007",
+    "Colavizza2024",
+    "Prosser2024"
+   ]
+  },
+  {
+   "section": "04",
+   "track": 2,
+   "location": "Section 'Shared is not reusable' and figure fig-sec4-fair-reusability",
+   "issue": "The specific numeric reusability sub-scores (Uribe 2.4/10; Syed 2-3/10) are not present in the package source sentences for these papers. Uribe2022's package verbatim documents only '200 of 7,509 arti",
+   "suggested_fix": "Confirm the 2.4/10 and 2-3/10 figures against full text in Phase 16; keep the figure-caption caveats (already noting n=112 / n=4 and different tools).",
+   "cite_keys": [
+    "Uribe2022",
+    "Syed2025"
+   ]
+  },
+  {
+   "section": "04",
+   "track": 4,
+   "location": "Section 'Shared is not reusable' (downstream-cost sentence)",
+   "issue": "Scope: the package source sentence is a single interviewee's quote ('A geospatial analyst... described spending 80% of their time curating data'). The prose generalizes one anecdote into a field-wide ",
+   "suggested_fix": "Qualify as illustrative, e.g. 'one analyst described spending 80% of their time on curation before analysis (Waithira2026)', rather than stating it as a general rate.",
+   "cite_keys": [
+    "Waithira2026"
+   ]
+  },
+  {
+   "section": "04",
+   "track": 3,
+   "location": "Whole section (coverage of package conflicts)",
+   "issue": "This package conflict is entirely absent from the section (neither side cited). It concerns participants'/donors' MOTIVATIONS to share genomic data (financial vs altruistic), which is a recruitment/co",
+   "suggested_fix": "No action required beyond an explicit scope note; if the coordinator disagrees, a one-line acknowledgment could be added where incentives (Woods2022) are discussed.",
+   "cite_keys": [
+    "Schmeiss2026",
+    "Kim2026a"
+   ]
+  },
+  {
+   "section": "05",
+   "track": 2,
+   "location": "Admonition box 'do external controls reproduce concurrent ones?' (subsection 'Adoption, acceptance, and the gap that remains')",
+   "issue": "Quantitative-attribution mismatch. The specific figure 'more than 120 potential confounders' is attached to Swaminathan2023, Walker2024 and Struebing2024, but none of these three carries a >120-confou",
+   "suggested_fix": "Add Yap2022 to (or substitute it into) the citation group for the '>120 potential confounders' clause, or soften to 'heavy covariate adjustment' without the specific 120 figure for those three papers.",
+   "cite_keys": [
+    "Swaminathan2023",
+    "Walker2024",
+    "Struebing2024",
+    "Yap2022"
+   ]
+  },
+  {
+   "section": "06",
+   "track": 2,
+   "location": "Subsection 'The strongest counter-argument: NAMs are ready now' (FDA Modernization Acts sentence)",
+   "issue": "Misattribution. Mone2020 is the EU-ToxRisk consortium paper on NAM-enhanced read-across (36 partners, EU-REACH/OECD context); it says nothing about the US FDA Modernization Acts or microphysiological ",
+   "suggested_fix": "Remove Mone2020 from this citation group. If coverage of Mone2020 is required, cite it where read-across is discussed (e.g. the 'read-across is an internationally recognised validated method' sentence",
+   "cite_keys": [
+    "Mone2020",
+    "Kumar2026",
+    "Rowland2026",
+    "Patra2026"
+   ]
+  },
+  {
+   "section": "06",
+   "track": 2,
+   "location": "Subsection 'The strongest counter-argument: NAMs are ready now' (steelman list)",
+   "issue": "Interpretive mismatch. Marx2025 is the 2023 t4 MPS workshop progress-assessment whose core finding is that industrial adoption of MPS 'remained slow' and the 2020 regulatory-acceptance recommendations",
+   "suggested_fix": "Drop Marx2025 from this promissory clause (leave Kopanska2022, or add Hartung2025a/Marx2020's proponent side), or reword to attribute the 'revolutionising' framing to the drug-development/editorial so",
+   "cite_keys": [
+    "Marx2025",
+    "Kopanska2022"
+   ]
+  },
+  {
+   "section": "06",
+   "track": 6,
+   "location": "Subsection 'Human tissue models recover biology that animals miss' (liver MPS DILI performance)",
+   "issue": "Trace-to-primary-data. The 100%/90% DILI figure is not a value measured in Varmazyad2026; the package's own source sentence shows Varmazyad2026 (a liver-MPS qualification-roadmap review) is quoting th",
+   "suggested_fix": "Trace to and cite the primary DILI-validation study, or make the secondary nature explicit, e.g. 'a liver-MPS qualification review cites a reported 100% sensitivity and 90% specificity for DILI {cite:",
+   "cite_keys": [
+    "Varmazyad2026"
+   ]
+  },
+  {
+   "section": "06",
+   "track": 2,
+   "location": "Subsection 'The same reproducibility problem, in a new medium' (animal reference-standard reproducibility)",
+   "issue": "Quantitative claim not covered by the package's authoritative sentence. The verbatim evidence for Karmaus2026 supports only the Hershberger/uterotrophic figures (72% and 74%). The rodent-carcinogenici",
+   "suggested_fix": "Confirm the 65–86% and 36–74% carcinogenicity figures against the Karmaus2026 full text (Phase 16). If the full text does not carry both figures, cite the primary source or drop the unverified numbers",
+   "cite_keys": [
+    "Karmaus2026"
+   ]
+  },
+  {
+   "section": "07",
+   "track": 6,
+   "location": "Fraud paragraph (line 58): 'Image-duplication screening of more than twenty thousand articles set an early baseline of several percent containing inappropriately duplicated images, and {cite:t}`Richardson2025` show the broker entities...'",
+   "issue": "Trace-to-primary-data: the 3.8% image-duplication figure is not Richardson2025's own measurement — Richardson2025 repeats it from a prior systematic analysis (Bik et al., its reference 24). The packag",
+   "suggested_fix": "Either attribute the baseline to the primary source or signal the secondary nature, e.g.: 'an early systematic screen of more than twenty thousand articles reported several percent with inappropriatel",
+   "cite_keys": [
+    "Richardson2025"
+   ]
+  },
+  {
+   "section": "07",
+   "track": 4,
+   "location": "Animal-welfare-stake paragraph (line 27): '...a cardiovascular-literature audit finding fewer than two percent of papers fully reproducible confirms that the problem is systemic rather than confined to one specialty {cite:p}`Heckerman2025`.'",
+   "issue": "Mild scope inflation. A single cardiovascular audit (639 articles, 3 journals) plus one animal-opioid audit (Blackwell2025) is used to assert the problem is 'systemic rather than confined to one speci",
+   "suggested_fix": "Soften to 'adds a second specialty to the same pattern' or explicitly ground the systemic claim in the multi-field evidence already marshalled (psychology, clinical, ecology), e.g.: 'echoes the same p",
+   "cite_keys": [
+    "Heckerman2025",
+    "Blackwell2025"
+   ]
+  },
+  {
+   "section": "08",
+   "track": 3,
+   "location": "Subsection 'From governance to repayment: closing the unmeasured link' (final long paragraph) vs subsection 'Endorsement is not adherence'",
+   "issue": "Under-surfaced packaged conflict (resolved-by-method). The package flags Menke2022 (RTI rose 2.29->4.13 across ~2 decades over >2M papers, 'suggesting authors are taking the need for improved reportin",
+   "suggested_fix": "Add a clause where Menke2022 is used, e.g. '...a slow real improvement on whole-literature automated indices ({cite:p}`Menke2022`), though item-level manual audits in specific fields still find little",
+   "cite_keys": [
+    "Menke2022",
+    "Chatzimanouil2018",
+    "Tihanyi2019",
+    "Lin2024"
+   ]
+  },
+  {
+   "section": "08",
+   "track": 2,
+   "location": "Subsection 'Ethical-review bodies...' (final sentence)",
+   "issue": "Interpretive mismatch / over-citation. The quantitative claim ('mutated allele sequence omitted for 20 of 27 models') is supported ONLY by Pavlovic2025. DeSio2020 is a historical outlook on cephalopod",
+   "suggested_fix": "Drop DeSio2020 from this clause (leave {cite:p}`Pavlovic2025` alone for the 20/27 figure), or relocate DeSio2020 to a sentence about consensus care standards / Directive-driven community building wher",
+   "cite_keys": [
+    "Pavlovic2025",
+    "DeSio2020"
+   ]
+  },
+  {
+   "section": "08",
+   "track": 4,
+   "location": "Subsection 'What separates the interventions that work...' and the four-requirements paragraph in 'From governance to repayment'",
+   "issue": "Field-provenance scope point for a section explicitly about the ANIMAL/preclinical ethical debt. The largest 'enforcement works' magnitudes are drawn from non-animal literatures: Kidwell2016 is Psycho",
+   "suggested_fix": "Add one clause noting the transfer, e.g. 'the largest documented enforcement effects come from psychology and ecology journals ({cite:p}`Kidwell2016, IvimeyCook2025`); the best animal-specific enforce",
+   "cite_keys": [
+    "Kidwell2016",
+    "IvimeyCook2025",
+    "Macleod2019b",
+    "Han2017"
+   ]
+  }
+ ],
+ "phase16_flags": {
+  "orphan_finding_keys_sec04": [
+   "Hamilton2022",
+   "Gabelica2022",
+   "Smith2007",
+   "Colavizza2024",
+   "Prosser2024"
+  ],
+  "note": "cited via conflict verbatims but lacking finding objects; verify against full text in Phase 16"
+ },
+ "bib_flags": {
+  "case_collision": "sec03 Onuma2026 (cited) vs ONUMA2026 (uncited) are two DIFFERENT papers; ensure both bib keys distinct at Phase 9"
+ },
+ "bibliography_rebuild_required": true,
+ "bibliography_rebuild_reason": "MUST_FIX revisions added citations (e.g. Bakker2020, Finster2025, Vadadokhau2026, Stotl2025, Gilani2025, Schaduangrat2020, Zeng2011, Manthey2021, Wegener2021, Bateson2015, CrespiAbril2023, Krueger2023, Moller2018) - Phase 9 must re-extract cite_keys from all section files"
+}

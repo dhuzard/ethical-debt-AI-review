@@ -1,0 +1,527 @@
+{
+ "section": "05",
+ "findings": [
+  {
+   "track": 2,
+   "severity": "SHOULD_CAVEAT",
+   "location": "Admonition box 'do external controls reproduce concurrent ones?' (subsection 'Adoption, acceptance, and the gap that remains')",
+   "claim_text": "the burden of covariate adjustment for the latter is heavy — one external-control effort screened more than 120 potential confounders {cite:p}`Swaminathan2023, Walker2024, Struebing2024`",
+   "cite_keys_involved": [
+    "Swaminathan2023",
+    "Walker2024",
+    "Struebing2024",
+    "Yap2022"
+   ],
+   "issue": "Quantitative-attribution mismatch. The specific figure 'more than 120 potential confounders' is attached to Swaminathan2023, Walker2024 and Struebing2024, but none of these three carries a >120-confounder source sentence in the evidence package. The only verbatim '>120 potential confounding variables' in the package belongs to Yap2022 (the CAROLINA-study RWD external-control replication), which the section cites correctly elsewhere ('sometimes more than a hundred covariates {cite:p}`...Yap2022...`').",
+   "evidence": "Yap2022 effect_size_source_sentence: 'the authors ... using propensity score matching to control for >120 potential confounding variables.' Swaminathan2023/Walker2024/Struebing2024 findings report treatment-effect comparability and hazard ratios, not a confounder count.",
+   "suggested_fix": "Add Yap2022 to (or substitute it into) the citation group for the '>120 potential confounders' clause, or soften to 'heavy covariate adjustment' without the specific 120 figure for those three papers. e.g. '...the burden of covariate adjustment for the latter is heavy, with one real-world external-control effort screening more than 120 potential confounders {cite:p}`Yap2022`.'"
+  },
+  {
+   "track": 3,
+   "severity": "MINOR",
+   "location": "Whole section (conflict coverage)",
+   "claim_text": "9 of the 22 packaged conflicts are not represented in the section.",
+   "cite_keys_involved": [
+    "Hamilton2022",
+    "Gabelica2022",
+    "Smith2007",
+    "Faria2012",
+    "Hamilton2023",
+    "Prosser2024",
+    "MartinezBartolome2013",
+    "Vadadokhau2026",
+    "Huang2021",
+    "Markiewicz2021",
+    "Willoughby2014",
+    "Petek2022",
+    "Zhang2021",
+    "Colavizza2024",
+    "Schmeiss2026",
+    "Kim2026a",
+    "Finster2025",
+    "Rieder2026"
+   ],
+   "issue": "All 9 unrepresented conflicts concern general FAIR data-sharing (mandate compliance, ontology annotation, proteomics 'data tombs', OMOP semantic adequacy, open-data citation advantage, willingness-to-share incentives). They are out of scope for this VCG/control-data-reuse section, which explicitly defers the FAIR-failure topic to sec-fair-preclinical. 8 of the 9 even reference papers absent from this section's findings[]. All 13 in-scope VCG/control-data/Bayesian-borrowing conflicts (package indices 9-21) ARE represented with both sides. No fix required; documented for accounting transparency.",
+   "evidence": "In-scope conflict survival = 13/13 = 100%. Overall = 13/22 = 59% (> 0.50 threshold). Suppressed set is entirely cluster_04.",
+   "suggested_fix": "None. Curator over-inclusion from a merged cluster_04+cluster_05 package; the section correctly scopes itself to control-data reuse."
+  },
+  {
+   "track": 2,
+   "severity": "MINOR",
+   "location": "Subsection 'How faithfully do virtual controls reproduce real ones?'",
+   "claim_text": "Re-analysing twenty sub-chronic non-human-primate studies with the concurrent control omitted, 82% of statistically significant parameter differences were confirmed ... {cite:p}`Mecklenburg2023`",
+   "cite_keys_involved": [
+    "Mecklenburg2023"
+   ],
+   "issue": "Minor scope imprecision: the package describes Mecklenburg2023's 20 studies as '(sub)chronic' (a mix of subchronic and chronic NHP studies); the prose labels all twenty 'sub-chronic'. The 82% (18/22 parameters) and 'all four dose-limiting toxicities' values are exact.",
+   "evidence": "study_system: '20 (sub)chronic NHP toxicity studies'. Source: 'out of 22 parameters with statistical difference ... 82% could be confirmed using the mixed-design ANOVA.'",
+   "suggested_fix": "Change 'twenty sub-chronic non-human-primate studies' to 'twenty subchronic and chronic non-human-primate studies'."
+  },
+  {
+   "track": 4,
+   "severity": "MINOR",
+   "location": "Subsection 'Why the dividend is conditional: drift and comparability' (strain-dependence sentence)",
+   "claim_text": "...body-weight and diet control alone shift terminal background liver-tumour incidence into a 15–20% band {cite:p}`Leakey2003`.",
+   "cite_keys_involved": [
+    "Leakey2003",
+    "Nolte2011",
+    "Dinse2010",
+    "Kumar2023",
+    "Boyle2018"
+   ],
+   "issue": "The sentence frames a list as 'strain-dependent' background variability drawn mostly from rat data (Leydig-cell/MNCL/pituitary in rats), but the Leakey2003 15-20% liver-tumour figure is from B6C3F1 mice (and Boyle2018 from Tg.rasH2 mice). Mixing rat and mouse strains under one 'strain-dependent' umbrella is defensible (both rodents) but the species shift is unflagged.",
+   "evidence": "Leakey2003 study_system: 'B6C3F1 mouse chronic bioassay background liver tumor incidence'; source predicts 'terminal background liver tumor incidence of 15-20%'.",
+   "suggested_fix": "Optionally note the species shift, e.g. '...and, in B6C3F1 mice, body-weight and diet control alone shift terminal background liver-tumour incidence into a 15-20% band {cite:p}`Leakey2003`.'"
+  }
+ ],
+ "summary": {
+  "section": "05",
+  "section_title": "Virtual Control Groups and Data Reuse as Reduction",
+  "cluster_source": "cluster_04,cluster_05",
+  "verdict": "PASS — no MUST_FIX. Evidence-faithful section with exemplary conflict handling; quantitative claims trace to verbatim package source sentences.",
+  "conflicts_in_package": 22,
+  "conflicts_represented_in_text": 13,
+  "conflicts_suppressed": 9,
+  "in_scope_conflicts": 13,
+  "in_scope_conflicts_represented": 13,
+  "in_scope_conflict_survival_rate": "13/13 = 1.00",
+  "overall_conflict_survival_rate": 0.591,
+  "conflict_survival_threshold_met": true,
+  "suppressed_conflicts": [
+   {
+    "paper_a": "Hamilton2022",
+    "paper_b": "Gabelica2022",
+    "topic": "Whether journal data-sharing requirements translate into actual availability: a blanket mandatory-deposit policy is associated with ~10x higher odds o",
+    "note": "Out-of-scope: cluster_04 FAIR/data-sharing conflict (belongs to sec-fair-preclinical); not part of this section's VCG/control-data argument. 8 of the 9 reference papers not even present in this section's findings[]."
+   },
+   {
+    "paper_a": "Smith2007",
+    "paper_b": "Faria2012",
+    "topic": "Ontology developers assert coordinated ontologies deliver interoperable, accurate representations enabling data integration, but audits of the resulti",
+    "note": "Out-of-scope: cluster_04 FAIR/data-sharing conflict (belongs to sec-fair-preclinical); not part of this section's VCG/control-data argument. 8 of the 9 reference papers not even present in this section's findings[]."
+   },
+   {
+    "paper_a": "Hamilton2023",
+    "paper_b": "Prosser2024",
+    "topic": "Whether open-data mandates should be universal: meta-research on (mostly quantitative) medical data treats mandates as effective levers worth strength",
+    "note": "Out-of-scope: cluster_04 FAIR/data-sharing conflict (belongs to sec-fair-preclinical); not part of this section's VCG/control-data argument. 8 of the 9 reference papers not even present in this section's findings[]."
+   },
+   {
+    "paper_a": "MartinezBartolome2013",
+    "paper_b": "Vadadokhau2026",
+    "topic": "MIAPE/HUPO-PSI reporting guidelines assert they capture the minimum metadata needed for a proteomics dataset to be critically re-analyzed or a pipelin",
+    "note": "Out-of-scope: cluster_04 FAIR/data-sharing conflict (belongs to sec-fair-preclinical); not part of this section's VCG/control-data argument. 8 of the 9 reference papers not even present in this section's findings[]."
+   },
+   {
+    "paper_a": "Huang2021",
+    "paper_b": "Markiewicz2021",
+    "topic": "Whether depositing data in public repositories actually yields reuse: a systematic GEO audit finds most omics studies share badly incomplete metadata ",
+    "note": "Out-of-scope: cluster_04 FAIR/data-sharing conflict (belongs to sec-fair-preclinical); not part of this section's VCG/control-data argument. 8 of the 9 reference papers not even present in this section's findings[]."
+   },
+   {
+    "paper_a": "Willoughby2014",
+    "paper_b": "Petek2022",
+    "topic": "Whether providing metadata infrastructure yields reusable metadata: the LabTrove ELN study finds free-form, user-defined metadata is largely under-use",
+    "note": "Out-of-scope: cluster_04 FAIR/data-sharing conflict (belongs to sec-fair-preclinical); not part of this section's VCG/control-data argument. 8 of the 9 reference papers not even present in this section's findings[]."
+   },
+   {
+    "paper_a": "Zhang2021",
+    "paper_b": "Colavizza2024",
+    "topic": "Magnitude of the open-data citation advantage: a synthetic-control study of a Chinese economics journal mandate reports a large increase in article ci",
+    "note": "Out-of-scope: cluster_04 FAIR/data-sharing conflict (belongs to sec-fair-preclinical); not part of this section's VCG/control-data argument. 8 of the 9 reference papers not even present in this section's findings[]."
+   },
+   {
+    "paper_a": "Schmeiss2026",
+    "paper_b": "Kim2026a",
+    "topic": "Relative weight of personal/material incentives versus altruism in driving willingness to share genomic/biomedical data: a systematic review concludes",
+    "note": "Out-of-scope: cluster_04 FAIR/data-sharing conflict (belongs to sec-fair-preclinical); not part of this section's VCG/control-data argument. 8 of the 9 reference papers not even present in this section's findings[]."
+   },
+   {
+    "paper_a": "Finster2025",
+    "paper_b": "Rieder2026",
+    "topic": "Semantic adequacy/comprehensiveness of the OMOP common data model: a criteria-based review presents OMOP/OHDSI as the dominant, most-comprehensive CDM",
+    "note": "Out-of-scope: cluster_04 FAIR/data-sharing conflict (belongs to sec-fair-preclinical); not part of this section's VCG/control-data argument. 8 of the 9 reference papers not even present in this section's findings[]."
+   }
+  ],
+  "papers_in_package": 244,
+  "papers_cited": 173,
+  "papers_should_cite": 0,
+  "papers_waived_out_of_scope": 70,
+  "papers_waived_redundant": 1,
+  "papers_waived_low_quality": 0,
+  "coverage_accounting_invariant_ok": true,
+  "coverage_invariant_equation": "173 cited + 0 should_cite + 70 oos + 1 redundant + 0 lq = 244 (package)",
+  "coverage_review_len": 71,
+  "coverage_review_expected": 71,
+  "must_fix": 0,
+  "should_caveat": 1,
+  "minor": 3,
+  "mechanical_audits": {
+   "hardcoded_cross_refs": 0,
+   "figures": 3,
+   "figure_anchors_ok": true,
+   "figure_bold_captions_ok": true,
+   "heading_style": "unnumbered H1+H2, consistent",
+   "hallucinated_citekeys": 0,
+   "figure_caption_caveats_reproduced": true
+  },
+  "notes": "All 173 cited keys resolve to the package (0 hallucinations). ~40 quantitative claims spot-checked against verbatim package source sentences (findings[] + figure_data[]); all supported. Adedeji2024 ~25% and Snyder2024 >10,000-datasets values are sourced via figure_data verbatim sentences. Two-panel figures (reduction; concordance) faithfully reproduce the package's mandatory caption caveats (separate axes/units; polarity harmonisation; non-independence of the ~25% estimates). Track 1: the ~25% convergence is explicitly flagged as reflecting a shared source rather than independent replication; SATO2024 ~30% vs ~25% contrast (same unit/scope) is represented as conflict; the 82%/68.5%/51-69% concordance bars are explicitly labelled as different metrics/species. Track 6: mechanistic/quantitative claims trace to primary studies (Kellner2025, Gurjanov2023, Snyder2024, DuchateauNguyen2026, Mecklenburg2023, etc.), not textbook repetition."
+ },
+ "coverage_review": [
+  {
+   "cite_key": "Amadi2024",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Population-health surveillance data (Malawi, Kenya); machine-readable metadata + OMOP); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Bernier2021",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (27 longitudinal population-health cohorts (consent/governance documents)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Blank2016",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Prokaryotic phenotype/metabolic ontology (MicrO), OBO Foundry); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Bossa2021",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Nanosafety Comet-assay genotoxicity data (eNanoMapper / Gov4Nano)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Bult2023",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Alliance of Genome Resources (7 model-organism databases + GO)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "CentenoCasado2026",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (EU health-data regulation (GDPR, Data Governance Act, European Health Data Space) applied to rare-disease research); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Colavizza2024",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (~122,000 PLOS + PMC-OA publications 2018-2023 (Open Science Indicators)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Daniel2020",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Clinical research informatics field survey (EHR data reuse, OMOP)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "David2025",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (HLA-A/periodontitis dataset in SRA + Figshare (data reuse example)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Deng2022",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Immunology data discovery across five repositories (ImmuneData)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Devriendt2021",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Incentive mechanisms for biomedical data sharing (systematic review)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Edfeldt2024",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Open-science early-stage drug discovery data management (SGC roadmap)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "ElAbiead2025",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (public metabolomics repositories (MetaboLights, Metabolomics Workbench, GNPS/MassIVE)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Elghzali2025",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (high-impact rehabilitation journal clinical studies, 2017-2023); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "EscobedoMunoz2025",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (~45,000 bacterial microarray entries in Gene Expression Omnibus (GEO)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Franzetti2026",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Solid-tumor (colorectal, prostate) proteomics public repository datasets); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Gabelica2022",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Data-availability statements in 333 BioMed Central open-access journals); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Goisauf2019",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (European biobank professionals (BBMRI network survey)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "GonzalezBeltran2014",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (ISA-Tab semantic representation (linkedISA / RDF)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Hafner2025",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Agricultural genomics/transcriptomics data reuse (AgBioData consortium)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Hamilton2022",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (306 cancer-related journal articles indexed in PubMed 2019); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Hamilton2023",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Systematic review/meta-analysis of data & code sharing in medicine); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Huang2021",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Metadata completeness of omics studies in Gene Expression Omnibus); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Huang2025b",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (253 omics studies (164,000 samples) + extended 61,000 GEO studies (2.1M samples), human and non-human mammalian); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Jeliazkova2021",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Nanosafety data (physicochemical, toxicity, omics, exposure)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Johnson2023",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Otolaryngology journal data-sharing policies vs FAIR principles); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Keller2026",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (US adults, medical data-sharing consent simulation); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Klebel2025",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Open Science literature (scoping review across OA, open/FAIR data, code, citizen science)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Kozula2026",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (cross-disciplinary researchers EU/UK (qualitative interviews on reproducibility)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Kyoda2024",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (SSBD bioimaging data repository/database); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "LoTempio2025",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Human genomic data-sharing policy (six landmark genomics studies)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Major2025",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Top orthopaedic journals data-sharing statements (2020-2023)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Markiewicz2021",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (OpenNeuro FAIR neuroimaging data archive (BIDS standard)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Martone2024",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Neuroscience data-repository ecosystem (INCF/FAIR infrastructure)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Massei2025",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (high-content screening bioimaging data management (OMERO)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Maxwell2026",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Quantitative surveys of biomedical data-sharing KAP (measurement systematic review, COSMIN)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Mayor2026",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Global-health data and biospecimen sharing governance); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Moore2025",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Gastroenterology journal data-sharing statements (2018-2023)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Mugotitsa2024",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Longitudinal mental-health data harmonization (INSPIRE, DDI + OMOP)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Price2024",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Human embryonic kidney (HEK293) cell-line omics data in public repositories); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Prosser2024",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Mandatory data-sharing policy critique (qualitative health-psychology research)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Rahimzadeh2023",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (NIH BRAIN Initiative Research Opportunities in Humans (ROH) Consortium neurophysiology data); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Reer2023",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Human neuroscience data sharing (legal frameworks + metadata standards)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Rodeiro2023",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (metabolomics repositories (MetaboLights, Metabolomics Workbench) and analysis platforms); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "RodriguezBelenguer2026",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (imaging biomarkers metadata catalog (radiology)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "RowhaniFarid2016",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (BMJ research articles 2009-2015 (data-sharing audit)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Sarntivijai2022",
+   "classification": "WAIVED_REDUNDANT",
+   "reason": "eTRANSAFE IMI FAIR data-sharing / model-verification guidelines; the eTRANSAFE control-data infrastructure the section relies on is already represented by Pognan2021 and Moresis2024."
+  },
+  {
+   "cite_key": "Schmeiss2026",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (systematic review: patient genomic data-sharing willingness); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Schuler2022",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Craniofacial/dental FAIR data repository (FaceBase Consortium)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Shreedhar2026",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (acute febrile illness research cohorts (62 cohorts, 23 countries) survey); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Smith2007",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Open Biomedical Ontologies (OBO) Foundry); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Staunton2024",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Italian population biobanks; secondary use of biobank data for AI training); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Sukums2025",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (health researchers in sub-Saharan Africa (3 research networks) survey); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "TelloRuiz2026",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (agricultural genomics (crops/livestock), European Variation Archive); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Thaldar2025",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (GA4GH genomics data-sharing terminology / governance); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Thomas2013",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Nanomaterial research data sharing (ISA-TAB-Nano spreadsheet standard)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "TorresEspin2021",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Preclinical spinal cord injury data-sharing repository (odc-sci.org)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Tsueng2026",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (infectious/immune disease dataset discovery portal (metadata harmonization)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Vadadokhau2026",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Reanalysis of six public PRIDE proteomics projects); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "VanDenBossche2026",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Proteomics community metadata provision / SDRF-Proteomics standard); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Varhol2025",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Australian health data custodians (qualitative interviews)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Vazquez2024",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (291 publication-request pairs across Vivli, ClinicalStudyDataRequest.com, Yale Open Data Access, SOAR-BMS); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Velasquez2026",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (UK bioimaging community (imaging data stewardship survey/curriculum)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Vesteghem2019",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Precision oncology FAIR data-sharing initiatives (systematic literature review)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Waithira2026",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (global health clinical-data reuse (qualitative interviews)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Wibowo2025",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (health scholars survey, US university); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Winter2025",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (biomedical imaging data-sharing standards); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Yurekten2023",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (MetaboLights metabolomics repository); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "Zuo2020",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (COVID-19 dataset sharing in PubMed Central articles (systematic review)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "deBruijn2025",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Human Tumor Atlas Network (HTAN) multi-omics cancer data); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  },
+  {
+   "cite_key": "deVries2017",
+   "classification": "WAIVED_OUT_OF_SCOPE",
+   "reason": "Cluster_04 FAIR/data-sharing/repository/biobanking/metadata paper (Ethics guidelines/policies from 22 African countries (genomics & biobanking)); does not overlap the section's argument arc on virtual control groups, historical control-animal data reuse, or Bayesian control-borrowing. Belongs to the sibling FAIR section (sec-fair-preclinical), which this section explicitly defers to."
+  }
+ ]
+}

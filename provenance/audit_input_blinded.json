@@ -1,0 +1,1414 @@
+[
+ {
+  "comparison_id": "clinical-approval-success-rates",
+  "comparison_type": "convergent evidence",
+  "papers": [
+   {
+    "cite_key": "Schuhmacher2025",
+    "doi": "10.1016/j.drudis.2025.104291",
+    "metric": "likelihood of first approval (%) phase 1 to FDA approval",
+    "value": "14.3",
+    "value_source_sentence": "Our study reveals an average likelihood of first approval rate of 14.3% across leading research-based pharmaceutical companies, broadly ranging from 8% to 23%.",
+    "n": 2092,
+    "n_definition": "active ingredients (approvals)",
+    "study_system": "18 leading pharmaceutical companies (2006-2022)",
+    "experimental_conditions": "industry-wide, all indications",
+    "method": "clinicaltrials.gov input:output analysis",
+    "scope_region": "whole industry",
+    "scope_population": "drug candidates",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "DiMasi2014",
+    "doi": "10.1097/MJT.0b013e318269198f",
+    "metric": "clinical approval success rate (%) self-originated, top 10 firms",
+    "value": "14.3",
+    "value_source_sentence": "For self-originated compounds, the clinical approval success rates were 14.3%, 16.4%, and 18.4% for top 10 firms, top 11-20 firms, and top 21-50 firms, respectively.",
+    "n": 50,
+    "n_definition": "largest firms",
+    "study_system": "50 largest pharmaceutical firms",
+    "experimental_conditions": "industry-wide, self-originated compounds",
+    "method": "clinical phase transition/approval probability estimation",
+    "scope_region": "whole industry",
+    "scope_population": "drug candidates",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Dhillon2022",
+    "doi": "10.1097/COC.0000000000000963",
+    "metric": "probability of FDA approval (%) from testing entry",
+    "value": "7",
+    "value_source_sentence": "The probability of a drug completing all phases of testing and obtaining FDA approval was 7%, which is below the 11% industry average.",
+    "n": 219,
+    "n_definition": "drugs meeting inclusion",
+    "study_system": "gastric cancer drug development",
+    "experimental_conditions": "single indication (oncology)",
+    "method": "clinicaltrials.gov transition-probability analysis",
+    "scope_region": "single indication",
+    "scope_population": "drug candidates",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Luo2026",
+    "doi": "10.1182/bloodadvances.2025017752",
+    "metric": "overall FDA approval rate (%)",
+    "value": "6.1",
+    "value_source_sentence": "A total of 40 agents reached FDA approval, with an overall approval rate of 6.1%.",
+    "n": 651,
+    "n_definition": "distinct agents (approvals)",
+    "study_system": "lymphoma drug development (2000-2019)",
+    "experimental_conditions": "single indication (oncology)",
+    "method": "Trialtrove/ClinicalTrials.gov analysis",
+    "scope_region": "single indication",
+    "scope_population": "drug candidates",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Wasylewski2020",
+    "doi": "10.1371/journal.pone.0234911",
+    "metric": "% of phase 1 trials leading to registered pediatric drug",
+    "value": "5",
+    "value_source_sentence": "Seven trials (5%) led to drugs being registered for pediatric use in therapy of cancer.",
+    "n": 139,
+    "n_definition": "phase 1 trials",
+    "study_system": "pediatric phase 1 oncology trials (2004-2013)",
+    "experimental_conditions": "single indication (pediatric oncology)",
+    "method": "regulatory-database follow-up",
+    "scope_region": "single indication",
+    "scope_population": "drug candidates",
+    "taxonomic_level": "broad category"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "true",
+   "taxonomic_level_uniform": "true",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "Endpoints differ slightly: 'likelihood of first approval' and 'clinical approval success rate' (industry-wide, phase 1 to approval) vs oncology-specific FDA approval/registration rates. Denominators differ (active ingredients, firms, distinct agents, phase 1 trials). Comparable only as order-of-magnitude estimates of translational success."
+   ]
+  }
+ },
+ {
+  "comparison_id": "animal-study-publication-rates",
+  "comparison_type": "cross-study conflict",
+  "papers": [
+   {
+    "cite_key": "Sena2010",
+    "doi": "10.1371/journal.pbio.1000344",
+    "metric": "estimated non-publication rate (%)",
+    "value": "14",
+    "value_source_sentence": "We estimate that a further 214 experiments (in addition to the 1,359 identified through rigorous systematic review; non publication rate 14%) have been conducted but not reported.",
+    "n": 525,
+    "n_definition": "publications in stroke reviews",
+    "study_system": "animal stroke meta-analyses",
+    "experimental_conditions": "trim-and-fill estimate",
+    "method": "meta-analysis",
+    "scope_region": "whole domain",
+    "scope_population": "animal studies audited",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "terRiet2012",
+    "doi": "10.1371/journal.pone.0043404",
+    "metric": "estimated % experiments published (researcher opinion)",
+    "value": "50",
+    "value_source_sentence": "On average, those working in not-for-profit institutes (n = 421) estimated that 50 percent (interquartile range (IQR) 35 to 70) of all conducted laboratory animal experiments are published.",
+    "n": 454,
+    "n_definition": "survey respondents",
+    "study_system": "lab-animal researchers (Netherlands)",
+    "experimental_conditions": "opinion survey",
+    "method": "survey",
+    "scope_region": "whole domain",
+    "scope_population": "animal studies audited",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Deutsch2021",
+    "doi": "10.1371/journal.pone.0250362",
+    "metric": "% animal-study proposals published",
+    "value": "70",
+    "value_source_sentence": "Results showed that the publication rate increased from 67% in our follow-up study to 70%.",
+    "n": 210,
+    "n_definition": "proposals tracked",
+    "study_system": "animal-study proposals (Germany)",
+    "experimental_conditions": "protocol-to-publication tracking",
+    "method": "cohort tracking",
+    "scope_region": "whole domain",
+    "scope_population": "animal studies audited",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Federico2014",
+    "doi": "10.1111/bph.12771",
+    "metric": "% drugs with no efficacy studies published before first trial",
+    "value": "17",
+    "value_source_sentence": "Most (87%) accessible animal efficacy studies were reported after publication of the first trial, and for 17% of the drugs in our sample, no efficacy studies were published before the first trial report.",
+    "n": 47,
+    "n_definition": "drugs",
+    "study_system": "efficacy studies for novel drugs",
+    "experimental_conditions": "drug-cohort search",
+    "method": "systematic search",
+    "scope_region": "whole domain",
+    "scope_population": "animal studies audited",
+    "taxonomic_level": "broad category"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "false",
+   "taxonomic_level_uniform": "false",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "Metrics are not identical: missing-experiment estimate (Sena), opinion of % published (ter Riet), empirical publication rate (Deutsch), drug-cohort pre-trial publication (Federico). Comparable only as bounds on non-publication."
+   ]
+  }
+ },
+ {
+  "comparison_id": "mouse-human-inflammation-concordance",
+  "comparison_type": "cross-study conflict",
+  "papers": [
+   {
+    "cite_key": "Seok2013",
+    "doi": "10.1073/pnas.1222878110",
+    "metric": "human-mouse concordance (R^2)",
+    "value": "0.0-0.1",
+    "value_source_sentence": "Among genes changed significantly in humans, the murine orthologs are close to random in matching their human counterparts (e.g., R(2) between 0.0 and 0.1).",
+    "n": null,
+    "n_definition": "gene-expression datasets",
+    "study_system": "mouse inflammation models",
+    "experimental_conditions": "genes significant in humans",
+    "method": "genome-wide expression correlation",
+    "scope_region": "whole transcriptome",
+    "scope_population": "orthologous genes",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Takao2014",
+    "doi": "10.1073/pnas.1401965111",
+    "metric": "human-mouse concordance (Spearman rho)",
+    "value": "0.43-0.68",
+    "value_source_sentence": "Contrary to the previous findings, the gene expression levels in the mouse models showed extraordinarily significant correlations with those of the human conditions (Spearman's rank correlation coefficient: 0.43-0.68; genes changed in the same direction: 77-93%; P = 6.5 × 10(-11) to 1.2 × 10(-35)).",
+    "n": null,
+    "n_definition": "gene-expression datasets",
+    "study_system": "mouse inflammation models",
+    "experimental_conditions": "genes significant in both species",
+    "method": "genome-wide expression correlation",
+    "scope_region": "whole transcriptome",
+    "scope_population": "orthologous genes",
+    "taxonomic_level": "broad category"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "true",
+   "scope_population_uniform": "true",
+   "taxonomic_level_uniform": "true",
+   "n_definition_uniform": "true",
+   "caveats": [
+    "Correlation metrics differ (R^2 vs Spearman rho) and are not directly numerically comparable; the point is the qualitative reversal from the same underlying data."
+   ]
+  }
+ },
+ {
+  "comparison_id": "bias-inflation-preclinical-neuro-SRs",
+  "comparison_type": "convergent evidence",
+  "papers": [
+   {
+    "cite_key": "Crossley2008",
+    "doi": "10.1161/STROKEAHA.107.498725",
+    "metric": "effect-size inflation from unblinded ischemia induction",
+    "value": "13.1%",
+    "value_source_sentence": "Studies that included unblinded induction of ischemia reported effect sizes 13.1% (95% CI, 26.4% to 0.2%) greater than studies that included blinding, and studies that included healthy animals instead of animals with comorbidities overstated the effect size by 11.5% (95% CI, 21.2% to 1.8%).",
+    "n": 15635,
+    "n_definition": "animals across 13 meta-analyses",
+    "study_system": "experimental stroke",
+    "experimental_conditions": "meta-epidemiology of infarct-size studies",
+    "method": "meta-meta-analysis",
+    "scope_region": "CNS (focal cerebral ischemia)",
+    "scope_population": "all stroke-model interventions",
+    "taxonomic_level": "design-quality item"
+   },
+   {
+    "cite_key": "Watzlawick2019",
+    "doi": "10.1212/WNL.0000000000007718",
+    "metric": "effect-size inflation from lack of blinded assessment",
+    "value": "7.2%",
+    "value_source_sentence": "More than half of the studies (51.2%) did not report blinded assessment, constituting a likely source of evaluation bias, with an overstated effect size of 7.2%.",
+    "n": 9535,
+    "n_definition": "animals across 549 SCI studies",
+    "study_system": "experimental spinal cord injury",
+    "experimental_conditions": "meta-regression of neurobehavioural recovery",
+    "method": "meta-regression",
+    "scope_region": "CNS (spinal cord)",
+    "scope_population": "all SCI interventions",
+    "taxonomic_level": "design-quality item"
+   },
+   {
+    "cite_key": "Watzlawick2014",
+    "doi": "10.1001/jamaneurol.2013.4684",
+    "metric": "efficacy overestimation from publication bias",
+    "value": "27%",
+    "value_source_sentence": "Inclusion of these theoretical missing studies suggested a 27% overestimation of efficacy, reducing the overall efficacy to a 15% improvement in locomotor recovery.",
+    "n": 725,
+    "n_definition": "animals across 30 RhoA/ROCK studies",
+    "study_system": "experimental spinal cord injury (RhoA/ROCK)",
+    "experimental_conditions": "trim-and-fill publication-bias correction",
+    "method": "meta-analysis with trim-and-fill",
+    "scope_region": "CNS (spinal cord)",
+    "scope_population": "RhoA/ROCK-inhibitor interventions",
+    "taxonomic_level": "publication-bias correction"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "false",
+   "taxonomic_level_uniform": "false",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "Metrics differ: two report percentage-point effect-size inflation from a single design item (blinding), one reports proportional efficacy overestimation from publication-bias correction.",
+    "Disease areas differ (stroke vs SCI).",
+    "Denominators are animals pooled across differing numbers of meta-analyses/studies."
+   ]
+  }
+ },
+ {
+  "comparison_id": "sample-size-power-welfare-reporting",
+  "comparison_type": "convergent evidence",
+  "papers": [
+   {
+    "cite_key": "Bara2014",
+    "doi": "10.1186/cc13694",
+    "metric": "publications reporting a sample-size calculation",
+    "value": "5% (4 of 77)",
+    "value_source_sentence": "A sample-size calculation was rarely used (four (5%) of 77).",
+    "n": 77,
+    "n_definition": "animal research publications reviewed",
+    "study_system": "critical care animal research (mammals)",
+    "experimental_conditions": "3 high-impact critical-care journals, Jan-Jun 2012",
+    "method": "structured audit of reporting",
+    "scope_region": "critical care research field",
+    "scope_population": "consecutive mammalian animal studies",
+    "taxonomic_level": "reporting-compliance rate"
+   },
+   {
+    "cite_key": "Landes2023",
+    "doi": "10.1667/RADE-22-00124.1",
+    "metric": "DRF experiments presenting a power/sample-size calculation",
+    "value": "0 of 28",
+    "value_source_sentence": "Even though all the experiments were reported as approved by animal research review committees, such as an Institutional Animal Care and Use Committee, which typically require justification for animal numbers in an experiment, no power or sample size calculation was presented for any of the 28 DRF experiments.",
+    "n": 28,
+    "n_definition": "dose-reduction-factor experiments reviewed",
+    "study_system": "radiation countermeasure experiments (mice)",
+    "experimental_conditions": "literature review of DRF studies 2000-2013 plus updates",
+    "method": "literature review",
+    "scope_region": "radiation countermeasure field",
+    "scope_population": "DRF experiments",
+    "taxonomic_level": "reporting-compliance rate"
+   },
+   {
+    "cite_key": "Pound2018",
+    "doi": "10.1371/journal.pone.0193758",
+    "metric": "studies not reporting analgesia use",
+    "value": "97% (206)",
+    "value_source_sentence": "Thirteen percent of studies (n = 27) failed to report use of anaesthesia and 97% (n = 206) did not report analgesia use.",
+    "n": null,
+    "n_definition": "preclinical studies not reporting analgesia",
+    "study_system": "preclinical animal studies (6 interventions)",
+    "experimental_conditions": "retrospective harm-benefit analysis sample",
+    "method": "systematic data extraction",
+    "scope_region": "6 clinical intervention areas",
+    "scope_population": "preclinical animal studies",
+    "taxonomic_level": "reporting-compliance rate"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "false",
+   "taxonomic_level_uniform": "true",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "Different metrics (sample-size calc vs analgesia reporting) and different fields (critical care, radiation countermeasures, six intervention areas); all are reporting-compliance percentages but not the same denominator or the same 3R."
+   ]
+  }
+ },
+ {
+  "comparison_id": "reduction-magnitude-design-methods",
+  "comparison_type": "convergent evidence",
+  "papers": [
+   {
+    "cite_key": "Landes2023",
+    "doi": "10.1667/RADE-22-00124.1",
+    "metric": "reduction in DRF experiment sample size via power calculation",
+    "value": "less than half of typical numbers",
+    "value_source_sentence": "Even so, our calculated samples sizes were less than half of the original and typically used sample size for a DRF experiment.",
+    "n": 28,
+    "n_definition": "animals per DRF experiment",
+    "study_system": "radiation countermeasure experiments (mice)",
+    "experimental_conditions": "retrospective + prospective feasibility studies",
+    "method": "power/sample-size calculation",
+    "scope_region": "radiation countermeasure field",
+    "scope_population": "DRF experiments",
+    "taxonomic_level": "percent animal reduction"
+   },
+   {
+    "cite_key": "Graham2015",
+    "doi": "10.1016/j.ejphar.2015.03.040",
+    "metric": "reduction in mice per experiment via refined pulmonary-embolism model",
+    "value": "around 90%",
+    "value_source_sentence": "Not only were they successful in strengthening the model by broadening the spectrum beyond a single extreme (i.e. fatal pulmonary embolism) and measuring a specific biological response rather than events with non-specific causes, but also they were able to reduce the number of mice per experiment by around 90% ().",
+    "n": null,
+    "n_definition": "mice per experiment",
+    "study_system": "pulmonary embolism mouse model",
+    "experimental_conditions": "refined imaging-based model under anaesthesia",
+    "method": "model refinement",
+    "scope_region": "thrombosis/pulmonary embolism research",
+    "scope_population": "mouse model experiments",
+    "taxonomic_level": "percent animal reduction"
+   },
+   {
+    "cite_key": "Kramer2015",
+    "doi": "10.1111/brv.12237",
+    "metric": "reduction in current control animals via historical controls",
+    "value": "more than half",
+    "value_source_sentence": "We show that, under our simulation conditions, the number of current control subjects can be reduced by more than half by including historical controls in the analyses.",
+    "n": null,
+    "n_definition": "current control animals",
+    "study_system": "biomedical experiments with control groups (simulation)",
+    "experimental_conditions": "historical-control borrowing under varied assumptions",
+    "method": "statistical simulation",
+    "scope_region": "biomedical experiments generally",
+    "scope_population": "control-group animals",
+    "taxonomic_level": "percent animal reduction"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "false",
+   "taxonomic_level_uniform": "true",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "Reductions are relative to different baselines (whole experiment vs control group only) and via different mechanisms; percentages are not directly additive."
+   ]
+  }
+ },
+ {
+  "comparison_id": "fair-reusability-scores",
+  "comparison_type": "convergent evidence",
+  "papers": [
+   {
+    "cite_key": "Uribe2022",
+    "doi": "10.1177/00220345221101321",
+    "metric": "Reusability sub-score (of 10)",
+    "value": "2.4",
+    "value_source_sentence": "The average for each metric was as follows: findability, 3.4 (2.7) of 7; accessibility, 1.0 (1.0) of 3; interoperability, 1.1 (1.2) of 4; and reusability, 2.4 (2.6) of 10.",
+    "n": 112,
+    "n_definition": "articles with shared data assessed",
+    "study_system": "Dental research articles",
+    "experimental_conditions": "Shared data objects programmatically assessed",
+    "method": "Custom Wilkinson FAIR specification v0.3d",
+    "scope_region": "dental research",
+    "scope_population": "articles that shared data",
+    "taxonomic_level": "domain corpus"
+   },
+   {
+    "cite_key": "Syed2025",
+    "doi": "10.1016/j.dib.2025.112071",
+    "metric": "Reusable score (of 10)",
+    "value": "2 to 3",
+    "value_source_sentence": "The FAIR assessments revealed moderate to low levels of compliance across datasets, with Reusable scores ranging from 2 to 3 out of 10, and Interoperability often being the weakest dimension.",
+    "n": 4,
+    "n_definition": "datasets assessed",
+    "study_system": "Urban air quality monitoring datasets",
+    "experimental_conditions": "Publicly available datasets from international agencies",
+    "method": "F-UJI automated assessment tool (17 FAIR metrics)",
+    "scope_region": "urban air quality monitoring",
+    "scope_population": "four publicly available datasets",
+    "taxonomic_level": "dataset"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "false",
+   "taxonomic_level_uniform": "false",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "Different assessment tools: custom Wilkinson v0.3d specification (dental) vs F-UJI (air quality).",
+    "Different units of assessment: individual articles that shared data (n=112) vs whole datasets (n=4).",
+    "Air quality value is a reported range (2-3), dental is a mean with SD."
+   ]
+  }
+ },
+ {
+  "comparison_id": "formal-dmp-compliance-vs-realized-sharing",
+  "comparison_type": "cross-study conflict",
+  "papers": [
+   {
+    "cite_key": "Hamidi2025",
+    "doi": "10.1017/cts.2025.10212",
+    "metric": "% of DMSPs addressing all six required elements",
+    "value": "79.3",
+    "value_source_sentence": "We evaluated the content of the 358 DMSPs using the rubric developed for this study (Supplementary Material); 79.3% of them addressed all six required elements outlined in the NIH DMS Policy.",
+    "n": 358,
+    "n_definition": "data management & sharing plans",
+    "study_system": "NIH-funded grant applications (one institution)",
+    "experimental_conditions": "post-2023 NIH DMS Policy",
+    "method": "Manual rubric scoring",
+    "scope_region": "multidisciplinary (NIH)",
+    "scope_population": "grant applications requiring a DMSP",
+    "taxonomic_level": "plan"
+   },
+   {
+    "cite_key": "VanTuyl2016",
+    "doi": "10.1371/journal.pone.0147942",
+    "metric": "% of DMP projects with data-sharing score 0",
+    "value": "76",
+    "value_source_sentence": "Of the 25 projects for which we attempted to locate shared datasets and generate a DATA score, nineteen (76%) had an overall score of 0 ( Fig 1 ).",
+    "n": 25,
+    "n_definition": "projects with data-management plans",
+    "study_system": "NSF-funded projects (Oregon State University)",
+    "experimental_conditions": "post-2011 DMP mandate",
+    "method": "Manual DATA-score rubric",
+    "scope_region": "multidisciplinary (NSF)",
+    "scope_population": "projects with data-management plans",
+    "taxonomic_level": "project"
+   },
+   {
+    "cite_key": "Hamilton2023",
+    "doi": "10.1136/bmj-2023-075767",
+    "metric": "% actual public data availability",
+    "value": "2",
+    "value_source_sentence": "Meta-analyses showed a prevalence of declared and actual public data availability of 8% (95% confidence interval 5% to 11%) and 2% (1% to 3%), respectively, between 2016 and 2021.",
+    "n": null,
+    "n_definition": "original research articles in meta-research studies",
+    "study_system": "medical & health sciences articles",
+    "experimental_conditions": "2016-2021",
+    "method": "meta-analysis of individual participant data",
+    "scope_region": "medicine & health (31 specialties)",
+    "scope_population": "original research articles",
+    "taxonomic_level": "article"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "false",
+   "taxonomic_level_uniform": "false",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "Metrics measure different constructs: % of plans that are complete (DMSP), % of projects scoring zero on a sharing rubric (NSF), and % of articles with actually-available public data (BMJ meta-analysis).",
+    "Polarity differs: the DMSP value is a positive completeness rate; the NSF (76%) and the availability gap are non-sharing/low-sharing measures.",
+    "Units differ: plans (358), projects (25), articles (2,121,580).",
+    "BMJ value is a pooled meta-analytic estimate with a CI; the others are single-study point estimates."
+   ]
+  }
+ },
+ {
+  "comparison_id": "actual-data-availability-rates",
+  "comparison_type": "convergent evidence",
+  "papers": [
+   {
+    "cite_key": "Hamilton2023",
+    "doi": "10.1136/bmj-2023-075767",
+    "metric": "% of medical papers that actually shared data publicly (2016-2021)",
+    "value": "2%",
+    "value_source_sentence": "Aggregation of the findings of sufficiently similar studies suggested that on average, 8% of medical papers published between 2016 and 2021 declared that their data were publicly available and 2% actually shared their data publicly.",
+    "n": 105,
+    "n_definition": "meta-research studies pooled",
+    "study_system": "Medical & health sciences literature (meta-analysis)",
+    "experimental_conditions": "actual public availability, verified retrieval",
+    "method": "systematic review + IPD meta-analysis",
+    "scope_region": "whole medical/health literature",
+    "scope_population": "all original medical research articles",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "RowhaniFarid2016",
+    "doi": "10.1136/bmjopen-2016-011784",
+    "metric": "% of articles whose raw data were easily available on request",
+    "value": "4.5%",
+    "value_source_sentence": "The percentage of data easily available from the 157 articles was only 4.5% (95% CI 1.8% to 9%).",
+    "n": 157,
+    "n_definition": "research articles sampled",
+    "study_system": "BMJ research articles 2009-2015",
+    "experimental_conditions": "data requested by email / checked availability",
+    "method": "observational audit",
+    "scope_region": "single high-profile journal (BMJ)",
+    "scope_population": "all research articles (excl. reviews/meta-analyses)",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Gabelica2022",
+    "doi": "10.1016/j.jclinepi.2022.05.019",
+    "metric": "% of authors promising data who actually provided it on request",
+    "value": "6.8%",
+    "value_source_sentence": "Among 254 (14%) of 1792 authors who responded to our query for data sharing, only 123 (6.8%) provided the requested data.",
+    "n": 1792,
+    "n_definition": "manuscripts with a share-promising DAS",
+    "study_system": "333 BioMed Central open-access journals (Jan 2019)",
+    "experimental_conditions": "data requested from corresponding authors",
+    "method": "mixed-methods author-contact audit",
+    "scope_region": "open-access journal portfolio",
+    "scope_population": "articles with data-availability statement promising sharing",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Hamilton2022",
+    "doi": "10.1186/s12916-022-02644-2",
+    "metric": "% of declared-available datasets meeting key FAIR criteria",
+    "value": "0.3%",
+    "value_source_sentence": "Furthermore, when data were available for assessment, only one study (0.3%, 95% CI: 0–2%) was found to comply with the remaining four FAIR assessment criteria (Fig.).",
+    "n": 306,
+    "n_definition": "cancer articles sampled",
+    "study_system": "306 oncology articles (2019)",
+    "experimental_conditions": "declared availability checked against FAIR self-assessment",
+    "method": "cross-sectional analysis",
+    "scope_region": "oncology literature",
+    "scope_population": "cancer-diagnosis research articles",
+    "taxonomic_level": "broad category"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "false",
+   "taxonomic_level_uniform": "true",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "Metric definitions differ: 'actually shared publicly' vs 'easily available on request' vs 'provided data when emailed' vs 'FAIR-compliant among those declared available' - all capture 'reader can actually get usable data' but are not identical.",
+    "Denominators differ (all sampled articles vs only those with a share-promising statement).",
+    "Scope ranges from whole-literature meta-analysis to single-journal audits."
+   ]
+  }
+ },
+ {
+  "comparison_id": "vcg-hcd-animal-reduction-estimates",
+  "comparison_type": "convergent evidence",
+  "papers": [
+   {
+    "cite_key": "StegerHartmann2020",
+    "doi": "10.14573/altex.2001311",
+    "metric": "potential reduction in animal use from replacing control animals with VCGs",
+    "value": "25%",
+    "value_source_sentence": "The use of VCGs has the potential of a 25% reduction in animal use by replacing the control group animals with existing randomized data sets.",
+    "n": null,
+    "n_definition": "conceptual estimate",
+    "study_system": "regulatory animal toxicity studies (concept)",
+    "experimental_conditions": "proposal; full replacement of concurrent control animals",
+    "method": "conceptual/analytic estimate",
+    "scope_region": "whole toxicity study control group",
+    "scope_population": "all control-group animals",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Gurjanov2024b",
+    "doi": "10.14573/altex.2403141",
+    "metric": "reduction in concurrent control animals from HCD-derived VCGs",
+    "value": "25%",
+    "value_source_sentence": "Virtual control groups (VCGs) created from historical control data (HCD) can reduce the number of concurrent control group animals needed in regulatory toxicity studies by up to 25%.",
+    "n": null,
+    "n_definition": "estimate for regulatory toxicity studies",
+    "study_system": "28-day rodent toxicity studies",
+    "experimental_conditions": "body-weight-matched VCG sampling; legacy-study reproduction",
+    "method": "retrospective reproduction of legacy statistics",
+    "scope_region": "whole toxicity study control group",
+    "scope_population": "concurrent control-group animals",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Adedeji2024",
+    "doi": "10.1177/01926233241300310",
+    "metric": "potential reduction of animal use via VCG replacement of concurrent controls",
+    "value": "25%",
+    "value_source_sentence": "Recently, using VCG as a replacement for concurrent controls has been closely evaluated in the preclinical space, considering this might reduce animal use in toxicology studies by up to 25%.",
+    "n": null,
+    "n_definition": "estimate for toxicology studies",
+    "study_system": "rat toxicity studies (review)",
+    "experimental_conditions": "full replacement of concurrent controls",
+    "method": "review of proof-of-concept studies",
+    "scope_region": "whole toxicity study control group",
+    "scope_population": "concurrent control-group animals",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Chiaruttini2025",
+    "doi": "10.1186/s12874-025-02520-6",
+    "metric": "reduction in enrolled patients under congruent Bayesian dynamic borrowing (device trial)",
+    "value": "1,497 vs 2,386",
+    "value_source_sentence": "The proposed design, when evaluated under scenarios where historical and current data were congruent (scenarios 1 and 2), demonstrated a significant reduction in the number of enrolled patients (1,497 vs. 2,386 under H​ and 1,850 vs. 2,386 under H​) while maintaining both the T1E and Power at their nominal levels.",
+    "n": 2386,
+    "n_definition": "enrolled patients (simulation average)",
+    "study_system": "cardiovascular medical device trial (human)",
+    "experimental_conditions": "congruent historical controls; group-sequential SAM prior",
+    "method": "Bayesian dynamic borrowing simulation",
+    "scope_region": "trial control + test arms",
+    "scope_population": "trial participants",
+    "taxonomic_level": "other"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "false",
+   "taxonomic_level_uniform": "false",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "First three entries are preclinical animal-reduction estimates (% of control animals); the fourth is a clinical-trial patient-enrollment reduction and is not directly comparable in units or population.",
+    "altex.2001311, altex.2403141 and 01926233241300310 report the same 25% figure but two cite the concept paper, so they are not fully independent estimates.",
+    "Device-trial value is a raw count (1,497 vs 2,386), not a percentage; approx 37% enrollment reduction."
+   ]
+  }
+ },
+ {
+  "comparison_id": "vcg-concurrent-control-concordance",
+  "comparison_type": "cross-study conflict",
+  "papers": [
+   {
+    "cite_key": "Mecklenburg2023",
+    "doi": "10.1371/journal.pone.0282404",
+    "metric": "% of significant parameters confirmed after omitting the concurrent control group (NHP)",
+    "value": "82%",
+    "value_source_sentence": "Our investigation has demonstrated that out of 22 parameters with statistical difference in the fixed-effect ANOVA /Dunnett’s test, 82% could be confirmed using the mixed-design ANOVA.",
+    "n": 20,
+    "n_definition": "studies (parameters within them)",
+    "study_system": "non-human primate (sub)chronic toxicity studies",
+    "experimental_conditions": "concurrent control omitted; mixed-design ANOVA vs fixed-effect ANOVA/Dunnett",
+    "method": "retrospective re-analysis",
+    "scope_region": "whole study parameter set",
+    "scope_population": "NHP toxicity study parameters",
+    "taxonomic_level": "other"
+   },
+   {
+    "cite_key": "DuchateauNguyen2026",
+    "doi": "10.3389/fphar.2026.1704002",
+    "metric": "% of pairwise comparisons with >=90% effect-size agreement between CCG and VCG (rat)",
+    "value": "68.5%",
+    "value_source_sentence": "In 68.5% of all the pairwise comparisons performed there was at least 90% agreement in effect size estimate between analysis done with CCG and VCGs.",
+    "n": 40,
+    "n_definition": "studies (pairwise comparisons within)",
+    "study_system": "Wistar Han rat toxicity studies",
+    "experimental_conditions": "VCG vs concurrent control; liver enzymes",
+    "method": "simulation/re-analysis",
+    "scope_region": "clinical chemistry parameters",
+    "scope_population": "rat control-vs-VCG comparisons",
+    "taxonomic_level": "other"
+   },
+   {
+    "cite_key": "Adedeji2024",
+    "doi": "10.1177/01926233241300310",
+    "metric": "% of quantitative parameters NON-reproducible when CCG replaced by VCG (rat, worst legacy study)",
+    "value": "49% (31-49% across 3 studies)",
+    "value_source_sentence": "When the CCG was replaced with VCG, the result showed that 31% (34 of 108 parameters), 40% (43 out of 107 parameters), and 49% (57 of 115 parameters) of the quantitative parameters were not statistically reproducible in the legacy studies A, B and C respectively ().",
+    "n": null,
+    "n_definition": "quantitative parameters",
+    "study_system": "rat toxicity legacy studies (clinical pathology)",
+    "experimental_conditions": "CCG replaced by VCG",
+    "method": "review of proof-of-concept studies",
+    "scope_region": "clinical pathology parameters",
+    "scope_population": "rat legacy-study parameters",
+    "taxonomic_level": "other"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "false",
+   "taxonomic_level_uniform": "true",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "Metrics are not identical: parameter-confirmation (NHP), >=90% effect-size agreement (rat), and non-reproducibility rate (rat) measure related but distinct quantities.",
+    "Species differ (NHP vs rat); the 49% entry is a non-reproducibility rate (higher = worse), the opposite polarity to the agreement/confirmation percentages.",
+    "10.1177/01926233241300310 and 10.3389/fphar.2026.1704002 are already in the prior evidence set; reused here only as figure comparators."
+   ]
+  }
+ },
+ {
+  "comparison_id": "shared-control-database-scale",
+  "comparison_type": "convergent evidence",
+  "papers": [
+   {
+    "cite_key": "Deschl2002",
+    "doi": "10.1080/01926230252824743",
+    "metric": "animals in shared historical control tumour database (RITA)",
+    "value": "10,896 rats / 106 studies",
+    "value_source_sentence": "In the RITA database, there are currently 10,896 rats from 106 studies with more than 17,604 primary tumors and 16,551 pre-neoplastic lesions.",
+    "n": 10896,
+    "n_definition": "control animals (rats)",
+    "study_system": "RITA industry historical control database",
+    "experimental_conditions": "carcinogenicity control animals",
+    "method": "database compilation",
+    "scope_region": "whole-animal tumour/lesion records",
+    "scope_population": "control rats",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Moresis2024",
+    "doi": "10.1038/s41684-024-01335-0",
+    "metric": "control/toxicology animals analysed in eTRANSAFE",
+    "value": ">60,000 rats; 1,300 dogs; 500 monkeys",
+    "value_source_sentence": "The opportunities and challenges for implementing VCGs were the focus of the IMI eTRANSAFE project, which has collected and analyzed drug safety and toxicology data from more than 60,000 rats, 1,300 dogs and 500 monkeys (see ref.and more recently ref.).",
+    "n": 60000,
+    "n_definition": "animals with data",
+    "study_system": "eTRANSAFE shared control database",
+    "experimental_conditions": "legacy toxicity study control animals",
+    "method": "cross-company data integration",
+    "scope_region": "multi-species animal data",
+    "scope_population": "control/study animals",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Pognan2021",
+    "doi": "10.3390/ph14030237",
+    "metric": "legacy studies integrated from eTOX into eTRANSAFE",
+    "value": "6,500 studies",
+    "value_source_sentence": "Further in vivo animal toxicology study data have been made available through the integration of 6500 preclinical studies from the eTOX project [] into the eTRANSAFE ToxHub System.",
+    "n": 6500,
+    "n_definition": "preclinical studies",
+    "study_system": "eTOX/eTRANSAFE shared database",
+    "experimental_conditions": "legacy preclinical toxicity studies",
+    "method": "database integration",
+    "scope_region": "study-level records",
+    "scope_population": "preclinical studies",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Carfagna2020b",
+    "doi": "10.1021/acs.chemrestox.0c00317",
+    "metric": "SEND-format studies in FDA CDER repository queried",
+    "value": ">1,800 studies",
+    "value_source_sentence": "FDA CDER's repository of >1800 sponsor-submitted studies in SEND format was queried using the statistical programming language R to gain insight into how the CDISC SEND Implementation Guides are being applied across the industry.",
+    "n": 1800,
+    "n_definition": "SEND studies",
+    "study_system": "FDA CDER SEND repository",
+    "experimental_conditions": "cross-study historical control query",
+    "method": "R query of SEND datasets",
+    "scope_region": "study-level records",
+    "scope_population": "sponsor-submitted studies",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Snyder2024",
+    "doi": "10.3389/ftox.2024.1392686",
+    "metric": "SEND datasets in FDA CDER repository (later count)",
+    "value": ">10,000 datasets",
+    "value_source_sentence": "The US FDA CDER repository having more than 10,000 sponsor-submitted SEND datasets provides the opportunity for large-scale, cross-data analysis of toxicology data, which can ultimately provide safer compounds to patients faster.",
+    "n": 10000,
+    "n_definition": "SEND datasets",
+    "study_system": "FDA CDER SEND repository (sendigR)",
+    "experimental_conditions": "cross-study historical control analysis",
+    "method": "relational DB from SEND",
+    "scope_region": "study-level datasets",
+    "scope_population": "sponsor-submitted studies",
+    "taxonomic_level": "broad category"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "false",
+   "taxonomic_level_uniform": "true",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "Units differ across entries: animals (RITA 10,896 rats; eTRANSAFE 60,000 rats/1,300 dogs/500 monkeys) vs studies (eTOX 6,500; CDER >1,800) vs datasets (CDER >10,000) - not directly comparable on one axis.",
+    "The two FDA CDER SEND counts (>1,800 in 2020 and >10,000 in 2024) are the same repository at different times, showing growth rather than independent resources.",
+    "n encodes the primary count per entry (animals or studies/datasets) as noted in n_definition."
+   ]
+  }
+ },
+ {
+  "comparison_id": "in-silico-predictive-performance",
+  "comparison_type": "convergent evidence",
+  "papers": [
+   {
+    "cite_key": "Ahuja2024",
+    "doi": "10.1177/02611929241256040",
+    "metric": "overall accuracy (Derek Nexus vs reference)",
+    "value": "77%",
+    "value_source_sentence": "Derek Nexus predicted phototoxicity of the compounds, with a sensitivity of 63%, specificity of 93%, Positive Predictive Values of 90% and Negative Predictive Value of 69%, overall accuracy of 77% and balanced accuracy of 78%.",
+    "n": null,
+    "n_definition": "compounds tested (not stated numerically in abstract)",
+    "study_system": "in silico phototoxicity prediction",
+    "experimental_conditions": "expert-rule software (Derek Nexus) vs known phototoxicity outcomes",
+    "method": "structural alerts / expert system",
+    "scope_region": "endpoint: phototoxicity",
+    "scope_population": "drugs and chemicals",
+    "taxonomic_level": "single endpoint"
+   },
+   {
+    "cite_key": "KelleciCelik2022",
+    "doi": "10.1080/01480545.2022.2113888",
+    "metric": "external-validation accuracy",
+    "value": "94.11%",
+    "value_source_sentence": "The accuracy (ACC) values of the most successful model were 83.82% for the internal and 94.11% for the external validation.",
+    "n": 97,
+    "n_definition": "antibiotics in dataset",
+    "study_system": "QSAR pregnancy-category classification",
+    "experimental_conditions": "machine-learning QSAR, internal + external validation",
+    "method": "QSAR / machine learning",
+    "scope_region": "endpoint: FDA pregnancy category (developmental toxicity)",
+    "scope_population": "antibiotics",
+    "taxonomic_level": "single endpoint"
+   },
+   {
+    "cite_key": "Hong2022",
+    "doi": "10.1016/j.envint.2022.107367",
+    "metric": "cross-validation success rate of interspecies models",
+    "value": ">75% (74% of models >80%)",
+    "value_source_sentence": "All models had a cross- validation success rates > 75%, with 74% (17 models) of the models having a cross- validation success rates > 80%, indicating that all of models with the high reliability (;).",
+    "n": null,
+    "n_definition": "interspecies correlation models",
+    "study_system": "QSAR-ICE-SSD aquatic toxicity",
+    "experimental_conditions": "QSAR + interspecies correlation estimation + species sensitivity distribution",
+    "method": "QSAR-ICE-SSD",
+    "scope_region": "endpoint: aquatic toxicity (alkylphenols)",
+    "scope_population": "aquatic organisms",
+    "taxonomic_level": "multi-species models"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "false",
+   "taxonomic_level_uniform": "true",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "Different endpoints (phototoxicity, pregnancy category, aquatic toxicity)",
+    "Different performance metrics (classification accuracy vs cross-validation success rate)",
+    "Different reference standards (known in vivo/clinical outcomes vs experimental aquatic toxicity data)",
+    "n definitions differ (compounds vs antibiotics vs models)"
+   ]
+  }
+ },
+ {
+  "comparison_id": "nam-fair-data-resource-scale",
+  "comparison_type": "convergent evidence",
+  "papers": [
+   {
+    "cite_key": "MohammedTaha2022",
+    "doi": "10.1186/s12302-022-00680-6",
+    "metric": "unique substances in FAIR suspect-list resource",
+    "value": "over 100,000",
+    "value_source_sentence": "The NORMAN-SLE contains 99 separate suspect list collections (as of May 2022) from over 70 contributors around the world, totalling over 100,000 unique substances.",
+    "n": null,
+    "n_definition": "unique chemical substances",
+    "study_system": "NORMAN-SLE FAIR chemical suspect-list resource",
+    "experimental_conditions": "99 curated collections from >70 contributors, DOIs+versioning via Zenodo",
+    "method": "curated suspect-list exchange",
+    "scope_region": "environmental chemicals",
+    "scope_population": "suspect-screening substances",
+    "taxonomic_level": "substance-level"
+   },
+   {
+    "cite_key": "Afantitis2020",
+    "doi": "10.1016/j.csbj.2020.02.023",
+    "metric": "nanomaterials in integrated libraries",
+    "value": ">2000",
+    "value_source_sentence": "These established and well-characterized NM libraries (e.g. NanoMILE, NanoSolutions, NANoREG, NanoFASE, caLIBRAte, NanoTEST and the Nanomaterial Registry (>2000 NMs)) contain physicochemical characterization data as well as data for several relevant biological endpoints, assessed in part using harmonized Organisation for Economic Co-operation and Development (OECD) methods and test guidelines.",
+    "n": null,
+    "n_definition": "nanomaterials with characterization data",
+    "study_system": "NanoSolveIT nanoinformatics platform",
+    "experimental_conditions": "aggregated EU NM libraries with OECD-harmonised endpoints",
+    "method": "integrated NM libraries / nanoinformatics",
+    "scope_region": "engineered nanomaterials",
+    "scope_population": "nanomaterials",
+    "taxonomic_level": "material-level"
+   },
+   {
+    "cite_key": "Bahl2023",
+    "doi": "10.1186/s13321-023-00710-2",
+    "metric": "public proteomic datasets meta-analysed",
+    "value": "25",
+    "value_source_sentence": "As a case study, we performed a meta-analysis of 25 proteomic datasets to investigate the toxicological effects of nanomaterials at the lung level.",
+    "n": 25,
+    "n_definition": "public proteomic datasets",
+    "study_system": "PROTEOMAS FAIR proteomic meta-analysis workflow",
+    "experimental_conditions": "harmonized meta-analysis per OECD Omics Reporting Framework",
+    "method": "proteomic meta-analysis",
+    "scope_region": "proteomics (lung, nanomaterials)",
+    "scope_population": "nanomaterial proteomic studies",
+    "taxonomic_level": "dataset-level"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "false",
+   "taxonomic_level_uniform": "false",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "Counts measure fundamentally different entities (chemical substances vs engineered nanomaterials vs public omics datasets)",
+    "Different resource types (suspect-list exchange, nanoinformatics library platform, proteomic meta-analysis workflow)",
+    "Values span several orders of magnitude and are not additive or directly comparable"
+   ]
+  }
+ },
+ {
+  "comparison_id": "nam-predictive-performance-vs-invivo",
+  "comparison_type": "convergent evidence",
+  "papers": [
+   {
+    "cite_key": "Pfuhler2020",
+    "doi": "10.1093/mutage/geaa009",
+    "metric": "sensitivity / specificity vs in vivo genotoxicity",
+    "value": "77% / 88%",
+    "value_source_sentence": "The capacity of the assay to predict expected genotoxic effects of a difficult set of coded chemicals was very good, providing a sensitivity of 77 (80)% and a specificity of 88 (97)%.",
+    "n": 32,
+    "n_definition": "coded chemicals evaluated",
+    "study_system": "3D reconstructed human skin Comet assay",
+    "experimental_conditions": "topical exposure 48 h, multi-laboratory",
+    "method": "reconstructed skin Comet (genotoxicity)",
+    "scope_region": "skin (dermal route)",
+    "scope_population": "coded genotoxicant/non-genotoxicant chemical set",
+    "taxonomic_level": "assay-level predictivity"
+   },
+   {
+    "cite_key": "Hendriks2024",
+    "doi": "10.1002/em.22592",
+    "metric": "sensitivity / specificity vs in vivo genotoxicity",
+    "value": "84.4% / 91.2%",
+    "value_source_sentence": "This trial confirmed the accuracy of ToxTracker to predict in vivo genotoxicants with a sensitivity of 84.4% and a specificity of 91.2%.",
+    "n": 64,
+    "n_definition": "chemicals tested across 7 labs",
+    "study_system": "ToxTracker mammalian reporter assay",
+    "experimental_conditions": "OECD GD34 interlaboratory trial",
+    "method": "reporter-gene genotoxicity assay",
+    "scope_region": "whole-cell mammalian reporter",
+    "scope_population": "genotoxic and non-genotoxic chemical set",
+    "taxonomic_level": "assay-level predictivity"
+   },
+   {
+    "cite_key": "Corvaro2024",
+    "doi": "10.1016/j.yrtph.2024.105595",
+    "metric": "sensitivity / specificity vs in vivo skin sensitisation",
+    "value": "85.0% / 68.2%",
+    "value_source_sentence": "The overall accuracy, sensitivity, and specificity were 76.2% (32/42), 85.0% (17/20), and 68.2% (15/22), respectively, with the predictivity for liquid formulations being slightly higher compared to the solid formulations.",
+    "n": 42,
+    "n_definition": "agrochemical formulations tested",
+    "study_system": "GARDskin/GARDpotency skin sensitisation NAM",
+    "experimental_conditions": "agrochemical formulations (mixtures)",
+    "method": "genomic allergen rapid detection",
+    "scope_region": "skin (sensitisation)",
+    "scope_population": "agrochemical formulations",
+    "taxonomic_level": "assay-level predictivity"
+   },
+   {
+    "cite_key": "Sirenko2016",
+    "doi": "10.1089/adt.2016.729",
+    "metric": "sensitivity / predictivity vs known hepatotoxins",
+    "value": "86% / 100%",
+    "value_source_sentence": "Of the 42 selected known hepatotoxins in the set, 36 elicited detectable toxicity effects in the spheroid hepatotoxicity assay (86% sensitivity), whereas all compounds considered “safe” had no effect on the number of live cells or spheroid phenotype (100% predictivity).",
+    "n": 48,
+    "n_definition": "compounds tested",
+    "study_system": "iPSC-hepatocyte 3D spheroid high-content assay",
+    "experimental_conditions": "3D spheroid, 72 h exposure",
+    "method": "confocal high-content 3D imaging (hepatotoxicity)",
+    "scope_region": "liver (hepatotoxicity)",
+    "scope_population": "known hepatotoxins and safe compounds",
+    "taxonomic_level": "assay-level predictivity"
+   },
+   {
+    "cite_key": "Filer2022",
+    "doi": "10.1289/EHP6779",
+    "metric": "balanced accuracy vs literature consensus",
+    "value": "0.55-0.88",
+    "value_source_sentence": "Balanced accuracies ranged from 0.55 to 0.88 ().",
+    "n": 38,
+    "n_definition": "reference chemicals",
+    "study_system": "ToxCast-based ToxPi models (metabolic disruption)",
+    "experimental_conditions": "3T3-L1 adipogenesis reference",
+    "method": "HTS bioactivity ToxPi modeling",
+    "scope_region": "metabolic/adipogenic disruption",
+    "scope_population": "semivolatile environmental chemicals",
+    "taxonomic_level": "model-level balanced accuracy"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "false",
+   "taxonomic_level_uniform": "false",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "Reference standards differ: in vivo genotoxicity (geaa009, em.22592), in vivo skin sensitisation (yrtph.2024.105595), known hepatotoxins (adt.2016.729), literature consensus for metabolic disruption (EHP6779).",
+    "Metrics are not identical: sensitivity/specificity pairs for four assays vs balanced accuracy range for EHP6779.",
+    "Endpoints span different organs/hazards (genotoxicity, sensitisation, hepatotoxicity, metabolic disruption); values should not be pooled as a single accuracy.",
+    "EHP6779 value is a model balanced-accuracy range across model variants, not a single-assay sensitivity."
+   ]
+  }
+ },
+ {
+  "comparison_id": "qrp-prevalence-surveys",
+  "comparison_type": "cross-study conflict",
+  "papers": [
+   {
+    "cite_key": "Fanelli2009",
+    "doi": "10.1371/journal.pone.0005738",
+    "metric": "% admitting data fabrication/falsification at least once (self, pooled)",
+    "value": "1.97",
+    "value_source_sentence": "Meta-analysis yielded a pooled weighted estimate of 1.97% (95%CI: 0.86–4.45), with significant heterogeneity (Cochran's Q = 61.7777, df = 6, P<0.0001).",
+    "n": 7,
+    "n_definition": "survey questions pooled",
+    "study_system": "scientists (meta-analysis)",
+    "experimental_conditions": "anonymous self-report surveys",
+    "method": "meta-analysis of surveys",
+    "scope_region": "multiple fields/countries",
+    "scope_population": "all scientists",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Schneider2024",
+    "doi": "10.1371/journal.pone.0304342",
+    "metric": "% admitting use of at least one QRP",
+    "value": "94",
+    "value_source_sentence": "Ninety-four per cent admitted that they had used at least one of these QRPs, and the mean self-reported rate across all QRP items was 42%, with rates for the individual QRPs ranging from 17% to 57%.",
+    "n": 3402,
+    "n_definition": "survey respondents",
+    "study_system": "researchers (Denmark/UK/USA/Croatia/Austria)",
+    "experimental_conditions": "anonymous self-report survey",
+    "method": "cross-national survey",
+    "scope_region": "all fields",
+    "scope_population": "all researchers",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Velicu2025",
+    "doi": "10.1007/s11192-025-05357-4",
+    "metric": "% implicitly associating QRPs with success",
+    "value": "~20",
+    "value_source_sentence": "Our main finding is that a considerable fraction of about a fifth of researchers associate success with problematic research practices, while only a small minority connect FFP and success.",
+    "n": 11747,
+    "n_definition": "survey respondents",
+    "study_system": "scientists (AT/DE/CH)",
+    "experimental_conditions": "single-category implicit association test",
+    "method": "SC-IAT",
+    "scope_region": "all fields",
+    "scope_population": "all scientists",
+    "taxonomic_level": "broad category"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "true",
+   "scope_population_uniform": "true",
+   "taxonomic_level_uniform": "true",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "Metrics differ: serious FFP admission vs any-QRP admission vs implicit association with success - not directly comparable magnitudes",
+    "n definitions differ: pooled survey questions vs individual respondents"
+   ]
+  }
+ },
+ {
+  "comparison_id": "rpt-evaluation-criteria",
+  "comparison_type": "convergent evidence",
+  "papers": [
+   {
+    "cite_key": "Rice2020",
+    "doi": "10.1136/bmj.m2081",
+    "metric": "% biomedical RPT guidelines mentioning peer-reviewed publication count / data sharing",
+    "value": "95 / 1",
+    "value_source_sentence": "Thirty two (35%) institutions had at least one mention of a specific number of peer reviewed publications.",
+    "n": 92,
+    "n_definition": "institutional guidelines",
+    "study_system": "international biomedical faculties",
+    "experimental_conditions": "document analysis",
+    "method": "cross-sectional document analysis",
+    "scope_region": "international",
+    "scope_population": "biomedical faculties",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "McKiernan2019",
+    "doi": "10.7554/elife.47338",
+    "metric": "% research-intensive institutions mentioning the JIF in RPT",
+    "value": "40",
+    "value_source_sentence": "The percentage was higher for R-type institutions (40%) than for either M-type (18%) or B-type (0%) institutions (Table 2).",
+    "n": 129,
+    "n_definition": "institutions sampled",
+    "study_system": "US/Canada universities",
+    "experimental_conditions": "RPT document analysis",
+    "method": "document analysis",
+    "scope_region": "US/Canada",
+    "scope_population": "universities",
+    "taxonomic_level": "broad category"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "true",
+   "taxonomic_level_uniform": "true",
+   "n_definition_uniform": "true",
+   "caveats": [
+    "Different metrics (publication-count vs JIF mention) and regions (international vs US/Canada)"
+   ]
+  }
+ },
+ {
+  "comparison_id": "declared-vs-actual-open-data",
+  "comparison_type": "convergent evidence",
+  "papers": [
+   {
+    "cite_key": "Danchev2021",
+    "doi": "10.1001/jamanetworkopen.2020.33972",
+    "metric": "% declared vs % actually publicly available (clinical trials)",
+    "value": "68.6 declared / 0.6 actual",
+    "value_source_sentence": "The commitment to data sharing substantially decreases when we consider indicators of actual vs declared data sharing: of 334 articles declaring that they would share data, only 2 IPD sets (0.6%; 95% CI, 0.0%-1.5%) were actually deidentified and publicly available on the journal website.",
+    "n": 487,
+    "n_definition": "clinical trial articles",
+    "study_system": "JAMA/Lancet/NEJM clinical trials",
+    "experimental_conditions": "ICMJE data-sharing-statement requirement",
+    "method": "cross-sectional audit",
+    "scope_region": "clinical medicine",
+    "scope_population": "clinical trial articles",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Hardwicke2021",
+    "doi": "10.1177/1745691620979806",
+    "metric": "% articles sharing raw data (psychology)",
+    "value": "2",
+    "value_source_sentence": "Over half of the articles were publicly available (154/237, 65%, 95% confidence interval [CI] = [59%, 71%]); however, sharing of research materials (26/183; 14%, 95% CI = [10%, 19%]), study protocols (0/188; 0%, 95% CI = [0%, 1%]), raw data (4/188; 2%, 95% CI = [1%, 4%]), and analysis scripts (1/188; 1%, 95% CI = [0%, 1%]) was rare.",
+    "n": 250,
+    "n_definition": "journal articles",
+    "study_system": "psychology articles 2014-2017",
+    "experimental_conditions": "no mandate (baseline audit)",
+    "method": "manual audit",
+    "scope_region": "psychology",
+    "scope_population": "journal articles",
+    "taxonomic_level": "broad category"
+   },
+   {
+    "cite_key": "Major2025",
+    "doi": "10.2106/JBJS.24.00955",
+    "metric": "% articles with a data-sharing statement (orthopaedics)",
+    "value": "14",
+    "value_source_sentence": "Of the 1,084 reviewed articles, only 14% included a DSS.",
+    "n": 1084,
+    "n_definition": "journal articles",
+    "study_system": "orthopaedic journals",
+    "experimental_conditions": "no uniform mandate",
+    "method": "cross-sectional audit",
+    "scope_region": "orthopaedic surgery",
+    "scope_population": "journal articles",
+    "taxonomic_level": "broad category"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "true",
+   "taxonomic_level_uniform": "true",
+   "n_definition_uniform": "true",
+   "caveats": [
+    "Metrics differ: declared-vs-actual availability vs raw-data-sharing rate vs data-statement presence",
+    "Fields differ (clinical trials vs psychology vs orthopaedics)"
+   ]
+  }
+ },
+ {
+  "comparison_id": "guideline-adherence-before-after",
+  "comparison_type": "timeline",
+  "papers": [
+   {
+    "cite_key": "Gulin2015",
+    "doi": "10.1371/journal.pntd.0004194",
+    "metric": "papers reporting ethics/3Rs compliance statement (before vs after ARRIVE)",
+    "value": "51% -> 66%",
+    "value_source_sentence": "This percentage increased to 66% (p = 0.26) after ARRIVE guidelines were published.",
+    "n": 83,
+    "n_definition": "publications screened",
+    "study_system": "Chagas preclinical drug studies",
+    "experimental_conditions": "before vs after ARRIVE publication",
+    "method": "systematic review vs ARRIVE checklist",
+    "scope_region": "global literature",
+    "scope_population": "anti-T. cruzi animal studies",
+    "taxonomic_level": "single guideline item (ethics statement)"
+   },
+   {
+    "cite_key": "Munro2022",
+    "doi": "10.1016/j.vaa.2021.09.004",
+    "metric": "papers fully reporting randomization (2009 vs 2019)",
+    "value": "13.6% -> 85.7%",
+    "value_source_sentence": "Full reporting of randomization increased over time from 13.6% to 85.7% [95% confidence interval (CI), 57.8-86.6%; p < 0.0001], as did sample size estimation (from 0% to 20%; 95% CI, 7.6-32.4%; p = 0.002).",
+    "n": 115,
+    "n_definition": "papers scored",
+    "study_system": "Veterinary anaesthesia studies",
+    "experimental_conditions": "2009 vs 2019",
+    "method": "operationalized checklist",
+    "scope_region": "single journal",
+    "scope_population": "in vivo veterinary anaesthesia studies",
+    "taxonomic_level": "single item (randomization)"
+   },
+   {
+    "cite_key": "Macleod2019b",
+    "doi": "10.1136/bmjos-2017-000035",
+    "metric": "articles meeting all Landis 4 bias items (before vs after Nature checklist)",
+    "value": "0% -> 16.4%",
+    "value_source_sentence": "The number of NPG articles meeting all relevant Landis 4 criteria increased from 0/203 prior to May 2013 to 31/181 (16.4%) after (two-sample test for equality of proportions without continuity correction, Χ²=36.2, df=1, p=1.8×10).",
+    "n": 448,
+    "n_definition": "in vivo articles",
+    "study_system": "Nature Publishing Group journals",
+    "experimental_conditions": "before vs after May 2013 editorial policy",
+    "method": "74-item checklist",
+    "scope_region": "NPG journals",
+    "scope_population": "in vivo life-sciences articles",
+    "taxonomic_level": "composite (4 bias items)"
+   },
+   {
+    "cite_key": "Lin2024",
+    "doi": "10.21037/cdt-24-413",
+    "metric": "studies with 'poor' reporting quality (Pre-ARRIVE1.0 -> Post-ARRIVE2.0)",
+    "value": "46.05% -> 9.55%",
+    "value_source_sentence": "The rate of studies with \"average\" reporting quality increased sequentially from 53.95% to 73.94% and then to 90.20%, and those with \"poor\" reporting quality decreased sequentially from 46.05% to 26.06% and then to 9.55% across the three periods.",
+    "n": 943,
+    "n_definition": "experiments",
+    "study_system": "ARRIVE-publishing journals",
+    "experimental_conditions": "three periods around ARRIVE 1.0/2.0",
+    "method": "38-subitem ARRIVE scoring",
+    "scope_region": "ARRIVE-publishing journals",
+    "scope_population": "interventional animal experiments",
+    "taxonomic_level": "composite reporting-quality band"
+   },
+   {
+    "cite_key": "Hair2019",
+    "doi": "10.1186/s41073-019-0069-3",
+    "metric": "manuscripts reporting animal husbandry (control vs ARRIVE-checklist intervention)",
+    "value": "52.1% -> 74.1%",
+    "value_source_sentence": "Details of animal husbandry (ARRIVE subitem 9b) was the only subitem to show improvements in reporting, with the proportion of compliant manuscripts rising from 52.1 to 74.1% ( = 34.0, df = 1, = 2.1 × 10) in the control and intervention groups, respectively.",
+    "n": 1689,
+    "n_definition": "manuscripts",
+    "study_system": "PLOS ONE in vivo manuscripts",
+    "experimental_conditions": "checklist-request RCT (control vs intervention)",
+    "method": "108-item ARRIVE assessment",
+    "scope_region": "single mega-journal",
+    "scope_population": "in vivo animal manuscripts",
+    "taxonomic_level": "single subitem (husbandry)"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "false",
+   "taxonomic_level_uniform": "false",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "Metrics differ: single-item reporting (randomization, husbandry, ethics statement) vs composite (Landis 4) vs reporting-quality band.",
+    "'Before/after' contrasts differ: calendar time (2009 vs 2019), pre/post ARRIVE publication, pre/post editorial policy, and RCT control vs intervention.",
+    "Denominators differ (single journal vs multi-journal vs mega-journal).",
+    "Comparison is illustrative of heterogeneity, not a like-for-like effect-size pooling."
+   ]
+  }
+ },
+ {
+  "comparison_id": "data-availability-declared-vs-actual",
+  "comparison_type": "convergent evidence",
+  "papers": [
+   {
+    "cite_key": "Federer2018",
+    "doi": "10.1371/journal.pone.0194768",
+    "metric": "statements indicating data deposited in a repository",
+    "value": "~20%",
+    "value_source_sentence": "However, only about 20% of statements indicate that data are deposited in a repository, which the PLOS policy states is the preferred method.",
+    "n": 47593,
+    "n_definition": "papers with Data Availability Statements",
+    "study_system": "PLOS ONE",
+    "experimental_conditions": "mandatory data-availability policy",
+    "method": "coding of Data Availability Statements",
+    "scope_region": "single mega-journal",
+    "scope_population": "all PLOS ONE papers",
+    "taxonomic_level": "repository-deposit category"
+   },
+   {
+    "cite_key": "Hamilton2023",
+    "doi": "10.1136/bmj-2023-075767",
+    "metric": "prevalence of declared vs actual public data availability",
+    "value": "declared 8% / actual 2%",
+    "value_source_sentence": "Meta-analyses showed a prevalence of declared and actual public data availability of 8% (95% confidence interval 5% to 11%) and 2% (1% to 3%), respectively, between 2016 and 2021.",
+    "n": 105,
+    "n_definition": "meta-research studies (articles examined)",
+    "study_system": "Medical & health research",
+    "experimental_conditions": "2016-2021",
+    "method": "IPD meta-analysis of meta-research",
+    "scope_region": "31 specialties",
+    "scope_population": "medical/health primary articles",
+    "taxonomic_level": "public data availability"
+   },
+   {
+    "cite_key": "Hamilton2022",
+    "doi": "10.1186/s12916-022-02644-2",
+    "metric": "declared vs actual vs FAIR-compliant data availability",
+    "value": "declared 19% / actual 16% / FAIR <1%",
+    "value_source_sentence": "However, when data availability was investigated this percentage dropped to 16% (49/306, 95% CI: 12-20%), and then to less than 1% (1/306, 95% CI: 0-2%) when data were checked for compliance with key FAIR principles.",
+    "n": 306,
+    "n_definition": "oncology articles",
+    "study_system": "Oncology research",
+    "experimental_conditions": "PubMed-indexed 2019",
+    "method": "cross-sectional check of statements + FAIR audit",
+    "scope_region": "oncology literature",
+    "scope_population": "cancer-research articles",
+    "taxonomic_level": "data availability + FAIR compliance"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "false",
+   "taxonomic_level_uniform": "false",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "PLOS ONE metric is repository-deposit share among statements; others are declared/actual public availability across many journals.",
+    "Denominator definitions differ (papers vs meta-research studies vs articles).",
+    "FAIR-compliance sub-metric available only for the oncology study."
+   ]
+  }
+ },
+ {
+  "comparison_id": "data-sharing-trend-institutional-vs-fieldwide",
+  "comparison_type": "cross-study conflict",
+  "papers": [
+   {
+    "cite_key": "Deeb2025",
+    "doi": "10.1371/journal.pone.0328065",
+    "metric": "publications sharing all relevant data (2014 vs 2023)",
+    "value": "7% -> 45%",
+    "value_source_sentence": "The fraction of publications that share all relevant data increased significantly, from 7% in 2014 to 45% in 2023.",
+    "n": 555,
+    "n_definition": "research papers manually scored",
+    "study_system": "University of Edinburgh biosciences",
+    "experimental_conditions": "2014 vs 2023, manual FAIR/openness scoring",
+    "method": "manual openness/FAIR scoring",
+    "scope_region": "single institution",
+    "scope_population": "bioscience research papers",
+    "taxonomic_level": "share-all-relevant-data category"
+   },
+   {
+    "cite_key": "Hamilton2023",
+    "doi": "10.1136/bmj-2023-075767",
+    "metric": "actual public data availability (field-wide)",
+    "value": "2%",
+    "value_source_sentence": "Meta-analyses showed a prevalence of declared and actual public data availability of 8% (95% confidence interval 5% to 11%) and 2% (1% to 3%), respectively, between 2016 and 2021.",
+    "n": 105,
+    "n_definition": "meta-research studies (articles examined)",
+    "study_system": "Medical & health research",
+    "experimental_conditions": "2016-2021",
+    "method": "IPD meta-analysis of meta-research",
+    "scope_region": "31 specialties",
+    "scope_population": "medical/health primary articles",
+    "taxonomic_level": "verified public availability"
+   },
+   {
+    "cite_key": "Hamilton2022",
+    "doi": "10.1186/s12916-022-02644-2",
+    "metric": "actual public data availability (oncology)",
+    "value": "16% (FAIR <1%)",
+    "value_source_sentence": "However, when data availability was investigated this percentage dropped to 16% (49/306, 95% CI: 12-20%), and then to less than 1% (1/306, 95% CI: 0-2%) when data were checked for compliance with key FAIR principles.",
+    "n": 306,
+    "n_definition": "oncology articles",
+    "study_system": "Oncology research",
+    "experimental_conditions": "PubMed-indexed 2019",
+    "method": "cross-sectional check + FAIR audit",
+    "scope_region": "oncology literature",
+    "scope_population": "cancer-research articles",
+    "taxonomic_level": "verified public availability + FAIR"
+   }
+  ],
+  "homogeneity_check": {
+   "scope_region_uniform": "false",
+   "scope_population_uniform": "false",
+   "taxonomic_level_uniform": "false",
+   "n_definition_uniform": "false",
+   "caveats": [
+    "Edinburgh entry is single-institution manual scoring of 'all relevant data shared' (incl. supplementary/genomic); the other two are field-wide verified public availability.",
+    "Time windows differ (2014-2023 vs 2016-2021 vs 2019).",
+    "FAIR-compliance sub-metric available only for the oncology study."
+   ]
+  }
+ }
+]

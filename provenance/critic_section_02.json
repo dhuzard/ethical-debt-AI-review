@@ -1,0 +1,100 @@
+{
+  "section": "section_02",
+  "findings": [
+    {
+      "track": 2,
+      "severity": "MUST_FIX",
+      "location": "Sec 'The disputed cure: standardise or heterogenise?' (para beginning 'A body of simulation and multi-laboratory evidence argues this backfires')",
+      "claim_text": "Using data from 50 real preclinical studies, single-laboratory experiments failed to predict the true effect size in more than half of cases even when powered above 0.8, and — counter to the intuition that bigger is better — larger single-lab samples made effect-size estimates less accurate, whereas distributing animals across laboratories improved them {cite:p}`Voelkl2018`.",
+      "cite_keys_involved": ["Voelkl2018"],
+      "issue": "Incorrect quantitative attribution on a landmark citation. The prose states the analysis used '50 real preclinical studies'. Voelkl et al. 2018 actually used 440 preclinical studies across 13 interventions (stroke, myocardial infarction, breast cancer). The package's own evidence field for this finding says '440 preclinical studies across 13 interventions' and n=440; only the package's paraphrased 'claim' field said 50, and the writer propagated that error. The direction of the claim (single-lab fails >50% of the time despite power >0.8; multi-lab improves accuracy) is correct, but the sample-size base is understated ~9-fold.",
+      "evidence": "Europe PMC core record for DOI 10.1371/journal.pbio.2003693: 'The authors used 440 preclinical studies across 13 different interventions in animal models of stroke, myocardial infarction, and breast cancer... Single-laboratory studies generally failed to predict effect size accurately, and larger sample sizes rendered effect size estimates even less accurate.' Package evidence field also states n=440, '440 preclinical studies across 13 interventions'.",
+      "suggested_fix": "Replace 'Using data from 50 real preclinical studies' with 'Using data from 440 preclinical studies across 13 interventions (stroke, myocardial infarction and breast cancer)'."
+    },
+    {
+      "track": 1,
+      "severity": "SHOULD_CAVEAT",
+      "location": "Sec 'The file drawer: non-publication of whole experiments' (final sentence of the Reproducibility Project: Cancer Biology paragraph)",
+      "claim_text": "Those completion rates — 26% of planned experiments — echo the earlier industry audits of 25% (Bayer) and 11% (Amgen) that first alarmed the field {cite:p}`Errington2021b`.",
+      "cite_keys_involved": ["Errington2021b", "Errington2021a"],
+      "issue": "Metric conflation in a cross-paper 'echo' claim. The 26% is a completion/feasibility rate (26% of 193 planned experiments could be run at all), whereas the Bayer 25% and Amgen 11% figures are replication-SUCCESS rates (proportion of studies whose key findings were confirmed). Presenting the 26% as 'echoing' 25%/11% invites a reader to equate 'fraction attempted' with 'fraction that replicated', which are different quantities. The RP:CB's own replication-success signal (~46% success, replication effect sizes ~85% smaller) is the number actually comparable to Bayer/Amgen. The juxtaposition is inherited from the Errington source, but it remains apples-to-oranges as written.",
+      "evidence": "Errington2021a/b: '50 of the 193 experiments (26%) we planned to repeat' (a completion rate); 'Their success rates (25% for the Bayer report, and 11% for the Amgen report)' (confirmation/replication rates). Errington2021b evidence field also reports ~46% overall replication success and effect sizes 85% smaller than originals.",
+      "suggested_fix": "Clarify the metric, e.g. '...26% of planned experiments could even be completed — a feasibility ceiling that sits alongside the earlier Bayer (25%) and Amgen (11%) replication-success audits...', or separately state RP:CB's own replication-success rate as the figure comparable to Bayer/Amgen."
+    },
+    {
+      "track": 1,
+      "severity": "MINOR",
+      "location": "Opening paragraph (sentence ending '...most new biomedical discoveries will not stand the test of time')",
+      "claim_text": "...and around which a consensus of meta-researchers holds that most new biomedical discoveries will not stand the test of time {cite:p}`Begley2015, vonNiederhausern2018`.",
+      "cite_keys_involved": ["Begley2015", "vonNiederhausern2018"],
+      "issue": "Weak second citation in a synthesis claim. Begley2015 directly supports 'majority of discoveries will not stand the test of time'. vonNiederhausern2018 is the INQUIRE Delphi paper on a quality framework for patient-oriented clinical research; its supported claim is that 'a large proportion of investment in biomedical research is wasted', which is about research waste/quality, not specifically about the durability/replicability of discoveries. It is topically adjacent but does not itself advance the 'discoveries will not stand the test of time' proposition.",
+      "evidence": "vonNiederhausern2018 source sentence: 'Compelling evidence has demonstrated that a large proportion of investment in biomedical research is wasted; this waste is avoidable.' Study system: 'patient-oriented clinical research quality (Delphi framework)'. Begley2015 source: 'there is compelling evidence that the majority of these discoveries will not stand the test of time.'",
+      "suggested_fix": "Either drop vonNiederhausern2018 from this specific claim (it fits better with the earlier 'avoidable waste' sentence) or soften to '{cite:p}`Begley2015` (with the wider waste literature {cite:p}`vonNiederhausern2018`)'."
+    },
+    {
+      "track": 4,
+      "severity": "MINOR",
+      "location": "Sec 'Weak internal validity and chronic underpowering' (omnibus sentence listing stem-cell/exosome therapies)",
+      "claim_text": "...of stem-cell and exosome therapies for wounds, neuropathy and osteoarthritis {cite:p}`Yue2024, Bailey2021, Lu2025, Xing2018, Yamaura2023, Deckers2019, Huang2024`, and even of zebrafish neurobehaviour {cite:p}`Reis2023` all converge on the same reading — large, uniformly positive pooled effects resting on primary studies that failed to report the safeguards...",
+      "cite_keys_involved": ["Yamaura2023", "Deckers2019", "Huang2024", "Reis2023"],
+      "issue": "Type/category mislabel within a large synthesis. Of the seven papers grouped as 'stem-cell and exosome therapies', three are not stem-cell/exosome: Yamaura2023 is losartan / angiotensin-II antagonists, Deckers2019 is ACL reconstruction (surgical), and Huang2024 is acupuncture-related therapy. Additionally, the synthesis attributes 'large, uniformly positive pooled effects' to all cited papers, but Yamaura2023 and Deckers2019 could not perform a full meta-analysis (heterogeneity precluded pooling of most outcomes) and Reis2023 explicitly reported CONFLICTING findings, not uniformly positive ones. These papers still support the second half of the claim (low methodological quality / poor reporting), so the overall point holds, but the descriptor overreaches.",
+      "evidence": "Yamaura2023: 'losartan/angiotensin-II-antagonist cartilage studies... meta-analysis was difficult... qualitative evaluation was conducted'. Deckers2019: 'meta-analysis could only be conducted for gross macroscopic damage'. Huang2024: 'acupuncture knee-osteoarthritis animal RCTs'. Reis2023: 'reported conflicting findings and high heterogeneity'.",
+      "suggested_fix": "Relabel to 'stem-cell, exosome and other regenerative/orthopaedic therapies' or split the surgical/pharmacological studies out, and qualify 'uniformly positive' to exclude the studies (Yamaura2023, Deckers2019, Reis2023) that could not pool or found conflicting results."
+    },
+    {
+      "track": 2,
+      "severity": "MINOR",
+      "location": "Sec 'Weak internal validity and chronic underpowering' ('...gene-therapy, herbal, and stem-cell meta-analyses with median risk-of-bias scores of four to five out of ten')",
+      "claim_text": "...to gene-therapy, herbal, and stem-cell meta-analyses with median risk-of-bias scores of four to five out of ten {cite:p}`Cunningham2022, Lin2021, Lalu2016, Liddle2021`...",
+      "cite_keys_involved": ["Liddle2021", "Lalu2016", "Cunningham2022", "Lin2021"],
+      "issue": "Imprecise quantitative attribution across a grouped citation. Cunningham2022 (median CAMARADES 4/10) and Lin2021 (mean 5.25/10) fit 'four to five out of ten'. But Liddle2021 uses a 0-12 methodological-quality scale (median 5/12, not 5/10) — a different denominator; and the package's Lalu2016 finding reports no median risk-of-bias score at all (it reports 45% randomization, none describing sequence generation). So the '/10' scale label does not apply uniformly to the four grouped papers.",
+      "evidence": "Liddle2021 source: 'median methodological quality score: 5; range: 2-7' on a 0-12 scale. Lalu2016 evidence field gives reporting percentages, no median score. Cunningham2022: 'median score was 4 (IQR 3-5)'. Lin2021: 'average score of 5.25'.",
+      "suggested_fix": "Move Liddle2021 out of the '/10' grouping (its scale is 0-12) or state scales explicitly; drop Lalu2016 from the median-score claim or cite it only for its reporting-rate gaps."
+    },
+    {
+      "track": 2,
+      "severity": "MINOR",
+      "location": "Sec 'Weak internal validity and chronic underpowering' ('...ischaemic-preconditioning and renal-injury syntheses reporting sample-size calculations in 2% of studies')",
+      "claim_text": "...from ischaemic-preconditioning and renal-injury syntheses reporting sample-size calculations in 2% of studies {cite:p}`Wever2015, Jonker2016`...",
+      "cite_keys_involved": ["Wever2015", "Jonker2016"],
+      "issue": "A specific quantitative value ('2%') is attributed to two papers when the package substantiates it for only one. Wever2015 (ischaemic preconditioning) reports sample-size calculation in 2% of publications. Jonker2016 (renal ischaemia-reperfusion) reports only that 'measures to reduce bias were insufficiently reported' with no 2% figure in the package.",
+      "evidence": "Wever2015 source: 'randomization, blinding and a sample size calculation were reported in 49%, 11% and 2% of publications'. Jonker2016 source: 'Measures to reduce bias were insufficiently reported.' (no sample-size percentage).",
+      "suggested_fix": "Attribute the 2% to Wever2015 only, e.g. '...ischaemic-preconditioning syntheses reporting sample-size calculations in 2% of studies {cite:p}`Wever2015` and renal-injury syntheses with insufficiently reported bias controls {cite:p}`Jonker2016`'."
+    },
+    {
+      "track": 1,
+      "severity": "MINOR",
+      "location": "Sec 'Translation: attrition and species discordance' ('Even models that faithfully reproduce a human phenotype need not be fit for drug development')",
+      "claim_text": "Even models that faithfully reproduce a human phenotype need not be fit for drug development {cite:p}`Cannon2023, Aquarius2023`; conversely, some models achieve high external validity yet are still run without any standard protocol {cite:p}`Brown2016, Bansal2017`.",
+      "cite_keys_involved": ["Aquarius2023", "Cannon2023"],
+      "issue": "Interpretive mismatch on the second citation. Cannon2023 (ALS neuroimaging models reproduce human features yet attrition is high) squarely supports 'faithful phenotype but not fit for development'. Aquarius2023, however, is an example of LOW external validity — WEB-device aneurysm testing relied on a single animal model, never reported safety, and showed MORE heterogeneous efficacy than clinical studies. It does not exemplify a model that 'faithfully reproduces a human phenotype'.",
+      "evidence": "Aquarius2023 source: 'Safety outcomes were not evaluated in animal studies... relied on a single animal model (rabbit elastase)... showed more heterogeneous efficacy than clinical studies, limiting external validity.'",
+      "suggested_fix": "Remove Aquarius2023 from the 'faithful phenotype but not fit' clause (Cannon2023 alone supports it), or relocate Aquarius2023 to the discussion of limited/heterogeneous external validity."
+    },
+    {
+      "track": 2,
+      "severity": "MINOR",
+      "location": "Sec 'Selective reporting, questionable practices, and the persistence of error' (last sentence of the cross-domain replication paragraph / Evidence Conflict on the replication crisis)",
+      "claim_text": "...and it has since been reframed by some as a productive \"credibility revolution\" rather than a failure {cite:p}`Korbmacher2023, Amaral2019`.",
+      "cite_keys_involved": ["Amaral2019", "Korbmacher2023"],
+      "issue": "Weak second citation for the 'credibility revolution' reframing. Korbmacher2023 directly supports reframing the crisis as constructive structural change. Amaral2019 is a description of the Brazilian Reproducibility Initiative (a national multicenter replication project); it is part of the constructive response but does not itself advance the 'credibility revolution rather than failure' reframing.",
+      "evidence": "Amaral2019 source: 'The Brazilian Reproducibility Initiative is a systematic, multicenter effort to repeat between 60 and 100 experiments... repeating each experiment in three different laboratories.' No 'credibility revolution' framing. Korbmacher2023: reviews 'structural, procedural and community changes following the replication crisis'.",
+      "suggested_fix": "Attribute the reframing to Korbmacher2023 and cite Amaral2019 separately as an example of the constructive multicenter response it describes."
+    }
+  ],
+  "summary": {
+    "conflicts_in_package": 10,
+    "conflicts_represented_in_text": 10,
+    "conflicts_suppressed": 0,
+    "suppressed_conflicts": [],
+    "papers_in_package": 182,
+    "papers_cited": 182,
+    "papers_should_cite": 0,
+    "papers_waived_out_of_scope": 0,
+    "papers_waived_redundant": 0,
+    "papers_waived_low_quality": 0,
+    "coverage_review": [],
+    "coverage_notes": "papers_in_package counts distinct cite_keys among findings (182). Every one of the 182 finding cite_keys is cited in the prose, so there are no uncited package papers to classify (coverage_review is empty; invariant 182+0+0+0+0 == 182 and len(coverage_review) == 182-182 == 0). Note: Serdar2021 (10.11613/bm.2021.010502) is cited in the prose and present in the citemap and in two package conflicts (as paper_a), but it has NO finding entry, so it is excluded from papers_in_package per the counting rule; its verbatim source sentence is nonetheless present in the conflicts array (paper_a_claim), so it is not an unsupported citation.",
+    "conflict_survival_detail": "All 10 conflicts have BOTH papers cited AND the substantive tension presented: (1) OpenScienceCollaboration2015 vs Gilbert2016 -> Evidence Conflict admonition, presented open (also adds Ingre2018); (2) Voelkl2021 vs Samsa2019 -> standardise/heterogenise admonition, 'dispute is unresolved'; (3) terRiet2012 vs Deutsch2021 -> file-drawer admonition, resolved-by-method with residual gap acknowledged; (4) Voelkl2018 vs Button2013 -> both cited; the counter to naive power-increase is stated within the Voelkl sentence ('larger single-lab samples made effect-size estimates less accurate'); (5) Seok2013 vs Takao2014 -> figure + prose, resolved-by-method (analytic degrees of freedom); (6) OSullivan2021 vs Li2012 -> power/design-dependence sentence; (7) Fu2022 vs Sena2010 -> 'interpretive trap' paragraph; (8) Serdar2021 vs Voelkl2020 -> standardise/heterogenise admonition; (9) Archer2018 vs NasreNasser2022 -> 'two TBI syntheses reached opposite conclusions'; (10) ArroyoAraujo2019 vs Voelkl2020 -> Shank2 harmonisation 'read in opposite ways'. No contested finding is presented as resolved beyond what the package's resolution_status warrants; unreplicated/modeled headline figures (Freedman2015, Ioannidis2005b, Begley2015, the '85%' Ioannidis2014c figure) are explicitly hedged."
+  }
+}

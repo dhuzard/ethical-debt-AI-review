@@ -509,7 +509,13 @@
      "Metrics are not identical: missing-experiment estimate (Sena), opinion of % published (ter Riet), empirical publication rate (Deutsch), drug-cohort pre-trial publication (Federico). Comparable only as bounds on non-publication."
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "SPLIT",
+   "audit_verdict_resolved": "CAVEAT_FORCED_FROM_SPLIT",
+   "mandatory_caption_caveats": [
+    "Sena's 14% is a NON-publication (missing-experiment) rate; ter Riet's 50% is a researcher-opinion estimate; Deutsch's 70% is an empirical proposal-to-publication rate; Federico's 17% is the fraction of drugs with no efficacy study before first trial. Opposite polarities and unlike constructs."
+   ],
+   "suggested_restructure": "Phase 7 writer: harmonize polarity (plot all as publication OR non-publication); separate the opinion-survey (ter Riet) and the per-drug pre-trial-gap metric (Federico) from empirical publication tracking (Sena, Deutsch). Do not plot 14/17/50/70 on one publication-rate axis.",
+   "fabrication_flag_resolution": "cite_key_canonical"
   }
  ]
 }

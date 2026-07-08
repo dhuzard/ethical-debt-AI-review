@@ -1,0 +1,125 @@
+{
+ "section": "08",
+ "findings": [
+  {
+   "track": 1,
+   "severity": "MUST_FIX",
+   "location": "Figure fig-sec8-guideline-timeline caption + prose immediately before it (subsection 'What separates the interventions that work: enforcement, not exhortation')",
+   "claim_text": "the large swings concentrate on the enforced items ... **Enforcement, not endorsement, separates large reporting gains from null ones.** ... Enforced or operationalised contrasts (randomisation reporting 13.6% -> 85.7%, {cite:t}`Munro2022`; composite Landis-4 bias items 0% -> 16.4% after a mandatory Nature-journals policy, {cite:t}`Macleod2019b`) show large swings, while passive endorsement moves little",
+   "cite_keys_involved": ["Munro2022", "Macleod2019b", "Hair2019"],
+   "issue": "Track-1 contrast mismatch supporting the section's central thesis. Munro2022 is presented in the flagship enforcement figure as an 'enforced or operationalised contrast' and is the largest swing offered as evidence that 'large swings concentrate on the enforced items.' But Munro2022 is an UNCONTROLLED, decade-apart secular time trend (veterinary-anaesthesia papers, 2009 vs 2019), and the ARRIVE checklist in it is only the auditors' scoring rubric, not an enforcement/mandate applied to authors. No enforcement intervention is documented in the package for this study. This is exactly the before/after-vs-control-vs-intervention conflation the figure otherwise guards against (it correctly moves Hair2019 to a separate panel 'because it is a randomised control-versus-intervention contrast rather than a time trend'). Resting the thesis sentence 'large swings concentrate on the enforced items' on its single largest swing being an uncontrolled time trend undercuts the claim. Secondary numeric looseness: the swing is ~72pp (13.6->85.7), but the prose calls it 'an 85-percentage-point swing' (that is the endpoint value, not the delta).",
+   "evidence": "Munro2022 finding: 'Comparison of veterinary anaesthesia papers 10 years apart: full reporting of randomization rose from 13.6% to 85.7%' (source: 'Full reporting of randomization increased over time from 13.6% to 85.7%'). figure_data entry for 10.1016/j.vaa.2021.09.004: experimental_conditions='2009 vs 2019', method='operationalized checklist', taxonomic_level='single item (randomization)'. By contrast Macleod2019b (NPQIP) is a genuine before/after policy contrast with a matched non-NPG control arm that did not move. The package's own homogeneity_check caveats state the 'before/after contrasts differ: calendar time (2009 vs 2019) ... and RCT control vs intervention.'",
+   "suggested_fix": "Relabel Munro2022 in the caption as an uncontrolled secular time-trend (not an enforcement contrast) and rest the 'enforcement moves behaviour' claim on the genuinely enforced/controlled contrasts only: Macleod2019b (0->16.4%, matched control unchanged), Kidwell2016, IvimeyCook2025, Han2017. E.g. change to '...the large swings concentrate on the enforced or mandated contrasts (Macleod2019b matched-control policy; Kidwell2016 badges; IvimeyCook2025 mandate), whereas uncontrolled secular trends such as veterinary-anaesthesia randomisation reporting ({cite:t}`Munro2022`, 13.6->85.7% over a decade) cannot be attributed to enforcement.' Also correct 'an 85-percentage-point swing' to '~72-percentage-point swing' or 'reporting rising to 85.7%.'"
+  },
+  {
+   "track": 3,
+   "severity": "SHOULD_CAVEAT",
+   "location": "Subsection 'From governance to repayment: closing the unmeasured link' (final long paragraph) vs subsection 'Endorsement is not adherence'",
+   "claim_text": "Automated rigor scoring shows a slow real improvement - one index rose across two decades and scored replication studies far higher than originals - which is encouraging precisely because it is enforced at scale rather than left to authorial discretion {cite:p}`Menke2022, Eckmann2026`",
+   "cite_keys_involved": ["Menke2022", "Chatzimanouil2018", "Tihanyi2019", "Lin2024"],
+   "issue": "Under-surfaced packaged conflict (resolved-by-method). The package flags Menke2022 (RTI rose 2.29->4.13 across ~2 decades over >2M papers, 'suggesting authors are taking the need for improved reporting seriously') AGAINST Chatzimanouil2018 (kidney preclinical: 'little improvement over the last 20 years'). Both papers are cited, so the conflict is not suppressed - but Menke2022 is deployed in the closing optimistic paragraph as evidence of 'slow real improvement' without any acknowledgement that the section's own 'Endorsement is not adherence' catalogue (Chatzimanouil2018, plus 'persistent, barely-moving deficits' and 'adherence stalls at suboptimal for the better part of two decades') documents the opposite for domain-specific manual audits. The two-decade-improvement claim is contested and should carry the method caveat (whole-literature automated keyword scoring detects a trend that item-level manual audits do not).",
+   "evidence": "Package conflict C3 (10.2196/37324 vs 10.1681/ASN.2018050515), resolution_status 'resolved-by-method': 'A large automated cross-field metric detects a general upward trend, whereas a domain-specific manual audit of kidney preclinical studies finds little improvement over 20 years.'",
+   "suggested_fix": "Add a clause where Menke2022 is used, e.g. '...a slow real improvement on whole-literature automated indices ({cite:p}`Menke2022`), though item-level manual audits in specific fields still find little movement over the same span ({cite:p}`Chatzimanouil2018`) - the divergence tracks measurement method (automated keyword scoring vs deep manual scoring of design items).'"
+  },
+  {
+   "track": 2,
+   "severity": "SHOULD_CAVEAT",
+   "location": "Subsection 'Ethical-review bodies...' (final sentence)",
+   "claim_text": "Even reproducibility depends on governance reaching into husbandry and genetics that committees rarely inspect: published descriptions omitted the mutated allele sequence for 20 of 27 animal models at one institution {cite:p}`Pavlovic2025, DeSio2020`",
+   "cite_keys_involved": ["Pavlovic2025", "DeSio2020"],
+   "issue": "Interpretive mismatch / over-citation. The quantitative claim ('mutated allele sequence omitted for 20 of 27 models') is supported ONLY by Pavlovic2025. DeSio2020 is a historical outlook on cephalopod-research governance (a network of >200 representatives from 20 countries building consensus care/experimentation standards under Directive 2010/63); it contains no genetic-provenance or allele-sequence data and does not support this clause. Attaching it to the 20/27 statistic misrepresents what DeSio2020 shows.",
+   "evidence": "Pavlovic2025 source: 'the sequence of the mutated allele was not provided for 20 of the 27 models.' DeSio2020 finding is about cephalopod-research community building: 'a network of over 200 representatives from 20 countries, about 50% of whom had no previous experience with these species' - no genetics/husbandry-reporting data.",
+   "suggested_fix": "Drop DeSio2020 from this clause (leave {cite:p}`Pavlovic2025` alone for the 20/27 figure), or relocate DeSio2020 to a sentence about consensus care standards / Directive-driven community building where it actually applies."
+  },
+  {
+   "track": 4,
+   "severity": "SHOULD_CAVEAT",
+   "location": "Subsection 'What separates the interventions that work...' and the four-requirements paragraph in 'From governance to repayment'",
+   "claim_text": "Open-practice badges at one journal ... raised reported open data from under 3% to 39% ... a mandatory data-and-code policy checked at review pushed provision to 96.5% of manuscripts {cite:p}`Menke2020, Eckmann2026`  ... First, enforcement over endorsement ... {cite:p}`Macleod2019b, Han2017, Kidwell2016, IvimeyCook2025`",
+   "cite_keys_involved": ["Kidwell2016", "IvimeyCook2025", "Macleod2019b", "Han2017"],
+   "issue": "Field-provenance scope point for a section explicitly about the ANIMAL/preclinical ethical debt. The largest 'enforcement works' magnitudes are drawn from non-animal literatures: Kidwell2016 is Psychological Science (badges, psychology) and IvimeyCook2025 is ecology/evolution journals (96.5% provision). The clearest ANIMAL-specific enforced result, Macleod2019b (NPQIP), tops out at only 16.4% meeting all four bias items. The section transfers the adjacent-field magnitudes into the preclinical-animal repayment argument; a reader could infer animal-research reporting can reach ~96% under enforcement. The section does elsewhere flag clinical/adjacent-field provenance ('lessons transfer directly'), but the enforcement-ceiling gap between adjacent fields (39-96%) and the animal-specific case (16.4%) is not stated.",
+   "evidence": "Kidwell2016 study_system 'Psychological Science'; IvimeyCook2025 study_system 'Ecology and evolution journals'; Macleod2019b study_system 'Life-sciences (incl. in vivo) articles in Nature Publishing Group journals', effect '0% -> 16.4%'. Package figure homogeneity_checks note the corpora are 'clinical/biomedical rather than exclusively preclinical, used as convergent context.'",
+   "suggested_fix": "Add one clause noting the transfer, e.g. 'the largest documented enforcement effects come from psychology and ecology journals ({cite:p}`Kidwell2016, IvimeyCook2025`); the best animal-specific enforced result to date is more modest ({cite:p}`Macleod2019b`, 16.4% full compliance), so the magnitude - not the direction - of the effect may not transfer intact to preclinical animal work.'"
+  },
+  {
+   "track": 2,
+   "severity": "MINOR",
+   "location": "Subsection 'Endorsement is not adherence'",
+   "claim_text": "TRIPOD adherence in prediction-model studies sat at a median of 38.7% to 60% and, tellingly, did not improve after the guideline was published (p=0.770) {cite:p}`AndaurNavarro2022, Miao2022, Zoubi2026`",
+   "cite_keys_involved": ["Zoubi2026", "AndaurNavarro2022", "Miao2022"],
+   "issue": "Range mis-fit. The stated band '38.7% to 60%' is bounded by AndaurNavarro2022 (38.7%) and Miao2022 (60%, p=0.770), but Zoubi2026 - the third cite - reports a MEAN TRIPOD-AI adherence of 69% (range 65-75%), which lies above the stated ceiling. Zoubi supports the general 'incomplete adherence' point but its value contradicts the numeric band it is grouped under.",
+   "evidence": "Zoubi2026 source: 'the reporting adherence to the TRIPOD-AI checklist was moderate with a mean of 69% (range 65-75%).'",
+   "suggested_fix": "Either widen the range ('a median/mean of 38.7% to 69%') or move Zoubi2026 out of the numeric-range clause and cite it separately as convergent evidence of incomplete TRIPOD-AI adherence."
+  },
+  {
+   "track": 2,
+   "severity": "MINOR",
+   "location": "Subsection 'Endorsement is not adherence'",
+   "claim_text": "ARRIVE 2.0 audits of Parkinson's and cardiovascular models found only about two-fifths of items well reported and no study reporting sample-size calculations, adverse events, or humane endpoints {cite:p}`Park2025, Lin2024`",
+   "cite_keys_involved": ["Lin2024", "Park2025"],
+   "issue": "Study-system mischaracterisation. Lin2024 is not a study of 'cardiovascular models'; it is a broad cross-sectional of 943 interventional animal experiments in ARRIVE-publishing journals (the journal is Cardiovascular Diagnosis and Therapy, but the corpus is not cardiovascular disease models). Also, Lin2024 actually documents improvement (studies with 'poor' reporting fell 46.05% -> 9.55%; 15/38 subitems significantly improved), so its inclusion in the 'grim/no-improvement' catalogue is mildly in tension - though the 'two-fifths of items well reported' post-period level cited here is accurate for it.",
+   "evidence": "Lin2024 claim: 'Cross-sectional analysis of 943 interventional animal experiments in ARRIVE-publishing journals ... poor reporting fell 46.05% -> 9.55%.' The 'no study reported sample-size calculations, adverse events, or humane endpoints' detail is specifically Park2025 (Parkinson's stem-cell models).",
+   "suggested_fix": "Describe Lin2024 as 'a cross-sectional ARRIVE 2.0 audit of interventional animal experiments' rather than 'cardiovascular models', and attribute the 'no study reported sample-size/adverse-events/humane-endpoints' clause to Park2025."
+  },
+  {
+   "track": 2,
+   "severity": "MINOR",
+   "location": "Subsection 'From governance to repayment...'",
+   "claim_text": "Reduction is visibly occurring - EU animal use fell 8.2% in a single year in safety pharmacology ... {cite:p}`Derakhchan2026, Ksa2026`",
+   "cite_keys_involved": ["Derakhchan2026"],
+   "issue": "Scope imprecision. The 8.2% figure is a decline in EU animal use overall (2023 vs 2022) reported within a safety-pharmacology 3Rs review, not a safety-pharmacology-specific reduction. The prose reads as if the 8.2% fall is confined to safety pharmacology.",
+   "evidence": "Derakhchan2026 source: 'Animal use is reported in many regions and continues to decline overall (e.g., an 8.2% reduction in the EU in 2023 vs 2022' - the 8.2% is EU-wide animal use, reported in a safety-pharmacology review.",
+   "suggested_fix": "Change to 'EU animal use fell 8.2% in a single year (reported in a safety-pharmacology 3Rs review) {cite:p}`Derakhchan2026`' to avoid confining the figure to safety pharmacology."
+  },
+  {
+   "track": 2,
+   "severity": "MINOR",
+   "location": "Subsection 'What separates the interventions that work...'",
+   "claim_text": "Open-practice badges at one journal - an enforced, visible signal - raised reported open data from under 3% to 39% {cite:p}`Kidwell2016`",
+   "cite_keys_involved": ["Kidwell2016"],
+   "issue": "Mechanism label slightly overstated. Open-practice badges are an opt-in incentive/reward, not a mandate; calling them 'enforced' places them in the same category as mandatory-at-revision checklists (Macleod2019b) and mandatory-at-review data policies (IvimeyCook2025), which are qualitatively stronger levers. The package itself frames badges as 'enforced, incentivised', so this is minor, but 'incentivised' would be more precise than 'enforced.'",
+   "evidence": "Kidwell2016 is an interrupted time-series of one journal voluntarily adopting badges vs comparison journals; badges are earned by authors who opt to share, not required for acceptance.",
+   "suggested_fix": "Change 'an enforced, visible signal' to 'an incentivised, visible signal' (or 'a visible, rewarded signal') to distinguish it from acceptance-conditioning mandates."
+  }
+ ],
+ "summary": {
+  "section": "08",
+  "section_title": "Governance, Standards, and Pathways to Repayment",
+  "cluster_source": "cluster_08",
+  "verdict": "BLOCK (1 MUST_FIX). Conflict handling and coverage are exemplary: all 11 packaged conflicts have both sides cited (100% survival), five are given explicit 'Evidence Conflict' admonitions with correct resolution_status, and all 180 package papers are cited. The single MUST_FIX is a Track-1 contrast mislabel in the flagship enforcement figure (Munro2022, an uncontrolled decade-apart time trend, presented among 'enforced' contrasts and used to support 'large swings concentrate on the enforced items'). Otherwise the quantitative claims trace faithfully to the package's verbatim source sentences.",
+  "must_fix_count": 1,
+  "should_caveat_count": 3,
+  "minor_count": 4,
+  "conflicts_in_package": 11,
+  "conflicts_represented_in_text": 11,
+  "conflicts_suppressed": 0,
+  "conflict_survival_rate": "11/11 = 1.00",
+  "conflict_survival_threshold_met": true,
+  "suppressed_conflicts": [],
+  "conflict_representation_notes": [
+   "C1 Hair2019 vs Macleod2019b (resolved-by-method): explicit admonition 'does a journal checklist improve animal-research reporting?' - correctly localises effect to enforcement mechanism. REPRESENTED.",
+   "C2 Gulin2015 vs Han2017 (resolved-by-method): explicit admonition 'endorsement versus implementation of ARRIVE'. REPRESENTED.",
+   "C3 Menke2022 vs Chatzimanouil2018 (resolved-by-method): both cited but NO admonition; Menke2022 used optimistically in the closing paragraph without surfacing the two-decade-improvement conflict. REPRESENTED (both sides present) but UNDER-SURFACED - see SHOULD_CAVEAT finding.",
+   "C4 IvimeyCook2025 vs MartinRodriguez2026 (resolved-by-method): mandatory 96.5% provision vs voluntary low-single-digit sharing contrast presented in prose. REPRESENTED.",
+   "C5 Deeb2025 vs Hamilton2023 (open): explicit admonition 'is data sharing substantially improving?' with 'Resolution status: open'. REPRESENTED, resolution matches package.",
+   "C6 Bespalov2026 vs Pippin2025 (open): explicit admonition 'can ethics committees safeguard scientific quality?' with 'Resolution status: open'. REPRESENTED.",
+   "C7 Kidwell2016 vs Jin2018 (partially_resolved): both cited; folded into the enforcement>endorsement thesis (badges work vs guidelines stall). REPRESENTED.",
+   "C8 Stevens2014 vs Gulin2015 (open): both cited inside the 'endorsement versus implementation' admonition. REPRESENTED.",
+   "C9 Huang2020 vs Mhamdi2025 (open): 80-90% OA at top universities vs >60% Tunisian paywalled - contrast in prose. REPRESENTED.",
+   "C10 Huang2020 vs Brohmer2025 (open): OA mandate-driven growth vs modest, department-independent preregistration/data-sharing uptake - contrast in prose. REPRESENTED.",
+   "C11 Ito2021 vs Chung2026 (open): explicitly labelled 'contested' (spin tied to nonprofit vs private industry). REPRESENTED."
+  ],
+  "papers_in_package": 180,
+  "papers_cited": 180,
+  "papers_should_cite": 0,
+  "papers_waived_out_of_scope": 0,
+  "papers_waived_redundant": 0,
+  "papers_waived_low_quality": 0,
+  "coverage_invariant_ok": true,
+  "coverage_invariant_check": "papers_cited(180) + should_cite(0) + waived_oos(0) + waived_redundant(0) + waived_lq(0) = 180 == papers_in_package(180); len(coverage_review)=0 == papers_in_package(180) - papers_cited(180) = 0",
+  "coverage_review": [],
+  "coverage_notes": "All 180 unique cite_keys in citemap_section_08.json are referenced in the section via {cite:p}/{cite:t} (verified with the canonical extract_cite_keys helper that decomposes multi-key directives). Zero uncited package papers; zero cite_keys used that are outside the package (no hallucination vector). Note: findings' replication_evidence_dois and figure_data reference a few DOIs NOT in the citemap (e.g. 10.2106/JBJS.24.00955, 10.1111/adb.70027, 10.1002/ame2.70182, 10.1002/14651858.mr000033.pub3, 10.1001/jamaneurol.2013.4684) and the dangling argument_groups key 'Ding2022'; these are supporting/replication references, not package papers, and are correctly not cited.",
+  "track6_note": "Trace-to-primary-data: the section's central causal claim (enforcement moves behaviour where endorsement does not) is grounded in primary empirical studies, not review echo - Macleod2019b (matched-control before/after), Hair2019 (RCT), Han2017 (checklist vs non-checklist), Kidwell2016 (interrupted time series), IvimeyCook2025 (before/after mandate). The distal causal chain (governance -> data reuse -> fewer animals) is explicitly flagged as 'almost entirely unmeasured, and must be built rather than assumed,' and the 25% animal-reduction figure (PetitDemouliere2026) is correctly labelled 'a projection, not a measurement.' No false-consensus/uncited-mechanism failures found.",
+  "red_flags_checklist": "None triggered. Section contains multiple conflicts/caveats (5 explicit admonitions + inline contested labels), discusses replication status, uses cross-study comparison figures with {ref}/{numref} cross-references (no hard-coded figure numbers), and contains no process language. Paragraphs synthesise across many papers rather than cataloguing one-per-paragraph."
+ }
+}

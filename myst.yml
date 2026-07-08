@@ -34,6 +34,14 @@ project:
   toc:
     - file: content/00_frontmatter.md
     - file: content/01_introduction.md
+    - file: content/02_reproducibility_crisis.md
+    - file: content/03_data_welfare_3rs.md
+    - file: content/04_fair_preclinical_data.md
+    - file: content/05_virtual_control_groups.md
+    - file: content/06_nams_data.md
+    - file: content/07_incentives.md
+    - file: content/08_governance_pathways.md
+    - file: content/09_conclusion.md
     - file: content/Methods.md
       title: Methods
     - file: content/evidence_database.md

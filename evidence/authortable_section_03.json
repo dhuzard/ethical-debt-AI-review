@@ -2448,21 +2448,6 @@
   "citet_display": "Grimm et al.",
   "crossref_ok": true
  },
- "ONUMA2026": {
-  "doi": "10.1292/jvms.25-0455",
-  "family": "ONUMA",
-  "given": "Kenta",
-  "all_families": [
-   "ONUMA",
-   "WATANABE",
-   "SASAKI"
-  ],
-  "year": 2026,
-  "title": "Pre–post change in compassion toward laboratory animals after an introductory lecture in first-year veterinary          students",
-  "container": "Journal of Veterinary Medical Science",
-  "citet_display": "ONUMA et al.",
-  "crossref_ok": true
- },
  "Verderio2023": {
   "doi": "10.3390/ani13020277",
   "family": "Verderio",
@@ -3720,6 +3705,21 @@
   "title": "Risk of bias assessment in preclinical literature using natural language processing",
   "container": "Research Synthesis Methods",
   "citet_display": "Wang et al.",
+  "crossref_ok": true
+ },
+ "Onuma2026b": {
+  "doi": "10.1292/jvms.25-0455",
+  "family": "Onuma",
+  "given": "Kenta",
+  "all_families": [
+   "Onuma",
+   "Watanabe",
+   "Sasaki"
+  ],
+  "year": 2026,
+  "title": "Pre–post change in compassion toward laboratory animals after an introductory lecture in first-year veterinary          students",
+  "container": "Journal of Veterinary Medical Science",
+  "citet_display": "Onuma et al.",
   "crossref_ok": true
  }
 }

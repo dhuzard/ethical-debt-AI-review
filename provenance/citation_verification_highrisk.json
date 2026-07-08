@@ -1,0 +1,65 @@
+{
+  "verified_at": "2026-07-08",
+  "keys": [
+    {
+      "cite_key": "Serdar2021",
+      "category": "VERIFIED",
+      "failed_at_step": null,
+      "verification_depth": "fulltext",
+      "supporting_passage": "It should be noted that, animal studies are radically different from human studies because many animal studies use inbred animals having extremely similar genetic background. Thus, far fewer animals are needed in the research because genetic differences that could affect the study results are kept to a minimum.",
+      "details": "Serdar2021 is a sample-size / power / effect-size methods review (Biochemia Medica 2021, title 'Sample size, power and effect size revisited: simplified and practical approaches in pre-clinical, clinical and laboratory studies'; DOI resolves; PMID 33380887, PMC7745163). It appears in section 02 as a CO-CITATION in three compound sentences, each paired with another paper that carries its own source sentence, and is attached specifically to the sample-size / animal-reduction limbs it genuinely supports: (a) 'planning-stage guidance' among the listed reform instruments (co-cited with Lapchak2012) -- the paper's own stated aim is 'to assist researchers planning to perform sample size estimations by suggesting and elucidating available alternative software, guidelines and references'; (b) 'minimising genetic ... variation so that fewer animals are needed to detect an effect' (co-cited with Voelkl2018) -- directly and verbatim supported by the inbred-animals passage quoted above; (c) 'minimising nuisance variation reduces the number of animals required' (co-cited with Samsa2019) -- supported by the same power/variance logic. The full text contains NO mention of SYRCLE, Cochrane, NINDS, preregistration, reproducibility, rigour, transparency, pre-specified analysis plans, or laboratory management (0 hits each); the paper does not independently support the SYRCLE/Cochrane/NINDS/preregistration reform-instrument framing (a) or the reproducibility-follows-from-rigour-plus-transparency thesis (c) -- but it is NOT asserted to: those limbs rest on the co-cited Lapchak2012 and Samsa2019, both of which have source sentences. Not misattributed. The paper does not mention 'environmental variation' (only genetic homogeneity), which is carried by the co-cited Voelkl2018.",
+      "correct_metadata": null,
+      "suggested_action": "No change. Serdar2021 correctly supports the sample-size/power (planning-guidance and fewer-animals-via-reduced-variation) limbs of the three compound sentences it co-cites; the other limbs are carried by co-cited sourced references."
+    },
+    {
+      "cite_key": "Hamilton2022",
+      "category": "VERIFIED",
+      "failed_at_step": null,
+      "verification_depth": "fulltext",
+      "supporting_passage": "One in five studies declared data were publicly available (59/306, 19%, 95% CI: 15-24%). However, when data availability was investigated this percentage dropped to 16% (49/306, 95% CI: 12-20%), and then to less than 1% (1/306, 95% CI: 0-2%) when data were checked for compliance with key FAIR principles.",
+      "details": "All three claims confirmed against full text (BMC Medicine 2022, DOI resolves; PMID 36352426, PMC9646258). (i) '0.3% (1 of 306) met the full FAIR assessment' -- CONFIRMED; the full text states 'only one study (0.3%, 95% CI: 0-2%) was found to comply with the remaining four FAIR assessment criteria' and the abstract gives the denominator explicitly as 1/306. The 0.3% IS out of ALL 306 sampled articles (not out of the 59 declared): abstract reads 'then to less than 1% (1/306...)'. (ii) '19% declaring / 16% actually available / FAIR <1%' -- CONFIRMED verbatim (59/306=19%, 49/306=16%, 1/306<1%). (iii) 'nearly a tenfold increase in odds of sharing (OR ~9)' for mandatory data-sharing policy -- CONFIRMED: 'authors publishing work in journals with mandatory data sharing policies were associated with nearly a tenfold increase in the odds of sharing data than those publishing in journals with no policy (OR: 9.5, 95% CI: 3.26-30.85).'",
+      "correct_metadata": null,
+      "suggested_action": "No change. All figures accurate; the 0.3% = 1/306 denominator is correctly the full sample, not the declared subset."
+    },
+    {
+      "cite_key": "Gabelica2022",
+      "category": "VERIFIED",
+      "failed_at_step": null,
+      "verification_depth": "abstract_only",
+      "supporting_passage": "Among 1792 manuscripts in which the DAS indicated that authors are willing to share their data, 1669 (93%) authors either did not respond or declined to share their data with us. Among 254 (14%) of 1792 authors who responded to our query for data sharing, only 123 (6.8%) provided the requested data.",
+      "details": "Verified against the Europe PMC core abstract (J Clin Epidemiol 2022;150:33-41; DOI valid; no PMCID/PMID in idconv, Elsevier full text not open, so abstract-only depth). (i) '6.8% of authors who promised data provided it on request' -- CONFIRMED; 123/1792 = 6.8%, where 1792 is the count of manuscripts whose DAS stated authors were willing to share, so the denominator matches 'authors who promised.' (ii) 'complied at essentially the same low rate as authors who made no such statement (DAS close to inert)' -- CONFIRMED verbatim in the conclusion: 'Even when authors indicate in their manuscript that they will share data upon request, the compliance rate is the same as for authors who do not provide the DAS, suggesting that the DAS may not be sufficient to ensure data sharing.'",
+      "correct_metadata": null,
+      "suggested_action": "No change. Both the 6.8% value and the DAS-inert conclusion are accurate."
+    },
+    {
+      "cite_key": "Smith2007",
+      "category": "VERIFIED",
+      "failed_at_step": null,
+      "verification_depth": "abstract_only",
+      "supporting_passage": "The result is an expanding family of ontologies designed to be interoperable and logically well formed and to incorporate accurate representations of biological reality.",
+      "details": "Nat Biotechnol 2007, 'The OBO Foundry: coordinated evolution of ontologies to support biomedical data integration' (DOI valid; PMID 17989687, PMC2814061). PMC returned metadata/abstract only (empty full_text body), so depth is abstract_only. The claim -- that ontology developers argue coordinated, logically well-formed ontologies deliver interoperable, accurate representations of biological reality -- is supported almost word-for-word by the abstract, which describes 'coordinated reform' and 'an evolving set of shared principles' producing ontologies 'designed to be interoperable and logically well formed and to incorporate accurate representations of biological reality.' Direction and interpretation match.",
+      "correct_metadata": null,
+      "suggested_action": "No change. Claim faithfully paraphrases the paper's stated goal."
+    },
+    {
+      "cite_key": "Colavizza2024",
+      "category": "MINOR",
+      "failed_at_step": 5,
+      "verification_depth": "fulltext",
+      "supporting_passage": "We also find that sharing data in an online repository is associated with a smaller yet still positive citation advantage of 4.3% (+/-.8) on average. [...] We do not find a significant effect for sharing code.",
+      "details": "PLOS ONE 2024, 'An analysis of the effects of sharing research data, code, and preprints on citations' (DOI valid; PMID 39475849, PMC11524460). The QUALITATIVE claim is correct: open data in a repository yields a small positive citation advantage and code sharing yields none ('the OSI for code sharing did not yield a statistically significant positive citation effect'; 'we do not find a significant effect for sharing code'). The NUMERIC value is slightly understated: the review says '~3%' but the paper reports the data-in-repository advantage as 3.9% in the base model and 4.3% (+/-.8) in the full/consolidated model (the abstract's headline figure is 4.3%). No 3% figure appears anywhere; '~3%' rounds down from a ~4% effect. Direction correct, magnitude off by roughly one percentage point (about a quarter of the effect size). Categorised MINOR (approximated numeric value), not MISATTRIBUTED, because the value is present in the paper and only rounded imprecisely.",
+      "correct_metadata": null,
+      "suggested_action": "Change '~3% citation advantage on average for open data' to '~4%' (or 'about 4%', per the paper's headline 4.3% / base-model 3.9%). The 'none for sharing code' clause is accurate and needs no change."
+    },
+    {
+      "cite_key": "Prosser2024",
+      "category": "VERIFIED",
+      "failed_at_step": null,
+      "verification_depth": "fulltext",
+      "supporting_passage": "Overall, we argue that universal open raw data mandates cannot adequately represent the diversity of qualitative research, and that MIRD [Mandatory Inclusion of Raw Data] may harm rigorous and ethical research practice within health psychology and beyond.",
+      "details": "J Health Psychol 2024, 'Reflection over compliance: Critiquing mandatory data sharing policies for qualitative research' (DOI valid; PMID 38282356, PMC11141091). The claim -- that universal open-raw-data mandates can cause harm where they force qualitative or consent-sensitive material into an inappropriate mould -- is directly supported. The full text argues that 'raw' qualitative data 'often contain sensitive and identifiable information'; that 'To believe that MIRD can be applied consistently across quantitative and qualitative datasets is therefore misguided'; and concludes 'Such policies may harm the ethics and rigour of research and pose a disproportionate risk to qualitative research projects and participants.' Direction and interpretation match precisely.",
+      "correct_metadata": null,
+      "suggested_action": "No change. Claim accurately represents the paper's central argument."
+    }
+  ]
+}

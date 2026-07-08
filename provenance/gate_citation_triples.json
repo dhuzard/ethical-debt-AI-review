@@ -1,0 +1,14 @@
+{
+ "phase": 15,
+ "gate": "pass",
+ "validated_at": "2026-07-08",
+ "validator": "coordinator triples-extraction completeness (comprev-triples-validator)",
+ "total_triples": 1466,
+ "distinct_cite_keys": 995,
+ "triples_with_verbatim_source_sentence": 1463,
+ "triples_without_source_sentence": 3,
+ "extraction_complete": true,
+ "keys_missing_from_extraction": [],
+ "artifact": "provenance/citation_triples.json",
+ "note": "99.8% of triples carry a verbatim claim_source_sentence captured at extraction (auditable evidence chain: prose claim -> cited paper verbatim sentence)."
+}

@@ -1,0 +1,16 @@
+{
+ "phase": 9,
+ "gate": "pass",
+ "validated_at": "2026-07-08",
+ "validator": "coordinator mechanical bibliography validation (deterministic set ops)",
+ "bib_entries": 1337,
+ "distinct_keys": 1337,
+ "duplicate_keys": 0,
+ "total_cited_across_content": 992,
+ "orphaned_keys": [],
+ "case_collisions_in_bib": {},
+ "case_collisions_cited": {},
+ "entries_missing_core_fields": [],
+ "source": "provenance/crossref_metadata.json via scripts/build_bibliography.py",
+ "notes": "references.bib carries all 1337 citation_key_map keys, so every cited key resolves. Co-author given names beyond first author absent from stored metadata (family-only rendering); optional enrichment deferred to deploy polish. Onuma2026 vs ONUMA2026 = two DISTINCT DOIs with case-distinct keys (BibTeX is case-sensitive); both present, no render collision."
+}

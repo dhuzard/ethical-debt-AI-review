@@ -1,0 +1,123 @@
+{
+  "section": "conclusion",
+  "target_file": "content/09_conclusion.md",
+  "critic_role": "Phase 12 blinded bookend critic (independent, did not write section, did not see Phase 11 prompt or Phase 8 findings)",
+  "tracks_run": [
+    "TRACK 1 - novel claim-citation pairs (inherited vs novel; abstract verification of novel pairs)",
+    "TRACK 2 - accuracy of body summaries",
+    "TRACK 3 - scope inflation",
+    "MASTER-CITATION SAFETY NET - conclusion keys subset of master_citation_set"
+  ],
+  "master_citation_safety_net": {
+    "conclusion_unique_keys": 66,
+    "keys_outside_master": [],
+    "all_keys_present_in_at_least_one_body_section": true,
+    "note": "Every one of the 66 unique conclusion keys is in provenance/master_citation_set.json AND appears in at least one body section (02-08). No fabricated or novel-to-conclusion keys. Safety net PASSES."
+  },
+  "findings": [
+    {
+      "track": 1,
+      "severity": "SHOULD_CAVEAT",
+      "location": "Paragraph 7 (open empirical questions), first sentence",
+      "claim_text": "it remains unproven that FAIRification *causally* increases reuse rather than merely raising nominal availability: optimistic reviews and pessimistic retrieval audits disagree, and even the direction of the effect is uncertain because automated FAIRification can inject the very deficiencies it is meant to cure {cite:p}`Inau2023, VanTuyl2016`",
+      "cite_keys_involved": ["Inau2023", "VanTuyl2016"],
+      "issue": "The specific sub-clause 'automated FAIRification can inject the very deficiencies it is meant to cure' is not supported by either cited paper. Inau2023 is an optimistic FAIR scoping review ('FAIR data leads to improved data sharing'); VanTuyl2016 is an NSF data-management-plan audit (76% shared nothing usable). Neither reports automated FAIRification introducing quality defects. In the body (sec-fair-preclinical) this exact claim is carried by Tahar2026 ('automated FAIRification ... introduced 1,977 new completeness issues'), which is in the master set but is NOT cited in the conclusion.",
+      "evidence": "Inau2023 abstract: scoping review concluding FAIR data leads to improved data sharing across domains. VanTuyl2016 abstract: NSF DMP audit finding sharing 'was not carried out in the majority of cases, and when sharing was accomplished, the shared data were often of questionable usability due to access, documentation, and formatting issues.' The automated-FAIRification-injects-deficiencies finding belongs to Tahar2026 (body sec-fair-preclinical), which is uncited here.",
+      "suggested_fix": "Add Tahar2026 to the citation group so the automated-FAIRification clause has a supporting source: `{cite:p}`Inau2023, VanTuyl2016, Tahar2026``. (Tahar2026 is in the master citation set.) Alternatively soften the clause to remove the specific mechanistic claim."
+    },
+    {
+      "track": 1,
+      "severity": "SHOULD_CAVEAT",
+      "location": "Paragraph 4, sentence beginning 'This is why voluntary virtue has failed to move the field for a generation'",
+      "claim_text": "This is why voluntary virtue has failed to move the field for a generation, and why an editorial mandate to declare data availability produced near-universal declarations but under one percent of trials with usable public data {cite:p}`Danchev2021, Fanelli2009`",
+      "cite_keys_involved": ["Fanelli2009", "Danchev2021"],
+      "issue": "Fanelli2009 is mispaired. The specific quantitative claim (editorial data-availability mandate -> near-universal declarations but <1% usable data) is fully and solely supported by Danchev2021. Fanelli2009 is a meta-analysis of misconduct/QRP-prevalence surveys and says nothing about editorial data-availability mandates, declared-vs-actual data availability, or the failure of voluntary reform over a generation.",
+      "evidence": "Fanelli2009 abstract: 'first meta-analysis of these surveys ... A pooled weighted average of 1.97% of scientists admitted to have fabricated, falsified or modified data ... and up to 33.7% admitted other questionable research practices.' No content on data-sharing mandates or availability statements. Danchev2021 (body sec-incentives / sec-governance) is the paper supporting the near-universal-declaration / <1%-usable claim.",
+      "suggested_fix": "Remove Fanelli2009 from this citation group (Danchev2021 alone supports the sentence), or, if Fanelli2009 is intended to support the 'voluntary virtue has failed' clause, relocate it and reword to a claim it actually supports (widespread admitted QRPs)."
+    },
+    {
+      "track": 1,
+      "severity": "SHOULD_CAVEAT",
+      "location": "Paragraph 2 (self-reinforcing loop), sentence on reward structure; and Paragraph 8 (final)",
+      "claim_text": "the field runs experiments it cannot trust and then cannot reuse the animals' data to run better ones {cite:p}`Smaldino2016, Freedman2015, Cait2022` [para 2]; ... letting the data go to waste is a welfare harm in its own right, and repaying the debt saves animals {cite:p}`Pound2018, Kramer2015, Hamilton2023, Cait2022` [para 8]",
+      "cite_keys_involved": ["Cait2022"],
+      "issue": "Cait2022 is attached, in two places, to claims it does not support. Cait2022 is a meta-analysis showing that conventional (barren) laboratory housing increases rodent morbidity and mortality relative to enriched housing (used in the body sec-data-welfare only for 'housing that improves welfare tends to improve data quality'). It does not address reward structures, data reuse, the un-reusability of discarded data, or the 'data waste = welfare harm' thesis. In para 2 the load-bearing claim is carried by Smaldino2016 (selection for bad methods) and Freedman2015 (irreproducibility); in para 8 by Pound2018, Kramer2015, Hamilton2023.",
+      "evidence": "Cait2022 title/abstract: 'Conventional laboratory housing increases morbidity and mortality in research rodents: results of a meta-analysis.' No reference to data reuse, reward incentives, or the welfare-cost-of-wasted-data argument.",
+      "suggested_fix": "Remove Cait2022 from both citation groups (the surrounding co-citations already support each claim), or relocate it to a claim about welfare-improving husbandry improving data quality/reliability, which is what the paper actually shows."
+    },
+    {
+      "track": 2,
+      "severity": "SHOULD_CAVEAT",
+      "location": "Paragraph 1, sentence on data availability",
+      "claim_text": "only about half of animal experiments are ever published, and only around 2% of medical papers actually share their data against the roughly 8% that declare they do {cite:p}`terRiet2012, Deutsch2021, Hamilton2023`",
+      "cite_keys_involved": ["Deutsch2021", "terRiet2012"],
+      "issue": "Deutsch2021 is cited in support of 'only about half of animal experiments are ever published,' but Deutsch2021 is the OPTIMISTIC counter-estimate: it found a publication rate of ~70% (67% rising to 70%), not ~50%. The '~half' figure is terRiet2012's. The body (sec-repro-crisis) explicitly frames terRiet2012 (~50%) vs Deutsch2021 (~70%) as an unresolved Evidence Conflict resolved by method; the conclusion collapses that conflict in para 1 and attaches the higher-estimate paper to the lower figure. (The conclusion does correctly acknowledge the divergence later, in para 6, citing the same pair for method-dependence.)",
+      "evidence": "Deutsch2021 abstract: 'the publication rate increased from 67% in our follow-up study to 70%.' Body sec-repro-crisis Evidence Conflict box: 'Subjective surveys ... estimate ~50% ... whereas empirical tracking ... finds rates closer to 70%.'",
+      "suggested_fix": "Either cite terRiet2012 alone for the 'about half' figure, or reword to reflect the range/conflict, e.g., 'only about half to two-thirds of animal experiments are ever published, depending on whether the estimate is by survey or by protocol tracking {cite:p}`terRiet2012, Deutsch2021`'."
+    },
+    {
+      "track": 1,
+      "severity": "MINOR",
+      "location": "Paragraph 4, 'same inert policy' triad",
+      "claim_text": "a virtual control group that no committee will accept, a FAIR mandate that no one checks, and a NAM dataset that earns its author no credit are all instances of the same inert policy {cite:p}`SATO2024, Hamilton2022, Gant2026`",
+      "cite_keys_involved": ["Gant2026"],
+      "issue": "Gant2026 is mapped to the third example ('a NAM dataset that earns its author no credit'), but Gant2026 does not discuss author credit or evaluation incentives. It is an ECETOC workshop report arguing that FAIR data are a prerequisite for trustworthy AI in chemical risk assessment. It supports 'a NAM dataset [that must be FAIR-stewarded]' but not the 'earns its author no credit' predicate (that incentive framing derives from Rice2020/Fecher2015 in sec-incentives, not cited here).",
+      "evidence": "Gant2026 abstract: 'implementation of Findable, Accessible, Interoperable, and Reusable (FAIR) data principles is not just a best practice but rather a prerequisite for building transparent, reliable, and unbiased AI systems.' No content on researcher credit/incentives.",
+      "suggested_fix": "Either accept Gant2026 as support for the NAM-stewardship half of the clause and drop the credit predicate for this cite, or add an incentive-facing source (e.g., McKiernan2019/Rice2020, both in the conclusion elsewhere) to back 'earns its author no credit'."
+    },
+    {
+      "track": 1,
+      "severity": "MINOR",
+      "location": "Paragraph 1, harm-benefit / analgesia sentence",
+      "claim_text": "a retrospective harm-benefit analysis judged fewer than 7% of preclinical studies ethically permissible on their realised balance of harm and benefit, with analgesia unreported in the overwhelming majority {cite:p}`Pound2018, Bara2014`",
+      "cite_keys_involved": ["Bara2014"],
+      "issue": "The 'analgesia unreported in the overwhelming majority' figure (97% did not report analgesia) is Pound2018's, not Bara2014's. Bara2014 is cited in the body (sec-data-welfare) for sample-size-calculation reporting (~5%) and a composite of welfare outcomes in critical-care studies, not specifically for analgesia. The pairing is corroborative of general welfare under-reporting but Bara2014 does not carry the analgesia-specific claim.",
+      "evidence": "Body sec-data-welfare: Pound2018 = '97% did not report whether analgesia was given at all'; Bara2014 = 'only a small minority of critical-care studies reported a sample-size calculation or met a basic composite of welfare outcomes' and (fig caption) sample-size ~5%.",
+      "suggested_fix": "Attach the analgesia figure to Pound2018 alone, and keep Bara2014 for the broader welfare-under-reporting point, e.g., '... analgesia unreported in the overwhelming majority {cite:p}`Pound2018`, with welfare and design parameters similarly unreported elsewhere {cite:p}`Bara2014`.'"
+    },
+    {
+      "track": 2,
+      "severity": "MINOR",
+      "location": "Paragraph 7, final sentence (unmeasured causal link)",
+      "claim_text": "building the infrastructure to measure it - standardised, FAIR control-animal data whose reuse can be tracked to an animal-count saving - is itself a research priority {cite:p}`PetitDemouliere2026, Wright2023b, Deeb2025`",
+      "cite_keys_involved": ["Deeb2025", "Wright2023b"],
+      "issue": "The load-bearing claim (the governance->reuse->fewer-animals chain is a projection, not a measurement, and building measurement infrastructure is a priority) is carried by PetitDemouliere2026. Deeb2025 is a single-institution audit of general bioscience open-data trends (7%->45%) and does not concern control-animal data or animal-count tracking; its attachment here is tangential. Wright2023b (eTOX VCG concordance / covariate matching) is a closer fit for 'standardised control-animal data' but does not address tracking reuse to an animal-count saving.",
+      "evidence": "Deeb2025 abstract: 'assesses the Openness and FAIR aspects of data-sharing practices within the biosciences at the University of Edinburgh ... fraction of publications that share all relevant data increased ... from 7% in 2014 to 45% in 2023.' No control-animal or animal-count content.",
+      "suggested_fix": "Keep PetitDemouliere2026 (and Wright2023b for standardised control-animal data) as the load-bearing cites; drop Deeb2025 here or relocate it to the para-5 claim about concentrated local stewardship, where it is already used correctly."
+    },
+    {
+      "track": 2,
+      "severity": "MINOR",
+      "location": "Paragraph 1, opening synthesis sentence",
+      "claim_text": "The knowledge itself is compromised - the published animal record is filtered toward positive results, weakly protected against bias, and a poor, analysis-dependent predictor of human outcomes {cite:p}`Sena2010, Freedman2015`",
+      "cite_keys_involved": ["Freedman2015"],
+      "issue": "Sena2010 supports 'filtered toward positive results' (publication bias in stroke), but Freedman2015 is a modelled economic estimate of preclinical irreproducibility cost; it does not itself establish 'weakly protected against bias' or 'a poor, analysis-dependent predictor of human outcomes.' The 'analysis-dependent predictor' claim is precisely Seok2013/Takao2014 (cited two sentences later) and predictive-validity reviews (VanNorman2019 etc., not cited in the conclusion). As an opening body-summary anchor this is acceptable, but the pairing overreaches slightly for Freedman2015's specific content.",
+      "evidence": "Body sec-repro-crisis uses Freedman2015 for the US$28bn / 53.3% modelled irreproducibility estimate, and Seok2013/Takao2014 for the analysis-dependent-predictor point. The conclusion re-cites Seok2013/Takao2014 for that exact claim in the same paragraph.",
+      "suggested_fix": "Acceptable as a high-level synthesis anchor; optionally note that 'analysis-dependent predictor' is evidenced by the Seok2013/Takao2014 pairing that follows, so no fix strictly required. No new citation needed."
+    },
+    {
+      "track": 3,
+      "severity": "MINOR",
+      "location": "Paragraph 8 (final), headline claim",
+      "claim_text": "because animals have already paid for the data with their welfare and, usually, their lives, letting the data go to waste is a welfare harm in its own right, and repaying the debt saves animals {cite:p}`Pound2018, Kramer2015, Hamilton2023, Cait2022`",
+      "cite_keys_involved": ["Kramer2015", "StegerHartmann2020"],
+      "issue": "'Repaying the debt saves animals' is the review's strongest generalization. It is defensible at the mechanism level (VCG/historical-control reuse demonstrably removes a group of animals: Kramer2015, StegerHartmann2020), but the end-to-end causal chain (governance -> reuse -> fewer animals) is explicitly conceded to be unmeasured in para 7. Scope is adequately controlled by the review's own extensive caveats (para 6-7 and 'even if its pace is [in doubt]'), so this is flagged only as a residual generalization to watch, not a genuine inflation.",
+      "evidence": "Para 7 concedes: 'the causal chain from a governance requirement, through actual data reuse, to fewer animals used has essentially never been quantified, so the review's central Reduction claim rests on a projection rather than a measurement.' The mechanism-level Reduction (~25% of control animals) is demonstrated in sec-virtual-controls.",
+      "suggested_fix": "No change required; the surrounding paragraphs already bound the claim to the demonstrated mechanism plus an acknowledged projection. Retained as a MINOR note for downstream integration awareness."
+    }
+  ],
+  "track2_positive_notes": "The Conclusion's summaries of the body sections are overwhelmingly accurate and faithful: the enforcement-vs-endorsement synthesis (Hair2019/Macleod2019b/Kidwell2016/IvimeyCook2025), the ~25% VCG Reduction dividend and its regulatory-acceptance gap (StegerHartmann2020/Gurjanov2024b/DuchateauNguyen2026/SATO2024), the double-edged carcinogenicity reuse (Panzacchi2025/Aguilar2017), the declared-vs-actual 8%/2% figures (Hamilton2023), the six-intervention translation gap (Perel2006), the Alzheimer's attrition (Shineman2011), the Seok2013/Takao2014 analysis-dependent-concordance case, and the self-reinforcing-loop/data-welfare construct all map correctly onto the corresponding body claims. Open questions and limitations (para 6-7) correctly correspond to conflicts/gaps the body actually raises (Fanelli2018 minority position, terRiet2012/Deutsch2021 method-dependence, standardise-vs-heterogenise Voelkl2018/Richter2011, Dudda2025 proxy-measurement gap).",
+  "track3_positive_notes": "Scope inflation is minimal and unusually well-controlled. The Conclusion explicitly self-caveats the two most inflation-prone anchors: it labels the ~2% figure a 'field-wide medical estimate' (para 6) and flags the headline irreproducibility-cost / '85% wasted' numbers as 'order-of-magnitude claims rather than measurements' (para 6). It also concedes the unmeasured governance->reuse->animal-count causal chain (para 7). No unqualified over-generalization from a single study system was found.",
+  "summary": {
+    "total_citation_pairs": 97,
+    "inherited_pairs": 83,
+    "novel_pairs_checked": 14,
+    "must_fix_count": 0,
+    "should_caveat_count": 4,
+    "minor_count": 5,
+    "keys_outside_master": [],
+    "novel_pairs_verified_by_abstract": ["Cait2022", "Fanelli2009", "Inau2023", "VanTuyl2016", "Gant2026", "Deeb2025", "Deutsch2021"],
+    "abstract_retrieval": "Europe PMC REST (resultType=core) succeeded for all queried DOIs; no fallback to evidence claim_source_sentence was required.",
+    "notes": "total_citation_pairs counts individual claim-citation pairings including multiplicity (a 3-key {cite:p} directive = 3 pairings). inherited_pairs are conclusion pairings that faithfully restate a body claim with the same key. novel_pairs_checked are pairings where the conclusion attaches a claim differing from the body's use of that key; all 14 were assessed, 8 flagged (the 9th finding is a Track-3 note on an adequately-caveated generalization)."
+  }
+}

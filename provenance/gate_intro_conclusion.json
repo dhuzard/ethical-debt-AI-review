@@ -1,0 +1,28 @@
+{
+ "phase": 11,
+ "gate": "pass",
+ "validated_at": "2026-07-08",
+ "introduction_artifact_id": "content/01_introduction.md",
+ "conclusion_artifact_id": "content/09_conclusion.md",
+ "abstract_location": "content/00_frontmatter.md (## Abstract)",
+ "frontmatter_artifact_id": "content/00_frontmatter.md",
+ "introduction_words": 2807,
+ "conclusion_words": 2138,
+ "abstract_words": 370,
+ "introduction_cites_per_paragraph": 4.91,
+ "conclusion_cites_per_paragraph": 5.0,
+ "novel_citations": [],
+ "master_citation_count": 995,
+ "unique_paper_count_in_abstract": 1337,
+ "frontmatter_layout": {
+  "title_subtitle": true,
+  "authorship_explorer_after_h1": true,
+  "ai_disclosure_admonition": true,
+  "abstract_heading": true,
+  "keywords_line": true,
+  "placeholders_remaining": false
+ },
+ "forbidden_lexicon_clean": true,
+ "all_crossrefs_resolve": true,
+ "notes": "Single Phase 11 writer. Bookends cite only body master-set keys (0 novel). Synthesis sections carry no original figures (no sec01/sec09 PNGs exist; referencing them would break MyST build) - acceptable for synthesis bookends. authors.yml identity unchanged."
+}

@@ -3265,94 +3265,6 @@
    "paper_b_claim": "Many currently-used criteria and indicators tend to be human-centric and subjective, and we suggest using further objective indicators and animal-centric, 3Rs-based criteria.",
    "nature_of_conflict": "How to assess culture of care: caution against objective auditing/benchmarking that risks becoming a tick-box exercise versus advocacy for more objective, measurable animal-centric 3Rs-based indicators and benchmarking.",
    "resolution_status": "open"
-  },
-  {
-   "paper_a_doi": "10.1186/s41073-019-0069-3",
-   "paper_b_doi": "10.1136/bmjos-2017-000035",
-   "paper_a_claim": "No manuscript in either group achieved full compliance with the ARRIVE checklist.",
-   "paper_b_claim": "There was an improvement in the reporting of risks of bias in in vivo research in NPG journals following a change in editorial policy, to a level that to our knowledge has not been previously observed.",
-   "nature_of_conflict": "Whether journal checklist interventions improve reporting of animal research. IICARus (a randomised trial requesting ARRIVE-checklist completion at submission to PLOS ONE) found no improvement in full ARRIVE compliance, whereas NPQIP found a mandatory Nature checklist at revision raised full 'Landis 4' compliance from 0% to 16.4%. They differ on enforcement (voluntary request vs mandatory), outcome definition (full 108-item ARRIVE vs 4 bias items) and journal.",
-   "resolution_status": "resolved-by-method"
-  },
-  {
-   "paper_a_doi": "10.1371/journal.pntd.0004194",
-   "paper_b_doi": "10.1371/journal.pone.0183591",
-   "paper_a_claim": "Unfortunately, publication of ARRIVE guidelines did not seem to enhance reporting quality, compared to papers appeared before ARRIVE publication.",
-   "paper_b_claim": "We find that reporting of randomization, blinding, and sample-size estimation significantly improved when comparing Nature to Cell from 2013 to 2015, likely due to implementation of a checklist.",
-   "nature_of_conflict": "Whether ARRIVE/checklists improve reporting. The Chagas review found passive publication of ARRIVE did not improve reporting, while the Nature-vs-Cell study attributed significant improvement to an enforced submission checklist. The divergence maps onto passive dissemination versus active journal enforcement.",
-   "resolution_status": "resolved-by-method"
-  },
-  {
-   "paper_a_doi": "10.2196/37324",
-   "paper_b_doi": "10.1681/ASN.2018050515",
-   "paper_a_claim": "Between 1997 and 2020 (where data were readily available in our data set), rigor and transparency measures showed general improvement (RTI 2.29 to 4.13), suggesting that authors are taking the need for improved reporting seriously.",
-   "paper_b_claim": "Reporting quality analysis of preclinical studies revealed substantial reporting deficits across all leading journals, with little improvement over the last 20 years, especially for group size calculations, defining primary versus secondary outcomes, and blinded analysis.",
-   "nature_of_conflict": "Whether reporting quality of biomedical/preclinical research has improved over roughly two decades. A large automated cross-field metric (Rigor and Transparency Index over >2M papers) detects a general upward trend, whereas a domain-specific manual audit of kidney preclinical studies finds little improvement over 20 years. The divergence maps onto measurement scope and method (whole-literature automated keyword-based scoring vs deep manual scoring of specific design items) and on field.",
-   "resolution_status": "resolved-by-method"
-  },
-  {
-   "paper_a_doi": "10.1098/rspb.2025.1394",
-   "paper_b_doi": "10.1371/journal.pmed.1005145",
-   "paper_a_claim": "96.5% of research manuscripts appeared to have provided data- and/or code via link or supplementary material",
-   "paper_b_claim": "A study analyzing 7,750 biomedical research papers published between 2015 and 2020 found that only 9% of all papers pledged to make their data publicly available, and a mere 3% of the total followed through with this commitment.",
-   "nature_of_conflict": "Whether data-availability policies translate into actual data sharing: enforced mandatory data/code-sharing policies with editorial checks achieve near-universal (96.5%) provision, whereas voluntary data-availability-statement regimes yield only 3-7% of authors actually sharing usable data. The disagreement is on policy effectiveness and is explained by enforcement mechanism (mandatory-at-review vs voluntary statement).",
-   "resolution_status": "resolved-by-method"
-  },
-  {
-   "paper_a_doi": "10.1371/journal.pone.0328065",
-   "paper_b_doi": "10.1136/bmj-2023-075767",
-   "paper_a_claim": "The fraction of publications that share all relevant data increased significantly, from 7% in 2014 to 45% in 2023.",
-   "paper_b_claim": "Meta-analyses showed a prevalence of declared and actual public data availability of 8% (95% confidence interval 5% to 11%) and 2% (1% to 3%), respectively, between 2016 and 2021.",
-   "nature_of_conflict": "Whether research data sharing is substantially improving. A single-institution manual audit (University of Edinburgh biosciences) finds a strong rise to 45% of papers sharing all relevant data by 2023, whereas a field-wide IPD meta-analysis of medical/health research finds actual public data availability stuck at ~2%. The divergence maps onto scope (one progressive institution vs whole literature) and metric definition ('all relevant data' incl. supplementary/genomic deposits vs verified reusable public availability).",
-   "resolution_status": "open"
-  },
-  {
-   "paper_a_doi": "10.1016/j.nsa.2025.105527",
-   "paper_b_doi": "10.1186/s41073-025-00169-9",
-   "paper_a_claim": "The organizational premise is that rigorous high-quality research is more likely to produce tangible benefit than poor quality, low rigor research.",
-   "paper_b_claim": "Because of the limitations of the review process, funding institutions and scientific journals should not use Institutional Animal Care and Use Committee approval of submissions as evidence of adherence to ethical guidelines beyond those legally required.",
-   "nature_of_conflict": "Whether ethics-committee/IACUC review can be trusted to safeguard the scientific quality (and hence benefit) of animal research. One proposes a Benefit Assessment Matrix presuming committees can and should assess research rigor/benefit; the other argues US IACUCs structurally lack the expertise and mandate to judge scientific merit, so their approval should not be taken as evidence of ethical adherence. The disagreement is on the feasibility of quality/benefit judgement within existing oversight bodies.",
-   "resolution_status": "open"
-  },
-  {
-   "paper_a_doi": "10.1371/journal.pbio.1002456",
-   "paper_b_doi": "10.2147/jmdh.s155103",
-   "paper_a_claim": "Before badges, less than 3% of Psychological Science articles reported open data.",
-   "paper_b_claim": "We found that 87.9% of the included studies reported suboptimal adherence to reporting guidelines.",
-   "nature_of_conflict": "Efficacy of transparency interventions: an enforced, incentivised journal signal (open-practice badges) produced an order-of-magnitude jump in open-data sharing at one journal, whereas two decades of voluntary reporting-guideline availability left ~88% of the literature with suboptimal adherence - implying guideline existence alone is far weaker than enforced incentives.",
-   "resolution_status": "partially_resolved"
-  },
-  {
-   "paper_a_doi": "10.1136/bmj.g3804",
-   "paper_b_doi": "10.1371/journal.pntd.0004194",
-   "paper_a_claim": "Insufficient evidence exists to determine the relation between journals' endorsement of reporting guidelines and the completeness of reporting of published health research reports.",
-   "paper_b_claim": "Information about ethical statement and 3R's Principles Before ARRIVE guidelines became widely available, approximately 51% of papers on animal models evaluating drugs for Chagas disease included a statement about compliance with local or international guidelines for experimentation with animals.",
-   "nature_of_conflict": "Whether journal endorsement/publication of reporting guidelines improves reporting: a systematic review finds insufficient evidence that endorsement is linked to completeness, while a before/after ARRIVE study finds guideline publication produced no significant improvement (51%->66%, p=0.26) - both undercut the assumption that endorsement drives better reporting but disagree on whether any endorsement-completeness signal exists at all.",
-   "resolution_status": "open"
-  },
-  {
-   "paper_a_doi": "10.7554/elife.57067",
-   "paper_b_doi": "10.21203/rs.3.rs-7904485/v1",
-   "paper_a_claim": "We studied 1,207 institutions from across the world, and found that, in 2017, the top-performing universities published around 80-90% of their research open access.",
-   "paper_b_claim": "Over 60% of Tunisian publications remain behind paywalls, limiting their visibility and impact.",
-   "nature_of_conflict": "Effectiveness/reach of open-access policies is starkly uneven by context: high-income top-performing institutions approach near-universal OA (80-90%), whereas a low-resource national system (Tunisia) remains majority paywalled (>60%), driven by APC/funding barriers.",
-   "resolution_status": "open"
-  },
-  {
-   "paper_a_doi": "10.7554/elife.57067",
-   "paper_b_doi": "10.1098/rsos.250826",
-   "paper_a_claim": "The proportion of research outputs published in open access journals or made available on other freely-accessible platforms has increased over the past two decades, driven largely by funder mandates, institutional policies, grass-roots advocacy, and changing attitudes in the research community.",
-   "paper_b_claim": "Our findings revealed a modest increase of OS over time but no significant difference between departments with more or less-established OS practices.",
-   "nature_of_conflict": "Whether institutional/policy interventions effectively raise open-research uptake: OA publishing shows strong mandate/repository-driven growth, but preregistration/data-sharing open-science practices in PhD theses rose only modestly and were unaffected by departmental OS implementation - so policy effect appears practice-specific.",
-   "resolution_status": "open"
-  },
-  {
-   "paper_a_doi": "10.1001/jamanetworkopen.2021.35765",
-   "paper_b_doi": "10.1186/s40814-026-01846-2",
-   "paper_a_claim": "Multivariable analysis found that novel experimental treatment (OR, 4.64; 95% CI, 0.98-22.02) and funding only from nonprofit sources only (OR, 5.20; 95% CI, 1.21-22.29) were associated with spin.",
-   "paper_b_claim": "Spin was frequent in abstracts (78.9%) and discussions (79.6%), with the highest rates also observed in privately funded (95.7%) and pharmacologic (100%) studies.",
-   "nature_of_conflict": "Opposite direction of the funding-source/spin association: the oncology study links spin to nonprofit funding, whereas the arthroplasty study finds the highest spin rates in privately/industry-funded studies.",
-   "resolution_status": "open"
   }
  ],
  "figure_data": [
@@ -3424,7 +3336,13 @@
      "Different metrics (sample-size calc vs analgesia reporting) and different fields (critical care, radiation countermeasures, six intervention areas); all are reporting-compliance percentages but not the same denominator or the same 3R."
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "SPLIT",
+   "audit_verdict_resolved": "CAVEAT_FORCED_FROM_SPLIT",
+   "mandatory_caption_caveats": [
+    "Bara (5%) and Landes (0%) report studies that DID present a sample-size/power calculation; Pound (97%) reports studies that did NOT report analgesia use (opposite polarity, different item). On a common direction all three are low: 5%, 0%, ~3%."
+   ],
+   "suggested_restructure": "Phase 7 writer: express every entry as '% reporting the item'; separate the sample-size-calculation item (Bara, Landes) from the analgesia item (Pound 3%). Do not plot 5/0/97 on one axis.",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "reduction-magnitude-design-methods",
@@ -3494,7 +3412,14 @@
      "Reductions are relative to different baselines (whole experiment vs control group only) and via different mechanisms; percentages are not directly additive."
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "CAVEAT",
+   "audit_verdict_resolved": "CAVEAT",
+   "mandatory_caption_caveats": [
+    "Reduction baselines differ: Landes (<50%) and Graham (~90%) reduce total animals per experiment; Kramer (>50%) reduces control-group animals only (a smaller absolute saving).",
+    "Mechanisms differ (power calculation / model refinement / historical-control borrowing); values are approximate qualitative ranges, not point estimates."
+   ],
+   "suggested_restructure": "",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "reporting-3rs-arrive-adherence",

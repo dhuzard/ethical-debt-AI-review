@@ -1,0 +1,64 @@
+{
+ "phase": 10,
+ "gate": "pass",
+ "validated_at": "2026-07-08",
+ "passes_completed": [
+  "A_should_caveat_amendments",
+  "6a_transition",
+  "6b_crossref_verified",
+  "6c_terminology",
+  "6d_continuity",
+  "6e_figures_verified",
+  "6f_hygiene_verified"
+ ],
+ "should_caveat_applied": 17,
+ "should_caveat_skipped": 1,
+ "skipped_reason": "item5 = Phase16 note only",
+ "transitions_rewritten": [
+  "02->03",
+  "03->04",
+  "04->05",
+  "05->06",
+  "06->07",
+  "07->08"
+ ],
+ "new_keys_added_from_allowlist": [
+  "TappeTheodor2022",
+  "Reiber2023",
+  "Macleod2019b",
+  "Schmeiss2026",
+  "Kim2026a"
+ ],
+ "orphan_keys": 0,
+ "duplicate_fig_names": 0,
+ "unresolved_numref": 0,
+ "hardcoded_xrefs": 0,
+ "forbidden_lexicon": {
+  "status": "clean",
+  "coordinator_postfix": "'pipeline'->'analysis workflow'/'analytical workflows' (sec04,sec06); integrator already fixed 'verdict'->'clear answer' (sec05) and 'regulatory scaffolding'->'regulatory infrastructure' (sec06)",
+  "allowed_domain_terms_retained": [
+   "'batch-to-batch variability' (sec06, standard organoid/reagent terminology)"
+  ]
+ },
+ "filename_mismatches": [],
+ "structural_issues": [],
+ "sections_changed": [
+  "content/02_reproducibility_crisis.md",
+  "content/03_data_welfare_3rs.md",
+  "content/04_fair_preclinical_data.md",
+  "content/05_virtual_control_groups.md",
+  "content/06_nams_data.md",
+  "content/07_incentives.md",
+  "content/08_governance_pathways.md"
+ ],
+ "word_counts": {
+  "02_reproducibility_crisis": 4473,
+  "03_data_welfare_3rs": 5128,
+  "04_fair_preclinical_data": 4372,
+  "05_virtual_control_groups": 5163,
+  "06_nams_data": 3923,
+  "07_incentives": 3993,
+  "08_governance_pathways": 4452
+ },
+ "notes": "Single full-visibility integrator. 6b/6e/6f mechanically pre-verified by coordinator. Macleod2019b correctly identified as Nature-revision-mandate study (not IICARus null RCT=Hair2019); caveat 4 applied with correct attribution, sec03/sec08 consistent. sec-conclusion {ref} intentionally unresolved until Phase 11."
+}

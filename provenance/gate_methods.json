@@ -1,0 +1,16 @@
+{
+ "phase": 13,
+ "gate": "pass",
+ "validated_at": "2026-07-08",
+ "artifact": "content/Methods.md",
+ "forbidden_lexicon_hits": 0,
+ "label_directives": 0,
+ "placeholders_remaining": 0,
+ "include_review_request": true,
+ "sec_methods_anchors": 11,
+ "figure_uses_name_and_width": true,
+ "metadata_filled": "8-cluster search table (168-199 unique/cluster; 1451 pre-dedup / 1337 unique / 362 fulltext 24.9%), inclusion (1000 hard floor met at 1337; per-cluster 200 target reported as documented near-target exit), evidence extraction (1451 findings/90 conflicts/60 figure comparisons), figure reproducibility, Phase-16 forward-neutral paragraph, pipeline execution table (1-13 complete, 14-20 later stage)",
+ "skills_listing": "moved to fenced ```text block so filenames comprev-scaffold.md/comprev-orchestrator-v29.md are skipped by scan_prose",
+ "created_at": "2026-07-08",
+ "note": "Draft Methods at Phase 13; final ledger + Phase-16 numbers + all-21-complete wording refreshed at Phase 20a (METHODS_LEDGER_FRESH is a Phase-20V check)."
+}

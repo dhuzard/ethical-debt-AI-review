@@ -1,0 +1,1201 @@
+{
+  "section": "04",
+  "section_title": "FAIR Principles and the Preclinical Data Ecosystem",
+  "critic": "blinded independent section critic",
+  "findings": [
+    {
+      "track": 2,
+      "severity": "MUST_FIX",
+      "location": "Section 'The declared-versus-actual gap' (para 3) AND figure caption fig-sec4-actual-vs-declared-availability",
+      "claim_text": "a cross-sectional analysis of oncology articles found that, among datasets declared available, only one - 0.3% - met the remaining FAIR assessment criteria on inspection (Hamilton2022) ... [caption] just 0.3% of datasets declared available met the remaining FAIR criteria ... FAIR-compliant among only those datasets already declared available (Hamilton2022, 0.3%, a stricter conditional bar).",
+      "cite_keys_involved": [
+        "Hamilton2022"
+      ],
+      "issue": "Denominator mismatch (confirmed against the paper's abstract). Hamilton2022 sampled 306 cancer articles; 59/306 (19%) declared data available; the abstract states data met key FAIR principles in 'less than 1% (1/306)'. The 0.3% is therefore 1 of ALL 306 sampled articles, NOT 1 of the 59 declared-available. The prose and the figure caption both attribute 0.3% to the 'declared available' subset and even label it 'a stricter conditional bar' - but 0.3% uses the WIDER (all-sampled) denominator. Computed among the 59 declared-available, the rate would be ~1.7% (1/59), not 0.3%. This is exactly the denominator error the pre-check warned about, and it appears in two places.",
+      "evidence": "Hamilton2022 abstract: 'One in five studies declared data were publicly available (59/306, 19%)' and '...to less than 1% (1/306, 95% CI: 0-2%) when data were checked for compliance with key FAIR principles.' 1/306 = 0.33%; 1/59 = 1.7%.",
+      "suggested_fix": "State the denominator correctly, e.g. 'only 1 of 306 sampled oncology articles (0.3%) met the remaining FAIR criteria on inspection' - and drop the 'among datasets declared available'/'stricter conditional bar' framing (or, if the conditional framing is wanted, write '1 of the 59 declared-available datasets, ~1.7%'). Apply the same fix to the figure caption."
+    },
+    {
+      "track": 3,
+      "severity": "MUST_FIX",
+      "location": "Section 'Interoperability and ontologies' -> clinical common-data-models paragraph",
+      "claim_text": "Mapping to the OMOP common data model repeatedly loses domain content: standard OMOP vocabularies could directly represent only a quarter (19 of 75) of core extracorporeal-life-support concepts (Rieder2026), a scoping review found OMOP vocabularies lack the granularity to capture oncology concepts... (Nada2026)...",
+      "cite_keys_involved": [
+        "Finster2025",
+        "Rieder2026"
+      ],
+      "issue": "Suppressed conflict [16]. The section presents OMOP uniformly as content-losing (Rieder2026, Nada2026, Bataille2026, App2026) but omits the package's counter-side, Finster2025, a criteria-based systematic CDM review finding OMOP/OHDSI the largest observational-data network (2.1B records) and one of the best-scoring CDMs. Presenting only the loss side makes OMOP look broadly inadequate rather than dominant-but-lossy-at-the-margins.",
+      "evidence": "Package conflict [16]: paper_a Finster2025 'found the OMOP/OHDSI network to be the largest observational-data network and FHIR the most widely used interoperability standard'; paper_b Rieder2026 '19 (25%) were directly mappable...'. resolution_status resolved-by-method.",
+      "suggested_fix": "Add one clause acknowledging OMOP's status, citing Finster2025 (e.g. 'Even the dominant, most-comprehensive observational model, OMOP/OHDSI (Finster2025), repeatedly loses domain content:'), so both sides of the conflict are present."
+    },
+    {
+      "track": 3,
+      "severity": "MUST_FIX",
+      "location": "Section 'Shared is not reusable' (MIAME/MIAPE/MIBBI paragraph)",
+      "claim_text": "MIAME for microarrays (Brazma2001) seeded a family of checklists - MIAPE for proteomics (Taylor2007)... these are genuine achievements of community consensus. But common data elements ... have not broadly solved interoperability (Kush2020), and community checklists remain ... human-readable narratives ... (Batista2022).",
+      "cite_keys_involved": [
+        "Vadadokhau2026",
+        "MartinezBartolome2013"
+      ],
+      "issue": "Suppressed conflict [11] (neither side cited). The section discusses MIAPE as a consensus achievement but omits the package's empirical counter-evidence that these proteomics standards fail in practice: Vadadokhau2026, a 2026 reanalysis of six public PRIDE deposits, found missing metadata/proprietary formats produced large reanalysis discrepancies (13,068 vs 4,923 proteins), turning open-access deposits into non-reproducible 'data tombs'. This is primary evidence directly supporting the section's own 'shared is not reusable' thesis. Note: Vadadokhau2026 has a conflict entry but NO finding in the evidence package, so per the hard rule the writer should request a supplementary evidence entry rather than cite from memory.",
+      "evidence": "Package conflict [11]: paper_b Vadadokhau2026 'these shortcomings yielded large discrepancies in the analysis results (e.g., 13,068 vs. 4,923 proteins...)' vs paper_a MartinezBartolome2013 (MIAPE Quant asserts minimum metadata suffices for reproduction). resolution_status open.",
+      "suggested_fix": "Add the empirical counter-side near the MIAPE mention (request a supplementary package finding for Vadadokhau2026), e.g. '...yet a 2026 reanalysis of six PRIDE deposits found missing metadata still produced large discrepancies in re-derived protein counts (Vadadokhau2026), leaving standardized deposits as non-reproducible data tombs.'"
+    },
+    {
+      "track": 3,
+      "severity": "MUST_FIX",
+      "location": "Section 'Interoperability and ontologies: standards without fidelity'",
+      "claim_text": "Interoperability - the FAIR dimension most dependent on shared ontologies and controlled vocabularies - reveals that adopting a standard does not guarantee faithful data. ... Adherence to an interoperability standard, then, is necessary infrastructure but does not by itself yield complete or faithful data.",
+      "cite_keys_involved": [
+        "Stotl2025",
+        "Gilani2025"
+      ],
+      "issue": "Suppressed conflict [7] (neither side cited). The package contains a direct instance of the section's 'standards without fidelity' thesis: Stotl2025 claims ISO/IEC 11179 metadata-registry adoption automatically confers FAIR findability/interoperability/reusability, while Gilani2025 (CMEO, 50+ cardiovascular studies) finds generic registry standards 'lack formal semantic relationships necessary for variable-level alignment across studies.' The conflict maps squarely onto this subsection yet is absent. (Lower-confidence than [16]/[11] because the section never mentions ISO/IEC 11179; the writer may waive with a documented scope reason.)",
+      "evidence": "Package conflict [7]: paper_a Stotl2025 'ISO/IEC 11179 ... automatically serve to make data adhere to FAIR data principles'; paper_b Gilani2025 'ISO/IEC 11179 ... lacks formal semantic relationships necessary for variable-level alignment.' resolution_status open.",
+      "suggested_fix": "Either cite Gilani2025 to reinforce the fidelity-gap claim (and Stotl2025 as the optimistic counter-claim being rebutted), or record a one-line waiver that ISO/IEC 11179 metadata registries are outside the ontology/CDM scope of this subsection."
+    },
+    {
+      "track": 5,
+      "severity": "MUST_FIX",
+      "location": "Section 'Preclinical animal data at the back of the queue' -> ELN paragraph",
+      "claim_text": "Electronic laboratory notebooks are advocated across chemistry, computational drug discovery, and regulated bioanalysis as the route from analogue records to FAIR-aligned capture at source (Solle2020, HerresPawlis2022, Higgins2022).",
+      "cite_keys_involved": [
+        "Schaduangrat2020",
+        "Zeng2011",
+        "Solle2020",
+        "HerresPawlis2022",
+        "Higgins2022"
+      ],
+      "issue": "The sentence explicitly names three ELN domains, but the three attached citations cover chemistry (HerresPawlis2022) and general/academic lab data capture (Solle2020, Higgins2022) - none is the 'computational drug discovery' or 'regulated bioanalysis' paper. Both named domains have dedicated package papers that are uncited: Schaduangrat2020 (ELNs in computational drug discovery/cheminformatics) and Zeng2011 (ELN in a GLP/regulated bioanalytical laboratory).",
+      "evidence": "Schaduangrat2020 finding: 'In computational drug discovery, electronic laboratory notebooks are increasingly replacing paper records...'. Zeng2011 finding: 'A well-designed ELN implemented in a GLP/regulated bioanalytical lab improved efficiency... and regulatory compliance...'.",
+      "suggested_fix": "Attach Schaduangrat2020 to 'computational drug discovery' and Zeng2011 to 'regulated bioanalysis' (e.g. '...chemistry (HerresPawlis2022), computational drug discovery (Schaduangrat2020), and regulated bioanalysis (Zeng2011)...'), or narrow the list of named domains to those the current citations support."
+    },
+    {
+      "track": 2,
+      "severity": "SHOULD_CAVEAT",
+      "location": "Multiple (declared-vs-actual gap; policy paragraph; interoperability; retention; qualitative-harm)",
+      "claim_text": "Cited keys Hamilton2022, Gabelica2022, Smith2007, Colavizza2024, Prosser2024 carry consequential claims (0.3% / OR 9.5; 6.8% / same-rate; ontology interoperability; 4.3% citation advantage; qualitative-mandate harm).",
+      "cite_keys_involved": [
+        "Hamilton2022",
+        "Gabelica2022",
+        "Smith2007",
+        "Colavizza2024",
+        "Prosser2024"
+      ],
+      "issue": "Provenance/verification gap: these five section-cited keys have NO finding in evidence_section_04.json (they exist only in the citemap and, for four of them, in conflict verbatims). Their claims are therefore not backed by a curated verbatim source sentence in the package. Four are recoverable from conflict paper_claim verbatims (Hamilton2022 OR 9.5 = conflict [8]; Gabelica2022 same-rate = conflict [8]; Smith2007 ontology = conflict [9]; Colavizza2024 4.3% = conflict [14]; Prosser2024 harm = conflict [10]); Gabelica2022's 6.8% figure was externally confirmed by this critic (123/1792). Hamilton2022's 0.3% is the erroneous one (see MUST_FIX Track 2).",
+      "evidence": "extract_cite_keys(section) shows these 5 keys cited; none appears as a finding.doi/finding.cite_key in the package. External check: Gabelica2022 abstract 'only 123 (6.8%) provided the requested data' out of 1,792 who promised.",
+      "suggested_fix": "Add curated package findings (with verbatim source sentences) for these 5 papers so the audit trail is complete; at minimum flag them for Phase 16 full-text verification. No prose change required for the four conflict-backed claims."
+    },
+    {
+      "track": 2,
+      "severity": "SHOULD_CAVEAT",
+      "location": "Section 'Shared is not reusable' and figure fig-sec4-fair-reusability",
+      "claim_text": "a dental-research corpus averaged 2.4 out of 10 on Reusability (Uribe2022) ... urban air-quality datasets ... returned Reusable scores of 2 to 3 out of 10, with Interoperability the weakest dimension (Syed2025).",
+      "cite_keys_involved": [
+        "Uribe2022",
+        "Syed2025"
+      ],
+      "issue": "The specific numeric reusability sub-scores (Uribe 2.4/10; Syed 2-3/10) are not present in the package source sentences for these papers. Uribe2022's package verbatim documents only '200 of 7,509 articles stated they had data'; Syed2025's verbatim states 'reduced FAIR Interoperability and Reusability scores... particularly where machine-readable standards were absent' but gives no numeric /10 value and names both Interoperability AND Reusability as reduced (prose singles out Interoperability as weakest). Values are plausible from each paper's own reporting but unverifiable from the package.",
+      "evidence": "Uribe2022 finding source sentence: 'the text-mining algorithms indicated that 200 items were indexed by stating that they had data.' Syed2025 finding: 'These issues align with reduced FAIR Interoperability and Reusability scores... particularly where machine-readable standards were absent.'",
+      "suggested_fix": "Confirm the 2.4/10 and 2-3/10 figures against full text in Phase 16; keep the figure-caption caveats (already noting n=112 / n=4 and different tools)."
+    },
+    {
+      "track": 4,
+      "severity": "SHOULD_CAVEAT",
+      "location": "Section 'Shared is not reusable' (downstream-cost sentence)",
+      "claim_text": "in global-health data reuse, upstream cleaning and curation consume the great majority of analyst time before any analysis begins (Waithira2026).",
+      "cite_keys_involved": [
+        "Waithira2026"
+      ],
+      "issue": "Scope: the package source sentence is a single interviewee's quote ('A geospatial analyst... described spending 80% of their time curating data'). The prose generalizes one anecdote into a field-wide 'great majority of analyst time' claim.",
+      "evidence": "Waithira2026 finding: 'A geospatial analyst working in Laos, Myanmar and Thailand described spending 80% of their time curating data before they could start analysing it.'",
+      "suggested_fix": "Qualify as illustrative, e.g. 'one analyst described spending 80% of their time on curation before analysis (Waithira2026)', rather than stating it as a general rate."
+    },
+    {
+      "track": 3,
+      "severity": "SHOULD_CAVEAT",
+      "location": "Whole section (coverage of package conflicts)",
+      "claim_text": "Package conflict [15]: Schmeiss2026 (altruism dominates data-sharing willingness) vs Kim2026a (personal benefit is the largest driver).",
+      "cite_keys_involved": [
+        "Schmeiss2026",
+        "Kim2026a"
+      ],
+      "issue": "This package conflict is entirely absent from the section (neither side cited). It concerns participants'/donors' MOTIVATIONS to share genomic data (financial vs altruistic), which is a recruitment/consent question rather than the data-stewardship/FAIR-delivery argument the section makes. Flagged for completeness; judged legitimately out of the section's scope rather than a genuine suppression.",
+      "evidence": "Package conflict [15], resolution_status open. Neither Schmeiss2026 nor Kim2026a appears in the section; both are classified WAIVED_OUT_OF_SCOPE in coverage_review.",
+      "suggested_fix": "No action required beyond an explicit scope note; if the coordinator disagrees, a one-line acknowledgment could be added where incentives (Woods2022) are discussed."
+    },
+    {
+      "track": 2,
+      "severity": "MINOR",
+      "location": "Section 'The declared-versus-actual gap' (para 1)",
+      "claim_text": "roughly 8% of medical papers declared their data were publicly available while only about 2% actually shared them, with public code sharing below half a percent (Hamilton2023).",
+      "cite_keys_involved": [
+        "Hamilton2023"
+      ],
+      "issue": "The 'public code sharing below half a percent' clause is not in the package source sentence, which reports only the 8% declared / 2% actual data figures.",
+      "evidence": "Hamilton2023 finding source sentence covers only 'declared and actual public data availability of 8%... and 2%... between 2016 and 2021.'",
+      "suggested_fix": "Verify the code-sharing figure against full text (plausibly reported by the same meta-analysis)."
+    },
+    {
+      "track": 2,
+      "severity": "MINOR",
+      "location": "Section 'Findability and access are unevenly delivered'",
+      "claim_text": "ORCID coverage differs substantially between institutions and data sources, and is not yet sufficient for automated reporting (Schnieders2022, Vrabel2016).",
+      "cite_keys_involved": [
+        "Vrabel2016",
+        "Schnieders2022"
+      ],
+      "issue": "Vrabel2016 supports only the general ORCID-identifier concept (resolving name ambiguity, linking outputs); the specific 'coverage differs / not sufficient for automated reporting' claim is Schnieders2022's. Mild over-attribution in the compound cite.",
+      "evidence": "Vrabel2016 finding: 'ORCID... assigns persistent unique identifiers that automatically link to a researcher's publications...'. Schnieders2022 carries the coverage-insufficiency finding.",
+      "suggested_fix": "Attribute the insufficiency claim to Schnieders2022 alone, or keep Vrabel2016 only for the ORCID-definition clause."
+    },
+    {
+      "track": 2,
+      "severity": "MINOR",
+      "location": "Section 'Findability and access are unevenly delivered'",
+      "claim_text": "matching only about 36% of taxonomic names to publications across three databases (Page2023).",
+      "cite_keys_involved": [
+        "Page2023"
+      ],
+      "issue": "Package effect size is '36% of names for which publication data are available'; the prose slightly widens this to '36% of taxonomic names', implying a share of all names.",
+      "evidence": "Page2023 effect_size source sentence: 'This represents approximately 36% of names for which publication data are available.'",
+      "suggested_fix": "Add 'of names for which publication data exist' to preserve the paper's denominator."
+    },
+    {
+      "track": 1,
+      "severity": "MINOR",
+      "location": "Section 'Is universal retention worth its cost?'",
+      "claim_text": "a 122,000-publication analysis found that depositing data in a repository was associated with only a 4.3% citation advantage on average, and none for sharing code (Colavizza2024).",
+      "cite_keys_involved": [
+        "Colavizza2024"
+      ],
+      "issue": "Only the '4.3%' figure is verbatim in the package (conflict [14]). 'none for sharing code' and the '122,000-publication' sample size are not in the available verbatim (Colavizza2024 has no package finding).",
+      "evidence": "Conflict [14] paper_b Colavizza2024: 'sharing data in an online repository correlates with a smaller yet still positive citation advantage of 4.3% (+/-.8) on average.' (no code/sample-size text).",
+      "suggested_fix": "Verify the code and sample-size claims against full text (Phase 16); consider a package finding for Colavizza2024."
+    },
+    {
+      "track": 2,
+      "severity": "MINOR",
+      "location": "Section 'Is universal retention worth its cost?'",
+      "claim_text": "roughly 85% of community-curated databases have lifespans under fifteen years, with peaks in database loss tracking five-year funding cycles (Dowding2026).",
+      "cite_keys_involved": [
+        "Dowding2026"
+      ],
+      "issue": "The '~85% under 15 years' figure is in the package verbatim; the 'peaks in database loss tracking five-year funding cycles' detail is not in the available source sentence.",
+      "evidence": "Dowding2026 source sentence: 'approximately 85% of all community-curated databases have lifespans of less than 15 years.'",
+      "suggested_fix": "Verify the funding-cycle claim against full text."
+    },
+    {
+      "track": 1,
+      "severity": "MINOR",
+      "location": "Section 'Shared is not reusable' (GEO omics sentence)",
+      "claim_text": "only 11.5% shared all of their important phenotype metadata while 37.9% shared less than 40% ... roughly a quarter of critical metadata omitted on average (Huang2025b).",
+      "cite_keys_involved": [
+        "Huang2025b"
+      ],
+      "issue": "The '11.5% / 37.9%' figures are verbatim in the package only under Huang2021 (the bioRxiv preprint; conflict [12] paper_a), not under Huang2025b, which the section cites. Huang2025b's own verbatim gives '74.8% shared / over a quarter omitted'. Almost certainly the same GEO study (preprint vs Genome Biology version), so benign - but the exact numbers are traced to the preprint key.",
+      "evidence": "Conflict [12] paper_a (Huang2021): 'Only 11.5% of studies completely shared all phenotypes, while 37.9% shared less than 40%.' Huang2025b finding: 'studies often omit over a quarter of crucial metadata, with an average of only 74.8% shared.'",
+      "suggested_fix": "Confirm 11.5%/37.9% are in the published Huang2025b; if only in the preprint, cite accordingly or use the published figures."
+    },
+    {
+      "track": 2,
+      "severity": "MINOR",
+      "location": "Section 'The declared-versus-actual gap' (para 3)",
+      "claim_text": "only 1.5% of 7,509 dental research articles shared data at all (Uribe2022).",
+      "cite_keys_involved": [
+        "Uribe2022"
+      ],
+      "issue": "The package verbatim says 200 of 7,509 dental articles (2.7%) STATED they had data; 1.5% (~112) is the smaller subset that actually shared/was FAIR-assessed (per the figure caption n=112). Stated-vs-shared distinction is blurred.",
+      "evidence": "Uribe2022 finding: '200 items were indexed by stating that they had data' (200/7509 = 2.66%); figure caption uses n=112 for the shared corpus (112/7509 = 1.49%).",
+      "suggested_fix": "Clarify '1.5% actually shared data (vs 2.7% that merely stated data existed)'."
+    },
+    {
+      "track": 1,
+      "severity": "MINOR",
+      "location": "Section 'The governance qualifier: FAIR reuse versus CARE'",
+      "claim_text": "emerging equitable global-health frameworks explicitly reject a default 'open' setting in favour of governed access (Mayor2026, Calac2026).",
+      "cite_keys_involved": [
+        "Calac2026",
+        "Mayor2026"
+      ],
+      "issue": "Mayor2026 directly supports 'reject default open in favour of governed access'. Calac2026 is about using implementation-science frameworks (CFIR/ERIC) to design digital-health tech respecting Indigenous priorities - topically adjacent but does not itself state a rejection of default-open access.",
+      "evidence": "Calac2026 finding: 'an implementation science framework might guide the design of emerging digital health technologies best respecting the interests and priorities of Indigenous Peoples.'",
+      "suggested_fix": "Attribute the 'reject default open' claim to Mayor2026 (and West2026/Carroll2022b); use Calac2026 for the design-respecting-Indigenous-priorities point."
+    }
+  ],
+  "summary": {
+    "conflicts_in_package": 17,
+    "conflicts_represented_in_text": 13,
+    "conflicts_suppressed": 4,
+    "suppressed_conflicts": [
+      {
+        "paper_a": "Stotl2025",
+        "paper_b": "Gilani2025",
+        "topic": "Does ISO/IEC 11179 metadata-registry adoption alone confer FAIR/semantic interoperability? (conflict [7]) - neither side cited; in scope for 'standards without fidelity'",
+        "in_scope": true
+      },
+      {
+        "paper_a": "MartinezBartolome2013",
+        "paper_b": "Vadadokhau2026",
+        "topic": "Do MIAPE/proteomics reporting standards yield reproducible re-analysis, or 'data tombs'? (conflict [11]) - neither side cited; directly supports the section's shared-not-reusable thesis",
+        "in_scope": true
+      },
+      {
+        "paper_a": "Schmeiss2026",
+        "paper_b": "Kim2026a",
+        "topic": "Altruism vs personal benefit as driver of willingness to share genomic data (conflict [15]) - neither side cited; judged OUT OF SCOPE (participant motivation, not data stewardship)",
+        "in_scope": false
+      },
+      {
+        "paper_a": "Finster2025",
+        "paper_b": "Rieder2026",
+        "topic": "OMOP comprehensiveness: dominant/most-complete CDM (Finster2025, omitted) vs loses ECLS content (Rieder2026, cited) (conflict [16]) - one-sided",
+        "in_scope": true
+      }
+    ],
+    "conflict_survival_rate": 0.765,
+    "conflict_survival_threshold_met": true,
+    "papers_in_package": 269,
+    "papers_cited": 84,
+    "papers_should_cite": 5,
+    "papers_waived_out_of_scope": 129,
+    "papers_waived_redundant": 51,
+    "papers_waived_low_quality": 0,
+    "coverage_invariant_ok": true,
+    "coverage_notes": "papers_in_package counts the 269 UNIQUE cite_keys among 279 findings (10 keys have 2 findings each: Wilkinson2016, Schoening2022, Lin2020, Kratz2015, Tahar2026, Finster2025, Yakutovich2026, Ngu2025, Rueda2026, Vasilevsky2025). 5 keys are cited in the section but have NO package finding (Hamilton2022, Gabelica2022, Smith2007, Colavizza2024, Prosser2024) - they are counted in neither papers_cited nor coverage_review because coverage is over package findings only; see SHOULD_CAVEAT provenance finding. Additionally Vadadokhau2026 is a SHOULD_CITE recommendation from conflict [11] but is a conflict-only paper with no finding, so it is not part of the coverage universe; total distinct papers recommended for citation = 6 (5 in coverage_review + Vadadokhau2026).",
+    "must_fix_count": 5,
+    "should_caveat_count": 4,
+    "minor_count": 8,
+    "spot_checks_performed": [
+      "Hamilton2022 (10.1186/s12916-022-02644-2) abstract via Europe PMC: confirmed 306 sampled, 59/306 (19%) declared, 1/306 (<1%) FAIR-compliant -> 0.3% denominator error confirmed.",
+      "Gabelica2022 (10.1016/j.jclinepi.2022.05.019) abstract via Europe PMC: confirmed 123/1792 (6.8%) provided data among those who promised -> section usage correct."
+    ],
+    "coverage_review": [
+      {
+        "cite_key": "Aksenova2024",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Review of 300+ data-stewardship tools; the tooling-landscape point is already carried by AguilarGomez2023/Devaraju2021."
+      },
+      {
+        "cite_key": "AlSabbah2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Proposes an as-yet-unimplemented semantic-FAIR framework for UAE COVID genomic/clinical data; no empirical result bearing on the section's gap argument."
+      },
+      {
+        "cite_key": "Alter2018",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Psychology data-sharing barriers focused on credit/citation of data and code, not the FAIR delivery gap."
+      },
+      {
+        "cite_key": "AlvarezRomero2022",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "FAIRification-workflow feasibility for health data; overlaps FAIRification evidence carried by deGroot2024/Tahar2026."
+      },
+      {
+        "cite_key": "Amadi2024",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Machine-readable population-health metadata framework for Malawi/Kenya IDSR; domain-specific tooling."
+      },
+      {
+        "cite_key": "Ammar2024",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Nanosafety FAIR maturity indicators; nanosafety domain out of scope."
+      },
+      {
+        "cite_key": "Ammari2016",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "HPIDB host-pathogen interaction database exemplar; specific resource out of scope."
+      },
+      {
+        "cite_key": "Arend2020",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "e!DAL plant genomics/phenomics repository exemplar; plant-data infrastructure out of scope."
+      },
+      {
+        "cite_key": "Arend2022",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Plant-phenomics data-steward argument; domain-specific."
+      },
+      {
+        "cite_key": "Atoyebi2026",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "A positive PK data-reuse case (PKRxiv revalidation); reuse-success exemplar already represented by Markiewicz2021."
+      },
+      {
+        "cite_key": "Banzi2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "OSIRIS Delphi reproducibility reporting checklist; reproducibility-item consensus not the section's topic."
+      },
+      {
+        "cite_key": "Barret2025",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Federated rare-disease ETL exposing SNOMED-CT gaps; metadata-mapping-gap point carried by Bataille2026/Nada2026."
+      },
+      {
+        "cite_key": "Bhattacharjee2024",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "INSPIRE pan-African OMOP datahub; regional population-health infra exemplar out of scope."
+      },
+      {
+        "cite_key": "Bishop2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Physical-collection managers' metadata practices; physical collections out of scope."
+      },
+      {
+        "cite_key": "Bonaretti2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "ORMIR musculoskeletal-imaging reproducibility guidelines; MSK imaging guidance out of scope."
+      },
+      {
+        "cite_key": "Brouwer2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "AGENT wheat/barley genebank BrAPI integration; crop genebank domain out of scope."
+      },
+      {
+        "cite_key": "Bunten2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "CytoTable single-cell high-content imaging harmonization; specialized imaging tool out of scope."
+      },
+      {
+        "cite_key": "Burgwinkel2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Clinical-trial data-reuse purposes/reanalysis divergence; clinical-trial reanalysis focus out of scope."
+      },
+      {
+        "cite_key": "Caldoni2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Italian national survey of data stewards; stewardship-workforce mapping not the topic."
+      },
+      {
+        "cite_key": "Cannizzo2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Systematic review of Australian genomic data governance/consent; governance-policy out of scope."
+      },
+      {
+        "cite_key": "Carroll2022a",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "US tribal research-legislation CARE analysis; CARE/Indigenous governance carried by Carroll2022b/Garba2023/Hudson2023."
+      },
+      {
+        "cite_key": "Chae2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "KMAP Korean metabolomics repository exemplar; domain repository out of scope."
+      },
+      {
+        "cite_key": "Chakrabarti2017",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "OMOP-based cohort-identification method; OMOP application exemplar, not the semantic-loss point."
+      },
+      {
+        "cite_key": "Chang2025",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Quantifies semantic degradation across five terminology systems; semantic-loss-on-mapping carried by App2026/Rieder2026/Bataille2026."
+      },
+      {
+        "cite_key": "Chavan2011",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Biodiversity 'data paper' incentive (GBIF/Pensoft); biodiversity publishing incentive out of scope."
+      },
+      {
+        "cite_key": "Chen2021",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Formalizes GO annotation-inconsistency types; GO inconsistency carried by Faria2012."
+      },
+      {
+        "cite_key": "CocaLopez2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Raman-spectroscopy data fragmentation; spectroscopy domain out of scope."
+      },
+      {
+        "cite_key": "Colavizza2020",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "531,889 PLOS/BMC DAS + citation study; declared-vs-actual carried by Hamilton2023 and citation-advantage by same author's Colavizza2024."
+      },
+      {
+        "cite_key": "Conrad2024",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Mathematical research-data sharing systems; mathematics domain out of scope."
+      },
+      {
+        "cite_key": "Cousijn2018",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Publisher data-citation roadmap (JDDCP); data-citation implementation out of scope."
+      },
+      {
+        "cite_key": "DAnna2024",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "ELIXIR RDM community/scattered tools; scattered-tooling carried by AguilarGomez2023/Batista2022."
+      },
+      {
+        "cite_key": "Damerow2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Physical-sample provenance in Earth/environmental science; physical samples out of scope."
+      },
+      {
+        "cite_key": "David2023",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "EOSC-Life research-software sustainability; software sustainability adjacent, out of scope."
+      },
+      {
+        "cite_key": "Davis2011",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Comparative Toxicogenomics Database biocuration; specific DB curation out of scope."
+      },
+      {
+        "cite_key": "Declerck2026",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "OMOP lung-cancer mapping; OMOP mapping-loss carried by Nada2026/Rieder2026."
+      },
+      {
+        "cite_key": "Dempsey2022",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Perspective that shared-data quality/reuse remain low; carried empirically by VanTuyl2016/Hamilton2023."
+      },
+      {
+        "cite_key": "Demsar2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "QuNex neuroimaging workflow provenance; workflow provenance tool out of scope."
+      },
+      {
+        "cite_key": "Deutsch2008",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "MISFISHIE minimum-information standard; MI-standards family represented by Brazma2001/Taylor2008."
+      },
+      {
+        "cite_key": "Deutsch2015",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "HUPO-PSI proteomics standards; proteomics standards represented by Taylor2007."
+      },
+      {
+        "cite_key": "Deutsch2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "ProteomeXchange throughput statistics; repo-activity metrics out of scope."
+      },
+      {
+        "cite_key": "Devkota2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "LLM fine-tuning for GO annotation; annotation-method benchmark out of scope."
+      },
+      {
+        "cite_key": "Diehl2016",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Cell Ontology kidney-subtype expansion; ontology-development detail out of scope."
+      },
+      {
+        "cite_key": "Dixit2014",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "EAV EDC schema tool (CohortExplorer); clinical EDC tooling out of scope."
+      },
+      {
+        "cite_key": "Easmin2026",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Blockchain-certified ELN for neuroimaging; ELN infrastructure carried by Solle2020/Higgins2022/Kirchner2026."
+      },
+      {
+        "cite_key": "Ehlers2022",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Curated fear-conditioning FAIR dataset collection; psychology dataset exemplar out of scope."
+      },
+      {
+        "cite_key": "Ellsaer2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "UAV/drone dataset metadata FAIR audit; drone-data domain out of scope."
+      },
+      {
+        "cite_key": "Ellwood2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "US natural-science-collections national-center consultation; specimen collections out of scope."
+      },
+      {
+        "cite_key": "Essaid2024",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "MENDS-on-FHIR OMOP-to-FHIR surveillance pipeline; specific surveillance use case out of scope."
+      },
+      {
+        "cite_key": "Fadlelmola2021",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Machine-actionable DMPs (H3Africa); DMP evidence carried by Hamidi2025/VanTuyl2016."
+      },
+      {
+        "cite_key": "Fecho2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "ROBOKOP biomedical knowledge-graph system; KG tooling out of scope."
+      },
+      {
+        "cite_key": "Feuchtmayr2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Aquatic-mesocosm FAIR scoring; aquatic ecology domain out of scope."
+      },
+      {
+        "cite_key": "Finster2025",
+        "classification": "SHOULD_CITE",
+        "reason": "Missing pro-side of package conflict [16] with cited Rieder2026: Finster2025 (systematic CDM review) scores OMOP/OHDSI the largest observational network and FHIR most-used; the section presents OMOP uniformly as content-losing (Rieder/Nada/Bataille/App) without noting it is simultaneously the field's dominant, most-comprehensive CDM. Add to the clinical-CDM paragraph to represent both sides."
+      },
+      {
+        "cite_key": "Flotho2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "MCPmed metadata for bioinformatics web servers; service-metadata tool out of scope."
+      },
+      {
+        "cite_key": "Fonseca2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Chart Builder for cryoEM EMDB/EMPIAR; cryoEM archive tooling out of scope."
+      },
+      {
+        "cite_key": "Freeberg2021",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "European Genome-phenome Archive controlled-access repo; managed-access-repository point carried by Heeney2017."
+      },
+      {
+        "cite_key": "Frexia2021",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Theoretical openEHR FAIR-by-design assessment; specification analysis out of scope."
+      },
+      {
+        "cite_key": "Gadiya2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "pyBiodatafuse database-integration tool; integration tooling out of scope."
+      },
+      {
+        "cite_key": "Gaignard2023",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "FAIR-Checker automated assessment tool; FAIR-assessment tooling carried by Devaraju2021/AguilarGomez2023."
+      },
+      {
+        "cite_key": "GeneOntologyConsortium2007",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "GO project description; GO annotation coverage/quality carried by Buza2008/Faria2012/Wood2020."
+      },
+      {
+        "cite_key": "Georgakilas2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "MIFE/MIFD fermentation minimum-information models; industrial-biotech domain out of scope."
+      },
+      {
+        "cite_key": "Gibson2010",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "GelML operationalizing MIAPE gel electrophoresis; MIAPE family represented by Taylor2007."
+      },
+      {
+        "cite_key": "Giglio2018",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Evidence & Conclusion Ontology; provenance-vocabulary detail out of scope."
+      },
+      {
+        "cite_key": "Gilani2025",
+        "classification": "SHOULD_CITE",
+        "reason": "Other side of package conflict [7]: Gilani2025 (CMEO, 50+ cardiovascular studies) finds generic registry standards 'lack formal semantic relationships necessary for variable-level alignment,' directly reinforcing the clinical-CDM semantic-loss paragraph. Currently absent."
+      },
+      {
+        "cite_key": "GlennyPescov2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "BioAssay Ontology PK/PD update; bioassay-ontology development out of scope."
+      },
+      {
+        "cite_key": "Goldfarb2024",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "NCBI RefSeq reference-sequence curation; reference-resource maintenance out of scope."
+      },
+      {
+        "cite_key": "Gregory2018",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Data discovery via repository directories/CoreTrustSeal; repository-trust theme carried by Lin2020/Donaldson2020/Murphy2021."
+      },
+      {
+        "cite_key": "Gupta2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "BioSamples EMBL-EBI sample-metadata hub; sample-metadata resource out of scope."
+      },
+      {
+        "cite_key": "Gustafsson2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "WorkflowHub FAIR workflow registry; computational-workflow registry out of scope."
+      },
+      {
+        "cite_key": "HallingBrown2011",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "canSAR cancer translational-research DB; integrated cancer DB exemplar out of scope."
+      },
+      {
+        "cite_key": "Holub2018",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Proposed FAIR-Health biospecimen extension; biospecimen-stewardship carried by Rush2024."
+      },
+      {
+        "cite_key": "Hung2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Containerizing NCI GDC pipelines; pipeline-reproducibility engineering out of scope."
+      },
+      {
+        "cite_key": "Inau2026",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Generic vs domain-specific FAIRification same FAIRness; FAIRification-effort carried by deGroot2024/Tahar2026."
+      },
+      {
+        "cite_key": "Islam2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "FAIR Digital Twins for biodiversity (RO-Crate); biodiversity digital-twin domain out of scope."
+      },
+      {
+        "cite_key": "Iyer2024",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "BRAIN Initiative archive interoperability/consent interviews; neuroscience-archive governance out of scope."
+      },
+      {
+        "cite_key": "Jacob2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Maggot local metadata-catalog tool; metadata tooling out of scope."
+      },
+      {
+        "cite_key": "Jeliazkova2021",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Nanosafety Data Interface proposal; nanosafety domain out of scope."
+      },
+      {
+        "cite_key": "Kaier2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Search-augmented LLM multi-repository metadata annotation; LLM-automation benchmark out of scope."
+      },
+      {
+        "cite_key": "Kerfant2023",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "FAIR audit of 100 phytolith articles; low-reuse audit represented by Uribe2022/CerdaCosme2022."
+      },
+      {
+        "cite_key": "Kim2026a",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "National survey of willingness to participate in Korea's bio-big-data project (package conflict [15]); participant-recruitment motivation is outside the section's data-stewardship arc."
+      },
+      {
+        "cite_key": "Klann2019",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "i2b2-to-OMOP transformation for All of Us; OMOP transformation exemplar out of scope."
+      },
+      {
+        "cite_key": "Koers2020",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "FAIR data-ecosystem service recommendations (EOSC); EOSC service-provision carried by Bertelli2025."
+      },
+      {
+        "cite_key": "Konkol2025",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Reproducibility does not guarantee reuse (hydrology); reuse-still-needs-effort carried by Waithira2026/Verbitsky2024."
+      },
+      {
+        "cite_key": "Kozula2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Qualitative interviews on reproducibility barriers; reproducibility-culture study out of scope."
+      },
+      {
+        "cite_key": "Kratz2015",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Researcher attitudes to data publication/peer review; data-credit attitudes out of scope."
+      },
+      {
+        "cite_key": "Kuckertz2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "DataDesc/ioProc for energy-systems software+data; energy-systems domain out of scope."
+      },
+      {
+        "cite_key": "Kumuthini2019",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Kidney-disease minimum-information reporting guideline; MI-guideline family represented by Taylor2008/Brazma2001."
+      },
+      {
+        "cite_key": "LalovaSpinks2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Oncology data-reuse priorities among patients/professionals; stakeholder-attitudes study out of scope."
+      },
+      {
+        "cite_key": "LePiane2024",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Nanomaterials multiscale-simulation interoperability; nanomaterials simulation out of scope."
+      },
+      {
+        "cite_key": "LeebensMack2006",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "MIAPA phylogenetics minimum-information standard; MI-standards family represented by Taylor2008/Brazma2001."
+      },
+      {
+        "cite_key": "Leo2024",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Workflow Run RO-Crate provenance; computational-workflow provenance out of scope."
+      },
+      {
+        "cite_key": "Liaw2021",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Review of real-world-data quality frameworks; data-quality-framework synthesis out of scope."
+      },
+      {
+        "cite_key": "Lim2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Single-center EHR completeness assessment; clinical-EHR completeness out of scope."
+      },
+      {
+        "cite_key": "Liu2025a",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "GEO contributor-authorship analysis; data-work credit attribution out of scope."
+      },
+      {
+        "cite_key": "Locati2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "INGV geophysics/volcanology metadata registry; geophysics domain out of scope."
+      },
+      {
+        "cite_key": "Lovering2021",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "GO curation of DNA-binding transcription factors; specific GO curation project out of scope."
+      },
+      {
+        "cite_key": "Lumbard2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Journal mandatory code-sharing policy; single editorial-policy note out of scope."
+      },
+      {
+        "cite_key": "Luong2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Maturity model for federating Trusted Research Environments; TRE governance out of scope."
+      },
+      {
+        "cite_key": "Mannheimer2018",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Qualitative-data-sharing challenges; qualitative-mould-harm point carried by Prosser2024."
+      },
+      {
+        "cite_key": "MarcheseRobinson2016",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Nanomaterial data-curation completeness/quality; nanomaterials domain out of scope."
+      },
+      {
+        "cite_key": "MartinezBartolome2013",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "MIAPE Quant/mzQuantML standard (package conflict [11] standard-side); MIAPE represented by Taylor2007 - its empirical counterpart Vadadokhau2026 is the SHOULD_CITE."
+      },
+      {
+        "cite_key": "MartinezRomero2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "RADx Data Hub COVID platform; specific data-hub exemplar out of scope."
+      },
+      {
+        "cite_key": "Maxwell2023",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "COVID data-sharing-platform siloing review; COVID-sharing carried by CerdaCosme2022."
+      },
+      {
+        "cite_key": "Maxwell2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Measurement review of data-sharing KAP survey instruments; survey-instrument methodology out of scope."
+      },
+      {
+        "cite_key": "McBrideKelly2024",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Australian GP datasets under-capturing Indigenous chronic disease; Indigenous under-representation carried by ClarkAdnyamathanha2024."
+      },
+      {
+        "cite_key": "Meghani2024",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Building a palliative-care qualitative data repository; qualitative-repo establishment out of scope."
+      },
+      {
+        "cite_key": "Meijer2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Computational-reproducibility trace framework; reproducibility-tracing tool out of scope."
+      },
+      {
+        "cite_key": "MichalskaFalkowska2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "LMIC biobanking/genomics scoping review (DIGS); LMIC biobanking governance out of scope."
+      },
+      {
+        "cite_key": "Mirhosseini2026",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "FAIR m-BIDS multimodal-brain-imaging extension; BIDS-standard exemplar represented by Poldrack2024/Markiewicz2021."
+      },
+      {
+        "cite_key": "Mohammadi2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Systematic review of EHR phenotype libraries; phenotype-library landscape out of scope."
+      },
+      {
+        "cite_key": "Monickaraj2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Vaxjo 2.0 vaccine-adjuvant knowledge base; specific KB out of scope."
+      },
+      {
+        "cite_key": "Moxon2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "LinkML ontology-aware data-modeling framework; modeling-framework tool out of scope."
+      },
+      {
+        "cite_key": "Mugahid2025",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Multi-omics silo problem and FAIR approach; data-silo motivation carried by Vesteghem2019/Huang2025b."
+      },
+      {
+        "cite_key": "Murphy2025b",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Photon/neutron facilities 1 PB/day FAIR cost; large-facility-physics domain out of scope."
+      },
+      {
+        "cite_key": "Naliyatthaliyazchayil2026",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "LOINC lab-mapping gaps/remediation; interoperability-standard-loss carried by App2026."
+      },
+      {
+        "cite_key": "Navale2018",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "OAIS long-term-preservation model; preservation-architecture proposal out of scope."
+      },
+      {
+        "cite_key": "Nestola2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "FAIR adoption across Italian environmental research infrastructures; environmental-RI domain out of scope."
+      },
+      {
+        "cite_key": "Niehues2024",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Multi-omics workflow as FAIR Digital Object; FAIR-software/workflow adjacent, out of scope."
+      },
+      {
+        "cite_key": "Nust2021",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "CODECHECK reproductions during peer review; code-checking-at-review initiative out of scope."
+      },
+      {
+        "cite_key": "Obinwanne2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "FAIRification of EU clinical-trial registry metadata; registry-FAIRification pipeline out of scope."
+      },
+      {
+        "cite_key": "Oikawa2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Japanese biobank governance interviews; biobank-governance ethics out of scope."
+      },
+      {
+        "cite_key": "Orchard2011",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "MIABE bioactive-entity reporting guideline; MI-guideline family represented by Taylor2008."
+      },
+      {
+        "cite_key": "Oushy2015",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Biospecimen/data-sharing barriers survey; biospecimen-duplication point carried by Rush2024."
+      },
+      {
+        "cite_key": "Pan2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Ontology of Adverse Events growth; adverse-event ontology expansion out of scope."
+      },
+      {
+        "cite_key": "Papadatos2015",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "ChEMBL bioactivity-database curation; chemical-DB curation out of scope."
+      },
+      {
+        "cite_key": "Park2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Traditional Korean Medicine EHR-to-OMOP ETL; OMOP ETL exemplar out of scope."
+      },
+      {
+        "cite_key": "PerezRiverol2024",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "PRIDE submission throughput; repo-activity metrics out of scope."
+      },
+      {
+        "cite_key": "Petit2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "'Datagraphy' dataset-discovery methodology; discovery-methodology proposal out of scope."
+      },
+      {
+        "cite_key": "Platt2022",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "TRUST-adherence survey of computable-knowledge repositories; TRUST/repository-trust carried by Lin2020/Murphy2021."
+      },
+      {
+        "cite_key": "Pollard2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "TRIPOD-Code reporting guideline for prediction-model code; code-reporting-guideline development out of scope."
+      },
+      {
+        "cite_key": "Quaglia2021",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "DisProt 9 / MIADE disorder-annotation standard; specific DB+standard out of scope."
+      },
+      {
+        "cite_key": "QueraltRosinach2022",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Hospital COVID FAIRification process; FAIRification-process evidence carried by Tahar2026."
+      },
+      {
+        "cite_key": "Ramsey2021",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "CACAO crowdsourced undergraduate GO biocuration; crowdsourced-curation program out of scope."
+      },
+      {
+        "cite_key": "Resendez2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Scoping review of genomic-data-platform interface requirements; platform-requirements synthesis out of scope."
+      },
+      {
+        "cite_key": "Robinson2021",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "CARE applied to Australian Indigenous ranger data; CARE-in-practice carried by Carroll2022b/Garba2023."
+      },
+      {
+        "cite_key": "Rowe2021",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "SEEDS principles for Indigenous population-health linkage; Indigenous data-governance carried by Hudson2023/West2026."
+      },
+      {
+        "cite_key": "Rueda2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "ClarID compact metadata identifiers; identifier-encoding tool out of scope."
+      },
+      {
+        "cite_key": "Sadeh2023",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "FAIR proposed for global mental-health research; domain FAIR-advocacy piece out of scope."
+      },
+      {
+        "cite_key": "SanchezGarcia2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "EHDS data-quality-practice landscape (66 DQ tools); DQ-tooling landscape out of scope."
+      },
+      {
+        "cite_key": "Schaduangrat2020",
+        "classification": "SHOULD_CITE",
+        "reason": "The ELN sentence explicitly names 'computational drug discovery' as a domain where ELNs are advocated (cited: Solle2020, HerresPawlis2022, Higgins2022 - none is the drug-discovery paper). Schaduangrat2020 is the package's computational-drug-discovery ELN paper and directly supports the named domain."
+      },
+      {
+        "cite_key": "Schoening2022",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "iFDO marine underwater image FAIR objects; marine-imaging domain out of scope."
+      },
+      {
+        "cite_key": "Schwanitz2022",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "FAIR assessment of low-carbon energy databases; energy-database domain out of scope."
+      },
+      {
+        "cite_key": "Shah2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "ClinGen API-based variant microservices; clinical-genomics API infrastructure out of scope."
+      },
+      {
+        "cite_key": "Sharma2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "openEHR/FHIR pharmacogenetics data model; pharmacogenetics data-model out of scope."
+      },
+      {
+        "cite_key": "SharmaOates2005",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "TmaDB tissue-microarray repository; specific DB exemplar out of scope."
+      },
+      {
+        "cite_key": "Shin2019",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Genomic CDM extending OMOP exposing panel-vs-WES heterogeneity; OMOP-extension/heterogeneity carried by Rieder2026."
+      },
+      {
+        "cite_key": "Shrestha2010",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Crop Ontology trait annotation; crop-ontology domain out of scope."
+      },
+      {
+        "cite_key": "Sinaci2020",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "GO FAIR seven-step FAIRification process; FAIRification-process carried by Tahar2026/deGroot2024."
+      },
+      {
+        "cite_key": "Sinaci2023",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "FHIR data-curation tool raising FAIR compliance; FAIRification-tool carried by Tahar2026."
+      },
+      {
+        "cite_key": "Stall2023",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Publisher guidance for software/data citation; citation-implementation guidance out of scope."
+      },
+      {
+        "cite_key": "Steinbeck2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Cheminformatics open-science evolution (NFDI4Chem); cheminformatics domain out of scope."
+      },
+      {
+        "cite_key": "Stingone2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "HHEAR environmental-exposure repository; environmental-epidemiology repo out of scope."
+      },
+      {
+        "cite_key": "Stotl2025",
+        "classification": "SHOULD_CITE",
+        "reason": "One side of package conflict [7] (both sides omitted): Stotl2025 asserts ISO/IEC 11179 metadata-registry adoption 'automatically' confers FAIR findability/interoperability/reusability - the optimistic 'standard = fidelity' claim the section's 'standards without fidelity' argument rebuts. Waivable if writer documents ISO/IEC 11179 as out of the ontology/CDM scope."
+      },
+      {
+        "cite_key": "Subash2023",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Intracranial-neuro repositories relying on BIDS/NWB; enforced-standard-repository point carried by Markiewicz2021/Poldrack2024."
+      },
+      {
+        "cite_key": "Sundaram2026",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "GPT-4 + CEDAR templates raising metadata recall; CEDAR-template evidence carried by Musen2022."
+      },
+      {
+        "cite_key": "Taddese2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Scoping review of AI-era genomics/microscopy stewardship; AI-data-stewardship review out of scope."
+      },
+      {
+        "cite_key": "Tamana2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Hemoglobinopathy-center FAIR-compliance survey; disease-network survey out of scope."
+      },
+      {
+        "cite_key": "Tangaro2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "European human-genomic infrastructure regulatory alignment; genomic-infra federation out of scope."
+      },
+      {
+        "cite_key": "Taylor2006",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "MIAPE primer; MIAPE represented by Taylor2007."
+      },
+      {
+        "cite_key": "TeixeiradaSilva2025",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "SEM descriptor-mismatch/metadata-incompleteness audit; metadata-incompleteness carried by Huang2025b."
+      },
+      {
+        "cite_key": "TerVoert2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "SPHN RDF schema for imaging metadata; imaging-metadata-schema tool out of scope."
+      },
+      {
+        "cite_key": "Tilki2020",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "DSpace clinical-trial IPD repository demonstrator; repo-demonstrator out of scope."
+      },
+      {
+        "cite_key": "Toure2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "SPHN Connector federated RDF knowledge graphs; national health-RDF infrastructure out of scope."
+      },
+      {
+        "cite_key": "Tsave2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "INCISIVE cancer-imaging federated validation framework; cancer-imaging repo out of scope."
+      },
+      {
+        "cite_key": "Tsueng2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "NIAID unified dataset-discovery portal; discovery-portal exemplar out of scope."
+      },
+      {
+        "cite_key": "VanDenBossche2026",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "Proteomics dataset-metadata provision limited (SDRF); metadata-incompleteness carried by Huang2025b, proteomics reusability by SHOULD_CITE Vadadokhau2026."
+      },
+      {
+        "cite_key": "Vasilevsky2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Mondo disease-ontology harmonization; disease-ontology integration out of scope."
+      },
+      {
+        "cite_key": "Vempati2014",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "LINCS metadata specifications; MI/metadata-checklist family represented by Taylor2008/Musen2022."
+      },
+      {
+        "cite_key": "Vitorino2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "MS-proteomics FAIR+proteoform+AI perspective; proteomics perspective out of scope."
+      },
+      {
+        "cite_key": "Vogt2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "FAIR semantic-interoperability linguistic extensions; semantic-modeling proposal out of scope."
+      },
+      {
+        "cite_key": "Vogt2026a",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Semantic Units Framework; knowledge-representation approach out of scope."
+      },
+      {
+        "cite_key": "Vogt2026b",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Rosetta Statement FAIR knowledge-graph construction; KG-construction method out of scope."
+      },
+      {
+        "cite_key": "Walker2026a",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Commercial-genomics biobanking governance gaps; commercial-biobank governance out of scope."
+      },
+      {
+        "cite_key": "Wang2025c",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Data-value evaluation of medical open-data platforms; platform-value model out of scope."
+      },
+      {
+        "cite_key": "Wegner2022",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Data Steward Tool for dementia-cohort integration; specific integration tool out of scope."
+      },
+      {
+        "cite_key": "White2022",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "ABCD Study data-use recommendations for AI/AN populations; Indigenous data-sovereignty carried by Hudson2023/West2026/ClarkAdnyamathanha2024."
+      },
+      {
+        "cite_key": "Whitmore2010",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "PCDDB circular-dichroism spectral repository; spectral-DB exemplar out of scope."
+      },
+      {
+        "cite_key": "Wilkinson2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "FAIR-workflows adoption recommendations; computational-workflow FAIR out of scope."
+      },
+      {
+        "cite_key": "Winter2025",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Biomedical-imaging data-sharing standards/infrastructure; imaging-infrastructure scale-up out of scope."
+      },
+      {
+        "cite_key": "Wood2021",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "ASH RC Data Hub hematology RWD (OMOP+FHIR); disease-specific RWD hub out of scope."
+      },
+      {
+        "cite_key": "Wu2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Community desiderata for a biomedical knowledge network; knowledge-network perspective out of scope."
+      },
+      {
+        "cite_key": "Xu2023",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "FAIR-vocabulary features/indicators proposal; vocabulary-FAIRness framework out of scope."
+      },
+      {
+        "cite_key": "Yakutovich2026",
+        "classification": "WAIVED_REDUNDANT",
+        "reason": "AiiDAlab workflow platform + ELN integration; ELN/workflow provenance carried by Kirchner2026."
+      },
+      {
+        "cite_key": "Zeng2011",
+        "classification": "SHOULD_CITE",
+        "reason": "The same ELN sentence names 'regulated bioanalysis' as a domain; Zeng2011 (ELN in a GLP/regulated bioanalytical lab) is the package paper supporting that named domain, currently uncited while the three attached citations cover chemistry/academic ELNs."
+      },
+      {
+        "cite_key": "Zhang2024b",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "National Sleep Research Resource heterogeneity; sleep-dataset domain out of scope."
+      },
+      {
+        "cite_key": "deJonge2026",
+        "classification": "WAIVED_OUT_OF_SCOPE",
+        "reason": "Crossref publisher metadata-completeness analysis; publication-metadata (not research-data) domain out of scope."
+      }
+    ]
+  }
+}

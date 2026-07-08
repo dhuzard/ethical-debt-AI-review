@@ -1,0 +1,126 @@
+{
+  "phase": 7,
+  "validator": "independent comprev-myst-validator",
+  "validated_at": "2026-07-08",
+  "gate": "pass",
+  "sections": {
+    "section_02": {
+      "label": "sec-repro-crisis",
+      "LABEL": "pass",
+      "CITE_SYNTAX": "pass",
+      "CITE_KEYS_SUBSET": "pass",
+      "AUTHOR_NAMES": "pass",
+      "FORBIDDEN_LEXICON": "pass",
+      "EVIDENCE_EXPLORER": "pass",
+      "FIGURES": "pass",
+      "CAPTION_CAVEATS": "pass",
+      "citations_per_paragraph": 10.0,
+      "word_count": 4323,
+      "must_fix": []
+    },
+    "section_03": {
+      "label": "sec-data-welfare",
+      "LABEL": "pass",
+      "CITE_SYNTAX": "pass",
+      "CITE_KEYS_SUBSET": "pass",
+      "AUTHOR_NAMES": "pass",
+      "FORBIDDEN_LEXICON": "pass",
+      "EVIDENCE_EXPLORER": "pass",
+      "FIGURES": "pass",
+      "CAPTION_CAVEATS": "pass",
+      "citations_per_paragraph": 5.37,
+      "word_count": 4648,
+      "must_fix": [],
+      "advisory_warn": [
+        "Bare historical reference 'Russell and Burch' (the 3Rs originators) appears 3x in prose (lines 14, 41, 72) and is not in authortable_section_03.json or citemap_section_03.json. Classified WARN, NOT must_fix: it is a canonical, verifiable domain attribution unattached to any cite key, not a per-paper memory-typed attribution of the type check D guards against. Coordinator may optionally attach a Russell1959 citation."
+      ]
+    },
+    "section_04": {
+      "label": "sec-fair-preclinical",
+      "LABEL": "pass",
+      "CITE_SYNTAX": "pass",
+      "CITE_KEYS_SUBSET": "pass",
+      "AUTHOR_NAMES": "pass",
+      "FORBIDDEN_LEXICON": "pass",
+      "EVIDENCE_EXPLORER": "pass",
+      "FIGURES": "pass",
+      "CAPTION_CAVEATS": "pass",
+      "citations_per_paragraph": 4.76,
+      "word_count": 3887,
+      "must_fix": []
+    },
+    "section_05": {
+      "label": "sec-virtual-controls",
+      "LABEL": "pass",
+      "CITE_SYNTAX": "pass",
+      "CITE_KEYS_SUBSET": "pass",
+      "AUTHOR_NAMES": "pass",
+      "FORBIDDEN_LEXICON": "pass",
+      "EVIDENCE_EXPLORER": "pass",
+      "FIGURES": "pass",
+      "CAPTION_CAVEATS": "pass",
+      "citations_per_paragraph": 10.59,
+      "word_count": 4997,
+      "must_fix": []
+    },
+    "section_06": {
+      "label": "sec-nams-data",
+      "LABEL": "pass",
+      "CITE_SYNTAX": "pass",
+      "CITE_KEYS_SUBSET": "pass",
+      "AUTHOR_NAMES": "pass",
+      "FORBIDDEN_LEXICON": "pass",
+      "EVIDENCE_EXPLORER": "pass",
+      "FIGURES": "pass",
+      "CAPTION_CAVEATS": "pass",
+      "citations_per_paragraph": 14.15,
+      "word_count": 3780,
+      "must_fix": []
+    },
+    "section_07": {
+      "label": "sec-incentives",
+      "LABEL": "pass",
+      "CITE_SYNTAX": "pass",
+      "CITE_KEYS_SUBSET": "pass",
+      "AUTHOR_NAMES": "pass",
+      "FORBIDDEN_LEXICON": "pass",
+      "EVIDENCE_EXPLORER": "pass",
+      "FIGURES": "pass",
+      "CAPTION_CAVEATS": "pass",
+      "citations_per_paragraph": 9.57,
+      "word_count": 3769,
+      "must_fix": []
+    },
+    "section_08": {
+      "label": "sec-governance",
+      "LABEL": "pass",
+      "CITE_SYNTAX": "pass",
+      "CITE_KEYS_SUBSET": "pass",
+      "AUTHOR_NAMES": "pass",
+      "FORBIDDEN_LEXICON": "pass",
+      "EVIDENCE_EXPLORER": "pass",
+      "FIGURES": "pass",
+      "CAPTION_CAVEATS": "pass",
+      "citations_per_paragraph": 12.93,
+      "word_count": 4101,
+      "must_fix": []
+    }
+  },
+  "aggregate": {
+    "total_must_fix": 0,
+    "sections_failing": []
+  },
+  "checks_performed": {
+    "A_LABEL": "line1 == (sec-LABEL)= followed by single H1 \u2014 all 7 pass",
+    "B_CITE_SYNTAX": "0 stray-backtick, 0 missing-backtick, 0 bare [@key], 0 bare {cite}, 0 non-p/t, 0 double-backtick; every {cite occurrence is well-formed {cite:p}/{cite:t}",
+    "C_CITE_KEYS_SUBSET": "every used cite key present in that section's citemap_section_NN.json (0 orphans across all sections)",
+    "D_AUTHOR_NAMES": "no memory-typed per-paper surnames; only false-positive domain tokens (Alzheimer/Parkinson diseases, Ramazzini Institute, NAM/AI/ARRIVE/Directive) and one canonical historical ref (Russell and Burch, WARN)",
+    "E_FORBIDDEN_LEXICON": "scan_prose over prose (code fences + directive option lines excluded) found 0 hits of scaffold/evidence package/orchestrator/cluster/scratchpad/sub-agent etc; 0 writer-scratchpad markers",
+    "F_EVIDENCE_EXPLORER": "exactly 1 :::{evidence-explorer} block per section (block form, not role syntax); 0 {authorship-explorer} in all bodies",
+    "G_FIGURES": "3 figures/section; every {numref} resolves to a :name: in-file; all :name: use dashes; all point to existing ../figures/fig_secN_*.png on disk; :width: declared on every figure block",
+    "H_CAPTION_CAVEATS": "every mandatory_caption_caveats string present verbatim/near-verbatim in the matching figure caption (token-coverage 0.88-1.00); CAVEAT_FORCED restructures verified: 06 nam-data-scale rendered as inventory/separate callouts not shared axis; 07 qrp-prevalence split into behaviour(left)/attitudinal(right); 08 guideline-timeline flips Lin2024 to positive polarity and shows Hair2019 in a separate Panel B",
+    "I_CITATION_DENSITY": "all sections >= 4.76 cites/synthesis-paragraph (floor 4.0)",
+    "J_WORD_COUNT": "all sections above 80% floor (02:4323>=3200, 03:4648>=3200, 04:3887>=3600, 05:4997>=3600, 06:3780>=3200, 07:3769>=3040, 08:4101>=3360)"
+  },
+  "notes": "All seven body sections PASS every hard check. total_must_fix=0 so gate=pass. Mechanical checks (label, cite syntax, cite-key subset, evidence-explorer count, figure/PNG resolution, width, dashes) executed in Python with UTF-8; figure-caveat matching done by normalized token-coverage against extracted captions and manually confirmed. Only advisory: sec-03 uses the bare canonical reference 'Russell and Burch' (3Rs founders) with no cite key \u2014 surfaced as WARN, not gate-blocking. Density and word-count comfortably above floors in every section. VALIDATE-ONLY run: no content/*.md or figure files were modified."
+}

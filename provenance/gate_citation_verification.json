@@ -1,0 +1,46 @@
+{
+ "phase": 16,
+ "gate": "pass",
+ "validated_at": "2026-07-08",
+ "coverage_strategy": "steps 1-4 (DOI/title/author/metadata) verified mechanically for ALL 992 cited keys via independent CrossRef re-resolution; step 5 (claim) verified for ALL 1466 triples via the verbatim claim_source_sentence captured at extraction (99.8%) plus the Phase 8/12 blinded critic passes; 6 highest-risk keys additionally verified to live full-text/abstract depth.",
+ "doi_metadata_verification": {
+  "total_keys": 992,
+  "VERIFIED": 988,
+  "MINOR_year": 3,
+  "BROKEN_DOI_reclassified": 1,
+  "CHIMERIC": 0,
+  "HALLUCINATED": 0,
+  "MISATTRIBUTED": 0,
+  "bhatt_contamination": 0,
+  "minor_year_notes": "Callegaro2021(cr2023)/Coles2023(cr2025)/Kramer2015(cr2017): title match 1.0; online-first vs print-issue date ambiguity. Cite keys encode the online-first year; not re-keyed (cascade risk > cosmetic gain).",
+  "feng2024_note": "Feng2024 (10.19540/j.cnki.cjcmm.20240620.402) 404s at CrossRef because it is a Chinese CNKI-registry DOI; it resolves 200 via doi.org and is indexed by Europe PMC with matching title/year -> VERIFIED, not broken."
+ },
+ "highrisk_fulltext_verification": {
+  "artifact": "provenance/citation_verification_highrisk.json",
+  "keys": 6,
+  "VERIFIED": 6,
+  "MINOR": 0,
+  "note": "Serdar2021 (no source sentence) confirmed a legitimate co-citation on the sample-size/variation limbs it supports. Colavizza2024 initially flagged MINOR by the agent but that was a FALSE POSITIVE from decimal-splitting in the triples claim text; sec04 correctly reads '4.3% citation advantage', matching the paper. 0 real fixes."
+ },
+ "claim_evidence_chain": {
+  "triples": 1466,
+  "with_verbatim_source_sentence": 1463,
+  "pct": 99.8,
+  "no_source_sentence": [
+   "Serdar2021 x3 triples — verified as legitimate co-citation via full text"
+  ]
+ },
+ "contamination_scan": {
+  "bhatt": "NONE",
+  "chimeric": 0,
+  "hallucinated": 0,
+  "misattributed": 0
+ },
+ "actionable_fixes": 0,
+ "artifacts": [
+  "provenance/doi_verification.json",
+  "provenance/citation_verification_highrisk.json",
+  "provenance/citation_triples.json"
+ ],
+ "note": "Zero substantive citation corrections required. Result reflects mechanical cite-key generation (no memory keys -> 0 Bhatt/hallucination), verbatim source-sentence capture at extraction, and prior blinded critic verification."
+}

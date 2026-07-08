@@ -1,0 +1,33 @@
+{
+ "phase": 12,
+ "gate": "pass",
+ "validated_at": "2026-07-08",
+ "protocol": "comprev-critic Phase 12 blinded bookend critics (2 agents, separate from Phase 11 writer)",
+ "introduction": {
+  "must_fix_found": 1,
+  "must_fix_remaining": 0,
+  "should_caveat": 2,
+  "minor": 4,
+  "novel_pairs_checked": 8,
+  "keys_outside_master": []
+ },
+ "conclusion": {
+  "must_fix_found": 0,
+  "must_fix_remaining": 0,
+  "should_caveat": 4,
+  "minor": 5,
+  "novel_pairs_checked": 14,
+  "keys_outside_master": []
+ },
+ "total_must_fix_found": 1,
+ "total_must_fix_remaining": 0,
+ "resolution_log": "Dropped misattributed Fanelli2009 from intro+conclusion editorial-mandate clauses (Danchev2021 carries it); moved Hamilton2023 out of modelled-sources group in intro; split VCG concordance so Mecklenburg2023 carries dose-limiting-toxicities half; removed Cait2022 from conclusion reward-structure/reuse claims (kept in intro for welfare->data-quality); dropped Deutsch2021 from conclusion half-published bundle; re-attributed automated-FAIRification clause to Tahar2026.",
+ "minor_deferred": "9 MINOR bookend items logged in critic_bookend_*.json, non-blocking (loose co-citations); available to Phase 16.",
+ "novel_citations": [],
+ "master_citation_count": 995,
+ "child_ids": [
+  "12intro:a20ec957ebb6d0c3c",
+  "12concl:a1e1e9c6a666d8868"
+ ],
+ "notes": "Both bookends: novel_keys empty, forbidden-lexicon clean, line-1 labels intact, >=4 cites/paragraph. Same Fanelli2009 misattribution independently caught in both bookends."
+}

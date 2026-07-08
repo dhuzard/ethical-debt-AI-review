@@ -2969,7 +2969,13 @@
      "n definitions differ: pooled survey questions vs individual respondents"
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "SPLIT",
+   "audit_verdict_resolved": "CAVEAT_FORCED_FROM_SPLIT",
+   "mandatory_caption_caveats": [
+    "Not a like-for-like prevalence: 1.97% = self-admitted serious FFP (Fanelli); 94% = any-of-nine-QRP self-admission (Schneider); ~20% = implicit attitudinal association of QRPs with success on an SC-IAT (Velicu), not a self-reported behavior. The 2-to-94 spread is a severity/breadth artifact."
+   ],
+   "suggested_restructure": "Phase 7 writer: separate a behavior-prevalence panel (Fanelli serious FFP 1.97%; Schneider any-QRP 94%; note Fanelli's own ~34% any-QRP is the closer comparator to Schneider) from an attitudinal panel (Velicu ~20% implicit). Do not place the implicit-association value on the behavior axis.",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "data-availability-quality",
@@ -3093,7 +3099,14 @@
      "Different metrics (publication-count vs JIF mention) and regions (international vs US/Canada)"
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "CAVEAT",
+   "audit_verdict_resolved": "CAVEAT",
+   "mandatory_caption_caveats": [
+    "Bars are prevalence of different RPT criteria across different populations: Rice2020 peer-reviewed-publication mention (95%) and data-sharing mention (1%) in 92 international biomedical-faculty guidelines; McKiernan2019 JIF mention (40%) among research-intensive US/Canada universities only (18% master's, 0% baccalaureate).",
+    "Confirm the Rice2020 bar definition: 95% = any mention of peer-reviewed publications; 35% (a separate figure) = mention of a specific publication count."
+   ],
+   "suggested_restructure": "",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "open-science-policy-interventions",
@@ -3236,7 +3249,14 @@
      "Fields differ (clinical trials vs psychology vs orthopaedics)"
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "CAVEAT",
+   "audit_verdict_resolved": "CAVEAT",
+   "mandatory_caption_caveats": [
+    "Label each bar by pipeline stage: Major2025 = has a data-sharing statement (14%, presence only, not sharing); Danchev2021 = declared available (68.6%) vs actually available (0.6%); Hardwicke2021 = raw data actually shared (2%). Statement-presence and actual-sharing are different constructs.",
+    "Fields differ (clinical trials, psychology, orthopaedics)."
+   ],
+   "suggested_restructure": "",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "outcome-misreporting-trial-audits",

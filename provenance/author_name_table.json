@@ -5498,21 +5498,6 @@
   "citet_display": "Gonzalez-Uarquin et al.",
   "crossref_ok": true
  },
- "ONUMA2026": {
-  "doi": "10.1292/jvms.25-0455",
-  "family": "ONUMA",
-  "given": "Kenta",
-  "all_families": [
-   "ONUMA",
-   "WATANABE",
-   "SASAKI"
-  ],
-  "year": 2026,
-  "title": "Pre–post change in compassion toward laboratory animals after an introductory lecture in first-year veterinary          students",
-  "container": "Journal of Veterinary Medical Science",
-  "citet_display": "ONUMA et al.",
-  "crossref_ok": true
- },
  "Aquarius2025": {
   "doi": "10.1371/journal.pbio.3003438",
   "family": "Aquarius",
@@ -27711,6 +27696,21 @@
   "title": "Minimal reporting improvement after peer review in reports of COVID-19 prediction models: systematic review",
   "container": "Journal of Clinical Epidemiology",
   "citet_display": "Hudda et al.",
+  "crossref_ok": true
+ },
+ "Onuma2026b": {
+  "doi": "10.1292/jvms.25-0455",
+  "family": "Onuma",
+  "given": "Kenta",
+  "all_families": [
+   "Onuma",
+   "Watanabe",
+   "Sasaki"
+  ],
+  "year": 2026,
+  "title": "Pre–post change in compassion toward laboratory animals after an introductory lecture in first-year veterinary          students",
+  "container": "Journal of Veterinary Medical Science",
+  "citet_display": "Onuma et al.",
   "crossref_ok": true
  }
 }

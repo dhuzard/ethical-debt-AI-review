@@ -4112,7 +4112,14 @@
      "Device-trial value is a raw count (1,497 vs 2,386), not a percentage; approx 37% enrollment reduction."
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "SPLIT",
+   "audit_verdict_resolved": "CAVEAT_FORCED_FROM_SPLIT",
+   "mandatory_caption_caveats": [
+    "The three ~25% preclinical estimates are not independent (Gurjanov and Adedeji cite the Steger-Hartmann 25% control-animal-reduction concept).",
+    "Chiaruttini is a human cardiovascular device trial reporting ~37% patient-enrollment reduction across both arms - different species, population, unit, and scope from the animal control-group reductions."
+   ],
+   "suggested_restructure": "Phase 7 writer: group the three preclinical estimates (annotate their non-independence) separately from Chiaruttini (human; ~37%; trial participants). Do not plot animal-control and human-patient reductions on one axis.",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "rasH2-lung-adenoma-hcd-variability",
@@ -4238,7 +4245,14 @@
      "10.1177/01926233241300310 and 10.3389/fphar.2026.1704002 are already in the prior evidence set; reused here only as figure comparators."
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "SPLIT",
+   "audit_verdict_resolved": "CAVEAT_FORCED_FROM_SPLIT",
+   "mandatory_caption_caveats": [
+    "Adedeji's 49% is a NON-reproducibility rate (worst of a 31-49% range, higher=worse); Mecklenburg (82%) and Duchateau-Nguyen (68.5%) are concordance rates (higher=better). On a common direction Adedeji is ~51-69% reproducible.",
+    "Species and exact construct differ (NHP parameter-confirmation vs rat CCG-vs-VCG agreement vs rat CCG-vs-VCG reproducibility)."
+   ],
+   "suggested_restructure": "Phase 7 writer: harmonize to a single concordance direction (Mecklenburg 82%, Duchateau 68.5%, Adedeji 51-69%); label construct and species. Do not plot 82/68.5/49 with mixed polarity.",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "shared-control-database-scale",
@@ -4344,7 +4358,14 @@
      "n encodes the primary count per entry (animals or studies/datasets) as noted in n_definition."
     ]
    },
-   "audit_verdict": "PENDING"
+   "audit_verdict": "SPLIT",
+   "audit_verdict_resolved": "CAVEAT_FORCED_FROM_SPLIT",
+   "mandatory_caption_caveats": [
+    "Counts are in different units (animals vs studies vs datasets) and are not rank-comparable on a common measure.",
+    "The two FDA CDER SEND counts (>1,800 in 2020; >10,000 in 2024) are the same repository at different times (growth), not independent resources."
+   ],
+   "suggested_restructure": "Phase 7 writer: panel by counting unit (animal counts vs study/dataset counts); collapse Carfagna2020b and Snyder2024 into one FDA CDER SEND 2020->2024 growth series; log axis within each panel; never a single shared-magnitude axis.",
+   "fabrication_flag_resolution": "cite_key_canonical"
   },
   {
    "comparison_id": "external-control-adoption-rates",
