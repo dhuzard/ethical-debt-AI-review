@@ -2,23 +2,143 @@
 # Introduction: The Ethical Debt of Preclinical Research
 
 Every animal used in biomedical research is spent on a single promise: that the knowledge obtained will be worth what the animal's welfare cost to produce it. That promise is the moral foundation of the entire enterprise. Society tolerates the deliberate infliction of harm on sentient animals only because the resulting knowledge is expected to be reliable, non-redundant, and available to inform the next experiment and, eventually, the clinic. When that expectation is met, the ledger balances: harm was done, but knowledge was banked and put to use. This review is about what happens when it is not. A retrospective harm–benefit analysis of preclinical research found that, weighing the animals' actual harms against the actual clinical benefit their studies produced, fewer than 7% of the studies examined would have been ethically permissible, and that 97% did not even report whether the animals received analgesia {cite:p}`Pound2018`. The reproducibility literature independently prices the reliability side of the same failure: a probability-bounds economic model puts the cumulative preclinical irreproducibility rate above half and attaches a modelled cost of tens of billions of dollars a year to it in the United States alone {cite:p}`Freedman2015`, a figure that sits within broader accountings of avoidable research waste that reach a widely repeated — and, we will argue, over-cited — estimate that most biomedical research investment is squandered {cite:p}`Chalmers2014, Ioannidis2014c`, and that is consistent with a theoretical prior holding that, under realistic assumptions about power and bias, most published research claims are more likely false than true {cite:p}`Ioannidis2005b`. Read together, these findings describe a debt: the welfare cost of an experiment is incurred the moment the animal is used, but the knowledge that was supposed to redeem it is frequently never delivered.
+:::{trust-claim}
+:claim-id: clm_e7ae520ef69a4267
+:::
+:::{trust-claim}
+:claim-id: clm_12e9297af3e8f714
+:::
 
 We call this the Ethical Debt of preclinical research. The metaphor is deliberate, and it is meant literally in its consequences. A debt is incurred whenever animals are used to generate data but those data are then allowed to become unfindable, unusable, or unreused; and because the only currency in which such a debt can be repaid is more knowledge, an unpaid debt is discharged not in money but in further animal lives, as equivalent experiments are run again to regenerate what was lost. This is not a rhetorical flourish laid over an ordinary data-management problem, because the loss is measurable at every stage. Whole experiments vanish before publication: surveys of laboratory-animal researchers estimate that only about half of conducted experiments are ever published {cite:p}`terRiet2012`, empirical protocol-to-publication tracking finds a more optimistic but still incomplete rate near 70% {cite:p}`Deutsch2021`, and across a set of novel drugs the majority of accessible animal efficacy studies appeared only after the first human trial, with a substantial fraction of drugs having no efficacy study published beforehand at all {cite:p}`Federico2014`. What survives to publication is heavily filtered toward positive results {cite:p}`Sena2010`, and what is published is rarely accompanied by usable data: a meta-analysis pooling more than two million articles found that only about 2% of medical papers actually shared their data, against roughly 8% that declared they had {cite:p}`Hamilton2023`. Even reconstructing what was done can prove impossible — an attempt to repeat cancer-biology experiments could obtain the data needed to compute the original effect sizes for only a handful of nearly two hundred experiments {cite:p}`Errington2021a`. Every one of these losses converts a paid welfare cost into waste.
+:::{trust-claim}
+:claim-id: clm_321c9f39e550fb37
+:::
+:::{trust-claim}
+:claim-id: clm_5af5d279b037a3d4
+:::
+:::{trust-claim}
+:claim-id: clm_04525980ec6e8c01
+:::
 
 The empirical foundation for the debt is the reproducibility and translation crisis, which {ref}`sec-repro-crisis` examines in detail. The published animal record is not a neutral archive of what experiments found but a filtered, distorted, and frequently untranslatable sample of them: across thousands of datasets, the number of "positive" studies vastly exceeds what their statistical power should produce, and only a small minority of meta-analyses are free of any small-study or excess-significance signal {cite:p}`Sena2010, Tsilidis2013`. Internal-validity failures and publication bias each independently inflate apparent efficacy, so the published effect is systematically overstated {cite:p}`Freedman2015, vanderWorp2010`. The studies themselves are chronically underpowered, which both exaggerates the effects that reach significance and lowers the chance that a positive result is true {cite:p}`Button2013`. Animal findings then translate to humans poorly and unpredictably: a direct six-intervention comparison showed benefit in animal head-injury models that evaporated in patients {cite:p}`Perel2006`, a scoping review found published translational success spanning the entire range from none to complete {cite:p}`Leenaars2019b`, and independent analyses converge on a likelihood of moving from first-in-human testing to approval of only roughly 5–14% {cite:p}`Schuhmacher2025, Dhillon2022`. The most instructive case is one in which the animal data are not even in dispute: two analyses of the same inflammation gene-expression datasets reached opposite conclusions about whether mouse models mimic human disease, the reversal driven entirely by a gene-selection choice {cite:p}`Seok2013, Takao2014`. That contrast is a warning that runs through this review — the value that can be extracted from animal data depends on how those data are handled after the animal has already paid, which is precisely the domain in which the debt is incurred or repaid.
+:::{trust-claim}
+:claim-id: clm_03bc4b9182fd4e8b
+:::
+:::{trust-claim}
+:claim-id: clm_8cab9114332bb829
+:::
+:::{trust-claim}
+:claim-id: clm_0610c4e959622db0
+:::
+:::{trust-claim}
+:claim-id: clm_b1735ff43d236840
+:::
+:::{trust-claim}
+:claim-id: clm_e772c65ecad1a63c
+:::
 
 The near-universal framing of this evidence is as a scientific-quality problem: wasted money, and papers that fail to replicate. What that framing omits is that every biased, underpowered, unpublished, or non-translating study was nonetheless paid for in animal lives, whose welfare cost is discharged whether or not the resulting data are ever trusted or reused. The system is not even structured to notice: audits of ethical-review decisions find the legally required harm–benefit weighing frequently absent or confused, and measures against bias described at very low rates, so the authorising body cannot see the scientific validity on which its own justification depends {cite:p}`Vogt2016, Jorgensen2021`. Meanwhile the modal outcome of a research life — death — is largely omitted from the welfarist accounting that underpins the governing framework, so the animals bred to regenerate lost data are disproportionately animals killed without ever entering an analysis {cite:p}`Persson2024`. The 3Rs already require that studies use no more animals than the knowledge requires and report enough for that knowledge to be trusted, and audits show both requirements are met only in a small minority of studies {cite:p}`Bara2014, Pound2018`. The compact is moreover not only with the animal but with the public that funds and permits the research: openness is increasingly framed as the price of that permission, yet the single most common barrier to communicating about animal research is that the research harms animals — a barrier that unusable results only raise, because they convert a defensible harm into an indefensible one {cite:p}`MacArthurClark2019, Loser2026`. The reframing this review pursues is therefore not an expansion of the animals' moral claims but an insistence that the existing claims be honoured all the way through to the data.
+:::{trust-claim}
+:claim-id: clm_9365bc9c19a0cf31
+:::
+:::{trust-claim}
+:claim-id: clm_288bf421d0c8e7e2
+:::
+:::{trust-claim}
+:claim-id: clm_e0f724c1e8d850e1
+:::
+:::{trust-claim}
+:claim-id: clm_2fdeb78714d7c3b8
+:::
 
 The conceptual move at the heart of the review is to fold data stewardship into that existing framework rather than leave it as a technical afterthought, the argument developed in {ref}`sec-data-welfare`. A wave of proposals now argues that the welfare-focused 3Rs are insufficient without a scientific-value and reporting dimension, whether framed as a sixth R of Reporting, a wider set of research-integrity principles, or a bridging scheme between the research and protection communities {cite:p}`Strech2019, Brink2023, DeGrazia2019`, against a countervailing view that the 3Rs remain conceptually sufficient and are merely under-applied {cite:p}`Vitale2022`. This review adopts and sharpens the expansion under the term *data welfare*: the claim that letting animal-derived data become unfindable, unusable, or unreused is itself a welfare harm, because it wastes the welfare cost that produced the data. The link is not metaphorical but mechanical. Reduction was never a demand to use the fewest animals but to use no more than the knowledge requires, so a dataset that cannot be reused is knowledge that must be regenerated, and knowledge regenerated from live animals is animals used — the same logic that already lets the reuse of historical control data count as Reduction {cite:p}`Kramer2015, Verderio2023`. That the field itself deprioritises this data-facing R is part of the problem: surveys find researchers invert the original ordering, treating Refinement as the higher priority and Replacement as barely possible, so Reduction sits neglected in the middle {cite:p}`Franco2018, LouisMaerten2024`. The reframe is reinforced, not undercut, by evidence that welfare-improving practices tend to improve data quality rather than degrade it {cite:p}`Cait2022`.
+:::{trust-claim}
+:claim-id: clm_37fd34197339bff0
+:::
+:::{trust-claim}
+:claim-id: clm_7de66c8314e43abd
+:::
+:::{trust-claim}
+:claim-id: clm_f4413a2e250a627e
+:::
+:::{trust-claim}
+:claim-id: clm_f2f5ccf81a42941b
+:::
 
 If data welfare defines the obligation, the rest of the review asks how the debt can be repaid, and it identifies four repayment mechanisms whose promise is real but whose delivery is conditional. The first is FAIR data — data that are Findable, Accessible, Interoperable, and Reusable — the near-universal standard for good stewardship and the subject of {ref}`sec-fair-preclinical` {cite:p}`Wilkinson2016`. The evidence there is sobering. Declared availability vastly exceeds actual availability; formal compliance with data-management mandates coexists with near-total non-sharing in practice, with the great majority of mandated projects sharing nothing usable; and even authors who explicitly promise to share overwhelmingly do not when asked {cite:p}`Hamilton2023, VanTuyl2016, Gabelica2022`. Review-level syntheses treat FAIR as a demonstrated remedy while direct retrieval audits find most shared data incomplete or unusable, and scoring of the data that are shared returns low reusability sub-scores even in unrelated domains {cite:p}`Inau2023, Uribe2022`. Where reuse does happen, it is almost always because a specific repository imposes and checks a community standard rather than because the principles were published — a single enforced neuroimaging archive documents more realized reuse than the diffuse ecosystem around it {cite:p}`Markiewicz2021, Hamilton2022`. Preclinical animal data, reagent-dependent, heterogeneous, and often trapped as unpublished "dark data," are served worst of all {cite:p}`Hawkins2020`. Generic sharing of everything, in short, repays the debt only weakly, which motivates a change of tack rather than an abandonment of the principle.
+:::{trust-claim}
+:claim-id: clm_63c3714a11d96e6b
+:::
+:::{trust-claim}
+:claim-id: clm_162a38ab0543ec4b
+:::
+:::{trust-claim}
+:claim-id: clm_b690e01ea3fbf1fa
+:::
+:::{trust-claim}
+:claim-id: clm_bf38f7be25668bb8
+:::
+:::{trust-claim}
+:claim-id: clm_30a8136cb5ad200a
+:::
 
 The second mechanism, examined in {ref}`sec-virtual-controls`, is the specific, high-value form of reuse in which the payoff can be counted directly. When the data being reused is the control arm of a toxicity or carcinogenicity study, a control group reconstructed from curated historical records is a group of animals that never enters the study — Reduction achieved by reuse. The headline estimate is stable across independent proposals at roughly a quarter of control animals saved {cite:p}`StegerHartmann2020, Gurjanov2024b`, the clinical analogue of Bayesian control-borrowing delivers comparable enrolment reductions {cite:p}`Chiaruttini2025`, and the infrastructure — curated databases holding tens of thousands of control animals across decades of studies — already exists at scale, so the bottleneck is acceptance and stewardship rather than data volume {cite:p}`Moresis2024, Deschl2002`. But the dividend is conditional. Concordance between virtual and concurrent controls is endpoint-dependent, with high agreement for categorical decisions such as dose-limiting toxicities {cite:p}`DuchateauNguyen2026, Mecklenburg2023` and substantial non-reproducibility for continuous clinical-pathology parameters {cite:p}`Adedeji2024`; historical data drift over time and across laboratories, with study year emerging as the single most influential covariate in one large multi-company database {cite:p}`Kellner2025`; and, decisively, no regulator has yet accepted a virtual-control-group study in place of a concurrent control for a pivotal preclinical submission {cite:p}`SATO2024`.
+:::{trust-claim}
+:claim-id: clm_cd848184fca6e342
+:::
+:::{trust-claim}
+:claim-id: clm_14afcf7253689dcb
+:::
 
 The third mechanism is the complement to reuse — replacing animals altogether with new approach methodologies (NAMs), the subject of {ref}`sec-nams-data`. In silico and QSAR models, organoids, organ-on-chip systems, and high-throughput screening reach usable and sometimes high predictivity for narrow, well-defined endpoints and can displace specific animal tests {cite:p}`Pfuhler2020, Sirenko2016`, a case sharpened by the fact that fewer than a tenth of chemicals in commerce have ever been screened for safety {cite:p}`Comess2020`. But the field's readiness is contested: proponents argue NAMs are already fit to assure chemical safety in defined settings, while regulatory reviews document continued dependence on animal data for the adversity call, and microphysiological systems remain largely unadopted in regulated decision-making {cite:p}`Carmichael2022, Holmer2025, Marx2020, Hartung2025a`. Two deeper difficulties recur. NAM validation is often anchored to concordance with animal data that were themselves never validated for human relevance and are only moderately reproducible, so the yardstick is shaky {cite:p}`Karmaus2026`. And, most important for this review, NAMs do not escape the data problem; they relocate it. High-throughput and in silico streams generate large, heterogeneous datasets that re-create the same stewardship debt unless they are made FAIR from the outset — a point the NAM community has itself begun to press, arguing that findable, comparable data are not best practice but a prerequisite for trustworthy model outputs {cite:p}`Gant2026, Inau2023`.
+:::{trust-claim}
+:claim-id: clm_2b4119e2c878ac71
+:::
+:::{trust-claim}
+:claim-id: clm_584e046e9f383f31
+:::
+:::{trust-claim}
+:claim-id: clm_e57f2374748abdbe
+:::
+:::{trust-claim}
+:claim-id: clm_96480598598674e7
+:::
 
 The fourth mechanism is the one that determines whether the other three ever operate: reform of the incentive and governance systems, treated in {ref}`sec-incentives` and {ref}`sec-governance`. The persistence of the data-welfare debt across FAIR data, virtual controls, and NAMs is not a technical accident but the predictable output of a reward structure that pays for publication counts and journal prestige while pricing stewardship at essentially zero — data-sharing appears in almost no promotion and tenure criteria, while peer-reviewed publications appear in nearly all, and researchers accordingly treat their data as a private asset whose release requires an incentive that does not exist {cite:p}`Rice2020, McKiernan2019, Fecher2015`. A structural model argues that as long as publication drives careers, methods that produce more publishable results will keep being selected for regardless of their reliability, against a reform manifesto that expects methods, reporting, and incentive measures to improve reliability if adopted across the system {cite:p}`Smaldino2016, Munafo2017`. The decisive test is the gap between what researchers declare and what they deliver: an editorial data-sharing requirement produced near-universal declarations of willingness but under one percent of trials with data actually available {cite:p}`Danchev2021`. Governance offers the enforced alternative, and here the evidence is clearer: a checklist mandated and checked at revision moved reporting where the same checklist merely requested at submission did not, and open-practice signals that are verified deliver usable data where unenforced mandates do not {cite:p}`Macleod2019b, Hair2019, Kidwell2016`. The recurring lesson is that enforcement beats endorsement, though effects are heterogeneous and field-wide sharing remains near the floor.
+:::{trust-claim}
+:claim-id: clm_02754a8ab70abf26
+:::
+:::{trust-claim}
+:claim-id: clm_12f83a825ca7cb24
+:::
+:::{trust-claim}
+:claim-id: clm_7606bc5d939e54bc
+:::
+:::{trust-claim}
+:claim-id: clm_f5a7ad834279eafd
+:::
 
 This review is therefore an argument in three movements. It first establishes that the debt is real and measurable and reframes it as a welfare problem rather than merely a scientific-quality one ({ref}`sec-repro-crisis`, {ref}`sec-data-welfare`). It then examines the machinery of repayment and where it breaks — FAIR stewardship that is declared but not delivered, virtual control groups that reduce animal use but await regulatory acceptance, and non-animal methods that displace animals while generating fresh data to steward ({ref}`sec-fair-preclinical`, {ref}`sec-virtual-controls`, {ref}`sec-nams-data`) — before locating the common cause of all three failures in an incentive system that does not value stewardship ({ref}`sec-incentives`). Finally, it turns to what enforced governance can and cannot achieve, and integrates the mechanisms into a single repayment pathway while marking the empirical questions that remain open ({ref}`sec-governance`, {ref}`sec-conclusion`). Throughout, the analytical style is to juxtapose method-divergent estimates rather than to report single headline numbers, because the same phenomenon — publication rate, concordance, sharing trend — yields very different values by method {cite:p}`Sena2010, terRiet2012, Deutsch2021`, and several field-defining figures rest on modelled or non-transparent sources that we flag wherever they appear rather than smooth over {cite:p}`Freedman2015, Ioannidis2014c`. That style is not neutrality for its own sake but a hedge against the false consensus a single, confidently repeated number can manufacture {cite:p}`Ioannidis2005b`. The empirical anchor the review returns to most often — that actual, usable data availability sits near two percent while declared availability and paperwork compliance sit far above it — recurs across FAIR audits, incentive studies, and governance evaluations alike, and it is against that near-static baseline — the empirical ~2% availability anchor {cite:p}`Hamilton2023` — that every enforcement result must be judged {cite:p}`Hamilton2022, VanTuyl2016, Macleod2019b`. The claim is not that the crisis is worse than others have said, nor that any one mechanism will resolve it, but that the losses others have counted in money and papers are more fundamentally counted in animal lives.
+:::{trust-claim}
+:claim-id: clm_560b5fe10424d453
+:::
+:::{trust-claim}
+:claim-id: clm_53a55ae5f2c28094
+:::
+:::{trust-claim}
+:claim-id: clm_a693810a2e9a0724
+:::
 
 The strongest version of that claim is also its simplest, and it is the thread that ties the sections together: because animals have already paid for the data with their welfare and, usually, their lives, letting the data go to waste is not merely poor science but a welfare harm in its own right, and repaying the debt — through FAIR stewardship, through reuse and virtual control groups, through disciplined stewardship of the data that non-animal methods generate, and through incentive and governance reform that makes stewardship count — is a way of saving animals {cite:p}`Pound2018, Kramer2015, Wilkinson2016, Macleod2019b, Cait2022`. None of the four mechanisms is sufficient alone, and each carries a condition this review is at pains to state — FAIR stewardship that must be enforced rather than merely declared, virtual control groups that await regulatory acceptance, and non-animal methods that must themselves be stewarded from the outset {cite:p}`Hamilton2022, SATO2024, Gant2026`. Yet the reuse infrastructure that lowers control-animal numbers already exists at scale, awaiting only the acceptance and the incentives that would put it to work {cite:p}`Moresis2024, Deschl2002, StegerHartmann2020`. The evidence that stewardship can be made to count is itself real but narrow, concentrated on the interventions that were enforced and checked rather than merely urged {cite:p}`Macleod2019b, Kidwell2016, Hair2019`. The evidence that this debt is neither hypothetical nor small begins in {ref}`sec-repro-crisis`, with the state of the knowledge the animals were used to produce.
+:::{trust-claim}
+:claim-id: clm_17bde9232d97046f
+:::
+:::{trust-claim}
+:claim-id: clm_9076c762d351239c
+:::
+:::{trust-claim}
+:claim-id: clm_c6dcc84352f62525
+:::
+:::{trust-claim}
+:claim-id: clm_1a3d984cfe0f9241
+:::

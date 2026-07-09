@@ -1,0 +1,41 @@
+{
+ "phase": "trust-score-validation",
+ "gate": "pass",
+ "claims_checked": 510,
+ "checks": {
+  "ALL_COMPONENTS_SCORED": "pass",
+  "OVERALL_FORMULA_CORRECT": "pass",
+  "LABEL_BAND_CORRECT": "pass",
+  "CAP_RULE_ENFORCED": "pass",
+  "EMPIRICAL_DOI_RULE": "pass",
+  "PROVENANCE_FIELDS_PRESENT": "pass",
+  "CLAIM_ID_STABLE": "pass",
+  "CLAIM_SCHEMA_VALID": "pass",
+  "TRUST_SCHEMA_VALID": "pass"
+ },
+ "failures": [],
+ "label_distribution": {
+  "high_trust": 428,
+  "moderate_trust": 67,
+  "low_trust": 15
+ },
+ "capped_claims": 13,
+ "cap_reasons": {
+  "overextended_scope": 4,
+  "contradicted_without_caveat": 7,
+  "unsupported_citation": 1,
+  "direction_mismatch": 1
+ },
+ "human_review_required": 99,
+ "overall_mean": 89.1,
+ "component_means": {
+  "traceability": 3.99,
+  "robustness": 2.93,
+  "uncertainty_calibration": 3.47,
+  "source_integrity": 3.93,
+  "transferability_scope_control": 3.58
+ },
+ "missing_llm_defaulted": [
+  "clm_42b8e37610392712"
+ ]
+}

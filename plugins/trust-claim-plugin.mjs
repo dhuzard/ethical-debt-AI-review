@@ -116,8 +116,57 @@ const trustClaimTransform = {
   },
 };
 
+// ── Inline citation trust marker: append a small coloured dot after each citation,
+// coloured by the worst trust band among the cited keys (knowledge/cite_trust_bands.json). ──
+const BAND_COLOR = { high_trust: '#009E73', moderate_trust: '#56B4E9', low_trust: '#E69F00', critical_or_unreliable: '#D55E00' };
+const BAND_RANK = { high_trust: 3, moderate_trust: 2, low_trust: 1, critical_or_unreliable: 0 };
+
+const citeTrustTransform = {
+  name: 'cite-trust-marker',
+  stage: 'document',
+  plugin: () => (tree, vfile) => {
+    const docDir = vfile?.path ? dirname(vfile.path) : process.cwd();
+    let bands = {};
+    try { bands = JSON.parse(readFileSync(resolve(docDir, '../knowledge/cite_trust_bands.json'), 'utf-8')); } catch { bands = {}; }
+    if (!Object.keys(bands).length) return;
+
+    function keysOf(node, acc) {
+      if (!node) return acc;
+      if (node.type === 'cite' && node.label) acc.push(node.label);
+      if (Array.isArray(node.children)) node.children.forEach((c) => keysOf(c, acc));
+      return acc;
+    }
+    // Colored emoji markers render reliably in the static theme (raw inline HTML is escaped).
+    // Only NON-high citations are flagged, so the eye is drawn to the references to scrutinise.
+    const GLYPH = { moderate_trust: '🔵', low_trust: '🟠', critical_or_unreliable: '🔴' };
+    function marker(node) {
+      const keys = keysOf(node, []).filter((k) => bands[k]);
+      if (!keys.length) return null;
+      let worst = 'high_trust';
+      for (const k of keys) if (BAND_RANK[bands[k].band] < BAND_RANK[worst]) worst = bands[k].band;
+      if (worst === 'high_trust') return null;
+      return { type: 'text', value: ' ' + GLYPH[worst] };
+    }
+    function walk(node) {
+      if (!node || !Array.isArray(node.children)) return;
+      const out = [];
+      for (const child of node.children) {
+        out.push(child);
+        if (child && (child.type === 'citeGroup' || child.type === 'cite')) {
+          const m = marker(child);
+          if (m) out.push(m);
+        } else {
+          walk(child);
+        }
+      }
+      node.children = out;
+    }
+    walk(tree);
+  },
+};
+
 export default {
   name: 'Trust Claim Plugin',
   directives: [trustClaimDirective],
-  transforms: [trustClaimTransform],
+  transforms: [trustClaimTransform, citeTrustTransform],
 };

@@ -152,7 +152,7 @@ for c in claims_out:
     import re as _re
     if not _re.match(r"^clm_[a-f0-9]{16,64}$", c["claim_id"]):
         checks["CLAIM_SCHEMA_VALID"] = "fail"
-    if set(c["claim_scope"]) != set(SCOPE_KEYS) or c["trust_label"] not in {"high_trust","moderate_trust","low_trust","critical_or_unreliable"}:
+    if set(c["claim_scope"]) != set(SCOPE_KEYS) or ts["trust_label"] not in {"high_trust","moderate_trust","low_trust","critical_or_unreliable"}:
         checks["TRUST_SCHEMA_VALID"] = "fail"
 
 gate = "pass" if all(v == "pass" for v in checks.values()) else "fail"

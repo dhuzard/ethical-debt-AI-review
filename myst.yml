@@ -43,6 +43,8 @@ project:
     - file: content/07_incentives.md
     - file: content/08_governance_pathways.md
     - file: content/09_conclusion.md
+    - file: content/trust_summary.md
+      title: Citation Trust Summary
     - file: content/Methods.md
       title: Methods
     - file: content/evidence_database.md

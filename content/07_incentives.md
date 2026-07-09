@@ -3,8 +3,20 @@
 # Incentive Structures and the Political Economy of Research Data
 
 The preceding discussion in {ref}`sec-nams-data` showed that the stewardship failure is not confined to animal-derived data: it recurs for virtual control groups, for new approach methodologies, and across the FAIR audits of {ref}`sec-fair-preclinical`, surviving every change of data type. A failure this stable across otherwise unrelated domains is the signature of a common cause rather than a run of local accidents. This section locates that cause in the reward structure of research itself. The argument is one of political economy: the behaviours that generate the data-welfare debt — leaving datasets unshared, incomplete, or unfindable — are individually rational responses to an evaluation system that pays generously for publication counts and journal prestige while pricing data stewardship at essentially zero. Several converging diagnoses frame the modern research economy as one in which reward systems incentivise quantity over quality and novelty over reliability {cite:p}`Ioannidis2014b, Young2008`, in which competition for funding and quantitative performance metrics has grown steadily more perverse over half a century {cite:p}`Edwards2017, Alberts2014`, and in which the overuse of the journal impact factor persists precisely because it serves the individual interests of scientists, journals, and administrators even as it corrodes the collective enterprise — a textbook tragedy of the commons {cite:p}`Casadevall2014, Chapman2019`. Read this way, the debt is not a malfunction of the system but one of its predictable products.
+:::{trust-claim}
+:claim-id: clm_029f6433b8038612
+:::
 
 The most direct evidence comes from content analysis of the documents that actually govern academic careers. In an international sample of biomedical promotion and tenure guidelines, {cite:t}`Rice2020` found that peer-reviewed publications were mentioned as a criterion in almost every institution while data sharing appeared in only one percent and open-access publishing or registration in none; a matching study of research-intensive North American universities showed the Journal Impact Factor written explicitly into review, promotion, and tenure at a substantial minority of institutions, concentrated overwhelmingly at the most research-intensive campuses and framed in supportive terms {cite:p}`McKiernan2019`. This asymmetry is corroborated by broader analyses of the same document class: evaluation systematically privileges academic-facing outputs and citation metrics while disregarding the public dimensions of scholarship {cite:p}`Alperin2019, Schimanski2018`, and faculty themselves describe the "quality", "prestige", and "impact" of journals in overlapping, ill-defined ways that cannot bear the evaluative weight placed on them {cite:p}`Morales2021`. The instruments are moreover weak proxies for what they claim to measure: citation counts and impact factors are inconsistent and sometimes negative predictors of statistical accuracy, evidential value, and replicability {cite:p}`Dougherty2022`, and journal-level metrics may recognise as little as ten to twenty percent of genuinely influential work {cite:p}`Arabi2025`. {numref}`fig-sec7-rpt-criteria` places the publication-count and data-sharing prevalences side by side, exposing an asymmetry that prose alone would understate.
+:::{trust-claim}
+:claim-id: clm_7a09a94b44e6fa65
+:::
+:::{trust-claim}
+:claim-id: clm_6c342364ce764126
+:::
+:::{trust-claim}
+:claim-id: clm_83c7b6aed00642d6
+:::
 
 :::{figure} ../figures/fig_sec7_rpt_criteria.png
 :name: fig-sec7-rpt-criteria
@@ -109,10 +121,46 @@ print("saved fig_sec7_rpt_criteria.png:", [b[1] for b in bars])
 :::
 
 Because stewardship earns no formal credit, non-sharing is the rational default, and the survey evidence bears this out. {cite:t}`Fecher2015` report that nearly half of surveyed scientists do not make their data electronically available and develop a six-category model concluding that data behave not as a shared commons but as a private asset whose release requires positive incentives that do not exist. A meta-synthesis of forty-five studies of researcher attitudes reaches the same conclusion from the qualitative side, tracing withholding directly to absent rewards for appointment and promotion, missing infrastructure, and lack of time and skills {cite:p}`Perrier2020`, and a systematic review consolidates the drivers and inhibitors of data sharing into eleven categories in which formal requirements and facilitating conditions are the decisive levers {cite:p}`Zuiderwijk2020`. Interviews with data-sharing-platform stakeholders show the mechanism concretely: an evaluation system fixated on first and last authorship structurally undervalues the people who generate and curate data, so contributorship crediting is proposed as a corrective {cite:p}`Devriendt2022`. Even mandates do not close the gap, because they raise nominal accessibility without raising quality: an audit of ecology and evolution datasets archived under strong public-archiving policies found most incomplete or unusable for reuse {cite:p}`Roche2015`. The pattern generalises across national systems — in Ecuador, reliance on journal-centric metrics predicted lower adoption of open practices while institutional deposit mandates and data services predicted higher adoption {cite:p}`Guerra2026`.
+:::{trust-claim}
+:claim-id: clm_85e768ad430b2459
+:::
+:::{trust-claim}
+:claim-id: clm_1c2e6c48e3b65df7
+:::
+:::{trust-claim}
+:claim-id: clm_d806591eda020c9b
+:::
+:::{trust-claim}
+:claim-id: clm_83af13a6b9286f34
+:::
+:::{trust-claim}
+:claim-id: clm_257e366682b2aa9c
+:::
 
 The credit system that undervalues data generation is itself a contested instrument. Authorship — the currency in which the reward is denominated — is a poor proxy for contribution: honorary and ghost authorship are common {cite:p}`Pruschak2022`, author lists have inflated to the point that alphabetical middle-author ordering now dominates large teams {cite:p}`Mongeon2017`, and the resulting depreciation of authorship credit falls hardest on the junior and technical contributors who do the data work {cite:p}`Hosseini2022`. Proposed remedies move from authorship toward structured contributorship, in which machine-readable role taxonomies record who curated data and ran code {cite:p}`Vasilevsky2020, Zhang2019b`, though such schemes remain unevenly adopted and are undercut by promotion rules that simply count indexed publications {cite:p}`Das2020`. Alternative allocation mechanisms are being trialled at the funder level — partial randomisation, or funding lotteries, among near-equivalent applications — precisely to blunt the metric competition that credit inflation feeds {cite:p}`LewisWilson2023, Stafford2024`, while responsible-assessment frameworks attempt to translate reform principles into concrete evaluation practice {cite:p}`Himanen2024, Gagliardi2023`. Peer review, the mechanism ostensibly guarding quality, remains poorly understood and inconsistently applied, and so cannot be relied upon to correct what the reward structure encourages {cite:p}`Tennant2020, DelasCuevas2026`.
+:::{trust-claim}
+:claim-id: clm_aa27e981cf6a509c
+:::
+:::{trust-claim}
+:claim-id: clm_dfe5f05328dd9920
+:::
+:::{trust-claim}
+:claim-id: clm_15201a7dd85af516
+:::
+:::{trust-claim}
+:claim-id: clm_09b08153b19ebcdc
+:::
 
 The decisive test of whether incentives reach behaviour is to compare what researchers declare against what they actually deliver. Here the evidence is stark and convergent. After the medical-journal editors' data-sharing-statement requirement, {cite:t}`Danchev2021` found that most trials in the highest-impact journals declared a willingness to share, yet fewer than one percent had deidentified data actually and publicly available. Independent audits reproduce the collapse: raw data were shared for only around one in fifty psychology articles in a manual audit of the transparency literature {cite:p}`Hardwicke2021`; among manuscripts whose availability statements explicitly pledged sharing, the overwhelming majority of authors did not respond or declined and only a small fraction ultimately supplied their datasets {cite:p}`MartinRodriguez2026`; and even after contacting trialists directly, most responded but only a fifth of responders — roughly one in eight of all those approached — shared their data {cite:p}`Flanagan2026`. Statement presence is not sharing either — one in five data-management plans submitted under the new funder policy still omitted required elements {cite:p}`Hamidi2025`, and only a quarter of large pharmaceutical companies fully met a composite data-sharing standard {cite:p}`Miller2019`. This declared-versus-actual gap is the same phenomenon that anchors the review at roughly two percent actual availability, and it recurs in {ref}`sec-fair-preclinical`. {numref}`fig-sec7-declared-vs-actual` makes the incentive-to-behaviour gap unmistakable.
+:::{trust-claim}
+:claim-id: clm_7d608be1dfe04257
+:::
+:::{trust-claim}
+:claim-id: clm_35052ae4a2cf1a9b
+:::
+:::{trust-claim}
+:claim-id: clm_0af754065a42c5d8
+:::
 
 :::{figure} ../figures/fig_sec7_declared_vs_actual.png
 :name: fig-sec7-declared-vs-actual
@@ -221,10 +269,31 @@ print("saved fig_sec7_declared_vs_actual.png:", danchev_declared, danchev_actual
 :::
 
 The animal-welfare stake makes this gap more than an administrative curiosity. A transparency audit of studies using animal models of opioid addiction found near-total absence of open-science practices: none preregistered, none sharing analytical code, raw data accessible for only about three percent, and the great majority lacking any sample-size justification {cite:p}`Blackwell2025`. Every one of those unusable datasets carries an unrecovered welfare cost, and a cardiovascular-literature audit finding fewer than two percent of papers fully reproducible adds a further specialty to the same pattern already documented across psychology, clinical medicine, and ecology {cite:p}`Heckerman2025`. Reusing existing data — the Reduction dividend argued throughout this review — is impossible when the data are, in practice, gone.
+:::{trust-claim}
+:claim-id: clm_c23a21ecd4a131f5
+:::
+:::{trust-claim}
+:claim-id: clm_6769c21dc06b32a1
+:::
 
 The aggregate cost of these behaviours is the research waste that the incentive system continuously manufactures. The programme on increasing value and reducing waste located waste at every stage from question selection to inaccessible reporting, arguing that trial and review output already outpaces any capacity to synthesise it and that full information is available for only about half of all studies {cite:p}`Chan2014, Salman2014, Bastian2010`. Redundant, misleading, or conflicted syntheses are mass-produced far faster than the primary research they digest {cite:p}`IOANNIDIS2016`, undetected software and computation errors propagate silently into published results {cite:p}`Soergel2015`, and a bibliometric mapping of the waste literature itself reveals a large and fast-growing field of concern {cite:p}`Peng2025`. The most frequently repeated single figure — that more than half of preclinical research is irreproducible, at a cost of tens of billions of dollars a year in the United States alone — is influential but rests on a modelled economic estimate whose provenance is not fully transparent, and it is best read as an order-of-magnitude claim rather than a measurement {cite:p}`Freedman2015`. What is not in doubt is the direction: every irreproducible or unreusable animal study converts a welfare cost into waste, which is why stewardship reform is a Reduction intervention and not merely good data hygiene.
+:::{trust-claim}
+:claim-id: clm_449dbd86810a3a68
+:::
+:::{trust-claim}
+:claim-id: clm_37f3cbe09f84b555
+:::
+:::{trust-claim}
+:claim-id: clm_a35f932404488ca0
+:::
 
 If non-stewardship is one rational response to the incentive gradient, questionable research practices are another, and they too are common. The behavioural substrate spans a wide range of severity, and definition drives the headline number. The first meta-analysis of misconduct surveys estimated that around two percent of scientists admit fabricating or falsifying data at least once, with up to a third admitting other questionable practices {cite:p}`Fanelli2009`; a five-country study found that almost all researchers admit using at least one such practice, though measured frequency of any specific practice is far lower {cite:p}`Schneider2024`; and an implicit-association study found that about a fifth of scientists tacitly associate questionable practices with career success while very few connect outright fabrication to success {cite:p}`Velicu2025`. Surveys across Portuguese universities, Amsterdam, and international samples add that admission rises among younger and more prolific researchers and tracks contract type, career stage, and perceived research climate {cite:p}`Entradas2026, Haven2021, Brooker2024`, and a principled taxonomy notes that the most-reported practices are omissions — selective reporting of analyses, citations, and covariates — some of which may under narrow conditions be neutral or even useful {cite:p}`Fanelli2026`. {numref}`fig-sec7-qrp-prevalence` deliberately separates behaviour from attitude to prevent the false comparison the raw numbers invite.
+:::{trust-claim}
+:claim-id: clm_fd152f8f2a2761bc
+:::
+:::{trust-claim}
+:claim-id: clm_6fb2f309e33910be
+:::
 
 :::{figure} ../figures/fig_sec7_qrp_prevalence.png
 :name: fig-sec7-qrp-prevalence
@@ -329,6 +398,24 @@ Whether questionable practices amount to a prevailing norm depends on how preval
 :::
 
 These practices propagate into the published record through selective reporting, analytic flexibility, and spin, all of which are rewarded because positive, clean, novel results publish more easily. Simulations show that even a single flexible-analysis strategy can lift the false-positive rate from five percent to at least thirty {cite:p}`Stefan2023`, drawing on a catalogue of thirty-four researcher degrees of freedom available in designing, running, and reporting a study {cite:p}`Wicherts2016`. When seventy-three independent teams analysed the same data to test the same hypothesis, their numerical results diverged so widely that most of the variance remained unexplained even after every analytic decision had been coded — a direct demonstration of how much latitude a reward for clean results can exploit {cite:p}`Breznau2022`. Text-mining confirms that such flexibility is common across disciplines {cite:p}`Head2015`, and modelling shows how, when negative results publish at a small fraction of the rate of positive ones, false claims can be canonised as fact {cite:p}`Nissen2016`, though a competing model argues that publishing potentially non-replicable studies and replicating selectively can be efficient for the community as a whole {cite:p}`Lewandowsky2020`. The clinical literature supplies the most concrete measurements: spin — reporting that misrepresents nonsignificant results as favourable — appears in roughly half to three-quarters of nonsignificant randomised-trial reports across general medicine, urology, bariatric, vascular, and emergency-medicine specialties, with industry funding raising the odds {cite:p}`Boutron2010, Wu2023, Rassy2021, Nguyen2022, ReynoldsVaughn2020`. Prospective audits find outcome-switching pervasive and its disclosure rare {cite:p}`Goldacre2019b, Kapp2022`, undeclared switching survives even direct correction letters {cite:p}`Goldacre2019a`, and a striking worked example shows an entire therapeutic conclusion evaporating once analysis is restricted to pre-registered primary outcomes {cite:p}`Prior2017`. Selective reporting further compromises the syntheses built on top of trials {cite:p}`Heneghan2017, Littell2026, DumasMallet2021`.
+:::{trust-claim}
+:claim-id: clm_d591e12a81b6b780
+:::
+:::{trust-claim}
+:claim-id: clm_311d4823e432a0d6
+:::
+:::{trust-claim}
+:claim-id: clm_3a40e0de2ca97e32
+:::
+:::{trust-claim}
+:claim-id: clm_750ebe8f7cb3bd99
+:::
+:::{trust-claim}
+:claim-id: clm_2f61be88b70141a5
+:::
+:::{trust-claim}
+:claim-id: clm_54f43e0d81d6c2ec
+:::
 
 :::{admonition} Evidence Conflict
 :class: warning
@@ -336,6 +423,27 @@ The field disagrees about how much analytic flexibility actually distorts the re
 :::
 
 The structural interpretation is sharpened by evidence that these behaviours are not being competed away. Statistical power in the behavioural sciences has not detectably improved across more than fifty years of admonition, which {cite:t}`Smaldino2016` model as natural selection: while publication drives careers, methods that generate more publishable results out-reproduce careful ones, and replication slows but does not halt the deterioration. Independent measurement agrees — median power in cognitive neuroscience and psychology has stagnated at low levels and correlates negatively with journal impact factor {cite:p}`Szucs2017` — and only a small fraction of decades of randomised trials used adequate methods, with inadequate methods rising over time {cite:p}`Catillon2019`. That researchers in more academically productive environments produce more hypothesis-confirming results is consistent with competition inflating bias {cite:p}`Fanelli2010`, and using journal rank as an assessment tool tracks unreliability and retraction rather than quality {cite:p}`Brembs2013`. The link between competitive pressure and bias is nonetheless contested: although more productive environments produced more confirmatory results {cite:p}`Fanelli2010`, a later cross-disciplinary meta-assessment found high-output, highly cited authors were not overall at greater risk of bias, locating inflation instead in small, early-career, and misconduct-prone work {cite:p}`Fanelli2017`. Optimistic syntheses describe a credibility revolution already delivering more negative results and higher-quality registered reports {cite:p}`Korbmacher2023`, yet the stagnation of statistical power over the same half-century warns against mistaking activity for improvement {cite:p}`Szucs2017`. A minority position holds the crisis narrative is itself overstated and that a story of methodological empowerment fits the trends better {cite:p}`Fanelli2018`, though the stagnation-of-power evidence cuts against it and the tension remains open. The lived experience of the incentive gradient is documented directly: publication pressure, precarity, overwork, and burnout are pervasive among early-career and mid-career researchers and are perceived to reward speed and quantity over integrity {cite:p}`Armond2022, Marck2024, Srensen2026`.
+:::{trust-claim}
+:claim-id: clm_3268bc70c2d47faa
+:::
+:::{trust-claim}
+:claim-id: clm_049fd238873333b6
+:::
+:::{trust-claim}
+:claim-id: clm_3f0383c9cfdc9fc5
+:::
+:::{trust-claim}
+:claim-id: clm_a87e5450ad848dff
+:::
+:::{trust-claim}
+:claim-id: clm_bdba9ede8c153c1f
+:::
+:::{trust-claim}
+:claim-id: clm_7e8f6c8a70191989
+:::
+:::{trust-claim}
+:claim-id: clm_3cea502274c7f660
+:::
 
 :::{admonition} Evidence Conflict
 :class: warning
@@ -343,6 +451,15 @@ Whether the debt can be repaid without changing incentives is the central disput
 :::
 
 At the extreme of the same gradient lies fraud at industrial scale, where the incentive to produce publications is met by a market that manufactures them. An earlier systematic screen of more than twenty thousand articles had reported several percent as containing inappropriately duplicated images — a prior baseline that {cite:t}`Richardson2025` invoke when they show the broker entities enabling fraud are large, resilient, and growing faster than legitimate science. Detection-based estimates now run well above self-report: a forensic red-flagging method estimates several percent of the biomedical literature to be outright fakes {cite:p}`Sabel2025a`, a machine-learning classifier flagged nearly a tenth of millions of cancer papers as potential paper-mill products {cite:p}`Scancar2026`, and formulaic single-factor papers exploiting open health databases have exploded from a handful per year to hundreds {cite:p}`Suchak2025`. Reviews trace this flood squarely to academic pressure and monetary publication incentives {cite:p}`Wittau2024, Kocyigit2025`, and the same reward logic drives authorship inflation, gift and honorary authorship, salami-slicing, and citation gaming {cite:p}`Marcelino2026, Ioannidis2023a, Pruschak2022, Ding2019`.
+:::{trust-claim}
+:claim-id: clm_ff6e9d39d3764d18
+:::
+:::{trust-claim}
+:claim-id: clm_4958a1a65a102cfc
+:::
+:::{trust-claim}
+:claim-id: clm_d950b04f2fd7b0f0
+:::
 
 :::{admonition} Evidence Conflict
 :class: warning
@@ -350,8 +467,35 @@ Estimates of fabrication diverge by an order of magnitude according to method. A
 :::
 
 Against this structural pessimism stands a genuine counter-argument that must be taken seriously: incentives are already shifting. The Declaration on Research Assessment and allied reforms press institutions away from journal metrics; registered reports raise the publication of null findings and are perceived as higher quality {cite:p}`Nosek2018, Allen2019`; the multi-site replication projects and standing laboratory networks that first exposed the crisis have themselves become durable reform infrastructure {cite:p}`OpenScienceCollaboration2015, Nosek2022, Neves2020`; open-practice badges lifted reported open data at one journal from near-baseline to nearly forty percent {cite:p}`Kidwell2016, Giofre2017`; transparency ratings offer an alternative to the impact factor {cite:p}`MayoWilson2021`; minimum-reporting frameworks operationalise transparency at the article level {cite:p}`Macleod2021`; and integrity-based assessment principles propose rewarding the behaviours that strengthen science {cite:p}`Moher2018, Moher2020`. Open practices are moreover associated with tangible career returns — more citations, attention, and opportunities {cite:p}`McKiernan2016` — a citation advantage that is real but inconsistent across studies for open access {cite:p}`Klebel2025`, clearer in single-field analyses {cite:p}`Friederichs2026, Migliorini2026`, and more robust — roughly nine percent more citations — for open data {cite:p}`Klebel2025`, while a compulsory open-data mandate causally raised a journal's citations {cite:p}`Zhang2021`. Narrative curricula vitae and article-level metrics are being piloted to make stewardship visible in evaluation {cite:p}`AubertBonn2025, Albert2025, Malicki2026, Arabi2025`, field-normalised article-level indicators and national responsible-evaluation systems offer further templates {cite:p}`Hutchins2016, MillonesGomez2026`, and consensus reform agendas, funder integrity plans, and training programmes have proliferated worldwide {cite:p}`AubertBonn2022, Horbach2022, Westmore2023, Kebenei2026`.
+:::{trust-claim}
+:claim-id: clm_1b2176fe7acfe895
+:::
+:::{trust-claim}
+:claim-id: clm_aed8c9a42a3d03f5
+:::
+:::{trust-claim}
+:claim-id: clm_4e0e9f4cb6e2df6d
+:::
 
 The rebuttal is that these instruments have so far moved metrics far more reliably than behaviour. The declared-versus-actual gap is itself the primary evidence: a policy requirement to state a data-sharing intention produced almost no usable public data {cite:p}`Danchev2021`, and the same attitude-behaviour gap recurs among the gatekeepers, where most journal editors endorse transparency guidelines yet do not prioritise or intend to implement them {cite:p}`Naaman2023, Toomey2025`. Uptake studies find open practices spreading only modestly and largely independent of local institutional support {cite:p}`Brohmer2025`, and a pre-post evaluation captured the pattern exactly — engagement with open-science tooling rose sharply while concrete outputs such as preregistrations, protocols, and shared datasets remained essentially absent both before and after {cite:p}`Cenci2025`. Cross-national surveys find awareness of the reproducibility problem near-universal even where successful replication remains rare {cite:p}`Chakravorti2025`, coordinated replication efforts in fields beyond psychology continue to report low success rates {cite:p}`Murphy2025a`, and where open practices are becoming normative it is so far within isolated subfields rather than across the system {cite:p}`Eben2026`. Most damningly, a scoping review found that of more than a hundred studies of reproducibility interventions, only a handful measured reproducibility itself; the rest measured proxies presumed to help {cite:p}`Dudda2025`, and a matched comparison found preregistered studies no less likely to report positive results than their non-preregistered counterparts, even as they improved power {cite:p}`vandenAkker2023`. When a signalling device becomes a reward in its own right, it can be gamed or hollowed out — the recurring worry that badges and mandates strip preregistration of its methodological function rather than delivering it {cite:p}`Vize2024, Bertin2025`. Empirically, even structured preregistration reduces but does not eliminate researcher degrees of freedom, and independent coders often cannot agree on how many hypotheses a preregistration even states {cite:p}`Bakker2020`.
+:::{trust-claim}
+:claim-id: clm_7aefc45dfb14b142
+:::
+:::{trust-claim}
+:claim-id: clm_08e44eebd472062a
+:::
+:::{trust-claim}
+:claim-id: clm_2e0ca6e0360be8d1
+:::
+:::{trust-claim}
+:claim-id: clm_fd3af7e9d3ae7a25
+:::
+:::{trust-claim}
+:claim-id: clm_a2884d6b2781397b
+:::
+:::{trust-claim}
+:claim-id: clm_07c7236fe950f853
+:::
 
 :::{admonition} Evidence Conflict
 :class: warning
@@ -366,6 +510,9 @@ The field is split on whether quantitative evaluation can be reformed or must be
 :::
 
 Taken together, the evidence supports a single conclusion. The persistence of the data-welfare debt across FAIR data, virtual control groups, and non-animal methodologies is not a technical accident but the predictable output of an incentive system that rewards publication counts and journal impact while pricing stewardship at near-zero, under which questionable practices, selective reporting, and — at the margin — fraud are rational, and under which declared openness vastly exceeds usable reality. Reform proposals are real and multiplying, and their diagnosis is now broadly shared, from proposals to restructure publication incentives {cite:p}`Nosek2012, Trueblood2025` to the systemic overhaul urged decades ago {cite:p}`Alberts2014` and the recent declarations reframing metric-gaming as an existential threat {cite:p}`Sabel2025b`. But the evidence that these reforms change behaviour rather than metrics remains thin, and the instruments that do work — badges with verification, mandates that are checked — succeed precisely where they add enforcement to mere endorsement. If incentives explain why voluntary stewardship fails, the question that follows is what enforced standards, mandates, and reporting guidelines can actually achieve, and where they fall short — and the distinction between the merely endorsed and the actually enforced is exactly where {ref}`sec-governance` begins. The thread it opens runs on to the review's {ref}`sec-conclusion`: repaying the debt in animal lives, and not merely in metrics, will require changing what the system counts.
+:::{trust-claim}
+:claim-id: clm_c1b69bd6232b1724
+:::
 
 :::{evidence-explorer}
 :section: section_07

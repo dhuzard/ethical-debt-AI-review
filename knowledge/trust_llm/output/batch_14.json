@@ -1,0 +1,818 @@
+{
+ "clm_0864ced1e0684459": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Modality established is appropriate for two convergent systematic/audit findings, but the '<7% permissible' and 'analgesia unreported in the overwhelming majority' figures are stated flatly and the analgesia figure is Pound2018's alone (misattributed to the Pound2018+Bara2014 pair).",
+   "evidence": ["Pound2018: <7% of studies minimised harm while benefiting humans", "Bara2014: 22% met composite anaesthesia/pain-control/euthanasia outcome"],
+   "failure_modes": ["Attribution of the 97%-no-analgesia figure spread across both cites when it belongs to Pound2018"],
+   "recommended_fix": "Attach the analgesia figure to Pound2018; keep Bara2014 for the broader welfare under-reporting point."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Generalisation to 'preclinical studies' stays within the study systems (preclinical drug-class studies; critical-care animal research); no track 3/4 flag.",
+   "evidence": ["study_system: preclinical animal studies (rats, rabbits, primates)", "study_system: critical care animal research (mammals)"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "preclinical animal studies (drug classes; rats/rabbits/primates)", "computational": null, "clinical": null, "methodological": "welfare/analgesia and harm-benefit reporting", "conceptual": "ethical permissibility of animal research"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_81394d9bf226b599": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "A partly definitional, partly causal argument stated with a strong necessity ('the only way to regenerate knowledge from live tissue is to use more animals'); modality likely fits, and the surrounding text bounds it to the demonstrated reuse mechanism.",
+   "evidence": ["Kramer2015: historical controls can halve current control subjects", "Verderio2023: too many/too few EUs both costly"],
+   "failure_modes": ["Necessity phrasing slightly stronger than the mechanism-level support"],
+   "recommended_fix": "None required; retain as mechanism-bounded projection."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Critic track 3 flags this as the review's strongest generalisation; defensible at the reuse-mechanism level (Kramer2015) but extends to a general 'lost data -> more animals' law.",
+   "evidence": ["critic_prior track 3: defensible at mechanism level, strongest generalization"],
+   "failure_modes": ["Mechanism-to-field extrapolation"],
+   "recommended_fix": "Keep the mechanism plus acknowledged-projection framing already present."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "animal experiments / live tissue", "computational": "historical-control simulation", "clinical": null, "methodological": "Reduction / experimental design and data reuse", "conceptual": "Reduction as a claim about information"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_8c3b964e6f850717": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "A suggestive, single-study/unreplicated causal loop stated fairly flatly ('therefore not a downstream inconvenience but a driver of new animal use'); has_conflict_source is true (reform optimism vs natural-selection) but the wording surfaces no caveat.",
+   "evidence": ["replication: single-study, unreplicated", "conflict_notes: reform optimism vs natural-selection model", "Smaldino2016 model; Freedman2015 modelled economic estimate"],
+   "failure_modes": ["Unsurfaced reform-vs-selection conflict", "Modelled inputs presented as mechanism"],
+   "recommended_fix": "Add a hedge acknowledging the reform-optimism counter-model and the modelled nature of the inputs."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Smaldino2016 is behavioural-science power modelling and Freedman2015 US preclinical economics; the claim generalises to 'the field' running underpowered animal studies, a mild cross-domain extension.",
+   "evidence": ["study_system: behavioural sciences (power model)", "study_system: US preclinical (economic modeling)"],
+   "failure_modes": ["Behavioural-science model extended to preclinical animal field"],
+   "recommended_fix": "Note the model's home discipline when transferring the incentive argument."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "suggestive",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "underpowered/unblinded animal studies", "computational": "power and irreproducibility models", "clinical": null, "methodological": "reporting incentives and replication", "conceptual": "self-reinforcing reward-structure loop"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_9ed827bfb1000151": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The euthanasia-stressor half is directly and well supported (LaFollette2020); the 'disproportionately killed without ever entering an analysis' half is asserted while Persson2024 only partially supports the moral-status framing.",
+   "evidence": ["LaFollette2020: compassion fatigue linked to less control over euthanasia", "Persson2024: philosophical welfarist view of animal death (partial)"],
+   "failure_modes": ["Surplus-killing proportion stated without a direct quantitative source"],
+   "recommended_fix": "Cite a surplus-animal quantification for the 'killed without entering analysis' clause."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Claims about personnel stress stay within the cited US/Canada lab-personnel study; the death-harm framing stays within the animal-ethics source.",
+   "evidence": ["study_system: US/Canada laboratory animal personnel", "study_system: animal research ethics"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "laboratory animals (surplus/euthanasia)", "computational": null, "clinical": null, "methodological": null, "conceptual": "moral harm of animal death and human welfare cost"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_dc7864ab1c292b10": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "A self-referential 'central conceptual contribution' framing asserted fairly confidently; citations establish the substrate (welfare cost, data non-sharing) rather than the value-claim, and has_conflict_source is true (FAIR sharing reality disputed).",
+   "evidence": ["Pound2018 welfare-benefit balance", "Hamilton2023 data-availability meta-analysis", "conflict_notes: ~2% availability vs purpose-built FAIR archive"],
+   "failure_modes": ["Self-assessment of novelty not directly citable"],
+   "recommended_fix": "Frame the contribution as an interpretive framing rather than an established fact."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Generalises to 'the 3Rs' and 'the field' from a preclinical harm-benefit review plus a medical meta-analysis; a moderate conceptual broadening.",
+   "evidence": ["study_system: preclinical animal studies", "study_system: medical/health-sciences meta-analysis"],
+   "failure_modes": ["Medical meta-analysis carried into an animal-research framing"],
+   "recommended_fix": "Keep the framing tied to the animal-data context it names."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "definition",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": "preclinical animal welfare", "computational": null, "clinical": null, "methodological": "data sharing and the 3Rs", "conceptual": "the discarded-byte loop as located harm"},
+  "evidence_relation": "indirectly_supported",
+  "cap_flags": []
+ },
+ "clm_fb1d50db88cb438f": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly surfaces the declared-vs-delivered conflict, notes that even shared data score poorly on reusability, and conditions realized reuse on repository enforcement; conflict is directly represented rather than suppressed.",
+   "evidence": ["VanTuyl2016: 76% of projects scored 0", "Markiewicz2021: 165 reuse publications from an enforced archive", "conflict_notes: FAIR/CARE and declared-vs-actual sharing"],
+   "failure_modes": ["'~2%' figure is Hamilton2023's, loosely anchored here (MINOR)"],
+   "recommended_fix": "Co-cite Hamilton2023 for the ~2% anchor or soften to 'far below declared availability'."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Generalises about the 'generic FAIR ecosystem' from a foundational statement, NSF projects at one university, and OpenNeuro; critic track 3 flags mild figure/scope inflation.",
+   "evidence": ["study_system: NSF projects at Oregon State", "study_system: OpenNeuro archive", "critic_prior track 3: figure precision / mild scope inflation"],
+   "failure_modes": ["Single-institution and single-archive evidence generalised ecosystem-wide"],
+   "recommended_fix": "Keep repository-specific enforcement claims tied to their archives."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": null, "computational": "FAIR data ecosystems and repositories (OpenNeuro, NSF projects)", "clinical": null, "methodological": "data stewardship, reusability, deposit standards", "conceptual": "FAIR declared vs delivered"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_ad180950f11e8449": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Well calibrated: 'roughly a quarter', 'conditional on endpoint-specific concordance', and 'still unaccepted by any regulator for a pivotal preclinical study' surface both the magnitude conflict (25% vs 30%) and the acceptance limitation.",
+   "evidence": ["Gurjanov2024b: up to 25% reduction", "SATO2024: approximately 30%", "DuchateauNguyen2026: 68.5% of comparisons >=90% agreement", "conflict_notes: magnitude and concordance disputes"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Stays within regulatory toxicology (rodent 28-day, Wistar rat liver enzymes, Japanese tox) and explicitly bounds acceptance to pivotal preclinical studies; critic track 3 notes the broader 'saves animals' generalisation.",
+   "evidence": ["study_system: 28-day rodent toxicity; Wistar Han rat liver enzymes", "critic_prior track 3: strongest generalization"],
+   "failure_modes": ["Endpoint-specific tox results carried toward a general Reduction estimate"],
+   "recommended_fix": "Keep the estimate framed as endpoint-conditional."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "regulatory toxicity studies (rodents, Wistar rat)", "computational": "virtual control groups from historical control data", "clinical": null, "methodological": "VCG-CCG concordance and Reduction", "conceptual": "regulatory acceptance of reuse"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_eb57cdac4bcd4c3b": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Balances documented predictivity 'for narrow endpoints' against the relocation of the debt into high-dimensional non-animal datasets with the same variable readouts; has_conflict (regulatory readiness; MPS promise vs adoption) is represented in the wording.",
+   "evidence": ["Carmichael2022: NAMs appropriate in certain settings, adoption slow", "Kato2022: appreciable within/among-study variability in liver MPS", "conflict_notes: NAM readiness and MPS adoption reality"],
+   "failure_modes": ["'sometimes high predictivity' generalised from narrow endpoints"],
+   "recommended_fix": "None required; keep the narrow-endpoint qualifier."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "The variability point rests on one liver-MPS study (Kato2022) yet is generalised to 'non-animal methods' broadly; chemical-safety and NGRA sources are appropriately scoped.",
+   "evidence": ["study_system: liver microphysiological system (Kato2022)", "study_system: NGRA for chemical ingredients"],
+   "failure_modes": ["Single-MPS variability extended to NAMs generally"],
+   "recommended_fix": "Tie the variable-readout claim to the MPS evidence base."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "non-animal methods / microphysiological systems (liver MPS)", "computational": "high-dimensional non-animal datasets (FAIR + AI)", "clinical": null, "methodological": "NAM validation and data curation", "conceptual": "relocation of the ethical debt"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_ccd63f71a387164b": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly frames control-data reuse as 'double-edged' and states it 'can mislead as readily as it can save animals', representing the contested carcinogenicity historical-control dispute rather than asserting a single verdict.",
+   "evidence": ["Panzacchi2025: RI/NTP historical control databases used to support tumour increases", "Aguilar2017: regulatory panel questions historical-control adequacy", "conflict_notes: adequacy of historical controls disputed"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stays within rodent lifetime carcinogenicity / regulatory tox where the marginal-tumour dispute lives.",
+   "evidence": ["study_system: Sprague-Dawley rat carcinogenicity", "study_system: Swiss mice carcinogenicity (sucralose)"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "rodent lifetime carcinogenicity (rats, mice)", "computational": "historical control databases", "clinical": null, "methodological": "outlier-robust reuse of historical controls", "conceptual": "reuse as double-edged"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_4e8ad9a3fd5c8f66": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Hedged summary ('none is self-executing', 'immature FAIR adoption'), but it is carried by a single scoping review (mechanical robustness 1) generalised across all mechanisms; has_conflict (FAIR translates to sharing or not) is not surfaced here.",
+   "evidence": ["Inau2023: 68% of publications reported FAIRification outcomes/future work", "mechanical robustness: 1", "conflict_notes: FAIR-to-actual-sharing dispute"],
+   "failure_modes": ["Single-source generalisation across VCG/NAM/FAIR"],
+   "recommended_fix": "Lean on the mechanism-specific claims in adjacent paragraphs for support."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "A health-research FAIR scoping review is extended to 'each mechanism'; the specifics are carried elsewhere, keeping this a bounded summary rather than a hard overreach.",
+   "evidence": ["study_system: health research data FAIR initiatives"],
+   "failure_modes": ["FAIR-review scope stretched to all reduction/replacement mechanisms"],
+   "recommended_fix": "Attribute the immature-adoption point to FAIR and let the other mechanisms be evidenced in their own claims."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": null, "computational": "FAIR data adoption", "clinical": null, "methodological": "reduction/replacement mechanisms and stewardship", "conceptual": "levers are not self-executing"},
+  "evidence_relation": "indirectly_supported",
+  "cap_flags": []
+ },
+ "clm_fb7a3c890857ab8e": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The reward-structure diagnosis is well evidenced (RPT publication metrics; 46% do not share data) and stated as established; 'pricing data stewardship at essentially zero' is rhetorical but defensible, and the cross-mechanism recurrence is a synthesis beyond the three cites.",
+   "evidence": ["Rice2020/McKiernan2019: publication-count criteria in RPT documents", "Fecher2015: 46% do not make data available"],
+   "failure_modes": ["'recurs across FAIR/VCG/NAM' broader than the cited incentive studies"],
+   "recommended_fix": "Anchor the cross-mechanism claim to the mechanism-specific sections."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "RPT-guideline and researcher-survey evidence (general academia) is transferred to animal-data stewardship; a reasonable but unflagged domain move.",
+   "evidence": ["study_system: international/US-Canada university RPT guidelines", "study_system: academic researchers survey"],
+   "failure_modes": ["General academic incentives applied to preclinical data stewardship"],
+   "recommended_fix": "Note that the incentive evidence is general-academic."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": "data sharing (FAIR)", "clinical": null, "methodological": "RPT criteria and stewardship incentives", "conceptual": "reward structure / political economy"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_270f91cf2756a98e": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "'fraud-enabling operations are growing faster than legitimate science' is a strong assertion; has_conflict (QRP prevalence: prevailing norm vs one-time involvement not systemic) is not surfaced, so a contested reading is stated flatly.",
+   "evidence": ["Schneider2024: 94% admitted at least one QRP", "Richardson2025: 3.8% duplicated images, paper mills", "conflict_notes: QRP-prevalence interpretation"],
+   "failure_modes": ["'growing faster than legitimate science' outruns the image-screening source", "Unsurfaced QRP-interpretation conflict"],
+   "recommended_fix": "Hedge the growth claim and note the one-time-involvement counter-reading."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Behavioural-science, multi-country survey, and biomedical image-screening evidence generalised to 'science' as a whole; a mild overextension.",
+   "evidence": ["study_system: behavioural sciences", "study_system: researchers DK/UK/USA/Croatia/Austria", "study_system: biomedical image screening"],
+   "failure_modes": ["Field-specific QRP/fraud rates generalised across science"],
+   "recommended_fix": "Bound the fraud-growth claim to the biomedical paper-mill evidence."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "QRPs, selective reporting, non-sharing", "conceptual": "political economy of incentives and fraud"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_6a4328516f3937c8": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The quantitative core (near-universal declarations, <1% usable data) is precise and fully supported by Danchev2021; 'voluntary virtue has failed for a generation' is a broad framing, and the conflict that verified-voluntary badges DID work is not surfaced here.",
+   "evidence": ["Danchev2021: 0.6% of declaring articles had actually available IPD", "conflict_notes: mandate near-zero vs voluntary badge-plus-verification"],
+   "failure_modes": ["Generation-scale 'voluntary virtue failed' framing broader than the cited mandate audit"],
+   "recommended_fix": "Note that verified voluntary incentives are the contrasting success case."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "A JAMA/Lancet/NEJM clinical-trial audit is generalised to 'the field'; a defensible but unflagged clinical-to-general transfer.",
+   "evidence": ["study_system: 487 clinical trials in JAMA/Lancet/NEJM"],
+   "failure_modes": ["Clinical-trial mandate result generalised field-wide"],
+   "recommended_fix": "Keep the <1% figure tagged as clinical-trial data."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": "usable public trial data", "clinical": "clinical trials (JAMA/Lancet/NEJM)", "methodological": "data-availability mandate vs declaration", "conceptual": "voluntary vs mandated stewardship"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_61bd9cdd91c77cf6": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "Rhetorically asserts three examples as 'the same inert policy'; contested modality, and one mapped cite (Gant2026) does not address author credit while Hamilton2022's denominator is mischaracterised (MUST_FIX), weakening the support behind the confident framing.",
+   "evidence": ["critic_prior MUST_FIX: Hamilton2022 denominator mismatch (1/306 met FAIR)", "critic_prior MINOR: Gant2026 does not discuss author credit"],
+   "failure_modes": ["Confident tri-partite claim with a mismapped source and a misstated denominator"],
+   "recommended_fix": "State the Hamilton2022 denominator correctly and add an incentive-facing source for the credit clause."
+  },
+  "transferability_scope_control": {
+   "score": 2,
+   "rationale": "Spans VCG toxicology, cancer-article FAIR audits, and NAM datasets; the 'earns its author no credit' predicate overextends beyond Gant2026's workshop scope, and critic track 3 flags figure/scope inflation.",
+   "evidence": ["critic_prior track 3: figure precision / mild scope inflation", "Gant2026 scope: AI/ML in chemical risk assessment, not credit/evaluation"],
+   "failure_modes": ["Credit predicate applied to a source that does not support it"],
+   "recommended_fix": "Drop the credit predicate for Gant2026 or add an evaluation-incentive citation."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": -1,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "regulatory toxicology (VCG)", "computational": "FAIR mandates and NAM datasets", "clinical": null, "methodological": "policy enforcement and author credit", "conceptual": "inert policy as the enabling condition"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_29f4782e7019512e": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly presents the field as 'split', laying out both poles (metrics re-engineerable for good vs inherently corrupting and to be abandoned); the conflict is surfaced rather than resolved.",
+   "evidence": ["Ioannidis2023b: metrics could help if rigorous/field-adjusted/centralized", "Gadd2021: rankings analogous to problematic GDP use", "conflict_notes: reform vs abandon metrics"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Researcher-assessment metrics and university rankings evidence generalised to 'quantitative metrics' broadly; a mild broadening from the ranking-specific critique.",
+   "evidence": ["study_system: researcher assessment metrics", "study_system: global university rankings"],
+   "failure_modes": ["University-ranking critique extended to metrics generally"],
+   "recommended_fix": "Keep the anti-metrics pole tied to the ranking evidence."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "quantitative research metrics and rankings", "conceptual": "metrics reformable vs inherently corrupting"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_83f9454b1cd95245": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "Frames a heterogeneous, disputed literature as neatly 'resolving into a pattern' by endorsed-vs-enforced; the IICARus-type null (a mandated checklist at peer review that did not improve compliance) is not surfaced, so a contested finding is presented as settled.",
+   "evidence": ["Hair2019: checklist at submission changed little (0.9% vs 1.5%)", "Macleod2019b: NPG Landis-4 rose 0/203 -> 31/181", "critic_prior SHOULD_CAVEAT: enforced-checklist randomised trial null"],
+   "failure_modes": ["'Resolve into a pattern' overstates a still-disputed literature"],
+   "recommended_fix": "Add the enforced-at-peer-review null result as a nuance to the enforcement thesis."
+  },
+  "transferability_scope_control": {
+   "score": 2,
+   "rationale": "Critic track 4 flags that the largest 'enforcement works' magnitudes come from psychology (Kidwell2016), transferred without note into an animal/preclinical section.",
+   "evidence": ["critic_prior track 4: field-provenance (Psychological Science)", "study_system: Psychological Science + comparison journals"],
+   "failure_modes": ["Psychology open-data effects imported into the animal-research argument unflagged"],
+   "recommended_fix": "Add a clause noting the largest enforcement effects come from psychology/ecology journals."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "in vivo animal manuscripts (PLOS ONE, NPG)", "computational": "open-data signals", "clinical": null, "methodological": "reporting checklists: endorsement vs enforcement", "conceptual": "enforcement as the operative variable"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_81e8eab97ea0932e": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Reports 96.5% provision accurately, but 'confirming that the operative variable is verification rather than the requirement itself' is a strong causal generalisation from a single ecology-journal study.",
+   "evidence": ["IvimeyCook2025: 96.5% provided data/code via link or supplement", "conflict_notes: enforced 96.5% vs voluntary near-zero"],
+   "failure_modes": ["'confirming' promotes one study to a general causal principle"],
+   "recommended_fix": "Soften 'confirming' to 'consistent with' the verification hypothesis."
+  },
+  "transferability_scope_control": {
+   "score": 2,
+   "rationale": "Critic track 4 flags that this ecology/evolution result is imported into an animal/preclinical section without noting the field provenance.",
+   "evidence": ["critic_prior track 4: field-provenance (ecology/evolution)", "study_system: ecology and evolution journals"],
+   "failure_modes": ["Ecology-journal mandate result generalised to preclinical data policy"],
+   "recommended_fix": "Flag the ecology/evolution provenance of the 96.5% figure."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "established",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "ecology/evolution research (field provenance)", "computational": "data/code provision", "clinical": null, "methodological": "mandatory checked data/code policy; verification", "conceptual": "verification vs bare requirement"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_93764471efaa7066": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Reasoned conclusion ('the binding constraint is enforcement, not the absence of a standard') supported by the guideline count and the ARRIVE Essential-10 reorganisation; the 'decade of endorsement failed to lift reporting' premise is asserted and evidenced elsewhere.",
+   "evidence": ["Christensen2026: 673 currently listed guidelines", "PercieduSert2020a: ARRIVE Essential 10 as minimum requirement"],
+   "failure_modes": ["Endorsement-failure premise not directly quantified in the cited pair"],
+   "recommended_fix": "Cross-reference the endorsement-failure evidence explicitly."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stays within the reporting-guideline / in vivo ARRIVE domain the claim is about.",
+   "evidence": ["study_system: EQUATOR reporting-guideline landscape", "study_system: in vivo animal research reporting"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": "in vivo animal research reporting", "computational": null, "clinical": null, "methodological": "reporting guidelines; ARRIVE Essential 10; enforcement", "conceptual": "enforcement as the binding constraint"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_4b972167fb35dabd": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Balances the registration rise against reporting decay-where-unaudited and rise-where-monitored; the 'fivefold' figure is a conservative rounding of a ~7x rise, and the monitoring contrast is directly supported.",
+   "evidence": ["Viergever2015: 3294 (2004) -> 23,384 (2013) registrations", "Goldacre2018: 49.5% of due trials reported results"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Factual claims stay within clinical-trial registries (ICTRP, EU register); the link to the animal-data argument is offered explicitly as an analogy ('the same story').",
+   "evidence": ["study_system: ICTRP global registration", "study_system: EU Clinical Trials Register"],
+   "failure_modes": ["Analogy to preclinical data is stated but not evidenced there"],
+   "recommended_fix": "Keep the analogy flagged as such."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": null, "computational": null, "clinical": "clinical trials (ICTRP, EU register)", "methodological": "registration mandate; results reporting; monitoring/naming", "conceptual": "enforcement and audit move behaviour"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_91d1129b610834bc": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Surfaces the conflict well ('field-wide sharing remains near the ~2% floor even as concentrated local stewardship can lift it severalfold without generalising') and concedes heterogeneous, frequently small effects; IACUC-limit claim rests on a single editorial (partial support).",
+   "evidence": ["Pippin2025: IACUC approval should not be taken as ethical adherence (partial)", "Deeb2025: 7% (2014) -> 45% (2023) at one institution", "conflict_notes: ~2% vs purpose-built FAIR archive"],
+   "failure_modes": ["'without generalising' is a good hedge but the ~2% anchor is loosely attributed"],
+   "recommended_fix": "Attribute the ~2% floor to Hamilton2023 explicitly."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "The ~2% medical field-wide estimate and a single-institution audit are carried into the animal-governance claim; critic track 3 flags figure precision, though 'without generalising' partly bounds the local-lift result.",
+   "evidence": ["critic_prior track 3: figure precision", "study_system: medical/health-sciences meta-analysis", "study_system: single-institution bioscience audit"],
+   "failure_modes": ["Medical availability floor applied to the animal context"],
+   "recommended_fix": "Tag the ~2% as a medical field-wide estimate."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "established",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "animal research ethics review (IACUC)", "computational": "data sharing (~2% floor)", "clinical": null, "methodological": "ethical review, non-duplication, local stewardship", "conceptual": "governance limits closest to the animal"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_17367efec5306368": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The claim is itself a calibration caveat: it flags the tens-of-billions cost, '85% wasted', and industry-reproducibility figures as modelled/non-transparent and 'best read as order-of-magnitude claims rather than measurements'.",
+   "evidence": ["Freedman2015: 53.3% midpoint from an economic model", "Ioannidis2014c: ~85% of research resources estimated wasted"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Explicitly bounds the interpretation of the figures rather than extending them; stays within the modelled meta-research scope.",
+   "evidence": ["study_system: US preclinical economic modeling", "study_system: meta-research on biomedical practices"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": null, "computational": "economic/waste models", "clinical": null, "methodological": "modelled cost/waste estimates and transparency", "conceptual": "order-of-magnitude vs measurement"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_bc3fc47d1b4ea8b0": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Model of calibrated conflict-surfacing: it explicitly states the minority 'empowerment' view, that the balance weighs against it, that the dispute is genuinely open, and that the review has not overstated the crisis; this is exactly the critic's requested fix.",
+   "evidence": ["Fanelli2018: crisis narrative mistaken; empowerment framing", "Sena2010: only 2.2% of stroke publications reported no significant finding", "critic_prior MUST_FIX: acknowledge the contrarian view (now surfaced)"],
+   "failure_modes": [],
+   "recommended_fix": "None required; the previously suppressed conflict is now surfaced."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Keeps the crisis-vs-empowerment debate within its discourse and cites stroke-model evidence appropriately as the majority-side anchor.",
+   "evidence": ["study_system: reproducibility discourse (opinion)", "study_system: animal stroke models (CAMARADES)"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "contested",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": "animal stroke models", "computational": null, "clinical": null, "methodological": "reproducibility-crisis evidence", "conceptual": "crisis vs empowerment narrative"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_c85e265eeac6a324": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly about method-dependence: juxtaposes divergent non-publication estimates (~50% survey vs ~54-70% empirical) and concedes the review's own quantitative claims inherit that dependence.",
+   "evidence": ["terRiet2012: ~50% of experiments estimated published (survey)", "Deutsch2021: 54.4% vs 48.3% response by publication status (empirical tracking)", "conflict_notes: 50% survey vs 70% empirical"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Both estimates concern animal-study publication rates (Netherlands survey; Germany proposals); no overextension.",
+   "evidence": ["study_system: laboratory-animal researchers survey (Netherlands)", "study_system: animal-study proposals (Germany)"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "contested",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": "animal experiments (publication tracking)", "computational": null, "clinical": null, "methodological": "estimate method-dependence; non-publication rates", "conceptual": "juxtaposition vs single anchors"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_e0a6c49c1b16322a": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "A disciplined self-limitation: the data-welfare construct is declared load-bearing only where data could genuinely have been banked/reused and 'merely rhetorical' otherwise, explicitly refusing to equate every unshared file with animal suffering.",
+   "evidence": ["Pound2018: harm-benefit balance of real studies", "Kramer2015: reuse can reduce control animals", "critic_prior track 3: strongest generalization, bounded"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "The claim itself draws the scope boundary of its central construct, guarding against overextension.",
+   "evidence": ["claim text bounds the construct to reusable-data cases"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "established",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": "animal welfare / physical harms", "computational": "data banking and reuse", "clinical": null, "methodological": "reuse feasibility", "conceptual": "boundary of the data-welfare construct"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_83c17c7f48a7ff91": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Honestly bounds the review's advice: flags the ~2% anchor as a field-wide medical estimate and notes the standardise-vs-heterogenise prescription is unresolved, representing the genuine conflict.",
+   "evidence": ["Hamilton2023: medical field-wide availability", "Voelkl2018: single-lab studies failed to predict true effect in >50% of cases", "Richter2011: heterogenization too weak to fix reproducibility"],
+   "failure_modes": ["Voelkl2018 is misattributed elsewhere in the section as 50 studies rather than 440 (MUST_FIX)"],
+   "recommended_fix": "Correct the Voelkl2018 sample size to 440 studies across 13 interventions."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "The claim itself flags that the ~2% availability figure is a field-wide medical estimate, controlling the scope explicitly even as it applies the lesson to animal studies.",
+   "evidence": ["claim text tags the ~2% as a field-wide medical estimate"],
+   "failure_modes": [],
+   "recommended_fix": "None required for scope."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": -1,
+  "claim_type": "limitation",
+  "modality": "established",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": "preclinical animal studies (standardise vs heterogenise)", "computational": "data availability (~2%)", "clinical": "medical field-wide availability estimate", "methodological": "reuse prescription; multi-laboratory design", "conceptual": "bounded operational advice"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_910209d9e3210046": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly states it 'remains unproven' that FAIRification causally increases reuse, that optimistic reviews and pessimistic audits disagree, and that even the direction is uncertain; the automated-FAIRification-injects-deficiencies clause is now backed by Tahar2026.",
+   "evidence": ["Inau2023: optimistic FAIRification review", "VanTuyl2016: 76% scored 0 in a retrieval audit", "Tahar2026: 1988 DQ issues, 1977 induced by FAIRification"],
+   "failure_modes": [],
+   "recommended_fix": "None required; the previously unsupported clause now has Tahar2026."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Health-research FAIR, NSF projects, and rare-disease EHR evidence generalised to FAIRification broadly; critic track 3 flags mild figure/scope inflation.",
+   "evidence": ["critic_prior track 3: figure precision", "study_system: rare-disease EHR data (Tahar2026)"],
+   "failure_modes": ["Domain-specific FAIRification results generalised to reuse causality overall"],
+   "recommended_fix": "Note the source domains when generalising the causality question."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "uncertain",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": null, "computational": "FAIRification and data reuse", "clinical": "rare-disease EHR data", "methodological": "causal evaluation of FAIR; automated FAIRification", "conceptual": "availability vs reuse causality"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_e97437bb3da8798d": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly states regulator acceptance is 'not yet known' and that endpoint-dependence plus temporal/cross-lab drift may split the answer for categorical vs continuous endpoints, representing the high-agreement vs high-non-reproducibility conflict.",
+   "evidence": ["DuchateauNguyen2026: 68.5% of comparisons >=90% agreement", "Adedeji2024: 31/40/49% of clinical-pathology parameters not reproducible", "Kellner2025: study-year the largest drift factor"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stays within regulatory toxicology (Wistar rat, clinical pathology, ViCoG); endpoint distinctions are drawn from the cited evidence.",
+   "evidence": ["study_system: Wistar rat toxicity; clinical pathology; VCG vs CCG"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "contested",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": "regulatory toxicity studies (rat; clinical pathology)", "computational": "VCG concordance; historical-control drift", "clinical": null, "methodological": "endpoint-dependent validation", "conceptual": "regulatory acceptance of VCGs"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_08d24aa82d7ea119": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Appropriately hedged ('suggests', 'a meaningful share'), but the inference from an external-control share in oncology approvals to a preclinical acceptance being 'a matter of validation and precedent rather than of principle' is an analogical leap.",
+   "evidence": ["Pignatti2026: 17% of EMA cancer drugs 2016-2021 used an external control arm", "Harrell2024: virtual controls under regulatory scrutiny (partial)"],
+   "failure_modes": ["Clinical-to-preclinical analogy carries the inferential weight"],
+   "recommended_fix": "Keep 'suggests' and flag the clinical-to-preclinical extrapolation."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Transfers an oncology clinical-approval statistic to preclinical VCG acceptance; a notable but explicitly hedged cross-domain move.",
+   "evidence": ["study_system: oncology regulatory approvals (EMA)"],
+   "failure_modes": ["Clinical external-control acceptance used to infer preclinical acceptance"],
+   "recommended_fix": "Bound the analogy to a plausibility argument."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "preclinical VCG acceptance", "computational": "external/virtual control arms", "clinical": "oncology regulatory approvals (external control arm)", "methodological": "validation and precedent vs principle", "conceptual": "the acceptance gap"},
+  "evidence_relation": "indirectly_supported",
+  "cap_flags": []
+ },
+ "clm_512370ff7c0fc517": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "States plainly that it is 'unproven' whether reform changes behaviour vs metrics, that the manifesto and natural-selection model make opposite predictions, and that only a handful of >100 intervention studies measured reproducibility itself; conflict fully surfaced.",
+   "evidence": ["Munafo2017: power persistently below 50% (manifesto)", "Smaldino2016: no detectable increase over 50 years (selection model)", "Dudda2025: 15/105 studies directly measured reproducibility"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stays within meta-research on reproducibility interventions; the proxy-vs-outcome point is drawn directly from the scoping review.",
+   "evidence": ["study_system: reproducibility-intervention studies (scoping review)"],
+   "failure_modes": [],
+   "recommended_fix": "None required."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "evaluation reform; reproducibility measurement; proxy outcomes", "conceptual": "behaviour vs metrics; reform vs natural selection"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_a9d0abe3b094f003": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Model self-limitation: concedes the governance->reuse->fewer-animals chain 'has essentially never been quantified' so the central Reduction claim 'rests on a projection rather than a measurement', and names building the measurement infrastructure as a priority.",
+   "evidence": ["PetitDemouliere2026: up to 25% reduction only if standardised data exist", "Wright2023b: best VCG agreement with highest similarity", "Deeb2025: single-institution sharing rise (partial anchor)"],
+   "failure_modes": ["Deeb2025 is single-institution (critic MINOR)"],
+   "recommended_fix": "Keep PetitDemouliere2026/Wright2023b as load-bearing; relocate Deeb2025."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Bounds the review's own central claim as a projection; critic track 2 notes Deeb2025's single-institution generalisation.",
+   "evidence": ["critic_prior track 2: Deeb2025 single-institution", "study_system: behavioral neuroscience; eTOX; institutional audit"],
+   "failure_modes": ["Single-institution audit generalised"],
+   "recommended_fix": "Drop or relocate the single-institution audit."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": "animal use (behavioral neuroscience; toxicology)", "computational": "standardised FAIR control-animal data; reuse tracking", "clinical": null, "methodological": "measuring Reduction; projection vs measurement", "conceptual": "the unmeasured causal link"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_0b811bb560357c82": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The thesis is confidently stated ('real, measurable, self-reinforcing, and repayable') with a conditional hedge ('provided incentive and governance reform makes stewardship count'); 'measurable' sits in tension with the review's own concession elsewhere that the Reduction link has never been quantified.",
+   "evidence": ["Wilkinson2016 FAIR conduit (partial)", "StegerHartmann2020 VCG concept (partial)", "Macleod2019b enforced reporting rise", "critic_prior track 3: strongest generalization, bounded"],
+   "failure_modes": ["'measurable' overstates relative to the projection-not-measurement concession"],
+   "recommended_fix": "Qualify 'measurable' as 'in principle measurable' given the unquantified reuse->animals link."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "A broad synthesis across FAIR, VCG, and NAM stewardship; critic track 3 flags the 'saves animals' generalisation and figure precision, though the conditional bounds it.",
+   "evidence": ["critic_prior track 3: strongest generalization / figure precision", "conflict_notes: FAIR/CARE; VCG magnitude"],
+   "failure_modes": ["Cross-mechanism thesis broader than any single cite"],
+   "recommended_fix": "Keep the conditional and mechanism-bounded framing."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "animal research (VCG, NAM)", "computational": "FAIR data and reuse", "clinical": null, "methodological": "stewardship and enforcement", "conceptual": "the debt is repayable"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_573f75fb2c409b5c": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'the direction of travel is not in doubt even if its pace is' is a confident-but-pace-hedged claim; has_conflict (mandated archives often incomplete) exists, and badges are labelled 'verified/enforced' though they are an opt-in incentive (critic MINOR).",
+   "evidence": ["Kidwell2016: open-data reporting rose after badges", "IvimeyCook2025: 96.5% provision under a checked mandate", "critic_prior MINOR: badges are incentive, not enforcement"],
+   "failure_modes": ["Incentive (badges) conflated with enforcement (mandate)"],
+   "recommended_fix": "Distinguish 'incentivised/verified signal' from 'enforced mandate'."
+  },
+  "transferability_scope_control": {
+   "score": 2,
+   "rationale": "Critic track 4 flags that the strongest effects come from psychology (Kidwell2016) and ecology (IvimeyCook2025), imported into an animal-research section without noting field provenance.",
+   "evidence": ["critic_prior track 4: field-provenance (psychology/ecology)", "study_system: Psychological Science; ecology/evolution journals"],
+   "failure_modes": ["Non-animal enforcement effects generalised to the animal debt"],
+   "recommended_fix": "Add a clause noting the psychology/ecology provenance."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "established",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "psychology/ecology (field provenance)", "computational": "usable open data", "clinical": null, "methodological": "checklist-at-revision; verified open-data signals", "conceptual": "direction of travel"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_b169e87fdfbdf6ff": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The review's strongest thesis, stated as surviving 'every qualification'; 'repaying the debt saves animals' is bounded at the reuse-mechanism level (critic track 3), while a 'public code sharing below half a percent' clause is flagged as not in the source sentence (verify).",
+   "evidence": ["Pound2018 welfare cost", "Kramer2015 reuse reduces control animals", "Hamilton2023 data-waste availability", "critic_prior MINOR: code-sharing figure to verify"],
+   "failure_modes": ["Unverified code-sharing figure; 'survives every qualification' is a strong flourish"],
+   "recommended_fix": "Verify the code-sharing figure against full text."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "'repaying the debt saves animals' is the strongest generalisation; defensible at the demonstrated reuse mechanism but broadened to a thesis (critic track 3).",
+   "evidence": ["critic_prior track 3: strongest generalization, bounded"],
+   "failure_modes": ["Mechanism-level result carried into a normative thesis"],
+   "recommended_fix": "Keep it bounded to the demonstrated reuse mechanism plus acknowledged projection."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "established",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "animals (welfare and lives)", "computational": "data waste and reuse", "clinical": null, "methodological": "data reuse and stewardship", "conceptual": "data waste as a welfare harm; repaying saves animals"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_6af1006246beb6c6": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "Asserts flatly that the duty is 'an obligation the field already holds under the 3Rs', taking the 3Rs-sufficient side without surfacing the has_conflict (3Rs inadequate / 6Rs expansion) - and one cited source, Strech2019, actually argues for expanding the 3Rs.",
+   "evidence": ["Strech2019: proposes preregistration / 6Rs-style expansion", "Verderio2023: 3Rs Reduction and design (partial)", "conflict_notes: 3Rs sufficient vs must be expanded"],
+   "failure_modes": ["Unsurfaced 3Rs-sufficiency conflict; cited source leans the other way"],
+   "recommended_fix": "Acknowledge the 6Rs-expansion counter-position when asserting the obligation is already held."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stays within the animal-research-ethics / 3Rs framing that the claim is about.",
+   "evidence": ["study_system: animal research ethics framework", "study_system: 3Rs / Reduction (EU regulatory)"],
+   "failure_modes": [],
+   "recommended_fix": "None required for scope."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "definition",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": "animal research (3Rs)", "computational": null, "clinical": null, "methodological": "the 3Rs framework", "conceptual": "data stewardship as an existing 3Rs obligation"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ }
+}

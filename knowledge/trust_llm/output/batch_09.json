@@ -1,0 +1,818 @@
+{
+ "clm_03f2ec5f62e9fb4c": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Attributes each viability/function figure to a specific single study ('a liver-islet chip held roughly 99%...') which keeps it honest, but aggregates single-study capability results confidently and does not surface the flagged 3D-readout-reliability conflict here.",
+   "evidence": ["replication=[replication_unknown,single-study]", "has_conflict_source=true (QC study shows inaccurate 3D readout assays)", "numbers hedged with 'roughly'; per-system attribution"],
+   "failure_modes": ["single-study numbers presented as demonstrated capability", "conflict on readout reliability not caveated in this sentence"],
+   "recommended_fix": "Add a clause noting these are individual demonstrations and that standard 3D readout assays can be inaccurate (surfaced later in section)."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Broad lead ('sustain high viability and organ-specific function') is immediately grounded in named study systems; no track 3/4 overextension prior.",
+   "evidence": ["study_systems: iPSC liver/islet chip, heart organoids, liver-chips", "no critic_priors"],
+   "failure_modes": ["umbrella generalization from a cluster of single systems"],
+   "recommended_fix": "Keep the generalization tethered to the specific organ systems cited."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "human iPSC-derived liver/islet/heart organoids", "computational": null, "clinical": "drug-induced steatosis/hepatotoxicity detection in vitro", "methodological": "multi-organoid & organ-on-chip microfluidic platforms", "conceptual": null},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_011fb09ab5ff0c3c": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Correctly re-worded the DILI figure as 'a review cites a reported 100%/90%' (the exact critic fix), surfacing its secondary nature, but the renal 10-20% figure and other single-study concordance numbers are stated flatly as fact.",
+   "evidence": ["critic_priors SHOULD_CAVEAT track 6 (DILI figure secondary in Varmazyad2026)", "MINOR track 6 (Roy2026 10-20% is review-quoted)", "replication=[single-study]"],
+   "failure_modes": ["string of best-case single-study figures", "one review-quoted figure (10-20% RMSE) not flagged as secondary"],
+   "recommended_fix": "Flag the 10-20% renal figure as review-reported, matching the DILI treatment."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Each quantitative figure maps to its own study system; no organism/population overreach, though several distinct systems are bundled under 'concordance with humans'.",
+   "evidence": ["study_systems: proximal-tubule chip, perfused tubule chip, liver MPS, intestinal organoid+PBPK, colorectal organoids", "no track 3/4 prior"],
+   "failure_modes": ["heterogeneous endpoints aggregated under one concordance claim"],
+   "recommended_fix": "None blocking; keep per-figure system attribution."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": -1,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "tubule/liver/intestinal/colorectal organoids & chips", "computational": "IVIVE / PBPK coupling", "clinical": "DILI, diarrhoea incidence, cetuximab response prediction", "methodological": "organ-on-chip clinical-concordance validation", "conceptual": null},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_cd389f25558e1570": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Numbers hedged ('roughly 67%', '41%') and attributed to specific chips, but the flourish 'mechanistic resolution that animal models cannot' is a strong absolute drawn from two single studies with no caveat.",
+   "evidence": ["replication=[single-study]", "has_conflict_source=false", "both passages full_text direct match"],
+   "failure_modes": ["absolute superiority claim ('animal models cannot') from two single studies"],
+   "recommended_fix": "Soften to 'resolution difficult to obtain in animal models' or note single-study status."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Both effects stay within their study systems (BBB uSiM chip; hPSC kidney organoid); generalization limited to two grounded examples.",
+   "evidence": ["study_systems: pericyte co-culture BBB chip; cisplatin kidney organoid screen", "no track 3/4 prior"],
+   "failure_modes": ["comparative claim vs 'animal models' generalizes beyond the two systems"],
+   "recommended_fix": "Confine the animal-comparison to the specific mechanistic readouts demonstrated."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "BBB chip (pericyte co-culture), hPSC kidney organoids", "computational": null, "clinical": "nephrotoxicity screening / neuroinflammation", "methodological": "barrier-on-chip co-culture", "conceptual": null},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_1554969566b23775": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Multi-part capability claim ('reconstruct human BBB and gut physiology with in vivo-like permeability') supported mostly by partial_support single studies; no overt overstatement but confident aggregation.",
+   "evidence": ["replication=[replication_unknown,single-study]", "many role=partial_support", "has_conflict_source=false"],
+   "failure_modes": ["strong 'in vivo-like' phrasing from single studies", "three distinct capabilities bundled"],
+   "recommended_fix": "Qualify 'in vivo-like' as demonstrated in specific chip models."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Transporter/enzyme, absorption, and barrier claims each map to a cited system; the headline transporter list traces to Garcia2026's own bracketed (secondary) statement.",
+   "evidence": ["study_systems span intestinal/brain organoids and barrier chips", "no track 3/4 prior"],
+   "failure_modes": ["broad claim spread across 9 loosely related sources"],
+   "recommended_fix": "Anchor each clause to its 2-3 most direct sources."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "intestinal & brain organoids, barrier chips", "computational": null, "clinical": "oral bioavailability, neuroinflammation modelling", "methodological": "gut-on-chip, BBB-chip, MPS", "conceptual": null},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_af1341fe1e90f9d1": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Generic descriptive umbrella claim that does not make strong quantitative assertions, but crams 15 papers and does not surface the flagged 3D-vs-2D hepatotoxicity direction conflict.",
+   "evidence": ["critic_priors MINOR track 1 (coverage-driven cramming)", "has_conflict_source=true (3D vs 2D hepatotoxicity direction disagrees)", "replication=[replication_unknown,single-study]"],
+   "failure_modes": ["coverage cramming behind one broad clause", "conflicting-direction source (Hong2021) not caveated"],
+   "recommended_fix": "Split the cluster and note the 3D-vs-2D sensitivity direction is unsettled."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Generalizes across tumour/lung/kidney/retinal systems; each organ has cited examples so within scope, but the clause is loose (MINOR cramming prior).",
+   "evidence": ["MINOR track 1 cramming", "no track 3/4 overextension prior"],
+   "failure_modes": ["loose bundling of 6-15 papers per clause"],
+   "recommended_fix": "Trim to the most directly relevant papers per organ system."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "tumour/lung/kidney/retinal organoids & chips", "computational": null, "clinical": "drug screening & disease modelling", "methodological": "tissue engineering / organ-on-chip", "conceptual": null},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_63443f0acfe2c391": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly a limitation claim ('advantage is nonetheless partial'; readouts 'require enhanced protocols before they are reliable'), correctly surfacing immaturity rather than overstating capability.",
+   "evidence": ["passages state PTs remain immature, off-target cell types", "has_conflict_source=false", "well-hedged caveat framing"],
+   "failure_modes": ["none material"],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to kidney organoids / proximal-tubule maturity, matching both cited sources exactly.",
+   "evidence": ["study_systems: kidney organoids, PT-enhanced organoids", "no track 3/4 prior"],
+   "failure_modes": ["none"],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "hPSC kidney organoids (proximal-tubule maturity)", "computational": null, "clinical": "nephrotoxicity readout reliability", "methodological": "organoid differentiation protocols", "conceptual": null},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_b69d024753bafaf0": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Reproducibility figures attributed to specific standardised protocols, but '100% differentiation efficiency' is a strong single-study number stated flatly without caveat.",
+   "evidence": ["replication=[single-study]", "has_conflict_source=false", "full_text direct passages for 93-99% and 30-80% ranges"],
+   "failure_modes": ["single-study '100%' efficiency asserted without qualification"],
+   "recommended_fix": "Note the 100% figure is from one standardisation study across a defined line panel."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Both results confined to their systems (bioprinted kidney organoids; standardised retinal-organoid protocol across named lines).",
+   "evidence": ["study_systems: Lawlor2020 kidney bioprinting; Harkin2024 retinal lines", "no track 3/4 prior"],
+   "failure_modes": ["none"],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "bioprinted kidney organoids, retinal organoids", "computational": null, "clinical": null, "methodological": "bioprinting & standardised differentiation protocols", "conceptual": null},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_ed8cbc312f2c330b": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "Aggregates the most optimistic proponent figures ('entirely appropriate today', $3B savings, 'already revolutionising') and a source (Marx2025) whose actual finding is that adoption 'remained slow', an interpretive mismatch; 'On this reading'/'is framed as' partly hedges.",
+   "evidence": ["critic_priors SHOULD_CAVEAT track 2 (Marx2025 interpretive mismatch)", "has_conflict_source=true (regulatory readiness; benefits vs adoption)", "replication=[single-study]"],
+   "failure_modes": ["source contradicting the 'revolutionising' framing cited to support it", "economic projection stated as near-fact"],
+   "recommended_fix": "Drop the mismatched adoption source and mark the savings/revolution figures as projections/proponent framing."
+  },
+  "transferability_scope_control": {
+   "score": 2,
+   "rationale": "Individual figures map to their studies, but the 'revolutionising already' framing and the misused workshop source stretch beyond what the sources support.",
+   "evidence": ["SHOULD_CAVEAT track 2 (misattributed framing)", "Carmichael 'in certain settings' narrowed correctly to 'defined settings'"],
+   "failure_modes": ["proponent framing extended past cautionary source evidence"],
+   "recommended_fix": "Attribute promissory framing to its proponent sources only."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": -1,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": null, "computational": "in silico + economic modelling", "clinical": null, "methodological": "NGRA / organ-on-chip / NAM bioactivity+kinetics battery", "conceptual": "regulatory readiness of NAMs"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_9379c600d12a5023": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Hedged lead ('appears to be following') and an attributed 62% figure, but it is a long optimistic regulatory list containing a misattribution (Mone2020 grouped with FDA-Act/MPS claims it does not support).",
+   "evidence": ["critic_priors SHOULD_CAVEAT track 2 (Mone2020 misattribution)", "has_conflict_source=true (read-across acceptance disputed)", "replication=[replicated,single-study]"],
+   "failure_modes": ["EU read-across source grouped under US FDA-Act clause", "optimistic momentum framing"],
+   "recommended_fix": "Move Mone2020 to the read-across clause; caveat read-across acceptance is contested."
+  },
+  "transferability_scope_control": {
+   "score": 2,
+   "rationale": "Mone2020 (EU-ToxRisk read-across consortium) is stretched to cover US FDA Modernization Acts / MPS IND filings, a jurisdiction/topic overreach flagged by the critic.",
+   "evidence": ["SHOULD_CAVEAT track 2 misattribution", "study_systems span EU REACH read-across and US IND MPS"],
+   "failure_modes": ["cross-jurisdiction source misplacement"],
+   "recommended_fix": "Cite each regulatory claim to a source from the matching jurisdiction."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": null, "computational": null, "clinical": "medicinal-product filings / IND submissions", "methodological": "read-across, MPS, NAM regulatory filings", "conceptual": "regulatory acceptance (EMA/ICH, FDA Modernization Acts)"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_4dfde13e6df101bd": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly attributed ('Proponents assert') and set up as one side of a surfaced conflict that the very next claim counters; does not present the readiness view as settled fact.",
+   "evidence": ["has_conflict_source=true", "attribution framing 'Proponents assert'", "paired with clm_71ab1a399095cf01 counter"],
+   "failure_modes": ["single weak source (robustness=1) for the position"],
+   "recommended_fix": "None; conflict is explicitly staged."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stays within Carmichael2022's NGRA/chemical-ingredient framing, including the 'in certain settings' qualifier.",
+   "evidence": ["study_system: NGRA for chemical ingredients", "no track 3/4 prior"],
+   "failure_modes": ["none"],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "NAMs / NGRA for chemical ingredients", "conceptual": "regulatory readiness of NAMs (proponent view)"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_71ab1a399095cf01": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Opens with 'Against this' to explicitly surface the counter-evidence and attributes it to a specific EU endocrine-disruptor review; well-calibrated conflict staging.",
+   "evidence": ["has_conflict_source=true", "'Against this' explicit conflict marker", "abstract directly states guidance limited / animal-data dependence"],
+   "failure_modes": ["single source"],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to the EU endocrine-disruptor regulatory framework, matching Holmer2025 exactly.",
+   "evidence": ["study_system: EU ED assessment (REACH/CLP/PPPR/BPR)", "no track 3/4 prior"],
+   "failure_modes": ["none"],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "NAMs for endocrine-disruptor identification", "conceptual": "EU ED regulatory readiness"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_8867bd0ef3fa2929": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Convergent barrier synthesis across 8 independent sources ('converge on a persistent set of obstacles'); the interpretive 'structural blind spot' is grounded in the acceptance-criteria sources.",
+   "evidence": ["robustness=4 (8 sources)", "replication=[replicated,single-study]", "has_conflict_source=true (benefits vs adoption reality)"],
+   "failure_modes": ["mild interpretive flourish ('blind spot')"],
+   "recommended_fix": "None material."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Barriers documented across multiple jurisdictions/sectors (US, Brazil, UK, ecotox), supporting the broad 'keep NAMs out of routine decision-making' generalization.",
+   "evidence": ["study_systems span 8 regulatory contexts", "no track 3/4 prior"],
+   "failure_modes": ["none"],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "NAM validation & acceptance criteria", "conceptual": "regulatory adoption barriers (scientific/economic/cultural)"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_307358fc875ef0ee": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Skeptical/limitation claim with concrete figures ('~18% fully compliant', pathways 'under development or unevaluated') each traced to direct full_text passages; does not overclaim capability.",
+   "evidence": ["replication=[single-study]", "has_conflict_source=false", "direct full_text passages for 18% and AOP maturity"],
+   "failure_modes": ["figures are each single-study"],
+   "recommended_fix": "None material."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Thyroid-model and cardiotox-AOP figures map to their studies, but 'the AOPs that anchor mechanistic NAMs are largely immature' generalizes from one cardiotox network to AOPs broadly.",
+   "evidence": ["study_systems: thyroid QSAR models; cardiotoxicity AOP network", "no track 3/4 prior"],
+   "failure_modes": ["one AOP network generalized to 'AOPs' broadly"],
+   "recommended_fix": "Scope the immaturity claim to the cardiotoxicity AOP network cited."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": "in silico thyroid-disruption / QSAR models", "clinical": null, "methodological": "OECD assessment framework, AOPs, animal-concordance validation", "conceptual": "maturity of mechanistic NAM anchors"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_41e19bb3d17bbef6": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Balanced conclusion ('science is promising but its regulatory footprint is thin and uneven'); neither overstates capability nor dismisses it.",
+   "evidence": ["replication=[single-study]", "has_conflict_source=false", "systematic-review passages support the 'thin footprint' half"],
+   "failure_modes": ["none material"],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Mostly on-scope for DART/harmonisation, but Weener2024 is a vessel-chip qualification case study, not a 'systematic review', a slight source-type/scope mismatch with the claim wording.",
+   "evidence": ["study_systems: DART systematic review, NGRA harmonisation, vessel-chip case study", "no track 3/4 prior"],
+   "failure_modes": ["case study labelled under 'systematic reviews'"],
+   "recommended_fix": "Move Weener2024 to a case-study clause or reword 'reviews'."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "NAMs for DART, assay harmonisation", "conceptual": "regulatory footprint of NAMs"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_5c4331543246f050": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Attributed as one framing ('One strand frames...') and set against the following counter-claim, but the cited passage (Hartung2025a) actually enumerates challenges rather than the 'revolutionise' promise, a weak fit.",
+   "evidence": ["has_conflict_source=true", "robustness=1", "supporting_passage is about standardization/validation challenges"],
+   "failure_modes": ["promissory framing supported by a challenges-focused passage"],
+   "recommended_fix": "Cite a source that actually states the transformative framing."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Stays within MPS/drug-development/personalised-medicine scope of the source, though the passage supports challenges more than the claimed promise.",
+   "evidence": ["study_system: MPS standardization & data sharing (CAAT)", "no track 3/4 prior"],
+   "failure_modes": ["framing broader than the quoted passage"],
+   "recommended_fix": "Match the framing to a proponent passage."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "speculation",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "MPS organ architecture/function", "computational": null, "clinical": "drug development, personalised medicine", "methodological": "microphysiological systems", "conceptual": "transformative promise of MPS"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_389ef081e8084743": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'Counters' explicitly marks the conflict, attributes to an expert-workshop assessment, and is directly supported by Marx2020's own wording on non-adoption.",
+   "evidence": ["has_conflict_source=true", "'counters' conflict marker", "abstract directly states non-adoption"],
+   "failure_modes": ["single source (robustness=1)"],
+   "recommended_fix": "None; conflict is staged."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to MPS/organ-on-chip adoption in drug authorisation, matching Marx2020 exactly.",
+   "evidence": ["study_system: MPS drug-development adoption", "no track 3/4 prior"],
+   "failure_modes": ["none"],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": "regulated drug-authorisation", "methodological": "MPS / organ-on-chip", "conceptual": "industry/regulatory adoption of MPS"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_1ae2bd32a7980106": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Balanced resolution ('It remains open... real capability, minimal regulated deployment') that names data-sharing/standardisation as rate-limiting; acknowledges openness rather than picking a winner.",
+   "evidence": ["has_conflict_source=true", "robustness=4", "'remains open' hedge"],
+   "failure_modes": ["synthesis drawn from partial_support abstracts"],
+   "recommended_fix": "None material."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to MPS regulatory deployment / data-sharing, matching the three consortium/workshop sources.",
+   "evidence": ["study_systems: t4 workshop, IQ MPS Affiliate, animal-tissue MPS", "no track 3/4 prior"],
+   "failure_modes": ["none"],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "MPS standardisation & data-sharing", "conceptual": "regulated-deployment status of MPS"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_d2c4f9b657b794a1": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Limitation claim that faithfully surfaces gaps (no standardised T-cell assay; DAs 'inconclusive' for borderline/out-of-domain); only minor co-citation slippage, not overstatement.",
+   "evidence": ["critic_priors MINOR track 1 x2 (weak co-citation Maxwell2014, Kolle2020 placement)", "has_conflict_source=true", "abstracts directly state KE4 gap and inconclusive DAs"],
+   "failure_modes": ["Maxwell2014 co-cited on the inconclusive clause it does not carry"],
+   "recommended_fix": "Move Maxwell2014 to the human-benchmarking point."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Core clauses map to skin-sensitisation AOP/DA sources; Maxwell2014 (QRA human-benchmarking) sits slightly outside the inconclusive-call clause.",
+   "evidence": ["MINOR track 1 weak co-citation", "study_systems: AOP key events, GL497 DAs"],
+   "failure_modes": ["one source outside its supporting clause"],
+   "recommended_fix": "Re-anchor Maxwell2014."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": "in silico DA components", "clinical": null, "methodological": "OECD defined approaches, AOP key events, skin-sensitisation assays", "conceptual": "non-animal measurability of T-cell activation"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_fc72598d3949c3be": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Uses 'is presented as' attribution and faithfully quotes Casati2022's 'equivalent to, or better than' wording, but that performance claim is contested (Macmillan2022 shows inconclusive calls) and is not caveated within this sentence.",
+   "evidence": ["has_conflict_source=true (DA performance)", "modality_seed=established; replication=[replicated]", "MINOR track 1 (Kolle2020 not a performance source)"],
+   "failure_modes": ["contested 'equal-or-better' performance stated via source's own optimistic wording"],
+   "recommended_fix": "Rely on adjacent claim's Macmillan2022 caveat to balance the performance assertion."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to OECD GL497 skin-sensitisation defined approaches, matching Casati2022.",
+   "evidence": ["study_system: OECD GL497 DAs", "no track 3/4 prior"],
+   "failure_modes": ["none"],
+   "recommended_fix": "None."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "OECD Guideline 497 defined approaches (skin sensitisation)", "conceptual": "regulatory precedent for non-animal adoption"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_50eeecf3a3bb1f90": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Attributed ('A case-study analysis shows') and hedged ('can return inconclusive'); surfaces the skeptical counter to the 'equal-or-better' framing.",
+   "evidence": ["has_conflict_source=true", "MINOR track 1 (unrelated co-citation elsewhere)", "abstract directly supports inconclusive-call claim"],
+   "failure_modes": ["single source"],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to GL497 defined approaches and their applicability domain, matching Macmillan2022.",
+   "evidence": ["study_system: GL497 DAs inconclusive-prediction case studies", "no track 3/4 prior"],
+   "failure_modes": ["none"],
+   "recommended_fix": "None."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": "in chemico/in vitro/in silico DA components", "clinical": null, "methodological": "OECD GL497 defined approaches", "conceptual": "applicability-domain limits"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_1c1e2fb3fce3e914": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Limitation claim reporting incomplete/endpoint-dependent concordance with specific figures (precision 1.1-29%, sensitivity 14.7-28.3%, missed B[a]P); surfaces gaps and the genotoxicity conflict rather than overstating.",
+   "evidence": ["has_conflict_source=true (in silico reliable vs experimental missed)", "replication=[single-study]", "direct passages for each figure"],
+   "failure_modes": ["each figure single-study"],
+   "recommended_fix": "None material."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each finding stays within its system (liver-on-chip genotoxicity; in silico metabolism; read-across grouping; flutamide NGRA).",
+   "evidence": ["study_systems match each clause", "no track 3/4 prior"],
+   "failure_modes": ["none"],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "liver-on-chip genotoxicity", "computational": "in silico metabolism simulators, read-across", "clinical": null, "methodological": "genotoxicity assays, metabolic grouping, NGRA", "conceptual": "metabolic-competence limits of NAMs"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_a5362405ad9bf644": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Frames the PBK layer as 'only moderately accurate' with concrete single-study figures (tenfold for 50%, threefold for 31%) and a named systematic bias; a well-calibrated limitation.",
+   "evidence": ["replication=[single-study]", "has_conflict_source=false", "abstract figures verbatim"],
+   "failure_modes": ["single 26-chemical study"],
+   "recommended_fix": "None material."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Generalizes 'the kinetic layer... is only moderately accurate' from one generic 26-chemical PBK evaluation to the kinetic layer broadly.",
+   "evidence": ["study_system: generic high-throughput PBK (26 chemicals)", "no track 3/4 prior"],
+   "failure_modes": ["one model/dataset generalized to PBK/IVIVE broadly"],
+   "recommended_fix": "Scope to generic high-throughput PBK models."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": "generic high-throughput PBK model", "clinical": null, "methodological": "IVIVE dose extrapolation", "conceptual": "kinetic-layer accuracy"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_ab077021943c49af": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explanatory synthesis ('These limits are why NAM outputs are typically embedded in weight-of-evidence... rather than used alone') with two concrete supporting examples; balanced and non-overstated.",
+   "evidence": ["robustness=4", "replication=[replicated,replication_unknown,single-study]", "direct passages for developmental hOED and BPA RfDs"],
+   "failure_modes": ["none material"],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "'Typically embedded in weight-of-evidence' is supported by the IVIVE review sources; the two examples stay within their systems.",
+   "evidence": ["study_systems: developmental IVIVE, hESC+PBPK BPA, IVIVE reviews", "no track 3/4 prior"],
+   "failure_modes": ["none"],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "hESC toxicogenomics (BPA)", "computational": "IVIVE, pregnancy-PBPK", "clinical": null, "methodological": "weight-of-evidence integration, developmental extrapolation", "conceptual": "NAM integration workflows"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_cf3d2759e995e938": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Limitation claim ('black-box character... compounds the interpretability problem'; battery 'divides its own community') that surfaces both a methodological limit and an upcoming disagreement.",
+   "evidence": ["replication=[single-study]", "has_conflict_source=false", "passages state ML interpretability limits"],
+   "failure_modes": ["'divides its community' clause not carried by the two ML sources"],
+   "recommended_fix": "Support the community-division clause with the DNT panel/developer sources."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "The two cited sources cover ML/QSAR interpretability; the DNT-battery-division clause draws on evidence found in adjacent claims, not these keys.",
+   "evidence": ["study_systems: ML PBPK, ML SAR/QSAR", "no track 3/4 prior"],
+   "failure_modes": ["second clause outside the cited sources' scope"],
+   "recommended_fix": "Attach the DNT-division clause to Juberg2023/Klose2021."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": "machine-learning / QSAR components", "clinical": null, "methodological": "PBPK/ML integration, DNT battery", "conceptual": "interpretability for regulatory trust"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_a668c0e3a832677b": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Attributed to an expert panel and hedged ('might be used during initial screening, but is not presently a complete or surrogate approach'); explicitly flags the disputed status.",
+   "evidence": ["modality_seed=contested; replication=[disputed]", "has_conflict_source=true", "abstract verbatim match"],
+   "failure_modes": ["single panel source"],
+   "recommended_fix": "None; disagreement staged."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to the DNT in vitro battery as a hazard-classification tool, matching Juberg2023.",
+   "evidence": ["study_system: DNT IVB expert panel", "no track 3/4 prior"],
+   "failure_modes": ["none"],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "human DNT in vitro battery", "computational": null, "clinical": null, "methodological": "DNT IVB hazard classification", "conceptual": "regulatory readiness of DNT IVB"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_8f69feb0601cffde": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Attributed ('A data-generating group presented') and includes the source's own caveat ('while noting its rankings diverged from HTS'); presents the optimistic pole without hiding its limitation.",
+   "evidence": ["modality_seed=contested; replication=[disputed]", "has_conflict_source=true", "abstract supports 'promising' framing"],
+   "failure_modes": ["single case study"],
+   "recommended_fix": "None; disagreement staged."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to the human DNT in vitro battery (flame retardant case study), matching Klose2021.",
+   "evidence": ["study_system: human DNT IVB (flame retardants)", "no track 3/4 prior"],
+   "failure_modes": ["none"],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "human cell-based DNT in vitro battery", "computational": null, "clinical": null, "methodological": "DNT IVB hazard assessment / prioritisation", "conceptual": "readiness of DNT IVB"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_dd4a04bb95a3c4f0": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Meta-resolution ('It is unresolved, and the disagreement tracks the vantage point') that explicitly leaves the question open and attributes the split to reviewer-vs-developer perspective.",
+   "evidence": ["has_conflict_source=false", "replication=[replication_unknown]", "'It is unresolved' hedge"],
+   "failure_modes": ["'tracks vantage point' is an editorial inference"],
+   "recommended_fix": "None material."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "The two DNT-review sources provide context, but the interpretive 'disagreement tracks vantage point' meta-claim is not directly stated in their abstracts.",
+   "evidence": ["study_systems: DNT in vitro reviews", "no track 3/4 prior"],
+   "failure_modes": ["interpretive meta-claim beyond cited abstracts"],
+   "recommended_fix": "Mark the vantage-point observation as authorial synthesis."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "DNT in vitro methods", "conceptual": "vantage-point-dependent readiness assessment"},
+  "evidence_relation": "indirectly_supported",
+  "cap_flags": []
+ },
+ "clm_5365e1a215c93fa9": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Limitation claim reporting variability/reproducibility problems with concrete figures (urea CV <5%->20%; stable to 17d but variable; inaccurate 3D assays; inter-lab discordance); surfaces the reproducibility and 3D-readout conflicts.",
+   "evidence": ["has_conflict_source=true x2", "MINOR track 1 (Hoyberghs2020 carries inter-lab clause)", "direct passages for each figure"],
+   "failure_modes": ["Jeffries2015/vonHellfeld2022 co-cited on the variability clause they do not carry"],
+   "recommended_fix": "Cite Hoyberghs2020 for inter-lab variability; move the other zebrafish papers."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Liver-chip/organoid/zebrafish variability findings map to their systems, but two zebrafish sources (FET utility, neonicotinoid behaviour) sit outside the inter-lab-variability clause.",
+   "evidence": ["MINOR track 1 weak co-citation", "study_systems span liver-chip, organoids, ZEDTA"],
+   "failure_modes": ["two sources outside their supporting clause"],
+   "recommended_fix": "Re-anchor Jeffries2015/vonHellfeld2022."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "liver-chip, organoids, zebrafish embryo", "computational": null, "clinical": null, "methodological": "MPS reproducibility, 3D viability assays, ZEDTA", "conceptual": "reproducibility/variability of NAMs"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_f820619c1032a105": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Descriptive synthesis of community QC responses (CV thresholds, donor-control thresholds, reproducibility grading, contexts of use, animal-tissue benchmarking chips); balanced and well-supported.",
+   "evidence": ["robustness=4", "has_conflict_source=true (MPS-vs-simpler-NAM predictivity)", "direct passages for CV and donor thresholds"],
+   "failure_modes": ["none material"],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each response element maps to a cited source (organoid CV, vessel-chip donor thresholds, liver-MPS grading, consortium contexts of use).",
+   "evidence": ["study_systems match each response", "no track 3/4 prior"],
+   "failure_modes": ["none"],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "organoids, vessel chip, liver MPS", "computational": null, "clinical": null, "methodological": "CV/QC thresholds, qualification, contexts of use, animal-tissue benchmarking chips", "conceptual": "quality-control response to NAM variability"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_352a30874983cccd": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Automation/biobanking dependence is well-supported, but the analogy that these are 'the same standardisation levers... the animal field has debated for decades' is an unsourced editorial flourish.",
+   "evidence": ["replication=[replication_unknown]", "has_conflict_source=false", "passages support automation/biobanking need"],
+   "failure_modes": ["'debated for decades' historical analogy not sourced"],
+   "recommended_fix": "Mark the animal-field parallel as authorial framing."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Biobanking/automation claims map to the organoid QC/automation sources; the animal-field parallel extends beyond the cited organoid literature.",
+   "evidence": ["study_systems: tumor-organoid biobanks, pancreatic-organoid standardization, organoid automation", "no track 3/4 prior"],
+   "failure_modes": ["cross-domain analogy beyond sources"],
+   "recommended_fix": "Confine sourcing to the organoid standardisation claim."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": "organoid generation", "computational": null, "clinical": null, "methodological": "standardisation, automation, biobanking", "conceptual": "reproducibility-at-scale parallels with the animal field"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_ad02e82215720276": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "A pointed limitation/critique of the animal yardstick, but it states carcinogenicity concordance figures (65-86%, 36-74%) as if from 'the same review' when the authoritative passage only verifies the 72%/74% endocrine figures.",
+   "evidence": ["critic_priors SHOULD_CAVEAT track 2 (carcinogenicity figures not in authoritative sentence)", "MINOR track 1 (co-cite Kopanska2026 for 'never validated')", "replication=[replicated,single-study]"],
+   "failure_modes": ["unverified quantitative figures attributed to the cited review"],
+   "recommended_fix": "Verify 65-86%/36-74% against Karmaus2026 full text or cite the primary carcinogenicity source."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "On-topic (animal-test reproducibility, NAM validation), but attributing the carcinogenicity figures to Karmaus2026 may misplace them relative to the verbatim endocrine-only support.",
+   "evidence": ["SHOULD_CAVEAT track 2", "study_systems: rodent bioassay replicability; NAM validation frameworks"],
+   "failure_modes": ["possible figure-to-source mismatch"],
+   "recommended_fix": "Confirm the figures' source before attributing."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": -1,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "rodent carcinogenicity / endocrine bioassays", "computational": null, "clinical": null, "methodological": "animal-concordance validation of NAMs", "conceptual": "human-relevance vs animal-agreement criterion"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_2ea40209dc18f169": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Attributed ('An independent robustness study... found') and surfaces the skeptical reproducibility finding as one pole of the staged conflict.",
+   "evidence": ["has_conflict_source=true", "robustness=1", "abstract directly states appreciable within/between-study variability"],
+   "failure_modes": ["single source"],
+   "recommended_fix": "None; conflict staged."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to the iPSC-hepatocyte liver MPS robustness study (Kato2022).",
+   "evidence": ["study_system: OrganoPlate iPSC-hepatocyte liver MPS", "no track 3/4 prior"],
+   "failure_modes": ["none"],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "iPSC-hepatocyte liver MPS", "computational": null, "clinical": null, "methodological": "MPS robustness / high-throughput utility", "conceptual": "reproducibility of MPS readouts"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_936543d79b203489": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "Attributed ('A drug-development perspective frames'), but claims MPS 'deliver more standardised, predictive, physiologically relevant responses' while the only cited passage (Kopec2021) is cautionary, stating MPS require qualification and must be reproducible; the optimistic framing overreads its single source.",
+   "evidence": ["modality_seed=established (too strong)", "has_conflict_source=true", "supporting_passage is about qualification/reproducibility need, not delivered superiority"],
+   "failure_modes": ["promotional framing beyond a cautionary passage", "'established' seed for a contested pole"],
+   "recommended_fix": "Downgrade to a promissory framing and cite a source that asserts the predictivity gain."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Within MPS/drug-development scope, but the specific 'more standardised/predictive' assertion is not in the quoted passage.",
+   "evidence": ["study_system: MPS in early drug development", "no track 3/4 prior"],
+   "failure_modes": ["claim broader than the quoted passage"],
+   "recommended_fix": "Match the framing to a supporting passage."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": -1,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "living-tissue MPS", "computational": null, "clinical": "drug development", "methodological": "microphysiological systems", "conceptual": "predictivity/standardisation of MPS"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_6d0ed45e85fcfe13": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'It is unresolved' plus an attributed comparative validation surfacing the skeptical result (MPS/enteroids added variability; static monolayer most accurate; 'complexity did not guarantee predictivity'); well-calibrated.",
+   "evidence": ["has_conflict_source=true", "replication=[single-study]", "abstract supports MPS added variability"],
+   "failure_modes": ["single comparative study"],
+   "recommended_fix": "None; conflict staged."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Scoped as 'a comparative intestinal-permeability validation', matching Moyer2025's Caco-2/enteroid/MPS comparison; the general lesson is framed as the study's finding.",
+   "evidence": ["study_system: intestinal permeability models", "no track 3/4 prior"],
+   "failure_modes": ["mild generalization of 'complexity did not guarantee predictivity'"],
+   "recommended_fix": "None material."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "intestinal epithelium (Caco-2, enteroids)", "computational": null, "clinical": null, "methodological": "intestinal-permeability MPS vs static monolayer", "conceptual": "complexity-vs-predictivity of NAMs"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ }
+}

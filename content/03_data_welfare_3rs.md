@@ -3,6 +3,12 @@
 # From Animal Welfare to Data Welfare: Reframing the 3Rs
 
 The failures catalogued in {ref}`sec-repro-crisis` — the unpublished experiments, the missing randomisation and blinding, the analgesia that was administered but never reported — are usually read as a quality problem: bad science that wastes money and misleads the clinic. Read from the animal's side of the ledger, they are something else. Every one of those experiments consumed sentient animals, and every failure to report, share, or reuse the resulting data means the welfare cost was paid without the knowledge being fully banked. A retrospective harm–benefit analysis of preclinical research for six interventions found that, weighing the animals' actual harms against the actual clinical benefit, fewer than 7% of studies would have been ethically permissible, and that 97% did not report whether analgesia was given at all {cite:p}`Pound2018`. Contemporaneous audits reach the same place from different specialties: only a small minority of critical-care studies reported a sample-size calculation or met a basic composite of welfare outcomes {cite:p}`Bara2014`, image-integrity problems pervade whole animal literatures with correction rates near zero {cite:p}`Aquarius2025`, and depression-model meta-analyses find that almost no authors will share their underlying data on request {cite:p}`Ratajczak2024`. This section argues that these are not three separate deficiencies — scientific, procedural, and archival — but one. Stewardship of animal-derived data belongs inside the moral contract of animal research, and the framework that already governs that contract, the 3Rs, should already forbid wasting it.
+:::{trust-claim}
+:claim-id: clm_d78793364d963909
+:::
+:::{trust-claim}
+:claim-id: clm_7a641959ba3c0c78
+:::
 
 :::{margin} Provenance
 **Source:** "Only the moderate bisphosphonate studies, less than 7% of the total, appeared to minimise harms to animals whilst being associated with benefit for humans." {cite:t}`Pound2018` (full text)
@@ -12,8 +18,29 @@ The failures catalogued in {ref}`sec-repro-crisis` — the unpublished experimen
 ## The 3Rs as a moral contract, not a checklist
 
 The 3Rs did not begin as a compliance instrument. Their founding synthesis was a work of humane *technique*, and historians argue it has remained oddly little-read precisely because it straddled the humanistic and scientific cultures rather than sitting neatly in either {cite:p}`Kirk2017`. The care-centred reading matters, because it locates the 3Rs' authority in an obligation owed to the animal rather than in a bureaucratic quota: philosophical re-examinations contend the principles are not truly anthropocentric but arose from an animal-centred ethic constrained by a strategy of cooperation with research it could not abolish {cite:p}`Muller2024`, while others trace how a governing "culture of care" only crystallised late, once responsibility for welfare was distributed across a differentiated community of technicians, veterinarians, and scientists {cite:p}`Kirk2022`. That the framework is now statutory across the EU and beyond has not produced a single shared reading of it; a large multinational group documents that interpretations of each R vary substantially and shape statutory regimes in divergent, sometimes contradictory ways {cite:p}`Lauwereyns2024`, and a close comparison of Swiss law with the original definitions finds a species-focused drift in Replacement that the authors argue undermines the principles in practice {cite:p}`Perez2023`. A subtler foundational gap runs through the whole edifice: the 3Rs rest on a welfarist premise, inherited from their intellectual patrons, that a painless death is not a harm, so animal death is largely omitted from 3Rs-based regulation even though it is the modal outcome of a research life {cite:p}`Persson2024`. The contract, in other words, is real but incompletely specified — a point that becomes decisive once we ask what obligations it places on the data.
+:::{trust-claim}
+:claim-id: clm_cf47e0519642c1fe
+:::
+:::{trust-claim}
+:claim-id: clm_13c16e5c1a43cd76
+:::
+:::{trust-claim}
+:claim-id: clm_456631a5029edfa1
+:::
+:::{trust-claim}
+:claim-id: clm_dfae4f80390c34e9
+:::
 
 Any claim about data belonging to that contract must reckon with the ethics tradition the 3Rs sit inside. The justification for using animals at all turns on their moral status and on a weighing of harm against benefit, and neither is settled. Philosophical reviews argue that although theories of moral status rest on incompatible foundations, their practical implications for research converge more than expected {cite:p}`DeGrazia1991`; others challenge the graded view directly, criticising the justifications for assigning lower status to less cognitively complex animals and the assumption that they suffer less {cite:p}`Bovenkerk2014`, or defend sentience as the necessary and sufficient criterion against the objection that we cannot know which beings possess it {cite:p}`Dung2022`. Empirical moral psychology complicates the usual assumption that people reason as utilitarians about animals, finding instead weak deontological side-constraints that protect them far less than humans {cite:p}`Kahane2022`, and the recognition of sentience keeps expanding — to cephalopods on high-confidence evidence {cite:p}`Schnell2026`, even as the presumed non-sentience of other invertebrates is precisely what recommends them as lower-cost "replacement" organisms, a convenience the widening evidence base steadily undercuts {cite:p}`CrespiAbril2023`, and, more broadly, driving a shift in the moral status accorded laboratory animals since the 1990s {cite:p}`Browning2022`. Onto this contested terrain the regulation layers a project-level harm–benefit analysis. Reviews frame that weighing as, at best, a way to align welfare with scientific value — arguing that reduction and refinement can act in synergy with better science rather than against it {cite:p}`Graham2015` — and set out the deliberative and metric models available for performing it {cite:p}`Grimm2018`.
+:::{trust-claim}
+:claim-id: clm_386250636a5f13ea
+:::
+:::{trust-claim}
+:claim-id: clm_3760af0322777f1d
+:::
+:::{trust-claim}
+:claim-id: clm_09ad604d8c20b32c
+:::
 
 :::{admonition} Evidence Conflict — can harm–benefit analysis do the work asked of it?
 :class: warning
@@ -21,12 +48,42 @@ Whether the project-level harm–benefit weighing that anchors animal-research r
 :::
 
 That last point is the hinge. When licensing authorities screen applications, measures against bias are described at very low rates, leaving reviewers without the information a meaningful weighing requires {cite:p}`Vogt2016`. Audits of the decisions themselves find the legally required analysis frequently absent — a pilot of Swedish committee decisions found most omitted the harm–benefit analysis entirely and none documented a 3Rs evaluation {cite:p}`Jorgensen2021`, and a larger follow-up found harm, benefit, and 3Rs information often missing or confused, with roughly a third of non-technical summaries mixing up the three Rs and only 59% of researchers believing their own study achieved its goals {cite:p}`Jorgensen2025`. Structural critiques argue oversight bodies lack the expertise and mandate to judge scientific merit at all, so their approval should not be read as evidence of adherence to anything beyond legal minima {cite:p}`Pippin2025`. Proposals to add a formal benefit-assessment step to committee review {cite:p}`Bespalov2026` collide with exactly this doubt about feasibility. A harm–benefit contract that cannot see the data cannot be honoured; the welfare framework already on the books is, in this respect, unmet.
+:::{trust-claim}
+:claim-id: clm_d69d4210068c984a
+:::
+:::{trust-claim}
+:claim-id: clm_fe72dfccfa477ae3
+:::
+:::{trust-claim}
+:claim-id: clm_ca5e1409cfd74fd2
+:::
+:::{trust-claim}
+:claim-id: clm_3c306d7f8c6b5ab3
+:::
 
 The contract, moreover, is not only with the animal but with the public that permits and funds the research, and that broader compact is strained by the same waste. Surveys find the public expects animal research to be methodologically rigorous and to translate to humans well over half the time — expectations far exceeding what the evidence shows is achieved {cite:p}`Joffe2016`. Support is real but conditional and sensitive to species and purpose: it averages no better than ambivalence in structured consultations, even though the same consultations found specific high-benefit scenarios drawing higher-than-typical support — a counter-facet that complicates any reading of that support as uniformly fragile {cite:p}`Brunt2021b`. It is coloured by negative affect toward *in vivo* testing and openness to alternatives {cite:p}`Bearth2024`, and highest where oversight and mutual human–animal benefit are made visible {cite:p}`ThompsonIritani2026`. Openness is increasingly framed as the price of the community's continued permission to do the work {cite:p}`MacArthurClark2019`, yet the single most common barrier to communicating animal research is that the research harms animals {cite:p}`Loser2026` — a barrier that unpublished, unusable results only raise, because they convert a defensible harm into an indefensible one. When results are quietly discarded, or marred by uncorrected image-integrity problems the literature fails to fix {cite:p}`Aquarius2025`, the promise implicit in every licence — that the harm will at least yield reliable knowledge — is broken twice over.
+:::{trust-claim}
+:claim-id: clm_80f8f80050baef10
+:::
+:::{trust-claim}
+:claim-id: clm_365f5893190655b6
+:::
+:::{trust-claim}
+:claim-id: clm_7c1696c6d257dadf
+:::
+:::{trust-claim}
+:claim-id: clm_127ca3652366fe1d
+:::
+:::{trust-claim}
+:claim-id: clm_5f94488f471811ee
+:::
 
 ## A framework honoured in the breach
 
 The under-implementation is not confined to ethics files; it is visible in the published record itself, and it afflicts the two Rs most directly touched by data — Reduction and Refinement — simultaneously. {numref}`fig-sec3-3rs-underreporting` places a Reduction indicator beside a Refinement indicator across independent audits. A survey of European mouse and primate papers two decades apart found no increase over twenty years in reported 3Rs implementation, with mouse papers averaging zero of ten possible items {cite:p}`Taylor2010`; a fourteen-year survey of nearly 3,800 preclinical urology studies found sample-size estimation reported in 1.0% of them {cite:p}`Park2023`; a systematic review of degradable-metal bone studies found adherence to the ARRIVE 2.0 essentials at 42% with protocol registration and data access almost never reported {cite:p}`Ding2022`; and the depression-model literature combined intermediate reporting quality with a 2.35% data-sharing response rate {cite:p}`Ratajczak2024`. These are replicated findings, not outliers — the same low rates recur across specialties, methods, and decades, which is itself the strongest possible evidence that the problem is structural rather than local.
+:::{trust-claim}
+:claim-id: clm_145717baadc33c62
+:::
 
 :::{figure} ../figures/fig_sec3_3rs_underreporting.png
 :name: fig-sec3-3rs-underreporting
@@ -126,10 +183,19 @@ print("saved:", os.path.join(FIG_DIR, "fig_sec3_3rs_underreporting.png"))
 :::
 
 The temptation is to treat this as a paperwork lag that better checklists will close, but two decades of guideline history in {ref}`sec-governance` warn otherwise, and the same lesson recurs here: passive publication of standards rarely moves behaviour, while enforced requirements sometimes do. A checklist that a journal implements and checks has been associated with more complete reporting {cite:p}`Han2017`, though even a requirement enforced at the revision stage lifted full compliance with core bias-reduction items only into a minority of papers {cite:p}`Macleod2019b`, whereas the mere publication of reporting guidelines left adherence unchanged or even lower {cite:p}`Liu2021`, and protocol registration and data access stayed almost entirely unreported long after they became best practice {cite:p}`Ding2022`. What the audits establish for the present argument is narrower and firmer. Formal application of the 3Rs — the quantitative, checkable, data-dependent application — is the exception, not the rule. If wasting data is a welfare failure, the field is failing at scale and has been for a generation.
+:::{trust-claim}
+:claim-id: clm_ff485b34d321b741
+:::
 
 ## Reduction is a data problem
 
 The clearest route from welfare to data runs through Reduction, because Reduction is, on inspection, already a statement about information. The Reduction principle was never "use the fewest animals" but "use no more animals than the knowledge requires," and reviews of the Reduction literature insist on exactly this: minimising numbers is a matter of correct design and statistics, since both too many and too few animals waste life and yield unreliable results {cite:p}`Verderio2023`, and the goal is not the smallest possible study but the *right* number, because excessive reduction produces underpowered, uninterpretable experiments {cite:p}`Mazoit2026`. Framed this way, the amount of animal use that better design and reuse can save is not marginal. {numref}`fig-sec3-reduction-magnitude` places three independent methods side by side. Formal sample-size calculation cut the required numbers in a radiation-countermeasure paradigm to less than half of typical usage, where historically hundreds of animals had been used with no power calculation at all {cite:p}`Landes2023`; a refined pulmonary-embolism model reduced the mice needed per experiment by around 90% by measuring a specific biological response rather than a rare fatal endpoint {cite:p}`Graham2015`; and incorporating historical control animals into the analysis reduced the number of concurrent controls needed by more than half without loss of power {cite:p}`Kramer2015`.
+:::{trust-claim}
+:claim-id: clm_388cb626b155388e
+:::
+:::{trust-claim}
+:claim-id: clm_06a46d8b3cdd9234
+:::
 
 :::{figure} ../figures/fig_sec3_reduction_magnitude.png
 :name: fig-sec3-reduction-magnitude
@@ -243,10 +309,25 @@ print("saved:", os.path.join(FIG_DIR, "fig_sec3_reduction_magnitude.png"))
 :::
 
 The methods generalise well beyond these three cases. Factorial designs, in which each animal contributes information on every factor and interactions become detectable, cut numbers in routine drug screens without loss of validity {cite:p}`Shaw2002, Shaw2004`; accounting for the correlation among cage-mates lets experiments use more cages but fewer animals while gaining power {cite:p}`Landes2025`; and case-study treatments of experimental design stress that there is no single optimum, only reasoned trade-offs between internal and external validity that must themselves be reported {cite:p}`Karp2021`. Reviews of statistical power argue that the very tools researchers reach for — paired designs justified by simple power calculations — often demand *more* animals than randomised block or factorial alternatives, so statistical literacy is itself a Reduction technology {cite:p}`Gaskill2020`. The decisive observation for this review is that the historical-control case is not an isolated statistical trick but the leading edge of a general principle: existing data, properly curated, substitutes for animals not yet used. That substitution — the subject of {ref}`sec-virtual-controls` — is Reduction achieved by reuse, and it converts every dataset that is allowed to rot into animals that will be bred and used to regenerate it.
+:::{trust-claim}
+:claim-id: clm_7f7e470c6bef3d6b
+:::
+:::{trust-claim}
+:claim-id: clm_77f4c535d50c05b3
+:::
 
 ## The move: data welfare
 
 This is the point at which the review's central construct can be stated precisely rather than gestured at. If reusing existing control data reduces animals, then the reusability of animal-derived data is not a housekeeping virtue downstream of the science; it is a lever on the 3Rs themselves. {numref}`fig-sec3-welfare-to-data-welfare` maps the claim onto the data lifecycle of an experiment. Complete reporting and data reuse extend **Reduction**, because fewer new animals are needed per unit of knowledge banked {cite:p}`Kramer2015`. Findable, curated stewardship and study registration extend **Refinement** — not of the animal, but of the scientific record, so that a completely reported experiment need never be repeated merely because its methods were irrecoverable {cite:p}`Strech2019`. And reuse of existing data, alongside the outputs of non-animal methods, extends **Replacement**, substituting stored knowledge and *in vitro* or *in silico* results for live animals {cite:p}`Tutty2025, Romantsik2024`. "Data welfare" names the resulting claim: letting animal-derived data become unfindable, unusable, or unreused is itself a welfare harm, because it wastes the welfare cost that produced the data.
+:::{trust-claim}
+:claim-id: clm_78c1908a83c77516
+:::
+:::{trust-claim}
+:claim-id: clm_0d0d46cfecd84e09
+:::
+:::{trust-claim}
+:claim-id: clm_c16c01590fe2e697
+:::
 
 :::{figure} ../figures/fig_sec3_welfare_to_data_welfare.png
 :name: fig-sec3-welfare-to-data-welfare
@@ -373,6 +454,18 @@ print("saved:", os.path.join(FIG_DIR, "fig_sec3_welfare_to_data_welfare.png"))
 :::
 
 The construct does not arrive in a vacuum; it converges with a wave of proposals to expand the 3Rs precisely along the scientific-value axis. The most direct is the argument that welfare-focused Rs cannot on their own make research ethical, because research without sufficient scientific value is unethical regardless of how humanely it is conducted — the case for adding Robustness, Registration, and Reporting to yield a "6R" set, motivated by the observation that roughly half of animal studies are never reported at all {cite:p}`Strech2019`. A "12R" framework organises animal-research ethics into welfare, social-value, and scientific-integrity domains, explicitly citing a reproducibility crisis as the motivation for the integrity Rs and placing harm–benefit analysis as the culminating safeguard {cite:p}`Brink2023`. A parallel six-principle scheme, three of social benefit and three of animal welfare, is offered as a better bridge between the research and protection communities {cite:p}`DeGrazia2019`, facility managers argue for a "6R" set adding responsibility and reproducibility {cite:p}`vonderBeck2024`, and toxicologists and others add a fourth R of responsibility {cite:p}`PetrescuMag2025`. The specific operational instruments of data welfare are already being built under these banners: preclinical systematic reviews that establish whether existing animal data are strong enough to translate — and thereby justify or obviate new studies {cite:p}`Romantsik2024`, living evidence summaries that continuously map what has already been shown so it need not be shown again {cite:p}`Hair2024`, and pre-registration of review protocols to prevent unplanned duplication {cite:p}`BannachBrown2024`. Each is a mechanism for making prior animal data do more work, which is Reduction by another name.
+:::{trust-claim}
+:claim-id: clm_948f3ebc247231cd
+:::
+:::{trust-claim}
+:claim-id: clm_af778d69fcc6ab54
+:::
+:::{trust-claim}
+:claim-id: clm_e7b8a1e24acac606
+:::
+:::{trust-claim}
+:claim-id: clm_f7bc014b75d71c25
+:::
 
 :::{admonition} Evidence Conflict — are the 3Rs insufficient, or merely under-applied?
 :class: warning
@@ -382,12 +475,39 @@ This is the pivotal question for positioning data welfare as an extension rather
 ## Is data reuse really a welfare concern? The counter-case
 
 A sceptic can grant all of this and still resist the conclusion. Data management, the objection runs, is research hygiene — good practice, certainly, but a matter of file formats and repositories, not of animal suffering; to call an unshared spreadsheet a *welfare* harm is to stretch the word past usefulness. The objection deserves a serious answer, and the honest answer concedes its half-truth: not every act of stewardship maps onto an animal, and treating data welfare as literally equivalent to a wet-lab refinement would trivialise the physical suffering the 3Rs were built to address. But the equivalence the construct actually asserts is narrower and survives the objection. Reduction is defined in terms of animals per unit of knowledge; a dataset that cannot be reused is knowledge that must be regenerated, and knowledge regenerated from live animals is animals used. The link from unusable byte to used animal is not metaphorical but mechanical — it is the same link that makes historical-control reuse count as Reduction {cite:p}`Kramer2015`, that makes a continuously maintained living evidence summary a Reduction instrument because knowledge kept visible need not be regenerated {cite:p}`Hair2024`, and that makes duplicate systematic reviews a waste worth pre-registration to prevent {cite:p}`BannachBrown2024, Romantsik2024`. It is precisely the reframing of Reduction as a problem of design and reuse rather than of counting {cite:p}`Verderio2023`. The counter-case is strongest where reuse is impossible in principle and weakest exactly where the audits show data is being discarded that *could* have been banked.
+:::{trust-claim}
+:claim-id: clm_9b5d98611310fd70
+:::
+:::{trust-claim}
+:claim-id: clm_0bb660f333c82695
+:::
 
 The objection also underestimates how the field itself already ranks the Rs, in a way that quietly deprioritises the R where data welfare bites hardest. Surveys of scientists find they invert the 3Rs' original ordering, prioritising Refinement over Reduction and Reduction over Replacement {cite:p}`Franco2018`, and a systematic review of European researchers' experiences confirms that in their own fields they do not regard Replacement as possible and treat Refinement as the higher, more achievable priority {cite:p}`LouisMaerten2024`. Reduction — the data-facing R — thus sits in the middle of a hierarchy whose top and bottom absorb most of the attention, even as the rising availability of alternatives has failed to lower total animal numbers, fuelling open discord about whether the 3Rs can still guide acceptable use at all {cite:p}`Grimm2023`. Concrete inefficiencies compound the neglect: male-only study designs generate surpluses of unused female animals in breeding colonies, a Reduction failure at the facility level that no amount of within-experiment refinement addresses {cite:p}`Onuma2026`. And the welfarist blind spot about death {cite:p}`Persson2024` matters here too, because the animals bred to regenerate lost data are, disproportionately, animals killed without ever entering an analysis. The counter-case, pressed to its limit, does not defeat data welfare; it identifies where the concept is load-bearing and where it is merely rhetorical, and the audits locate most real data waste squarely in the load-bearing zone.
+:::{trust-claim}
+:claim-id: clm_6448305860061d9d
+:::
+:::{trust-claim}
+:claim-id: clm_76c9458b7f79c405
+:::
+:::{trust-claim}
+:claim-id: clm_feed5fccac388f12
+:::
+:::{trust-claim}
+:claim-id: clm_7b17b47ed7df6121
+:::
 
 ## Is Refinement overtaking Replacement?
 
 If the field's energy is flowing toward Refinement, it is worth asking whether that R can bear the weight, because Refinement is also where the evidentiary softness that data welfare would remedy is most visible. Refinement's own literature is uneven and sometimes self-contradicting. A standard multimodal analgesia regimen intended to reduce suffering instead drove strain-specific side effects severe enough to require euthanasia, so a refinement increased harm {cite:p}`Reifenrath2022`; a commonly used analgesic failed to prevent post-surgical pain even at high doses {cite:p}`Roughan2015`; and committees permit painful procedures under an "ethics of uncertainty" in which incomplete knowledge of analgesia, and fear of its effects on data, pushes researchers to withhold pain relief {cite:p}`Carbone2019`. Even the measurement tools are contested: a systematic review of grimace scales found only a handful validated to a high standard across nine species {cite:p}`Evangelista2021`, severity assessment remains largely subjective, with robust cross-model-validated methods still scarce {cite:p}`Leenaars2019a` even as a growing set of evidence-based severity tools is now being developed and validated {cite:p}`TappeTheodor2022, Reiber2023`, and the regulatory severity categories are widely judged too underspecified to assign consistently {cite:p}`Smith2018, DeVleeschauwer2023` — though the subjectivity is not immovable, since structured training measurably improves personnel's ability to recognise and grade stress severity, even as a minority still cannot reliably tell a healthy animal from a stressed one {cite:p}`Manthey2021`. Across euthanasia — the endpoint the welfarist tradition treats as no harm — reviews find no method that is humane across species and life stages {cite:p}`Hawkins2016, Clarkson2022`, active disagreement over whether volatile agents refine on carbon dioxide {cite:p}`Marquardt2018, DominguezOliva2023`, and continuing searches for alternatives {cite:p}`AxiakFlammer2019, Clarkson2023, Saarinen2025, Kohler2017`. The unifying lesson is that a refinement claim is only as trustworthy as the data behind it, and much of that data is neither complete nor comparable — which returns Refinement, too, to the reporting problem.
+:::{trust-claim}
+:claim-id: clm_d250a5f71653cea0
+:::
+:::{trust-claim}
+:claim-id: clm_18e623be0ec4ac13
+:::
+:::{trust-claim}
+:claim-id: clm_bc32d4cab29c160b
+:::
 
 :::{admonition} Evidence Conflict — can severity, and especially cumulative harm, be measured reliably?
 :class: warning
@@ -402,6 +522,9 @@ The Replacement horizon is disputed. One position holds that in translational re
 ## Reduction versus reproducibility, and the culture that reconciles them
 
 A standing objection to Reduction is that it fights reproducibility: rigid standardisation to minimise variance produces results that do not generalise, so cutting animal numbers might buy fragility {cite:p}`Karp2021`. The evidence carried over from {ref}`sec-repro-crisis` is genuinely split on how to resolve this.
+:::{trust-claim}
+:claim-id: clm_6916b09b14d5b4e6
+:::
 
 :::{admonition} Evidence Conflict — is heterogenisation enough, or do we need multiple laboratories?
 :class: warning
@@ -409,8 +532,20 @@ An empirical six-laboratory experiment found that a simple form of population he
 :::
 
 What dissolves the apparent trade-off is that the same practices serve both ends. Systematic reviews of over a thousand direct comparisons find that environmentally enriched animals are not more variable than barren-housed ones — sometimes less — refuting the claim that welfare-improving housing undermines standardisation {cite:p}`Kentner2021`, a result anticipated by earlier work showing enrichment raised neither individual variability nor the risk of conflicting replicate outcomes {cite:p}`Wolfer2004, Lewejohann2005`. Better design and confirmatory multi-laboratory studies improve reproducibility while holding or lowering animal numbers {cite:p}`vonKortzfleisch2020, Rotter2026`, and the housing that improves welfare tends to improve data quality rather than degrade it {cite:p}`Cait2022`. Reduction and reproducibility are reconciled not by choosing between them but by the design competence and complete reporting that data welfare demands.
+:::{trust-claim}
+:claim-id: clm_7b09fa0e049cf5d6
+:::
+:::{trust-claim}
+:claim-id: clm_abe77ba2ae4212d5
+:::
 
 That competence is a property of people and institutions, which is where the culture-of-care literature enters — and where the evidence is most equivocal. Scoping the field, {cite:t}`Morahan2024` found compassion fatigue the most frequently described work-related stress yet no study empirically linking that stress to research quality, and surveys document the fatigue at scale: most laboratory-animal personnel report having experienced it {cite:p}`Thurston2021`, poorer professional quality of life tracks less enrichment, physical euthanasia methods, and less control over performing euthanasia {cite:p}`LaFollette2020`, and staff attribute the strain more to institutional culture than to the animal work itself {cite:p}`Young2024, Rumpel2026`. The interventions are not obviously working — an exploratory survey concluded a culture of care is not yet fully established despite two decades of promotion {cite:p}`Ameli2025`, and the first multi-year controlled trial of resiliency programmes found no significant change in professional quality of life, a negative result worth stating plainly {cite:p}`Young2026`. How to assess such a culture is itself contested.
+:::{trust-claim}
+:claim-id: clm_42b8e37610392712
+:::
+:::{trust-claim}
+:claim-id: clm_e7bdab40bb4ba2eb
+:::
 
 :::{admonition} Evidence Conflict — should culture of care be audited?
 :class: warning
@@ -418,6 +553,9 @@ An industry working group built a culture-of-care framework but cautioned it mus
 :::
 
 The through-line connects the human and animal costs: euthanising surplus animals and being unable to alleviate distress are among the strongest job-specific stressors reported {cite:p}`LaFollette2020, Rumpel2026`, in a workforce where nearly everyone has performed euthanasia {cite:p}`GoniBalentziaga2021` and where the strain is attributed to institutional culture more than to the animal work itself {cite:p}`Young2024`, so a system that breeds and kills animals to regenerate data it already produced imposes a double harm — on the animals wasted and on the people who must waste them. Data welfare, in this light, is not an accountant's addendum to the 3Rs but a restatement of their original promise: that the knowledge extracted from a sentient life should be worth what the life cost, and should be preserved as if it were.
+:::{trust-claim}
+:claim-id: clm_35f9f6f03212b749
+:::
 
 Whether that promise can be kept turns on a practical question the moral argument cannot answer on its own, because data welfare is only actionable if animal-derived data can in fact be made reusable: can they actually be made findable, interoperable, and reusable in the messy reality of preclinical archives? The leading operationalisation of data welfare is the FAIR principles, and {ref}`sec-fair-preclinical` puts them to precisely that test — asking whether they deliver reuse in practice or merely relabel the same declared-versus-actual gap the audits keep exposing.
 

@@ -1,0 +1,3974 @@
+{
+"Pound2018": {
+"band": "low_trust",
+"min_score": 60
+},
+"Freedman2015": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Chalmers2014": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Ioannidis2014c": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Ioannidis2005b": {
+"band": "low_trust",
+"min_score": 60
+},
+"terRiet2012": {
+"band": "low_trust",
+"min_score": 60
+},
+"Deutsch2021": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Federico2014": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Sena2010": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Hamilton2023": {
+"band": "low_trust",
+"min_score": 60
+},
+"Errington2021a": {
+"band": "high_trust",
+"min_score": 85
+},
+"Tsilidis2013": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"vanderWorp2010": {
+"band": "high_trust",
+"min_score": 85
+},
+"Button2013": {
+"band": "moderate_trust",
+"min_score": 70
+},
+"Perel2006": {
+"band": "high_trust",
+"min_score": 85
+},
+"Leenaars2019b": {
+"band": "high_trust",
+"min_score": 95
+},
+"Schuhmacher2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Dhillon2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Seok2013": {
+"band": "high_trust",
+"min_score": 85
+},
+"Takao2014": {
+"band": "high_trust",
+"min_score": 85
+},
+"Vogt2016": {
+"band": "high_trust",
+"min_score": 90
+},
+"Jorgensen2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"Persson2024": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Bara2014": {
+"band": "high_trust",
+"min_score": 90
+},
+"MacArthurClark2019": {
+"band": "high_trust",
+"min_score": 90
+},
+"Loser2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Strech2019": {
+"band": "high_trust",
+"min_score": 90
+},
+"Brink2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"DeGrazia2019": {
+"band": "high_trust",
+"min_score": 100
+},
+"Vitale2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Kramer2015": {
+"band": "low_trust",
+"min_score": 60
+},
+"Verderio2023": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Franco2018": {
+"band": "high_trust",
+"min_score": 85
+},
+"LouisMaerten2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Cait2022": {
+"band": "low_trust",
+"min_score": 60
+},
+"Wilkinson2016": {
+"band": "low_trust",
+"min_score": 60
+},
+"VanTuyl2016": {
+"band": "low_trust",
+"min_score": 60
+},
+"Gabelica2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Inau2023": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Uribe2022": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Markiewicz2021": {
+"band": "high_trust",
+"min_score": 85
+},
+"Hamilton2022": {
+"band": "low_trust",
+"min_score": 60
+},
+"Hawkins2020": {
+"band": "low_trust",
+"min_score": 65
+},
+"StegerHartmann2020": {
+"band": "high_trust",
+"min_score": 90
+},
+"Gurjanov2024b": {
+"band": "high_trust",
+"min_score": 90
+},
+"Chiaruttini2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Moresis2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Deschl2002": {
+"band": "high_trust",
+"min_score": 90
+},
+"DuchateauNguyen2026": {
+"band": "low_trust",
+"min_score": 60
+},
+"Mecklenburg2023": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Adedeji2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Kellner2025": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"SATO2024": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Pfuhler2020": {
+"band": "high_trust",
+"min_score": 85
+},
+"Sirenko2016": {
+"band": "high_trust",
+"min_score": 85
+},
+"Comess2020": {
+"band": "high_trust",
+"min_score": 85
+},
+"Carmichael2022": {
+"band": "moderate_trust",
+"min_score": 70
+},
+"Holmer2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Marx2020": {
+"band": "high_trust",
+"min_score": 85
+},
+"Hartung2025a": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Karmaus2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Gant2026": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Rice2020": {
+"band": "high_trust",
+"min_score": 90
+},
+"McKiernan2019": {
+"band": "high_trust",
+"min_score": 90
+},
+"Fecher2015": {
+"band": "high_trust",
+"min_score": 90
+},
+"Smaldino2016": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Munafo2017": {
+"band": "high_trust",
+"min_score": 95
+},
+"Danchev2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Macleod2019b": {
+"band": "low_trust",
+"min_score": 60
+},
+"Hair2019": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Kidwell2016": {
+"band": "low_trust",
+"min_score": 60
+},
+"Freedman2017": {
+"band": "high_trust",
+"min_score": 90
+},
+"Fitzpatrick2018": {
+"band": "high_trust",
+"min_score": 95
+},
+"Moher2016": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Begley2015": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"vonNiederhausern2018": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"McCann2016": {
+"band": "high_trust",
+"min_score": 90
+},
+"Henderson2015": {
+"band": "high_trust",
+"min_score": 90
+},
+"Currie2019": {
+"band": "high_trust",
+"min_score": 90
+},
+"Bolan2019": {
+"band": "high_trust",
+"min_score": 90
+},
+"MacIntoshSmith2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"Martins2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Xie2015": {
+"band": "high_trust",
+"min_score": 90
+},
+"Aiyede2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Fu2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Liang2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Archer2018": {
+"band": "high_trust",
+"min_score": 95
+},
+"NasreNasser2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Russell2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Deutsch2020": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Chan2014": {
+"band": "moderate_trust",
+"min_score": 70
+},
+"Errington2021b": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Errington2021c": {
+"band": "high_trust",
+"min_score": 90
+},
+"Kilkenny2010": {
+"band": "high_trust",
+"min_score": 85
+},
+"PercieduSert2020a": {
+"band": "high_trust",
+"min_score": 85
+},
+"Macleod2015": {
+"band": "high_trust",
+"min_score": 95
+},
+"Vesterinen2010": {
+"band": "high_trust",
+"min_score": 95
+},
+"Reynolds2020": {
+"band": "high_trust",
+"min_score": 95
+},
+"Freshwater2015": {
+"band": "high_trust",
+"min_score": 95
+},
+"Singh2020": {
+"band": "high_trust",
+"min_score": 95
+},
+"Kringe2020": {
+"band": "high_trust",
+"min_score": 95
+},
+"Crossley2008": {
+"band": "high_trust",
+"min_score": 100
+},
+"Watzlawick2019": {
+"band": "high_trust",
+"min_score": 100
+},
+"Hooijmans2014": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Landis2012": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Smith2017": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Bert2019": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Henderson2013": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Lapchak2012": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Serdar2021": {
+"band": "low_trust",
+"min_score": 60
+},
+"Mazoit2026": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Ma2020": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Kousholt2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Reichlin2016": {
+"band": "high_trust",
+"min_score": 90
+},
+"Wever2015": {
+"band": "high_trust",
+"min_score": 85
+},
+"Jonker2016": {
+"band": "high_trust",
+"min_score": 85
+},
+"Cunningham2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Lin2021": {
+"band": "high_trust",
+"min_score": 85
+},
+"Lalu2016": {
+"band": "high_trust",
+"min_score": 85
+},
+"Liddle2021": {
+"band": "high_trust",
+"min_score": 85
+},
+"Soliman2021": {
+"band": "high_trust",
+"min_score": 85
+},
+"Zhang2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Jue2018": {
+"band": "high_trust",
+"min_score": 85
+},
+"Antonic2013": {
+"band": "high_trust",
+"min_score": 85
+},
+"Huerta2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Scuteri2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Koop2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Mugan2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Yang2025": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Su2021": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Zhu2019": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Zhang2020": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Modiri2025": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Sharif2025": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Zingarelli2019": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Lopes2020": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Hum2024": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Ratajczak2024": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Arida2021": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Yue2024": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Bailey2021": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Lu2025": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Xing2018": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Yamaura2023": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Deckers2019": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Huang2024": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Reis2023": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Fanelli2009": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Fraser2018": {
+"band": "high_trust",
+"min_score": 85
+},
+"Head2015": {
+"band": "high_trust",
+"min_score": 95
+},
+"Boschen2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Ioannidis2005a": {
+"band": "high_trust",
+"min_score": 95
+},
+"Tatsioni2007": {
+"band": "high_trust",
+"min_score": 95
+},
+"Greenberg2009": {
+"band": "high_trust",
+"min_score": 95
+},
+"IOANNIDIS2016": {
+"band": "high_trust",
+"min_score": 90
+},
+"Nakagawa2017": {
+"band": "high_trust",
+"min_score": 95
+},
+"BannachBrown2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"OpenScienceCollaboration2015": {
+"band": "high_trust",
+"min_score": 85
+},
+"Camerer2018": {
+"band": "high_trust",
+"min_score": 95
+},
+"VanBavel2016": {
+"band": "high_trust",
+"min_score": 95
+},
+"Dreber2015": {
+"band": "high_trust",
+"min_score": 95
+},
+"Fidler2017": {
+"band": "high_trust",
+"min_score": 95
+},
+"Gilbert2016": {
+"band": "high_trust",
+"min_score": 90
+},
+"Ingre2018": {
+"band": "high_trust",
+"min_score": 85
+},
+"Korbmacher2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Amaral2019": {
+"band": "high_trust",
+"min_score": 85
+},
+"OSullivan2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"Li2012": {
+"band": "high_trust",
+"min_score": 95
+},
+"BenDavid2018": {
+"band": "high_trust",
+"min_score": 85
+},
+"Souren2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Vicente2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Sfanos2019": {
+"band": "high_trust",
+"min_score": 85
+},
+"PillaiKastoori2020": {
+"band": "high_trust",
+"min_score": 85
+},
+"Venkataraman2018": {
+"band": "high_trust",
+"min_score": 85
+},
+"Crabbe1999": {
+"band": "high_trust",
+"min_score": 100
+},
+"vandeLagemaat2017": {
+"band": "high_trust",
+"min_score": 100
+},
+"Aigner2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"TAFT2006": {
+"band": "high_trust",
+"min_score": 100
+},
+"Ortmann2020": {
+"band": "high_trust",
+"min_score": 100
+},
+"Devlin2022": {
+"band": "high_trust",
+"min_score": 100
+},
+"Allaband2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"deJonge2019": {
+"band": "high_trust",
+"min_score": 95
+},
+"Islam2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"Knuth2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Feng2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Im2021": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Beery2011": {
+"band": "high_trust",
+"min_score": 100
+},
+"Woitowich2020": {
+"band": "high_trust",
+"min_score": 100
+},
+"Miller2016": {
+"band": "high_trust",
+"min_score": 100
+},
+"Becker2016": {
+"band": "high_trust",
+"min_score": 95
+},
+"Brandner2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Plevkova2017": {
+"band": "high_trust",
+"min_score": 95
+},
+"OLeary2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Jackson2016": {
+"band": "high_trust",
+"min_score": 95
+},
+"Heidari2016": {
+"band": "high_trust",
+"min_score": 85
+},
+"Voelkl2018": {
+"band": "high_trust",
+"min_score": 95
+},
+"Voelkl2020": {
+"band": "high_trust",
+"min_score": 100
+},
+"Voelkl2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"Samsa2019": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"ArroyoAraujo2019": {
+"band": "high_trust",
+"min_score": 85
+},
+"Llovera2015": {
+"band": "high_trust",
+"min_score": 90
+},
+"Kleinbongard2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Btker2018": {
+"band": "high_trust",
+"min_score": 90
+},
+"Boehmerle2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"VanNorman2019": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"McGonigle2014": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"AKHTAR2015": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Curran2018": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"ContopoulosIoannidis2003": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Attia2017": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Purcell2024": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Cannon2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"Aquarius2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"Brown2016": {
+"band": "high_trust",
+"min_score": 90
+},
+"Bansal2017": {
+"band": "high_trust",
+"min_score": 90
+},
+"Ferreira2020": {
+"band": "high_trust",
+"min_score": 95
+},
+"Rongen2015": {
+"band": "high_trust",
+"min_score": 95
+},
+"Lamontagne2010": {
+"band": "high_trust",
+"min_score": 95
+},
+"Stein2015": {
+"band": "high_trust",
+"min_score": 95
+},
+"Draeger2020": {
+"band": "high_trust",
+"min_score": 95
+},
+"Ashraf2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Shineman2011": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"SukoffRizzo2020": {
+"band": "high_trust",
+"min_score": 95
+},
+"DiMasi2014": {
+"band": "high_trust",
+"min_score": 95
+},
+"Luo2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Wasylewski2020": {
+"band": "high_trust",
+"min_score": 95
+},
+"Tenuta2013": {
+"band": "high_trust",
+"min_score": 85
+},
+"Farid2020": {
+"band": "high_trust",
+"min_score": 85
+},
+"Crescioli2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Zushin2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Raabe2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"OBrien2006": {
+"band": "high_trust",
+"min_score": 85
+},
+"Tutty2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Aquarius2025": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Kirk2017": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Muller2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Kirk2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Lauwereyns2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Perez2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"DeGrazia1991": {
+"band": "high_trust",
+"min_score": 95
+},
+"Bovenkerk2014": {
+"band": "high_trust",
+"min_score": 95
+},
+"Dung2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Kahane2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Schnell2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"CrespiAbril2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Browning2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Graham2015": {
+"band": "high_trust",
+"min_score": 85
+},
+"Grimm2018": {
+"band": "high_trust",
+"min_score": 85
+},
+"Gutfreund2020": {
+"band": "high_trust",
+"min_score": 90
+},
+"Wolfensohn2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Hajosi2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Azilagbetor2025b": {
+"band": "high_trust",
+"min_score": 85
+},
+"Jorgensen2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Pippin2025": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Bespalov2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Joffe2016": {
+"band": "high_trust",
+"min_score": 90
+},
+"Brunt2021b": {
+"band": "high_trust",
+"min_score": 90
+},
+"Bearth2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"ThompsonIritani2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Taylor2010": {
+"band": "high_trust",
+"min_score": 90
+},
+"Park2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"Ding2022": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Han2017": {
+"band": "low_trust",
+"min_score": 60
+},
+"Liu2021": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Landes2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Shaw2002": {
+"band": "high_trust",
+"min_score": 95
+},
+"Shaw2004": {
+"band": "high_trust",
+"min_score": 95
+},
+"Landes2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Karp2021": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Gaskill2020": {
+"band": "high_trust",
+"min_score": 90
+},
+"Romantsik2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"vonderBeck2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"PetrescuMag2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Hair2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"BannachBrown2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Petkov2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"MacArthurClark2017": {
+"band": "high_trust",
+"min_score": 95
+},
+"Lewis2019": {
+"band": "high_trust",
+"min_score": 95
+},
+"Grimm2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Onuma2026": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Reifenrath2022": {
+"band": "high_trust",
+"min_score": 100
+},
+"Roughan2015": {
+"band": "high_trust",
+"min_score": 100
+},
+"Carbone2019": {
+"band": "high_trust",
+"min_score": 100
+},
+"Evangelista2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Leenaars2019a": {
+"band": "high_trust",
+"min_score": 90
+},
+"TappeTheodor2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Reiber2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"Smith2018": {
+"band": "high_trust",
+"min_score": 90
+},
+"DeVleeschauwer2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"Manthey2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Hawkins2016": {
+"band": "high_trust",
+"min_score": 100
+},
+"Clarkson2022": {
+"band": "high_trust",
+"min_score": 100
+},
+"Marquardt2018": {
+"band": "high_trust",
+"min_score": 100
+},
+"DominguezOliva2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"AxiakFlammer2019": {
+"band": "high_trust",
+"min_score": 100
+},
+"Clarkson2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"Saarinen2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Kohler2017": {
+"band": "high_trust",
+"min_score": 100
+},
+"Wegener2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Bateson2015": {
+"band": "high_trust",
+"min_score": 90
+},
+"Krueger2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"Moller2018": {
+"band": "high_trust",
+"min_score": 90
+},
+"Fruhwein2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Lei2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"MartinezLopez2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Weidema2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Richter2011": {
+"band": "high_trust",
+"min_score": 95
+},
+"vonKortzfleisch2020": {
+"band": "high_trust",
+"min_score": 90
+},
+"Mundinger2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Kentner2021": {
+"band": "high_trust",
+"min_score": 100
+},
+"Wolfer2004": {
+"band": "high_trust",
+"min_score": 100
+},
+"Lewejohann2005": {
+"band": "high_trust",
+"min_score": 100
+},
+"Rotter2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Morahan2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Thurston2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"LaFollette2020": {
+"band": "high_trust",
+"min_score": 90
+},
+"Young2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Rumpel2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Ameli2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Young2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"Robinson2019": {
+"band": "high_trust",
+"min_score": 85
+},
+"Hawkins2019": {
+"band": "high_trust",
+"min_score": 85
+},
+"Ferrara2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Amarasekara2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Enkelmann2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"GoniBalentziaga2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"Qiu2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Devaraju2021": {
+"band": "high_trust",
+"min_score": 100
+},
+"Peng2022": {
+"band": "high_trust",
+"min_score": 100
+},
+"Corcho2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"AguilarGomez2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Musen2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Batista2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"MartinRodriguez2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"CerdaCosme2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Mayernik2017": {
+"band": "high_trust",
+"min_score": 95
+},
+"Hormann2026": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Schnieders2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Vrabel2016": {
+"band": "high_trust",
+"min_score": 95
+},
+"Khan2020": {
+"band": "high_trust",
+"min_score": 95
+},
+"Page2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Grynoch2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Shanahan2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Bertelli2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Guerra2026": {
+"band": "low_trust",
+"min_score": 60
+},
+"Hamidi2025": {
+"band": "low_trust",
+"min_score": 60
+},
+"Speir2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"deGroot2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Huang2025b": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Syed2025": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Puttmann2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Waithira2026": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Verbitsky2024": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Poldrack2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Brazma2001": {
+"band": "high_trust",
+"min_score": 100
+},
+"Taylor2007": {
+"band": "high_trust",
+"min_score": 100
+},
+"Taylor2008": {
+"band": "high_trust",
+"min_score": 100
+},
+"MartinezBartolome2013": {
+"band": "high_trust",
+"min_score": 100
+},
+"Vadadokhau2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"Kush2020": {
+"band": "high_trust",
+"min_score": 95
+},
+"Stotl2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Gilani2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Lin2020": {
+"band": "high_trust",
+"min_score": 95
+},
+"Donaldson2020": {
+"band": "high_trust",
+"min_score": 95
+},
+"Murphy2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"Smith2007": {
+"band": "high_trust",
+"min_score": 95
+},
+"Faria2012": {
+"band": "high_trust",
+"min_score": 100
+},
+"Buza2008": {
+"band": "high_trust",
+"min_score": 100
+},
+"Wood2020": {
+"band": "high_trust",
+"min_score": 100
+},
+"Reiser2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"Bada2008": {
+"band": "high_trust",
+"min_score": 85
+},
+"Long2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"Tahar2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Rieder2026": {
+"band": "low_trust",
+"min_score": 60
+},
+"Nada2026": {
+"band": "low_trust",
+"min_score": 60
+},
+"Bataille2026": {
+"band": "low_trust",
+"min_score": 60
+},
+"Finster2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"App2026": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Carroll2022b": {
+"band": "high_trust",
+"min_score": 90
+},
+"Hudson2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Garba2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"West2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Mayor2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Calac2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"ClarkAdnyamathanha2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Hassenstein2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Heeney2017": {
+"band": "high_trust",
+"min_score": 95
+},
+"Pernet2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"GarciaClosas2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"Dowding2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Colavizza2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Zhang2021": {
+"band": "high_trust",
+"min_score": 85
+},
+"Late2024": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Woods2022": {
+"band": "high_trust",
+"min_score": 100
+},
+"Schmeiss2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"Kim2026a": {
+"band": "high_trust",
+"min_score": 100
+},
+"Prosser2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Ngu2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Kenyani2011": {
+"band": "high_trust",
+"min_score": 85
+},
+"Biddle2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Piekniewska2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"HerresPawlis2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Schaduangrat2020": {
+"band": "high_trust",
+"min_score": 85
+},
+"Zeng2011": {
+"band": "high_trust",
+"min_score": 85
+},
+"Solle2020": {
+"band": "high_trust",
+"min_score": 85
+},
+"Higgins2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Nwafor2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Kirchner2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Willoughby2014": {
+"band": "high_trust",
+"min_score": 85
+},
+"Petek2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Vedi2023": {
+"band": "low_trust",
+"min_score": 60
+},
+"Ehlich2025": {
+"band": "low_trust",
+"min_score": 60
+},
+"Nault2023": {
+"band": "low_trust",
+"min_score": 60
+},
+"Rush2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Vesteghem2019": {
+"band": "high_trust",
+"min_score": 90
+},
+"Potter2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"PetitDemouliere2026": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Landes2018": {
+"band": "high_trust",
+"min_score": 95
+},
+"Harrell2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Neuenschwander2010": {
+"band": "high_trust",
+"min_score": 95
+},
+"Gsteiger2013": {
+"band": "high_trust",
+"min_score": 100
+},
+"Gurjanov2024a": {
+"band": "high_trust",
+"min_score": 95
+},
+"Lotfi2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Wright2023b": {
+"band": "high_trust",
+"min_score": 85
+},
+"Andaya2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Wise2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Guffroy2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Prior2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"Sewell2014": {
+"band": "high_trust",
+"min_score": 100
+},
+"Prior2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"Booler2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"SalianMehta2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"Keenan2002": {
+"band": "high_trust",
+"min_score": 100
+},
+"Pognan2021": {
+"band": "high_trust",
+"min_score": 100
+},
+"Carfagna2020b": {
+"band": "high_trust",
+"min_score": 95
+},
+"Snyder2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"MunozMuriedas2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"StegerHartmann2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Sanz2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Carfagna2020a": {
+"band": "high_trust",
+"min_score": 95
+},
+"Colman2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"Woicke2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"Skydsgaard2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"Schafer2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Keenan2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Schuh2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Bachchair2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Quist2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"StegerHartmann2018": {
+"band": "high_trust",
+"min_score": 95
+},
+"Wright2023a": {
+"band": "high_trust",
+"min_score": 95
+},
+"Li2024a": {
+"band": "high_trust",
+"min_score": 85
+},
+"StegerHartmann2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Golden2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Grevot2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Barrett2025": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Gurjanov2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Kadyrov2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Abernathy2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Nambiar2012": {
+"band": "high_trust",
+"min_score": 95
+},
+"Paranjpe2013": {
+"band": "high_trust",
+"min_score": 95
+},
+"Nolte2011": {
+"band": "high_trust",
+"min_score": 95
+},
+"Dinse2010": {
+"band": "high_trust",
+"min_score": 95
+},
+"Kumar2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Boyle2018": {
+"band": "high_trust",
+"min_score": 95
+},
+"Leakey2003": {
+"band": "high_trust",
+"min_score": 95
+},
+"Raitano2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"Brown2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"Paranjpe2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Kluxen2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"Kluxen2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Menssen2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Menssen2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Coja2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Kasai2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Williams2016": {
+"band": "high_trust",
+"min_score": 90
+},
+"Starr2012": {
+"band": "high_trust",
+"min_score": 90
+},
+"Zarn2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Ohnishi2013": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Panzacchi2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Aguilar2017": {
+"band": "high_trust",
+"min_score": 85
+},
+"Foster2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"Elmore2009": {
+"band": "high_trust",
+"min_score": 100
+},
+"Young2016": {
+"band": "high_trust",
+"min_score": 100
+},
+"Linkov1998": {
+"band": "high_trust",
+"min_score": 95
+},
+"Lin2018": {
+"band": "high_trust",
+"min_score": 95
+},
+"Schimera2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Green2014": {
+"band": "high_trust",
+"min_score": 95
+},
+"Rahman2008": {
+"band": "high_trust",
+"min_score": 95
+},
+"Elmore2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Maronpot2016": {
+"band": "high_trust",
+"min_score": 100
+},
+"Wang2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Dron2019": {
+"band": "high_trust",
+"min_score": 95
+},
+"Gaskell2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"KoppSchneider2019": {
+"band": "high_trust",
+"min_score": 100
+},
+"Quan2019": {
+"band": "high_trust",
+"min_score": 100
+},
+"Overbey2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Zhu2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Polak2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Wang2025b": {
+"band": "high_trust",
+"min_score": 95
+},
+"Hupf2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"Alt2024a": {
+"band": "high_trust",
+"min_score": 95
+},
+"Huang2025a": {
+"band": "high_trust",
+"min_score": 95
+},
+"Mukhopadhyay2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Bennett2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"Callegaro2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"Alt2024b": {
+"band": "high_trust",
+"min_score": 95
+},
+"Lee2025b": {
+"band": "high_trust",
+"min_score": 95
+},
+"Nikolakopoulos2017": {
+"band": "high_trust",
+"min_score": 95
+},
+"Smith2020a": {
+"band": "high_trust",
+"min_score": 100
+},
+"Isogawa2020": {
+"band": "high_trust",
+"min_score": 100
+},
+"Peng2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"Lu2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"Feit2020": {
+"band": "high_trust",
+"min_score": 100
+},
+"Warren2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"Li2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"Burman2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"Tian2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Zheng2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Mariani2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"Chen2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"Hupf2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"Neuenschwander2020": {
+"band": "high_trust",
+"min_score": 100
+},
+"Campbell2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"Qian2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Ratta2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"Zocholl2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Scott2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"Murray2021": {
+"band": "high_trust",
+"min_score": 100
+},
+"Harun2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"Ohigashi2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"Wang2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"Zhan2021": {
+"band": "high_trust",
+"min_score": 100
+},
+"GamaloSiebers2017": {
+"band": "high_trust",
+"min_score": 95
+},
+"Walker2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Pottackal2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Sailer2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Schwartz2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Pignatti2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Vennin2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"Taylor2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Hartley2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Arondekar2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Jahanshahi2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"Subramaniam2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Swaminathan2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Walker2026b": {
+"band": "high_trust",
+"min_score": 95
+},
+"Struebing2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Walker2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Yap2022": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Rolfo2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Hadoux2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Boyne2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Letailleur2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"VanLe2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Yin2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Oesterheld2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Ko2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"BoemmelWegmann2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Schmidli2019": {
+"band": "high_trust",
+"min_score": 95
+},
+"Litman2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Thomas2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"Lukas2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Jaksa2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Izem2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Velummailum2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"Loiseau2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Abrisqueta2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Belthangady2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Mangla2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"BaumfeldAndre2019": {
+"band": "high_trust",
+"min_score": 90
+},
+"Dagenais2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Arora2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Mulder2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"Mitroiu2018": {
+"band": "high_trust",
+"min_score": 90
+},
+"Cucherat2020": {
+"band": "high_trust",
+"min_score": 90
+},
+"Palazzi2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"VillarValero2025": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Sauer2020": {
+"band": "high_trust",
+"min_score": 95
+},
+"Schmidt2016": {
+"band": "high_trust",
+"min_score": 90
+},
+"Tollefsen2014": {
+"band": "high_trust",
+"min_score": 95
+},
+"Csobonyeiova2016": {
+"band": "high_trust",
+"min_score": 90
+},
+"Brancato2020": {
+"band": "high_trust",
+"min_score": 90
+},
+"Hilton2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Kishi2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Hendriks2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Casati2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Casati2017": {
+"band": "high_trust",
+"min_score": 85
+},
+"Kolle2020": {
+"band": "high_trust",
+"min_score": 85
+},
+"Corvaro2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Drost2019": {
+"band": "high_trust",
+"min_score": 95
+},
+"Ahuja2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"KelleciCelik2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Hong2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Mansouri2020": {
+"band": "high_trust",
+"min_score": 95
+},
+"Levet2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Wignall2018": {
+"band": "high_trust",
+"min_score": 95
+},
+"Tcheremenskaia2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"Yao2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Nawaji2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Wang2024a": {
+"band": "high_trust",
+"min_score": 95
+},
+"Noga2023": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Tao2021": {
+"band": "high_trust",
+"min_score": 85
+},
+"Song2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Wang2025a": {
+"band": "high_trust",
+"min_score": 85
+},
+"Pan2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Sunildutt2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Yun2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Watanabe2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Yu2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Yu2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Roy2026": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Vormann2018": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Varmazyad2026": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Pin2026": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Mirlohi2025": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"McCloskey2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Oishi2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Garcia2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Yuan2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Carius2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Mathur2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Pediaditakis2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Shah2016": {
+"band": "high_trust",
+"min_score": 85
+},
+"DePalma2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Kim2023b": {
+"band": "high_trust",
+"min_score": 85
+},
+"Haase2020": {
+"band": "high_trust",
+"min_score": 85
+},
+"Veith2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Testa2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Taverna2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Wisdom2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Kim2023a": {
+"band": "high_trust",
+"min_score": 85
+},
+"Kim2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Nakanoh2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Nakao2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"James2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Parween2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Birtele2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Hong2021": {
+"band": "high_trust",
+"min_score": 85
+},
+"Bejoy2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Vanslambrouck2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Lawlor2020": {
+"band": "high_trust",
+"min_score": 90
+},
+"Harkin2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Mehta2025": {
+"band": "moderate_trust",
+"min_score": 70
+},
+"Kopanska2022": {
+"band": "moderate_trust",
+"min_score": 70
+},
+"Rogiers2026": {
+"band": "moderate_trust",
+"min_score": 70
+},
+"Shenton2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Beken2016": {
+"band": "high_trust",
+"min_score": 85
+},
+"Bishop2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Rovida2020": {
+"band": "high_trust",
+"min_score": 85
+},
+"Hartung2025b": {
+"band": "high_trust",
+"min_score": 85
+},
+"Pestana2021": {
+"band": "high_trust",
+"min_score": 85
+},
+"Mone2020": {
+"band": "high_trust",
+"min_score": 85
+},
+"Kumar2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Rowland2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Patra2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Cai2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"vanRijt2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Sewell2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"Oyetade2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Villela2022": {
+"band": "high_trust",
+"min_score": 100
+},
+"Osborne2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"Strickland2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"Ouedraogo2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Holzer2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"Mitchell2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"Judzinska2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Ladeira2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Kopanska2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Kumbhar2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Kim2026b": {
+"band": "high_trust",
+"min_score": 90
+},
+"Weener2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Gonnabathula2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Marx2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Fabre2020": {
+"band": "high_trust",
+"min_score": 100
+},
+"Brown2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"Ezendam2016": {
+"band": "high_trust",
+"min_score": 90
+},
+"Macmillan2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Maxwell2014": {
+"band": "high_trust",
+"min_score": 90
+},
+"Kopp2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Boyce2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Enoch2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"vanTongeren2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Spaenig2026": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Linakis2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Ni2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"Chang2022": {
+"band": "high_trust",
+"min_score": 100
+},
+"Hines2022": {
+"band": "high_trust",
+"min_score": 100
+},
+"Bosgra2015": {
+"band": "high_trust",
+"min_score": 100
+},
+"Idakwo2018": {
+"band": "high_trust",
+"min_score": 90
+},
+"Chou2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Juberg2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"Klose2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Fritsche2018": {
+"band": "high_trust",
+"min_score": 90
+},
+"Kong2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Kato2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Lim2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"Nickels2020": {
+"band": "high_trust",
+"min_score": 90
+},
+"Dominijanni2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Hoyberghs2020": {
+"band": "high_trust",
+"min_score": 90
+},
+"Jeffries2015": {
+"band": "high_trust",
+"min_score": 90
+},
+"vonHellfeld2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Wittich2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"Fan2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"He2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Louey2021": {
+"band": "high_trust",
+"min_score": 85
+},
+"Kopec2021": {
+"band": "moderate_trust",
+"min_score": 70
+},
+"Moyer2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Zhou2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Zhang2024a": {
+"band": "high_trust",
+"min_score": 85
+},
+"Liu2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Lee2025a": {
+"band": "high_trust",
+"min_score": 85
+},
+"Wang2018": {
+"band": "high_trust",
+"min_score": 95
+},
+"Franzosa2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"Russo2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Ehrlich2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Corsi2019": {
+"band": "high_trust",
+"min_score": 95
+},
+"Saili2019": {
+"band": "high_trust",
+"min_score": 85
+},
+"Fay2018": {
+"band": "high_trust",
+"min_score": 85
+},
+"Isaacs2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Onyango2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Karmaus2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Suh2018": {
+"band": "high_trust",
+"min_score": 85
+},
+"MohammedTaha2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Afantitis2020": {
+"band": "high_trust",
+"min_score": 95
+},
+"Bahl2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Jeliazkova2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Daniel2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Watford2019": {
+"band": "high_trust",
+"min_score": 95
+},
+"Papadiamantis2020": {
+"band": "high_trust",
+"min_score": 90
+},
+"Mortensen2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Baskaran2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Weber2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Yang2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Ball2016": {
+"band": "high_trust",
+"min_score": 95
+},
+"Leist2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Ioannidis2014b": {
+"band": "high_trust",
+"min_score": 100
+},
+"Young2008": {
+"band": "high_trust",
+"min_score": 100
+},
+"Edwards2017": {
+"band": "high_trust",
+"min_score": 100
+},
+"Alberts2014": {
+"band": "high_trust",
+"min_score": 100
+},
+"Casadevall2014": {
+"band": "high_trust",
+"min_score": 100
+},
+"Chapman2019": {
+"band": "high_trust",
+"min_score": 100
+},
+"Alperin2019": {
+"band": "high_trust",
+"min_score": 100
+},
+"Schimanski2018": {
+"band": "high_trust",
+"min_score": 100
+},
+"Morales2021": {
+"band": "high_trust",
+"min_score": 100
+},
+"Dougherty2022": {
+"band": "high_trust",
+"min_score": 100
+},
+"Arabi2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Perrier2020": {
+"band": "high_trust",
+"min_score": 100
+},
+"Zuiderwijk2020": {
+"band": "high_trust",
+"min_score": 85
+},
+"Devriendt2022": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Roche2015": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Pruschak2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Mongeon2017": {
+"band": "high_trust",
+"min_score": 90
+},
+"Hosseini2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Vasilevsky2020": {
+"band": "high_trust",
+"min_score": 100
+},
+"Zhang2019b": {
+"band": "high_trust",
+"min_score": 100
+},
+"Das2020": {
+"band": "high_trust",
+"min_score": 100
+},
+"LewisWilson2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"Stafford2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"Himanen2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"Gagliardi2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"Tennant2020": {
+"band": "high_trust",
+"min_score": 85
+},
+"DelasCuevas2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Hardwicke2021": {
+"band": "high_trust",
+"min_score": 100
+},
+"Flanagan2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"Miller2019": {
+"band": "high_trust",
+"min_score": 100
+},
+"Blackwell2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Heckerman2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Salman2014": {
+"band": "high_trust",
+"min_score": 90
+},
+"Bastian2010": {
+"band": "high_trust",
+"min_score": 90
+},
+"Soergel2015": {
+"band": "high_trust",
+"min_score": 90
+},
+"Peng2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Schneider2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Velicu2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Entradas2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"Haven2021": {
+"band": "high_trust",
+"min_score": 100
+},
+"Brooker2024": {
+"band": "high_trust",
+"min_score": 100
+},
+"Fanelli2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"John2012": {
+"band": "high_trust",
+"min_score": 100
+},
+"Stefan2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"Wicherts2016": {
+"band": "high_trust",
+"min_score": 100
+},
+"Breznau2022": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Nissen2016": {
+"band": "high_trust",
+"min_score": 95
+},
+"Lewandowsky2020": {
+"band": "high_trust",
+"min_score": 95
+},
+"Boutron2010": {
+"band": "high_trust",
+"min_score": 100
+},
+"Wu2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"Rassy2021": {
+"band": "high_trust",
+"min_score": 100
+},
+"Nguyen2022": {
+"band": "high_trust",
+"min_score": 100
+},
+"ReynoldsVaughn2020": {
+"band": "high_trust",
+"min_score": 100
+},
+"Goldacre2019b": {
+"band": "high_trust",
+"min_score": 100
+},
+"Kapp2022": {
+"band": "high_trust",
+"min_score": 100
+},
+"Goldacre2019a": {
+"band": "high_trust",
+"min_score": 100
+},
+"Prior2017": {
+"band": "high_trust",
+"min_score": 100
+},
+"Heneghan2017": {
+"band": "high_trust",
+"min_score": 100
+},
+"Littell2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"DumasMallet2021": {
+"band": "high_trust",
+"min_score": 100
+},
+"Szucs2017": {
+"band": "high_trust",
+"min_score": 100
+},
+"Catillon2019": {
+"band": "high_trust",
+"min_score": 100
+},
+"Fanelli2010": {
+"band": "high_trust",
+"min_score": 90
+},
+"Brembs2013": {
+"band": "high_trust",
+"min_score": 100
+},
+"Fanelli2017": {
+"band": "high_trust",
+"min_score": 90
+},
+"Fanelli2018": {
+"band": "high_trust",
+"min_score": 90
+},
+"Armond2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Marck2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Srensen2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Richardson2025": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Sabel2025a": {
+"band": "high_trust",
+"min_score": 95
+},
+"Scancar2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Suchak2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Wittau2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Kocyigit2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Marcelino2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Ioannidis2023a": {
+"band": "high_trust",
+"min_score": 85
+},
+"Ding2019": {
+"band": "high_trust",
+"min_score": 85
+},
+"Nosek2018": {
+"band": "high_trust",
+"min_score": 85
+},
+"Allen2019": {
+"band": "high_trust",
+"min_score": 90
+},
+"Nosek2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Neves2020": {
+"band": "high_trust",
+"min_score": 90
+},
+"Giofre2017": {
+"band": "high_trust",
+"min_score": 90
+},
+"MayoWilson2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Macleod2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Moher2018": {
+"band": "high_trust",
+"min_score": 90
+},
+"Moher2020": {
+"band": "high_trust",
+"min_score": 85
+},
+"McKiernan2016": {
+"band": "high_trust",
+"min_score": 95
+},
+"Klebel2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Friederichs2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Migliorini2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"AubertBonn2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Albert2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Malicki2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Hutchins2016": {
+"band": "high_trust",
+"min_score": 95
+},
+"MillonesGomez2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"AubertBonn2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Horbach2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Westmore2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Kebenei2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Naaman2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Toomey2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Brohmer2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Cenci2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Chakravorti2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Murphy2025a": {
+"band": "high_trust",
+"min_score": 85
+},
+"Eben2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Dudda2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"vandenAkker2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Vize2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Bertin2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Bakker2020": {
+"band": "high_trust",
+"min_score": 85
+},
+"Ioannidis2023b": {
+"band": "high_trust",
+"min_score": 85
+},
+"Gadd2021": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"Nosek2012": {
+"band": "high_trust",
+"min_score": 100
+},
+"Trueblood2025": {
+"band": "high_trust",
+"min_score": 100
+},
+"Sabel2025b": {
+"band": "high_trust",
+"min_score": 100
+},
+"Macleod2019a": {
+"band": "high_trust",
+"min_score": 90
+},
+"Christensen2026": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"PercieduSert2020b": {
+"band": "high_trust",
+"min_score": 95
+},
+"PercieduSert2018": {
+"band": "high_trust",
+"min_score": 95
+},
+"Smith2019": {
+"band": "high_trust",
+"min_score": 100
+},
+"Smith2020b": {
+"band": "high_trust",
+"min_score": 100
+},
+"Sargeant2010": {
+"band": "high_trust",
+"min_score": 100
+},
+"Hopewell2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Chan2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Gates2022": {
+"band": "high_trust",
+"min_score": 95
+},
+"Gallifant2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Butcher2022a": {
+"band": "high_trust",
+"min_score": 95
+},
+"Butcher2022b": {
+"band": "high_trust",
+"min_score": 95
+},
+"Elsman2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Xun2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Pollard2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Duarte2024": {
+"band": "high_trust",
+"min_score": 95
+},
+"Duan2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Klein2025": {
+"band": "high_trust",
+"min_score": 95
+},
+"Coles2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Stripecke2020": {
+"band": "high_trust",
+"min_score": 95
+},
+"McGreevy2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Bailey2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Hall2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"PercieduSert2017": {
+"band": "high_trust",
+"min_score": 100
+},
+"daFonsecaCardoso2023": {
+"band": "high_trust",
+"min_score": 100
+},
+"Jay2026": {
+"band": "high_trust",
+"min_score": 100
+},
+"Thabane2013": {
+"band": "high_trust",
+"min_score": 100
+},
+"Jin2018": {
+"band": "high_trust",
+"min_score": 100
+},
+"Wang2024b": {
+"band": "high_trust",
+"min_score": 95
+},
+"Duan2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Hirst2012": {
+"band": "moderate_trust",
+"min_score": 80
+},
+"AndaurNavarro2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Miao2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Zoubi2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Hudda2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"Flitti2024": {
+"band": "low_trust",
+"min_score": 60
+},
+"Park2025": {
+"band": "low_trust",
+"min_score": 60
+},
+"Lin2024": {
+"band": "low_trust",
+"min_score": 60
+},
+"Kousholt2023": {
+"band": "low_trust",
+"min_score": 60
+},
+"Chatzimanouil2018": {
+"band": "low_trust",
+"min_score": 60
+},
+"Tihanyi2019": {
+"band": "low_trust",
+"min_score": 60
+},
+"Bergen2023": {
+"band": "low_trust",
+"min_score": 60
+},
+"Feng2024": {
+"band": "low_trust",
+"min_score": 60
+},
+"Reimann2026": {
+"band": "low_trust",
+"min_score": 60
+},
+"Yi2026": {
+"band": "low_trust",
+"min_score": 60
+},
+"Majdi2025": {
+"band": "low_trust",
+"min_score": 60
+},
+"Laing2026": {
+"band": "low_trust",
+"min_score": 60
+},
+"Provencher2018": {
+"band": "high_trust",
+"min_score": 100
+},
+"Winder2019": {
+"band": "high_trust",
+"min_score": 100
+},
+"PachanoBravo2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Song2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Chen2026": {
+"band": "high_trust",
+"min_score": 95
+},
+"Pedder2014": {
+"band": "high_trust",
+"min_score": 95
+},
+"Hunniford2021": {
+"band": "high_trust",
+"min_score": 95
+},
+"MontillaRojo2023": {
+"band": "high_trust",
+"min_score": 95
+},
+"Gulin2015": {
+"band": "high_trust",
+"min_score": 90
+},
+"Stevens2014": {
+"band": "high_trust",
+"min_score": 85
+},
+"Munro2022": {
+"band": "high_trust",
+"min_score": 100
+},
+"IvimeyCook2025": {
+"band": "low_trust",
+"min_score": 60
+},
+"Menke2020": {
+"band": "high_trust",
+"min_score": 85
+},
+"Eckmann2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Colavizza2020": {
+"band": "high_trust",
+"min_score": 90
+},
+"Federer2018": {
+"band": "high_trust",
+"min_score": 95
+},
+"RowhaniFarid2016": {
+"band": "high_trust",
+"min_score": 95
+},
+"Deeb2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Huang2020": {
+"band": "high_trust",
+"min_score": 90
+},
+"Mhamdi2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Nawroth2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Priboi2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Heinl2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Heinl2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"vanderNaald2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Bugajska2025": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Kozula2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Caldoni2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Bradshaw2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Viergever2015": {
+"band": "high_trust",
+"min_score": 90
+},
+"Goldacre2018": {
+"band": "high_trust",
+"min_score": 90
+},
+"Keestra2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Holtedahl2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Franzen2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"Klatte2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"He2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Fleminger2018": {
+"band": "high_trust",
+"min_score": 90
+},
+"Rising2008": {
+"band": "high_trust",
+"min_score": 90
+},
+"Ito2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Demarquette2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"Patel2015": {
+"band": "high_trust",
+"min_score": 90
+},
+"MascarenasGarcia2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Chung2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Duran2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Collazo2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Liu2025b": {
+"band": "high_trust",
+"min_score": 90
+},
+"GarciaSifuentes2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Warden2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Lee2018": {
+"band": "high_trust",
+"min_score": 90
+},
+"Dalla2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Azilagbetor2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Milford2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Waltz2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Hajosi2024": {
+"band": "high_trust",
+"min_score": 85
+},
+"Marinou2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Mohr2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"Lindsjo2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"GonzalezUarquin2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Brnstad2019": {
+"band": "high_trust",
+"min_score": 90
+},
+"Taylor2017": {
+"band": "high_trust",
+"min_score": 90
+},
+"Taylor2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Bonassera2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Luthi2024": {
+"band": "high_trust",
+"min_score": 90
+},
+"Taylor2014": {
+"band": "high_trust",
+"min_score": 85
+},
+"Rowlands2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Gray2016": {
+"band": "high_trust",
+"min_score": 85
+},
+"Combrisson2017": {
+"band": "high_trust",
+"min_score": 85
+},
+"Taylor2019": {
+"band": "high_trust",
+"min_score": 85
+},
+"Cassotta2022": {
+"band": "high_trust",
+"min_score": 85
+},
+"Pavlovic2025": {
+"band": "moderate_trust",
+"min_score": 75
+},
+"Derakhchan2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"Ksa2026": {
+"band": "high_trust",
+"min_score": 85
+},
+"TorresEspin2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"TorresEspin2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Radabaugh2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Wanner2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Ayata2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Lamb2026": {
+"band": "high_trust",
+"min_score": 90
+},
+"Steckler2015": {
+"band": "high_trust",
+"min_score": 90
+},
+"Kafkafi2018": {
+"band": "high_trust",
+"min_score": 90
+},
+"Kalantari2023": {
+"band": "high_trust",
+"min_score": 90
+},
+"Remick2019": {
+"band": "high_trust",
+"min_score": 85
+},
+"Wilson2023": {
+"band": "high_trust",
+"min_score": 85
+},
+"Menke2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Whitlock2019": {
+"band": "high_trust",
+"min_score": 85
+},
+"Kimmelman2014": {
+"band": "high_trust",
+"min_score": 90
+},
+"Karp2022": {
+"band": "high_trust",
+"min_score": 90
+},
+"Hua2019": {
+"band": "high_trust",
+"min_score": 90
+},
+"Kane2021": {
+"band": "high_trust",
+"min_score": 90
+},
+"Nakagawa2025": {
+"band": "high_trust",
+"min_score": 90
+},
+"Justice2016": {
+"band": "high_trust",
+"min_score": 90
+},
+"Felt2025": {
+"band": "high_trust",
+"min_score": 85
+},
+"Sempa2024": {
+"band": "high_trust",
+"min_score": 85
+}
+}
