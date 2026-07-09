@@ -7,8 +7,50 @@ project:
       city: San Francisco
       state: California
       country: United States
+    - id: neuronautix
+      name: Neuronautix
+      city: Montpellier
+      country: France
+    - id: openai
+      name: OpenAI
 
   contributors:
+    - id: damien-huzard
+      name: Damien Huzard
+      corresponding: true
+      email: damien.huzard@gmail.com
+      orcid: 0000-0003-4820-7951
+      roles:
+        - Conceptualization
+        - Methodology
+        - Validation
+        - Writing – review & editing
+        - Resources
+        - Funding acquisition
+      affiliations:
+        - neuronautix
+      first_name: Damien
+      last_name: Huzard
+      is_ai_tool: false
+      credit_levels:
+        - role: Conceptualization
+          level: lead
+          description: "Conceived the review's topic, scope, and central argument."
+        - role: Methodology
+          level: lead
+          description: "Chose the AI-directed approach; the specialist tools produced the initial candidate references and the first-draft prose under this design."
+        - role: Validation
+          level: lead
+          description: "Reviewed and validated the outputs at each phase gate."
+        - role: "Writing – review & editing"
+          level: supporting
+          description: "Light review-and-edit passes over the drafted text."
+        - role: Resources
+          level: lead
+          description: "Provided the compute and model tokens for the run."
+        - role: Funding acquisition
+          level: lead
+          description: "Funded the work."
     - id: ai-pipeline
       name: Claude
       corresponding: false
@@ -21,7 +63,7 @@ project:
       affiliations:
         - anthropic
       first_name: Claude
-      last_name: Opus 4.6
+      last_name: "Opus 4.6 / 4.8"
       career_stage: AI Research Tool
       is_ai_tool: true
       credit_levels:
@@ -44,3 +86,21 @@ project:
         - section: all-sections
           description: Drafted all sections from evidence packages under orchestrator constraints
           effort: lead
+    - id: codex
+      name: Codex
+      corresponding: false
+      roles:
+        - Writing – review & editing
+        - Software
+      affiliations:
+        - openai
+      first_name: Codex
+      career_stage: AI Research Tool
+      is_ai_tool: true
+      credit_levels:
+        - role: "Writing – review & editing"
+          level: supporting
+          description: "Assisted with some drafting and text-revision passes."
+        - role: Software
+          level: supporting
+          description: "Contributed to some code and tooling passes."
