@@ -7,14 +7,19 @@ project:
       city: San Francisco
       state: California
       country: United States
-    - id: independent
-      name: Independent Researcher
+    - id: neuronautix
+      name: Neuronautix
+      city: Montpellier
+      country: France
+    - id: openai
+      name: OpenAI
 
   contributors:
     - id: damien-huzard
       name: Damien Huzard
       corresponding: true
-      email: damien@metadatapp.net
+      email: damien.huzard@gmail.com
+      orcid: 0000-0003-4820-7951
       roles:
         - Conceptualization
         - Methodology
@@ -23,7 +28,7 @@ project:
         - Resources
         - Funding acquisition
       affiliations:
-        - independent
+        - neuronautix
       first_name: Damien
       last_name: Huzard
       is_ai_tool: false
@@ -81,3 +86,21 @@ project:
         - section: all-sections
           description: Drafted all sections from evidence packages under orchestrator constraints
           effort: lead
+    - id: codex
+      name: Codex
+      corresponding: false
+      roles:
+        - Writing – review & editing
+        - Software
+      affiliations:
+        - openai
+      first_name: Codex
+      career_stage: AI Research Tool
+      is_ai_tool: true
+      credit_levels:
+        - role: "Writing – review & editing"
+          level: supporting
+          description: "Assisted with some drafting and text-revision passes."
+        - role: Software
+          level: supporting
+          description: "Contributed to some code and tooling passes."
