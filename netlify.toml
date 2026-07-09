@@ -1,0 +1,9 @@
+# Netlify build config for "The Ethical Debt" MyST site.
+# Figures are committed PNGs (notebooks ship as reproducibility artifacts only),
+# so the build does NOT re-execute notebooks and needs no Python.
+[build]
+  command = "npm install -g mystmd && npm install yaml && myst build --html"
+  publish = "_build/html"
+
+[build.environment]
+  NODE_VERSION = "18"
