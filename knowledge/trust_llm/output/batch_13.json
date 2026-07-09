@@ -1,0 +1,614 @@
+{
+ "clm_214dc44141d81860": {
+  "uncertainty_calibration": 4,
+  "transferability_scope_control": 3,
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "systematic reviews of animal studies",
+   "computational": null,
+   "clinical": null,
+   "methodological": "PROSPERO protocol-to-publication tracking",
+   "conceptual": "publication follow-through / research waste"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_75e9f86a3dc55404": {
+  "uncertainty_calibration": 3,
+  "transferability_scope_control": 4,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": null,
+   "methodological": "open-data / reproducibility infrastructure and stewardship",
+   "conceptual": "social vs individual barriers to reproducible practice"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_f2bbd4943645c11f": {
+  "uncertainty_calibration": 4,
+  "transferability_scope_control": 4,
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "established",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": "clinical trial registration",
+   "methodological": "prospective trial registration mandate",
+   "conceptual": "transparency policy effect"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_101875904a383fdd": {
+  "uncertainty_calibration": 4,
+  "transferability_scope_control": 4,
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": "clinical trial results reporting",
+   "methodological": "registry reporting-compliance audit",
+   "conceptual": "research transparency / non-reporting"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_0141adf9b130ca40": {
+  "uncertainty_calibration": 4,
+  "transferability_scope_control": 4,
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "established",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": "clinical trial registration",
+   "methodological": "transparency monitoring / dashboards",
+   "conceptual": "accountability drives compliance"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_3cfefa378b2d291d": {
+  "uncertainty_calibration": 3,
+  "transferability_scope_control": 3,
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": "clinical trial registration/reporting",
+   "methodological": "registry mandate enforcement / discrepancies",
+   "conceptual": "double-edged governance precedent"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_828d9f77072b320a": {
+  "uncertainty_calibration": 4,
+  "transferability_scope_control": 4,
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": "RCT reporting across multiple specialties",
+   "methodological": "spin / selective reporting",
+   "conceptual": "reporting integrity; contested funding association"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_4fbb4b467f67c14c": {
+  "uncertainty_calibration": 3,
+  "transferability_scope_control": 3,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "animal studies (sex bias, attrition)",
+   "computational": null,
+   "clinical": "meta-analysis reporting",
+   "methodological": "analysis-stage bias / sex-based analysis",
+   "conceptual": "selective and distorted reporting"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_13b429c1be3432f2": {
+  "uncertainty_calibration": 2,
+  "transferability_scope_control": 3,
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "laboratory animal experiments",
+   "computational": null,
+   "clinical": null,
+   "methodological": "publication-rate estimation (opinion survey)",
+   "conceptual": "non-publication / research waste"
+  },
+  "evidence_relation": "conflicted",
+  "cap_flags": ["contradicted_without_caveat"]
+ },
+ "clm_93cfb35e74e2cddc": {
+  "uncertainty_calibration": 3,
+  "transferability_scope_control": 4,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "animal research",
+   "computational": null,
+   "clinical": null,
+   "methodological": "ethics-committee decision-making",
+   "conceptual": "rubber-stamp approval / public trust"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_0a4ae22439a13b64": {
+  "uncertainty_calibration": 3,
+  "transferability_scope_control": 4,
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "animal research",
+   "computational": null,
+   "clinical": null,
+   "methodological": "US IACUC review process",
+   "conceptual": "approval does not warrant ethical adherence"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_c9e1042c844161c7": {
+  "uncertainty_calibration": 4,
+  "transferability_scope_control": 4,
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "animal research",
+   "computational": null,
+   "clinical": "human research oversight",
+   "methodological": "IRB/IACUC scientific-merit review",
+   "conceptual": "mission lapse / diffused responsibility"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_674cd04742fcf5bd": {
+  "uncertainty_calibration": 4,
+  "transferability_scope_control": 4,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": "animal research",
+   "computational": null,
+   "clinical": null,
+   "methodological": "benefit-assessment instruments vs committee capacity",
+   "conceptual": "can ethics review assess scientific merit"
+  },
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_5a82211ddf3beee5": {
+  "uncertainty_calibration": 3,
+  "transferability_scope_control": 4,
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "animal research",
+   "computational": null,
+   "clinical": null,
+   "methodological": "harm-benefit decision tools / EU transposition",
+   "conceptual": "deliberation vs scoring; uneven implementation"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_9f5527bfa6a88ef2": {
+  "uncertainty_calibration": 3,
+  "transferability_scope_control": 3,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "animal research / 3Rs",
+   "computational": null,
+   "clinical": null,
+   "methodological": "oversight-capacity and culture-of-care surveys",
+   "conceptual": "publication pressure translating to animal cost"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_460180983cec8e8f": {
+  "uncertainty_calibration": 3,
+  "transferability_scope_control": 3,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "animal experimentation",
+   "computational": null,
+   "clinical": null,
+   "methodological": "non-technical summaries / national statistics",
+   "conceptual": "weak transparency instruments"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_497ef6a22247607c": {
+  "uncertainty_calibration": 3,
+  "transferability_scope_control": 3,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "animal care / welfare",
+   "computational": null,
+   "clinical": null,
+   "methodological": "institutional corrective standards / checklists",
+   "conceptual": "failure lessons not generalised"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_99ee213f4c89f0f5": {
+  "uncertainty_calibration": 3,
+  "transferability_scope_control": 3,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "animal use (antibody production, toxin batch testing)",
+   "computational": null,
+   "clinical": null,
+   "methodological": "validated non-animal replacements / potency tests",
+   "conceptual": "EU Directive logic unevenly honoured"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_06a0d11bedda6f42": {
+  "uncertainty_calibration": 4,
+  "transferability_scope_control": 4,
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "GM mouse models / genetic provenance",
+   "computational": null,
+   "clinical": null,
+   "methodological": "reporting of mutated-allele sequence",
+   "conceptual": "reproducibility depends on husbandry/genetics governance"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_78aa5113643f20f0": {
+  "uncertainty_calibration": 4,
+  "transferability_scope_control": 4,
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "speculation",
+  "modality": "suggestive",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": "in vivo animal use",
+   "computational": "virtual control groups / historical-control aggregation",
+   "clinical": null,
+   "methodological": "FAIR data reuse",
+   "conceptual": "projected, conditional 3Rs reduction"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_348962c0da942b02": {
+  "uncertainty_calibration": 3,
+  "transferability_scope_control": 3,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": "animal use",
+   "computational": null,
+   "clinical": null,
+   "methodological": "reporting audits of animal-use counts",
+   "conceptual": "reduction occurring; causal link to data reuse unproven"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_e1644e9858ff59b4": {
+  "uncertainty_calibration": 4,
+  "transferability_scope_control": 4,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": "preclinical / in vivo research",
+   "computational": "FAIR data commons / metadata standards",
+   "clinical": null,
+   "methodological": "common data elements / multi-site consortia",
+   "conceptual": "reusable pooled preclinical data feasibility"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_14000713fefc78cf": {
+  "uncertainty_calibration": 4,
+  "transferability_scope_control": 4,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {
+   "biological": "animal disease models",
+   "computational": null,
+   "clinical": null,
+   "methodological": "preregistration / preprints / data management",
+   "conceptual": "open-research practice promotion"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_8ce04b1247d75ec3": {
+  "uncertainty_calibration": 4,
+  "transferability_scope_control": 3,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": "preclinical animal studies",
+   "computational": "automated rigor-scoring tools",
+   "clinical": null,
+   "methodological": "ARRIVE compliance / reporting audits",
+   "conceptual": "scaled enforcement vs stagnant item-level rigor"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_16ab63e518a04a79": {
+  "uncertainty_calibration": 2,
+  "transferability_scope_control": 2,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": "animal / preclinical research (target domain)",
+   "computational": null,
+   "clinical": null,
+   "methodological": "guideline gating / checklist enforcement",
+   "conceptual": "enforcement over endorsement"
+  },
+  "evidence_relation": "conflicted",
+  "cap_flags": ["overextended_scope", "contradicted_without_caveat"]
+ },
+ "clm_ce8ef9a61d924a5e": {
+  "uncertainty_calibration": 2,
+  "transferability_scope_control": 3,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": "data reuse / FAIR compliance",
+   "clinical": "medical data availability",
+   "methodological": "declared vs actual data sharing",
+   "conceptual": "reform must target actual availability"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_142f52db08663d63": {
+  "uncertainty_calibration": 4,
+  "transferability_scope_control": 4,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": null,
+   "methodological": "researcher assessment / preregistration proposals",
+   "conceptual": "incentives should reward stewardship; funder accountability"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_aa2186985a65f943": {
+  "uncertainty_calibration": 3,
+  "transferability_scope_control": 4,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": "animal research",
+   "computational": null,
+   "clinical": null,
+   "methodological": "harm-benefit judgment / data reuse in ethics review",
+   "conceptual": "ethical review should assess scientific quality"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_a0c91b8c382d730f": {
+  "uncertainty_calibration": 4,
+  "transferability_scope_control": 3,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "preclinical / animal research",
+   "computational": null,
+   "clinical": "biomedical research value",
+   "methodological": "reproducibility / positive predictive value",
+   "conceptual": "avoidable research waste"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_f23b49b71fe1b98c": {
+  "uncertainty_calibration": 4,
+  "transferability_scope_control": 4,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": null,
+   "methodological": "peer review / integrity governance discourse",
+   "conceptual": "accountability reassigned beyond individuals"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_4d43e5d5a813eba0": {
+  "uncertainty_calibration": 3,
+  "transferability_scope_control": 3,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "suggestive",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "animal models (e.g. stroke)",
+   "computational": null,
+   "clinical": "translation to patients / clinical success",
+   "methodological": "publication bias / predictive value",
+   "conceptual": "compromised published animal record"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_aba904b5eee62d5d": {
+  "uncertainty_calibration": 3,
+  "transferability_scope_control": 4,
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "Alzheimer's disease animal models",
+   "computational": null,
+   "clinical": "AD drug translation",
+   "methodological": null,
+   "conceptual": "translational attrition"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_426540ead4caeb91": {
+  "uncertainty_calibration": 4,
+  "transferability_scope_control": 3,
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": "mouse inflammation models",
+   "computational": "gene-expression analysis",
+   "clinical": "translatability",
+   "methodological": "analysis / gene-selection dependence",
+   "conceptual": "analytic choices decide model validity"
+  },
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_b15ccb648beb9393": {
+  "uncertainty_calibration": 2,
+  "transferability_scope_control": 3,
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "animal experiments publication",
+   "computational": "data sharing",
+   "clinical": "medical data availability",
+   "methodological": "declared vs actual data sharing",
+   "conceptual": "knowledge unavailable for reuse"
+  },
+  "evidence_relation": "conflicted",
+  "cap_flags": ["contradicted_without_caveat"]
+ }
+}

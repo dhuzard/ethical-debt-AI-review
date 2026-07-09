@@ -1,0 +1,818 @@
+{
+ "clm_311d4823e432a0d6": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Accurately reports the many-analysts divergence (a landmark single study) and 'a direct demonstration' is defensible for what the study literally shows. Minor overreach: linking the variability specifically to 'a reward for clean results' is an interpretive inference the study does not test.",
+   "evidence": ["Passage: little more than half of estimates non-significant, a quarter significant-negative, 16.9% significant-positive", "replication: single-study; mechanical robustness 1"],
+   "failure_modes": ["interpretive tail ('reward for clean results') exceeds what a descriptive many-analysts design demonstrates"],
+   "recommended_fix": "Frame the reward linkage as an interpretation ('consistent with') rather than 'a direct demonstration'."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Study system is 73 teams on one shared dataset/hypothesis; generalising to analytic latitude broadly is a standard and accepted meta-science reading, but the leap to incentive exploitation stretches beyond the single case.",
+   "evidence": ["study_system: 73 research teams / 161 researchers (same dataset)"],
+   "failure_modes": ["single-hypothesis result used to characterise incentive dynamics generally"],
+   "recommended_fix": "Note the finding is one coordinated analysis; keep the incentive claim as inference."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "analytic-flexibility variance across 73 teams on one dataset", "conceptual": "reward for clean results can exploit analytic latitude"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_3a40e0de2ca97e32": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Well-calibrated for a flagged conflict: text-mining prevalence, canonisation modelling, AND the competing efficiency model are all surfaced with 'though a competing model argues'. The track-3 suppressed-conflict prior is addressed in-text.",
+   "evidence": ["critic_prior track 3 fix ('add the counter-model') is present in claim_text", "Lewandowsky2020 partial_support quoted as counter-model"],
+   "failure_modes": [],
+   "recommended_fix": "None; conflict is disclosed."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Head2015 (cross-discipline text-mining), Nissen2016 (Markov model), Lewandowsky2020 (agent model) all sit in the meta-science domain the claim describes ('common across disciplines'). No organism/population overextension.",
+   "evidence": ["study_systems all meta-science / scientific-literature scale"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "analytic flexibility / publication-bias modelling across disciplines", "conceptual": "canonisation of false claims vs efficiency of selective replication"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_750ebe8f7cb3bd99": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Established, replicated across five specialties, and stated as a range ('roughly half to three-quarters') that matches the cited figures (37.5-76%). Industry-funding effect appropriately given as 'raising the odds' with an OR-backed source.",
+   "evidence": ["Boutron 58.3%, Wu 76%, Rassy 55-62%, Nguyen ~50-77%, ReynoldsVaughn OR 3.4 industry"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "The claim explicitly enumerates the specialties covered by the cited studies (general medicine, urology, bariatric, vascular, emergency), so it never extends beyond the sampled study systems.",
+   "evidence": ["study_systems match the enumerated specialties one-to-one"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": "spin in nonsignificant RCT reports across 5 specialties", "methodological": "misrepresentation of nonsignificant results; industry funding raises odds", "conceptual": null},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_2f61be88b70141a5": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'Pervasive' and 'rare' match the data (49% inconsistent, only 15% disclosed); 'a striking worked example' correctly signals a single illustrative case (Prior2017) rather than a general rule.",
+   "evidence": ["Kapp2022 49% inconsistent / 15% disclosed", "Goldacre2019b 87% needed correction letters", "Prior2017 flagged as example"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "All sources are clinical-trial reporting audits; the worked example is marked as one case and not generalised. Scope stays inside registered-trial outcome reporting.",
+   "evidence": ["study_systems all trial-reporting cohorts"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": "outcome-switching prevalence and non-disclosure in clinical trials", "methodological": "pre-registered vs reported primary outcomes", "conceptual": null},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_54f43e0d81d6c2ec": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "A modest, appropriately hedged topic sentence ('further compromises'); does not overstate magnitude. Low overclaim risk.",
+   "evidence": ["Heneghan2017, Littell2026, DumasMallet2021 support reporting/citation bias in syntheses"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Sources concern trial outcomes, systematic-review ORB/ARB documentation, and biomedical citation practice; the claim keeps them within 'syntheses built on top of trials.' DumasMallet is citation-general but supports the point without overextension.",
+   "evidence": ["Littell2026 systematic review of 49 Campbell reviews", "DumasMallet2021 biomedical citation practices"],
+   "failure_modes": ["DumasMallet is citation-general rather than synthesis-specific"],
+   "recommended_fix": "None material."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": "selective reporting affecting trial-based syntheses", "methodological": "outcome-reporting bias in systematic reviews", "conceptual": "citation inaccuracy propagating error"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_fb5b2d4285ea87bf": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly frames a genuine disagreement ('concluded... whereas the theoretical framework... holds'). Neither side is asserted as settled; the contested modality is honoured.",
+   "evidence": ["Head2015 weak-distortion conclusion vs Ioannidis2005b most-findings-false", "has_conflict_source true; contested seed"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Both sources operate at the whole-literature / cross-field scale the claim describes; no narrowing or organism-specific overreach.",
+   "evidence": ["Head2015 scientific-literature text-mining; Ioannidis2005b cross-field simulation"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "p-hacking prevalence and effect on meta-analytic consensus", "conceptual": "proportion of false published findings"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_3268bc70c2d47faa": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Empirical half ('power has not detectably improved') is directly supported and scoped to behavioural sciences. The natural-selection mechanism and 'deterioration' are model outputs stated fairly assertively; 'model as natural selection' signals it is a model, but the reform-optimism conflict is not caveated here (handled in later claims).",
+   "evidence": ["Smaldino2016 passage: no detectable increase over 50 years", "single-study; mechanical robustness 1"],
+   "failure_modes": ["model conclusions ('out-reproduce careful ones', 'deterioration') read as established dynamics"],
+   "recommended_fix": "Keep the mechanism explicitly attributed to the model's simulation."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Empirical claim is bounded to behavioural sciences (the study system); the evolutionary mechanism is framed as a model rather than asserted for all fields.",
+   "evidence": ["study_system: behavioural sciences (power meta-analysis + model)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "statistical-power stagnation in behavioural sciences", "conceptual": "cultural selection for publishable-but-poor methods"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_049fd238873333b6": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Established and replicated across two independent measurements; figures match ('median power 0.12/0.44/0.73', '5.7% adequate methods'). 'Correlates negatively with impact factor' and 'rising over time' are not in the supplied passages but are consistent with the cited works.",
+   "evidence": ["Szucs2017 median power / no improvement; Catillon2019 5.7% adequate"],
+   "failure_modes": ["impact-factor correlation and temporal-rise details not shown in provided passages"],
+   "recommended_fix": "Confirm the impact-factor and time-trend details trace to the cited full texts."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Claim keeps each finding tagged to its system (cognitive neuroscience/psychology; RCTs in Cochrane reviews); no cross-domain leap.",
+   "evidence": ["study_systems: 3,801 cog-neuro/psych papers; RCTs in Cochrane reviews 1990-2015"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": "adequate-method rate in Cochrane RCTs", "methodological": "power stagnation in cog-neuro/psychology; power vs impact factor", "conceptual": null},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_3f0383c9cfdc9fc5": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The causal reading is correctly hedged as 'is consistent with competition inflating bias' rather than asserted, which is right for a correlational US-states finding whose causal interpretation is contested (and disputed in the next claim). Journal-rank claim is supported by Brembs.",
+   "evidence": ["Fanelli2010 productivity-confirmation correlation (OR 3.99)", "Brembs2013 'journal rank as assessment tool is bad practice'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Fanelli (US cross-discipline papers) and Brembs (scholarly journals) map onto the claim's general research-environment / journal framing without organism or field overreach.",
+   "evidence": ["study_systems: US research papers across disciplines; scholarly journals"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "productivity/competition vs confirmatory bias; journal rank vs reliability", "conceptual": "incentive-driven bias inflation"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_a87e5450ad848dff": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly labels the link 'contested' and presents both Fanelli2010 and the later Fanelli2017 meta-assessment, locating inflation in small/early-career/misconduct-prone work. The conflict is disclosed, not suppressed.",
+   "evidence": ["conflict_notes: productivity-pressure link disputed", "Fanelli2017 partial_support quoted"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Fanelli2017 is a random sample of meta-analyses across all disciplines; the claim's scope (bias risk by author/study type) stays within that evidence base.",
+   "evidence": ["study_system: random sample of meta-analyses across disciplines"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "competition vs bias risk; small/early/highly-cited studies overestimate effects", "conceptual": "where bias inflation actually concentrates"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_bdba9ede8c153c1f": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Balances optimistic reform narrative against power stagnation and explicitly warns 'against mistaking activity for improvement.' The reform-optimism conflict is surfaced rather than resolved in favour of either side.",
+   "evidence": ["Korbmacher2023 registered-reports optimism (partial_support) vs Szucs2017 no power improvement"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Both sources are behavioural/cognitive science; the claim's general 'credibility revolution' framing does not exceed that domain.",
+   "evidence": ["study_systems: behavioural/cognitive/social science; cog-neuro/psych papers"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "registered reports, negative results, power stagnation", "conceptual": "credibility revolution vs real improvement"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_7e8f6c8a70191989": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Model calibration for a contested opinion: 'A minority position holds', 'though the stagnation-of-power evidence cuts against it', 'the tension remains open.' Directly implements the track-3 fix to add the contrarian view without endorsing it.",
+   "evidence": ["Fanelli2018 abstract: narrative 'mistaken', empowerment 'more accurate'", "critic_prior track 3 fix satisfied"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to the science-reproducibility discourse the opinion piece addresses; no empirical over-generalisation.",
+   "evidence": ["study_system: science reproducibility discourse (opinion)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "power stagnation as counter-evidence", "conceptual": "crisis narrative vs methodological empowerment"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_3cea502274c7f660": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'Perceived to reward speed and quantity' is correctly attributed as perception (Srensen), and burnout/overwork figures are supported. 'Pervasive' is somewhat strong for three national/regional surveys, though the geographic spread partially justifies it.",
+   "evidence": ["Marck2024 89.5% overtime / 54.8% burnout; Srensen focus-group perception; Armond stress"],
+   "failure_modes": ["'pervasive' generalises from a few country-specific samples"],
+   "recommended_fix": "Soften to 'widely reported' or bound to the surveyed regions."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Samples span Hungary, Australia, and seven European countries, supporting cross-national reach, but the claim's blanket 'early- and mid-career researchers' reaches beyond the sampled regions (no Americas/Asia/Africa).",
+   "evidence": ["study_systems: Hungarian, Australian, 7-country European samples"],
+   "failure_modes": ["implicit global generalisation from Europe/Australia surveys"],
+   "recommended_fix": "Attribute prevalence to the surveyed populations."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "perceived incentives rewarding speed/quantity", "conceptual": "publication pressure, precarity, burnout among researchers"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_3fc9b0ceac9dc786": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Carefully attributed as what the manifesto 'argues' and hedged ('can make research more reliable given iterative adoption'), not asserted as achieved. The opposing natural-selection view is presented in the paired claim.",
+   "evidence": ["Munafo2017 manifesto framing; 'can make'/'given...adoption' conditionals"],
+   "failure_modes": ["cited passage (power <50%) is tangential to the specific measures listed"],
+   "recommended_fix": "Cite a passage enumerating the manifesto's five intervention domains."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Manifesto is explicitly cross-disciplinary meta-research; the claim's general reform scope matches its remit.",
+   "evidence": ["study_system: meta-research across scientific disciplines"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "reproducibility reform measures (methods/reporting/evaluation/incentives)", "conceptual": "iterative multi-stakeholder adoption improves reliability"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_010594c8fd65cb66": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Cleanly attributed as 'The natural-selection model counters that', framing it as one modelled position in an explicit debate rather than established fact. Appropriate for a single simulation-based source.",
+   "evidence": ["Smaldino2016 model; 'counters' framing signals contested pairing with the manifesto"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "The claim states the model's conclusion as a general truth about 'the incentive system' with the behavioural-science field qualifier dropped; the mechanism is generalised beyond the fitted domain, though softened by 'the model counters'.",
+   "evidence": ["study_system fitted to behavioural sciences; claim phrased system-wide"],
+   "failure_modes": ["model result universalised to all of science"],
+   "recommended_fix": "Retain the behavioural-science scoping when reporting the model's conclusion."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "researcher-level fixes insufficient without institutional change", "conceptual": "incentive system selects for bad methods"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_ff6e9d39d3764d18": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'Several percent' appropriately vague for the 3.8% image-duplication figure, which is directly supported. The second half ('broker entities... large, resilient, growing faster than legitimate science') is asserted without a matching passage; text is also grammatically garbled ('a prior baseline that invoke when they show').",
+   "evidence": ["Richardson2025 passage supports 3.8% duplicated images (half suggestive of manipulation)"],
+   "failure_modes": ["broker-growth assertion lacks a supporting passage", "garbled sentence obscures the claim"],
+   "recommended_fix": "Repair the sentence and cite a passage for the paper-mill-broker growth claim."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Stays within biomedical literature / paper-mill domain, but 'growing faster than legitimate science' is a strong quantitative comparison not evidenced by the supplied passage.",
+   "evidence": ["study_system: biomedical articles (image screening); paper mills"],
+   "failure_modes": ["unsupported growth-rate comparison"],
+   "recommended_fix": "Bound the growth claim to what the review documents."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "biomedical-article image duplication ~3.8%", "computational": null, "clinical": null, "methodological": "systematic image screening", "conceptual": "paper-mill brokers large/resilient/growing"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_4958a1a65a102cfc": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Detection language is properly hedged: 'estimates several percent' (5.8%), 'nearly a tenth' (9.87%), 'potential paper-mill products', 'flagged'. The detection-vs-self-report gap is explicitly framed ('run well above self-report').",
+   "evidence": ["Sabel 5.8% Bayes estimate; Scancar 9.87% flagged; Suchak 4->190 papers/yr"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each figure is tagged to its system (biomedical literature; cancer papers; NHANES-derived papers); no cross-field inflation.",
+   "evidence": ["study_systems distinct and matched to each estimate"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "biomedical and cancer literature fake prevalence", "computational": "ML paper-mill classifier flag rate", "clinical": null, "methodological": "forensic red-flagging; NHANES formulaic-paper counts", "conceptual": "detection estimates exceed self-report"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_d950b04f2fd7b0f0": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'Trace this flood squarely to academic pressure and monetary incentives' asserts causal certainty; Wittau states these are the 'main drivers', so 'squarely' is somewhat strong. The list of downstream practices is well-supported across the six sources.",
+   "evidence": ["Wittau2024 'main drivers... pressure and (monetary) incentives'", "Marcelino/Ioannidis/Pruschak/Ding support authorship & gaming practices"],
+   "failure_modes": ["'squarely' overstates the causal certainty of a review-level attribution"],
+   "recommended_fix": "Soften to 'trace this flood largely/primarily to'."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Sources span biomedical, social-science and general publishing; the umbrella claim covers all, but pooling heterogeneous domains into one 'same reward logic' generalisation slightly outruns any single source.",
+   "evidence": ["study_systems: paper-mill reviews, social-science survey, journal-policy analysis, bibliometrics"],
+   "failure_modes": ["cross-domain pooling under a single causal logic"],
+   "recommended_fix": "Attribute each practice to its evidence base."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "authorship inflation, gift authorship, salami-slicing, citation gaming", "conceptual": "publication incentives drive fraud and gaming"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_71a71cb56703bf87": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Cleanly contrasts self-report (~2%, Fanelli2009 1.97%) with detection estimates (~several percent, ~a tenth), surfacing the prevalence conflict. Note: the attached track-1 'Fanelli2009 mispaired' prior refers to the Danchev data-sharing claim, not this one; here Fanelli2009 is correctly used for its fabrication-admission meta-analysis.",
+   "evidence": ["Fanelli2009 1.97% pooled admission; Sabel 5.8%; Scancar 9.87%"],
+   "failure_modes": ["subtle unit mismatch (scientists admitting vs papers fake) but the claim marks the different bases"],
+   "recommended_fix": "None; the differing denominators are already signalled."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Fanelli (surveys of scientists), Sabel (biomedical literature), Scancar (cancer papers) all sit within their stated systems; the misattached mispairing prior does not apply to this claim's content.",
+   "evidence": ["study_systems correctly matched; Fanelli2009 topic = fabrication admissions"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "biomedical and cancer literature fabrication", "computational": "ML flag rate for cancer papers", "clinical": null, "methodological": "self-report survey vs forensic detection", "conceptual": "under-reporting of fabrication"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_1b2176fe7acfe895": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Mostly descriptive and appropriately scoped (e.g. badges 'lifted reported open data at one journal to nearly forty percent' correctly bounds Giofre's single-journal 3->39% figure). The RP:P reproducibility-interpretation conflict is not misused since the claim cites replication projects only as reform infrastructure. Long enumerative sentence risks reading several single-journal/single-project results as system-wide.",
+   "evidence": ["Giofre2017 3->39% open data (one journal); OSC2015 36% replication; Neves Brazilian network; MayoWilson TOP Factor"],
+   "failure_modes": ["breadth of the list can blur single-site magnitudes into general claims"],
+   "recommended_fix": "Keep 'at one journal'-style bounding for each magnitude."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Track-4 field-provenance concern: the largest enforcement magnitudes come from psychology journals (Kidwell, Giofre) while the section addresses animal/preclinical debt, and the claim does not flag that the reform evidence is drawn from non-animal literatures. Bounding phrases ('at one journal') mitigate but do not eliminate the transfer.",
+   "evidence": ["critic_prior track 4 SHOULD_CAVEAT (Kidwell/Giofre are Psychological Science)"],
+   "failure_modes": ["psychology-journal reform effects imported into an animal/preclinical section without provenance note"],
+   "recommended_fix": "Add a clause noting the largest documented enforcement effects come from psychology/ecology journals."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "suggestive",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "Brazilian biomedical replication network", "computational": null, "clinical": null, "methodological": "DORA, registered reports, open-data badges, TOP Factor, MDAR reporting", "conceptual": "reform infrastructure and integrity-based assessment"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_aed8c9a42a3d03f5": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Well-calibrated and nuanced: 'real but inconsistent across studies for open access, clearer in single-field analyses, and more robust... for open data.' This implements the track-3 fix so the OA-citation-advantage conflict is disclosed rather than presented as resolved. 'Causally raised' for Zhang reflects a before/after policy natural experiment.",
+   "evidence": ["Klebel2025 47.8% found OACA / 27.6% none; Zhang open-data mandate before/after; critic_prior track-3 fix present"],
+   "failure_modes": ["'causally' is a strong word for a single-journal before/after design"],
+   "recommended_fix": "None material; optionally soften 'causally' to 'was followed by'."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Explicitly distinguishes 'single-field analyses' and names the open-data vs open-access effects, matching the field-specific sources (medical education, orthopaedics, Chinese economics) without over-pooling.",
+   "evidence": ["Friederichs medical-education; Migliorini orthopaedics; Zhang economics"],
+   "failure_modes": ["'roughly nine percent for open data' figure not tied to a single supplied passage"],
+   "recommended_fix": "Anchor the ~9% open-data figure to a specific source."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": null, "computational": null, "clinical": "OA citation effects in medical-education and orthopaedic literatures", "methodological": "OA vs open-data citation advantage; mandate effect", "conceptual": "open practices yield career returns"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_4e0e9f4cb6e2df6d": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Descriptive and hedged ('being piloted', 'offer further templates', 'have proliferated'); does not claim these reforms have proven effective, which suits the mixed/single-study evidence base.",
+   "evidence": ["AubertBonn2025/Albert2025 narrative-CV piloting; Hutchins RCR; national systems (RENACYT)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "'Worldwide' is justified by the geographic spread of sources (Peru, NIH/US, Kenya, international funder forums); no overreach beyond an enumeration of initiatives.",
+   "evidence": ["study_systems: RENACYT (Peru), NIH awardees, KEMRI (Kenya), EViR funders"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "narrative CVs, article-level (RCR) metrics, national evaluation systems", "conceptual": "reform agendas, funder integrity plans, training worldwide"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_7aefc45dfb14b142": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The declared-vs-actual gap is precisely stated: 'almost no usable public data' (Danchev 0.6%), and editors 'endorse... yet do not prioritise or intend to implement' (Naaman 58-74%). The two attached Fanelli2009 mispairing priors are stale: Fanelli2009 is not in this claim's citation_keys, so the recommended removal is already effected.",
+   "evidence": ["Danchev2021 0.6% actual public data; Naaman2023 74% not high priority / 58% no intent"],
+   "failure_modes": [],
+   "recommended_fix": "None; the mispairing flagged by the priors is already absent."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Danchev (clinical trials in top journals), Naaman (journal editors), Toomey (health-psychology journals) all support the 'declared vs actual' and gatekeeper-gap framing without domain overextension.",
+   "evidence": ["study_systems: 487 trials JAMA/Lancet/NEJM; 88 editors; 19 journals"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": "clinical-trial data-sharing declared vs actual", "methodological": "policy declaration vs realised data availability; editor intentions", "conceptual": "attitude-behaviour gap among gatekeepers"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_08e44eebd472062a": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'Spreading only modestly and largely independent of local institutional support' is supported by Brohmer (modest increase, no department difference). 'Captured the pattern exactly' is a strong phrase, and the 'concrete outputs remained essentially absent' detail is not in the supplied Cenci passage (which shows only OSF-account growth).",
+   "evidence": ["Brohmer2025 modest OS increase, no department difference; Cenci OSF accounts 7->78"],
+   "failure_modes": ["'outputs remained absent' not evidenced in the provided passage", "'exactly' overstates fit of two small studies"],
+   "recommended_fix": "Cite the Cenci outputs measure or soften 'captured the pattern exactly'."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Two small, specific studies (91 psychology theses across 2 departments; an n=80 training course) support a broad 'uptake studies find' generalisation about open-practice diffusion.",
+   "evidence": ["study_systems: 2 psychology departments; single training cohort"],
+   "failure_modes": ["broad generalisation from two small samples"],
+   "recommended_fix": "Bound the pattern to the studied settings."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "open-practice uptake (preregistration, protocols, data sharing)", "conceptual": "engagement rises while concrete outputs lag"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_2e0ca6e0360be8d1": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'Successful replication remains rare' (Chakravorti 14.58%), 'low success rates beyond psychology' (Murphy 28% sports science), and 'normative within isolated subfields' (Eben) are supported; the humility of 'isolated subfields rather than across the system' is good. However 'awareness near-universal' is not shown in the supplied Chakravorti passage (which reports replication success, not awareness).",
+   "evidence": ["Chakravorti 14.58% affirmative; Murphy 28% successful; Eben preregistration 76%"],
+   "failure_modes": ["'awareness near-universal' unsupported by the quoted passage"],
+   "recommended_fix": "Cite the awareness statistic or soften that clause."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Sources are US/India professors, sports-and-exercise science, and behavioral-addictions researchers; the claim generalises across 'fields beyond psychology' and 'the system' but explicitly limits normativity to subfields, mitigating overreach.",
+   "evidence": ["study_systems: US/India survey; sports-science replication; behavioral-addictions survey"],
+   "failure_modes": ["cross-field generalisation from three specific samples"],
+   "recommended_fix": "Keep field attributions explicit."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "replication success rates; open-practice normativity", "conceptual": "awareness-vs-practice gap across fields"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_fd3af7e9d3ae7a25": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Core figures are accurate ('only a handful' = 15 of 105 measured reproducibility; preregistered studies 'no less likely to report positive results'). The contested finding is appropriately flagged. But 'even as they improved power' is an addition not present in the supplied vandenAkker passage.",
+   "evidence": ["Dudda2025 15/105 measured reproducibility; vandenAkker no lower positive-result rate"],
+   "failure_modes": ["'improved power' clause unsupported by the quoted passage"],
+   "recommended_fix": "Cite or drop the power-improvement clause."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "vandenAkker's 193 matched psychology studies are generalised to 'preregistered studies' broadly; Dudda is a cross-intervention scoping review that supports the proxy point at scale.",
+   "evidence": ["study_systems: reproducibility-intervention scoping review; 193 psychology preregistered vs matched"],
+   "failure_modes": ["psychology preregistration result phrased as general"],
+   "recommended_fix": "Bound the preregistration finding to the psychology sample."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "reproducibility-intervention outcome measures; preregistration effect on positive results", "conceptual": "proxies measured instead of reproducibility itself"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_a2884d6b2781397b": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Framed explicitly as 'the recurring worry that...' and 'can be gamed or hollowed out', matching the conceptual/commentary status of both sources rather than asserting an established effect.",
+   "evidence": ["Vize2024 Klonsky concern; Bertin2025 virtue-signalling trilemma"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "A conceptual proposition about signalling devices, drawn from two psychological-science methodological commentaries; stays within the preregistration/open-science domain the sources address.",
+   "evidence": ["study_systems: psychological-science methodological/conceptual analyses"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "suggestive",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "preregistration function; badges/mandates gaming", "conceptual": "signalling device becomes a reward and is hollowed out"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_07c7236fe950f853": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'Reduces but does not eliminate' is exactly calibrated to Bakker's structured-vs-unstructured comparison, and 'often cannot agree' matches the 14.29% coder-agreement figure. Modest phrasing for a single study; implements the track-5 SHOULD_CITE.",
+   "evidence": ["Bakker2020 coders agreed on hypothesis count in only 14.29%; structured > unstructured but neither eliminates RDoF"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Claim about preregistration and researcher degrees of freedom stays squarely within the study system (OSF preregistrations, n=106).",
+   "evidence": ["study_system: OSF preregistrations (n=106)"],
+   "failure_modes": ["single-sample generalisation, but within the same construct"],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "structured preregistration reduces but does not eliminate researcher degrees of freedom; coder disagreement on hypothesis count", "conceptual": null},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_e2a342cf88aca047": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Contrasts badges (data more likely actually available/correct/complete) against mandate audits (Roche 56% incomplete) and blanket mandates (Danchev 0.6%), surfacing the transparency-intervention conflict. Does not overclaim mandates as effective. The stale Fanelli2009 mispairing prior does not apply (not cited here).",
+   "evidence": ["Kidwell2016 badges vs comparison journals; Roche2015 56% incomplete; Danchev2021 0.6%"],
+   "failure_modes": ["the track-2 'enforced' mislabel concern is not triggered by this claim's wording"],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Track-4 field-provenance concern: badge evidence is from psychology (Kidwell), audit evidence from ecology (Roche), mandate evidence from clinical trials (Danchev), while the section addresses animal/preclinical debt; the cross-field transfer is not flagged. The point is a general meta-science one, limiting the severity.",
+   "evidence": ["critic_prior track 4 SHOULD_CAVEAT; study_systems span psychology, ecology, clinical trials"],
+   "failure_modes": ["psychology/ecology/clinical results transferred into an animal section without provenance note"],
+   "recommended_fix": "Add a clause naming the source fields of the enforcement/audit evidence."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "ecology/evolution dataset completeness", "computational": null, "clinical": "clinical-trial data availability under mandate", "methodological": "open-data badges vs blanket mandates data quality", "conceptual": "incentive design vs realised data usability"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_03b6daab59434084": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly 'One position holds that... could improve research practices if...' — one hedged pole of a flagged pro-metrics/anti-ranking debate, with conditionals ('if made rigorous, field-adjusted, centralised') mirroring the source.",
+   "evidence": ["Ioannidis2023b: metrics 'could help... if... rigorous, field-adjusted, centralized'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to the researcher-assessment metrics debate the source addresses; no empirical overextension.",
+   "evidence": ["study_system: researcher assessment (metrics debate)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "design of quantitative research-assessment metrics", "conceptual": "reformed metrics vs journal-level judgement"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_821cf3f6e91ab2c6": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Framed as 'The opposing view argues that...', clearly the anti-ranking pole of the same flagged debate; presents a normative position without asserting it as fact.",
+   "evidence": ["Gadd2021 GDP/university-rankings parallel (partial_support)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "The source's passage concerns global university rankings; the claim broadens to 'ranking instruments... among them global university rankings', a mild generalisation beyond the quoted evidence.",
+   "evidence": ["study_system: global university rankings"],
+   "failure_modes": ["extension from university rankings to ranking instruments generally"],
+   "recommended_fix": "Keep the argument anchored to university rankings unless a broader source is added."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "ranking instruments / global university rankings", "conceptual": "rankings inherently incompatible with responsible practice"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_c1b69bd6232b1724": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Descriptive and appropriately hedged ('real and multiplying', 'broadly shared'); characterises a landscape of reform proposals across time without asserting efficacy.",
+   "evidence": ["Nosek2012, Trueblood2025, Alberts2014, Sabel2025b span incentive/publishing/systemic reform"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Sources cover incentive structures, publishing systems, the biomedical ecosystem and a publishing-reform declaration; the general 'reform proposals' framing stays within that literature.",
+   "evidence": ["study_systems: incentive structures, publishing reform, US biomedical ecosystem, Stockholm Declaration"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "suggestive",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "proposals to restructure publication incentives", "conceptual": "shared diagnosis; metric-gaming reframed as existential threat"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_48c6dd452eee6b42": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The general contrast ('enforced requirements move behaviour; passive/web-endorsed guidelines largely do not') is stated firmly, but the two supplied passages only partially support it: Macleod2019a lists improvement strategies (partial_support) and Strech2019 argues for preregistration, neither directly demonstrating the enforced-vs-passive behavioural differential. The attached 3Rs-vs-6Rs conflict is tangential to this claim.",
+   "evidence": ["Macleod2019a partial_support (strategies); Strech2019 preregistration rationale"],
+   "failure_modes": ["strong behavioural-differential claim not tightly evidenced by the cited passages"],
+   "recommended_fix": "Cite the enforcement-vs-passive comparison directly (e.g. checklist-at-revision studies)."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Both sources are animal-research reproducibility works and the section is animal governance, so field scope is consistent; however, the claim states a broad behavioural principle about requirements/guidelines that exceeds what two animal-focused sources establish.",
+   "evidence": ["study_systems: animal-based research reproducibility; animal study preregistration"],
+   "failure_modes": ["general enforcement principle drawn from narrow animal-research base"],
+   "recommended_fix": "Bound the principle to the animal-governance evidence or add general enforcement studies."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "animal-research governance", "computational": null, "clinical": null, "methodological": "enforced checklists / availability checks vs passive guidelines", "conceptual": "enforcement changes behaviour, passive endorsement does not"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_58cfba3363124058": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The '673 guidelines' count and 'no researcher can master the landscape' are directly supported by the editorial passage. 'Journal instructions rarely map cleanly onto it' is an added assertion not present in the supplied passage, and the source is a single editorial (robustness 1).",
+   "evidence": ["Christensen2026: 673 listed guidelines; researchers 'not expected to know the details of all 673'"],
+   "failure_modes": ["'journal instructions rarely map cleanly' unsupported by the quoted passage"],
+   "recommended_fix": "Cite the journal-instruction-mismatch claim or drop it."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stays within the reporting-guideline landscape (EQUATOR) the editorial addresses; no organism or field overextension.",
+   "evidence": ["study_system: reporting-guideline landscape (EQUATOR Network) editorial"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "reporting-guideline proliferation (EQUATOR, 673 guidelines)", "conceptual": "guideline landscape unmasterable"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ }
+}
