@@ -7,8 +7,45 @@ project:
       city: San Francisco
       state: California
       country: United States
+    - id: independent
+      name: Independent Researcher
 
   contributors:
+    - id: damien-huzard
+      name: Damien Huzard
+      corresponding: true
+      email: damien@metadatapp.net
+      roles:
+        - Conceptualization
+        - Methodology
+        - Validation
+        - Writing – review & editing
+        - Resources
+        - Funding acquisition
+      affiliations:
+        - independent
+      first_name: Damien
+      last_name: Huzard
+      is_ai_tool: false
+      credit_levels:
+        - role: Conceptualization
+          level: lead
+          description: "Conceived the review's topic, scope, and central argument."
+        - role: Methodology
+          level: lead
+          description: "Chose the AI-directed approach; the specialist tools produced the initial candidate references and the first-draft prose under this design."
+        - role: Validation
+          level: lead
+          description: "Reviewed and validated the outputs at each phase gate."
+        - role: "Writing – review & editing"
+          level: supporting
+          description: "Light review-and-edit passes over the drafted text."
+        - role: Resources
+          level: lead
+          description: "Provided the compute and model tokens for the run."
+        - role: Funding acquisition
+          level: lead
+          description: "Funded the work."
     - id: ai-pipeline
       name: Claude
       corresponding: false
