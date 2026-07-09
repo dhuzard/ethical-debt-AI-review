@@ -1,0 +1,1497 @@
+[
+ {
+  "claim_id": "clm_f2107713e95ec8e4",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "Asked about specific behaviours, 64% of ecologists and evolutionary biologists reported having failed to publish a non-significant result, 42% had collected more data after checking significance, and 51% had presented an unexpected finding as though predicted.",
+  "citation_keys": [
+   "Fraser2018"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Fraser2018",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Across the two groups, we found 64% of surveyed researchers reported they had at least once failed to report results because they were not statistically significant (cherry picking); 42% had collected more data after inspecting whether results were statistically significant (a fo",
+    "study_system": "ecology & evolution researchers (QRP survey)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_b04adf82d4f6615d",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "Whether these practices materially distort conclusions is contested: text-mining of the p-value distribution suggests p-hacking is common but weak relative to real effects, yet an automated analysis of nearly 58,000 psychology articles found the proportion of significant p-values per paper stuck at 69% across a decade of reform.",
+  "citation_keys": [
+   "Head2015",
+   "Boschen2023"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Magnitude of distortion: the p-hacking text-mining study concludes analytic flexibility is common but only weakly distorts meta-analytic consensus, whereas the theoretical framework concludes bias/fle"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Head2015",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "We found significant evidential value in every discipline represented in our text-mining data, irrespective of whether we tested the p-values from the Results or Abstracts (Table 1; Table 2).",
+    "study_system": "scientific literature (p-value text-mining)"
+   },
+   {
+    "cite_key": "Boschen2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Compared to articles that were published in and before 2015, the median number of reported p-values per article has decreased from 14 to 12, whereas the median proportion of significant p-values per article remained constant at 69%.",
+    "study_system": "psychology publications (12 journals, 2010-2021)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_9c624b1d493737db",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "Among highly cited clinical studies, 16% were later contradicted and another 16% had initially overstated effects; even after refutation by randomised trials, half of the articles citing contradicted observational claims remained favourable; and citation-network analysis has shown how a belief unsupported by primary data can accumulate hundreds of thousands of supporting citation paths and thereby manufacture unfounded authority.",
+  "citation_keys": [
+   "Ioannidis2005a",
+   "Tatsioni2007",
+   "Greenberg2009"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Ioannidis2005a",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Of these, 7 (16%) were contradicted by subsequent studies, 7 others (16%) had found effects that were stronger than those of subsequent studies, 20 (44%) were replicated, and 11 (24%) remained largely unchallenged.",
+    "study_system": "highly cited clinical research studies (citation analysis)"
+   },
+   {
+    "cite_key": "Tatsioni2007",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "For the 2 vitamin E epidemiological studies, even in 2005, 50% of citing articles remained favorable.",
+    "study_system": "citation persistence of contradicted claims (medical literature)"
+   },
+   {
+    "cite_key": "Greenberg2009",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The network contained 242 papers and 675 citations addressing the belief, with 220,553 citation paths supporting it.",
+    "study_system": "biomedical citation network (unfounded authority)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_a94a3f1dc7bdb5bf",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "The corrective apparatus is itself compromised, with systematic reviews and meta-analyses now mass-produced and, in the judgement of one bibliometric survey, largely redundant, misleading, or conflicted, even as the preclinical literature expands faster than systematic review can track it.",
+  "citation_keys": [
+   "IOANNIDIS2016",
+   "Nakagawa2017",
+   "BannachBrown2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "IOANNIDIS2016",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Annual publications between 1991 and 2014 increased 2,728% for systematic reviews and 2,635% for meta-analyses versus only 153% for all PubMed-indexed items.",
+    "study_system": "systematic reviews & meta-analyses (bibliometric survey)"
+   },
+   {
+    "cite_key": "Nakagawa2017",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "For example, recent reviews have revealed that many meta-analyses in ecology and evolution miss, or perform poorly, several critical steps that are routinely implemented in the medical and social sciences [,] (but also see [,]).",
+    "study_system": "biological meta-analysis (appraisal methodology)"
+   },
+   {
+    "cite_key": "BannachBrown2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "For example, in preclinical neuropathic pain research, the number of articles retrieved by a systematic search rose from 6506 in 2012 to 12 614 in 2015 whereas comparatively, only 129 neuropathic pain clinical trials were identified.",
+    "study_system": "preclinical neuropathic pain literature (meta-research on automation)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_6d6293275e80f7f8",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "Coordinated replications of 100 psychology studies found that only 36% reached significance against 97% of the originals, with replication effect sizes about half the originals; parallel efforts reproduced 62% of social-science experiments in Nature and Science, 39% of a psychology sample after re-coding for context, and prediction markets estimated a median prior probability of only 9% that the tested hypotheses were true; the same low-reproducibility metrics have since been carried into ecology and evolution.",
+  "citation_keys": [
+   "OpenScienceCollaboration2015",
+   "Camerer2018",
+   "VanBavel2016",
+   "Dreber2015",
+   "Fidler2017"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether the Reproducibility Project: Psychology demonstrates low reproducibility (only 36% of replications significant) or, after correcting for alleged statistical errors and accounting for sampling/",
+   "Whether the Reproducibility Project: Psychology demonstrates low reproducibility (only 36% of replications significant) or, after correcting for alleged statistical errors and accounting for sampling/"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "OpenScienceCollaboration2015",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Thirty-six percent of replications had statistically significant results; 47% of original effect sizes were in the 95% confidence interval of the replication effect size; 39% of effects were subjectively rated to have replicated the original result; and if no bias in original res",
+    "study_system": "experimental/correlational psychology (100 studies)"
+   },
+   {
+    "cite_key": "Camerer2018",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We find a significant effect in the same direction as the original study for 13 (62%) studies, and the effect size of the replications is on average about 50% of the original effect size.",
+    "study_system": "social science experiments (Nature/Science replication)"
+   },
+   {
+    "cite_key": "VanBavel2016",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "For example, the Reproducibility Project, a large-scale replication attempt of 100 studies published in top psychology journals found that only 39% could be unambiguously reproduced.",
+    "study_system": "psychology replication (contextual analysis)"
+   },
+   {
+    "cite_key": "Dreber2015",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We find that the hypotheses being tested in psychology typically have low prior probabilities of being true (median, 9%) and that a \"statistically significant\" finding needs to be confirmed in a well-powered replication to have a high probability of being true.",
+    "study_system": "psychology replication (prediction markets)"
+   },
+   {
+    "cite_key": "Fidler2017",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Only 39% of replications reproduced the results of the original studies, with replication effect sizes averaging only half those of the originals.",
+    "study_system": "ecology and evolution meta-research (citing replication project)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_cbecd5b2fbb61a0d",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "The Reproducibility Project: Psychology reported that only ~36% of replications were statistically significant.",
+  "citation_keys": [
+   "OpenScienceCollaboration2015"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether the Reproducibility Project: Psychology demonstrates low reproducibility (only 36% of replications significant) or, after correcting for alleged statistical errors and accounting for sampling/",
+   "Whether the Reproducibility Project: Psychology demonstrates low reproducibility (only 36% of replications significant) or, after correcting for alleged statistical errors and accounting for sampling/"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "OpenScienceCollaboration2015",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Thirty-six percent of replications had statistically significant results; 47% of original effect sizes were in the 95% confidence interval of the replication effect size; 39% of effects were subjectively rated to have replicated the original result; and if no bias in original res",
+    "study_system": "experimental/correlational psychology (100 studies)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_46d1d5f571db81b0",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "A prominent reanalysis argued the project contained three statistical errors and that, corrected for sampling error and power, the data are actually consistent with high reproducibility.",
+  "citation_keys": [
+   "Gilbert2016"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether the Reproducibility Project: Psychology demonstrates low reproducibility (only 36% of replications significant) or, after correcting for alleged statistical errors and accounting for sampling/",
+   "Whether the Reproducibility Project: Psychology demonstrates low reproducibility (only 36% of replications significant) or, after correcting for alleged statistical errors and accounting for sampling/"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Gilbert2016",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We show that this article contains three statistical errors and provides no support for such a conclusion.",
+    "study_system": "reproducibility of psychological science (reanalysis/commentary)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_359ab1e6890da39d",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "A Bayesian treatment of the same 36% rate reached the opposite conclusion, inferring publication bias so large that dozens of negative results were expected to have occurred before one was published.",
+  "citation_keys": [
+   "Ingre2018"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Ingre2018",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Publication bias was large, assuming a literature with 90% positive findings, indicating that negative evidence was expected to have been observed 55-98 times before one negative result was published.",
+    "study_system": "psychology literature (Bayesian reanalysis of OSC replications)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_6e82dcc7af329326",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "The dispute is about how replication should be measured, not about the underlying data — and it has since been reframed by some as a productive \"credibility revolution\" rather than a failure.",
+  "citation_keys": [
+   "Korbmacher2023",
+   "Amaral2019"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Optimism about reform: the credibility-revolution review argues open-science reforms have produced substantive improvement, whereas the power meta-analysis finds no improvement in statistical power ov"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Korbmacher2023",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Empirical evidence has also found that Registered Reports are perceived to be higher in research quality than regular articles, as well as equivalent in creativity and importance, while also allowing to report more negative results, which may provide further incentives for resear",
+    "study_system": "behavioural/cognitive/social science (meta-science perspective)"
+   },
+   {
+    "cite_key": "Amaral2019",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The Brazilian Reproducibility Initiative is a systematic, multicenter effort to repeat between 60 and 100 experiments: the project will focus on a set of common methods, repeating each experiment in three different laboratories from a countrywide network.",
+    "study_system": "Brazilian biomedical experiments (multicenter metascience)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "Weak second citation for the 'credibility revolution' reframing. Korbmacher2023 directly supports reframing the crisis as constructive structural change. Amaral2019 is a description of the Brazilian Reproducibility Initi",
+    "fix": "Attribute the reframing to Korbmacher2023 and cite Amaral2019 separately as an example of the constructive multicenter response it describes."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_78c37bc63dd8ac27",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "That reproducibility is contingent on power and design, rather than a fixed property of a field, is underscored by genetics: genome-wide significant variants replicated 85% of the time in well-powered biobank data — but only 58% for binary versus 95% for quantitative traits — whereas the earlier, underpowered candidate-gene era found robust replication persistently elusive.",
+  "citation_keys": [
+   "OSullivan2021",
+   "Li2012"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether genetic-association findings reproduce well: large well-powered biobank GWAS report high replication (~85%), whereas the earlier candidate-gene/association-study era found robust replication e",
+   "Whether genetic-association findings reproduce well: large well-powered biobank GWAS report high replication (~85%), whereas the earlier candidate-gene/association-study era found robust replication e"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "OSullivan2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The overall replication rate was 85.0%; although lower for binary than quantitative phenotypes (58.1% versus 94.8% respectively).",
+    "study_system": "GWAS variant replication (UK Biobank)"
+   },
+   {
+    "cite_key": "Li2012",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "An obvious cause of non-replication in genetic association studies is the initial report of a false positive result, which can be explained by a non-heritable phenotype, insufficient sample size, improper correction for multiple testing, population stratification, technical biase",
+    "study_system": "genetic association studies (obesity; methodological review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_1dade0b3e50e905a",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "Human cancer cell lines diversify in culture: across 27 strains of MCF7, only 35% of coding variants were shared by all strains, and drug responses differed markedly.",
+  "citation_keys": [
+   "BenDavid2018"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "BenDavid2018",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Only 35% of 95 non-synonymous single nucleotide variants (SNVs) and indels affecting coding sequence or splicing were shared by all strains.",
+    "study_system": "human cancer cell lines (MCF7 strains)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_991f3295d64cfdc8",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "Misidentification remains endemic — under a mandatory authentication policy at one cancer journal, 5.2% of submitted human cell lines were misidentified, and a line sold commercially as rabbit endothelium proved on barcoding to be bovine.",
+  "citation_keys": [
+   "Souren2022",
+   "Vicente2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Souren2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "By verifying the available cell line authentication documentation and cross‐checking the Cellosaurus database, 216 (5.2%) misidentified cell lines were identified, including 186 misidentified cell lines that were completely overgrown and replaced by a contaminator cell line, 16 m",
+    "study_system": "human cancer cell lines in submitted manuscripts (International Journal of Cancer)"
+   },
+   {
+    "cite_key": "Vicente2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Results revealed that despite purchase through a commercial vendor, the cell line marketed as primary rabbit aortic endothelial cells were of bovine origin.",
+    "study_system": "commercially sourced cell line authentication (radiation biology)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_f593c2b5e916ca3a",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "Antibodies are worse still: more than 3.8 million \"research-grade\" antibodies are marketed with little validation against fewer than 500 highly validated clinical-grade reagents, so that inconsistent antibody performance is a first-order driver of irreproducibility that end-users must themselves control.",
+  "citation_keys": [
+   "Sfanos2019",
+   "PillaiKastoori2020",
+   "Venkataraman2018"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Sfanos2019",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The other main class of antibodies are \"research grade\" antibodies (now numbering >3 800 000), which are often not extensively validated prior to commercialization.",
+    "study_system": "antibody reagents / immunohistochemistry reproducibility"
+   },
+   {
+    "cite_key": "PillaiKastoori2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Well-characterized antibody reagents play a key role in the reproducibility of research findings, and inconsistent antibody performance leads to variability in Western blotting and other immunoassays.",
+    "study_system": "antibody reagents / Western blot reproducibility"
+   },
+   {
+    "cite_key": "Venkataraman2018",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "As part of the US National Institutes of Health (NIH) Protein Capture Reagents Program (PCRP), we have generated a collection of 1,406 highly validated immunoprecipitation- and/or immunoblotting-grade mouse monoclonal antibodies (mAbs) to 737 human transcription factors, using an",
+    "study_system": "renewable monoclonal antibody reagents (NIH PCRP)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_1c1cf2e3b5da48b8",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "In a landmark demonstration, inbred mouse strains tested simultaneously in three laboratories under rigorously equated apparatus and protocols still differed systematically in behaviour across sites; a single retest of a P<0.05 behavioural result reproduces only about 60% of the time; behavioural measures carry coefficients of variation two to three times those of clinical chemistry; and inbred strains accumulate genetic drift that changes their phenotype over time and place, compounded by strain-background effects on stem-cell and xenograft phenotype.",
+  "citation_keys": [
+   "Crabbe1999",
+   "vandeLagemaat2017",
+   "Aigner2023",
+   "TAFT2006",
+   "Ortmann2020",
+   "Devlin2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Crabbe1999",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Strains differed markedly in all behaviors, and despite standardization, there were systematic differences in behavior across labs.",
+    "study_system": "inbred mouse strains, behavioural testing (3 laboratories)"
+   },
+   {
+    "cite_key": "vandeLagemaat2017",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The reproducibility and robustness of phenotypic measures has become a concern that undermines the use of mouse genetic models for translational studies.",
+    "study_system": "mutant mouse behaviour (129S5 and C57BL/6J backgrounds)"
+   },
+   {
+    "cite_key": "Aigner2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The behavioral tests showed a CV between 0.4 and 0.6, or higher.",
+    "study_system": "laboratory mouse phenotypic parameters (Mouse Phenome Database)"
+   },
+   {
+    "cite_key": "TAFT2006",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Such changes compromise the reproducibility of experimental data over time and place.",
+    "study_system": "inbred laboratory mice (genetic drift review)"
+   },
+   {
+    "cite_key": "Ortmann2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Overall, this study shows that genetic background plays a dominant role in driving phenotypic variability of PSCs.",
+    "study_system": "mouse pluripotent stem-cell lines (genetic variation)"
+   },
+   {
+    "cite_key": "Devlin2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In a recent study, Sargent et al. characterise several novel Rag1-/- mouse strains and demonstrate that genetic background strongly influences xenograft development and phenotype.",
+    "study_system": "mouse cancer models (genetic background; perspective)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_46faac115993fe7c",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "Husbandry variables normally treated as invisible turn out to move results: the time of day a microbiome sample is taken can change a study's conclusion more than the intervention does, something as basic as body temperature shifts stroke infarct size by dozens of percent, and bedding material, chow diet, and cage-level gut-flora heterogeneity each perturb metabolic and cancer models.",
+  "citation_keys": [
+   "Allaband2024",
+   "deJonge2019",
+   "Islam2021",
+   "Knuth2024",
+   "Feng2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Allaband2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Sample collection times as short as only 4 hours apart can lead to vastly different conclusions.",
+    "study_system": "mouse gut microbiome 16S studies (retrospective)"
+   },
+   {
+    "cite_key": "deJonge2019",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Hyperthermia increased infarct size by 43.4% (95% CI, 29.8% to 56.9%)",
+    "study_system": "animal models of ischaemic stroke (fever/hyperthermia; 19 publications, 603 animals)"
+   },
+   {
+    "cite_key": "Islam2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "After 12 wk, the GM showed significant differences depending on both bedding and diet.",
+    "study_system": "C57BL/6J mice, bedding and diet (gut microbiome)"
+   },
+   {
+    "cite_key": "Knuth2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Our findings demonstrate that LE to different chow diets has the greatest impact on the reproducibility of several experimental measures commonly used in preclinical mouse model studies.",
+    "study_system": "C57BL/6J mice, chow diet timing (gut microbiota)"
+   },
+   {
+    "cite_key": "Feng2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Additionally, variations in gut microbiota contribute to increased experimental variability, negatively impacting statistical power.",
+    "study_system": "mouse colitis-associated colon cancer (AOM/DSS) model"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_0aaec8fc0d2cda09",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "The models themselves are often so heterogeneously constructed that few designs are ever reused, as a catalogue of nearly 4,000 rodent fatty-liver models made plain.",
+  "citation_keys": [
+   "Im2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Im2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Study designs were highly heterogeneous, and therefore, few models had been cited more than once.",
+    "study_system": "rodent models of NAFLD (systematic review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_435c111867358aee",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "Male animals have dominated biomedical research, most severely in neuroscience where single-sex male studies once outnumbered female ones 5.5 to 1; a decade after this was quantified, both-sex inclusion had risen across nine disciplines but the proportion actually analysing data by sex had not, in eight of them, despite a US policy expecting sex to be treated as a biological variable.",
+  "citation_keys": [
+   "Beery2011",
+   "Woitowich2020",
+   "Miller2016"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Beery2011",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Male bias was evident in 8 disciplines and most prominent in neuroscience, with single-sex studies of male animals outnumbering those of females 5.5 to 1.",
+    "study_system": "sex bias across biological fields (bibliometric review)"
+   },
+   {
+    "cite_key": "Woitowich2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "There was a significant increase in the proportion of studies that included both sexes across all nine disciplines, but in eight of the disciplines there was no change in the proportion studies that included data analyzed by sex.",
+    "study_system": "sex inclusion in biological sciences (10-year follow-up bibliometric)"
+   },
+   {
+    "cite_key": "Miller2016",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In June 2015, the National Institutes of Health (NIH) released a Guide notice (NOT-OD-15-102) that highlighted the expectation of the NIH that the possible role of sex as a biologic variable be factored into research design, analyses, and reporting of vertebrate animal and human ",
+    "study_system": "preclinical research design (sex as a variable)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_0cc8d0578ecdd2f2",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "The usual justification — that females are intrinsically more variable — is unfounded: across 311 neuroscience studies female rats were no more variable than males, even without controlling for the oestrous cycle, yet male-only designs continue to distort conclusions in domains from morphine sensitisation to cough, and even a variable as basic as animal age is reported inconsistently.",
+  "citation_keys": [
+   "Becker2016",
+   "Brandner2024",
+   "Plevkova2017",
+   "OLeary2022",
+   "Jackson2016"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Becker2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Across a substantially large sampling of research, the data indicate that on average, females exhibit the same (or less) variability on a given trait that male rats do.",
+    "study_system": "male and female rats, neuroscience traits (meta-analysis)"
+   },
+   {
+    "cite_key": "Brandner2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The mechanistic basis for these sex differences remains poorly understood, due in part to historical bias in biomedical research favoring analysis of male subjects, and the exclusion of female subjects.",
+    "study_system": "neuroligin-3 knockout mice, morphine sensitization (sex differences)"
+   },
+   {
+    "cite_key": "Plevkova2017",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Only male guinea pigs are used in basic cough research and exclusion of females leads to gender bias.",
+    "study_system": "guinea-pig cough model (sex/gender bias)"
+   },
+   {
+    "cite_key": "OLeary2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Learning and memory impairments in 5xFAD mice, however, are not always replicated and the size of impairments varies considerably across studies.",
+    "study_system": "5xFAD transgenic mouse model of Alzheimer's disease"
+   },
+   {
+    "cite_key": "Jackson2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The majority of responses described using animals between eight and 12 weeks, with a range from two to 120 weeks of age.",
+    "study_system": "survey of rodent researchers (age reporting)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_81cd066012adf24b",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "The clinical stakes are concrete: of ten prescription drugs withdrawn from the United States market between 1997 and 2001, eight caused greater harm to women than to men, a record that motivated sex-disaggregated reporting standards.",
+  "citation_keys": [
+   "Heidari2016"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Heidari2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Among the ten prescription pharmaceuticals withdrawn from the US market between 1997 and 2001, eight caused greater harm to women than men.",
+    "study_system": "sex/gender reporting in biomedical research (SAGER guidelines rationale)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_8b9b8324d57fcd2f",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "The traditional prescription is rigorous standardisation — minimising genetic and environmental variation so that fewer animals are needed to detect an effect.",
+  "citation_keys": [
+   "Serdar2021"
+  ],
+  "modality_seed": "established",
+  "replication": [],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether minimizing genetic/environmental variation in animal experiments is beneficial (reducing required sample size by cutting nuisance variability, the standardization view) or harmful (yielding id",
+   "Whether minimizing genetic/environmental variation in animal experiments is beneficial (reducing required sample size by cutting nuisance variability, the standardization view) or harmful (yielding id"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Serdar2021",
+    "role": "background",
+    "passage_source": "metadata_only",
+    "supporting_passage": "",
+    "study_system": null
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 2,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_2dcc5c535cb09177",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "Using data from 440 preclinical studies across 13 interventions, single-laboratory experiments failed to predict the true effect size in more than half of cases even when powered above 0.8, and — counter to the intuition that bigger is better — larger single-lab samples made effect-size estimates less accurate, whereas distributing animals across laboratories improved them.",
+  "citation_keys": [
+   "Voelkl2018"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Prescription for improving preclinical reliability: increasing statistical power/sample size within a single standardized laboratory (power view) versus the finding that larger single-lab samples wors",
+   "An empirical six-laboratory test found simple within-study heterogenization too weak to overcome between-laboratory variation, whereas a simulation across 440 studies concludes that multi-laboratory d"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Voelkl2018",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Therefore, although the studies were sufficiently powered (>0.8) to detect a treatment effect, single-laboratory studies failed to predict the true effect size accurately in more than half of the cases.",
+    "study_system": "preclinical animal studies (simulation; stroke/MI/breast cancer)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 2,
+    "issue": "Incorrect quantitative attribution on a landmark citation. The prose states the analysis used '50 real preclinical studies'. Voelkl et al. 2018 actually used 440 preclinical studies across 13 interventions (stroke, myoca",
+    "fix": "Replace 'Using data from 50 real preclinical studies' with 'Using data from 440 preclinical studies across 13 interventions (stroke, myocardial infarction and b"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_3694e6589961c4fb",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "The proposed response is deliberate heterogenisation of samples and conditions, on the reaction-norm view that standardisation buys internal precision at the cost of external validity.",
+  "citation_keys": [
+   "Voelkl2020",
+   "Voelkl2021"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether minimizing genetic/environmental variation in animal experiments is beneficial (reducing required sample size by cutting nuisance variability, the standardization view) or harmful (yielding id",
+   "Disagreement over whether standardization/harmonization improves or harms cross-laboratory reproducibility: the Shank2 multicenter study shows rigorously aligned (standardized) protocols yield highly "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Voelkl2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In contrast to the current gold standard of rigorous standardization in experimental animal research, we recommend the use of systematic heterogenization of study samples and conditions by actively incorporating biological variation into study design through diversifying study sa",
+    "study_system": "experimental animal research (reproducibility strategy)"
+   },
+   {
+    "cite_key": "Voelkl2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "An important aspect that is generally overlooked is the lack of external validity caused by rigorous standardization of both the animals and the environment.",
+    "study_system": "in vivo animal research (reaction-norm theory)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_56c74200f0ed4658",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "The standardisation-and-rigour school holds that reproducibility follows from rigour plus transparency — pre-specified analysis plans, tight control of variation, and active laboratory management, and that minimising nuisance variation reduces the number of animals required.",
+  "citation_keys": [
+   "Samsa2019",
+   "Serdar2021"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether rigorous standardization of animals and environment improves reproducibility (rigor+transparency framing) or harms it by reducing external validity (reaction-norm framing) - internal reproduci",
+   "Whether rigorous standardization of animals and environment improves reproducibility (rigor+transparency framing) or harms it by reducing external validity (reaction-norm framing) - internal reproduci"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Samsa2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "These actions will support a culture where rigor + transparency = reproducibility.",
+    "study_system": "preclinical research (reproducibility guidance)"
+   },
+   {
+    "cite_key": "Serdar2021",
+    "role": "background",
+    "passage_source": "metadata_only",
+    "supporting_passage": "",
+    "study_system": null
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 3,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_37fa893fb2eae8a2",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "The heterogenisation school holds that rigorous standardisation is itself a cause of irreproducibility, because a result tuned to one laboratory's idiosyncratic conditions has no external validity.",
+  "citation_keys": [
+   "Voelkl2021",
+   "Voelkl2018"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether rigorous standardization of animals and environment improves reproducibility (rigor+transparency framing) or harms it by reducing external validity (reaction-norm framing) - internal reproduci",
+   "Whether rigorous standardization of animals and environment improves reproducibility (rigor+transparency framing) or harms it by reducing external validity (reaction-norm framing) - internal reproduci"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Voelkl2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "An important aspect that is generally overlooked is the lack of external validity caused by rigorous standardization of both the animals and the environment.",
+    "study_system": "in vivo animal research (reaction-norm theory)"
+   },
+   {
+    "cite_key": "Voelkl2018",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Therefore, although the studies were sufficiently powered (>0.8) to detect a treatment effect, single-laboratory studies failed to predict the true effect size accurately in more than half of the cases.",
+    "study_system": "preclinical animal studies (simulation; stroke/MI/breast cancer)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 2,
+    "issue": "Incorrect quantitative attribution on a landmark citation. The prose states the analysis used '50 real preclinical studies'. Voelkl et al. 2018 actually used 440 preclinical studies across 13 interventions (stroke, myoca",
+    "fix": "Replace 'Using data from 50 real preclinical studies' with 'Using data from 440 preclinical studies across 13 interventions (stroke, myocardial infarction and b"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_c9ba95a72bc86c54",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "The evidence is genuinely mixed: a Shank2 multicentre study found that rigorously *harmonised* protocols yielded highly replicable genotype and treatment effects across sites, which standardisation and heterogenisation advocates read in opposite ways.",
+  "citation_keys": [
+   "ArroyoAraujo2019"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Disagreement over whether standardization/harmonization improves or harms cross-laboratory reproducibility: the Shank2 multicenter study shows rigorously aligned (standardized) protocols yield highly ",
+   "Disagreement over whether standardization/harmonization improves or harms cross-laboratory reproducibility: the Shank2 multicenter study shows rigorously aligned (standardized) protocols yield highly "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "ArroyoAraujo2019",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The present study demonstrates that rigorous alignment of experimental protocols between three research centers resulted in comparable experimental findings across sites for both genotype and treatment effects.",
+    "study_system": "Shank2 knockout rat (autism model), 3 research centers"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_8371161698b74d9d",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "A six-centre stroke trial of an anti-CD49d antibody — undertaken only after positive single-lab studies had already triggered a clinical trial — found benefit confined to small cortical infarcts and none in large lesions, exposing the model-dependence that single-lab work had missed; a ten-site pig myocardial-infarction network built on the same principles was explicitly created to counter the lack of rigour behind failed cardioprotection translation.",
+  "citation_keys": [
+   "Llovera2015",
+   "Kleinbongard2024",
+   "Btker2018"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Llovera2015",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In contrast, anti-CD49d treatment did not reduce lesion size or affect leukocyte invasion after transient proximal occlusion of the middle cerebral artery, which induces large lesions.",
+    "study_system": "mouse stroke models, anti-CD49d (multicentre pRCT)"
+   },
+   {
+    "cite_key": "Kleinbongard2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "One reason for the lack of translation is the lack of rigor and reproducibility in pre-clinical studies.",
+    "study_system": "multicentre preclinical pig myocardial-infarction network"
+   },
+   {
+    "cite_key": "Btker2018",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "so far there is only a single and very recent study, which has unequivocally translated cardioprotection to improved clinical outcome as the primary endpoint in patients",
+    "study_system": "cardioprotection (preclinical-to-clinical translation)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_2f810fc8a4b77745",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "The multicentre design is no panacea, however: a preregistered, fully blinded three-site confirmatory trial of neuroprotectants for chemotherapy-induced neuropathy failed its primary objective when unexpected toxicity and tumour growth left it underpowered — evidence that distributed rigour exposes translational uncertainty rather than abolishing it.",
+  "citation_keys": [
+   "Boehmerle2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Boehmerle2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Even though the primary study objective in terms of a validated neuroprotective comedication could not be achieved, the lessons learned from the PINPRICS study hold great potential to inform the design and execution of future preclinical multicenter randomized clinical trials.",
+    "study_system": "mouse paclitaxel-induced neuropathy (multicenter preclinical RCT)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_c0bcedd25400c5d3",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "In a direct comparison of six interventions with unambiguous clinical evidence, corticosteroids benefited animal head-injury models (pooled odds ratio 0.58) yet showed no benefit in patients, and a scoping review of 121 quantitative animal-to-human comparisons found published translational success rates spanning the entire range from 0% to 100%, with animal-human toxicity concordance of 71% across species but only 43% for rodents alone.",
+  "citation_keys": [
+   "Perel2006",
+   "Leenaars2019b"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Perel2006",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Corticosteroids did not show any benefit in clinical trials of treatment for head injury but did show a benefit in animal models (pooled odds ratio for adverse functional outcome 0.58, 95% confidence interval 0.41 to 0.83).",
+    "study_system": "animal experiments vs clinical trials (6 interventions)"
+   },
+   {
+    "cite_key": "Leenaars2019b",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The range of published translational success rates is 0% to 100%.",
+    "study_system": "animal-to-human translation (scoping review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_cb9aed4a07898448",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "That contrast, laid out in, is the section's sharpest illustration of a general vulnerability: when a defensible analytic choice can flip a model from \"poorly mimics\" to \"greatly mimics\" human disease, the conclusion on translatability is being decided by analytic degrees of freedom rather than by the animals.",
+  "citation_keys": [
+   "Seok2013",
+   "Takao2014"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Using the identical gene-expression datasets, the two analyses reach opposite conclusions on whether mouse inflammation models mimic human disease; the discrepancy traces to gene-selection method (all",
+   "Using the identical gene-expression datasets, the two analyses reach opposite conclusions on whether mouse inflammation models mimic human disease; the discrepancy traces to gene-selection method (all"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Seok2013",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Among genes changed significantly in humans, the murine orthologs are close to random in matching their human counterparts (e.g., R(2) between 0.0 and 0.1).",
+    "study_system": "mouse models of human inflammation (genomics)"
+   },
+   {
+    "cite_key": "Takao2014",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Contrary to the previous findings, the gene expression levels in the mouse models showed extraordinarily significant correlations with those of the human conditions (Spearman's rank correlation coefficient: 0.43-0.68; genes changed in the same direction: 77-93%; P = 6.5 × 10(-11)",
+    "study_system": "mouse models of human inflammation (genomics reanalysis)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_7e24cfe7a3e30e5b",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "More broadly, reviews of predictive validity conclude that animal models are weak predictors of human drug safety and efficacy across therapeutic areas, a judgement borne out by case histories: Hedgehog-pathway inhibitors, once hoped to treat a quarter of human cancers, responded clinically in only two rare tumour types; of 101 highly promising basic-science findings, only five reached licensed clinical use two decades later; creatine, neuroprotective in Parkinson's models, showed no benefit in trials of nearly 2,000 patients; and umbilical-cord-blood therapy, significant across preclinical lung-injury outcomes, produced no reduction in the corresponding clinical endpoint.",
+  "citation_keys": [
+   "VanNorman2019",
+   "McGonigle2014",
+   "AKHTAR2015",
+   "Curran2018",
+   "ContopoulosIoannidis2003",
+   "Attia2017",
+   "Purcell2024"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "VanNorman2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Animal testing is used in pharmaceutical and industrial research to predict human toxicity, and yet analysis suggests that animal models are poor predictors of drug safety in humans.",
+    "study_system": "animal toxicity testing for drug safety (review)"
+   },
+   {
+    "cite_key": "McGonigle2014",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In the wake of numerous clinical trial failures of new chemical entities (NCEs) with promising preclinical profiles, animal models in all therapeutic areas have been increasingly criticized for their limited ability to predict NCE efficacy, safety and toxicity in humans.",
+    "study_system": "animal models of human disease (translation review)"
+   },
+   {
+    "cite_key": "AKHTAR2015",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The bottom line is that animal experiments, no matter the species used or the type of disease research undertaken, are highly unreliable—and they have too little predictive value to justify the resultant risks of harms for humans, for reasons I now explain.",
+    "study_system": "animal experimentation validity (ethics review)"
+   },
+   {
+    "cite_key": "Curran2018",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Although such inhibitors were once hoped to be efficacious in up to 25% of human cancer, clinical studies showed responses only in basal cell carcinoma and the HH subtype of medulloblastoma.",
+    "study_system": "Hedgehog pathway inhibitors, cancer (case study)"
+   },
+   {
+    "cite_key": "ContopoulosIoannidis2003",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "By October 2002, 27 of the promising technologies had resulted in at least one published randomized trial, 19 of which had led to the publication of at least one positive randomized trial.",
+    "study_system": "highly promising basic-science findings (translation tracking)"
+   },
+   {
+    "cite_key": "Attia2017",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Creatine is an antioxidant agent that showed neuroprotective effects in animal models of Parkinson's disease (PD).",
+    "study_system": "creatine, Parkinson's disease (animal models vs clinical RCTs)"
+   },
+   {
+    "cite_key": "Purcell2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In clinical studies, 103 preterm infants have received UCB-derived therapy for preterm lung injury and no significant difference was observed in the development of BPD (RR, 0.93, 95%CI [0.73, 1.18]).",
+    "study_system": "umbilical cord blood therapy for preterm lung injury (preclinical vs clinical)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_2078e0a82faac554",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "Even models that faithfully reproduce a human phenotype need not be fit for drug development; conversely, some models achieve high external validity yet are still run without any standard protocol.",
+  "citation_keys": [
+   "Cannon2023",
+   "Aquarius2023",
+   "Brown2016",
+   "Bansal2017"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Cannon2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This opposes the high attrition of drugs during bench-to-bedside translation and thus raises concerns that phenotypic reproducibility does not necessarily render an animal model appropriate for drug development.",
+    "study_system": "ALS animal models, neuroimaging (systematic review)"
+   },
+   {
+    "cite_key": "Aquarius2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Safety outcomes were not evaluated in animal studies and could therefore not be compared to clinical outcomes.",
+    "study_system": "intracranial aneurysm WEB device (animal vs clinical systematic review)"
+   },
+   {
+    "cite_key": "Brown2016",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Thirteen articles satisfied the inclusion criteria.",
+    "study_system": "colorectal cancer patient-derived xenografts (systematic review)"
+   },
+   {
+    "cite_key": "Bansal2017",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, given the current lack of guidance documentation in this area, preclinical animal models are not performed in a standardized fashion.",
+    "study_system": "meniscus repair large-animal models (systematic review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Interpretive mismatch on the second citation. Cannon2023 (ALS neuroimaging models reproduce human features yet attrition is high) squarely supports 'faithful phenotype but not fit for development'. Aquarius2023, however,",
+    "fix": "Remove Aquarius2023 from the 'faithful phenotype but not fit' clause (Cannon2023 alone supports it), or relocate Aquarius2023 to the discussion of limited/heter"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_0517f3eec333e130",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "External validity as a whole has advanced far less than internal-validity reporting, reviews routinely extrapolate preclinical results to patients without first appraising the animal studies' risk of bias, and translational failure is sometimes traceable to mismatches as mundane as clinical outcome instruments too blunt to capture the effects seen in animals, or to physics and dosimetry parameters that are left unreported in the majority of radiobiology papers and vary enough between institutions to require credentialing.",
+  "citation_keys": [
+   "Ferreira2020",
+   "Rongen2015",
+   "Lamontagne2010",
+   "Stein2015",
+   "Draeger2020",
+   "Ashraf2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Ferreira2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Several initiatives to address the internal validity and reporting quality of animal studies (e.g., Animals in Research: Reporting In Vivo Experiments (ARRIVE) and Planning Research and Experimental Procedures on Animals: Recommendations for Excellence (PREPARE) guidelines) have ",
+    "study_system": "animal disease models external validity (framework)"
+   },
+   {
+    "cite_key": "Rongen2015",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Systematic reviews of animal studies have revealed serious limitations in internal and external validity strongly affecting the reliability of this research.",
+    "study_system": "cardiovascular pharmacology animal research (review)"
+   },
+   {
+    "cite_key": "Lamontagne2010",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Three (7%) met our criteria for a systematic review and one (2%) systematically appraised the risk of bias and the clinical relevance of the primary animal experiments.",
+    "study_system": "sepsis-therapy reviews including animal studies"
+   },
+   {
+    "cite_key": "Stein2015",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "the great majority of them use the same standardized, short, blunt instruments evaluating quality-of-life that do not approach the detail and precision of the measures used to evaluate morphological and functional outcomes required of animal studies",
+    "study_system": "traumatic brain injury (progesterone Phase III trials, translational analysis)"
+   },
+   {
+    "cite_key": "Draeger2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "For 1758 peer-reviewed articles from 469 journals, we evaluated the reporting of basic experimental physics and dosimetry details recommended by the authoritative National Institute of Standards and Technology symposium.",
+    "study_system": "radiobiology / radiation-biology publications"
+   },
+   {
+    "cite_key": "Ashraf2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The comparison protocol offers a framework for credentialing multi-institutional studies in FLASH preclinical research to enhance reproducibility of biologic findings.",
+    "study_system": "multi-institutional preclinical FLASH radiotherapy dosimetry (mouse phantom)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_e6dc04569ed964e0",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "Alzheimer's disease is the emblematic case: more than 300 interventions have been reported effective in animal models, with essentially none translating.",
+  "citation_keys": [
+   "Shineman2011",
+   "SukoffRizzo2020"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Shineman2011",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "As a result, over 300 interventions have been investigated and reported to mitigate pathological phenotypes or improve behavior in AD animal models or both.",
+    "study_system": "Alzheimer's disease preclinical models (best-practices consensus)"
+   },
+   {
+    "cite_key": "SukoffRizzo2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "These include confirmation of the active pharmaceutical ingredient and at the precise concentration expected; and an experimental design that is well powered and in line with the Animal Research Reporting of In vivo Experiments (ARRIVE) guidelines.",
+    "study_system": "Alzheimer's disease preclinical testing (MODEL-AD consortium)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_df0eb5e5969a21ab",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "Independent analyses converge on a likelihood of moving from first-in-human testing to approval of roughly 5–14%, as shows: about 14% industry-wide, falling to 5–7% in single oncology indications.",
+  "citation_keys": [
+   "Schuhmacher2025",
+   "DiMasi2014",
+   "Dhillon2022",
+   "Luo2026",
+   "Wasylewski2020"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Schuhmacher2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Our study reveals an average likelihood of first approval rate of 14.3% across leading research-based pharmaceutical companies, broadly ranging from 8% to 23%.",
+    "study_system": "pharmaceutical clinical development (18 companies)"
+   },
+   {
+    "cite_key": "DiMasi2014",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "For self-originated compounds, the clinical approval success rates were 14.3%, 16.4%, and 18.4% for top 10 firms, top 11-20 firms, and top 21-50 firms, respectively.",
+    "study_system": "pharmaceutical R&D (50 largest firms)"
+   },
+   {
+    "cite_key": "Dhillon2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The probability of a drug completing all phases of testing and obtaining FDA approval was 7%, which is below the 11% industry average.",
+    "study_system": "gastric cancer drug development"
+   },
+   {
+    "cite_key": "Luo2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The success rates of agents proceeding from phase 1 to 2 and phase 2 to 3 were 30.7% and 23.0%, respectively.",
+    "study_system": "lymphoma drug development (clinical trials)"
+   },
+   {
+    "cite_key": "Wasylewski2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Seven trials (5%) led to drugs being registered for pediatric use in therapy of cancer.",
+    "study_system": "pediatric phase 1 oncology trials"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ }
+]

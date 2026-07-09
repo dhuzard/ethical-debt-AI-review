@@ -1,0 +1,1850 @@
+[
+ {
+  "claim_id": "clm_b864fe81cf3efc58",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The unifying principle, stated plainly in the pathology literature, is that historical control data should never be used in isolation to override a concurrent control or a weight-of-evidence evaluation.",
+  "citation_keys": [
+   "Foster2026",
+   "Elmore2009"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Use of the HCD extreme-value range to override marginal treatment effects: the JMPR pesticide-practice analysis documents HCD ranges being used routinely and exclusively to avoid false-positive calls,",
+   "Whether expanding the historical control range to reinterpret a carcinogenicity signal is sound: the vanadium re-analysis relies on a widened HCD range to downgrade a concurrent-control-based signal t"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Foster2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "It is emphasized throughout the review that HCD should not be used in isolation to dismiss an apparent treatment-related increased tumor incidence and should never supersede a detailed \"weight of evidence\" evaluation in coming to any conclusion as to the result of a carcinogenici",
+    "study_system": "rodent lifetime carcinogenicity bioassays; historical control databases"
+   },
+   {
+    "cite_key": "Elmore2009",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "While the concurrent control group provides the most relevant control data for determining treatment-related effects in a study, evaluation of HCD may be useful in certain situations.",
+    "study_system": "NTP rodent carcinogenicity historical control data (B6C3F1 mice)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_29b038eba86837ce",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Range statistics are highly outlier-sensitive, so the concurrent control remains the most relevant comparator and historical data only a supporting input, yet the choice of which historical set to use can flip a marginal call, as a decamethylcyclopentasiloxane bioassay showed when four historical control sets of differing heterogeneity gave different answers.",
+  "citation_keys": [
+   "Elmore2009",
+   "Young2016"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether expanding the historical control range to reinterpret a carcinogenicity signal is sound: the vanadium re-analysis relies on a widened HCD range to downgrade a concurrent-control-based signal t"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Elmore2009",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "While the concurrent control group provides the most relevant control data for determining treatment-related effects in a study, evaluation of HCD may be useful in certain situations.",
+    "study_system": "NTP rodent carcinogenicity historical control data (B6C3F1 mice)"
+   },
+   {
+    "cite_key": "Young2016",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Four sets of (historical) control groups were formed, with varying heterogeneity.",
+    "study_system": "Decamethylcyclopentasiloxane (D5) F344 rat uterine adenocarcinoma bioassay"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_1a2d92b732c7ead4",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The multiplicity of control-versus-treated comparisons compounds the problem: Monte-Carlo analysis of NTP bioassays found that about 92% of chemicals show a statistically significant tumour decrease at at least one site purely from random variability and multiple testing, and requiring joint trend-plus-pairwise significance can inflate the false-negative rate by up to 204.5% unless significance levels are recalibrated.",
+  "citation_keys": [
+   "Linkov1998",
+   "Lin2018"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Linkov1998",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "About 92% of chemicals tested by the National Toxicology Program prior to 1983 reveal at least one site with a significant (p < or = 0.05) tumor rate decrease in one or more tested groups, a result consistent with those of J. K. Haseman and F. M. Johnson (1996, Mutat. Res. 350, 1",
+    "study_system": "NTP rodent cancer bioassays (Monte-Carlo simulation)"
+   },
+   {
+    "cite_key": "Lin2018",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The inflation can be as high as 204.5% of the false negative rate when the trend test alone is required to test if the effect is statistically significant.",
+    "study_system": "rodent carcinogenicity studies (simulation, FDA)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_1eb0cb83287f9af1",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "High control variability produces the same pathology in ecological studies, where background abundance alone made a statistical test flag significant differences in more than half of comparisons before any treatment was applied, and the choice of statistical test itself materially shifts false-positive and false-negative rates in control-versus-treated comparisons.",
+  "citation_keys": [
+   "Schimera2025",
+   "Green2014",
+   "Rahman2008"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Schimera2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Significant differences were observed in more than 50% of the comparisons using CPCAT, even before test item application happened in the field.",
+    "study_system": "Collembola soil mesofauna field studies (ecological risk assessment of pesticides)"
+   },
+   {
+    "cite_key": "Green2014",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The evidence supports using either the solvent control only in all cases or a sequential strategy of combining the water and solvent controls unless the two controls are found to be statistically significantly different, in which case only the solvent control should be used.",
+    "study_system": "aquatic toxicology experiments with solvent carriers (simulation)"
+   },
+   {
+    "cite_key": "Rahman2008",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In this work the authors compared the overall false positive rates of the Peto and Poly-K tests using the Lin-Rahman multiple comparison adjustment based on some simulation results.",
+    "study_system": "long-term (2-year) rodent carcinogenicity data (simulation)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_c335b82668db7e51",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "These are not arguments against reusing control data; they are arguments that reuse must be paired with outlier-robust methods and honest accounting for multiplicity.",
+  "citation_keys": [
+   "Elmore2025",
+   "Maronpot2016"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Elmore2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This involves attention to study details, including reliable histopathologic diagnoses, and proper statistical analyses, including consideration of multiple comparisons, concurrent and historical controls.",
+    "study_system": "n-butyl methacrylate rodent carcinogenicity bioassay (rats, mice)"
+   },
+   {
+    "cite_key": "Maronpot2016",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We show that due to the highly variable background incidence of F344 MNCL, more reliance on historical control data than is usual for most tumor responses is warranted to evaluate potential effect of any chemical treatment in this rat strain.",
+    "study_system": "F344 rat cancer bioassay spontaneous tumors (NTP)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_433f2aaa72923687",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The upside is real and quantifiable: when external and trial controls are genuinely exchangeable, a Bayesian hybrid-arm design recovered nearly the full power of a 1:1 randomised trial (about 77–81%) where a no-borrowing design languished near 49–54%, and dynamic borrowing has been used to down-randomise control arms across a range of designs.",
+  "citation_keys": [
+   "Wang2026",
+   "Dron2019",
+   "Gaskell2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Trustworthiness of external-control/data borrowing: the propensity-score power-prior methodology stresses that borrowing can never eliminate confounding bias (only attenuate it), whereas the BIRTH hyb"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Wang2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In Scenario 1 (homogeneous effects), the BIRTH design achieved power ranging from 76.5% to 80.5%, substantially higher than the NB design (48.8%-54.1%) and MAP design (50.7%-55.4%), while approaching the 1:1 trial design (78.4%-81.2%).",
+    "study_system": "oncology basket trials; hybrid control simulation"
+   },
+   {
+    "cite_key": "Dron2019",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "This is reflected in the median overall survival time, which was between 8 and 10 months for all trials except PROCLAIM, which demonstrated a control group median survival time of 25 months.",
+    "study_system": "second-line NSCLC patients (Project Data Sphere individual patient data; 4 phase III trials)"
+   },
+   {
+    "cite_key": "Gaskell2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "A total sample size for all three treatment rounds of 284 patients (95 control + 189 experimental arm patients in total) was chosen based on feasibility assessments.",
+    "study_system": "cardiac MRI platform RCT; sequential Bayesian power-prior design"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_6acd2ba760e6447b",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "A theoretical result shows that when a uniformly most powerful test exists, strict frequentist Type I error control means external borrowing yields no power gain at all, and a companion analysis proves that insisting on Type I error control forces the elimination of any favourable borrowing of historical information.",
+  "citation_keys": [
+   "KoppSchneider2019",
+   "Quan2019"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether borrowing historical/external control data delivers genuine efficiency (power/sample-size) gains: the theoretical result argues strict type I error control precludes any power gain, whereas ap"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "KoppSchneider2019",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "This shows that no power gain can be expected from borrowing of external information when strict control of type I error rate is required.",
+    "study_system": "Statistical theory; dichotomous outcome, pediatric arm appended to adult trial"
+   },
+   {
+    "cite_key": "Quan2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "As demonstrated theoretically, the type I error control denies any borrowing of favorable prior information.",
+    "study_system": "Statistical methodology; historical data borrowing, type I error"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_029a2f7af41ae285",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Population drift in open platform trials that reuse non-concurrent controls can bias estimates and inflate Type I error; mismatched disease-assessment schedules between a synthetic control and its trial can cause severe error inflation or power loss unless harmonised; and even propensity-score-weighted priors can only attenuate, never eliminate, confounding bias from combining trial and external data.",
+  "citation_keys": [
+   "Overbey2022",
+   "Zhu2022",
+   "Polak2025",
+   "Wang2025b"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Trustworthiness of external-control/data borrowing: the propensity-score power-prior methodology stresses that borrowing can never eliminate confounding bias (only attenuate it), whereas the BIRTH hyb"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Overbey2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Using all available data can increase power and precision; however, drift in population parameters can yield biased estimates and impact type I error rate.",
+    "study_system": "Simulation; open platform trial with late-entry experimental arms"
+   },
+   {
+    "cite_key": "Zhu2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We demonstrate through extensive simulations that the proposed framework is unbiased in estimating median TTE and hazard ratio, well controls the type I error and achieves desirable power for log-rank test, while the unadjusted analysis can be biased and suffer from severe type I",
+    "study_system": "synthetic control arm progression-free survival comparisons (simulation)"
+   },
+   {
+    "cite_key": "Polak2025",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In this way, dynamic borrowing can never eliminate bias due to a variable such as C1 but it can attenuate the bias by reducing the degree of pooling.",
+    "study_system": "augmented treatment arms; propensity-score power prior (methodology)"
+   },
+   {
+    "cite_key": "Wang2025b",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In the analysis phase, Power Prior, Elastic Prior, and Mixture Prior with the random discounting parameter were adopted.",
+    "study_system": "hybrid control arm (human); propensity-score-integrated elastic/power/mixture priors"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_0a33e4d3b1f41757",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "This is precisely why the field has invested in dynamic methods that tune the amount borrowed to the observed congruence between historical and current data rather than borrowing a fixed quantity: meta-analytic-predictive priors and their robust and semiparametric extensions, latent-exchangeability and elastic priors that borrow only from subjects or sources that appear comparable, and adaptive schemes that discount in proportion to prior-data conflict.",
+  "citation_keys": [
+   "Neuenschwander2010",
+   "Hupf2021",
+   "Alt2024a",
+   "Huang2025a",
+   "Mukhopadhyay2025",
+   "Bennett2021",
+   "Callegaro2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Neuenschwander2010",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "For a Phase IV trial (930 control patients in 11 historical trials) between-trial heterogeneity was fairly small, resulting in a prior effective sample size of approximately 90 patients.",
+    "study_system": "clinical trials (Phase IV, proof-of-concept); meta-analytic-predictive prior"
+   },
+   {
+    "cite_key": "Hupf2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "To incorporate the ability to selectively borrow historic information, we propose a Bayesian semiparametric meta-analytic-predictive prior.",
+    "study_system": "phase II ankylosing spondylitis trial (human); semiparametric MAP prior"
+   },
+   {
+    "cite_key": "Alt2024a",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The LEAP discounts the historical data by identifying the most relevant subjects from the historical data.",
+    "study_system": "phase 3 plaque psoriasis trial (human); latent exchangeability prior for control augmentation"
+   },
+   {
+    "cite_key": "Huang2025a",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Integrating external data into a clinical trial can introduce systematic bias in estimates and inflate the study's type I error due to differences in study design and enrollment criteria.",
+    "study_system": "Statistical methodology; external control borrowing"
+   },
+   {
+    "cite_key": "Mukhopadhyay2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "A novel adaptive Bayesian borrowing (ABB) method proposed here borrows from historical control data to increase the precision of the control arm based on the observed congruence of the historical and current data.",
+    "study_system": "clinical trials (rare/pediatric diseases); adaptive borrowing of historical controls"
+   },
+   {
+    "cite_key": "Bennett2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Incorporating historical control data could lead to more efficient trials, reducing the number of controls required in the current study when the historical and current control data agree.",
+    "study_system": "Statistical methodology; two-arm RCT with historical controls"
+   },
+   {
+    "cite_key": "Callegaro2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In this note, we identify key features of the relationship between the first method proposed, the bias-variance method, which is strongly related to the commensurate prior approach, and a more recent and widely used approach called robust mixture priors (RMP).",
+    "study_system": "clinical trials (human); robust mixture prior vs commensurate/Pocock borrowing"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 3
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_5277efd85b3b6ed6",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The cautionary counterpoint is that these methods can still perform poorly when exchangeability fails, so their operating characteristics must be checked case by case rather than assumed.",
+  "citation_keys": [
+   "Alt2024b",
+   "Lee2025b",
+   "Nikolakopoulos2017"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Reliability of Bayesian borrowing from historical/external controls: the device-trial design emphasizes maintained Type I error and reduced sample size under congruence, whereas the time-to-event anal"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Alt2024b",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Simulation results suggest that, although efficiency gains can be achieved by borrowing information among external controls, operating characteristics in general can be quite poor under a lack of exchangeability.",
+    "study_system": "second-line metastatic colorectal cancer trial (human); time-to-event external-control borrowing"
+   },
+   {
+    "cite_key": "Lee2025b",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, the use of external control data poses a risk of introducing bias, particularly in the presence of prior-data conflict, which can distort treatment effect estimates.",
+    "study_system": "Statistical methodology; hybrid RCT + external control designs"
+   },
+   {
+    "cite_key": "Nikolakopoulos2017",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The method is based on predictive distributions and parameterized in such a way that the type I error can be controlled by calibrating to the degree of similarity between the new and historical data.",
+    "study_system": "Statistical methodology; single historical control dataset, normal outcomes"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_2f93ed8d7f1a7840",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The toolkit is by now deep: foundational power and meta-analytic-predictive priors, along with probability- or distance-based variants that cap how much is borrowed, have been developed and simulated across binary, count and time-to-event endpoints, and their adaptive descendants tie the borrowed quantity to observed heterogeneity or covariate consistency in an effort to preserve error control when sources disagree.",
+  "citation_keys": [
+   "Smith2020a",
+   "Isogawa2020",
+   "Peng2023",
+   "Lu2024",
+   "Feit2020",
+   "Warren2024",
+   "Li2026",
+   "Burman2024",
+   "Tian2025",
+   "Zheng2025",
+   "Mariani2023",
+   "Chen2023",
+   "Hupf2024",
+   "Neuenschwander2020",
+   "Campbell2024",
+   "Qian2025",
+   "Ratta2026",
+   "Zocholl2025",
+   "Scott2026",
+   "Murray2021",
+   "Harun2023",
+   "Ohigashi2024",
+   "Wang2023",
+   "Zhan2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether borrowing historical/external control data delivers genuine efficiency (power/sample-size) gains: the theoretical result argues strict type I error control precludes any power gain, whereas ap"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Smith2020a",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Leveraging historical data into the design and analysis of phase 2 randomized controlled trials can improve efficiency of drug development programs.",
+    "study_system": "Phase 2 oncology RCTs (glioblastoma case study)"
+   },
+   {
+    "cite_key": "Isogawa2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "When historical trials were homogeneous, the power was higher in the power prior approach and the meta-analytic approach using a beta-binomial model with a less noninformative prior than the other approaches.",
+    "study_system": "Statistical simulation; binary endpoints, small-scale trial with multiple historical trials"
+   },
+   {
+    "cite_key": "Peng2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In the context of vaccine efficacy trial where the incidence rate is very low and a very large sample size is usually expected, incorporating historical data into a new trial is extremely attractive to reduce sample size and increase estimation precision.",
+    "study_system": "vaccine efficacy trials (human); modified power prior vs MAP/commensurate"
+   },
+   {
+    "cite_key": "Lu2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Compared to traditional single-arm designs, the hybrid design may significantly enhance power by borrowing external information, enabling a more robust assessment of activity.",
+    "study_system": "early-phase oncology combination trials (human); dynamic power prior; nonconcurrent control"
+   },
+   {
+    "cite_key": "Feit2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "A main problem of the incorporation of historical data is the possible inflation of the type I error rate.",
+    "study_system": "Statistical methodology; binary outcome, single historical trial"
+   },
+   {
+    "cite_key": "Warren2024",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Additionally, unlike some of the existing methods in this area, SGKDE priors permit the amount of information borrowing to differ by parameter.",
+    "study_system": "Statistical methodology; RSV maternal vaccine phase III historical data"
+   },
+   {
+    "cite_key": "Li2026",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In 1976, Pocock introduced a framework for using historical data through Bayesian information borrowing [13].",
+    "study_system": "confirmatory trials; Bayesian vs frequentist historical borrowing (simulation)"
+   },
+   {
+    "cite_key": "Burman2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Bayesian dynamic borrowing (BDB) has been a popular choice as it claims to protect against potential prior data conflict.",
+    "study_system": "Statistical methodology; external control data, small populations"
+   },
+   {
+    "cite_key": "Tian2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Through extensive simulations, BEAM demonstrated robust performance in controlling type I error rate, reducing bias, and maintaining power compared to traditional methods and other adaptive designs.",
+    "study_system": "ankylosing spondylitis case study (human); hybrid trial with historical controls"
+   },
+   {
+    "cite_key": "Zheng2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Our approach outperformed existing methods by enhancing power and reducing MSE, while effectively controlling type I error and bias in the presence of heterogeneity and baseline imbalances.",
+    "study_system": "relapsed/refractory multiple myeloma application (human); multi-source dynamic borrowing"
+   },
+   {
+    "cite_key": "Mariani2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Specifically, we consider a dynamic power prior that possibly allows to discount the level of borrowing in the presence of heterogeneity between past and current control data.",
+    "study_system": "non-inferiority trials (human); dynamic power prior for historical active-control borrowing"
+   },
+   {
+    "cite_key": "Chen2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In this paper, we propose a Bayesian hierarchical modeling strategy incorporating covariate-adjusted meta-analytic predictive approach (cMAP) and also introduce a propensity score (PS) based sequential procedure that integrates the cMAP.",
+    "study_system": "clinical trial control-arm augmentation with external data (simulation)"
+   },
+   {
+    "cite_key": "Hupf2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In this paper, we propose a covariate adjusted meta-analytic-predictive (CA-MAP) prior for historical control borrowing.",
+    "study_system": "clinical trials (human, patient-level data); covariate-adjusted MAP prior"
+   },
+   {
+    "cite_key": "Neuenschwander2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We show that current methods fail a basic predictive consistency criterion, which requires the expected posterior-predictive ESS for a sample of size N to be the sum of the prior ESS and N.",
+    "study_system": "clinical trial priors (human); prior effective sample size for historical borrowing"
+   },
+   {
+    "cite_key": "Campbell2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We commend Alt et al.'s innovative approach for analysis with a hybrid control arm while offering insights into two key considerations: the necessity for extrapolation and the potential benefits of curating historical control data before analysis.",
+    "study_system": "commentary on hybrid control-arm borrowing methodology (human trials)"
+   },
+   {
+    "cite_key": "Qian2025",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The power prior assumes the underlying parameters, θ, are the same in both current and historical studies, but discounts the precision of the parameters in the historical trials [10].",
+    "study_system": "randomized trials augmented with real-world data (methodology)"
+   },
+   {
+    "cite_key": "Ratta2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Specifically, building upon existing borrowing methodologies, we explore how the incorporation of historical information from multiple sources through a Bayesian Dynamic Borrowing strategy using a Robust Mixture Prior [20, 21] can be applied in this context.",
+    "study_system": "accelerated-approval trial design (PFS/OS); robust mixture prior borrowing"
+   },
+   {
+    "cite_key": "Zocholl2025",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In simulation studies, it has been shown that pediatric dose‐finding trials with extremely small sample sizes are feasible under the application of robust informative priors that borrow information from adults [13].",
+    "study_system": "pediatric phase I dose-finding; CRM with adult borrowing"
+   },
+   {
+    "cite_key": "Scott2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, we show that this approximation comes at a cost when trying to borrow historical information.",
+    "study_system": "Statistical methodology; time-to-event outcomes, single historical control"
+   },
+   {
+    "cite_key": "Murray2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The trial will include concurrent external cooling and control arms while adaptively incorporating historical control arm data.",
+    "study_system": "Clinical trial design; septic shock, 60-day survival"
+   },
+   {
+    "cite_key": "Harun2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Supplementing prospectively enrolled, concurrent controls with historical controls can reduce recruitment requirements and provide patients a higher likelihood of enrolling in a new and possibly superior treatment arm.",
+    "study_system": "Rare disease clinical trial design"
+   },
+   {
+    "cite_key": "Ohigashi2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Among these four priors, the spike-and-slab prior performed the best for heterogeneous historical controls.",
+    "study_system": "Statistical methodology; multiple historical control datasets"
+   },
+   {
+    "cite_key": "Wang2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The results show that the proposed joint frequentist methods and noninformative priors within Bayesian dynamic borrowing with no adjustment on covariates are preferred, especially when treatment effects across the three trials are heterogeneous.",
+    "study_system": "Simulation; phase Ib/II oncology (MORPHEUS-UC), survival outcomes"
+   },
+   {
+    "cite_key": "Zhan2021",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "This relevant information can be properly borrowed for the current trial to make it more efficient and ethical by allowing fewer patients randomized to the control group or decreasing the total sample size (;).",
+    "study_system": "confirmatory clinical trials (human, multiple endpoints); deep-learning MAP borrowing"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_03678e44e399556f",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "One of the most consequential applications is paediatric extrapolation, where adult data are borrowed to make otherwise infeasible child trials analysable, and clinical methods that shrink the required control-group size while preserving frequentist operating characteristics are the direct statistical analogue of the preclinical virtual control group.",
+  "citation_keys": [
+   "GamaloSiebers2017",
+   "Walker2023",
+   "Pottackal2025",
+   "Sailer2024",
+   "Schwartz2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "GamaloSiebers2017",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Children represent a large underserved population of \"therapeutic orphans,\" as an estimated 80% of children are treated off-label.",
+    "study_system": "Pediatric drug development; Bayesian extrapolation from adults"
+   },
+   {
+    "cite_key": "Walker2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "There are challenges associated with recruiting children to take part in randomised clinical trials and as a result, compared to adults, in many disease areas we are less certain about which treatments are most safe and effective.",
+    "study_system": "Pediatric clinical trials; Bayesian extrapolation methods"
+   },
+   {
+    "cite_key": "Pottackal2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Due to the rarity of childhood-onset systemic lupus erythematosus (cSLE), the pediatric study (NCT01649765) conducted to support approval of intravenous (IV) belimumab in that population could not be designed with adequate power for efficacy to make statistical inferences based s",
+    "study_system": "Childhood-onset systemic lupus erythematosus; IV belimumab pediatric trial"
+   },
+   {
+    "cite_key": "Sailer2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "After trial recruitment was completed, a blinded assessment of the variability of the primary endpoint in 141 participants from DINAMO revealed a SD for the primary endpoint of 1.65%, higher than the anticipated covariate-adjusted SD of 0.9% used in sample size calculations.",
+    "study_system": "pediatric T2D trial (DINAMO); PopPK/PD Bayesian borrowing from adults"
+   },
+   {
+    "cite_key": "Schwartz2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Through simulations and an application to the rheumatoid arthritis trial we show that SPx can substantially reduce the control group size while maintaining Frequentist properties.",
+    "study_system": "rheumatoid arthritis clinical trial (human); dynamic borrowing of historical controls"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_e713b67ededb0a08",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The parallel to preclinical VCGs is exact: the hybrid design that retained half the real controls outperformed the full-replacement design for the same reason that dynamic borrowing outperforms static pooling — partial reliance on concurrent data hedges against the drift that pure reuse cannot detect.",
+  "citation_keys": [
+   "DuchateauNguyen2026"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Degree of VCG-CCG concordance: the liver-enzyme simulation reports high agreement (68.5% of comparisons >=90%), whereas the clinical-pathology review reports high non-reproducibility (up to 49% of qua"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "DuchateauNguyen2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In 68.5% of all the pairwise comparisons performed there was at least 90% agreement in effect size estimate between analysis done with CCG and VCGs.",
+    "study_system": "Wistar Han rat toxicity studies; liver enzymes ALT/ALP/AST; VCG vs concurrent control simulation"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_a9c84fc0f24ef3eb",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "External control arms — the clinical analogue of VCGs — are now visibly present in regulatory decisions: they featured in 17% of EMA cancer-drug approvals from 2016 to 2021, with a 63% acceptance rate among submissions that used them, and nearly half of recent multiple-myeloma approvals leveraged real-world evidence.",
+  "citation_keys": [
+   "Pignatti2026",
+   "Vennin2026",
+   "Taylor2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Pignatti2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Currently, the possible role of ECC studies with RWD to establish efficacy in the regulatory context is debated. 6 , 7 A review of cancer drugs approved by the European Medicines Agency (EMA) between 2016 and 2021 found that 17% used an external control arm.",
+    "study_system": "oncology regulatory approvals; EMA 2016-2021"
+   },
+   {
+    "cite_key": "Vennin2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "EMA submissions for cancer drugs with EC studies between 2016 and 2021 had a 63% acceptance rate, and 17% of all EMA-approved drugs used EC studies as part of their evidence package [35].",
+    "study_system": "oncology drug development; EMA EC-study acceptance"
+   },
+   {
+    "cite_key": "Taylor2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "An analysis of MM approvals and accompanying regulatory reviews by FDA and EMA between January 2021 and April 2025 demonstrates that of 27 drug marketing applications for products treating MM approved during this time (FDA: n = 13, EMA: n = 14), 12 (44.4%) used RWE to support reg",
+    "study_system": "multiple myeloma regulatory approvals; FDA + EMA 2021-2025"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_8c2d241af267b282",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Yet adoption is concentrated in regulatory oncology and rare-disease settings and remains vanishingly rare elsewhere: only seven of 1,115 open-label extension studies over a decade used an external control, and an earlier review found only about 8% of oncology approvals used real-world evidence for efficacy, all retrospectively.",
+  "citation_keys": [
+   "Hartley2025",
+   "Arondekar2021"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Hartley2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "(2022) searched clinicaltrials.gov for open‐label extension studies from 2009 to 2019 and identified 1115 studies, of which only seven (0.6%) used an external control arm.",
+    "study_system": "open-label trial extensions; external control adoption survey"
+   },
+   {
+    "cite_key": "Arondekar2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Among these, 11 (8.3%) included RWE in support of efficacy with an average time from IND submission to approval of 5.7 years.",
+    "study_system": "FDA oncology product approvals 2015-2020 using real-world evidence"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_6d367051b14fc514",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Where external controls are used, retrospectively assembled natural-history data dominate — the most common source in 44% of one set of FDA approvals — and almost half of single-arm-trial applications were criticised for using external controls that were not contemporaneous with the trial.",
+  "citation_keys": [
+   "Jahanshahi2021",
+   "Subramaniam2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Jahanshahi2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Of the 45 approvals evaluated, historical controls derived retrospectively from natural history data were the most common source (44%) of external control, including retrospective reviews of patient medical records (see Fig.).",
+    "study_system": "FDA drug/biologic approvals 2000-2019 using external controls"
+   },
+   {
+    "cite_key": "Subramaniam2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Almost half (45%) of FDA-reviewed applications were criticized for using ECAs that were not contemporaneous to the SAT.",
+    "study_system": "FDA and EMA single-arm-trial-based approvals 2019-2022"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_5cdda7895426a436",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "In idiopathic pulmonary fibrosis, external controls built from historical randomised-trial placebo arms reproduced the original treatment effect, whereas controls built from registry or electronic-health-record data did not.",
+  "citation_keys": [
+   "Swaminathan2023"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether real-world-data (registry/EHR) external controls reproduce concurrent/trial control outcomes: the IPF study found real-world-data external controls diverged from the trial's concurrent control",
+   "Whether real-world-data external controls (registry/EHR) reproduce concurrent randomized control-arm outcomes: the IPF study found RWD-derived external controls diverged from the RCT placebo arm (esti"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Swaminathan2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "IPF ECs generated from historical RCT placebo arms result in comparable primary treatment effects to that of the original clinical trial, whereas ECs from real-world data sources, including registry or EHR data, do not.",
+    "study_system": "idiopathic pulmonary fibrosis patients (RCT, registry, and EHR external controls)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_6b376750b6a880eb",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "A head-to-head comparison in adjuvant breast cancer found mixed replicability — some survival curves overlapped, others diverged — so real-world controls could not be assumed to reproduce randomised ones, and a real-world external control failed to reproduce a lung-cancer trial's hazard ratio (1.53 versus 0.91) until Bayesian borrowing from a historical control trial pulled the estimate back toward the randomised result.",
+  "citation_keys": [
+   "Walker2026b",
+   "Struebing2024"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether real-world/external controls reproduce randomized concurrent controls: the breast-cancer head-to-head reports mixed replicability of RW vs RCT control outcomes, while the NSCLC Bayesian-borrow",
+   "Whether real-world/external controls reproduce randomized concurrent controls: the breast-cancer head-to-head reports mixed replicability of RW vs RCT control outcomes, while the NSCLC Bayesian-borrow"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Walker2026b",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Some studies have displayed overlapping Kaplan–Meier overall survival curves between SCAs and trial control cohorts suggesting similar patterns [3], while others have shown mixed trial replicability [4].",
+    "study_system": "adjuvant breast cancer; RCT vs real-world matched controls"
+   },
+   {
+    "cite_key": "Struebing2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The Cox HR estimates for the TTA versus ECA are consistently higher than the gold standard RCT HR estimate of 0.91 (95% CI: 0.73–1.13; p = 0.39) () in the CM subpopulation, indicating that the ECA analysis was unsuccessful at replicating the results of the RCT.",
+    "study_system": "first-line metastatic NSCLC patients (human); RWD external control + historical control trial"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_f74a2d51bbfa6578",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Yet other emulations succeeded: an electronic-record-derived cohort matched a trial cohort's overall survival closely.",
+  "citation_keys": [
+   "Walker2024"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether real-world-data (registry/EHR) external controls reproduce concurrent/trial control outcomes: the IPF study found real-world-data external controls diverged from the trial's concurrent control"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Walker2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Median (standard deviation) OS was 10.2 (0.7) months for the RWD arm and 11.3 (1.3) for the probable CT arm with a Log rank p-value equal to 0.4771.",
+    "study_system": "non-small-cell lung cancer (EMR-derived cohorts as external control)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_b263aea4fef52e41",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The pattern is that controls derived from prior randomised trials are comparatively trustworthy while those assembled from routine real-world data are not, and the burden of covariate adjustment for the latter is heavy — one external-control effort screened more than 120 potential confounders.",
+  "citation_keys": [
+   "Yap2022"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether real-world-data external controls (registry/EHR) reproduce concurrent randomized control-arm outcomes: the IPF study found RWD-derived external controls diverged from the RCT placebo arm (esti"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Yap2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In their study, the authors identified the patient population by adapting eligibility criteria from the CAROLINA study and by using propensity score matching to control for >120 potential confounding variables.",
+    "study_system": "Oncology external control groups from real-world data"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 2,
+    "issue": "Quantitative-attribution mismatch. The specific figure 'more than 120 potential confounders' is attached to Swaminathan2023, Walker2024 and Struebing2024, but none of these three carries a >120-confounder source sentence",
+    "fix": "Add Yap2022 to (or substitute it into) the citation group for the '>120 potential confounders' clause, or soften to 'heavy covariate adjustment' without the spe"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_3d4a400d1d874c25",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The appeal that drives adoption is easy to see across indications: real-world or synthetic control arms have been used to estimate large apparent benefits for single-arm oncology and rare-disease programmes, to augment under-enrolled internal controls toward adequate power or even to reduce or eliminate the concurrent control where randomisation is infeasible, and in rarer, more probative tests to reproduce a trial's own effect.",
+  "citation_keys": [
+   "Rolfo2022",
+   "Hadoux2026",
+   "Boyne2023",
+   "Letailleur2025",
+   "VanLe2023",
+   "Yin2023",
+   "Oesterheld2024",
+   "Ko2024",
+   "BoemmelWegmann2026",
+   "Schmidli2019",
+   "Litman2025",
+   "Thomas2021",
+   "Lukas2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Rolfo2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Median PFS was not reached in the selpercatinib group (95% CI 11.5-not reached) versus 6.7 months (95% CI 3.7-12.1 months) for the real-world control.",
+    "study_system": "RET fusion-positive advanced/metastatic NSCLC (LIBRETTO-001 vs real-world external controls)"
+   },
+   {
+    "cite_key": "Hadoux2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Unadjusted investigator-assessed mPFS was statistically significantly longer with 1L selpercatinib versus SoC [NR, 95% confidence interval (CI) 50.7 months to NR versus 24.0 months, 95% CI 15.8-35.6 months; hazard ratio (HR) 0.34, 95% CI 0.22-0.54;",
+    "study_system": "RET-mutant medullary thyroid cancer; single-arm trial with RWD external control"
+   },
+   {
+    "cite_key": "Boyne2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The adjusted hazard ratio comparing lurbinectedin with the historical standard of care (referent group) was 0.61 (95% CI 0.45-0.82; unadjusted HR: 0.72; 95% CI 0.54-0.97).",
+    "study_system": "Relapsed small cell lung cancer synthetic control arm (real-world)"
+   },
+   {
+    "cite_key": "Letailleur2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In newly diagnosed elderly DLBCL patients, the use of SCAs can mimic the control arm of an RCT and could be used to build comparative CT for elderly patients and come up with fast-innovative CTs.",
+    "study_system": "Diffuse large B-cell lymphoma (>=80 y) synthetic control arm"
+   },
+   {
+    "cite_key": "VanLe2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This study used a real-world population as a synthetic comparator for the single-arm TRANSCEND NHL 001 study (TRANSCEND; NCT02631044) to evaluate the efficacy of lisocabtagene maraleucel (liso-cel) compared with conventional (noncellular) therapies in patients with relapsed/refra",
+    "study_system": "Relapsed/refractory large B-cell lymphoma synthetic control (CAR-T)"
+   },
+   {
+    "cite_key": "Yin2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "To inform continued development of the novel immune agent GEN-1, we compared ovarian cancer patients' end points from a neoadjuvant single-arm phase IB study with those of similar historic clinical trial (HCT) patients who received standard neoadjuvant chemotherapy.",
+    "study_system": "Ovarian cancer; single-arm phase IB vs historic clinical trial controls"
+   },
+   {
+    "cite_key": "Oesterheld2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Eflornithine (DFMO) to reduce risk of relapse after completion of immunotherapy was investigated previously in a single-arm, phase II study (NMTRC003B; ClinicalTrials.gov identifier: NCT02395666) that suggested improved event-free survival (EFS) and overall survival (OS) compared",
+    "study_system": "High-risk neuroblastoma; single-arm phase II with external control"
+   },
+   {
+    "cite_key": "Ko2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Primary results of patients enrolled in the Atezo + PEGPH20 arm (n = 66) and the IC arm receiving mFOLFOX6 or gem/nabP (n = 42) from the MORPHEUS PDAC study were previously reported 14 and included in this analysis (Figure 1 ;",
+    "study_system": "metastatic pancreatic cancer (MORPHEUS); hybrid internal+external control"
+   },
+   {
+    "cite_key": "BoemmelWegmann2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Our calculations demonstrated that augmenting the control pool to achieve a 1:3 ratio (treatment: 438; augmented control: 1314) would increase the power to approximately 80% for an HR of 0.65 (Supplementary Figure S1).",
+    "study_system": "cardiorenal (finerenone + SGLT2i) trial; EHR external control augmentation"
+   },
+   {
+    "cite_key": "Schmidli2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Borrowing strength using relevant individual patient data on control from external trials or real-world data (RWD) sources may then allow us to reduce, or even eliminate, the concurrent control group.",
+    "study_system": "Clinical trial methodology; external controls / RWD"
+   },
+   {
+    "cite_key": "Litman2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "With both hybrid control methods using the combination of well-matched RWD and RCT control patients, we replicated the Phase IIb trial results.",
+    "study_system": "rheumatoid arthritis Phase IIb trial (human); CorEvitas registry hybrid control"
+   },
+   {
+    "cite_key": "Thomas2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The aflibercept arm was exactly matched 1:1 with the bevacizumab trial arm on baseline confounders (age, sex, and visual acuity).",
+    "study_system": "neovascular age-related macular degeneration patients (ABC RCT vs EHR real-world controls)"
+   },
+   {
+    "cite_key": "Lukas2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We identified a convolutional neural network as the best-performing architecture to predict segmental motor score sequences, achieving a median root mean squared error below the neurological level of injury of 0.55.",
+    "study_system": "spinal cord injury patients (EMSCI n=4196; Sygen n=587)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_49b313d92d289c9f",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The countervailing scrutiny is equally systematic: selection bias and confounding are the dominant regulatory and health-technology critiques, valid inference depends on aligning trial and external patients by propensity scores or related adjustment across sometimes more than a hundred covariates, and acceptance stays case-by-case and contested.",
+  "citation_keys": [
+   "Jaksa2022",
+   "Izem2022",
+   "Velummailum2023",
+   "Loiseau2022",
+   "Abrisqueta2025",
+   "Yap2022",
+   "Belthangady2021",
+   "Mangla2026",
+   "BaumfeldAndre2019",
+   "Dagenais2021",
+   "Arora2025",
+   "Mulder2023",
+   "Mitroiu2018",
+   "Cucherat2020"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether real-world-data external controls (registry/EHR) reproduce concurrent randomized control-arm outcomes: the IPF study found RWD-derived external controls diverged from the RCT placebo arm (esti"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Jaksa2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Across case studies, selection bias and confounding were the most common ECA critiques.",
+    "study_system": "Regulatory/HTA evaluations of 7 oncology external control arms"
+   },
+   {
+    "cite_key": "Izem2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Regulatory decisions were strongly influenced by the quality and usability of the RWD.",
+    "study_system": "Regulatory applications using RWD external controls (oncology, rare disease)"
+   },
+   {
+    "cite_key": "Velummailum2023",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Even where data may be recorded and decisions made consistent with clinical trials, there may be differences with respect to the timing and process of testing, which may influence the availability of testing.",
+    "study_system": "Real-world data external control arms (methodology viewpoint)"
+   },
+   {
+    "cite_key": "Loiseau2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "To provide an unbiased estimation of efficacy, the clinical profiles of patients from single and external arms should be aligned, typically using propensity score approaches.",
+    "study_system": "Methodology; external control arm analysis"
+   },
+   {
+    "cite_key": "Abrisqueta2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Notably, our review did not identify any statistically significant EMMs.",
+    "study_system": "relapsed/refractory follicular lymphoma (human); external control arm covariate selection"
+   },
+   {
+    "cite_key": "Yap2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In their study, the authors identified the patient population by adapting eligibility criteria from the CAROLINA study and by using propensity score matching to control for >120 potential confounding variables.",
+    "study_system": "Oncology external control groups from real-world data"
+   },
+   {
+    "cite_key": "Belthangady2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We tested BCAUS on the semi-synthetic Infant Health & Development Program dataset with a single intervention arm, and a real-world observational study of diabetes interventions with over 100,000 individuals spread across more than a hundred intervention arms.",
+    "study_system": "Multi-arm observational causal inference (propensity balancing)"
+   },
+   {
+    "cite_key": "Mangla2026",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In augmented RCTs, ECAs are used to increase statistical power by adding similar patient-level data points to small, internal control arms [4].",
+    "study_system": "non-oncology HTA submissions; external control arm acceptability"
+   },
+   {
+    "cite_key": "BaumfeldAndre2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Some of these approaches have already been successfully used in regulatory decisions, raising the possibility that studies using RWD could increasingly be used to augment or replace traditional RCTs for the demonstration of drug effectiveness in certain contexts.",
+    "study_system": "Hybrid trial designs using real-world data (regulatory)"
+   },
+   {
+    "cite_key": "Dagenais2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Although much of the recent literature on RWE has focused on potential regulatory uses (e.g., product approvals in oncology or rare diseases based on single-arm trials with external control arms), this article reviews how biopharmaceutical companies can leverage RWE to inform int",
+    "study_system": "Real-world evidence in biopharmaceutical drug development"
+   },
+   {
+    "cite_key": "Arora2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In this update, we discuss recent publications examining the use of real-world data as a measure of treatment effectiveness in submissions to the National Institute of Health and Care Excellence, the results of a pilot study from the Coalition to Advance Real-World Evidence initi",
+    "study_system": "health technology assessment / real-world and synthetic data (review)"
+   },
+   {
+    "cite_key": "Mulder2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "External controls may facilitate in the contextualization process, but the associated limitations must be addressed.",
+    "study_system": "EU (EMA) anticancer marketing authorizations based on single-arm trials"
+   },
+   {
+    "cite_key": "Mitroiu2018",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The ASTERIX project developed a number of novel methods suited to study small populations.",
+    "study_system": "Orphan medicinal products; 26 European Public Assessment Reports"
+   },
+   {
+    "cite_key": "Cucherat2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "When these limitations are taken into account this should, first and foremost, lead to the conduct of externally controlled trials instead of single-arm trials as is proposed by the latest version of ICH E10.",
+    "study_system": "externally controlled trial methodology (expert roundtable / guidelines)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 2,
+    "issue": "Quantitative-attribution mismatch. The specific figure 'more than 120 potential confounders' is attached to Swaminathan2023, Walker2024 and Struebing2024, but none of these three carries a >120-confounder source sentence",
+    "fix": "Add Yap2022 to (or substitute it into) the citation group for the '>120 potential confounders' clause, or soften to 'heavy covariate adjustment' without the spe"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_c67750afaa14607c",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Industry reviews describe VCGs, second-species requirements and information sharing as currently \"under scrutiny,\" with companies and regulators reluctant to abandon existing paradigms until replacement approaches are validated and globally accepted, and the Japanese analysis catalogues five concrete obstacles because current guidelines still mandate concurrent controls for pivotal studies.",
+  "citation_keys": [
+   "Harrell2024",
+   "SATO2024"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Magnitude of animal reduction from replacing concurrent controls with VCGs: the Japanese industry perspective states approximately 30%, whereas the original concept paper and subsequent consensus stat"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Harrell2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Use of virtual controls, value of the second toxicity species, information sharing and expectations for life-threatening diseases, human specific or well-characterised targets are currently being scrutinised.",
+    "study_system": "regulatory toxicology; 3Rs initiatives; virtual controls and data sharing"
+   },
+   {
+    "cite_key": "SATO2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Evaluating toxicology study results using historical control data is not new; however, introducing a VCG means replacing the concurrent control group in a toxicology study with a VCG, thereby reducing the number of animals used by approximately 30%.",
+    "study_system": "nonclinical toxicology studies; virtual control groups; Japanese industry/regulatory view"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_064516b23c8336d5",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The successor projects assembling standardised control databases name regulatory acceptance as their explicit goal precisely because it has not yet been secured.",
+  "citation_keys": [
+   "StegerHartmann2024",
+   "Palazzi2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "StegerHartmann2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The new Innovative Health Initiative (IHI) project VICT3R aims to address these challenges and to obtain regulatory acceptance for the VCG concept.",
+    "study_system": "cross-company control-animal database; toxicology; 3Rs reduction initiative"
+   },
+   {
+    "cite_key": "Palazzi2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The replacement of a proportion of concurrent controls by virtual controls in nonclinical safety studies has gained traction over the last few years.",
+    "study_system": "nonclinical safety studies; partial virtual-control replacement; database creation"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_2a2885cfbaa0d409",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The complementary strategy is not to reduce the animals but to replace them, avoiding their use in the first place — a logic already visible where computational models calibrated on prior animal data, such as digital-twin cardiotoxicity simulation, stand in for live control and treated animals.",
+  "citation_keys": [
+   "VillarValero2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "VillarValero2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Our digital heart twins were directly calibrated and validated using measurements of conduction velocity and action potential wave features obtained via catheter-based electro-anatomical mapping after chemotherapy in preclinical swine models.",
+    "study_system": "preclinical swine (doxorubicin cardiotoxicity; 3D MRI-based computational models, 3 pigs)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_0e0e5c5873348982",
+  "section_id": "sec-nams-data",
+  "claim_text": "The pressure to do so is quantitative and structural: fewer than a tenth of chemicals in commerce have ever been screened for safety, roughly a quarter of the US regulatory inventory consists of complex or variable-composition substances for which conventional testing is ill-suited, and the volume of substances with data gaps already exceeds available animal-testing capacity, and conventional testing is too resource-intensive in time, money, and animal lives to evaluate every chemical, which is why adverse-outcome-pathway frameworks were developed to prioritise where testing is done at all.",
+  "citation_keys": [
+   "Comess2020",
+   "Sauer2020",
+   "Schmidt2016",
+   "Tollefsen2014"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Comess2020",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Out of the tens of thousands of individual chemicals currently in commerce (and many more mixtures, natural products, and metabolites) <10% have been screened for safety.",
+    "study_system": "environmental public health chemical safety data / FAIR + AI infrastructure"
+   },
+   {
+    "cite_key": "Sauer2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Approximately 10% and 20% of substances registered under the EU chemicals legislation are 'multi-constituent substances' and 'substances of unknown or variable compositions, complex reaction products and biological substances' (UVCBs), respectively, and UVCBs comprise approximate",
+    "study_system": "complex substances / UVCBs regulatory NAM evaluation"
+   },
+   {
+    "cite_key": "Schmidt2016",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Since the interpretation of animal data and their extrapolation to man is challenging, and the amount of substances with information gaps exceeds present animal testing capacities, there is a big demand for in vitro tests to provide initial information and to prioritize for furth",
+    "study_system": "In vitro (developmental) neurotoxicity screening platforms (review)"
+   },
+   {
+    "cite_key": "Tollefsen2014",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Current approaches are too resource intensive in terms of time, money and animal use to evaluate all chemicals under development or already on the market.",
+    "study_system": "AOP/IATA framework for regulatory chemical testing"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_447f8047c03dc15b",
+  "section_id": "sec-nams-data",
+  "claim_text": "The animal tests themselves translate poorly — only around 16% of drug candidates that pass them reach human approval, oncology programmes succeed in roughly 5% of cases, rodent cancer bioassays consume hundreds of animals with limited human relevance, and rodent kidneys differ anatomically and molecularly from human ones.",
+  "citation_keys": [
+   "Csobonyeiova2016",
+   "Brancato2020",
+   "Hilton2022",
+   "Kishi2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Csobonyeiova2016",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Only around 16% drugs are approved for human use.",
+    "study_system": "iPSC-derived hepatocytes, cardiomyocytes, neural cells (review)"
+   },
+   {
+    "cite_key": "Brancato2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Every year pharma/biotech companies lose resources in drug discovery and testing processes that are successful only in 5% of the cases.",
+    "study_system": "3D in vitro tumor models (review)"
+   },
+   {
+    "cite_key": "Hilton2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "These studies use hundreds of animals, are resource intensive, and certain aspects of these studies have limited human relevance.",
+    "study_system": "rodent chronic/carcinogenicity bioassays (agrochemicals)"
+   },
+   {
+    "cite_key": "Kishi2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Mouse or rat kidneys, however, differ substantially from human kidneys at the anatomical, histological, and molecular levels.",
+    "study_system": "human kidney organoids vs rodent kidney models"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_309683a64341b84c",
+  "section_id": "sec-nams-data",
+  "claim_text": "Multi-laboratory validation of a reconstructed human skin genotoxicity assay reported sensitivity of 77% and specificity of 88% (80% and 97% under alternate criteria) against in vivo outcomes, with within-laboratory reproducibility of 93%, and an interlaboratory trial of a mammalian reporter genotoxicity assay across seven laboratories and 64 chemicals reached sensitivity 84.4% and specificity 91.2%.",
+  "citation_keys": [
+   "Pfuhler2020",
+   "Hendriks2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Pfuhler2020",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The capacity of the assay to predict expected genotoxic effects of a difficult set of coded chemicals was very good, providing a sensitivity of 77 (80)% and a specificity of 88 (97)%.",
+    "study_system": "Phenion Full-Thickness reconstructed human skin Comet assay; 32 coded chemicals; multi-lab"
+   },
+   {
+    "cite_key": "Hendriks2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This trial confirmed the accuracy of ToxTracker to predict in vivo genotoxicants with a sensitivity of 84.4% and a specificity of 91.2%.",
+    "study_system": "ToxTracker mammalian reporter assay; 7 laboratories; 64 chemicals"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_cce9bae722869c56",
+  "section_id": "sec-nams-data",
+  "claim_text": "In skin sensitisation, defined approaches integrating multiple non-animal methods underpin the first OECD guideline of its kind, presented as performing equivalently to or better than animal tests, and a proof-of-concept extension to agrochemical mixtures achieved 85.0% sensitivity.",
+  "citation_keys": [
+   "Casati2022",
+   "Casati2017",
+   "Kolle2020",
+   "Corvaro2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Performance of defined-approach NAMs for skin sensitisation: one paper presents OECD Guideline 497 defined approaches as equal-or-better replacements for animal tests, while the other shows the DAs in"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Casati2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This Defined Approach Guideline was the first of its kind for the OECD, and provides an important precedent for regulatory adoption of human biology-relevant new approach methodologies with performances equivalent to, or better than, traditional animal tests.",
+    "study_system": "OECD Guideline 497 defined approaches (skin sensitisation)"
+   },
+   {
+    "cite_key": "Casati2017",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Nevertheless, the currently adopted methods, when used in isolation, are not sufficient to fulfil regulatory requirements on the skin sensitisation potential and potency of chemicals comparable to that provided by the regulatory animal tests.",
+    "study_system": "ICATM defined approaches for skin sensitisation (>20 regulatory authorities)"
+   },
+   {
+    "cite_key": "Kolle2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The reference data should be selected to allow meaningful evaluations and must not replicate the limitations of the murine local lymph node assay (LLNA)",
+    "study_system": "AOP-based defined approaches implementation (skin sensitisation validation)"
+   },
+   {
+    "cite_key": "Corvaro2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The overall accuracy, sensitivity, and specificity were 76.2% (32/42), 85.0% (17/20), and 68.2% (15/22), respectively, with the predictivity for liquid formulations being slightly higher compared to the solid formulations.",
+    "study_system": "GARDskin/GARDpotency skin sensitisation NAM; 42 agrochemical formulations"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Selective reporting in prose: the sentence cites only the favourable sensitivity (85.0%) and omits the substantially lower specificity (68.2%) and overall accuracy (76.2%) from the same study. This is mitigated because t",
+    "fix": "Add the specificity in prose, e.g. '...achieved 85.0% sensitivity but only 68.2% specificity {cite:p}`Corvaro2024`', to match the figure caption."
+   },
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Kolle2020 is a precondition/caveat commentary ('reference data must not replicate the limitations of the murine LLNA'); it does not assert equal-or-better performance of defined approaches. The 'equivalent to or better t",
+    "fix": "Drop Kolle2020 from the positive-performance citation group (it already appears at the caveat sentence); keep Casati2022/Casati2017."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_68e741087bb6d4da",
+  "section_id": "sec-nams-data",
+  "claim_text": "A high-content three-dimensional hepatocyte-spheroid assay detected 36 of 42 known hepatotoxins with no false positives among safe compounds, and a functional variant-classification assay integrated with in silico prediction correctly classified 87% of Lynch-syndrome variants.",
+  "citation_keys": [
+   "Sirenko2016",
+   "Drost2019"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Direction of 3D-versus-2D hepatotoxicity sensitivity disagrees: 3D HepG2 spheroids were more resistant to a hepatotoxicant than 2D, whereas 3D iPSC-hepatocyte spheroids trended toward stronger (lower-"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Sirenko2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Of the 42 selected known hepatotoxins in the set, 36 elicited detectable toxicity effects in the spheroid hepatotoxicity assay (86% sensitivity), whereas all compounds considered “safe” had no effect on the number of live cells or spheroid phenotype (100% predictivity).",
+    "study_system": "iPSC-derived hepatocyte 3D spheroids vs HepG2 vs 2D; confocal high-content imaging"
+   },
+   {
+    "cite_key": "Drost2019",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The CIMRA assay alone correctly classified 65% of variants, with only 3% discordant classification. Bayesian integration with in silico predictions of pathogenicity increased the proportion of correctly classified variants to 87%, without changing the discordance rate.",
+    "study_system": "cell-free in vitro MMR activity assay + in silico; MLH1/MSH2 variants; 4 laboratories"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_b358313e302e6204",
+  "section_id": "sec-nams-data",
+  "claim_text": "Expert-rule and QSAR software predicted phototoxicity with 77% overall accuracy, a machine-learning model classified the pregnancy-risk category of 97 antibiotics with 94.11% external-validation accuracy, and interspecies aquatic-toxicity models passed cross-validation in more than three-quarters of cases.",
+  "citation_keys": [
+   "Ahuja2024",
+   "KelleciCelik2022",
+   "Hong2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Ahuja2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Derek Nexus predicted phototoxicity of the compounds, with a sensitivity of 63%, specificity of 93%, Positive Predictive Values of 90% and Negative Predictive Value of 69%, overall accuracy of 77% and balanced accuracy of 78%.",
+    "study_system": "in silico phototoxicity prediction (Derek Nexus, OECD QSAR Toolbox)"
+   },
+   {
+    "cite_key": "KelleciCelik2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The accuracy (ACC) values of the most successful model were 83.82% for the internal and 94.11% for the external validation.",
+    "study_system": "QSAR model of 97 antibiotics (FDA pregnancy categories)"
+   },
+   {
+    "cite_key": "Hong2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "All models had a cross- validation success rates > 75%, with 74% (17 models) of the models having a cross- validation success rates > 80%, indicating that all of models with the high reliability (;).",
+    "study_system": "in silico QSAR-ICE-SSD models for aquatic organisms (alkylphenols)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "The 77% overall accuracy is specifically the Derek Nexus expert-rule system in Ahuja2024, not a combined 'expert-rule and QSAR software' figure. Ahuja2024 evaluated both Derek Nexus and the OECD QSAR Toolbox; attributing",
+    "fix": "Attribute the 77% to Derek Nexus specifically, e.g. 'an expert-rule system (Derek Nexus) predicted phototoxicity with 77% overall accuracy {cite:p}`Ahuja2024`.'"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_9f401f2694fb8518",
+  "section_id": "sec-nams-data",
+  "claim_text": "Consensus androgen-receptor models built by many groups reached about 80% averaged accuracy, a mechanism-of-action profiler assigned toxic mode correctly for 92% of a large clear-outcome training set, QSAR-derived toxicity values outperformed screening-based predictions for data-poor chemicals, and bacterial-mutagenicity QSAR is judged reliable enough to support regulatory decisions alongside other evidence.",
+  "citation_keys": [
+   "Mansouri2020",
+   "Levet2026",
+   "Wignall2018",
+   "Tcheremenskaia2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Concordance of NAM genotoxicity data with in vivo: in silico bacterial-mutagenicity NAMs are judged reliable, but an experimental liver-on-chip genotoxicity NAM missed a known genotoxicant on two endp"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Mansouri2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "To overcome the limitations of single-model approaches, CoMPARA predictions were combined into consensus models that provided averaged predictive accuracy of approximately 80% for the evaluation set.",
+    "study_system": "In silico QSAR consensus models (androgen receptor, CoMPARA)"
+   },
+   {
+    "cite_key": "Levet2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The combined results of the “Overall validity” are presented inbelow: Thus, on 1502 substances with a “clear” outcome in the training set (1383 Valid, 119 Invalid), 92% may be considered well predicted (TP) and 8% wrongly assigned (FP).",
+    "study_system": "in silico mechanism-of-toxic-action profiling (mammalian + ecotox) for chemicals"
+   },
+   {
+    "cite_key": "Wignall2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Toxicity values predicted from QSAR models developed in this study were more accurate and precise than those based on HTS assays or mean-based predictions.",
+    "study_system": "in silico QSAR toxicity-value prediction (CTV Predictor)"
+   },
+   {
+    "cite_key": "Tcheremenskaia2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "(Q)SAR models and read-across approaches for in vitro bacterial mutagenicity have sufficient reliability for use in prioritization processes, and as support in regulatory decisions in combination with other types of evidence.",
+    "study_system": "in silico (Q)SAR/read-across genotoxicity prediction"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_3c09546008791d64",
+  "section_id": "sec-nams-data",
+  "claim_text": "Regulatory-facing NAM programmes report the same bounded successes — teratogenicity assays predicting 75 known teratogens with 73–82% predictivity, rising to 88% when platforms are combined; zebrafish-embryo exposure correlating with mammalian and human values for reference developmental toxicants; and validated QSAR/read-across meeting OECD thresholds for pesticide developmental-toxicity prioritisation.",
+  "citation_keys": [
+   "Yao2025",
+   "Nawaji2024",
+   "Wang2024a"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Yao2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Comparative analyses of these assays have been conducted using 75 known teratogens and demonstrated 73%−82% predictivity of teratogenicity.",
+    "study_system": "NAM teratogenicity assays (MEFL/MESCA) vs 75 known teratogens"
+   },
+   {
+    "cite_key": "Nawaji2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The log of the calculated zAUC for the 14 drugs identified as positive in the zebrafish developmental toxicity test was relatively highly positively correlated with the log [AUC] for rats, rabbits, and humans.",
+    "study_system": "zebrafish embryo developmental toxicity test toxicokinetics (ICH S5 drugs)"
+   },
+   {
+    "cite_key": "Wang2024a",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The QSAR model development adhered to rigorous OECD principles, ensuring that the model possessed good internal robustness (R> 0.6 and Q> 0.6) and external predictivity (R> 0.7, Q>0.7, and CCC> 0.85).",
+    "study_system": "in silico QSAR/q-RASAR (zebrafish embryo developmental toxicity)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_d4191bacb0743936",
+  "section_id": "sec-nams-data",
+  "claim_text": "Such models scale to hazard spaces that experiment cannot touch — candidate structures for a single chemical-warfare class can exceed 10,000 compounds, making in silico estimation of environmental fate the only feasible route.",
+  "citation_keys": [
+   "Noga2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Noga2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "After the CWC (Chemical Warfare Agent) list update, the candidate structures for the Novichoks may be over 10,000 compounds.",
+    "study_system": "in silico QSAR (QSAR Toolbox, EPI Suite) for 17 Novichok agents"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ }
+]

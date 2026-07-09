@@ -1,0 +1,818 @@
+{
+ "clm_e7ae520ef69a4267": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The finding is explicitly attributed to a single retrospective harm-benefit analysis and reported as that study's result, matching a replicated, non-conflicted source.",
+   "evidence": ["'A retrospective harm-benefit analysis... found that'", "replication=replicated, has_conflict_source=false", "no critic priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change; wording correctly localises the figures to the cited analysis."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Claim stays within the source's preclinical-animal-studies scope and does not generalise beyond the analysed drug classes.",
+   "evidence": ["study_system=preclinical animal studies (multiple drug classes)", "supporting passage matches <7% figure"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "preclinical animal research harms and analgesia reporting", "computational": null, "clinical": "clinical benefit derived from preclinical studies", "methodological": "retrospective harm-benefit weighting", "conceptual": "ethical permissibility of animal research"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_12e9297af3e8f714": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The wording hedges strongly (flags the 85% figure as 'over-cited', frames Ioannidis as a 'theoretical prior'), but a MUST_FIX suppressed-conflict prior shows the Fanelli contrarian view on the crisis narrative is not named.",
+   "evidence": ["'a widely repeated - and, we will argue, over-cited - estimate'", "'consistent with a theoretical prior'", "MUST_FIX track 3: suppressed conflict (Fanelli)", "replication=single-study/unreplicated"],
+   "failure_modes": ["contrarian crisis-narrative view omitted", "modelled cost figure stated without transparency caveat inline"],
+   "recommended_fix": "Add a clause acknowledging the minority position that the reproducibility-crisis framing is contested."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "The claim extends US-preclinical modelling to 'most biomedical research' and 'most published research claims', but bounds that reach by explicitly flagging it as over-cited and as a theoretical prior.",
+   "evidence": ["Freedman2015 study_system=US preclinical", "generalisation to 'most biomedical research investment'", "self-flag 'over-cited'"],
+   "failure_modes": ["cross-domain generalisation from preclinical to all biomedicine"],
+   "recommended_fix": "Keep the over-cited framing and attribute each figure to its specific evidentiary domain."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "suggestive",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": "probability-bounds economic modelling of irreproducibility", "clinical": null, "methodological": "meta-research on research waste and false-findings priors", "conceptual": "research waste and reliability of published findings"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_321c9f39e550fb37": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The wording juxtaposes the divergent estimates by method ('only about half' vs 'a more optimistic but still incomplete rate near 70%'), naming the conflict rather than picking one number.",
+   "evidence": ["'surveys... estimate only about half'", "'empirical protocol-to-publication tracking finds... near 70%'", "conflict_notes describe the 50% vs 70% divergence"],
+   "failure_modes": ["cited-source attribution mismatch flagged by critic (Deutsch cited near the 'half' figure)"],
+   "recommended_fix": "Ensure the ~70% figure is attributed to Deutsch2021 and the ~50% to terRiet2012 in the citation map."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each sub-claim is scoped to its source system (researcher surveys, protocol tracking, novel-drug efficacy studies) without overextension.",
+   "evidence": ["terRiet Netherlands survey", "Deutsch Germany proposals", "Federico novel-drug efficacy studies"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "laboratory-animal experiment publication rates", "computational": null, "clinical": "animal efficacy studies relative to human trials", "methodological": "opinion survey vs protocol-to-publication tracking", "conceptual": "non-publication and publication bias"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_5af5d279b037a3d4": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Figures are hedged ('about 2%', 'roughly 8%') and attributed to a meta-analysis, but an unnamed source conflict about positive-result filtering and a passage that does not literally state the 2%/8% headline temper confidence.",
+   "evidence": ["'only about 2%... against roughly 8%'", "has_conflict_source=true (stroke individual-drug meta-analyses)", "MINOR track 2: code-sharing clause not in source"],
+   "failure_modes": ["headline 2%/8% not in the shown supporting passage", "positive-result conflict not named"],
+   "recommended_fix": "Anchor the 2%/8% figures to the exact Hamilton2023 passage and note the stroke-effect-size conflict."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "The 'filtered toward positive results' generalises from stroke animal models to publication broadly, and Hamilton's medical-papers scope is applied appropriately.",
+   "evidence": ["Sena2010=stroke animal models", "Hamilton2023=medical/health sciences articles"],
+   "failure_modes": ["generalisation from stroke to all published animal research"],
+   "recommended_fix": "Qualify the positive-result generalisation as strongest in the stroke literature it is drawn from."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": -1,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "animal-study positive-result filtering", "computational": null, "clinical": "medical-paper data sharing", "methodological": "meta-analytic pooling of sharing rates", "conceptual": "declared vs actual data availability"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_04525980ec6e8c01": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The claim is localised to a single reproducibility attempt and its shortfall, with no overreach beyond what that project reported.",
+   "evidence": ["'an attempt to repeat cancer-biology experiments'", "'only a handful of nearly two hundred experiments'", "no conflict, no critic priors"],
+   "failure_modes": ["'a handful' is an imprecise gloss on the 50/193 repeat figure"],
+   "recommended_fix": "State the exact numerator/denominator (e.g., experiments with recoverable effect-size data) rather than 'a handful'."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Scope stays within preclinical cancer-biology reproducibility, matching the cited project.",
+   "evidence": ["study_system=preclinical cancer biology reproducibility barriers"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "preclinical cancer biology", "computational": null, "clinical": null, "methodological": "effect-size reconstruction and reproducibility barriers", "conceptual": "reproducibility of the published record"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_03bc4b9182fd4e8b": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The excess-significance figures are attributed to the analyses, but strong framing ('filtered, distorted, and frequently untranslatable') is more assertive than a single-study/disputed evidence base and an unnamed stroke conflict warrant.",
+   "evidence": ["Tsilidis O=1719 vs E=919 supports excess significance", "has_conflict_source=true", "replication=single-study", "strong adjectives 'distorted... untranslatable'"],
+   "failure_modes": ["superlative framing softens no uncertainty", "conflict not named"],
+   "recommended_fix": "Attribute the distortion adjectives to the excess-significance findings and hedge 'untranslatable'."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Findings from neurological/stroke meta-analyses are generalised to 'the published animal record' as a whole, a mild overextension though the phenomenon is broadly documented.",
+   "evidence": ["Sena=stroke, Tsilidis=neurological diseases (160 meta-analyses)", "claim generalises to all animal research"],
+   "failure_modes": ["neuroscience-to-all-animal-research generalisation"],
+   "recommended_fix": "Bound the superlative to the neuro/stroke meta-analytic evidence cited."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": -1,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "animal studies of neurological/stroke disease", "computational": null, "clinical": null, "methodological": "excess-significance and small-study bias detection", "conceptual": "distortion of the published record"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_8cab9114332bb829": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The causal 'systematically overstated' conclusion is firmer than vanderWorp's own hedged wording ('may account for', 'probably'), though only MINOR pairing priors apply.",
+   "evidence": ["vanderWorp 'may account for one-third or more... probably also'", "claim states 'systematically overstated'", "MINOR track 1/2 pairing looseness"],
+   "failure_modes": ["source hedges dropped in synthesis", "Freedman only loosely supports the internal-validity half"],
+   "recommended_fix": "Retain the 'may/probably' hedges from vanderWorp when asserting systematic overstatement."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "vanderWorp already generalises across diseases and Freedman is US-preclinical, so the broad 'published effect' claim is within an appropriately wide review scope.",
+   "evidence": ["vanderWorp=animal models vs human trials (review)", "Freedman=US preclinical"],
+   "failure_modes": ["breadth rests partly on a modelled cost estimate"],
+   "recommended_fix": "Tie the internal-validity half to internal-validity evidence rather than the cost model."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": -1,
+  "claim_type": "causal",
+  "modality": "suggestive",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "animal efficacy studies", "computational": null, "clinical": null, "methodological": "internal validity and publication bias", "conceptual": "systematic inflation of apparent efficacy"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_0610c4e959622db0": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'Chronically underpowered' with its causal consequences is asserted firmly on a single partial-support power analysis, with a conflict over the power prescription left unnamed.",
+   "evidence": ["Button2013 role=partial_support ('average statistical power... very low')", "replication=single-study", "has_conflict_source=true (power vs multi-lab prescription)"],
+   "failure_modes": ["downstream 'exaggerates effects / lowers PPV' are theoretical extensions of the one source"],
+   "recommended_fix": "Flag that the exaggeration/PPV consequences follow from statistical theory built on the low-power finding."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Button's neuroscience-specific finding is generalised to 'the studies' broadly, a modest extension of a widely replicated phenomenon.",
+   "evidence": ["study_system=neuroscience power analysis", "claim generalises to preclinical studies generally"],
+   "failure_modes": ["neuroscience-to-general extrapolation"],
+   "recommended_fix": "Note the estimate is anchored in neuroscience power surveys."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": -1,
+  "claim_type": "causal",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "neuroscience/preclinical studies", "computational": null, "clinical": null, "methodological": "statistical power analysis", "conceptual": "effect exaggeration and positive-predictive value"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_b1735ff43d236840": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Each element is attributed and hedged - the scoping review's full 0-100% range is acknowledged and the approval likelihood is given as a converging 'roughly 5-14%'.",
+   "evidence": ["'a scoping review found... spanning the entire range from none to complete'", "'independent analyses converge on... only roughly 5-14%'", "no conflict source"],
+   "failure_modes": [],
+   "recommended_fix": "No change; the range and convergence are well represented."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "The head-injury comparison, translation range, and approval rates are each kept to their source domains and synthesised without overreach.",
+   "evidence": ["Perel=head-injury 6 interventions", "Leenaars=translation scoping review", "Schuhmacher/Dhillon=drug approval rates"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "animal disease models", "computational": null, "clinical": "human trials and drug approval", "methodological": "animal-to-human translation measurement", "conceptual": "translational success/failure"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_e772c65ecad1a63c": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The claim is built around explicitly naming the conflict - two analyses of identical data reaching opposite conclusions, with the reversal traced to gene selection.",
+   "evidence": ["'reached opposite conclusions... reversal driven entirely by a gene-selection choice'", "Seok vs Takao opposite correlations", "conflict_notes match exactly"],
+   "failure_modes": ["'entirely' is a strong single-cause attribution"],
+   "recommended_fix": "Soften 'entirely' to 'largely' unless the gene-selection cause is definitively established."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Both sources and the claim remain within mouse-inflammation gene-expression modelling; no broader generalisation is made.",
+   "evidence": ["both study_systems=mouse models of human inflammation (genomics)"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "mouse inflammation models vs human disease", "computational": "gene-expression genomics analysis", "clinical": null, "methodological": "gene-selection analytic choice", "conceptual": "model validity and analytic flexibility"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_9365bc9c19a0cf31": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'Frequently absent or confused' is appropriately hedged and backed by two independent audits reporting convergent findings, with no conflict source.",
+   "evidence": ["Vogt=1277 Swiss applications", "Jorgensen=Swedish ethics decisions", "replication=replicated"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "The generalisation about authorising bodies is supported by two European jurisdictions and does not exceed the audited systems.",
+   "evidence": ["Swiss and Swedish ethical-review audits", "claim about harm-benefit weighing in review bodies"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "animal-experiment ethical review", "computational": null, "clinical": null, "methodological": "harm-benefit analysis and bias-measure reporting", "conceptual": "governance adequacy"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_288bf421d0c8e7e2": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "The philosophical premise is only partially supported and the novel data-regeneration inference is asserted as established fact under a replication_unknown source.",
+   "evidence": ["Persson2024 role=partial_support (Hume welfarist quote)", "replication=replication_unknown", "second clause 'animals killed without ever entering an analysis' is the review's inference"],
+   "failure_modes": ["inference stated as fact", "no hedge on the data-regeneration connection"],
+   "recommended_fix": "Hedge the regeneration linkage (e.g., 'we argue') and confine the established claim to the welfarist-death premise."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Persson's philosophy-of-3Rs scope is extended to a specific claim about data-regeneration killing, a conceptual reach beyond the cited argument though within animal-research ethics.",
+   "evidence": ["study_system=moral status of animal death (philosophy)", "claim adds data-regeneration mechanism"],
+   "failure_modes": ["conceptual bridge not in source"],
+   "recommended_fix": "Cite a source for the death-in-breeding/surplus-killing empirical link or mark it as argument."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "laboratory-animal killing/surplus death", "computational": null, "clinical": null, "methodological": null, "conceptual": "welfarist ethics and moral status of death in the 3Rs"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_e0f724c1e8d850e1": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The 'small minority' claim is supported by two convergent audits (22% and <7%) and reported without overstatement; only a citation-attribution MINOR applies.",
+   "evidence": ["Bara2014 22% composite outcome", "Pound2018 <7%", "replication=replicated"],
+   "failure_modes": ["analgesia figure attribution between the two keys"],
+   "recommended_fix": "Attach the 97% analgesia figure to Pound2018 and the sample-size reporting to Bara2014."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "The two audits cover critical-care and multi-class preclinical studies, and the 3Rs framing is applied within that scope.",
+   "evidence": ["Bara=critical care animal research", "Pound=multi-class preclinical"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "animal-research 3Rs compliance", "computational": null, "clinical": null, "methodological": "sample-size and welfare reporting audits", "conceptual": "3Rs Reduction and reporting requirements"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_2fdeb78714d7c3b8": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The 'most common barrier' figure is supported by a systematic review, but the closing argument that unusable results convert defensible harm into indefensible harm is the review's own inference presented alongside the evidence.",
+   "evidence": ["Loser2026 71% cite harm-to-animals barrier", "MacArthurClark role=partial_support", "no conflict source"],
+   "failure_modes": ["argumentative closing clause not separated from empirical finding"],
+   "recommended_fix": "Mark the 'converts defensible into indefensible harm' step as the authors' argument."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Claim stays within science-communication of animal research, matching Loser's systematic review and MacArthurClark's commentary.",
+   "evidence": ["Loser=science-communication barriers review", "MacArthurClark=public communication commentary"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": -1,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "harm caused to research animals", "computational": null, "clinical": null, "methodological": "systematic review of communication barriers", "conceptual": "public trust and social licence for research"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_37fd34197339bff0": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The claim explicitly names both sides of the debate, presenting the expansionist proposals 'against a countervailing view that the 3Rs remain conceptually sufficient'.",
+   "evidence": ["'against a countervailing view that the 3Rs remain... merely under-applied'", "conflict_notes match the 6Rs vs sufficiency debate", "modality_seed=contested"],
+   "failure_modes": [],
+   "recommended_fix": "No change; the conflict is well surfaced."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "All cited proposals and the counter-view sit squarely within animal-research-ethics frameworks; no scope inflation.",
+   "evidence": ["Strech/DeGrazia/Brink=framework proposals", "Vitale=sufficiency/under-application view"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "animal-research 3Rs framework", "computational": null, "clinical": null, "methodological": "scientific-value and reporting dimensions", "conceptual": "adequacy of the 3Rs vs expanded frameworks"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_7de66c8314e43abd": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The definitional reframe is presented as a logical necessity ('is animals used'), and while the historical-control mechanism is supported, the broader bridge is the review's strongest generalisation.",
+   "evidence": ["Kramer2015 supports historical-control reduction", "Verderio role=partial_support", "MINOR track 3: 'repaying the debt saves animals' flagged as strongest generalisation"],
+   "failure_modes": ["logical-necessity framing of an argumentative bridge"],
+   "recommended_fix": "Keep the mechanism-level support explicit and mark the debt-repayment corollary as a projection."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "The Reduction principle is reinterpreted and generalised from the demonstrated historical-control mechanism to data reuse broadly, flagged by a track-3 prior though judged defensible.",
+   "evidence": ["MINOR track 3 scope note", "Kramer=simulation of control reduction", "claim generalises to any non-reusable dataset"],
+   "failure_modes": ["mechanism-to-general-principle extension"],
+   "recommended_fix": "Bound the generalisation to the demonstrated control-reuse mechanism plus an acknowledged projection."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "definition",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "animal use under the Reduction principle", "computational": null, "clinical": null, "methodological": "historical-control data reuse", "conceptual": "reinterpreting Reduction as data-driven animal sparing"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_f4413a2e250a627e": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The hierarchy-inversion finding is attributed to surveys and well supported by Franco, though the concluding 'Reduction sits neglected in the middle' is a light inference and the second cite bears only tangentially.",
+   "evidence": ["Franco2018 documents inverted 3Rs hierarchy", "replication=single-study", "LouisMaerten passage is about education, not neglect"],
+   "failure_modes": ["second cite (education meta-analysis) does not directly support the neglect conclusion"],
+   "recommended_fix": "Rest the neglect conclusion on Franco2018 and use LouisMaerten only for the education point."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Findings from European lab-animal-science course participants are extended to 'the field'/'researchers' generally, a modest population generalisation.",
+   "evidence": ["Franco=European course participants", "LouisMaerten=European researchers"],
+   "failure_modes": ["European-sample-to-field generalisation"],
+   "recommended_fix": "Note the survey base is European laboratory-animal-science trainees."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "animal-research 3Rs prioritisation", "computational": null, "clinical": null, "methodological": "researcher attitude surveys", "conceptual": "inversion of the 3Rs hierarchy"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_f2f5ccf81a42941b": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "A general welfare-improves-data-quality relationship is asserted, but a SHOULD_CAVEAT prior shows the single cited meta-analysis actually documents welfare-to-health effects, not welfare-to-data-quality, so support is mismatched.",
+   "evidence": ["SHOULD_CAVEAT track 1: Cait2022 mis-attached", "Cait2022 shows barren housing raises rodent morbidity/mortality", "replication=single-study"],
+   "failure_modes": ["source supports a different link than the claim asserts", "hedge 'tend to' masks weak support"],
+   "recommended_fix": "Cite a source directly linking welfare practices to data quality, or relocate Cait2022 to a welfare-health claim."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "The claim jumps from rodent housing/health outcomes to 'data quality' generally, a moderate domain extension of a single meta-analysis.",
+   "evidence": ["Cait2022=lab rodent housing meta-analysis", "claim about data quality broadly"],
+   "failure_modes": ["housing-health-to-data-quality domain jump"],
+   "recommended_fix": "Restrict the claim to endpoints the meta-analysis actually measured or add a data-quality source."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": -1,
+  "claim_type": "causal",
+  "modality": "suggestive",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "laboratory-rodent welfare and housing", "computational": null, "clinical": null, "methodological": "data-quality effects of husbandry", "conceptual": "alignment of welfare and scientific quality"},
+  "evidence_relation": "indirectly_supported",
+  "cap_flags": []
+ },
+ "clm_63c3714a11d96e6b": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "As a definitional introduction of FAIR the wording is fine, but 'near-universal standard' is asserted while an existing CARE/Indigenous-sovereignty conflict source is not acknowledged.",
+   "evidence": ["Wilkinson2016 foundational FAIR statement", "has_conflict_source=true (FAIR vs CARE)", "sentence appears truncated ('the subject of.')"],
+   "failure_modes": ["governance counter-framing (CARE) unnamed", "truncated sentence"],
+   "recommended_fix": "Complete the sentence and note the CARE/data-sovereignty counter-framing when calling FAIR near-universal."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "The description of FAIR as a stewardship standard stays within the foundational source's scope for scholarly data.",
+   "evidence": ["study_system=FAIR guiding principles for scholarly data"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "definition",
+  "modality": "established",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": null, "computational": "FAIR data principles", "clinical": null, "methodological": "research data management", "conceptual": "data-stewardship standard"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_162a38ab0543ec4b": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Three convergent studies support the declared-vs-actual gap, but SHOULD_CAVEAT and MINOR priors flag an unsupported automated-FAIRification sub-clause and a figure whose 2% anchor belongs to a different key.",
+   "evidence": ["Hamilton/VanTuyl(76% score 0)/Gabelica(93%) convergent", "SHOULD_CAVEAT track 1: FAIRification sub-clause unsupported", "MINOR track 3: '~2%' attribution"],
+   "failure_modes": ["unsupported sub-clause", "figure attribution imprecision"],
+   "recommended_fix": "Attribute the ~2% figure to Hamilton2023 and drop or source the automated-FAIRification sub-clause."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "VanTuyl's NSF (non-biomedical) projects are folded into 'mandated projects' generally and a track-3 prior flags mild scope inflation on the headline figure.",
+   "evidence": ["VanTuyl=NSF projects at Oregon State", "MINOR track 3 scope-inflation note"],
+   "failure_modes": ["cross-domain generalisation of the mandate-noncompliance figure"],
+   "recommended_fix": "Reword to 'usable availability sits far below declared' rather than a single cross-domain percentage."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": "data-availability and sharing compliance", "clinical": "medical data sharing", "methodological": "retrieval audits of shared data", "conceptual": "declared vs actual data availability"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_b690e01ea3fbf1fa": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The claim usefully names the review-optimism vs audit-pessimism tension, but two SHOULD_CAVEAT priors show specific reusability sub-scores and a FAIRification clause are not present in the source passages.",
+   "evidence": ["'Review-level syntheses treat FAIR as demonstrated... while direct retrieval audits find most shared data incomplete'", "SHOULD_CAVEAT track 2: 2.4/10 and 2-3/10 not in passages", "SHOULD_CAVEAT track 1: FAIRification clause unsupported"],
+   "failure_modes": ["numeric sub-scores not traceable to shown passages"],
+   "recommended_fix": "Verify the reusability sub-scores against full text before stating them."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "The dental-domain audit is used as a deliberately-flagged 'unrelated domains' example, an honest but broad generalisation about FAIR shortfall.",
+   "evidence": ["Uribe=dental research articles", "claim says 'even in unrelated domains'", "Inau=health research FAIR"],
+   "failure_modes": ["generality asserted from two domain-specific audits"],
+   "recommended_fix": "Keep the 'even in unrelated domains' framing and avoid implying universality."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": "FAIR data reusability scoring", "clinical": "health and dental research data", "methodological": "review synthesis vs retrieval audit", "conceptual": "FAIR remedy claims vs audited reality"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_bf38f7be25668bb8": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The 'almost always because' causal framing is strong for a claim resting on one neuroimaging archive plus one mandate audit, and an existing repository-vs-diffuse conflict is not explicitly named.",
+   "evidence": ["Markiewicz=165 OpenNeuro reuses", "Hamilton2022=<half of mandated articles shared", "has_conflict_source=true"],
+   "failure_modes": ["single-archive example generalised into an 'almost always' rule"],
+   "recommended_fix": "Soften 'almost always' or add corroborating enforced-repository examples."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "A neuroimaging-archive result and a cancer-journal audit are generalised into a broad principle about where reuse happens, framed as an illustrative example.",
+   "evidence": ["Markiewicz=OpenNeuro neuroimaging", "Hamilton2022=cancer journals", "claim generalises across fields"],
+   "failure_modes": ["field-specific evidence generalised to reuse broadly"],
+   "recommended_fix": "Present OpenNeuro explicitly as an exemplar rather than a universal mechanism."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": null, "computational": "neuroimaging data archive reuse (OpenNeuro)", "clinical": null, "methodological": "repository enforcement vs published principles", "conceptual": "realised data reuse"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_30a8136cb5ad200a": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "The superlative 'served worst of all' is asserted from a single partial-support source under replication_unknown, with no hedge on the comparative ranking.",
+   "evidence": ["Hawkins2020 role=partial_support (TBI dark data)", "replication=replication_unknown", "'served worst of all' superlative"],
+   "failure_modes": ["comparative superlative from one source", "no hedge"],
+   "recommended_fix": "Replace 'served worst of all' with a hedged, source-bounded characterisation."
+  },
+  "transferability_scope_control": {
+   "score": 2,
+   "rationale": "A TBI-specific dark-data source is generalised to all preclinical animal data with a 'worst of all' ranking not established by the evidence.",
+   "evidence": ["Hawkins=traumatic brain injury data", "claim generalises to all preclinical animal data"],
+   "failure_modes": ["single-domain-to-all-preclinical generalisation", "unranked superlative"],
+   "recommended_fix": "Limit the claim to the reagent-dependence/heterogeneity/dark-data features the source supports."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": -1,
+  "claim_type": "comparative",
+  "modality": "suggestive",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "preclinical animal data (e.g. TBI)", "computational": "dark data and FAIR stewardship", "clinical": null, "methodological": null, "conceptual": "inequity of data stewardship"},
+  "evidence_relation": "indirectly_supported",
+  "cap_flags": []
+ },
+ "clm_cd848184fca6e342": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Figures are hedged ('roughly a quarter') and infrastructure is documented, but a 25% vs 30% conflict is not named inline and the 'bottleneck is acceptance not data volume' conclusion is asserted (MINOR track-3 strongest-generalisation note).",
+   "evidence": ["Gurjanov 'up to 25%'", "Moresis 60,000 rats / Deschl 10,896 rats", "has_conflict_source=true (25% vs 30%)", "MINOR track 3"],
+   "failure_modes": ["reduction-magnitude conflict unnamed", "concluding bottleneck claim asserted"],
+   "recommended_fix": "Note the 25-30% range and mark the acceptance-not-volume conclusion as the review's synthesis."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Toxicology VCG results and control databases are marshalled into a general 'infrastructure exists at scale' conclusion, flagged as the strongest generalisation though judged defensible.",
+   "evidence": ["MINOR track 3 scope note", "sources span rodent tox, device trials, control databases"],
+   "failure_modes": ["mechanism-plus-projection generalisation"],
+   "recommended_fix": "Keep the conclusion bounded to the demonstrated toxicology/control-reuse settings."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "toxicity-study control animals", "computational": "historical-control databases (eTRANSAFE, RITA)", "clinical": "Bayesian control-borrowing in trials", "methodological": "virtual control groups / control borrowing", "conceptual": "reduction via data reuse and stewardship bottleneck"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_14afcf7253689dcb": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The claim explicitly presents the endpoint-dependent concordance conflict (high agreement for categorical decisions vs substantial non-reproducibility for continuous parameters) and states the regulatory limitation plainly.",
+   "evidence": ["DuchateauNguyen 68.5% agreement vs Adedeji up to 49% non-reproducible", "'no regulator has yet accepted a VCG study... for a pivotal submission'", "conflict_notes match"],
+   "failure_modes": ["SHOULD_CAVEAT: the dose-limiting-toxicities example is not cleanly sourced"],
+   "recommended_fix": "Add Mecklenburg2023 support for the categorical/dose-limiting example or drop that specific illustration."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "All claims stay within preclinical toxicology VCG evidence; only a minor subchronic/chronic wording imprecision is flagged.",
+   "evidence": ["sources=rat/NHP toxicity studies, ViCoG database", "MINOR track 2 subchronic wording"],
+   "failure_modes": ["'sub-chronic' label imprecise for a mixed study set"],
+   "recommended_fix": "Change 'sub-chronic' to 'subchronic and chronic' NHP studies."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "rat and non-human-primate toxicity controls", "computational": "historical-control database drift (ViCoG)", "clinical": null, "methodological": "VCG vs concurrent-control concordance", "conceptual": "regulatory acceptance of virtual controls"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_2b4119e2c878ac71": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Predictivity is well hedged ('sometimes high', 'narrow, well-defined endpoints', 'can displace specific animal tests'), but a track-3 category-inflation prior and an unnamed 3D-vs-2D sensitivity conflict lower confidence.",
+   "evidence": ["'usable and sometimes high predictivity for narrow, well-defined endpoints'", "MINOR track 3: four NAM classes named, two cited", "has_conflict_source=true (3D vs 2D)"],
+   "failure_modes": ["enumerated categories exceed cited evidence"],
+   "recommended_fix": "Limit the enumeration to the assay classes the two cites cover or add representative in-silico/organ-on-chip sources."
+  },
+  "transferability_scope_control": {
+   "score": 2,
+   "rationale": "The sentence enumerates in-silico/QSAR, organoids, organ-on-chip and HTS, but the two attached keys cover only skin-comet genotoxicity and hepatocyte spheroids, overextending to uncited method classes.",
+   "evidence": ["MINOR track 3 category scope inflation", "Pfuhler=skin comet, Sirenko=hepatocyte spheroids", "in-silico/QSAR and organ-on-chip uncited"],
+   "failure_modes": ["method-category enumeration beyond evidence"],
+   "recommended_fix": "Narrow the enumeration to cited assay classes or add sources for the other NAM categories."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "in-vitro/NAM assays (skin, hepatocytes)", "computational": "in-silico/QSAR models (enumerated, uncited)", "clinical": null, "methodological": "NAM predictivity for narrow endpoints", "conceptual": "replacement of specific animal tests"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_584e046e9f383f31": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The claim frames NAM readiness as explicitly contested, presenting proponents against regulatory reviews documenting continued animal-data dependence and low MPS adoption.",
+   "evidence": ["'the field's readiness is contested: proponents argue... while regulatory reviews document continued dependence'", "conflict_notes match", "Marx: MPS not widely adopted"],
+   "failure_modes": [],
+   "recommended_fix": "No change; contest is clearly surfaced."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "All sources and the claim remain within NAM/MPS regulatory chemical-safety assessment; no overextension.",
+   "evidence": ["Carmichael=NGRA, Holmer=EU endocrine disruptors, Marx/Hartung=MPS"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "NAM/microphysiological systems for chemical safety", "computational": null, "clinical": null, "methodological": "regulatory readiness and adversity assessment", "conceptual": "NAM readiness debate"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_e57f2374748abdbe": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The 'only moderately reproducible' half is supported by Karmaus (72-74%), but the 'never validated for human relevance' half lacks its own cite and the concluding 'yardstick is shaky' is asserted.",
+   "evidence": ["Karmaus 72%/74% replicability", "MINOR track 1: 'never validated' half needs a second cite", "replication=replicated"],
+   "failure_modes": ["one half of the claim uncited", "argumentative conclusion asserted"],
+   "recommended_fix": "Co-cite a human-relevance-validation source for the 'never validated' clause."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Rodent carcinogenicity/endocrine-assay reproducibility is generalised to 'animal data' used for NAM validation broadly, a moderate extension.",
+   "evidence": ["Karmaus=rodent bioassays", "claim generalises to animal data anchoring NAM validation"],
+   "failure_modes": ["bioassay-specific figures generalised to all animal data"],
+   "recommended_fix": "Bound the reproducibility figure to the rodent-bioassay classes measured."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": -1,
+  "claim_type": "causal",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "rodent carcinogenicity/endocrine bioassays", "computational": null, "clinical": null, "methodological": "NAM validation against animal-data concordance", "conceptual": "circular validation and human relevance"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_96480598598674e7": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The FAIR-as-prerequisite point is reported as a community position and is supported by Gant2026, but the causal 're-create the same stewardship debt' step is the review's inference and one cite is mis-mapped to an author-credit example.",
+   "evidence": ["Gant2026 'FAIR... not just best practice but a prerequisite'", "MINOR track 1: Gant2026 does not discuss author credit", "has_conflict_source=true (FAIR in practice)"],
+   "failure_modes": ["predictive 'unless made FAIR' step is inference"],
+   "recommended_fix": "Attribute the stewardship-debt prediction to the authors and keep Gant2026 for the FAIR-prerequisite point."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "A chemical-risk-assessment workshop position and a health-research FAIR review are applied to NAM high-throughput/in-silico data streams, a reasonable but broadened mapping.",
+   "evidence": ["Gant2026=AI/ML chemical risk assessment", "Inau2023=health research FAIR"],
+   "failure_modes": ["cross-context application of the FAIR-prerequisite argument"],
+   "recommended_fix": "Keep the NAM-data framing tied to the regulatory-science sources cited."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": "high-throughput and in-silico NAM datasets", "clinical": null, "methodological": "FAIR data stewardship for NAMs", "conceptual": "stewardship debt and trustworthy model outputs"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_02754a8ab70abf26": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The incentive asymmetry is documented by three convergent RPT/survey sources, but the strong causal 'predictable output of a reward structure' framing and 'almost no' phrasing run slightly ahead of the (up to 40%) figures.",
+   "evidence": ["Rice 35% mention publication counts", "McKiernan data-sharing 0-40% by institution type", "Fecher 46% do not share"],
+   "failure_modes": ["'almost no' understates the 40% R-type figure", "structural causation asserted"],
+   "recommended_fix": "Report the institution-type range for data-sharing criteria and mark the causal framing as interpretation."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Multi-region RPT and survey evidence supports a general reward-structure claim, a broad but convergent generalisation across universities.",
+   "evidence": ["Rice=international universities", "McKiernan=US/Canada", "Fecher=academic researchers"],
+   "failure_modes": ["general reward-structure claim from RPT-document samples"],
+   "recommended_fix": "Keep the claim tied to promotion/tenure-document evidence."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "promotion/tenure criteria and data-sharing behaviour", "conceptual": "academic reward structure and incentives"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_12f83a825ca7cb24": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The claim explicitly juxtaposes the selection model against the reform manifesto, naming the optimism conflict rather than asserting one side.",
+   "evidence": ["'against a reform manifesto that expects... measures to improve reliability'", "conflict_notes match reform-optimism vs selection view", "Smaldino/Munafo cited to their respective positions"],
+   "failure_modes": [],
+   "recommended_fix": "No change; the debate is well surfaced."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Both a behavioural-sciences selection model and a cross-discipline meta-research manifesto support a general claim about publication incentives, within their stated scope.",
+   "evidence": ["Smaldino=behavioural sciences model", "Munafo=meta-research across disciplines"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": null, "computational": "structural selection model of research practices", "clinical": null, "methodological": "reform measures (methods, reporting, incentives)", "conceptual": "publication incentives vs reliability"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_7606bc5d939e54bc": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "For the single cited source, the wording ('near-universal declarations... but under one percent') matches Danchev2021's 0.6% figure precisely; the MUST_FIX/SHOULD_CAVEAT priors concern a Fanelli2009 co-citation not present in this claim's keys.",
+   "evidence": ["Danchev2021 0.6% actually available vs declared willingness", "citation_keys=[Danchev2021] only", "replication=replicated"],
+   "failure_modes": ["a broader body pairing (Fanelli2009) is mis-attributed elsewhere"],
+   "recommended_fix": "Keep the sentence on Danchev2021 alone and remove Fanelli2009 from the body pairing."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "The claim stays within the editorial clinical-trial data-sharing context of the cited study.",
+   "evidence": ["Danchev=487 clinical trials in JAMA/Lancet/NEJM"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": "clinical-trial data sharing (ICMJE requirement)", "methodological": "declared vs actual data availability", "conceptual": "policy requirement without enforcement"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_f5a7ad834279eafd": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The enforced-vs-requested contrast is broadly supported, but a SHOULD_CAVEAT flags that the IICARus null result nuances the favourable framing and a track-4 prior flags that the strongest 'verified signals deliver' evidence is transferred from other fields.",
+   "evidence": ["Macleod NPG 0->16.4% vs Hair/IICARus null at submission", "SHOULD_CAVEAT track 3: IICARus null nuances enforcement framing", "SHOULD_CAVEAT track 4: field provenance"],
+   "failure_modes": ["favourable enforcement framing understates the null trial"],
+   "recommended_fix": "Add a clause acknowledging the IICARus randomised-trial null result."
+  },
+  "transferability_scope_control": {
+   "score": 2,
+   "rationale": "In a section about the animal/preclinical debt, the strongest 'verified open-practice signals deliver data' evidence (Kidwell) is drawn from psychology, a cross-field provenance flagged by a track-4 prior.",
+   "evidence": ["SHOULD_CAVEAT track 4 field-provenance", "Kidwell2016=Psychological Science", "claim in a preclinical/animal section"],
+   "failure_modes": ["cross-field transfer of enforcement magnitudes to animal research"],
+   "recommended_fix": "Note that the largest enforcement effects come from psychology/ecology journals, not animal research."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "animal-research reporting (ARRIVE/Landis)", "computational": null, "clinical": null, "methodological": "checklist enforcement at revision vs submission; verified open-practice signals", "conceptual": "governance and enforcement vs voluntary compliance"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_560b5fe10424d453": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "This is a self-aware methodological statement that explicitly commits to juxtaposing method-divergent estimates and flagging modelled/non-transparent figures rather than smoothing them over.",
+   "evidence": ["'juxtapose method-divergent estimates rather than... single headline numbers'", "'several field-defining figures rest on modelled or non-transparent sources that we flag'", "examples span survey/tracking/model estimates"],
+   "failure_modes": ["a co-citation mischaracterisation (Hamilton2023) is flagged for the body group"],
+   "recommended_fix": "Ensure each exemplar figure is cited with its accurate modelled/empirical framing."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "The claim describes the review's own analytical practice using in-scope exemplars and makes no external generalisation.",
+   "evidence": ["exemplars=publication rate, concordance, sharing trend", "sources match those exemplars"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "established",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": null, "computational": "modelled/non-transparent field figures", "clinical": null, "methodological": "juxtaposing method-divergent estimates and flagging modelled sources", "conceptual": "epistemic transparency of the review"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ }
+}

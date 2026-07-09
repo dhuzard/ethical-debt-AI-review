@@ -1,0 +1,818 @@
+{
+ "clm_6045004d0b452762": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Measured synthesis wording ('concedes', 'often either too... or too', 'precisely because') accurately reflects a tooling-literature consensus; no conflict source and no critic priors, so confident phrasing is warranted.",
+   "evidence": ["has_conflict_source=false", "critic_priors=[]", "three partial_support passages converge on the tooling-limitation point"],
+   "failure_modes": ["modality_seed 'established' on replication_unknown could invite slight overconfidence"],
+   "recommended_fix": "None needed; wording already hedged to a literature concession."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Generalization to 'the community' stays within the combined scope of FAIR-assessment tooling, CEDAR templates, and life-science reporting guidelines; no track-3/4 scope prior.",
+   "evidence": ["study_systems: institutional repositories, CEDAR templates, life-science checklists", "no scope critic_prior"],
+   "failure_modes": ["risk of implying universality beyond metadata tooling"],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_233d5a78d2cef678": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "A replicated IPD meta-analysis (robustness 4) justifies confident figures, and wording hedges with 'roughly' and 'about'; conflict source concerns interpretation (whether sharing happens), not the numbers.",
+   "evidence": ["replication=replicated", "mechanical robustness=4", "MINOR track-2 prior only on the code-sharing sub-clause"],
+   "failure_modes": ["'code sharing below half a percent' clause not in the provided source sentence"],
+   "recommended_fix": "Verify the code-sharing figure against full text."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Claim confined to medical/health-sciences articles, matching the study system of the 105-study meta-analysis; no overextension.",
+   "evidence": ["study_system: medical and health sciences articles (2.1M)", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_d8896764869b2bdf": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Three audit figures are stated as established facts; a SHOULD_CAVEAT provenance gap and a MUST_FIX denominator note plus a live conflict source argue for slightly more hedging, though the text already renders the FAIR figure correctly as 0.3% (1/306).",
+   "evidence": ["has_conflict_source=true", "MUST_FIX track-2 denominator", "SHOULD_CAVEAT track-2 provenance gap (5 keys unbacked in evidence package)"],
+   "failure_modes": ["confident triple-statistic sentence over an unclosed audit trail"],
+   "recommended_fix": "Add package findings for the cited keys and keep denominators explicit."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Stays within biomedical/oncology corpora, but a MINOR track-3 prior notes mild figure-precision/scope inflation (the ~2% anchor belongs to Hamilton2023).",
+   "evidence": ["MINOR track-3 figure-precision prior", "study systems: biomedical papers, BMC DAS journals, 306 oncology articles"],
+   "failure_modes": ["blending distinct low-availability figures from different corpora"],
+   "recommended_fix": "Attribute each figure to its own study; co-cite Hamilton2023 for the ~2% anchor."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_412d635eff61fec3": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Single-study, replication_unknown findings stated fairly firmly; wording ('only', 'just') is measured and the 'shared' framing correctly maps to the smaller 1.5% subset, but a stated-vs-shared nuance persists.",
+   "evidence": ["replication=[replication_unknown, single-study]", "MINOR track-2 stated-vs-shared prior"],
+   "failure_modes": ["2.7% stated vs 1.5% actually shared could be conflated"],
+   "recommended_fix": "Clarify '1.5% actually shared (vs 2.7% that stated data existed)'."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Explicitly framed as discipline-specific screens ('dental research articles', 'Spanish COVID-19 papers') with no generalization beyond those corpora.",
+   "evidence": ["study systems: dental journals; Spanish COVID papers", "no track-3/4 prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_95a14eb60b02e289": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Causal reading is appropriately hedged ('associated with', 'which suggests enforcement works') and the OR with CI is precise; a single oncology sample plus conflict source keep it short of full calibration.",
+   "evidence": ["OR 9.5 (95% CI 3.26-30.85) with CI reported", "has_conflict_source=true", "MUST_FIX track-2 denominator pertains to a different (FAIR) figure"],
+   "failure_modes": ["'enforcement works' generalizes one association"],
+   "recommended_fix": "Keep 'suggests'; note it is a single-sample association."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Generalizes from one 306-article oncology sample to a broad 'enforcement works' statement, softened by 'suggests'.",
+   "evidence": ["study_system: 306 cancer articles", "no explicit scope prior"],
+   "failure_modes": ["single-field OR presented as a general lever"],
+   "recommended_fix": "Scope to the oncology sample or corroborate across fields."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_5c3816bd497c710a": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Conclusion ('close to inert') is hedged with 'on its own' and 'close to', and is one clearly-labelled side of a documented conflict; the comparison to a no-statement group is an inference not shown in the provided passage.",
+   "evidence": ["has_conflict_source=true", "supporting passage gives 93% non-compliance but no explicit control comparison"],
+   "failure_modes": ["'same rate as authors who made no statement' assumes an unshown control arm"],
+   "recommended_fix": "Cite the control-group comparison explicitly."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Extends a BMC open-access DAS study to DAS in general; consistent with the study's design but mildly broad.",
+   "evidence": ["study_system: 333 BMC open-access journals", "no scope prior"],
+   "failure_modes": ["publisher-specific behavior generalized to all DAS"],
+   "recommended_fix": "Attribute to the BMC cohort."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_2c411f0763b1e3ad": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Two independent sources, measured wording ('remain under-used', 'fewer than 40%', 'largely omit'), no conflict source and no critic priors.",
+   "evidence": ["citation_contexts: Mayernik <40% DOI (direct), Hormann materials-science (direct)", "critic_priors=[]"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Generalization ('links frequently missing') is modest and confined to the two-dataset citation study and materials-science journal corpus.",
+   "evidence": ["study systems: two datasets; materials-science RDPs", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_2a31703e1cb5858f": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Figures (2.4%->89.2%) are directly supported and wording is measured; the only flagged issue is a track-2 over-attribution, which is a traceability rather than a calibration problem.",
+   "evidence": ["MINOR track-2 over-attribution of Vrabel2016", "Khan/Schnieders direct_support"],
+   "failure_modes": ["Vrabel2016 carries the insufficiency claim it only partly supports"],
+   "recommended_fix": "Attribute the 'not sufficient for automated reporting' clause to Schnieders2022 alone."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Draws on named institutions (German institutions, University of Bath) and generalizes only to 'similarly patchy' coverage, within scope.",
+   "evidence": ["study systems: German institutions; Univ of Bath outputs", "over-attribution is track-2, not track-3/4"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_dca2860eff8744b3": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "A MINOR track-2 prior notes the denominator was widened ('36% of names for which publication data exist' rendered as '36% of taxonomic names'), a mild overstatement; wording otherwise measured.",
+   "evidence": ["MINOR track-2 denominator-widening prior", "Page passage states 'over a million names matched', not 36%"],
+   "failure_modes": ["implying 36% of ALL names rather than of names with publication data"],
+   "recommended_fix": "Add 'of names for which publication data exist'."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "The denominator widening slightly inflates the share; otherwise confined to taxonomic databases and a DSpace repository.",
+   "evidence": ["study systems: taxonomic biodiversity databases; institutional DSpace", "track-2 denominator prior"],
+   "failure_modes": ["share-of-population inflation"],
+   "recommended_fix": "Preserve the paper's denominator."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_cdb87f6ffc351118": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Multi-part accessibility claim attributes each clause to an appropriate source with measured wording ('varies by country', 'will be rationed rather than free', 'in part because'); no conflict or priors.",
+   "evidence": ["Shanahan direct (14 countries), Bertelli partial (EOSC), Guerra partial (LatAm)", "critic_priors=[]"],
+   "failure_modes": ["'will be rationed' is a forward-looking inference from Bertelli's position"],
+   "recommended_fix": "Keep the predictive clause tied to Bertelli's argument."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each sub-claim is bounded by its source system (14-country VPN test, EOSC, Latin America); the umbrella framing does not overreach.",
+   "evidence": ["study systems: 14 countries; EOSC; Ecuador/LatAm", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "computational",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_22d90fd82ec300f2": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "Single-institution study (robustness 1) presented as a general NIH-policy fact, and 'high and improving' adds an unsupported temporal trend; the conflict source (formal completeness high yet realized sharing low) is not caveated.",
+   "evidence": ["mechanical robustness=1", "has_conflict_source=true", "study_system: one institution", "'and improving' unsupported by a cross-sectional study"],
+   "failure_modes": ["formal completeness read as realized sharing; unsupported trend"],
+   "recommended_fix": "Drop 'improving', scope to the institution, and note formal != actual sharing."
+  },
+  "transferability_scope_control": {
+   "score": 2,
+   "rationale": "One institution's 358 DMSPs generalized to 'the NIH Data Management and Sharing Policy' population-wide.",
+   "evidence": ["study_system: NIH DMSPs at one institution", "framed as general NIH characterization"],
+   "failure_modes": ["single-site sample presented as national baseline"],
+   "recommended_fix": "Qualify as one-institution evidence."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": ["overextended_scope"]
+ },
+ "clm_0fefcf2dfee45858": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Figures faithful to VanTuyl (76% scored zero) and framed as 'an audit'; single study (robustness 1) on the actual-low side of a live conflict keeps it from full marks. The SHOULD_CAVEAT prior concerns an automated-FAIRification sub-clause not present in this claim.",
+   "evidence": ["mechanical robustness=1", "has_conflict_source=true", "SHOULD_CAVEAT track-1 prior refers to a clause absent here"],
+   "failure_modes": ["single audit generalized via 'an audit of NSF-funded projects'"],
+   "recommended_fix": "Note the single-institution basis."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Drops the 'Oregon State University' qualifier when saying 'an audit of NSF-funded projects'; a MINOR track-3 figure-precision prior also applies.",
+   "evidence": ["study_system: NSF projects at Oregon State", "MINOR track-3 prior"],
+   "failure_modes": ["one-university sample read as NSF-wide"],
+   "recommended_fix": "Name the institution."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_2ec6b90093f01b43": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly attributed ('Review-level syntheses hold ...') and framed skeptically ('treating the principles as a demonstrated remedy'), which correctly signals the proposition is contested and rebutted in adjacent claims.",
+   "evidence": ["has_conflict_source=true", "quotation attributed to review-level synthesis"],
+   "failure_modes": ["provided passage (68% figure) is not the quoted sentence"],
+   "recommended_fix": "Anchor the quote to Inau2023's own conclusion sentence."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "The 'different scientific domains' reach is the review's own claim, presented as an attributed position rather than adopted by the author.",
+   "evidence": ["study_system: health-research FAIR scoping review", "attributed framing"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_98fda0a4e8115f5a": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Direct quotation of VanTuyl framed as the empirical counter-pole ('find the opposite'); single study/institution (robustness 1) reported as 'project-level audits' (plural) tempers the score.",
+   "evidence": ["direct quote matched to 76% zero-score finding", "MINOR track-3 figure-precision prior", "mechanical robustness=1"],
+   "failure_modes": ["one audit generalized as 'audits'"],
+   "recommended_fix": "Say 'one project-level audit'."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Single Oregon State audit generalized to project- and article-level sharing broadly; track-3 precision prior present.",
+   "evidence": ["study_system: NSF projects at Oregon State", "MINOR track-3 prior"],
+   "failure_modes": ["single-site generalization"],
+   "recommended_fix": "Bound to the audited cohort."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_6e4f3823e7f88dca": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Scoped honestly to materials-science journals with no conflict; but the headline '>80% offered no PID guidance for code' is not in the provided passage (which gives the 7% require-sharing figure), so it rests on unshown text.",
+   "evidence": ["mechanical robustness=1", "provided passage only supports 'typically optional'"],
+   "failure_modes": ["the >80% figure lacks a matched supporting passage"],
+   "recommended_fix": "Attach the source sentence for the >80% figure."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to materials-science journal data policies; no cross-domain extrapolation.",
+   "evidence": ["study_system: materials-science RDPs", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_61e25f817cac3e00": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Both figures directly supported and hedged ('appears to allocate roughly 10%'); the '45 barriers' clause is scoped to 'one clinical field'. No conflict or priors.",
+   "evidence": ["Speir '10% of total budget for DCC' (direct)", "deGroot '45 unique barriers' (direct)", "critic_priors=[]"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Explicitly bounds the barrier count to 'one clinical field' and the budget figure to NIH consortia; no overextension.",
+   "evidence": ["study systems: NIH consortia; child/adolescent mental-health OMOP", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_09a63342b5418deb": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Single study confidently stated; a track-1 prior flags that the load-bearing 11.5%/37.9% figures are verbatim only in the bioRxiv preprint (Huang2021), while the cited published paper's own figure is 74.8% shared.",
+   "evidence": ["MINOR track-1 preprint-provenance prior", "mechanical robustness=1"],
+   "failure_modes": ["headline percentages may be preprint-only, not in the cited published source"],
+   "recommended_fix": "Confirm 11.5%/37.9% appear in published Huang2025b or cite the preprint."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Bounded to omics studies in the Gene Expression Omnibus; no cross-domain claim.",
+   "evidence": ["study_system: GEO omics (human and non-human mammalian)", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": -1,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_61493fbc438c4277": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "The load-bearing sub-scores (Uribe ~2.4/10; Syed 2-3/10) are NOT present in the package source sentences (SHOULD_CAVEAT track-2); presenting them as reported values with only light hedging ('a reported mean', 'about') under-calibrates unverified figures.",
+   "evidence": ["SHOULD_CAVEAT track-2 (sub-scores absent from source sentences)", "provided passages give sample counts / qualitative I&R statements, not the numeric scores"],
+   "failure_modes": ["specific out-of-10 scores unverified against full text"],
+   "recommended_fix": "Verify 2.4/10 and 2-3/10 in full text before asserting."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Compares scores from two different automated tools (F-UJI vs another) over small samples (n=112, n=4); the claim notes 'a different automated tool' but treats the low scores as convergent.",
+   "evidence": ["study systems: dental corpus; four urban air-quality datasets", "figure-caption caveats note different tools / small n"],
+   "failure_modes": ["cross-tool, small-n scores treated as comparable"],
+   "recommended_fix": "Keep the tool/n caveats explicit."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "suggestive",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_5e8e43d3c8d63352": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Figures directly supported ('15.5 and 12 out of 25') and honestly labelled as 'self-assessed' for 'two clinical databases'; no conflict or priors.",
+   "evidence": ["supporting passage matches 15.5/12 of 25", "critic_priors=[]"],
+   "failure_modes": ["self-assessment is inherently softer evidence, already flagged in wording"],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Explicitly limited to two OMOP-CDM ICU databases; no generalization.",
+   "evidence": ["study_system: two OMOP-CDM ICU databases on EHDEN", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "clinical",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_46b59d41f7175c3b": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The 80% figure is correctly attributed ('one analyst described'), which addresses the SHOULD_CAVEAT; residual concern is the framing 'the downstream cost is illustrated concretely', which presents an n=1 anecdote plus a single-source >40% figure as representative.",
+   "evidence": ["SHOULD_CAVEAT track-4 (single-interviewee quote generalized)", "Verbitsky '>40% of curation time' from one source"],
+   "failure_modes": ["anecdote + single estimate read as field-wide cost"],
+   "recommended_fix": "Keep 'one analyst' and mark the figures as illustrative."
+  },
+  "transferability_scope_control": {
+   "score": 2,
+   "rationale": "Track-4 scope prior: a single interviewee's 80% is used to characterize global-health data reuse generally, and the >40% figure comes from one harmonization study.",
+   "evidence": ["SHOULD_CAVEAT track-4 scope prior", "study_system: qualitative interviews; biomedical metadata harmonization"],
+   "failure_modes": ["one-analyst anecdote generalized to the field"],
+   "recommended_fix": "Present as an illustrative case, not a field norm."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "suggestive",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_84537769e97e8d62": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The count (165 reuse publications) is directly supported and 'substantial realized reuse' is a fair reading; framed as the positive counter-pole of a documented conflict.",
+   "evidence": ["Markiewicz '165 publications reused OpenNeuro datasets' (direct)", "has_conflict_source=true (positive pole)"],
+   "failure_modes": ["single-archive success generalized to 'FAIR archives'"],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Scoped 'within neuroimaging' to an OpenNeuro/BIDS archive; used as a bounded existence proof.",
+   "evidence": ["study systems: OpenNeuro; BIDS standard", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_d88c135d7f848020": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Both findings supported (Hamilton ~2% is replicated; Huang 74.8% shared); the summary word 'badly incomplete' mildly editorializes the omics result and the conflict source is a complementary contrast rather than a contradiction.",
+   "evidence": ["replication=[replicated, single-study]", "has_conflict_source=true", "MINOR track-2 (code-sharing clause) inherited from Hamilton2023"],
+   "failure_modes": ["'badly incomplete' stronger than 'omit over a quarter'"],
+   "recommended_fix": "Temper to 'often incomplete'."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each half bounded to its corpus ('across medicine'; 'omics studies'); no overextension.",
+   "evidence": ["study systems: medical/health articles; GEO omics", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_49675f184cf4d437": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'More than 150' conservatively rounds the supported 165, and the archive is used as a bounded existence proof; positive pole of a documented conflict.",
+   "evidence": ["Markiewicz 165 (direct)", "has_conflict_source=true"],
+   "failure_modes": ["single archive stands in for 'an archive built on an enforced standard'"],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Presented as one instance (OpenNeuro/BIDS), not a general property of all enforced-standard archives.",
+   "evidence": ["study_system: OpenNeuro archive", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_05e37a65090b0315": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Historical/descriptive lineage of MIAME/MIAPE/MIBBI supported by the three foundational papers; 'genuine achievements of community consensus' is a measured endorsement, no conflict.",
+   "evidence": ["three partial_support passages defining each standard", "critic_priors=[]"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to the reporting-standards it names; no extrapolation.",
+   "evidence": ["study systems: MIAME, MIAPE, MIBBI", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "established",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_1febd6790acb13e9": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Both the checklist's promise and the empirical counter-evidence are presented; discrepancy figures (13,068 vs 4,923) are directly supported, and the 'does not guarantee' framing correctly hedges. The MUST_FIX (add Vadadokhau2026) is already satisfied by the citation set.",
+   "evidence": ["Vadadokhau '13,068 unique proteins' (direct)", "MartinezBartolome MIAPE-Quant definition (partial)", "MUST_FIX track-3 resolved: counter-side is cited"],
+   "failure_modes": ["single reanalysis of six PRIDE projects"],
+   "recommended_fix": "None; both poles present."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to quantitative proteomics (MIAPE-Quant / PRIDE reanalysis); the 'shared-but-not-reusable in miniature' generalization is explicitly flagged as illustrative.",
+   "evidence": ["study systems: MIAPE-Quant standard; reanalysis of six PRIDE projects", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_80abe252016ec6bc": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Kush passage near-verbatim supports 'disappointingly low adoption' and 'inability to broadly solve interoperability'; Batista supports the 'human-readable narratives' clause. No conflict or priors.",
+   "evidence": ["Kush2020 partial (near-verbatim)", "Batista2022 partial", "critic_priors=[]"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Bounded to clinical-research CDEs and life-science reporting checklists; no overreach.",
+   "evidence": ["study systems: clinical-research CDEs; life-science checklists", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_0120dd4dece9e0da": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Both the optimistic (Stotl 'automatically... FAIR') and critical (Gilani) sides are cited, satisfying the MUST_FIX; the specific counter-clause ('lacks the formal semantic relationships') is not in the provided Gilani passage, so it rests on unshown text.",
+   "evidence": ["MUST_FIX track-3 (suppressed conflict) resolved: both sides cited", "Gilani passage describes the harmonization context, not the 'lacks semantic relationships' finding"],
+   "failure_modes": ["counter-clause not shown in provided passage"],
+   "recommended_fix": "Attach Gilani's sentence stating the semantic-relationship gap."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Generalizes a cardiovascular-cohort harmonization finding to ISO/IEC 11179 broadly; softened by presenting it as a rebuttal of the optimistic claim.",
+   "evidence": ["study_system: iCARE4CVD cardiovascular studies", "track-3 conflict prior addressed in-text"],
+   "failure_modes": ["single-consortium finding generalized to the standard"],
+   "recommended_fix": "Bound to the CVD harmonization context."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": "methodological",
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_331cf2dac282af13": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Donaldson passage supports 'we do not know if certification... actually matters' and Murphy supports 'little explicit acknowledgment'; conflict (TRUST framing vs no-evidence finding) is explicitly juxtaposed. Only the '91 repositories' count lacks a matched passage.",
+   "evidence": ["Donaldson direct; Murphy direct; Lin partial", "has_conflict_source=true, juxtaposed in-text"],
+   "failure_modes": ["'91 certified repositories' sample size not in provided passage"],
+   "recommended_fix": "Attach the sample-size sentence."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to certified digital repositories and eight biomedical repositories; no overextension.",
+   "evidence": ["study systems: certified TDR websites; 8 biomedical repositories", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_8221f2eff113bdb6": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "A framing/transition sentence: the optimistic clause is attributed to ontology developers (Smith2007, partial), but 'audits... are sobering' is substantiated only in the following claim, not by this citation.",
+   "evidence": ["Smith2007 partial ('proliferation... creates obstacles')", "has_conflict_source=true", "second half unsupported by the cited source"],
+   "failure_modes": ["'sobering' asserted ahead of the supporting evidence"],
+   "recommended_fix": "Co-cite the audit sources or mark this as a forward reference."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Scoped to OBO-Foundry-style biomedical ontologies; the audit preview is bounded to the same domain.",
+   "evidence": ["study_system: OBO Foundry", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "established",
+  "claim_polarity": "mixed",
+  "claim_scope": "biological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_60c19d6243420b8e": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Every figure (64%/83%/23%, IEA >90%, 380,000 from 54 errors, 90% localization) is directly matched to its source passage; robustness 4. The track-3 prior explicitly concludes no fix is needed and the section is correctly scoped.",
+   "evidence": ["four direct_support passages with matching numbers", "MINOR track-3 prior: 'None... section correctly scopes itself'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Bounded to GO annotations across the named systems (UniProtKB, model eukaryotes, Arabidopsis); the curator explicitly deems the scope correct.",
+   "evidence": ["MINOR track-3 prior confirms correct scoping", "study systems: GO/UniProtKB, EBI-GOA, TAIR"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "biological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_1fae3fe73231c6fd": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The figure ('over 1,900 nonalignments') is directly supported by Bada2008; single study but the count is precise and not overstated.",
+   "evidence": ["Bada 'over 1900 instances of nonredundant nonalignments' (direct)", "critic_priors=[]"],
+   "failure_modes": ["'audits' (plural) rests on one study"],
+   "recommended_fix": "None substantive."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Bounded to core biomedical ontologies (GO, ChEBI, Cell Ontology); no overextension.",
+   "evidence": ["study_system: cross-ontology alignment GO/ChEBI/CL", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "biological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_8858a0bc8e154ee7": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Directly supported positive finding (curation consolidated redundancy and increased completeness); framed as one pole of a documented conflict with automated FAIRification, robustness 4.",
+   "evidence": ["Long2026 direct passage on consolidation/completeness", "has_conflict_source=true"],
+   "failure_modes": ["'212,027 samples / 468 studies' counts not in provided passage"],
+   "recommended_fix": "Attach the sentence stating the sample/study counts."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Bounded to metagenomic and cancer genomic metadata repositories; no overreach.",
+   "evidence": ["study_system: metagenomic and cancer genomic metadata", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_05d9024d8e52a3ee": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Figures exact and directly supported (1,988 DQ issues, 1,977 completeness issues induced by FAIRification, 68% resolved); framed as the counter-pole to manual curation. Robustness 2 but the numbers are precise.",
+   "evidence": ["Tahar2026 direct passage matching the counts", "has_conflict_source=true", "mechanical robustness=2"],
+   "failure_modes": ["replication_unknown; single implementation"],
+   "recommended_fix": "None substantive."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Bounded to rare-disease EHR across 24 German medical centres (MII/CORD-MI); no cross-domain claim.",
+   "evidence": ["study_system: rare-disease EHR, German MII/CORD-MI", "no scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "clinical",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_82855ebfc4b4c57f": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "Presents OMOP uniformly as content-losing ('repeatedly loses domain content') while omitting the package counter-side (Finster2025: OMOP the dominant, most-comprehensive CDM); MUST_FIX track-3 suppressed conflict means the contested framing is not caveated.",
+   "evidence": ["MUST_FIX track-3 suppressed conflict [16]; Finster2025 not cited", "has_conflict_source=true", "Nada passage supports tool-usage, not the 'lacks granularity' clause"],
+   "failure_modes": ["one-sided 'OMOP loses content' with no acknowledgment of its comprehensiveness"],
+   "recommended_fix": "Add a clause citing Finster2025 acknowledging OMOP's status."
+  },
+  "transferability_scope_control": {
+   "score": 2,
+   "rationale": "Three specific mapping studies (ELSO concepts, oncology scoping review, one rare-disease cohort) are generalized to a blanket 'mapping to OMOP repeatedly loses domain content', with the countervailing evidence suppressed.",
+   "evidence": ["MUST_FIX track-3 scope/conflict prior", "study systems: single US ECLS center; cancer scoping review; 198 EB patients"],
+   "failure_modes": ["narrow mapping failures generalized to the whole CDM"],
+   "recommended_fix": "Qualify as specific-domain gaps and cite the counter-evidence."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": "clinical",
+  "evidence_relation": "conflicted",
+  "cap_flags": ["contradicted_without_caveat"]
+ }
+}
