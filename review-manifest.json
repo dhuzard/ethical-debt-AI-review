@@ -24,8 +24,7 @@
     "license": "MIT"
   },
   "repository": {
-    "url": "https://github.com/dhuzard/ethical-debt-AI-review",
-    "releaseTag": "v0.1.0-trust-preview.1"
+    "url": "https://github.com/dhuzard/ethical-debt-AI-review"
   },
   "contact": {
     "name": "Damien Huzard",
