@@ -29,7 +29,7 @@ project:
     - plugins/evidence-explorer-plugin.mjs
     - plugins/figure-lightbox-plugin.mjs
     - plugins/trust-claim-plugin.mjs
-  github: https://github.com/AllenNeuralDynamics/ComputationalReviewTemplate
+  github: https://github.com/dhuzard/ethical-debt-AI-review
   bibliography:
     - content/references.bib
   toc:

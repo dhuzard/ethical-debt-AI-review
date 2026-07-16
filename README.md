@@ -1,8 +1,8 @@
-# Computational Review Template
+# The Ethical Debt
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21213212.svg)](https://doi.org/10.5281/zenodo.21213212)
 
-Template repository for producing comprehensive AI-assisted critical literature reviews using the Expert Review Pipeline v29.
+Computational critical review of why wasting animal data is wasting animal lives, produced with the Expert Review Pipeline v29 and published as an interactive MyST site.
 
 ## Pipeline Overview
 
@@ -10,45 +10,28 @@ Template repository for producing comprehensive AI-assisted critical literature 
 
 The pipeline executes 21 phases with **actor-critic separation** — 20 production phases (scoping through repository push) followed by Phase 21 deploy-polish, a post-deployment UX gate — section writers cannot see how they will be critiqued, figure auditors cannot see the argument arc, and citation verifiers cannot see the fix protocol. This prevents agents from gaming evaluation criteria.
 
-## Quick Start
+## Local build
 
-1. **Create a new repo** from this template (Use this template → Create a new repository)
-2. **Clone the new repo** and update `myst.yml` with your review title and description
-3. **Open in Claude** and provide your review prompt:
-
-```
-Start a comprehensive critical literature review titled: "[YOUR TITLE]"
-
-The three files in skills/ define the complete pipeline:
-
-skills/comprev-orchestrator-v29.md — The coordinator protocol. Read this FIRST.
-It defines the routing across 21 phases, gate artifacts, and the session protocol.
-Per-phase rules live in the agent skills, which the coordinator loads on demand.
-
-skills/comprev-reviewer-agent.md — The worker skill for LITREVIEW agents.
-Pass this to every LITREVIEW delegation so the agent can load it.
-
-skills/comprev-figure-construction.md — Already published as a skill on LITREVIEW agents.
-Section writers load it for figure production.
-
-GitHub Repository: https://github.com/[YOUR-ORG]/[YOUR-REPO]
-Push all outputs to this repo in Phase 20.
-
-Evidence parameters: [OPTIONAL — omit for defaults]
-- Target ≥200 papers per cluster, snowball 2 rounds
-- Saturation criterion: <2% new unique in last 100
-- Total bibliography target: ≥1000
-
-Table of Contents:
-1. Introduction
-2. [Your Section 2]
-3. [Your Section 3]
-...
-N. Conclusion
+```bash
+npm install
+node scripts/validate-trust.js
+node scripts/test-trust-validator.js
+node --test tests/*.test.mjs
+npx myst build --html
 ```
 
-4. The pipeline populates `content/`, `evidence/`, `figures/`, and `provenance/`
-5. GitHub Actions auto-builds and deploys the MyST site to GitHub Pages
+GitHub Actions runs the same TRUST validation and tests before deploying the MyST site to GitHub Pages.
+
+## TRUST v2 knowledge layer
+
+The review contains 510 prose-anchored claim records scored with TRUST rubric v2.0.0. Every `trust-claim` directive resolves to a deterministic graph record; its interactive MyST card exposes the overall band, all five component rules and rationales, verified source passages, atom-level citation attribution, scope judgments, and mandatory caps. Hover and keyboard focus also highlight the exact prose being assessed.
+
+- `knowledge/claim_graph.json` is the canonical claim and citation-context graph.
+- `knowledge/claim_index.json` and `knowledge/trust_score_report.json` are derived validator-owned views.
+- `content/trust_summary.md` provides review-level and section-level rollups.
+- `knowledge/trust_v1_to_v2_id_map.json` records the deterministic legacy-ID migration.
+
+Run `node scripts/migrate-trust-v2.js` only when regenerating the v2 artifacts and directives from the preserved legacy material; then run the validation commands above. The earlier Python TRUST scripts remain historical pipeline artifacts and must not be used to overwrite the v2 graph.
 
 ## What's Included
 
@@ -86,26 +69,28 @@ The pipeline is split into role-specific skills with **information barriers** to
 | `comprev-myst-validator` | 7V, 14V, 19V, 20V | DATAML | MyST build, structural checks, figure/heading consistency, plugin-directive invocation, evidence-package population, directive whitelist (7V/19V), repo-wide forbidden-lexicon glob (19V), author-identity placeholder check (20V) |
 | `comprev-deploy-polish` | 21 | DATAML | Post-deployment UX gate: tier-A static checks against built Pages-artifact tarball; tier-B live-URL checks (per-page HTTP, external link health) with manual-checklist fallback when deploy URL is sandbox-inaccessible |
 
-### Plugins (3 files in `plugins/`)
+### Plugins (4 files in `plugins/`)
 
 | Plugin | What it does |
 |--------|-------------|
 | `authorship-plugin.mjs` | Renders interactive CRediT authorship widget |
 | `evidence-explorer-plugin.mjs` | Loads evidence packages into interactive browser |
 | `figure-lightbox-plugin.mjs` | Click-to-zoom lightbox for inline figures |
+| `trust-claim-plugin.mjs` | Resolves enriched TRUST v2 records and mounts interactive claim cards |
 
-### Content placeholders (`content/`)
+### Review content (`content/`)
 
-Pre-configured pages that the pipeline populates:
+Published review pages and supporting views:
 - `00_frontmatter.md` — Abstract + authorship explorer
-- `01_introduction.md` — Placeholder (written in Phase 11)
-- `Methods.md` — Methods template with pipeline figure
+- `01_introduction.md` through `09_conclusion.md` — The complete review
+- `trust_summary.md` — TRUST v2 score rollups and review priorities
+- `Methods.md` — Methods and pipeline figure
 - `evidence_database.md` — Interactive evidence explorer
 - `provenance.md` — Pipeline execution summary
 
 ### Site infrastructure
 
-- `myst.yml` — MyST configuration with top-bar navigation (Review | Methods | Evidence | Provenance | GitHub)
+- `myst.yml` — MyST project, table of contents, plugins, and site configuration
 - `.github/workflows/deploy.yml` — Auto-builds MyST site and deploys to GitHub Pages
 - `scripts/shared_style.py` — Common figure style (colors, fonts, 300 DPI)
 - `content/authors.yml` — Author metadata for the authorship widget (extended into `myst.yml`)

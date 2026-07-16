@@ -1,124 +1,142 @@
 {
-  "claim_id": "clm_2f4c95c6017f8e0a",
+  "claim_id": "clm_c2d644434ce16083",
   "section_id": "sec-introduction",
   "source_file": "content/01_introduction.md",
-  "paragraph_index": 2,
-  "sentence_index": 1,
-  "claim_text": "Cortical inhibition timing can stabilize recurrent network activity under fluctuating inputs.",
-  "normalized_claim": "cortical inhibition timing stabilize recurrent network activity fluctuating input",
+  "paragraph_index": 1,
+  "sentence_index": 6,
+  "claim_text": "A retrospective harm–benefit analysis of preclinical research found that, weighing the animals' actual harms against the actual clinical benefit their studies produced, fewer than 7% of the studies examined would have been ethically permissible, and that 97% did not even report whether the animals received analgesia.",
+  "normalized_claim": "a retrospective harm benefit analysis of preclinical research found that weighing the animals actual harms against the actual clinical benefit their studies produced fewer than 7 of the studies examined would have been ethically permissible and that 97 did not even report whether the animals received analgesia",
+  "claim_atoms": [
+    {
+      "atom_id": "a1",
+      "text": "A retrospective harm–benefit analysis of preclinical research found that, weighing the animals' actual harms against the actual clinical benefit their studies produced, fewer than 7% of the studies examined would have been ethically permissible, and that 97% did not even report whether the animals received analgesia."
+    }
+  ],
   "claim_type": "empirical",
   "claim_scope": {
-    "biological": "rodent cortex",
-    "computational": "recurrent network dynamics",
-    "clinical": null,
-    "methodological": "in vivo electrophysiology",
-    "conceptual": "stability control"
+    "biological": "preclinical animal research harms and analgesia reporting",
+    "computational": null,
+    "clinical": "clinical benefit derived from preclinical studies",
+    "methodological": "retrospective harm-benefit weighting",
+    "conceptual": "ethical permissibility of animal research"
   },
-  "claim_polarity": "positive",
-  "modality": "likely",
-  "entities": [
-    {
-      "name": "inhibitory timing",
-      "entity_type": "concept",
-      "identifier": null
-    },
-    {
-      "name": "recurrent network",
-      "entity_type": "model",
-      "identifier": null
-    },
-    {
-      "name": "mouse",
-      "entity_type": "species",
-      "identifier": "NCBITaxon:10090"
-    }
+  "scope_status": "matched",
+  "claim_polarity": "negative",
+  "modality": "established",
+  "wording_strength": "unqualified",
+  "entities": [],
+  "citation_keys": [
+    "Pound2018"
   ],
-  "citation_keys": ["Cardin2009", "Atallah2012"],
-  "dois": ["10.1038/nature08417", "10.1038/nn.3446"],
+  "dois": [
+    "10.1371/journal.pone.0193758"
+  ],
   "citation_contexts": [
     {
-      "cite_key": "Cardin2009",
-      "doi": "10.1038/nature08417",
+      "cite_key": "Pound2018",
+      "doi": "10.1371/journal.pone.0193758",
       "role": "direct_support",
-      "supporting_passage": "Optogenetic activation of fast-spiking interneurons increased temporal precision and reduced runaway excitation.",
-      "passage_source": "full_text",
+      "source_type": "primary",
+      "bibliography_status": "verified",
+      "integrity_status": "verified_no_known_issue",
+      "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+      "integrity_check_source": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0193758",
+      "passages": [
+        {
+          "text": "Only the moderate bisphosphonate studies, less than 7% of the total, appeared to minimise harms to animals whilst being associated with benefit for humans.",
+          "passage_source": "full_text",
+          "locator": "Full text excerpt (legacy verification record)",
+          "verification_status": "verified",
+          "verification_source": "https://doi.org/10.1371/journal.pone.0193758",
+          "verified_at": "2026-07-08T23:15:00.000Z",
+          "supports_claim_atoms": [
+            "a1"
+          ]
+        }
+      ],
       "direction_match": true,
-      "notes": "Direct physiological support in mouse V1."
-    },
-    {
-      "cite_key": "Atallah2012",
-      "doi": "10.1038/nn.3446",
-      "role": "partial_support",
-      "supporting_passage": "Inhibitory activity scaled with excitatory drive and constrained gain.",
-      "passage_source": "abstract",
-      "direction_match": true,
-      "notes": "Supports stabilization but in narrower task context."
+      "supports_claim_atoms": [
+        "a1"
+      ],
+      "independence_group": "grp_c2d64443_1",
+      "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (1 independent citation(s); replication status ['replicated']; documented independent replication; effect size reported.).",
+      "scope_match": "exact",
+      "notes": null
     }
   ],
-  "evidence_relation": "partially_supported",
-  "conflicts": [
-    {
-      "conflict_type": "citation_key",
-      "target_id": "Hypothetical2016",
-      "notes": "Reported weak effect under anesthesia."
-    }
-  ],
-  "knowledge_edges": [
-    {
-      "subject": "inhibitory timing",
-      "predicate": "stabilizes",
-      "object": "recurrent network activity",
-      "qualifier": "under fluctuating input",
-      "edge_source": "claim_text"
-    }
-  ],
+  "evidence_relation": "directly_supported",
+  "conflicts": [],
+  "knowledge_edges": [],
   "trust_score": {
+    "rubric_version": "2.0.0",
     "components": {
       "traceability": {
         "score": 4,
-        "rationale": "All references resolve and include supporting passages.",
-        "evidence": ["2 citation contexts with DOI and passage source"],
-        "failure_modes": ["missing DOI", "no supporting passage"],
-        "recommended_fix": "Require DOI lookup and passage extraction before acceptance."
+        "rule_id": "T4_ATOM_LEVEL",
+        "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom. Legacy assessment: 1/1 citations carry a verbatim supporting passage (full text); DOIs present for 1/1.",
+        "evidence": [
+          "Pound2018:1 verified passage(s)"
+        ],
+        "failure_modes": [],
+        "recommended_fix": "Attach a verbatim supporting passage and a resolvable DOI to every citation."
       },
       "robustness": {
-        "score": 3,
-        "rationale": "Convergent support from two studies using related methods.",
-        "evidence": ["two independent studies", "aligned direction"],
-        "failure_modes": ["single-study support"],
-        "recommended_fix": "Add explicit replication evidence across labs."
+        "score": 2,
+        "rule_id": "R2_SINGLE_GROUP",
+        "rationale": "Every atom is covered, but the evidence resolves to one independence group. Legacy assessment: 1 independent citation(s); replication status ['replicated']; documented independent replication; effect size reported.",
+        "evidence": [
+          "grp_c2d64443_1"
+        ],
+        "failure_modes": [
+          "single-source claim",
+          "Every atom is covered, but the evidence resolves to one independence group."
+        ],
+        "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
       },
       "uncertainty_calibration": {
-        "score": 3,
-        "rationale": "Claim uses calibrated modality (likely).",
-        "evidence": ["modality=likely", "partial_support classification"],
-        "failure_modes": ["overstated confidence"],
-        "recommended_fix": "Use suggestive/uncertain language when replication is sparse."
+        "score": 4,
+        "rule_id": "U4_EXACT_CALIBRATION",
+        "rationale": "The surface wording matches direct eligible support. Legacy assessment: The finding is explicitly attributed to a single retrospective harm-benefit analysis and reported as that study's result, matching a replicated, non-conflicted source.",
+        "evidence": [
+          "evidence_relation=directly_supported",
+          "wording=SURFACE_UNQUALIFIED"
+        ],
+        "failure_modes": [],
+        "recommended_fix": "No change; wording correctly localises the figures to the cited analysis."
       },
       "source_integrity": {
         "score": 4,
-        "rationale": "Primary sources with DOI verification and full-text retrieval for key support.",
-        "evidence": ["CrossRef-verified DOI", "full_text passage for direct support"],
-        "failure_modes": ["metadata-only support", "retracted sources"],
-        "recommended_fix": "Drop retracted sources and require at least abstract-level traceability."
+        "rule_id": "S4_VERIFIED_PRIMARY",
+        "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified. Legacy assessment: CrossRef re-resolution: {'VERIFIED': 1}; 1/1 full-text-checked; bibliographically consistent.",
+        "evidence": [
+          "Pound2018:verified/verified_no_known_issue/primary"
+        ],
+        "failure_modes": [],
+        "recommended_fix": "Prefer peer-reviewed primary sources; keep DOIs CrossRef-consistent."
       },
       "transferability_scope_control": {
-        "score": 2,
-        "rationale": "Evidence is mostly rodent V1; broader cortical transfer remains uncertain.",
-        "evidence": ["scope limited to rodent V1"],
-        "failure_modes": ["species/generalization overreach"],
-        "recommended_fix": "Constrain claim scope explicitly to tested system."
+        "score": 4,
+        "rule_id": "X4_SCOPE_MATCHED",
+        "rationale": "The recorded evidence scope matches the claim. Legacy assessment: Claim stays within the source's preclinical-animal-studies scope and does not generalise beyond the analysed drug classes.",
+        "evidence": [
+          "scope_status=matched",
+          "Pound2018:exact"
+        ],
+        "failure_modes": [],
+        "recommended_fix": "No change needed."
       }
     },
-    "overall_score": 80,
-    "trust_label": "moderate_trust",
+    "raw_score": 90,
+    "overall_score": 90,
+    "trust_label": "high_trust",
     "capped": false,
+    "cap_value": null,
+    "cap_reasons": [],
     "cap_reason": null,
-    "computed_from": "validator",
-    "manual_override_justification": null
+    "computed_from": "validator"
   },
   "human_review_required": false,
-  "created_by_phase": "phase_5b_claim_seed",
-  "updated_by_phase": "phase_16_verification",
+  "created_by_phase": "trust_seed",
+  "updated_by_phase": "phase_16T_trust_score_validation_v2",
   "validation_status": "validated"
 }

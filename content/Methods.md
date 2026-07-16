@@ -626,6 +626,13 @@ Each evidence record was stored as a versioned artifact linked to its cluster, e
 
 Every citation–claim pairing in the review was verified against source metadata and, where the source was retrievable, against full text. Each pairing was checked for three properties: that the cited work exists and resolves to a valid identifier, that its bibliographic metadata matches the reference entry, and that the claim it supports is faithful to the source. Of the 1,466 citation triples extracted across 995 distinct references, 1,463 (99.8%) carry a verbatim source sentence captured from the cited paper at the point of extraction, providing an auditable chain from each claim to a specific passage in its source. All 992 cited references were independently re-resolved: 988 matched their metadata exactly, three differed only by an online-versus-print publication year, and one carries a national-registry identifier that resolves outside the primary metadata service. No reference was fabricated, chimeric, or misattributed, and an automated contamination scan for confabulated co-authors returned no hits. The six highest-risk references — those without a captured source sentence or carrying load-bearing quantitative claims — were additionally verified against live full text or abstracts and all confirmed. The verification produced no substantive citation corrections.
 
+(sec-methods-trust)=
+## TRUST Claim Scoring
+
+The published review exposes 510 prose-anchored claim records under TRUST rubric v2.0.0. Each score is recomputed mechanically from five explicit component rules—traceability, robustness, uncertainty calibration, source integrity, and transferability/scope—with mandatory caps applied independently of the weighted score. Citation contexts retain bibliography keys, canonical identifiers, registry-check provenance, claim atoms, evidence relations, and verified source passages of at most 25 words. The migration preserves each legacy claim-level unit as one atom; compound units are therefore marked for substantive splitting when warranted rather than silently receiving invented finer-grained attribution.
+
+The canonical graph, JSON schemas, deterministic claim index, score report, migration map, and validation gate are committed under `knowledge/` and `provenance/`. Every rendered `trust-claim` directive must resolve to one graph record and exact source passage; the deployment workflow blocks publication if schema, targeting, scoring, cap, attribution, bibliography, or derived-artifact checks fail. Aggregate results and human-review priorities are reported in the [Citation Trust Summary](./trust_summary.md).
+
 (sec-methods-pipeline)=
 ## Pipeline Execution
 

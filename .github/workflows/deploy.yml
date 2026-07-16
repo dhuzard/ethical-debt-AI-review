@@ -19,21 +19,26 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: '20'
+          node-version: '24'
+
+      - name: Validate TRUST knowledge
+        run: |
+          node scripts/validate-trust.js
+          node scripts/test-trust-validator.js
+          node --test tests/*.test.mjs
 
       - name: Install dependencies
         run: |
           pip install mystmd jupyter matplotlib numpy pandas seaborn
           npm install -g mystmd
-          npm install yaml
 
       - name: Execute figure notebooks
         run: |
@@ -48,7 +53,7 @@ jobs:
 
       - name: Build MyST site
         env:
-          BASE_URL: /ComputationalReviewTemplate
+          BASE_URL: /ethical-debt-AI-review
         run: myst build --html
 
       - name: Upload Pages artifact
