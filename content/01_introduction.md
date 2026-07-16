@@ -129,13 +129,37 @@ The near-universal framing of this evidence is as a scientific-quality problem: 
 :modality: likely
 :::
 
-The conceptual move at the heart of the review is to fold data stewardship into that existing framework rather than leave it as a technical afterthought, the argument developed in. {ref}`sec-data-welfare` A wave of proposals now argues that the welfare-focused 3Rs are insufficient without a scientific-value and reporting dimension, whether framed as a sixth R of Reporting, a wider set of research-integrity principles, or a bridging scheme between the research and protection communities, {cite:p}`Strech2019, Brink2023, DeGrazia2019` against a countervailing view that the 3Rs remain conceptually sufficient and are merely under-applied. {cite:p}`Vitale2022` This review adopts and sharpens the expansion under the term *data welfare*: the claim that letting animal-derived data become unfindable, unusable, or unreused is itself a welfare harm, because it wastes the welfare cost that produced the data. The link is not metaphorical but mechanical. Reduction was never a demand to use the fewest animals but to use no more than the knowledge requires, so a dataset that cannot be reused is knowledge that must be regenerated, and knowledge regenerated from live animals is animals used — the same logic that already lets the reuse of historical control data count as Reduction. {cite:p}`Kramer2015, Verderio2023` That the field itself deprioritises this data-facing R is part of the problem: surveys find researchers invert the original ordering, treating Refinement as the higher priority and Replacement as barely possible, so Reduction sits neglected in the middle. {cite:p}`Franco2018, LouisMaerten2024` The reframe is reinforced, not undercut, by evidence that welfare-improving practices tend to improve data quality rather than degrade it. {cite:p}`Cait2022`
+The conceptual move at the heart of the review is to fold data stewardship into that existing framework rather than leave it as a technical afterthought, the argument developed in. {ref}`sec-data-welfare` Strech and Dirnagl argued that the traditional welfare-focused 3Rs should be complemented by robustness, registration, and reporting as explicit scientific-value principles. {cite:p}`Strech2019` Brink and Lewis proposed a 12Rs framework spanning animal welfare, social values, and scientific integrity. {cite:p}`Brink2023` DeGrazia and Beauchamp proposed six principles of social benefit and animal welfare, arguing that their framework is more comprehensive than the canonical 3Rs. {cite:p}`DeGrazia2019` However, Vitale and Ricceri described the 3Rs as the methodological and ethical backbone of animal research and argued that difficulties applying all three do not make the principle obsolete or ineffective. {cite:p}`Vitale2022` This review adopts and sharpens the expansion under the term *data welfare*: the claim that letting animal-derived data become unfindable, unusable, or unreused is itself a welfare harm, because it wastes the welfare cost that produced the data. The link is not metaphorical but mechanical. Reduction was never a demand to use the fewest animals but to use no more than the knowledge requires, so a dataset that cannot be reused is knowledge that must be regenerated, and knowledge regenerated from live animals is animals used — the same logic that already lets the reuse of historical control data count as Reduction. {cite:p}`Kramer2015, Verderio2023` That the field itself deprioritises this data-facing R is part of the problem: surveys find researchers invert the original ordering, treating Refinement as the higher priority and Replacement as barely possible, so Reduction sits neglected in the middle. {cite:p}`Franco2018, LouisMaerten2024` The reframe is reinforced, not undercut, by evidence that welfare-improving practices tend to improve data quality rather than degrade it. {cite:p}`Cait2022`
 
 :::{trust-claim}
-:claim-id: clm_c2df61237caa7fa0
-:claim: A wave of proposals now argues that the welfare-focused 3Rs are insufficient without a scientific-value and reporting dimension, whether framed as a sixth R of Reporting, a wider set of research-integrity principles, or a bridging scheme between the research and protection communities, against a countervailing view that the 3Rs remain conceptually sufficient and are merely under-applied.
-:cites: Strech2019, Brink2023, DeGrazia2019, Vitale2022
-:claim-type: review_synthesis
+:claim-id: clm_2166f4a156ee26d0
+:claim: Strech and Dirnagl argued that the traditional welfare-focused 3Rs should be complemented by robustness, registration, and reporting as explicit scientific-value principles.
+:cites: Strech2019
+:claim-type: methodological
+:modality: established
+:::
+
+:::{trust-claim}
+:claim-id: clm_f754fbc3935f5cda
+:claim: Brink and Lewis proposed a 12Rs framework spanning animal welfare, social values, and scientific integrity.
+:cites: Brink2023
+:claim-type: methodological
+:modality: established
+:::
+
+:::{trust-claim}
+:claim-id: clm_9fffa0247a80ac54
+:claim: DeGrazia and Beauchamp proposed six principles of social benefit and animal welfare, arguing that their framework is more comprehensive than the canonical 3Rs.
+:cites: DeGrazia2019
+:claim-type: methodological
+:modality: established
+:::
+
+:::{trust-claim}
+:claim-id: clm_2d554ac4d182ba9a
+:claim: However, Vitale and Ricceri described the 3Rs as the methodological and ethical backbone of animal research and argued that difficulties applying all three do not make the principle obsolete or ineffective.
+:cites: Vitale2022
+:claim-type: methodological
 :modality: contested
 :::
 

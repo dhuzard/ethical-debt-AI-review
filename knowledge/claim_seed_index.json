@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-07-16T08:31:21.142Z",
+  "generated_at": "2026-07-16T08:44:28.953Z",
   "generated_by_phase": "phase_5b_claim_seed_v2_migration",
   "claim_id_algorithm": "sha256(section_id + LF + nfkc_trim_whitespace_collapsed_exact_text)[0:16]",
   "claims": [
@@ -258,25 +258,64 @@
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_c2df61237caa7fa0",
+      "claim_id": "clm_2166f4a156ee26d0",
       "section_id": "sec-introduction",
-      "claim_text": "A wave of proposals now argues that the welfare-focused 3Rs are insufficient without a scientific-value and reporting dimension, whether framed as a sixth R of Reporting, a wider set of research-integrity principles, or a bridging scheme between the research and protection communities, against a countervailing view that the 3Rs remain conceptually sufficient and are merely under-applied.",
-      "normalized_claim": "a wave of proposals now argues that the welfare focused 3rs are insufficient without a scientific value and reporting dimension whether framed as a sixth r of reporting a wider set of research integrity principles or a bridging scheme between the research and protection communities against a countervailing view that the 3rs remain conceptually sufficient and are merely under applied",
-      "claim_type": "review_synthesis",
+      "claim_text": "Strech and Dirnagl argued that the traditional welfare-focused 3Rs should be complemented by robustness, registration, and reporting as explicit scientific-value principles.",
+      "normalized_claim": "strech and dirnagl argued that the traditional welfare focused 3rs should be complemented by robustness registration and reporting as explicit scientific value principles",
+      "claim_type": "methodological",
+      "modality": "established",
+      "citation_keys": [
+        "Strech2019"
+      ],
+      "dois": [
+        "10.1136/bmjos-2018-000048"
+      ],
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_f754fbc3935f5cda",
+      "section_id": "sec-introduction",
+      "claim_text": "Brink and Lewis proposed a 12Rs framework spanning animal welfare, social values, and scientific integrity.",
+      "normalized_claim": "brink and lewis proposed a 12rs framework spanning animal welfare social values and scientific integrity",
+      "claim_type": "methodological",
+      "modality": "established",
+      "citation_keys": [
+        "Brink2023"
+      ],
+      "dois": [
+        "10.3390/ani13071128"
+      ],
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_9fffa0247a80ac54",
+      "section_id": "sec-introduction",
+      "claim_text": "DeGrazia and Beauchamp proposed six principles of social benefit and animal welfare, arguing that their framework is more comprehensive than the canonical 3Rs.",
+      "normalized_claim": "degrazia and beauchamp proposed six principles of social benefit and animal welfare arguing that their framework is more comprehensive than the canonical 3rs",
+      "claim_type": "methodological",
+      "modality": "established",
+      "citation_keys": [
+        "DeGrazia2019"
+      ],
+      "dois": [
+        "10.1093/ilar/ilz011"
+      ],
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_2d554ac4d182ba9a",
+      "section_id": "sec-introduction",
+      "claim_text": "However, Vitale and Ricceri described the 3Rs as the methodological and ethical backbone of animal research and argued that difficulties applying all three do not make the principle obsolete or ineffective.",
+      "normalized_claim": "however vitale and ricceri described the 3rs as the methodological and ethical backbone of animal research and argued that difficulties applying all three do not make the principle obsolete or ineffective",
+      "claim_type": "methodological",
       "modality": "contested",
       "citation_keys": [
-        "Strech2019",
-        "Brink2023",
-        "DeGrazia2019",
         "Vitale2022"
       ],
       "dois": [
-        "10.1136/bmjos-2018-000048",
-        "10.3390/ani13071128",
-        "10.1093/ilar/ilz011",
         "10.3389/fphys.2022.914939"
       ],
-      "validation_status": "needs_human_review"
+      "validation_status": "validated"
     },
     {
       "claim_id": "clm_9258126587247356",

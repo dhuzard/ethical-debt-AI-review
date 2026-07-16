@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T08:31:21.142Z",
+  "generated_at": "2026-07-16T08:44:28.953Z",
   "source": "knowledge/claim_graph.json",
   "formula": "raw_score = 5 * sum(component scores); overall_score = min(raw_score, 60) when any cap reason applies",
   "claims": [
@@ -1137,114 +1137,257 @@
       "cap_reasons": []
     },
     {
-      "claim_id": "clm_c2df61237caa7fa0",
+      "claim_id": "clm_2166f4a156ee26d0",
       "component_scores": {
         "traceability": 4,
-        "robustness": 3,
-        "uncertainty_calibration": 0,
-        "source_integrity": 3,
+        "robustness": 4,
+        "uncertainty_calibration": 4,
+        "source_integrity": 4,
         "transferability_scope_control": 4
       },
       "component_rules": {
         "traceability": "T4_ATOM_LEVEL",
-        "robustness": "R3_CONVERGENT",
-        "uncertainty_calibration": "U0_OVERSTATED",
-        "source_integrity": "S3_MIXED_CHECKS",
+        "robustness": "R4_ORIGINATING_SOURCE",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
         "transferability_scope_control": "X4_SCOPE_MATCHED"
       },
       "score_basis": {
-        "claim_text": "A wave of proposals now argues that the welfare-focused 3Rs are insufficient without a scientific-value and reporting dimension, whether framed as a sixth R of Reporting, a wider set of research-integrity principles, or a bridging scheme between the research and protection communities, against a countervailing view that the 3Rs remain conceptually sufficient and are merely under-applied.",
+        "claim_text": "Strech and Dirnagl argued that the traditional welfare-focused 3Rs should be complemented by robustness, registration, and reporting as explicit scientific-value principles.",
         "eligible_citations": [
           {
             "cite_key": "Strech2019",
             "doi": "10.1136/bmjos-2018-000048",
             "role": "direct_support",
-            "source_type": "narrative_review",
+            "source_type": "primary",
             "supports_claim_atoms": [
               "a1"
             ],
             "verified_passage_locators": [
-              "Full text excerpt (legacy verification record)"
+              "Full text, rationale for complementing the welfare 3Rs (part 1)",
+              "Full text, rationale for complementing the welfare 3Rs (part 2)",
+              "Full text, three additional scientific-value principles"
             ],
-            "independence_group": "grp_c2df6123_1",
-            "scope_match": "exact"
-          },
-          {
-            "cite_key": "Brink2023",
-            "doi": "10.3390/ani13071128",
-            "role": "direct_support",
-            "source_type": "narrative_review",
-            "supports_claim_atoms": [
-              "a1"
-            ],
-            "verified_passage_locators": [
-              "Full text excerpt (legacy verification record)"
-            ],
-            "independence_group": "grp_c2df6123_2",
-            "scope_match": "exact"
-          },
-          {
-            "cite_key": "DeGrazia2019",
-            "doi": "10.1093/ilar/ilz011",
-            "role": "partial_support",
-            "source_type": "narrative_review",
-            "supports_claim_atoms": [
-              "a1"
-            ],
-            "verified_passage_locators": [
-              "Abstract excerpt (legacy verification record)"
-            ],
-            "independence_group": "grp_c2df6123_3",
-            "scope_match": "exact"
-          },
-          {
-            "cite_key": "Vitale2022",
-            "doi": "10.3389/fphys.2022.914939",
-            "role": "partial_support",
-            "source_type": "narrative_review",
-            "supports_claim_atoms": [
-              "a1"
-            ],
-            "verified_passage_locators": [
-              "Full text excerpt (legacy verification record)"
-            ],
-            "independence_group": "grp_c2df6123_4",
+            "independence_group": "grp_2166f4a1_1",
             "scope_match": "exact"
           }
         ],
         "atom_support": {
           "a1": [
-            "Strech2019",
-            "Brink2023",
-            "DeGrazia2019",
+            "Strech2019"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "grp_2166f4a1_1"
+          ]
+        },
+        "derived_evidence_relation": "directly_supported",
+        "wording_strength": "unqualified",
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_ATTRIBUTION",
+          "markers": [
+            "argued"
+          ]
+        },
+        "modality": "established",
+        "scope_status": "matched"
+      },
+      "raw_score": 100,
+      "overall_score": 100,
+      "trust_label": "high_trust",
+      "capped": false,
+      "cap_reasons": []
+    },
+    {
+      "claim_id": "clm_f754fbc3935f5cda",
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 4,
+        "uncertainty_calibration": 4,
+        "source_integrity": 4,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R4_ORIGINATING_SOURCE",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "score_basis": {
+        "claim_text": "Brink and Lewis proposed a 12Rs framework spanning animal welfare, social values, and scientific integrity.",
+        "eligible_citations": [
+          {
+            "cite_key": "Brink2023",
+            "doi": "10.3390/ani13071128",
+            "role": "direct_support",
+            "source_type": "primary",
+            "supports_claim_atoms": [
+              "a1"
+            ],
+            "verified_passage_locators": [
+              "Abstract, 12Rs framework proposal",
+              "Abstract, three 12Rs domains"
+            ],
+            "independence_group": "grp_f754fbc3_1",
+            "scope_match": "exact"
+          }
+        ],
+        "atom_support": {
+          "a1": [
+            "Brink2023"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "grp_f754fbc3_1"
+          ]
+        },
+        "derived_evidence_relation": "directly_supported",
+        "wording_strength": "unqualified",
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_ATTRIBUTION",
+          "markers": [
+            "proposed"
+          ]
+        },
+        "modality": "established",
+        "scope_status": "matched"
+      },
+      "raw_score": 100,
+      "overall_score": 100,
+      "trust_label": "high_trust",
+      "capped": false,
+      "cap_reasons": []
+    },
+    {
+      "claim_id": "clm_9fffa0247a80ac54",
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 4,
+        "uncertainty_calibration": 4,
+        "source_integrity": 4,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R4_ORIGINATING_SOURCE",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "score_basis": {
+        "claim_text": "DeGrazia and Beauchamp proposed six principles of social benefit and animal welfare, arguing that their framework is more comprehensive than the canonical 3Rs.",
+        "eligible_citations": [
+          {
+            "cite_key": "DeGrazia2019",
+            "doi": "10.1093/ilar/ilz011",
+            "role": "direct_support",
+            "source_type": "primary",
+            "supports_claim_atoms": [
+              "a1"
+            ],
+            "verified_passage_locators": [
+              "Full text, composition of the six-principle framework",
+              "Abstract, comparison with the canonical 3Rs"
+            ],
+            "independence_group": "grp_9fffa024_1",
+            "scope_match": "exact"
+          }
+        ],
+        "atom_support": {
+          "a1": [
+            "DeGrazia2019"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "grp_9fffa024_1"
+          ]
+        },
+        "derived_evidence_relation": "directly_supported",
+        "wording_strength": "unqualified",
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_ATTRIBUTION",
+          "markers": [
+            "proposed"
+          ]
+        },
+        "modality": "established",
+        "scope_status": "matched"
+      },
+      "raw_score": 100,
+      "overall_score": 100,
+      "trust_label": "high_trust",
+      "capped": false,
+      "cap_reasons": []
+    },
+    {
+      "claim_id": "clm_2d554ac4d182ba9a",
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 3,
+        "uncertainty_calibration": 2,
+        "source_integrity": 4,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R3_ATTRIBUTION_COMPLETE",
+        "uncertainty_calibration": "U2_CONFLICT_DISCLOSED",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "score_basis": {
+        "claim_text": "However, Vitale and Ricceri described the 3Rs as the methodological and ethical backbone of animal research and argued that difficulties applying all three do not make the principle obsolete or ineffective.",
+        "eligible_citations": [
+          {
+            "cite_key": "Vitale2022",
+            "doi": "10.3389/fphys.2022.914939",
+            "role": "direct_support",
+            "source_type": "primary",
+            "supports_claim_atoms": [
+              "a1"
+            ],
+            "verified_passage_locators": [
+              "Abstract, status of the 3Rs",
+              "Full text, conclusion on practical limits and continued relevance"
+            ],
+            "independence_group": "grp_2d554ac4_1",
+            "scope_match": "exact"
+          }
+        ],
+        "atom_support": {
+          "a1": [
             "Vitale2022"
           ]
         },
         "independence_groups_by_atom": {
           "a1": [
-            "grp_c2df6123_1",
-            "grp_c2df6123_2",
-            "grp_c2df6123_3",
-            "grp_c2df6123_4"
+            "grp_2d554ac4_1"
           ]
         },
         "derived_evidence_relation": "conflicted",
-        "wording_strength": "unqualified",
+        "wording_strength": "contested",
         "wording_basis": {
-          "wording_strength": "unqualified",
-          "rule_id": "SURFACE_UNQUALIFIED",
-          "markers": []
+          "wording_strength": "contested",
+          "rule_id": "SURFACE_CONFLICT",
+          "markers": [
+            "However"
+          ]
         },
         "modality": "contested",
         "scope_status": "matched"
       },
-      "raw_score": 70,
-      "overall_score": 60,
-      "trust_label": "low_trust",
-      "capped": true,
-      "cap_reasons": [
-        "contradicted_without_caveat"
-      ]
+      "raw_score": 85,
+      "overall_score": 85,
+      "trust_label": "high_trust",
+      "capped": false,
+      "cap_reasons": []
     },
     {
       "claim_id": "clm_9258126587247356",
@@ -45221,15 +45364,15 @@
     }
   ],
   "summary": {
-    "total_claims": 520,
-    "mean_overall_score": 89.40384615384616,
+    "total_claims": 523,
+    "mean_overall_score": 89.51242829827916,
     "minimum_overall_score": 50,
     "maximum_overall_score": 100,
-    "high_trust": 434,
+    "high_trust": 438,
     "moderate_trust": 55,
-    "low_trust": 31,
+    "low_trust": 30,
     "critical_or_unreliable": 0,
-    "capped_claims": 31,
-    "needs_human_review": 31
+    "capped_claims": 30,
+    "needs_human_review": 30
   }
 }

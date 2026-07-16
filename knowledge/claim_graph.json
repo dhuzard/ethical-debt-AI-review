@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T08:31:21.142Z",
+  "generated_at": "2026-07-16T08:44:28.953Z",
   "generated_by_phase": "phase_16T_trust_score_validation_v2",
   "claims": [
     {
@@ -2699,62 +2699,78 @@
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_c2df61237caa7fa0",
+      "claim_id": "clm_2166f4a156ee26d0",
       "section_id": "sec-introduction",
       "source_file": "content/01_introduction.md",
       "paragraph_index": 5,
       "sentence_index": 2,
-      "claim_text": "A wave of proposals now argues that the welfare-focused 3Rs are insufficient without a scientific-value and reporting dimension, whether framed as a sixth R of Reporting, a wider set of research-integrity principles, or a bridging scheme between the research and protection communities, against a countervailing view that the 3Rs remain conceptually sufficient and are merely under-applied.",
-      "normalized_claim": "a wave of proposals now argues that the welfare focused 3rs are insufficient without a scientific value and reporting dimension whether framed as a sixth r of reporting a wider set of research integrity principles or a bridging scheme between the research and protection communities against a countervailing view that the 3rs remain conceptually sufficient and are merely under applied",
+      "claim_text": "Strech and Dirnagl argued that the traditional welfare-focused 3Rs should be complemented by robustness, registration, and reporting as explicit scientific-value principles.",
+      "normalized_claim": "strech and dirnagl argued that the traditional welfare focused 3rs should be complemented by robustness registration and reporting as explicit scientific value principles",
       "claim_atoms": [
         {
           "atom_id": "a1",
-          "text": "A wave of proposals now argues that the welfare-focused 3Rs are insufficient without a scientific-value and reporting dimension, whether framed as a sixth R of Reporting, a wider set of research-integrity principles, or a bridging scheme between the research and protection communities, against a countervailing view that the 3Rs remain conceptually sufficient and are merely under-applied."
+          "text": "Strech and Dirnagl argued that the traditional welfare-focused 3Rs should be complemented by robustness, registration, and reporting as explicit scientific-value principles."
         }
       ],
-      "claim_type": "review_synthesis",
+      "claim_type": "methodological",
       "claim_scope": {
-        "biological": "animal-research 3Rs framework",
+        "biological": "animal research",
         "computational": null,
         "clinical": null,
-        "methodological": "scientific-value and reporting dimensions",
-        "conceptual": "adequacy of the 3Rs vs expanded frameworks"
+        "methodological": "six-principle 3Rs framework",
+        "conceptual": "animal welfare and scientific value"
       },
       "scope_status": "matched",
-      "claim_polarity": "mixed",
-      "modality": "contested",
+      "claim_polarity": "positive",
+      "modality": "established",
       "wording_strength": "unqualified",
       "entities": [],
       "citation_keys": [
-        "Strech2019",
-        "Brink2023",
-        "DeGrazia2019",
-        "Vitale2022"
+        "Strech2019"
       ],
       "dois": [
-        "10.1136/bmjos-2018-000048",
-        "10.3390/ani13071128",
-        "10.1093/ilar/ilz011",
-        "10.3389/fphys.2022.914939"
+        "10.1136/bmjos-2018-000048"
       ],
       "citation_contexts": [
         {
           "cite_key": "Strech2019",
           "doi": "10.1136/bmjos-2018-000048",
           "role": "direct_support",
-          "source_type": "narrative_review",
+          "source_type": "primary",
           "bibliography_status": "verified",
           "integrity_status": "verified_no_known_issue",
           "integrity_checked_at": "2026-07-08T23:15:00.000Z",
           "integrity_check_source": "https://api.crossref.org/works/10.1136%2Fbmjos-2018-000048",
           "passages": [
             {
-              "text": "In times where approximately 50% of animal studies are not reported,only the preregistration of animal study protocols allows the identification of biased, delayed or unreported",
+              "text": "Our core argument is that the current 3R principles for animal research, despite their importance, are limited because of their one-sided focus on the basic",
               "passage_source": "full_text",
-              "locator": "Full text excerpt (legacy verification record)",
+              "locator": "Full text, rationale for complementing the welfare 3Rs (part 1)",
               "verification_status": "verified",
               "verification_source": "https://doi.org/10.1136/bmjos-2018-000048",
-              "verified_at": "2026-07-08T23:15:00.000Z",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            },
+            {
+              "text": "ethical principle ‘animal welfare’. They lack an explicit and practice-oriented set of guiding principles promoting the second basic ethical principle ‘scientific value’.",
+              "passage_source": "full_text",
+              "locator": "Full text, rationale for complementing the welfare 3Rs (part 2)",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.1136/bmjos-2018-000048",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            },
+            {
+              "text": "Furthermore, each of the additional 3R principles (robustness, registration and reporting) is important in itself and not replaceable by the other two.",
+              "passage_source": "full_text",
+              "locator": "Full text, three additional scientific-value principles",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.1136/bmjos-2018-000048",
+              "verified_at": "2026-07-16T00:00:00.000Z",
               "supports_claim_atoms": [
                 "a1"
               ]
@@ -2764,28 +2780,148 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_c2df6123_1",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 4 independent citation(s); replication status ['disputed', 'replicated']; documented independent replication; effect size reported.",
+          "independence_group": "grp_2166f4a1_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
           "scope_match": "exact",
           "notes": null
+        }
+      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
+            "evidence": [
+              "Strech2019:3 verified passage(s)"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "robustness": {
+            "score": 4,
+            "rule_id": "R4_ORIGINATING_SOURCE",
+            "rationale": "A direct primary source covers the complete attribution without an unresolved contradiction.",
+            "evidence": [
+              "grp_2166f4a1_1"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "uncertainty_calibration": {
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
+            "evidence": [
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_ATTRIBUTION",
+              "argued"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "source_integrity": {
+            "score": 4,
+            "rule_id": "S4_VERIFIED_PRIMARY",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
+            "evidence": [
+              "Strech2019:verified/verified_no_known_issue/primary"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
+              "Strech2019:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
         },
+        "raw_score": 100,
+        "overall_score": 100,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_f754fbc3935f5cda",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "paragraph_index": 5,
+      "sentence_index": 3,
+      "claim_text": "Brink and Lewis proposed a 12Rs framework spanning animal welfare, social values, and scientific integrity.",
+      "normalized_claim": "brink and lewis proposed a 12rs framework spanning animal welfare social values and scientific integrity",
+      "claim_atoms": [
+        {
+          "atom_id": "a1",
+          "text": "Brink and Lewis proposed a 12Rs framework spanning animal welfare, social values, and scientific integrity."
+        }
+      ],
+      "claim_type": "methodological",
+      "claim_scope": {
+        "biological": "animal research",
+        "computational": null,
+        "clinical": null,
+        "methodological": "12Rs framework",
+        "conceptual": "animal welfare, social values, and scientific integrity"
+      },
+      "scope_status": "matched",
+      "claim_polarity": "positive",
+      "modality": "established",
+      "wording_strength": "unqualified",
+      "entities": [],
+      "citation_keys": [
+        "Brink2023"
+      ],
+      "dois": [
+        "10.3390/ani13071128"
+      ],
+      "citation_contexts": [
         {
           "cite_key": "Brink2023",
           "doi": "10.3390/ani13071128",
           "role": "direct_support",
-          "source_type": "narrative_review",
+          "source_type": "primary",
           "bibliography_status": "verified",
           "integrity_status": "verified_no_known_issue",
           "integrity_checked_at": "2026-07-08T23:15:00.000Z",
           "integrity_check_source": "https://api.crossref.org/works/10.3390%2Fani13071128",
           "passages": [
             {
-              "text": "A survey undertaken by Monya Baker, published for Nature reported that 70% of respondents could not replicate other researchers’ pre-clinical studies, with 50% also unable",
-              "passage_source": "full_text",
-              "locator": "Full text excerpt (legacy verification record)",
+              "text": "we developed the 12 Rs Framework to act as a mind map to guide scientists, oversight structures, and other stakeholders through the myriad of ethical",
+              "passage_source": "abstract",
+              "locator": "Abstract, 12Rs framework proposal",
               "verification_status": "verified",
               "verification_source": "https://doi.org/10.3390/ani13071128",
-              "verified_at": "2026-07-08T23:15:00.000Z",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            },
+            {
+              "text": "It unfolds into three domains of twelve encompassing ethical principles, values, and other considerations, including the animal welfare, social values, and scientific integrity domains.",
+              "passage_source": "abstract",
+              "locator": "Abstract, three 12Rs domains",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.3390/ani13071128",
+              "verified_at": "2026-07-16T00:00:00.000Z",
               "supports_claim_atoms": [
                 "a1"
               ]
@@ -2795,28 +2931,148 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_c2df6123_2",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 4 independent citation(s); replication status ['disputed', 'replicated']; documented independent replication; effect size reported.",
+          "independence_group": "grp_f754fbc3_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
           "scope_match": "exact",
           "notes": null
+        }
+      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
+            "evidence": [
+              "Brink2023:2 verified passage(s)"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "robustness": {
+            "score": 4,
+            "rule_id": "R4_ORIGINATING_SOURCE",
+            "rationale": "A direct primary source covers the complete attribution without an unresolved contradiction.",
+            "evidence": [
+              "grp_f754fbc3_1"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "uncertainty_calibration": {
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
+            "evidence": [
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_ATTRIBUTION",
+              "proposed"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "source_integrity": {
+            "score": 4,
+            "rule_id": "S4_VERIFIED_PRIMARY",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
+            "evidence": [
+              "Brink2023:verified/verified_no_known_issue/primary"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
+              "Brink2023:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
         },
+        "raw_score": 100,
+        "overall_score": 100,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_9fffa0247a80ac54",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "paragraph_index": 5,
+      "sentence_index": 4,
+      "claim_text": "DeGrazia and Beauchamp proposed six principles of social benefit and animal welfare, arguing that their framework is more comprehensive than the canonical 3Rs.",
+      "normalized_claim": "degrazia and beauchamp proposed six principles of social benefit and animal welfare arguing that their framework is more comprehensive than the canonical 3rs",
+      "claim_atoms": [
+        {
+          "atom_id": "a1",
+          "text": "DeGrazia and Beauchamp proposed six principles of social benefit and animal welfare, arguing that their framework is more comprehensive than the canonical 3Rs."
+        }
+      ],
+      "claim_type": "methodological",
+      "claim_scope": {
+        "biological": "animal research",
+        "computational": null,
+        "clinical": null,
+        "methodological": "six-principle animal-research-ethics framework",
+        "conceptual": "social benefit and animal welfare"
+      },
+      "scope_status": "matched",
+      "claim_polarity": "positive",
+      "modality": "established",
+      "wording_strength": "unqualified",
+      "entities": [],
+      "citation_keys": [
+        "DeGrazia2019"
+      ],
+      "dois": [
+        "10.1093/ilar/ilz011"
+      ],
+      "citation_contexts": [
         {
           "cite_key": "DeGrazia2019",
           "doi": "10.1093/ilar/ilz011",
-          "role": "partial_support",
-          "source_type": "narrative_review",
+          "role": "direct_support",
+          "source_type": "primary",
           "bibliography_status": "verified",
           "integrity_status": "verified_no_known_issue",
           "integrity_checked_at": "2026-07-08T23:15:00.000Z",
           "integrity_check_source": "https://api.crossref.org/works/10.1093%2Filar%2Filz011",
           "passages": [
             {
-              "text": "These six principles, we argue, constitute a more suitable framework than any other that is currently available, including the canonical 3 Rs advanced in 1959",
-              "passage_source": "abstract",
-              "locator": "Abstract excerpt (legacy verification record)",
+              "text": "we present, clarify, and briefly defend a new framework of moral principles containing 3 principles of social benefit and 3 principles of animal welfare.",
+              "passage_source": "full_text",
+              "locator": "Full text, composition of the six-principle framework",
               "verification_status": "verified",
               "verification_source": "https://doi.org/10.1093/ilar/ilz011",
-              "verified_at": "2026-07-08T23:15:00.000Z",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            },
+            {
+              "text": "These six principles, we argue, constitute a more suitable framework than any other that is currently available, including the canonical 3 Rs advanced in 1959",
+              "passage_source": "abstract",
+              "locator": "Abstract, comparison with the canonical 3Rs",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.1093/ilar/ilz011",
+              "verified_at": "2026-07-16T00:00:00.000Z",
               "supports_claim_atoms": [
                 "a1"
               ]
@@ -2826,28 +3082,148 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_c2df6123_3",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 4 independent citation(s); replication status ['disputed', 'replicated']; documented independent replication; effect size reported.",
+          "independence_group": "grp_9fffa024_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
           "scope_match": "exact",
           "notes": null
+        }
+      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
+            "evidence": [
+              "DeGrazia2019:2 verified passage(s)"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "robustness": {
+            "score": 4,
+            "rule_id": "R4_ORIGINATING_SOURCE",
+            "rationale": "A direct primary source covers the complete attribution without an unresolved contradiction.",
+            "evidence": [
+              "grp_9fffa024_1"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "uncertainty_calibration": {
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
+            "evidence": [
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_ATTRIBUTION",
+              "proposed"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "source_integrity": {
+            "score": 4,
+            "rule_id": "S4_VERIFIED_PRIMARY",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
+            "evidence": [
+              "DeGrazia2019:verified/verified_no_known_issue/primary"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
+              "DeGrazia2019:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
         },
+        "raw_score": 100,
+        "overall_score": 100,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_2d554ac4d182ba9a",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "paragraph_index": 5,
+      "sentence_index": 5,
+      "claim_text": "However, Vitale and Ricceri described the 3Rs as the methodological and ethical backbone of animal research and argued that difficulties applying all three do not make the principle obsolete or ineffective.",
+      "normalized_claim": "however vitale and ricceri described the 3rs as the methodological and ethical backbone of animal research and argued that difficulties applying all three do not make the principle obsolete or ineffective",
+      "claim_atoms": [
+        {
+          "atom_id": "a1",
+          "text": "However, Vitale and Ricceri described the 3Rs as the methodological and ethical backbone of animal research and argued that difficulties applying all three do not make the principle obsolete or ineffective."
+        }
+      ],
+      "claim_type": "methodological",
+      "claim_scope": {
+        "biological": "animal research",
+        "computational": null,
+        "clinical": null,
+        "methodological": "pragmatic application of the 3Rs",
+        "conceptual": "continuing relevance of the 3Rs"
+      },
+      "scope_status": "matched",
+      "claim_polarity": "mixed",
+      "modality": "contested",
+      "wording_strength": "contested",
+      "entities": [],
+      "citation_keys": [
+        "Vitale2022"
+      ],
+      "dois": [
+        "10.3389/fphys.2022.914939"
+      ],
+      "citation_contexts": [
         {
           "cite_key": "Vitale2022",
           "doi": "10.3389/fphys.2022.914939",
-          "role": "partial_support",
-          "source_type": "narrative_review",
+          "role": "direct_support",
+          "source_type": "primary",
           "bibliography_status": "verified",
           "integrity_status": "verified_no_known_issue",
           "integrity_checked_at": "2026-07-08T23:15:00.000Z",
           "integrity_check_source": "https://api.crossref.org/works/10.3389%2Ffphys.2022.914939",
           "passages": [
             {
-              "text": "This has been a crucial strategic move: it inspired the idea that animal welfare was directly related to scientific quality and therefore was in the",
-              "passage_source": "full_text",
-              "locator": "Full text excerpt (legacy verification record)",
+              "text": "The Principle of the 3Rs is widely recognised as the methodological and ethical backbone of contemporary animal research.",
+              "passage_source": "abstract",
+              "locator": "Abstract, status of the 3Rs",
               "verification_status": "verified",
               "verification_source": "https://doi.org/10.3389/fphys.2022.914939",
-              "verified_at": "2026-07-08T23:15:00.000Z",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            },
+            {
+              "text": "all of its three aspects, but this does not absolutely mean that the Principle as an idea is neither obsolete nor ineffective.",
+              "passage_source": "full_text",
+              "locator": "Full text, conclusion on practical limits and continued relevance",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.3389/fphys.2022.914939",
+              "verified_at": "2026-07-16T00:00:00.000Z",
               "supports_claim_atoms": [
                 "a1"
               ]
@@ -2857,8 +3233,8 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_c2df6123_4",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 4 independent citation(s); replication status ['disputed', 'replicated']; documented independent replication; effect size reported.",
+          "independence_group": "grp_2d554ac4_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
           "scope_match": "exact",
           "notes": null
         }
@@ -2867,13 +3243,8 @@
       "conflicts": [
         {
           "conflict_type": "citation_key",
-          "target_id": "Vitale2022",
-          "notes": "Whether the classic 3Rs framework is inadequate and must be expanded with scientific-value principles (Strech & Dirnagl's 6Rs) or remains conceptually sufficient and merely under-applied (Vitale & Ric"
-        },
-        {
-          "conflict_type": "citation_key",
           "target_id": "Strech2019",
-          "notes": "Whether the classic 3Rs framework is inadequate and must be expanded with scientific-value principles (Strech & Dirnagl's 6Rs) or remains conceptually sufficient and merely under-applied (Vitale & Ric"
+          "notes": "Vitale and Ricceri defend the continuing relevance of the established 3Rs while Strech and Dirnagl argue that explicit scientific-value principles must complement them."
         }
       ],
       "knowledge_edges": [],
@@ -2883,90 +3254,74 @@
           "traceability": {
             "score": 4,
             "rule_id": "T4_ATOM_LEVEL",
-            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom. Legacy assessment: 4/4 citations carry a verbatim supporting passage (full text); DOIs present for 4/4.",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
             "evidence": [
-              "Strech2019:1 verified passage(s)",
-              "Brink2023:1 verified passage(s)",
-              "DeGrazia2019:1 verified passage(s)",
-              "Vitale2022:1 verified passage(s)"
+              "Vitale2022:2 verified passage(s)"
             ],
             "failure_modes": [],
-            "recommended_fix": "Attach a verbatim supporting passage and a resolvable DOI to every citation."
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "robustness": {
             "score": 3,
-            "rule_id": "R3_CONVERGENT",
-            "rationale": "Independent groups converge, but at least one atom has support from only one group. Legacy assessment: 4 independent citation(s); replication status ['disputed', 'replicated']; documented independent replication; effect size reported.",
+            "rule_id": "R3_ATTRIBUTION_COMPLETE",
+            "rationale": "Eligible sources cover the attribution, but no one direct primary source covers it completely.",
             "evidence": [
-              "grp_c2df6123_1",
-              "grp_c2df6123_2",
-              "grp_c2df6123_3",
-              "grp_c2df6123_4"
+              "grp_2d554ac4_1"
             ],
             "failure_modes": [
-              "cited source(s) disputed/contested",
-              "Independent groups converge, but at least one atom has support from only one group."
+              "Eligible sources cover the attribution, but no one direct primary source covers it completely."
             ],
             "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
           },
           "uncertainty_calibration": {
-            "score": 0,
-            "rule_id": "U0_OVERSTATED",
-            "rationale": "The surface wording is stronger than the derived evidence relation permits. Legacy assessment: The claim explicitly names both sides of the debate, presenting the expansionist proposals 'against a countervailing view that the 3Rs remain conceptually sufficient'.",
+            "score": 2,
+            "rule_id": "U2_CONFLICT_DISCLOSED",
+            "rationale": "The wording discloses a conflict in the evidence.",
             "evidence": [
               "evidence_relation=conflicted",
-              "wording=SURFACE_UNQUALIFIED"
+              "wording=SURFACE_CONFLICT",
+              "However"
             ],
             "failure_modes": [
-              "The surface wording is stronger than the derived evidence relation permits."
+              "The wording discloses a conflict in the evidence."
             ],
             "recommended_fix": "Revise the claim wording or verification inputs so the stated certainty matches the derived evidence relation."
           },
           "source_integrity": {
-            "score": 3,
-            "rule_id": "S3_MIXED_CHECKS",
-            "rationale": "Source records resolve, but integrity or primary-source status is mixed. Legacy assessment: CrossRef re-resolution: {'VERIFIED': 4}; 3/4 full-text-checked; bibliographically consistent.",
+            "score": 4,
+            "rule_id": "S4_VERIFIED_PRIMARY",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
             "evidence": [
-              "Strech2019:verified/verified_no_known_issue/narrative_review",
-              "Brink2023:verified/verified_no_known_issue/narrative_review",
-              "DeGrazia2019:verified/verified_no_known_issue/narrative_review",
-              "Vitale2022:verified/verified_no_known_issue/narrative_review"
+              "Vitale2022:verified/verified_no_known_issue/primary"
             ],
-            "failure_modes": [
-              "Source records resolve, but integrity or primary-source status is mixed."
-            ],
-            "recommended_fix": "Resolve bibliography records and check a current registry or publisher record for each relied-upon source."
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "transferability_scope_control": {
             "score": 4,
             "rule_id": "X4_SCOPE_MATCHED",
-            "rationale": "The recorded evidence scope matches the claim. Legacy assessment: All cited proposals and the counter-view sit squarely within animal-research-ethics frameworks; no scope inflation.",
+            "rationale": "The recorded evidence scope matches the claim.",
             "evidence": [
               "scope_status=matched",
-              "Strech2019:exact",
-              "Brink2023:exact",
-              "DeGrazia2019:exact",
               "Vitale2022:exact"
             ],
             "failure_modes": [],
-            "recommended_fix": "No change needed."
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           }
         },
-        "raw_score": 70,
-        "overall_score": 60,
-        "trust_label": "low_trust",
-        "capped": true,
-        "cap_value": 60,
-        "cap_reasons": [
-          "contradicted_without_caveat"
-        ],
-        "cap_reason": "contradicted_without_caveat",
+        "raw_score": 85,
+        "overall_score": 85,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
         "computed_from": "validator"
       },
-      "human_review_required": true,
-      "created_by_phase": "trust_seed",
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
       "updated_by_phase": "phase_16T_trust_score_validation_v2",
-      "validation_status": "needs_human_review"
+      "validation_status": "validated"
     },
     {
       "claim_id": "clm_9258126587247356",
@@ -44139,7 +44494,7 @@
             "a1"
           ],
           "independence_group": "grp_78bb9583_1",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration.",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
           "scope_match": "exact",
           "notes": "Passage retained during approved human review from the original verified citation context."
         }
@@ -44289,7 +44644,7 @@
             "a1"
           ],
           "independence_group": "grp_e3ea0361_1",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration.",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
           "scope_match": "exact",
           "notes": "Passage retained during approved human review from the original verified citation context."
         }
@@ -107059,7 +107414,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_c2df61237caa7fa0",
+      "source_claim_id": "clm_2166f4a156ee26d0",
       "relation": "supports",
       "target": "Strech2019",
       "target_type": "citation",
@@ -107067,7 +107422,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_c2df61237caa7fa0",
+      "source_claim_id": "clm_f754fbc3935f5cda",
       "relation": "supports",
       "target": "Brink2023",
       "target_type": "citation",
@@ -107075,19 +107430,19 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_c2df61237caa7fa0",
-      "relation": "partially_supports",
+      "source_claim_id": "clm_9fffa0247a80ac54",
+      "relation": "supports",
       "target": "DeGrazia2019",
       "target_type": "citation",
-      "weight": 0.5,
+      "weight": 1,
       "notes": null
     },
     {
-      "source_claim_id": "clm_c2df61237caa7fa0",
-      "relation": "partially_supports",
+      "source_claim_id": "clm_2d554ac4d182ba9a",
+      "relation": "supports",
       "target": "Vitale2022",
       "target_type": "citation",
-      "weight": 0.5,
+      "weight": 1,
       "notes": null
     },
     {
@@ -117932,11 +118287,11 @@
     }
   ],
   "summary": {
-    "total_claims": 520,
-    "high_trust": 434,
+    "total_claims": 523,
+    "high_trust": 438,
     "moderate_trust": 55,
-    "low_trust": 31,
+    "low_trust": 30,
     "critical_or_unreliable": 0,
-    "needs_human_review": 31
+    "needs_human_review": 30
   }
 }

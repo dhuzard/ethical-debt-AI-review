@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T08:31:21.142Z",
+  "generated_at": "2026-07-16T08:44:28.953Z",
   "source": "knowledge/claim_graph.json",
   "claims_by_id": {
     "clm_c2d644434ce16083": {
@@ -213,21 +213,57 @@
       "trust_label": "high_trust",
       "human_review_required": false
     },
-    "clm_c2df61237caa7fa0": {
+    "clm_2166f4a156ee26d0": {
       "source_file": "content/01_introduction.md",
       "section_id": "sec-introduction",
       "paragraph_index": 5,
       "sentence_index": 2,
-      "claim_text": "A wave of proposals now argues that the welfare-focused 3Rs are insufficient without a scientific-value and reporting dimension, whether framed as a sixth R of Reporting, a wider set of research-integrity principles, or a bridging scheme between the research and protection communities, against a countervailing view that the 3Rs remain conceptually sufficient and are merely under-applied.",
+      "claim_text": "Strech and Dirnagl argued that the traditional welfare-focused 3Rs should be complemented by robustness, registration, and reporting as explicit scientific-value principles.",
       "citation_keys": [
-        "Strech2019",
-        "Brink2023",
-        "DeGrazia2019",
+        "Strech2019"
+      ],
+      "overall_score": 100,
+      "trust_label": "high_trust",
+      "human_review_required": false
+    },
+    "clm_f754fbc3935f5cda": {
+      "source_file": "content/01_introduction.md",
+      "section_id": "sec-introduction",
+      "paragraph_index": 5,
+      "sentence_index": 3,
+      "claim_text": "Brink and Lewis proposed a 12Rs framework spanning animal welfare, social values, and scientific integrity.",
+      "citation_keys": [
+        "Brink2023"
+      ],
+      "overall_score": 100,
+      "trust_label": "high_trust",
+      "human_review_required": false
+    },
+    "clm_9fffa0247a80ac54": {
+      "source_file": "content/01_introduction.md",
+      "section_id": "sec-introduction",
+      "paragraph_index": 5,
+      "sentence_index": 4,
+      "claim_text": "DeGrazia and Beauchamp proposed six principles of social benefit and animal welfare, arguing that their framework is more comprehensive than the canonical 3Rs.",
+      "citation_keys": [
+        "DeGrazia2019"
+      ],
+      "overall_score": 100,
+      "trust_label": "high_trust",
+      "human_review_required": false
+    },
+    "clm_2d554ac4d182ba9a": {
+      "source_file": "content/01_introduction.md",
+      "section_id": "sec-introduction",
+      "paragraph_index": 5,
+      "sentence_index": 5,
+      "claim_text": "However, Vitale and Ricceri described the 3Rs as the methodological and ethical backbone of animal research and argued that difficulties applying all three do not make the principle obsolete or ineffective.",
+      "citation_keys": [
         "Vitale2022"
       ],
-      "overall_score": 60,
-      "trust_label": "low_trust",
-      "human_review_required": true
+      "overall_score": 85,
+      "trust_label": "high_trust",
+      "human_review_required": false
     },
     "clm_9258126587247356": {
       "source_file": "content/01_introduction.md",
