@@ -29,12 +29,13 @@ w = L.append
 w("(sec-trust-summary)=")
 w("# Citation Trust Summary\n")
 w("Every cited claim in this review carries a **citation TRUST score**: a 0–100 rating built from "
-  "five components, each scored 0–4 — **Traceability** (does the claim resolve to a citation, DOI, and a "
+  "five components displayed as 0–20 points each — **Traceability** (does the claim resolve to a citation, DOI, and a "
   "verbatim supporting passage?), **Robustness** (independent sources, replication, convergent design), "
   "**Uncertainty calibration** (does the wording hedge conflict and limits appropriately?), "
   "**Source integrity** (verified, bibliographically consistent, primary rather than secondary), and "
   "**Transferability / scope control** (does the claim stay within the evidence's scope?). "
-  "The overall score is `round(100 × sum(components) / 20)`; a mandatory rule caps it at 60 when a claim "
+  "The validated rubric stores each component on a 0–4 rule scale and the interface multiplies it by five; "
+  "the displayed component points sum to the 0–100 total. A mandatory rule caps it at 60 when a claim "
   "rests on an unsupported or contradicted citation or overextends its scope. Components computable from "
   "the review's own verification records were scored deterministically; the wording-and-scope components "
   "were assessed per claim. Bands: **85–100 high · 70–84 moderate · 50–69 low · <50 critical**.\n")
@@ -50,10 +51,10 @@ w("![Overall trust band split and score distribution](../figures/fig_trust_overa
 
 # component means
 cm = rep["component_means"]
-w("## Component means (0–4)\n")
+w("## Component means (0–20 points)\n")
 w("| Traceability | Robustness | Uncertainty calibration | Source integrity | Transferability / scope |")
 w("|---|---|---|---|---|")
-w(f"| {cm['traceability']} | {cm['robustness']} | {cm['uncertainty_calibration']} | {cm['source_integrity']} | {cm['transferability_scope_control']} |\n")
+w(f"| {round(cm['traceability'] * 5, 2)} | {round(cm['robustness'] * 5, 2)} | {round(cm['uncertainty_calibration'] * 5, 2)} | {round(cm['source_integrity'] * 5, 2)} | {round(cm['transferability_scope_control'] * 5, 2)} |\n")
 
 # per-section rollup
 w("## Per-section rollup\n")

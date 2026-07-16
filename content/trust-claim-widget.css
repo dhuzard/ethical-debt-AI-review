@@ -56,6 +56,13 @@
   background: #eef4fb;
 }
 
+.tc-summary.tc-card-is-highlighted,
+.tc-card-btn.tc-card-is-highlighted {
+  background: #dbeafe;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.28);
+}
+
 .tc-summary:focus-visible,
 .tc-card-btn:focus-visible {
   outline: 3px solid #2563eb;
@@ -105,7 +112,7 @@
   border-radius: 0.32rem;
   padding: 0.18rem 0.42rem;
   font-size: 0.75rem;
-  min-width: 2rem;
+  min-width: 3.7rem;
   text-align: center;
   font-weight: 800;
 }
@@ -129,6 +136,17 @@ mark.tc-runtime-highlight {
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
   transition: background-color 100ms ease, box-shadow 100ms ease;
+}
+
+.trust-claim-target,
+mark.tc-runtime-target {
+  cursor: help;
+}
+
+mark.tc-runtime-target {
+  color: inherit;
+  background: transparent;
+  padding: 0;
 }
 
 html[data-theme="dark"] .trust-claim-target.tc-is-highlighted,

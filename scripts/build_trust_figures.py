@@ -57,17 +57,17 @@ ax.spines[["top", "right"]].set_visible(False)
 savefig(fig, "fig_trust_by_section.png")
 
 # ---------- Figure 2: component-mean heatmap (section x component) ----------
-M = np.array([[np.mean([c["trust_score"]["components"][k]["score"] for c in claims if c["section_id"] == s]) for k in COMPS] for s in secs])
+M = 5 * np.array([[np.mean([c["trust_score"]["components"][k]["score"] for c in claims if c["section_id"] == s]) for k in COMPS] for s in secs])
 fig, ax = plt.subplots(figsize=(11, 6))
-im = ax.imshow(M, cmap="RdYlGn", vmin=1.5, vmax=4, aspect="auto")
+im = ax.imshow(M, cmap="RdYlGn", vmin=7.5, vmax=20, aspect="auto")
 ax.set_xticks(range(len(COMPS))); ax.set_xticklabels(COMP_SHORT, fontsize=10)
 ax.set_yticks(range(len(secs))); ax.set_yticklabels([SEC_SHORT[s] for s in secs])
 for i in range(len(secs)):
     for j in range(len(COMPS)):
         ax.text(j, i, f"{M[i, j]:.2f}", ha="center", va="center",
-                color="#111827" if M[i, j] >= 2.6 else "white", fontsize=9)
-ax.set_title("Mean TRUST component score by section (0-4)", fontweight="bold", loc="left")
-cb = fig.colorbar(im, ax=ax, shrink=0.8); cb.set_label("mean component score")
+                color="#111827" if M[i, j] >= 13 else "white", fontsize=9)
+ax.set_title("Mean TRUST component points by section (0-20)", fontweight="bold", loc="left")
+cb = fig.colorbar(im, ax=ax, shrink=0.8); cb.set_label("mean component points")
 savefig(fig, "fig_trust_components.png")
 
 # ---------- Figure 3: overall band donut + score histogram ----------

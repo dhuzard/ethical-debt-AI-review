@@ -4,7 +4,9 @@ import assert from 'node:assert/strict';
 import {
   activateConcernedText,
   bindHighlightLifecycle,
+  displayComponentScore,
   findTextQuote,
+  formatTrustScore,
   renderCitationContexts,
   trustBandText,
 } from '../content/trust-claim-widget.mjs';
@@ -25,6 +27,15 @@ test('runtime quote matcher fails closed on paraphrases and ambiguity', () => {
     start: 0,
     end: 30,
   });
+});
+
+test('visible TRUST scores use five 20-point components and a 100-point total', () => {
+  assert.equal(displayComponentScore(0), 0);
+  assert.equal(displayComponentScore(3), 15);
+  assert.equal(displayComponentScore(4), 20);
+  assert.equal(displayComponentScore(5), null);
+  assert.equal(formatTrustScore(85), '85/100');
+  assert.equal(formatTrustScore(null), '??/100');
 });
 
 test('build-time target highlighting is coordinated and cleanup is idempotent', () => {
@@ -48,10 +59,15 @@ test('build-time target highlighting is coordinated and cleanup is idempotent', 
   assert.equal(classes.has('tc-is-highlighted'), false);
 });
 
-test('hover binds only to the score badge while focus binds to the full control', () => {
+test('hovering either the score or exact text highlights both sides', () => {
   class FakeEventTarget {
     constructor() {
       this.listeners = new Map();
+      this.classes = new Set();
+      this.classList = {
+        add: (name) => this.classes.add(name),
+        remove: (name) => this.classes.delete(name),
+      };
     }
 
     addEventListener(type, listener) {
@@ -70,11 +86,10 @@ test('hover binds only to the score badge while focus binds to the full control'
   }
 
   const classes = new Set();
-  const exactTarget = {
-    classList: {
-      add: (name) => classes.add(name),
-      remove: (name) => classes.delete(name),
-    },
+  const exactTarget = new FakeEventTarget();
+  exactTarget.classList = {
+    add: (name) => classes.add(name),
+    remove: (name) => classes.delete(name),
   };
   const doc = {
     getElementById: (id) => (id === 'exact-target' ? exactTarget : null),
@@ -96,9 +111,18 @@ test('hover binds only to the score badge while focus binds to the full control'
 
   scoreBadge.emit('mouseenter');
   assert.equal(classes.has('tc-is-highlighted'), true);
+  assert.equal(control.classes.has('tc-card-is-highlighted'), true);
   assert.match(status.textContent, /exact text scored/);
   scoreBadge.emit('mouseleave');
   assert.equal(classes.has('tc-is-highlighted'), false);
+  assert.equal(control.classes.has('tc-card-is-highlighted'), false);
+
+  exactTarget.emit('mouseenter');
+  assert.equal(classes.has('tc-is-highlighted'), true);
+  assert.equal(control.classes.has('tc-card-is-highlighted'), true);
+  exactTarget.emit('mouseleave');
+  assert.equal(classes.has('tc-is-highlighted'), false);
+  assert.equal(control.classes.has('tc-card-is-highlighted'), false);
 
   control.emit('focus');
   assert.equal(classes.has('tc-is-highlighted'), true);

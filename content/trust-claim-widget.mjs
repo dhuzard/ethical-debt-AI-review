@@ -114,7 +114,7 @@ function collectTextNodes(element) {
   return nodes;
 }
 
-function markTextRange(element, range, anchorName) {
+function wrapTextRange(element, range, anchorName, className = 'tc-runtime-highlight') {
   const doc = element.ownerDocument;
   const textNodes = collectTextNodes(element);
   const segments = [];
@@ -139,7 +139,7 @@ function markTextRange(element, range, anchorName) {
     const after = segment.node.splitText(segment.end);
     const selected = segment.node.splitText(segment.start);
     const mark = doc.createElement('mark');
-    mark.className = 'tc-runtime-highlight';
+    mark.className = className;
     mark.dataset.trustClaimAnchor = anchorName;
     selected.parentNode.replaceChild(mark, selected);
     mark.appendChild(selected);
@@ -149,7 +149,7 @@ function markTextRange(element, range, anchorName) {
     void after;
   }
 
-  return () => {
+  const cleanup = () => {
     for (const mark of marks) {
       if (!mark.parentNode) continue;
       const parent = mark.parentNode;
@@ -158,6 +158,11 @@ function markTextRange(element, range, anchorName) {
       parent.normalize();
     }
   };
+  return { marks, cleanup };
+}
+
+function markTextRange(element, range, anchorName) {
+  return wrapTextRange(element, range, anchorName)?.cleanup || null;
 }
 
 function previousContentSibling(el) {
@@ -190,8 +195,15 @@ export function activateConcernedText(el, selector = {}) {
 
   let cleanup = null;
   let highlighted = false;
+  const runtimeAnchor = selector.targetAnchor || selector.scopeAnchor || selector.targetId || 'runtime';
+  const runtimeTargets = Array.from(doc.querySelectorAll?.('[data-trust-claim-anchor]') || [])
+    .filter((candidate) => candidate.dataset?.trustClaimAnchor === runtimeAnchor);
 
-  if (targetAnchor) {
+  if (runtimeTargets.length > 0) {
+    runtimeTargets.forEach((target) => target.classList.add('tc-is-highlighted'));
+    cleanup = () => runtimeTargets.forEach((target) => target.classList.remove('tc-is-highlighted'));
+    highlighted = true;
+  } else if (targetAnchor) {
     targetAnchor.classList.add('tc-is-highlighted');
     cleanup = () => targetAnchor.classList.remove('tc-is-highlighted');
     highlighted = true;
@@ -229,6 +241,37 @@ export function activateConcernedText(el, selector = {}) {
   };
   activeHighlights.set(doc, coordinatedCleanup);
   return { highlighted, cleanup: coordinatedCleanup };
+}
+
+/**
+ * Resolve the exact prose nodes that can initiate reverse highlighting. Exact
+ * build-time anchors are reused. A unique runtime quote is wrapped in neutral
+ * semantic marks so it can receive pointer events without looking highlighted
+ * until either side of the interaction is active.
+ */
+export function prepareConcernedTextTargets(el, selector = {}) {
+  const doc = el.ownerDocument;
+  const targetAnchor = selector.targetAnchor ? doc.getElementById(selector.targetAnchor) : null;
+  if (targetAnchor) return { targets: [targetAnchor], cleanup: () => {} };
+
+  const explicitTarget = selector.targetId ? doc.getElementById(selector.targetId) : null;
+  if (explicitTarget && !selector.quote) return { targets: [explicitTarget], cleanup: () => {} };
+
+  const scope = selector.scopeAnchor ? doc.getElementById(selector.scopeAnchor) : null;
+  const quoteScope = explicitTarget || scope || previousContentSibling(el);
+  if (!quoteScope || !selector.quote) return { targets: [], cleanup: () => {} };
+  const range = findTextQuote(
+    quoteScope.textContent || '',
+    selector.quote,
+    selector.prefix,
+    selector.suffix,
+  );
+  if (!range) return { targets: [], cleanup: () => {} };
+  const anchorName = selector.targetAnchor || selector.scopeAnchor || selector.targetId || 'runtime';
+  const wrapped = wrapTextRange(quoteScope, range, anchorName, 'tc-runtime-target');
+  return wrapped
+    ? { targets: wrapped.marks, cleanup: wrapped.cleanup }
+    : { targets: [], cleanup: () => {} };
 }
 
 export function renderCitationContexts(contexts) {
@@ -302,6 +345,14 @@ function renderReferences(citationContexts, cites) {
   }).join('');
 }
 
+export function displayComponentScore(score) {
+  return Number.isInteger(score) && score >= 0 && score <= 4 ? score * 5 : null;
+}
+
+export function formatTrustScore(score) {
+  return score == null || Number.isNaN(Number(score)) ? '??/100' : `${Number(score)}/100`;
+}
+
 function renderRationale(components) {
   if (!components || typeof components !== 'object') {
     return '<div class="tc-empty">Why this score was assigned will appear after validator scoring.</div>';
@@ -319,7 +370,8 @@ function renderRationale(components) {
   for (const [key, label] of labels) {
     const item = components[key];
     if (!item || typeof item !== 'object') continue;
-    const score = Number.isInteger(item.score) ? item.score : 'n/a';
+    const displayScore = displayComponentScore(item.score);
+    const score = displayScore == null ? 'n/a' : displayScore;
     const rationale = escapeHtml(item.rationale || 'No rationale provided.');
     const ruleId = escapeHtml(item.rule_id || 'unversioned-rule');
     const evidence = Array.isArray(item.evidence) && item.evidence.length > 0
@@ -327,7 +379,7 @@ function renderRationale(components) {
       : '<div class="tc-muted">No component evidence references recorded.</div>';
     rows.push(`
       <div class="tc-rationale-row">
-        <div class="tc-rationale-head"><strong>${label}</strong> <span class="tc-mini-score">${score}/4</span></div>
+        <div class="tc-rationale-head"><strong>${label}</strong> <span class="tc-mini-score">${score}/20</span></div>
         <div class="tc-muted">Rule: ${ruleId}</div>
         <div class="tc-muted">${rationale}</div>
         ${evidence}
@@ -342,7 +394,7 @@ function renderRationale(components) {
 
 function summaryTitle(score) {
   if (score == null || Number.isNaN(Number(score))) return 'TRUST pending';
-  return `TRUST ${Number(score)}`;
+  return `TRUST ${formatTrustScore(score)}`;
 }
 
 export function trustBandText(score) {
@@ -435,6 +487,12 @@ const WIDGET_STYLES = `
   }
 
   .tc-card-btn:hover { background: #eef4fb; }
+  .tc-summary.tc-card-is-highlighted,
+  .tc-card-btn.tc-card-is-highlighted {
+    background: #dbeafe;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.28);
+  }
   .tc-summary:focus-visible,
   .tc-card-btn:focus-visible {
     outline: 3px solid #2563eb;
@@ -471,7 +529,7 @@ const WIDGET_STYLES = `
     border-radius: 0.32rem;
     padding: 0.18rem 0.42rem;
     font-size: 0.75rem;
-    min-width: 2rem;
+    min-width: 3.7rem;
     text-align: center;
     font-weight: 800;
   }
@@ -621,37 +679,49 @@ const WIDGET_STYLES = `
 `;
 
 /**
- * Bind pointer highlighting to the visible score while keeping the complete
- * score control as the keyboard focus target.
+ * Bind bidirectional pointer highlighting between the visible score and its
+ * exact prose, while keeping the complete score control keyboard-accessible.
  */
 export function bindHighlightLifecycle(focusTrigger, hoverTrigger, el, selector, status) {
-  let hovered = false;
+  let scoreHovered = false;
+  let textHovered = false;
   let focused = false;
   let activeCleanup = null;
   const pointerTrigger = hoverTrigger || focusTrigger;
+  const prepared = prepareConcernedTextTargets(el, selector);
 
   function activate() {
     activeCleanup?.();
     const result = activateConcernedText(el, selector);
     activeCleanup = result.cleanup;
+    focusTrigger.classList?.add('tc-card-is-highlighted');
     status.textContent = result.highlighted
       ? 'The exact text scored by this TRUST tag is highlighted.'
       : 'The exact text for this TRUST tag could not be located.';
   }
 
   function deactivate() {
-    if (hovered || focused) return;
+    if (scoreHovered || textHovered || focused) return;
     activeCleanup?.();
     activeCleanup = null;
+    focusTrigger.classList?.remove('tc-card-is-highlighted');
     status.textContent = '';
   }
 
-  function onMouseEnter() {
-    hovered = true;
+  function onScoreMouseEnter() {
+    scoreHovered = true;
     activate();
   }
-  function onMouseLeave() {
-    hovered = false;
+  function onScoreMouseLeave() {
+    scoreHovered = false;
+    deactivate();
+  }
+  function onTextMouseEnter() {
+    textHovered = true;
+    activate();
+  }
+  function onTextMouseLeave() {
+    textHovered = false;
     deactivate();
   }
   function onFocus() {
@@ -663,20 +733,31 @@ export function bindHighlightLifecycle(focusTrigger, hoverTrigger, el, selector,
     deactivate();
   }
 
-  pointerTrigger.addEventListener('mouseenter', onMouseEnter);
-  pointerTrigger.addEventListener('mouseleave', onMouseLeave);
+  pointerTrigger.addEventListener('mouseenter', onScoreMouseEnter);
+  pointerTrigger.addEventListener('mouseleave', onScoreMouseLeave);
   focusTrigger.addEventListener('focus', onFocus);
   focusTrigger.addEventListener('blur', onBlur);
+  prepared.targets.forEach((target) => {
+    target.addEventListener('mouseenter', onTextMouseEnter);
+    target.addEventListener('mouseleave', onTextMouseLeave);
+  });
 
   return () => {
-    hovered = false;
+    scoreHovered = false;
+    textHovered = false;
     focused = false;
     activeCleanup?.();
     activeCleanup = null;
-    pointerTrigger.removeEventListener('mouseenter', onMouseEnter);
-    pointerTrigger.removeEventListener('mouseleave', onMouseLeave);
+    focusTrigger.classList?.remove('tc-card-is-highlighted');
+    pointerTrigger.removeEventListener('mouseenter', onScoreMouseEnter);
+    pointerTrigger.removeEventListener('mouseleave', onScoreMouseLeave);
     focusTrigger.removeEventListener('focus', onFocus);
     focusTrigger.removeEventListener('blur', onBlur);
+    prepared.targets.forEach((target) => {
+      target.removeEventListener('mouseenter', onTextMouseEnter);
+      target.removeEventListener('mouseleave', onTextMouseLeave);
+    });
+    prepared.cleanup();
   };
 }
 
@@ -704,7 +785,7 @@ function render({ model, el }) {
     suffix: model.get('suffix') || '',
   };
 
-  const scoreText = trustScore == null || Number.isNaN(Number(trustScore)) ? '??' : String(Number(trustScore));
+  const scoreText = formatTrustScore(trustScore);
   const trustBand = trustBandText(trustScore);
   const bandClass = scoreBandClass(trustScore);
   const classLabel = claimClassLabel(claimType);

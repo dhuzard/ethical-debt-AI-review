@@ -1,7 +1,7 @@
 (sec-trust-summary)=
 # Citation Trust Summary
 
-This review exposes **529 claim-level TRUST records** using rubric v2.0.0. Hovering or focusing a score highlights the concerned prose; opening the card reveals all five component rules, rationales, verified source passages, atom attribution, scope status, and cap reasons.
+This review exposes **529 claim-level TRUST records** using rubric v2.0.0. Every score is displayed out of **100**, as five TRUST components worth **20 points each**. The validated data retain the rubric's 0–4 rule level internally and the interface multiplies each component by five. Hovering either the exact scored prose or its score highlights both; opening the card reveals all five component rules, rationales, verified source passages, atom attribution, scope status, and cap reasons.
 
 The mean overall score is **89.6**. Band distribution: **high 444 · moderate 56 · low 29 · critical 0**. **28** claims trigger a mandatory cap, and **29** remain explicit human-review priorities.
 
@@ -11,11 +11,11 @@ The mean overall score is **89.6**. Band distribution: **high 444 · moderate 56
 
 ![Overall trust band split and score distribution](../figures/fig_trust_overall.png)
 
-## Component means (0–4)
+## Component means (0–20 points)
 
 | Traceability | Robustness | Uncertainty calibration | Source integrity | Transferability / scope |
 |---:|---:|---:|---:|---:|
-| 3.99 | 3.11 | 3.75 | 3.58 | 3.60 |
+| 19.95 | 15.55 | 18.75 | 17.90 | 18.00 |
 
 ## Per-section rollup
 
