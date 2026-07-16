@@ -2,7 +2,7 @@ name: Build and Deploy MyST Site
 
 on:
   push:
-    branches: [main]
+    branches: [main, trust-scores]
   pull_request:
     branches: [main]
 
@@ -57,13 +57,13 @@ jobs:
         run: myst build --html
 
       - name: Upload Pages artifact
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/trust-scores'
         uses: actions/upload-pages-artifact@v4
         with:
           path: _build/html
 
   deploy:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/trust-scores'
     needs: build
     environment:
       name: github-pages
