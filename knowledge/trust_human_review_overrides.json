@@ -589,6 +589,112 @@
           "conflicts": []
         }
       ]
+    },
+    {
+      "decision_id": "hr_005_vcg_endpoint_concordance",
+      "claim_id": "clm_4e3de3e27d28a4ec",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "notes": "Approved in the PR human-review pass. Replace the unsupported exact clinical/preclinical analogy and causal mechanism with scoped, endpoint-specific findings that disclose the conflicting virtual-control evidence.",
+      "original_markdown": "The parallel to preclinical VCGs is exact: the hybrid design that retained half the real controls outperformed the full-replacement design {cite:p}`DuchateauNguyen2026` for the same reason that dynamic borrowing outperforms static pooling — partial reliance on concurrent data hedges against the drift that pure reuse cannot detect.",
+      "replacement_markdown": "In a Wistar Han rat liver-enzyme analysis, 68.5% of concurrent-versus-virtual-control comparisons achieved at least 90% agreement in effect-size estimates. {cite:p}`DuchateauNguyen2026` However, a separate review found that 31–49% of quantitative clinical-pathology parameters were not reproducible when concurrent controls were fully replaced by virtual controls. {cite:p}`Adedeji2024`",
+      "claims": [
+        {
+          "sentence_index": 7,
+          "claim_text": "In a Wistar Han rat liver-enzyme analysis, 68.5% of concurrent-versus-virtual-control comparisons achieved at least 90% agreement in effect-size estimates.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "Wistar Han rats",
+            "computational": "concurrent-versus-virtual-control comparison",
+            "clinical": null,
+            "methodological": "liver-enzyme effect-size agreement analysis",
+            "conceptual": "virtual-control concordance"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "DuchateauNguyen2026"
+          ],
+          "context_overrides": {
+            "DuchateauNguyen2026": {
+              "scope_match": "exact"
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 8,
+          "claim_text": "However, a separate review found that 31–49% of quantitative clinical-pathology parameters were not reproducible when concurrent controls were fully replaced by virtual controls.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "legacy preclinical toxicity studies",
+            "computational": "full replacement of concurrent controls with virtual controls",
+            "clinical": null,
+            "methodological": "quantitative clinical-pathology reproducibility analysis",
+            "conceptual": "endpoint-specific virtual-control discordance"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "negative",
+          "modality": "contested",
+          "entities": [],
+          "additional_citation_contexts": [
+            {
+              "cite_key": "Adedeji2024",
+              "doi": "10.1177/01926233241300310",
+              "role": "direct_support",
+              "source_type": "primary",
+              "bibliography_status": "verified",
+              "integrity_status": "verified_no_known_issue",
+              "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+              "integrity_check_source": "https://api.crossref.org/works/10.1177%2F01926233241300310",
+              "passages": [
+                {
+                  "text": "When the CCG was replaced with VCG, the result showed that 31% (34 of 108 parameters), 40% (43 out of 107 parameters), and",
+                  "passage_source": "full_text",
+                  "locator": "Full text, quantitative-parameter reproducibility result (part 1)",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1177/01926233241300310",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "49% (57 of 115 parameters) of the quantitative parameters were not statistically reproducible in the legacy studies A, B and C, respectively.",
+                  "passage_source": "full_text",
+                  "locator": "Full text, quantitative-parameter reproducibility result (part 2)",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1177/01926233241300310",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "direction_match": true,
+              "supports_claim_atoms": [
+                "a1"
+              ],
+              "independence_group": null,
+              "independence_basis": null,
+              "scope_match": "exact",
+              "notes": "Human-reviewed conflicting evidence retained to prevent generalising endpoint-specific concordance into universal interchangeability."
+            }
+          ],
+          "conflicts": [
+            {
+              "conflict_type": "citation_key",
+              "target_id": "DuchateauNguyen2026",
+              "notes": "The cited virtual-control studies report different endpoint-specific concordance and non-reproducibility rates; the difference is disclosed rather than resolved as a universal result."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

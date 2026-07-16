@@ -1,9 +1,9 @@
 (sec-trust-summary)=
 # Citation Trust Summary
 
-This review exposes **518 claim-level TRUST records** using rubric v2.0.0. Hovering or focusing a score highlights the concerned prose; opening the card reveals all five component rules, rationales, verified source passages, atom attribution, scope status, and cap reasons.
+This review exposes **519 claim-level TRUST records** using rubric v2.0.0. Hovering or focusing a score highlights the concerned prose; opening the card reveals all five component rules, rationales, verified source passages, atom attribution, scope status, and cap reasons.
 
-The mean overall score is **89.3**. Band distribution: **high 432 · moderate 53 · low 33 · critical 0**. **33** claims trigger a mandatory cap, and **33** remain explicit human-review priorities.
+The mean overall score is **89.4**. Band distribution: **high 433 · moderate 54 · low 32 · critical 0**. **32** claims trigger a mandatory cap, and **32** remain explicit human-review priorities.
 
 ![Trust band distribution by section](../figures/fig_trust_by_section.png)
 
@@ -15,7 +15,7 @@ The mean overall score is **89.3**. Band distribution: **high 432 · moderate 53
 
 | Traceability | Robustness | Uncertainty calibration | Source integrity | Transferability / scope |
 |---:|---:|---:|---:|---:|
-| 4.00 | 3.11 | 3.72 | 3.57 | 3.58 |
+| 4.00 | 3.11 | 3.73 | 3.57 | 3.59 |
 
 ## Per-section rollup
 
@@ -25,7 +25,7 @@ The mean overall score is **89.3**. Band distribution: **high 432 · moderate 53
 | Reproducibility | 65 | 88.3 | 53 | 9 | 3 | 0 |
 | Data welfare / 3Rs | 63 | 87.5 | 48 | 13 | 2 | 0 |
 | FAIR data | 62 | 91.0 | 57 | 3 | 2 | 0 |
-| Virtual controls | 71 | 93.7 | 67 | 3 | 1 | 0 |
+| Virtual controls | 72 | 94.0 | 68 | 4 | 0 | 0 |
 | NAMs | 52 | 92.6 | 49 | 3 | 0 | 0 |
 | Incentives | 57 | 91.1 | 51 | 3 | 3 | 0 |
 | Governance | 70 | 87.9 | 58 | 6 | 6 | 0 |
@@ -35,7 +35,6 @@ The mean overall score is **89.3**. Band distribution: **high 432 · moderate 53
 
 | Score | Band | Section | Claim | Cap |
 |---:|---|---|---|---|
-| 50 | low trust | Virtual controls | The parallel to preclinical VCGs is exact: the hybrid design that retained half the real controls outperformed the full-replacement design for the same reason that dynamic borrowing outperforms static pooling — partial reliance on concurrent data hedges against the drift that pure reuse cannot detect. | contradicted_without_caveat, overextended_scope |
 | 50 | low trust | Incentives | The pattern generalises across national systems — in Ecuador, reliance on journal-centric metrics predicted lower adoption of open practices while institutional deposit mandates and data services predicted higher adoption. | overextended_scope |
 | 55 | low trust | Introduction | The empirical anchor the review returns to most often — that actual, usable data availability sits near two percent while declared availability and paperwork compliance sit far above it — recurs across FAIR audits, incentive studies, and governance evaluations alike, and it is against that near-static baseline — the empirical ~2% availability anchor — that every enforcement result must be judged. | overextended_scope |
 | 55 | low trust | Introduction | The strongest version of that claim is also its simplest, and it is the thread that ties the sections together: because animals have already paid for the data with their welfare and, usually, their lives, letting the data go to waste is not merely poor science but a welfare harm in its own right, and repaying the debt — through FAIR stewardship, through reuse and virtual control groups, through disciplined stewardship of the data that non-animal methods generate, and through incentive and governance reform that makes stewardship count — is a way of saving animals. | overextended_scope |
@@ -60,6 +59,7 @@ The mean overall score is **89.3**. Band distribution: **high 432 · moderate 53
 | 60 | low trust | Governance | First, enforcement over endorsement: guidelines must be gated at revision and checked, because passively published standards demonstrably do not move behaviour. | contradicted_without_caveat |
 | 60 | low trust | Conclusion | Even where the animal data are not in dispute, a defensible change in analysis can flip a model from mimicking human disease to failing to, so that translatability is decided by analytic choices as much as by biology. | contradicted_without_caveat |
 | 60 | low trust | Conclusion | The data that would let this record be checked or reused are largely absent — only about half of animal experiments are ever published, and only around 2% of medical papers actually share their data against the roughly 8% that declare they do. | contradicted_without_caveat |
+| 60 | low trust | Conclusion | Unusable data are therefore not a downstream inconvenience but a driver of new animal use, and the loop tightens itself: the same reward structure that discourages complete reporting also produces the underpowered, unblinded studies whose results will not replicate, so the field runs experiments it cannot trust and then cannot reuse the animals' data to run better ones. | contradicted_without_caveat |
 
 ## Method and migration note
 

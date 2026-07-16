@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-07-16T08:19:08.065Z",
+  "generated_at": "2026-07-16T08:23:58.263Z",
   "generated_by_phase": "phase_5b_claim_seed_v2_migration",
   "claim_id_algorithm": "sha256(section_id + LF + nfkc_trim_whitespace_collapsed_exact_text)[0:16]",
   "claims": [
@@ -5131,19 +5131,34 @@
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_4e3de3e27d28a4ec",
+      "claim_id": "clm_1a7c2d0b3c6cfe8b",
       "section_id": "sec-virtual-controls",
-      "claim_text": "The parallel to preclinical VCGs is exact: the hybrid design that retained half the real controls outperformed the full-replacement design for the same reason that dynamic borrowing outperforms static pooling — partial reliance on concurrent data hedges against the drift that pure reuse cannot detect.",
-      "normalized_claim": "the parallel to preclinical vcgs is exact the hybrid design that retained half the real controls outperformed the full replacement design for the same reason that dynamic borrowing outperforms static pooling partial reliance on concurrent data hedges against the drift that pure reuse cannot detect",
-      "claim_type": "comparative",
-      "modality": "contested",
+      "claim_text": "In a Wistar Han rat liver-enzyme analysis, 68.5% of concurrent-versus-virtual-control comparisons achieved at least 90% agreement in effect-size estimates.",
+      "normalized_claim": "in a wistar han rat liver enzyme analysis 68 5 of concurrent versus virtual control comparisons achieved at least 90 agreement in effect size estimates",
+      "claim_type": "empirical",
+      "modality": "established",
       "citation_keys": [
         "DuchateauNguyen2026"
       ],
       "dois": [
         "10.3389/fphar.2026.1704002"
       ],
-      "validation_status": "needs_human_review"
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_92618eddf068d4bd",
+      "section_id": "sec-virtual-controls",
+      "claim_text": "However, a separate review found that 31–49% of quantitative clinical-pathology parameters were not reproducible when concurrent controls were fully replaced by virtual controls.",
+      "normalized_claim": "however a separate review found that 31 49 of quantitative clinical pathology parameters were not reproducible when concurrent controls were fully replaced by virtual controls",
+      "claim_type": "empirical",
+      "modality": "contested",
+      "citation_keys": [
+        "Adedeji2024"
+      ],
+      "dois": [
+        "10.1177/01926233241300310"
+      ],
+      "validation_status": "validated"
     },
     {
       "claim_id": "clm_d4e29970066383a5",

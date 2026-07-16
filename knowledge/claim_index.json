@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T08:19:08.065Z",
+  "generated_at": "2026-07-16T08:23:58.263Z",
   "source": "knowledge/claim_graph.json",
   "claims_by_id": {
     "clm_c2d644434ce16083": {
@@ -4151,18 +4151,31 @@
       "trust_label": "high_trust",
       "human_review_required": false
     },
-    "clm_4e3de3e27d28a4ec": {
+    "clm_1a7c2d0b3c6cfe8b": {
       "source_file": "content/05_virtual_control_groups.md",
       "section_id": "sec-virtual-controls",
       "paragraph_index": 71,
       "sentence_index": 7,
-      "claim_text": "The parallel to preclinical VCGs is exact: the hybrid design that retained half the real controls outperformed the full-replacement design for the same reason that dynamic borrowing outperforms static pooling — partial reliance on concurrent data hedges against the drift that pure reuse cannot detect.",
+      "claim_text": "In a Wistar Han rat liver-enzyme analysis, 68.5% of concurrent-versus-virtual-control comparisons achieved at least 90% agreement in effect-size estimates.",
       "citation_keys": [
         "DuchateauNguyen2026"
       ],
-      "overall_score": 50,
-      "trust_label": "low_trust",
-      "human_review_required": true
+      "overall_score": 90,
+      "trust_label": "high_trust",
+      "human_review_required": false
+    },
+    "clm_92618eddf068d4bd": {
+      "source_file": "content/05_virtual_control_groups.md",
+      "section_id": "sec-virtual-controls",
+      "paragraph_index": 71,
+      "sentence_index": 8,
+      "claim_text": "However, a separate review found that 31–49% of quantitative clinical-pathology parameters were not reproducible when concurrent controls were fully replaced by virtual controls.",
+      "citation_keys": [
+        "Adedeji2024"
+      ],
+      "overall_score": 80,
+      "trust_label": "moderate_trust",
+      "human_review_required": false
     },
     "clm_d4e29970066383a5": {
       "source_file": "content/05_virtual_control_groups.md",

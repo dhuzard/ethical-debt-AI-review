@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T08:19:08.065Z",
+  "generated_at": "2026-07-16T08:23:58.263Z",
   "source": "knowledge/claim_graph.json",
   "formula": "raw_score = 5 * sum(component scores); overall_score = min(raw_score, 60) when any cap reason applies",
   "claims": [
@@ -23774,23 +23774,23 @@
       "cap_reasons": []
     },
     {
-      "claim_id": "clm_4e3de3e27d28a4ec",
+      "claim_id": "clm_1a7c2d0b3c6cfe8b",
       "component_scores": {
         "traceability": 4,
         "robustness": 2,
-        "uncertainty_calibration": 0,
+        "uncertainty_calibration": 4,
         "source_integrity": 4,
-        "transferability_scope_control": 0
+        "transferability_scope_control": 4
       },
       "component_rules": {
         "traceability": "T4_ATOM_LEVEL",
         "robustness": "R2_SINGLE_GROUP",
-        "uncertainty_calibration": "U0_OVERSTATED",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
         "source_integrity": "S4_VERIFIED_PRIMARY",
-        "transferability_scope_control": "X0_OVEREXTENDED"
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
       },
       "score_basis": {
-        "claim_text": "The parallel to preclinical VCGs is exact: the hybrid design that retained half the real controls outperformed the full-replacement design for the same reason that dynamic borrowing outperforms static pooling — partial reliance on concurrent data hedges against the drift that pure reuse cannot detect.",
+        "claim_text": "In a Wistar Han rat liver-enzyme analysis, 68.5% of concurrent-versus-virtual-control comparisons achieved at least 90% agreement in effect-size estimates.",
         "eligible_citations": [
           {
             "cite_key": "DuchateauNguyen2026",
@@ -23803,8 +23803,8 @@
             "verified_passage_locators": [
               "Full text excerpt (legacy verification record)"
             ],
-            "independence_group": "grp_4e3de3e2_1",
-            "scope_match": "broader"
+            "independence_group": "grp_1a7c2d0b_1",
+            "scope_match": "exact"
           }
         ],
         "atom_support": {
@@ -23814,27 +23814,87 @@
         },
         "independence_groups_by_atom": {
           "a1": [
-            "grp_4e3de3e2_1"
+            "grp_1a7c2d0b_1"
           ]
         },
-        "derived_evidence_relation": "overextended",
+        "derived_evidence_relation": "directly_supported",
         "wording_strength": "unqualified",
         "wording_basis": {
           "wording_strength": "unqualified",
           "rule_id": "SURFACE_UNQUALIFIED",
           "markers": []
         },
-        "modality": "contested",
-        "scope_status": "overextended"
+        "modality": "established",
+        "scope_status": "matched"
       },
-      "raw_score": 50,
-      "overall_score": 50,
-      "trust_label": "low_trust",
-      "capped": true,
-      "cap_reasons": [
-        "contradicted_without_caveat",
-        "overextended_scope"
-      ]
+      "raw_score": 90,
+      "overall_score": 90,
+      "trust_label": "high_trust",
+      "capped": false,
+      "cap_reasons": []
+    },
+    {
+      "claim_id": "clm_92618eddf068d4bd",
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 2,
+        "uncertainty_calibration": 2,
+        "source_integrity": 4,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R2_SINGLE_GROUP",
+        "uncertainty_calibration": "U2_CONFLICT_DISCLOSED",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "score_basis": {
+        "claim_text": "However, a separate review found that 31–49% of quantitative clinical-pathology parameters were not reproducible when concurrent controls were fully replaced by virtual controls.",
+        "eligible_citations": [
+          {
+            "cite_key": "Adedeji2024",
+            "doi": "10.1177/01926233241300310",
+            "role": "direct_support",
+            "source_type": "primary",
+            "supports_claim_atoms": [
+              "a1"
+            ],
+            "verified_passage_locators": [
+              "Full text, quantitative-parameter reproducibility result (part 1)",
+              "Full text, quantitative-parameter reproducibility result (part 2)"
+            ],
+            "independence_group": "grp_92618edd_1",
+            "scope_match": "exact"
+          }
+        ],
+        "atom_support": {
+          "a1": [
+            "Adedeji2024"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "grp_92618edd_1"
+          ]
+        },
+        "derived_evidence_relation": "conflicted",
+        "wording_strength": "contested",
+        "wording_basis": {
+          "wording_strength": "contested",
+          "rule_id": "SURFACE_CONFLICT",
+          "markers": [
+            "However"
+          ]
+        },
+        "modality": "contested",
+        "scope_status": "matched"
+      },
+      "raw_score": 80,
+      "overall_score": 80,
+      "trust_label": "moderate_trust",
+      "capped": false,
+      "cap_reasons": []
     },
     {
       "claim_id": "clm_d4e29970066383a5",
@@ -45115,15 +45175,15 @@
     }
   ],
   "summary": {
-    "total_claims": 518,
-    "mean_overall_score": 89.3050193050193,
+    "total_claims": 519,
+    "mean_overall_score": 89.36416184971098,
     "minimum_overall_score": 50,
     "maximum_overall_score": 100,
-    "high_trust": 432,
-    "moderate_trust": 53,
-    "low_trust": 33,
+    "high_trust": 433,
+    "moderate_trust": 54,
+    "low_trust": 32,
     "critical_or_unreliable": 0,
-    "capped_claims": 33,
-    "needs_human_review": 33
+    "capped_claims": 32,
+    "needs_human_review": 32
   }
 }
