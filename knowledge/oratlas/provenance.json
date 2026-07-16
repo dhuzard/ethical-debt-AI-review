@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-07-16T09:53:30.688Z",
+  "generator": "scripts/export-oratlas.js",
+  "sourceArtifacts": [
+    "knowledge/claim_graph.json",
+    "knowledge/trust_human_review_overrides.json"
+  ],
+  "sourceSchemaVersion": "2.0.0",
+  "sourceRubricVersion": "2.0.0",
+  "semantics": {
+    "claims": "Canonical claim records from the TRUST v2 claim graph.",
+    "relations": "Claim-citation contexts exported without changing their evidence role.",
+    "trust": "Original claim-level five-component scores retained as source aggregates; all Oratlas relation-level criteria explicitly remain not assessed.",
+    "humanReview": "A relation is marked human-reviewed when its canonical claim text occurs in an approved human-review override decision."
+  },
+  "counts": {
+    "claims": 529,
+    "citations": 994,
+    "relations": 1392,
+    "trustAssessments": 1392,
+    "humanReviewedRelations": 34
+  }
+}

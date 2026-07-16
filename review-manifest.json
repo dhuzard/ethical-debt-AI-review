@@ -62,5 +62,12 @@
         "Software"
       ]
     }
-  ]
+  ],
+  "artifacts": {
+    "claims": "knowledge/oratlas/claims.jsonl",
+    "citations": "knowledge/oratlas/citations.jsonl",
+    "relations": "knowledge/oratlas/relations.jsonl",
+    "trustAssessments": "knowledge/oratlas/trust-assessments.jsonl",
+    "provenance": "knowledge/oratlas/provenance.json"
+  }
 }
