@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T08:02:19.835Z",
+  "generated_at": "2026-07-16T08:07:25.974Z",
   "source": "knowledge/claim_graph.json",
   "formula": "raw_score = 5 * sum(component scores); overall_score = min(raw_score, 60) when any cap reason applies",
   "claims": [
@@ -18510,48 +18510,184 @@
       "cap_reasons": []
     },
     {
-      "claim_id": "clm_1968595dcf67fa15",
+      "claim_id": "clm_78bb9583763fb509",
       "component_scores": {
-        "traceability": 1,
-        "robustness": 0,
-        "uncertainty_calibration": 0,
-        "source_integrity": 0,
+        "traceability": 4,
+        "robustness": 4,
+        "uncertainty_calibration": 4,
+        "source_integrity": 4,
         "transferability_scope_control": 4
       },
       "component_rules": {
-        "traceability": "T1_METADATA_ONLY",
-        "robustness": "R0_NO_SUPPORT",
-        "uncertainty_calibration": "U0_OVERSTATED",
-        "source_integrity": "S0_COMPROMISED",
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R4_ORIGINATING_SOURCE",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
         "transferability_scope_control": "X4_SCOPE_MATCHED"
       },
       "score_basis": {
-        "claim_text": "Dedicated model-organism infrastructures show what good stewardship looks like — the Rat Genome Database curates multi-species genomic and phenotype data explicitly to fulfil FAIR, and the European Mouse Mutant Archive established ten Quality Principles to standardize the scientific evaluation of cryopreserved rodent disease models — but these are islands, and metadata tooling for experimental in vivo work, such as the ISA framework in environmental-health science, is still being retrofitted onto fields that never captured it natively.",
-        "eligible_citations": [],
+        "claim_text": "The Rat Genome Database describes its curated resource as advancing data reproducibility and fulfilling FAIR principles.",
+        "eligible_citations": [
+          {
+            "cite_key": "Vedi2023",
+            "doi": "10.1093/genetics/iyad042",
+            "role": "direct_support",
+            "source_type": "primary",
+            "supports_claim_atoms": [
+              "a1"
+            ],
+            "verified_passage_locators": [
+              "Abstract, resource mission"
+            ],
+            "independence_group": "grp_78bb9583_1",
+            "scope_match": "exact"
+          }
+        ],
         "atom_support": {
-          "a1": []
+          "a1": [
+            "Vedi2023"
+          ]
         },
         "independence_groups_by_atom": {
-          "a1": []
+          "a1": [
+            "grp_78bb9583_1"
+          ]
         },
-        "derived_evidence_relation": "unsupported",
+        "derived_evidence_relation": "directly_supported",
         "wording_strength": "unqualified",
         "wording_basis": {
           "wording_strength": "unqualified",
           "rule_id": "SURFACE_UNQUALIFIED",
           "markers": []
         },
-        "modality": "likely",
+        "modality": "established",
         "scope_status": "matched"
       },
-      "raw_score": 25,
-      "overall_score": 25,
-      "trust_label": "critical_or_unreliable",
-      "capped": true,
-      "cap_reasons": [
-        "unsupported_citation",
-        "direction_mismatch"
-      ]
+      "raw_score": 100,
+      "overall_score": 100,
+      "trust_label": "high_trust",
+      "capped": false,
+      "cap_reasons": []
+    },
+    {
+      "claim_id": "clm_e3ea0361fe0634b8",
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 4,
+        "uncertainty_calibration": 4,
+        "source_integrity": 4,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R4_ORIGINATING_SOURCE",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "score_basis": {
+        "claim_text": "INFRAFRONTIER/EMMA has developed ten Quality Principles tailored to cryopreserved rodent mutant strains.",
+        "eligible_citations": [
+          {
+            "cite_key": "Ehlich2025",
+            "doi": "10.1007/s00335-025-10174-4",
+            "role": "direct_support",
+            "source_type": "primary",
+            "supports_claim_atoms": [
+              "a1"
+            ],
+            "verified_passage_locators": [
+              "Abstract, quality-framework description"
+            ],
+            "independence_group": "grp_e3ea0361_1",
+            "scope_match": "exact"
+          }
+        ],
+        "atom_support": {
+          "a1": [
+            "Ehlich2025"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "grp_e3ea0361_1"
+          ]
+        },
+        "derived_evidence_relation": "directly_supported",
+        "wording_strength": "unqualified",
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_UNQUALIFIED",
+          "markers": []
+        },
+        "modality": "established",
+        "scope_status": "matched"
+      },
+      "raw_score": 100,
+      "overall_score": 100,
+      "trust_label": "high_trust",
+      "capped": false,
+      "cap_reasons": []
+    },
+    {
+      "claim_id": "clm_af654aa69f19d42e",
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 1,
+        "uncertainty_calibration": 4,
+        "source_integrity": 3,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R1_ATTRIBUTION_INDIRECT",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S3_MIXED_CHECKS",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "score_basis": {
+        "claim_text": "Environmental-health metadata initiatives include development of the ISA framework and CEDAR.",
+        "eligible_citations": [
+          {
+            "cite_key": "Nault2023",
+            "doi": "10.1289/ehp11484",
+            "role": "direct_support",
+            "source_type": "narrative_review",
+            "supports_claim_atoms": [
+              "a1"
+            ],
+            "verified_passage_locators": [
+              "Abstract, metadata-tool examples"
+            ],
+            "independence_group": "grp_af654aa6_1",
+            "scope_match": "exact"
+          }
+        ],
+        "atom_support": {
+          "a1": [
+            "Nault2023"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "grp_af654aa6_1"
+          ]
+        },
+        "derived_evidence_relation": "directly_supported",
+        "wording_strength": "unqualified",
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_UNQUALIFIED",
+          "markers": []
+        },
+        "modality": "established",
+        "scope_status": "matched"
+      },
+      "raw_score": 80,
+      "overall_score": 80,
+      "trust_label": "moderate_trust",
+      "capped": false,
+      "cap_reasons": []
     },
     {
       "claim_id": "clm_b97b249e4ba43f84",
@@ -44746,15 +44882,15 @@
     }
   ],
   "summary": {
-    "total_claims": 511,
-    "mean_overall_score": 89.01174168297456,
-    "minimum_overall_score": 25,
+    "total_claims": 513,
+    "mean_overall_score": 89.16179337231969,
+    "minimum_overall_score": 40,
     "maximum_overall_score": 100,
-    "high_trust": 424,
-    "moderate_trust": 51,
+    "high_trust": 426,
+    "moderate_trust": 52,
     "low_trust": 34,
-    "critical_or_unreliable": 2,
-    "capped_claims": 36,
-    "needs_human_review": 36
+    "critical_or_unreliable": 1,
+    "capped_claims": 35,
+    "needs_human_review": 35
   }
 }

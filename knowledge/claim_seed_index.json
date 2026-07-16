@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-07-16T08:02:19.835Z",
+  "generated_at": "2026-07-16T08:07:25.974Z",
   "generated_by_phase": "phase_5b_claim_seed_v2_migration",
   "claim_id_algorithm": "sha256(section_id + LF + nfkc_trim_whitespace_collapsed_exact_text)[0:16]",
   "claims": [
@@ -4002,23 +4002,49 @@
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_1968595dcf67fa15",
+      "claim_id": "clm_78bb9583763fb509",
       "section_id": "sec-fair-preclinical",
-      "claim_text": "Dedicated model-organism infrastructures show what good stewardship looks like — the Rat Genome Database curates multi-species genomic and phenotype data explicitly to fulfil FAIR, and the European Mouse Mutant Archive established ten Quality Principles to standardize the scientific evaluation of cryopreserved rodent disease models — but these are islands, and metadata tooling for experimental in vivo work, such as the ISA framework in environmental-health science, is still being retrofitted onto fields that never captured it natively.",
-      "normalized_claim": "dedicated model organism infrastructures show what good stewardship looks like the rat genome database curates multi species genomic and phenotype data explicitly to fulfil fair and the european mouse mutant archive established ten quality principles to standardize the scientific evaluation of cryopreserved rodent disease models but these are islands and metadata tooling for experimental in vivo work such as the isa framework in environmental health science is still being retrofitted onto fields that never captured it natively",
-      "claim_type": "review_synthesis",
-      "modality": "likely",
+      "claim_text": "The Rat Genome Database describes its curated resource as advancing data reproducibility and fulfilling FAIR principles.",
+      "normalized_claim": "the rat genome database describes its curated resource as advancing data reproducibility and fulfilling fair principles",
+      "claim_type": "methodological",
+      "modality": "established",
       "citation_keys": [
-        "Vedi2023",
-        "Ehlich2025",
+        "Vedi2023"
+      ],
+      "dois": [
+        "10.1093/genetics/iyad042"
+      ],
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_e3ea0361fe0634b8",
+      "section_id": "sec-fair-preclinical",
+      "claim_text": "INFRAFRONTIER/EMMA has developed ten Quality Principles tailored to cryopreserved rodent mutant strains.",
+      "normalized_claim": "infrafrontier emma has developed ten quality principles tailored to cryopreserved rodent mutant strains",
+      "claim_type": "methodological",
+      "modality": "established",
+      "citation_keys": [
+        "Ehlich2025"
+      ],
+      "dois": [
+        "10.1007/s00335-025-10174-4"
+      ],
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_af654aa69f19d42e",
+      "section_id": "sec-fair-preclinical",
+      "claim_text": "Environmental-health metadata initiatives include development of the ISA framework and CEDAR.",
+      "normalized_claim": "environmental health metadata initiatives include development of the isa framework and cedar",
+      "claim_type": "methodological",
+      "modality": "established",
+      "citation_keys": [
         "Nault2023"
       ],
       "dois": [
-        "10.1093/genetics/iyad042",
-        "10.1007/s00335-025-10174-4",
         "10.1289/ehp11484"
       ],
-      "validation_status": "needs_human_review"
+      "validation_status": "validated"
     },
     {
       "claim_id": "clm_b97b249e4ba43f84",

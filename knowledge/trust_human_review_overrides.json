@@ -131,6 +131,203 @@
           "conflicts": []
         }
       ]
+    },
+    {
+      "decision_id": "hr_002_infrastructure_examples",
+      "claim_id": "clm_1968595dcf67fa15",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "notes": "Approved in the PR human-review pass. Retain the three source-backed infrastructure statements and remove the unsupported 'islands' and native-capture generalisations.",
+      "original_markdown": "Dedicated model-organism infrastructures show what good stewardship looks like — the Rat Genome Database curates multi-species genomic and phenotype data explicitly to fulfil FAIR, {cite:p}`Vedi2023` and the European Mouse Mutant Archive established ten Quality Principles to standardize the scientific evaluation of cryopreserved rodent disease models {cite:p}`Ehlich2025` — but these are islands, and metadata tooling for experimental in vivo work, such as the ISA framework in environmental-health science, is still being retrofitted onto fields that never captured it natively. {cite:p}`Nault2023`",
+      "replacement_markdown": "The Rat Genome Database describes its curated resource as advancing data reproducibility and fulfilling FAIR principles. {cite:p}`Vedi2023` INFRAFRONTIER/EMMA has developed ten Quality Principles tailored to cryopreserved rodent mutant strains. {cite:p}`Ehlich2025` Environmental-health metadata initiatives include development of the ISA framework and CEDAR. {cite:p}`Nault2023`",
+      "claims": [
+        {
+          "sentence_index": 1,
+          "claim_text": "The Rat Genome Database describes its curated resource as advancing data reproducibility and fulfilling FAIR principles.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": "rat and model-organism data",
+            "computational": "Rat Genome Database",
+            "clinical": null,
+            "methodological": "curated FAIR data resource",
+            "conceptual": "data reproducibility and FAIR principles"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [
+            {
+              "name": "Rat Genome Database",
+              "entity_type": "dataset",
+              "identifier": null
+            },
+            {
+              "name": "FAIR principles",
+              "entity_type": "concept",
+              "identifier": null
+            }
+          ],
+          "citation_contexts": [
+            {
+              "cite_key": "Vedi2023",
+              "doi": "10.1093/genetics/iyad042",
+              "role": "direct_support",
+              "source_type": "primary",
+              "bibliography_status": "verified",
+              "integrity_status": "verified_no_known_issue",
+              "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+              "integrity_check_source": "https://api.crossref.org/works/10.1093%2Fgenetics%2Fiyad042",
+              "passages": [
+                {
+                  "text": "providing a continuously improving, consistent, and high-quality data resource for researchers while advancing data reproducibility and fulfilling Findable, Accessible, Interoperable, and Reusable (FAIR) data principles.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, resource mission",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1093/genetics/iyad042",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "direction_match": true,
+              "supports_claim_atoms": [
+                "a1"
+              ],
+              "independence_group": null,
+              "independence_basis": null,
+              "scope_match": "exact",
+              "notes": "Passage retained during approved human review from the original verified citation context."
+            }
+          ],
+          "conflicts": []
+        },
+        {
+          "sentence_index": 2,
+          "claim_text": "INFRAFRONTIER/EMMA has developed ten Quality Principles tailored to cryopreserved rodent mutant strains.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": "cryopreserved rodent mutant strains",
+            "computational": null,
+            "clinical": null,
+            "methodological": "INFRAFRONTIER/EMMA Quality Principles",
+            "conceptual": "repository quality framework"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [
+            {
+              "name": "INFRAFRONTIER/EMMA",
+              "entity_type": "tool",
+              "identifier": null
+            },
+            {
+              "name": "Quality Principles",
+              "entity_type": "method",
+              "identifier": null
+            }
+          ],
+          "citation_contexts": [
+            {
+              "cite_key": "Ehlich2025",
+              "doi": "10.1007/s00335-025-10174-4",
+              "role": "direct_support",
+              "source_type": "primary",
+              "bibliography_status": "verified",
+              "integrity_status": "verified_no_known_issue",
+              "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+              "integrity_check_source": "https://api.crossref.org/works/10.1007%2Fs00335-025-10174-4",
+              "passages": [
+                {
+                  "text": "INFRAFRONTIER/EMMA has developed a set of ten Quality Principles specifically tailored to the unique requirements of cryopreserved rodent mutant strains.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, quality-framework description",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1007/s00335-025-10174-4",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "direction_match": true,
+              "supports_claim_atoms": [
+                "a1"
+              ],
+              "independence_group": null,
+              "independence_basis": null,
+              "scope_match": "exact",
+              "notes": "Passage retained during approved human review from the original verified citation context."
+            }
+          ],
+          "conflicts": []
+        },
+        {
+          "sentence_index": 3,
+          "claim_text": "Environmental-health metadata initiatives include development of the ISA framework and CEDAR.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": "environmental-health experimental data",
+            "computational": "ISA framework and CEDAR",
+            "clinical": null,
+            "methodological": "metadata collection tooling",
+            "conceptual": "FAIR environmental-health data"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [
+            {
+              "name": "ISA framework",
+              "entity_type": "tool",
+              "identifier": null
+            },
+            {
+              "name": "CEDAR",
+              "entity_type": "tool",
+              "identifier": null
+            }
+          ],
+          "citation_contexts": [
+            {
+              "cite_key": "Nault2023",
+              "doi": "10.1289/ehp11484",
+              "role": "direct_support",
+              "source_type": "narrative_review",
+              "bibliography_status": "verified",
+              "integrity_status": "verified_no_known_issue",
+              "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+              "integrity_check_source": "https://api.crossref.org/works/10.1289%2Fehp11484",
+              "passages": [
+                {
+                  "text": "metadata collection tools such as the Investigation, Study, Assay (ISA) framework, and the Center for Expanded Data Annotation and Retrieval.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, metadata-tool examples",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1289/ehp11484",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "direction_match": true,
+              "supports_claim_atoms": [
+                "a1"
+              ],
+              "independence_group": null,
+              "independence_basis": null,
+              "scope_match": "exact",
+              "notes": "Passage retained during approved human review from the original verified citation context."
+            }
+          ],
+          "conflicts": []
+        }
+      ]
     }
   ]
 }

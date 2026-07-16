@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T08:02:19.835Z",
+  "generated_at": "2026-07-16T08:07:25.974Z",
   "source": "knowledge/claim_graph.json",
   "claims_by_id": {
     "clm_c2d644434ce16083": {
@@ -3240,20 +3240,44 @@
       "trust_label": "moderate_trust",
       "human_review_required": false
     },
-    "clm_1968595dcf67fa15": {
+    "clm_78bb9583763fb509": {
       "source_file": "content/04_fair_preclinical_data.md",
       "section_id": "sec-fair-preclinical",
       "paragraph_index": 63,
       "sentence_index": 1,
-      "claim_text": "Dedicated model-organism infrastructures show what good stewardship looks like — the Rat Genome Database curates multi-species genomic and phenotype data explicitly to fulfil FAIR, and the European Mouse Mutant Archive established ten Quality Principles to standardize the scientific evaluation of cryopreserved rodent disease models — but these are islands, and metadata tooling for experimental in vivo work, such as the ISA framework in environmental-health science, is still being retrofitted onto fields that never captured it natively.",
+      "claim_text": "The Rat Genome Database describes its curated resource as advancing data reproducibility and fulfilling FAIR principles.",
       "citation_keys": [
-        "Vedi2023",
-        "Ehlich2025",
+        "Vedi2023"
+      ],
+      "overall_score": 100,
+      "trust_label": "high_trust",
+      "human_review_required": false
+    },
+    "clm_e3ea0361fe0634b8": {
+      "source_file": "content/04_fair_preclinical_data.md",
+      "section_id": "sec-fair-preclinical",
+      "paragraph_index": 63,
+      "sentence_index": 2,
+      "claim_text": "INFRAFRONTIER/EMMA has developed ten Quality Principles tailored to cryopreserved rodent mutant strains.",
+      "citation_keys": [
+        "Ehlich2025"
+      ],
+      "overall_score": 100,
+      "trust_label": "high_trust",
+      "human_review_required": false
+    },
+    "clm_af654aa69f19d42e": {
+      "source_file": "content/04_fair_preclinical_data.md",
+      "section_id": "sec-fair-preclinical",
+      "paragraph_index": 63,
+      "sentence_index": 3,
+      "claim_text": "Environmental-health metadata initiatives include development of the ISA framework and CEDAR.",
+      "citation_keys": [
         "Nault2023"
       ],
-      "overall_score": 25,
-      "trust_label": "critical_or_unreliable",
-      "human_review_required": true
+      "overall_score": 80,
+      "trust_label": "moderate_trust",
+      "human_review_required": false
     },
     "clm_b97b249e4ba43f84": {
       "source_file": "content/04_fair_preclinical_data.md",

@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T08:02:19.835Z",
+  "generated_at": "2026-07-16T08:07:25.974Z",
   "generated_by_phase": "phase_16T_trust_score_validation_v2",
   "claims": [
     {
@@ -43818,47 +43818,54 @@
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_1968595dcf67fa15",
+      "claim_id": "clm_78bb9583763fb509",
       "section_id": "sec-fair-preclinical",
       "source_file": "content/04_fair_preclinical_data.md",
       "paragraph_index": 63,
       "sentence_index": 1,
-      "claim_text": "Dedicated model-organism infrastructures show what good stewardship looks like — the Rat Genome Database curates multi-species genomic and phenotype data explicitly to fulfil FAIR, and the European Mouse Mutant Archive established ten Quality Principles to standardize the scientific evaluation of cryopreserved rodent disease models — but these are islands, and metadata tooling for experimental in vivo work, such as the ISA framework in environmental-health science, is still being retrofitted onto fields that never captured it natively.",
-      "normalized_claim": "dedicated model organism infrastructures show what good stewardship looks like the rat genome database curates multi species genomic and phenotype data explicitly to fulfil fair and the european mouse mutant archive established ten quality principles to standardize the scientific evaluation of cryopreserved rodent disease models but these are islands and metadata tooling for experimental in vivo work such as the isa framework in environmental health science is still being retrofitted onto fields that never captured it natively",
+      "claim_text": "The Rat Genome Database describes its curated resource as advancing data reproducibility and fulfilling FAIR principles.",
+      "normalized_claim": "the rat genome database describes its curated resource as advancing data reproducibility and fulfilling fair principles",
       "claim_atoms": [
         {
           "atom_id": "a1",
-          "text": "Dedicated model-organism infrastructures show what good stewardship looks like — the Rat Genome Database curates multi-species genomic and phenotype data explicitly to fulfil FAIR, and the European Mouse Mutant Archive established ten Quality Principles to standardize the scientific evaluation of cryopreserved rodent disease models — but these are islands, and metadata tooling for experimental in vivo work, such as the ISA framework in environmental-health science, is still being retrofitted onto fields that never captured it natively."
+          "text": "The Rat Genome Database describes its curated resource as advancing data reproducibility and fulfilling FAIR principles."
         }
       ],
-      "claim_type": "review_synthesis",
+      "claim_type": "methodological",
       "claim_scope": {
-        "biological": null,
-        "computational": null,
+        "biological": "rat and model-organism data",
+        "computational": "Rat Genome Database",
         "clinical": null,
-        "methodological": null,
-        "conceptual": null
+        "methodological": "curated FAIR data resource",
+        "conceptual": "data reproducibility and FAIR principles"
       },
       "scope_status": "matched",
-      "claim_polarity": "mixed",
-      "modality": "likely",
+      "claim_polarity": "positive",
+      "modality": "established",
       "wording_strength": "unqualified",
-      "entities": [],
+      "entities": [
+        {
+          "name": "Rat Genome Database",
+          "entity_type": "dataset",
+          "identifier": null
+        },
+        {
+          "name": "FAIR principles",
+          "entity_type": "concept",
+          "identifier": null
+        }
+      ],
       "citation_keys": [
-        "Vedi2023",
-        "Ehlich2025",
-        "Nault2023"
+        "Vedi2023"
       ],
       "dois": [
-        "10.1093/genetics/iyad042",
-        "10.1007/s00335-025-10174-4",
-        "10.1289/ehp11484"
+        "10.1093/genetics/iyad042"
       ],
       "citation_contexts": [
         {
           "cite_key": "Vedi2023",
           "doi": "10.1093/genetics/iyad042",
-          "role": "partial_support",
+          "role": "direct_support",
           "source_type": "primary",
           "bibliography_status": "verified",
           "integrity_status": "verified_no_known_issue",
@@ -43868,7 +43875,7 @@
             {
               "text": "providing a continuously improving, consistent, and high-quality data resource for researchers while advancing data reproducibility and fulfilling Findable, Accessible, Interoperable, and Reusable (FAIR) data principles.",
               "passage_source": "abstract",
-              "locator": "Abstract excerpt (legacy verification record)",
+              "locator": "Abstract, resource mission",
               "verification_status": "verified",
               "verification_source": "https://doi.org/10.1093/genetics/iyad042",
               "verified_at": "2026-07-08T23:15:00.000Z",
@@ -43877,29 +43884,148 @@
               ]
             }
           ],
-          "direction_match": false,
+          "direction_match": true,
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_1968595d_1",
-          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (3 independent citation(s); replication status ['replication_unknown', 'single-study']; effect size reported.).",
+          "independence_group": "grp_78bb9583_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
           "scope_match": "exact",
-          "notes": null
+          "notes": "Passage retained during approved human review from the original verified citation context."
+        }
+      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
+            "evidence": [
+              "Vedi2023:1 verified passage(s)"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "robustness": {
+            "score": 4,
+            "rule_id": "R4_ORIGINATING_SOURCE",
+            "rationale": "A direct primary source covers the complete attribution without an unresolved contradiction.",
+            "evidence": [
+              "grp_78bb9583_1"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "uncertainty_calibration": {
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
+            "evidence": [
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_UNQUALIFIED"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "source_integrity": {
+            "score": 4,
+            "rule_id": "S4_VERIFIED_PRIMARY",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
+            "evidence": [
+              "Vedi2023:verified/verified_no_known_issue/primary"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
+              "Vedi2023:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
         },
+        "raw_score": 100,
+        "overall_score": 100,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_e3ea0361fe0634b8",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 63,
+      "sentence_index": 2,
+      "claim_text": "INFRAFRONTIER/EMMA has developed ten Quality Principles tailored to cryopreserved rodent mutant strains.",
+      "normalized_claim": "infrafrontier emma has developed ten quality principles tailored to cryopreserved rodent mutant strains",
+      "claim_atoms": [
+        {
+          "atom_id": "a1",
+          "text": "INFRAFRONTIER/EMMA has developed ten Quality Principles tailored to cryopreserved rodent mutant strains."
+        }
+      ],
+      "claim_type": "methodological",
+      "claim_scope": {
+        "biological": "cryopreserved rodent mutant strains",
+        "computational": null,
+        "clinical": null,
+        "methodological": "INFRAFRONTIER/EMMA Quality Principles",
+        "conceptual": "repository quality framework"
+      },
+      "scope_status": "matched",
+      "claim_polarity": "positive",
+      "modality": "established",
+      "wording_strength": "unqualified",
+      "entities": [
+        {
+          "name": "INFRAFRONTIER/EMMA",
+          "entity_type": "tool",
+          "identifier": null
+        },
+        {
+          "name": "Quality Principles",
+          "entity_type": "method",
+          "identifier": null
+        }
+      ],
+      "citation_keys": [
+        "Ehlich2025"
+      ],
+      "dois": [
+        "10.1007/s00335-025-10174-4"
+      ],
+      "citation_contexts": [
         {
           "cite_key": "Ehlich2025",
           "doi": "10.1007/s00335-025-10174-4",
           "role": "direct_support",
-          "source_type": "narrative_review",
+          "source_type": "primary",
           "bibliography_status": "verified",
           "integrity_status": "verified_no_known_issue",
           "integrity_checked_at": "2026-07-08T23:15:00.000Z",
           "integrity_check_source": "https://api.crossref.org/works/10.1007%2Fs00335-025-10174-4",
           "passages": [
             {
-              "text": "enhance its processes and promote transparency, INFRAFRONTIER/EMMA has developed a set of ten Quality Principles specifically tailored to the unique requirements of cryopreserved rodent mutant",
+              "text": "INFRAFRONTIER/EMMA has developed a set of ten Quality Principles specifically tailored to the unique requirements of cryopreserved rodent mutant strains.",
               "passage_source": "abstract",
-              "locator": "Abstract excerpt (legacy verification record)",
+              "locator": "Abstract, quality-framework description",
               "verification_status": "verified",
               "verification_source": "https://doi.org/10.1007/s00335-025-10174-4",
               "verified_at": "2026-07-08T23:15:00.000Z",
@@ -43908,29 +44034,148 @@
               ]
             }
           ],
-          "direction_match": false,
+          "direction_match": true,
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_1968595d_1",
-          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (3 independent citation(s); replication status ['replication_unknown', 'single-study']; effect size reported.).",
+          "independence_group": "grp_e3ea0361_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
           "scope_match": "exact",
-          "notes": null
+          "notes": "Passage retained during approved human review from the original verified citation context."
+        }
+      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
+            "evidence": [
+              "Ehlich2025:1 verified passage(s)"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "robustness": {
+            "score": 4,
+            "rule_id": "R4_ORIGINATING_SOURCE",
+            "rationale": "A direct primary source covers the complete attribution without an unresolved contradiction.",
+            "evidence": [
+              "grp_e3ea0361_1"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "uncertainty_calibration": {
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
+            "evidence": [
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_UNQUALIFIED"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "source_integrity": {
+            "score": 4,
+            "rule_id": "S4_VERIFIED_PRIMARY",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
+            "evidence": [
+              "Ehlich2025:verified/verified_no_known_issue/primary"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
+              "Ehlich2025:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
         },
+        "raw_score": 100,
+        "overall_score": 100,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_af654aa69f19d42e",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 63,
+      "sentence_index": 3,
+      "claim_text": "Environmental-health metadata initiatives include development of the ISA framework and CEDAR.",
+      "normalized_claim": "environmental health metadata initiatives include development of the isa framework and cedar",
+      "claim_atoms": [
+        {
+          "atom_id": "a1",
+          "text": "Environmental-health metadata initiatives include development of the ISA framework and CEDAR."
+        }
+      ],
+      "claim_type": "methodological",
+      "claim_scope": {
+        "biological": "environmental-health experimental data",
+        "computational": "ISA framework and CEDAR",
+        "clinical": null,
+        "methodological": "metadata collection tooling",
+        "conceptual": "FAIR environmental-health data"
+      },
+      "scope_status": "matched",
+      "claim_polarity": "positive",
+      "modality": "established",
+      "wording_strength": "unqualified",
+      "entities": [
+        {
+          "name": "ISA framework",
+          "entity_type": "tool",
+          "identifier": null
+        },
+        {
+          "name": "CEDAR",
+          "entity_type": "tool",
+          "identifier": null
+        }
+      ],
+      "citation_keys": [
+        "Nault2023"
+      ],
+      "dois": [
+        "10.1289/ehp11484"
+      ],
+      "citation_contexts": [
         {
           "cite_key": "Nault2023",
           "doi": "10.1289/ehp11484",
-          "role": "partial_support",
-          "source_type": "primary",
+          "role": "direct_support",
+          "source_type": "narrative_review",
           "bibliography_status": "verified",
           "integrity_status": "verified_no_known_issue",
           "integrity_checked_at": "2026-07-08T23:15:00.000Z",
           "integrity_check_source": "https://api.crossref.org/works/10.1289%2Fehp11484",
           "passages": [
             {
-              "text": "by the Functional Genomics Data Society to develop metadata collection tools such as the Investigation, Study, Assay (ISA) framework, and the Center for Expanded Data",
+              "text": "metadata collection tools such as the Investigation, Study, Assay (ISA) framework, and the Center for Expanded Data Annotation and Retrieval.",
               "passage_source": "abstract",
-              "locator": "Abstract excerpt (legacy verification record)",
+              "locator": "Abstract, metadata-tool examples",
               "verification_status": "verified",
               "verification_source": "https://doi.org/10.1289/ehp11484",
               "verified_at": "2026-07-08T23:15:00.000Z",
@@ -43939,105 +44184,92 @@
               ]
             }
           ],
-          "direction_match": false,
+          "direction_match": true,
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_1968595d_1",
-          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (3 independent citation(s); replication status ['replication_unknown', 'single-study']; effect size reported.).",
+          "independence_group": "grp_af654aa6_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
           "scope_match": "exact",
-          "notes": null
+          "notes": "Passage retained during approved human review from the original verified citation context."
         }
       ],
-      "evidence_relation": "unsupported",
+      "evidence_relation": "directly_supported",
       "conflicts": [],
       "knowledge_edges": [],
       "trust_score": {
         "rubric_version": "2.0.0",
         "components": {
           "traceability": {
-            "score": 1,
-            "rule_id": "T1_METADATA_ONLY",
-            "rationale": "Citation metadata resolves, but no eligible source passage is available. Legacy assessment: 3/3 citations carry a verbatim supporting passage; DOIs present for 3/3.",
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
             "evidence": [
-              "Vedi2023:1 verified passage(s)",
-              "Ehlich2025:1 verified passage(s)",
               "Nault2023:1 verified passage(s)"
             ],
-            "failure_modes": [
-              "Citation metadata resolves, but no eligible source passage is available."
-            ],
-            "recommended_fix": "Verify every citation DOI and attach a locator-backed source passage to each claimed atom."
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "robustness": {
-            "score": 0,
-            "rule_id": "R0_NO_SUPPORT",
-            "rationale": "No eligible citation supports the claim. Legacy assessment: 3 independent citation(s); replication status ['replication_unknown', 'single-study']; effect size reported.",
+            "score": 1,
+            "rule_id": "R1_ATTRIBUTION_INDIRECT",
+            "rationale": "The attribution is supported only by an indirect source.",
             "evidence": [
-              "grp_1968595d_1"
+              "grp_af654aa6_1"
             ],
             "failure_modes": [
-              "No eligible citation supports the claim."
+              "The attribution is supported only by an indirect source."
             ],
             "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
           },
           "uncertainty_calibration": {
-            "score": 0,
-            "rule_id": "U0_OVERSTATED",
-            "rationale": "The surface wording is stronger than the derived evidence relation permits. Legacy assessment: Balanced: presents RGD/EMMA as exemplars but immediately qualifies 'but these are islands' and notes tooling is 'still being retrofitted', matching the mixed picture; no conflict source.",
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
             "evidence": [
-              "evidence_relation=unsupported",
+              "evidence_relation=directly_supported",
               "wording=SURFACE_UNQUALIFIED"
             ],
-            "failure_modes": [
-              "The surface wording is stronger than the derived evidence relation permits."
-            ],
-            "recommended_fix": "Revise the claim wording or verification inputs so the stated certainty matches the derived evidence relation."
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "source_integrity": {
-            "score": 0,
-            "rule_id": "S0_COMPROMISED",
-            "rationale": "A relied-upon source is mismatched, directionally inconsistent, or has an integrity warning. Legacy assessment: CrossRef re-resolution: {'UNKNOWN': 3}; 0/3 full-text-checked; bibliographically consistent.",
+            "score": 3,
+            "rule_id": "S3_MIXED_CHECKS",
+            "rationale": "Source records resolve, but integrity or primary-source status is mixed.",
             "evidence": [
-              "Vedi2023:verified/verified_no_known_issue/primary",
-              "Ehlich2025:verified/verified_no_known_issue/narrative_review",
-              "Nault2023:verified/verified_no_known_issue/primary"
+              "Nault2023:verified/verified_no_known_issue/narrative_review"
             ],
             "failure_modes": [
-              "A relied-upon source is mismatched, directionally inconsistent, or has an integrity warning."
+              "Source records resolve, but integrity or primary-source status is mixed."
             ],
             "recommended_fix": "Resolve bibliography records and check a current registry or publisher record for each relied-upon source."
           },
           "transferability_scope_control": {
             "score": 4,
             "rule_id": "X4_SCOPE_MATCHED",
-            "rationale": "The recorded evidence scope matches the claim. Legacy assessment: Named resources are described within their own remits; the 'still being retrofitted' generalisation is backed by the environmental-health ISA source.",
+            "rationale": "The recorded evidence scope matches the claim.",
             "evidence": [
               "scope_status=matched",
-              "Vedi2023:exact",
-              "Ehlich2025:exact",
               "Nault2023:exact"
             ],
             "failure_modes": [],
-            "recommended_fix": "None."
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           }
         },
-        "raw_score": 25,
-        "overall_score": 25,
-        "trust_label": "critical_or_unreliable",
-        "capped": true,
-        "cap_value": 60,
-        "cap_reasons": [
-          "unsupported_citation",
-          "direction_mismatch"
-        ],
-        "cap_reason": "unsupported_citation",
+        "raw_score": 80,
+        "overall_score": 80,
+        "trust_label": "moderate_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
         "computed_from": "validator"
       },
-      "human_review_required": true,
-      "created_by_phase": "trust_seed",
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
       "updated_by_phase": "phase_16T_trust_score_validation_v2",
-      "validation_status": "needs_human_review"
+      "validation_status": "validated"
     },
     {
       "claim_id": "clm_b97b249e4ba43f84",
@@ -110064,28 +110296,28 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_1968595dcf67fa15",
-      "relation": "partially_supports",
+      "source_claim_id": "clm_78bb9583763fb509",
+      "relation": "supports",
       "target": "Vedi2023",
       "target_type": "citation",
-      "weight": 0.5,
-      "notes": null
+      "weight": 1,
+      "notes": "Passage retained during approved human review from the original verified citation context."
     },
     {
-      "source_claim_id": "clm_1968595dcf67fa15",
+      "source_claim_id": "clm_e3ea0361fe0634b8",
       "relation": "supports",
       "target": "Ehlich2025",
       "target_type": "citation",
       "weight": 1,
-      "notes": null
+      "notes": "Passage retained during approved human review from the original verified citation context."
     },
     {
-      "source_claim_id": "clm_1968595dcf67fa15",
-      "relation": "partially_supports",
+      "source_claim_id": "clm_af654aa69f19d42e",
+      "relation": "supports",
       "target": "Nault2023",
       "target_type": "citation",
-      "weight": 0.5,
-      "notes": null
+      "weight": 1,
+      "notes": "Passage retained during approved human review from the original verified citation context."
     },
     {
       "source_claim_id": "clm_b97b249e4ba43f84",
@@ -116889,11 +117121,11 @@
     }
   ],
   "summary": {
-    "total_claims": 511,
-    "high_trust": 424,
-    "moderate_trust": 51,
+    "total_claims": 513,
+    "high_trust": 426,
+    "moderate_trust": 52,
     "low_trust": 34,
-    "critical_or_unreliable": 2,
-    "needs_human_review": 36
+    "critical_or_unreliable": 1,
+    "needs_human_review": 35
   }
 }

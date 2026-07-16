@@ -1,9 +1,9 @@
 (sec-trust-summary)=
 # Citation Trust Summary
 
-This review exposes **511 claim-level TRUST records** using rubric v2.0.0. Hovering or focusing a score highlights the concerned prose; opening the card reveals all five component rules, rationales, verified source passages, atom attribution, scope status, and cap reasons.
+This review exposes **513 claim-level TRUST records** using rubric v2.0.0. Hovering or focusing a score highlights the concerned prose; opening the card reveals all five component rules, rationales, verified source passages, atom attribution, scope status, and cap reasons.
 
-The mean overall score is **89.0**. Band distribution: **high 424 · moderate 51 · low 34 · critical 2**. **36** claims trigger a mandatory cap, and **36** remain explicit human-review priorities.
+The mean overall score is **89.2**. Band distribution: **high 426 · moderate 52 · low 34 · critical 1**. **35** claims trigger a mandatory cap, and **35** remain explicit human-review priorities.
 
 ![Trust band distribution by section](../figures/fig_trust_by_section.png)
 
@@ -15,7 +15,7 @@ The mean overall score is **89.0**. Band distribution: **high 424 · moderate 51
 
 | Traceability | Robustness | Uncertainty calibration | Source integrity | Transferability / scope |
 |---:|---:|---:|---:|---:|
-| 3.99 | 3.12 | 3.70 | 3.55 | 3.57 |
+| 4.00 | 3.12 | 3.71 | 3.56 | 3.57 |
 
 ## Per-section rollup
 
@@ -24,7 +24,7 @@ The mean overall score is **89.0**. Band distribution: **high 424 · moderate 51
 | Introduction | 40 | 85.4 | 27 | 7 | 6 | 0 |
 | Reproducibility | 65 | 88.3 | 53 | 9 | 3 | 0 |
 | Data welfare / 3Rs | 63 | 87.5 | 48 | 13 | 2 | 0 |
-| FAIR data | 59 | 89.1 | 53 | 2 | 3 | 1 |
+| FAIR data | 61 | 90.3 | 55 | 3 | 3 | 0 |
 | Virtual controls | 71 | 93.7 | 67 | 3 | 1 | 0 |
 | NAMs | 52 | 92.6 | 49 | 3 | 0 | 0 |
 | Incentives | 57 | 91.1 | 51 | 3 | 3 | 0 |
@@ -35,7 +35,6 @@ The mean overall score is **89.0**. Band distribution: **high 424 · moderate 51
 
 | Score | Band | Section | Claim | Cap |
 |---:|---|---|---|---|
-| 25 | critical or unreliable | FAIR data | Dedicated model-organism infrastructures show what good stewardship looks like — the Rat Genome Database curates multi-species genomic and phenotype data explicitly to fulfil FAIR, and the European Mouse Mutant Archive established ten Quality Principles to standardize the scientific evaluation of cryopreserved rodent disease models — but these are islands, and metadata tooling for experimental in vivo work, such as the ISA framework in environmental-health science, is still being retrofitted onto fields that never captured it natively. | unsupported_citation, direction_mismatch |
 | 40 | critical or unreliable | Governance | In animal work the picture repeats: orthodontic studies scored a mean of 57.9 on ARRIVE years after its release; ARRIVE 2.0 audits of Parkinson's and cardiovascular models found only about two-fifths of items well reported and no study reporting sample-size calculations, adverse events, or humane endpoints; a nationwide before-and-after comparison found explicit 3Rs reporting crept from 0% to just 3.2% across a decade; and kidney, liver-regeneration, veterinary-emergency, traditional-medicine, and bone-defect surveys converge on the same picture of persistent, barely-moving deficits in randomisation, blinding, sample-size justification, and control design. | direction_mismatch, contradicted_without_caveat |
 | 50 | low trust | FAIR data | Under the NIH Data Management and Sharing Policy, 79.3% of submitted plans addressed all six required elements, and structured templates outperformed free-form ones — formal compliance is high and improving. | overextended_scope |
 | 50 | low trust | Virtual controls | The parallel to preclinical VCGs is exact: the hybrid design that retained half the real controls outperformed the full-replacement design for the same reason that dynamic borrowing outperforms static pooling — partial reliance on concurrent data hedges against the drift that pure reuse cannot detect. | contradicted_without_caveat, overextended_scope |
@@ -60,6 +59,7 @@ The mean overall score is **89.0**. Band distribution: **high 424 · moderate 51
 | 60 | low trust | Governance | Publishing and endorsing ARRIVE produced no significant reporting gain in the Chagas literature (51% → 66%, p=0.26), while implementing a checklist at one journal produced a three-fold-greater improvement than at a matched journal without one. | contradicted_without_caveat |
 | 60 | low trust | Governance | Non-publication remains the root waste: laboratory-animal researchers themselves estimate only about half of animal experiments are ever published. | contradicted_without_caveat |
 | 60 | low trust | Governance | One proposal presumes review bodies can and should assess research rigor and expected benefit through a structured benefit-assessment instrument, while an analysis of US committees argues they structurally lack the expertise and mandate to judge scientific merit, so their approval carries no such warranty. | contradicted_without_caveat |
+| 60 | low trust | Governance | First, enforcement over endorsement: guidelines must be gated at revision and checked, because passively published standards demonstrably do not move behaviour. | contradicted_without_caveat |
 
 ## Method and migration note
 

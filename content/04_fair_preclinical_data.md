@@ -818,14 +818,30 @@ A study of user-defined metadata in an electronic laboratory notebook found that
 :modality: likely
 :::
 
-Dedicated model-organism infrastructures show what good stewardship looks like — the Rat Genome Database curates multi-species genomic and phenotype data explicitly to fulfil FAIR, {cite:p}`Vedi2023` and the European Mouse Mutant Archive established ten Quality Principles to standardize the scientific evaluation of cryopreserved rodent disease models {cite:p}`Ehlich2025` — but these are islands, and metadata tooling for experimental in vivo work, such as the ISA framework in environmental-health science, is still being retrofitted onto fields that never captured it natively. {cite:p}`Nault2023`
+The Rat Genome Database describes its curated resource as advancing data reproducibility and fulfilling FAIR principles. {cite:p}`Vedi2023` INFRAFRONTIER/EMMA has developed ten Quality Principles tailored to cryopreserved rodent mutant strains. {cite:p}`Ehlich2025` Environmental-health metadata initiatives include development of the ISA framework and CEDAR. {cite:p}`Nault2023`
 
 :::{trust-claim}
-:claim-id: clm_1968595dcf67fa15
-:claim: Dedicated model-organism infrastructures show what good stewardship looks like — the Rat Genome Database curates multi-species genomic and phenotype data explicitly to fulfil FAIR, and the European Mouse Mutant Archive established ten Quality Principles to standardize the scientific evaluation of cryopreserved rodent disease models — but these are islands, and metadata tooling for experimental in vivo work, such as the ISA framework in environmental-health science, is still being retrofitted onto fields that never captured it natively.
-:cites: Vedi2023, Ehlich2025, Nault2023
-:claim-type: review_synthesis
-:modality: likely
+:claim-id: clm_78bb9583763fb509
+:claim: The Rat Genome Database describes its curated resource as advancing data reproducibility and fulfilling FAIR principles.
+:cites: Vedi2023
+:claim-type: methodological
+:modality: established
+:::
+
+:::{trust-claim}
+:claim-id: clm_e3ea0361fe0634b8
+:claim: INFRAFRONTIER/EMMA has developed ten Quality Principles tailored to cryopreserved rodent mutant strains.
+:cites: Ehlich2025
+:claim-type: methodological
+:modality: established
+:::
+
+:::{trust-claim}
+:claim-id: clm_af654aa69f19d42e
+:claim: Environmental-health metadata initiatives include development of the ISA framework and CEDAR.
+:cites: Nault2023
+:claim-type: methodological
+:modality: established
 :::
 
 The welfare consequence is direct and is the reason this section belongs in the argument at all. When a preclinical dataset is unfindable, incompletely described, or non-reusable, the animals that produced it have paid a welfare cost for knowledge that cannot be reused, and the experiment must often be repeated. Failure to share research biospecimens and data diverts funds into duplicate cohorts and deters reproducibility assessment; {cite:p}`Rush2024` cancer heterogeneity means single centres cannot generate enough data for accurate models, which was part of the original motivation for FAIR in the first place. {cite:p}`Vesteghem2019` The evidence of this section is that the generic FAIR ecosystem — declared but not delivered, compliant on paper but empty in practice, shared but not reusable — repays the data-welfare debt only weakly and unevenly. Because diffuse, all-data sharing so rarely converts into a second scientific use, that diagnosis motivates a change of tack: rather than pursue generic reuse of everything, {ref}`sec-virtual-controls` turns to a specific, high-value form of reuse in which the Reduction dividend is directly quantifiable — reusing curated control-animal data as virtual control groups, so that fewer animals are assigned to concurrent controls. Where general-purpose sharing has under-delivered, that targeted application is where the debt can most tangibly be repaid.
