@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T09:18:08.154Z",
+  "generated_at": "2026-07-16T09:53:30.688Z",
   "generated_by_phase": "phase_16T_trust_score_validation_v2",
   "claims": [
     {
@@ -6802,89 +6802,67 @@
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_d9d00fbc0881a6ab",
+      "claim_id": "clm_74cd11a5bac0a06a",
       "section_id": "sec-introduction",
       "source_file": "content/01_introduction.md",
       "paragraph_index": 9,
       "sentence_index": 3,
-      "claim_text": "A structural model argues that as long as publication drives careers, methods that produce more publishable results will keep being selected for regardless of their reliability, against a reform manifesto that expects methods, reporting, and incentive measures to improve reliability if adopted across the system.",
-      "normalized_claim": "a structural model argues that as long as publication drives careers methods that produce more publishable results will keep being selected for regardless of their reliability against a reform manifesto that expects methods reporting and incentive measures to improve reliability if adopted across the system",
+      "claim_text": "Smaldino and McElreath argued that poor research methods can persist because incentives favour them, even without conscious strategizing, when publication is a principal factor in career advancement.",
+      "normalized_claim": "smaldino and mcelreath argued that poor research methods can persist because incentives favour them even without conscious strategizing when publication is a principal factor in career advancement",
       "claim_atoms": [
         {
           "atom_id": "a1",
-          "text": "A structural model argues that as long as publication drives careers, methods that produce more publishable results will keep being selected for regardless of their reliability, against a reform manifesto that expects methods, reporting, and incentive measures to improve reliability if adopted across the system."
+          "text": "Smaldino and McElreath argued that poor research methods can persist because incentives favour them, even without conscious strategizing, when publication is a principal factor in career advancement."
         }
       ],
-      "claim_type": "review_synthesis",
+      "claim_type": "methodological",
       "claim_scope": {
         "biological": null,
-        "computational": "structural selection model of research practices",
+        "computational": "structural evolutionary model of research practices",
         "clinical": null,
-        "methodological": "reform measures (methods, reporting, incentives)",
-        "conceptual": "publication incentives vs reliability"
+        "methodological": "incentive selection of research methods",
+        "conceptual": "publication incentives and methodological reliability"
       },
       "scope_status": "matched",
-      "claim_polarity": "mixed",
-      "modality": "contested",
+      "claim_polarity": "negative",
+      "modality": "established",
       "wording_strength": "unqualified",
       "entities": [],
       "citation_keys": [
-        "Smaldino2016",
-        "Munafo2017"
+        "Smaldino2016"
       ],
       "dois": [
-        "10.1098/rsos.160384",
-        "10.1038/s41562-016-0021"
+        "10.1098/rsos.160384"
       ],
       "citation_contexts": [
         {
           "cite_key": "Smaldino2016",
           "doi": "10.1098/rsos.160384",
           "role": "direct_support",
-          "source_type": "narrative_review",
+          "source_type": "primary",
           "bibliography_status": "verified",
           "integrity_status": "verified_no_known_issue",
           "integrity_checked_at": "2026-07-08T23:15:00.000Z",
           "integrity_check_source": "https://api.crossref.org/works/10.1098%2Frsos.160384",
           "passages": [
             {
-              "text": "We show that despite over 50 years of reviews of low statistical power and its consequences, there has been no detectable increase.",
-              "passage_source": "full_text",
-              "locator": "Full text excerpt (legacy verification record)",
+              "text": "The persistence of poor methods results partly from incentives that favour them, leading to the natural selection of bad science.",
+              "passage_source": "abstract",
+              "locator": "Abstract, incentive-based persistence of poor methods",
               "verification_status": "verified",
               "verification_source": "https://doi.org/10.1098/rsos.160384",
-              "verified_at": "2026-07-08T23:15:00.000Z",
+              "verified_at": "2026-07-16T00:00:00.000Z",
               "supports_claim_atoms": [
                 "a1"
               ]
-            }
-          ],
-          "direction_match": true,
-          "supports_claim_atoms": [
-            "a1"
-          ],
-          "independence_group": "grp_d9d00fbc_1",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 2 independent citation(s); replication status ['replicated', 'single-study']; documented independent replication; effect size reported.",
-          "scope_match": "exact",
-          "notes": null
-        },
-        {
-          "cite_key": "Munafo2017",
-          "doi": "10.1038/s41562-016-0021",
-          "role": "direct_support",
-          "source_type": "narrative_review",
-          "bibliography_status": "verified",
-          "integrity_status": "verified_no_known_issue",
-          "integrity_checked_at": "2026-07-08T23:15:00.000Z",
-          "integrity_check_source": "https://api.crossref.org/works/10.1038%2Fs41562-016-0021",
-          "passages": [
+            },
             {
-              "text": "Studies of statistical power persistently find it to be below (sometimes well below) 50%, across both time and the different disciplines studied.",
-              "passage_source": "full_text",
-              "locator": "Full text excerpt (legacy verification record)",
+              "text": "This dynamic requires no conscious strategizing—no deliberate cheating nor loafing—by scientists, only that publication is a principal factor for career advancement.",
+              "passage_source": "abstract",
+              "locator": "Abstract, publication and career-advancement condition",
               "verification_status": "verified",
-              "verification_source": "https://doi.org/10.1038/s41562-016-0021",
-              "verified_at": "2026-07-08T23:15:00.000Z",
+              "verification_source": "https://doi.org/10.1098/rsos.160384",
+              "verified_at": "2026-07-16T00:00:00.000Z",
               "supports_claim_atoms": [
                 "a1"
               ]
@@ -6894,25 +6872,14 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_d9d00fbc_2",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 2 independent citation(s); replication status ['replicated', 'single-study']; documented independent replication; effect size reported.",
+          "independence_group": "grp_74cd11a5_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
           "scope_match": "exact",
           "notes": null
         }
       ],
-      "evidence_relation": "conflicted",
-      "conflicts": [
-        {
-          "conflict_type": "citation_key",
-          "target_id": "Munafo2017",
-          "notes": "Reform optimism: the manifesto expects methods/reporting/incentive measures to improve reliability, whereas the natural-selection model argues that as long as publication drives careers, incentives ke"
-        },
-        {
-          "conflict_type": "citation_key",
-          "target_id": "Smaldino2016",
-          "notes": "Reform optimism: the manifesto expects methods/reporting/incentive measures to improve reliability, whereas the natural-selection model argues that as long as publication drives careers, incentives ke"
-        }
-      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
       "knowledge_edges": [],
       "trust_score": {
         "rubric_version": "2.0.0",
@@ -6920,81 +6887,395 @@
           "traceability": {
             "score": 4,
             "rule_id": "T4_ATOM_LEVEL",
-            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom. Legacy assessment: 2/2 citations carry a verbatim supporting passage (full text); DOIs present for 2/2.",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
             "evidence": [
-              "Smaldino2016:1 verified passage(s)",
-              "Munafo2017:1 verified passage(s)"
+              "Smaldino2016:2 verified passage(s)"
             ],
             "failure_modes": [],
-            "recommended_fix": "Attach a verbatim supporting passage and a resolvable DOI to every citation."
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "robustness": {
-            "score": 3,
-            "rule_id": "R3_CONVERGENT",
-            "rationale": "Independent groups converge, but at least one atom has support from only one group. Legacy assessment: 2 independent citation(s); replication status ['replicated', 'single-study']; documented independent replication; effect size reported.",
+            "score": 4,
+            "rule_id": "R4_ORIGINATING_SOURCE",
+            "rationale": "A direct primary source covers the complete attribution without an unresolved contradiction.",
             "evidence": [
-              "grp_d9d00fbc_1",
-              "grp_d9d00fbc_2"
+              "grp_74cd11a5_1"
             ],
-            "failure_modes": [
-              "Independent groups converge, but at least one atom has support from only one group."
-            ],
-            "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "uncertainty_calibration": {
-            "score": 0,
-            "rule_id": "U0_OVERSTATED",
-            "rationale": "The surface wording is stronger than the derived evidence relation permits. Legacy assessment: The claim explicitly juxtaposes the selection model against the reform manifesto, naming the optimism conflict rather than asserting one side.",
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
             "evidence": [
-              "evidence_relation=conflicted",
-              "wording=SURFACE_UNQUALIFIED"
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_ATTRIBUTION",
+              "argued"
             ],
-            "failure_modes": [
-              "The surface wording is stronger than the derived evidence relation permits."
-            ],
-            "recommended_fix": "Revise the claim wording or verification inputs so the stated certainty matches the derived evidence relation."
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "source_integrity": {
-            "score": 3,
-            "rule_id": "S3_MIXED_CHECKS",
-            "rationale": "Source records resolve, but integrity or primary-source status is mixed. Legacy assessment: CrossRef re-resolution: {'VERIFIED': 2}; 2/2 full-text-checked; bibliographically consistent.",
+            "score": 4,
+            "rule_id": "S4_VERIFIED_PRIMARY",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
             "evidence": [
-              "Smaldino2016:verified/verified_no_known_issue/narrative_review",
-              "Munafo2017:verified/verified_no_known_issue/narrative_review"
+              "Smaldino2016:verified/verified_no_known_issue/primary"
             ],
-            "failure_modes": [
-              "Source records resolve, but integrity or primary-source status is mixed."
-            ],
-            "recommended_fix": "Resolve bibliography records and check a current registry or publisher record for each relied-upon source."
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "transferability_scope_control": {
             "score": 4,
             "rule_id": "X4_SCOPE_MATCHED",
-            "rationale": "The recorded evidence scope matches the claim. Legacy assessment: Both a behavioural-sciences selection model and a cross-discipline meta-research manifesto support a general claim about publication incentives, within their stated scope.",
+            "rationale": "The recorded evidence scope matches the claim.",
             "evidence": [
               "scope_status=matched",
-              "Smaldino2016:exact",
+              "Smaldino2016:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
+        },
+        "raw_score": 100,
+        "overall_score": 100,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_3496fd5d30b1dc1d",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "paragraph_index": 9,
+      "sentence_index": 4,
+      "claim_text": "A 2023 independent reimplementation replicated most model results and identified a coding error affecting the replication-rate dynamics, but reported that the original conclusion was unchanged.",
+      "normalized_claim": "a 2023 independent reimplementation replicated most model results and identified a coding error affecting the replication rate dynamics but reported that the original conclusion was unchanged",
+      "claim_atoms": [
+        {
+          "atom_id": "a1",
+          "text": "A 2023 independent reimplementation replicated most model results and identified a coding error affecting the replication-rate dynamics, but reported that the original conclusion was unchanged."
+        }
+      ],
+      "claim_type": "empirical",
+      "claim_scope": {
+        "biological": null,
+        "computational": "independent reimplementation of the natural-selection-of-bad-science model",
+        "clinical": null,
+        "methodological": "agent-based simulation replication",
+        "conceptual": "replication result and coding-error caveat"
+      },
+      "scope_status": "matched",
+      "claim_polarity": "mixed",
+      "modality": "established",
+      "wording_strength": "unqualified",
+      "entities": [],
+      "citation_keys": [
+        "Kohrt2023"
+      ],
+      "dois": [
+        "10.1098/rsos.221306"
+      ],
+      "citation_contexts": [
+        {
+          "cite_key": "Kohrt2023",
+          "doi": "10.1098/rsos.221306",
+          "role": "direct_support",
+          "source_type": "primary",
+          "bibliography_status": "verified",
+          "integrity_status": "verified_no_known_issue",
+          "integrity_checked_at": "2026-07-16T00:00:00.000Z",
+          "integrity_check_source": "https://api.crossref.org/works/10.1098%2Frsos.221306",
+          "passages": [
+            {
+              "text": "This study reports an independent replication of the findings presented by Smaldino and McElreath",
+              "passage_source": "abstract",
+              "locator": "Abstract, independent replication",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.1098/rsos.221306",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            },
+            {
+              "text": "Most of the study’s results could be replicated, regarding relational and close numerical equivalence.",
+              "passage_source": "full_text",
+              "locator": "Discussion, extent of successful replication",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.1098/rsos.221306",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            },
+            {
+              "text": "caused a brief period of exuberant replication not observed in the original paper due to a coding error.",
+              "passage_source": "abstract",
+              "locator": "Abstract, coding-error effect on replication dynamics",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.1098/rsos.221306",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            },
+            {
+              "text": "This difference does not, however, change the authors’ original conclusions.",
+              "passage_source": "abstract",
+              "locator": "Abstract, effect of the coding error on the conclusion",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.1098/rsos.221306",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          ],
+          "direction_match": true,
+          "supports_claim_atoms": [
+            "a1"
+          ],
+          "independence_group": "grp_3496fd5d_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
+          "scope_match": "exact",
+          "notes": "Added during approved human review to record the later independent reimplementation and its disclosed coding-error caveat."
+        }
+      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
+            "evidence": [
+              "Kohrt2023:4 verified passage(s)"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "robustness": {
+            "score": 2,
+            "rule_id": "R2_SINGLE_GROUP",
+            "rationale": "Every atom is covered, but the evidence resolves to one independence group.",
+            "evidence": [
+              "grp_3496fd5d_1"
+            ],
+            "failure_modes": [
+              "Every atom is covered, but the evidence resolves to one independence group."
+            ],
+            "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
+          },
+          "uncertainty_calibration": {
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
+            "evidence": [
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_UNQUALIFIED"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "source_integrity": {
+            "score": 4,
+            "rule_id": "S4_VERIFIED_PRIMARY",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
+            "evidence": [
+              "Kohrt2023:verified/verified_no_known_issue/primary"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
+              "Kohrt2023:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
+        },
+        "raw_score": 90,
+        "overall_score": 90,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_e36eb98cdbcd4649",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "paragraph_index": 9,
+      "sentence_index": 5,
+      "claim_text": "Munafò et al. proposed reforms spanning methods, reporting and dissemination, reproducibility, evaluation, and incentives, while emphasizing that broad adoption would require iterative evaluation and improvement.",
+      "normalized_claim": "munafò et al proposed reforms spanning methods reporting and dissemination reproducibility evaluation and incentives while emphasizing that broad adoption would require iterative evaluation and improvement",
+      "claim_atoms": [
+        {
+          "atom_id": "a1",
+          "text": "Munafò et al. proposed reforms spanning methods, reporting and dissemination, reproducibility, evaluation, and incentives, while emphasizing that broad adoption would require iterative evaluation and improvement."
+        }
+      ],
+      "claim_type": "methodological",
+      "claim_scope": {
+        "biological": null,
+        "computational": null,
+        "clinical": null,
+        "methodological": "reproducible-science reform measures",
+        "conceptual": "broad adoption with iterative evaluation and improvement"
+      },
+      "scope_status": "matched",
+      "claim_polarity": "positive",
+      "modality": "established",
+      "wording_strength": "unqualified",
+      "entities": [],
+      "citation_keys": [
+        "Munafo2017"
+      ],
+      "dois": [
+        "10.1038/s41562-016-0021"
+      ],
+      "citation_contexts": [
+        {
+          "cite_key": "Munafo2017",
+          "doi": "10.1038/s41562-016-0021",
+          "role": "direct_support",
+          "source_type": "primary",
+          "bibliography_status": "verified",
+          "integrity_status": "verified_no_known_issue",
+          "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+          "integrity_check_source": "https://api.crossref.org/works/10.1038%2Fs41562-016-0021",
+          "passages": [
+            {
+              "text": "Here we argue for the adoption of measures to optimize key elements of the scientific process: methods, reporting and dissemination, reproducibility, evaluation and incentives.",
+              "passage_source": "abstract",
+              "locator": "Abstract, categories of proposed reform measures",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.1038/s41562-016-0021",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            },
+            {
+              "text": "but their broad adoption by researchers, institutions, funders and journals will require iterative evaluation and improvement.",
+              "passage_source": "abstract",
+              "locator": "Abstract, condition for broad adoption",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.1038/s41562-016-0021",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          ],
+          "direction_match": true,
+          "supports_claim_atoms": [
+            "a1"
+          ],
+          "independence_group": "grp_e36eb98c_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
+          "scope_match": "exact",
+          "notes": null
+        }
+      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
+            "evidence": [
+              "Munafo2017:2 verified passage(s)"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "robustness": {
+            "score": 4,
+            "rule_id": "R4_ORIGINATING_SOURCE",
+            "rationale": "A direct primary source covers the complete attribution without an unresolved contradiction.",
+            "evidence": [
+              "grp_e36eb98c_1"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "uncertainty_calibration": {
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
+            "evidence": [
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_ATTRIBUTION",
+              "proposed"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "source_integrity": {
+            "score": 4,
+            "rule_id": "S4_VERIFIED_PRIMARY",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
+            "evidence": [
+              "Munafo2017:verified/verified_no_known_issue/primary"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
               "Munafo2017:exact"
             ],
             "failure_modes": [],
-            "recommended_fix": "No change needed."
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           }
         },
-        "raw_score": 70,
-        "overall_score": 60,
-        "trust_label": "low_trust",
-        "capped": true,
-        "cap_value": 60,
-        "cap_reasons": [
-          "contradicted_without_caveat"
-        ],
-        "cap_reason": "contradicted_without_caveat",
+        "raw_score": 100,
+        "overall_score": 100,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
         "computed_from": "validator"
       },
-      "human_review_required": true,
-      "created_by_phase": "trust_seed",
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
       "updated_by_phase": "phase_16T_trust_score_validation_v2",
-      "validation_status": "needs_human_review"
+      "validation_status": "validated"
     },
     {
       "claim_id": "clm_e627efda808e9426",
@@ -108189,7 +108470,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_d9d00fbc0881a6ab",
+      "source_claim_id": "clm_74cd11a5bac0a06a",
       "relation": "supports",
       "target": "Smaldino2016",
       "target_type": "citation",
@@ -108197,7 +108478,15 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_d9d00fbc0881a6ab",
+      "source_claim_id": "clm_3496fd5d30b1dc1d",
+      "relation": "supports",
+      "target": "Kohrt2023",
+      "target_type": "citation",
+      "weight": 1,
+      "notes": "Added during approved human review to record the later independent reimplementation and its disclosed coding-error caveat."
+    },
+    {
+      "source_claim_id": "clm_e36eb98cdbcd4649",
       "relation": "supports",
       "target": "Munafo2017",
       "target_type": "citation",
@@ -118734,11 +119023,11 @@
     }
   ],
   "summary": {
-    "total_claims": 527,
-    "high_trust": 441,
+    "total_claims": 529,
+    "high_trust": 444,
     "moderate_trust": 56,
-    "low_trust": 30,
+    "low_trust": 29,
     "critical_or_unreliable": 0,
-    "needs_human_review": 30
+    "needs_human_review": 29
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-07-16T09:18:08.154Z",
+  "generated_at": "2026-07-16T09:53:30.688Z",
   "generated_by_phase": "phase_5b_claim_seed_v2_migration",
   "claim_id_algorithm": "sha256(section_id + LF + nfkc_trim_whitespace_collapsed_exact_text)[0:16]",
   "claims": [
@@ -637,21 +637,49 @@
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_d9d00fbc0881a6ab",
+      "claim_id": "clm_74cd11a5bac0a06a",
       "section_id": "sec-introduction",
-      "claim_text": "A structural model argues that as long as publication drives careers, methods that produce more publishable results will keep being selected for regardless of their reliability, against a reform manifesto that expects methods, reporting, and incentive measures to improve reliability if adopted across the system.",
-      "normalized_claim": "a structural model argues that as long as publication drives careers methods that produce more publishable results will keep being selected for regardless of their reliability against a reform manifesto that expects methods reporting and incentive measures to improve reliability if adopted across the system",
-      "claim_type": "review_synthesis",
-      "modality": "contested",
+      "claim_text": "Smaldino and McElreath argued that poor research methods can persist because incentives favour them, even without conscious strategizing, when publication is a principal factor in career advancement.",
+      "normalized_claim": "smaldino and mcelreath argued that poor research methods can persist because incentives favour them even without conscious strategizing when publication is a principal factor in career advancement",
+      "claim_type": "methodological",
+      "modality": "established",
       "citation_keys": [
-        "Smaldino2016",
+        "Smaldino2016"
+      ],
+      "dois": [
+        "10.1098/rsos.160384"
+      ],
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_3496fd5d30b1dc1d",
+      "section_id": "sec-introduction",
+      "claim_text": "A 2023 independent reimplementation replicated most model results and identified a coding error affecting the replication-rate dynamics, but reported that the original conclusion was unchanged.",
+      "normalized_claim": "a 2023 independent reimplementation replicated most model results and identified a coding error affecting the replication rate dynamics but reported that the original conclusion was unchanged",
+      "claim_type": "empirical",
+      "modality": "established",
+      "citation_keys": [
+        "Kohrt2023"
+      ],
+      "dois": [
+        "10.1098/rsos.221306"
+      ],
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_e36eb98cdbcd4649",
+      "section_id": "sec-introduction",
+      "claim_text": "Munafò et al. proposed reforms spanning methods, reporting and dissemination, reproducibility, evaluation, and incentives, while emphasizing that broad adoption would require iterative evaluation and improvement.",
+      "normalized_claim": "munafò et al proposed reforms spanning methods reporting and dissemination reproducibility evaluation and incentives while emphasizing that broad adoption would require iterative evaluation and improvement",
+      "claim_type": "methodological",
+      "modality": "established",
+      "citation_keys": [
         "Munafo2017"
       ],
       "dois": [
-        "10.1098/rsos.160384",
         "10.1038/s41562-016-0021"
       ],
-      "validation_status": "needs_human_review"
+      "validation_status": "validated"
     },
     {
       "claim_id": "clm_e627efda808e9426",

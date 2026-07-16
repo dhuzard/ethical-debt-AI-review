@@ -1347,6 +1347,211 @@
           "conflicts": []
         }
       ]
+    },
+    {
+      "decision_id": "hr_009_bad_science_model_reforms",
+      "claim_id": "clm_d9d00fbc0881a6ab",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "notes": "Approved in the PR human-review pass. Replace the false opposition between the selection model and reform manifesto with three source-attributed claims, and add the 2023 independent reimplementation with its coding-error caveat.",
+      "original_markdown": "A structural model argues that as long as publication drives careers, methods that produce more publishable results will keep being selected for regardless of their reliability, against a reform manifesto that expects methods, reporting, and incentive measures to improve reliability if adopted across the system. {cite:p}`Smaldino2016, Munafo2017`",
+      "replacement_markdown": "Smaldino and McElreath argued that poor research methods can persist because incentives favour them, even without conscious strategizing, when publication is a principal factor in career advancement. {cite:p}`Smaldino2016` A 2023 independent reimplementation replicated most model results and identified a coding error affecting the replication-rate dynamics, but reported that the original conclusion was unchanged. {cite:p}`Kohrt2023` Munafò et al. proposed reforms spanning methods, reporting and dissemination, reproducibility, evaluation, and incentives, while emphasizing that broad adoption would require iterative evaluation and improvement. {cite:p}`Munafo2017`",
+      "claims": [
+        {
+          "sentence_index": 3,
+          "claim_text": "Smaldino and McElreath argued that poor research methods can persist because incentives favour them, even without conscious strategizing, when publication is a principal factor in career advancement.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": null,
+            "computational": "structural evolutionary model of research practices",
+            "clinical": null,
+            "methodological": "incentive selection of research methods",
+            "conceptual": "publication incentives and methodological reliability"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "negative",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Smaldino2016"
+          ],
+          "context_overrides": {
+            "Smaldino2016": {
+              "role": "direct_support",
+              "source_type": "primary",
+              "scope_match": "exact",
+              "passages": [
+                {
+                  "text": "The persistence of poor methods results partly from incentives that favour them, leading to the natural selection of bad science.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, incentive-based persistence of poor methods",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1098/rsos.160384",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "This dynamic requires no conscious strategizing—no deliberate cheating nor loafing—by scientists, only that publication is a principal factor for career advancement.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, publication and career-advancement condition",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1098/rsos.160384",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 4,
+          "claim_text": "A 2023 independent reimplementation replicated most model results and identified a coding error affecting the replication-rate dynamics, but reported that the original conclusion was unchanged.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": null,
+            "computational": "independent reimplementation of the natural-selection-of-bad-science model",
+            "clinical": null,
+            "methodological": "agent-based simulation replication",
+            "conceptual": "replication result and coding-error caveat"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "mixed",
+          "modality": "established",
+          "entities": [],
+          "additional_citation_contexts": [
+            {
+              "cite_key": "Kohrt2023",
+              "doi": "10.1098/rsos.221306",
+              "role": "direct_support",
+              "source_type": "primary",
+              "bibliography_status": "verified",
+              "integrity_status": "verified_no_known_issue",
+              "integrity_checked_at": "2026-07-16T00:00:00.000Z",
+              "integrity_check_source": "https://api.crossref.org/works/10.1098%2Frsos.221306",
+              "passages": [
+                {
+                  "text": "This study reports an independent replication of the findings presented by Smaldino and McElreath",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, independent replication",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1098/rsos.221306",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "Most of the study’s results could be replicated, regarding relational and close numerical equivalence.",
+                  "passage_source": "full_text",
+                  "locator": "Discussion, extent of successful replication",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1098/rsos.221306",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "caused a brief period of exuberant replication not observed in the original paper due to a coding error.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, coding-error effect on replication dynamics",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1098/rsos.221306",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "This difference does not, however, change the authors’ original conclusions.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, effect of the coding error on the conclusion",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1098/rsos.221306",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "direction_match": true,
+              "supports_claim_atoms": [
+                "a1"
+              ],
+              "independence_group": null,
+              "independence_basis": null,
+              "scope_match": "exact",
+              "notes": "Added during approved human review to record the later independent reimplementation and its disclosed coding-error caveat."
+            }
+          ],
+          "conflicts": []
+        },
+        {
+          "sentence_index": 5,
+          "claim_text": "Munafò et al. proposed reforms spanning methods, reporting and dissemination, reproducibility, evaluation, and incentives, while emphasizing that broad adoption would require iterative evaluation and improvement.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": null,
+            "computational": null,
+            "clinical": null,
+            "methodological": "reproducible-science reform measures",
+            "conceptual": "broad adoption with iterative evaluation and improvement"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Munafo2017"
+          ],
+          "context_overrides": {
+            "Munafo2017": {
+              "role": "direct_support",
+              "source_type": "primary",
+              "scope_match": "exact",
+              "passages": [
+                {
+                  "text": "Here we argue for the adoption of measures to optimize key elements of the scientific process: methods, reporting and dissemination, reproducibility, evaluation and incentives.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, categories of proposed reform measures",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1038/s41562-016-0021",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "but their broad adoption by researchers, institutions, funders and journals will require iterative evaluation and improvement.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, condition for broad adoption",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1038/s41562-016-0021",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          },
+          "conflicts": []
+        }
+      ]
     }
   ]
 }

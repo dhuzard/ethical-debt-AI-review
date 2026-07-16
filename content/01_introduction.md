@@ -313,7 +313,7 @@ The third mechanism is the complement to reuse — replacing animals altogether 
 :modality: likely
 :::
 
-The fourth mechanism is the one that determines whether the other three ever operate: reform of the incentive and governance systems, treated in {ref}`sec-incentives` and. {ref}`sec-governance` The persistence of the data-welfare debt across FAIR data, virtual controls, and NAMs is not a technical accident but the predictable output of a reward structure that pays for publication counts and journal prestige while pricing stewardship at essentially zero — data-sharing appears in almost no promotion and tenure criteria, while peer-reviewed publications appear in nearly all, and researchers accordingly treat their data as a private asset whose release requires an incentive that does not exist. {cite:p}`Rice2020, McKiernan2019, Fecher2015` A structural model argues that as long as publication drives careers, methods that produce more publishable results will keep being selected for regardless of their reliability, against a reform manifesto that expects methods, reporting, and incentive measures to improve reliability if adopted across the system. {cite:p}`Smaldino2016, Munafo2017` The decisive test is the gap between what researchers declare and what they deliver: an editorial data-sharing requirement produced near-universal declarations of willingness but under one percent of trials with data actually available. {cite:p}`Danchev2021` Governance offers the enforced alternative, and here the evidence is clearer: a checklist mandated and checked at revision moved reporting where the same checklist merely requested at submission did not, and open-practice signals that are verified deliver usable data where unenforced mandates do not. {cite:p}`Macleod2019b, Hair2019, Kidwell2016` The recurring lesson is that enforcement beats endorsement, though effects are heterogeneous and field-wide sharing remains near the floor.
+The fourth mechanism is the one that determines whether the other three ever operate: reform of the incentive and governance systems, treated in {ref}`sec-incentives` and. {ref}`sec-governance` The persistence of the data-welfare debt across FAIR data, virtual controls, and NAMs is not a technical accident but the predictable output of a reward structure that pays for publication counts and journal prestige while pricing stewardship at essentially zero — data-sharing appears in almost no promotion and tenure criteria, while peer-reviewed publications appear in nearly all, and researchers accordingly treat their data as a private asset whose release requires an incentive that does not exist. {cite:p}`Rice2020, McKiernan2019, Fecher2015` Smaldino and McElreath argued that poor research methods can persist because incentives favour them, even without conscious strategizing, when publication is a principal factor in career advancement. {cite:p}`Smaldino2016` A 2023 independent reimplementation replicated most model results and identified a coding error affecting the replication-rate dynamics, but reported that the original conclusion was unchanged. {cite:p}`Kohrt2023` Munafò et al. proposed reforms spanning methods, reporting and dissemination, reproducibility, evaluation, and incentives, while emphasizing that broad adoption would require iterative evaluation and improvement. {cite:p}`Munafo2017` The decisive test is the gap between what researchers declare and what they deliver: an editorial data-sharing requirement produced near-universal declarations of willingness but under one percent of trials with data actually available. {cite:p}`Danchev2021` Governance offers the enforced alternative, and here the evidence is clearer: a checklist mandated and checked at revision moved reporting where the same checklist merely requested at submission did not, and open-practice signals that are verified deliver usable data where unenforced mandates do not. {cite:p}`Macleod2019b, Hair2019, Kidwell2016` The recurring lesson is that enforcement beats endorsement, though effects are heterogeneous and field-wide sharing remains near the floor.
 
 :::{trust-claim}
 :claim-id: clm_09ef1fa4df987040
@@ -324,11 +324,27 @@ The fourth mechanism is the one that determines whether the other three ever ope
 :::
 
 :::{trust-claim}
-:claim-id: clm_d9d00fbc0881a6ab
-:claim: A structural model argues that as long as publication drives careers, methods that produce more publishable results will keep being selected for regardless of their reliability, against a reform manifesto that expects methods, reporting, and incentive measures to improve reliability if adopted across the system.
-:cites: Smaldino2016, Munafo2017
-:claim-type: review_synthesis
-:modality: contested
+:claim-id: clm_74cd11a5bac0a06a
+:claim: Smaldino and McElreath argued that poor research methods can persist because incentives favour them, even without conscious strategizing, when publication is a principal factor in career advancement.
+:cites: Smaldino2016
+:claim-type: methodological
+:modality: established
+:::
+
+:::{trust-claim}
+:claim-id: clm_3496fd5d30b1dc1d
+:claim: A 2023 independent reimplementation replicated most model results and identified a coding error affecting the replication-rate dynamics, but reported that the original conclusion was unchanged.
+:cites: Kohrt2023
+:claim-type: empirical
+:modality: established
+:::
+
+:::{trust-claim}
+:claim-id: clm_e36eb98cdbcd4649
+:claim: Munafò et al. proposed reforms spanning methods, reporting and dissemination, reproducibility, evaluation, and incentives, while emphasizing that broad adoption would require iterative evaluation and improvement.
+:cites: Munafo2017
+:claim-type: methodological
+:modality: established
 :::
 
 :::{trust-claim}
