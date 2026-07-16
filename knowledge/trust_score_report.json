@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T08:23:58.263Z",
+  "generated_at": "2026-07-16T08:31:21.142Z",
   "source": "knowledge/claim_graph.json",
   "formula": "raw_score = 5 * sum(component scores); overall_score = min(raw_score, 60) when any cap reason applies",
   "claims": [
@@ -725,23 +725,23 @@
       "cap_reasons": []
     },
     {
-      "claim_id": "clm_c26aae3ede82ce24",
+      "claim_id": "clm_9f30c76025c6c2f1",
       "component_scores": {
         "traceability": 4,
-        "robustness": 3,
-        "uncertainty_calibration": 0,
+        "robustness": 2,
+        "uncertainty_calibration": 4,
         "source_integrity": 4,
         "transferability_scope_control": 4
       },
       "component_rules": {
         "traceability": "T4_ATOM_LEVEL",
-        "robustness": "R3_CONVERGENT",
-        "uncertainty_calibration": "U0_OVERSTATED",
+        "robustness": "R2_SINGLE_GROUP",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
         "source_integrity": "S4_VERIFIED_PRIMARY",
         "transferability_scope_control": "X4_SCOPE_MATCHED"
       },
       "score_basis": {
-        "claim_text": "The most instructive case is one in which the animal data are not even in dispute: two analyses of the same inflammation gene-expression datasets reached opposite conclusions about whether mouse models mimic human disease, the reversal driven entirely by a gene-selection choice.",
+        "claim_text": "Seok et al. reported near-random mouse–human agreement among genes significantly changed in human inflammatory conditions (R2 0.0–0.1).",
         "eligible_citations": [
           {
             "cite_key": "Seok2013",
@@ -754,9 +754,55 @@
             "verified_passage_locators": [
               "Abstract excerpt (legacy verification record)"
             ],
-            "independence_group": "grp_c26aae3e_1",
+            "independence_group": "grp_9f30c760_1",
             "scope_match": "exact"
-          },
+          }
+        ],
+        "atom_support": {
+          "a1": [
+            "Seok2013"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "grp_9f30c760_1"
+          ]
+        },
+        "derived_evidence_relation": "directly_supported",
+        "wording_strength": "unqualified",
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_UNQUALIFIED",
+          "markers": []
+        },
+        "modality": "established",
+        "scope_status": "matched"
+      },
+      "raw_score": 90,
+      "overall_score": 90,
+      "trust_label": "high_trust",
+      "capped": false,
+      "cap_reasons": []
+    },
+    {
+      "claim_id": "clm_a7c87272d164e6f1",
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 2,
+        "uncertainty_calibration": 2,
+        "source_integrity": 4,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R2_SINGLE_GROUP",
+        "uncertainty_calibration": "U2_CONFLICT_DISCLOSED",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "score_basis": {
+        "claim_text": "However, Takao and Miyakawa reanalysed the same datasets using genes significantly changed in both species and reported Spearman correlations of 0.43–0.68 with 77–93% directional agreement.",
+        "eligible_citations": [
           {
             "cite_key": "Takao2014",
             "doi": "10.1073/pnas.1401965111",
@@ -766,41 +812,41 @@
               "a1"
             ],
             "verified_passage_locators": [
-              "Abstract excerpt (legacy verification record)"
+              "Abstract, dataset and gene-selection method (part 1)",
+              "Abstract, dataset and gene-selection method (part 2)",
+              "Abstract, correlation and directional-agreement estimates"
             ],
-            "independence_group": "grp_c26aae3e_2",
+            "independence_group": "grp_a7c87272_1",
             "scope_match": "exact"
           }
         ],
         "atom_support": {
           "a1": [
-            "Seok2013",
             "Takao2014"
           ]
         },
         "independence_groups_by_atom": {
           "a1": [
-            "grp_c26aae3e_1",
-            "grp_c26aae3e_2"
+            "grp_a7c87272_1"
           ]
         },
         "derived_evidence_relation": "conflicted",
-        "wording_strength": "unqualified",
+        "wording_strength": "contested",
         "wording_basis": {
-          "wording_strength": "unqualified",
-          "rule_id": "SURFACE_UNQUALIFIED",
-          "markers": []
+          "wording_strength": "contested",
+          "rule_id": "SURFACE_CONFLICT",
+          "markers": [
+            "However"
+          ]
         },
         "modality": "contested",
         "scope_status": "matched"
       },
-      "raw_score": 75,
-      "overall_score": 60,
-      "trust_label": "low_trust",
-      "capped": true,
-      "cap_reasons": [
-        "contradicted_without_caveat"
-      ]
+      "raw_score": 80,
+      "overall_score": 80,
+      "trust_label": "moderate_trust",
+      "capped": false,
+      "cap_reasons": []
     },
     {
       "claim_id": "clm_d2f000d937987a87",
@@ -45175,15 +45221,15 @@
     }
   ],
   "summary": {
-    "total_claims": 519,
-    "mean_overall_score": 89.36416184971098,
+    "total_claims": 520,
+    "mean_overall_score": 89.40384615384616,
     "minimum_overall_score": 50,
     "maximum_overall_score": 100,
-    "high_trust": 433,
-    "moderate_trust": 54,
-    "low_trust": 32,
+    "high_trust": 434,
+    "moderate_trust": 55,
+    "low_trust": 31,
     "critical_or_unreliable": 0,
-    "capped_claims": 32,
-    "needs_human_review": 32
+    "capped_claims": 31,
+    "needs_human_review": 31
   }
 }

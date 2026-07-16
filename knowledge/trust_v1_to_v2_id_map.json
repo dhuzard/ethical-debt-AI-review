@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-07-16T08:23:58.263Z",
+  "generated_at": "2026-07-16T08:31:21.142Z",
   "source": "knowledge/claim_graph.json at rubric v1",
   "target": "TRUST rubric v2.0.0",
   "claim_ids": {
@@ -1037,7 +1037,9 @@
     "clm_79031a3b91f812f1": "clm_79031a3b91f812f1",
     "clm_89227c23932c38b8": "clm_89227c23932c38b8",
     "clm_1a7c2d0b3c6cfe8b": "clm_1a7c2d0b3c6cfe8b",
-    "clm_92618eddf068d4bd": "clm_92618eddf068d4bd"
+    "clm_92618eddf068d4bd": "clm_92618eddf068d4bd",
+    "clm_9f30c76025c6c2f1": "clm_9f30c76025c6c2f1",
+    "clm_a7c87272d164e6f1": "clm_a7c87272d164e6f1"
   },
   "integrity_basis": "Phase 16 Crossref re-resolution records, with registry URLs retained per citation context.",
   "passage_policy": "Legacy verified source sentences are represented by the best claim-overlap window of at most 25 words.",
@@ -1100,6 +1102,17 @@
       "output_claim_ids": [
         "clm_1a7c2d0b3c6cfe8b",
         "clm_92618eddf068d4bd"
+      ]
+    },
+    {
+      "decision_id": "hr_006_mouse_human_gene_selection",
+      "claim_id": "clm_c26aae3ede82ce24",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "output_claim_ids": [
+        "clm_9f30c76025c6c2f1",
+        "clm_a7c87272d164e6f1"
       ]
     }
   ]

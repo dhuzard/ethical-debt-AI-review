@@ -45,7 +45,7 @@ We call this the Ethical Debt of preclinical research. The metaphor is deliberat
 :modality: likely
 :::
 
-The empirical foundation for the debt is the reproducibility and translation crisis, which {ref}`sec-repro-crisis` examines in detail. The published animal record is not a neutral archive of what experiments found but a filtered, distorted, and frequently untranslatable sample of them: across thousands of datasets, the number of "positive" studies vastly exceeds what their statistical power should produce, and only a small minority of meta-analyses are free of any small-study or excess-significance signal. {cite:p}`Sena2010, Tsilidis2013` Internal-validity failures and publication bias each independently inflate apparent efficacy, so the published effect is systematically overstated. {cite:p}`Freedman2015, vanderWorp2010` The studies themselves are chronically underpowered, which both exaggerates the effects that reach significance and lowers the chance that a positive result is true. {cite:p}`Button2013` Animal findings then translate to humans poorly and unpredictably: a direct six-intervention comparison showed benefit in animal head-injury models that evaporated in patients, {cite:p}`Perel2006` a scoping review found published translational success spanning the entire range from none to complete, {cite:p}`Leenaars2019b` and independent analyses converge on a likelihood of moving from first-in-human testing to approval of only roughly 5–14%. {cite:p}`Schuhmacher2025, Dhillon2022` The most instructive case is one in which the animal data are not even in dispute: two analyses of the same inflammation gene-expression datasets reached opposite conclusions about whether mouse models mimic human disease, the reversal driven entirely by a gene-selection choice. {cite:p}`Seok2013, Takao2014` That contrast is a warning that runs through this review — the value that can be extracted from animal data depends on how those data are handled after the animal has already paid, which is precisely the domain in which the debt is incurred or repaid.
+The empirical foundation for the debt is the reproducibility and translation crisis, which {ref}`sec-repro-crisis` examines in detail. The published animal record is not a neutral archive of what experiments found but a filtered, distorted, and frequently untranslatable sample of them: across thousands of datasets, the number of "positive" studies vastly exceeds what their statistical power should produce, and only a small minority of meta-analyses are free of any small-study or excess-significance signal. {cite:p}`Sena2010, Tsilidis2013` Internal-validity failures and publication bias each independently inflate apparent efficacy, so the published effect is systematically overstated. {cite:p}`Freedman2015, vanderWorp2010` The studies themselves are chronically underpowered, which both exaggerates the effects that reach significance and lowers the chance that a positive result is true. {cite:p}`Button2013` Animal findings then translate to humans poorly and unpredictably: a direct six-intervention comparison showed benefit in animal head-injury models that evaporated in patients, {cite:p}`Perel2006` a scoping review found published translational success spanning the entire range from none to complete, {cite:p}`Leenaars2019b` and independent analyses converge on a likelihood of moving from first-in-human testing to approval of only roughly 5–14%. {cite:p}`Schuhmacher2025, Dhillon2022` Seok et al. reported near-random mouse–human agreement among genes significantly changed in human inflammatory conditions (R² 0.0–0.1). {cite:p}`Seok2013` However, Takao and Miyakawa reanalysed the same datasets using genes significantly changed in both species and reported Spearman correlations of 0.43–0.68 with 77–93% directional agreement. {cite:p}`Takao2014` That contrast is a warning that runs through this review — the value that can be extracted from animal data depends on how those data are handled after the animal has already paid, which is precisely the domain in which the debt is incurred or repaid.
 
 :::{trust-claim}
 :claim-id: clm_e60e847a321ec50b
@@ -80,10 +80,18 @@ The empirical foundation for the debt is the reproducibility and translation cri
 :::
 
 :::{trust-claim}
-:claim-id: clm_c26aae3ede82ce24
-:claim: The most instructive case is one in which the animal data are not even in dispute: two analyses of the same inflammation gene-expression datasets reached opposite conclusions about whether mouse models mimic human disease, the reversal driven entirely by a gene-selection choice.
-:cites: Seok2013, Takao2014
-:claim-type: comparative
+:claim-id: clm_9f30c76025c6c2f1
+:claim: Seok et al. reported near-random mouse–human agreement among genes significantly changed in human inflammatory conditions (R2 0.0–0.1).
+:cites: Seok2013
+:claim-type: empirical
+:modality: established
+:::
+
+:::{trust-claim}
+:claim-id: clm_a7c87272d164e6f1
+:claim: However, Takao and Miyakawa reanalysed the same datasets using genes significantly changed in both species and reported Spearman correlations of 0.43–0.68 with 77–93% directional agreement.
+:cites: Takao2014
+:claim-type: empirical
 :modality: contested
 :::
 

@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T08:23:58.263Z",
+  "generated_at": "2026-07-16T08:31:21.142Z",
   "generated_by_phase": "phase_16T_trust_score_validation_v2",
   "claims": [
     {
@@ -1706,39 +1706,37 @@
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_c26aae3ede82ce24",
+      "claim_id": "clm_9f30c76025c6c2f1",
       "section_id": "sec-introduction",
       "source_file": "content/01_introduction.md",
       "paragraph_index": 3,
       "sentence_index": 6,
-      "claim_text": "The most instructive case is one in which the animal data are not even in dispute: two analyses of the same inflammation gene-expression datasets reached opposite conclusions about whether mouse models mimic human disease, the reversal driven entirely by a gene-selection choice.",
-      "normalized_claim": "the most instructive case is one in which the animal data are not even in dispute two analyses of the same inflammation gene expression datasets reached opposite conclusions about whether mouse models mimic human disease the reversal driven entirely by a gene selection choice",
+      "claim_text": "Seok et al. reported near-random mouse–human agreement among genes significantly changed in human inflammatory conditions (R2 0.0–0.1).",
+      "normalized_claim": "seok et al reported near random mouse human agreement among genes significantly changed in human inflammatory conditions r2 0 0 0 1",
       "claim_atoms": [
         {
           "atom_id": "a1",
-          "text": "The most instructive case is one in which the animal data are not even in dispute: two analyses of the same inflammation gene-expression datasets reached opposite conclusions about whether mouse models mimic human disease, the reversal driven entirely by a gene-selection choice."
+          "text": "Seok et al. reported near-random mouse–human agreement among genes significantly changed in human inflammatory conditions (R2 0.0–0.1)."
         }
       ],
-      "claim_type": "comparative",
+      "claim_type": "empirical",
       "claim_scope": {
-        "biological": "mouse inflammation models vs human disease",
-        "computational": "gene-expression genomics analysis",
+        "biological": "mouse inflammation models versus human inflammatory conditions",
+        "computational": "mouse–human gene-expression comparison",
         "clinical": null,
-        "methodological": "gene-selection analytic choice",
-        "conceptual": "model validity and analytic flexibility"
+        "methodological": "genes significantly changed in human inflammatory conditions",
+        "conceptual": "cross-species genomic agreement"
       },
       "scope_status": "matched",
-      "claim_polarity": "mixed",
-      "modality": "contested",
+      "claim_polarity": "negative",
+      "modality": "established",
       "wording_strength": "unqualified",
       "entities": [],
       "citation_keys": [
-        "Seok2013",
-        "Takao2014"
+        "Seok2013"
       ],
       "dois": [
-        "10.1073/pnas.1222878110",
-        "10.1073/pnas.1401965111"
+        "10.1073/pnas.1222878110"
       ],
       "citation_contexts": [
         {
@@ -1767,11 +1765,121 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_c26aae3e_1",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 2 independent citation(s); replication status ['disputed']; documented independent replication; effect size reported.",
+          "independence_group": "grp_9f30c760_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
           "scope_match": "exact",
           "notes": null
+        }
+      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
+            "evidence": [
+              "Seok2013:1 verified passage(s)"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "robustness": {
+            "score": 2,
+            "rule_id": "R2_SINGLE_GROUP",
+            "rationale": "Every atom is covered, but the evidence resolves to one independence group.",
+            "evidence": [
+              "grp_9f30c760_1"
+            ],
+            "failure_modes": [
+              "Every atom is covered, but the evidence resolves to one independence group."
+            ],
+            "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
+          },
+          "uncertainty_calibration": {
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
+            "evidence": [
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_UNQUALIFIED"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "source_integrity": {
+            "score": 4,
+            "rule_id": "S4_VERIFIED_PRIMARY",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
+            "evidence": [
+              "Seok2013:verified/verified_no_known_issue/primary"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
+              "Seok2013:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
         },
+        "raw_score": 90,
+        "overall_score": 90,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_a7c87272d164e6f1",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "paragraph_index": 3,
+      "sentence_index": 7,
+      "claim_text": "However, Takao and Miyakawa reanalysed the same datasets using genes significantly changed in both species and reported Spearman correlations of 0.43–0.68 with 77–93% directional agreement.",
+      "normalized_claim": "however takao and miyakawa reanalysed the same datasets using genes significantly changed in both species and reported spearman correlations of 0 43 0 68 with 77 93 directional agreement",
+      "claim_atoms": [
+        {
+          "atom_id": "a1",
+          "text": "However, Takao and Miyakawa reanalysed the same datasets using genes significantly changed in both species and reported Spearman correlations of 0.43–0.68 with 77–93% directional agreement."
+        }
+      ],
+      "claim_type": "empirical",
+      "claim_scope": {
+        "biological": "mouse inflammation models versus human inflammatory conditions",
+        "computational": "reanalysis of the same gene-expression datasets",
+        "clinical": null,
+        "methodological": "genes significantly changed in both humans and mice",
+        "conceptual": "cross-species genomic agreement"
+      },
+      "scope_status": "matched",
+      "claim_polarity": "positive",
+      "modality": "contested",
+      "wording_strength": "contested",
+      "entities": [],
+      "citation_keys": [
+        "Takao2014"
+      ],
+      "dois": [
+        "10.1073/pnas.1401965111"
+      ],
+      "citation_contexts": [
         {
           "cite_key": "Takao2014",
           "doi": "10.1073/pnas.1401965111",
@@ -1783,12 +1891,34 @@
           "integrity_check_source": "https://api.crossref.org/works/10.1073%2Fpnas.1401965111",
           "passages": [
             {
-              "text": "Contrary to the previous findings, the gene expression levels in the mouse models showed extraordinarily significant correlations with those of the human conditions (Spearman's rank",
+              "text": "Here we reevaluated the same gene expression datasets used in the previous study by focusing on genes whose expression levels were significantly changed",
               "passage_source": "abstract",
-              "locator": "Abstract excerpt (legacy verification record)",
+              "locator": "Abstract, dataset and gene-selection method (part 1)",
               "verification_status": "verified",
               "verification_source": "https://doi.org/10.1073/pnas.1401965111",
-              "verified_at": "2026-07-08T23:15:00.000Z",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            },
+            {
+              "text": "in both humans and mice. Contrary to the previous findings, the gene expression levels in the mouse models showed extraordinarily significant correlations with those",
+              "passage_source": "abstract",
+              "locator": "Abstract, dataset and gene-selection method (part 2)",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.1073/pnas.1401965111",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            },
+            {
+              "text": "Spearman's rank correlation coefficient: 0.43-0.68; genes changed in the same direction: 77-93%; P = 6.5 × 10(-11) to 1.2 × 10(-35).",
+              "passage_source": "abstract",
+              "locator": "Abstract, correlation and directional-agreement estimates",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.1073/pnas.1401965111",
+              "verified_at": "2026-07-16T00:00:00.000Z",
               "supports_claim_atoms": [
                 "a1"
               ]
@@ -1798,8 +1928,8 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_c26aae3e_2",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 2 independent citation(s); replication status ['disputed']; documented independent replication; effect size reported.",
+          "independence_group": "grp_a7c87272_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
           "scope_match": "exact",
           "notes": null
         }
@@ -1808,13 +1938,8 @@
       "conflicts": [
         {
           "conflict_type": "citation_key",
-          "target_id": "Takao2014",
-          "notes": "Using the identical gene-expression datasets, the two analyses reach opposite conclusions on whether mouse inflammation models mimic human disease; the discrepancy traces to gene-selection method (all"
-        },
-        {
-          "conflict_type": "citation_key",
           "target_id": "Seok2013",
-          "notes": "Using the identical gene-expression datasets, the two analyses reach opposite conclusions on whether mouse inflammation models mimic human disease; the discrepancy traces to gene-selection method (all"
+          "notes": "The same inflammation gene-expression datasets yielded poor versus strong mouse–human concordance under different gene-selection criteria; the conflict is retained explicitly."
         }
       ],
       "knowledge_edges": [],
@@ -1824,81 +1949,74 @@
           "traceability": {
             "score": 4,
             "rule_id": "T4_ATOM_LEVEL",
-            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom. Legacy assessment: 2/2 citations carry a verbatim supporting passage; DOIs present for 2/2.",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
             "evidence": [
-              "Seok2013:1 verified passage(s)",
-              "Takao2014:1 verified passage(s)"
+              "Takao2014:3 verified passage(s)"
             ],
             "failure_modes": [],
-            "recommended_fix": "Attach a verbatim supporting passage and a resolvable DOI to every citation."
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "robustness": {
-            "score": 3,
-            "rule_id": "R3_CONVERGENT",
-            "rationale": "Independent groups converge, but at least one atom has support from only one group. Legacy assessment: 2 independent citation(s); replication status ['disputed']; documented independent replication; effect size reported.",
+            "score": 2,
+            "rule_id": "R2_SINGLE_GROUP",
+            "rationale": "Every atom is covered, but the evidence resolves to one independence group.",
             "evidence": [
-              "grp_c26aae3e_1",
-              "grp_c26aae3e_2"
+              "grp_a7c87272_1"
             ],
             "failure_modes": [
-              "cited source(s) disputed/contested",
-              "Independent groups converge, but at least one atom has support from only one group."
+              "Every atom is covered, but the evidence resolves to one independence group."
             ],
             "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
           },
           "uncertainty_calibration": {
-            "score": 0,
-            "rule_id": "U0_OVERSTATED",
-            "rationale": "The surface wording is stronger than the derived evidence relation permits. Legacy assessment: The claim is built around explicitly naming the conflict - two analyses of identical data reaching opposite conclusions, with the reversal traced to gene selection.",
+            "score": 2,
+            "rule_id": "U2_CONFLICT_DISCLOSED",
+            "rationale": "The wording discloses a conflict in the evidence.",
             "evidence": [
               "evidence_relation=conflicted",
-              "wording=SURFACE_UNQUALIFIED"
+              "wording=SURFACE_CONFLICT",
+              "However"
             ],
             "failure_modes": [
-              "'entirely' is a strong single-cause attribution",
-              "The surface wording is stronger than the derived evidence relation permits."
+              "The wording discloses a conflict in the evidence."
             ],
             "recommended_fix": "Revise the claim wording or verification inputs so the stated certainty matches the derived evidence relation."
           },
           "source_integrity": {
             "score": 4,
             "rule_id": "S4_VERIFIED_PRIMARY",
-            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified. Legacy assessment: CrossRef re-resolution: {'VERIFIED': 2}; 0/2 full-text-checked; bibliographically consistent.",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
             "evidence": [
-              "Seok2013:verified/verified_no_known_issue/primary",
               "Takao2014:verified/verified_no_known_issue/primary"
             ],
             "failure_modes": [],
-            "recommended_fix": "Prefer peer-reviewed primary sources; keep DOIs CrossRef-consistent."
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "transferability_scope_control": {
             "score": 4,
             "rule_id": "X4_SCOPE_MATCHED",
-            "rationale": "The recorded evidence scope matches the claim. Legacy assessment: Both sources and the claim remain within mouse-inflammation gene-expression modelling; no broader generalisation is made.",
+            "rationale": "The recorded evidence scope matches the claim.",
             "evidence": [
               "scope_status=matched",
-              "Seok2013:exact",
               "Takao2014:exact"
             ],
             "failure_modes": [],
-            "recommended_fix": "No change needed."
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           }
         },
-        "raw_score": 75,
-        "overall_score": 60,
-        "trust_label": "low_trust",
-        "capped": true,
-        "cap_value": 60,
-        "cap_reasons": [
-          "contradicted_without_caveat"
-        ],
-        "cap_reason": "contradicted_without_caveat",
+        "raw_score": 80,
+        "overall_score": 80,
+        "trust_label": "moderate_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
         "computed_from": "validator"
       },
-      "human_review_required": true,
-      "created_by_phase": "trust_seed",
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
       "updated_by_phase": "phase_16T_trust_score_validation_v2",
-      "validation_status": "needs_human_review"
+      "validation_status": "validated"
     },
     {
       "claim_id": "clm_d2f000d937987a87",
@@ -106869,7 +106987,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_c26aae3ede82ce24",
+      "source_claim_id": "clm_9f30c76025c6c2f1",
       "relation": "supports",
       "target": "Seok2013",
       "target_type": "citation",
@@ -106877,7 +106995,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_c26aae3ede82ce24",
+      "source_claim_id": "clm_a7c87272d164e6f1",
       "relation": "supports",
       "target": "Takao2014",
       "target_type": "citation",
@@ -117814,11 +117932,11 @@
     }
   ],
   "summary": {
-    "total_claims": 519,
-    "high_trust": 433,
-    "moderate_trust": 54,
-    "low_trust": 32,
+    "total_claims": 520,
+    "high_trust": 434,
+    "moderate_trust": 55,
+    "low_trust": 31,
     "critical_or_unreliable": 0,
-    "needs_human_review": 32
+    "needs_human_review": 31
   }
 }

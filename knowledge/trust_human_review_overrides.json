@@ -695,6 +695,114 @@
           ]
         }
       ]
+    },
+    {
+      "decision_id": "hr_006_mouse_human_gene_selection",
+      "claim_id": "clm_c26aae3ede82ce24",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "notes": "Approved in the PR human-review pass. Split the conflicting reanalyses into atomic empirical claims and remove the unsupported assertion that gene selection entirely caused the reversal.",
+      "original_markdown": "The most instructive case is one in which the animal data are not even in dispute: two analyses of the same inflammation gene-expression datasets reached opposite conclusions about whether mouse models mimic human disease, the reversal driven entirely by a gene-selection choice. {cite:p}`Seok2013, Takao2014`",
+      "replacement_markdown": "Seok et al. reported near-random mouse–human agreement among genes significantly changed in human inflammatory conditions (R² 0.0–0.1). {cite:p}`Seok2013` However, Takao and Miyakawa reanalysed the same datasets using genes significantly changed in both species and reported Spearman correlations of 0.43–0.68 with 77–93% directional agreement. {cite:p}`Takao2014`",
+      "claims": [
+        {
+          "sentence_index": 6,
+          "claim_text": "Seok et al. reported near-random mouse–human agreement among genes significantly changed in human inflammatory conditions (R² 0.0–0.1).",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "mouse inflammation models versus human inflammatory conditions",
+            "computational": "mouse–human gene-expression comparison",
+            "clinical": null,
+            "methodological": "genes significantly changed in human inflammatory conditions",
+            "conceptual": "cross-species genomic agreement"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "negative",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Seok2013"
+          ],
+          "context_overrides": {
+            "Seok2013": {
+              "scope_match": "exact"
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 7,
+          "claim_text": "However, Takao and Miyakawa reanalysed the same datasets using genes significantly changed in both species and reported Spearman correlations of 0.43–0.68 with 77–93% directional agreement.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "mouse inflammation models versus human inflammatory conditions",
+            "computational": "reanalysis of the same gene-expression datasets",
+            "clinical": null,
+            "methodological": "genes significantly changed in both humans and mice",
+            "conceptual": "cross-species genomic agreement"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "contested",
+          "entities": [],
+          "citation_context_keys": [
+            "Takao2014"
+          ],
+          "context_overrides": {
+            "Takao2014": {
+              "scope_match": "exact",
+              "passages": [
+                {
+                  "text": "Here we reevaluated the same gene expression datasets used in the previous study by focusing on genes whose expression levels were significantly changed",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, dataset and gene-selection method (part 1)",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1073/pnas.1401965111",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "in both humans and mice. Contrary to the previous findings, the gene expression levels in the mouse models showed extraordinarily significant correlations with those",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, dataset and gene-selection method (part 2)",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1073/pnas.1401965111",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "Spearman's rank correlation coefficient: 0.43-0.68; genes changed in the same direction: 77-93%; P = 6.5 × 10(-11) to 1.2 × 10(-35).",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, correlation and directional-agreement estimates",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1073/pnas.1401965111",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          },
+          "conflicts": [
+            {
+              "conflict_type": "citation_key",
+              "target_id": "Seok2013",
+              "notes": "The same inflammation gene-expression datasets yielded poor versus strong mouse–human concordance under different gene-selection criteria; the conflict is retained explicitly."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
