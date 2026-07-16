@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T07:43:32.589Z",
+  "generated_at": "2026-07-16T08:02:19.835Z",
   "generated_by_phase": "phase_16T_trust_score_validation_v2",
   "claims": [
     {
@@ -18398,32 +18398,192 @@
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_98c345e56e47a9dc",
+      "claim_id": "clm_f1ccc124c38d82b3",
       "section_id": "sec-repro-crisis",
       "source_file": "content/02_reproducibility_crisis.md",
       "paragraph_index": 21,
-      "sentence_index": 2,
-      "claim_text": "The traditional prescription is rigorous standardisation — minimising genetic and environmental variation so that fewer animals are needed to detect an effect.",
-      "normalized_claim": "the traditional prescription is rigorous standardisation minimising genetic and environmental variation so that fewer animals are needed to detect an effect",
+      "sentence_index": 1,
+      "claim_text": "One traditional prescription is rigorous standardisation of animals and experimental conditions.",
+      "normalized_claim": "one traditional prescription is rigorous standardisation of animals and experimental conditions",
       "claim_atoms": [
         {
           "atom_id": "a1",
-          "text": "The traditional prescription is rigorous standardisation — minimising genetic and environmental variation so that fewer animals are needed to detect an effect."
+          "text": "One traditional prescription is rigorous standardisation of animals and experimental conditions."
         }
       ],
       "claim_type": "methodological",
       "claim_scope": {
-        "biological": null,
+        "biological": "experimental animals",
         "computational": null,
         "clinical": null,
-        "methodological": null,
-        "conceptual": null
+        "methodological": "standardisation of animals and experimental conditions",
+        "conceptual": "traditional experimental-design prescription"
       },
-      "scope_status": "minor_difference_qualified",
+      "scope_status": "matched",
       "claim_polarity": "neutral",
       "modality": "established",
       "wording_strength": "unqualified",
-      "entities": [],
+      "entities": [
+        {
+          "name": "rigorous standardisation",
+          "entity_type": "method",
+          "identifier": null
+        }
+      ],
+      "citation_keys": [
+        "Voelkl2020"
+      ],
+      "dois": [
+        "10.1038/s41583-020-0313-3"
+      ],
+      "citation_contexts": [
+        {
+          "cite_key": "Voelkl2020",
+          "doi": "10.1038/s41583-020-0313-3",
+          "role": "direct_support",
+          "source_type": "narrative_review",
+          "bibliography_status": "verified",
+          "integrity_status": "verified_no_known_issue",
+          "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+          "integrity_check_source": "https://api.crossref.org/works/10.1038%2Fs41583-020-0313-3",
+          "passages": [
+            {
+              "text": "the current gold standard of rigorous standardization in experimental animal research",
+              "passage_source": "abstract",
+              "locator": "Abstract, standardisation framing",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.1038/s41583-020-0313-3",
+              "verified_at": "2026-07-08T23:15:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          ],
+          "direction_match": true,
+          "supports_claim_atoms": [
+            "a1"
+          ],
+          "independence_group": "grp_f1ccc124_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
+          "scope_match": "exact",
+          "notes": "Passage restored during approved human review from the preserved evidence-conflict record."
+        }
+      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
+            "evidence": [
+              "Voelkl2020:1 verified passage(s)"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "robustness": {
+            "score": 1,
+            "rule_id": "R1_ATTRIBUTION_INDIRECT",
+            "rationale": "The attribution is supported only by an indirect source.",
+            "evidence": [
+              "grp_f1ccc124_1"
+            ],
+            "failure_modes": [
+              "The attribution is supported only by an indirect source."
+            ],
+            "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
+          },
+          "uncertainty_calibration": {
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
+            "evidence": [
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_UNQUALIFIED"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "source_integrity": {
+            "score": 3,
+            "rule_id": "S3_MIXED_CHECKS",
+            "rationale": "Source records resolve, but integrity or primary-source status is mixed.",
+            "evidence": [
+              "Voelkl2020:verified/verified_no_known_issue/narrative_review"
+            ],
+            "failure_modes": [
+              "Source records resolve, but integrity or primary-source status is mixed."
+            ],
+            "recommended_fix": "Resolve bibliography records and check a current registry or publisher record for each relied-upon source."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
+              "Voelkl2020:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
+        },
+        "raw_score": 80,
+        "overall_score": 80,
+        "trust_label": "moderate_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_7bdc125507284454",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 21,
+      "sentence_index": 2,
+      "claim_text": "One rationale for standardisation is that reducing genetic variability can reduce the number of animals required.",
+      "normalized_claim": "one rationale for standardisation is that reducing genetic variability can reduce the number of animals required",
+      "claim_atoms": [
+        {
+          "atom_id": "a1",
+          "text": "One rationale for standardisation is that reducing genetic variability can reduce the number of animals required."
+        }
+      ],
+      "claim_type": "methodological",
+      "claim_scope": {
+        "biological": "inbred experimental animals",
+        "computational": null,
+        "clinical": null,
+        "methodological": "sample-size rationale for reducing genetic variability",
+        "conceptual": "Reduction rationale"
+      },
+      "scope_status": "matched",
+      "claim_polarity": "neutral",
+      "modality": "likely",
+      "wording_strength": "qualified",
+      "entities": [
+        {
+          "name": "genetic variability",
+          "entity_type": "concept",
+          "identifier": null
+        },
+        {
+          "name": "sample size",
+          "entity_type": "outcome",
+          "identifier": null
+        }
+      ],
       "citation_keys": [
         "Serdar2021"
       ],
@@ -18434,107 +18594,112 @@
         {
           "cite_key": "Serdar2021",
           "doi": "10.11613/bm.2021.010502",
-          "role": "background",
-          "source_type": "primary",
+          "role": "direct_support",
+          "source_type": "narrative_review",
           "bibliography_status": "verified",
           "integrity_status": "verified_no_known_issue",
           "integrity_checked_at": "2026-07-08T23:15:00.000Z",
           "integrity_check_source": "https://api.crossref.org/works/10.11613%2Fbm.2021.010502",
-          "passages": [],
+          "passages": [
+            {
+              "text": "Thus, far fewer animals are needed in the research because genetic differences that could affect the study results are kept to a minimum.",
+              "passage_source": "full_text",
+              "locator": "Full text, animal-studies sample-size discussion",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.11613/bm.2021.010502",
+              "verified_at": "2026-07-08T23:15:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          ],
           "direction_match": true,
-          "supports_claim_atoms": [],
-          "independence_group": null,
-          "independence_basis": null,
-          "scope_match": "not_applicable",
-          "notes": null
+          "supports_claim_atoms": [
+            "a1"
+          ],
+          "independence_group": "grp_7bdc1255_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
+          "scope_match": "exact",
+          "notes": "Passage restored during approved human review from provenance/citation_verification_highrisk.json."
         }
       ],
-      "evidence_relation": "unsupported",
+      "evidence_relation": "directly_supported",
       "conflicts": [],
       "knowledge_edges": [],
       "trust_score": {
         "rubric_version": "2.0.0",
         "components": {
           "traceability": {
-            "score": 1,
-            "rule_id": "T1_METADATA_ONLY",
-            "rationale": "Citation metadata resolves, but no eligible source passage is available. Legacy assessment: 0/1 citations carry a verbatim supporting passage; DOIs present for 1/1.",
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
             "evidence": [
-              "Serdar2021:0 verified passage(s)"
+              "Serdar2021:1 verified passage(s)"
             ],
-            "failure_modes": [
-              "citation without a stored supporting passage",
-              "Citation metadata resolves, but no eligible source passage is available."
-            ],
-            "recommended_fix": "Verify every citation DOI and attach a locator-backed source passage to each claimed atom."
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "robustness": {
-            "score": 0,
-            "rule_id": "R0_ATTRIBUTION_UNSUPPORTED",
-            "rationale": "No eligible source supports this attribution claim. Legacy assessment: 1 independent citation(s); replication status ['unknown'].",
-            "evidence": [],
+            "score": 1,
+            "rule_id": "R1_ATTRIBUTION_INDIRECT",
+            "rationale": "The attribution is supported only by an indirect source.",
+            "evidence": [
+              "grp_7bdc1255_1"
+            ],
             "failure_modes": [
-              "single-source claim",
-              "No eligible source supports this attribution claim."
+              "The attribution is supported only by an indirect source."
             ],
             "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
           },
           "uncertainty_calibration": {
-            "score": 0,
-            "rule_id": "U0_OVERSTATED",
-            "rationale": "The surface wording is stronger than the derived evidence relation permits. Legacy assessment: Labelled 'established' and stated as textbook doctrine; 'The traditional prescription is ...' correctly frames it as one (contested) tradition, but it rests only on a metadata-only citation with no supporting passage.",
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
             "evidence": [
-              "evidence_relation=unsupported",
-              "wording=SURFACE_UNQUALIFIED"
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_HEDGE",
+              "can"
             ],
-            "failure_modes": [
-              "no supporting passage for the sample-size-reduction assertion",
-              "The surface wording is stronger than the derived evidence relation permits."
-            ],
-            "recommended_fix": "Revise the claim wording or verification inputs so the stated certainty matches the derived evidence relation."
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "source_integrity": {
-            "score": 1,
-            "rule_id": "S1_UNRESOLVED",
-            "rationale": "A relied-upon source or DOI is unresolved. Legacy assessment: CrossRef re-resolution: {'VERIFIED': 1}; 0/1 full-text-checked; bibliographically consistent.",
+            "score": 3,
+            "rule_id": "S3_MIXED_CHECKS",
+            "rationale": "Source records resolve, but integrity or primary-source status is mixed.",
             "evidence": [
-              "Serdar2021:verified/verified_no_known_issue/primary"
+              "Serdar2021:verified/verified_no_known_issue/narrative_review"
             ],
             "failure_modes": [
-              "A relied-upon source or DOI is unresolved."
+              "Source records resolve, but integrity or primary-source status is mixed."
             ],
             "recommended_fix": "Resolve bibliography records and check a current registry or publisher record for each relied-upon source."
           },
           "transferability_scope_control": {
-            "score": 3,
-            "rule_id": "X3_MINOR_QUALIFIER",
-            "rationale": "A minor scope difference remains and is bounded in the prose. Legacy assessment: The source supplies no study_system (null), so the generalisation to animal experiments broadly cannot be scope-checked against it.",
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
             "evidence": [
-              "scope_status=minor_difference_qualified",
-              "Serdar2021:not_applicable"
+              "scope_status=matched",
+              "Serdar2021:exact"
             ],
-            "failure_modes": [
-              "unverifiable scope due to metadata-only source",
-              "A minor scope difference remains and is bounded in the prose."
-            ],
-            "recommended_fix": "Record and disclose the exact population, method, model, and domain differences between claim and evidence."
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           }
         },
-        "raw_score": 25,
-        "overall_score": 25,
-        "trust_label": "critical_or_unreliable",
-        "capped": true,
-        "cap_value": 60,
-        "cap_reasons": [
-          "unsupported_citation"
-        ],
-        "cap_reason": "unsupported_citation",
+        "raw_score": 80,
+        "overall_score": 80,
+        "trust_label": "moderate_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
         "computed_from": "validator"
       },
-      "human_review_required": true,
-      "created_by_phase": "trust_seed",
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
       "updated_by_phase": "phase_16T_trust_score_validation_v2",
-      "validation_status": "needs_human_review"
+      "validation_status": "validated"
     },
     {
       "claim_id": "clm_cae2995388dc0a48",
@@ -107579,6 +107744,22 @@
       "notes": null
     },
     {
+      "source_claim_id": "clm_f1ccc124c38d82b3",
+      "relation": "supports",
+      "target": "Voelkl2020",
+      "target_type": "citation",
+      "weight": 1,
+      "notes": "Passage restored during approved human review from the preserved evidence-conflict record."
+    },
+    {
+      "source_claim_id": "clm_7bdc125507284454",
+      "relation": "supports",
+      "target": "Serdar2021",
+      "target_type": "citation",
+      "weight": 1,
+      "notes": "Passage restored during approved human review from provenance/citation_verification_highrisk.json."
+    },
+    {
       "source_claim_id": "clm_cae2995388dc0a48",
       "relation": "supports",
       "target": "Voelkl2018",
@@ -116708,11 +116889,11 @@
     }
   ],
   "summary": {
-    "total_claims": 510,
+    "total_claims": 511,
     "high_trust": 424,
-    "moderate_trust": 49,
+    "moderate_trust": 51,
     "low_trust": 34,
-    "critical_or_unreliable": 3,
-    "needs_human_review": 37
+    "critical_or_unreliable": 2,
+    "needs_human_review": 36
   }
 }

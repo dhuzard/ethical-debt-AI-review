@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T07:43:32.589Z",
+  "generated_at": "2026-07-16T08:02:19.835Z",
   "source": "knowledge/claim_graph.json",
   "formula": "raw_score = 5 * sum(component scores); overall_score = min(raw_score, 60) when any cap reason applies",
   "claims": [
@@ -7754,31 +7754,50 @@
       "cap_reasons": []
     },
     {
-      "claim_id": "clm_98c345e56e47a9dc",
+      "claim_id": "clm_f1ccc124c38d82b3",
       "component_scores": {
-        "traceability": 1,
-        "robustness": 0,
-        "uncertainty_calibration": 0,
-        "source_integrity": 1,
-        "transferability_scope_control": 3
+        "traceability": 4,
+        "robustness": 1,
+        "uncertainty_calibration": 4,
+        "source_integrity": 3,
+        "transferability_scope_control": 4
       },
       "component_rules": {
-        "traceability": "T1_METADATA_ONLY",
-        "robustness": "R0_ATTRIBUTION_UNSUPPORTED",
-        "uncertainty_calibration": "U0_OVERSTATED",
-        "source_integrity": "S1_UNRESOLVED",
-        "transferability_scope_control": "X3_MINOR_QUALIFIER"
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R1_ATTRIBUTION_INDIRECT",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S3_MIXED_CHECKS",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
       },
       "score_basis": {
-        "claim_text": "The traditional prescription is rigorous standardisation — minimising genetic and environmental variation so that fewer animals are needed to detect an effect.",
-        "eligible_citations": [],
+        "claim_text": "One traditional prescription is rigorous standardisation of animals and experimental conditions.",
+        "eligible_citations": [
+          {
+            "cite_key": "Voelkl2020",
+            "doi": "10.1038/s41583-020-0313-3",
+            "role": "direct_support",
+            "source_type": "narrative_review",
+            "supports_claim_atoms": [
+              "a1"
+            ],
+            "verified_passage_locators": [
+              "Abstract, standardisation framing"
+            ],
+            "independence_group": "grp_f1ccc124_1",
+            "scope_match": "exact"
+          }
+        ],
         "atom_support": {
-          "a1": []
+          "a1": [
+            "Voelkl2020"
+          ]
         },
         "independence_groups_by_atom": {
-          "a1": []
+          "a1": [
+            "grp_f1ccc124_1"
+          ]
         },
-        "derived_evidence_relation": "unsupported",
+        "derived_evidence_relation": "directly_supported",
         "wording_strength": "unqualified",
         "wording_basis": {
           "wording_strength": "unqualified",
@@ -7786,15 +7805,75 @@
           "markers": []
         },
         "modality": "established",
-        "scope_status": "minor_difference_qualified"
+        "scope_status": "matched"
       },
-      "raw_score": 25,
-      "overall_score": 25,
-      "trust_label": "critical_or_unreliable",
-      "capped": true,
-      "cap_reasons": [
-        "unsupported_citation"
-      ]
+      "raw_score": 80,
+      "overall_score": 80,
+      "trust_label": "moderate_trust",
+      "capped": false,
+      "cap_reasons": []
+    },
+    {
+      "claim_id": "clm_7bdc125507284454",
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 1,
+        "uncertainty_calibration": 4,
+        "source_integrity": 3,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R1_ATTRIBUTION_INDIRECT",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S3_MIXED_CHECKS",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "score_basis": {
+        "claim_text": "One rationale for standardisation is that reducing genetic variability can reduce the number of animals required.",
+        "eligible_citations": [
+          {
+            "cite_key": "Serdar2021",
+            "doi": "10.11613/bm.2021.010502",
+            "role": "direct_support",
+            "source_type": "narrative_review",
+            "supports_claim_atoms": [
+              "a1"
+            ],
+            "verified_passage_locators": [
+              "Full text, animal-studies sample-size discussion"
+            ],
+            "independence_group": "grp_7bdc1255_1",
+            "scope_match": "exact"
+          }
+        ],
+        "atom_support": {
+          "a1": [
+            "Serdar2021"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "grp_7bdc1255_1"
+          ]
+        },
+        "derived_evidence_relation": "directly_supported",
+        "wording_strength": "qualified",
+        "wording_basis": {
+          "wording_strength": "qualified",
+          "rule_id": "SURFACE_HEDGE",
+          "markers": [
+            "can"
+          ]
+        },
+        "modality": "likely",
+        "scope_status": "matched"
+      },
+      "raw_score": 80,
+      "overall_score": 80,
+      "trust_label": "moderate_trust",
+      "capped": false,
+      "cap_reasons": []
     },
     {
       "claim_id": "clm_cae2995388dc0a48",
@@ -44667,15 +44746,15 @@
     }
   ],
   "summary": {
-    "total_claims": 510,
-    "mean_overall_score": 88.92156862745098,
+    "total_claims": 511,
+    "mean_overall_score": 89.01174168297456,
     "minimum_overall_score": 25,
     "maximum_overall_score": 100,
     "high_trust": 424,
-    "moderate_trust": 49,
+    "moderate_trust": 51,
     "low_trust": 34,
-    "critical_or_unreliable": 3,
-    "capped_claims": 37,
-    "needs_human_review": 37
+    "critical_or_unreliable": 2,
+    "capped_claims": 36,
+    "needs_human_review": 36
   }
 }

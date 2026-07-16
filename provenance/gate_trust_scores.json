@@ -3,7 +3,7 @@
   "rubric_version": "2.0.0",
   "gate_id": "phase_16T_trust_score_validation_v2",
   "status": "pass",
-  "validated_at": "2026-07-16T07:43:32.589Z",
+  "validated_at": "2026-07-16T08:02:19.835Z",
   "validator": "node scripts/validate-trust.js",
   "inputs": [
     "content/01_introduction.md",
@@ -47,9 +47,9 @@
     "derived_artifact_integrity": true
   },
   "counts": {
-    "claims": 510,
-    "citation_contexts": 1388,
-    "verified_passages": 1384,
+    "claims": 511,
+    "citation_contexts": 1389,
+    "verified_passages": 1386,
     "failures": 0
   },
   "failures": []

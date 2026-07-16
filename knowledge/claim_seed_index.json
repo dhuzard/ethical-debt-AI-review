@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-07-16T07:43:32.589Z",
+  "generated_at": "2026-07-16T08:02:19.835Z",
   "generated_by_phase": "phase_5b_claim_seed_v2_migration",
   "claim_id_algorithm": "sha256(section_id + LF + nfkc_trim_whitespace_collapsed_exact_text)[0:16]",
   "claims": [
@@ -1626,19 +1626,34 @@
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_98c345e56e47a9dc",
+      "claim_id": "clm_f1ccc124c38d82b3",
       "section_id": "sec-repro-crisis",
-      "claim_text": "The traditional prescription is rigorous standardisation — minimising genetic and environmental variation so that fewer animals are needed to detect an effect.",
-      "normalized_claim": "the traditional prescription is rigorous standardisation minimising genetic and environmental variation so that fewer animals are needed to detect an effect",
+      "claim_text": "One traditional prescription is rigorous standardisation of animals and experimental conditions.",
+      "normalized_claim": "one traditional prescription is rigorous standardisation of animals and experimental conditions",
       "claim_type": "methodological",
       "modality": "established",
+      "citation_keys": [
+        "Voelkl2020"
+      ],
+      "dois": [
+        "10.1038/s41583-020-0313-3"
+      ],
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_7bdc125507284454",
+      "section_id": "sec-repro-crisis",
+      "claim_text": "One rationale for standardisation is that reducing genetic variability can reduce the number of animals required.",
+      "normalized_claim": "one rationale for standardisation is that reducing genetic variability can reduce the number of animals required",
+      "claim_type": "methodological",
+      "modality": "likely",
       "citation_keys": [
         "Serdar2021"
       ],
       "dois": [
         "10.11613/bm.2021.010502"
       ],
-      "validation_status": "needs_human_review"
+      "validation_status": "validated"
     },
     {
       "claim_id": "clm_cae2995388dc0a48",

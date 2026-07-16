@@ -497,14 +497,22 @@ A distinct and well-documented source of unreliability is the routine exclusion 
 
 ## The disputed cure: standardise or heterogenise?
 
-If context-dependent variation is the problem, the field disagrees sharply about the remedy. The traditional prescription is rigorous standardisation — minimising genetic and environmental variation so that fewer animals are needed to detect an effect. {cite:p}`Serdar2021` A body of simulation and multi-laboratory evidence argues this backfires. Using data from 440 preclinical studies across 13 interventions, single-laboratory experiments failed to predict the true effect size in more than half of cases even when powered above 0.8, and — counter to the intuition that bigger is better — larger single-lab samples made effect-size estimates less accurate, whereas distributing animals across laboratories improved them. {cite:p}`Voelkl2018` The proposed response is deliberate heterogenisation of samples and conditions, {cite:p}`Voelkl2020` on the reaction-norm view that standardisation buys internal precision at the cost of external validity. {cite:p}`Voelkl2021`
+If context-dependent variation is the problem, the field disagrees sharply about the remedy. One traditional prescription is rigorous standardisation of animals and experimental conditions. {cite:p}`Voelkl2020` One rationale for standardisation is that reducing genetic variability can reduce the number of animals required. {cite:p}`Serdar2021` A body of simulation and multi-laboratory evidence argues this backfires. Using data from 440 preclinical studies across 13 interventions, single-laboratory experiments failed to predict the true effect size in more than half of cases even when powered above 0.8, and — counter to the intuition that bigger is better — larger single-lab samples made effect-size estimates less accurate, whereas distributing animals across laboratories improved them. {cite:p}`Voelkl2018` The proposed response is deliberate heterogenisation of samples and conditions, {cite:p}`Voelkl2020` on the reaction-norm view that standardisation buys internal precision at the cost of external validity. {cite:p}`Voelkl2021`
 
 :::{trust-claim}
-:claim-id: clm_98c345e56e47a9dc
-:claim: The traditional prescription is rigorous standardisation — minimising genetic and environmental variation so that fewer animals are needed to detect an effect.
-:cites: Serdar2021
+:claim-id: clm_f1ccc124c38d82b3
+:claim: One traditional prescription is rigorous standardisation of animals and experimental conditions.
+:cites: Voelkl2020
 :claim-type: methodological
 :modality: established
+:::
+
+:::{trust-claim}
+:claim-id: clm_7bdc125507284454
+:claim: One rationale for standardisation is that reducing genetic variability can reduce the number of animals required.
+:cites: Serdar2021
+:claim-type: methodological
+:modality: likely
 :::
 
 :::{trust-claim}

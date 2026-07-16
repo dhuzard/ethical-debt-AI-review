@@ -81,6 +81,37 @@ function prepareMarkdown(markdown) {
     .replace(/\n{3,}/g, '\n\n');
 }
 
+function applyHumanReviewProse(markdown, relativePath, decisions) {
+  let reviewed = markdown;
+  for (const decision of decisions.filter((entry) => entry.source_file === relativePath)) {
+    if (reviewed.includes(decision.replacement_markdown)) continue;
+    if (!reviewed.includes(decision.original_markdown)) {
+      throw new Error(`${decision.decision_id}: original prose is missing from ${relativePath}`);
+    }
+    reviewed = reviewed.replace(decision.original_markdown, decision.replacement_markdown);
+  }
+  return reviewed;
+}
+
+function applyHumanReviewClaims(claims, decisions) {
+  const byClaim = new Map(decisions.map((decision) => [decision.claim_id, decision]));
+  return claims.flatMap((claim) => {
+    const decision = byClaim.get(claim.claim_id);
+    if (!decision) return [claim];
+    if (!['replace', 'split'].includes(decision.action) || !decision.claims?.length) {
+      throw new Error(`${decision.decision_id}: unsupported or empty human-review decision`);
+    }
+    return decision.claims.map((reviewedClaim) => ({
+      ...claim,
+      ...reviewedClaim,
+      claim_id: claimId(claim.section_id, canonicalClaimText(reviewedClaim.claim_text)),
+      trust_score: null,
+      created_by_phase: 'trust_human_review',
+      validation_status: 'pending',
+    }));
+  });
+}
+
 function bibliographyDetails(text) {
   const entries = new Map();
   const pattern = /@([A-Za-z]+)\s*\{\s*([^,\s]+)\s*,([\s\S]*?)(?=\n\s*@[A-Za-z]+\s*\{|\s*$)/g;
@@ -477,6 +508,9 @@ function main() {
   const legacyGraph = readJson('knowledge/claim_graph.json');
   if (!legacyGraph?.claims?.length) throw new Error('knowledge/claim_graph.json has no claims');
   const isV2 = legacyGraph.schema_version === VERSION;
+  const humanReview = readJson('knowledge/trust_human_review_overrides.json', { decisions: [] });
+  const reviewDecisions = humanReview.decisions || [];
+  const reviewClaims = applyHumanReviewClaims(legacyGraph.claims, reviewDecisions);
   const bibliographyText = fs.readFileSync(path.join(ROOT, 'content', 'references.bib'), 'utf8');
   const bibliography = parseBibliography(bibliographyText);
   const bibDetails = bibliographyDetails(bibliographyText);
@@ -488,12 +522,16 @@ function main() {
   const legacyMechanical = readJson('knowledge/trust_mechanical.json', {});
   const generatedAt = new Date().toISOString();
 
-  const files = [...new Set(legacyGraph.claims.map((claim) => claim.source_file))];
+  const files = [...new Set(reviewClaims.map((claim) => claim.source_file))];
   const fileStates = new Map();
   for (const relativePath of files) {
     const source = fs.readFileSync(path.join(ROOT, relativePath), 'utf8');
     const eol = source.includes('\r\n') ? '\r\n' : '\n';
-    const prepared = prepareMarkdown(source).replace(/\r?\n/g, eol);
+    const prepared = applyHumanReviewProse(
+      prepareMarkdown(source).replace(/\r?\n/g, eol),
+      relativePath,
+      reviewDecisions,
+    );
     fileStates.set(relativePath, {
       eol,
       prepared,
@@ -508,7 +546,7 @@ function main() {
   const locations = new Map();
   const claims = [];
 
-  for (const legacyClaim of legacyGraph.claims) {
+  for (const legacyClaim of reviewClaims) {
     const claimText = canonicalClaimText(legacyClaim.claim_text);
     const state = fileStates.get(legacyClaim.source_file);
     const paragraphMatches = state.paragraphs
@@ -808,7 +846,15 @@ function main() {
     claim_ids: idMap,
     integrity_basis: 'Phase 16 Crossref re-resolution records, with registry URLs retained per citation context.',
     passage_policy: 'Legacy verified source sentences are represented by the best claim-overlap window of at most 25 words.',
-    atom_policy: 'Each legacy claim-level unit is migrated as atom a1; substantive review may split compound units later.',
+    atom_policy: 'Each migrated output is atomic; approved human-review decisions may replace one legacy unit with multiple claim records.',
+    human_review_decisions: reviewDecisions.map((decision) => ({
+      decision_id: decision.decision_id,
+      claim_id: decision.claim_id,
+      action: decision.action,
+      reviewed_at: decision.reviewed_at,
+      reviewer: decision.reviewer,
+      output_claim_ids: decision.claims.map((claim) => claimId(decision.section_id, canonicalClaimText(claim.claim_text))),
+    })),
   };
 
   writeJson('knowledge/claim_graph.json', graph);

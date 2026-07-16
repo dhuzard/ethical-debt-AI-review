@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-07-16T07:43:32.589Z",
+  "generated_at": "2026-07-16T08:02:19.835Z",
   "source": "knowledge/claim_graph.json at rubric v1",
   "target": "TRUST rubric v2.0.0",
   "claim_ids": {
@@ -1023,9 +1023,24 @@
     "clm_641dd803e8235ded": "clm_641dd803e8235ded",
     "clm_91a3e5bf80cc09c2": "clm_91a3e5bf80cc09c2",
     "clm_b85a0753adfa0b23": "clm_b85a0753adfa0b23",
-    "clm_722c60941013312d": "clm_722c60941013312d"
+    "clm_722c60941013312d": "clm_722c60941013312d",
+    "clm_f1ccc124c38d82b3": "clm_f1ccc124c38d82b3",
+    "clm_7bdc125507284454": "clm_7bdc125507284454"
   },
   "integrity_basis": "Phase 16 Crossref re-resolution records, with registry URLs retained per citation context.",
   "passage_policy": "Legacy verified source sentences are represented by the best claim-overlap window of at most 25 words.",
-  "atom_policy": "Each legacy claim-level unit is migrated as atom a1; substantive review may split compound units later."
+  "atom_policy": "Each migrated output is atomic; approved human-review decisions may replace one legacy unit with multiple claim records.",
+  "human_review_decisions": [
+    {
+      "decision_id": "hr_001_standardisation_rationale",
+      "claim_id": "clm_98c345e56e47a9dc",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "output_claim_ids": [
+        "clm_f1ccc124c38d82b3",
+        "clm_7bdc125507284454"
+      ]
+    }
+  ]
 }

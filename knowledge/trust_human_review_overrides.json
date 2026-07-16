@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "decisions": [
+    {
+      "decision_id": "hr_001_standardisation_rationale",
+      "claim_id": "clm_98c345e56e47a9dc",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "notes": "Approved in the PR human-review pass. Split the compound claim and restored two verified passages already preserved in review provenance.",
+      "original_markdown": "The traditional prescription is rigorous standardisation — minimising genetic and environmental variation so that fewer animals are needed to detect an effect. {cite:p}`Serdar2021`",
+      "replacement_markdown": "One traditional prescription is rigorous standardisation of animals and experimental conditions. {cite:p}`Voelkl2020` One rationale for standardisation is that reducing genetic variability can reduce the number of animals required. {cite:p}`Serdar2021`",
+      "claims": [
+        {
+          "sentence_index": 1,
+          "claim_text": "One traditional prescription is rigorous standardisation of animals and experimental conditions.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": "experimental animals",
+            "computational": null,
+            "clinical": null,
+            "methodological": "standardisation of animals and experimental conditions",
+            "conceptual": "traditional experimental-design prescription"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "neutral",
+          "modality": "established",
+          "entities": [
+            {
+              "name": "rigorous standardisation",
+              "entity_type": "method",
+              "identifier": null
+            }
+          ],
+          "citation_contexts": [
+            {
+              "cite_key": "Voelkl2020",
+              "doi": "10.1038/s41583-020-0313-3",
+              "role": "direct_support",
+              "source_type": "narrative_review",
+              "bibliography_status": "verified",
+              "integrity_status": "verified_no_known_issue",
+              "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+              "integrity_check_source": "https://api.crossref.org/works/10.1038%2Fs41583-020-0313-3",
+              "passages": [
+                {
+                  "text": "the current gold standard of rigorous standardization in experimental animal research",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, standardisation framing",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1038/s41583-020-0313-3",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "direction_match": true,
+              "supports_claim_atoms": [
+                "a1"
+              ],
+              "independence_group": null,
+              "independence_basis": null,
+              "scope_match": "exact",
+              "notes": "Passage restored during approved human review from the preserved evidence-conflict record."
+            }
+          ],
+          "conflicts": []
+        },
+        {
+          "sentence_index": 2,
+          "claim_text": "One rationale for standardisation is that reducing genetic variability can reduce the number of animals required.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": "inbred experimental animals",
+            "computational": null,
+            "clinical": null,
+            "methodological": "sample-size rationale for reducing genetic variability",
+            "conceptual": "Reduction rationale"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "neutral",
+          "modality": "likely",
+          "entities": [
+            {
+              "name": "genetic variability",
+              "entity_type": "concept",
+              "identifier": null
+            },
+            {
+              "name": "sample size",
+              "entity_type": "outcome",
+              "identifier": null
+            }
+          ],
+          "citation_contexts": [
+            {
+              "cite_key": "Serdar2021",
+              "doi": "10.11613/bm.2021.010502",
+              "role": "direct_support",
+              "source_type": "narrative_review",
+              "bibliography_status": "verified",
+              "integrity_status": "verified_no_known_issue",
+              "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+              "integrity_check_source": "https://api.crossref.org/works/10.11613%2Fbm.2021.010502",
+              "passages": [
+                {
+                  "text": "Thus, far fewer animals are needed in the research because genetic differences that could affect the study results are kept to a minimum.",
+                  "passage_source": "full_text",
+                  "locator": "Full text, animal-studies sample-size discussion",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.11613/bm.2021.010502",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "direction_match": true,
+              "supports_claim_atoms": [
+                "a1"
+              ],
+              "independence_group": null,
+              "independence_basis": null,
+              "scope_match": "exact",
+              "notes": "Passage restored during approved human review from provenance/citation_verification_highrisk.json."
+            }
+          ],
+          "conflicts": []
+        }
+      ]
+    }
+  ]
+}

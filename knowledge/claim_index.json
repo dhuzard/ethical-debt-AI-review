@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T07:43:32.589Z",
+  "generated_at": "2026-07-16T08:02:19.835Z",
   "source": "knowledge/claim_graph.json",
   "claims_by_id": {
     "clm_c2d644434ce16083": {
@@ -1293,18 +1293,31 @@
       "trust_label": "high_trust",
       "human_review_required": false
     },
-    "clm_98c345e56e47a9dc": {
+    "clm_f1ccc124c38d82b3": {
+      "source_file": "content/02_reproducibility_crisis.md",
+      "section_id": "sec-repro-crisis",
+      "paragraph_index": 21,
+      "sentence_index": 1,
+      "claim_text": "One traditional prescription is rigorous standardisation of animals and experimental conditions.",
+      "citation_keys": [
+        "Voelkl2020"
+      ],
+      "overall_score": 80,
+      "trust_label": "moderate_trust",
+      "human_review_required": false
+    },
+    "clm_7bdc125507284454": {
       "source_file": "content/02_reproducibility_crisis.md",
       "section_id": "sec-repro-crisis",
       "paragraph_index": 21,
       "sentence_index": 2,
-      "claim_text": "The traditional prescription is rigorous standardisation — minimising genetic and environmental variation so that fewer animals are needed to detect an effect.",
+      "claim_text": "One rationale for standardisation is that reducing genetic variability can reduce the number of animals required.",
       "citation_keys": [
         "Serdar2021"
       ],
-      "overall_score": 25,
-      "trust_label": "critical_or_unreliable",
-      "human_review_required": true
+      "overall_score": 80,
+      "trust_label": "moderate_trust",
+      "human_review_required": false
     },
     "clm_cae2995388dc0a48": {
       "source_file": "content/02_reproducibility_crisis.md",
