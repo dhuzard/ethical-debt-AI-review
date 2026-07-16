@@ -12,7 +12,10 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  # A branch push and its same-commit PR event arrive together. Keep their
+  # validation runs independent so the PR run cannot cancel the deploy-capable
+  # push run before it uploads the Pages artifact.
+  group: "pages-${{ github.event_name }}"
   cancel-in-progress: true
 
 jobs:
