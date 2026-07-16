@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T08:14:16.921Z",
+  "generated_at": "2026-07-16T08:19:08.065Z",
   "source": "knowledge/claim_graph.json",
   "formula": "raw_score = 5 * sum(component scores); overall_score = min(raw_score, 60) when any cap reason applies",
   "claims": [
@@ -15323,23 +15323,23 @@
       "cap_reasons": []
     },
     {
-      "claim_id": "clm_e1bdcc8acd01c060",
+      "claim_id": "clm_79031a3b91f812f1",
       "component_scores": {
         "traceability": 4,
         "robustness": 2,
-        "uncertainty_calibration": 0,
+        "uncertainty_calibration": 4,
         "source_integrity": 4,
-        "transferability_scope_control": 0
+        "transferability_scope_control": 4
       },
       "component_rules": {
         "traceability": "T4_ATOM_LEVEL",
         "robustness": "R2_SINGLE_GROUP",
-        "uncertainty_calibration": "U0_OVERSTATED",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
         "source_integrity": "S4_VERIFIED_PRIMARY",
-        "transferability_scope_control": "X0_OVEREXTENDED"
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
       },
       "score_basis": {
-        "claim_text": "Under the NIH Data Management and Sharing Policy, 79.3% of submitted plans addressed all six required elements, and structured templates outperformed free-form ones — formal compliance is high and improving.",
+        "claim_text": "At one academic medical center, 79.3% of 358 NIH Data Management and Sharing Plans examined during an 18-month implementation study addressed all six required elements.",
         "eligible_citations": [
           {
             "cite_key": "Hamidi2025",
@@ -15352,8 +15352,8 @@
             "verified_passage_locators": [
               "Full text excerpt (legacy verification record)"
             ],
-            "independence_group": "grp_e1bdcc8a_1",
-            "scope_match": "broader"
+            "independence_group": "grp_79031a3b_1",
+            "scope_match": "exact"
           }
         ],
         "atom_support": {
@@ -15363,26 +15363,84 @@
         },
         "independence_groups_by_atom": {
           "a1": [
-            "grp_e1bdcc8a_1"
+            "grp_79031a3b_1"
           ]
         },
-        "derived_evidence_relation": "overextended",
+        "derived_evidence_relation": "directly_supported",
         "wording_strength": "unqualified",
         "wording_basis": {
           "wording_strength": "unqualified",
           "rule_id": "SURFACE_UNQUALIFIED",
           "markers": []
         },
-        "modality": "likely",
-        "scope_status": "overextended"
+        "modality": "established",
+        "scope_status": "matched"
       },
-      "raw_score": 50,
-      "overall_score": 50,
-      "trust_label": "low_trust",
-      "capped": true,
-      "cap_reasons": [
-        "overextended_scope"
-      ]
+      "raw_score": 90,
+      "overall_score": 90,
+      "trust_label": "high_trust",
+      "capped": false,
+      "cap_reasons": []
+    },
+    {
+      "claim_id": "clm_89227c23932c38b8",
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 2,
+        "uncertainty_calibration": 4,
+        "source_integrity": 4,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R2_SINGLE_GROUP",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "score_basis": {
+        "claim_text": "Within the same institutional study, structured templates produced more policy-conformant plans than unstructured approaches.",
+        "eligible_citations": [
+          {
+            "cite_key": "Hamidi2025",
+            "doi": "10.1017/cts.2025.10212",
+            "role": "direct_support",
+            "source_type": "primary",
+            "supports_claim_atoms": [
+              "a1"
+            ],
+            "verified_passage_locators": [
+              "Abstract, structured-versus-unstructured result"
+            ],
+            "independence_group": "grp_89227c23_1",
+            "scope_match": "exact"
+          }
+        ],
+        "atom_support": {
+          "a1": [
+            "Hamidi2025"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "grp_89227c23_1"
+          ]
+        },
+        "derived_evidence_relation": "directly_supported",
+        "wording_strength": "unqualified",
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_UNQUALIFIED",
+          "markers": []
+        },
+        "modality": "established",
+        "scope_status": "matched"
+      },
+      "raw_score": 90,
+      "overall_score": 90,
+      "trust_label": "high_trust",
+      "capped": false,
+      "cap_reasons": []
     },
     {
       "claim_id": "clm_bba58a80f795a50d",
@@ -45057,15 +45115,15 @@
     }
   ],
   "summary": {
-    "total_claims": 517,
-    "mean_overall_score": 89.22630560928434,
+    "total_claims": 518,
+    "mean_overall_score": 89.3050193050193,
     "minimum_overall_score": 50,
     "maximum_overall_score": 100,
-    "high_trust": 430,
+    "high_trust": 432,
     "moderate_trust": 53,
-    "low_trust": 34,
+    "low_trust": 33,
     "critical_or_unreliable": 0,
-    "capped_claims": 34,
-    "needs_human_review": 34
+    "capped_claims": 33,
+    "needs_human_review": 33
   }
 }

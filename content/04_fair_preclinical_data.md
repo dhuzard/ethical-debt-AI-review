@@ -218,14 +218,22 @@ The first two FAIR letters fare little better than the last two when measured ra
 
 ## Paperwork compliance versus realized sharing
 
-Nowhere is the policy-behaviour gap starker than in data-management plans. Under the NIH Data Management and Sharing Policy, 79.3% of submitted plans addressed all six required elements, and structured templates outperformed free-form ones {cite:p}`Hamidi2025` — formal compliance is high and improving. Yet an audit of NSF-funded projects that had filed data-management plans found that 76% received an overall data-sharing score of zero, and that when sharing did occur the data were often of questionable usability owing to access, documentation, and formatting problems. {cite:p}`VanTuyl2016` The plans were written; the data did not follow. {numref}`fig-sec4-dmp-vs-realized` deliberately separates the paperwork axis from the practice axis rather than juxtaposing superficially similar percentages, because a high completeness rate and a high non-sharing rate can coexist and even look numerically alike while meaning opposite things.
+Nowhere is the policy-behaviour gap starker than in data-management plans. At one academic medical center, 79.3% of 358 NIH Data Management and Sharing Plans examined during an 18-month implementation study addressed all six required elements. {cite:p}`Hamidi2025` Within the same institutional study, structured templates produced more policy-conformant plans than unstructured approaches. {cite:p}`Hamidi2025` Yet an audit of NSF-funded projects that had filed data-management plans found that 76% received an overall data-sharing score of zero, and that when sharing did occur the data were often of questionable usability owing to access, documentation, and formatting problems. {cite:p}`VanTuyl2016` The plans were written; the data did not follow. {numref}`fig-sec4-dmp-vs-realized` deliberately separates the paperwork axis from the practice axis rather than juxtaposing superficially similar percentages, because a high completeness rate and a high non-sharing rate can coexist and even look numerically alike while meaning opposite things.
 
 :::{trust-claim}
-:claim-id: clm_e1bdcc8acd01c060
-:claim: Under the NIH Data Management and Sharing Policy, 79.3% of submitted plans addressed all six required elements, and structured templates outperformed free-form ones — formal compliance is high and improving.
+:claim-id: clm_79031a3b91f812f1
+:claim: At one academic medical center, 79.3% of 358 NIH Data Management and Sharing Plans examined during an 18-month implementation study addressed all six required elements.
 :cites: Hamidi2025
 :claim-type: empirical
-:modality: likely
+:modality: established
+:::
+
+:::{trust-claim}
+:claim-id: clm_89227c23932c38b8
+:claim: Within the same institutional study, structured templates produced more policy-conformant plans than unstructured approaches.
+:cites: Hamidi2025
+:claim-type: empirical
+:modality: established
 :::
 
 :::{trust-claim}

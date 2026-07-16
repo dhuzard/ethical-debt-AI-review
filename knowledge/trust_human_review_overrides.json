@@ -509,6 +509,86 @@
           ]
         }
       ]
+    },
+    {
+      "decision_id": "hr_004_nih_dmsp_scope",
+      "claim_id": "clm_e1bdcc8acd01c060",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "notes": "Approved in the PR human-review pass. Scope the findings to the single academic medical center, separate plan completeness from the template comparison, and remove the unsupported temporal trend.",
+      "original_markdown": "Under the NIH Data Management and Sharing Policy, 79.3% of submitted plans addressed all six required elements, and structured templates outperformed free-form ones {cite:p}`Hamidi2025` — formal compliance is high and improving.",
+      "replacement_markdown": "At one academic medical center, 79.3% of 358 NIH Data Management and Sharing Plans examined during an 18-month implementation study addressed all six required elements. {cite:p}`Hamidi2025` Within the same institutional study, structured templates produced more policy-conformant plans than unstructured approaches. {cite:p}`Hamidi2025`",
+      "claims": [
+        {
+          "sentence_index": 2,
+          "claim_text": "At one academic medical center, 79.3% of 358 NIH Data Management and Sharing Plans examined during an 18-month implementation study addressed all six required elements.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": null,
+            "computational": null,
+            "clinical": "one US academic medical center",
+            "methodological": "18-month institutional NIH DMS Policy implementation study",
+            "conceptual": "plan completeness"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Hamidi2025"
+          ],
+          "context_overrides": {
+            "Hamidi2025": {
+              "scope_match": "exact"
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 3,
+          "claim_text": "Within the same institutional study, structured templates produced more policy-conformant plans than unstructured approaches.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": null,
+            "computational": null,
+            "clinical": "one US academic medical center",
+            "methodological": "structured versus unstructured DMSP templates",
+            "conceptual": "NIH policy conformance"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Hamidi2025"
+          ],
+          "context_overrides": {
+            "Hamidi2025": {
+              "scope_match": "exact",
+              "passages": [
+                {
+                  "text": "Unstructured DMSPs consistently underperformed compared to structured DMSPs.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, structured-versus-unstructured result",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1017/cts.2025.10212",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          },
+          "conflicts": []
+        }
+      ]
     }
   ]
 }

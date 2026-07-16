@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-07-16T08:14:16.921Z",
+  "generated_at": "2026-07-16T08:19:08.065Z",
   "source": "knowledge/claim_graph.json at rubric v1",
   "target": "TRUST rubric v2.0.0",
   "claim_ids": {
@@ -1033,7 +1033,9 @@
     "clm_8b13d9cf00b2822b": "clm_8b13d9cf00b2822b",
     "clm_a093aab609bab3fc": "clm_a093aab609bab3fc",
     "clm_109394cd4057a9c5": "clm_109394cd4057a9c5",
-    "clm_ee81c32f5321660e": "clm_ee81c32f5321660e"
+    "clm_ee81c32f5321660e": "clm_ee81c32f5321660e",
+    "clm_79031a3b91f812f1": "clm_79031a3b91f812f1",
+    "clm_89227c23932c38b8": "clm_89227c23932c38b8"
   },
   "integrity_basis": "Phase 16 Crossref re-resolution records, with registry URLs retained per citation context.",
   "passage_policy": "Legacy verified source sentences are represented by the best claim-overlap window of at most 25 words.",
@@ -1074,6 +1076,17 @@
         "clm_a093aab609bab3fc",
         "clm_109394cd4057a9c5",
         "clm_ee81c32f5321660e"
+      ]
+    },
+    {
+      "decision_id": "hr_004_nih_dmsp_scope",
+      "claim_id": "clm_e1bdcc8acd01c060",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "output_claim_ids": [
+        "clm_79031a3b91f812f1",
+        "clm_89227c23932c38b8"
       ]
     }
   ]

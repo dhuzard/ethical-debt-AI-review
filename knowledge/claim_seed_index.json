@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-07-16T08:14:16.921Z",
+  "generated_at": "2026-07-16T08:19:08.065Z",
   "generated_by_phase": "phase_5b_claim_seed_v2_migration",
   "claim_id_algorithm": "sha256(section_id + LF + nfkc_trim_whitespace_collapsed_exact_text)[0:16]",
   "claims": [
@@ -3276,19 +3276,34 @@
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_e1bdcc8acd01c060",
+      "claim_id": "clm_79031a3b91f812f1",
       "section_id": "sec-fair-preclinical",
-      "claim_text": "Under the NIH Data Management and Sharing Policy, 79.3% of submitted plans addressed all six required elements, and structured templates outperformed free-form ones — formal compliance is high and improving.",
-      "normalized_claim": "under the nih data management and sharing policy 79 3 of submitted plans addressed all six required elements and structured templates outperformed free form ones formal compliance is high and improving",
+      "claim_text": "At one academic medical center, 79.3% of 358 NIH Data Management and Sharing Plans examined during an 18-month implementation study addressed all six required elements.",
+      "normalized_claim": "at one academic medical center 79 3 of 358 nih data management and sharing plans examined during an 18 month implementation study addressed all six required elements",
       "claim_type": "empirical",
-      "modality": "likely",
+      "modality": "established",
       "citation_keys": [
         "Hamidi2025"
       ],
       "dois": [
         "10.1017/cts.2025.10212"
       ],
-      "validation_status": "needs_human_review"
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_89227c23932c38b8",
+      "section_id": "sec-fair-preclinical",
+      "claim_text": "Within the same institutional study, structured templates produced more policy-conformant plans than unstructured approaches.",
+      "normalized_claim": "within the same institutional study structured templates produced more policy conformant plans than unstructured approaches",
+      "claim_type": "empirical",
+      "modality": "established",
+      "citation_keys": [
+        "Hamidi2025"
+      ],
+      "dois": [
+        "10.1017/cts.2025.10212"
+      ],
+      "validation_status": "validated"
     },
     {
       "claim_id": "clm_bba58a80f795a50d",

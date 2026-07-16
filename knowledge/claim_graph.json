@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T08:14:16.921Z",
+  "generated_at": "2026-07-16T08:19:08.065Z",
   "generated_by_phase": "phase_16T_trust_score_validation_v2",
   "claims": [
     {
@@ -36313,30 +36313,30 @@
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_e1bdcc8acd01c060",
+      "claim_id": "clm_79031a3b91f812f1",
       "section_id": "sec-fair-preclinical",
       "source_file": "content/04_fair_preclinical_data.md",
       "paragraph_index": 19,
       "sentence_index": 2,
-      "claim_text": "Under the NIH Data Management and Sharing Policy, 79.3% of submitted plans addressed all six required elements, and structured templates outperformed free-form ones — formal compliance is high and improving.",
-      "normalized_claim": "under the nih data management and sharing policy 79 3 of submitted plans addressed all six required elements and structured templates outperformed free form ones formal compliance is high and improving",
+      "claim_text": "At one academic medical center, 79.3% of 358 NIH Data Management and Sharing Plans examined during an 18-month implementation study addressed all six required elements.",
+      "normalized_claim": "at one academic medical center 79 3 of 358 nih data management and sharing plans examined during an 18 month implementation study addressed all six required elements",
       "claim_atoms": [
         {
           "atom_id": "a1",
-          "text": "Under the NIH Data Management and Sharing Policy, 79.3% of submitted plans addressed all six required elements, and structured templates outperformed free-form ones — formal compliance is high and improving."
+          "text": "At one academic medical center, 79.3% of 358 NIH Data Management and Sharing Plans examined during an 18-month implementation study addressed all six required elements."
         }
       ],
       "claim_type": "empirical",
       "claim_scope": {
         "biological": null,
         "computational": null,
-        "clinical": null,
-        "methodological": null,
-        "conceptual": null
+        "clinical": "one US academic medical center",
+        "methodological": "18-month institutional NIH DMS Policy implementation study",
+        "conceptual": "plan completeness"
       },
-      "scope_status": "overextended",
+      "scope_status": "matched",
       "claim_polarity": "positive",
-      "modality": "likely",
+      "modality": "established",
       "wording_strength": "unqualified",
       "entities": [],
       "citation_keys": [
@@ -36372,13 +36372,13 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_e1bdcc8a_1",
-          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (1 independent citation(s); replication status ['single-study']; effect size reported.).",
-          "scope_match": "broader",
+          "independence_group": "grp_79031a3b_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
+          "scope_match": "exact",
           "notes": null
         }
       ],
-      "evidence_relation": "overextended",
+      "evidence_relation": "directly_supported",
       "conflicts": [],
       "knowledge_edges": [],
       "trust_score": {
@@ -36387,80 +36387,212 @@
           "traceability": {
             "score": 4,
             "rule_id": "T4_ATOM_LEVEL",
-            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom. Legacy assessment: 1/1 citations carry a verbatim supporting passage (full text); DOIs present for 1/1.",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
             "evidence": [
               "Hamidi2025:1 verified passage(s)"
             ],
             "failure_modes": [],
-            "recommended_fix": "Attach a verbatim supporting passage and a resolvable DOI to every citation."
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "robustness": {
             "score": 2,
             "rule_id": "R2_SINGLE_GROUP",
-            "rationale": "Every atom is covered, but the evidence resolves to one independence group. Legacy assessment: 1 independent citation(s); replication status ['single-study']; effect size reported.",
+            "rationale": "Every atom is covered, but the evidence resolves to one independence group.",
             "evidence": [
-              "grp_e1bdcc8a_1"
+              "grp_79031a3b_1"
             ],
             "failure_modes": [
-              "single-source claim",
               "Every atom is covered, but the evidence resolves to one independence group."
             ],
             "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
           },
           "uncertainty_calibration": {
-            "score": 0,
-            "rule_id": "U0_OVERSTATED",
-            "rationale": "The surface wording is stronger than the derived evidence relation permits. Legacy assessment: Single-institution study (robustness 1) presented as a general NIH-policy fact, and 'high and improving' adds an unsupported temporal trend; the conflict source (formal completeness high yet realized sharing low) is not caveated.",
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
             "evidence": [
-              "evidence_relation=overextended",
+              "evidence_relation=directly_supported",
               "wording=SURFACE_UNQUALIFIED"
             ],
-            "failure_modes": [
-              "formal completeness read as realized sharing; unsupported trend",
-              "The surface wording is stronger than the derived evidence relation permits."
-            ],
-            "recommended_fix": "Revise the claim wording or verification inputs so the stated certainty matches the derived evidence relation."
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "source_integrity": {
             "score": 4,
             "rule_id": "S4_VERIFIED_PRIMARY",
-            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified. Legacy assessment: CrossRef re-resolution: {'VERIFIED': 1}; 1/1 full-text-checked; bibliographically consistent.",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
             "evidence": [
               "Hamidi2025:verified/verified_no_known_issue/primary"
             ],
             "failure_modes": [],
-            "recommended_fix": "Prefer peer-reviewed primary sources; keep DOIs CrossRef-consistent."
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "transferability_scope_control": {
-            "score": 0,
-            "rule_id": "X0_OVEREXTENDED",
-            "rationale": "The claim extends beyond the recorded evidence scope. Legacy assessment: One institution's 358 DMSPs generalized to 'the NIH Data Management and Sharing Policy' population-wide.",
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
             "evidence": [
-              "scope_status=overextended",
-              "Hamidi2025:broader"
+              "scope_status=matched",
+              "Hamidi2025:exact"
             ],
-            "failure_modes": [
-              "single-site sample presented as national baseline",
-              "The claim extends beyond the recorded evidence scope."
-            ],
-            "recommended_fix": "Record and disclose the exact population, method, model, and domain differences between claim and evidence."
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           }
         },
-        "raw_score": 50,
-        "overall_score": 50,
-        "trust_label": "low_trust",
-        "capped": true,
-        "cap_value": 60,
-        "cap_reasons": [
-          "overextended_scope"
-        ],
-        "cap_reason": "overextended_scope",
+        "raw_score": 90,
+        "overall_score": 90,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
         "computed_from": "validator"
       },
-      "human_review_required": true,
-      "created_by_phase": "trust_seed",
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
       "updated_by_phase": "phase_16T_trust_score_validation_v2",
-      "validation_status": "needs_human_review"
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_89227c23932c38b8",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 19,
+      "sentence_index": 3,
+      "claim_text": "Within the same institutional study, structured templates produced more policy-conformant plans than unstructured approaches.",
+      "normalized_claim": "within the same institutional study structured templates produced more policy conformant plans than unstructured approaches",
+      "claim_atoms": [
+        {
+          "atom_id": "a1",
+          "text": "Within the same institutional study, structured templates produced more policy-conformant plans than unstructured approaches."
+        }
+      ],
+      "claim_type": "empirical",
+      "claim_scope": {
+        "biological": null,
+        "computational": null,
+        "clinical": "one US academic medical center",
+        "methodological": "structured versus unstructured DMSP templates",
+        "conceptual": "NIH policy conformance"
+      },
+      "scope_status": "matched",
+      "claim_polarity": "positive",
+      "modality": "established",
+      "wording_strength": "unqualified",
+      "entities": [],
+      "citation_keys": [
+        "Hamidi2025"
+      ],
+      "dois": [
+        "10.1017/cts.2025.10212"
+      ],
+      "citation_contexts": [
+        {
+          "cite_key": "Hamidi2025",
+          "doi": "10.1017/cts.2025.10212",
+          "role": "direct_support",
+          "source_type": "primary",
+          "bibliography_status": "verified",
+          "integrity_status": "verified_no_known_issue",
+          "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+          "integrity_check_source": "https://api.crossref.org/works/10.1017%2Fcts.2025.10212",
+          "passages": [
+            {
+              "text": "Unstructured DMSPs consistently underperformed compared to structured DMSPs.",
+              "passage_source": "abstract",
+              "locator": "Abstract, structured-versus-unstructured result",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.1017/cts.2025.10212",
+              "verified_at": "2026-07-08T23:15:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          ],
+          "direction_match": true,
+          "supports_claim_atoms": [
+            "a1"
+          ],
+          "independence_group": "grp_89227c23_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
+          "scope_match": "exact",
+          "notes": null
+        }
+      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
+            "evidence": [
+              "Hamidi2025:1 verified passage(s)"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "robustness": {
+            "score": 2,
+            "rule_id": "R2_SINGLE_GROUP",
+            "rationale": "Every atom is covered, but the evidence resolves to one independence group.",
+            "evidence": [
+              "grp_89227c23_1"
+            ],
+            "failure_modes": [
+              "Every atom is covered, but the evidence resolves to one independence group."
+            ],
+            "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
+          },
+          "uncertainty_calibration": {
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
+            "evidence": [
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_UNQUALIFIED"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "source_integrity": {
+            "score": 4,
+            "rule_id": "S4_VERIFIED_PRIMARY",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
+            "evidence": [
+              "Hamidi2025:verified/verified_no_known_issue/primary"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
+              "Hamidi2025:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
+        },
+        "raw_score": 90,
+        "overall_score": 90,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
     },
     {
       "claim_id": "clm_bba58a80f795a50d",
@@ -110091,7 +110223,15 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_e1bdcc8acd01c060",
+      "source_claim_id": "clm_79031a3b91f812f1",
+      "relation": "supports",
+      "target": "Hamidi2025",
+      "target_type": "citation",
+      "weight": 1,
+      "notes": null
+    },
+    {
+      "source_claim_id": "clm_89227c23932c38b8",
       "relation": "supports",
       "target": "Hamidi2025",
       "target_type": "citation",
@@ -117524,11 +117664,11 @@
     }
   ],
   "summary": {
-    "total_claims": 517,
-    "high_trust": 430,
+    "total_claims": 518,
+    "high_trust": 432,
     "moderate_trust": 53,
-    "low_trust": 34,
+    "low_trust": 33,
     "critical_or_unreliable": 0,
-    "needs_human_review": 34
+    "needs_human_review": 33
   }
 }
