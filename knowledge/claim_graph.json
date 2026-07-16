@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T08:07:25.974Z",
+  "generated_at": "2026-07-16T08:14:16.921Z",
   "generated_by_phase": "phase_16T_trust_score_validation_v2",
   "claims": [
     {
@@ -43889,7 +43889,7 @@
             "a1"
           ],
           "independence_group": "grp_78bb9583_1",
-          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
+          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration.",
           "scope_match": "exact",
           "notes": "Passage retained during approved human review from the original verified citation context."
         }
@@ -44039,7 +44039,7 @@
             "a1"
           ],
           "independence_group": "grp_e3ea0361_1",
-          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
+          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration.",
           "scope_match": "exact",
           "notes": "Passage retained during approved human review from the original verified citation context."
         }
@@ -86072,59 +86072,37 @@
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_7dc447ddc2898f93",
+      "claim_id": "clm_ffd7a93a04aa6de6",
       "section_id": "sec-governance",
       "source_file": "content/08_governance_pathways.md",
       "paragraph_index": 3,
       "sentence_index": 6,
-      "claim_text": "In animal work the picture repeats: orthodontic studies scored a mean of 57.9 on ARRIVE years after its release; ARRIVE 2.0 audits of Parkinson's and cardiovascular models found only about two-fifths of items well reported and no study reporting sample-size calculations, adverse events, or humane endpoints; a nationwide before-and-after comparison found explicit 3Rs reporting crept from 0% to just 3.2% across a decade; and kidney, liver-regeneration, veterinary-emergency, traditional-medicine, and bone-defect surveys converge on the same picture of persistent, barely-moving deficits in randomisation, blinding, sample-size justification, and control design.",
-      "normalized_claim": "in animal work the picture repeats orthodontic studies scored a mean of 57 9 on arrive years after its release arrive 2 0 audits of parkinson s and cardiovascular models found only about two fifths of items well reported and no study reporting sample size calculations adverse events or humane endpoints a nationwide before and after comparison found explicit 3rs reporting crept from 0 to just 3 2 across a decade and kidney liver regeneration veterinary emergency traditional medicine and bone defect surveys converge on the same picture of persistent barely moving deficits in randomisation blinding sample size justification and control design",
+      "claim_text": "An audit of orthodontic animal studies reported a mean ARRIVE score of 57.9.",
+      "normalized_claim": "an audit of orthodontic animal studies reported a mean arrive score of 57 9",
       "claim_atoms": [
         {
           "atom_id": "a1",
-          "text": "In animal work the picture repeats: orthodontic studies scored a mean of 57.9 on ARRIVE years after its release; ARRIVE 2.0 audits of Parkinson's and cardiovascular models found only about two-fifths of items well reported and no study reporting sample-size calculations, adverse events, or humane endpoints; a nationwide before-and-after comparison found explicit 3Rs reporting crept from 0% to just 3.2% across a decade; and kidney, liver-regeneration, veterinary-emergency, traditional-medicine, and bone-defect surveys converge on the same picture of persistent, barely-moving deficits in randomisation, blinding, sample-size justification, and control design."
+          "text": "An audit of orthodontic animal studies reported a mean ARRIVE score of 57.9."
         }
       ],
-      "claim_type": "review_synthesis",
+      "claim_type": "empirical",
       "claim_scope": {
-        "biological": "multiple animal models (orthodontic, Parkinson's, kidney, liver, bone, stroke, veterinary)",
+        "biological": "orthodontic animal studies",
         "computational": null,
         "clinical": null,
-        "methodological": "ARRIVE / 3Rs reporting audits",
-        "conceptual": "persistent reporting deficits"
+        "methodological": "ARRIVE reporting audit",
+        "conceptual": "reporting quality"
       },
-      "scope_status": "minor_difference_qualified",
-      "claim_polarity": "negative",
-      "modality": "likely",
+      "scope_status": "matched",
+      "claim_polarity": "neutral",
+      "modality": "established",
       "wording_strength": "unqualified",
       "entities": [],
       "citation_keys": [
-        "Flitti2024",
-        "Park2025",
-        "Lin2024",
-        "Kousholt2023",
-        "Chatzimanouil2018",
-        "Tihanyi2019",
-        "Bergen2023",
-        "Feng2024",
-        "Reimann2026",
-        "Yi2026",
-        "Majdi2025",
-        "Laing2026"
+        "Flitti2024"
       ],
       "dois": [
-        "10.1093/ejo/cjae032",
-        "10.3349/ymj.2024.0409",
-        "10.21037/cdt-24-413",
-        "10.3390/ani13193005",
-        "10.1681/asn.2018050515",
-        "10.1016/j.jss.2018.10.038",
-        "10.1111/vec.13312",
-        "10.19540/j.cnki.cjcmm.20240620.402",
-        "10.3390/jfb17020066",
-        "10.1186/s12917-026-05468-x",
-        "10.1136/svn-2025-004159",
-        "10.1186/s13195-026-02018-3"
+        "10.1093/ejo/cjae032"
       ],
       "citation_contexts": [
         {
@@ -86153,11 +86131,121 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_7dc447dd_1",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 12 independent citation(s); replication status ['replicated', 'single-study']; documented independent replication; effect size reported.",
-          "scope_match": "narrower",
+          "independence_group": "grp_ffd7a93a_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
+          "scope_match": "exact",
           "notes": null
+        }
+      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
+            "evidence": [
+              "Flitti2024:1 verified passage(s)"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "robustness": {
+            "score": 2,
+            "rule_id": "R2_SINGLE_GROUP",
+            "rationale": "Every atom is covered, but the evidence resolves to one independence group.",
+            "evidence": [
+              "grp_ffd7a93a_1"
+            ],
+            "failure_modes": [
+              "Every atom is covered, but the evidence resolves to one independence group."
+            ],
+            "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
+          },
+          "uncertainty_calibration": {
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
+            "evidence": [
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_UNQUALIFIED"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "source_integrity": {
+            "score": 4,
+            "rule_id": "S4_VERIFIED_PRIMARY",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
+            "evidence": [
+              "Flitti2024:verified/verified_no_known_issue/primary"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
+              "Flitti2024:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
         },
+        "raw_score": 90,
+        "overall_score": 90,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_8b13d9cf00b2822b",
+      "section_id": "sec-governance",
+      "source_file": "content/08_governance_pathways.md",
+      "paragraph_index": 3,
+      "sentence_index": 7,
+      "claim_text": "In a Parkinson's-disease animal-model review, 15 of 38 ARRIVE 2.0 items had compliance levels of 80–100%.",
+      "normalized_claim": "in a parkinson s disease animal model review 15 of 38 arrive 2 0 items had compliance levels of 80 100",
+      "claim_atoms": [
+        {
+          "atom_id": "a1",
+          "text": "In a Parkinson's-disease animal-model review, 15 of 38 ARRIVE 2.0 items had compliance levels of 80–100%."
+        }
+      ],
+      "claim_type": "empirical",
+      "claim_scope": {
+        "biological": "Parkinson's-disease animal models",
+        "computational": null,
+        "clinical": null,
+        "methodological": "ARRIVE 2.0 compliance review",
+        "conceptual": "reporting quality"
+      },
+      "scope_status": "matched",
+      "claim_polarity": "neutral",
+      "modality": "established",
+      "wording_strength": "unqualified",
+      "entities": [],
+      "citation_keys": [
+        "Park2025"
+      ],
+      "dois": [
+        "10.3349/ymj.2024.0409"
+      ],
+      "citation_contexts": [
         {
           "cite_key": "Park2025",
           "doi": "10.3349/ymj.2024.0409",
@@ -86184,11 +86272,123 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_7dc447dd_2",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 12 independent citation(s); replication status ['replicated', 'single-study']; documented independent replication; effect size reported.",
-          "scope_match": "narrower",
+          "independence_group": "grp_8b13d9cf_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
+          "scope_match": "exact",
           "notes": null
+        }
+      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
+            "evidence": [
+              "Park2025:1 verified passage(s)"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "robustness": {
+            "score": 2,
+            "rule_id": "R2_SINGLE_GROUP",
+            "rationale": "Every atom is covered, but the evidence resolves to one independence group.",
+            "evidence": [
+              "grp_8b13d9cf_1"
+            ],
+            "failure_modes": [
+              "Every atom is covered, but the evidence resolves to one independence group."
+            ],
+            "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
+          },
+          "uncertainty_calibration": {
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
+            "evidence": [
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_UNQUALIFIED"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "source_integrity": {
+            "score": 3,
+            "rule_id": "S3_MIXED_CHECKS",
+            "rationale": "Source records resolve, but integrity or primary-source status is mixed.",
+            "evidence": [
+              "Park2025:verified/verified_no_known_issue/systematic_review"
+            ],
+            "failure_modes": [
+              "Source records resolve, but integrity or primary-source status is mixed."
+            ],
+            "recommended_fix": "Resolve bibliography records and check a current registry or publisher record for each relied-upon source."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
+              "Park2025:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
         },
+        "raw_score": 85,
+        "overall_score": 85,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_a093aab609bab3fc",
+      "section_id": "sec-governance",
+      "source_file": "content/08_governance_pathways.md",
+      "paragraph_index": 3,
+      "sentence_index": 8,
+      "claim_text": "A broader audit of interventional animal experiments found significant post-ARRIVE improvement in 15 of 38 reporting subitems.",
+      "normalized_claim": "a broader audit of interventional animal experiments found significant post arrive improvement in 15 of 38 reporting subitems",
+      "claim_atoms": [
+        {
+          "atom_id": "a1",
+          "text": "A broader audit of interventional animal experiments found significant post-ARRIVE improvement in 15 of 38 reporting subitems."
+        }
+      ],
+      "claim_type": "empirical",
+      "claim_scope": {
+        "biological": "interventional animal experiments",
+        "computational": null,
+        "clinical": null,
+        "methodological": "pre/post ARRIVE reporting audit",
+        "conceptual": "reporting improvement"
+      },
+      "scope_status": "matched",
+      "claim_polarity": "positive",
+      "modality": "established",
+      "wording_strength": "unqualified",
+      "entities": [],
+      "citation_keys": [
+        "Lin2024"
+      ],
+      "dois": [
+        "10.21037/cdt-24-413"
+      ],
+      "citation_contexts": [
         {
           "cite_key": "Lin2024",
           "doi": "10.21037/cdt-24-413",
@@ -86215,11 +86415,121 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_7dc447dd_3",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 12 independent citation(s); replication status ['replicated', 'single-study']; documented independent replication; effect size reported.",
-          "scope_match": "narrower",
+          "independence_group": "grp_a093aab6_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
+          "scope_match": "exact",
           "notes": null
+        }
+      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
+            "evidence": [
+              "Lin2024:1 verified passage(s)"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "robustness": {
+            "score": 2,
+            "rule_id": "R2_SINGLE_GROUP",
+            "rationale": "Every atom is covered, but the evidence resolves to one independence group.",
+            "evidence": [
+              "grp_a093aab6_1"
+            ],
+            "failure_modes": [
+              "Every atom is covered, but the evidence resolves to one independence group."
+            ],
+            "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
+          },
+          "uncertainty_calibration": {
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
+            "evidence": [
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_UNQUALIFIED"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "source_integrity": {
+            "score": 4,
+            "rule_id": "S4_VERIFIED_PRIMARY",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
+            "evidence": [
+              "Lin2024:verified/verified_no_known_issue/primary"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
+              "Lin2024:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
         },
+        "raw_score": 90,
+        "overall_score": 90,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_109394cd4057a9c5",
+      "section_id": "sec-governance",
+      "source_file": "content/08_governance_pathways.md",
+      "paragraph_index": 3,
+      "sentence_index": 9,
+      "claim_text": "A nationwide comparison found explicit 3Rs reporting increased from zero publications in 2009 to 3.2% in 2018.",
+      "normalized_claim": "a nationwide comparison found explicit 3rs reporting increased from zero publications in 2009 to 3 2 in 2018",
+      "claim_atoms": [
+        {
+          "atom_id": "a1",
+          "text": "A nationwide comparison found explicit 3Rs reporting increased from zero publications in 2009 to 3.2% in 2018."
+        }
+      ],
+      "claim_type": "empirical",
+      "claim_scope": {
+        "biological": "animal research publications",
+        "computational": null,
+        "clinical": null,
+        "methodological": "nationwide before-and-after reporting comparison",
+        "conceptual": "explicit 3Rs reporting"
+      },
+      "scope_status": "matched",
+      "claim_polarity": "positive",
+      "modality": "established",
+      "wording_strength": "unqualified",
+      "entities": [],
+      "citation_keys": [
+        "Kousholt2023"
+      ],
+      "dois": [
+        "10.3390/ani13193005"
+      ],
+      "citation_contexts": [
         {
           "cite_key": "Kousholt2023",
           "doi": "10.3390/ani13193005",
@@ -86246,11 +86556,135 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_7dc447dd_4",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 12 independent citation(s); replication status ['replicated', 'single-study']; documented independent replication; effect size reported.",
-          "scope_match": "narrower",
+          "independence_group": "grp_109394cd_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
+          "scope_match": "exact",
           "notes": null
+        }
+      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
+            "evidence": [
+              "Kousholt2023:1 verified passage(s)"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "robustness": {
+            "score": 2,
+            "rule_id": "R2_SINGLE_GROUP",
+            "rationale": "Every atom is covered, but the evidence resolves to one independence group.",
+            "evidence": [
+              "grp_109394cd_1"
+            ],
+            "failure_modes": [
+              "Every atom is covered, but the evidence resolves to one independence group."
+            ],
+            "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
+          },
+          "uncertainty_calibration": {
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
+            "evidence": [
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_UNQUALIFIED"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "source_integrity": {
+            "score": 4,
+            "rule_id": "S4_VERIFIED_PRIMARY",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
+            "evidence": [
+              "Kousholt2023:verified/verified_no_known_issue/primary"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
+              "Kousholt2023:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
         },
+        "raw_score": 90,
+        "overall_score": 90,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_ee81c32f5321660e",
+      "section_id": "sec-governance",
+      "source_file": "content/08_governance_pathways.md",
+      "paragraph_index": 3,
+      "sentence_index": 10,
+      "claim_text": "Manual audits across several animal-research domains continue to report deficits in randomisation, sample-size justification, control design, or related safeguards; however, the magnitude and direction of change vary by field and measurement method.",
+      "normalized_claim": "manual audits across several animal research domains continue to report deficits in randomisation sample size justification control design or related safeguards however the magnitude and direction of change vary by field and measurement method",
+      "claim_atoms": [
+        {
+          "atom_id": "a1",
+          "text": "Manual audits across several animal-research domains continue to report deficits in randomisation, sample-size justification, control design, or related safeguards; however, the magnitude and direction of change vary by field and measurement method."
+        }
+      ],
+      "claim_type": "review_synthesis",
+      "claim_scope": {
+        "biological": "multiple animal-research domains",
+        "computational": "automated whole-literature reporting index",
+        "clinical": null,
+        "methodological": "manual domain audits compared with automated reporting metrics",
+        "conceptual": "heterogeneous reporting-quality trends"
+      },
+      "scope_status": "minor_difference_qualified",
+      "claim_polarity": "mixed",
+      "modality": "contested",
+      "wording_strength": "contested",
+      "entities": [],
+      "citation_keys": [
+        "Chatzimanouil2018",
+        "Tihanyi2019",
+        "Bergen2023",
+        "Reimann2026",
+        "Yi2026",
+        "Majdi2025",
+        "Laing2026",
+        "Menke2022"
+      ],
+      "dois": [
+        "10.1681/asn.2018050515",
+        "10.1016/j.jss.2018.10.038",
+        "10.1111/vec.13312",
+        "10.3390/jfb17020066",
+        "10.1186/s12917-026-05468-x",
+        "10.1136/svn-2025-004159",
+        "10.1186/s13195-026-02018-3",
+        "10.2196/37324"
+      ],
+      "citation_contexts": [
         {
           "cite_key": "Chatzimanouil2018",
           "doi": "10.1681/asn.2018050515",
@@ -86277,8 +86711,8 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_7dc447dd_5",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 12 independent citation(s); replication status ['replicated', 'single-study']; documented independent replication; effect size reported.",
+          "independence_group": "grp_ee81c32f_1",
+          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. Human review retained seven domain-specific audits from distinct bibliography author groups; shared authors are still conservatively grouped by the migration script.",
           "scope_match": "narrower",
           "notes": null
         },
@@ -86308,8 +86742,8 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_7dc447dd_6",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 12 independent citation(s); replication status ['replicated', 'single-study']; documented independent replication; effect size reported.",
+          "independence_group": "grp_ee81c32f_2",
+          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. Human review retained seven domain-specific audits from distinct bibliography author groups; shared authors are still conservatively grouped by the migration script.",
           "scope_match": "narrower",
           "notes": null
         },
@@ -86339,37 +86773,8 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_7dc447dd_7",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 12 independent citation(s); replication status ['replicated', 'single-study']; documented independent replication; effect size reported.",
-          "scope_match": "narrower",
-          "notes": null
-        },
-        {
-          "cite_key": "Feng2024",
-          "doi": "10.19540/j.cnki.cjcmm.20240620.402",
-          "role": "partial_support",
-          "source_type": "metadata",
-          "bibliography_status": "unverified",
-          "integrity_status": "not_checked",
-          "integrity_checked_at": null,
-          "integrity_check_source": null,
-          "passages": [
-            {
-              "text": "The existing animal experimental studies about the TCM treatment of CR exhibited methodological and reporting deficiencies.",
-              "passage_source": "abstract",
-              "locator": "Abstract excerpt (legacy verification record)",
-              "verification_status": "unverified",
-              "verification_source": null,
-              "verified_at": null,
-              "supports_claim_atoms": [
-                "a1"
-              ]
-            }
-          ],
-          "direction_match": false,
-          "supports_claim_atoms": [],
-          "independence_group": "grp_7dc447dd_8",
-          "independence_basis": "Sources share bibliography author metadata and are conservatively assigned to one independence group.",
+          "independence_group": "grp_ee81c32f_3",
+          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. Human review retained seven domain-specific audits from distinct bibliography author groups; shared authors are still conservatively grouped by the migration script.",
           "scope_match": "narrower",
           "notes": null
         },
@@ -86399,8 +86804,8 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_7dc447dd_9",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 12 independent citation(s); replication status ['replicated', 'single-study']; documented independent replication; effect size reported.",
+          "independence_group": "grp_ee81c32f_4",
+          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. Human review retained seven domain-specific audits from distinct bibliography author groups; shared authors are still conservatively grouped by the migration script.",
           "scope_match": "narrower",
           "notes": null
         },
@@ -86430,8 +86835,8 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_7dc447dd_8",
-          "independence_basis": "Sources share bibliography author metadata and are conservatively assigned to one independence group.",
+          "independence_group": "grp_ee81c32f_5",
+          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. Human review retained seven domain-specific audits from distinct bibliography author groups; shared authors are still conservatively grouped by the migration script.",
           "scope_match": "narrower",
           "notes": null
         },
@@ -86461,8 +86866,8 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_7dc447dd_10",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 12 independent citation(s); replication status ['replicated', 'single-study']; documented independent replication; effect size reported.",
+          "independence_group": "grp_ee81c32f_6",
+          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. Human review retained seven domain-specific audits from distinct bibliography author groups; shared authors are still conservatively grouped by the migration script.",
           "scope_match": "narrower",
           "notes": null
         },
@@ -86492,10 +86897,41 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_7dc447dd_11",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 12 independent citation(s); replication status ['replicated', 'single-study']; documented independent replication; effect size reported.",
+          "independence_group": "grp_ee81c32f_7",
+          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. Human review retained seven domain-specific audits from distinct bibliography author groups; shared authors are still conservatively grouped by the migration script.",
           "scope_match": "narrower",
           "notes": null
+        },
+        {
+          "cite_key": "Menke2022",
+          "doi": "10.2196/37324",
+          "role": "contradictory",
+          "source_type": "primary",
+          "bibliography_status": "verified",
+          "integrity_status": "verified_no_known_issue",
+          "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+          "integrity_check_source": "https://api.crossref.org/works/10.2196%2F37324",
+          "passages": [
+            {
+              "text": "Between 1997 and 2020 (where data were readily available in our data set), rigor and transparency measures showed general improvement (RTI 2.29 to 4.13), suggesting",
+              "passage_source": "full_text",
+              "locator": "Full text, longitudinal RTI result",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.2196/37324",
+              "verified_at": "2026-07-08T23:15:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          ],
+          "direction_match": true,
+          "supports_claim_atoms": [
+            "a1"
+          ],
+          "independence_group": null,
+          "independence_basis": null,
+          "scope_match": "broader",
+          "notes": "Contrasting whole-literature automated index retained during approved human review to qualify the domain-specific manual-audit trend."
         }
       ],
       "evidence_relation": "conflicted",
@@ -86503,7 +86939,7 @@
         {
           "conflict_type": "citation_key",
           "target_id": "Menke2022",
-          "notes": "Whether reporting quality of biomedical/preclinical research has improved over roughly two decades. A large automated cross-field metric (Rigor and Transparency Index over >2M papers) detects a genera"
+          "notes": "Whole-literature automated scoring detects improvement while domain-specific manual audits report persistent item-level deficits; the divergence is method- and field-dependent."
         }
       ],
       "knowledge_edges": [],
@@ -86511,44 +86947,34 @@
         "rubric_version": "2.0.0",
         "components": {
           "traceability": {
-            "score": 2,
-            "rule_id": "T2_PARTIAL_RECORD",
-            "rationale": "At least one supporting source has a verified passage while another has an incomplete record. Legacy assessment: 12/12 citations carry a verbatim supporting passage (full text); DOIs present for 12/12.",
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
             "evidence": [
-              "Flitti2024:1 verified passage(s)",
-              "Park2025:1 verified passage(s)",
-              "Lin2024:1 verified passage(s)",
-              "Kousholt2023:1 verified passage(s)",
               "Chatzimanouil2018:1 verified passage(s)",
               "Tihanyi2019:1 verified passage(s)",
               "Bergen2023:1 verified passage(s)",
-              "Feng2024:0 verified passage(s)",
               "Reimann2026:1 verified passage(s)",
               "Yi2026:1 verified passage(s)",
               "Majdi2025:1 verified passage(s)",
-              "Laing2026:1 verified passage(s)"
+              "Laing2026:1 verified passage(s)",
+              "Menke2022:1 verified passage(s)"
             ],
-            "failure_modes": [
-              "At least one supporting source has a verified passage while another has an incomplete record."
-            ],
-            "recommended_fix": "Verify every citation DOI and attach a locator-backed source passage to each claimed atom."
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "robustness": {
             "score": 3,
             "rule_id": "R3_CONVERGENT",
-            "rationale": "Independent groups converge, but at least one atom has support from only one group. Legacy assessment: 12 independent citation(s); replication status ['replicated', 'single-study']; documented independent replication; effect size reported.",
+            "rationale": "Independent groups converge, but at least one atom has support from only one group. Legacy assessment: Human review retained seven domain-specific audits from distinct bibliography author groups; shared authors are still conservatively grouped by the migration script.",
             "evidence": [
-              "grp_7dc447dd_1",
-              "grp_7dc447dd_2",
-              "grp_7dc447dd_3",
-              "grp_7dc447dd_4",
-              "grp_7dc447dd_5",
-              "grp_7dc447dd_6",
-              "grp_7dc447dd_7",
-              "grp_7dc447dd_8",
-              "grp_7dc447dd_9",
-              "grp_7dc447dd_10",
-              "grp_7dc447dd_11"
+              "grp_ee81c32f_1",
+              "grp_ee81c32f_2",
+              "grp_ee81c32f_3",
+              "grp_ee81c32f_4",
+              "grp_ee81c32f_5",
+              "grp_ee81c32f_6",
+              "grp_ee81c32f_7"
             ],
             "failure_modes": [
               "Independent groups converge, but at least one atom has support from only one group."
@@ -86556,87 +86982,72 @@
             "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
           },
           "uncertainty_calibration": {
-            "score": 0,
-            "rule_id": "U0_OVERSTATED",
-            "rationale": "The surface wording is stronger than the derived evidence relation permits. Legacy assessment: Sweeping aggregation ('persistent, barely-moving deficits') presented without surfacing the packaged conflict that a whole-literature automated index (Menke2022, RTI 2.29->4.13) shows real improvement (critic SHOULD_CAVEAT track-3); the strong 'no study reporting sample-size/adverse/humane endpoints' is also over-attributed.",
+            "score": 2,
+            "rule_id": "U2_CONFLICT_DISCLOSED",
+            "rationale": "The wording discloses a conflict in the evidence.",
             "evidence": [
               "evidence_relation=conflicted",
-              "wording=SURFACE_UNQUALIFIED"
+              "wording=SURFACE_CONFLICT",
+              "however"
             ],
             "failure_modes": [
-              "contradicting improvement signal under-surfaced",
-              "absolute 'no study' claims",
-              "The surface wording is stronger than the derived evidence relation permits."
+              "The wording discloses a conflict in the evidence."
             ],
             "recommended_fix": "Revise the claim wording or verification inputs so the stated certainty matches the derived evidence relation."
           },
           "source_integrity": {
-            "score": 0,
-            "rule_id": "S0_COMPROMISED",
-            "rationale": "A relied-upon source is mismatched, directionally inconsistent, or has an integrity warning. Legacy assessment: CrossRef re-resolution: {'VERIFIED': 11, 'BROKEN-DOI': 1}; 8/12 full-text-checked; bibliographically consistent. Source-type penalty: mixed.",
+            "score": 3,
+            "rule_id": "S3_MIXED_CHECKS",
+            "rationale": "Source records resolve, but integrity or primary-source status is mixed.",
             "evidence": [
-              "Flitti2024:verified/verified_no_known_issue/primary",
-              "Park2025:verified/verified_no_known_issue/systematic_review",
-              "Lin2024:verified/verified_no_known_issue/primary",
-              "Kousholt2023:verified/verified_no_known_issue/primary",
               "Chatzimanouil2018:verified/verified_no_known_issue/primary",
               "Tihanyi2019:verified/verified_no_known_issue/systematic_review",
               "Bergen2023:verified/verified_no_known_issue/primary",
-              "Feng2024:unverified/not_checked/metadata",
               "Reimann2026:verified/verified_no_known_issue/systematic_review",
               "Yi2026:verified/verified_no_known_issue/primary",
               "Majdi2025:verified/verified_no_known_issue/systematic_review",
-              "Laing2026:verified/verified_no_known_issue/systematic_review"
+              "Laing2026:verified/verified_no_known_issue/systematic_review",
+              "Menke2022:verified/verified_no_known_issue/primary"
             ],
             "failure_modes": [
-              "citation with resolution/metadata issue",
-              "empirical claim leaning on review/secondary source",
-              "A relied-upon source is mismatched, directionally inconsistent, or has an integrity warning."
+              "Source records resolve, but integrity or primary-source status is mixed."
             ],
             "recommended_fix": "Resolve bibliography records and check a current registry or publisher record for each relied-upon source."
           },
           "transferability_scope_control": {
             "score": 3,
             "rule_id": "X3_MINOR_QUALIFIER",
-            "rationale": "A minor scope difference remains and is bounded in the prose. Legacy assessment: All cites are animal/preclinical, so the domain is right, but Lin2024 is mischaracterised as 'cardiovascular models' when it is a broad cross-sectional of interventional animal experiments (critic track-2 study-system mismatch).",
+            "rationale": "A minor scope difference remains and is bounded in the prose.",
             "evidence": [
               "scope_status=minor_difference_qualified",
-              "Flitti2024:narrower",
-              "Park2025:narrower",
-              "Lin2024:narrower",
-              "Kousholt2023:narrower",
               "Chatzimanouil2018:narrower",
               "Tihanyi2019:narrower",
               "Bergen2023:narrower",
-              "Feng2024:narrower",
               "Reimann2026:narrower",
               "Yi2026:narrower",
               "Majdi2025:narrower",
-              "Laing2026:narrower"
+              "Laing2026:narrower",
+              "Menke2022:broader"
             ],
             "failure_modes": [
-              "source study-system mislabelled",
               "A minor scope difference remains and is bounded in the prose."
             ],
             "recommended_fix": "Record and disclose the exact population, method, model, and domain differences between claim and evidence."
           }
         },
-        "raw_score": 40,
-        "overall_score": 40,
-        "trust_label": "critical_or_unreliable",
-        "capped": true,
-        "cap_value": 60,
-        "cap_reasons": [
-          "direction_mismatch",
-          "contradicted_without_caveat"
-        ],
-        "cap_reason": "direction_mismatch",
+        "raw_score": 75,
+        "overall_score": 75,
+        "trust_label": "moderate_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
         "computed_from": "validator"
       },
-      "human_review_required": true,
-      "created_by_phase": "trust_seed",
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
       "updated_by_phase": "phase_16T_trust_score_validation_v2",
-      "validation_status": "needs_human_review"
+      "validation_status": "validated"
     },
     {
       "claim_id": "clm_4b82eeac8b5eda14",
@@ -115008,7 +115419,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_7dc447ddc2898f93",
+      "source_claim_id": "clm_ffd7a93a04aa6de6",
       "relation": "supports",
       "target": "Flitti2024",
       "target_type": "citation",
@@ -115016,7 +115427,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_7dc447ddc2898f93",
+      "source_claim_id": "clm_8b13d9cf00b2822b",
       "relation": "supports",
       "target": "Park2025",
       "target_type": "citation",
@@ -115024,7 +115435,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_7dc447ddc2898f93",
+      "source_claim_id": "clm_a093aab609bab3fc",
       "relation": "supports",
       "target": "Lin2024",
       "target_type": "citation",
@@ -115032,7 +115443,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_7dc447ddc2898f93",
+      "source_claim_id": "clm_109394cd4057a9c5",
       "relation": "supports",
       "target": "Kousholt2023",
       "target_type": "citation",
@@ -115040,7 +115451,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_7dc447ddc2898f93",
+      "source_claim_id": "clm_ee81c32f5321660e",
       "relation": "partially_supports",
       "target": "Chatzimanouil2018",
       "target_type": "citation",
@@ -115048,7 +115459,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_7dc447ddc2898f93",
+      "source_claim_id": "clm_ee81c32f5321660e",
       "relation": "partially_supports",
       "target": "Tihanyi2019",
       "target_type": "citation",
@@ -115056,7 +115467,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_7dc447ddc2898f93",
+      "source_claim_id": "clm_ee81c32f5321660e",
       "relation": "supports",
       "target": "Bergen2023",
       "target_type": "citation",
@@ -115064,15 +115475,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_7dc447ddc2898f93",
-      "relation": "partially_supports",
-      "target": "Feng2024",
-      "target_type": "citation",
-      "weight": 0.5,
-      "notes": null
-    },
-    {
-      "source_claim_id": "clm_7dc447ddc2898f93",
+      "source_claim_id": "clm_ee81c32f5321660e",
       "relation": "supports",
       "target": "Reimann2026",
       "target_type": "citation",
@@ -115080,7 +115483,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_7dc447ddc2898f93",
+      "source_claim_id": "clm_ee81c32f5321660e",
       "relation": "supports",
       "target": "Yi2026",
       "target_type": "citation",
@@ -115088,7 +115491,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_7dc447ddc2898f93",
+      "source_claim_id": "clm_ee81c32f5321660e",
       "relation": "supports",
       "target": "Majdi2025",
       "target_type": "citation",
@@ -115096,7 +115499,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_7dc447ddc2898f93",
+      "source_claim_id": "clm_ee81c32f5321660e",
       "relation": "supports",
       "target": "Laing2026",
       "target_type": "citation",
@@ -117121,11 +117524,11 @@
     }
   ],
   "summary": {
-    "total_claims": 513,
-    "high_trust": 426,
-    "moderate_trust": 52,
+    "total_claims": 517,
+    "high_trust": 430,
+    "moderate_trust": 53,
     "low_trust": 34,
-    "critical_or_unreliable": 1,
-    "needs_human_review": 35
+    "critical_or_unreliable": 0,
+    "needs_human_review": 34
   }
 }

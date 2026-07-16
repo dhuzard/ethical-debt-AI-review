@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-07-16T08:07:25.974Z",
+  "generated_at": "2026-07-16T08:14:16.921Z",
   "generated_by_phase": "phase_5b_claim_seed_v2_migration",
   "claim_id_algorithm": "sha256(section_id + LF + nfkc_trim_whitespace_collapsed_exact_text)[0:16]",
   "claims": [
@@ -7715,41 +7715,93 @@
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_7dc447ddc2898f93",
+      "claim_id": "clm_ffd7a93a04aa6de6",
       "section_id": "sec-governance",
-      "claim_text": "In animal work the picture repeats: orthodontic studies scored a mean of 57.9 on ARRIVE years after its release; ARRIVE 2.0 audits of Parkinson's and cardiovascular models found only about two-fifths of items well reported and no study reporting sample-size calculations, adverse events, or humane endpoints; a nationwide before-and-after comparison found explicit 3Rs reporting crept from 0% to just 3.2% across a decade; and kidney, liver-regeneration, veterinary-emergency, traditional-medicine, and bone-defect surveys converge on the same picture of persistent, barely-moving deficits in randomisation, blinding, sample-size justification, and control design.",
-      "normalized_claim": "in animal work the picture repeats orthodontic studies scored a mean of 57 9 on arrive years after its release arrive 2 0 audits of parkinson s and cardiovascular models found only about two fifths of items well reported and no study reporting sample size calculations adverse events or humane endpoints a nationwide before and after comparison found explicit 3rs reporting crept from 0 to just 3 2 across a decade and kidney liver regeneration veterinary emergency traditional medicine and bone defect surveys converge on the same picture of persistent barely moving deficits in randomisation blinding sample size justification and control design",
-      "claim_type": "review_synthesis",
-      "modality": "likely",
+      "claim_text": "An audit of orthodontic animal studies reported a mean ARRIVE score of 57.9.",
+      "normalized_claim": "an audit of orthodontic animal studies reported a mean arrive score of 57 9",
+      "claim_type": "empirical",
+      "modality": "established",
       "citation_keys": [
-        "Flitti2024",
-        "Park2025",
-        "Lin2024",
-        "Kousholt2023",
+        "Flitti2024"
+      ],
+      "dois": [
+        "10.1093/ejo/cjae032"
+      ],
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_8b13d9cf00b2822b",
+      "section_id": "sec-governance",
+      "claim_text": "In a Parkinson's-disease animal-model review, 15 of 38 ARRIVE 2.0 items had compliance levels of 80–100%.",
+      "normalized_claim": "in a parkinson s disease animal model review 15 of 38 arrive 2 0 items had compliance levels of 80 100",
+      "claim_type": "empirical",
+      "modality": "established",
+      "citation_keys": [
+        "Park2025"
+      ],
+      "dois": [
+        "10.3349/ymj.2024.0409"
+      ],
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_a093aab609bab3fc",
+      "section_id": "sec-governance",
+      "claim_text": "A broader audit of interventional animal experiments found significant post-ARRIVE improvement in 15 of 38 reporting subitems.",
+      "normalized_claim": "a broader audit of interventional animal experiments found significant post arrive improvement in 15 of 38 reporting subitems",
+      "claim_type": "empirical",
+      "modality": "established",
+      "citation_keys": [
+        "Lin2024"
+      ],
+      "dois": [
+        "10.21037/cdt-24-413"
+      ],
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_109394cd4057a9c5",
+      "section_id": "sec-governance",
+      "claim_text": "A nationwide comparison found explicit 3Rs reporting increased from zero publications in 2009 to 3.2% in 2018.",
+      "normalized_claim": "a nationwide comparison found explicit 3rs reporting increased from zero publications in 2009 to 3 2 in 2018",
+      "claim_type": "empirical",
+      "modality": "established",
+      "citation_keys": [
+        "Kousholt2023"
+      ],
+      "dois": [
+        "10.3390/ani13193005"
+      ],
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_ee81c32f5321660e",
+      "section_id": "sec-governance",
+      "claim_text": "Manual audits across several animal-research domains continue to report deficits in randomisation, sample-size justification, control design, or related safeguards; however, the magnitude and direction of change vary by field and measurement method.",
+      "normalized_claim": "manual audits across several animal research domains continue to report deficits in randomisation sample size justification control design or related safeguards however the magnitude and direction of change vary by field and measurement method",
+      "claim_type": "review_synthesis",
+      "modality": "contested",
+      "citation_keys": [
         "Chatzimanouil2018",
         "Tihanyi2019",
         "Bergen2023",
-        "Feng2024",
         "Reimann2026",
         "Yi2026",
         "Majdi2025",
-        "Laing2026"
+        "Laing2026",
+        "Menke2022"
       ],
       "dois": [
-        "10.1093/ejo/cjae032",
-        "10.3349/ymj.2024.0409",
-        "10.21037/cdt-24-413",
-        "10.3390/ani13193005",
         "10.1681/asn.2018050515",
         "10.1016/j.jss.2018.10.038",
         "10.1111/vec.13312",
-        "10.19540/j.cnki.cjcmm.20240620.402",
         "10.3390/jfb17020066",
         "10.1186/s12917-026-05468-x",
         "10.1136/svn-2025-004159",
-        "10.1186/s13195-026-02018-3"
+        "10.1186/s13195-026-02018-3",
+        "10.2196/37324"
       ],
-      "validation_status": "needs_human_review"
+      "validation_status": "validated"
     },
     {
       "claim_id": "clm_4b82eeac8b5eda14",

@@ -95,20 +95,52 @@ function applyHumanReviewProse(markdown, relativePath, decisions) {
 
 function applyHumanReviewClaims(claims, decisions) {
   const byClaim = new Map(decisions.map((decision) => [decision.claim_id, decision]));
+  const reviewedOutputs = new Map(decisions.flatMap((decision) => decision.claims.map((reviewedClaim) => [
+    claimId(decision.section_id, canonicalClaimText(reviewedClaim.claim_text)),
+    reviewedClaim,
+  ])));
+  const trustSeed = (reviewedClaim) => (reviewedClaim.independence_reviewed
+    ? {
+      components: {
+        robustness: {
+          score: 3,
+          rationale: reviewedClaim.independence_basis
+            || 'Human review confirmed that bibliography author-overlap should determine conservative independence groups.',
+        },
+      },
+    }
+    : null);
   return claims.flatMap((claim) => {
     const decision = byClaim.get(claim.claim_id);
-    if (!decision) return [claim];
+    if (!decision) {
+      const reviewedOutput = reviewedOutputs.get(claim.claim_id);
+      return reviewedOutput?.independence_reviewed
+        ? [{ ...claim, trust_score: trustSeed(reviewedOutput) }]
+        : [claim];
+    }
     if (!['replace', 'split'].includes(decision.action) || !decision.claims?.length) {
       throw new Error(`${decision.decision_id}: unsupported or empty human-review decision`);
     }
-    return decision.claims.map((reviewedClaim) => ({
-      ...claim,
-      ...reviewedClaim,
-      claim_id: claimId(claim.section_id, canonicalClaimText(reviewedClaim.claim_text)),
-      trust_score: null,
-      created_by_phase: 'trust_human_review',
-      validation_status: 'pending',
-    }));
+    return decision.claims.map((reviewedClaim) => {
+      const contextByKey = new Map((claim.citation_contexts || [])
+        .map((context) => [context.cite_key, context]));
+      const inheritedContexts = (reviewedClaim.citation_context_keys || []).map((citeKey) => {
+        const context = contextByKey.get(citeKey);
+        if (!context) throw new Error(`${decision.decision_id}: missing inherited context ${citeKey}`);
+        return { ...context, ...(reviewedClaim.context_overrides?.[citeKey] || {}) };
+      });
+      const citationContexts = reviewedClaim.citation_contexts
+        || [...inheritedContexts, ...(reviewedClaim.additional_citation_contexts || [])];
+      return {
+        ...claim,
+        ...reviewedClaim,
+        claim_id: claimId(claim.section_id, canonicalClaimText(reviewedClaim.claim_text)),
+        citation_contexts: citationContexts,
+        trust_score: trustSeed(reviewedClaim),
+        created_by_phase: 'trust_human_review',
+        validation_status: 'pending',
+      };
+    });
   });
 }
 

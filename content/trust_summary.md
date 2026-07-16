@@ -1,9 +1,9 @@
 (sec-trust-summary)=
 # Citation Trust Summary
 
-This review exposes **513 claim-level TRUST records** using rubric v2.0.0. Hovering or focusing a score highlights the concerned prose; opening the card reveals all five component rules, rationales, verified source passages, atom attribution, scope status, and cap reasons.
+This review exposes **517 claim-level TRUST records** using rubric v2.0.0. Hovering or focusing a score highlights the concerned prose; opening the card reveals all five component rules, rationales, verified source passages, atom attribution, scope status, and cap reasons.
 
-The mean overall score is **89.2**. Band distribution: **high 426 · moderate 52 · low 34 · critical 1**. **35** claims trigger a mandatory cap, and **35** remain explicit human-review priorities.
+The mean overall score is **89.2**. Band distribution: **high 430 · moderate 53 · low 34 · critical 0**. **34** claims trigger a mandatory cap, and **34** remain explicit human-review priorities.
 
 ![Trust band distribution by section](../figures/fig_trust_by_section.png)
 
@@ -15,7 +15,7 @@ The mean overall score is **89.2**. Band distribution: **high 426 · moderate 52
 
 | Traceability | Robustness | Uncertainty calibration | Source integrity | Transferability / scope |
 |---:|---:|---:|---:|---:|
-| 4.00 | 3.12 | 3.71 | 3.56 | 3.57 |
+| 4.00 | 3.11 | 3.71 | 3.57 | 3.57 |
 
 ## Per-section rollup
 
@@ -28,14 +28,13 @@ The mean overall score is **89.2**. Band distribution: **high 426 · moderate 52
 | Virtual controls | 71 | 93.7 | 67 | 3 | 1 | 0 |
 | NAMs | 52 | 92.6 | 49 | 3 | 0 | 0 |
 | Incentives | 57 | 91.1 | 51 | 3 | 3 | 0 |
-| Governance | 66 | 87.3 | 54 | 5 | 6 | 1 |
+| Governance | 70 | 87.9 | 58 | 6 | 6 | 0 |
 | Conclusion | 38 | 82.6 | 22 | 6 | 10 | 0 |
 
 ## Lowest-trust claims (review priority)
 
 | Score | Band | Section | Claim | Cap |
 |---:|---|---|---|---|
-| 40 | critical or unreliable | Governance | In animal work the picture repeats: orthodontic studies scored a mean of 57.9 on ARRIVE years after its release; ARRIVE 2.0 audits of Parkinson's and cardiovascular models found only about two-fifths of items well reported and no study reporting sample-size calculations, adverse events, or humane endpoints; a nationwide before-and-after comparison found explicit 3Rs reporting crept from 0% to just 3.2% across a decade; and kidney, liver-regeneration, veterinary-emergency, traditional-medicine, and bone-defect surveys converge on the same picture of persistent, barely-moving deficits in randomisation, blinding, sample-size justification, and control design. | direction_mismatch, contradicted_without_caveat |
 | 50 | low trust | FAIR data | Under the NIH Data Management and Sharing Policy, 79.3% of submitted plans addressed all six required elements, and structured templates outperformed free-form ones — formal compliance is high and improving. | overextended_scope |
 | 50 | low trust | Virtual controls | The parallel to preclinical VCGs is exact: the hybrid design that retained half the real controls outperformed the full-replacement design for the same reason that dynamic borrowing outperforms static pooling — partial reliance on concurrent data hedges against the drift that pure reuse cannot detect. | contradicted_without_caveat, overextended_scope |
 | 50 | low trust | Incentives | The pattern generalises across national systems — in Ecuador, reliance on journal-centric metrics predicted lower adoption of open practices while institutional deposit mandates and data services predicted higher adoption. | overextended_scope |
@@ -60,6 +59,7 @@ The mean overall score is **89.2**. Band distribution: **high 426 · moderate 52
 | 60 | low trust | Governance | Non-publication remains the root waste: laboratory-animal researchers themselves estimate only about half of animal experiments are ever published. | contradicted_without_caveat |
 | 60 | low trust | Governance | One proposal presumes review bodies can and should assess research rigor and expected benefit through a structured benefit-assessment instrument, while an analysis of US committees argues they structurally lack the expertise and mandate to judge scientific merit, so their approval carries no such warranty. | contradicted_without_caveat |
 | 60 | low trust | Governance | First, enforcement over endorsement: guidelines must be gated at revision and checked, because passively published standards demonstrably do not move behaviour. | contradicted_without_caveat |
+| 60 | low trust | Conclusion | Even where the animal data are not in dispute, a defensible change in analysis can flip a model from mimicking human disease to failing to, so that translatability is decided by analytic choices as much as by biology. | contradicted_without_caveat |
 
 ## Method and migration note
 

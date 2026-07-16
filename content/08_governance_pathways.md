@@ -66,7 +66,7 @@ The reporting-standards apparatus is not scarce — it is abundant to the point 
 
 ## Endorsement is not adherence
 
-The most consistent finding in this literature is that the existence and even the formal endorsement of a guideline is almost uncorrelated with whether authors follow it. Two systematic reviews of reviews, twenty-one years apart in coverage, found that 86.0% and then 87.9% of the studies they examined reported suboptimal adherence to reporting guidelines despite those guidelines' wide availability. {cite:p}`Thabane2013, Jin2018` Endorsement itself is shallow: a survey of 559 biomedical journals found ARRIVE web-endorsed by only 22.2% and mentioned in author instructions by 38.6%, with comparable gaps for CONSORT and PRISMA, {cite:p}`Wang2024b` and among 1,039 Chinese medical journals only 24.1% endorsed CONSORT and 0.8% its extensions. {cite:p}`Duan2023` Where endorsement does exist, it rarely reaches the reviewers who would police it — only 35% of surveyed health journals posted online instructions to peer reviewers, and fewer than half of those mentioned reporting guidelines at all. {cite:p}`Hirst2012` The downstream adherence audits are correspondingly grim across animal and clinical domains alike: TRIPOD adherence in prediction-model studies sat at a median of 38.7% to 60% and, tellingly, did not improve after the guideline was published (p=0.770); {cite:p}`AndaurNavarro2022, Miao2022, Zoubi2026` comparing preprints to their published versions, TRIPOD adherence rose by a median of only three percentage points, implying peer review itself corrects almost nothing. {cite:p}`Hudda2023` In animal work the picture repeats: orthodontic studies scored a mean of 57.9 on ARRIVE years after its release; {cite:p}`Flitti2024` ARRIVE 2.0 audits of Parkinson's and cardiovascular models found only about two-fifths of items well reported and no study reporting sample-size calculations, adverse events, or humane endpoints; {cite:p}`Park2025, Lin2024` a nationwide before-and-after comparison found explicit 3Rs reporting crept from 0% to just 3.2% across a decade; {cite:p}`Kousholt2023` and kidney, liver-regeneration, veterinary-emergency, traditional-medicine, and bone-defect surveys converge on the same picture of persistent, barely-moving deficits in randomisation, blinding, sample-size justification, and control design. {cite:p}`Chatzimanouil2018, Tihanyi2019, Bergen2023, Feng2024, Reimann2026, Yi2026, Majdi2025, Laing2026` Pulmonary-hypertension and dairy-cattle trial reviews reach the same conclusion, and translational assessments note that ARRIVE and PREPARE have been introduced but seldom implemented, with progress on external validity virtually absent. {cite:p}`Provencher2018, Winder2019, Ferreira2020` Risk-of-bias tooling has become standard in preclinical evidence synthesis — SYRCLE and CAMARADES now appear routinely — yet the scores they return hover in the middling range and reporting of construct validity is essentially absent. {cite:p}`PachanoBravo2026, Song2026, Chen2026, Pedder2014, Hunniford2021, MontillaRojo2023`
+The most consistent finding in this literature is that the existence and even the formal endorsement of a guideline is almost uncorrelated with whether authors follow it. Two systematic reviews of reviews, twenty-one years apart in coverage, found that 86.0% and then 87.9% of the studies they examined reported suboptimal adherence to reporting guidelines despite those guidelines' wide availability. {cite:p}`Thabane2013, Jin2018` Endorsement itself is shallow: a survey of 559 biomedical journals found ARRIVE web-endorsed by only 22.2% and mentioned in author instructions by 38.6%, with comparable gaps for CONSORT and PRISMA, {cite:p}`Wang2024b` and among 1,039 Chinese medical journals only 24.1% endorsed CONSORT and 0.8% its extensions. {cite:p}`Duan2023` Where endorsement does exist, it rarely reaches the reviewers who would police it — only 35% of surveyed health journals posted online instructions to peer reviewers, and fewer than half of those mentioned reporting guidelines at all. {cite:p}`Hirst2012` The downstream adherence audits are correspondingly grim across animal and clinical domains alike: TRIPOD adherence in prediction-model studies sat at a median of 38.7% to 60% and, tellingly, did not improve after the guideline was published (p=0.770); {cite:p}`AndaurNavarro2022, Miao2022, Zoubi2026` comparing preprints to their published versions, TRIPOD adherence rose by a median of only three percentage points, implying peer review itself corrects almost nothing. {cite:p}`Hudda2023` An audit of orthodontic animal studies reported a mean ARRIVE score of 57.9. {cite:p}`Flitti2024` In a Parkinson's-disease animal-model review, 15 of 38 ARRIVE 2.0 items had compliance levels of 80–100%. {cite:p}`Park2025` A broader audit of interventional animal experiments found significant post-ARRIVE improvement in 15 of 38 reporting subitems. {cite:p}`Lin2024` A nationwide comparison found explicit 3Rs reporting increased from zero publications in 2009 to 3.2% in 2018. {cite:p}`Kousholt2023` Manual audits across several animal-research domains continue to report deficits in randomisation, sample-size justification, control design, or related safeguards; however, the magnitude and direction of change vary by field and measurement method. {cite:p}`Chatzimanouil2018, Tihanyi2019, Bergen2023, Reimann2026, Yi2026, Majdi2025, Laing2026, Menke2022` Pulmonary-hypertension and dairy-cattle trial reviews reach the same conclusion, and translational assessments note that ARRIVE and PREPARE have been introduced but seldom implemented, with progress on external validity virtually absent. {cite:p}`Provencher2018, Winder2019, Ferreira2020` Risk-of-bias tooling has become standard in preclinical evidence synthesis — SYRCLE and CAMARADES now appear routinely — yet the scores they return hover in the middling range and reporting of construct validity is essentially absent. {cite:p}`PachanoBravo2026, Song2026, Chen2026, Pedder2014, Hunniford2021, MontillaRojo2023`
 
 :::{trust-claim}
 :claim-id: clm_5310fe1bd7d7a409
@@ -101,11 +101,43 @@ The most consistent finding in this literature is that the existence and even th
 :::
 
 :::{trust-claim}
-:claim-id: clm_7dc447ddc2898f93
-:claim: In animal work the picture repeats: orthodontic studies scored a mean of 57.9 on ARRIVE years after its release; ARRIVE 2.0 audits of Parkinson's and cardiovascular models found only about two-fifths of items well reported and no study reporting sample-size calculations, adverse events, or humane endpoints; a nationwide before-and-after comparison found explicit 3Rs reporting crept from 0% to just 3.2% across a decade; and kidney, liver-regeneration, veterinary-emergency, traditional-medicine, and bone-defect surveys converge on the same picture of persistent, barely-moving deficits in randomisation, blinding, sample-size justification, and control design.
-:cites: Flitti2024, Park2025, Lin2024, Kousholt2023, Chatzimanouil2018, Tihanyi2019, Bergen2023, Feng2024, Reimann2026, Yi2026, Majdi2025, Laing2026
+:claim-id: clm_ffd7a93a04aa6de6
+:claim: An audit of orthodontic animal studies reported a mean ARRIVE score of 57.9.
+:cites: Flitti2024
+:claim-type: empirical
+:modality: established
+:::
+
+:::{trust-claim}
+:claim-id: clm_8b13d9cf00b2822b
+:claim: In a Parkinson's-disease animal-model review, 15 of 38 ARRIVE 2.0 items had compliance levels of 80–100%.
+:cites: Park2025
+:claim-type: empirical
+:modality: established
+:::
+
+:::{trust-claim}
+:claim-id: clm_a093aab609bab3fc
+:claim: A broader audit of interventional animal experiments found significant post-ARRIVE improvement in 15 of 38 reporting subitems.
+:cites: Lin2024
+:claim-type: empirical
+:modality: established
+:::
+
+:::{trust-claim}
+:claim-id: clm_109394cd4057a9c5
+:claim: A nationwide comparison found explicit 3Rs reporting increased from zero publications in 2009 to 3.2% in 2018.
+:cites: Kousholt2023
+:claim-type: empirical
+:modality: established
+:::
+
+:::{trust-claim}
+:claim-id: clm_ee81c32f5321660e
+:claim: Manual audits across several animal-research domains continue to report deficits in randomisation, sample-size justification, control design, or related safeguards; however, the magnitude and direction of change vary by field and measurement method.
+:cites: Chatzimanouil2018, Tihanyi2019, Bergen2023, Reimann2026, Yi2026, Majdi2025, Laing2026, Menke2022
 :claim-type: review_synthesis
-:modality: likely
+:modality: contested
 :::
 
 :::{trust-claim}

@@ -328,6 +328,187 @@
           "conflicts": []
         }
       ]
+    },
+    {
+      "decision_id": "hr_003_arrive_reporting_audits",
+      "claim_id": "clm_7dc447ddc2898f93",
+      "section_id": "sec-governance",
+      "source_file": "content/08_governance_pathways.md",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "notes": "Approved in the PR human-review pass. Split the numerical findings, correct the Lin2024 study system, remove the unresolved Feng2024 citation and over-attributed absolute statement, and surface the method-dependent improvement conflict.",
+      "original_markdown": "In animal work the picture repeats: orthodontic studies scored a mean of 57.9 on ARRIVE years after its release; {cite:p}`Flitti2024` ARRIVE 2.0 audits of Parkinson's and cardiovascular models found only about two-fifths of items well reported and no study reporting sample-size calculations, adverse events, or humane endpoints; {cite:p}`Park2025, Lin2024` a nationwide before-and-after comparison found explicit 3Rs reporting crept from 0% to just 3.2% across a decade; {cite:p}`Kousholt2023` and kidney, liver-regeneration, veterinary-emergency, traditional-medicine, and bone-defect surveys converge on the same picture of persistent, barely-moving deficits in randomisation, blinding, sample-size justification, and control design. {cite:p}`Chatzimanouil2018, Tihanyi2019, Bergen2023, Feng2024, Reimann2026, Yi2026, Majdi2025, Laing2026`",
+      "replacement_markdown": "An audit of orthodontic animal studies reported a mean ARRIVE score of 57.9. {cite:p}`Flitti2024` In a Parkinson's-disease animal-model review, 15 of 38 ARRIVE 2.0 items had compliance levels of 80–100%. {cite:p}`Park2025` A broader audit of interventional animal experiments found significant post-ARRIVE improvement in 15 of 38 reporting subitems. {cite:p}`Lin2024` A nationwide comparison found explicit 3Rs reporting increased from zero publications in 2009 to 3.2% in 2018. {cite:p}`Kousholt2023` Manual audits across several animal-research domains continue to report deficits in randomisation, sample-size justification, control design, or related safeguards; however, the magnitude and direction of change vary by field and measurement method. {cite:p}`Chatzimanouil2018, Tihanyi2019, Bergen2023, Reimann2026, Yi2026, Majdi2025, Laing2026, Menke2022`",
+      "claims": [
+        {
+          "sentence_index": 6,
+          "claim_text": "An audit of orthodontic animal studies reported a mean ARRIVE score of 57.9.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "orthodontic animal studies",
+            "computational": null,
+            "clinical": null,
+            "methodological": "ARRIVE reporting audit",
+            "conceptual": "reporting quality"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "neutral",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Flitti2024"
+          ],
+          "context_overrides": {
+            "Flitti2024": {
+              "scope_match": "exact"
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 7,
+          "claim_text": "In a Parkinson's-disease animal-model review, 15 of 38 ARRIVE 2.0 items had compliance levels of 80–100%.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "Parkinson's-disease animal models",
+            "computational": null,
+            "clinical": null,
+            "methodological": "ARRIVE 2.0 compliance review",
+            "conceptual": "reporting quality"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "neutral",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Park2025"
+          ],
+          "context_overrides": {
+            "Park2025": {
+              "scope_match": "exact"
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 8,
+          "claim_text": "A broader audit of interventional animal experiments found significant post-ARRIVE improvement in 15 of 38 reporting subitems.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "interventional animal experiments",
+            "computational": null,
+            "clinical": null,
+            "methodological": "pre/post ARRIVE reporting audit",
+            "conceptual": "reporting improvement"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Lin2024"
+          ],
+          "context_overrides": {
+            "Lin2024": {
+              "scope_match": "exact"
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 9,
+          "claim_text": "A nationwide comparison found explicit 3Rs reporting increased from zero publications in 2009 to 3.2% in 2018.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "animal research publications",
+            "computational": null,
+            "clinical": null,
+            "methodological": "nationwide before-and-after reporting comparison",
+            "conceptual": "explicit 3Rs reporting"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Kousholt2023"
+          ],
+          "context_overrides": {
+            "Kousholt2023": {
+              "scope_match": "exact"
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 10,
+          "claim_text": "Manual audits across several animal-research domains continue to report deficits in randomisation, sample-size justification, control design, or related safeguards; however, the magnitude and direction of change vary by field and measurement method.",
+          "claim_type": "review_synthesis",
+          "claim_scope": {
+            "biological": "multiple animal-research domains",
+            "computational": "automated whole-literature reporting index",
+            "clinical": null,
+            "methodological": "manual domain audits compared with automated reporting metrics",
+            "conceptual": "heterogeneous reporting-quality trends"
+          },
+          "scope_status": "minor_difference_qualified",
+          "claim_polarity": "mixed",
+          "modality": "contested",
+          "independence_reviewed": true,
+          "independence_basis": "Human review retained seven domain-specific audits from distinct bibliography author groups; shared authors are still conservatively grouped by the migration script.",
+          "entities": [],
+          "citation_context_keys": [
+            "Chatzimanouil2018",
+            "Tihanyi2019",
+            "Bergen2023",
+            "Reimann2026",
+            "Yi2026",
+            "Majdi2025",
+            "Laing2026"
+          ],
+          "additional_citation_contexts": [
+            {
+              "cite_key": "Menke2022",
+              "doi": "10.2196/37324",
+              "role": "contradictory",
+              "source_type": "primary",
+              "bibliography_status": "verified",
+              "integrity_status": "verified_no_known_issue",
+              "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+              "integrity_check_source": "https://api.crossref.org/works/10.2196%2F37324",
+              "passages": [
+                {
+                  "text": "Between 1997 and 2020 (where data were readily available in our data set), rigor and transparency measures showed general improvement (RTI 2.29 to 4.13), suggesting that authors are taking the need for improved reporting seriously.",
+                  "passage_source": "full_text",
+                  "locator": "Full text, longitudinal RTI result",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.2196/37324",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "direction_match": true,
+              "supports_claim_atoms": [
+                "a1"
+              ],
+              "independence_group": null,
+              "independence_basis": null,
+              "scope_match": "broader",
+              "notes": "Contrasting whole-literature automated index retained during approved human review to qualify the domain-specific manual-audit trend."
+            }
+          ],
+          "conflicts": [
+            {
+              "conflict_type": "citation_key",
+              "target_id": "Menke2022",
+              "notes": "Whole-literature automated scoring detects improvement while domain-specific manual audits report persistent item-level deficits; the divergence is method- and field-dependent."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

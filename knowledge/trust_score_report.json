@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T08:07:25.974Z",
+  "generated_at": "2026-07-16T08:14:16.921Z",
   "source": "knowledge/claim_graph.json",
   "formula": "raw_score = 5 * sum(component scores); overall_score = min(raw_score, 60) when any cap reason applies",
   "claims": [
@@ -36533,23 +36533,23 @@
       "cap_reasons": []
     },
     {
-      "claim_id": "clm_7dc447ddc2898f93",
+      "claim_id": "clm_ffd7a93a04aa6de6",
       "component_scores": {
-        "traceability": 2,
-        "robustness": 3,
-        "uncertainty_calibration": 0,
-        "source_integrity": 0,
-        "transferability_scope_control": 3
+        "traceability": 4,
+        "robustness": 2,
+        "uncertainty_calibration": 4,
+        "source_integrity": 4,
+        "transferability_scope_control": 4
       },
       "component_rules": {
-        "traceability": "T2_PARTIAL_RECORD",
-        "robustness": "R3_CONVERGENT",
-        "uncertainty_calibration": "U0_OVERSTATED",
-        "source_integrity": "S0_COMPROMISED",
-        "transferability_scope_control": "X3_MINOR_QUALIFIER"
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R2_SINGLE_GROUP",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
       },
       "score_basis": {
-        "claim_text": "In animal work the picture repeats: orthodontic studies scored a mean of 57.9 on ARRIVE years after its release; ARRIVE 2.0 audits of Parkinson's and cardiovascular models found only about two-fifths of items well reported and no study reporting sample-size calculations, adverse events, or humane endpoints; a nationwide before-and-after comparison found explicit 3Rs reporting crept from 0% to just 3.2% across a decade; and kidney, liver-regeneration, veterinary-emergency, traditional-medicine, and bone-defect surveys converge on the same picture of persistent, barely-moving deficits in randomisation, blinding, sample-size justification, and control design.",
+        "claim_text": "An audit of orthodontic animal studies reported a mean ARRIVE score of 57.9.",
         "eligible_citations": [
           {
             "cite_key": "Flitti2024",
@@ -36562,9 +36562,55 @@
             "verified_passage_locators": [
               "Full text excerpt (legacy verification record)"
             ],
-            "independence_group": "grp_7dc447dd_1",
-            "scope_match": "narrower"
-          },
+            "independence_group": "grp_ffd7a93a_1",
+            "scope_match": "exact"
+          }
+        ],
+        "atom_support": {
+          "a1": [
+            "Flitti2024"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "grp_ffd7a93a_1"
+          ]
+        },
+        "derived_evidence_relation": "directly_supported",
+        "wording_strength": "unqualified",
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_UNQUALIFIED",
+          "markers": []
+        },
+        "modality": "established",
+        "scope_status": "matched"
+      },
+      "raw_score": 90,
+      "overall_score": 90,
+      "trust_label": "high_trust",
+      "capped": false,
+      "cap_reasons": []
+    },
+    {
+      "claim_id": "clm_8b13d9cf00b2822b",
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 2,
+        "uncertainty_calibration": 4,
+        "source_integrity": 3,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R2_SINGLE_GROUP",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S3_MIXED_CHECKS",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "score_basis": {
+        "claim_text": "In a Parkinson's-disease animal-model review, 15 of 38 ARRIVE 2.0 items had compliance levels of 80–100%.",
+        "eligible_citations": [
           {
             "cite_key": "Park2025",
             "doi": "10.3349/ymj.2024.0409",
@@ -36576,9 +36622,55 @@
             "verified_passage_locators": [
               "Full text excerpt (legacy verification record)"
             ],
-            "independence_group": "grp_7dc447dd_2",
-            "scope_match": "narrower"
-          },
+            "independence_group": "grp_8b13d9cf_1",
+            "scope_match": "exact"
+          }
+        ],
+        "atom_support": {
+          "a1": [
+            "Park2025"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "grp_8b13d9cf_1"
+          ]
+        },
+        "derived_evidence_relation": "directly_supported",
+        "wording_strength": "unqualified",
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_UNQUALIFIED",
+          "markers": []
+        },
+        "modality": "established",
+        "scope_status": "matched"
+      },
+      "raw_score": 85,
+      "overall_score": 85,
+      "trust_label": "high_trust",
+      "capped": false,
+      "cap_reasons": []
+    },
+    {
+      "claim_id": "clm_a093aab609bab3fc",
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 2,
+        "uncertainty_calibration": 4,
+        "source_integrity": 4,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R2_SINGLE_GROUP",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "score_basis": {
+        "claim_text": "A broader audit of interventional animal experiments found significant post-ARRIVE improvement in 15 of 38 reporting subitems.",
+        "eligible_citations": [
           {
             "cite_key": "Lin2024",
             "doi": "10.21037/cdt-24-413",
@@ -36590,9 +36682,55 @@
             "verified_passage_locators": [
               "Full text excerpt (legacy verification record)"
             ],
-            "independence_group": "grp_7dc447dd_3",
-            "scope_match": "narrower"
-          },
+            "independence_group": "grp_a093aab6_1",
+            "scope_match": "exact"
+          }
+        ],
+        "atom_support": {
+          "a1": [
+            "Lin2024"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "grp_a093aab6_1"
+          ]
+        },
+        "derived_evidence_relation": "directly_supported",
+        "wording_strength": "unqualified",
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_UNQUALIFIED",
+          "markers": []
+        },
+        "modality": "established",
+        "scope_status": "matched"
+      },
+      "raw_score": 90,
+      "overall_score": 90,
+      "trust_label": "high_trust",
+      "capped": false,
+      "cap_reasons": []
+    },
+    {
+      "claim_id": "clm_109394cd4057a9c5",
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 2,
+        "uncertainty_calibration": 4,
+        "source_integrity": 4,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R2_SINGLE_GROUP",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "score_basis": {
+        "claim_text": "A nationwide comparison found explicit 3Rs reporting increased from zero publications in 2009 to 3.2% in 2018.",
+        "eligible_citations": [
           {
             "cite_key": "Kousholt2023",
             "doi": "10.3390/ani13193005",
@@ -36604,9 +36742,55 @@
             "verified_passage_locators": [
               "Full text excerpt (legacy verification record)"
             ],
-            "independence_group": "grp_7dc447dd_4",
-            "scope_match": "narrower"
-          },
+            "independence_group": "grp_109394cd_1",
+            "scope_match": "exact"
+          }
+        ],
+        "atom_support": {
+          "a1": [
+            "Kousholt2023"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "grp_109394cd_1"
+          ]
+        },
+        "derived_evidence_relation": "directly_supported",
+        "wording_strength": "unqualified",
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_UNQUALIFIED",
+          "markers": []
+        },
+        "modality": "established",
+        "scope_status": "matched"
+      },
+      "raw_score": 90,
+      "overall_score": 90,
+      "trust_label": "high_trust",
+      "capped": false,
+      "cap_reasons": []
+    },
+    {
+      "claim_id": "clm_ee81c32f5321660e",
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 3,
+        "uncertainty_calibration": 2,
+        "source_integrity": 3,
+        "transferability_scope_control": 3
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R3_CONVERGENT",
+        "uncertainty_calibration": "U2_CONFLICT_DISCLOSED",
+        "source_integrity": "S3_MIXED_CHECKS",
+        "transferability_scope_control": "X3_MINOR_QUALIFIER"
+      },
+      "score_basis": {
+        "claim_text": "Manual audits across several animal-research domains continue to report deficits in randomisation, sample-size justification, control design, or related safeguards; however, the magnitude and direction of change vary by field and measurement method.",
+        "eligible_citations": [
           {
             "cite_key": "Chatzimanouil2018",
             "doi": "10.1681/asn.2018050515",
@@ -36618,7 +36802,7 @@
             "verified_passage_locators": [
               "Abstract excerpt (legacy verification record)"
             ],
-            "independence_group": "grp_7dc447dd_5",
+            "independence_group": "grp_ee81c32f_1",
             "scope_match": "narrower"
           },
           {
@@ -36632,7 +36816,7 @@
             "verified_passage_locators": [
               "Abstract excerpt (legacy verification record)"
             ],
-            "independence_group": "grp_7dc447dd_6",
+            "independence_group": "grp_ee81c32f_2",
             "scope_match": "narrower"
           },
           {
@@ -36646,7 +36830,7 @@
             "verified_passage_locators": [
               "Abstract excerpt (legacy verification record)"
             ],
-            "independence_group": "grp_7dc447dd_7",
+            "independence_group": "grp_ee81c32f_3",
             "scope_match": "narrower"
           },
           {
@@ -36660,7 +36844,7 @@
             "verified_passage_locators": [
               "Full text excerpt (legacy verification record)"
             ],
-            "independence_group": "grp_7dc447dd_9",
+            "independence_group": "grp_ee81c32f_4",
             "scope_match": "narrower"
           },
           {
@@ -36674,7 +36858,7 @@
             "verified_passage_locators": [
               "Full text excerpt (legacy verification record)"
             ],
-            "independence_group": "grp_7dc447dd_8",
+            "independence_group": "grp_ee81c32f_5",
             "scope_match": "narrower"
           },
           {
@@ -36688,7 +36872,7 @@
             "verified_passage_locators": [
               "Full text excerpt (legacy verification record)"
             ],
-            "independence_group": "grp_7dc447dd_10",
+            "independence_group": "grp_ee81c32f_6",
             "scope_match": "narrower"
           },
           {
@@ -36702,16 +36886,12 @@
             "verified_passage_locators": [
               "Full text excerpt (legacy verification record)"
             ],
-            "independence_group": "grp_7dc447dd_11",
+            "independence_group": "grp_ee81c32f_7",
             "scope_match": "narrower"
           }
         ],
         "atom_support": {
           "a1": [
-            "Flitti2024",
-            "Park2025",
-            "Lin2024",
-            "Kousholt2023",
             "Chatzimanouil2018",
             "Tihanyi2019",
             "Bergen2023",
@@ -36723,37 +36903,32 @@
         },
         "independence_groups_by_atom": {
           "a1": [
-            "grp_7dc447dd_1",
-            "grp_7dc447dd_2",
-            "grp_7dc447dd_3",
-            "grp_7dc447dd_4",
-            "grp_7dc447dd_5",
-            "grp_7dc447dd_6",
-            "grp_7dc447dd_7",
-            "grp_7dc447dd_9",
-            "grp_7dc447dd_8",
-            "grp_7dc447dd_10",
-            "grp_7dc447dd_11"
+            "grp_ee81c32f_1",
+            "grp_ee81c32f_2",
+            "grp_ee81c32f_3",
+            "grp_ee81c32f_4",
+            "grp_ee81c32f_5",
+            "grp_ee81c32f_6",
+            "grp_ee81c32f_7"
           ]
         },
         "derived_evidence_relation": "conflicted",
-        "wording_strength": "unqualified",
+        "wording_strength": "contested",
         "wording_basis": {
-          "wording_strength": "unqualified",
-          "rule_id": "SURFACE_UNQUALIFIED",
-          "markers": []
+          "wording_strength": "contested",
+          "rule_id": "SURFACE_CONFLICT",
+          "markers": [
+            "however"
+          ]
         },
-        "modality": "likely",
+        "modality": "contested",
         "scope_status": "minor_difference_qualified"
       },
-      "raw_score": 40,
-      "overall_score": 40,
-      "trust_label": "critical_or_unreliable",
-      "capped": true,
-      "cap_reasons": [
-        "direction_mismatch",
-        "contradicted_without_caveat"
-      ]
+      "raw_score": 75,
+      "overall_score": 75,
+      "trust_label": "moderate_trust",
+      "capped": false,
+      "cap_reasons": []
     },
     {
       "claim_id": "clm_4b82eeac8b5eda14",
@@ -44882,15 +45057,15 @@
     }
   ],
   "summary": {
-    "total_claims": 513,
-    "mean_overall_score": 89.16179337231969,
-    "minimum_overall_score": 40,
+    "total_claims": 517,
+    "mean_overall_score": 89.22630560928434,
+    "minimum_overall_score": 50,
     "maximum_overall_score": 100,
-    "high_trust": 426,
-    "moderate_trust": 52,
+    "high_trust": 430,
+    "moderate_trust": 53,
     "low_trust": 34,
-    "critical_or_unreliable": 1,
-    "capped_claims": 35,
-    "needs_human_review": 35
+    "critical_or_unreliable": 0,
+    "capped_claims": 34,
+    "needs_human_review": 34
   }
 }
