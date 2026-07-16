@@ -534,7 +534,7 @@ function validateRepository(root = path.resolve(__dirname, '..')) {
     for (const context of claim.citation_contexts) {
       const bib = bibliography.get(context.cite_key);
       if (!bib) errors.push(`${prefix}: citation ${context.cite_key} is absent from content/references.bib`);
-      else if ((context.doi || '').toLowerCase() !== bib.doi) errors.push(`${prefix}: citation ${context.cite_key} DOI differs from bibliography`);
+      else if ((context.doi || '').toLowerCase() !== (bib.doi || '')) errors.push(`${prefix}: citation ${context.cite_key} DOI differs from bibliography`);
       for (const atomId of context.supports_claim_atoms || []) {
         if (!atomIds.has(atomId)) errors.push(`${prefix}: citation ${context.cite_key} references unknown atom ${atomId}`);
       }

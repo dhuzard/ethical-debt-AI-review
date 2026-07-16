@@ -1,9 +1,9 @@
 (sec-trust-summary)=
 # Citation Trust Summary
 
-This review exposes **523 claim-level TRUST records** using rubric v2.0.0. Hovering or focusing a score highlights the concerned prose; opening the card reveals all five component rules, rationales, verified source passages, atom attribution, scope status, and cap reasons.
+This review exposes **527 claim-level TRUST records** using rubric v2.0.0. Hovering or focusing a score highlights the concerned prose; opening the card reveals all five component rules, rationales, verified source passages, atom attribution, scope status, and cap reasons.
 
-The mean overall score is **89.5**. Band distribution: **high 438 · moderate 55 · low 30 · critical 0**. **30** claims trigger a mandatory cap, and **30** remain explicit human-review priorities.
+The mean overall score is **89.5**. Band distribution: **high 441 · moderate 56 · low 30 · critical 0**. **29** claims trigger a mandatory cap, and **30** remain explicit human-review priorities.
 
 ![Trust band distribution by section](../figures/fig_trust_by_section.png)
 
@@ -15,13 +15,13 @@ The mean overall score is **89.5**. Band distribution: **high 438 · moderate 55
 
 | Traceability | Robustness | Uncertainty calibration | Source integrity | Transferability / scope |
 |---:|---:|---:|---:|---:|
-| 4.00 | 3.11 | 3.74 | 3.58 | 3.59 |
+| 3.99 | 3.11 | 3.74 | 3.57 | 3.60 |
 
 ## Per-section rollup
 
 | Section | Claims | Mean | High | Moderate | Low | Critical |
 |---|---:|---:|---:|---:|---:|---:|
-| Introduction | 44 | 87.5 | 32 | 8 | 4 | 0 |
+| Introduction | 48 | 87.8 | 35 | 9 | 4 | 0 |
 | Reproducibility | 65 | 88.3 | 53 | 9 | 3 | 0 |
 | Data welfare / 3Rs | 63 | 87.5 | 48 | 13 | 2 | 0 |
 | FAIR data | 62 | 91.0 | 57 | 3 | 2 | 0 |
@@ -38,7 +38,6 @@ The mean overall score is **89.5**. Band distribution: **high 438 · moderate 55
 | 50 | low trust | Incentives | The pattern generalises across national systems — in Ecuador, reliance on journal-centric metrics predicted lower adoption of open practices while institutional deposit mandates and data services predicted higher adoption. | overextended_scope |
 | 55 | low trust | Introduction | The empirical anchor the review returns to most often — that actual, usable data availability sits near two percent while declared availability and paperwork compliance sit far above it — recurs across FAIR audits, incentive studies, and governance evaluations alike, and it is against that near-static baseline — the empirical ~2% availability anchor — that every enforcement result must be judged. | overextended_scope |
 | 55 | low trust | Introduction | The strongest version of that claim is also its simplest, and it is the thread that ties the sections together: because animals have already paid for the data with their welfare and, usually, their lives, letting the data go to waste is not merely poor science but a welfare harm in its own right, and repaying the debt — through FAIR stewardship, through reuse and virtual control groups, through disciplined stewardship of the data that non-animal methods generate, and through incentive and governance reform that makes stewardship count — is a way of saving animals. | overextended_scope |
-| 60 | low trust | Introduction | Concordance between virtual and concurrent controls is endpoint-dependent, with high agreement for categorical decisions such as dose-limiting toxicities and substantial non-reproducibility for continuous clinical-pathology parameters; historical data drift over time and across laboratories, with study year emerging as the single most influential covariate in one large multi-company database; and, decisively, no regulator has yet accepted a virtual-control-group study in place of a concurrent control for a pivotal preclinical submission. | contradicted_without_caveat |
 | 60 | low trust | Introduction | A structural model argues that as long as publication drives careers, methods that produce more publishable results will keep being selected for regardless of their reliability, against a reform manifesto that expects methods, reporting, and incentive measures to improve reliability if adopted across the system. | contradicted_without_caveat |
 | 60 | low trust | Reproducibility | Their value is not their precision but their convergence with a theoretical prior — that under realistic assumptions about power, bias, and pre-study odds, a research claim in most fields is more likely false than true. | contradicted_without_caveat |
 | 60 | low trust | Reproducibility | Opinion surveys of laboratory-animal researchers put the published fraction low: staff at not-for-profit institutes estimated that only half of conducted animal experiments are published, and those in for-profit settings estimated just 10%. | contradicted_without_caveat |
@@ -60,6 +59,7 @@ The mean overall score is **89.5**. Band distribution: **high 438 · moderate 55
 | 60 | low trust | Conclusion | Unusable data are therefore not a downstream inconvenience but a driver of new animal use, and the loop tightens itself: the same reward structure that discourages complete reporting also produces the underpowered, unblinded studies whose results will not replicate, so the field runs experiments it cannot trust and then cannot reuse the animals' data to run better ones. | contradicted_without_caveat |
 | 60 | low trust | Conclusion | Virtual control groups interrupt the loop at the most concrete point available, reusing curated control-animal data so that a group of animals never enters the next study; found a stable Reduction estimate of roughly a quarter of control animals and an infrastructure that already exists at scale, but a dividend conditional on endpoint-specific concordance and still unaccepted by any regulator for a pivotal preclinical study. | contradicted_without_caveat |
 | 60 | low trust | Conclusion | The reuse of control data is itself double-edged, moreover: the same historical database can be marshalled to dismiss a marginal tumour finding as within the historical range or to support it as exceeding that range, a reminder that reuse without disciplined, outlier-robust method can mislead as readily as it can save animals. | contradicted_without_caveat |
+| 60 | low trust | Conclusion | A minority position holds the crisis narrative is itself overstated and better described as methodological empowerment, and although the balance of evidence weighs against it, the dispute is genuinely open and we have not treated the crisis as more severe than the data support. | contradicted_without_caveat |
 
 ## Method and migration note
 

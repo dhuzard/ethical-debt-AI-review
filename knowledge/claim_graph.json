@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T08:44:28.953Z",
+  "generated_at": "2026-07-16T09:18:08.154Z",
   "generated_by_phase": "phase_16T_trust_score_validation_v2",
   "claims": [
     {
@@ -4991,45 +4991,37 @@
       "validation_status": "validated"
     },
     {
-      "claim_id": "clm_34018547e1025a15",
+      "claim_id": "clm_f56680694ea21665",
       "section_id": "sec-introduction",
       "source_file": "content/01_introduction.md",
       "paragraph_index": 7,
       "sentence_index": 5,
-      "claim_text": "Concordance between virtual and concurrent controls is endpoint-dependent, with high agreement for categorical decisions such as dose-limiting toxicities and substantial non-reproducibility for continuous clinical-pathology parameters; historical data drift over time and across laboratories, with study year emerging as the single most influential covariate in one large multi-company database; and, decisively, no regulator has yet accepted a virtual-control-group study in place of a concurrent control for a pivotal preclinical submission.",
-      "normalized_claim": "concordance between virtual and concurrent controls is endpoint dependent with high agreement for categorical decisions such as dose limiting toxicities and substantial non reproducibility for continuous clinical pathology parameters historical data drift over time and across laboratories with study year emerging as the single most influential covariate in one large multi company database and decisively no regulator has yet accepted a virtual control group study in place of a concurrent control for a pivotal preclinical submission",
+      "claim_text": "In a Wistar Han rat liver-enzyme analysis, 68.5% of concurrent-versus-virtual-control comparisons achieved at least 90% agreement in effect-size estimates.",
+      "normalized_claim": "in a wistar han rat liver enzyme analysis 68 5 of concurrent versus virtual control comparisons achieved at least 90 agreement in effect size estimates",
       "claim_atoms": [
         {
           "atom_id": "a1",
-          "text": "Concordance between virtual and concurrent controls is endpoint-dependent, with high agreement for categorical decisions such as dose-limiting toxicities and substantial non-reproducibility for continuous clinical-pathology parameters; historical data drift over time and across laboratories, with study year emerging as the single most influential covariate in one large multi-company database; and, decisively, no regulator has yet accepted a virtual-control-group study in place of a concurrent control for a pivotal preclinical submission."
+          "text": "In a Wistar Han rat liver-enzyme analysis, 68.5% of concurrent-versus-virtual-control comparisons achieved at least 90% agreement in effect-size estimates."
         }
       ],
-      "claim_type": "comparative",
+      "claim_type": "empirical",
       "claim_scope": {
-        "biological": "rat and non-human-primate toxicity controls",
-        "computational": "historical-control database drift (ViCoG)",
+        "biological": "Wistar Han rats",
+        "computational": "concurrent-versus-virtual control comparison",
         "clinical": null,
-        "methodological": "VCG vs concurrent-control concordance",
-        "conceptual": "regulatory acceptance of virtual controls"
+        "methodological": "liver-enzyme effect-size agreement analysis",
+        "conceptual": "endpoint-specific virtual-control concordance"
       },
       "scope_status": "matched",
-      "claim_polarity": "mixed",
-      "modality": "contested",
+      "claim_polarity": "positive",
+      "modality": "established",
       "wording_strength": "unqualified",
       "entities": [],
       "citation_keys": [
-        "DuchateauNguyen2026",
-        "Mecklenburg2023",
-        "Adedeji2024",
-        "Kellner2025",
-        "SATO2024"
+        "DuchateauNguyen2026"
       ],
       "dois": [
-        "10.3389/fphar.2026.1704002",
-        "10.1371/journal.pone.0282404",
-        "10.1177/01926233241300310",
-        "10.3389/ftox.2025.1684191",
-        "10.33611/trs.2023-009"
+        "10.3389/fphar.2026.1704002"
       ],
       "citation_contexts": [
         {
@@ -5045,10 +5037,10 @@
             {
               "text": "In 68.5% of all the pairwise comparisons performed there was at least 90% agreement in effect size estimate between analysis done with CCG and VCGs.",
               "passage_source": "full_text",
-              "locator": "Full text excerpt (legacy verification record)",
+              "locator": "Full text, pairwise liver-enzyme effect-size comparison",
               "verification_status": "verified",
               "verification_source": "https://doi.org/10.3389/fphar.2026.1704002",
-              "verified_at": "2026-07-08T23:15:00.000Z",
+              "verified_at": "2026-07-16T00:00:00.000Z",
               "supports_claim_atoms": [
                 "a1"
               ]
@@ -5058,42 +5050,121 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_34018547_1",
-          "independence_basis": "Sources share bibliography author metadata and are conservatively assigned to one independence group.",
+          "independence_group": "grp_f5668069_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
           "scope_match": "exact",
           "notes": null
+        }
+      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
+            "evidence": [
+              "DuchateauNguyen2026:1 verified passage(s)"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "robustness": {
+            "score": 2,
+            "rule_id": "R2_SINGLE_GROUP",
+            "rationale": "Every atom is covered, but the evidence resolves to one independence group.",
+            "evidence": [
+              "grp_f5668069_1"
+            ],
+            "failure_modes": [
+              "Every atom is covered, but the evidence resolves to one independence group."
+            ],
+            "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
+          },
+          "uncertainty_calibration": {
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
+            "evidence": [
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_UNQUALIFIED"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "source_integrity": {
+            "score": 4,
+            "rule_id": "S4_VERIFIED_PRIMARY",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
+            "evidence": [
+              "DuchateauNguyen2026:verified/verified_no_known_issue/primary"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
+              "DuchateauNguyen2026:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
         },
+        "raw_score": 90,
+        "overall_score": 90,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_6824c8823756b85f",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "paragraph_index": 7,
+      "sentence_index": 6,
+      "claim_text": "However, a review of three legacy studies reported that 31–49% of quantitative clinical-pathology parameters were not reproducible when concurrent controls were fully replaced by virtual controls.",
+      "normalized_claim": "however a review of three legacy studies reported that 31 49 of quantitative clinical pathology parameters were not reproducible when concurrent controls were fully replaced by virtual controls",
+      "claim_atoms": [
         {
-          "cite_key": "Mecklenburg2023",
-          "doi": "10.1371/journal.pone.0282404",
-          "role": "direct_support",
-          "source_type": "primary",
-          "bibliography_status": "verified",
-          "integrity_status": "verified_no_known_issue",
-          "integrity_checked_at": "2026-07-08T23:15:00.000Z",
-          "integrity_check_source": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0282404",
-          "passages": [
-            {
-              "text": "Our investigation has demonstrated that out of 22 parameters with statistical difference in the fixed-effect ANOVA /Dunnett’s test, 82% could be confirmed using the mixed-design",
-              "passage_source": "full_text",
-              "locator": "Full text excerpt (legacy verification record)",
-              "verification_status": "verified",
-              "verification_source": "https://doi.org/10.1371/journal.pone.0282404",
-              "verified_at": "2026-07-08T23:15:00.000Z",
-              "supports_claim_atoms": [
-                "a1"
-              ]
-            }
-          ],
-          "direction_match": true,
-          "supports_claim_atoms": [
-            "a1"
-          ],
-          "independence_group": "grp_34018547_2",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 5 independent citation(s); replication status ['disputed', 'single-study']; documented independent replication; effect size reported.",
-          "scope_match": "exact",
-          "notes": null
-        },
+          "atom_id": "a1",
+          "text": "However, a review of three legacy studies reported that 31–49% of quantitative clinical-pathology parameters were not reproducible when concurrent controls were fully replaced by virtual controls."
+        }
+      ],
+      "claim_type": "empirical",
+      "claim_scope": {
+        "biological": "three legacy preclinical toxicity studies",
+        "computational": "full replacement of concurrent controls with virtual controls",
+        "clinical": null,
+        "methodological": "quantitative clinical-pathology reproducibility analysis",
+        "conceptual": "endpoint-specific virtual-control discordance"
+      },
+      "scope_status": "matched",
+      "claim_polarity": "negative",
+      "modality": "contested",
+      "wording_strength": "contested",
+      "entities": [],
+      "citation_keys": [
+        "Adedeji2024"
+      ],
+      "dois": [
+        "10.1177/01926233241300310"
+      ],
+      "citation_contexts": [
         {
           "cite_key": "Adedeji2024",
           "doi": "10.1177/01926233241300310",
@@ -5105,12 +5176,23 @@
           "integrity_check_source": "https://api.crossref.org/works/10.1177%2F01926233241300310",
           "passages": [
             {
-              "text": "with VCG, the result showed that 31% (34 of 108 parameters), 40% (43 out of 107 parameters), and 49% (57 of 115 parameters) of the",
+              "text": "When the CCG was replaced with VCG, the result showed that 31% (34 of 108 parameters), 40% (43 out of 107 parameters), and",
               "passage_source": "full_text",
-              "locator": "Full text excerpt (legacy verification record)",
+              "locator": "Full text, quantitative-parameter reproducibility result (part 1)",
               "verification_status": "verified",
               "verification_source": "https://doi.org/10.1177/01926233241300310",
-              "verified_at": "2026-07-08T23:15:00.000Z",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            },
+            {
+              "text": "49% (57 of 115 parameters) of the quantitative parameters were not statistically reproducible in the legacy studies A, B and C, respectively.",
+              "passage_source": "full_text",
+              "locator": "Full text, quantitative-parameter reproducibility result (part 2)",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.1177/01926233241300310",
+              "verified_at": "2026-07-16T00:00:00.000Z",
               "supports_claim_atoms": [
                 "a1"
               ]
@@ -5120,11 +5202,130 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_34018547_3",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 5 independent citation(s); replication status ['disputed', 'single-study']; documented independent replication; effect size reported.",
+          "independence_group": "grp_6824c882_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
           "scope_match": "exact",
           "notes": null
+        }
+      ],
+      "evidence_relation": "conflicted",
+      "conflicts": [
+        {
+          "conflict_type": "citation_key",
+          "target_id": "DuchateauNguyen2026",
+          "notes": "The two studies report different endpoint-specific concordance and non-reproducibility results; the contrast is retained explicitly rather than generalised across endpoints."
+        }
+      ],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
+            "evidence": [
+              "Adedeji2024:2 verified passage(s)"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "robustness": {
+            "score": 2,
+            "rule_id": "R2_SINGLE_GROUP",
+            "rationale": "Every atom is covered, but the evidence resolves to one independence group.",
+            "evidence": [
+              "grp_6824c882_1"
+            ],
+            "failure_modes": [
+              "Every atom is covered, but the evidence resolves to one independence group."
+            ],
+            "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
+          },
+          "uncertainty_calibration": {
+            "score": 2,
+            "rule_id": "U2_CONFLICT_DISCLOSED",
+            "rationale": "The wording discloses a conflict in the evidence.",
+            "evidence": [
+              "evidence_relation=conflicted",
+              "wording=SURFACE_CONFLICT",
+              "However"
+            ],
+            "failure_modes": [
+              "The wording discloses a conflict in the evidence."
+            ],
+            "recommended_fix": "Revise the claim wording or verification inputs so the stated certainty matches the derived evidence relation."
+          },
+          "source_integrity": {
+            "score": 4,
+            "rule_id": "S4_VERIFIED_PRIMARY",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
+            "evidence": [
+              "Adedeji2024:verified/verified_no_known_issue/primary"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
+              "Adedeji2024:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
         },
+        "raw_score": 80,
+        "overall_score": 80,
+        "trust_label": "moderate_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_55a7e8db1827f197",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "paragraph_index": 7,
+      "sentence_index": 7,
+      "claim_text": "In a multi-company Han Wistar rat database, study year was the most influential factor among body-weight class, company, and year, with medium mean effect sizes of 0.127 in females and 0.117 in males.",
+      "normalized_claim": "in a multi company han wistar rat database study year was the most influential factor among body weight class company and year with medium mean effect sizes of 0 127 in females and 0 117 in males",
+      "claim_atoms": [
+        {
+          "atom_id": "a1",
+          "text": "In a multi-company Han Wistar rat database, study year was the most influential factor among body-weight class, company, and year, with medium mean effect sizes of 0.127 in females and 0.117 in males."
+        }
+      ],
+      "claim_type": "empirical",
+      "claim_scope": {
+        "biological": "Han Wistar rat control data",
+        "computational": "multi-company virtual-control-group database",
+        "clinical": null,
+        "methodological": "covariate effect-size analysis",
+        "conceptual": "temporal drift in historical control data"
+      },
+      "scope_status": "matched",
+      "claim_polarity": "neutral",
+      "modality": "established",
+      "wording_strength": "unqualified",
+      "entities": [],
+      "citation_keys": [
+        "Kellner2025"
+      ],
+      "dois": [
+        "10.3389/ftox.2025.1684191"
+      ],
+      "citation_contexts": [
         {
           "cite_key": "Kellner2025",
           "doi": "10.3389/ftox.2025.1684191",
@@ -5136,12 +5337,23 @@
           "integrity_check_source": "https://api.crossref.org/works/10.3389%2Fftox.2025.1684191",
           "passages": [
             {
-              "text": "the study year emerged as the most important factor with a medium effect (mean effect size: 0.127 for females, 0.117 for males), followed by company",
+              "text": "The three factors body weight class, company, and study year were therefore analyzed regarding their effect sizes when controlling the influence of the other factors",
               "passage_source": "full_text",
-              "locator": "Full text excerpt (legacy verification record)",
+              "locator": "Full text, covariates included in the controlled effect-size analysis",
               "verification_status": "verified",
               "verification_source": "https://doi.org/10.3389/ftox.2025.1684191",
-              "verified_at": "2026-07-08T23:15:00.000Z",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            },
+            {
+              "text": "In both sexes, the study year emerged as the most important factor with a medium effect (mean effect size: 0.127 for females, 0.117 for males)",
+              "passage_source": "full_text",
+              "locator": "Full text, relative importance and mean effect sizes for study year",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.3389/ftox.2025.1684191",
+              "verified_at": "2026-07-16T00:00:00.000Z",
               "supports_claim_atoms": [
                 "a1"
               ]
@@ -5151,11 +5363,121 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_34018547_1",
-          "independence_basis": "Sources share bibliography author metadata and are conservatively assigned to one independence group.",
+          "independence_group": "grp_55a7e8db_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
           "scope_match": "exact",
           "notes": null
+        }
+      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 4,
+            "rule_id": "T4_ATOM_LEVEL",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
+            "evidence": [
+              "Kellner2025:2 verified passage(s)"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "robustness": {
+            "score": 2,
+            "rule_id": "R2_SINGLE_GROUP",
+            "rationale": "Every atom is covered, but the evidence resolves to one independence group.",
+            "evidence": [
+              "grp_55a7e8db_1"
+            ],
+            "failure_modes": [
+              "Every atom is covered, but the evidence resolves to one independence group."
+            ],
+            "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
+          },
+          "uncertainty_calibration": {
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
+            "evidence": [
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_UNQUALIFIED"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "source_integrity": {
+            "score": 4,
+            "rule_id": "S4_VERIFIED_PRIMARY",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
+            "evidence": [
+              "Kellner2025:verified/verified_no_known_issue/primary"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
+              "Kellner2025:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
         },
+        "raw_score": 90,
+        "overall_score": 90,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_720e9e44858ad1d3",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "paragraph_index": 7,
+      "sentence_index": 8,
+      "claim_text": "In 2024, JPMA authors noted that regulatory guidelines required concurrent controls for pivotal toxicology studies.",
+      "normalized_claim": "in 2024 jpma authors noted that regulatory guidelines required concurrent controls for pivotal toxicology studies",
+      "claim_atoms": [
+        {
+          "atom_id": "a1",
+          "text": "In 2024, JPMA authors noted that regulatory guidelines required concurrent controls for pivotal toxicology studies."
+        }
+      ],
+      "claim_type": "methodological",
+      "claim_scope": {
+        "biological": "pivotal toxicology studies",
+        "computational": "virtual-control-group substitution",
+        "clinical": null,
+        "methodological": "regulatory concurrent-control requirement",
+        "conceptual": "2024 regulatory context reported by JPMA authors"
+      },
+      "scope_status": "matched",
+      "claim_polarity": "neutral",
+      "modality": "established",
+      "wording_strength": "unqualified",
+      "entities": [],
+      "citation_keys": [
+        "SATO2024"
+      ],
+      "dois": [
+        "10.33611/trs.2023-009"
+      ],
+      "citation_contexts": [
         {
           "cite_key": "SATO2024",
           "doi": "10.33611/trs.2023-009",
@@ -5167,12 +5489,23 @@
           "integrity_check_source": "https://api.crossref.org/works/10.33611%2Ftrs.2023-009",
           "passages": [
             {
-              "text": "toxicology study results using historical control data is not new; however, introducing a VCG means replacing the concurrent control group in a toxicology study with",
+              "text": "Current regulatory guidelines require a concurrent control group for a pivotal toxicology study, whose results, if do not meet the requirements of these guidelines, cannot",
               "passage_source": "abstract",
-              "locator": "Abstract excerpt (legacy verification record)",
+              "locator": "Abstract, regulatory-guideline requirement (part 1)",
               "verification_status": "verified",
               "verification_source": "https://doi.org/10.33611/trs.2023-009",
-              "verified_at": "2026-07-08T23:15:00.000Z",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            },
+            {
+              "text": "be used for new drug approval applications.",
+              "passage_source": "abstract",
+              "locator": "Abstract, regulatory-guideline requirement (part 2)",
+              "verification_status": "verified",
+              "verification_source": "https://doi.org/10.33611/trs.2023-009",
+              "verified_at": "2026-07-16T00:00:00.000Z",
               "supports_claim_atoms": [
                 "a1"
               ]
@@ -5182,40 +5515,14 @@
           "supports_claim_atoms": [
             "a1"
           ],
-          "independence_group": "grp_34018547_4",
-          "independence_basis": "Legacy TRUST review treated this citation as an independent source; bibliography author-overlap was checked during v2 migration. 5 independent citation(s); replication status ['disputed', 'single-study']; documented independent replication; effect size reported.",
+          "independence_group": "grp_720e9e44_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
           "scope_match": "exact",
           "notes": null
         }
       ],
-      "evidence_relation": "conflicted",
-      "conflicts": [
-        {
-          "conflict_type": "citation_key",
-          "target_id": "Adedeji2024",
-          "notes": "Degree of VCG-CCG concordance: the liver-enzyme simulation reports high agreement (68.5% of comparisons >=90%), whereas the clinical-pathology review reports high non-reproducibility (up to 49% of qua"
-        },
-        {
-          "conflict_type": "citation_key",
-          "target_id": "DuchateauNguyen2026",
-          "notes": "Degree of VCG-CCG concordance: the liver-enzyme simulation reports high agreement (68.5% of comparisons >=90%), whereas the clinical-pathology review reports high non-reproducibility (up to 49% of qua"
-        },
-        {
-          "conflict_type": "citation_key",
-          "target_id": "Li2024a",
-          "notes": "Whether VCGs preserve sensitivity for clinical-pathology endpoints: the nonrodent statistical study finds propensity-score-matched VCGs match or exceed concurrent-control sensitivity, whereas the clin"
-        },
-        {
-          "conflict_type": "citation_key",
-          "target_id": "Nambiar2012",
-          "notes": "Temporal stability of historical control data: the rasH2 tumor-incidence analysis argues for minimal drift over a decade, while the multi-company clinical-pathology database finds study year to be the"
-        },
-        {
-          "conflict_type": "citation_key",
-          "target_id": "StegerHartmann2020",
-          "notes": "Magnitude of animal reduction from replacing concurrent controls with VCGs: the Japanese industry perspective states approximately 30%, whereas the original concept paper and subsequent consensus stat"
-        }
-      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
       "knowledge_edges": [],
       "trust_score": {
         "rubric_version": "2.0.0",
@@ -5223,90 +5530,230 @@
           "traceability": {
             "score": 4,
             "rule_id": "T4_ATOM_LEVEL",
-            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom. Legacy assessment: 5/5 citations carry a verbatim supporting passage (full text); DOIs present for 5/5.",
+            "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom.",
             "evidence": [
-              "DuchateauNguyen2026:1 verified passage(s)",
-              "Mecklenburg2023:1 verified passage(s)",
-              "Adedeji2024:1 verified passage(s)",
-              "Kellner2025:1 verified passage(s)",
-              "SATO2024:1 verified passage(s)"
+              "SATO2024:2 verified passage(s)"
             ],
             "failure_modes": [],
-            "recommended_fix": "Attach a verbatim supporting passage and a resolvable DOI to every citation."
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "robustness": {
-            "score": 3,
-            "rule_id": "R3_CONVERGENT",
-            "rationale": "Independent groups converge, but at least one atom has support from only one group. Legacy assessment: 5 independent citation(s); replication status ['disputed', 'single-study']; documented independent replication; effect size reported.",
+            "score": 4,
+            "rule_id": "R4_ORIGINATING_SOURCE",
+            "rationale": "A direct primary source covers the complete attribution without an unresolved contradiction.",
             "evidence": [
-              "grp_34018547_1",
-              "grp_34018547_2",
-              "grp_34018547_3",
-              "grp_34018547_4"
+              "grp_720e9e44_1"
             ],
-            "failure_modes": [
-              "cited source(s) disputed/contested",
-              "Independent groups converge, but at least one atom has support from only one group."
-            ],
-            "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "uncertainty_calibration": {
-            "score": 0,
-            "rule_id": "U0_OVERSTATED",
-            "rationale": "The surface wording is stronger than the derived evidence relation permits. Legacy assessment: The claim explicitly presents the endpoint-dependent concordance conflict (high agreement for categorical decisions vs substantial non-reproducibility for continuous parameters) and states the regulatory limitation plainly.",
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
             "evidence": [
-              "evidence_relation=conflicted",
+              "evidence_relation=directly_supported",
               "wording=SURFACE_UNQUALIFIED"
             ],
-            "failure_modes": [
-              "SHOULD_CAVEAT: the dose-limiting-toxicities example is not cleanly sourced",
-              "The surface wording is stronger than the derived evidence relation permits."
-            ],
-            "recommended_fix": "Revise the claim wording or verification inputs so the stated certainty matches the derived evidence relation."
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "source_integrity": {
             "score": 4,
             "rule_id": "S4_VERIFIED_PRIMARY",
-            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified. Legacy assessment: CrossRef re-resolution: {'VERIFIED': 5}; 4/5 full-text-checked; bibliographically consistent.",
+            "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified.",
             "evidence": [
-              "DuchateauNguyen2026:verified/verified_no_known_issue/primary",
-              "Mecklenburg2023:verified/verified_no_known_issue/primary",
-              "Adedeji2024:verified/verified_no_known_issue/primary",
-              "Kellner2025:verified/verified_no_known_issue/primary",
               "SATO2024:verified/verified_no_known_issue/primary"
             ],
             "failure_modes": [],
-            "recommended_fix": "Prefer peer-reviewed primary sources; keep DOIs CrossRef-consistent."
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           },
           "transferability_scope_control": {
             "score": 4,
             "rule_id": "X4_SCOPE_MATCHED",
-            "rationale": "The recorded evidence scope matches the claim. Legacy assessment: All claims stay within preclinical toxicology VCG evidence; only a minor subchronic/chronic wording imprecision is flagged.",
+            "rationale": "The recorded evidence scope matches the claim.",
             "evidence": [
               "scope_status=matched",
-              "DuchateauNguyen2026:exact",
-              "Mecklenburg2023:exact",
-              "Adedeji2024:exact",
-              "Kellner2025:exact",
               "SATO2024:exact"
             ],
             "failure_modes": [],
-            "recommended_fix": "Change 'sub-chronic' to 'subchronic and chronic' NHP studies."
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
           }
         },
-        "raw_score": 75,
-        "overall_score": 60,
+        "raw_score": 100,
+        "overall_score": 100,
+        "trust_label": "high_trust",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
+        "computed_from": "validator"
+      },
+      "human_review_required": false,
+      "created_by_phase": "trust_human_review",
+      "updated_by_phase": "phase_16T_trust_score_validation_v2",
+      "validation_status": "validated"
+    },
+    {
+      "claim_id": "clm_829f80a895bab81c",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "paragraph_index": 7,
+      "sentence_index": 9,
+      "claim_text": "By March 2026, EMA had issued a draft qualification opinion for virtual controls in rat non-GLP dose-range-finding studies, a narrower context than pivotal toxicology studies.",
+      "normalized_claim": "by march 2026 ema had issued a draft qualification opinion for virtual controls in rat non glp dose range finding studies a narrower context than pivotal toxicology studies",
+      "claim_atoms": [
+        {
+          "atom_id": "a1",
+          "text": "By March 2026, EMA had issued a draft qualification opinion for virtual controls in rat non-GLP dose-range-finding studies, a narrower context than pivotal toxicology studies."
+        }
+      ],
+      "claim_type": "methodological",
+      "claim_scope": {
+        "biological": "rats",
+        "computational": "virtual control groups replacing concurrent control groups",
+        "clinical": null,
+        "methodological": "EMA draft qualification for non-GLP dose-range-finding studies",
+        "conceptual": "regulatory status and scope as of March 2026"
+      },
+      "scope_status": "matched",
+      "claim_polarity": "neutral",
+      "modality": "established",
+      "wording_strength": "unqualified",
+      "entities": [],
+      "citation_keys": [
+        "EMA2026VCG"
+      ],
+      "dois": [],
+      "citation_contexts": [
+        {
+          "cite_key": "EMA2026VCG",
+          "doi": null,
+          "role": "direct_support",
+          "source_type": "primary",
+          "bibliography_status": "verified",
+          "integrity_status": "verified_no_known_issue",
+          "integrity_checked_at": "2026-07-16T00:00:00.000Z",
+          "integrity_check_source": "https://www.ema.europa.eu/en/news/ema-consults-virtual-control-groups-help-reduce-animal-use-medicines-development",
+          "passages": [
+            {
+              "text": "31 March 2026",
+              "passage_source": "full_text",
+              "locator": "EMA news page publication date",
+              "verification_status": "verified",
+              "verification_source": "https://www.ema.europa.eu/en/news/ema-consults-virtual-control-groups-help-reduce-animal-use-medicines-development",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            },
+            {
+              "text": "EMA’s human medicines committee (CHMP) has issued a draft qualification opinion for a new methodology in preclinical research",
+              "passage_source": "full_text",
+              "locator": "EMA news page, draft qualification opinion",
+              "verification_status": "verified",
+              "verification_source": "https://www.ema.europa.eu/en/news/ema-consults-virtual-control-groups-help-reduce-animal-use-medicines-development",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            },
+            {
+              "text": "Draft Qualification opinion for Virtual Control Groups (VCG) to replace Concurrent Control Groups (CCG) in rat non-GLP Dose-Range Finding (DRF) studies",
+              "passage_source": "full_text",
+              "locator": "EMA page, related-document title and context of use",
+              "verification_status": "verified",
+              "verification_source": "https://www.ema.europa.eu/en/news/ema-consults-virtual-control-groups-help-reduce-animal-use-medicines-development",
+              "verified_at": "2026-07-16T00:00:00.000Z",
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          ],
+          "direction_match": true,
+          "supports_claim_atoms": [
+            "a1"
+          ],
+          "independence_group": "grp_829f80a8_1",
+          "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (independence not established).",
+          "scope_match": "exact",
+          "notes": "Official EMA record added during approved human review to update the time-sensitive regulatory status while preserving its narrower qualification scope."
+        }
+      ],
+      "evidence_relation": "directly_supported",
+      "conflicts": [],
+      "knowledge_edges": [],
+      "trust_score": {
+        "rubric_version": "2.0.0",
+        "components": {
+          "traceability": {
+            "score": 0,
+            "rule_id": "T0_UNRESOLVED",
+            "rationale": "At least one cited key, DOI, bibliography record, or citation context is unresolved.",
+            "evidence": [
+              "EMA2026VCG:3 verified passage(s)"
+            ],
+            "failure_modes": [
+              "At least one cited key, DOI, bibliography record, or citation context is unresolved."
+            ],
+            "recommended_fix": "Verify every citation DOI and attach a locator-backed source passage to each claimed atom."
+          },
+          "robustness": {
+            "score": 4,
+            "rule_id": "R4_ORIGINATING_SOURCE",
+            "rationale": "A direct primary source covers the complete attribution without an unresolved contradiction.",
+            "evidence": [
+              "grp_829f80a8_1"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "uncertainty_calibration": {
+            "score": 4,
+            "rule_id": "U4_EXACT_CALIBRATION",
+            "rationale": "The surface wording matches direct eligible support.",
+            "evidence": [
+              "evidence_relation=directly_supported",
+              "wording=SURFACE_UNQUALIFIED"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          },
+          "source_integrity": {
+            "score": 1,
+            "rule_id": "S1_UNRESOLVED",
+            "rationale": "A relied-upon source or DOI is unresolved.",
+            "evidence": [
+              "EMA2026VCG:verified/verified_no_known_issue/primary"
+            ],
+            "failure_modes": [
+              "A relied-upon source or DOI is unresolved."
+            ],
+            "recommended_fix": "Resolve bibliography records and check a current registry or publisher record for each relied-upon source."
+          },
+          "transferability_scope_control": {
+            "score": 4,
+            "rule_id": "X4_SCOPE_MATCHED",
+            "rationale": "The recorded evidence scope matches the claim.",
+            "evidence": [
+              "scope_status=matched",
+              "EMA2026VCG:exact"
+            ],
+            "failure_modes": [],
+            "recommended_fix": "Preserve the verified inputs and rerun the validator after any prose or citation change."
+          }
+        },
+        "raw_score": 65,
+        "overall_score": 65,
         "trust_label": "low_trust",
-        "capped": true,
-        "cap_value": 60,
-        "cap_reasons": [
-          "contradicted_without_caveat"
-        ],
-        "cap_reason": "contradicted_without_caveat",
+        "capped": false,
+        "cap_value": null,
+        "cap_reasons": [],
+        "cap_reason": null,
         "computed_from": "validator"
       },
       "human_review_required": true,
-      "created_by_phase": "trust_seed",
+      "created_by_phase": "trust_human_review",
       "updated_by_phase": "phase_16T_trust_score_validation_v2",
       "validation_status": "needs_human_review"
     },
@@ -107598,7 +108045,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_34018547e1025a15",
+      "source_claim_id": "clm_f56680694ea21665",
       "relation": "supports",
       "target": "DuchateauNguyen2026",
       "target_type": "citation",
@@ -107606,15 +108053,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_34018547e1025a15",
-      "relation": "supports",
-      "target": "Mecklenburg2023",
-      "target_type": "citation",
-      "weight": 1,
-      "notes": null
-    },
-    {
-      "source_claim_id": "clm_34018547e1025a15",
+      "source_claim_id": "clm_6824c8823756b85f",
       "relation": "supports",
       "target": "Adedeji2024",
       "target_type": "citation",
@@ -107622,7 +108061,7 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_34018547e1025a15",
+      "source_claim_id": "clm_55a7e8db1827f197",
       "relation": "supports",
       "target": "Kellner2025",
       "target_type": "citation",
@@ -107630,12 +108069,20 @@
       "notes": null
     },
     {
-      "source_claim_id": "clm_34018547e1025a15",
+      "source_claim_id": "clm_720e9e44858ad1d3",
       "relation": "supports",
       "target": "SATO2024",
       "target_type": "citation",
       "weight": 1,
       "notes": null
+    },
+    {
+      "source_claim_id": "clm_829f80a895bab81c",
+      "relation": "supports",
+      "target": "EMA2026VCG",
+      "target_type": "citation",
+      "weight": 1,
+      "notes": "Official EMA record added during approved human review to update the time-sensitive regulatory status while preserving its narrower qualification scope."
     },
     {
       "source_claim_id": "clm_a4f388eca4c31057",
@@ -118287,9 +118734,9 @@
     }
   ],
   "summary": {
-    "total_claims": 523,
-    "high_trust": 438,
-    "moderate_trust": 55,
+    "total_claims": 527,
+    "high_trust": 441,
+    "moderate_trust": 56,
     "low_trust": 30,
     "critical_or_unreliable": 0,
     "needs_human_review": 30

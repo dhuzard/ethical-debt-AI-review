@@ -273,7 +273,8 @@ function normalizePassages(context, claimText, bibliographyState) {
       locator: passage.locator || `${passage.passage_source === 'full_text' ? 'Full text' : 'Abstract'} excerpt`,
       verification_status: verificationStatus,
       verification_source: verificationStatus === 'verified'
-        ? `https://doi.org/${context.doi}`
+        ? (passage.verification_source
+          || (context.doi ? `https://doi.org/${context.doi}` : context.integrity_check_source || null))
         : null,
       verified_at: verificationStatus === 'verified'
         ? (passage.verified_at || LEGACY_VERIFIED_AT)
@@ -625,7 +626,10 @@ function main() {
         integrity_status: integrityVerified ? 'verified_no_known_issue' : (legacyContext.integrity_status || 'not_checked'),
         integrity_checked_at: integrityVerified ? (legacyContext.integrity_checked_at || LEGACY_VERIFIED_AT) : null,
         integrity_check_source: integrityVerified
-          ? `https://api.crossref.org/works/${encodeURIComponent(canonicalContext.doi)}`
+          ? (legacyContext.integrity_check_source
+            || (canonicalContext.doi
+              ? `https://api.crossref.org/works/${encodeURIComponent(canonicalContext.doi)}`
+              : legacyContext.verification_source || null))
           : null,
         passages,
         direction_match: legacyContext.direction_match === true,

@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-07-16T08:44:28.953Z",
+  "generated_at": "2026-07-16T09:18:08.154Z",
   "source": "knowledge/claim_graph.json at rubric v1",
   "target": "TRUST rubric v2.0.0",
   "claim_ids": {
@@ -1043,7 +1043,12 @@
     "clm_2166f4a156ee26d0": "clm_2166f4a156ee26d0",
     "clm_f754fbc3935f5cda": "clm_f754fbc3935f5cda",
     "clm_9fffa0247a80ac54": "clm_9fffa0247a80ac54",
-    "clm_2d554ac4d182ba9a": "clm_2d554ac4d182ba9a"
+    "clm_2d554ac4d182ba9a": "clm_2d554ac4d182ba9a",
+    "clm_f56680694ea21665": "clm_f56680694ea21665",
+    "clm_6824c8823756b85f": "clm_6824c8823756b85f",
+    "clm_55a7e8db1827f197": "clm_55a7e8db1827f197",
+    "clm_720e9e44858ad1d3": "clm_720e9e44858ad1d3",
+    "clm_829f80a895bab81c": "clm_829f80a895bab81c"
   },
   "integrity_basis": "Phase 16 Crossref re-resolution records, with registry URLs retained per citation context.",
   "passage_policy": "Legacy verified source sentences are represented by the best claim-overlap window of at most 25 words.",
@@ -1130,6 +1135,20 @@
         "clm_f754fbc3935f5cda",
         "clm_9fffa0247a80ac54",
         "clm_2d554ac4d182ba9a"
+      ]
+    },
+    {
+      "decision_id": "hr_008_vcg_endpoint_drift_regulation",
+      "claim_id": "clm_34018547e1025a15",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "output_claim_ids": [
+        "clm_f56680694ea21665",
+        "clm_6824c8823756b85f",
+        "clm_55a7e8db1827f197",
+        "clm_720e9e44858ad1d3",
+        "clm_829f80a895bab81c"
       ]
     }
   ]

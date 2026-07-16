@@ -35,6 +35,8 @@ assert.equal(labelFor(49), 'critical_or_unreliable');
 const bibliography = parseBibliography('@article{One,\n  author={Smith, Ada and Jones, Ben},\n  title={One},\n  doi={10.1000/ABC}\n}\n');
 assert.equal(bibliography.get('One').doi, '10.1000/abc');
 assert.deepEqual(bibliography.get('One').authors, ['Smith, Ada', 'Jones, Ben']);
+const bibliographyWithoutDoi = parseBibliography('@misc{Official,\n  author={{Official Agency}},\n  title={Official record},\n  url={https://example.org/record}\n}\n');
+assert.equal(bibliographyWithoutDoi.get('Official').doi, null);
 
 const empirical = {
   claim_type: 'empirical',

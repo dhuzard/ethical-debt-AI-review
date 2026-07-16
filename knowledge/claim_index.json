@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T08:44:28.953Z",
+  "generated_at": "2026-07-16T09:18:08.154Z",
   "source": "knowledge/claim_graph.json",
   "claims_by_id": {
     "clm_c2d644434ce16083": {
@@ -392,20 +392,68 @@
       "trust_label": "high_trust",
       "human_review_required": false
     },
-    "clm_34018547e1025a15": {
+    "clm_f56680694ea21665": {
       "source_file": "content/01_introduction.md",
       "section_id": "sec-introduction",
       "paragraph_index": 7,
       "sentence_index": 5,
-      "claim_text": "Concordance between virtual and concurrent controls is endpoint-dependent, with high agreement for categorical decisions such as dose-limiting toxicities and substantial non-reproducibility for continuous clinical-pathology parameters; historical data drift over time and across laboratories, with study year emerging as the single most influential covariate in one large multi-company database; and, decisively, no regulator has yet accepted a virtual-control-group study in place of a concurrent control for a pivotal preclinical submission.",
+      "claim_text": "In a Wistar Han rat liver-enzyme analysis, 68.5% of concurrent-versus-virtual-control comparisons achieved at least 90% agreement in effect-size estimates.",
       "citation_keys": [
-        "DuchateauNguyen2026",
-        "Mecklenburg2023",
-        "Adedeji2024",
-        "Kellner2025",
+        "DuchateauNguyen2026"
+      ],
+      "overall_score": 90,
+      "trust_label": "high_trust",
+      "human_review_required": false
+    },
+    "clm_6824c8823756b85f": {
+      "source_file": "content/01_introduction.md",
+      "section_id": "sec-introduction",
+      "paragraph_index": 7,
+      "sentence_index": 6,
+      "claim_text": "However, a review of three legacy studies reported that 31–49% of quantitative clinical-pathology parameters were not reproducible when concurrent controls were fully replaced by virtual controls.",
+      "citation_keys": [
+        "Adedeji2024"
+      ],
+      "overall_score": 80,
+      "trust_label": "moderate_trust",
+      "human_review_required": false
+    },
+    "clm_55a7e8db1827f197": {
+      "source_file": "content/01_introduction.md",
+      "section_id": "sec-introduction",
+      "paragraph_index": 7,
+      "sentence_index": 7,
+      "claim_text": "In a multi-company Han Wistar rat database, study year was the most influential factor among body-weight class, company, and year, with medium mean effect sizes of 0.127 in females and 0.117 in males.",
+      "citation_keys": [
+        "Kellner2025"
+      ],
+      "overall_score": 90,
+      "trust_label": "high_trust",
+      "human_review_required": false
+    },
+    "clm_720e9e44858ad1d3": {
+      "source_file": "content/01_introduction.md",
+      "section_id": "sec-introduction",
+      "paragraph_index": 7,
+      "sentence_index": 8,
+      "claim_text": "In 2024, JPMA authors noted that regulatory guidelines required concurrent controls for pivotal toxicology studies.",
+      "citation_keys": [
         "SATO2024"
       ],
-      "overall_score": 60,
+      "overall_score": 100,
+      "trust_label": "high_trust",
+      "human_review_required": false
+    },
+    "clm_829f80a895bab81c": {
+      "source_file": "content/01_introduction.md",
+      "section_id": "sec-introduction",
+      "paragraph_index": 7,
+      "sentence_index": 9,
+      "claim_text": "By March 2026, EMA had issued a draft qualification opinion for virtual controls in rat non-GLP dose-range-finding studies, a narrower context than pivotal toxicology studies.",
+      "citation_keys": [
+        "EMA2026VCG"
+      ],
+      "overall_score": 65,
       "trust_label": "low_trust",
       "human_review_required": true
     },

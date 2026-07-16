@@ -229,7 +229,7 @@ If data welfare defines the obligation, the rest of the review asks how the debt
 :modality: suggestive
 :::
 
-The second mechanism, examined in, {ref}`sec-virtual-controls` is the specific, high-value form of reuse in which the payoff can be counted directly. When the data being reused is the control arm of a toxicity or carcinogenicity study, a control group reconstructed from curated historical records is a group of animals that never enters the study — Reduction achieved by reuse. The headline estimate is stable across independent proposals at roughly a quarter of control animals saved, {cite:p}`StegerHartmann2020, Gurjanov2024b` the clinical analogue of Bayesian control-borrowing delivers comparable enrolment reductions, {cite:p}`Chiaruttini2025` and the infrastructure — curated databases holding tens of thousands of control animals across decades of studies — already exists at scale, so the bottleneck is acceptance and stewardship rather than data volume. {cite:p}`Moresis2024, Deschl2002` But the dividend is conditional. Concordance between virtual and concurrent controls is endpoint-dependent, with high agreement for categorical decisions such as dose-limiting toxicities {cite:p}`DuchateauNguyen2026, Mecklenburg2023` and substantial non-reproducibility for continuous clinical-pathology parameters; {cite:p}`Adedeji2024` historical data drift over time and across laboratories, with study year emerging as the single most influential covariate in one large multi-company database; {cite:p}`Kellner2025` and, decisively, no regulator has yet accepted a virtual-control-group study in place of a concurrent control for a pivotal preclinical submission. {cite:p}`SATO2024`
+The second mechanism, examined in, {ref}`sec-virtual-controls` is the specific, high-value form of reuse in which the payoff can be counted directly. When the data being reused is the control arm of a toxicity or carcinogenicity study, a control group reconstructed from curated historical records is a group of animals that never enters the study — Reduction achieved by reuse. The headline estimate is stable across independent proposals at roughly a quarter of control animals saved, {cite:p}`StegerHartmann2020, Gurjanov2024b` the clinical analogue of Bayesian control-borrowing delivers comparable enrolment reductions, {cite:p}`Chiaruttini2025` and the infrastructure — curated databases holding tens of thousands of control animals across decades of studies — already exists at scale, so the bottleneck is acceptance and stewardship rather than data volume. {cite:p}`Moresis2024, Deschl2002` But the dividend is conditional. In a Wistar Han rat liver-enzyme analysis, 68.5% of concurrent-versus-virtual-control comparisons achieved at least 90% agreement in effect-size estimates. {cite:p}`DuchateauNguyen2026` However, a review of three legacy studies reported that 31–49% of quantitative clinical-pathology parameters were not reproducible when concurrent controls were fully replaced by virtual controls. {cite:p}`Adedeji2024` In a multi-company Han Wistar rat database, study year was the most influential factor among body-weight class, company, and year, with medium mean effect sizes of 0.127 in females and 0.117 in males. {cite:p}`Kellner2025` In 2024, JPMA authors noted that regulatory guidelines required concurrent controls for pivotal toxicology studies. {cite:p}`SATO2024` By March 2026, EMA had issued a draft qualification opinion for virtual controls in rat non-GLP dose-range-finding studies, a narrower context than pivotal toxicology studies. {cite:p}`EMA2026VCG`
 
 :::{trust-claim}
 :claim-id: clm_7c1edb545736cc15
@@ -240,11 +240,43 @@ The second mechanism, examined in, {ref}`sec-virtual-controls` is the specific, 
 :::
 
 :::{trust-claim}
-:claim-id: clm_34018547e1025a15
-:claim: Concordance between virtual and concurrent controls is endpoint-dependent, with high agreement for categorical decisions such as dose-limiting toxicities and substantial non-reproducibility for continuous clinical-pathology parameters; historical data drift over time and across laboratories, with study year emerging as the single most influential covariate in one large multi-company database; and, decisively, no regulator has yet accepted a virtual-control-group study in place of a concurrent control for a pivotal preclinical submission.
-:cites: DuchateauNguyen2026, Mecklenburg2023, Adedeji2024, Kellner2025, SATO2024
-:claim-type: comparative
+:claim-id: clm_f56680694ea21665
+:claim: In a Wistar Han rat liver-enzyme analysis, 68.5% of concurrent-versus-virtual-control comparisons achieved at least 90% agreement in effect-size estimates.
+:cites: DuchateauNguyen2026
+:claim-type: empirical
+:modality: established
+:::
+
+:::{trust-claim}
+:claim-id: clm_6824c8823756b85f
+:claim: However, a review of three legacy studies reported that 31–49% of quantitative clinical-pathology parameters were not reproducible when concurrent controls were fully replaced by virtual controls.
+:cites: Adedeji2024
+:claim-type: empirical
 :modality: contested
+:::
+
+:::{trust-claim}
+:claim-id: clm_55a7e8db1827f197
+:claim: In a multi-company Han Wistar rat database, study year was the most influential factor among body-weight class, company, and year, with medium mean effect sizes of 0.127 in females and 0.117 in males.
+:cites: Kellner2025
+:claim-type: empirical
+:modality: established
+:::
+
+:::{trust-claim}
+:claim-id: clm_720e9e44858ad1d3
+:claim: In 2024, JPMA authors noted that regulatory guidelines required concurrent controls for pivotal toxicology studies.
+:cites: SATO2024
+:claim-type: methodological
+:modality: established
+:::
+
+:::{trust-claim}
+:claim-id: clm_829f80a895bab81c
+:claim: By March 2026, EMA had issued a draft qualification opinion for virtual controls in rat non-GLP dose-range-finding studies, a narrower context than pivotal toxicology studies.
+:cites: EMA2026VCG
+:claim-type: methodological
+:modality: established
 :::
 
 The third mechanism is the complement to reuse — replacing animals altogether with new approach methodologies (NAMs), the subject of. {ref}`sec-nams-data` In silico and QSAR models, organoids, organ-on-chip systems, and high-throughput screening reach usable and sometimes high predictivity for narrow, well-defined endpoints and can displace specific animal tests, {cite:p}`Pfuhler2020, Sirenko2016` a case sharpened by the fact that fewer than a tenth of chemicals in commerce have ever been screened for safety. {cite:p}`Comess2020` But the field's readiness is contested: proponents argue NAMs are already fit to assure chemical safety in defined settings, while regulatory reviews document continued dependence on animal data for the adversity call, and microphysiological systems remain largely unadopted in regulated decision-making. {cite:p}`Carmichael2022, Holmer2025, Marx2020, Hartung2025a` Two deeper difficulties recur. NAM validation is often anchored to concordance with animal data that were themselves never validated for human relevance and are only moderately reproducible, so the yardstick is shaky. {cite:p}`Karmaus2026` And, most important for this review, NAMs do not escape the data problem; they relocate it. High-throughput and in silico streams generate large, heterogeneous datasets that re-create the same stewardship debt unless they are made FAIR from the outset — a point the NAM community has itself begun to press, arguing that findable, comparable data are not best practice but a prerequisite for trustworthy model outputs. {cite:p}`Gant2026, Inau2023`

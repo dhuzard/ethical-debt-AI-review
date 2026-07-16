@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "rubric_version": "2.0.0",
-  "generated_at": "2026-07-16T08:44:28.953Z",
+  "generated_at": "2026-07-16T09:18:08.154Z",
   "source": "knowledge/claim_graph.json",
   "formula": "raw_score = 5 * sum(component scores); overall_score = min(raw_score, 60) when any cap reason applies",
   "claims": [
@@ -2090,23 +2090,23 @@
       "cap_reasons": []
     },
     {
-      "claim_id": "clm_34018547e1025a15",
+      "claim_id": "clm_f56680694ea21665",
       "component_scores": {
         "traceability": 4,
-        "robustness": 3,
-        "uncertainty_calibration": 0,
+        "robustness": 2,
+        "uncertainty_calibration": 4,
         "source_integrity": 4,
         "transferability_scope_control": 4
       },
       "component_rules": {
         "traceability": "T4_ATOM_LEVEL",
-        "robustness": "R3_CONVERGENT",
-        "uncertainty_calibration": "U0_OVERSTATED",
+        "robustness": "R2_SINGLE_GROUP",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
         "source_integrity": "S4_VERIFIED_PRIMARY",
         "transferability_scope_control": "X4_SCOPE_MATCHED"
       },
       "score_basis": {
-        "claim_text": "Concordance between virtual and concurrent controls is endpoint-dependent, with high agreement for categorical decisions such as dose-limiting toxicities and substantial non-reproducibility for continuous clinical-pathology parameters; historical data drift over time and across laboratories, with study year emerging as the single most influential covariate in one large multi-company database; and, decisively, no regulator has yet accepted a virtual-control-group study in place of a concurrent control for a pivotal preclinical submission.",
+        "claim_text": "In a Wistar Han rat liver-enzyme analysis, 68.5% of concurrent-versus-virtual-control comparisons achieved at least 90% agreement in effect-size estimates.",
         "eligible_citations": [
           {
             "cite_key": "DuchateauNguyen2026",
@@ -2117,25 +2117,57 @@
               "a1"
             ],
             "verified_passage_locators": [
-              "Full text excerpt (legacy verification record)"
+              "Full text, pairwise liver-enzyme effect-size comparison"
             ],
-            "independence_group": "grp_34018547_1",
+            "independence_group": "grp_f5668069_1",
             "scope_match": "exact"
-          },
-          {
-            "cite_key": "Mecklenburg2023",
-            "doi": "10.1371/journal.pone.0282404",
-            "role": "direct_support",
-            "source_type": "primary",
-            "supports_claim_atoms": [
-              "a1"
-            ],
-            "verified_passage_locators": [
-              "Full text excerpt (legacy verification record)"
-            ],
-            "independence_group": "grp_34018547_2",
-            "scope_match": "exact"
-          },
+          }
+        ],
+        "atom_support": {
+          "a1": [
+            "DuchateauNguyen2026"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "grp_f5668069_1"
+          ]
+        },
+        "derived_evidence_relation": "directly_supported",
+        "wording_strength": "unqualified",
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_UNQUALIFIED",
+          "markers": []
+        },
+        "modality": "established",
+        "scope_status": "matched"
+      },
+      "raw_score": 90,
+      "overall_score": 90,
+      "trust_label": "high_trust",
+      "capped": false,
+      "cap_reasons": []
+    },
+    {
+      "claim_id": "clm_6824c8823756b85f",
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 2,
+        "uncertainty_calibration": 2,
+        "source_integrity": 4,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R2_SINGLE_GROUP",
+        "uncertainty_calibration": "U2_CONFLICT_DISCLOSED",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "score_basis": {
+        "claim_text": "However, a review of three legacy studies reported that 31–49% of quantitative clinical-pathology parameters were not reproducible when concurrent controls were fully replaced by virtual controls.",
+        "eligible_citations": [
           {
             "cite_key": "Adedeji2024",
             "doi": "10.1177/01926233241300310",
@@ -2145,11 +2177,60 @@
               "a1"
             ],
             "verified_passage_locators": [
-              "Full text excerpt (legacy verification record)"
+              "Full text, quantitative-parameter reproducibility result (part 1)",
+              "Full text, quantitative-parameter reproducibility result (part 2)"
             ],
-            "independence_group": "grp_34018547_3",
+            "independence_group": "grp_6824c882_1",
             "scope_match": "exact"
-          },
+          }
+        ],
+        "atom_support": {
+          "a1": [
+            "Adedeji2024"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "grp_6824c882_1"
+          ]
+        },
+        "derived_evidence_relation": "conflicted",
+        "wording_strength": "contested",
+        "wording_basis": {
+          "wording_strength": "contested",
+          "rule_id": "SURFACE_CONFLICT",
+          "markers": [
+            "However"
+          ]
+        },
+        "modality": "contested",
+        "scope_status": "matched"
+      },
+      "raw_score": 80,
+      "overall_score": 80,
+      "trust_label": "moderate_trust",
+      "capped": false,
+      "cap_reasons": []
+    },
+    {
+      "claim_id": "clm_55a7e8db1827f197",
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 2,
+        "uncertainty_calibration": 4,
+        "source_integrity": 4,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R2_SINGLE_GROUP",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "score_basis": {
+        "claim_text": "In a multi-company Han Wistar rat database, study year was the most influential factor among body-weight class, company, and year, with medium mean effect sizes of 0.127 in females and 0.117 in males.",
+        "eligible_citations": [
           {
             "cite_key": "Kellner2025",
             "doi": "10.3389/ftox.2025.1684191",
@@ -2159,11 +2240,58 @@
               "a1"
             ],
             "verified_passage_locators": [
-              "Full text excerpt (legacy verification record)"
+              "Full text, covariates included in the controlled effect-size analysis",
+              "Full text, relative importance and mean effect sizes for study year"
             ],
-            "independence_group": "grp_34018547_1",
+            "independence_group": "grp_55a7e8db_1",
             "scope_match": "exact"
-          },
+          }
+        ],
+        "atom_support": {
+          "a1": [
+            "Kellner2025"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "grp_55a7e8db_1"
+          ]
+        },
+        "derived_evidence_relation": "directly_supported",
+        "wording_strength": "unqualified",
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_UNQUALIFIED",
+          "markers": []
+        },
+        "modality": "established",
+        "scope_status": "matched"
+      },
+      "raw_score": 90,
+      "overall_score": 90,
+      "trust_label": "high_trust",
+      "capped": false,
+      "cap_reasons": []
+    },
+    {
+      "claim_id": "clm_720e9e44858ad1d3",
+      "component_scores": {
+        "traceability": 4,
+        "robustness": 4,
+        "uncertainty_calibration": 4,
+        "source_integrity": 4,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T4_ATOM_LEVEL",
+        "robustness": "R4_ORIGINATING_SOURCE",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S4_VERIFIED_PRIMARY",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "score_basis": {
+        "claim_text": "In 2024, JPMA authors noted that regulatory guidelines required concurrent controls for pivotal toxicology studies.",
+        "eligible_citations": [
           {
             "cite_key": "SATO2024",
             "doi": "10.33611/trs.2023-009",
@@ -2173,46 +2301,100 @@
               "a1"
             ],
             "verified_passage_locators": [
-              "Abstract excerpt (legacy verification record)"
+              "Abstract, regulatory-guideline requirement (part 1)",
+              "Abstract, regulatory-guideline requirement (part 2)"
             ],
-            "independence_group": "grp_34018547_4",
+            "independence_group": "grp_720e9e44_1",
             "scope_match": "exact"
           }
         ],
         "atom_support": {
           "a1": [
-            "DuchateauNguyen2026",
-            "Mecklenburg2023",
-            "Adedeji2024",
-            "Kellner2025",
             "SATO2024"
           ]
         },
         "independence_groups_by_atom": {
           "a1": [
-            "grp_34018547_1",
-            "grp_34018547_2",
-            "grp_34018547_3",
-            "grp_34018547_4"
+            "grp_720e9e44_1"
           ]
         },
-        "derived_evidence_relation": "conflicted",
+        "derived_evidence_relation": "directly_supported",
         "wording_strength": "unqualified",
         "wording_basis": {
           "wording_strength": "unqualified",
           "rule_id": "SURFACE_UNQUALIFIED",
           "markers": []
         },
-        "modality": "contested",
+        "modality": "established",
         "scope_status": "matched"
       },
-      "raw_score": 75,
-      "overall_score": 60,
+      "raw_score": 100,
+      "overall_score": 100,
+      "trust_label": "high_trust",
+      "capped": false,
+      "cap_reasons": []
+    },
+    {
+      "claim_id": "clm_829f80a895bab81c",
+      "component_scores": {
+        "traceability": 0,
+        "robustness": 4,
+        "uncertainty_calibration": 4,
+        "source_integrity": 1,
+        "transferability_scope_control": 4
+      },
+      "component_rules": {
+        "traceability": "T0_UNRESOLVED",
+        "robustness": "R4_ORIGINATING_SOURCE",
+        "uncertainty_calibration": "U4_EXACT_CALIBRATION",
+        "source_integrity": "S1_UNRESOLVED",
+        "transferability_scope_control": "X4_SCOPE_MATCHED"
+      },
+      "score_basis": {
+        "claim_text": "By March 2026, EMA had issued a draft qualification opinion for virtual controls in rat non-GLP dose-range-finding studies, a narrower context than pivotal toxicology studies.",
+        "eligible_citations": [
+          {
+            "cite_key": "EMA2026VCG",
+            "doi": null,
+            "role": "direct_support",
+            "source_type": "primary",
+            "supports_claim_atoms": [
+              "a1"
+            ],
+            "verified_passage_locators": [
+              "EMA news page publication date",
+              "EMA news page, draft qualification opinion",
+              "EMA page, related-document title and context of use"
+            ],
+            "independence_group": "grp_829f80a8_1",
+            "scope_match": "exact"
+          }
+        ],
+        "atom_support": {
+          "a1": [
+            "EMA2026VCG"
+          ]
+        },
+        "independence_groups_by_atom": {
+          "a1": [
+            "grp_829f80a8_1"
+          ]
+        },
+        "derived_evidence_relation": "directly_supported",
+        "wording_strength": "unqualified",
+        "wording_basis": {
+          "wording_strength": "unqualified",
+          "rule_id": "SURFACE_UNQUALIFIED",
+          "markers": []
+        },
+        "modality": "established",
+        "scope_status": "matched"
+      },
+      "raw_score": 65,
+      "overall_score": 65,
       "trust_label": "low_trust",
-      "capped": true,
-      "cap_reasons": [
-        "contradicted_without_caveat"
-      ]
+      "capped": false,
+      "cap_reasons": []
     },
     {
       "claim_id": "clm_a4f388eca4c31057",
@@ -45364,15 +45546,15 @@
     }
   ],
   "summary": {
-    "total_claims": 523,
-    "mean_overall_score": 89.51242829827916,
+    "total_claims": 527,
+    "mean_overall_score": 89.52561669829223,
     "minimum_overall_score": 50,
     "maximum_overall_score": 100,
-    "high_trust": 438,
-    "moderate_trust": 55,
+    "high_trust": 441,
+    "moderate_trust": 56,
     "low_trust": 30,
     "critical_or_unreliable": 0,
-    "capped_claims": 30,
+    "capped_claims": 29,
     "needs_human_review": 30
   }
 }
