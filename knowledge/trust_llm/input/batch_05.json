@@ -1,0 +1,1414 @@
+[
+ {
+  "claim_id": "clm_6045004d0b452762",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Yet the same tooling literature concedes that assessment instruments are often either too domain-specific or too generalist to return a concrete, interpretable FAIRness level, and machine-actionable metadata templates such as CEDAR were introduced precisely because the community-defined \"rich metadata\" the principles demand was rarely being supplied in practice.",
+  "citation_keys": [
+   "AguilarGomez2023",
+   "Musen2022",
+   "Batista2022"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "AguilarGomez2023",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Therefore, most of those tools and underlying metrics have focused on solving the problems from a specific domain, or they are too generalist to provide a concrete set of results that allows understanding the actual FAIRness level.",
+    "study_system": "Institutional multidisciplinary repositories (DIGITAL.CSIC / EOSC)"
+   },
+   {
+    "cite_key": "Musen2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Scientific communities should be able to define their own machine-actionable templates for metadata that encode these \"rich,\" discipline-specific elements.",
+    "study_system": "Metadata templates for FAIR data (CEDAR / FAIRware Workbench)"
+   },
+   {
+    "cite_key": "Batista2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "These reporting guidelines, however, are usually in the form of narratives intended for human consumption.",
+    "study_system": "Metadata reporting guidelines / minimum information checklists (life science)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_233d5a78d2cef678",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "A systematic review and individual-participant-data meta-analysis pooling 105 meta-research studies covering more than two million articles found that, between 2016 and 2021, roughly 8% of medical papers declared their data were publicly available while only about 2% actually shared them, with public code sharing below half a percent.",
+  "citation_keys": [
+   "Hamilton2023"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether FAIR data sharing meaningfully happens in practice: a cross-specialty meta-analysis finds actual public data availability at only ~2% across medicine, whereas a purpose-built FAIR archive (Ope",
+   "Whether open-data mandates should be universal: meta-research on (mostly quantitative) medical data treats mandates as effective levers worth strengthening and auditing, while a qualitative-research c"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Hamilton2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Of these studies, complete individual participant data were publicly available in 70 (61%), 20 had published partial individual participant data (18%), and 24 had not shared any individual participant data publicly (21%).",
+    "study_system": "Medical and health sciences articles (meta-analysis of 105 meta-research studies, 2,121,580 articles)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "The 'public code sharing below half a percent' clause is not in the package source sentence, which reports only the 8% declared / 2% actual data figures.",
+    "fix": "Verify the code-sharing figure against full text (plausibly reported by the same meta-analysis)."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_d8896764869b2bdf",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "An audit of biomedical papers found that only about 9% pledged public data availability and a mere 3% followed through on the pledge; a study of authors whose data-availability statements promised sharing found that, on request, only 6.8% actually provided the data; and a cross-sectional analysis of 306 oncology articles found that, of all those sampled, just one — 0.3% (1 of 306) — met the full FAIR assessment criteria on inspection.",
+  "citation_keys": [
+   "MartinRodriguez2026",
+   "Gabelica2022",
+   "Hamilton2022"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether data-availability policies translate into actual data sharing: enforced mandatory data/code-sharing policies with editorial checks achieve near-universal (96.5%) provision, whereas voluntary d",
+   "Whether journal data-sharing requirements translate into actual availability: a blanket mandatory-deposit policy is associated with ~10x higher odds of sharing, whereas a data-availability statement p"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "MartinRodriguez2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Among the 1,792 manuscripts whose DAS explicitly pledged data sharing, 1,669 authors (93%) either did not respond or declined to provide their data.",
+    "study_system": "biomedical research papers (2015-2020); data transparency"
+   },
+   {
+    "cite_key": "Gabelica2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Among 1792 manuscripts in which the DAS indicated that authors are willing to share their data, 1669 (93%) authors either did not respond or declined to share their data with us.",
+    "study_system": "Data-availability statements in 333 BioMed Central open-access journals"
+   },
+   {
+    "cite_key": "Hamilton2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Less than half of the 29 articles that were subject to a blanket mandatory data sharing policy were observed to make data available (14/29, 48%, 95% CI: 31–66%). Furthermore, of the six studies that performed inferential statistics and were subjected to a blanket mandatory code s",
+    "study_system": "306 cancer-related journal articles indexed in PubMed 2019"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 2,
+    "issue": "Denominator mismatch (confirmed against the paper's abstract). Hamilton2022 sampled 306 cancer articles; 59/306 (19%) declared data available; the abstract states data met key FAIR principles in 'less than 1% (1/306)'. T",
+    "fix": "State the denominator correctly, e.g. 'only 1 of 306 sampled oncology articles (0.3%) met the remaining FAIR criteria on inspection' - and drop the 'among datas"
+   },
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 2,
+    "issue": "Provenance/verification gap: these five section-cited keys have NO finding in evidence_section_04.json (they exist only in the citemap and, for four of them, in conflict verbatims). Their claims are therefore not backed ",
+    "fix": "Add curated package findings (with verbatim source sentences) for these 5 papers so the audit trail is complete; at minimum flag them for Phase 16 full-text ver"
+   },
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "Figure-precision / mild scope inflation. The literal 'near two percent' actual-availability figure is Hamilton2023's, not any of the three keys cited here. The three cited studies report related-but-different low numbers",
+    "fix": "Either co-cite `Hamilton2023` as the source of the '~2%' anchor, or reword to 'actual/usable availability and reporting compliance sit far below declared availa"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_412d635eff61fec3",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Discipline-specific screens tell the same story: only 1.5% of 7,509 dental research articles shared data at all, and of 1,340 Spanish COVID-19 papers only 12.5% shared any data, with just 2.1% deposited in a repository.",
+  "citation_keys": [
+   "Uribe2022",
+   "CerdaCosme2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Uribe2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "From those 7,509 dental articles (OA + non-OA) with full texts, the text-mining algorithms indicated that 200 items were indexed by stating that they had data.",
+    "study_system": "Dental research articles (PubMed-indexed dental journals, 2016-2021)"
+   },
+   {
+    "cite_key": "CerdaCosme2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "A total of 12.5% share their research data of which 2.1% share their data in repositories, 5% share their data through a simple request, 0.2% do not have permission to share their data, and 5.2% share their data as supplementary material.",
+    "study_system": "Spanish COVID-19 papers (2020)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 2,
+    "issue": "The specific numeric reusability sub-scores (Uribe 2.4/10; Syed 2-3/10) are not present in the package source sentences for these papers. Uribe2022's package verbatim documents only '200 of 7,509 articles stated they had",
+    "fix": "Confirm the 2.4/10 and 2-3/10 figures against full text in Phase 16; keep the figure-caption caveats (already noting n=112 / n=4 and different tools)."
+   },
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "The package verbatim says 200 of 7,509 dental articles (2.7%) STATED they had data; 1.5% (~112) is the smaller subset that actually shared/was FAIR-assessed (per the figure caption n=112). Stated-vs-shared distinction is",
+    "fix": "Clarify '1.5% actually shared data (vs 2.7% that merely stated data existed)'."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_95a14eb60b02e289",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "reported that publishing in a journal with a mandatory data-sharing policy was associated with nearly a tenfold increase in the odds of sharing (OR 9.5, 95% CI 3.26–30.85), which suggests enforcement works.",
+  "citation_keys": [
+   "Hamilton2022"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether journal data-sharing requirements translate into actual availability: a blanket mandatory-deposit policy is associated with ~10x higher odds of sharing, whereas a data-availability statement p",
+   "Whether journal data-sharing requirements translate into actual availability: a blanket mandatory-deposit policy is associated with ~10x higher odds of sharing, whereas a data-availability statement p"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Hamilton2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Less than half of the 29 articles that were subject to a blanket mandatory data sharing policy were observed to make data available (14/29, 48%, 95% CI: 31–66%). Furthermore, of the six studies that performed inferential statistics and were subjected to a blanket mandatory code s",
+    "study_system": "306 cancer-related journal articles indexed in PubMed 2019"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 2,
+    "issue": "Denominator mismatch (confirmed against the paper's abstract). Hamilton2022 sampled 306 cancer articles; 59/306 (19%) declared data available; the abstract states data met key FAIR principles in 'less than 1% (1/306)'. T",
+    "fix": "State the denominator correctly, e.g. 'only 1 of 306 sampled oncology articles (0.3%) met the remaining FAIR criteria on inspection' - and drop the 'among datas"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_5c3816bd497c710a",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "But found that authors who stated they would share on request complied at essentially the same low rate as authors who made no such statement, implying that a data-availability statement is, on its own, close to inert.",
+  "citation_keys": [
+   "Gabelica2022"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether journal data-sharing requirements translate into actual availability: a blanket mandatory-deposit policy is associated with ~10x higher odds of sharing, whereas a data-availability statement p",
+   "Whether journal data-sharing requirements translate into actual availability: a blanket mandatory-deposit policy is associated with ~10x higher odds of sharing, whereas a data-availability statement p"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Gabelica2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Among 1792 manuscripts in which the DAS indicated that authors are willing to share their data, 1669 (93%) authors either did not respond or declined to share their data with us.",
+    "study_system": "Data-availability statements in 333 BioMed Central open-access journals"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_2c411f0763b1e3ad",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Persistent identifiers, the backbone of findability, remain under-used even where they exist: in one dataset-citation study fewer than 40% of references to two well-known datasets used the dataset's DOI, and materials-science journals largely omit persistent-identifier guidance for code, so the links that would let a machine locate underlying data are frequently missing.",
+  "citation_keys": [
+   "Mayernik2017",
+   "Hormann2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Mayernik2017",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "For both of the two data sets examined here, less than 40% of the references found included the DOI, even when looking at the most recent year included in the study.",
+    "study_system": "Persistent identifier / data citation uptake (research-infrastructure case studies)"
+   },
+   {
+    "cite_key": "Hormann2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Only 7% of journals require public sharing of all research data in all cases",
+    "study_system": "Materials-science journal research data policies (RDPs)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_2a31703e1cb5858f",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Researcher and resource identifiers are similarly patchy — ORCID coverage differs substantially between institutions and data sources, and is not yet sufficient for automated reporting — with the consequence that data reuse cannot even be detected: applying a link-resolution framework to one university's outputs raised the availability of author names on dataset links from 2.4% to 89.2%, and only then could a handful of reuse cases be identified at all.",
+  "citation_keys": [
+   "Schnieders2022",
+   "Vrabel2016",
+   "Khan2020"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Schnieders2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Although the current level of coverage of researcher IDs which could automatically be mapped is still not sufficient to use persistent identifier-based extraction for standard (automated) reporting, it can already be a valuable input for institutional CRIS.",
+    "study_system": "ORCID/PID coverage at German research institutions (UOS, TIB)"
+   },
+   {
+    "cite_key": "Vrabel2016",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The Open Researcher and Contributor ID (ORCID) registry helps resolve name ambiguity by assigning persistent unique identifiers that automatically link to a researcher's publications, grants, and other activities.",
+    "study_system": "Persistent researcher identifiers (ORCID/SciENcv)"
+   },
+   {
+    "cite_key": "Khan2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Availability of author names for research outputs increased from 2.4% to 89.2%, which enabled identification of ten articles reusing non-Bath-affiliated datasets published in external repositories in the first phase, giving valuable evidence of data reuse and impact for data prod",
+    "study_system": "University of Bath research outputs (Scholix/Scholexplorer)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "Vrabel2016 supports only the general ORCID-identifier concept (resolving name ambiguity, linking outputs); the specific 'coverage differs / not sufficient for automated reporting' claim is Schnieders2022's. Mild over-att",
+    "fix": "Attribute the insufficiency claim to Schnieders2022 alone, or keep Vrabel2016 only for the ORCID-definition clause."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_dca2860eff8744b3",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Even large curated efforts to attach identifiers reach a minority of the record, matching only about 36% of taxonomic names to publications across three databases, while on-demand DOI minting is still being retrofitted onto repositories that lacked it.",
+  "citation_keys": [
+   "Page2023",
+   "Grynoch2025"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Page2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Over a million names have been matched to DOIs or other persistent identifiers for taxonomic publications.",
+    "study_system": "taxonomic name / biodiversity databases (Index Fungorum, IPNI, ION)"
+   },
+   {
+    "cite_key": "Grynoch2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Digital Object Identifiers (DOIs) are a key persistent identifier in the publishing landscape to ensure the discoverability and citation of research products.",
+    "study_system": "Institutional DSpace repository (persistent identifiers/DOI minting)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "Package effect size is '36% of names for which publication data are available'; the prose slightly widens this to '36% of taxonomic names', implying a share of all names.",
+    "fix": "Add 'of names for which publication data exist' to preserve the paper's denominator."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_cdb87f6ffc351118",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Accessibility is not uniform either: contrary to the assumption that a repository deposit makes data equally reachable to all, access to open-science resources varies by country through connectivity failures and outright blocking, the advanced services that make data usable depend on intrinsically limited computational resources that will be rationed rather than free, and community-owned \"diamond\" infrastructures are emerging in part because commercial routes leave many researchers without genuine access.",
+  "citation_keys": [
+   "Shanahan2022",
+   "Bertelli2025",
+   "Guerra2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Shanahan2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Using a virtual personal network (VPN) service we find that access to a set of web sites that underpin Open Science is variable from a set of 14 countries; either through connectivity issues (i.e., connections to download HTML being dropped) or through direct blocking (i.e., web ",
+    "study_system": "Open Science web repositories accessed from 14 countries"
+   },
+   {
+    "cite_key": "Bertelli2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In particular, we emphasize that key resources as required to access and exploit EOSC's advanced FAIR-data services - such as data-processing algorithms - are, in fact, intrinsically limited and the access will be competitive.",
+    "study_system": "European Open Science Cloud (EOSC)"
+   },
+   {
+    "cite_key": "Guerra2026",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Latin America offers an alternative pathway anchored in community-owned infrastructures—national and regional repositories (e.g., LA Referencia) and diamond OA platforms (e.g., Redalyc/AmeliCA)—that prioritize no-fee publishing and metadata interoperability as public goods (;).",
+    "study_system": "Open Science adoption and assessment (Ecuador / Latin America)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_22d90fd82ec300f2",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Under the NIH Data Management and Sharing Policy, 79.3% of submitted plans addressed all six required elements, and structured templates outperformed free-form ones — formal compliance is high and improving.",
+  "citation_keys": [
+   "Hamidi2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether data-management-plan mandates translate into realized data sharing: formal DMSP completeness is high (79.3% of NIH plans addressed all required elements), yet an audit of funded projects with "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Hamidi2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "We evaluated the content of the 358 DMSPs using the rubric developed for this study (Supplementary Material); 79.3% of them addressed all six required elements outlined in the NIH DMS Policy.",
+    "study_system": "NIH Data Management and Sharing Plans at one institution"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_0fefcf2dfee45858",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Yet an audit of NSF-funded projects that had filed data-management plans found that 76% received an overall data-sharing score of zero, and that when sharing did occur the data were often of questionable usability owing to access, documentation, and formatting problems.",
+  "citation_keys": [
+   "VanTuyl2016"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether FAIR principles and data-sharing mandates translate into actual, usable data sharing in practice: a review-level claim that FAIR improves data sharing versus an empirical audit finding that ma",
+   "Whether data-management-plan mandates translate into realized data sharing: formal DMSP completeness is high (79.3% of NIH plans addressed all required elements), yet an audit of funded projects with "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "VanTuyl2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Of the 25 projects for which we attempted to locate shared datasets and generate a DATA score, nineteen (76%) had an overall score of 0 ( Fig 1 ).",
+    "study_system": "NSF-funded research projects at Oregon State University"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "The specific sub-clause 'automated FAIRification can inject the very deficiencies it is meant to cure' is not supported by either cited paper. Inau2023 is an optimistic FAIR scoping review ('FAIR data leads to improved d",
+    "fix": "Add Tahar2026 to the citation group so the automated-FAIRification clause has a supporting source: `{cite:p}`Inau2023, VanTuyl2016, Tahar2026``. (Tahar2026 is i"
+   },
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "Figure-precision / mild scope inflation. The literal 'near two percent' actual-availability figure is Hamilton2023's, not any of the three keys cited here. The three cited studies report related-but-different low numbers",
+    "fix": "Either co-cite `Hamilton2023` as the source of the '~2%' anchor, or reword to 'actual/usable availability and reporting compliance sit far below declared availa"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_2ec6b90093f01b43",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Review-level syntheses hold that \"FAIR data leads to improved data sharing in different scientific domains\", treating the principles as a demonstrated remedy.",
+  "citation_keys": [
+   "Inau2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether FAIR principles and data-sharing mandates translate into actual, usable data sharing in practice: a review-level claim that FAIR improves data sharing versus an empirical audit finding that ma"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Inau2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "A total of 68% (23/34) of the publications contained details on the outcomes of FAIRification endeavors and the expected future work.",
+    "study_system": "Health research data FAIR initiatives (scoping review, 2014-2020)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_98fda0a4e8115f5a",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Project-level audits find the opposite: sharing at both the project and article level \"was not carried out in the majority of cases, and when sharing was accomplished, the shared data were often of questionable usability\".",
+  "citation_keys": [
+   "VanTuyl2016"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether FAIR principles and data-sharing mandates translate into actual, usable data sharing in practice: a review-level claim that FAIR improves data sharing versus an empirical audit finding that ma",
+   "Whether data-management-plan mandates translate into realized data sharing: formal DMSP completeness is high (79.3% of NIH plans addressed all required elements), yet an audit of funded projects with "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "VanTuyl2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Of the 25 projects for which we attempted to locate shared datasets and generate a DATA score, nineteen (76%) had an overall score of 0 ( Fig 1 ).",
+    "study_system": "NSF-funded research projects at Oregon State University"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "Figure-precision / mild scope inflation. The literal 'near two percent' actual-availability figure is Hamilton2023's, not any of the three keys cited here. The three cited studies report related-but-different low numbers",
+    "fix": "Either co-cite `Hamilton2023` as the source of the '~2%' anchor, or reword to 'actual/usable availability and reporting compliance sit far below declared availa"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_6e4f3823e7f88dca",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "A survey of materials-science journal data policies found that over 80% offered no guidance on persistent identifiers for code and that data sharing was typically optional rather than required, so the machinery of findability is frequently absent at the point of publication.",
+  "citation_keys": [
+   "Hormann2026"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Hormann2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Only 7% of journals require public sharing of all research data in all cases",
+    "study_system": "Materials-science journal research data policies (RDPs)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_61e25f817cac3e00",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Where it is present it is expensive: NIH appears to allocate roughly 10% of a genomic consortium's total budget to its data coordinating centre, and structured elicitation in one clinical field enumerated 45 distinct barriers to implementing FAIR.",
+  "citation_keys": [
+   "Speir2025",
+   "deGroot2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Speir2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "the NIH seems to plan for around 10% of the total budget of most consortia to be used for the DCC.",
+    "study_system": "Genomic data portals / NIH consortia data coordination (cost of FAIR)"
+   },
+   {
+    "cite_key": "deGroot2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In total, 45 unique barriers to implementing the FAIR principles were identified.",
+    "study_system": "Child and adolescent mental health research data (OMOP CDM implementation)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_09a63342b5418deb",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "A systematic audit of omics studies in the Gene Expression Omnibus found that only 11.5% shared all of their important phenotype metadata while 37.9% shared less than 40%, with roughly a quarter of critical metadata omitted on average.",
+  "citation_keys": [
+   "Huang2025b"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Huang2025b",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "We observed that studies often omit over a quarter of crucial metadata, with an average of only 74.8% shared.",
+    "study_system": "Omics studies (human and non-human mammalian) in Gene Expression Omnibus"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "The '11.5% / 37.9%' figures are verbatim in the package only under Huang2021 (the bioRxiv preprint; conflict [12] paper_a), not under Huang2025b, which the section cites. Huang2025b's own verbatim gives '74.8% shared / o",
+    "fix": "Confirm 11.5%/37.9% are in the published Huang2025b; if only in the preprint, cite accordingly or use the published figures."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_61493fbc438c4277",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Programmatic FAIR scoring of shared datasets returns strikingly low reusability sub-scores: a dental-research corpus returned a reported mean Reusability of about 2.4 out of 10, and an independent assessment of urban air-quality datasets using a different automated tool reported Reusable scores of only 2 to 3 out of 10, with Interoperability the weakest dimension.",
+  "citation_keys": [
+   "Uribe2022",
+   "Syed2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Uribe2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "From those 7,509 dental articles (OA + non-OA) with full texts, the text-mining algorithms indicated that 200 items were indexed by stating that they had data.",
+    "study_system": "Dental research articles (PubMed-indexed dental journals, 2016-2021)"
+   },
+   {
+    "cite_key": "Syed2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "These issues align with reduced FAIR Interoperability and Reusability scores ( Table 5 , Table 6 , Table 7 , Table 8 ), particularly where machine-readable standards were absent.",
+    "study_system": "Four publicly available urban air quality monitoring datasets (F-UJI assessment)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 2,
+    "issue": "The specific numeric reusability sub-scores (Uribe 2.4/10; Syed 2-3/10) are not present in the package source sentences for these papers. Uribe2022's package verbatim documents only '200 of 7,509 articles stated they had",
+    "fix": "Confirm the 2.4/10 and 2-3/10 figures against full text in Phase 16; keep the figure-caption caveats (already noting n=112 / n=4 and different tools)."
+   },
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "The package verbatim says 200 of 7,509 dental articles (2.7%) STATED they had data; 1.5% (~112) is the smaller subset that actually shared/was FAIR-assessed (per the figure caption n=112). Stated-vs-shared distinction is",
+    "fix": "Clarify '1.5% actually shared data (vs 2.7% that merely stated data existed)'."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_5e8e43d3c8d63352",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Self-assessed FAIR maturity of two clinical databases mapped to a common data model reached only 15.5 and 12 out of 25, the gaps concentrated in globally unique identifiers and machine-readable metadata.",
+  "citation_keys": [
+   "Puttmann2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Puttmann2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The total scores achieved were 15.5 and 12 out of a maximum of 25.",
+    "study_system": "FAIRness of OMOP-CDM ICU databases on the EHDEN portal"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_46b59d41f7175c3b",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "The downstream cost is illustrated concretely: in global-health data reuse, one analyst described spending some 80% of their time on cleaning and curation before any analysis could begin, and inconsistent metadata force researchers to spend over 40% of curation time on manual standardization.",
+  "citation_keys": [
+   "Waithira2026",
+   "Verbitsky2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Waithira2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "A geospatial analyst working in Laos, Myanmar and Thailand described spending ‘80% of their time curating data before they could start analysing it’, citing repeated efforts to resolve inconsistencies.",
+    "study_system": "global health data actors (policy, funding, research); qualitative interviews"
+   },
+   {
+    "cite_key": "Verbitsky2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This fragmentation forces researchers to spend over 40% of curation time on manual standardization.",
+    "study_system": "biomedical metadata harmonization (language models)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 4,
+    "issue": "Scope: the package source sentence is a single interviewee's quote ('A geospatial analyst... described spending 80% of their time curating data'). The prose generalizes one anecdote into a field-wide 'great majority of a",
+    "fix": "Qualify as illustrative, e.g. 'one analyst described spending 80% of their time on curation before analysis (Waithira2026)', rather than stating it as a general"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_84537769e97e8d62",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "The contrast is sharp within neuroimaging: a purpose-built FAIR archive organised around the enforced Brain Imaging Data Structure documents substantial realized reuse, with 165 downstream publications identified that reused its datasets.",
+  "citation_keys": [
+   "Markiewicz2021",
+   "Poldrack2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether FAIR data sharing meaningfully happens in practice: a cross-specialty meta-analysis finds actual public data availability at only ~2% across medicine, whereas a purpose-built FAIR archive (Ope",
+   "Whether depositing data in public repositories actually yields reuse: a systematic GEO audit finds most omics studies share badly incomplete metadata (only 11.5% fully), which limits secondary use, wh"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Markiewicz2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "We identified 165 publications that reused OpenNeuro datasets",
+    "study_system": "OpenNeuro brain-imaging data archive (realized data reuse)"
+   },
+   {
+    "cite_key": "Poldrack2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The Brain Imaging Data Structure (BIDS) is a community-driven standard for the organization of data and metadata from a growing range of neuroscience modalities.",
+    "study_system": "Brain Imaging Data Structure (BIDS) metadata standard"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_d88c135d7f848020",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "A cross-specialty meta-analysis finds actual public data availability at only ~2% across medicine, and a Gene Expression Omnibus audit finds most omics studies share badly incomplete metadata.",
+  "citation_keys": [
+   "Hamilton2023",
+   "Huang2025b"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether FAIR data sharing meaningfully happens in practice: a cross-specialty meta-analysis finds actual public data availability at only ~2% across medicine, whereas a purpose-built FAIR archive (Ope",
+   "Whether open-data mandates should be universal: meta-research on (mostly quantitative) medical data treats mandates as effective levers worth strengthening and auditing, while a qualitative-research c"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Hamilton2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Of these studies, complete individual participant data were publicly available in 70 (61%), 20 had published partial individual participant data (18%), and 24 had not shared any individual participant data publicly (21%).",
+    "study_system": "Medical and health sciences articles (meta-analysis of 105 meta-research studies, 2,121,580 articles)"
+   },
+   {
+    "cite_key": "Huang2025b",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "We observed that studies often omit over a quarter of crucial metadata, with an average of only 74.8% shared.",
+    "study_system": "Omics studies (human and non-human mammalian) in Gene Expression Omnibus"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "The 'public code sharing below half a percent' clause is not in the package source sentence, which reports only the 8% declared / 2% actual data figures.",
+    "fix": "Verify the code-sharing figure against full text (plausibly reported by the same meta-analysis)."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_49675f184cf4d437",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Yet an archive built on an enforced community standard documents more than 150 reuse publications.",
+  "citation_keys": [
+   "Markiewicz2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether FAIR data sharing meaningfully happens in practice: a cross-specialty meta-analysis finds actual public data availability at only ~2% across medicine, whereas a purpose-built FAIR archive (Ope",
+   "Whether depositing data in public repositories actually yields reuse: a systematic GEO audit finds most omics studies share badly incomplete metadata (only 11.5% fully), which limits secondary use, wh"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Markiewicz2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "We identified 165 publications that reused OpenNeuro datasets",
+    "study_system": "OpenNeuro brain-imaging data archive (realized data reuse)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_05e37a65090b0315",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "MIAME for microarrays seeded a family of checklists — MIAPE for proteomics, and the MIBBI project that catalogued the proliferating standards and coordinated their development — and these are genuine achievements of community consensus.",
+  "citation_keys": [
+   "Brazma2001",
+   "Taylor2007",
+   "Taylor2008"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Brazma2001",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Here we present a proposal, the Minimum Information About a Microarray Experiment (MIAME), that describes the minimum information required to ensure that microarray data can be easily interpreted and that results derived from its analysis can be independently verified.",
+    "study_system": "Microarray gene-expression reporting standard (MIAME)"
+   },
+   {
+    "cite_key": "Taylor2007",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "To encourage the standardized collection, integration, storage and dissemination of proteomics data, the Human Proteome Organization's Proteomics Standards Initiative develops guidance modules for reporting the use of techniques such as gel electrophoresis and mass spectrometry.",
+    "study_system": "Proteomics minimum-information reporting standard (MIAPE)"
+   },
+   {
+    "cite_key": "Taylor2008",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The Minimum Information for Biological and Biomedical Investigations (MIBBI) project provides a resource for those exploring the range of extant minimum information checklists and fosters coordinated development of such checklists.",
+    "study_system": "Minimum-information reporting checklists ecosystem (MIBBI foundry)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_1febd6790acb13e9",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "But a fully specified checklist does not guarantee reusable data: the MIAPE Quant module defines the minimum information a quantitative proteomics dataset needs so that it can be critically re-analysed or its analysis workflow reproduced, yet an independent reprocessing found that applying the guidelines still yielded large discrepancies from the same deposited data — differing protein counts and differentially abundant sets (for example, 13,068 versus 4,923 proteins, and 108 versus 11 differentially expressed proteins) — the shared-but-not-reusable pattern in miniature.",
+  "citation_keys": [
+   "MartinezBartolome2013",
+   "Vadadokhau2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "MIAPE/HUPO-PSI reporting guidelines assert they capture the minimum metadata needed for a proteomics dataset to be critically re-analyzed or a pipeline reproduced, yet a 2026 reanalysis of six public ",
+   "MIAPE/HUPO-PSI reporting guidelines assert they capture the minimum metadata needed for a proteomics dataset to be critically re-analyzed or a pipeline reproduced, yet a 2026 reanalysis of six public "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "MartinezBartolome2013",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The MIAPE Quant guidelines describe the HUPO-PSI proposal concerning the minimum information to be reported when a quantitative data set, derived from mass spectrometry (MS), is submitted to a database or as supplementary information to a journal.",
+    "study_system": "Quantitative proteomics reporting standard (MIAPE Quant / mzQuantML)"
+   },
+   {
+    "cite_key": "Vadadokhau2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In contrast, the team's search identified 13,068 unique proteins after filtering.",
+    "study_system": "Reanalysis of six public PRIDE proteomics projects"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 3,
+    "issue": "Suppressed conflict [11] (neither side cited). The section discusses MIAPE as a consensus achievement but omits the package's empirical counter-evidence that these proteomics standards fail in practice: Vadadokhau2026, a",
+    "fix": "Add the empirical counter-side near the MIAPE mention (request a supplementary package finding for Vadadokhau2026), e.g. '...yet a 2026 reanalysis of six PRIDE "
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_80abe252016ec6bc",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Common data elements built on the same logic have likewise seen disappointingly low adoption and have not broadly solved interoperability, and community checklists remain, in the main, human-readable narratives rather than the machine-actionable models that verifiable reuse requires.",
+  "citation_keys": [
+   "Kush2020",
+   "Batista2022"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Kush2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This manuscript explores reasons for the disappointingly low adoption of CDEs and the inability of CDEs or other clinical research standards to broadly solve the interoperability and data sharing problems.",
+    "study_system": "Clinical research common data elements (CDEs) / FAIR interoperability"
+   },
+   {
+    "cite_key": "Batista2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "These reporting guidelines, however, are usually in the form of narratives intended for human consumption.",
+    "study_system": "Metadata reporting guidelines / minimum information checklists (life science)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_0120dd4dece9e0da",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "The same gap between a standard's promise and its semantic reach recurs at the level of metadata registries: the ISO/IEC 11179 model is presented as automatically conferring FAIR adherence across findability, interoperability, and reusability, yet a variable-level harmonisation effort across cardiovascular cohorts found that it supplies only a general registry framework and lacks the formal semantic relationships needed to align variables across studies.",
+  "citation_keys": [
+   "Stotl2025",
+   "Gilani2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether the ISO/IEC 11179 metadata registry standard alone is sufficient for FAIR/semantic interoperability: one paper treats it as automatically conferring FAIR adherence, the other argues it lacks t",
+   "Whether the ISO/IEC 11179 metadata registry standard alone is sufficient for FAIR/semantic interoperability: one paper treats it as automatically conferring FAIR adherence, the other argues it lacks t"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Stotl2025",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The concepts of the ISO/IEC 11179 metadata model automatically serve to make data adhere to FAIR data principles (), especially those addressing findability, interoperability, and reusability.",
+    "study_system": "EU non-communicable disease indicator framework (CHIEF/SOLICIT); metadata standards"
+   },
+   {
+    "cite_key": "Gilani2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "CMEO has been developed and deployed within the context of the iCARE4CVD (Improved Cardiovascular Risk Stratification through Personalized Remote and Digital Interventions) initiative [,], which aims to standardize and harmonize metadata across more than 50 cardiovascular studies",
+    "study_system": "cardiovascular studies metadata harmonization (iCARE4CVD consortium)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 3,
+    "issue": "Suppressed conflict [7] (neither side cited). The package contains a direct instance of the section's 'standards without fidelity' thesis: Stotl2025 claims ISO/IEC 11179 metadata-registry adoption automatically confers F",
+    "fix": "Either cite Gilani2025 to reinforce the fidelity-gap claim (and Stotl2025 as the optimistic counter-claim being rebutted), or record a one-line waiver that ISO/"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_331cf2dac282af13",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "The TRUST Principles frame repository trustworthiness as something to be earned and demonstrated through external assessment, yet a content analysis of 91 certified repositories concluded that, although hundreds of Trustworthy Digital Repositories are certified, there is no evidence that certification actually improves preservation, and an instrument applied to eight biomedical repositories found little explicit acknowledgment of open, FAIR, citable, or trustworthy principles even where the underlying practices were present.",
+  "citation_keys": [
+   "Lin2020",
+   "Donaldson2020",
+   "Murphy2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether formal repository certification demonstrably delivers trustworthiness/better preservation: the TRUST Principles paper assumes repositories should demonstrate reliability (implicitly via framew",
+   "Whether formal repository certification demonstrably delivers trustworthiness/better preservation: the TRUST Principles paper assumes repositories should demonstrate reliability (implicitly via framew"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Lin2020",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Trustworthiness is not a one-off achievement; it cannot be taken for granted without regular audit and certification.",
+    "study_system": "Trustworthy digital repositories (TRUST Principles, foundational statement)"
+   },
+   {
+    "cite_key": "Donaldson2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Even though hundreds of repositories are currently certified, we do not know if audit and certification of TDRs actually matters.",
+    "study_system": "Certified trustworthy digital repository websites (content analysis)"
+   },
+   {
+    "cite_key": "Murphy2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Overall, although there was little explicit acknowledgment of any of the OFCT principles in our sample, the majority of repositories provided at least some support for their tenets.",
+    "study_system": "Biomedical data repositories (OFCT alignment tool, dkNET)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_8221f2eff113bdb6",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Ontology developers argue that coordinated, logically well-formed ontologies deliver interoperable and accurate representations of biological reality, but audits of the resulting annotations are sobering.",
+  "citation_keys": [
+   "Smith2007"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Ontology developers assert coordinated ontologies deliver interoperable, accurate representations enabling data integration, but audits of the resulting Gene Ontology annotations find most protein ann",
+   "Ontology developers assert coordinated ontologies deliver interoperable, accurate representations enabling data integration, but audits of the resulting Gene Ontology annotations find most protein ann"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Smith2007",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Unfortunately, the very success of this approach has led to a proliferation of ontologies, which itself creates obstacles to integration.",
+    "study_system": "Open Biomedical Ontologies (OBO) Foundry"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_60c19d6243420b8e",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "An analysis of Gene Ontology molecular-function annotations estimated that 64% of UniProtKB proteins are incompletely annotated and that inconsistencies affect 83% of protein functions and at least 23% of proteins; most annotations are generated by automated electronic inference rather than expert curation, so the bulk of the record is broad and not experimentally verified; a single co-annotation quality-control system corrected over 380,000 inferred annotations traced to just 54 mapping errors; and even the curated reference plant genome had experimental or predicted localization for only 90% of the proteome in its best-covered aspect.",
+  "citation_keys": [
+   "Faria2012",
+   "Buza2008",
+   "Wood2020",
+   "Reiser2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Ontology developers assert coordinated ontologies deliver interoperable, accurate representations enabling data integration, but audits of the resulting Gene Ontology annotations find most protein ann",
+   "Ontology developers assert coordinated ontologies deliver interoperable, accurate representations enabling data integration, but audits of the resulting Gene Ontology annotations find most protein ann"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Faria2012",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Based on our analysis, we estimate that 64% of the UniProtKB proteins are incompletely annotated, and that inconsistent annotations affect 83% of the protein functions and at least 23% of the proteins.",
+    "study_system": "Gene Ontology molecular-function annotations of UniProtKB proteins"
+   },
+   {
+    "cite_key": "Buza2008",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "These IEA annotations account for more than 90% of GO annotations and the basis for these annotations is continually reviewed so that all IEA annotations are updated on a weekly basis.",
+    "study_system": "Gene Ontology annotations across nine model eukaryotes (EBI-GOA)"
+   },
+   {
+    "cite_key": "Wood2020",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Fifty-four InterPro2GO mappings were corrected, affecting over 5900 annotations in the GOC database and over 380 000 inferred annotations across all species in the GOA dataset (calculated from family size in InterPro version 77).",
+    "study_system": "Gene Ontology annotation QC (Term Matrix, co-annotation rules)"
+   },
+   {
+    "cite_key": "Reiser2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The most well-annotated aspect is the GO cellular component with 90% of the proteome having either experimental or predicted localization.",
+    "study_system": "Arabidopsis reference genome GO annotation (TAIR 2024)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "All 9 unrepresented conflicts concern general FAIR data-sharing (mandate compliance, ontology annotation, proteomics 'data tombs', OMOP semantic adequacy, open-data citation advantage, willingness-to-share incentives). T",
+    "fix": "None. Curator over-inclusion from a merged cluster_04+cluster_05 package; the section correctly scopes itself to control-data reuse."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_1fae3fe73231c6fd",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Cross-ontology audits find over 1,900 logical nonalignments between core biomedical ontologies.",
+  "citation_keys": [
+   "Bada2008"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Bada2008",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We describe a methodology by which we have identified over 1900 instances of nonredundant nonalignments between terms from the Gene Ontology (GO) biological process (BP), cellular component (CC) and molecular function (MF) ontologies, Chemical Entities of Biological Interest (ChE",
+    "study_system": "Cross-ontology alignment among GO, ChEBI, Cell Ontology"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_8858a0bc8e154ee7",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Manual curation and ontology mapping across 212,027 omics samples from 468 studies consolidated redundant information and increased the completeness of major attributes.",
+  "citation_keys": [
+   "Long2026"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Opposite effect of metadata standardization/FAIRification on completeness: retrospective manual curation with ontology mapping increased metadata completeness, whereas an automated FAIRification (FHIR"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Long2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Through systematic ontology mapping, we consolidated redundant, dispersed information into far fewer harmonized columns, reduced unique values, and increased the completeness of major attributes.",
+    "study_system": "metagenomic and cancer genomic metadata repositories"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_05d9024d8e52a3ee",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "But an automated FAIRification of rare-disease electronic-health-record data across 24 German medical centres *introduced* 1,977 new completeness issues (1,988 data-quality issues in total, of which 68% were later resolved) relative to a direct export.",
+  "citation_keys": [
+   "Tahar2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Opposite effect of metadata standardization/FAIRification on completeness: retrospective manual curation with ontology mapping increased metadata completeness, whereas an automated FAIRification (FHIR"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Tahar2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Specifically, FHIR-DS contained 1988 distinct DQ issues: nine ambiguous RD cases, two missing data items, and 1977 completeness issues induced by the FAIRification processes.",
+    "study_system": "rare-disease EHR data (German MII / CORD-MI)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_82855ebfc4b4c57f",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Mapping to the OMOP common data model repeatedly loses domain content: standard OMOP vocabularies could directly represent only a quarter (19 of 75) of core extracorporeal-life-support concepts, a scoping review found OMOP vocabularies lack the granularity to capture oncology concepts and care episodes, and deep phenotyping of a rare skin disease mapped only 13,485 of 33,347 extracted phenotypes to a standard concept, leaving nearly twenty thousand unmapped.",
+  "citation_keys": [
+   "Rieder2026",
+   "Nada2026",
+   "Bataille2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Semantic adequacy/comprehensiveness of the OMOP common data model: a criteria-based review presents OMOP/OHDSI as the dominant, most-comprehensive CDM underpinning a 2.1-billion-record network, wherea",
+   "Semantic adequacy/comprehensiveness of the OMOP common data model: a criteria-based review presents OMOP/OHDSI as the dominant, most-comprehensive CDM underpinning a 2.1-billion-record network, wherea"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Rieder2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Of the 75 concepts in the ELSO Maastricht Treaty, 19 (25%) were directly mappable to existing valid and standard concepts within the OMOP CDM.",
+    "study_system": "extracorporeal life support clinical data (OMOP CDM extension), single US center"
+   },
+   {
+    "cite_key": "Nada2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "80% of the reviewed studies referenced OHDSI tools, with Athena being the most commonly used (15.69%), followed by Atlas, DQD, and Usagi (each 13.73%).",
+    "study_system": "cancer data harmonization into OMOP CDM (scoping review)"
+   },
+   {
+    "cite_key": "Bataille2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Of these phenotypes, 13,485 were correctly mapped to a UMLS or HPO concept, while 19,862 were not.",
+    "study_system": "198 dystrophic-epidermolysis-bullosa patients; UMLS/HPO concept normalization of clinical text"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 3,
+    "issue": "Suppressed conflict [16]. The section presents OMOP uniformly as content-losing (Rieder2026, Nada2026, Bataille2026, App2026) but omits the package's counter-side, Finster2025, a criteria-based systematic CDM review find",
+    "fix": "Add one clause acknowledging OMOP's status, citing Finster2025 (e.g. 'Even the dominant, most-comprehensive observational model, OMOP/OHDSI (Finster2025), repea"
+   }
+  ]
+ }
+]

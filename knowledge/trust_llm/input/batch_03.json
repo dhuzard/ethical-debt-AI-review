@@ -1,0 +1,1370 @@
+[
+ {
+  "claim_id": "clm_0d62a1d590283d75",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "Older and modeled estimates sit in the same range or below it — one in 33 compounds in castration-resistant prostate cancer, an overall clinical success rate near 12% falling to 4% for Alzheimer's-type indications, and 14–32% for antibody therapeutics — and the roughly 90% attrition rate, attributed in part to species differences, is now cited as a rationale for the FDA Modernization Act 2.0's opening to non-animal methods.",
+  "citation_keys": [
+   "Tenuta2013",
+   "Farid2020",
+   "Crescioli2024",
+   "Zushin2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Tenuta2013",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Currently, one in 33 compounds that enters clinical testing will be awarded US Food and Drug Administration approval.",
+    "study_system": "castration-resistant prostate cancer drug development"
+   },
+   {
+    "cite_key": "Farid2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "To ensure a market success each year with an overall clinical success rate (Phase I to approval) of ~12%, the model predicted that a biopharmaceutical company needs to allocate process development and manufacturing budgets in the order of ~$60 M for pre-clinical to Phase II mater",
+    "study_system": "biopharmaceutical drug development (cost model)"
+   },
+   {
+    "cite_key": "Crescioli2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Our analyses indicate that these molecules have approval success rates in the range of 14-32%, with higher rates associated with antibodies developed for non-cancer indications.",
+    "study_system": "monoclonal antibody therapeutics development"
+   },
+   {
+    "cite_key": "Zushin2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Although animal models have helped us achieve significant strides in our understanding of fundamental biology, researchers increasingly recognize the fundamental species differences between animal models and humans that have substantial pharmacogenomic implications.",
+    "study_system": "preclinical drug development / non-animal alternatives (perspective)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_1c8c60b68c0d1bdd",
+  "section_id": "sec-repro-crisis",
+  "claim_text": "The case for those alternatives is sharpened by evidence that some animal assays are themselves poorly reproducible — the rabbit Draize irritation test reclassifies fewer than half of moderate irritants on retest — while human-cell systems can outperform them, as when a high-content screen of human hepatocytes predicted drug hepatotoxicity far more sensitively than conventional assays and three-dimensional human tissue models were built to the same end.",
+  "citation_keys": [
+   "Raabe2024",
+   "OBrien2006",
+   "Tutty2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Raabe2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "When using the EPA classification system, the observed reproducibility was even poorer, with less than half of Category II substances being classified in Category II again [].",
+    "study_system": "rabbit Draize skin-irritation test vs human-relevant NAMs"
+   },
+   {
+    "cite_key": "OBrien2006",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "For 243 drugs with varying degrees of toxicity, the HCS, sublethal, cytotoxicity assay had a sensitivity of 93% and specificity of 98%.",
+    "study_system": "human hepatocytes / drugs (in vitro NAM hepatotoxicity)"
+   },
+   {
+    "cite_key": "Tutty2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Rooted in the 3Rs principle of Replacement, Reduction and Refinement, and driven by regulatory frameworks such as REACH (Regulation (EC) No 1907/2006) and Directive 2010/63/EU, which promote ethical alternatives in toxicological studies, one strategy for overcoming issues prevale",
+    "study_system": "human liver models / New Approach Methodologies (DILI)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_d78793364d963909",
+  "section_id": "sec-data-welfare",
+  "claim_text": "A retrospective harm–benefit analysis of preclinical research for six interventions found that, weighing the animals' actual harms against the actual clinical benefit, fewer than 7% of studies would have been ethically permissible, and that 97% did not report whether analgesia was given at all.",
+  "citation_keys": [
+   "Pound2018"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Pound2018",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Only the moderate bisphosphonate studies, less than 7% of the total, appeared to minimise harms to animals whilst being associated with benefit for humans.",
+    "study_system": "preclinical animal studies (antifibrinolytics, bisphosphonates, corticosteroids, Tirilazad, antenatal corticosteroids, thrombolytics; rats, rabbits, primates)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_7a641959ba3c0c78",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Contemporaneous audits reach the same place from different specialties: only a small minority of critical-care studies reported a sample-size calculation or met a basic composite of welfare outcomes, image-integrity problems pervade whole animal literatures with correction rates near zero, and depression-model meta-analyses find that almost no authors will share their underlying data on request.",
+  "citation_keys": [
+   "Bara2014",
+   "Aquarius2025",
+   "Ratajczak2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Bara2014",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Seventeen (22% of 77) met the composite outcome of, if indicated, using anesthesia and pain control, and stating the method of euthanasia.",
+    "study_system": "critical care animal research publications (mammals)"
+   },
+   {
+    "cite_key": "Aquarius2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We included 608 articles, of which 243 articles were identified as problematic (40.0%).",
+    "study_system": "animal subarachnoid-haemorrhage studies (image-integrity audit)"
+   },
+   {
+    "cite_key": "Ratajczak2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Only 2.35% (5 out of 212) of corresponding authors responded to our data request.",
+    "study_system": "animal depression models / antidepressants (systematic review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Cross-paper synthesis pools four different metrics (a 10-item 3Rs score, sample-size reporting, ARRIVE-essentials adherence, data-sharing response rate) with different denominators as 'the same low rates.' Directionally ",
+    "fix": "Minor wording: 'consistently low across distinct reporting metrics' rather than implying a single comparable rate."
+   },
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "The 'analgesia unreported in the overwhelming majority' figure (97% did not report analgesia) is Pound2018's, not Bara2014's. Bara2014 is cited in the body (sec-data-welfare) for sample-size-calculation reporting (~5%) a",
+    "fix": "Attach the analgesia figure to Pound2018 alone, and keep Bara2014 for the broader welfare-under-reporting point, e.g., '... analgesia unreported in the overwhel"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_cf47e0519642c1fe",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Their founding synthesis was a work of humane *technique*, and historians argue it has remained oddly little-read precisely because it straddled the humanistic and scientific cultures rather than sitting neatly in either.",
+  "citation_keys": [
+   "Kirk2017"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Kirk2017",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "By adopting a historical perspective, this article argues that one explanation for this disjunction may be found in another, more celebrated, event of 1959: C. P. Snow's Rede lecture on The Two Cultures.",
+    "study_system": "history of the 3Rs / Russell and Burch (historical analysis)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_13c16e5c1a43cd76",
+  "section_id": "sec-data-welfare",
+  "claim_text": "The care-centred reading matters, because it locates the 3Rs' authority in an obligation owed to the animal rather than in a bureaucratic quota: philosophical re-examinations contend the principles are not truly anthropocentric but arose from an animal-centred ethic constrained by a strategy of cooperation with research it could not abolish, while others trace how a governing \"culture of care\" only crystallised late, once responsibility for welfare was distributed across a differentiated community of technicians, veterinarians, and scientists.",
+  "citation_keys": [
+   "Muller2024",
+   "Kirk2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Muller2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In fact, the 3Rs prioritize research purposes even more strongly than an ethical anthropocentrist would.",
+    "study_system": "animal research ethics (philosophical analysis of the 3Rs)"
+   },
+   {
+    "cite_key": "Kirk2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We conclude that animal research governance could only become conceived as a problem of 'culture' and thus social relations when responsibility for care and animal welfare was distributed across a differentiated community, in which diverse forms of expertise were required for the",
+    "study_system": "history of British animal-research governance 1876-2000"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_456631a5029edfa1",
+  "section_id": "sec-data-welfare",
+  "claim_text": "That the framework is now statutory across the EU and beyond has not produced a single shared reading of it; a large multinational group documents that interpretations of each R vary substantially and shape statutory regimes in divergent, sometimes contradictory ways, and a close comparison of Swiss law with the original definitions finds a species-focused drift in Replacement that the authors argue undermines the principles in practice.",
+  "citation_keys": [
+   "Lauwereyns2024",
+   "Perez2023"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Lauwereyns2024",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The majority of members of the COST Action IMPROVE approved the interpretation presented here.",
+    "study_system": "3Rs principles interpretation (international consensus paper)"
+   },
+   {
+    "cite_key": "Perez2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We then identify one risky departure from the original definition of replacement in Swiss law, which shows a problematic focus on species.",
+    "study_system": "Swiss animal-research law and the 3Rs (ethical/legal analysis)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_dfae4f80390c34e9",
+  "section_id": "sec-data-welfare",
+  "claim_text": "A subtler foundational gap runs through the whole edifice: the 3Rs rest on a welfarist premise, inherited from their intellectual patrons, that a painless death is not a harm, so animal death is largely omitted from 3Rs-based regulation even though it is the modal outcome of a research life.",
+  "citation_keys": [
+   "Persson2024"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Persson2024",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "their employer and supervisor, Charles W. Hume, explicitly endorsed a welfarist view of animal death, stating: “There is no harm in killing animals provided it be done painlessly”",
+    "study_system": "animal research ethics (moral status of animal death; philosophical foundations of the 3Rs)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_386250636a5f13ea",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Philosophical reviews argue that although theories of moral status rest on incompatible foundations, their practical implications for research converge more than expected; others challenge the graded view directly, criticising the justifications for assigning lower status to less cognitively complex animals and the assumption that they suffer less, or defend sentience as the necessary and sufficient criterion against the objection that we cannot know which beings possess it.",
+  "citation_keys": [
+   "DeGrazia1991",
+   "Bovenkerk2014",
+   "Dung2022"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether graded moral status by cognitive complexity is philosophically defensible (challenged by Bovenkerk & Kaldewaij) or whether competing moral-status theories nonetheless converge enough to guide ",
+   "Whether graded moral status by cognitive complexity is philosophically defensible (challenged by Bovenkerk & Kaldewaij) or whether competing moral-status theories nonetheless converge enough to guide "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "DeGrazia1991",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Such an examination demonstrates, I believe, that the practical implications of leading theories converge far more than might be expected.",
+    "study_system": "moral status of animals (philosophical review)"
+   },
+   {
+    "cite_key": "Bovenkerk2014",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "First, we criticise some justifications for the claim that human beings and more complex animals have higher moral status.",
+    "study_system": "behavioural neuroscience animal models (moral status)"
+   },
+   {
+    "cite_key": "Dung2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "It follows that doubts about our epistemic access to sentience cannot be used to motivate an alternative criterion of moral status.",
+    "study_system": "animal and machine ethics (moral status and sentience; philosophical analysis)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_3760af0322777f1d",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Empirical moral psychology complicates the usual assumption that people reason as utilitarians about animals, finding instead weak deontological side-constraints that protect them far less than humans, and the recognition of sentience keeps expanding — to cephalopods on high-confidence evidence, even as the presumed non-sentience of other invertebrates is precisely what recommends them as lower-cost \"replacement\" organisms, a convenience the widening evidence base steadily undercuts, and, more broadly, driving a shift in the moral status accorded laboratory animals since the 1990s.",
+  "citation_keys": [
+   "Kahane2022",
+   "Schnell2026",
+   "CrespiAbril2023",
+   "Browning2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "One framework treats invertebrates as generally non-sentient, making them preferred 'replacement' models under the 3Rs, while the cephalopod assessment finds strong evidence of sentience in some inver",
+   "One framework treats invertebrates as generally non-sentient, making them preferred 'replacement' models under the 3Rs, while the cephalopod assessment finds strong evidence of sentience in some inver"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Kahane2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We review evidence suggesting that the folk is deontological all the way down-it is just that the moral side constraints that protect animals from harm are much weaker than those that protect humans.",
+    "study_system": "moral psychology of animal moral status (review of empirical studies)"
+   },
+   {
+    "cite_key": "Schnell2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "There is strong evidence of sentience in octopuses and cuttlefish, which are assessed with very high or high confidence in meeting six of eight criteria.",
+    "study_system": "Cephalopod molluscs (octopus, cuttlefish, squid, nautilus); sentience assessment (8 criteria)"
+   },
+   {
+    "cite_key": "CrespiAbril2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In this context, we discuss the development of a broader conceptual framework of 5Rs that includes responsibility and respect, which may guide practices ensuring welfare in echinoderms, even in the absence of any particular normative.",
+    "study_system": "Echinoderms/invertebrates; ethical framework (5Rs)"
+   },
+   {
+    "cite_key": "Browning2022",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The recognition of sentience in animals from the 1990s onwards has thus effected a radical shift in the way we view the moral status of animals and how we provide for and ensure their welfare.",
+    "study_system": "Ethics/philosophy analysis; animal sentience, moral status, laboratory animal welfare"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 3,
+    "issue": "Conflict [11] one-sided: Schnell2026 (strong evidence of cephalopod sentience) is cited, but CrespiAbril2023 — which notes invertebrates' presumed non-sentience is exactly what makes them favoured 'replacement' models — ",
+    "fix": "Add CrespiAbril2023: note the tension that invertebrates are treated as ethically cheap 'replacement' models precisely because assumed non-sentient (CrespiAbril"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_09ad604d8c20b32c",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Reviews frame that weighing as, at best, a way to align welfare with scientific value — arguing that reduction and refinement can act in synergy with better science rather than against it — and set out the deliberative and metric models available for performing it.",
+  "citation_keys": [
+   "Graham2015",
+   "Grimm2018"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether project-level harm-benefit analysis should be abandoned and replaced by independent harm-minimisation principles (Gutfreund) or retained and improved by combining discourse and metric weightin",
+   "Whether project-level harm-benefit analysis should be abandoned and replaced by independent harm-minimisation principles (Gutfreund) or retained and improved by combining discourse and metric weightin"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Graham2015",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "While focused primarily on the ethical imperative to minimize harm to animals in science, in developing the 3Rs, Russell and Burch also maintained that scientific excellence and the humane use of laboratory animals are inextricably linked.",
+    "study_system": "animal disease models / 3Rs in drug development (review)"
+   },
+   {
+    "cite_key": "Grimm2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Ultimately, we argue that the two models are not mutually exclusive and may be combined to make the most of their advantages while reducing the disadvantages of how harm-benefit analysis in typically undertaken.",
+    "study_system": "harm-benefit analysis models (review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_56f1452b4cdb38c1",
+  "section_id": "sec-data-welfare",
+  "claim_text": "A former oversight-committee chair argues that applying harm–benefit analysis to individual projects induces a systematic bias against basic research and can *increase* net harm, and should be replaced by two independent principles — societal benefit and minimal justified harm.",
+  "citation_keys": [
+   "Gutfreund2020"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether project-level harm-benefit analysis should be abandoned and replaced by independent harm-minimisation principles (Gutfreund) or retained and improved by combining discourse and metric weightin",
+   "Whether project-level harm-benefit analysis is a valid and usable tool for weighing animal welfare against benefits (Wolfensohn et al.) or is structurally biased against basic research and should be r"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Gutfreund2020",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The argument above that HBA in IACUC discussions may result in a bias against basic research is not a mere theoretical concern.",
+    "study_system": "animal research ethics / IACUC project evaluation (commentary)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_a9b1141fcb28773b",
+  "section_id": "sec-data-welfare",
+  "claim_text": "The opposing camp holds the tool is retainable if improved: the discourse and metric models are not mutually exclusive and can be combined, and validated welfare-scoring can supply the missing quantitative side.",
+  "citation_keys": [
+   "Grimm2018",
+   "Wolfensohn2025"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether project-level harm-benefit analysis should be abandoned and replaced by independent harm-minimisation principles (Gutfreund) or retained and improved by combining discourse and metric weightin",
+   "Whether project-level harm-benefit analysis should be abandoned and replaced by independent harm-minimisation principles (Gutfreund) or retained and improved by combining discourse and metric weightin"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Grimm2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Ultimately, we argue that the two models are not mutually exclusive and may be combined to make the most of their advantages while reducing the disadvantages of how harm-benefit analysis in typically undertaken.",
+    "study_system": "harm-benefit analysis models (review)"
+   },
+   {
+    "cite_key": "Wolfensohn2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, as long as some researchers use purely subjective assessments without a supporting structure and reference scales, or no assessment method at all, these terms may have limited practical value.",
+    "study_system": "laboratory animals (stress and welfare assessment; harm-benefit review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_fa214737c7807886",
+  "section_id": "sec-data-welfare",
+  "claim_text": "The empirical backdrop favours neither complacency: authorisation decisions have been shown to rest on confidence rather than evidence of scientific rigour, only 6 of 30 European countries have produced any guidance to support the analysis, and scoping reviews of decision tools find sparse resources and recommend deliberation over scoring.",
+  "citation_keys": [
+   "Vogt2016",
+   "Hajosi2025",
+   "Azilagbetor2025b"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "disputed",
+   "replicated",
+   "replication_unknown"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether project-level harm-benefit analysis can be operationalised into a coherent, workable decision tool (compound model) or is inherently biased against basic research and should be replaced by two",
+   "Whether project-level harm-benefit analysis can be operationalised into a coherent, workable decision tool (compound model) or is inherently biased against basic research and should be replaced by two"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Vogt2016",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "These results indicate that the authorities licensing animal experiments are lacking important information about experimental conduct that determines the scientific validity of the findings, which may be critical for the weight attributed to the benefit of the research in the har",
+    "study_system": "1,277 Swiss animal-experiment applications + 50 resulting publications"
+   },
+   {
+    "cite_key": "Hajosi2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Indeed, only 6 of the 30 European countries investigated have produced GDs to support HBAs during project evaluation ().",
+    "study_system": "harm-benefit analysis guidance across European countries (Directive 2010/63/EU project evaluation)"
+   },
+   {
+    "cite_key": "Azilagbetor2025b",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "17 resources that can guide HBA and decision-making were identified.",
+    "study_system": "harm-benefit analysis decision tools (scoping review, Europe/North America)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_d69d4210068c984a",
+  "section_id": "sec-data-welfare",
+  "claim_text": "When licensing authorities screen applications, measures against bias are described at very low rates, leaving reviewers without the information a meaningful weighing requires.",
+  "citation_keys": [
+   "Vogt2016"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Vogt2016",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "These results indicate that the authorities licensing animal experiments are lacking important information about experimental conduct that determines the scientific validity of the findings, which may be critical for the weight attributed to the benefit of the research in the har",
+    "study_system": "1,277 Swiss animal-experiment applications + 50 resulting publications"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_fe72dfccfa477ae3",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Audits of the decisions themselves find the legally required analysis frequently absent — a pilot of Swedish committee decisions found most omitted the harm–benefit analysis entirely and none documented a 3Rs evaluation, and a larger follow-up found harm, benefit, and 3Rs information often missing or confused, with roughly a third of non-technical summaries mixing up the three Rs and only 59% of researchers believing their own study achieved its goals.",
+  "citation_keys": [
+   "Jorgensen2021",
+   "Jorgensen2025"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Jorgensen2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Similarly, no Animal Ethics Committee decision contained any account of evaluation of the 3Rs and a majority failed to include harm-benefit analysis as required by law.",
+    "study_system": "ethical review process, Sweden (Directive 2010/63; HBA/3Rs compliance)"
+   },
+   {
+    "cite_key": "Jorgensen2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "However, amongst the NTS analyzed in our study, the 3Rs were, to varying degrees, insufficiently or not at all described, and one third of the NTSs displayed some mix-up between them.",
+    "study_system": "animal-research ethical review applications, Sweden (Animal Ethics Committees; Directive 2010/63/EU)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_ca5e1409cfd74fd2",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Structural critiques argue oversight bodies lack the expertise and mandate to judge scientific merit at all, so their approval should not be read as evidence of adherence to anything beyond legal minima.",
+  "citation_keys": [
+   "Pippin2025"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether ethics-committee/IACUC review can be trusted to safeguard the scientific quality (and hence benefit) of animal research. One proposes a Benefit Assessment Matrix presuming committees can and s"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Pippin2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Because of the limitations of the review process, funding institutions and scientific journals should not use Institutional Animal Care and Use Committee approval of submissions as evidence of adherence to ethical guidelines beyond those legally required.",
+    "study_system": "US Institutional Animal Care and Use Committees (editorial review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_3c306d7f8c6b5ab3",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Proposals to add a formal benefit-assessment step to committee review collide with exactly this doubt about feasibility.",
+  "citation_keys": [
+   "Bespalov2026"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether ethics committees should formally assess the benefit of proposed animal research (a Benefit Assessment Matrix to phase out low-value work) versus the position that benefit/harm-benefit assessm",
+   "Whether ethics committees should formally assess the benefit of proposed animal research (a Benefit Assessment Matrix to phase out low-value work) versus the position that benefit/harm-benefit assessm"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Bespalov2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The organizational premise is that rigorous high-quality research is more likely to produce tangible benefit than poor quality, low rigor research.",
+    "study_system": "animal research ethics review / harm-benefit (proposed Benefit Assessment Matrix tool)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_80f8f80050baef10",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Surveys find the public expects animal research to be methodologically rigorous and to translate to humans well over half the time — expectations far exceeding what the evidence shows is achieved.",
+  "citation_keys": [
+   "Joffe2016"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether public attitudes to animal research are more supportive than commonly assumed (specific protocols attract higher-than-typical support) or fundamentally fragile because they rest on unmet expec",
+   "Whether public attitudes to animal research are more supportive than commonly assumed (specific protocols attract higher-than-typical support) or fundamentally fragile because they rest on unmet expec"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Joffe2016",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Expectations for AR are much higher than empirical data show to have been achieved.",
+    "study_system": "general public, medical students, scientists (survey on animal-research expectations)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_365f5893190655b6",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Support is real but conditional and sensitive to species and purpose: it averages no better than ambivalence in structured consultations, even though the same consultations found specific high-benefit scenarios drawing higher-than-typical support — a counter-facet that complicates any reading of that support as uniformly fragile.",
+  "citation_keys": [
+   "Brunt2021b"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether public attitudes to animal research are more supportive than commonly assumed (specific protocols attract higher-than-typical support) or fundamentally fragile because they rest on unmet expec",
+   "Whether public attitudes to animal research are more supportive than commonly assumed (specific protocols attract higher-than-typical support) or fundamentally fragile because they rest on unmet expec"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Brunt2021b",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Quantitative responses for the proposed research ranged between 1 and 7, with a mean +/- SE of 4.5 +/- 0.06 indicating ambivalence towards the proposed research.",
+    "study_system": "US public (online consultation on animal-research protocols)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 2,
+    "issue": "The section uses Brunt2021b only for the 'ambivalence' reading; the conflict [4] facet — that specific high-benefit scenarios drew HIGHER-than-typical support (the 'more supportive than commonly assumed' side vs Joffe201",
+    "fix": "Add the counter-facet: while overall attitudes average ambivalent, specific high-benefit scenarios drew higher-than-typical support (Brunt2021b), complicating t"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_7c1696c6d257dadf",
+  "section_id": "sec-data-welfare",
+  "claim_text": "It is coloured by negative affect toward *in vivo* testing and openness to alternatives, and highest where oversight and mutual human–animal benefit are made visible.",
+  "citation_keys": [
+   "Bearth2024",
+   "ThompsonIritani2026"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Bearth2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The results suggest that people make trade-offs, as they experience negative affect regarding in vivo testing, which partly might explain their openness regarding certain alternatives.",
+    "study_system": "public (survey on animal testing and alternatives in chemical risk assessment)"
+   },
+   {
+    "cite_key": "ThompsonIritani2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Veterinarians were the most trusted source (81%), followed by scientists, medical doctors, and professors.",
+    "study_system": "US adult public (national survey on animal-research attitudes)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_127ca3652366fe1d",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Openness is increasingly framed as the price of the community's continued permission to do the work, yet the single most common barrier to communicating animal research is that the research harms animals — a barrier that unpublished, unusable results only raise, because they convert a defensible harm into an indefensible one.",
+  "citation_keys": [
+   "MacArthurClark2019",
+   "Loser2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "MacArthurClark2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This imbalance has led to suspicion and lagging public support for this work.",
+    "study_system": "public communication of animal research (review/commentary)"
+   },
+   {
+    "cite_key": "Loser2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In total, 56 out of 65 documents (86%) address how research is not well suited for science communication because it poses risks and causes harm to test animals (71%), is highly complex and involves uncertainties (63%), or may have legitimacy problems (54%).",
+    "study_system": "systematic literature review of science-communication barriers on animal experimentation (65 documents)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_5f94488f471811ee",
+  "section_id": "sec-data-welfare",
+  "claim_text": "When results are quietly discarded, or marred by uncorrected image-integrity problems the literature fails to fix, the promise implicit in every licence — that the harm will at least yield reliable knowledge — is broken twice over.",
+  "citation_keys": [
+   "Aquarius2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Aquarius2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We included 608 articles, of which 243 articles were identified as problematic (40.0%).",
+    "study_system": "animal subarachnoid-haemorrhage studies (image-integrity audit)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_145717baadc33c62",
+  "section_id": "sec-data-welfare",
+  "claim_text": "A survey of European mouse and primate papers two decades apart found no increase over twenty years in reported 3Rs implementation, with mouse papers averaging zero of ten possible items; a fourteen-year survey of nearly 3,800 preclinical urology studies found sample-size estimation reported in 1.0% of them; a systematic review of degradable-metal bone studies found adherence to the ARRIVE 2.0 essentials at 42% with protocol registration and data access almost never reported; and the depression-model literature combined intermediate reporting quality with a 2.35% data-sharing response rate.",
+  "citation_keys": [
+   "Taylor2010",
+   "Park2023",
+   "Ding2022",
+   "Ratajczak2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Taylor2010",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "There was no significant increase in overall reporting score over time, for either mouse or primate research.",
+    "study_system": "European mouse and primate research papers (3Rs reporting survey)"
+   },
+   {
+    "cite_key": "Park2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Randomisation was reported in 50.0%, blinding in 15.0%, sample size estimation in 1.0%, inclusion of both sexes in 6.3%, statistical analysis in 97.1%, housing and husbandry in 47.7%, and inclusion/exclusion criteria in 5.0%.",
+    "study_system": "3768 preclinical urological animal studies (2007-2021)"
+   },
+   {
+    "cite_key": "Ding2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "As depicted in, in terms of the report quality evaluation of Essential 10 (22 sub-items), the overall coincidence rate was 42.0%.",
+    "study_system": "preclinical degradable-metal bone-defect/fracture animal studies (ARRIVE 2.0 review)"
+   },
+   {
+    "cite_key": "Ratajczak2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Only 2.35% (5 out of 212) of corresponding authors responded to our data request.",
+    "study_system": "animal depression models / antidepressants (systematic review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Cross-paper synthesis pools four different metrics (a 10-item 3Rs score, sample-size reporting, ARRIVE-essentials adherence, data-sharing response rate) with different denominators as 'the same low rates.' Directionally ",
+    "fix": "Minor wording: 'consistently low across distinct reporting metrics' rather than implying a single comparable rate."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_ff485b34d321b741",
+  "section_id": "sec-data-welfare",
+  "claim_text": "A checklist that a journal implements and checks has been associated with more complete reporting, though even a requirement enforced at the revision stage lifted full compliance with core bias-reduction items only into a minority of papers, whereas the mere publication of reporting guidelines left adherence unchanged or even lower, and protocol registration and data access stayed almost entirely unreported long after they became best practice.",
+  "citation_keys": [
+   "Han2017",
+   "Macleod2019b",
+   "Liu2021",
+   "Ding2022"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether ARRIVE/checklists improve reporting. The Chagas review found passive publication of ARRIVE did not improve reporting, while the Nature-vs-Cell study attributed significant improvement to an en",
+   "Whether journal checklist interventions improve reporting of animal research. IICARus (a randomised trial requesting ARRIVE-checklist completion at submission to PLOS ONE) found no improvement in full"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Han2017",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "On the other hand, whether experiments were randomized, blinded, or how the sample size was determined were stated in 20% or less of articles in 2013, and improved by 2015 ().",
+    "study_system": "In vivo animal studies in Nature vs Cell"
+   },
+   {
+    "cite_key": "Macleod2019b",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The number of NPG articles meeting all relevant Landis 4 criteria increased from 0/203 prior to May 2013 to 31/181 (16.4%) after (two-sample test for equality of proportions without continuity correction, Χ²=36.2, df=1, p=1.8×10).",
+    "study_system": "Life-sciences (incl. in vivo) articles in Nature Publishing Group journals"
+   },
+   {
+    "cite_key": "Liu2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The number of fully reported (sub)items per article was on average significantly higher for pre-ARRIVE than post-ARRIVE for overall species (mean (SD) = 14.0 (2.8) vs. 12.6 (2.5), P < 0.001).",
+    "study_system": "animal hernia-repair mesh studies (ARRIVE reporting quality review)"
+   },
+   {
+    "cite_key": "Ding2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "As depicted in, in terms of the report quality evaluation of Essential 10 (22 sub-items), the overall coincidence rate was 42.0%.",
+    "study_system": "preclinical degradable-metal bone-defect/fracture animal studies (ARRIVE 2.0 review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 3,
+    "issue": "The section presents mandated checklists favourably, but the citemap contains Macleod2019b (the IICARus randomised trial), whose null result — a mandated ARRIVE checklist at peer review did NOT improve compliance — nuanc",
+    "fix": "Soften: 'mandating a checklist at submission has been associated with more complete reporting {cite:p}`Han2017`, though a randomised trial of enforced checklist"
+   },
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Cross-paper synthesis pools four different metrics (a 10-item 3Rs score, sample-size reporting, ARRIVE-essentials adherence, data-sharing response rate) with different denominators as 'the same low rates.' Directionally ",
+    "fix": "Minor wording: 'consistently low across distinct reporting metrics' rather than implying a single comparable rate."
+   },
+   {
+    "severity": "MUST_FIX",
+    "track": 1,
+    "issue": "Track-1 contrast mismatch supporting the section's central thesis. Munro2022 is presented in the flagship enforcement figure as an 'enforced or operationalised contrast' and is the largest swing offered as evidence that ",
+    "fix": "Relabel Munro2022 in the caption as an uncontrolled secular time-trend (not an enforcement contrast) and rest the 'enforcement moves behaviour' claim on the gen"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_388cb626b155388e",
+  "section_id": "sec-data-welfare",
+  "claim_text": "The Reduction principle was never \"use the fewest animals\" but \"use no more animals than the knowledge requires,\" and reviews of the Reduction literature insist on exactly this: minimising numbers is a matter of correct design and statistics, since both too many and too few animals waste life and yield unreliable results, and the goal is not the smallest possible study but the *right* number, because excessive reduction produces underpowered, uninterpretable experiments.",
+  "citation_keys": [
+   "Verderio2023",
+   "Mazoit2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Verderio2023",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The use of too many EUs, besides being unethical, would lead to a waste of effort and resources in terms of money and time. At the same time, the use of an insufficient number of animals could lead to the loss of a significant result due to the lack of statistical power.",
+    "study_system": "3Rs / Reduction and experimental design (EU regulatory context)"
+   },
+   {
+    "cite_key": "Mazoit2026",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "We will discuss study planning, ways to calculate the minimum number of animals needed for a study, the danger of trying to reduce too much, and finally, how to calculate the right number of animals needed.",
+    "study_system": "animal experimental design / sample-size (review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_06a46d8b3cdd9234",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Formal sample-size calculation cut the required numbers in a radiation-countermeasure paradigm to less than half of typical usage, where historically hundreds of animals had been used with no power calculation at all; a refined pulmonary-embolism model reduced the mice needed per experiment by around 90% by measuring a specific biological response rather than a rare fatal endpoint; and incorporating historical control animals into the analysis reduced the number of concurrent controls needed by more than half without loss of power.",
+  "citation_keys": [
+   "Landes2023",
+   "Graham2015",
+   "Kramer2015"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Landes2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Half of these DRF experiments used 185 or more animals, and three quarters used 100 or more.",
+    "study_system": "radiation countermeasure dose-reduction-factor experiments (mice)"
+   },
+   {
+    "cite_key": "Graham2015",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "While focused primarily on the ethical imperative to minimize harm to animals in science, in developing the 3Rs, Russell and Burch also maintained that scientific excellence and the humane use of laboratory animals are inextricably linked.",
+    "study_system": "animal disease models / 3Rs in drug development (review)"
+   },
+   {
+    "cite_key": "Kramer2015",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We show that, under our simulation conditions, the number of current control subjects can be reduced by more than half by including historical controls in the analyses.",
+    "study_system": "biomedical experiments with animal control groups (simulation)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 3
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "'Repaying the debt saves animals' is the review's strongest generalization. It is defensible at the mechanism level (VCG/historical-control reuse demonstrably removes a group of animals: Kramer2015, StegerHartmann2020), ",
+    "fix": "No change required; the surrounding paragraphs already bound the claim to the demonstrated mechanism plus an acknowledged projection. Retained as a MINOR note f"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_7f7e470c6bef3d6b",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Factorial designs, in which each animal contributes information on every factor and interactions become detectable, cut numbers in routine drug screens without loss of validity; accounting for the correlation among cage-mates lets experiments use more cages but fewer animals while gaining power; and case-study treatments of experimental design stress that there is no single optimum, only reasoned trade-offs between internal and external validity that must themselves be reported.",
+  "citation_keys": [
+   "Shaw2002",
+   "Shaw2004",
+   "Landes2025",
+   "Karp2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Shaw2002",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Two examples of real factorial experiments reveal how using this approach can potentially lead to a reduction in animal use and savings in financial and scientific resources without loss of scientific validity.",
+    "study_system": "drug-discovery animal experiments (mice; factorial design for Reduction)"
+   },
+   {
+    "cite_key": "Shaw2004",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "These designs have been used successfully at AstraZeneca in the optimisation of in vivo drug screening experiments, where their use has effectively reduced the numbers of animals used in some routine screens.",
+    "study_system": "in vivo drug screening (factorial experimental design; Reduction)"
+   },
+   {
+    "cite_key": "Landes2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This statistical efficiency, which means more power, can be translated into reduced animal numbers, one of the 3Rs (replace, reduce, refine) of animal research.",
+    "study_system": "Statistical methods; intracluster correlation in cage-mate experiments (Reduction)"
+   },
+   {
+    "cite_key": "Karp2021",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "As there is no perfect experiment for the question being considered, it means we should acknowledge the strengths and weaknesses of our experiments when reporting our results.",
+    "study_system": "preclinical animal experimental design (case studies)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_77f4c535d50c05b3",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Reviews of statistical power argue that the very tools researchers reach for — paired designs justified by simple power calculations — often demand *more* animals than randomised block or factorial alternatives, so statistical literacy is itself a Reduction technology.",
+  "citation_keys": [
+   "Gaskill2020"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Gaskill2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The use of more sophisticated designs in animal experiments will inevitably improve power, reproducibility, and reduce animal use.",
+    "study_system": "animal experimental design / statistical power (review; Reduction)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_78c1908a83c77516",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Complete reporting and data reuse extend **Reduction**, because fewer new animals are needed per unit of knowledge banked.",
+  "citation_keys": [
+   "Kramer2015"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Kramer2015",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We show that, under our simulation conditions, the number of current control subjects can be reduced by more than half by including historical controls in the analyses.",
+    "study_system": "biomedical experiments with animal control groups (simulation)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 3
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_0d0d46cfecd84e09",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Findable, curated stewardship and study registration extend **Refinement** — not of the animal, but of the scientific record, so that a completely reported experiment need never be repeated merely because its methods were irrecoverable.",
+  "citation_keys": [
+   "Strech2019"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether the classic 3Rs framework is inadequate and must be expanded with scientific-value principles (Strech & Dirnagl's 6Rs) or remains conceptually sufficient and merely under-applied (Vitale & Ric",
+   "Whether the classic 3Rs framework is inadequate and must be expanded with scientific-value principles (Strech & Dirnagl's 6Rs) or remains conceptually sufficient and merely under-applied (Vitale & Ric"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Strech2019",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In times where approximately 50% of animal studies are not reported,only the preregistration of animal study protocols allows the identification of biased, delayed or unreported results.",
+    "study_system": "animal research ethics framework (proposal)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_c16c01590fe2e697",
+  "section_id": "sec-data-welfare",
+  "claim_text": "And reuse of existing data, alongside the outputs of non-animal methods, extends **Replacement**, substituting stored knowledge and *in vitro* or *in silico* results for live animals.",
+  "citation_keys": [
+   "Tutty2025",
+   "Romantsik2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Tutty2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Rooted in the 3Rs principle of Replacement, Reduction and Refinement, and driven by regulatory frameworks such as REACH (Regulation (EC) No 1907/2006) and Directive 2010/63/EU, which promote ethical alternatives in toxicological studies, one strategy for overcoming issues prevale",
+    "study_system": "human liver models / New Approach Methodologies (DILI)"
+   },
+   {
+    "cite_key": "Romantsik2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "One of the main goals of preclinical SRs is to identify aspiring treatment strategies and evaluate if currently available data is solid enough to translate to clinical trials or highlight the gaps, thus justifying the need for new studies.",
+    "study_system": "preclinical systematic reviews/meta-analyses (evidence synthesis; Reduction)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_948f3ebc247231cd",
+  "section_id": "sec-data-welfare",
+  "claim_text": "The most direct is the argument that welfare-focused Rs cannot on their own make research ethical, because research without sufficient scientific value is unethical regardless of how humanely it is conducted — the case for adding Robustness, Registration, and Reporting to yield a \"6R\" set, motivated by the observation that roughly half of animal studies are never reported at all.",
+  "citation_keys": [
+   "Strech2019"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether the classic 3Rs framework is inadequate and must be expanded with scientific-value principles (Strech & Dirnagl's 6Rs) or remains conceptually sufficient and merely under-applied (Vitale & Ric",
+   "Whether the classic 3Rs framework is inadequate and must be expanded with scientific-value principles (Strech & Dirnagl's 6Rs) or remains conceptually sufficient and merely under-applied (Vitale & Ric"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Strech2019",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In times where approximately 50% of animal studies are not reported,only the preregistration of animal study protocols allows the identification of biased, delayed or unreported results.",
+    "study_system": "animal research ethics framework (proposal)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_af778d69fcc6ab54",
+  "section_id": "sec-data-welfare",
+  "claim_text": "A \"12R\" framework organises animal-research ethics into welfare, social-value, and scientific-integrity domains, explicitly citing a reproducibility crisis as the motivation for the integrity Rs and placing harm–benefit analysis as the culminating safeguard.",
+  "citation_keys": [
+   "Brink2023"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Brink2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "A survey undertaken by Monya Baker, published for Nature reported that 70% of respondents could not replicate other researchers’ pre-clinical studies, with 50% also unable to repeat their own studies [].",
+    "study_system": "animal research ethics framework (global, all species)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ }
+]

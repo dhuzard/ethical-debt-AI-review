@@ -1,0 +1,1362 @@
+[
+ {
+  "claim_id": "clm_0521ca42768b2227",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "This content loss has to be set against OMOP's reach, however: a criteria-based systematic review found the OMOP/OHDSI model to be the dominant and most comprehensive common data model, underpinning a distributed network of more than 331 data sources and over 2.1 billion patient records across 34 countries.",
+  "citation_keys": [
+   "Finster2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Semantic adequacy/comprehensiveness of the OMOP common data model: a criteria-based review presents OMOP/OHDSI as the dominant, most-comprehensive CDM underpinning a 2.1-billion-record network, wherea",
+   "Semantic adequacy/comprehensiveness of the OMOP common data model: a criteria-based review presents OMOP/OHDSI as the dominant, most-comprehensive CDM underpinning a 2.1-billion-record network, wherea"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Finster2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The OHDSI distributed data network comprises over 331 data sources, containing more than 2.1 billion patient records across 34 countries [].",
+    "study_system": "common data models / health data standards (systematic review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 3,
+    "issue": "Suppressed conflict [16]. The section presents OMOP uniformly as content-losing (Rieder2026, Nada2026, Bataille2026, App2026) but omits the package's counter-side, Finster2025, a criteria-based systematic CDM review find",
+    "fix": "Add one clause acknowledging OMOP's status, citing Finster2025 (e.g. 'Even the dominant, most-comprehensive observational model, OMOP/OHDSI (Finster2025), repea"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_632a6519d3e9ce23",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Exchange standards leak as badly as models: in one single-institution study, biomarker data present in the source record were missing in 80–100% of downstream standardized extracts.",
+  "citation_keys": [
+   "App2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "App2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In contrast, biomarker data present in the source EHR were missing in 80%-100% of FHIR extracts.",
+    "study_system": "lung cancer real-world data (EHR/registry/FHIR)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_9f8e3a3beaa100ed",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "FAIR frames maximal findability, accessibility, and reuse by the community as the goal of good data management.",
+  "citation_keys": [
+   "Wilkinson2016"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Governance orientation of data reuse: the FAIR principles frame maximal findability, accessibility and community reuse of data as the goal, whereas the CARE Principles / Indigenous Data Sovereignty in"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Wilkinson2016",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Good data management is not a goal in itself, but rather is the key conduit leading to knowledge discovery and innovation, and to subsequent data and knowledge integration and reuse by the community after the data publication process.",
+    "study_system": "FAIR guiding principles for scholarly data (foundational statement)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_47389d622b5d5c51",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "The CARE Principles for Indigenous Data Governance were developed to complement it: FAIR facilitates sharing, but Indigenous Data Sovereignty holds that data on Indigenous Peoples must be shared on those peoples' terms.",
+  "citation_keys": [
+   "Carroll2022b"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Governance orientation of data reuse: the FAIR principles frame maximal findability, accessibility and community reuse of data as the goal, whereas the CARE Principles / Indigenous Data Sovereignty in"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Carroll2022b",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, the Indigenous Data Sovereignty movement advocates for greater Indigenous control and oversight in order to share data on Indigenous Peoples' terms.",
+    "study_system": "Biomedical/genetic data governance for Indigenous Peoples (CARE + tribal research codes)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_37ec9ac203a1f666",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "The CARE position is now well developed: Indigenous research sovereignty asserts self-determination over data generated from research activities, universities are being urged to operationalise collective Indigenous rights over data against default open-data models, and emerging equitable global-health frameworks explicitly reject a default \"open\" setting in favour of governed access.",
+  "citation_keys": [
+   "Hudson2023",
+   "Garba2023",
+   "West2026",
+   "Mayor2026",
+   "Calac2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Hudson2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Our exploration of Indigenous Research Sovereignty, or Indigenous self-determination in the context of research activities, has been focused on the relationship between Indigenous Data Sovereignty and efforts to describe Indigenous Peoples' Rights in data.",
+    "study_system": "Indigenous Data Sovereignty / research governance (conceptual)"
+   },
+   {
+    "cite_key": "Garba2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Given that much data are generated from research, Indigenous research governance and Indigenous Data Governance overlap.",
+    "study_system": "Indigenous research governance / data governance (US tribal legislation)"
+   },
+   {
+    "cite_key": "West2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Building on this foundational work, in 2023, the Global Indigenous Data Alliance (GIDA) identified 12 Indigenous Rights to data (Table).",
+    "study_system": "Indigenous (Maori) research data governance in New Zealand universities"
+   },
+   {
+    "cite_key": "Mayor2026",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "This framework fundamentally challenges the traditional, often Western-driven, model of ‘open data’ or ‘data as a common good’.",
+    "study_system": "global health data-sharing governance frameworks (CARE, African Academy of Sciences)"
+   },
+   {
+    "cite_key": "Calac2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Through a multi-year research collaborative between the University of California, San Diego and the Native BioData Consortium, it became clear that the use of an implementation science framework might guide the design of emerging digital health technologies best respecting the in",
+    "study_system": "Indigenous health data governance (US)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Mayor2026 directly supports 'reject default open in favour of governed access'. Calac2026 is about using implementation-science frameworks (CFIR/ERIC) to design digital-health tech respecting Indigenous priorities - topi",
+    "fix": "Attribute the 'reject default open' claim to Mayor2026 (and West2026/Carroll2022b); use Calac2026 for the design-respecting-Indigenous-priorities point."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_8e79ea34774e5df2",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "The stakes are concrete where reference resources under-represent populations — Aboriginal and Torres Strait Islander peoples, for instance, are largely absent from human reference genomes.",
+  "citation_keys": [
+   "ClarkAdnyamathanha2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "ClarkAdnyamathanha2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Yet, Aboriginal and Torres Strait Islander peoples are absent from, or under-represented within, human reference genome resources, genomic studies, cancer studies, cancer cell lines, patient-derived xenografts and cancer clinical trials.",
+    "study_system": "Genomic reference resources and precision-cancer data (Aboriginal and Torres Strait Islander)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_33896a1421238681",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Governance constraints of a different kind bind the ordinary case too: privacy regulation such as GDPR can directly contradict open-data mandates, and human genomic and biospecimen repositories frequently operate under managed rather than open access for exactly this reason.",
+  "citation_keys": [
+   "Hassenstein2025",
+   "Heeney2017"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Hassenstein2025",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Data protection officers, legal departments, and ethics committees introduce additional layers of administration, while privacy regulations (e.g., GDPR compliance) potentially contradict open data mandates (rule 9).",
+    "study_system": "Research data management best-practice guidance (ten simple rules)"
+   },
+   {
+    "cite_key": "Heeney2017",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "A commitment to open access in genomics research has found almost universal backing in science and health policy circles, but repositories of data and samples from human subjects may have to operate under managed access, to protect privacy, align with participant consent and ensu",
+    "study_system": "Generation Scotland genomics biobank (access governance)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_495afdd7ec4c1402",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "One position holds that \"it is not sustainable to keep accumulating and maintaining all datasets for rapid access, considering the monetary and ecological cost of maintaining repositories\".",
+  "citation_keys": [
+   "Pernet2023"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Disagreement on the cost/benefit and sustainability of indefinitely keeping and curating all data for FAIR rapid access: one argues the monetary and ecological cost makes universal retention unsustain"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Pernet2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Yet, we argue that it is not sustainable to keep accumulating and maintaining all datasets for rapid access, considering the monetary and ecological cost of maintaining repositories.",
+    "study_system": "Research data repositories / long-term archiving"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_1e5b121f76a3403f",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "The counter-position holds that \"these costs are outweighed by the benefits of making research more reproducible, impactful, and equitable by facilitating the reuse of precious research resources\".",
+  "citation_keys": [
+   "GarciaClosas2023"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Disagreement on the cost/benefit and sustainability of indefinitely keeping and curating all data for FAIR rapid access: one argues the monetary and ecological cost makes universal retention unsustain"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "GarciaClosas2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, these costs are outweighed by the benefits of making research more reproducible, impactful, and equitable by facilitating the reuse of precious research resources by the scientific community.",
+    "study_system": "Epidemiologic research data and code"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_262362b868ea8cd0",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "A survey of 118 palaeontological and Earth-science databases found that roughly 85% of community-curated databases have lifespans under fifteen years, with peaks in database loss tracking five-year funding cycles — decades of volunteered data at risk of disappearing.",
+  "citation_keys": [
+   "Dowding2026"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Dowding2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We show that approximately 85% of all community-curated databases have lifespans of less than 15 years, putting decades of investment at risk.",
+    "study_system": "palaeontological / Earth science databases"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "The '~85% under 15 years' figure is in the package verbatim; the 'peaks in database loss tracking five-year funding cycles' detail is not in the available source sentence.",
+    "fix": "Verify the funding-cycle claim against full text."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_cb2fd1e46c18f253",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "On the benefit side, the incentive most often invoked — a citation advantage for open data — is real but modest and method-sensitive: a 122,000-publication analysis found that depositing data in a repository was associated with only a 4.3% citation advantage on average, and none for sharing code, whereas a synthetic-control study of a journal-level open-data mandate reported a much larger increase.",
+  "citation_keys": [
+   "Colavizza2024",
+   "Zhang2021"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "contested"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Magnitude of the open-data citation advantage: a synthetic-control study of a Chinese economics journal mandate reports a large increase in article citations, whereas a 122,000-publication analysis fi",
+   "Magnitude of the open-data citation advantage: a synthetic-control study of a Chinese economics journal mandate reports a large increase in article citations, whereas a 122,000-publication analysis fi"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Colavizza2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We also find that sharing data in an online repository correlates with a smaller yet still positive citation advantage of 4.3% (±.8) on average.",
+    "study_system": "~122,000 PLOS + PMC-OA publications 2018-2023 (Open Science Indicators)"
+   },
+   {
+    "cite_key": "Zhang2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Specifically, the current-year citations of CIE increased from 0.2 ~ 0.4 to 0.9 ~ 1.0 after the open data policy, which means it increased by around 1.5 ~ 4.0 times.",
+    "study_system": "37 Chinese economics journals 2001-2019 (China Industrial Economics open-data mandate)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 2,
+    "issue": "Provenance/verification gap: these five section-cited keys have NO finding in evidence_section_04.json (they exist only in the citemap and, for four of them, in conflict verbatims). Their claims are therefore not backed ",
+    "fix": "Add curated package findings (with verbatim source sentences) for these 5 papers so the audit trail is complete; at minimum flag them for Phase 16 full-text ver"
+   },
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Only the '4.3%' figure is verbatim in the package (conflict [14]). 'none for sharing code' and the '122,000-publication' sample size are not in the available verbatim (Colavizza2024 has no package finding).",
+    "fix": "Verify the code and sample-size claims against full text (Phase 16); consider a package finding for Colavizza2024."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_a964dd116f6b6d1c",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Realized reuse is also highly concentrated, with downloads focused on a small share of deposited datasets, so the average dataset returns little of the reuse dividend that justifies its retention.",
+  "citation_keys": [
+   "Late2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Late2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The findings show that quantitative datasets are downloaded increasingly from the digital archive and that downloads focus heavily on a small share of the datasets.",
+    "study_system": "Social-science data archive reuse (Swiss digital data archive log analysis)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_f5b84894dae6a204",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "A scoping review of interventions to incentivise sharing screened over a thousand papers and identified only a modest set of tested levers; at a different level entirely — and outside the animal-data scope of this review — the motivations of the individuals whose data are shared, whether financial or altruistic, are a distinct determinant of participation that generic institutional incentives do not touch.",
+  "citation_keys": [
+   "Woods2022",
+   "Schmeiss2026",
+   "Kim2026a"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Relative weight of personal/material incentives versus altruism in driving willingness to share genomic/biomedical data: a systematic review concludes financial motives are minor and altruism dominate",
+   "Relative weight of personal/material incentives versus altruism in driving willingness to share genomic/biomedical data: a systematic review concludes financial motives are minor and altruism dominate"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Woods2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "A total of 1128 papers were screened, with 38 items being included.",
+    "study_system": "scoping review of data-sharing incentive interventions"
+   },
+   {
+    "cite_key": "Schmeiss2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Trust was a central factor influencing willingness to share data, often compensating for limited genomic literacy.",
+    "study_system": "systematic review: patient genomic data-sharing willingness"
+   },
+   {
+    "cite_key": "Kim2026a",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Willingness to participate varied by incentive: 60.9% expressed willingness to participate when personal benefits were offered, 29.9% were motivated by public interest, and 9.3% declined participation altogether.",
+    "study_system": "Korean adults, national bio-big-data participation survey"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_92edefb6deca112d",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Universal open-raw-data mandates can themselves cause harm where they force qualitative or consent-sensitive material into an inappropriate mould.",
+  "citation_keys": [
+   "Prosser2024"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether open-data mandates should be universal: meta-research on (mostly quantitative) medical data treats mandates as effective levers worth strengthening and auditing, while a qualitative-research c",
+   "Whether open-data mandates should be universal: meta-research on (mostly quantitative) medical data treats mandates as effective levers worth strengthening and auditing, while a qualitative-research c"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Prosser2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Overall, we argue that universal open raw data mandates cannot adequately represent the diversity of qualitative research, and that MIRD may harm rigorous and ethical research practice within health psychology and beyond.",
+    "study_system": "Mandatory data-sharing policy critique (qualitative health-psychology research)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_01c0c618378e2879",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "The reporting standards that would make an in vivo experiment reusable are unevenly adopted: the zebrafish community has not widely adopted data or metadata standards, so husbandry, imaging, and toxicology reporting remain inconsistent and reproducibility suffers, and traumatic-brain-injury translation is dominated by unpublished \"dark data\" from small, heterogeneous studies that never enter a findable record.",
+  "citation_keys": [
+   "Ngu2025",
+   "Hawkins2020"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Ngu2025",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Key inconsistencies in reporting zebrafish exposure results or toxicology data include measurement units of chemical concentration (mg/l versus nM or mM), exposure duration and time points (hours versus days), and exposure endpoints.",
+    "study_system": "zebrafish research data; standardized reporting and metadata integration"
+   },
+   {
+    "cite_key": "Hawkins2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Making TBI data resources more Findable, Accessible, Interoperable, and Reusable (FAIR) through better data stewardship has great potential to accelerate discovery and translation for the silent epidemic of TBI.",
+    "study_system": "traumatic brain injury research data (dark data / long-tail)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_2030064730ae3946",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Where exemplary practice exists it is the exception that proves the rule — a MIAPE-compliant proteomic study of salbutamol effects on rat muscle was published explicitly as a model of how in vivo data *should* be deposited.",
+  "citation_keys": [
+   "Kenyani2011"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Kenyani2011",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "At the 24 h time point 17 spots of interest were identified: 4 spots were down-regulated, 13 spots up-regulated from which 31 non-redundant proteins were identified [Additional file].",
+    "study_system": "Rat skeletal muscle DIGE proteomics; MIAPE-compliant PRIDE deposition"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_fdcc350c75f2e09e",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "The research reagents on which animal studies depend are themselves poorly stewarded: manual curation could identify only 1,445 studies providing knockout-validated evidence for specific antibodies, a tiny fraction of those in use, and roughly 40% of antibodies cited in one literature remained non-findable, lacking persistent research-resource identifiers, until stock centres actively intervened.",
+  "citation_keys": [
+   "Biddle2024",
+   "Piekniewska2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Biddle2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "This has, to date, identified 1445 studies in the literature that show knockout cell line/animal data that support the use of a specific antibody.",
+    "study_system": "Research antibody validation / RRID initiative (YCharOS/Only Good Antibodies)"
+   },
+   {
+    "cite_key": "Piekniewska2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Thus, until the stock center began to increase awareness among NHPRR authors, the rate of non-findable antibodies continued to be roughly 40%.",
+    "study_system": "Research Resource Identifiers (RRIDs) for antibodies and model organisms"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_f15c370a9dfcea88",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Electronic laboratory notebooks are advocated across chemistry, computational drug discovery, and regulated bioanalysis as the route from analogue records to FAIR-aligned capture at source, and structured, template-driven capture demonstrably helps — an AI-assisted chemistry notebook with built-in structured documentation improved student adherence to good data practice, and ontology-based notebooks can capture and automatically validate complex instrument metadata that would otherwise be lost.",
+  "citation_keys": [
+   "HerresPawlis2022",
+   "Schaduangrat2020",
+   "Zeng2011",
+   "Solle2020",
+   "Higgins2022",
+   "Nwafor2025",
+   "Kirchner2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "HerresPawlis2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Thus, an agreement is needed on minimum information standards for data handling to support structured approaches to data reporting.",
+    "study_system": "Research data management / minimum information standards in chemistry"
+   },
+   {
+    "cite_key": "Schaduangrat2020",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Scientists are increasingly adopting the use of eLNs in their research laboratories owing to the inherent need to organize the growing volume of biological data [].",
+    "study_system": "Electronic laboratory notebooks in computational drug discovery / cheminformatics"
+   },
+   {
+    "cite_key": "Zeng2011",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "By taking into consideration both data generation and project documentation needs, a well-designed ELN can deliver significant improvements in laboratory efficiency, work productivity, and regulatory compliance.",
+    "study_system": "Electronic lab notebook in GLP/regulated bioanalytical laboratory"
+   },
+   {
+    "cite_key": "Solle2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "To change the actual and common way of laboratory data acquisition into a digital and modern one, electronic lab notebooks can be used.",
+    "study_system": "Laboratory data acquisition / electronic lab notebooks"
+   },
+   {
+    "cite_key": "Higgins2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "These systems can more readily meet volume, complexity, accessibility and preservation requirements than paper notebooks.",
+    "study_system": "Electronic laboratory notebooks in academic research environments"
+   },
+   {
+    "cite_key": "Nwafor2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Implementation in a Year 3 undergraduate chemistry lab project indicated improved adherence to sustainable practices, suggesting that the ELN supports the integration of sustainable chemistry into laboratory teaching.",
+    "study_system": "AI4Green4Students electronic lab notebook (undergraduate chemistry teaching)"
+   },
+   {
+    "cite_key": "Kirchner2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We illustrate how Herbie converts all semantic documents into a user interface, ensuring that the entered data automatically meets all FAIR requirements.",
+    "study_system": "synchrotron nano-CT measurement metadata"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 5,
+    "issue": "The sentence explicitly names three ELN domains, but the three attached citations cover chemistry (HerresPawlis2022) and general/academic lab data capture (Solle2020, Higgins2022) - none is the 'computational drug discov",
+    "fix": "Attach Schaduangrat2020 to 'computational drug discovery' and Zeng2011 to 'regulated bioanalysis' (e.g. '...chemistry (HerresPawlis2022), computational drug dis"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_be401c8b73f86109",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "A study of user-defined metadata in an electronic laboratory notebook found that many users made little effort to add metadata even when the facility existed, endangering their own ability to recover data later.",
+  "citation_keys": [
+   "Willoughby2014"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether providing metadata infrastructure yields reusable metadata: the LabTrove ELN study finds free-form, user-defined metadata is largely under-used and threatens data recovery, whereas pISA-tree a",
+   "Whether providing metadata infrastructure yields reusable metadata: the LabTrove ELN study finds free-form, user-defined metadata is largely under-used and threatens data recovery, whereas pISA-tree a"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Willoughby2014",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The findings indicate that while some groups are comfortable with metadata and are able to design a metadata structure that works effectively, many users are making little attempts to use it, thereby endangering their ability to recover data in the future.",
+    "study_system": "LabTrove electronic lab notebook (University of Southampton); metadata-usage survey"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_b917deae87eceba9",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "The templated ISA-model alternative generates structured metadata in parallel at each level of a project so that submission is guided rather than optional.",
+  "citation_keys": [
+   "Petek2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether providing metadata infrastructure yields reusable metadata: the LabTrove ELN study finds free-form, user-defined metadata is largely under-used and threatens data recovery, whereas pISA-tree a",
+   "Whether providing metadata infrastructure yields reusable metadata: the LabTrove ELN study finds free-form, user-defined metadata is largely under-used and threatens data recovery, whereas pISA-tree a"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Petek2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "It enables on-the-fly creation of enriched directory tree structure (project/Investigation/Study/Assay) based on the ISA model, in a standardised manner via consecutive batch files.",
+    "study_system": "pISA-tree data-management framework (ISA model, FAIRDOMHub integration)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_7f2a89dd589c7a3c",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Dedicated model-organism infrastructures show what good stewardship looks like — the Rat Genome Database curates multi-species genomic and phenotype data explicitly to fulfil FAIR, and the European Mouse Mutant Archive established ten Quality Principles to standardize the scientific evaluation of cryopreserved rodent disease models — but these are islands, and metadata tooling for experimental in vivo work, such as the ISA framework in environmental-health science, is still being retrofitted onto fields that never captured it natively.",
+  "citation_keys": [
+   "Vedi2023",
+   "Ehlich2025",
+   "Nault2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Vedi2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Collectively, RGD focuses on providing a continuously improving, consistent, and high-quality data resource for researchers while advancing data reproducibility and fulfilling Findable, Accessible, Interoperable, and Reusable (FAIR) data principles.",
+    "study_system": "Rat Genome Database (rat plus 9 model organisms)"
+   },
+   {
+    "cite_key": "Ehlich2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "To further enhance its processes and promote transparency, INFRAFRONTIER/EMMA has developed a set of ten Quality Principles specifically tailored to the unique requirements of cryopreserved rodent mutant strains.",
+    "study_system": "preclinical rodent disease-model biorepository (EMMA/INFRAFRONTIER)"
+   },
+   {
+    "cite_key": "Nault2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "These include global efforts by the Functional Genomics Data Society to develop metadata collection tools such as the Investigation, Study, Assay (ISA) framework, and the Center for Expanded Data Annotation and Retrieval.",
+    "study_system": "Experimental environmental-health (meta)data; ISA framework and CEDAR"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 3
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_fce58364cf3313cf",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Failure to share research biospecimens and data diverts funds into duplicate cohorts and deters reproducibility assessment; cancer heterogeneity means single centres cannot generate enough data for accurate models, which was part of the original motivation for FAIR in the first place.",
+  "citation_keys": [
+   "Rush2024",
+   "Vesteghem2019"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Rush2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The impacts of this are likely to include diversion of precious research funds into compiling duplicate biospecimen cohorts, detraction from research productivity as researchers compete for and create duplicate resources, and deterrence of attempts to assess research reproducibil",
+    "study_system": "Research biospecimens / biobanks"
+   },
+   {
+    "cite_key": "Vesteghem2019",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "A full-text review was then performed on 60 references.",
+    "study_system": "Precision oncology clinical/genomic data sharing"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_df47e0cd4090d012",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Framed this way, the reuse of control data is not merely good data hygiene but a direct Reduction intervention, and several strands of the literature now treat efficient reuse of existing animal data as an ethical obligation rather than a convenience.",
+  "citation_keys": [
+   "Potter2024",
+   "PetitDemouliere2026",
+   "Landes2018",
+   "Harrell2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Potter2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We review the \"3Rs\" principles (Replacement, Reduction, and Refinement) which are the foundation for the humane use of animals in scientific research, and how statisticians can partner with IACUC to help ensure robust and reproducible research while adhering to the 3Rs principles",
+    "study_system": "animal research statistics; IACUC; 3Rs reduction"
+   },
+   {
+    "cite_key": "PetitDemouliere2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Early analyses suggest a potential reduction of animal use by up to 25%—but only if large volumes of standardised, interoperable historical data exist.",
+    "study_system": "in vivo behavioral neuroscience; home-cage monitoring data ecosystems (WellFAIR/TEATIME)"
+   },
+   {
+    "cite_key": "Landes2018",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Using the most powerful statistical designs and analyses is always preferred, but is an ethical requirement when experiments involve animal sacrifice.",
+    "study_system": "Parallel-line quantal assays (toxicology / radiation countermeasure animal studies)"
+   },
+   {
+    "cite_key": "Harrell2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Use of virtual controls, value of the second toxicity species, information sharing and expectations for life-threatening diseases, human specific or well-characterised targets are currently being scrutinised.",
+    "study_system": "regulatory toxicology; 3Rs initiatives; virtual controls and data sharing"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_e44d46150428b68f",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The proposal that launched the concept in preclinical toxicology argued that a repository of historical animal control data could be assembled into VCGs and that doing so carried a potential of roughly a 25% reduction in animal use by replacing the concurrent control arm.",
+  "citation_keys": [
+   "StegerHartmann2020"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Magnitude of animal reduction from replacing concurrent controls with VCGs: the Japanese industry perspective states approximately 30%, whereas the original concept paper and subsequent consensus stat"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "StegerHartmann2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Historical animal control group data may lead to a repository, which could be used to construct virtual control groups (VCGs) for toxicity studies.",
+    "study_system": "regulatory animal toxicity studies (concept paper)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "'Repaying the debt saves animals' is the review's strongest generalization. It is defensible at the mechanism level (VCG/historical-control reuse demonstrably removes a group of animals: Kramer2015, StegerHartmann2020), ",
+    "fix": "No change required; the surrounding paragraphs already bound the claim to the demonstrated mechanism plus an acknowledged projection. Retained as a MINOR note f"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_b87c0645a3462b71",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Subsequent method-development work repeated the same magnitude: VCGs built from historical control data can cut the number of concurrent control animals in regulatory toxicity studies by up to 25%, with initial body weight identified as a critical matching covariate, and a review of the proof-of-concept studies frames the same up-to-25% reduction as the central attraction of the approach.",
+  "citation_keys": [
+   "Gurjanov2024b",
+   "Adedeji2024"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Degree of VCG-CCG concordance: the liver-enzyme simulation reports high agreement (68.5% of comparisons >=90%), whereas the clinical-pathology review reports high non-reproducibility (up to 49% of qua",
+   "Whether VCGs preserve sensitivity for clinical-pathology endpoints: the nonrodent statistical study finds propensity-score-matched VCGs match or exceed concurrent-control sensitivity, whereas the clin"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Gurjanov2024b",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Virtual control groups (VCGs) created from historical control data (HCD) can reduce the number of concurrent control group animals needed in regulatory toxicity studies by up to 25%.",
+    "study_system": "28-day rodent toxicity studies; body-weight matching for VCG sampling"
+   },
+   {
+    "cite_key": "Adedeji2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "When the CCG was replaced with VCG, the result showed that 31% (34 of 108 parameters), 40% (43 out of 107 parameters), and 49% (57 of 115 parameters) of the quantitative parameters were not statistically reproducible in the legacy studies A, B and C respectively ().",
+    "study_system": "rat toxicity legacy studies; clinical pathology; VCG vs concurrent control"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_5cb7efb5fd396afd",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "An independent estimate from a Japanese industry-regulatory perspective puts the saving somewhat higher, at approximately 30%, while cataloguing the obstacles that remain because current guidelines still mandate concurrent controls for pivotal studies.",
+  "citation_keys": [
+   "SATO2024"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Magnitude of animal reduction from replacing concurrent controls with VCGs: the Japanese industry perspective states approximately 30%, whereas the original concept paper and subsequent consensus stat"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "SATO2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Evaluating toxicology study results using historical control data is not new; however, introducing a VCG means replacing the concurrent control group in a toxicology study with a VCG, thereby reducing the number of animals used by approximately 30%.",
+    "study_system": "nonclinical toxicology studies; virtual control groups; Japanese industry/regulatory view"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_1ed246d8dedb2527",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Their agreement is reassuring but must be read with care, because two of the preclinical figures cite the original 25% concept rather than deriving it afresh, so the convergence reflects a shared source as much as independent replication.",
+  "citation_keys": [
+   "StegerHartmann2020",
+   "Gurjanov2024b",
+   "Adedeji2024"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Magnitude of animal reduction from replacing concurrent controls with VCGs: the Japanese industry perspective states approximately 30%, whereas the original concept paper and subsequent consensus stat",
+   "Degree of VCG-CCG concordance: the liver-enzyme simulation reports high agreement (68.5% of comparisons >=90%), whereas the clinical-pathology review reports high non-reproducibility (up to 49% of qua"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "StegerHartmann2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Historical animal control group data may lead to a repository, which could be used to construct virtual control groups (VCGs) for toxicity studies.",
+    "study_system": "regulatory animal toxicity studies (concept paper)"
+   },
+   {
+    "cite_key": "Gurjanov2024b",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Virtual control groups (VCGs) created from historical control data (HCD) can reduce the number of concurrent control group animals needed in regulatory toxicity studies by up to 25%.",
+    "study_system": "28-day rodent toxicity studies; body-weight matching for VCG sampling"
+   },
+   {
+    "cite_key": "Adedeji2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "When the CCG was replaced with VCG, the result showed that 31% (34 of 108 parameters), 40% (43 out of 107 parameters), and 49% (57 of 115 parameters) of the quantitative parameters were not statistically reproducible in the legacy studies A, B and C respectively ().",
+    "study_system": "rat toxicity legacy studies; clinical pathology; VCG vs concurrent control"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "'Repaying the debt saves animals' is the review's strongest generalization. It is defensible at the mechanism level (VCG/historical-control reuse demonstrably removes a group of animals: Kramer2015, StegerHartmann2020), ",
+    "fix": "No change required; the surrounding paragraphs already bound the claim to the demonstrated mechanism plus an acknowledged projection. Retained as a MINOR note f"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_7c00ef6b8611f186",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "A group-sequential device trial that borrowed from four heterogeneous historical control studies enrolled roughly 1,497 rather than 2,386 patients under scenarios where the historical and current data were congruent — about a 37% enrolment reduction — while holding Type I error and power at nominal levels, despite substantial between-study heterogeneity in the borrowed data (I² of 92%).",
+  "citation_keys": [
+   "Chiaruttini2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Reliability of Bayesian borrowing from historical/external controls: the device-trial design emphasizes maintained Type I error and reduced sample size under congruence, whereas the time-to-event anal"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Chiaruttini2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The sample size required to reach at least 80% of Power and to control the T1E rate under 5%, using a frequentist one-stage design, was 2,282.",
+    "study_system": "cardiovascular medical device trial (human); 4 historical control studies; SAM prior"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_4f7c1a39e2d65ad5",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The foundational meta-analytic-predictive approach quantifies exactly how much a historical control arm is worth: 930 control patients across eleven historical trials, with small heterogeneity, translated into a prior worth about ninety patients, and its extension to over-dispersed lesion counts valued 1,936 historical controls from nine multiple-sclerosis trials at a prior of about forty-five patients, meaning a new control arm could be shrunk by that many recruits.",
+  "citation_keys": [
+   "Neuenschwander2010",
+   "Gsteiger2013"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Neuenschwander2010",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "For a Phase IV trial (930 control patients in 11 historical trials) between-trial heterogeneity was fairly small, resulting in a prior effective sample size of approximately 90 patients.",
+    "study_system": "clinical trials (Phase IV, proof-of-concept); meta-analytic-predictive prior"
+   },
+   {
+    "cite_key": "Gsteiger2013",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "For the general population (without baseline enrichment), with 1936 control patients from nine historical trials, between-trial variability was moderate to substantial, leading to a prior effective sample size of about 45 control patients.",
+    "study_system": "multiple sclerosis trials (human); MAP prior for overdispersed lesion counts"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_598896d848759e09",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "A framework benchmarking VCGs against three four-week rat oral-toxicity studies asked whether reconstructed controls could reproduce the significant deviations and study conclusions obtained with real concurrent controls, and a retrospective application to twenty pilot studies reported that VCGs maintained toxicological power and biological relevance while reducing animal usage, explicitly in the context of the FDA Modernization Act 2.0.",
+  "citation_keys": [
+   "Gurjanov2024a",
+   "Lotfi2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Gurjanov2024a",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Replacing concurrent controls of legacy studies with VCGs should ideally reproduce the results of these studies.",
+    "study_system": "rat oral toxicity (4-week) legacy studies; VCG performance benchmarking"
+   },
+   {
+    "cite_key": "Lotfi2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We applied VCG data retrospectively to 20 pilot studies.",
+    "study_system": "nonclinical pilot studies; VCG vs concurrent control re-analysis"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_7f7f3ef769ac2c64",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Analyses of the eTOX database found that VCGs best reproduced toxicologists' original determinations of treatment-relatedness for histopathology when matched at the highest covariate similarity — same species, strain, sex, route and vehicle.",
+  "citation_keys": [
+   "Wright2023b"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Wright2023b",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Generally, the best agreement was achieved when CCGs were replaced with VCGs with the highest level of similarity; the same species, strain, sex, administration route, and vehicle.",
+    "study_system": "rat and dog; eTOX database; histopathological findings"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_5a9fa989775679d2",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Proof-of-concept studies have converged on which covariates matter most for matching a virtual to a concurrent control — sex, route of administration, fasting status and body weight at study initiation — and laboratories running harmonised developmental and reproductive toxicity studies are already being encouraged to plan VCG implementation.",
+  "citation_keys": [
+   "Andaya2024",
+   "Wise2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Andaya2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Sex, route of administration, fasting status, and body weight at study initiation were among the parameters that were indicated as key matching criteria.",
+    "study_system": "Sprague-Dawley rat toxicity studies; Genentech historical control database"
+   },
+   {
+    "cite_key": "Wise2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The use of virtual control groups (VCGs) in nonclinical toxicology studies was first proposed in 2020 with the main purpose of reducing animal use while integrating historical control data (HCD) to enhance study interpretation.",
+    "study_system": "rodent and rabbit developmental and reproductive toxicity (DART) studies"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_66f5ff1aaf843ed7",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The pressure to adopt these methods is sharpest for non-human primates, where supply constraints and 3Rs expectations have prompted formal proposals to reduce the number of control primates euthanised in nonclinical studies, and where re-analysis suggests the concurrent control can sometimes be omitted altogether without losing the study's key conclusions.",
+  "citation_keys": [
+   "Guffroy2025",
+   "Mecklenburg2023"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Guffroy2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Given the practical and ethical limitations on availability and/or use of NHPs and in line with the widely accepted guiding \"3Rs\" (replace, reduce, and refine) principles, many approaches have been considered to optimize toxicity study designs to meaningfully reduce the number of",
+    "study_system": "nonhuman primates; nonclinical toxicity study design; control-group reduction"
+   },
+   {
+    "cite_key": "Mecklenburg2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Our investigation has demonstrated that out of 22 parameters with statistical difference in the fixed-effect ANOVA /Dunnett’s test, 82% could be confirmed using the mixed-design ANOVA.",
+    "study_system": "non-human primates; (sub)chronic toxicity studies; concurrent vehicle control omission"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "Minor scope imprecision: the package describes Mecklenburg2023's 20 studies as '(sub)chronic' (a mix of subchronic and chronic NHP studies); the prose labels all twenty 'sub-chronic'. The 82% (18/22 parameters) and 'all ",
+    "fix": "Change 'twenty sub-chronic non-human-primate studies' to 'twenty subchronic and chronic non-human-primate studies'."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_e55cc670e71ad48a",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Adjacent reduction strategies that reuse accumulated study experience rather than control animals per se — trimming redundant recovery cohorts or shortening chronic studies — point the same way: a cross-company review found recovery animals included in roughly two-thirds of monoclonal-antibody safety studies, often without justification, and larger surveys concluded that chronic studies revealed no new toxicities of human concern for the large majority of molecules, supporting shorter designs and fewer animals.",
+  "citation_keys": [
+   "Prior2023",
+   "Sewell2014",
+   "Prior2024",
+   "Booler2026",
+   "SalianMehta2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Prior2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Recovery animals were included in 68% of FIH-enabling and 69% of later-development studies, often in multiple studies in the same program.",
+    "study_system": "monoclonal antibodies; recovery animals; NC3Rs/EPAA/MEB + 14 companies"
+   },
+   {
+    "cite_key": "Sewell2014",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Data on 137 compounds (including 53 biologicals and 78 small molecules) from 259 studies showed wide variation in where, when and why recovery animals were included.",
+    "study_system": "recovery animals; 30 organisations (pharma, CRO, academia, regulators)"
+   },
+   {
+    "cite_key": "Prior2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "For over 85% (96/111) of standard/modified mAbs, studies ≥ 6-months did not reveal any new toxicities of human concern, and for 71% of mAbs, no toxicities or no new toxicities were noted in chronic studies compared to FIH-enabling study findings.",
+    "study_system": "monoclonal antibodies; chronic toxicity study designs; MEB/NC3Rs survey"
+   },
+   {
+    "cite_key": "Booler2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "A retrospective analysis of 15 intravitreal biotherapeutic programs was conducted to identify strategies for reducing animal use in ocular drug development.",
+    "study_system": "ocular biotherapeutics; intravitreal repeat-dose toxicity programs"
+   },
+   {
+    "cite_key": "SalianMehta2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The case studies presented in this paper demonstrate increasing alignment with the Society of Toxicologic Pathology recommendations (2013) towards (1) excluding recovery phase cohorts by default (include only when scientifically justified), (2) minimizing the number of recovery g",
+    "study_system": "repeat-dose toxicity studies; recovery animals; IQ Consortium survey"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ }
+]

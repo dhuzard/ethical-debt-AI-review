@@ -1,0 +1,1319 @@
+[
+ {
+  "claim_id": "clm_d6650c0c0134c9ae",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The RITA shared industry database standardised tissue sampling, nomenclature and peer review, and by around 2002 already held 10,896 rats from 106 studies with more than 17,604 primary tumours to contextualise rare or marginal findings, a model soon copied by the North American Control Animal Database.",
+  "citation_keys": [
+   "Deschl2002",
+   "Keenan2002"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Deschl2002",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In the RITA database, there are currently 10,896 rats from 106 studies with more than 17,604 primary tumors and 16,551 pre-neoplastic lesions.",
+    "study_system": "rats (Wistar, Sprague-Dawley) and mice; RITA shared historical control database"
+   },
+   {
+    "cite_key": "Keenan2002",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Utilizing the model established by RITA and working with the International Life Sciences Institute (ILSI), companies with laboratories in North America formed a working group in 1994 to establish and maintain a database of neoplastic and proliferative lesions from control animals",
+    "study_system": "rat and mouse control animals; North American Control Animal Database (NACAD)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_e4f34d37b37c3feb",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The Innovative Medicines Initiative built on this foundation at a far larger scale: the eTRANSAFE project integrated some 6,500 legacy studies from the earlier eTOX effort and collected and analysed control and toxicology data from more than 60,000 rats, 1,300 dogs and 500 monkeys expressly to make virtual control groups feasible.",
+  "citation_keys": [
+   "Pognan2021",
+   "Moresis2024"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Pognan2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Further in vivo animal toxicology study data have been made available through the integration of 6500 preclinical studies from the eTOX project [] into the eTRANSAFE ToxHub System.",
+    "study_system": "preclinical toxicology studies; eTRANSAFE/eTOX shared database; 13 pharma companies"
+   },
+   {
+    "cite_key": "Moresis2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The opportunities and challenges for implementing VCGs were the focus of the IMI eTRANSAFE project, which has collected and analyzed drug safety and toxicology data from more than 60,000 rats, 1,300 dogs and 500 monkeys (see ref.and more recently ref.).",
+    "study_system": "nonclinical in vivo animal data; eTRANSAFE control database; FAIR metadata"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_b189646da5515b70",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "On the regulatory side, the FDA CDER repository of studies submitted in the SEND standard grew from more than 1,800 studies queried in 2020 to over 10,000 datasets a few years later, and individual corporate databases have supported meta-analyses aggregating tens of thousands of animals — one spanning 24,358 animals and more than 232,000 histological observations across hundreds of studies.",
+  "citation_keys": [
+   "Carfagna2020b",
+   "Snyder2024",
+   "MunozMuriedas2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Carfagna2020b",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "FDA CDER's repository of >1800 sponsor-submitted studies in SEND format was queried using the statistical programming language R to gain insight into how the CDISC SEND Implementation Guides are being applied across the industry.",
+    "study_system": "CDISC SEND datasets (FDA CDER); cross-study historical control extraction"
+   },
+   {
+    "cite_key": "Snyder2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The background incidence rate of liver necrosis was found to be higher, approximately 8%, in older rats at ages matching terminal sacrifice during 6-month studies.",
+    "study_system": "control rats; CDISC SEND datasets (FDA CDER); sendigR cross-study analysis"
+   },
+   {
+    "cite_key": "MunozMuriedas2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "These studies represented a total of 24,358 animals (17,256 treated and 7,102 controls) and a total of 232,352 histological observations across 271 tissues.",
+    "study_system": "corporate preclinical toxicity studies (833 studies, 416 compounds, multiple species)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_144d32f22dcee2ea",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The successor project VICT3R is explicitly assembling a standardised, annotated control-animal database with the stated aim of obtaining regulatory acceptance for the VCG concept.",
+  "citation_keys": [
+   "StegerHartmann2024",
+   "Sanz2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "StegerHartmann2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The new Innovative Health Initiative (IHI) project VICT3R aims to address these challenges and to obtain regulatory acceptance for the VCG concept.",
+    "study_system": "cross-company control-animal database; toxicology; 3Rs reduction initiative"
+   },
+   {
+    "cite_key": "Sanz2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The VICT3R project is using these shared data for generating virtual control groups to be applied in nonclinical drug safety assessment.",
+    "study_system": "nonclinical drug safety data-sharing initiatives (eTOX, eTRANSAFE, VICT3R)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_bac3a659f4c968a6",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Querying the SEND repository showed that the frequency with which required fields were actually populated ranged from 6% to 99%, and that fields such as vehicle name, animal supplier and test facility could not be extracted automatically without further harmonisation.",
+  "citation_keys": [
+   "Carfagna2020b",
+   "Carfagna2020a"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Carfagna2020b",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "FDA CDER's repository of >1800 sponsor-submitted studies in SEND format was queried using the statistical programming language R to gain insight into how the CDISC SEND Implementation Guides are being applied across the industry.",
+    "study_system": "CDISC SEND datasets (FDA CDER); cross-study historical control extraction"
+   },
+   {
+    "cite_key": "Carfagna2020a",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The SEND Implementation Guide (SENDIG) allows for considerable flexibility in how data is represented; interpretation of these guidelines has led to significant variability in the approach to SEND dataset creation.",
+    "study_system": "SEND (Standard for Exchange of Nonclinical Data) toxicology datasets"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_7e9bcb4122e8d4f5",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Pooling control data across laboratories presupposes a shared diagnostic language, which is why the standardised INHAND lesion nomenclature — extended over the past decade to non-human primates, dogs, minipigs, rabbits and reproductive tissues — is a precondition for any cross-study control database.",
+  "citation_keys": [
+   "Colman2021",
+   "Woicke2021",
+   "Skydsgaard2021",
+   "Schafer2024",
+   "Keenan2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Colman2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The purpose of this publication is to provide a standardized nomenclature for classifying microscopic lesions observed in most tissues and organs from the nonhuman primate used in nonclinical safety studies.",
+    "study_system": "nonhuman primate (cynomolgus macaque) nonclinical safety studies (INHAND)"
+   },
+   {
+    "cite_key": "Woicke2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The purpose of this publication is to provide a standardized nomenclature for classifying lesions observed in most tissues and organs from the dog used in nonclinical safety studies.",
+    "study_system": "dog nonclinical safety studies (INHAND)"
+   },
+   {
+    "cite_key": "Skydsgaard2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The purpose of this publication is to provide a standardized nomenclature for classifying microscopic lesions observed in most tissues and organs from the minipig used in nonclinical safety studies.",
+    "study_system": "minipig nonclinical safety studies (INHAND)"
+   },
+   {
+    "cite_key": "Schafer2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The purpose of this publication is to provide a standardized nomenclature for classifying lesions observed in ocular tissues (eyes and glands and ocular adnexa) from laboratory nonrodent species (rabbits, dogs, minipigs, and nonhuman primates) used in nonclinical safety studies w",
+    "study_system": "nonrodent species (rabbit, dog, minipig, NHP); ocular tissues; INHAND nomenclature"
+   },
+   {
+    "cite_key": "Keenan2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This guide provides a higher-level hierarchy of tumor types or categories correlating the tumor names from the International Harmonization of Nomenclature and Diagnostic Criteria (INHAND) publications with those available in the NEOPLASM controlled terminology (CT) code list in S",
+    "study_system": "rodent carcinogenicity tumour data; INHAND-to-SEND terminology mapping"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_dac525efb1fcb871",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "That nomenclature is neither complete nor static: forum opinions note gaps requiring new terms for medical-device studies, revisions continue to appear a decade after the original tissue publications, and satellite symposia have documented cases where neither INHAND nor SEND contained a term matching an observed lesion.",
+  "citation_keys": [
+   "Schuh2025",
+   "Bachchair2025",
+   "Quist2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Schuh2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The International Harmonization of Nomenclature and Diagnostic Criteria for Lesions (INHAND) initiative has established globally accepted terminology for proliferative and nonproliferative lesions in various laboratory animal species.",
+    "study_system": "laboratory animal lesions; medical devices; INHAND nomenclature"
+   },
+   {
+    "cite_key": "Bachchair2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "After 10 years of practical use, the scientific community requested from the organ working group (OWG) a review of the terminology and criteria for diagnosing ovarian sex cord/stromal lesions.",
+    "study_system": "rat and mouse female reproductive system (INHAND nomenclature revision)"
+   },
+   {
+    "cite_key": "Quist2023",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The Moderna pathology team found themselves in a difficult situation for this study, as there was not an INHAND or SEND diagnosis compatible with the features of this finding.",
+    "study_system": "nonclinical toxicologic pathology (symposium case studies)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_27adc3252d53e763",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Efforts to define a minimal metadata set for repurposing nonclinical in vivo data are a direct response to this friction.",
+  "citation_keys": [
+   "Moresis2024"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Moresis2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The opportunities and challenges for implementing VCGs were the focus of the IMI eTRANSAFE project, which has collected and analyzed drug safety and toxicology data from more than 60,000 rats, 1,300 dogs and 500 monkeys (see ref.and more recently ref.).",
+    "study_system": "nonclinical in vivo animal data; eTRANSAFE control database; FAIR metadata"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_df5468ef6ed8dab0",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The persistent obstacle is as much commercial as technical: the single biggest barrier to building shared preclinical safety databases has been the unwillingness of sponsors to share proprietary data, and even with the data assembled, reuse has intrinsic analytical limits — a likelihood-ratio analysis of the same eTOX database found inter-species histopathological concordance to be rare.",
+  "citation_keys": [
+   "StegerHartmann2018",
+   "Wright2023a"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "StegerHartmann2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Whereas toxicity data collection and sharing is now common practice for chemicals falling under the European REACH regulation (Registration, Evaluation, Authorisation and Restriction of Chemicals), the biggest hurdle for establishing preclinical safety databases for pharmaceutica",
+    "study_system": "shared preclinical toxicity database (eTOX); 13 pharmaceutical companies"
+   },
+   {
+    "cite_key": "Wright2023a",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "For example, liver toxicity concordance in short-term studies between female rats and dogs observed an average LR+ of 1.84, and an average LR- of 0.73.",
+    "study_system": "four preclinical species; eTOX database; inter-species histopathology concordance"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_00b05743ef19bf00",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "A large simulation replacing concurrent controls across forty Wistar Han rat studies found that VCGs reproduced effect-size decisions on liver enzymes with at least 90% agreement in 68.5% of comparisons, and that a hybrid design retaining half of the real controls raised full agreement from 46.9% to 76.7% while cutting full disagreement from 2.6% to 0.15%.",
+  "citation_keys": [
+   "DuchateauNguyen2026"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Degree of VCG-CCG concordance: the liver-enzyme simulation reports high agreement (68.5% of comparisons >=90%), whereas the clinical-pathology review reports high non-reproducibility (up to 49% of qua"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "DuchateauNguyen2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In 68.5% of all the pairwise comparisons performed there was at least 90% agreement in effect size estimate between analysis done with CCG and VCGs.",
+    "study_system": "Wistar Han rat toxicity studies; liver enzymes ALT/ALP/AST; VCG vs concurrent control simulation"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "Partial novel pairing. The 'substantial non-reproducibility for continuous clinical-pathology parameters' half is correctly supported by Adedeji2024 (the 31/40/49% clinical-pathology finding) and the general endpoint-dep",
+    "fix": "Add `Mecklenburg2023` to this pairing to support the dose-limiting-toxicities example, or drop the specific 'such as dose-limiting toxicities' clause and keep t"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_51b46ae592588859",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Re-analysing twenty sub-chronic non-human-primate studies with the concurrent control omitted, 82% of statistically significant parameter differences were confirmed by a mixed-design model, and all four dose-limiting toxicities were identifiable without any reference to the concurrent control.",
+  "citation_keys": [
+   "Mecklenburg2023"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Mecklenburg2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Our investigation has demonstrated that out of 22 parameters with statistical difference in the fixed-effect ANOVA /Dunnett’s test, 82% could be confirmed using the mixed-design ANOVA.",
+    "study_system": "non-human primates; (sub)chronic toxicity studies; concurrent vehicle control omission"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "Minor scope imprecision: the package describes Mecklenburg2023's 20 studies as '(sub)chronic' (a mix of subchronic and chronic NHP studies); the prose labels all twenty 'sub-chronic'. The 82% (18/22 parameters) and 'all ",
+    "fix": "Change 'twenty sub-chronic non-human-primate studies' to 'twenty subchronic and chronic non-human-primate studies'."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_ee5867b6b0158dd4",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "A retrospective study of nonrodent one-month studies went further, reporting that propensity-score-matched virtual controls yielded similar or higher sensitivity than concurrent controls to detect effects on body weight and clinical pathology when fold-change from baseline was used.",
+  "citation_keys": [
+   "Li2024a"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether VCGs preserve sensitivity for clinical-pathology endpoints: the nonrodent statistical study finds propensity-score-matched VCGs match or exceed concurrent-control sensitivity, whereas the clin"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Li2024a",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "When the fold change from baseline was used, VCGs yielded a similar or higher statistical sensitivity to detect test article relatedness than CCGs.",
+    "study_system": "dog and non-human primate; 1-month systemic toxicity studies; VCG vs CCG"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_4b4bc9b5c2830b82",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Set against these encouraging results is the clinical-pathology finding that when concurrent controls were replaced with virtual ones in three legacy studies, 31%, 40% and 49% of quantitative parameters became statistically non-reproducible.",
+  "citation_keys": [
+   "Adedeji2024"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Degree of VCG-CCG concordance: the liver-enzyme simulation reports high agreement (68.5% of comparisons >=90%), whereas the clinical-pathology review reports high non-reproducibility (up to 49% of qua",
+   "Whether VCGs preserve sensitivity for clinical-pathology endpoints: the nonrodent statistical study finds propensity-score-matched VCGs match or exceed concurrent-control sensitivity, whereas the clin"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Adedeji2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "When the CCG was replaced with VCG, the result showed that 31% (34 of 108 parameters), 40% (43 out of 107 parameters), and 49% (57 of 115 parameters) of the quantitative parameters were not statistically reproducible in the legacy studies A, B and C respectively ().",
+    "study_system": "rat toxicity legacy studies; clinical pathology; VCG vs concurrent control"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "Partial novel pairing. The 'substantial non-reproducibility for continuous clinical-pathology parameters' half is correctly supported by Adedeji2024 (the 31/40/49% clinical-pathology finding) and the general endpoint-dep",
+    "fix": "Add `Mecklenburg2023` to this pairing to support the dose-limiting-toxicities example, or drop the specific 'such as dose-limiting toxicities' clause and keep t"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_c835aff92c4fc77f",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "A liver-enzyme simulation reports that virtual and concurrent controls agree to within 90% on effect size in roughly two-thirds of comparisons, and that a hybrid design pushes full agreement above three-quarters.",
+  "citation_keys": [
+   "DuchateauNguyen2026"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Degree of VCG-CCG concordance: the liver-enzyme simulation reports high agreement (68.5% of comparisons >=90%), whereas the clinical-pathology review reports high non-reproducibility (up to 49% of qua"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "DuchateauNguyen2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In 68.5% of all the pairwise comparisons performed there was at least 90% agreement in effect size estimate between analysis done with CCG and VCGs.",
+    "study_system": "Wistar Han rat toxicity studies; liver enzymes ALT/ALP/AST; VCG vs concurrent control simulation"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "Partial novel pairing. The 'substantial non-reproducibility for continuous clinical-pathology parameters' half is correctly supported by Adedeji2024 (the 31/40/49% clinical-pathology finding) and the general endpoint-dep",
+    "fix": "Add `Mecklenburg2023` to this pairing to support the dose-limiting-toxicities example, or drop the specific 'such as dose-limiting toxicities' clause and keep t"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_1a7a58f99ebb1dd1",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "A review of proof-of-concept studies reports that up to 49% of quantitative clinical-pathology parameters become non-reproducible when the concurrent control is replaced.",
+  "citation_keys": [
+   "Adedeji2024"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Degree of VCG-CCG concordance: the liver-enzyme simulation reports high agreement (68.5% of comparisons >=90%), whereas the clinical-pathology review reports high non-reproducibility (up to 49% of qua",
+   "Whether VCGs preserve sensitivity for clinical-pathology endpoints: the nonrodent statistical study finds propensity-score-matched VCGs match or exceed concurrent-control sensitivity, whereas the clin"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Adedeji2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "When the CCG was replaced with VCG, the result showed that 31% (34 of 108 parameters), 40% (43 out of 107 parameters), and 49% (57 of 115 parameters) of the quantitative parameters were not statistically reproducible in the legacy studies A, B and C respectively ().",
+    "study_system": "rat toxicity legacy studies; clinical pathology; VCG vs concurrent control"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "Partial novel pairing. The 'substantial non-reproducibility for continuous clinical-pathology parameters' half is correctly supported by Adedeji2024 (the 31/40/49% clinical-pathology finding) and the general endpoint-dep",
+    "fix": "Add `Mecklenburg2023` to this pairing to support the dose-limiting-toxicities example, or drop the specific 'such as dose-limiting toxicities' clause and keep t"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_5fb85f62fac2f6fe",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The apparent contradiction shrinks once polarity is harmonised: Adedeji's 49% is a non-reproducibility rate in which higher is worse, whereas the 82% and 68.5% figures are concordance rates in which higher is better.",
+  "citation_keys": [
+   "Adedeji2024",
+   "Mecklenburg2023",
+   "DuchateauNguyen2026"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Degree of VCG-CCG concordance: the liver-enzyme simulation reports high agreement (68.5% of comparisons >=90%), whereas the clinical-pathology review reports high non-reproducibility (up to 49% of qua",
+   "Whether VCGs preserve sensitivity for clinical-pathology endpoints: the nonrodent statistical study finds propensity-score-matched VCGs match or exceed concurrent-control sensitivity, whereas the clin"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Adedeji2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "When the CCG was replaced with VCG, the result showed that 31% (34 of 108 parameters), 40% (43 out of 107 parameters), and 49% (57 of 115 parameters) of the quantitative parameters were not statistically reproducible in the legacy studies A, B and C respectively ().",
+    "study_system": "rat toxicity legacy studies; clinical pathology; VCG vs concurrent control"
+   },
+   {
+    "cite_key": "Mecklenburg2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Our investigation has demonstrated that out of 22 parameters with statistical difference in the fixed-effect ANOVA /Dunnett’s test, 82% could be confirmed using the mixed-design ANOVA.",
+    "study_system": "non-human primates; (sub)chronic toxicity studies; concurrent vehicle control omission"
+   },
+   {
+    "cite_key": "DuchateauNguyen2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In 68.5% of all the pairwise comparisons performed there was at least 90% agreement in effect size estimate between analysis done with CCG and VCGs.",
+    "study_system": "Wistar Han rat toxicity studies; liver enzymes ALT/ALP/AST; VCG vs concurrent control simulation"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "Partial novel pairing. The 'substantial non-reproducibility for continuous clinical-pathology parameters' half is correctly supported by Adedeji2024 (the 31/40/49% clinical-pathology finding) and the general endpoint-dep",
+    "fix": "Add `Mecklenburg2023` to this pairing to support the dose-limiting-toxicities example, or drop the specific 'such as dose-limiting toxicities' clause and keep t"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_903f059284ea4ece",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "This is why cautious voices insist that VCGs be assessed for whether they lower a study's sensitivity to detect adverse effects, thresholds or biomarkers before they are trusted for regulatory decisions, and why the anatomic-pathology community argues that validation demands running the virtual and full concurrent control in parallel across varying durations, with digital histopathology slides included in any validated database.",
+  "citation_keys": [
+   "StegerHartmann2023",
+   "Golden2023",
+   "Grevot2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "StegerHartmann2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "While the ethical and cost-saving aspects of such a concept are immediately evident, the potential challenges need to be carefully considered to avoid any effect which could lower the sensitivity of an animal study to detect adverse events, safety thresholds, target organs, or bi",
+    "study_system": "regulated animal safety data; virtual control groups; sensitivity assessment"
+   },
+   {
+    "cite_key": "Golden2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Due to the highly controlled environment in which the studies are performed and the homogeneity of the animal collectives it has been proposed to use the historical data to build so-called virtual control groups, which could partly or entirely replace the concurrent control group",
+    "study_system": "regulatory animal safety studies; VCG implementation prerequisites"
+   },
+   {
+    "cite_key": "Grevot2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Ultimately, the most important step lies in the validation of the concept by performing VCG and the full control group in parallel for studies of varying duration over a reasonable timespan to confirm there are no differences in outcomes (dual study design).",
+    "study_system": "nonclinical toxicity studies; anatomic pathology; VCG validation (dual study design)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_aa7df29718d883ef",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Reused control data carry an implicit expiration date, ceasing to describe current husbandry, strains and assays as those drift, and the empirical record shows this drift is neither hypothetical nor small.",
+  "citation_keys": [
+   "Barrett2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Barrett2025",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Data expiration policies in general [4] are well appreciated but these often refer to both currency and value–when data no longer represent recent data of interest.",
+    "study_system": "drug-development data/models/tools; data expiration policy (conceptual)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_38235df2df6fd46e",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Analysis of the largest curated multi-company control database — 457,605 data points from 1,288 Han Wistar rat studies — found that study year was the single most influential covariate on clinical laboratory parameters, outweighing both company and body-weight class.",
+  "citation_keys": [
+   "Kellner2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Temporal stability of historical control data: the rasH2 tumor-incidence analysis argues for minimal drift over a decade, while the multi-company clinical-pathology database finds study year to be the"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Kellner2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In both sexes, the study year emerged as the most important factor with a medium effect (mean effect size: 0.127 for females, 0.117 for males), followed by company (0.097 for females, 0.102 for males) and body weight class (small effect: 0.047 for females, medium effect: 0.089 in",
+    "study_system": "Han Wistar rat control groups; 5 European pharmaceutical companies; ViCoG database"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_783e4278cb6093c9",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "A single case study traced part of this temporal signal to a concrete cause: a change in anaesthesia protocol from carbon dioxide to isoflurane after 2017 shifted control serum-calcium means by an amount that was overwhelmingly significant and would silently bias any VCG spanning the change.",
+  "citation_keys": [
+   "Gurjanov2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Gurjanov2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Before 2017, the mean values of calcium in serum were at (2.87 ± 0.14) mmol/L (95% CI [2.85, 2.90]) and dropped afterwards to (2.55 ± 0.07) mmol/L (95% CI [2.53, 2.56]).",
+    "study_system": "male Wistar rats; serum calcium; legacy toxicity study; VCG feasibility"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_9276e86dee341324",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Pooling control clinical-chemistry across five companies revealed systematic per-company offsets from the combined mean, and background lesion rates depend heavily on study duration — spontaneous liver necrosis in control rats rose from about 2% at ages matching one-month studies to about 8% at six-month terminal-sacrifice ages.",
+  "citation_keys": [
+   "Kadyrov2025",
+   "Snyder2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Kadyrov2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The mean value for each clinical parameter in the control animals at 24 h, 48 h and 168 h post-dose (n = 2834), expressed as the difference in the mean of the individual company compared to the total mean for all companies combined, were tabulated (Supplementary Table S2) and vis",
+    "study_system": "rat acute toxicity control clinical chemistry across five companies/labs"
+   },
+   {
+    "cite_key": "Snyder2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The background incidence rate of liver necrosis was found to be higher, approximately 8%, in older rats at ages matching terminal sacrifice during 6-month studies.",
+    "study_system": "control rats; CDISC SEND datasets (FDA CDER); sendigR cross-study analysis"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_8ab6a69e67124113",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Even within one endpoint, a telemetry study found same-laboratory historical controls usable to detect a QTc effect but cross-laboratory controls unusable because of time-course differences between two facilities' vehicle data.",
+  "citation_keys": [
+   "Abernathy2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Abernathy2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, differences in the time course of QTc effect in the vehicle data from the two laboratories meant that it was not possible to use cross-lab controls.",
+    "study_system": "non-human primates; cardiovascular telemetry QTc; contemporary vs historical vs cross-lab controls"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_2d4ea425b26a600b",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "A cross-study comparison of rasH2 mouse tumour incidences found them remarkably similar over more than a decade, and a separate database of 1,420 rasH2 mice reported similarly low, stable spontaneous incidences, both arguing that the model shows minimal drift and therefore supports reliable historical control data.",
+  "citation_keys": [
+   "Nambiar2012",
+   "Paranjpe2013"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Temporal stability of historical control data: the rasH2 tumor-incidence analysis argues for minimal drift over a decade, while the multi-company clinical-pathology database finds study year to be the"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Nambiar2012",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The remarkable similarity in the tumor incidences in multiple rasH2 studies over a decade and the observed stability of the inserted human gene are important indicators of the minimal drift in this model.",
+    "study_system": "rasH2 mice; 6-month carcinogenicity; cross-study HCD comparison"
+   },
+   {
+    "cite_key": "Paranjpe2013",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The most common spontaneous tumors in the Tg.rasH2 mice were alveolar bronchiolar adenoma of the lungs (10.14% in males and 5.77% in females) and hemangiosarcoma of the spleen (3.66% in both males and females).",
+    "study_system": "Tg.rasH2 mice; 26 studies; historical control database"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_9a0460aedf12c503",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "A multi-company clinical-pathology analysis reached the opposite emphasis, finding study year the most influential covariate of all on control laboratory values.",
+  "citation_keys": [
+   "Kellner2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Temporal stability of historical control data: the rasH2 tumor-incidence analysis argues for minimal drift over a decade, while the multi-company clinical-pathology database finds study year to be the"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Kellner2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In both sexes, the study year emerged as the most important factor with a medium effect (mean effect size: 0.127 for females, 0.117 for males), followed by company (0.097 for females, 0.102 for males) and body weight class (small effect: 0.047 for females, medium effect: 0.089 in",
+    "study_system": "Han Wistar rat control groups; 5 European pharmaceutical companies; ViCoG database"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_b4a75c180a4f03c6",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Spontaneous Leydig-cell adenoma incidence in control rats ranges from near 100% in F344 to 13.7% in Wistar and 4.2% in Sprague-Dawley, and is further modulated by breeder, diet and age; female mononuclear-cell leukaemia backgrounds differ roughly eighteen-fold between Sprague-Dawley and F344/N strains; pituitary adenomas and adrenal hyperplasias reach incidences well above half of animals in some strains and sexes; and body-weight and diet control alone shift terminal background liver-tumour incidence into a 15–20% band.",
+  "citation_keys": [
+   "Nolte2011",
+   "Dinse2010",
+   "Kumar2023",
+   "Boyle2018",
+   "Leakey2003"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Nolte2011",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "High incidences of close to 100% have been found in F344 rats, while the mean incidence was 4.2% in Sprague-Dawley rats and 13.7% in Wistar rats.",
+    "study_system": "rats (F344, Sprague-Dawley, Wistar); RITA historical control database; Leydig cell tumors"
+   },
+   {
+    "cite_key": "Dinse2010",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Our analyses revealed statistically significant strain differences, with female SD rats having lower incidence rates for clitoral gland adenoma (0.2% vs. 5.8%) and mononuclear cell leukemia (0.9% vs. 16.7%) and higher incidence rates for mammary gland fibroadenoma (67.4% vs. 48.4",
+    "study_system": "NTP historical control data, female SD vs F344/N rats"
+   },
+   {
+    "cite_key": "Kumar2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Data collected from approximately 1800 male and 1800 female Sprague-Dawley (SD) rats used in 104-week carcinogenicity studies were archived in a historical control database at Labcorp Early Development, Inc, and the neoplastic microscopic observation data from these rats were ret",
+    "study_system": "Sprague-Dawley rats; 104-week carcinogenicity; historical control database"
+   },
+   {
+    "cite_key": "Boyle2018",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Incidence of this finding ranged from 56% to 79% in males and 88% to 100% in females, with an incidence average of 62% in males and 93% in females.",
+    "study_system": "control Tg.rasH2 mice; nine 26-week carcinogenicity studies; two CROs"
+   },
+   {
+    "cite_key": "Leakey2003",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In B6C3F1 mice, the rate of body growth influences susceptibility to liver neoplasia and large variations in body weight can complicate the interpretation of bioassay data.",
+    "study_system": "B6C3F1 mouse chronic bioassay background liver tumor incidence"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 4,
+    "issue": "The sentence frames a list as 'strain-dependent' background variability drawn mostly from rat data (Leydig-cell/MNCL/pituitary in rats), but the Leakey2003 15-20% liver-tumour figure is from B6C3F1 mice (and Boyle2018 fr",
+    "fix": "Optionally note the species shift, e.g. '...and, in B6C3F1 mice, body-weight and diet control alone shift terminal background liver-tumour incidence into a 15-2"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_2227162b04bdc115",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "Layered on top of this biological variability is measurement variability: a review of in vivo toxicology found rodent carcinogenicity outcomes only moderately replicable — 65–86% between sexes of one species and 36–74% between rat and mouse — which caps how well any historical comparison can perform.",
+  "citation_keys": [
+   "Karmaus2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Karmaus2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The Hershberger and uterotrophic assays gave similar degrees of replicability: 72% and 74%, respectively (;).",
+    "study_system": "rodent carcinogenicity bioassays; between-study/between-species replicability of tumor outcomes"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 2,
+    "issue": "Quantitative claim not covered by the package's authoritative sentence. The verbatim evidence for Karmaus2026 supports only the Hershberger/uterotrophic figures (72% and 74%). The rodent-carcinogenicity concordance figur",
+    "fix": "Confirm the 65–86% and 36–74% carcinogenicity figures against the Karmaus2026 full text (Phase 16). If the full text does not carry both figures, cite the prima"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_a7e2fac252f8162b",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The same instability appears at the assay level, where a machine-learning analysis pinned the test-condition variables driving divergent genotoxicity outcomes for most compounds, and in developmental studies where litter structure must be treated as the statistical unit or pooled control data will inflate apparent effects; laboratories increasingly run dedicated studies purely to generate source-specific historical databases where published incidences are lacking.",
+  "citation_keys": [
+   "Raitano2026",
+   "Brown2026",
+   "Paranjpe2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Raitano2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "For 25 of these 31 compounds, the RF technique identified the most relevant variables associated with the different outcomes.",
+    "study_system": "OECD genotoxicity test guideline datasets; 31 compounds"
+   },
+   {
+    "cite_key": "Brown2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In rodents, Tanaka (2004) demonstrated that increasing litter size reduces fetal weight in mice, and Wurtman and Miller (1976) observed similar significant effects in male rats from 16‐pup litters compared to litters of 2, 4, 8, or 12.",
+    "study_system": "rodent developmental/reproductive toxicity; litter as experimental unit"
+   },
+   {
+    "cite_key": "Paranjpe2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We conducted a 26-week carcinogenicity study at our test facility on Tg.rasH2 mice sourced from CLEA Japan Inc., in a process to generate historical control database.",
+    "study_system": "Tg.rasH2 mice (CLEA Japan); 26-week carcinogenicity; HCD generation"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_3a444e16a19c729d",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The methodological literature has responded by moving away from binary inclusion or exclusion of historical data toward tiered, uncertainty-aware use within a weight-of-evidence assessment, and by trying to formalise how historical control limits should be computed — though reviewers note that after forty years of discussion many guidelines still fail to specify a reproducible method, leaving more open than solved.",
+  "citation_keys": [
+   "Kluxen2021",
+   "Kluxen2024",
+   "Menssen2023",
+   "Menssen2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Kluxen2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Overall, the critical value of HCD in toxicological bioassays is highlighted when used in a weight-of-evidence assessment.",
+    "study_system": "regulatory toxicology bioassays; historical control data methodology"
+   },
+   {
+    "cite_key": "Kluxen2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The current commentary shortly highlights 5 points that should be considered when working with HCD of rare events: 1) HCD database (HCDB) size, 2) the issue of rare events, 3) potential chronological patterns, 4) using point estimates to summarize HCD and 5) independence from tre",
+    "study_system": "toxicological bioassays; historical control data of rare events"
+   },
+   {
+    "cite_key": "Menssen2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "For reporting toxicology studies, the presentation of historical control data and the validation of the concurrent control group with respect to historical control limits have become requirements.",
+    "study_system": "toxicology studies (incl. genetic toxicology); historical control limits methodology"
+   },
+   {
+    "cite_key": "Menssen2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In this context it is required to validate the concurrent control group by so called historical control limits (HCL) which, based on the HCD aim to predict the outcome of the current control group with x % (usually 95%) of confidence [4, 5, 6].",
+    "study_system": "OECD genotoxicity guidelines (471/473/487/490); historical control data limits"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_e68c476cc68e9d26",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "A recent EFSA opinion proposes a stepwise quantitative decision scheme to harmonise how historical and concurrent control data are compiled and combined.",
+  "citation_keys": [
+   "Coja2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Coja2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This Opinion proposes a stepwise, quantitative approach using a decision scheme which includes seven distinct steps grouped in three overall clusters of activity: (1) planning, (2) evaluation of the HCD and (3) use of HCD.",
+    "study_system": "regulatory pesticide toxicity studies; historical control data; EFSA guidance"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_a4567c3d0f768b66",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The extreme range of a historical database is routinely used to argue that a marginal tumour increase is not adverse: a nano-titanium-dioxide inhalation study judged a bronchiolo-alveolar carcinoma increase non-adverse because it sat at the upper limit of the historical database, an expert glyphosate review discounted a significant high-dose increase because it fell within the historical range, and a re-analysis of vanadium pentoxide weakened a carcinogenicity signal to \"no evidence\" simply by adding twenty-five matched-diet studies that widened the historical range.",
+  "citation_keys": [
+   "Kasai2024",
+   "Williams2016",
+   "Starr2012"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether expanding the historical control range to reinterpret a carcinogenicity signal is sound: the vanadium re-analysis relies on a widened HCD range to downgrade a concurrent-control-based signal t"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Kasai2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, this incidence was at the upper limit of JBRC's historical control data.",
+    "study_system": "F344 rats; 2-year inhalation carcinogenicity; JBRC historical control data"
+   },
+   {
+    "cite_key": "Williams2016",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Glyphosate has been rigorously and extensively tested for carcinogenicity by administration to mice (five studies) and to rats (nine studies).",
+    "study_system": "Glyphosate rodent carcinogenicity (mouse and rat bioassays)"
+   },
+   {
+    "cite_key": "Starr2012",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This widened the HC tumor incidence ranges, thereby weakening the limited evidence for the carcinogenicity of inhaled V(2)O(5) in rats relative to HCs.",
+    "study_system": "Vanadium pentoxide carcinogenicity in F344/N rats (historical controls)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_2341e13dc54de552",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "An evaluation of two decades of pesticide assessments found historical control data used almost exclusively to avoid false-positive calls, never to guard against false negatives, and typically without testing the assumption that current and historical controls share an underlying distribution.",
+  "citation_keys": [
+   "Zarn2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Use of the HCD extreme-value range to override marginal treatment effects: the JMPR pesticide-practice analysis documents HCD ranges being used routinely and exclusively to avoid false-positive calls,"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Zarn2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We found that HCD was used routinely and exclusively to avoid potential false positive decisions regarding the treatment-relatedness of effects, mostly using the HCD range, i.e., the most extreme values, as a benchmark.",
+    "study_system": "regulatory pesticide toxicology (JMPR 2004-2021); historical control data use"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_d69684041ccb6f9b",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The opposite use — invoking historical controls to strengthen a positive finding, as when tumour incidences exceeding the historical range were read as evidence of carcinogenicity — is equally live and equally disputed.",
+  "citation_keys": [
+   "Ohnishi2013"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Ohnishi2013",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Thus, this study provided clear evidence of inhalation carcinogenicity for TCE in both rats and mice.",
+    "study_system": "1,1,1-trichloroethane inhalation carcinogenicity (F344 rats, BDF1 mice)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_efd5c6a51646f162",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "The Ramazzini Institute's Global Glyphosate Study interpreted treated-group tumour increases against its own and NTP historical control databases, reporting leukaemia at 1.63% in the current study versus 0.90% in 1,670 pooled historical controls, and used that comparison to support a treatment-related finding.",
+  "citation_keys": [
+   "Panzacchi2025"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Adequacy of historical control data for carcinogenicity conclusions: the Ramazzini Institute relies on its own (and NTP) historical control databases to support treatment-related tumor increases, wher"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Panzacchi2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The historical controls of the RI include 7142 animals (3572 males and 3570 females) from studies performed between 1984 and 2008, while NTP historical controls include 1180 animal (590 females and 590 males) from studies performed between 2011 and 2019.",
+    "study_system": "Sprague-Dawley rats; lifetime carcinogenicity; RI and NTP historical control databases"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_db368c270cea08e8",
+  "section_id": "sec-virtual-controls",
+  "claim_text": "In a separate Ramazzini study, however, EFSA rejected the carcinogenicity conclusions in part because the historical controls invoked dated from 1973–1983 — decades before the study — and because the design lacked an appropriate concurrent control and a contemporaneous historical database.",
+  "citation_keys": [
+   "Aguilar2017"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Adequacy of historical control data for carcinogenicity conclusions: the Ramazzini Institute relies on its own (and NTP) historical control databases to support treatment-related tumor increases, wher"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Aguilar2017",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The Panel noted that the data made available by the Ramazzini Institute as regards historical control data for neoplastic lesions were for the period 1973 up to 1983.",
+    "study_system": "Swiss mice carcinogenicity (sucralose); regulatory re-evaluation of historical control adequacy"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ }
+]

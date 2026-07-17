@@ -1,0 +1,1557 @@
+{
+  "schema_version": "1.0.0",
+  "decisions": [
+    {
+      "decision_id": "hr_001_standardisation_rationale",
+      "claim_id": "clm_98c345e56e47a9dc",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "notes": "Approved in the PR human-review pass. Split the compound claim and restored two verified passages already preserved in review provenance.",
+      "original_markdown": "The traditional prescription is rigorous standardisation — minimising genetic and environmental variation so that fewer animals are needed to detect an effect. {cite:p}`Serdar2021`",
+      "replacement_markdown": "One traditional prescription is rigorous standardisation of animals and experimental conditions. {cite:p}`Voelkl2020` One rationale for standardisation is that reducing genetic variability can reduce the number of animals required. {cite:p}`Serdar2021`",
+      "claims": [
+        {
+          "sentence_index": 1,
+          "claim_text": "One traditional prescription is rigorous standardisation of animals and experimental conditions.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": "experimental animals",
+            "computational": null,
+            "clinical": null,
+            "methodological": "standardisation of animals and experimental conditions",
+            "conceptual": "traditional experimental-design prescription"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "neutral",
+          "modality": "established",
+          "entities": [
+            {
+              "name": "rigorous standardisation",
+              "entity_type": "method",
+              "identifier": null
+            }
+          ],
+          "citation_contexts": [
+            {
+              "cite_key": "Voelkl2020",
+              "doi": "10.1038/s41583-020-0313-3",
+              "role": "direct_support",
+              "source_type": "narrative_review",
+              "bibliography_status": "verified",
+              "integrity_status": "verified_no_known_issue",
+              "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+              "integrity_check_source": "https://api.crossref.org/works/10.1038%2Fs41583-020-0313-3",
+              "passages": [
+                {
+                  "text": "the current gold standard of rigorous standardization in experimental animal research",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, standardisation framing",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1038/s41583-020-0313-3",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "direction_match": true,
+              "supports_claim_atoms": [
+                "a1"
+              ],
+              "independence_group": null,
+              "independence_basis": null,
+              "scope_match": "exact",
+              "notes": "Passage restored during approved human review from the preserved evidence-conflict record."
+            }
+          ],
+          "conflicts": []
+        },
+        {
+          "sentence_index": 2,
+          "claim_text": "One rationale for standardisation is that reducing genetic variability can reduce the number of animals required.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": "inbred experimental animals",
+            "computational": null,
+            "clinical": null,
+            "methodological": "sample-size rationale for reducing genetic variability",
+            "conceptual": "Reduction rationale"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "neutral",
+          "modality": "likely",
+          "entities": [
+            {
+              "name": "genetic variability",
+              "entity_type": "concept",
+              "identifier": null
+            },
+            {
+              "name": "sample size",
+              "entity_type": "outcome",
+              "identifier": null
+            }
+          ],
+          "citation_contexts": [
+            {
+              "cite_key": "Serdar2021",
+              "doi": "10.11613/bm.2021.010502",
+              "role": "direct_support",
+              "source_type": "narrative_review",
+              "bibliography_status": "verified",
+              "integrity_status": "verified_no_known_issue",
+              "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+              "integrity_check_source": "https://api.crossref.org/works/10.11613%2Fbm.2021.010502",
+              "passages": [
+                {
+                  "text": "Thus, far fewer animals are needed in the research because genetic differences that could affect the study results are kept to a minimum.",
+                  "passage_source": "full_text",
+                  "locator": "Full text, animal-studies sample-size discussion",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.11613/bm.2021.010502",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "direction_match": true,
+              "supports_claim_atoms": [
+                "a1"
+              ],
+              "independence_group": null,
+              "independence_basis": null,
+              "scope_match": "exact",
+              "notes": "Passage restored during approved human review from provenance/citation_verification_highrisk.json."
+            }
+          ],
+          "conflicts": []
+        }
+      ]
+    },
+    {
+      "decision_id": "hr_002_infrastructure_examples",
+      "claim_id": "clm_1968595dcf67fa15",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "notes": "Approved in the PR human-review pass. Retain the three source-backed infrastructure statements and remove the unsupported 'islands' and native-capture generalisations.",
+      "original_markdown": "Dedicated model-organism infrastructures show what good stewardship looks like — the Rat Genome Database curates multi-species genomic and phenotype data explicitly to fulfil FAIR, {cite:p}`Vedi2023` and the European Mouse Mutant Archive established ten Quality Principles to standardize the scientific evaluation of cryopreserved rodent disease models {cite:p}`Ehlich2025` — but these are islands, and metadata tooling for experimental in vivo work, such as the ISA framework in environmental-health science, is still being retrofitted onto fields that never captured it natively. {cite:p}`Nault2023`",
+      "replacement_markdown": "The Rat Genome Database describes its curated resource as advancing data reproducibility and fulfilling FAIR principles. {cite:p}`Vedi2023` INFRAFRONTIER/EMMA has developed ten Quality Principles tailored to cryopreserved rodent mutant strains. {cite:p}`Ehlich2025` Environmental-health metadata initiatives include development of the ISA framework and CEDAR. {cite:p}`Nault2023`",
+      "claims": [
+        {
+          "sentence_index": 1,
+          "claim_text": "The Rat Genome Database describes its curated resource as advancing data reproducibility and fulfilling FAIR principles.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": "rat and model-organism data",
+            "computational": "Rat Genome Database",
+            "clinical": null,
+            "methodological": "curated FAIR data resource",
+            "conceptual": "data reproducibility and FAIR principles"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [
+            {
+              "name": "Rat Genome Database",
+              "entity_type": "dataset",
+              "identifier": null
+            },
+            {
+              "name": "FAIR principles",
+              "entity_type": "concept",
+              "identifier": null
+            }
+          ],
+          "citation_contexts": [
+            {
+              "cite_key": "Vedi2023",
+              "doi": "10.1093/genetics/iyad042",
+              "role": "direct_support",
+              "source_type": "primary",
+              "bibliography_status": "verified",
+              "integrity_status": "verified_no_known_issue",
+              "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+              "integrity_check_source": "https://api.crossref.org/works/10.1093%2Fgenetics%2Fiyad042",
+              "passages": [
+                {
+                  "text": "providing a continuously improving, consistent, and high-quality data resource for researchers while advancing data reproducibility and fulfilling Findable, Accessible, Interoperable, and Reusable (FAIR) data principles.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, resource mission",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1093/genetics/iyad042",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "direction_match": true,
+              "supports_claim_atoms": [
+                "a1"
+              ],
+              "independence_group": null,
+              "independence_basis": null,
+              "scope_match": "exact",
+              "notes": "Passage retained during approved human review from the original verified citation context."
+            }
+          ],
+          "conflicts": []
+        },
+        {
+          "sentence_index": 2,
+          "claim_text": "INFRAFRONTIER/EMMA has developed ten Quality Principles tailored to cryopreserved rodent mutant strains.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": "cryopreserved rodent mutant strains",
+            "computational": null,
+            "clinical": null,
+            "methodological": "INFRAFRONTIER/EMMA Quality Principles",
+            "conceptual": "repository quality framework"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [
+            {
+              "name": "INFRAFRONTIER/EMMA",
+              "entity_type": "tool",
+              "identifier": null
+            },
+            {
+              "name": "Quality Principles",
+              "entity_type": "method",
+              "identifier": null
+            }
+          ],
+          "citation_contexts": [
+            {
+              "cite_key": "Ehlich2025",
+              "doi": "10.1007/s00335-025-10174-4",
+              "role": "direct_support",
+              "source_type": "primary",
+              "bibliography_status": "verified",
+              "integrity_status": "verified_no_known_issue",
+              "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+              "integrity_check_source": "https://api.crossref.org/works/10.1007%2Fs00335-025-10174-4",
+              "passages": [
+                {
+                  "text": "INFRAFRONTIER/EMMA has developed a set of ten Quality Principles specifically tailored to the unique requirements of cryopreserved rodent mutant strains.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, quality-framework description",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1007/s00335-025-10174-4",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "direction_match": true,
+              "supports_claim_atoms": [
+                "a1"
+              ],
+              "independence_group": null,
+              "independence_basis": null,
+              "scope_match": "exact",
+              "notes": "Passage retained during approved human review from the original verified citation context."
+            }
+          ],
+          "conflicts": []
+        },
+        {
+          "sentence_index": 3,
+          "claim_text": "Environmental-health metadata initiatives include development of the ISA framework and CEDAR.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": "environmental-health experimental data",
+            "computational": "ISA framework and CEDAR",
+            "clinical": null,
+            "methodological": "metadata collection tooling",
+            "conceptual": "FAIR environmental-health data"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [
+            {
+              "name": "ISA framework",
+              "entity_type": "tool",
+              "identifier": null
+            },
+            {
+              "name": "CEDAR",
+              "entity_type": "tool",
+              "identifier": null
+            }
+          ],
+          "citation_contexts": [
+            {
+              "cite_key": "Nault2023",
+              "doi": "10.1289/ehp11484",
+              "role": "direct_support",
+              "source_type": "narrative_review",
+              "bibliography_status": "verified",
+              "integrity_status": "verified_no_known_issue",
+              "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+              "integrity_check_source": "https://api.crossref.org/works/10.1289%2Fehp11484",
+              "passages": [
+                {
+                  "text": "metadata collection tools such as the Investigation, Study, Assay (ISA) framework, and the Center for Expanded Data Annotation and Retrieval.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, metadata-tool examples",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1289/ehp11484",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "direction_match": true,
+              "supports_claim_atoms": [
+                "a1"
+              ],
+              "independence_group": null,
+              "independence_basis": null,
+              "scope_match": "exact",
+              "notes": "Passage retained during approved human review from the original verified citation context."
+            }
+          ],
+          "conflicts": []
+        }
+      ]
+    },
+    {
+      "decision_id": "hr_003_arrive_reporting_audits",
+      "claim_id": "clm_7dc447ddc2898f93",
+      "section_id": "sec-governance",
+      "source_file": "content/08_governance_pathways.md",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "notes": "Approved in the PR human-review pass. Split the numerical findings, correct the Lin2024 study system, remove the unresolved Feng2024 citation and over-attributed absolute statement, and surface the method-dependent improvement conflict.",
+      "original_markdown": "In animal work the picture repeats: orthodontic studies scored a mean of 57.9 on ARRIVE years after its release; {cite:p}`Flitti2024` ARRIVE 2.0 audits of Parkinson's and cardiovascular models found only about two-fifths of items well reported and no study reporting sample-size calculations, adverse events, or humane endpoints; {cite:p}`Park2025, Lin2024` a nationwide before-and-after comparison found explicit 3Rs reporting crept from 0% to just 3.2% across a decade; {cite:p}`Kousholt2023` and kidney, liver-regeneration, veterinary-emergency, traditional-medicine, and bone-defect surveys converge on the same picture of persistent, barely-moving deficits in randomisation, blinding, sample-size justification, and control design. {cite:p}`Chatzimanouil2018, Tihanyi2019, Bergen2023, Feng2024, Reimann2026, Yi2026, Majdi2025, Laing2026`",
+      "replacement_markdown": "An audit of orthodontic animal studies reported a mean ARRIVE score of 57.9. {cite:p}`Flitti2024` In a Parkinson's-disease animal-model review, 15 of 38 ARRIVE 2.0 items had compliance levels of 80–100%. {cite:p}`Park2025` A broader audit of interventional animal experiments found significant post-ARRIVE improvement in 15 of 38 reporting subitems. {cite:p}`Lin2024` A nationwide comparison found explicit 3Rs reporting increased from zero publications in 2009 to 3.2% in 2018. {cite:p}`Kousholt2023` Manual audits across several animal-research domains continue to report deficits in randomisation, sample-size justification, control design, or related safeguards; however, the magnitude and direction of change vary by field and measurement method. {cite:p}`Chatzimanouil2018, Tihanyi2019, Bergen2023, Reimann2026, Yi2026, Majdi2025, Laing2026, Menke2022`",
+      "claims": [
+        {
+          "sentence_index": 6,
+          "claim_text": "An audit of orthodontic animal studies reported a mean ARRIVE score of 57.9.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "orthodontic animal studies",
+            "computational": null,
+            "clinical": null,
+            "methodological": "ARRIVE reporting audit",
+            "conceptual": "reporting quality"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "neutral",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Flitti2024"
+          ],
+          "context_overrides": {
+            "Flitti2024": {
+              "scope_match": "exact"
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 7,
+          "claim_text": "In a Parkinson's-disease animal-model review, 15 of 38 ARRIVE 2.0 items had compliance levels of 80–100%.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "Parkinson's-disease animal models",
+            "computational": null,
+            "clinical": null,
+            "methodological": "ARRIVE 2.0 compliance review",
+            "conceptual": "reporting quality"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "neutral",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Park2025"
+          ],
+          "context_overrides": {
+            "Park2025": {
+              "scope_match": "exact"
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 8,
+          "claim_text": "A broader audit of interventional animal experiments found significant post-ARRIVE improvement in 15 of 38 reporting subitems.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "interventional animal experiments",
+            "computational": null,
+            "clinical": null,
+            "methodological": "pre/post ARRIVE reporting audit",
+            "conceptual": "reporting improvement"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Lin2024"
+          ],
+          "context_overrides": {
+            "Lin2024": {
+              "scope_match": "exact"
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 9,
+          "claim_text": "A nationwide comparison found explicit 3Rs reporting increased from zero publications in 2009 to 3.2% in 2018.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "animal research publications",
+            "computational": null,
+            "clinical": null,
+            "methodological": "nationwide before-and-after reporting comparison",
+            "conceptual": "explicit 3Rs reporting"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Kousholt2023"
+          ],
+          "context_overrides": {
+            "Kousholt2023": {
+              "scope_match": "exact"
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 10,
+          "claim_text": "Manual audits across several animal-research domains continue to report deficits in randomisation, sample-size justification, control design, or related safeguards; however, the magnitude and direction of change vary by field and measurement method.",
+          "claim_type": "review_synthesis",
+          "claim_scope": {
+            "biological": "multiple animal-research domains",
+            "computational": "automated whole-literature reporting index",
+            "clinical": null,
+            "methodological": "manual domain audits compared with automated reporting metrics",
+            "conceptual": "heterogeneous reporting-quality trends"
+          },
+          "scope_status": "minor_difference_qualified",
+          "claim_polarity": "mixed",
+          "modality": "contested",
+          "independence_reviewed": true,
+          "independence_basis": "Human review retained seven domain-specific audits from distinct bibliography author groups; shared authors are still conservatively grouped by the migration script.",
+          "entities": [],
+          "citation_context_keys": [
+            "Chatzimanouil2018",
+            "Tihanyi2019",
+            "Bergen2023",
+            "Reimann2026",
+            "Yi2026",
+            "Majdi2025",
+            "Laing2026"
+          ],
+          "additional_citation_contexts": [
+            {
+              "cite_key": "Menke2022",
+              "doi": "10.2196/37324",
+              "role": "contradictory",
+              "source_type": "primary",
+              "bibliography_status": "verified",
+              "integrity_status": "verified_no_known_issue",
+              "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+              "integrity_check_source": "https://api.crossref.org/works/10.2196%2F37324",
+              "passages": [
+                {
+                  "text": "Between 1997 and 2020 (where data were readily available in our data set), rigor and transparency measures showed general improvement (RTI 2.29 to 4.13), suggesting that authors are taking the need for improved reporting seriously.",
+                  "passage_source": "full_text",
+                  "locator": "Full text, longitudinal RTI result",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.2196/37324",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "direction_match": true,
+              "supports_claim_atoms": [
+                "a1"
+              ],
+              "independence_group": null,
+              "independence_basis": null,
+              "scope_match": "broader",
+              "notes": "Contrasting whole-literature automated index retained during approved human review to qualify the domain-specific manual-audit trend."
+            }
+          ],
+          "conflicts": [
+            {
+              "conflict_type": "citation_key",
+              "target_id": "Menke2022",
+              "notes": "Whole-literature automated scoring detects improvement while domain-specific manual audits report persistent item-level deficits; the divergence is method- and field-dependent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "decision_id": "hr_004_nih_dmsp_scope",
+      "claim_id": "clm_e1bdcc8acd01c060",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "notes": "Approved in the PR human-review pass. Scope the findings to the single academic medical center, separate plan completeness from the template comparison, and remove the unsupported temporal trend.",
+      "original_markdown": "Under the NIH Data Management and Sharing Policy, 79.3% of submitted plans addressed all six required elements, and structured templates outperformed free-form ones {cite:p}`Hamidi2025` — formal compliance is high and improving.",
+      "replacement_markdown": "At one academic medical center, 79.3% of 358 NIH Data Management and Sharing Plans examined during an 18-month implementation study addressed all six required elements. {cite:p}`Hamidi2025` Within the same institutional study, structured templates produced more policy-conformant plans than unstructured approaches. {cite:p}`Hamidi2025`",
+      "claims": [
+        {
+          "sentence_index": 2,
+          "claim_text": "At one academic medical center, 79.3% of 358 NIH Data Management and Sharing Plans examined during an 18-month implementation study addressed all six required elements.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": null,
+            "computational": null,
+            "clinical": "one US academic medical center",
+            "methodological": "18-month institutional NIH DMS Policy implementation study",
+            "conceptual": "plan completeness"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Hamidi2025"
+          ],
+          "context_overrides": {
+            "Hamidi2025": {
+              "scope_match": "exact"
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 3,
+          "claim_text": "Within the same institutional study, structured templates produced more policy-conformant plans than unstructured approaches.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": null,
+            "computational": null,
+            "clinical": "one US academic medical center",
+            "methodological": "structured versus unstructured DMSP templates",
+            "conceptual": "NIH policy conformance"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Hamidi2025"
+          ],
+          "context_overrides": {
+            "Hamidi2025": {
+              "scope_match": "exact",
+              "passages": [
+                {
+                  "text": "Unstructured DMSPs consistently underperformed compared to structured DMSPs.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, structured-versus-unstructured result",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1017/cts.2025.10212",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          },
+          "conflicts": []
+        }
+      ]
+    },
+    {
+      "decision_id": "hr_005_vcg_endpoint_concordance",
+      "claim_id": "clm_4e3de3e27d28a4ec",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "notes": "Approved in the PR human-review pass. Replace the unsupported exact clinical/preclinical analogy and causal mechanism with scoped, endpoint-specific findings that disclose the conflicting virtual-control evidence.",
+      "original_markdown": "The parallel to preclinical VCGs is exact: the hybrid design that retained half the real controls outperformed the full-replacement design {cite:p}`DuchateauNguyen2026` for the same reason that dynamic borrowing outperforms static pooling — partial reliance on concurrent data hedges against the drift that pure reuse cannot detect.",
+      "replacement_markdown": "In a Wistar Han rat liver-enzyme analysis, 68.5% of concurrent-versus-virtual-control comparisons achieved at least 90% agreement in effect-size estimates. {cite:p}`DuchateauNguyen2026` However, a separate review found that 31–49% of quantitative clinical-pathology parameters were not reproducible when concurrent controls were fully replaced by virtual controls. {cite:p}`Adedeji2024`",
+      "claims": [
+        {
+          "sentence_index": 7,
+          "claim_text": "In a Wistar Han rat liver-enzyme analysis, 68.5% of concurrent-versus-virtual-control comparisons achieved at least 90% agreement in effect-size estimates.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "Wistar Han rats",
+            "computational": "concurrent-versus-virtual-control comparison",
+            "clinical": null,
+            "methodological": "liver-enzyme effect-size agreement analysis",
+            "conceptual": "virtual-control concordance"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "DuchateauNguyen2026"
+          ],
+          "context_overrides": {
+            "DuchateauNguyen2026": {
+              "scope_match": "exact"
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 8,
+          "claim_text": "However, a separate review found that 31–49% of quantitative clinical-pathology parameters were not reproducible when concurrent controls were fully replaced by virtual controls.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "legacy preclinical toxicity studies",
+            "computational": "full replacement of concurrent controls with virtual controls",
+            "clinical": null,
+            "methodological": "quantitative clinical-pathology reproducibility analysis",
+            "conceptual": "endpoint-specific virtual-control discordance"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "negative",
+          "modality": "contested",
+          "entities": [],
+          "additional_citation_contexts": [
+            {
+              "cite_key": "Adedeji2024",
+              "doi": "10.1177/01926233241300310",
+              "role": "direct_support",
+              "source_type": "primary",
+              "bibliography_status": "verified",
+              "integrity_status": "verified_no_known_issue",
+              "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+              "integrity_check_source": "https://api.crossref.org/works/10.1177%2F01926233241300310",
+              "passages": [
+                {
+                  "text": "When the CCG was replaced with VCG, the result showed that 31% (34 of 108 parameters), 40% (43 out of 107 parameters), and",
+                  "passage_source": "full_text",
+                  "locator": "Full text, quantitative-parameter reproducibility result (part 1)",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1177/01926233241300310",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "49% (57 of 115 parameters) of the quantitative parameters were not statistically reproducible in the legacy studies A, B and C, respectively.",
+                  "passage_source": "full_text",
+                  "locator": "Full text, quantitative-parameter reproducibility result (part 2)",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1177/01926233241300310",
+                  "verified_at": "2026-07-08T23:15:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "direction_match": true,
+              "supports_claim_atoms": [
+                "a1"
+              ],
+              "independence_group": null,
+              "independence_basis": null,
+              "scope_match": "exact",
+              "notes": "Human-reviewed conflicting evidence retained to prevent generalising endpoint-specific concordance into universal interchangeability."
+            }
+          ],
+          "conflicts": [
+            {
+              "conflict_type": "citation_key",
+              "target_id": "DuchateauNguyen2026",
+              "notes": "The cited virtual-control studies report different endpoint-specific concordance and non-reproducibility rates; the difference is disclosed rather than resolved as a universal result."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "decision_id": "hr_006_mouse_human_gene_selection",
+      "claim_id": "clm_c26aae3ede82ce24",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "notes": "Approved in the PR human-review pass. Split the conflicting reanalyses into atomic empirical claims and remove the unsupported assertion that gene selection entirely caused the reversal.",
+      "original_markdown": "The most instructive case is one in which the animal data are not even in dispute: two analyses of the same inflammation gene-expression datasets reached opposite conclusions about whether mouse models mimic human disease, the reversal driven entirely by a gene-selection choice. {cite:p}`Seok2013, Takao2014`",
+      "replacement_markdown": "Seok et al. reported near-random mouse–human agreement among genes significantly changed in human inflammatory conditions (R² 0.0–0.1). {cite:p}`Seok2013` However, Takao and Miyakawa reanalysed the same datasets using genes significantly changed in both species and reported Spearman correlations of 0.43–0.68 with 77–93% directional agreement. {cite:p}`Takao2014`",
+      "claims": [
+        {
+          "sentence_index": 6,
+          "claim_text": "Seok et al. reported near-random mouse–human agreement among genes significantly changed in human inflammatory conditions (R² 0.0–0.1).",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "mouse inflammation models versus human inflammatory conditions",
+            "computational": "mouse–human gene-expression comparison",
+            "clinical": null,
+            "methodological": "genes significantly changed in human inflammatory conditions",
+            "conceptual": "cross-species genomic agreement"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "negative",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Seok2013"
+          ],
+          "context_overrides": {
+            "Seok2013": {
+              "scope_match": "exact"
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 7,
+          "claim_text": "However, Takao and Miyakawa reanalysed the same datasets using genes significantly changed in both species and reported Spearman correlations of 0.43–0.68 with 77–93% directional agreement.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "mouse inflammation models versus human inflammatory conditions",
+            "computational": "reanalysis of the same gene-expression datasets",
+            "clinical": null,
+            "methodological": "genes significantly changed in both humans and mice",
+            "conceptual": "cross-species genomic agreement"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "contested",
+          "entities": [],
+          "citation_context_keys": [
+            "Takao2014"
+          ],
+          "context_overrides": {
+            "Takao2014": {
+              "scope_match": "exact",
+              "passages": [
+                {
+                  "text": "Here we reevaluated the same gene expression datasets used in the previous study by focusing on genes whose expression levels were significantly changed",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, dataset and gene-selection method (part 1)",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1073/pnas.1401965111",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "in both humans and mice. Contrary to the previous findings, the gene expression levels in the mouse models showed extraordinarily significant correlations with those",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, dataset and gene-selection method (part 2)",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1073/pnas.1401965111",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "Spearman's rank correlation coefficient: 0.43-0.68; genes changed in the same direction: 77-93%; P = 6.5 × 10(-11) to 1.2 × 10(-35).",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, correlation and directional-agreement estimates",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1073/pnas.1401965111",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          },
+          "conflicts": [
+            {
+              "conflict_type": "citation_key",
+              "target_id": "Seok2013",
+              "notes": "The same inflammation gene-expression datasets yielded poor versus strong mouse–human concordance under different gene-selection criteria; the conflict is retained explicitly."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "decision_id": "hr_007_3rs_framework_positions",
+      "claim_id": "clm_c2df61237caa7fa0",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "notes": "Approved in the PR human-review pass. Replace the broad 'wave' synthesis with four source-attributed framework positions and narrow the Vitale and Ricceri counter-position to what the paper states.",
+      "original_markdown": "A wave of proposals now argues that the welfare-focused 3Rs are insufficient without a scientific-value and reporting dimension, whether framed as a sixth R of Reporting, a wider set of research-integrity principles, or a bridging scheme between the research and protection communities, {cite:p}`Strech2019, Brink2023, DeGrazia2019` against a countervailing view that the 3Rs remain conceptually sufficient and are merely under-applied. {cite:p}`Vitale2022`",
+      "replacement_markdown": "Strech and Dirnagl argued that the traditional welfare-focused 3Rs should be complemented by robustness, registration, and reporting as explicit scientific-value principles. {cite:p}`Strech2019` Brink and Lewis proposed a 12Rs framework spanning animal welfare, social values, and scientific integrity. {cite:p}`Brink2023` DeGrazia and Beauchamp proposed six principles of social benefit and animal welfare, arguing that their framework is more comprehensive than the canonical 3Rs. {cite:p}`DeGrazia2019` However, Vitale and Ricceri described the 3Rs as the methodological and ethical backbone of animal research and argued that difficulties applying all three do not make the principle obsolete or ineffective. {cite:p}`Vitale2022`",
+      "claims": [
+        {
+          "sentence_index": 2,
+          "claim_text": "Strech and Dirnagl argued that the traditional welfare-focused 3Rs should be complemented by robustness, registration, and reporting as explicit scientific-value principles.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": "animal research",
+            "computational": null,
+            "clinical": null,
+            "methodological": "six-principle 3Rs framework",
+            "conceptual": "animal welfare and scientific value"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Strech2019"
+          ],
+          "context_overrides": {
+            "Strech2019": {
+              "role": "direct_support",
+              "source_type": "primary",
+              "scope_match": "exact",
+              "passages": [
+                {
+                  "text": "Our core argument is that the current 3R principles for animal research, despite their importance, are limited because of their one-sided focus on the basic",
+                  "passage_source": "full_text",
+                  "locator": "Full text, rationale for complementing the welfare 3Rs (part 1)",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1136/bmjos-2018-000048",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "ethical principle ‘animal welfare’. They lack an explicit and practice-oriented set of guiding principles promoting the second basic ethical principle ‘scientific value’.",
+                  "passage_source": "full_text",
+                  "locator": "Full text, rationale for complementing the welfare 3Rs (part 2)",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1136/bmjos-2018-000048",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "Furthermore, each of the additional 3R principles (robustness, registration and reporting) is important in itself and not replaceable by the other two.",
+                  "passage_source": "full_text",
+                  "locator": "Full text, three additional scientific-value principles",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1136/bmjos-2018-000048",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 3,
+          "claim_text": "Brink and Lewis proposed a 12Rs framework spanning animal welfare, social values, and scientific integrity.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": "animal research",
+            "computational": null,
+            "clinical": null,
+            "methodological": "12Rs framework",
+            "conceptual": "animal welfare, social values, and scientific integrity"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Brink2023"
+          ],
+          "context_overrides": {
+            "Brink2023": {
+              "role": "direct_support",
+              "source_type": "primary",
+              "scope_match": "exact",
+              "passages": [
+                {
+                  "text": "we developed the 12 Rs Framework to act as a mind map to guide scientists, oversight structures, and other stakeholders through the myriad of ethical",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, 12Rs framework proposal",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.3390/ani13071128",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "It unfolds into three domains of twelve encompassing ethical principles, values, and other considerations, including the animal welfare, social values, and scientific integrity domains.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, three 12Rs domains",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.3390/ani13071128",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 4,
+          "claim_text": "DeGrazia and Beauchamp proposed six principles of social benefit and animal welfare, arguing that their framework is more comprehensive than the canonical 3Rs.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": "animal research",
+            "computational": null,
+            "clinical": null,
+            "methodological": "six-principle animal-research-ethics framework",
+            "conceptual": "social benefit and animal welfare"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "DeGrazia2019"
+          ],
+          "context_overrides": {
+            "DeGrazia2019": {
+              "role": "direct_support",
+              "source_type": "primary",
+              "scope_match": "exact",
+              "passages": [
+                {
+                  "text": "we present, clarify, and briefly defend a new framework of moral principles containing 3 principles of social benefit and 3 principles of animal welfare.",
+                  "passage_source": "full_text",
+                  "locator": "Full text, composition of the six-principle framework",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1093/ilar/ilz011",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "These six principles, we argue, constitute a more suitable framework than any other that is currently available, including the canonical 3 Rs advanced in 1959",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, comparison with the canonical 3Rs",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1093/ilar/ilz011",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 5,
+          "claim_text": "However, Vitale and Ricceri described the 3Rs as the methodological and ethical backbone of animal research and argued that difficulties applying all three do not make the principle obsolete or ineffective.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": "animal research",
+            "computational": null,
+            "clinical": null,
+            "methodological": "pragmatic application of the 3Rs",
+            "conceptual": "continuing relevance of the 3Rs"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "mixed",
+          "modality": "contested",
+          "entities": [],
+          "citation_context_keys": [
+            "Vitale2022"
+          ],
+          "context_overrides": {
+            "Vitale2022": {
+              "role": "direct_support",
+              "source_type": "primary",
+              "scope_match": "exact",
+              "passages": [
+                {
+                  "text": "The Principle of the 3Rs is widely recognised as the methodological and ethical backbone of contemporary animal research.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, status of the 3Rs",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.3389/fphys.2022.914939",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "all of its three aspects, but this does not absolutely mean that the Principle as an idea is neither obsolete nor ineffective.",
+                  "passage_source": "full_text",
+                  "locator": "Full text, conclusion on practical limits and continued relevance",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.3389/fphys.2022.914939",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          },
+          "conflicts": [
+            {
+              "conflict_type": "citation_key",
+              "target_id": "Strech2019",
+              "notes": "Vitale and Ricceri defend the continuing relevance of the established 3Rs while Strech and Dirnagl argue that explicit scientific-value principles must complement them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "decision_id": "hr_008_vcg_endpoint_drift_regulation",
+      "claim_id": "clm_34018547e1025a15",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "notes": "Approved in the PR human-review pass. Split endpoint agreement, non-reproducibility, temporal drift, and regulatory status into atomic claims, and update the regulatory statement to reflect EMA's March 2026 draft qualification opinion for the narrower rat non-GLP dose-range-finding context.",
+      "original_markdown": "Concordance between virtual and concurrent controls is endpoint-dependent, with high agreement for categorical decisions such as dose-limiting toxicities {cite:p}`DuchateauNguyen2026, Mecklenburg2023` and substantial non-reproducibility for continuous clinical-pathology parameters; {cite:p}`Adedeji2024` historical data drift over time and across laboratories, with study year emerging as the single most influential covariate in one large multi-company database; {cite:p}`Kellner2025` and, decisively, no regulator has yet accepted a virtual-control-group study in place of a concurrent control for a pivotal preclinical submission. {cite:p}`SATO2024`",
+      "replacement_markdown": "In a Wistar Han rat liver-enzyme analysis, 68.5% of concurrent-versus-virtual-control comparisons achieved at least 90% agreement in effect-size estimates. {cite:p}`DuchateauNguyen2026` However, a review of three legacy studies reported that 31–49% of quantitative clinical-pathology parameters were not reproducible when concurrent controls were fully replaced by virtual controls. {cite:p}`Adedeji2024` In a multi-company Han Wistar rat database, study year was the most influential factor among body-weight class, company, and year, with medium mean effect sizes of 0.127 in females and 0.117 in males. {cite:p}`Kellner2025` In 2024, JPMA authors noted that regulatory guidelines required concurrent controls for pivotal toxicology studies. {cite:p}`SATO2024` By March 2026, EMA had issued a draft qualification opinion for virtual controls in rat non-GLP dose-range-finding studies, a narrower context than pivotal toxicology studies. {cite:p}`EMA2026VCG`",
+      "claims": [
+        {
+          "sentence_index": 5,
+          "claim_text": "In a Wistar Han rat liver-enzyme analysis, 68.5% of concurrent-versus-virtual-control comparisons achieved at least 90% agreement in effect-size estimates.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "Wistar Han rats",
+            "computational": "concurrent-versus-virtual control comparison",
+            "clinical": null,
+            "methodological": "liver-enzyme effect-size agreement analysis",
+            "conceptual": "endpoint-specific virtual-control concordance"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "DuchateauNguyen2026"
+          ],
+          "context_overrides": {
+            "DuchateauNguyen2026": {
+              "role": "direct_support",
+              "source_type": "primary",
+              "scope_match": "exact",
+              "passages": [
+                {
+                  "text": "In 68.5% of all the pairwise comparisons performed there was at least 90% agreement in effect size estimate between analysis done with CCG and VCGs.",
+                  "passage_source": "full_text",
+                  "locator": "Full text, pairwise liver-enzyme effect-size comparison",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.3389/fphar.2026.1704002",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 6,
+          "claim_text": "However, a review of three legacy studies reported that 31–49% of quantitative clinical-pathology parameters were not reproducible when concurrent controls were fully replaced by virtual controls.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "three legacy preclinical toxicity studies",
+            "computational": "full replacement of concurrent controls with virtual controls",
+            "clinical": null,
+            "methodological": "quantitative clinical-pathology reproducibility analysis",
+            "conceptual": "endpoint-specific virtual-control discordance"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "negative",
+          "modality": "contested",
+          "entities": [],
+          "citation_context_keys": [
+            "Adedeji2024"
+          ],
+          "context_overrides": {
+            "Adedeji2024": {
+              "role": "direct_support",
+              "source_type": "primary",
+              "scope_match": "exact",
+              "passages": [
+                {
+                  "text": "When the CCG was replaced with VCG, the result showed that 31% (34 of 108 parameters), 40% (43 out of 107 parameters), and",
+                  "passage_source": "full_text",
+                  "locator": "Full text, quantitative-parameter reproducibility result (part 1)",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1177/01926233241300310",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "49% (57 of 115 parameters) of the quantitative parameters were not statistically reproducible in the legacy studies A, B and C, respectively.",
+                  "passage_source": "full_text",
+                  "locator": "Full text, quantitative-parameter reproducibility result (part 2)",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1177/01926233241300310",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          },
+          "conflicts": [
+            {
+              "conflict_type": "citation_key",
+              "target_id": "DuchateauNguyen2026",
+              "notes": "The two studies report different endpoint-specific concordance and non-reproducibility results; the contrast is retained explicitly rather than generalised across endpoints."
+            }
+          ]
+        },
+        {
+          "sentence_index": 7,
+          "claim_text": "In a multi-company Han Wistar rat database, study year was the most influential factor among body-weight class, company, and year, with medium mean effect sizes of 0.127 in females and 0.117 in males.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": "Han Wistar rat control data",
+            "computational": "multi-company virtual-control-group database",
+            "clinical": null,
+            "methodological": "covariate effect-size analysis",
+            "conceptual": "temporal drift in historical control data"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "neutral",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Kellner2025"
+          ],
+          "context_overrides": {
+            "Kellner2025": {
+              "role": "direct_support",
+              "source_type": "primary",
+              "scope_match": "exact",
+              "passages": [
+                {
+                  "text": "The three factors body weight class, company, and study year were therefore analyzed regarding their effect sizes when controlling the influence of the other factors",
+                  "passage_source": "full_text",
+                  "locator": "Full text, covariates included in the controlled effect-size analysis",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.3389/ftox.2025.1684191",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "In both sexes, the study year emerged as the most important factor with a medium effect (mean effect size: 0.127 for females, 0.117 for males)",
+                  "passage_source": "full_text",
+                  "locator": "Full text, relative importance and mean effect sizes for study year",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.3389/ftox.2025.1684191",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 8,
+          "claim_text": "In 2024, JPMA authors noted that regulatory guidelines required concurrent controls for pivotal toxicology studies.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": "pivotal toxicology studies",
+            "computational": "virtual-control-group substitution",
+            "clinical": null,
+            "methodological": "regulatory concurrent-control requirement",
+            "conceptual": "2024 regulatory context reported by JPMA authors"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "neutral",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "SATO2024"
+          ],
+          "context_overrides": {
+            "SATO2024": {
+              "role": "direct_support",
+              "source_type": "primary",
+              "scope_match": "exact",
+              "passages": [
+                {
+                  "text": "Current regulatory guidelines require a concurrent control group for a pivotal toxicology study, whose results, if do not meet the requirements of these guidelines, cannot",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, regulatory-guideline requirement (part 1)",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.33611/trs.2023-009",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "be used for new drug approval applications.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, regulatory-guideline requirement (part 2)",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.33611/trs.2023-009",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 9,
+          "claim_text": "By March 2026, EMA had issued a draft qualification opinion for virtual controls in rat non-GLP dose-range-finding studies, a narrower context than pivotal toxicology studies.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": "rats",
+            "computational": "virtual control groups replacing concurrent control groups",
+            "clinical": null,
+            "methodological": "EMA draft qualification for non-GLP dose-range-finding studies",
+            "conceptual": "regulatory status and scope as of March 2026"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "neutral",
+          "modality": "established",
+          "entities": [],
+          "additional_citation_contexts": [
+            {
+              "cite_key": "EMA2026VCG",
+              "doi": null,
+              "role": "direct_support",
+              "source_type": "primary",
+              "bibliography_status": "verified",
+              "integrity_status": "verified_no_known_issue",
+              "integrity_checked_at": "2026-07-16T00:00:00.000Z",
+              "integrity_check_source": "https://www.ema.europa.eu/en/news/ema-consults-virtual-control-groups-help-reduce-animal-use-medicines-development",
+              "passages": [
+                {
+                  "text": "31 March 2026",
+                  "passage_source": "full_text",
+                  "locator": "EMA news page publication date",
+                  "verification_status": "verified",
+                  "verification_source": "https://www.ema.europa.eu/en/news/ema-consults-virtual-control-groups-help-reduce-animal-use-medicines-development",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "EMA’s human medicines committee (CHMP) has issued a draft qualification opinion for a new methodology in preclinical research",
+                  "passage_source": "full_text",
+                  "locator": "EMA news page, draft qualification opinion",
+                  "verification_status": "verified",
+                  "verification_source": "https://www.ema.europa.eu/en/news/ema-consults-virtual-control-groups-help-reduce-animal-use-medicines-development",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "Draft Qualification opinion for Virtual Control Groups (VCG) to replace Concurrent Control Groups (CCG) in rat non-GLP Dose-Range Finding (DRF) studies",
+                  "passage_source": "full_text",
+                  "locator": "EMA page, related-document title and context of use",
+                  "verification_status": "verified",
+                  "verification_source": "https://www.ema.europa.eu/en/news/ema-consults-virtual-control-groups-help-reduce-animal-use-medicines-development",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "direction_match": true,
+              "supports_claim_atoms": [
+                "a1"
+              ],
+              "independence_group": null,
+              "independence_basis": null,
+              "scope_match": "exact",
+              "notes": "Official EMA record added during approved human review to update the time-sensitive regulatory status while preserving its narrower qualification scope."
+            }
+          ],
+          "conflicts": []
+        }
+      ]
+    },
+    {
+      "decision_id": "hr_009_bad_science_model_reforms",
+      "claim_id": "clm_d9d00fbc0881a6ab",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "action": "split",
+      "reviewed_at": "2026-07-16",
+      "reviewer": "Damien Huzard",
+      "notes": "Approved in the PR human-review pass. Replace the false opposition between the selection model and reform manifesto with three source-attributed claims, and add the 2023 independent reimplementation with its coding-error caveat.",
+      "original_markdown": "A structural model argues that as long as publication drives careers, methods that produce more publishable results will keep being selected for regardless of their reliability, against a reform manifesto that expects methods, reporting, and incentive measures to improve reliability if adopted across the system. {cite:p}`Smaldino2016, Munafo2017`",
+      "replacement_markdown": "Smaldino and McElreath argued that poor research methods can persist because incentives favour them, even without conscious strategizing, when publication is a principal factor in career advancement. {cite:p}`Smaldino2016` A 2023 independent reimplementation replicated most model results and identified a coding error affecting the replication-rate dynamics, but reported that the original conclusion was unchanged. {cite:p}`Kohrt2023` Munafò et al. proposed reforms spanning methods, reporting and dissemination, reproducibility, evaluation, and incentives, while emphasizing that broad adoption would require iterative evaluation and improvement. {cite:p}`Munafo2017`",
+      "claims": [
+        {
+          "sentence_index": 3,
+          "claim_text": "Smaldino and McElreath argued that poor research methods can persist because incentives favour them, even without conscious strategizing, when publication is a principal factor in career advancement.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": null,
+            "computational": "structural evolutionary model of research practices",
+            "clinical": null,
+            "methodological": "incentive selection of research methods",
+            "conceptual": "publication incentives and methodological reliability"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "negative",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Smaldino2016"
+          ],
+          "context_overrides": {
+            "Smaldino2016": {
+              "role": "direct_support",
+              "source_type": "primary",
+              "scope_match": "exact",
+              "passages": [
+                {
+                  "text": "The persistence of poor methods results partly from incentives that favour them, leading to the natural selection of bad science.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, incentive-based persistence of poor methods",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1098/rsos.160384",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "This dynamic requires no conscious strategizing—no deliberate cheating nor loafing—by scientists, only that publication is a principal factor for career advancement.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, publication and career-advancement condition",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1098/rsos.160384",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          },
+          "conflicts": []
+        },
+        {
+          "sentence_index": 4,
+          "claim_text": "A 2023 independent reimplementation replicated most model results and identified a coding error affecting the replication-rate dynamics, but reported that the original conclusion was unchanged.",
+          "claim_type": "empirical",
+          "claim_scope": {
+            "biological": null,
+            "computational": "independent reimplementation of the natural-selection-of-bad-science model",
+            "clinical": null,
+            "methodological": "agent-based simulation replication",
+            "conceptual": "replication result and coding-error caveat"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "mixed",
+          "modality": "established",
+          "entities": [],
+          "additional_citation_contexts": [
+            {
+              "cite_key": "Kohrt2023",
+              "doi": "10.1098/rsos.221306",
+              "role": "direct_support",
+              "source_type": "primary",
+              "bibliography_status": "verified",
+              "integrity_status": "verified_no_known_issue",
+              "integrity_checked_at": "2026-07-16T00:00:00.000Z",
+              "integrity_check_source": "https://api.crossref.org/works/10.1098%2Frsos.221306",
+              "passages": [
+                {
+                  "text": "This study reports an independent replication of the findings presented by Smaldino and McElreath",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, independent replication",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1098/rsos.221306",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "Most of the study’s results could be replicated, regarding relational and close numerical equivalence.",
+                  "passage_source": "full_text",
+                  "locator": "Discussion, extent of successful replication",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1098/rsos.221306",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "caused a brief period of exuberant replication not observed in the original paper due to a coding error.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, coding-error effect on replication dynamics",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1098/rsos.221306",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "This difference does not, however, change the authors’ original conclusions.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, effect of the coding error on the conclusion",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1098/rsos.221306",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "direction_match": true,
+              "supports_claim_atoms": [
+                "a1"
+              ],
+              "independence_group": null,
+              "independence_basis": null,
+              "scope_match": "exact",
+              "notes": "Added during approved human review to record the later independent reimplementation and its disclosed coding-error caveat."
+            }
+          ],
+          "conflicts": []
+        },
+        {
+          "sentence_index": 5,
+          "claim_text": "Munafò et al. proposed reforms spanning methods, reporting and dissemination, reproducibility, evaluation, and incentives, while emphasizing that broad adoption would require iterative evaluation and improvement.",
+          "claim_type": "methodological",
+          "claim_scope": {
+            "biological": null,
+            "computational": null,
+            "clinical": null,
+            "methodological": "reproducible-science reform measures",
+            "conceptual": "broad adoption with iterative evaluation and improvement"
+          },
+          "scope_status": "matched",
+          "claim_polarity": "positive",
+          "modality": "established",
+          "entities": [],
+          "citation_context_keys": [
+            "Munafo2017"
+          ],
+          "context_overrides": {
+            "Munafo2017": {
+              "role": "direct_support",
+              "source_type": "primary",
+              "scope_match": "exact",
+              "passages": [
+                {
+                  "text": "Here we argue for the adoption of measures to optimize key elements of the scientific process: methods, reporting and dissemination, reproducibility, evaluation and incentives.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, categories of proposed reform measures",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1038/s41562-016-0021",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                },
+                {
+                  "text": "but their broad adoption by researchers, institutions, funders and journals will require iterative evaluation and improvement.",
+                  "passage_source": "abstract",
+                  "locator": "Abstract, condition for broad adoption",
+                  "verification_status": "verified",
+                  "verification_source": "https://doi.org/10.1038/s41562-016-0021",
+                  "verified_at": "2026-07-16T00:00:00.000Z",
+                  "supports_claim_atoms": [
+                    "a1"
+                  ]
+                }
+              ],
+              "supports_claim_atoms": [
+                "a1"
+              ]
+            }
+          },
+          "conflicts": []
+        }
+      ]
+    }
+  ]
+}

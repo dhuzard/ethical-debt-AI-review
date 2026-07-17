@@ -1,0 +1,1877 @@
+[
+ {
+  "claim_id": "clm_03f2ec5f62e9fb4c",
+  "section_id": "sec-nams-data",
+  "claim_text": "Multi-organoid and organ-on-chip constructs sustain high viability and organ-specific function — a liver–islet chip held roughly 99% and 96% cell viability over thirty days, self-organising heart organoids beat autonomously and modelled infarction, and liver-chips maintained hepatocyte function and detected drug-induced steatosis and hepatotoxicity.",
+  "citation_keys": [
+   "Tao2021",
+   "Song2024",
+   "Wang2025a",
+   "Pan2023",
+   "Sunildutt2023",
+   "Yun2025",
+   "Watanabe2025",
+   "Yu2024",
+   "Yu2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Human-relevance/reliability of 3D NAMs: organ-on-chip advocates present the platforms as superior human-relevant replacements for animals, while a QC study shows standard readout assays give inaccurat"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Tao2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "A high proportion of the liver (≈99.03%) and islet (≈96.11%) organoid cells were viable (FigureD,E, Supporting Information), indicating that the liver and islet organoids maintained favorable morphology and cell viability during development.",
+    "study_system": "human iPSC-derived liver + pancreatic islet multi-organoid microfluidic chip"
+   },
+   {
+    "cite_key": "Song2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Notably, COs showed a beating efficiency of 68.1%, whereas HOs exhibited a lower rate of 34.5% on day 8 of differentiation.",
+    "study_system": "human iPSC-derived heart organoids (cardiomyocytes, fibroblasts, endothelial cells)"
+   },
+   {
+    "cite_key": "Wang2025a",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Although preliminary, these findings indicate that these organoids are sophisticated models offering deeper insights into the progression of heart disease and serving as a robust experimental platform for future therapeutic strategies.",
+    "study_system": "Human iPSC-derived cardiac organoids"
+   },
+   {
+    "cite_key": "Pan2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Lack of in vitro models connecting the results of toxicity screening assays with clinical outcomes accounts for this high attrition rate.",
+    "study_system": "Human iPSC-derived cardiomyocyte subtypes (review)"
+   },
+   {
+    "cite_key": "Sunildutt2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Additionally, the authors observed that Stavudine exposure produced a brief increase in lipogenesis, whereas Valproate exposure resulted in a prolonged 15% rise in lipogenesis followed by mitochondrial stress, indicating a disruption in β-oxidation.",
+    "study_system": "organ-on-chip / microphysiological systems for drug testing"
+   },
+   {
+    "cite_key": "Yun2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Hepatocytes in this setup maintained high viability for up to 15 days and exhibited robust albumin secretion.",
+    "study_system": "liver-on-a-chip with dynamic fluid flow"
+   },
+   {
+    "cite_key": "Watanabe2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Furthermore, our liver-on-chip model exhibits major liver functions and drug-induced hepatotoxicity, as evidenced by albumin and urea productions and by a toxic response to acetaminophen, respectively.",
+    "study_system": "Liver-on-chip (hepatic lobule, laser-patterned)"
+   },
+   {
+    "cite_key": "Yu2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Changes in liver injury biomarkers aspartate aminotransferase and alanine aminotransferase, and liver function marker albumin indicated that the short-term culture of the two organs-on-chip model was stable for 4 days.",
+    "study_system": "intestinal-liver-on-chip (Caco-2/HT29-MTX, HepG2/HUVEC/THP-1) acetaminophen model"
+   },
+   {
+    "cite_key": "Yu2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The ability of the platform to monitor drug exposure-toxicity relationships and drug-drug interactions was validated using combinations of perpetrator and victim drugs.",
+    "study_system": "Gut-liver-on-chip (intestinal barrier + liver spheroid)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_011fb09ab5ff0c3c",
+  "section_id": "sec-nams-data",
+  "claim_text": "Several report quantitative concordance with humans: proximal-tubule chips estimate renal clearance within 10–20% of clinical values after scaling, a perfused tubule chip reproduced a 35% transporter-mediated permeability change with a reference inhibitor, a liver-microphysiological qualification review cites a reported 100% sensitivity and 90% specificity for drug-induced liver injury, an intestinal-organoid model coupled to kinetics matched clinical diarrhoea incidence for oncology drugs, and patient-derived colorectal organoids predicted individual cetuximab response with over 80% concordance.",
+  "citation_keys": [
+   "Roy2026",
+   "Vormann2018",
+   "Varmazyad2026",
+   "Pin2026",
+   "Mirlohi2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Roy2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Proximal tubule-on-a-chip platforms quantify active and passive renal clearance, transporter-mediated drug–drug interactions, and nephrotoxicity, with chip-derived clearance estimates typically within 10–20% RMSE of clinical values after IVIVE scaling [,].",
+    "study_system": "proximal tubule-on-a-chip (renal clearance / nephrotoxicity)"
+   },
+   {
+    "cite_key": "Vormann2018",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The apparent permeability of the fluorescent P-gp substrate rhodamine 123 was decreased by 35% by co-incubation with cyclosporin A.",
+    "study_system": "3D perfused proximal tubule chip (renal epithelial cells)"
+   },
+   {
+    "cite_key": "Varmazyad2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "It provides a model that more accurately reflects human biology than traditional approaches, with a reported sensitivity of 100% and specificity of 90% for predicting drug-induced liver injury (DILI) [].",
+    "study_system": "human liver microphysiological system (primary hepatocyte qualification for DILI)"
+   },
+   {
+    "cite_key": "Pin2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "When comparing predictions alongside observations, the maximum predicted probability of diarrhea during the course of treatment, expressed as a percentage, closely matched the clinically reported diarrhea incidence of any grade and of grade 3 or higher (Table).",
+    "study_system": "human intestinal organoid + PBPK model predicting oncology-drug GI toxicity"
+   },
+   {
+    "cite_key": "Mirlohi2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "For example, patient-derived colorectal organoids have predicted individual clinical responses to cetuximab with >80% concordance to patient outcomes [].",
+    "study_system": "patient-derived colorectal cancer organoids (clinical drug-response prediction)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 6,
+    "issue": "Trace-to-primary-data. The 100%/90% DILI figure is not a value measured in Varmazyad2026; the package's own source sentence shows Varmazyad2026 (a liver-MPS qualification-roadmap review) is quoting the number from anothe",
+    "fix": "Trace to and cite the primary DILI-validation study, or make the secondary nature explicit, e.g. 'a liver-MPS qualification review cites a reported 100% sensiti"
+   },
+   {
+    "severity": "MINOR",
+    "track": 6,
+    "issue": "Trace-to-primary-data (lower stakes). Roy2026 is an organs-on-chips review; the '10–20% RMSE of clinical values' figure is a review-quoted statistic (package sentence ends '... after IVIVE scaling [,]', indicating a seco",
+    "fix": "No blocking change; optionally note the figure is a review-reported range, or trace to the primary proximal-tubule-chip clearance study."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_cd389f25558e1570",
+  "section_id": "sec-nams-data",
+  "claim_text": "Barrier chips add mechanistic resolution that animal models cannot: a blood–brain-barrier chip attributed a roughly 67% reduction in neutrophil transmigration specifically to pericyte co-culture, and a kidney-organoid screen quantified a 41% loss of proximal-tubule structures under a reference nephrotoxin while flagging a candidate protective drug.",
+  "citation_keys": [
+   "McCloskey2024",
+   "Oishi2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "McCloskey2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The most intriguing difference between monoculture and coculture conditions was that PMN transmigration was reduced by ~67% in coculture versus monoculture following apical cytomix (10 pg/ml) stimulation (Fig.C; no statistical differences between crawling speed and persistence; s",
+    "study_system": "uSiM tissue chip; hiPSC EECM-BMEC-like cells + brain pericyte-like cells; sepsis model"
+   },
+   {
+    "cite_key": "Oishi2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "This experiment revealed a significant loss of LTL-positive tubular structures by day 7 (41% average loss,= 0.019) (), establishing day 7 as the duration for the experimental treatment.",
+    "study_system": "hPSC-derived kidney organoids; cisplatin 5 uM; Tocriscreen FDA-approved drug library"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_1554969566b23775",
+  "section_id": "sec-nams-data",
+  "claim_text": "Organoids express clinically relevant transporters and enzymes that conventional cell lines lack, gut-on-chip and gastrointestinal microphysiological systems recover absorption and first-pass metabolism for oral-bioavailability prediction, and barrier chips reconstruct human blood–brain-barrier and gut physiology with in vivo-like permeability and inflammatory responses.",
+  "citation_keys": [
+   "Garcia2026",
+   "Yuan2026",
+   "Carius2024",
+   "Mathur2025",
+   "Pediaditakis2022",
+   "Shah2016",
+   "McCloskey2024",
+   "DePalma2025",
+   "Kim2023b"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Garcia2026",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Intestinal organoids reproduce crypt-villus architecture and express clinically relevant transporters (MDR1, BCRP, and PEPT1) and enzymes (CYP3A4), which are absent or poorly represented in conventional monolayers [].",
+    "study_system": "intestinal organoids vs Caco-2 monolayers (oral drug absorption NAMs)"
+   },
+   {
+    "cite_key": "Yuan2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Both formats demonstrated strong correlations between the measured apparent permeability and human effective permeability, and moreover, predicted fraction of drug escaping intestinal extraction well.",
+    "study_system": "Human intestinal organoid-derived epithelial monolayers (static and gut-on-chip)"
+   },
+   {
+    "cite_key": "Carius2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In cell-free PDMS organ-chips, we assessed the loss of 17 drugs, among which testosterone was selected as a model compound for further study based on its substantial ad- and absorptions to organ chips and its extensive first-pass intestinal metabolism with well-characterized meta",
+    "study_system": "PDMS-based Emulate gut-on-chip (Caco-2 + HUVEC)"
+   },
+   {
+    "cite_key": "Mathur2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Microphysiological systems (MPS) offer innovative solutions, integrating advanced techniques such as 3D bioprinting, spheroids, organoids, and microfluidics to create more accurate and dynamic models and have emerged as promising solutions to bridge this gap.",
+    "study_system": "Gastrointestinal microphysiological systems (review)"
+   },
+   {
+    "cite_key": "Pediaditakis2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "To model neuroinflammation in the Brain-Chip, we perfused TNF-α directly in the brain channel at a concentration of 100 ng/mL starting on day five of culture (A andA) for two days.",
+    "study_system": "human iPSC-derived Brain-Chip (endothelial-like, pericytes, glia, cortical neurons)"
+   },
+   {
+    "cite_key": "Shah2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Overall, we identified 208 genes that were differentially expressed following co-culture with LGG grown under anaerobic conditions (fold change (FC)>1.5 and equivalently with swapped conditions for decreased expression,<0.01, empirical Bayes moderated-statistic (BS);;;).",
+    "study_system": "HuMiX chip; Caco-2 epithelium + Lactobacillus rhamnosus GG / Bacteroides caccae"
+   },
+   {
+    "cite_key": "McCloskey2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The most intriguing difference between monoculture and coculture conditions was that PMN transmigration was reduced by ~67% in coculture versus monoculture following apical cytomix (10 pg/ml) stimulation (Fig.C; no statistical differences between crawling speed and persistence; s",
+    "study_system": "uSiM tissue chip; hiPSC EECM-BMEC-like cells + brain pericyte-like cells; sepsis model"
+   },
+   {
+    "cite_key": "DePalma2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Some GB cell populations lead to increased diffusive permeability while others induce increased immune cell binding.",
+    "study_system": "3D microfluidic human BBB model with glioblastoma tumor cells"
+   },
+   {
+    "cite_key": "Kim2023b",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Our human BBB model of the 3D perivascular unit and the endothelium perfused by physiological shear stress secured significantly enhanced barrier function exhibiting greater TEER and lower permeability, compared to the only endothelial model, indicating that the cellular interact",
+    "study_system": "manufactured tissue-barrier chip (MEPS-TBC); human BBB (endothelium, pericytes, astrocytes)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_af1341fe1e90f9d1",
+  "section_id": "sec-nams-data",
+  "claim_text": "The same tissue-engineering advances extend across tumour, lung, kidney, and retinal systems used for drug screening and disease modelling.",
+  "citation_keys": [
+   "Haase2020",
+   "Veith2024",
+   "Testa2025",
+   "Taverna2024",
+   "Wisdom2023",
+   "Kim2023a",
+   "Kim2022",
+   "Vormann2018",
+   "Nakanoh2025",
+   "Nakao2025",
+   "Oishi2024",
+   "James2024",
+   "Parween2026",
+   "Birtele2024",
+   "Hong2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Direction of 3D-versus-2D hepatotoxicity sensitivity disagrees: 3D HepG2 spheroids were more resistant to a hepatotoxicant than 2D, whereas 3D iPSC-hepatocyte spheroids trended toward stronger (lower-"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Haase2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This system demonstrates highly localized pathophysiological effects of two tumor spheroids (Skov3 and A549) which cause significant changes in vessel density and barrier function.",
+    "study_system": "Vascularized tumor-on-chip (Skov3, A549 spheroids)"
+   },
+   {
+    "cite_key": "Veith2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "For a small cohort of non-small cell lung cancer patients, we generated personalized tumors-on-chips with their autologous primary cells isolated from fresh tumor samples, and we measured the responses to anti-PD-1 treatment.",
+    "study_system": "Non-small cell lung cancer patient-derived tumor-on-chip (microfluidic 3D co-culture)"
+   },
+   {
+    "cite_key": "Testa2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "While animal models offer a closer approximation of tumor complexity, they are limited in their ability to predict human drug responses.",
+    "study_system": "Breast cancer tumor-on-chip (PMMA/PLA electrospun scaffold)"
+   },
+   {
+    "cite_key": "Taverna2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "PDOs consistently recapitulated the genomic alterations and drug sensitivity of primary tumors.",
+    "study_system": "Lung cancer patient-derived organoids (review)"
+   },
+   {
+    "cite_key": "Wisdom2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Finally, we propose translational strategies by which this assay could be linked to preclinical and clinical models to support human dose prediction, personalized medicine, and the reduction, refinement, and replacement of animal models.",
+    "study_system": "Lung tumor-on-chip with 3D endothelium (LToC-Endo)"
+   },
+   {
+    "cite_key": "Kim2023a",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The bioprinted models cultured on the chip maintained their structure with three layers of tens of micrometers and achieved a tight junction in the epithelial layer, the critical properties of an alveolar barrier.",
+    "study_system": "3D inkjet-bioprinted alveolar lung-on-a-chip (four culture inserts)"
+   },
+   {
+    "cite_key": "Kim2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Our results indicate a vital role of viscosity-induced nephrotoxicity under high shear-stress conditions, contrary to the findings of conventional in vitro studies.",
+    "study_system": "3D kidney-on-a-chip (renal proximal tubule epithelial cells)"
+   },
+   {
+    "cite_key": "Vormann2018",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The apparent permeability of the fluorescent P-gp substrate rhodamine 123 was decreased by 35% by co-incubation with cyclosporin A.",
+    "study_system": "3D perfused proximal tubule chip (renal epithelial cells)"
+   },
+   {
+    "cite_key": "Nakanoh2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The organoids recapitulated tubular injury induced by known nephrotoxins and showed significant Kim-1 mRNA upregulation.",
+    "study_system": "adult rat kidney stem cell-derived organoids; cisplatin, gentamicin, puberulic acid"
+   },
+   {
+    "cite_key": "Nakao2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Repeated cisplatin administration resulted in the upregulation of senescence markers and secretion of inflammatory cytokines, consistent with a senescence-associated secretory phenotype (SASP).",
+    "study_system": "human primary renal proximal tubular epithelial cell-derived tubuloids; repeated cisplatin"
+   },
+   {
+    "cite_key": "Oishi2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "This experiment revealed a significant loss of LTL-positive tubular structures by day 7 (41% average loss,= 0.019) (), establishing day 7 as the duration for the experimental treatment.",
+    "study_system": "hPSC-derived kidney organoids; cisplatin 5 uM; Tocriscreen FDA-approved drug library"
+   },
+   {
+    "cite_key": "James2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We found that AD-ROs largely resemble their healthy control counterparts in cellular composition but display increased levels of Aβ and pTau.",
+    "study_system": "iPSC-derived retinal organoids from familial Alzheimer's disease (APP mutation) patients"
+   },
+   {
+    "cite_key": "Parween2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In this study, we developed a human induced pluripotent stem cell-derived retinal organoid (RO) model that recapitulates key aspects of AMD-associated photoreceptor degeneration.",
+    "study_system": "human iPSC-derived retinal organoids; cigarette smoke extract; dry age-related macular degeneration"
+   },
+   {
+    "cite_key": "Birtele2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This Roadmap article describes the features of brain organoids, focusing on the neocortex, and their advantages and limitations - in comparison with other model systems - for the study of brain development, evolution and disease.",
+    "study_system": "human pluripotent-stem-cell brain organoids (neocortex)"
+   },
+   {
+    "cite_key": "Hong2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In addition, 3D HepG2 spheroids were more resistant to nefazodone-induced MPT than 2D HepG2 cells, indicating that the gelatin/alginate hydrogel culture system provides enhanced resistance to hepatotoxic drugs.",
+    "study_system": "3D-printed HepG2 liver spheroids in gelatin/alginate hydrogel"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Coverage-driven cramming (Red Flags checklist). Because the section cites every one of the 169 package papers, several sentences bundle 6–15 loosely-related papers behind a single broad clause. The papers are individuall",
+    "fix": "No blocking change; consider trimming the loosest clusters or splitting them so each broad clause cites the 2–3 most directly relevant papers, moving the remain"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_63443f0acfe2c391",
+  "section_id": "sec-nams-data",
+  "claim_text": "The human-relevance advantage is nonetheless partial: standard kidney organoids retain immature proximal tubules with limited transporter expression and off-target cell types, so nephrotoxicity readouts require enhanced protocols before they are reliable.",
+  "citation_keys": [
+   "Bejoy2022",
+   "Vanslambrouck2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Bejoy2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, current protocols produce kidney organoids that are not mature and contain off-target cell types.",
+    "study_system": "human kidney organoids, tubule cell lines and kidney-on-chip (AKI review)"
+   },
+   {
+    "cite_key": "Vanslambrouck2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, the proximal tubules (PTs), which are responsible for most kidney reabsorption functions, remain immature in kidney organoids with limited expression of critical transporters essential for nephron functionality.",
+    "study_system": "hPSC-derived proximal-tubule-enhanced kidney organoids"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_b69d024753bafaf0",
+  "section_id": "sec-nams-data",
+  "claim_text": "Reproducibility engineering is advancing too: bioprinted kidney organoids reached 93–99% viability across 96 wells with 1–4% deposition variability, and a standardised retinal-organoid protocol achieved 100% differentiation efficiency across lines that previously yielded 30–80%.",
+  "citation_keys": [
+   "Lawlor2020",
+   "Harkin2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Lawlor2020",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The accuracy of cell count and cell viability was reproducible across all 96 wells with overall cell viability ranging from 93 to 99% ().",
+    "study_system": "hPSC-derived kidney organoids; extrusion bioprinting (6- and 96-well formats)"
+   },
+   {
+    "cite_key": "Harkin2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Following the traditional method of retinal organoid differentiation, highly variable yields of retinal organoids were observed, ranging from as little as approximately 30% (WTC11) to greater than 80% efficiency (H7 and H9), depending on the cell line used ().",
+    "study_system": "human pluripotent stem cell-derived retinal organoids (H7, H9, PGP1, WTC11 lines)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_ed8cbc312f2c330b",
+  "section_id": "sec-nams-data",
+  "claim_text": "On this reading, next-generation risk assessment using non-animal methods is, in defined settings, entirely appropriate today for assuring chemical safety; economic modelling projects that switching liver-based drug-induced liver injury evaluation to organ-on-chip could save roughly $3 billion annually; microphysiological systems are framed as already revolutionising drug development and reducing animal use; and a workshop demonstrated that a non-animal bioactivity-plus-kinetics battery gave protection equivalent to a stand-alone rat repeat-dose study across 46 benchmark exposures.",
+  "citation_keys": [
+   "Carmichael2022",
+   "Mehta2025",
+   "Kopanska2022",
+   "Rogiers2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Regulatory readiness of NAMs: proponents assert NAMs are already fit to assure chemical safety in certain settings, whereas the EU endocrine-disruptor review documents continued dependence on animal d",
+   "Projected efficiency benefits vs adoption reality: modelling projects multi-billion-dollar savings from NAM adoption, while barrier analyses show scientific, regulatory, economic and cultural obstacle"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Carmichael2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "New approach methodologies (NAMs) that do not use experimental animals are, in certain settings, entirely appropriate for assuring the safety of chemical ingredients, although regulatory adoption has been slow.",
+    "study_system": "next-generation risk assessment (NGRA) for chemical ingredients"
+   },
+   {
+    "cite_key": "Mehta2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Switching to liver-on-chip for DILI evaluations could save approximately $3 billion annually by enhancing productivity through earlier and more reliable predictions.",
+    "study_system": "in silico + microphysiological (organ-on-chip) NAMs in preclinical drug development"
+   },
+   {
+    "cite_key": "Kopanska2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "MPS will provide unprecedented human-like physiological properties of in vitro models, enabling their routine application in the pharma industry and thus reducing drug development costs by lowering the attrition rate of compounds.",
+    "study_system": "microphysiological systems across industry sectors"
+   },
+   {
+    "cite_key": "Rogiers2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Used alongside robust PBK modeling, the most sensitive points of departure from this bioactivity toolbox were demonstrated to show an equivalent level of protection to a stand-alone repeat-dose toxicity study in rats for 46 benchmark chemical exposures (Cable et alaccepted).",
+    "study_system": "next-generation risk assessment (NAM bioactivity toolbox + PBK) for cosmetic systemic toxicity"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 2,
+    "issue": "Interpretive mismatch. Marx2025 is the 2023 t4 MPS workshop progress-assessment whose core finding is that industrial adoption of MPS 'remained slow' and the 2020 regulatory-acceptance recommendations were 'still not imp",
+    "fix": "Drop Marx2025 from this promissory clause (leave Kopanska2022, or add Hartung2025a/Marx2020's proponent side), or reword to attribute the 'revolutionising' fram"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_9379c600d12a5023",
+  "section_id": "sec-nams-data",
+  "claim_text": "The regulatory infrastructure appears to be following: industry surveys report NAM-based filings replacing large-animal studies and being accepted by health authorities, workshops have identified routes to waive the 90-day dog study, read-across is an internationally recognised validated method — including NAM-enhanced read-across advanced by EU consortia — with category-based submissions accepted at about 62%, and the US FDA Modernization Acts now permit microphysiological systems alongside or instead of animals in investigational filings, and higher-complexity three-dimensional models are being positioned to align with the FDA's stated intent to phase out animal testing for certain drugs.",
+  "citation_keys": [
+   "Shenton2025",
+   "Beken2016",
+   "Bishop2023",
+   "Rovida2020",
+   "Hartung2025b",
+   "Pestana2021",
+   "Mone2020",
+   "Kumar2026",
+   "Rowland2026",
+   "Patra2026",
+   "Cai2025",
+   "vanRijt2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Regulatory readiness of read-across: a state-of-the-art guidance paper stresses that lack of consensus on required evidence hampers regulatory acceptance, whereas a NAM-enhanced case study concludes p"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Shenton2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "These scientifically justified approaches were generally accepted by global health authorities, particularly in the context of species relevance limitations, prior target modulation experience, and/or when addressing severe disease.",
+    "study_system": "pharmaceutical industry NAM regulatory filings (biotherapeutics)"
+   },
+   {
+    "cite_key": "Beken2016",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "With respect to non-clinical testing requirements for human medicinal products, reduction and replacement of animal testing has been achieved by the regulatory acceptance of new in vitro methods, either as pivotal, supportive or exploratory mechanistic studies.",
+    "study_system": "pharmaceutical non-clinical testing 3Rs (EMA, ICH)"
+   },
+   {
+    "cite_key": "Bishop2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Opportunities were identified to support alternative approaches to answer human safety questions without performing the required 90-day dog study.",
+    "study_system": "agrochemical safety evaluation (dog studies)"
+   },
+   {
+    "cite_key": "Rovida2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Three major issues were identified that need optimization to allow a higher regulatory acceptance rate of the RAx procedure: (i) the definition of similarity of source and target, (ii) the translation of biological/toxicological activity of source to target in the RAx procedure, ",
+    "study_system": "read-across (RAx) for regulatory toxicology (EU-REACH, OECD)"
+   },
+   {
+    "cite_key": "Hartung2025b",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The acceptance rate is notably higher for group-based read-across approaches (about 62%) compared to analogue read-across types (about 39%).",
+    "study_system": "read-across (category vs analogue) regulatory submissions under REACH"
+   },
+   {
+    "cite_key": "Pestana2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Although a data rich group of compounds with a strong mechanistic basis was analysed, it was clearly demonstrated that NAM data available from publicly available resources could be applied to support read-across.",
+    "study_system": "read-across case study (triazoles, repeated-dose toxicity, ECHA RAAF)"
+   },
+   {
+    "cite_key": "Mone2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The 36 partners of this consortium used in vitro and in silico methods in the context of case studies (CSs).",
+    "study_system": "EU-ToxRisk NAM-enhanced read-across consortium"
+   },
+   {
+    "cite_key": "Kumar2026",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The FDA Modernization Acts 2.0 and 3.0 have changed the rulebook by allowing non‐animal methods, such as MPS, to be used alongside or instead of animal models in IND submissions.",
+    "study_system": "human vessel-chip microphysiological system (IND-enabling; thrombosis/vascular)"
+   },
+   {
+    "cite_key": "Rowland2026",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Across this expanding landscape of NAMs, a fundamental challenge emerges: the need for biomarkers that faithfully reflect human biology, are mechanistically grounded and meet regulatory standards for qualification and reproducibility, and clearly defined in contexts of use.",
+    "study_system": "extracellular-vesicle biomarkers for NAM qualification (drug development)"
+   },
+   {
+    "cite_key": "Patra2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Despite more than 700 active clinical trials registered, only about 15% of IBD drug candidates that enter phase I are ultimately approved [,].",
+    "study_system": "human intestinal organoids as NAMs (inflammatory bowel disease drug discovery)"
+   },
+   {
+    "cite_key": "Cai2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In drug development, they facilitate screening for efficacy and toxicity, with applications in testing poly-ADP ribose polymerase (PARP) inhibitors and cosmetic ingredients, while aligning with ethical imperatives as the U.S. Food and Drug Administration (FDA) plans to phase out ",
+    "study_system": "organoids across biomedicine (regulatory/ethics perspective)"
+   },
+   {
+    "cite_key": "vanRijt2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The FDA Modernization Act 2.0 promotes alternative preclinical testing techniques, presenting the opportunity to use higher complexity in vitro models as an alternative to in vivo testing, including three-dimensional (3D) cell culture models.",
+    "study_system": "3D culture platforms for preclinical oncology testing (review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 2,
+    "issue": "Misattribution. Mone2020 is the EU-ToxRisk consortium paper on NAM-enhanced read-across (36 partners, EU-REACH/OECD context); it says nothing about the US FDA Modernization Acts or microphysiological systems in IND filin",
+    "fix": "Remove Mone2020 from this citation group. If coverage of Mone2020 is required, cite it where read-across is discussed (e.g. the 'read-across is an international"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_4dfde13e6df101bd",
+  "section_id": "sec-nams-data",
+  "claim_text": "Proponents assert that non-animal methods are, in certain settings, already appropriate for assuring chemical-ingredient safety, with only regulatory adoption lagging.",
+  "citation_keys": [
+   "Carmichael2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Regulatory readiness of NAMs: proponents assert NAMs are already fit to assure chemical safety in certain settings, whereas the EU endocrine-disruptor review documents continued dependence on animal d"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Carmichael2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "New approach methodologies (NAMs) that do not use experimental animals are, in certain settings, entirely appropriate for assuring the safety of chemical ingredients, although regulatory adoption has been slow.",
+    "study_system": "next-generation risk assessment (NGRA) for chemical ingredients"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_71ab1a399095cf01",
+  "section_id": "sec-nams-data",
+  "claim_text": "Against this, a review of the EU endocrine-disruptor framework documents that guidance for predicting adversity with NAMs remains limited and that endocrine-disruptor identification has continued to depend on animal data, requiring further in vivo testing until alternatives are accepted.",
+  "citation_keys": [
+   "Holmer2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Regulatory readiness of NAMs: proponents assert NAMs are already fit to assure chemical safety in certain settings, whereas the EU endocrine-disruptor review documents continued dependence on animal d"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Holmer2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, guidance on predicting adversity using NAMs remains limited, and ED identifications have largely depended on animal data to assess endocrine-mediated adversity.",
+    "study_system": "EU endocrine-disruptor regulatory assessment (REACH, CLP, PPPR, BPR)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_8867bd0ef3fa2929",
+  "section_id": "sec-nams-data",
+  "claim_text": "Barrier analyses converge on a persistent set of scientific, technical, economic, and cultural obstacles that keep NAMs out of routine decision-making; many candidate methods exist but very few have been adopted for regulatory use; and the field lacks standardised validation and acceptance criteria, so quality assurance has a structural blind spot.",
+  "citation_keys": [
+   "Sewell2024",
+   "Oyetade2025",
+   "Villela2022",
+   "Osborne2024",
+   "Strickland2023",
+   "Ouedraogo2025",
+   "Holzer2023",
+   "Mitchell2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Projected efficiency benefits vs adoption reality: modelling projects multi-billion-dollar savings from NAM adoption, while barrier analyses show scientific, regulatory, economic and cultural obstacle"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Sewell2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Despite the widely acknowledged benefits offered by NAMs, there continue to be barriers that prevent or limit their application for decision-making in chemical safety assessment.",
+    "study_system": "chemical safety assessment NAM adoption barriers"
+   },
+   {
+    "cite_key": "Oyetade2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "While the development and application of NAMs has recently increased, their adoption in regulatory decisions is slow and awareness outside the community is low.",
+    "study_system": "US interagency NAM adoption (agrochemical, industrial, consumer, pharma stakeholders)"
+   },
+   {
+    "cite_key": "Villela2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The resulting regulatory uncertainty induces companies to keep on adopting the traditional methods, slowing NAM's development in the country.",
+    "study_system": "Brazil regulatory NAM acceptance (pharma, devices, food, agrochemicals)"
+   },
+   {
+    "cite_key": "Osborne2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Many of these are potentially invaluable in the safety assessment of chemicals, but very few have been adopted for regulatory decision making.",
+    "study_system": "UK chemical risk assessment NAM roadmap"
+   },
+   {
+    "cite_key": "Strickland2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "For many jurisdictions and chemical sectors, non-animal alternatives are not accepted, but several jurisdictions provide guidance to support the use of test waivers to reduce animal use for specific applications.",
+    "study_system": "international regulatory acute systemic toxicity testing (8 ICATM jurisdictions)"
+   },
+   {
+    "cite_key": "Ouedraogo2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The transition from traditional animal testing to human-relevant New Approach Methods (NAMs) in regulatory toxicology faces a significant challenge: a lack of standardized validation and acceptance criteria.",
+    "study_system": "regulatory toxicology NAM validation frameworks"
+   },
+   {
+    "cite_key": "Holzer2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The definition and application of acceptance criteria (AC) for the validity of test runs is important for the setup and use of test methods, particularly for the use of new approach methods (NAM) in toxicity testing.",
+    "study_system": "NAM test-method acceptance criteria / quality assurance"
+   },
+   {
+    "cite_key": "Mitchell2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "New approach methodologies (NAMs) hold great promise to identify molecular, cellular, and tissue changes that can be used to predict effects reliably and more efficiently at the individual level (and potentially on populations) while reducing the number of animals used in (eco)to",
+    "study_system": "ecotoxicology endocrine-activity NAMs (fish, amphibians)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_307358fc875ef0ee",
+  "section_id": "sec-nams-data",
+  "claim_text": "Where the underlying models can be audited, the shortfall is quantitative rather than rhetorical: a systematic assessment of 178 in silico thyroid-disruption models found only about 18% fully compliant with the OECD assessment framework, the adverse outcome pathways that anchor mechanistic NAMs are largely immature — most cardiotoxicity-network pathways remain under development or unevaluated — and validating a method by concordance with animal data is itself a weak anchor because many animal tests were never validated for human relevance.",
+  "citation_keys": [
+   "Judzinska2026",
+   "Ladeira2026",
+   "Kopanska2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Judzinska2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The fact that only 32 models (approximately 18%) achieved full compliance with the OECD QAF criteria serves as a critical benchmark for the field.",
+    "study_system": "in silico QSAR/NAMs for thyroid-disruption developmental neurotoxicity (systematic review of models)"
+   },
+   {
+    "cite_key": "Ladeira2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "One was under review (AOP: 456), while the remaining are still under development (30.76%) or have not yet undergone formal evaluation (46.15%).",
+    "study_system": "adverse outcome pathway network for cardiotoxicity (AOP-Wiki)"
+   },
+   {
+    "cite_key": "Kopanska2026",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Moreover, simple concordance with animal data is a weak anchor because many animal tests were never validated for human relevance, and traditional validation often freezes a method at a single point in time despite rapid technological evolution.",
+    "study_system": "regulatory validation frameworks for NAMs (conceptual/methodological)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_41e19bb3d17bbef6",
+  "section_id": "sec-nams-data",
+  "claim_text": "Systematic reviews of developmental and reproductive toxicity and of harmonisation across assays reach the same conclusion: the science is promising but its regulatory footprint is thin and uneven.",
+  "citation_keys": [
+   "Kumbhar2026",
+   "Kim2026b",
+   "Weener2024",
+   "Gonnabathula2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Kumbhar2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Ultimately, 92 studies met the inclusion criteria and were incorporated into the qualitative synthesis and regulatory analysis presented in this review.",
+    "study_system": "systematic review of NAMs for developmental & reproductive toxicity (DART) regulation"
+   },
+   {
+    "cite_key": "Kim2026b",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "4.3 Limited harmonization A persistent barrier to widespread regulatory adoption is the lack of harmonization across NAM assays, platforms, data standards, and analytical pipelines.",
+    "study_system": "in vitro NAM data application to chemical risk assessment (NGRA)"
+   },
+   {
+    "cite_key": "Weener2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "To manage this, we established clear thresholds for platelet aggregation: <2% culture area covered for negative controls and >4% coverage for positive controls before including experimental data from a particular blood donor.",
+    "study_system": "blood-perfused Vessel-on-Chip microphysiological system (qualification case study)"
+   },
+   {
+    "cite_key": "Gonnabathula2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We also discuss existing gaps in the available toxicological datasets and current challenges that need to be overcome to expand the utility of NAMs for life stage-specific chemical risk assessment.",
+    "study_system": "life-stage-specific NAM risk assessment (PBPK/IVIVE)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_5c4331543246f050",
+  "section_id": "sec-nams-data",
+  "claim_text": "One strand frames microphysiological systems as bioengineering organ architecture and function so as to revolutionise drug development, reduce animal testing, and enable personalised medicine.",
+  "citation_keys": [
+   "Hartung2025a"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Transformative promise vs adoption reality for microphysiological systems: one frames MPS as already revolutionizing drug development and reducing animal use, while the expert workshop documents that "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Hartung2025a",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Major challenges include standardization issues across terminology and protocols, validation complexities requiring robust reference compounds and benchmarking standards, regulatory uncertainties regarding data requirements and qualification processes, and barriers to effective d",
+    "study_system": "microphysiological systems standardization and data sharing (CAAT)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_389ef081e8084743",
+  "section_id": "sec-nams-data",
+  "claim_text": "An expert workshop assessment counters that these systems have neither been widely adopted by the pharmaceutical industry nor reached regulated drug-authorisation processes at all.",
+  "citation_keys": [
+   "Marx2020"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Transformative promise vs adoption reality for microphysiological systems: one frames MPS as already revolutionizing drug development and reducing animal use, while the expert workshop documents that "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Marx2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Despite the MPS hype in academia and by platform providers, which says this technology is about to reshape the entire in vitro culture landscape in basic and applied research, MPS approaches have neither been widely adopted by the pharmaceutical industry yet nor reached regulated",
+    "study_system": "microphysiological systems / organ-on-chip (drug development; Replacement adoption)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_1ae2bd32a7980106",
+  "section_id": "sec-nams-data",
+  "claim_text": "It remains open, and the interposed reviews suggest the truth is developmental — real capability, minimal regulated deployment, with data-sharing and standardisation named as the rate-limiting steps.",
+  "citation_keys": [
+   "Marx2025",
+   "Fabre2020",
+   "Brown2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether MPS deliver superior human-relevant predictivity over simpler NAMs: a head-to-head intestinal-permeability validation found MPS/enteroid systems added variability and that a standard static Ca"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Marx2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "It is concluded that communication between stakeholders has improved significantly, while the recommendations related to regulatory acceptance still need to be implemented.",
+    "study_system": "microphysiological systems regulatory acceptance (2023 t4 workshop)"
+   },
+   {
+    "cite_key": "Fabre2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The International Consortium for Innovation and Quality in Pharmaceutical Development (IQ) MPS Affiliate is a group of pharmaceutical industry scientists who seek to expedite appropriate characterization and incorporation of MPS to potentially improve drug safety assessment and p",
+    "study_system": "microphysiological systems consortium (IQ MPS Affiliate)"
+   },
+   {
+    "cite_key": "Brown2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "While there have been significant advances in the development, use, and proposals of qualification criteria for human organ MPS, there remains a gap in the development using animal tissues.",
+    "study_system": "animal-tissue microphysiological systems (FDA regulatory value)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_d2c4f9b657b794a1",
+  "section_id": "sec-nams-data",
+  "claim_text": "In skin sensitisation, no standardised in vitro assay exists for the T-cell-activation key event, so that step of the pathway cannot be measured non-animally; because component-assay limitations propagate, defined approaches yield inconclusive calls for borderline or out-of-domain chemicals; and reference data must be chosen so as not to reproduce the limitations of the animal assay being replaced.",
+  "citation_keys": [
+   "Ezendam2016",
+   "Macmillan2022",
+   "Maxwell2014",
+   "Kolle2020"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Performance of defined-approach NAMs for skin sensitisation: one paper presents OECD Guideline 497 defined approaches as equal-or-better replacements for animal tests, while the other shows the DAs in"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Ezendam2016",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "No standardized in vitro assays for T cell activation are available; thus, KE4 cannot be measured in vitro.",
+    "study_system": "non-animal skin-sensitisation test methods (AOP key events)"
+   },
+   {
+    "cite_key": "Macmillan2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "As limitations of the individual in chemico/in vitro assays and in silico predictions are carried through to the DAs, inconclusive predictions are possible for chemicals with results in the borderline range, and chemicals with out of domain results.",
+    "study_system": "OECD GL 497 defined approaches (2o3, ITS) - inconclusive-prediction case studies"
+   },
+   {
+    "cite_key": "Maxwell2014",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Furthermore, by benchmarking our mathematical model predictions against clinical datasets (e.g. human diagnostic patch test data), instead of animal test data, we propose that this approach could represent a new paradigm for mechanistic toxicology.",
+    "study_system": "mechanistic skin-sensitisation QRA models (human patch-test benchmarking)"
+   },
+   {
+    "cite_key": "Kolle2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The reference data should be selected to allow meaningful evaluations and must not replicate the limitations of the murine local lymph node assay (LLNA)",
+    "study_system": "AOP-based defined approaches implementation (skin sensitisation validation)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Weak co-citation. Macmillan2022 directly supports the claim (inconclusive DA predictions for borderline/out-of-domain chemicals). Maxwell2014 is about a mechanistic skin-sensitisation QRA model benchmarked against human ",
+    "fix": "Rely on Macmillan2022 (and Ezendam2016/Kolle2020 on component limitations) for the inconclusive-call claim; move Maxwell2014 to the human-benchmarking point whe"
+   },
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Kolle2020 is a precondition/caveat commentary ('reference data must not replicate the limitations of the murine LLNA'); it does not assert equal-or-better performance of defined approaches. The 'equivalent to or better t",
+    "fix": "Drop Kolle2020 from the positive-performance citation group (it already appears at the caveat sentence); keep Casati2022/Casati2017."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_fc72598d3949c3be",
+  "section_id": "sec-nams-data",
+  "claim_text": "The OECD defined-approach guideline for skin sensitisation is presented as the first of its kind and as a precedent for adopting non-animal methods with performance equivalent to or better than animal tests.",
+  "citation_keys": [
+   "Casati2022"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Performance of defined-approach NAMs for skin sensitisation: one paper presents OECD Guideline 497 defined approaches as equal-or-better replacements for animal tests, while the other shows the DAs in"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Casati2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This Defined Approach Guideline was the first of its kind for the OECD, and provides an important precedent for regulatory adoption of human biology-relevant new approach methodologies with performances equivalent to, or better than, traditional animal tests.",
+    "study_system": "OECD Guideline 497 defined approaches (skin sensitisation)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Kolle2020 is a precondition/caveat commentary ('reference data must not replicate the limitations of the murine LLNA'); it does not assert equal-or-better performance of defined approaches. The 'equivalent to or better t",
+    "fix": "Drop Kolle2020 from the positive-performance citation group (it already appears at the caveat sentence); keep Casati2022/Casati2017."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_50eeecf3a3bb1f90",
+  "section_id": "sec-nams-data",
+  "claim_text": "A case-study analysis shows that, because the limitations of the individual in chemico, in vitro, and in silico assays carry through, the defined approaches can return inconclusive predictions for chemicals in the borderline range or outside the applicability domain.",
+  "citation_keys": [
+   "Macmillan2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Performance of defined-approach NAMs for skin sensitisation: one paper presents OECD Guideline 497 defined approaches as equal-or-better replacements for animal tests, while the other shows the DAs in"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Macmillan2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "As limitations of the individual in chemico/in vitro assays and in silico predictions are carried through to the DAs, inconclusive predictions are possible for chemicals with results in the borderline range, and chemicals with out of domain results.",
+    "study_system": "OECD GL 497 defined approaches (2o3, ITS) - inconclusive-prediction case studies"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Weak co-citation. Macmillan2022 directly supports the claim (inconclusive DA predictions for borderline/out-of-domain chemicals). Maxwell2014 is about a mechanistic skin-sensitisation QRA model benchmarked against human ",
+    "fix": "Rely on Macmillan2022 (and Ezendam2016/Kolle2020 on component limitations) for the inconclusive-call claim; move Maxwell2014 to the human-benchmarking point whe"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_1c1e2fb3fce3e914",
+  "section_id": "sec-nams-data",
+  "claim_text": "A liver-on-chip genotoxicity assay detected several genotoxicants but missed benzo[a]pyrene on two endpoints, showing endpoint-dependent, incomplete concordance; benchmarking six in silico metabolism simulators against literature metabolites found precision of only 1.1–29% and sensitivity of 14.7–28.3%, with expert-driven metabolic grouping outperforming automated tools; and a next-generation risk assessment of an anti-androgen underestimated risk until the active metabolite was explicitly modelled.",
+  "citation_keys": [
+   "Kopp2024",
+   "Boyce2022",
+   "Enoch2026",
+   "vanTongeren2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Concordance of NAM genotoxicity data with in vivo: in silico bacterial-mutagenicity NAMs are judged reliable, but an experimental liver-on-chip genotoxicity NAM missed a known genotoxicant on two endp"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Kopp2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, B[a]P did not exhibit an increase in the % micronucleus and MF, which might require an optimization of the test system.",
+    "study_system": "liver-on-chip MPS (primary hepatocytes/HepaRG + TK6) genotoxicity assays (4 reference genotoxicants)"
+   },
+   {
+    "cite_key": "Boyce2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Precision and sensitivity values ranged from 1.1-29% and 14.7-28.3% respectively.",
+    "study_system": "in silico metabolism prediction tools; 37 ToxCast chemicals; read-across"
+   },
+   {
+    "cite_key": "Enoch2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The results showed the importance of expert driven methods for defining metabolic similarity for read-across for plant protection products.",
+    "study_system": "58 ACCase-inhibitor herbicides; read-across category formation; regulatory dossiers"
+   },
+   {
+    "cite_key": "vanTongeren2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In next generation risk assessment (NGRA), non-animal approaches are used to quantify the chemical concentrations required to trigger bioactivity responses, in order to assure safe levels of human exposure.",
+    "study_system": "NGRA case study (flutamide + hydroxyflutamide; AR-CALUX + PBK)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_a5362405ad9bf644",
+  "section_id": "sec-nams-data",
+  "claim_text": "The kinetic layer that converts an in vitro concentration into a human dose is itself only moderately accurate: a generic high-throughput physiologically based model predicted peak plasma concentration within tenfold of in vivo values for only half of chemicals and within threefold for 31%, with a systematic lipophilicity-dependent bias.",
+  "citation_keys": [
+   "Spaenig2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Spaenig2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Predicted plasma maximum concentrations (Cmax) were within tenfold of in vivo values for 50% of the chemicals and within threefold for 31%.",
+    "study_system": "generic high-throughput PBK model for NGRA (26 organic chemicals)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_ab077021943c49af",
+  "section_id": "sec-nams-data",
+  "claim_text": "These limits are why NAM outputs are typically embedded in weight-of-evidence and extrapolation workflows rather than used alone — a developmental-toxicity extrapolation found that using all in vitro assays, not the developmental subset, gave the most conservative human-equivalent dose, and a stem-cell-plus-modelling approach derived bisphenol-A reference doses close to a regulatory value without any animals.",
+  "citation_keys": [
+   "Linakis2025",
+   "Ni2024",
+   "Chang2022",
+   "Hines2022",
+   "Bosgra2015",
+   "Idakwo2018",
+   "Chou2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Linakis2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Of the 23 chemicals with in vitro developmental toxicity assays, 7 had a NAM-based human oral equivalent dose (hOED) that was lower for developmental assays than for all available assays, indicating that the use of all in vitro data to derive a hOED would generally provide the mo",
+    "study_system": "high-throughput IVIVE workflow (developmental toxicity prioritization)"
+   },
+   {
+    "cite_key": "Ni2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The results showed that simulated mean RfDs (µg/kg/day) derived from the HSD3B1 and NFATC2 gene of embryotoxicity and neurodevelopmental toxicity tests, respectively, were 4.94 and 5.18.",
+    "study_system": "IVIVE-pregnancy-PBPK + hESC toxicogenomics (Bisphenol A)"
+   },
+   {
+    "cite_key": "Chang2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In addition to refining and reducing the number of animals in traditional toxicity testing protocols and being used for prioritizing chemical testing, the goal to use IVIVE to facilitate the replacement of animal models can be achieved through their continued evolution and develo",
+    "study_system": "in vitro-to-in vivo extrapolation (IVIVE) for regulatory risk assessment"
+   },
+   {
+    "cite_key": "Hines2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Thus, access to input parameters, as well as the technical requirements of applying and interpreting models, has limited the use of IVIVE as a routine part of testing.",
+    "study_system": "open-access PBPK/IVIVE computational tools (ICE)"
+   },
+   {
+    "cite_key": "Bosgra2015",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We discuss how the consideration of toxicokinetics allowed comparison between test systems with differing test medium composition, has helped to interpret the in vitro findings in light of in vivo observations, and to gain confidence in the predictive value of the test battery ou",
+    "study_system": "In vitro developmental toxicity test battery (ChemScreen)"
+   },
+   {
+    "cite_key": "Idakwo2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Commonly overlooked challenges such as data imbalance, activity cliff, model evaluation, and definition of applicability domain are highlighted, and plausible solutions for alleviating these challenges are discussed.",
+    "study_system": "machine-learning SAR/QSAR toxicity prediction"
+   },
+   {
+    "cite_key": "Chou2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "due to the black box nature of many ML models, lack of sufficient interpretability is a limitation",
+    "study_system": "machine-learning/AI-integrated PBPK modelling for NAM risk assessment"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_cf3d2759e995e938",
+  "section_id": "sec-nams-data",
+  "claim_text": "The black-box character of many machine-learning components compounds the interpretability problem regulators must resolve before trusting these chains, and the developmental-neurotoxicity battery divides its own community.",
+  "citation_keys": [
+   "Chou2022",
+   "Idakwo2018"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Chou2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "due to the black box nature of many ML models, lack of sufficient interpretability is a limitation",
+    "study_system": "machine-learning/AI-integrated PBPK modelling for NAM risk assessment"
+   },
+   {
+    "cite_key": "Idakwo2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Commonly overlooked challenges such as data imbalance, activity cliff, model evaluation, and definition of applicability domain are highlighted, and plausible solutions for alleviating these challenges are discussed.",
+    "study_system": "machine-learning SAR/QSAR toxicity prediction"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_a668c0e3a832677b",
+  "section_id": "sec-nams-data",
+  "claim_text": "An expert panel concluded that the human developmental-neurotoxicity in vitro battery may serve for initial screening but is not yet a complete or surrogate approach for classifying a chemical as a human developmental neurotoxicant, and needs further validation.",
+  "citation_keys": [
+   "Juberg2023"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Disagreement on the regulatory readiness of the human developmental-neurotoxicity in vitro battery: an expert panel judges it insufficient as a stand-alone/surrogate hazard-classification tool and nee"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Juberg2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The consensus of the expert panel was that the DNT IVB might be used during initial screening, but it is not presently a complete or surrogate approach to determine whether a chemical is a DNT in humans.",
+    "study_system": "DNT in vitro battery (expert panel review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_8f69feb0601cffde",
+  "section_id": "sec-nams-data",
+  "claim_text": "A data-generating group presented the same class of battery as a promising approach already usable for neurodevelopmental hazard assessment and prioritisation, while noting its rankings diverged from high-throughput screening.",
+  "citation_keys": [
+   "Klose2021"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Disagreement on the regulatory readiness of the human developmental-neurotoxicity in vitro battery: an expert panel judges it insufficient as a stand-alone/surrogate hazard-classification tool and nee"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Klose2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This case study using FRs suggests that human cell-based DNT in vitro battery is a promising approach for neurodevelopmental hazard assessment and compound prioritization in risk assessment.",
+    "study_system": "Human cell-based DNT in vitro battery (flame retardants)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_dd4a04bb95a3c4f0",
+  "section_id": "sec-nams-data",
+  "claim_text": "It is unresolved, and the disagreement tracks the vantage point — panel review versus method developer.",
+  "citation_keys": [
+   "Fritsche2018",
+   "Schmidt2016"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Fritsche2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Due to the resource-intensity of current developmental neurotoxicity (DNT) in vivo guidelines, alternative methods that are scientifically valid and have a high predictivity for humans are especially desired by regulators.",
+    "study_system": "Stem cell-based DNT in vitro methods (review)"
+   },
+   {
+    "cite_key": "Schmidt2016",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Since the interpretation of animal data and their extrapolation to man is challenging, and the amount of substances with information gaps exceeds present animal testing capacities, there is a big demand for in vitro tests to provide initial information and to prioritize for furth",
+    "study_system": "In vitro (developmental) neurotoxicity screening platforms (review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_5365e1a215c93fa9",
+  "section_id": "sec-nams-data",
+  "claim_text": "Donor-to-donor variability drives a liver-chip's urea-production coefficient of variation from under 5% on day 1 to 20% by day 7; an independent robustness study of a commercial liver microphysiological system found stable function to 17 days but appreciable within- and between-study variability; organoids exhibit necrotic cores and considerable variability from one preparation to the next; standard viability assays give inaccurate readouts in three-dimensional constructs; and the zebrafish developmental-toxicity protocol varies between laboratories, producing discordant data for identical compounds.",
+  "citation_keys": [
+   "Kong2026",
+   "Kato2022",
+   "Lim2023",
+   "Nickels2020",
+   "Dominijanni2021",
+   "Hoyberghs2020",
+   "Jeffries2015",
+   "vonHellfeld2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Reproducibility of MPS readouts: an independent robustness study of a liver MPS found appreciable within- and between-study variability that dampens its high-throughput utility, while a drug-developme",
+   "Human-relevance/reliability of 3D NAMs: organ-on-chip advocates present the platforms as superior human-relevant replacements for animals, while a QC study shows standard readout assays give inaccurat"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Kong2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The liver-chip systems maintained a coefficient of variation below 5% for urea production on day 1, increasing to 20% by day 7 across different hepatocyte donors,highlighting ongoing challenges with donor-to-donor variability in primary human cells.",
+    "study_system": "liver-on-chip microphysiological system (primary human hepatocyte reproducibility)"
+   },
+   {
+    "cite_key": "Kato2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The iHeps co-cultured with non-parenchymal cells demonstrated stable cell viability and function up to 17 days; however, variability was appreciable both within and among studies.",
+    "study_system": "liver microphysiological system (OrganoPlate 2-lane 96, iPSC-hepatocytes)"
+   },
+   {
+    "cite_key": "Lim2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "A number of microfluidics-enabled in vitro models of the liver have been developed, but the unclear translatability of these platforms has hindered their adoption by the pharmaceutical industry; to achieve wide use for drug and chemical safety evaluation, demonstration of reprodu",
+    "study_system": "liver microphysiological system (PhysioMimix LC12)"
+   },
+   {
+    "cite_key": "Nickels2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Nevertheless, also these novel organoid models exhibit some inherent weaknesses, including the presence of a necrotic core and batch-to-batch variability.",
+    "study_system": "human midbrain organoids (Parkinson's disease model)"
+   },
+   {
+    "cite_key": "Dominijanni2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Compared with direct cell viability commonly used in 2D cell culture, our results show cellular health output inaccuracies among each assay in differing hydrogel formulations.",
+    "study_system": "3D hydrogel constructs / tumor organoids and spheroids (4 commercial viability assays compared)"
+   },
+   {
+    "cite_key": "Hoyberghs2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Unfortunately, the protocol of this zebrafish embryo assay varies between labs, resulting in discordant data for identical compounds.",
+    "study_system": "zebrafish embryo developmental toxicity assay (ZEDTA) standardization"
+   },
+   {
+    "cite_key": "Jeffries2015",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The results not only show the utility of the fathead minnow FET test as a replacement for the LGS test but also provide evidence that inclusion of additional endpoints could improve the predictive power of the FET test.",
+    "study_system": "fish embryo toxicity test vs larval growth/survival test (zebrafish, fathead minnow)"
+   },
+   {
+    "cite_key": "vonHellfeld2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "All behavioral changes could be correlated to findings in mammalian studies.",
+    "study_system": "zebrafish embryo FET + coiling/swimming behavioral assays (neonicotinoids)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "The inter-laboratory-variability/discordance claim is carried specifically by Hoyberghs2020. Jeffries2015 (FET vs larval growth-survival comparison) and vonHellfeld2022 (neonicotinoid behavioural correlation with mammali",
+    "fix": "Cite Hoyberghs2020 (and vonHellfeld2022's standardization framing if desired) for the inter-lab-variability clause; place Jeffries2015 with the FET-utility/repl"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_f820619c1032a105",
+  "section_id": "sec-nams-data",
+  "claim_text": "The community response is qualification and quality-control criteria — coefficient-of-variation thresholds for organoid assays, donor-specific control thresholds for a vessel chip, and reproducibility-grading schemes for liver models — alongside consortium efforts to define contexts of use and even to build animal-tissue chips that could benchmark their human counterparts.",
+  "citation_keys": [
+   "Wittich2026",
+   "Weener2024",
+   "Varmazyad2026",
+   "Fabre2020",
+   "Brown2024",
+   "Marx2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether MPS deliver superior human-relevant predictivity over simpler NAMs: a head-to-head intestinal-permeability validation found MPS/enteroid systems added variability and that a standard static Ca"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Wittich2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In terms of pharmacology, general best practices for assay development indicate that a coefficient of variation (CV), reflecting the size of a standard deviation relative to its mean, < 20% is acceptable, and CV < 10% is an optimal quality criterion (;;).",
+    "study_system": "human pluripotent stem cell-derived organoids for drug discovery / HTS"
+   },
+   {
+    "cite_key": "Weener2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "To manage this, we established clear thresholds for platelet aggregation: <2% culture area covered for negative controls and >4% coverage for positive controls before including experimental data from a particular blood donor.",
+    "study_system": "blood-perfused Vessel-on-Chip microphysiological system (qualification case study)"
+   },
+   {
+    "cite_key": "Varmazyad2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "It provides a model that more accurately reflects human biology than traditional approaches, with a reported sensitivity of 100% and specificity of 90% for predicting drug-induced liver injury (DILI) [].",
+    "study_system": "human liver microphysiological system (primary hepatocyte qualification for DILI)"
+   },
+   {
+    "cite_key": "Fabre2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The International Consortium for Innovation and Quality in Pharmaceutical Development (IQ) MPS Affiliate is a group of pharmaceutical industry scientists who seek to expedite appropriate characterization and incorporation of MPS to potentially improve drug safety assessment and p",
+    "study_system": "microphysiological systems consortium (IQ MPS Affiliate)"
+   },
+   {
+    "cite_key": "Brown2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "While there have been significant advances in the development, use, and proposals of qualification criteria for human organ MPS, there remains a gap in the development using animal tissues.",
+    "study_system": "animal-tissue microphysiological systems (FDA regulatory value)"
+   },
+   {
+    "cite_key": "Marx2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "It is concluded that communication between stakeholders has improved significantly, while the recommendations related to regulatory acceptance still need to be implemented.",
+    "study_system": "microphysiological systems regulatory acceptance (2023 t4 workshop)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_352a30874983cccd",
+  "section_id": "sec-nams-data",
+  "claim_text": "These are the same standardisation levers, not yet pulled, that the animal field has debated for decades, and they depend on automation and biobanking to make organoid generation reproducible at scale.",
+  "citation_keys": [
+   "Fan2026",
+   "He2026",
+   "Louey2021"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Fan2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Implementing rigorous quality control is therefore pivotal for guaranteeing research reliability and clinical applicability.",
+    "study_system": "tumor organoid living biobanks (quality control)"
+   },
+   {
+    "cite_key": "He2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "By standardizing protocols for in vitro culture, microbiological safety, and STR authentication, this consensus aims to ensure the reproducibility, safety, and stability of organoid models, thereby accelerating their integration into basic research, drug discovery, and precision ",
+    "study_system": "patient-derived pancreatic cancer organoids (standardization guideline)"
+   },
+   {
+    "cite_key": "Louey2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Thus, there is a need for reproducible, large-scale organoid generation with minimal variability, making manual approaches impracticable.",
+    "study_system": "organoid culture automation (cerebral, retinal organoids)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_ad02e82215720276",
+  "section_id": "sec-nams-data",
+  "claim_text": "The irony runs deeper: the animal reference standard against which NAMs are validated is itself only moderately reproducible, with standardised endocrine assays replicating at 72% and 74% and, as the same review reports, rodent carcinogenicity outcomes agreeing only 65–86% between sexes of one species and 36–74% between rat and mouse, so NAM concordance is being measured against a shaky yardstick — which is precisely why one validation-framework argues concordance with animal data is a scientifically weak anchor and that human relevance, not animal agreement, should be the criterion.",
+  "citation_keys": [
+   "Karmaus2026",
+   "Kopanska2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Karmaus2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The Hershberger and uterotrophic assays gave similar degrees of replicability: 72% and 74%, respectively (;).",
+    "study_system": "rodent carcinogenicity bioassays; between-study/between-species replicability of tumor outcomes"
+   },
+   {
+    "cite_key": "Kopanska2026",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Moreover, simple concordance with animal data is a weak anchor because many animal tests were never validated for human relevance, and traditional validation often freezes a method at a single point in time despite rapid technological evolution.",
+    "study_system": "regulatory validation frameworks for NAMs (conceptual/methodological)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 2,
+    "issue": "Quantitative claim not covered by the package's authoritative sentence. The verbatim evidence for Karmaus2026 supports only the Hershberger/uterotrophic figures (72% and 74%). The rodent-carcinogenicity concordance figur",
+    "fix": "Confirm the 65–86% and 36–74% carcinogenicity figures against the Karmaus2026 full text (Phase 16). If the full text does not carry both figures, cite the prima"
+   },
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Partial single-key attribution. Karmaus2026 supports the 'only moderately reproducible' half (rodent carcinogenicity concordance 65-86% within species, 36-74% rat-vs-mouse; endocrine assays 72/74%). The 'never validated ",
+    "fix": "Consider co-citing `Kopanska2026` alongside Karmaus2026 for the 'never validated for human relevance' clause, matching the body's attribution."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_2ea40209dc18f169",
+  "section_id": "sec-nams-data",
+  "claim_text": "An independent robustness study of a liver microphysiological system found appreciable within- and between-study variability that undercuts its high-throughput utility.",
+  "citation_keys": [
+   "Kato2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Reproducibility of MPS readouts: an independent robustness study of a liver MPS found appreciable within- and between-study variability that dampens its high-throughput utility, while a drug-developme"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Kato2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The iHeps co-cultured with non-parenchymal cells demonstrated stable cell viability and function up to 17 days; however, variability was appreciable both within and among studies.",
+    "study_system": "liver microphysiological system (OrganoPlate 2-lane 96, iPSC-hepatocytes)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_936543d79b203489",
+  "section_id": "sec-nams-data",
+  "claim_text": "A drug-development perspective frames microphysiological systems as delivering more standardised, predictive, physiologically relevant responses in living tissues.",
+  "citation_keys": [
+   "Kopec2021"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Reproducibility of MPS readouts: an independent robustness study of a liver MPS found appreciable within- and between-study variability that dampens its high-throughput utility, while a drug-developme"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Kopec2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Once identified, MPS models require qualification for that specific context of use and must be reproducible to allow future validation.",
+    "study_system": "microphysiological systems in early-stage drug development"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_6d0ed45e85fcfe13",
+  "section_id": "sec-nams-data",
+  "claim_text": "It is unresolved — and a comparative intestinal-permeability validation reinforces the sceptical side, finding that microphysiological and enteroid systems added variability while a simple static monolayer gave the most accurate human absorption predictions, so complexity did not guarantee predictivity.",
+  "citation_keys": [
+   "Moyer2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether MPS deliver superior human-relevant predictivity over simpler NAMs: a head-to-head intestinal-permeability validation found MPS/enteroid systems added variability and that a standard static Ca"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Moyer2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "MPS cultures offered modest improvements in epithelial architecture but introduced greater variability, especially with enteroid-derived cells.",
+    "study_system": "intestinal permeability models (Caco-2, jejunal/duodenal enteroids, MPS)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ }
+]

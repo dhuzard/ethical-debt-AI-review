@@ -1,0 +1,818 @@
+{
+ "clm_b5a2192d14ba3ac1": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Modality 'likely' with a causal 'precisely because' is warranted: the ARRIVE authors' own 2018/2020 papers concede in their abstracts that endorsement delivered limited reporting gains, so the concession is quoted, not inferred.",
+   "evidence": ["PercieduSert2020b abstract: 'the impact of ARRIVE on the transparency of reporting ... has been limited'", "PercieduSert2018 abstract mirrors the concession"],
+   "failure_modes": ["'precisely because' slightly hardens an authors' self-report into settled causation"],
+   "recommended_fix": "Optionally soften 'precisely because' to 'in part because'."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Claim stays entirely within in vivo animal-research reporting, exactly the study_system of all three ARRIVE cites.",
+   "evidence": ["All cites: animal-research reporting guideline (ARRIVE)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "in vivo animal research reporting", "computational": null, "clinical": null, "methodological": "ARRIVE Essential-10 reorganisation", "conceptual": "endorsement vs realised reporting gain"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_03cf078d5f73fc7c": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Descriptive statement of what PREPARE and REFLECT cover; each clause is backed by an abstract passage, wording carries no overreach.",
+   "evidence": ["Smith2020b: 'better reporting cannot ... improve the quality of work already carried out - for this purpose better planning is required'", "Sargeant2010 describes the CONSORT template extended to trials"],
+   "failure_modes": ["All roles are partial_support, so precise remit of each guideline is only loosely evidenced"],
+   "recommended_fix": "None material."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to animal-study planning and livestock/food-safety trials, matching the cited study_systems.",
+   "evidence": ["Smith2017/2019/2020b: animal-study planning; Sargeant2010: livestock/food-safety RCT reporting"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": "animal / livestock research", "computational": null, "clinical": "livestock/food-safety RCTs", "methodological": "PREPARE and REFLECT guidelines", "conceptual": "planning vs reporting stages of rigor"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_9452572d84647f41": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "An enumeration of guideline extensions, each item directly supported by its own cite; 'rapid extension' and 'proliferation' are apt for eleven convergent sources.",
+   "evidence": ["Hopewell2025, Chan2025 (CONSORT/SPIRIT 2025); nine specialised extension abstracts each match a listed offshoot"],
+   "failure_modes": ["The specific '317-participant Delphi' figure is not visible in the supplied passages (mild traceability risk)"],
+   "recommended_fix": "Confirm the 317 figure against Hopewell2025/Chan2025 full text."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stays within clinical-trial reporting guidelines and their named offshoots; every offshoot cited maps to a real extension.",
+   "evidence": ["Each cite's study_system is an EQUATOR/reporting-guideline consensus in its stated domain"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": null, "computational": "LLM-study reporting (TRIPOD-LLM)", "clinical": "clinical-trial reporting guidelines", "methodological": "CONSORT/SPIRIT 2025 and extensions", "conceptual": "guideline proliferation"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_b38072da093b7b8d": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Enumeration of domain standards, each clause matched to a cite; measured 'all aim to make studies comparable' does not overclaim effectiveness.",
+   "evidence": ["Klein2025/Coles2023 (epilepsy CDEs); Stripecke2020 (MISHUM humanised mice); McGreevy2026 (welfare); Bailey2023 (behavioural psychopharmacology)"],
+   "failure_modes": ["Hall2026 (dog-assisted interventions) is an extra cite not clearly matching any of the four enumerated items"],
+   "recommended_fix": "Drop or relocate Hall2026, or add a clause covering assisted-intervention trials."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "All items are domain-specific animal/preclinical reporting standards, within the cited study_systems.",
+   "evidence": ["Cite study_systems span epilepsy CDEs, humanised mice, welfare, psychopharmacology"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": "animal models (mice, epilepsy, welfare)", "computational": null, "clinical": null, "methodological": "domain common-data-elements / minimum-information standards", "conceptual": "comparability and reusability"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_9b8b444624b23985": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Descriptive of design tools plus a hedged negative ('reporting ... is still inconsistent') that is verbatim-supported by Jay2026.",
+   "evidence": ["Jay2026: 'reporting of AI involvement is inconsistent'", "PercieduSert2017 describes the NC3Rs EDA tool"],
+   "failure_modes": ["Several roles are partial_support, so the strength of each tool's rigor benefit is only loosely evidenced"],
+   "recommended_fix": "None material."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to animal experimental-design tooling plus the LLM-assisted-review extension, both within source study_systems.",
+   "evidence": ["PercieduSert2017/SukoffRizzo2020/daFonsecaCardoso2023 (in vivo design); Gallifant2025/Jay2026 (LLM review)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "in vivo animal experimental design", "computational": "LLM-assisted systematic review", "clinical": null, "methodological": "design-assistants, screening protocols, sample-size apps", "conceptual": "building rigor before animal use"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_3a605d51b7b89efa": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Modality 'established' is justified by two convergent reviews-of-reviews with near-identical figures (86.0%, 87.9%) quoted exactly; the flagged conflict concerns intervention efficacy, not these adherence rates, so no caveat is owed here.",
+   "evidence": ["Thabane2013: '86.0% of studies reported suboptimal levels of adherence'", "Jin2018: '87.9% ... reported suboptimal adherence'"],
+   "failure_modes": ["has_conflict_source is true, but the conflict is tangential to this descriptive figure"],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Both figures come from cross-literature health-research adherence reviews, matching the claim's scope.",
+   "evidence": ["Both cites: reporting-guideline adherence across health-care literature"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": "health-care research reporting", "methodological": "reporting-guideline adherence", "conceptual": "availability vs adherence"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_522529255e6844bb": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Precise audit percentages (22.2%, 38.6%, 24.1%, 0.8%) quoted verbatim from full text/abstract; 'Endorsement itself is shallow' is a fair reading of the numbers.",
+   "evidence": ["Wang2024b: '124 or 22.2% ... 216 journals (38.6%)'", "Duan2023: '24.1% endorsed CONSORT, and 0.8% endorsed CONSORT extensions'"],
+   "failure_modes": ["'comparable gaps for CONSORT and PRISMA' is asserted but not shown in the supplied passage"],
+   "recommended_fix": "Cite the specific CONSORT/PRISMA endorsement figures from Wang2024b."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Figures are attributed to their exact populations (559 biomedical journals; 1,039 Chinese journals) without overgeneralisation.",
+   "evidence": ["Wang2024b: biomedical journals audit; Duan2023: Chinese medical journals n=1039"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "animal-research guideline (ARRIVE)", "computational": null, "clinical": "medical journals (CONSORT/PRISMA)", "methodological": "guideline endorsement audit", "conceptual": "depth of endorsement"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_56487d169f59ddab": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Rests on a single 2012 survey (robustness 1); the 35% figure is verbatim, but the second clause ('fewer than half of those mentioned reporting guidelines') is not in the supplied passage and the claim does not flag its single-study, dated basis.",
+   "evidence": ["Hirst2012: 'Only 41/116 journals (35%) provided online instructions'"],
+   "failure_modes": ["Second clause under-evidenced", "no hedge for reliance on one 2012 survey"],
+   "recommended_fix": "Add 'in a 2012 survey' and cite the passage for the guideline-mention proportion."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Scoped to 'surveyed health journals', matching Hirst2012's population; no overreach to all journals.",
+   "evidence": ["Hirst2012 study_system: health-research journals peer-review instructions"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": "health-research journals", "methodological": "peer-review instructions on guidelines", "conceptual": "enforcement reaching reviewers"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_542e737196113fe1": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The stated adherence band '38.7% to 60%' excludes Zoubi2026's higher mean of 69% (critic track-2 range mis-fit), and 'peer review corrects almost nothing' is a strong generalisation leaning on Hudda2023 (n=19); modality 'established' overstates.",
+   "evidence": ["AndaurNavarro2022 median 38.7%; Miao2022 60% (p=0.770); Zoubi2026 mean 69% sits above the band; Hudda2023 n=19"],
+   "failure_modes": ["range mis-fit", "strong 'corrects almost nothing' from a single small study"],
+   "recommended_fix": "Widen the band to include 69% or cite Zoubi2026 separately; soften the peer-review clause."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "All four cites are clinical/computational prediction-model audits, yet the topic sentence frames deficits as 'across animal and clinical domains alike', reaching beyond this claim's own citations (animal evidence sits in the next claim).",
+   "evidence": ["Cites: ML clinical prediction models, contrast-nephropathy models, cancer-imaging NN, COVID prediction models - none animal"],
+   "failure_modes": ["'animal ... alike' overreaches the cited domain"],
+   "recommended_fix": "Restrict the topic clause to prediction-model / clinical domains or move the animal framing to the animal-cited claim."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": "ML/AI clinical prediction models", "clinical": "diagnostic/prognostic prediction models", "methodological": "TRIPOD/TRIPOD-AI adherence auditing", "conceptual": "peer-review efficacy on reporting"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_bc6b6165ac73cd93": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "Sweeping aggregation ('persistent, barely-moving deficits') presented without surfacing the packaged conflict that a whole-literature automated index (Menke2022, RTI 2.29->4.13) shows real improvement (critic SHOULD_CAVEAT track-3); the strong 'no study reporting sample-size/adverse/humane endpoints' is also over-attributed.",
+   "evidence": ["Multiple ARRIVE/3Rs audits (Flitti2024 57.9; Kousholt2023 0%->3.2%); packaged Menke2022 improvement not caveated"],
+   "failure_modes": ["contradicting improvement signal under-surfaced", "absolute 'no study' claims"],
+   "recommended_fix": "Add a clause acknowledging the automated-index improvement (Menke2022) alongside the item-level manual-audit stagnation."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "All cites are animal/preclinical, so the domain is right, but Lin2024 is mischaracterised as 'cardiovascular models' when it is a broad cross-sectional of interventional animal experiments (critic track-2 study-system mismatch).",
+   "evidence": ["Lin2024 study_system: interventional animal experiments in ARRIVE-publishing journals, not cardiovascular models"],
+   "failure_modes": ["source study-system mislabelled"],
+   "recommended_fix": "Relabel Lin2024 as a cross-sectional ARRIVE 2.0 audit of interventional animal experiments."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": -1,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "multiple animal models (orthodontic, Parkinson's, kidney, liver, bone, stroke, veterinary)", "computational": null, "clinical": null, "methodological": "ARRIVE / 3Rs reporting audits", "conceptual": "persistent reporting deficits"},
+  "evidence_relation": "conflicted",
+  "cap_flags": ["contradicted_without_caveat"]
+ },
+ "clm_4abb6641098fcfbe": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'Reach the same conclusion' and 'introduced but seldom implemented' are well matched to three convergent abstracts; wording does not overstate.",
+   "evidence": ["Provencher2018: rigor 'often lacking'; Winder2019: many items 'not reported'; Ferreira2020: ARRIVE/PREPARE introduced"],
+   "failure_modes": ["All roles partial_support; 'external validity virtually absent' is a strong reading of Ferreira2020"],
+   "recommended_fix": "None material."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to preclinical animal / livestock disease-model literature matching the cites.",
+   "evidence": ["Provencher2018 (PAH models), Winder2019 (dairy trials), Ferreira2020 (animal-model external validity)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "animal disease models (PAH, dairy cattle)", "computational": null, "clinical": null, "methodological": "ARRIVE/PREPARE implementation", "conceptual": "external validity"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_9ae7b205338b199d": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'Middling range' loosely averages heterogeneous scores (Pedder 3/8 low, Chen 7.73/10 high); the strong 'construct validity essentially absent' is well supported by Hunniford2021.",
+   "evidence": ["Song2026 median 7.0/10; Chen2026 7.73/10; Pedder2014 3/8; Hunniford2021: 'none reported methods for evaluating construct validity'"],
+   "failure_modes": ["'middling' glosses over wide score dispersion"],
+   "recommended_fix": "Report the score range rather than a single 'middling' descriptor."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to preclinical/animal evidence synthesis and its risk-of-bias tooling, matching all cites.",
+   "evidence": ["Cites: preclinical SR/CAMARADES/SYRCLE quality assessments and 3Rs uptake"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "animal disease models", "computational": null, "clinical": null, "methodological": "SYRCLE / CAMARADES risk-of-bias", "conceptual": "absence of construct-validity reporting"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_252721f07b050fe2": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly framed as 'the strongest version of the sceptic's case' with 'a reasonable reader might conclude'; the load-bearing 74% figure is verbatim from Naaman2023. The hedging is exemplary for an argument the author sets up to rebut.",
+   "evidence": ["Naaman2023: '74% (60/81) did not see TOP as a high priority'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to journal editors' TOP-standard attitudes and TOP-Factor scoring, matching the cites.",
+   "evidence": ["Naaman2023 (editor survey), Toomey2025 (journal TOP scores), MayoWilson2021 (TOP Factor)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "suggestive",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "TOP standards adoption / TOP Factor", "conceptual": "governance as bureaucratic burden"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_f07394e258fa2f68": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Softly framed ('raises a parallel worry'), but the flagged conflict - whether the 3Rs are inadequate (Strech's 6Rs) or conceptually sufficient but under-applied (Lauwereyns) - is a live disagreement only one side of which drives the 'procedural not substantive' worry.",
+   "evidence": ["Strech2019 (expansion proposal); Lauwereyns2024 (consensus interpretation, partial_support)"],
+   "failure_modes": ["genuine framework-adequacy disagreement not made explicit"],
+   "recommended_fix": "Name both positions when raising the worry."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stays within the animal-research 3Rs/oversight domain of both cites.",
+   "evidence": ["Both cites: animal-research ethics / 3Rs framework"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "suggestive",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "animal-research oversight", "computational": null, "clinical": null, "methodological": "3Rs framework", "conceptual": "procedural vs substantive oversight"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_0107166aa0df2509": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Faithfully reports the IICARus RCT's null result, scoped to that single trial ('A randomised controlled trial that asked ...'); no overreach, and it is deliberately paired with the opposing observational study in adjacent claims.",
+   "evidence": ["Hair2019: control 1.5% vs intervention 0.9% met all four Landis subitems"],
+   "failure_modes": ["Single trial (robustness 1), but presented as such"],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to in vivo animal manuscripts at PLOS ONE, the trial's exact setting.",
+   "evidence": ["Hair2019 study_system: in vivo animal manuscripts at PLOS ONE (RCT)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "in vivo animal research", "computational": null, "clinical": null, "methodological": "ARRIVE-checklist-at-submission RCT", "conceptual": "checklist efficacy"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_4615da65d09015dc": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Reports the Nature-mandate observational gain (0%->16.4%, controls unmoved) cleanly, but on a disputed question (modality contested); the counter-evidence RCT null is not caveated within the claim (critic SHOULD_CAVEAT track-3), though the neighbouring claim supplies the contrast.",
+   "evidence": ["Macleod2019b: 0/203 -> 31/181 (16.4%), p=1.8e-8"],
+   "failure_modes": ["single observational before/after presented favourably on a disputed point"],
+   "recommended_fix": "Note in-claim that a paired RCT (Hair2019) found no such effect."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Scoped to NPG life-sciences including in vivo articles, matching Macleod2019b.",
+   "evidence": ["Macleod2019b study_system: NPG journals (incl. in vivo)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "in vivo animal research", "computational": null, "clinical": null, "methodological": "checklist mandated at revision", "conceptual": "enforcement efficacy"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_3f496766c1273e25": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly juxtaposes the RCT null against the mandated-at-revision gain with 'whereas', modality contested; this is the balanced presentation the disputed evidence requires.",
+   "evidence": ["Hair2019 (no full compliance) vs Macleod2019b (improvement 'not previously observed')"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Both halves scoped to their in vivo journal settings (PLOS ONE; NPG).",
+   "evidence": ["Hair2019 PLOS ONE; Macleod2019b NPG"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "in vivo animal research", "computational": null, "clinical": null, "methodological": "checklist at submission vs at revision", "conceptual": "timing/enforcement of checklists"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_09ac10091ca1491f": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Reports the Chagas SR null faithfully and hedges the change as 'non-significant', explicitly scoping it to 'the Chagas literature'; one pole of a disputed question, honestly stated.",
+   "evidence": ["Gulin2015: ~51%->66% ethical/3Rs statements, non-significant"],
+   "failure_modes": ["single review (robustness 2) on a disputed point"],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Tightly scoped to Chagas-disease preclinical drug studies, the review's exact domain.",
+   "evidence": ["Gulin2015 study_system: Chagas (T. cruzi) preclinical drug studies"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "Chagas / T. cruzi animal models", "computational": null, "clinical": null, "methodological": "passive ARRIVE publication effect", "conceptual": "passive endorsement efficacy"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_ee4164475bec0acc": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'At least three times as much' is a clean quantitative effect drawn from one uncontrolled two-journal comparison on a disputed question (modality contested); the specific 3x figure is not visible in the supplied passage and no in-claim caveat notes the opposing null findings.",
+   "evidence": ["Han2017: randomisation/blinding/sample-size stated in <=20% in 2013, improved by 2015"],
+   "failure_modes": ["single-study disputed effect stated as a firm multiple"],
+   "recommended_fix": "Attribute the 3x figure to Han2017's tables and flag the counter-evidence."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Scoped to in vivo studies in Nature vs Cell, matching Han2017.",
+   "evidence": ["Han2017 study_system: in vivo animal studies in Nature vs Cell"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "in vivo animal studies", "computational": null, "clinical": null, "methodological": "checklist operationalisation vs none", "conceptual": "enforcement efficacy"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_fef4fce1d3d3f53b": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Balanced juxtaposition of the passive-endorsement null (51%->66%, p=0.26) against the implementation gain, with a p-value and 'three-fold-greater' precisely stated; modality contested is apt.",
+   "evidence": ["Gulin2015 (p=0.26 null); Han2017 (implementation improvement)"],
+   "failure_modes": ["the 3x figure relies on Han2017 tables not shown in-passage"],
+   "recommended_fix": "None material."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each figure attributed to its domain (Chagas SR; Nature vs Cell in vivo).",
+   "evidence": ["Gulin2015 Chagas; Han2017 Nature/Cell in vivo"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "Chagas + in vivo animal studies", "computational": null, "clinical": null, "methodological": "passive endorsement vs implementation", "conceptual": "enforcement vs passive efficacy"},
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_4dc7df93c82a37f5": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Reports the systematic review's cautious conclusion in its own terms ('insufficient evidence'), which is well-calibrated language for a null/uncertain finding.",
+   "evidence": ["Stevens2014: 'Insufficient evidence exists to determine the relation between journals' endorsement ... and the completeness of reporting'"],
+   "failure_modes": ["single review (robustness 1)"],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to journal endorsement of guidelines in health research, matching the review.",
+   "evidence": ["Stevens2014 study_system: journal endorsement of reporting guidelines"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": "health research", "methodological": "journal endorsement of guidelines", "conceptual": "endorsement-completeness link"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_9bf488eef8d67456": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The claim carefully separates controlled enforcement contrasts (matched controls unmoved) from an uncontrolled secular time-trend, and explicitly declines to count Munro2022 as enforcement evidence - directly implementing the critic's MUST_FIX rather than falling to it.",
+   "evidence": ["Munro2022 (13.6%->85.7% randomisation) placed in a separate uncontrolled-trend category; Macleod2019b/Han2017 as the controlled contrasts"],
+   "failure_modes": ["Claim text has some dropped citation anchors ('most cleanly, whose ...') that hurt readability"],
+   "recommended_fix": "Restore the missing citation anchors in the prose."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "All three cited studies are animal/in vivo, and the claim's methodological point about causal inference stays within that evidence.",
+   "evidence": ["Macleod2019b (NPG in vivo), Han2017 (Nature/Cell in vivo), Munro2022 (veterinary anaesthesia in vivo)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "in vivo animal studies", "computational": null, "clinical": null, "methodological": "controlled vs uncontrolled evidence classification", "conceptual": "enforcement causal inference"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_3c8eb4448119a21f": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Open-practice badges are labelled 'an enforced, visible signal' when they are an opt-in incentive (critic track-2), and the packaged conflict (badges vs near-zero actual data under blanket mandates) is not surfaced; modality 'established' is slightly strong for a mechanism-labelling that mixes incentives and mandates.",
+   "evidence": ["Kidwell2016 (<3%->39% open data); IvimeyCook2025 (96.5% provision); Menke2020/Eckmann2026 (automated checks)"],
+   "failure_modes": ["'enforced' mislabels an incentive", "usable-data conflict not caveated"],
+   "recommended_fix": "Call badges 'incentivised/rewarded' rather than 'enforced'; note the usable-data caveat."
+  },
+  "transferability_scope_control": {
+   "score": 2,
+   "rationale": "In a section about the animal/preclinical ethical debt, the two largest 'enforcement works' magnitudes come from a psychology journal (Kidwell2016) and ecology/evolution journals (IvimeyCook2025); the transfer to the animal context is not flagged in-claim (critic SHOULD_CAVEAT track-4).",
+   "evidence": ["Kidwell2016: Psychological Science; IvimeyCook2025: ecology and evolution journals"],
+   "failure_modes": ["non-animal field provenance not disclosed here"],
+   "recommended_fix": "Add a clause noting the largest effects come from psychology and ecology journals."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": null, "computational": "automated rigor-screening tools", "clinical": null, "methodological": "badges, mandates, automated checks", "conceptual": "enforcement efficacy (partly transferred from psychology/ecology)"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_3cc69ae4c98c41dc": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "This is the explicit scope caveat: it states outright that the two largest enforcement effects come from psychology and ecology journals and that the animal-specific evidence is 'real but more modest' and partly 'transferred', exactly the disclosure the prior claim lacked.",
+   "evidence": ["Kidwell2016 (psychology), IvimeyCook2025 (ecology); Macleod2019b/Han2017 as the more modest animal evidence"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "The claim is itself a transferability-limiting statement, correctly bounding the generalisation from adjacent fields into the animal context.",
+   "evidence": ["Explicitly labels the cross-field transfer"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "animal-specific enforcement (Nature mandate, checklist journal)", "computational": null, "clinical": null, "methodological": "enforcement-evidence provenance", "conceptual": "cross-field transfer of the enforcement case"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_02658b3f33485c53": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The universal quantifier 'every unenforced regime underperforms' generalises beyond the two audits cited; the underlying figures (low-single-digit actual sharing; ~a fifth repository linking) are verbatim-supported.",
+   "evidence": ["MartinRodriguez2026: 93% did not provide data despite DAS pledges; Colavizza2020: near-universal DAS but ~20% repository linking"],
+   "failure_modes": ["'every ... regime' overstates a two-case sample"],
+   "recommended_fix": "Replace 'every' with 'the unenforced regimes examined'."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to biomedical data-availability-statement practice, matching the cites.",
+   "evidence": ["MartinRodriguez2026 (biomedical papers); Colavizza2020 (PLOS/BMC)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": "biomedical research", "methodological": "voluntary data-availability statements", "conceptual": "unenforced vs enforced regimes"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_396c91203ec86547": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "Specific figures are stated with confidence but carry a denominator/attribution error (critic MUST_FIX track-2): Hamilton2022's <1% FAIR is 1/306 of sampled articles, not 'among datasets'; the '2%' actual-availability anchor is Hamilton2023's, and the supplied Hamilton2023 passage reports 61/18/21% IPD figures rather than the 8%/2% used.",
+   "evidence": ["Hamilton2022 abstract: FAIR met in <1% (1/306); Hamilton2023 passage cites 61%/18%/21% not 8%/2%"],
+   "failure_modes": ["denominator mismatch", "figure-to-source attribution slippage"],
+   "recommended_fix": "State '1 of 306 oncology articles (0.3%) met FAIR' and co-cite Hamilton2023 as the source of the ~2% anchor."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Figures remain within medical/health and oncology data-sharing, matching the two cites; the accuracy issue is numeric, not scope.",
+   "evidence": ["Hamilton2023 (medical/health meta-analysis); Hamilton2022 (cancer journals)"],
+   "failure_modes": [],
+   "recommended_fix": "None on scope."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": "medical/health and oncology research", "methodological": "data-availability meta-analysis / FAIR audit", "conceptual": "declared vs actual availability"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_ca3c32ee268179b3": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Makes a careful construct point (statement content is not usable availability) and gives exact figures (20.8%, 12.2%), but the Federer2018 passage supplied speaks to DAS presence (23.8% lacking a DAS) rather than the '~a fifth name a repository' figure, leaving that anchor loosely traced.",
+   "evidence": ["Colavizza2020: 93.7% PLOS / 88.2% BMC had DAS; Federer2018 passage on DAS presence"],
+   "failure_modes": ["repository-naming proportion not shown in supplied passage"],
+   "recommended_fix": "Cite the specific repository-link proportions from Federer2018/Colavizza2020 full text."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Scoped to PLOS ONE / PLOS / BMC data-availability practice, matching the cites.",
+   "evidence": ["Federer2018 (PLOS ONE DAS); Colavizza2020 (PLOS/BMC)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": "biomedical journals (PLOS/BMC)", "methodological": "data-availability-statement content vs repository linking", "conceptual": "statement content vs usable availability"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_e49988ee10c8cd3f": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Three audits are aggregated as convergent 'low ceiling' evidence; the '4 of 193 experiments' framing is not exactly the Errington2021a passage (which reports 50 of 193 repeated), and '68.6% declared ... diverged sharply by funder' is vaguely quantified relative to Danchev2021's 0.6% actual figure.",
+   "evidence": ["RowhaniFarid2016: 4.5% data easily available; Errington2021a: 50/193 repeated; Danchev2021: 0.6% actually available"],
+   "failure_modes": ["'4 of 193' vs passage's 50/193", "loosely specified funder-divergence clause"],
+   "recommended_fix": "Confirm the 4/193 effect-size-data figure against RP:CB and quantify the funder divergence."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each audit is attributed to its domain (BMJ articles; preclinical cancer biology; clinical trials); all concern data availability, no overreach.",
+   "evidence": ["RowhaniFarid2016 (BMJ); Errington2021a (cancer biology); Danchev2021 (JAMA/Lancet/NEJM trials)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "preclinical cancer biology", "computational": null, "clinical": "clinical trials", "methodological": "data-sharing audits", "conceptual": "declared vs actual sharing"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_4f77532b7ab45f48": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "A scoped illustrative statistic ('illustrated by materials-science journals'); the load-bearing 7% figure is verbatim, and the point (policies without teeth) follows directly from it.",
+   "evidence": ["Hormann2026: 'Only 7% of journals require public sharing of all research data in all cases'"],
+   "failure_modes": ["98%/95% figures not shown in supplied passage (single-study, robustness 1)"],
+   "recommended_fix": "Cite the 98%/95% figures from Hormann2026 full text."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Explicitly bounded to materials-science journals, matching the source.",
+   "evidence": ["Hormann2026 study_system: materials-science journal research data policies"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "research-data policies", "conceptual": "policy without enforcement"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_fe29a7d3fb486e6d": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly scoped as a 'single-institution audit ... at one university'; the 7%->45% rise is verbatim from Deeb2025, and the single-institution basis is disclosed rather than generalised.",
+   "evidence": ["Deeb2025: 'from 7% in 2014 to 45% in 2023'"],
+   "failure_modes": ["single-institution audit (per critic) is not load-bearing for broader claims"],
+   "recommended_fix": "None; keep the single-institution framing."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Bounded to one university's bioscience papers, matching Deeb2025; no field-wide extrapolation.",
+   "evidence": ["Deeb2025 study_system: university bioscience data-sharing (institutional audit)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "positive",
+  "claim_scope": {"biological": "bioscience research", "computational": null, "clinical": null, "methodological": "openness/FAIR institutional audit", "conceptual": "data-sharing improvement"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_162e890c4f676c4d": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Deliberately non-committal ('either a breakthrough or an artefact'), correctly flagging that a single-institution 45% against a ~2% field baseline could be genuine or an artefact; exemplary hedging.",
+   "evidence": ["Hamilton2023 as the ~2% field-wide baseline reference"],
+   "failure_modes": ["the 2% anchor sits elsewhere in Hamilton2023 than the supplied passage"],
+   "recommended_fix": "Point-cite the 2% figure within Hamilton2023."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Explicitly contrasts an institutional figure against a field-wide baseline, using the scope gap as the point rather than eliding it.",
+   "evidence": ["Hamilton2023 (field-wide medical baseline)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "speculation",
+  "modality": "uncertain",
+  "claim_polarity": "neutral",
+  "claim_scope": {"biological": null, "computational": null, "clinical": "medical/health data availability", "methodological": "baseline comparison", "conceptual": "breakthrough vs artefact"},
+  "evidence_relation": "indirectly_supported",
+  "cap_flags": []
+ },
+ "clm_9bddc6a49b598341": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Well-framed contrast (institutional rise vs field-wide ~2% vs oncology ~16%/<1% FAIR), but it inherits the Hamilton2022 denominator error (critic MUST_FIX track-2): <1% FAIR is 1/306 of sampled articles, not among datasets.",
+   "evidence": ["Deeb2025 (7%->45%); Hamilton2023 (~2% actual); Hamilton2022 (<1% FAIR = 1/306)"],
+   "failure_modes": ["denominator mismatch on oncology figures"],
+   "recommended_fix": "State the oncology FAIR figure as 1/306 (0.3%)."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Explicitly juxtaposes single-institution, field-wide, and oncology scopes rather than conflating them.",
+   "evidence": ["Deeb2025 (institution); Hamilton2023 (field-wide); Hamilton2022 (oncology)"],
+   "failure_modes": [],
+   "recommended_fix": "None on scope."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": "bioscience research", "computational": null, "clinical": "medical / oncology research", "methodological": "data-sharing audits and meta-analysis", "conceptual": "institutional vs field-wide divergence"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_ec30b69584f8b052": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Balances OA growth (80-90% at top universities) against stark unevenness (>60% Tunisian paywalled; modest, culture-independent thesis gains); each clause is verbatim-supported and modality contested is apt.",
+   "evidence": ["Huang2020 (80-90% OA); Mhamdi2025 (>60% paywalled); Brohmer2025 ('modest increase ... no significant difference between departments')"],
+   "failure_modes": ["disputed/single-study components, but presented as uneven rather than settled"],
+   "recommended_fix": "None material."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each figure attributed to its context (global institutions; Tunisia; psychology PhD theses); the unevenness is the explicit point, so no overextension.",
+   "evidence": ["Huang2020 (worldwide); Mhamdi2025 (Tunisia); Brohmer2025 (psychology theses)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {"biological": null, "computational": null, "clinical": null, "methodological": "OA / preregistration / data-sharing uptake", "conceptual": "uneven reach of open-science policies"},
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_da30f3367726f36d": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Aggregates several uptake surveys with precise figures, but the '21% aware of FAIR' and '39.2% never heard of preregistration' anchors are not visible in the supplied Nawroth2026/Priboi2025 passages (which show 9% preregistration and a response rate), leaving those numbers loosely traced.",
+   "evidence": ["Nawroth2026: preregistration 9%; vanderNaald2022: 107 protocols; BannachBrown2024: 2282 protocols"],
+   "failure_modes": ["two headline percentages not evidenced in supplied passages"],
+   "recommended_fix": "Cite the 21% FAIR-awareness and 39.2% figures from the respective abstracts/full text."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "All cites are animal-adjacent (applied ethology, Swiss animal-study directors, animal/in vitro preregistration), matching the claim's 'animal-adjacent fields' framing.",
+   "evidence": ["Nawroth2026 (ethology); Priboi2025 (Swiss animal-study directors); Heinl/vanderNaald/BannachBrown (animal preregistration)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {"biological": "animal and in vitro research", "computational": null, "clinical": null, "methodological": "FAIR / preregistration uptake surveys and registries", "conceptual": "low awareness / uptake floor"},
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ }
+}

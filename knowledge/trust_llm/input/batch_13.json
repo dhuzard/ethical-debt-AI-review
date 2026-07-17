@@ -1,0 +1,1725 @@
+[
+ {
+  "claim_id": "clm_214dc44141d81860",
+  "section_id": "sec-governance",
+  "claim_text": "Even registered systematic-review protocols convert to publications only about half the time, and slowly.",
+  "citation_keys": [
+   "Bugajska2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Bugajska2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Among these, 694 (51%) resulted in a published systematic review.",
+    "study_system": "Systematic reviews of animal studies (PROSPERO registry)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_75e9f86a3dc55404",
+  "section_id": "sec-governance",
+  "claim_text": "The barriers are consistently identified as social and institutional rather than individual — reproducible practice depends on supportive policy, infrastructure, training, and recognised data-stewardship roles that mostly do not yet exist.",
+  "citation_keys": [
+   "Kozula2026",
+   "Chakravorti2025",
+   "Zuiderwijk2020",
+   "Caldoni2026",
+   "Bradshaw2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Kozula2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Of 249 invited researchers, 60 agreed and were interviewed.",
+    "study_system": "cross-disciplinary qualitative interviews with researchers in Europe"
+   },
+   {
+    "cite_key": "Chakravorti2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "14.58% of Indian researchers who reported trying to replicate others’ research obtained affirmative results with the remaining majority reporting unsuccessful or only partially successful results.",
+    "study_system": "Survey of 452 professors in the USA (n=261) and India (n=191)"
+   },
+   {
+    "cite_key": "Zuiderwijk2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This study's purpose is to systematically review the literature on individual researchers' drivers and inhibitors for sharing and using open research data.",
+    "study_system": "open research data studies (systematic review)"
+   },
+   {
+    "cite_key": "Caldoni2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Data cleaning was performed on the 77 valid entries collected (out of 88 responses) before conducting the descriptive analyses.",
+    "study_system": "data stewards at universities/research institutions (Italy)"
+   },
+   {
+    "cite_key": "Bradshaw2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We also identify sociotechnical hurdles, such as academic recognition and reward systems that disincentivise data sharing, and legal challenges linked to heightened perceptions of data privacy risk, compounded by a lack of clear guidance on GDPR compliance mechanisms for public-p",
+    "study_system": "Neurodegenerative-disease research data sharing (IMI public-private partnerships)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_f2bbd4943645c11f",
+  "section_id": "sec-governance",
+  "claim_text": "When the ICMJE made prospective registration a condition of publication in 2004, annual registrations rose from 3,294 to 23,384 within a decade — a fivefold jump relative to publication growth.",
+  "citation_keys": [
+   "Viergever2015"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Viergever2015",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The annual number of registered clinical trials increased from 3294 in 2004 to 23,384 in 2013.",
+    "study_system": "ICTRP global trial registration (post-ICMJE 2004 policy effect)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_101875904a383fdd",
+  "section_id": "sec-governance",
+  "claim_text": "A cohort study of due trials on the EU register found only 49.5% posted results within the required window, with commercial sponsors far more compliant than non-commercial ones (68.1% versus 11.0%); a UK university audit found a mere 1.6% of due trials reported within a year; and mesenchymal-stromal-cell trials left over half of registry entries with no posted or published results at all.",
+  "citation_keys": [
+   "Goldacre2018",
+   "Keestra2021",
+   "Holtedahl2024"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Goldacre2018",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Of 7274 trials where results were due, 49.5% (95% confidence interval 48.4% to 50.7%) reported results.",
+    "study_system": "EU Clinical Trials Register (results-reporting mandate compliance)"
+   },
+   {
+    "cite_key": "Keestra2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In October 2020, the universities included in our study were sponsoring 1634 due trials, only 1.6% (n = 26) of which had reported results within a year of completion.",
+    "study_system": "30 UK universities on ClinicalTrials.gov (reporting performance)"
+   },
+   {
+    "cite_key": "Holtedahl2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Of the 100 registry trials, 52 trials with in total 2 993 participants had neither posted results in the registry nor published results.",
+    "study_system": "Mesenchymal stromal cell trials for musculoskeletal disorders (registration/reporting compliance)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_0141adf9b130ca40",
+  "section_id": "sec-governance",
+  "claim_text": "Yet where institutions were actively monitored and named, behaviour shifted: prospective registration at German university medical centres rose from 33% to 75%, and Swiss trials reached 91% registration overall.",
+  "citation_keys": [
+   "Franzen2023",
+   "Klatte2023"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Franzen2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Across all UMCs, prospective registration increased from 33% (n = 58/178) to 75% (n = 144/193) for trials registered in ClinicalTrials.gov and from 0% (n = 0/44) to 79% (n = 19/24) for trials registered in DRKS over the period considered.",
+    "study_system": "35 German University Medical Centers (trial-transparency dashboard)"
+   },
+   {
+    "cite_key": "Klatte2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Of 473 included clinical trials, 432 (91%) were registered at all and 326 (69%) were prospectively registered.",
+    "study_system": "Swiss ethics-approved clinical trials (registration compliance)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_3cfefa378b2d291d",
+  "section_id": "sec-governance",
+  "claim_text": "The precedent is double-edged and therefore instructive: mandates that are tracked and attributed to identifiable actors move compliance, but the same mandates left unaudited decay into the same low reporting rates that plague preclinical work, and registry-publication discrepancies remain common.",
+  "citation_keys": [
+   "He2025",
+   "Fleminger2018",
+   "Rising2008"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "He2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The clinical trial registry search identified 3710 trials evaluating the use of AI in clinical settings, of which 1106 trials are completed, yet only 101 trials have published results.",
+    "study_system": "AI clinical trials (registration/results-reporting discrepancies)"
+   },
+   {
+    "cite_key": "Fleminger2018",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "16.2% were discrepant on completion status.",
+    "study_system": "Dual-registered clinical trials (registry data-quality/governance)"
+   },
+   {
+    "cite_key": "Rising2008",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Seventy-eight percent (128/164) of efficacy trials contained in FDA reviews of NDAs were published.",
+    "study_system": "FDA New Drug Application efficacy trials (selective publication)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_828d9f77072b320a",
+  "section_id": "sec-governance",
+  "claim_text": "The reporting pathology that guidelines are meant to prevent is well characterised: spin — presenting non-significant results as if favourable — appears in 40% to 88% of trial reports with non-significant primary outcomes across anaesthesia, oncology, surgery, neurology, and arthroplasty, and its association with funding source is itself contested, being tied to nonprofit sponsors in one oncology sample and to private industry in an arthroplasty one.",
+  "citation_keys": [
+   "Ito2021",
+   "Demarquette2023",
+   "Patel2015",
+   "MascarenasGarcia2026",
+   "Chung2026",
+   "Duran2024"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Opposite direction of the funding-source/spin association: the oncology study links spin to nonprofit funding, whereas the arthroplasty study finds the highest spin rates in privately/industry-funded ",
+   "Opposite direction of the funding-source/spin association: the oncology study links spin to nonprofit funding, whereas the arthroplasty study finds the highest spin rates in privately/industry-funded "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Ito2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Spin was identified in 39 reports (75.0%; 95% CI, 61.6%-84.9%), including the abstract (34 reports [65.4%; 95% CI, 51.1%-76.9%]) and the main text (38 reports [73.1%; 95% CI, 59.7%-83.3%]).",
+    "study_system": "noninferiority oncology RCTs (n=52)"
+   },
+   {
+    "cite_key": "Demarquette2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "For the statistically negative studies, 66 articles (40%) presented spin; 89% of these occurrences of spin were described in the conclusion of the abstract.",
+    "study_system": "anaesthesia RCTs (n=162)"
+   },
+   {
+    "cite_key": "Patel2015",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Evidence of spin was found in 82% of studies.",
+    "study_system": "robotic colorectal surgery studies (n=38)"
+   },
+   {
+    "cite_key": "MascarenasGarcia2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Spin appeared in at least one section in 25 articles (62.5%) and in 3 or more in 19 articles (47.5%).",
+    "study_system": "multiple sclerosis RCTs (n=40)"
+   },
+   {
+    "cite_key": "Chung2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Spin appeared in 88.4% of studies (95% CI 83.3-93.6).",
+    "study_system": "hip/knee arthroplasty pilot and feasibility trials (n=147)"
+   },
+   {
+    "cite_key": "Duran2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The information conveyed in VAs was frequently incomplete and inaccurate, highlighting the urgent need to refer to appropriate specific reporting guidelines to avoid misinterpretation by readers.",
+    "study_system": "randomised-trial visual abstracts (n=253)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_4fbb4b467f67c14c",
+  "section_id": "sec-governance",
+  "claim_text": "Selective and distorted reporting compounds at the analysis stage too: post-randomisation attrition can induce selection bias even under a null effect, pandemic-era meta-analyses showed 70.6% reporting-conduct discrepancies, and sex-difference claims are frequently asserted without a supporting statistical test even as policies push sex inclusion — while in some fields most animal studies still use male animals only.",
+  "citation_keys": [
+   "Collazo2024",
+   "Liu2025b",
+   "GarciaSifuentes2021",
+   "Warden2026",
+   "Lee2018",
+   "Dalla2024",
+   "Currie2019"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Collazo2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Even when the treatment had no causal effect, our simulations revealed substantial bias across different scenarios.",
+    "study_system": "preclinical stroke research (causal simulation)"
+   },
+   {
+    "cite_key": "Liu2025b",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Of these meta-analyses, a substantial proportion (70.6%) showed discrepancies between Preferred Reporting Items for Systematic Reviews and Meta-Analyses-guided reporting and actual research conducts, while 57.1% exhibited high methodological ROBs due to insufficient data sources ",
+    "study_system": "Fast-tracked COVID-19 mental-health meta-analyses (meta-research audit)"
+   },
+   {
+    "cite_key": "GarciaSifuentes2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "A positive finding of a sex difference was reported in 83 articles, or 57%.",
+    "study_system": "Preclinical & biological studies reporting sex (multiple species)"
+   },
+   {
+    "cite_key": "Warden2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Among studies to include both sexes, 83% report sample sizes by sex, yet only 44% conduct sex-based analyses.",
+    "study_system": "NIH-funded biomedical research (SABV policy uptake)"
+   },
+   {
+    "cite_key": "Lee2018",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Between years 1997 and 2000, the US Food and Drug Administration suspended ten prescription drugs producing severe adverse effects on the market.",
+    "study_system": "Sex-as-a-biological-variable research policy (methodological)"
+   },
+   {
+    "cite_key": "Dalla2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We show that including both sexes does not require larger sample sizes, and even if sex is included as an independent variable in the study design, a moderate increase in sample size is sufficient.",
+    "study_system": "Preclinical neuropsychopharmacology sex-as-a-biological-variable (methodological)"
+   },
+   {
+    "cite_key": "Currie2019",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "51.3% (n = 173) reported blinded assessment of outcome, 28.5% (n = 96) reported randomisation to group",
+    "study_system": "animal models of chemotherapy-induced peripheral neuropathy (machine-assisted systematic review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_13b429c1be3432f2",
+  "section_id": "sec-governance",
+  "claim_text": "Non-publication remains the root waste: laboratory-animal researchers themselves estimate only about half of animal experiments are ever published.",
+  "citation_keys": [
+   "terRiet2012"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Magnitude of non-publication of animal research: opinion surveys estimate only ~50% of experiments are published, whereas empirical protocol-to-publication tracking finds ~70% publication rates.",
+   "Magnitude of non-publication of animal research: opinion surveys estimate only ~50% of experiments are published, whereas empirical protocol-to-publication tracking finds ~70% publication rates."
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "terRiet2012",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "On average, those working in not-for-profit institutes (n = 421) estimated that 50 percent (interquartile range (IQR) 35 to 70) of all conducted laboratory animal experiments are published.",
+    "study_system": "laboratory-animal researchers survey (Netherlands)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 2,
+    "issue": "Deutsch2021 is cited in support of 'only about half of animal experiments are ever published,' but Deutsch2021 is the OPTIMISTIC counter-estimate: it found a publication rate of ~70% (67% rising to 70%), not ~50%. The '~",
+    "fix": "Either cite terRiet2012 alone for the 'about half' figure, or reword to reflect the range/conflict, e.g., 'only about half to two-thirds of animal experiments a"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_93cfb35e74e2cddc",
+  "section_id": "sec-governance",
+  "claim_text": "Institutional animal-ethics committees approve almost everything that reaches them — a finding that recurs across empirical studies of committee decision-making and raises direct public-trust concerns.",
+  "citation_keys": [
+   "Azilagbetor2024",
+   "Milford2025"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Azilagbetor2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Although some experiments remain unacceptable irrespective of their harm-benefit ratios, almost all experiments are approved.",
+    "study_system": "Animal research oversight / approval rate (governance)"
+   },
+   {
+    "cite_key": "Milford2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Qualitative content analysis revealed deficits in the assessment of the 3Rs (Replacement, Reduction or Refinement) or the weighing of harms and benefits.",
+    "study_system": "Animal ethics committee / IACUC decision-making (scoping review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_0a4ae22439a13b64",
+  "section_id": "sec-governance",
+  "claim_text": "The structural reasons are specific: US committees are not required to hold subject-matter or replacement-methods expertise, are not required to verify that a study is non-duplicative, and mostly approve through single-member review, so their approval should not be read as evidence of ethical adherence beyond legal minimums.",
+  "citation_keys": [
+   "Pippin2025"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether ethics-committee/IACUC review can be trusted to safeguard the scientific quality (and hence benefit) of animal research. One proposes a Benefit Assessment Matrix presuming committees can and s"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Pippin2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Because of the limitations of the review process, funding institutions and scientific journals should not use Institutional Animal Care and Use Committee approval of submissions as evidence of adherence to ethical guidelines beyond those legally required.",
+    "study_system": "US Institutional Animal Care and Use Committees (editorial review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_c9e1042c844161c7",
+  "section_id": "sec-governance",
+  "claim_text": "A \"mission lapse\" follows, in which oversight members assume that funding or prior review already vouched for scientific merit while no body actually takes responsibility for it.",
+  "citation_keys": [
+   "Waltz2022"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Waltz2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We conclude with a discussion of how the lack of a clear mandate regarding scientific review within US federal regulations may undermine ethical engagement of whether human and animal research is scientifically justified, resulting in a \"mission lapse\" wherein no organizational b",
+    "study_system": "IRB/IACUC research oversight (qualitative interviews, US)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_674cd04742fcf5bd",
+  "section_id": "sec-governance",
+  "claim_text": "One proposal presumes review bodies can and should assess research rigor and expected benefit through a structured benefit-assessment instrument, while an analysis of US committees argues they structurally lack the expertise and mandate to judge scientific merit, so their approval carries no such warranty.",
+  "citation_keys": [
+   "Bespalov2026",
+   "Pippin2025"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether ethics committees should formally assess the benefit of proposed animal research (a Benefit Assessment Matrix to phase out low-value work) versus the position that benefit/harm-benefit assessm",
+   "Whether ethics committees should formally assess the benefit of proposed animal research (a Benefit Assessment Matrix to phase out low-value work) versus the position that benefit/harm-benefit assessm"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Bespalov2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The organizational premise is that rigorous high-quality research is more likely to produce tangible benefit than poor quality, low rigor research.",
+    "study_system": "animal research ethics review / harm-benefit (proposed Benefit Assessment Matrix tool)"
+   },
+   {
+    "cite_key": "Pippin2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Because of the limitations of the review process, funding institutions and scientific journals should not use Institutional Animal Care and Use Committee approval of submissions as evidence of adherence to ethical guidelines beyond those legally required.",
+    "study_system": "US Institutional Animal Care and Use Committees (editorial review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_5a82211ddf3beee5",
+  "section_id": "sec-governance",
+  "claim_text": "A scoping review catalogued 17 harm-benefit decision resources and concluded that deliberation among members should be favoured over numeric scoring, yet cross-national analysis finds the harm-benefit cornerstone of the EU Directive deficiently transposed and inconsistently implemented.",
+  "citation_keys": [
+   "Azilagbetor2025b",
+   "Hajosi2024",
+   "Marinou2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "disputed",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether harm-benefit analysis should rely on deliberative, case-by-case committee judgement (scoping review favours deliberation over scoring) or on validated quantitative welfare-scoring tools (Wolfe",
+   "Whether harm-benefit analysis should rely on deliberative, case-by-case committee judgement (scoping review favours deliberation over scoring) or on validated quantitative welfare-scoring tools (Wolfe"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Azilagbetor2025b",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "17 resources that can guide HBA and decision-making were identified.",
+    "study_system": "harm-benefit analysis decision tools (scoping review, Europe/North America)"
+   },
+   {
+    "cite_key": "Hajosi2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The results of our study show that there are (1) deficits in the transposition of the HBA requirement into national laws, (2) significant discrepancies in available policy documents relating to HBA, and (3) insufficiently consistent implementations of HBA in European countries.",
+    "study_system": "EU member states national law and policy documents (harm-benefit analysis)"
+   },
+   {
+    "cite_key": "Marinou2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The Directive sets clear provisions for its scope, the authorization procedures, animal welfare bodies, national committees, cost/benefit analysis, severity classification, retrospective assessment, and statistical reporting, among many others.",
+    "study_system": "EU Directive 2010/63/EU legislation and guidance documents"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_9f5527bfa6a88ef2",
+  "section_id": "sec-governance",
+  "claim_text": "Capacity varies enormously — pan-African and Swedish surveys document limited oversight infrastructure and researchers markedly less positive toward the 3Rs than veterinarians, and communication gaps undermine the culture of care that welfare bodies are meant to sustain, even as researchers themselves criticise the practice of using extra animals simply to strengthen the statistics needed for a high-ranked publication — a direct line from publication pressure to animal cost.",
+  "citation_keys": [
+   "Mohr2023",
+   "Lindsjo2021",
+   "GonzalezUarquin2025",
+   "Brnstad2019"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Mohr2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "To strengthen this governance framework, the Pan-African Network for Laboratory Animal Science and Ethics brought together experts from 12 African countries to create an Africa-centric practical guide to facilitate the establishment and appropriate functioning of Institutional An",
+    "study_system": "African Institutional Animal Ethics Committees (governance guideline)"
+   },
+   {
+    "cite_key": "Lindsjo2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "A majority of the AWB members predicted that alternative methods will never replace animal use.",
+    "study_system": "Animal welfare bodies at Swedish universities (governance)"
+   },
+   {
+    "cite_key": "GonzalezUarquin2025",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In internal conflicts between two parties, an open discussion with different professionals, such as those within the animal welfare body, can also defuse tense relationships or situations and lead to a joint solution.",
+    "study_system": "early-career animal researchers in Germany (culture of care; mixed methods)"
+   },
+   {
+    "cite_key": "Brnstad2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "They also criticized the practice of using more animals to improve statistical figures to get results published in highly ranked journals - a finding we believe is new.",
+    "study_system": "Animal-research ethics/compliance (Northern Europe, qualitative)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_460180983cec8e8f",
+  "section_id": "sec-governance",
+  "claim_text": "The transparency instruments meant to let outsiders scrutinise this process are themselves weak: EU non-technical summaries improved on most predicted-harm elements but still failed to report adverse effects in over half of German and UK summaries, and national statistics omit animal fate, surplus, and harm-benefit information even while reporting hundreds of thousands of procedures.",
+  "citation_keys": [
+   "Taylor2017",
+   "Taylor2024",
+   "Bonassera2022",
+   "Luthi2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Taylor2017",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We consistently found that NTS from Germany and the UK were deficient in their description of what is being done to the animals and what they might experience as a result.",
+    "study_system": "EU non-technical project summaries (governance/transparency)"
+   },
+   {
+    "cite_key": "Taylor2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Only 41% of German NTS and 48% of UK NTS are fully reporting this important element of the \"predicted harms\" section.",
+    "study_system": "EU non-technical project summaries (governance/transparency)"
+   },
+   {
+    "cite_key": "Bonassera2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This potentially customisable strategy could help toward the development of practical guidelines for use by Animal Welfare and Ethical Review Bodies (AWERBs) in establishments conducting animal research, in the process of scrutinising NTS during their pre-submission review of pro",
+    "study_system": "EU NTS / AWERB oversight (respiratory disease research)"
+   },
+   {
+    "cite_key": "Luthi2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Federal reporting on animal experimentation indicates a total of 585,991 animals used in experiments in Switzerland in 2022.",
+    "study_system": "Swiss animal-experimentation reporting law and public disclosure"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_497ef6a22247607c",
+  "section_id": "sec-governance",
+  "claim_text": "Institutional failures of animal care, when they surface, generate detailed corrective checklists that could be generalised but usually are not.",
+  "citation_keys": [
+   "Taylor2014",
+   "Rowlands2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Taylor2014",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The report made 33 recommendations to improve practices at Imperial College, many of which were relevant to other institutions.",
+    "study_system": "Institutional animal-research governance (AWERB, UK)"
+   },
+   {
+    "cite_key": "Rowlands2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In conclusion, the establishment of harmonised performance standards and the promotion of performance-based outcomes hold the potential to significantly improve global animal welfare in research and contribute to scientific advancement.",
+    "study_system": "Global harmonisation of laboratory-animal governance (review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_99ee213f4c89f0f5",
+  "section_id": "sec-governance",
+  "claim_text": "And the Directive's own logic is unevenly honoured — animal immunisation for antibody production remains authorised despite validated recombinant replacements, and validated non-animal potency tests coexist with hundreds of thousands of animals still used in toxin lot-release testing.",
+  "citation_keys": [
+   "Gray2016",
+   "Combrisson2017",
+   "Taylor2019",
+   "Cassotta2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Gray2016",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Directive 2010/63/EU requires that animals are not used where alternatives exist.",
+    "study_system": "Antibody/affinity-reagent production (replacement)"
+   },
+   {
+    "cite_key": "Combrisson2017",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The alternative methods do not allow, in the present state of the knowledge, to answer all the scientific questions in biology and medicine research.",
+    "study_system": "Animal experimentation & alternatives (3Rs)"
+   },
+   {
+    "cite_key": "Taylor2019",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, the number of animals being used in batch tests across Europe remains at record levels; an estimated 400,000 animals per year, based on official statistics and non-technical summaries.",
+    "study_system": "Botulinum toxin batch testing (Europe, regulatory)"
+   },
+   {
+    "cite_key": "Cassotta2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Educational/professional experience on non‐animal ingredients Most of respondents (68%) declared that their own level of information on animal‐free alternative materials and reagents was inadequate John Wiley & Sons, Ltd.",
+    "study_system": "Animal-derived reagents in research (survey, global)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_06a0d11bedda6f42",
+  "section_id": "sec-governance",
+  "claim_text": "Even reproducibility depends on governance reaching into husbandry and genetics that committees rarely inspect: published descriptions omitted the mutated allele sequence for 20 of 27 animal models at one institution.",
+  "citation_keys": [
+   "Pavlovic2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Pavlovic2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "the sequence of the mutated allele was not provided for 20 of the 27 models",
+    "study_system": "Genetically modified mouse models (reporting of genetic provenance)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 2,
+    "issue": "Interpretive mismatch / over-citation. The quantitative claim ('mutated allele sequence omitted for 20 of 27 models') is supported ONLY by Pavlovic2025. DeSio2020 is a historical outlook on cephalopod-research governance",
+    "fix": "Drop DeSio2020 from this clause (leave {cite:p}`Pavlovic2025` alone for the 20/27 figure), or relocate DeSio2020 to a sentence about consensus care standards / "
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_78aa5113643f20f0",
+  "section_id": "sec-governance",
+  "claim_text": "The most concrete repayment estimate is a projection, not a measurement: FAIR-compliant aggregation of historical control data into virtual control groups could reduce animal use by up to 25%, but only if large volumes of standardised, interoperable data exist first.",
+  "citation_keys": [
+   "PetitDemouliere2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "PetitDemouliere2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Early analyses suggest a potential reduction of animal use by up to 25%—but only if large volumes of standardised, interoperable historical data exist.",
+    "study_system": "in vivo behavioral neuroscience; home-cage monitoring data ecosystems (WellFAIR/TEATIME)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_348962c0da942b02",
+  "section_id": "sec-governance",
+  "claim_text": "Reduction is visibly occurring — EU animal use fell 8.2% in a single year in safety pharmacology, and one otorhinolaryngology corpus recorded a 49.1% fall in animals used across two periods — but no study yet attributes such falls specifically to data reuse rather than to substitution, funding shifts, or reduced activity.",
+  "citation_keys": [
+   "Derakhchan2026",
+   "Ksa2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Derakhchan2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Animal use is reported in many regions and continues to decline overall (e.g., an 8.2% reduction in the EU in 2023 vs 2022",
+    "study_system": "Safety pharmacology (3Rs implementation, EU/FDA regulatory context)"
+   },
+   {
+    "cite_key": "Ksa2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In total, 13,173 animals were used in the first period, whereas 6,695 were used in the second period, accounting for a 49.1% decrease.",
+    "study_system": "Otorhinolaryngology animal-study publications (two-period reporting audit)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "Scope imprecision. The 8.2% figure is a decline in EU animal use overall (2023 vs 2022) reported within a safety-pharmacology 3Rs review, not a safety-pharmacology-specific reduction. The prose reads as if the 8.2% fall ",
+    "fix": "Change to 'EU animal use fell 8.2% in a single year (reported in a safety-pharmacology 3Rs review) {cite:p}`Derakhchan2026`' to avoid confining the figure to sa"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_e1644e9858ff59b4",
+  "section_id": "sec-governance",
+  "claim_text": "The infrastructure that would make the link measurable is being assembled: community-curated FAIR data commons and multi-site consortia with common data elements are demonstrating that pooled, reusable preclinical data are feasible, and metadata standards aligned to ARRIVE 2.0 are being retrofitted so that in vivo data become repurposable at all.",
+  "citation_keys": [
+   "TorresEspin2021",
+   "TorresEspin2022",
+   "Radabaugh2025",
+   "Wanner2025",
+   "Ayata2026",
+   "Lamb2026",
+   "Steckler2015",
+   "Kafkafi2018",
+   "Kalantari2023",
+   "Moresis2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "TorresEspin2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "As of July 2020, 248 users are registered on the site and 57 different laboratories across Canada, Europe and USA have been created.",
+    "study_system": "Preclinical spinal cord injury data-sharing repository (odc-sci.org)"
+   },
+   {
+    "cite_key": "TorresEspin2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Meta-analyses of published literature may produce biased conclusions due to the lack of transparency in data collection, publication bias, and inaccessibility to the data underlying a publication ('dark data').",
+    "study_system": "Individual participant data sharing in biomedicine (FAIR governance)"
+   },
+   {
+    "cite_key": "Radabaugh2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The NINDS-funded Translational Outcomes Project in Neurotrauma (TOP-NT) is a multi-site consortium designed to address the reproducibility, rigor, and transparency of pre-clinical development and validation of clinically relevant biomarkers for TBI.",
+    "study_system": "Preclinical traumatic brain injury multi-site consortium (data infrastructure)"
+   },
+   {
+    "cite_key": "Wanner2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "As part of this process, TOP-NT (1) produced a library of TBI-relevant standard operating procedures to coordinate workflow, (2) aligned 481 pre-clinical and clinical common data elements (CDEs), and (3) generated 272 new pre-clinical TBI CDEs.",
+    "study_system": "Multicenter preclinical TBI research (5 centers, rat models)"
+   },
+   {
+    "cite_key": "Ayata2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "To address this, the field is moving toward rigorous, multicenter preclinical randomized controlled trials (mpRCTs) that mimic phase 3 clinical trials in several key components.",
+    "study_system": "Preclinical ischemic stroke research (multicenter RCT design)"
+   },
+   {
+    "cite_key": "Lamb2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This network enrolled 2,615 rodents in 5 different models and implemented a multistage, multiarm statistical design that sequentially eliminated candidate interventions during interim analyses.",
+    "study_system": "Multilaboratory preclinical stroke assessment network (rodents)"
+   },
+   {
+    "cite_key": "Steckler2015",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Current limitations impeding on data reproducibility are often poor statistical design, underpowered studies, lack of robust data, lack of methodological detail, biased reporting and lack of open data sharing, coupled with wrong research incentives.",
+    "study_system": "Preclinical neuroscience data-sharing network (governance)"
+   },
+   {
+    "cite_key": "Kafkafi2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The general consensus was that the issue is prevalent and of concern, and should be addressed at the statistical, methodological and policy levels, but is not so severe as to call into question the validity and the usefulness of model organisms as a whole.",
+    "study_system": "Rodent behavioral phenotyping (mice/rats)"
+   },
+   {
+    "cite_key": "Kalantari2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Despite FAIR guidelines and the increasing demand from funding agencies and publishers, only a few animal studies share all experimental data and processing tools.",
+    "study_system": "Animal research data management (DataLad/GIN infrastructure)"
+   },
+   {
+    "cite_key": "Moresis2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The opportunities and challenges for implementing VCGs were the focus of the IMI eTRANSAFE project, which has collected and analyzed drug safety and toxicology data from more than 60,000 rats, 1,300 dogs and 500 monkeys (see ref.and more recently ref.).",
+    "study_system": "nonclinical in vivo animal data; eTRANSAFE control database; FAIR metadata"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_14000713fefc78cf",
+  "section_id": "sec-governance",
+  "claim_text": "Standardised disease models and open-research practice — preregistration, preprints, and data management planned from the outset — are being promoted in parallel to make the resulting data reusable rather than merely deposited.",
+  "citation_keys": [
+   "Remick2019",
+   "Wilson2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Remick2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The National Institutes of Health mandated that investigators increase data reproducibility and the rigor of scientific experiments and has also issued research funding announcements about the development and refinement of standardized models.",
+    "study_system": "Preclinical sepsis models (cecal ligation and puncture)"
+   },
+   {
+    "cite_key": "Wilson2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We then discuss the importance of open research practices such as study preregistration and the use of preprints and describe recommendations around data management and sharing.",
+    "study_system": "Reproducible animal experimentation (review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_8ce04b1247d75ec3",
+  "section_id": "sec-governance",
+  "claim_text": "Automated rigor scoring shows a slow real improvement on whole-literature indices — one index rose across two decades and scored replication studies far higher than originals — which is encouraging precisely because it is enforced at scale rather than left to authorial discretion, even though item-level manual audits in specific fields still find little movement in randomisation, blinding, and sample-size reporting.",
+  "citation_keys": [
+   "Menke2022",
+   "Eckmann2026",
+   "Chatzimanouil2018",
+   "Tihanyi2019",
+   "Lin2024"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether reporting quality of biomedical/preclinical research has improved over roughly two decades. A large automated cross-field metric (Rigor and Transparency Index over >2M papers) detects a genera",
+   "Whether reporting quality of biomedical/preclinical research has improved over roughly two decades. A large automated cross-field metric (Rigor and Transparency Index over >2M papers) detects a genera"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Menke2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Using work by the Reproducibility Project: Cancer Biology, we determined that replication papers (RTI 7.61, SD 0.78) scored significantly higher (P<.001) than the original papers (RTI 3.39, SD 1.12), which according to the project required additional information from authors to b",
+    "study_system": "Biomedical literature reporting-quality metric (RTI 2.0, >2M papers)"
+   },
+   {
+    "cite_key": "Eckmann2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We have conducted a broad comparison of 11 automated tools across 9 different rigor criteria from the ScreenIT group.",
+    "study_system": "Automated rigor/transparency checking tools (meta-research)"
+   },
+   {
+    "cite_key": "Chatzimanouil2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Reporting quality analysis of preclinical studies revealed substantial reporting deficits across all leading journals, with little improvement over the last 20 years, especially for group size calculations, defining primary versus secondary outcomes, and blinded analysis.",
+    "study_system": "Preclinical kidney/nephrology animal studies"
+   },
+   {
+    "cite_key": "Tihanyi2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Although an improving trend has been observed in reporting quality over the past years, this effect was clearly insufficient.",
+    "study_system": "Preclinical liver-regeneration animal studies"
+   },
+   {
+    "cite_key": "Lin2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The compliance of 15 out of 38 subitems (39.5%) in Post-ARRIVE 1.0 has significantly improved compared to Pre-ARRIVE 1.0 (P<0.05).",
+    "study_system": "Interventional animal experiments in ARRIVE-publishing journals"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 3,
+    "issue": "Under-surfaced packaged conflict (resolved-by-method). The package flags Menke2022 (RTI rose 2.29->4.13 across ~2 decades over >2M papers, 'suggesting authors are taking the need for improved reporting seriously') AGAINS",
+    "fix": "Add a clause where Menke2022 is used, e.g. '...a slow real improvement on whole-literature automated indices ({cite:p}`Menke2022`), though item-level manual aud"
+   },
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "Study-system mischaracterisation. Lin2024 is not a study of 'cardiovascular models'; it is a broad cross-sectional of 943 interventional animal experiments in ARRIVE-publishing journals (the journal is Cardiovascular Dia",
+    "fix": "Describe Lin2024 as 'a cross-sectional ARRIVE 2.0 audit of interventional animal experiments' rather than 'cardiovascular models', and attribute the 'no study r"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_16ab63e518a04a79",
+  "section_id": "sec-governance",
+  "claim_text": "First, enforcement over endorsement: guidelines must be gated at revision and checked, because passively published standards demonstrably do not move behaviour.",
+  "citation_keys": [
+   "Macleod2019b",
+   "Han2017",
+   "Kidwell2016",
+   "IvimeyCook2025"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether journal checklist interventions improve reporting of animal research. IICARus (a randomised trial requesting ARRIVE-checklist completion at submission to PLOS ONE) found no improvement in full",
+   "Whether ARRIVE/checklists improve reporting. The Chagas review found passive publication of ARRIVE did not improve reporting, while the Nature-vs-Cell study attributed significant improvement to an en"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Macleod2019b",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The number of NPG articles meeting all relevant Landis 4 criteria increased from 0/203 prior to May 2013 to 31/181 (16.4%) after (two-sample test for equality of proportions without continuity correction, Χ²=36.2, df=1, p=1.8×10).",
+    "study_system": "Life-sciences (incl. in vivo) articles in Nature Publishing Group journals"
+   },
+   {
+    "cite_key": "Han2017",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "On the other hand, whether experiments were randomized, blinded, or how the sample size was determined were stated in 20% or less of articles in 2013, and improved by 2015 ().",
+    "study_system": "In vivo animal studies in Nature vs Cell"
+   },
+   {
+    "cite_key": "Kidwell2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Across the four comparison journals, for the half years prior to 2014, an average of 3.3% of articles reported open data (range = 1.6% to 4.9%), and after January 1, 2014, the average was 2.1% (range = 1.8% to 2.3%).",
+    "study_system": "Psychological Science + 4 comparison journals (n=2,478 articles)"
+   },
+   {
+    "cite_key": "IvimeyCook2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "96.5% of research manuscripts appeared to have provided data- and/or code via link or supplementary material",
+    "study_system": "Ecology and evolution journals (data/code-sharing mandate)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 4,
+    "issue": "Field-provenance scope point for a section explicitly about the ANIMAL/preclinical ethical debt. The largest 'enforcement works' magnitudes are drawn from non-animal literatures: Kidwell2016 is Psychological Science (bad",
+    "fix": "Add one clause noting the transfer, e.g. 'the largest documented enforcement effects come from psychology and ecology journals ({cite:p}`Kidwell2016, IvimeyCook"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_ce8ef9a61d924a5e",
+  "section_id": "sec-governance",
+  "claim_text": "Second, the target must be actual, FAIR-compliant availability and reuse, not declared availability, since the two differ by an order of magnitude and reform that clears only the lower bar changes nothing downstream.",
+  "citation_keys": [
+   "Hamilton2023",
+   "Hamilton2022",
+   "Colavizza2020"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "replication_unknown"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether FAIR data sharing meaningfully happens in practice: a cross-specialty meta-analysis finds actual public data availability at only ~2% across medicine, whereas a purpose-built FAIR archive (Ope",
+   "Whether open-data mandates should be universal: meta-research on (mostly quantitative) medical data treats mandates as effective levers worth strengthening and auditing, while a qualitative-research c"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Hamilton2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Of these studies, complete individual participant data were publicly available in 70 (61%), 20 had published partial individual participant data (18%), and 24 had not shared any individual participant data publicly (21%).",
+    "study_system": "Medical and health sciences articles (meta-analysis of 105 meta-research studies, 2,121,580 articles)"
+   },
+   {
+    "cite_key": "Hamilton2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Less than half of the 29 articles that were subject to a blanket mandatory data sharing policy were observed to make data available (14/29, 48%, 95% CI: 31–66%). Furthermore, of the six studies that performed inferential statistics and were subjected to a blanket mandatory code s",
+    "study_system": "306 cancer-related journal articles indexed in PubMed 2019"
+   },
+   {
+    "cite_key": "Colavizza2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In 2018 93.7% of 21,793 PLOS articles and 88.2% of 31,956 BMC articles had data availability statements.",
+    "study_system": "PLOS and BMC journal articles (531,889)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 2,
+    "issue": "Denominator mismatch (confirmed against the paper's abstract). Hamilton2022 sampled 306 cancer articles; 59/306 (19%) declared data available; the abstract states data met key FAIR principles in 'less than 1% (1/306)'. T",
+    "fix": "State the denominator correctly, e.g. 'only 1 of 306 sampled oncology articles (0.3%) met the remaining FAIR criteria on inspection' - and drop the 'among datas"
+   },
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "Figure-precision / mild scope inflation. The literal 'near two percent' actual-availability figure is Hamilton2023's, not any of the three keys cited here. The three cited studies report related-but-different low numbers",
+    "fix": "Either co-cite `Hamilton2023` as the source of the '~2%' anchor, or reword to 'actual/usable availability and reporting compliance sit far below declared availa"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_142f52db08663d63",
+  "section_id": "sec-governance",
+  "claim_text": "Third, the incentive and appraisal system must reward stewardship, following proposals to assess researchers on responsible practice and to make funders accountable for the waste they finance.",
+  "citation_keys": [
+   "Moher2020",
+   "Chalmers2014",
+   "Whitlock2019",
+   "Nosek2018"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study",
+   "unreplicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Moher2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We present five principles: responsible research practices; transparent reporting; open science (open research); valuing a diversity of types of research; and recognizing all contributions to research and scholarly activity.",
+    "study_system": "researcher assessment (integrity framework)"
+   },
+   {
+    "cite_key": "Chalmers2014",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Research funders have primary responsibility for reductions in waste resulting from decisions about what research to do.",
+    "study_system": "biomedical research funding/priorities (analysis)"
+   },
+   {
+    "cite_key": "Whitlock2019",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Of the 17 recommendations, 15 were applicable to PCORI's research mission and focus.",
+    "study_system": "Research funder (PCORI) self-assessment against value-in-research recommendations"
+   },
+   {
+    "cite_key": "Nosek2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Widespread adoption of preregistration will increase distinctiveness between hypothesis generation and hypothesis testing and will improve the credibility of research findings.",
+    "study_system": "research design (preregistration)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_aa2186985a65f943",
+  "section_id": "sec-governance",
+  "claim_text": "Fourth, ethical review must be given the expertise and mandate to treat scientific quality — and the reuse of prior data that would avoid repeating an experiment — as part of the harm-benefit judgment rather than as someone else's problem.",
+  "citation_keys": [
+   "Pippin2025",
+   "Azilagbetor2025b",
+   "Strech2019",
+   "Kimmelman2014",
+   "Karp2021",
+   "Karp2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "disputed",
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether ethics-committee/IACUC review can be trusted to safeguard the scientific quality (and hence benefit) of animal research. One proposes a Benefit Assessment Matrix presuming committees can and s",
+   "Whether harm-benefit analysis should rely on deliberative, case-by-case committee judgement (scoping review favours deliberation over scoring) or on validated quantitative welfare-scoring tools (Wolfe"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Pippin2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Because of the limitations of the review process, funding institutions and scientific journals should not use Institutional Animal Care and Use Committee approval of submissions as evidence of adherence to ethical guidelines beyond those legally required.",
+    "study_system": "US Institutional Animal Care and Use Committees (editorial review)"
+   },
+   {
+    "cite_key": "Azilagbetor2025b",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "17 resources that can guide HBA and decision-making were identified.",
+    "study_system": "harm-benefit analysis decision tools (scoping review, Europe/North America)"
+   },
+   {
+    "cite_key": "Strech2019",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In times where approximately 50% of animal studies are not reported,only the preregistration of animal study protocols allows the identification of biased, delayed or unreported results.",
+    "study_system": "animal research ethics framework (proposal)"
+   },
+   {
+    "cite_key": "Kimmelman2014",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In particular, policies should discourage the common use of exploratory studies to support confirmatory inferences, promote a greater volume of confirmatory investigation, and customize design and reporting guidelines for each mode.",
+    "study_system": "Preclinical drug-development research policy (methodological)"
+   },
+   {
+    "cite_key": "Karp2021",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "As there is no perfect experiment for the question being considered, it means we should acknowledge the strengths and weaknesses of our experiments when reporting our results.",
+    "study_system": "preclinical animal experimental design (case studies)"
+   },
+   {
+    "cite_key": "Karp2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Lack of masking has been shown to correlate with an overestimation of treatment efficacy and false positive findings.",
+    "study_system": "Blinding/masking in in vivo experiments (qualitative)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_a0c91b8c382d730f",
+  "section_id": "sec-governance",
+  "claim_text": "Roughly 85% of biomedical research is estimated to be avoidably wasted, only a fraction of preclinical landmark findings reproduce, and the diagnostic value of the preclinical enterprise has been estimated at a positive predictive value below one-half — every point of which is paid in animal lives.",
+  "citation_keys": [
+   "Hua2019",
+   "Freedman2017",
+   "Kane2021",
+   "Nakagawa2025",
+   "Fanelli2010",
+   "Fanelli2017",
+   "Justice2016"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "disputed",
+   "replicated",
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether productivity pressure inflates bias: Fanelli's US-states analysis found higher academic productivity predicted more hypothesis-confirming papers, whereas the later cross-disciplinary meta-asse",
+   "Whether productivity pressure inflates bias: Fanelli's US-states analysis found higher academic productivity predicted more hypothesis-confirming papers, whereas the later cross-disciplinary meta-asse"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Hua2019",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Ten years ago, Chalmers and Glasziou pointed out in the Lancet that 85% of all biomedical research was being avoidably wasted because of imbalanced research question/outcome selection, as well as poor study design, execution, and reporting.",
+    "study_system": "orthodontic research (value/waste commentary)"
+   },
+   {
+    "cite_key": "Freedman2017",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Based on these findings, GBSI completed an economic study in 2015 and estimated that the prevalence of irreproducible preclinical research exceeds 50%, with associated annual costs of approximately $28B in the United States alone.",
+    "study_system": "US preclinical research (economic estimate)"
+   },
+   {
+    "cite_key": "Kane2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Adding these three studies to the five studies that reproduced important parts of the original research articles, and dividing by 17 replication attempts, gives us an initial estimate of 47% for the Positive Predictive Value of the diagnostic machine.",
+    "study_system": "Preclinical cancer-biology replication studies"
+   },
+   {
+    "cite_key": "Nakagawa2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We argue such failure is one aspect of a theory crisis because misapplied and misunderstood theories lead to poor hypotheses and research waste.",
+    "study_system": "Biology research (hypothesis quality / research waste)"
+   },
+   {
+    "cite_key": "Fanelli2010",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The probability of papers to support the tested hypothesis increased significantly with the per capita academic productivity of the state of the corresponding author (b = 1.383±0.682, Wald test = 4.108, df = 1, p = 0.043, Odds-Ratio (95%CI) = 3.988(1.047–15.193),).",
+    "study_system": "US research papers across disciplines"
+   },
+   {
+    "cite_key": "Fanelli2017",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, we consistently observed a significant risk of small, early, and highly cited studies to overestimate effects and of studies not published in peer-reviewed journals to underestimate them.",
+    "study_system": "random sample of meta-analyses across all disciplines"
+   },
+   {
+    "cite_key": "Justice2016",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Newer studies, however, point to bias in reporting results and improper data analysis as key factors that limit reproducibility and validity of preclinical mouse research.",
+    "study_system": "mouse disease models (methodological review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_f23b49b71fe1b98c",
+  "section_id": "sec-governance",
+  "claim_text": "Accountability for that waste has, over forty years, been progressively reassigned from the individual researcher to institutions, funders, journals, and reviewers.",
+  "citation_keys": [
+   "Felt2025",
+   "Tennant2020",
+   "Sempa2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Felt2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We identify key narrative threads and turning points in understanding who is accountable for ensuring research integrity-extending beyond individual researchers to include institutions, funding bodies, journals, and whistleblowers.",
+    "study_system": "Research-integrity governance discourse (Science and Nature, 40 years)"
+   },
+   {
+    "cite_key": "Tennant2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We identify core themes including editorial responsibility, the subjectivity and bias of reviewers, the function and quality of peer review, and the social and epistemic implications of peer review.",
+    "study_system": "scholarly peer review (review of literature)"
+   },
+   {
+    "cite_key": "Sempa2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Out of 145 participants in the quantitative survey (8.4% response rate), findings indicate that global health researchers generally adhere to principles of research integrity and fairness, with variations in reported behaviours.",
+    "study_system": "Global-health researchers (research-integrity and fairness survey)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_4d43e5d5a813eba0",
+  "section_id": "sec-conclusion",
+  "claim_text": "The knowledge itself is compromised — the published animal record is filtered toward positive results, weakly protected against bias, and a poor, analysis-dependent predictor of human outcomes, with a direct six-intervention comparison showing benefit in animal models that vanished in patients and clinical success from first-in-human testing running at only single-digit-to-low-double-digit percentages.",
+  "citation_keys": [
+   "Sena2010",
+   "Freedman2015",
+   "Perel2006",
+   "Schuhmacher2025"
+  ],
+  "modality_seed": "suggestive",
+  "replication": [
+   "single-study",
+   "unreplicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Individual-drug preclinical stroke meta-analyses (e.g. metformin) report strong, statistically significant neuroprotection on every endpoint, whereas cross-intervention analysis shows almost all anima",
+   "Individual-drug preclinical stroke meta-analyses (e.g. metformin) report strong, statistically significant neuroprotection on every endpoint, whereas cross-intervention analysis shows almost all anima"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Sena2010",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Only 2.2% of publications identified in the included reviews did not report any significant findings.",
+    "study_system": "animal models of acute ischaemic stroke (CAMARADES)"
+   },
+   {
+    "cite_key": "Freedman2015",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "A natural point estimate of the cumulative irreproducibility rate is the midpoint of the upper and lower bounds, or 53.3%.",
+    "study_system": "US preclinical life-science research (economic modeling)"
+   },
+   {
+    "cite_key": "Perel2006",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Corticosteroids did not show any benefit in clinical trials of treatment for head injury but did show a benefit in animal models (pooled odds ratio for adverse functional outcome 0.58, 95% confidence interval 0.41 to 0.83).",
+    "study_system": "animal experiments vs clinical trials (6 interventions)"
+   },
+   {
+    "cite_key": "Schuhmacher2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Our study reveals an average likelihood of first approval rate of 14.3% across leading research-based pharmaceutical companies, broadly ranging from 8% to 23%.",
+    "study_system": "pharmaceutical clinical development (18 companies)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "Sena2010 supports 'filtered toward positive results' (publication bias in stroke), but Freedman2015 is a modelled economic estimate of preclinical irreproducibility cost; it does not itself establish 'weakly protected ag",
+    "fix": "Acceptable as a high-level synthesis anchor; optionally note that 'analysis-dependent predictor' is evidenced by the Seok2013/Takao2014 pairing that follows, so"
+   },
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Mild pairing looseness. vanderWorp2010 directly supports 'publication bias ... inflate[s] apparent efficacy' (publication bias accounts for a third or more of reported stroke efficacy). Freedman2015 is the irreproducibil",
+    "fix": "Optional: the pairing is acceptable; if tightening is desired, the internal-validity-inflation half could cite the fig-sec2-bias-inflation sources. No blocking "
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_aba904b5eee62d5d",
+  "section_id": "sec-conclusion",
+  "claim_text": "Whole classes of intervention illustrate the attrition, most starkly the hundreds of agents reported effective in animal models of Alzheimer's disease with essentially none translating.",
+  "citation_keys": [
+   "Shineman2011"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Shineman2011",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "As a result, over 300 interventions have been investigated and reported to mitigate pathological phenotypes or improve behavior in AD animal models or both.",
+    "study_system": "Alzheimer's disease preclinical models (best-practices consensus)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_426540ead4caeb91",
+  "section_id": "sec-conclusion",
+  "claim_text": "Even where the animal data are not in dispute, a defensible change in analysis can flip a model from mimicking human disease to failing to, so that translatability is decided by analytic choices as much as by biology.",
+  "citation_keys": [
+   "Seok2013",
+   "Takao2014"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Using the identical gene-expression datasets, the two analyses reach opposite conclusions on whether mouse inflammation models mimic human disease; the discrepancy traces to gene-selection method (all",
+   "Using the identical gene-expression datasets, the two analyses reach opposite conclusions on whether mouse inflammation models mimic human disease; the discrepancy traces to gene-selection method (all"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Seok2013",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Among genes changed significantly in humans, the murine orthologs are close to random in matching their human counterparts (e.g., R(2) between 0.0 and 0.1).",
+    "study_system": "mouse models of human inflammation (genomics)"
+   },
+   {
+    "cite_key": "Takao2014",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Contrary to the previous findings, the gene expression levels in the mouse models showed extraordinarily significant correlations with those of the human conditions (Spearman's rank correlation coefficient: 0.43-0.68; genes changed in the same direction: 77-93%; P = 6.5 × 10(-11)",
+    "study_system": "mouse models of human inflammation (genomics reanalysis)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_b15ccb648beb9393",
+  "section_id": "sec-conclusion",
+  "claim_text": "The data that would let this record be checked or reused are largely absent — only about half of animal experiments are ever published, and only around 2% of medical papers actually share their data against the roughly 8% that declare they do.",
+  "citation_keys": [
+   "terRiet2012",
+   "Hamilton2023"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Magnitude of non-publication of animal research: opinion surveys estimate only ~50% of experiments are published, whereas empirical protocol-to-publication tracking finds ~70% publication rates.",
+   "Magnitude of non-publication of animal research: opinion surveys estimate only ~50% of experiments are published, whereas empirical protocol-to-publication tracking finds ~70% publication rates."
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "terRiet2012",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "On average, those working in not-for-profit institutes (n = 421) estimated that 50 percent (interquartile range (IQR) 35 to 70) of all conducted laboratory animal experiments are published.",
+    "study_system": "laboratory-animal researchers survey (Netherlands)"
+   },
+   {
+    "cite_key": "Hamilton2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Of these studies, complete individual participant data were publicly available in 70 (61%), 20 had published partial individual participant data (18%), and 24 had not shared any individual participant data publicly (21%).",
+    "study_system": "Medical and health sciences articles (meta-analysis of 105 meta-research studies, 2,121,580 articles)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "The 'public code sharing below half a percent' clause is not in the package source sentence, which reports only the 8% declared / 2% actual data figures.",
+    "fix": "Verify the code-sharing figure against full text (plausibly reported by the same meta-analysis)."
+   },
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 2,
+    "issue": "Deutsch2021 is cited in support of 'only about half of animal experiments are ever published,' but Deutsch2021 is the OPTIMISTIC counter-estimate: it found a publication rate of ~70% (67% rising to 70%), not ~50%. The '~",
+    "fix": "Either cite terRiet2012 alone for the 'about half' figure, or reword to reflect the range/conflict, e.g., 'only about half to two-thirds of animal experiments a"
+   }
+  ]
+ }
+]

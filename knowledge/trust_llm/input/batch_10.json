@@ -1,0 +1,1651 @@
+[
+ {
+  "claim_id": "clm_c476c76dca8e7935",
+  "section_id": "sec-nams-data",
+  "claim_text": "Three-dimensional liver spheroids built from a proliferating cell line were more resistant to a hepatotoxicant than their two-dimensional counterparts, whereas spheroids built from non-dividing stem-cell-derived hepatocytes trended toward stronger toxicity than two-dimensional cultures.",
+  "citation_keys": [
+   "Hong2021",
+   "Sirenko2016"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Direction of 3D-versus-2D hepatotoxicity sensitivity disagrees: 3D HepG2 spheroids were more resistant to a hepatotoxicant than 2D, whereas 3D iPSC-hepatocyte spheroids trended toward stronger (lower-",
+   "Direction of 3D-versus-2D hepatotoxicity sensitivity disagrees: 3D HepG2 spheroids were more resistant to a hepatotoxicant than 2D, whereas 3D iPSC-hepatocyte spheroids trended toward stronger (lower-"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Hong2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In addition, 3D HepG2 spheroids were more resistant to nefazodone-induced MPT than 2D HepG2 cells, indicating that the gelatin/alginate hydrogel culture system provides enhanced resistance to hepatotoxic drugs.",
+    "study_system": "3D-printed HepG2 liver spheroids in gelatin/alginate hydrogel"
+   },
+   {
+    "cite_key": "Sirenko2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Of the 42 selected known hepatotoxins in the set, 36 elicited detectable toxicity effects in the spheroid hepatotoxicity assay (86% sensitivity), whereas all compounds considered “safe” had no effect on the number of live cells or spheroid phenotype (100% predictivity).",
+    "study_system": "iPSC-derived hepatocyte 3D spheroids vs HepG2 vs 2D; confocal high-content imaging"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_cd6d87f2ec6f5bf2",
+  "section_id": "sec-nams-data",
+  "claim_text": "The divergence appears cell-type driven, and it means that the same architectural upgrade can raise or lower apparent sensitivity depending on the biology underneath — a variability that only disciplined, comparable reporting can resolve.",
+  "citation_keys": [
+   "Zhou2026",
+   "Zhang2024a",
+   "Liu2024",
+   "Lee2025a"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Zhou2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Although the mean curves remain similar, the 95% probability intervals of the hierarchical model (blue ribbon) are wider and provide substantially better coverage of the data compared with the flat model (red ribbon).",
+    "study_system": "quantitative adverse outcome pathway (qAOP) calibration; liver-tumor case study"
+   },
+   {
+    "cite_key": "Zhang2024a",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Counter-screening of the initial candidates using iPSC-derived cardiomyocytes and iPSC-derived endothelial cells excluded hits with cardiotoxicity.",
+    "study_system": "Human iPSC-derived cardiac fibroblasts, cardiomyocytes and endothelial cells"
+   },
+   {
+    "cite_key": "Liu2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Genetic inhibition of CA12 protected iCMs against DIC by improving cell survival, sarcomere structural integrity, contractile function, and calcium handling.",
+    "study_system": "Human iPSC-derived cardiomyocytes (CRISPRi/a screen)"
+   },
+   {
+    "cite_key": "Lee2025a",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In this study, we applied the dual-cardiotoxicity assessment to 28 torsadogenic (TdP) risk drugs classified by CiPA, using hiPSC-CMs and established MEA techniques.",
+    "study_system": "Human iPSC-derived cardiomyocytes (MEA, CiPA drugs)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Coverage-driven cramming (Red Flags checklist). Because the section cites every one of the 169 package papers, several sentences bundle 6–15 loosely-related papers behind a single broad clause. The papers are individuall",
+    "fix": "No blocking change; consider trimming the loosest clusters or splitting them so each broad clause cites the 2–3 most directly relevant papers, moving the remain"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_c7ab98a9329c09da",
+  "section_id": "sec-nams-data",
+  "claim_text": "High-throughput and in silico streams each interrogate hundreds to thousands of chemicals: 293 chemicals screened for a single thyroid target, 1,060 chemicals across 93 transcripts in a hepatic screen, 2,171 chemicals mapped onto 52 hepatotoxicity key events, 4,165 compounds bioprofiled for a cardiotoxicity pathway, and screening campaigns filling in vivo benchmarks that existed for only 34 of 67 monitored chemicals.",
+  "citation_keys": [
+   "Wang2018",
+   "Franzosa2021",
+   "Russo2023",
+   "Ehrlich2024",
+   "Corsi2019",
+   "Saili2019",
+   "Fay2018",
+   "Isaacs2022",
+   "Onyango2023",
+   "Karmaus2025",
+   "Suh2018"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Wang2018",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This study applied a previously validated high-throughput approach to screen for NIS inhibitors in the ToxCast phase I library, representing 293 important environmental chemicals.",
+    "study_system": "high-throughput NIS-inhibition assay (ToxCast phase I) for thyroid AOP"
+   },
+   {
+    "cite_key": "Franzosa2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, most ToxCast screening assays have evaluated individual biological targets in cancer cell lines lacking integrated physiological functionality (such as receptor signaling, metabolism).",
+    "study_system": "HepaRG high-throughput toxicogenomic screening (metabolically competent hepatic NAM)"
+   },
+   {
+    "cite_key": "Russo2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Using a database of 2171 chemicals with human hepatotoxicity classifications, we identified 157 out of 1600+ ToxCast/Tox21 HTS assays to be associated with human hepatotoxicity.",
+    "study_system": "ToxCast/Tox21 key-event modelling of human hepatotoxicity"
+   },
+   {
+    "cite_key": "Ehrlich2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "ToxCast, Tox21, and PubChem data were evaluated to obtain bioprofiles of 4165 compounds active in assays targeting VEGFR.",
+    "study_system": "data-driven AOP from HTS bioprofiles (VEGFR / cardiotoxicity)"
+   },
+   {
+    "cite_key": "Corsi2019",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Traditional water-quality benchmarks for aquatic life based on in vivo toxicity data were available for 34 of 67 evaluated chemicals.",
+    "study_system": "ToxCast HTS + AOP exposure-activity-ratio prioritization (57 Great Lakes tributaries)"
+   },
+   {
+    "cite_key": "Saili2019",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The more than 80,000 chemicals in commerce present a challenge for hazard assessments that toxicity testing in the 21 century strives to address through high-throughput screening (HTS) assays.",
+    "study_system": "ToxCast HTS + AOP43 systems-toxicology model (developmental vascular toxicity)"
+   },
+   {
+    "cite_key": "Fay2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Previous work identified a \"cytotoxic burst\" (CTB) phenomenon wherein large numbers of the ToxCast assays begin to respond at or near test chemical concentrations that elicit cytotoxicity, and a statistical approach to defining the bounds of the CTB was developed.",
+    "study_system": "ToxCast HTS assay-response meta-analysis (AOP prioritization)"
+   },
+   {
+    "cite_key": "Isaacs2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We demonstrate that exposure NAMs drastically improve the coverage of the chemical landscape compared to traditional approaches and recommend a set of research activities to further expand the development of HT exposure data for application to risk characterization.",
+    "study_system": "High-throughput exposure NAMs (ExpoCast; review)"
+   },
+   {
+    "cite_key": "Onyango2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In sum, when considered as part of a weight-of-evidence assessment and compared with measured plasma concentrations, the results show these organic UV filters have low intrinsic biological activity and risk of toxicity including endocrine disruption in humans.",
+    "study_system": "ToxCast/Tox21 in vitro bioactivity (UV filters)"
+   },
+   {
+    "cite_key": "Karmaus2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Though the ToxCast/Tox21 HTS mechanistic assays did not yield novel insights into chlorotriazine carcinogenicity, our workflow exemplifies how starting from mechanistic screening data and integrating apical endpoints can be conducted.",
+    "study_system": "ToxCast/Tox21 HTS endpoints (chlorotriazine herbicides)"
+   },
+   {
+    "cite_key": "Suh2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "HTS data demonstrated an overall lack of bioactivity in cancer-related pathways.",
+    "study_system": "Lower alkyl acrylates (HTS + read-across review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_f163265ee397416d",
+  "section_id": "sec-nams-data",
+  "claim_text": "These are exactly the high-dimensional outputs that showed accumulate faster than they are curated, and the trend is toward more data, not less: high-throughput exposure methods deliberately expand chemical coverage far beyond what traditional assessment reached, while every mechanistic screen that maps assays onto adverse outcome pathways adds another layer of results that must be stored, versioned, and made interpretable to be reused.",
+  "citation_keys": [
+   "Isaacs2022",
+   "Onyango2023",
+   "Fay2018",
+   "Saili2019",
+   "Karmaus2025",
+   "Suh2018"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Isaacs2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We demonstrate that exposure NAMs drastically improve the coverage of the chemical landscape compared to traditional approaches and recommend a set of research activities to further expand the development of HT exposure data for application to risk characterization.",
+    "study_system": "High-throughput exposure NAMs (ExpoCast; review)"
+   },
+   {
+    "cite_key": "Onyango2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In sum, when considered as part of a weight-of-evidence assessment and compared with measured plasma concentrations, the results show these organic UV filters have low intrinsic biological activity and risk of toxicity including endocrine disruption in humans.",
+    "study_system": "ToxCast/Tox21 in vitro bioactivity (UV filters)"
+   },
+   {
+    "cite_key": "Fay2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Previous work identified a \"cytotoxic burst\" (CTB) phenomenon wherein large numbers of the ToxCast assays begin to respond at or near test chemical concentrations that elicit cytotoxicity, and a statistical approach to defining the bounds of the CTB was developed.",
+    "study_system": "ToxCast HTS assay-response meta-analysis (AOP prioritization)"
+   },
+   {
+    "cite_key": "Saili2019",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The more than 80,000 chemicals in commerce present a challenge for hazard assessments that toxicity testing in the 21 century strives to address through high-throughput screening (HTS) assays.",
+    "study_system": "ToxCast HTS + AOP43 systems-toxicology model (developmental vascular toxicity)"
+   },
+   {
+    "cite_key": "Karmaus2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Though the ToxCast/Tox21 HTS mechanistic assays did not yield novel insights into chlorotriazine carcinogenicity, our workflow exemplifies how starting from mechanistic screening data and integrating apical endpoints can be conducted.",
+    "study_system": "ToxCast/Tox21 HTS endpoints (chlorotriazine herbicides)"
+   },
+   {
+    "cite_key": "Suh2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "HTS data demonstrated an overall lack of bioactivity in cancer-related pathways.",
+    "study_system": "Lower alkyl acrylates (HTS + read-across review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 4,
+    "issue": "The 'expand chemical coverage' claim is carried by Isaacs2022 (ExpoCast landscape analysis, exposure NAMs drastically improve coverage). Onyango2023 is a weight-of-evidence risk assessment of six UV filters against human",
+    "fix": "Cite Isaacs2022 for the coverage-expansion clause; relocate Onyango2023 to a weight-of-evidence example."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_13d986c989791862",
+  "section_id": "sec-nams-data",
+  "claim_text": "The resources built to make such data reusable are real but non-comparable in scale, which presents as an inventory rather than a ranking: a curated chemical suspect-list exchange of more than 100,000 substances, integrated nanomaterial libraries exceeding 2,000 materials, and a workflow reusing 25 public proteomic datasets.",
+  "citation_keys": [
+   "MohammedTaha2022",
+   "Afantitis2020",
+   "Bahl2023",
+   "Jeliazkova2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "MohammedTaha2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The NORMAN-SLE contains 99 separate suspect list collections (as of May 2022) from over 70 contributors around the world, totalling over 100,000 unique substances.",
+    "study_system": "NORMAN-SLE FAIR chemical suspect-list resource"
+   },
+   {
+    "cite_key": "Afantitis2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "These established and well-characterized NM libraries (e.g. NanoMILE, NanoSolutions, NANoREG, NanoFASE, caLIBRAte, NanoTEST and the Nanomaterial Registry (>2000 NMs)) contain physicochemical characterization data as well as data for several relevant biological endpoints, assessed",
+    "study_system": "nanoinformatics IATA platform (NanoSolveIT; NM libraries)"
+   },
+   {
+    "cite_key": "Bahl2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "As a case study, we performed a meta-analysis of 25 proteomic datasets to investigate the toxicological effects of nanomaterials at the lung level.",
+    "study_system": "regulatory proteomics meta-analysis (PROTEOMAS, OECD Omics Reporting Framework)"
+   },
+   {
+    "cite_key": "Jeliazkova2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The x-fold, Bayesian and Arsinh-OWA distance algorithms performed comparably in the scoring of similarity between NF pairs.",
+    "study_system": "nanoform grouping / read-across (GRACIOUS IATA framework)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_f7f6b499875b3dad",
+  "section_id": "sec-nams-data",
+  "claim_text": "Curators of an integrated chemical database report that missing metadata routinely block data integration, forcing manual literature research before datasets can be combined; a workshop on AI in chemical risk assessment concluded that FAIR data are not best practice but a prerequisite for trustworthy model outputs; and nanosafety and adverse-outcome-pathway groups now argue for capturing FAIR metadata at the point of data generation and for dedicated stewardship roles.",
+  "citation_keys": [
+   "Daniel2022",
+   "Watford2019",
+   "Gant2026",
+   "Papadiamantis2020",
+   "Mortensen2025",
+   "Baskaran2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Daniel2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Metadata and information needed to support interoperability and provide context are often lacking, which necessitates literature research on the assay prior to attempting data integration.",
+    "study_system": "Integrated Chemical Environment (ICE) curated NAM/toxicity database"
+   },
+   {
+    "cite_key": "Watford2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This work reviews a number of toxicology-related efforts specifically related to bioactivity and toxicological data interoperability based on the goals established by Findable, Accessible, Interoperable, and Reusable (FAIR) Data Principles.",
+    "study_system": "computational toxicology / NAM bioactivity databases (Tox21, ToxCast)"
+   },
+   {
+    "cite_key": "Gant2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Discussions emphasised that implementation of Findable, Accessible, Interoperable, and Reusable (FAIR) data principles is not just a best practice but rather a prerequisite for building transparent, reliable, and unbiased AI systems.",
+    "study_system": "AI/ML in chemical risk assessment (regulatory science)"
+   },
+   {
+    "cite_key": "Papadiamantis2020",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Finally, we provide 8 key recommendations regarding the next steps to facilitate the widespread implementation of metadata reporting, and highlight some key tools and approaches that are facilitating the transition to capturing data and metadata much earlier in the data lifecycle",
+    "study_system": "nanosafety/NAM data metadata stewardship (FAIR data infrastructure)"
+   },
+   {
+    "cite_key": "Mortensen2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Making AOP data align with FAIR (Findable, Accessible, Interoperable, and Reusable) metadata standards relies on technical tools that implement and process AOP data and related metadata, and the establishment of coordinated and consensus computational bioinformatic methods.",
+    "study_system": "Adverse Outcome Pathway data (FAIR/AOP-Wiki roadmap)"
+   },
+   {
+    "cite_key": "Baskaran2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This paper provides background, examples, and recommendations on how to report chemical data in a findable, accessible, interoperable, and reproducible (FAIR) manner within environmental science disciplines.",
+    "study_system": "environmental chemistry / toxicology chemical-data reporting"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Gant2026 is mapped to the third example ('a NAM dataset that earns its author no credit'), but Gant2026 does not discuss author credit or evaluation incentives. It is an ECETOC workshop report arguing that FAIR data are ",
+    "fix": "Either accept Gant2026 as support for the NAM-stewardship half of the clause and drop the credit predicate for this cite, or add an incentive-facing source (e.g"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_c849f8674d03b382",
+  "section_id": "sec-nams-data",
+  "claim_text": "The stewardship burden is concrete: nanosafety groups offer eight specific recommendations for capturing metadata at the point of generation and argue for dedicated data-shepherd roles precisely because retrofitting metadata later routinely fails.",
+  "citation_keys": [
+   "Papadiamantis2020",
+   "Baskaran2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Papadiamantis2020",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Finally, we provide 8 key recommendations regarding the next steps to facilitate the widespread implementation of metadata reporting, and highlight some key tools and approaches that are facilitating the transition to capturing data and metadata much earlier in the data lifecycle",
+    "study_system": "nanosafety/NAM data metadata stewardship (FAIR data infrastructure)"
+   },
+   {
+    "cite_key": "Baskaran2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This paper provides background, examples, and recommendations on how to report chemical data in a findable, accessible, interoperable, and reproducible (FAIR) manner within environmental science disciplines.",
+    "study_system": "environmental chemistry / toxicology chemical-data reporting"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_0d2db2a7f7ed22ed",
+  "section_id": "sec-nams-data",
+  "claim_text": "Yet FAIRification remains young and unevenly implemented across health and toxicology data, the lack of harmonisation across assays, platforms, and analytical workflows is a named barrier to regulatory adoption, standardised documentation templates aligned to reporting guidance are only now being adopted by consortia, and building even one reusable knowledge base demanded heavy investment in governance, authorisation, and quality documentation.",
+  "citation_keys": [
+   "Inau2023",
+   "Kim2026b",
+   "Hartung2025a",
+   "Weber2025",
+   "Yang2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether FAIR principles and data-sharing mandates translate into actual, usable data sharing in practice: a review-level claim that FAIR improves data sharing versus an empirical audit finding that ma",
+   "Transformative promise vs adoption reality for microphysiological systems: one frames MPS as already revolutionizing drug development and reducing animal use, while the expert workshop documents that "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Inau2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "A total of 68% (23/34) of the publications contained details on the outcomes of FAIRification endeavors and the expected future work.",
+    "study_system": "Health research data FAIR initiatives (scoping review, 2014-2020)"
+   },
+   {
+    "cite_key": "Kim2026b",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "4.3 Limited harmonization A persistent barrier to widespread regulatory adoption is the lack of harmonization across NAM assays, platforms, data standards, and analytical pipelines.",
+    "study_system": "in vitro NAM data application to chemical risk assessment (NGRA)"
+   },
+   {
+    "cite_key": "Hartung2025a",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Major challenges include standardization issues across terminology and protocols, validation complexities requiring robust reference compounds and benchmarking standards, regulatory uncertainties regarding data requirements and qualification processes, and barriers to effective d",
+    "study_system": "microphysiological systems standardization and data sharing (CAAT)"
+   },
+   {
+    "cite_key": "Weber2025",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "To ensure transparency and harmonization, CHIASMA partners employ standardized documentation tools, including the ToxTemp templateand the SPSF, as described in OECD GD 211 and the Good In Vitro Method Practices (GIVIMP) guidance.",
+    "study_system": "multi-tiered animal-free NAM framework for REACH/CLP chemical safety (CHIASMA consortium)"
+   },
+   {
+    "cite_key": "Yang2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In addition to data content curation, much effort was dedicated to data governance - data authorisation, characterisation of quality, documentation of meta information, and control of data use.",
+    "study_system": "COSMOS NG cosmetics-chemical knowledge base (read-across)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "The specific sub-clause 'automated FAIRification can inject the very deficiencies it is meant to cure' is not supported by either cited paper. Inau2023 is an optimistic FAIR scoping review ('FAIR data leads to improved d",
+    "fix": "Add Tahar2026 to the citation group so the automated-FAIRification clause has a supporting source: `{cite:p}`Inau2023, VanTuyl2016, Tahar2026``. (Tahar2026 is i"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_e8fa88016c2215b2",
+  "section_id": "sec-nams-data",
+  "claim_text": "The read-across literature shows the same unresolved tension: public NAM data can be assembled to support a regulatory conclusion, yet the absence of consensus on the required evidence hampers acceptance.",
+  "citation_keys": [
+   "Ball2016",
+   "Pestana2021",
+   "Leist2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Regulatory readiness of read-across: a state-of-the-art guidance paper stresses that lack of consensus on required evidence hampers regulatory acceptance, whereas a NAM-enhanced case study concludes p",
+   "Regulatory readiness of read-across: a state-of-the-art guidance paper stresses that lack of consensus on required evidence hampers regulatory acceptance, whereas a NAM-enhanced case study concludes p"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Ball2016",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "While read-across can play a key role in complying with legislations such as the European REACH regulation, the lack of consensus regarding the extent and type of evidence necessary to support it often hampers its successful application and acceptance by regulatory authorities.",
+    "study_system": "read-across good practice guidance (REACH, ECHA RAAF)"
+   },
+   {
+    "cite_key": "Pestana2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Although a data rich group of compounds with a strong mechanistic basis was analysed, it was clearly demonstrated that NAM data available from publicly available resources could be applied to support read-across.",
+    "study_system": "read-across case study (triazoles, repeated-dose toxicity, ECHA RAAF)"
+   },
+   {
+    "cite_key": "Leist2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "An overarching objective of ASPA is to ensure that identical data input yields identical outcomes in the hands of independent assessors.",
+    "study_system": "NGRA workflow (Alternative Safety Profiling Algorithm, ASPA)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_029f6433b8038612",
+  "section_id": "sec-incentives",
+  "claim_text": "Several converging diagnoses frame the modern research economy as one in which reward systems incentivise quantity over quality and novelty over reliability, in which competition for funding and quantitative performance metrics has grown steadily more perverse over half a century, and in which the overuse of the journal impact factor persists precisely because it serves the individual interests of scientists, journals, and administrators even as it corrodes the collective enterprise — a textbook tragedy of the commons.",
+  "citation_keys": [
+   "Ioannidis2014b",
+   "Young2008",
+   "Edwards2017",
+   "Alberts2014",
+   "Casadevall2014",
+   "Chapman2019"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated",
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Ioannidis2014b",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Finally, reward systems incentivise quantity more than quality, and novelty more than reliability.",
+    "study_system": "biomedical/public-health research (design/conduct/analysis)"
+   },
+   {
+    "cite_key": "Young2008",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "John Ioannidis and colleagues argue that the current system of publication in biomedical research provides a distorted view of the reality of scientific data.",
+    "study_system": "biomedical publication system (essay)"
+   },
+   {
+    "cite_key": "Edwards2017",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Over the last 50 years, we argue that incentives for academic scientists have become increasingly perverse in terms of competition for research funding, development of quantitative metrics to measure performance, and a changing business model for higher education itself.",
+    "study_system": "academic research system (US)"
+   },
+   {
+    "cite_key": "Alberts2014",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The long-held but erroneous assumption of never-ending rapid growth in biomedical science has created an unsustainable hypercompetitive system that is discouraging even the most outstanding prospective students from entering our profession--and making it difficult for seasoned in",
+    "study_system": "US biomedical research ecosystem (expert analysis)"
+   },
+   {
+    "cite_key": "Casadevall2014",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Impact factor mania is a variation of the economic theory known as the \"tragedy of the commons,\" in which scientists act rationally in their own self-interests despite the detrimental consequences of their actions on the overall scientific enterprise.",
+    "study_system": "scientific publishing (perspective)"
+   },
+   {
+    "cite_key": "Chapman2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This has resulted in the incentive structure of science increasingly mimicking economic principles, but rather than a monetary gain, the incentive is a higher score.",
+    "study_system": "academia (ecology/evolution perspective)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_7a09a94b44e6fa65",
+  "section_id": "sec-incentives",
+  "claim_text": "In an international sample of biomedical promotion and tenure guidelines, found that peer-reviewed publications were mentioned as a criterion in almost every institution while data sharing appeared in only one percent and open-access publishing or registration in none; a matching study of research-intensive North American universities showed the Journal Impact Factor written explicitly into review, promotion, and tenure at a substantial minority of institutions, concentrated overwhelmingly at the most research-intensive campuses and framed in supportive terms.",
+  "citation_keys": [
+   "Rice2020",
+   "McKiernan2019"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Rice2020",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Thirty two (35%) institutions had at least one mention of a specific number of peer reviewed publications.",
+    "study_system": "international universities (biomedical RPT guidelines)"
+   },
+   {
+    "cite_key": "McKiernan2019",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The percentage was higher for R-type institutions (40%) than for either M-type (18%) or B-type (0%) institutions (Table 2).",
+    "study_system": "US/Canada universities (RPT documents)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_6c342364ce764126",
+  "section_id": "sec-incentives",
+  "claim_text": "This asymmetry is corroborated by broader analyses of the same document class: evaluation systematically privileges academic-facing outputs and citation metrics while disregarding the public dimensions of scholarship, and faculty themselves describe the \"quality\", \"prestige\", and \"impact\" of journals in overlapping, ill-defined ways that cannot bear the evaluative weight placed on them.",
+  "citation_keys": [
+   "Alperin2019",
+   "Schimanski2018",
+   "Morales2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Alperin2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Moreover, the documents make significant mention of traditional research outputs and citation-based metrics: however, such outputs and metrics reward faculty work targeted to academics, and often disregard the public dimensions.",
+    "study_system": "129 US/Canada universities (RPT documents)"
+   },
+   {
+    "cite_key": "Schimanski2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "For instance, over the last few decades, RPT processes have generally increased the value placed on research, at the expense of teaching and service, which often results in an incongruity between how faculty actually spend their time vs. what is considered in their evaluation.",
+    "study_system": "faculty RPT processes"
+   },
+   {
+    "cite_key": "Morales2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "While relying on self-reported definitions that are not linked to their behavior, this study's findings highlight that faculty often describe these distinct terms in overlapping ways.",
+    "study_system": "faculty perceptions (US/Canada survey)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_83c7b6aed00642d6",
+  "section_id": "sec-incentives",
+  "claim_text": "The instruments are moreover weak proxies for what they claim to measure: citation counts and impact factors are inconsistent and sometimes negative predictors of statistical accuracy, evidential value, and replicability, and journal-level metrics may recognise as little as ten to twenty percent of genuinely influential work.",
+  "citation_keys": [
+   "Dougherty2022",
+   "Arabi2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Dougherty2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Both citation counts and impact factors were weak and inconsistent predictors of research quality, so defined, and sometimes negatively related to quality.",
+    "study_system": "journal articles + 190 replications (behavioural/brain sci)"
+   },
+   {
+    "cite_key": "Arabi2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We also find that approximately half of researchers never publish in a venue with an impact factor above 15, which, under journal-level evaluation regimes, may exclude them from consideration for opportunities.",
+    "study_system": "biomedical researchers/articles (bibliometric analysis)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_85e768ad430b2459",
+  "section_id": "sec-incentives",
+  "claim_text": "report that nearly half of surveyed scientists do not make their data electronically available and develop a six-category model concluding that data behave not as a shared commons but as a private asset whose release requires positive incentives that do not exist.",
+  "citation_keys": [
+   "Fecher2015"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Fecher2015",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In a study among 1,329 scientists, 46% reported they do not make their data electronically available to others [5].",
+    "study_system": "academic researchers (survey + literature review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_1c2e6c48e3b65df7",
+  "section_id": "sec-incentives",
+  "claim_text": "A meta-synthesis of forty-five studies of researcher attitudes reaches the same conclusion from the qualitative side, tracing withholding directly to absent rewards for appointment and promotion, missing infrastructure, and lack of time and skills, and a systematic review consolidates the drivers and inhibitors of data sharing into eleven categories in which formal requirements and facilitating conditions are the decisive levers.",
+  "citation_keys": [
+   "Perrier2020",
+   "Zuiderwijk2020"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Perrier2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The lack of incentives for sharing research data with regards to academic appointment, promotion, recognition, and rewards need to be addressed.",
+    "study_system": "45 studies of researcher data-sharing views (meta-synthesis)"
+   },
+   {
+    "cite_key": "Zuiderwijk2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This study's purpose is to systematically review the literature on individual researchers' drivers and inhibitors for sharing and using open research data.",
+    "study_system": "open research data studies (systematic review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_d806591eda020c9b",
+  "section_id": "sec-incentives",
+  "claim_text": "Interviews with data-sharing-platform stakeholders show the mechanism concretely: an evaluation system fixated on first and last authorship structurally undervalues the people who generate and curate data, so contributorship crediting is proposed as a corrective.",
+  "citation_keys": [
+   "Devriendt2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Devriendt2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The evaluation system might impede data sharing because it mainly focuses on first and last authorship and undervalues the contributor's work.",
+    "study_system": "EU data-sharing-platform stakeholders (interview study)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_83af13a6b9286f34",
+  "section_id": "sec-incentives",
+  "claim_text": "Even mandates do not close the gap, because they raise nominal accessibility without raising quality: an audit of ecology and evolution datasets archived under strong public-archiving policies found most incomplete or unusable for reuse.",
+  "citation_keys": [
+   "Roche2015"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether transparency interventions deliver genuinely usable open data: badges increased data that was actually available/usable, whereas audits of mandated archives found most datasets incomplete or u"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Roche2015",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In most studies (56%), the archived datasets were incomplete, either because of missing data or insufficient metadata, resulting in a completeness score of 3 or less (Figs 1 and 2A).",
+    "study_system": "ecology/evolution datasets (n=100)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_257e366682b2aa9c",
+  "section_id": "sec-incentives",
+  "claim_text": "The pattern generalises across national systems — in Ecuador, reliance on journal-centric metrics predicted lower adoption of open practices while institutional deposit mandates and data services predicted higher adoption.",
+  "citation_keys": [
+   "Guerra2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Guerra2026",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Latin America offers an alternative pathway anchored in community-owned infrastructures—national and regional repositories (e.g., LA Referencia) and diamond OA platforms (e.g., Redalyc/AmeliCA)—that prioritize no-fee publishing and metadata interoperability as public goods (;).",
+    "study_system": "Open Science adoption and assessment (Ecuador / Latin America)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 4,
+    "issue": "A single-country (Ecuador) mixed-methods study is used to headline a claim that the pattern 'generalises across national systems'. The generalisation is defensible against the earlier international (Rice2020) and US/Cana",
+    "fix": "Phrase as an additional instance rather than proof of generalisation, e.g.: 'and the same pattern appears in national systems as different as Ecuador, where...'"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_aa27e981cf6a509c",
+  "section_id": "sec-incentives",
+  "claim_text": "Authorship — the currency in which the reward is denominated — is a poor proxy for contribution: honorary and ghost authorship are common, author lists have inflated to the point that alphabetical middle-author ordering now dominates large teams, and the resulting depreciation of authorship credit falls hardest on the junior and technical contributors who do the data work.",
+  "citation_keys": [
+   "Pruschak2022",
+   "Mongeon2017",
+   "Hosseini2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Pruschak2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Drawing on data from a survey of 2,222 social scientists from around the globe, we study the prevalence of authorship misconduct in the social sciences.",
+    "study_system": "2,222 social scientists (authorship survey)"
+   },
+   {
+    "cite_key": "Mongeon2017",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We show that alphabetical ordering of middle authors is frequent in biomedical research, and that the prevalence of this practice is positively correlated with the number of authors in the bylines.",
+    "study_system": "biomedical articles, Web of Science 1980-2015"
+   },
+   {
+    "cite_key": "Hosseini2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In the long run, INAP depreciates the value of authorship status and may disproportionately impact junior researchers and those who contribute to technical and routine tasks.",
+    "study_system": "scholarly authorship (ethical analysis)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_dfe5f05328dd9920",
+  "section_id": "sec-incentives",
+  "claim_text": "Proposed remedies move from authorship toward structured contributorship, in which machine-readable role taxonomies record who curated data and ran code, though such schemes remain unevenly adopted and are undercut by promotion rules that simply count indexed publications.",
+  "citation_keys": [
+   "Vasilevsky2020",
+   "Zhang2019b",
+   "Das2020"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Vasilevsky2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Recent efforts to enable better recognition of contributions to scholarship include the development of the Contributor Role Ontology (CRO), which extends the CRediT taxonomy and can be used in information systems for structuring contributions.",
+    "study_system": "scholarly authorship/credit infrastructure"
+   },
+   {
+    "cite_key": "Zhang2019b",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Most authors participated in the study's conceptualization (44.9%) and investigation (48.8%), but only a fraction of the authors participated in software management (7.4%).",
+    "study_system": "446 RCT articles / 4,185 authors (PLOS CRediT metadata)"
+   },
+   {
+    "cite_key": "Das2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The Medical Council of India (MCI) has made research publications in indexed medical journals an obligatory requirement for promotion of medical teachers.",
+    "study_system": "Indian medical academia (promotion policy)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_15201a7dd85af516",
+  "section_id": "sec-incentives",
+  "claim_text": "Alternative allocation mechanisms are being trialled at the funder level — partial randomisation, or funding lotteries, among near-equivalent applications — precisely to blunt the metric competition that credit inflation feeds, while responsible-assessment frameworks attempt to translate reform principles into concrete evaluation practice.",
+  "citation_keys": [
+   "LewisWilson2023",
+   "Stafford2024",
+   "Himanen2024",
+   "Gagliardi2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "LewisWilson2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "IFRC is the first ever Wellcome-funding scheme to use partial randomisation to allocate funding.",
+    "study_system": "Wellcome Trust funding scheme (case study)"
+   },
+   {
+    "cite_key": "Stafford2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "For many choices of target outcome, RCTs may be less practical and more expensive than they at first appear (in large part due to issues pertaining to sample size and statistical power).",
+    "study_system": "research funding allocation (methodological review)"
+   },
+   {
+    "cite_key": "Himanen2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "SCOPE bridges the gap between principles and their implementation by providing a structured five-stage framework by which evaluations can be designed and implemented, as well as evaluated.",
+    "study_system": "research evaluation framework"
+   },
+   {
+    "cite_key": "Gagliardi2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Our work contributes to the field by identifying 10 DORA-compliant measures of research quality and impact, a more comprehensive and explicit set of measures than prior efforts.",
+    "study_system": "biomedical researcher assessment (Delphi)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_09b08153b19ebcdc",
+  "section_id": "sec-incentives",
+  "claim_text": "Peer review, the mechanism ostensibly guarding quality, remains poorly understood and inconsistently applied, and so cannot be relied upon to correct what the reward structure encourages.",
+  "citation_keys": [
+   "Tennant2020",
+   "DelasCuevas2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Tennant2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We identify core themes including editorial responsibility, the subjectivity and bias of reviewers, the function and quality of peer review, and the social and epistemic implications of peer review.",
+    "study_system": "scholarly peer review (review of literature)"
+   },
+   {
+    "cite_key": "DelasCuevas2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Reviewer discordance was common in the first round for both published and rejected manuscripts (74.8% and 85.8%).",
+    "study_system": "editorial peer-review records, one MDPI journal (meta-research)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_7d608be1dfe04257",
+  "section_id": "sec-incentives",
+  "claim_text": "After the medical-journal editors' data-sharing-statement requirement, found that most trials in the highest-impact journals declared a willingness to share, yet fewer than one percent had deidentified data actually and publicly available.",
+  "citation_keys": [
+   "Danchev2021"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether a policy requirement translates into actually available data: a blanket journal data-sharing mandate (ICMJE) produced near-zero actual public data (0.6%), whereas a voluntary badge-plus-verifi"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Danchev2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The commitment to data sharing substantially decreases when we consider indicators of actual vs declared data sharing: of 334 articles declaring that they would share data, only 2 IPD sets (0.6%; 95% CI, 0.0%-1.5%) were actually deidentified and publicly available on the journal ",
+    "study_system": "487 clinical trials in JAMA/Lancet/NEJM"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "Fanelli2009 is mispaired. The specific quantitative claim (editorial data-availability mandate -> near-universal declarations but <1% usable data) is fully and solely supported by Danchev2021. Fanelli2009 is a meta-analy",
+    "fix": "Remove Fanelli2009 from this citation group (Danchev2021 alone supports the sentence), or, if Fanelli2009 is intended to support the 'voluntary virtue has faile"
+   },
+   {
+    "severity": "MUST_FIX",
+    "track": 1,
+    "issue": "Misattribution / interpretive mismatch. The specific claim (an editorial data-sharing requirement produced near-universal declared willingness but <1% actual availability) is fully and correctly supported by Danchev2021.",
+    "fix": "Remove `Fanelli2009` from this pairing, leaving `{cite:p}`Danchev2021``, which carries the claim on its own. If a second supporting citation is wanted for the g"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_35052ae4a2cf1a9b",
+  "section_id": "sec-incentives",
+  "claim_text": "Independent audits reproduce the collapse: raw data were shared for only around one in fifty psychology articles in a manual audit of the transparency literature; among manuscripts whose availability statements explicitly pledged sharing, the overwhelming majority of authors did not respond or declined and only a small fraction ultimately supplied their datasets; and even after contacting trialists directly, most responded but only a fifth of responders — roughly one in eight of all those approached — shared their data.",
+  "citation_keys": [
+   "Hardwicke2021",
+   "MartinRodriguez2026",
+   "Flanagan2026"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated",
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether data-availability policies translate into actual data sharing: enforced mandatory data/code-sharing policies with editorial checks achieve near-universal (96.5%) provision, whereas voluntary d"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Hardwicke2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Over half of the articles were publicly available (154/237, 65%, 95% confidence interval [CI] = [59%, 71%]); however, sharing of research materials (26/183; 14%, 95% CI = [10%, 19%]), study protocols (0/188; 0%, 95% CI = [0%, 1%]), raw data (4/188; 2%, 95% CI = [1%, 4%]), and ana",
+    "study_system": "250 psychology articles (2014-2017)"
+   },
+   {
+    "cite_key": "MartinRodriguez2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Among the 1,792 manuscripts whose DAS explicitly pledged data sharing, 1,669 authors (93%) either did not respond or declined to provide their data.",
+    "study_system": "biomedical research papers (2015-2020); data transparency"
+   },
+   {
+    "cite_key": "Flanagan2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Trialists from 48 of 79 trials (60.8%) responded to the IPD-MA invitation (Table 3), while trialists from the remaining 31 trials (39.2%) did not respond.",
+    "study_system": "Case study of an IPD meta-analysis contacting trialists from 79 trials"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 2,
+    "issue": "Quantitative attribution error (direction inverted). Flanagan2026 found that a MAJORITY of contacted trialists responded (48 of 79 = 60.8%), not a minority. The second clause ('only a fifth of responders shared', 20.8%) ",
+    "fix": "Rewrite to preserve the true numbers, e.g.: 'even after contacting trialists directly, most responded but only a fifth of responders — roughly one in eight of a"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_0af754065a42c5d8",
+  "section_id": "sec-incentives",
+  "claim_text": "Statement presence is not sharing either — one in five data-management plans submitted under the new funder policy still omitted required elements, and only a quarter of large pharmaceutical companies fully met a composite data-sharing standard.",
+  "citation_keys": [
+   "Hamidi2025",
+   "Miller2019"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether data-management-plan mandates translate into realized data sharing: formal DMSP completeness is high (79.3% of NIH plans addressed all required elements), yet an audit of funded projects with "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Hamidi2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "We evaluated the content of the 358 DMSPs using the rubric developed for this study (Supplementary Material); 79.3% of them addressed all six required elements outlined in the NIH DMS Policy.",
+    "study_system": "NIH Data Management and Sharing Plans at one institution"
+   },
+   {
+    "cite_key": "Miller2019",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Only 25% of large pharmaceutical companies fully met the data sharing measure.",
+    "study_system": "large pharmaceutical companies (novel FDA 2015 approvals)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_c23a21ecd4a131f5",
+  "section_id": "sec-incentives",
+  "claim_text": "A transparency audit of studies using animal models of opioid addiction found near-total absence of open-science practices: none preregistered, none sharing analytical code, raw data accessible for only about three percent, and the great majority lacking any sample-size justification.",
+  "citation_keys": [
+   "Blackwell2025"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Blackwell2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The raw data were available and accessible for only 3.1% of articles.",
+    "study_system": "Meta-research audit of 255 articles using animal models of opioid addiction"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_6769c21dc06b32a1",
+  "section_id": "sec-incentives",
+  "claim_text": "Every one of those unusable datasets carries an unrecovered welfare cost, and a cardiovascular-literature audit finding fewer than two percent of papers fully reproducible adds a further specialty to the same pattern already documented across psychology, clinical medicine, and ecology.",
+  "citation_keys": [
+   "Heckerman2025"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Heckerman2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We identified that fewer than 2% of cardiovascular research publications provide sufficient resources (materials, methods, data, and analysis scripts) to fully reproduce their studies.",
+    "study_system": "639 cardiovascular articles (Circulation, EHJ, JACC; 2019)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 4,
+    "issue": "Mild scope inflation. A single cardiovascular audit (639 articles, 3 journals) plus one animal-opioid audit (Blackwell2025) is used to assert the problem is 'systemic rather than confined to one specialty'. Two specialti",
+    "fix": "Soften to 'adds a second specialty to the same pattern' or explicitly ground the systemic claim in the multi-field evidence already marshalled (psychology, clin"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_449dbd86810a3a68",
+  "section_id": "sec-incentives",
+  "claim_text": "The programme on increasing value and reducing waste located waste at every stage from question selection to inaccessible reporting, arguing that trial and review output already outpaces any capacity to synthesise it and that full information is available for only about half of all studies.",
+  "citation_keys": [
+   "Chan2014",
+   "Salman2014",
+   "Bastian2010"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Chan2014",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "When full information about studies is inaccessible, billions of dollars in investment are wasted, bias is introduced, and research and care of patients are detrimentally affected.",
+    "study_system": "health research reporting/access (review)"
+   },
+   {
+    "cite_key": "Salman2014",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Obtaining regulatory and governance approval has become increasingly burdensome and disproportionate to the conceivable risks to research participants.",
+    "study_system": "biomedical research regulation/management"
+   },
+   {
+    "cite_key": "Bastian2010",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "There are now 75 trials, and 11 systematic reviews of trials, per day and a plateau in growth has not yet been reached.",
+    "study_system": "clinical trials and systematic reviews (output)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_37f3cbe09f84b555",
+  "section_id": "sec-incentives",
+  "claim_text": "Redundant, misleading, or conflicted syntheses are mass-produced far faster than the primary research they digest, undetected software and computation errors propagate silently into published results, and a bibliometric mapping of the waste literature itself reveals a large and fast-growing field of concern.",
+  "citation_keys": [
+   "IOANNIDIS2016",
+   "Soergel2015",
+   "Peng2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "IOANNIDIS2016",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Annual publications between 1991 and 2014 increased 2,728% for systematic reviews and 2,635% for meta-analyses versus only 153% for all PubMed-indexed items.",
+    "study_system": "systematic reviews & meta-analyses (bibliometric survey)"
+   },
+   {
+    "cite_key": "Soergel2015",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Here I estimate that any reported scientific result could very well be wrong if data have passed through a computer, and that these errors may remain largely undetected.",
+    "study_system": "scientific software / computation"
+   },
+   {
+    "cite_key": "Peng2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "the 876 publications collected were cited a cumulative total of 39 768 times, yielding an average citation frequency of 45.4 citations per article.",
+    "study_system": "Bibliometric analysis of 876 biomedical research-waste publications"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_a35f932404488ca0",
+  "section_id": "sec-incentives",
+  "claim_text": "The most frequently repeated single figure — that more than half of preclinical research is irreproducible, at a cost of tens of billions of dollars a year in the United States alone — is influential but rests on a modelled economic estimate whose provenance is not fully transparent, and it is best read as an order-of-magnitude claim rather than a measurement.",
+  "citation_keys": [
+   "Freedman2015"
+  ],
+  "modality_seed": "suggestive",
+  "replication": [
+   "unreplicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Freedman2015",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "A natural point estimate of the cumulative irreproducibility rate is the midpoint of the upper and lower bounds, or 53.3%.",
+    "study_system": "US preclinical life-science research (economic modeling)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "Sena2010 supports 'filtered toward positive results' (publication bias in stroke), but Freedman2015 is a modelled economic estimate of preclinical irreproducibility cost; it does not itself establish 'weakly protected ag",
+    "fix": "Acceptable as a high-level synthesis anchor; optionally note that 'analysis-dependent predictor' is evidenced by the Seok2013/Takao2014 pairing that follows, so"
+   },
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 2,
+    "issue": "Body-summary mischaracterisation. Freedman2015 (a modelled $28B economic estimate) and Ioannidis2014c (the '85% wasted' synthesis) are correctly described by the body as modelled / not-fully-transparent (section 02 expli",
+    "fix": "Remove `Hamilton2023` from this cite group. If the intent is to also flag the 2% figure as one the review interrogates, cite it separately with accurate framing"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_fd152f8f2a2761bc",
+  "section_id": "sec-incentives",
+  "claim_text": "The first meta-analysis of misconduct surveys estimated that around two percent of scientists admit fabricating or falsifying data at least once, with up to a third admitting other questionable practices; a five-country study found that almost all researchers admit using at least one such practice, though measured frequency of any specific practice is far lower; and an implicit-association study found that about a fifth of scientists tacitly associate questionable practices with career success while very few connect outright fabrication to success.",
+  "citation_keys": [
+   "Fanelli2009",
+   "Schneider2024",
+   "Velicu2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Prevalence of data fabrication: survey self-reports pool to ~2% of scientists admitting fabrication, whereas forensic red-flagging/detection of the biomedical literature estimates ~5.8% of papers are ",
+   "Interpretation of QRP prevalence: the incentivised psychology survey frames QRPs as the prevailing norm, while the cross-national study argues widespread one-time involvement does not amount to system"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Fanelli2009",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Meta-analysis yielded a pooled weighted estimate of 1.97% (95%CI: 0.86–4.45), with significant heterogeneity (Cochran's Q = 61.7777, df = 6, P<0.0001).",
+    "study_system": "surveys of scientists (misconduct meta-analysis)"
+   },
+   {
+    "cite_key": "Schneider2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Ninety-four per cent admitted that they had used at least one of these QRPs, and the mean self-reported rate across all QRP items was 42%, with rates for the individual QRPs ranging from 17% to 57%.",
+    "study_system": "researchers Denmark/UK/USA/Croatia/Austria"
+   },
+   {
+    "cite_key": "Velicu2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Our main finding is that a considerable fraction of about a fifth of researchers associate success with problematic research practices, while only a small minority connect FFP and success.",
+    "study_system": "scientists Austria/Germany/Switzerland (SC-IAT)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "POSITIVE NOTE / no fix needed. The section and its figure caption correctly keep the three constructs separate (self-admitted serious FFP vs any-QRP self-admission vs implicit attitudinal association), explicitly flag th",
+    "fix": "None required — retained as evidence the conflation risk was handled well."
+   },
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "Fanelli2009 is mispaired. The specific quantitative claim (editorial data-availability mandate -> near-universal declarations but <1% usable data) is fully and solely supported by Danchev2021. Fanelli2009 is a meta-analy",
+    "fix": "Remove Fanelli2009 from this citation group (Danchev2021 alone supports the sentence), or, if Fanelli2009 is intended to support the 'voluntary virtue has faile"
+   },
+   {
+    "severity": "MUST_FIX",
+    "track": 1,
+    "issue": "Misattribution / interpretive mismatch. The specific claim (an editorial data-sharing requirement produced near-universal declared willingness but <1% actual availability) is fully and correctly supported by Danchev2021.",
+    "fix": "Remove `Fanelli2009` from this pairing, leaving `{cite:p}`Danchev2021``, which carries the claim on its own. If a second supporting citation is wanted for the g"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_6fb2f309e33910be",
+  "section_id": "sec-incentives",
+  "claim_text": "Surveys across Portuguese universities, Amsterdam, and international samples add that admission rises among younger and more prolific researchers and tracks contract type, career stage, and perceived research climate, and a principled taxonomy notes that the most-reported practices are omissions — selective reporting of analyses, citations, and covariates — some of which may under narrow conditions be neutral or even useful.",
+  "citation_keys": [
+   "Entradas2026",
+   "Haven2021",
+   "Brooker2024",
+   "Fanelli2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Entradas2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "From the n = 9002 researchers contacted, we received n = 1573 responses, for a response rate of 17.4%.",
+    "study_system": "researchers Portuguese universities (six fields)"
+   },
+   {
+    "cite_key": "Haven2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Results showed that individual, climate and publication factors combined explained 34% of variance in perceived frequency of research misbehavior. Individual factors explained 7%, climate factors explained 22% and publication factors 16%.",
+    "study_system": "academic researchers, Amsterdam (survey)"
+   },
+   {
+    "cite_key": "Brooker2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Our findings indicate that contract type, career stage, academic field, adherence to scientific norms and gender significantly predict QRP engagement.",
+    "study_system": "international researcher survey (QRP determinants)"
+   },
+   {
+    "cite_key": "Fanelli2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "a growing theoretical and empirical literature suggests that under specific conditions, practices such as HARKing and selectively publishing results may have a neutral or even net positive impact on research progress (Rubin, 2017; de Winter & Happee, 2013).",
+    "study_system": "survey definitions of QRPs (classification study)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_bb602a1e733f1c18",
+  "section_id": "sec-incentives",
+  "claim_text": "An incentivised psychology survey concluded that some practices are so widely admitted that they may constitute the prevailing research norm, whereas the larger cross-national study argued that widespread one-time involvement does not amount to systematic use once the frequency of any given practice is measured.",
+  "citation_keys": [
+   "John2012",
+   "Schneider2024"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Interpretation of QRP prevalence: the incentivised psychology survey frames QRPs as the prevailing norm, while the cross-national study argues widespread one-time involvement does not amount to system",
+   "Interpretation of QRP prevalence: the incentivised psychology survey frames QRPs as the prevailing norm, while the cross-national study argues widespread one-time involvement does not amount to system"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "John2012",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This finding suggests that some questionable practices may constitute the prevailing research norm.",
+    "study_system": "psychologists (incentivised survey)"
+   },
+   {
+    "cite_key": "Schneider2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Ninety-four per cent admitted that they had used at least one of these QRPs, and the mean self-reported rate across all QRP items was 42%, with rates for the individual QRPs ranging from 17% to 57%.",
+    "study_system": "researchers Denmark/UK/USA/Croatia/Austria"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_d591e12a81b6b780",
+  "section_id": "sec-incentives",
+  "claim_text": "Simulations show that even a single flexible-analysis strategy can lift the false-positive rate from five percent to at least thirty, drawing on a catalogue of thirty-four researcher degrees of freedom available in designing, running, and reporting a study.",
+  "citation_keys": [
+   "Stefan2023",
+   "Wicherts2016"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Stefan2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "With regard to the different-hacking strategies, we found that even with a single strategy, false-positive rates can typically be raised to at least 30% from the typical 5% threshold with ‘reasonable effort’, that is, without assuming that researchers automate data mining procedu",
+    "study_system": "p-hacking strategies (simulation)"
+   },
+   {
+    "cite_key": "Wicherts2016",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In this review article, we present an extensive list of 34 degrees of freedom that researchers have in formulating hypotheses, and in designing, running, analyzing, and reporting of psychological research.",
+    "study_system": "psychological research methods (taxonomy)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ }
+]

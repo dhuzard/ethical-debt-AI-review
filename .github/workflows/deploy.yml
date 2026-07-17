@@ -2,7 +2,7 @@ name: Build and Deploy MyST Site
 
 on:
   push:
-    branches: [main]
+    branches: [main, trust-scores]
   pull_request:
     branches: [main]
 
@@ -12,28 +12,36 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  # A branch push and its same-commit PR event arrive together. Keep their
+  # validation runs independent so the PR run cannot cancel the deploy-capable
+  # push run before it uploads the Pages artifact.
+  group: "pages-${{ github.event_name }}"
   cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: '20'
+          node-version: '24'
+
+      - name: Validate TRUST knowledge
+        run: |
+          node scripts/validate-trust.js
+          node scripts/test-trust-validator.js
+          node --test tests/*.test.mjs
 
       - name: Install dependencies
         run: |
           pip install mystmd jupyter matplotlib numpy pandas seaborn
           npm install -g mystmd
-          npm install yaml
 
       - name: Execute figure notebooks
         run: |
@@ -48,17 +56,17 @@ jobs:
 
       - name: Build MyST site
         env:
-          BASE_URL: /ComputationalReviewTemplate
+          BASE_URL: /ethical-debt-AI-review
         run: myst build --html
 
       - name: Upload Pages artifact
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/trust-scores'
         uses: actions/upload-pages-artifact@v4
         with:
           path: _build/html
 
   deploy:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/trust-scores'
     needs: build
     environment:
       name: github-pages

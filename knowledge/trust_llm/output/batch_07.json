@@ -1,0 +1,818 @@
+{
+ "clm_d6650c0c0134c9ae": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Descriptive infrastructure facts (database size, standardisation, NACAD copy) stated firmly, matching an established, replicated record; firm wording is appropriate.",
+   "evidence": ["modality_seed=established; replication=replicated; has_conflict_source=false", "Deschl2002 abstract gives exact 10,896 rats / 17,604 tumours matching the claim"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Claim confined to the RITA rat/mouse historical-control database and the derivative NACAD, exactly the study systems of the two sources.",
+   "evidence": ["study_system=RITA shared historical control database; NACAD", "no critic_priors track 3/4"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "neutral",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_e4f34d37b37c3feb": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Specific integration/collection counts stated as established facts, matching two full-text direct-support passages; no conflict signals.",
+   "evidence": ["modality_seed=established; replication=replicated", "Moresis2024 full text: '60,000 rats, 1,300 dogs and 500 monkeys'; Pognan2021 full text: '6500 preclinical studies from eTOX'"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stays within the eTRANSAFE/eTOX preclinical-toxicology data programme described by both sources.",
+   "evidence": ["study_system=eTRANSAFE/eTOX shared database", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "neutral",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_b189646da5515b70": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Infrastructure counts stated firmly with modality 'likely'; the 24,358-animal and 1,800-study figures trace to direct passages, so confident wording is warranted.",
+   "evidence": ["MunozMuriedas2021: '24,358 animals ... 232,352 histological observations'; Carfagna2020b: '>1800 sponsor-submitted studies'", "replication=single-study but claim is descriptive counting, not a contested finding"],
+   "failure_modes": ["the 'over 10,000 datasets' growth figure is not present in the shown Snyder2024 passage"],
+   "recommended_fix": "Attach an explicit citation/passage for the '>10,000 datasets a few years later' figure."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "All figures kept within their source contexts (FDA CDER SEND repository; corporate multi-species toxicity meta-analysis).",
+   "evidence": ["study_system=CDISC SEND datasets; corporate preclinical toxicity studies", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_144d32f22dcee2ea": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Framed as a stated aim ('explicitly assembling ... with the stated aim'), a measured description that matches the abstracts and does not overclaim outcomes.",
+   "evidence": ["StegerHartmann2024: 'VICT3R aims ... to obtain regulatory acceptance for the VCG concept'", "modality=likely for an in-progress project"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to the VICT3R control-animal database initiative described by both sources.",
+   "evidence": ["study_system=cross-company control-animal database; VICT3R", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_bac3a659f4c968a6": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Reports a concrete data-quality finding (6-99% population range; unextractable fields) as a single-study result with appropriate 'likely' modality.",
+   "evidence": ["Carfagna2020b queried '>1800 sponsor-submitted studies'; Carfagna2020a notes 'considerable flexibility ... significant variability'", "replication=single-study, no conflict"],
+   "failure_modes": ["the exact 6%-99% range is not verbatim in the shown abstract passages"],
+   "recommended_fix": "Pin the 6-99% field-population range to a specific Carfagna passage/table."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Kept within CDISC SEND datasets, the exact system of both Carfagna sources.",
+   "evidence": ["study_system=CDISC SEND / SENDIG toxicology datasets", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_7e9bcb4122e8d4f5": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The species-extension facts are well-replicated across five INHAND papers, but the universal 'precondition for any cross-study control database' is an author synthesis stronger than any single source states.",
+   "evidence": ["five INHAND abstracts each supply a species extension (NHP, dog, minipig, ocular nonrodent, tumour mapping)", "sources provide nomenclature; none asserts it is a 'precondition'"],
+   "failure_modes": ["mild overstatement via universal 'any' on the precondition clause"],
+   "recommended_fix": "Soften to 'a practical prerequisite' or attribute the precondition framing explicitly."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Aggregates species-specific INHAND papers within their own remit; each listed species maps to a cited source.",
+   "evidence": ["study_system across NHP/dog/minipig/rabbit/reproductive INHAND publications", "no track 3/4 critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_dac525efb1fcb871": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Each sub-claim (medical-device gaps, decade-later revisions, cases with no matching term) maps cleanly to a distinct supporting source; limitation framing is well-calibrated.",
+   "evidence": ["Schuh2025 (devices), Bachchair2025 ('After 10 years ... review of terminology'), Quist2023 ('not an INHAND or SEND diagnosis compatible')"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stays within INHAND/SEND laboratory-animal nomenclature; each example is drawn from its own matching context.",
+   "evidence": ["study_system=laboratory-animal lesions; INHAND nomenclature", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_27adc3252d53e763": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Asserts a causal/interpretive link ('direct response to this friction') from a single source and 'established' seed; the existence of metadata efforts is solid but the causal attribution is the author's inference.",
+   "evidence": ["single source Moresis2024; passage documents eTRANSAFE VCG focus, not explicitly 'a response to friction'"],
+   "failure_modes": ["causal 'direct response' framing from one indirect passage"],
+   "recommended_fix": "Downgrade to 'motivated in part by' or cite text explicitly linking metadata work to interoperability friction."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to nonclinical in-vivo data reuse / eTRANSAFE metadata, the source's domain.",
+   "evidence": ["study_system=nonclinical in vivo animal data; FAIR metadata", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": "methodological",
+  "evidence_relation": "indirectly_supported",
+  "cap_flags": []
+ },
+ "clm_df5468ef6ed8dab0": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Superlative 'single biggest barrier' is sourced to StegerHartmann2018, and 'concordance rare' is backed by Wright2023a's weak likelihood ratios; wording tracks the evidence.",
+   "evidence": ["StegerHartmann2018: sharing is 'the biggest hurdle'; Wright2023a: LR+ 1.84, LR- 0.73 supporting limited concordance", "replication=single-study, no conflict source"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Both halves stay within the eTOX preclinical-database context (data-sharing barrier; inter-species histopathology concordance).",
+   "evidence": ["study_system=shared preclinical toxicity database (eTOX); inter-species concordance", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_00b05743ef19bf00": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Numbers are exact and attributed to a named simulation, but the sentence reports only the favourable VCG side of a disputed (has_conflict_source, contested) question without an in-sentence caveat; attribution partly compensates.",
+   "evidence": ["replication=disputed; has_conflict_source=true; conflict with Adedeji2024 clinical-pathology non-reproducibility", "critic_prior SHOULD_CAVEAT (track 1)"],
+   "failure_modes": ["one-sided presentation of a contested result in this sentence"],
+   "recommended_fix": "Signal the dispute inline (e.g., 'in a favourable simulation') as done for the counter-evidence claims."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to Wistar Han rat liver-enzyme comparisons, exactly the simulation's system.",
+   "evidence": ["study_system=Wistar Han rat toxicity; ALT/ALP/AST; VCG vs concurrent control", "no track 3/4 scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_51b46ae592588859": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Single disputed NHP re-analysis reported firmly ('all four dose-limiting toxicities identifiable'); figures match, but the strong universal and contested status warrant slightly more hedging.",
+   "evidence": ["Mecklenburg2023: '82% could be confirmed'; replication=disputed", "critic_prior MINOR (track 2)"],
+   "failure_modes": ["strong 'all four ... without any reference' phrasing for a single contested study"],
+   "recommended_fix": "Attribute more explicitly as a single re-analysis result."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Slight scope-label imprecision flagged by critic (track 2): the 20 studies are a subchronic-and-chronic mix but are labelled uniformly 'sub-chronic'.",
+   "evidence": ["critic_prior track 2: '(sub)chronic' mix described as all 'sub-chronic'", "study_system=NHP (sub)chronic toxicity"],
+   "failure_modes": ["duration-class mislabelling"],
+   "recommended_fix": "Change to 'twenty subchronic and chronic non-human-primate studies'."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_ee5867b6b0158dd4": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Attributed to a retrospective study with an appropriate conditional ('when fold-change from baseline was used'), but presents only the favourable side of a has_conflict_source question.",
+   "evidence": ["Li2024a: 'similar or higher statistical sensitivity ... than CCGs'", "replication=disputed; has_conflict_source=true (conflicts with Adedeji clinical-pathology finding)"],
+   "failure_modes": ["one-sided sensitivity claim within a contested pair"],
+   "recommended_fix": "Note that other clinical-pathology evidence disputes preserved sensitivity."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Kept to nonrodent (dog/NHP) one-month studies, the source's exact population and design.",
+   "evidence": ["study_system=dog and NHP; 1-month systemic toxicity; VCG vs CCG", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_4b4bc9b5c2830b82": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Opening 'Set against these encouraging results' explicitly frames this as counter-evidence, directly acknowledging the conflict; figures match the source exactly.",
+   "evidence": ["Adedeji2024: '31% ... 40% ... 49% ... not statistically reproducible'", "has_conflict_source=true, and the sentence itself supplies the caveat"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to rat clinical-pathology legacy studies, the source's system.",
+   "evidence": ["study_system=rat toxicity legacy studies; clinical pathology; VCG vs concurrent control", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_c835aff92c4fc77f": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Hedged summary phrasing ('roughly two-thirds', 'above three-quarters') attributed to a named simulation, but reports only the favourable side of a contested question without inline caveat.",
+   "evidence": ["DuchateauNguyen2026: '68.5% ... at least 90% agreement'", "replication=disputed; has_conflict_source=true; critic_prior SHOULD_CAVEAT"],
+   "failure_modes": ["one-sided contested finding in this sentence"],
+   "recommended_fix": "Flag the dispute inline, mirroring the paired non-reproducibility claim."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to the liver-enzyme rat simulation.",
+   "evidence": ["study_system=Wistar Han rat; liver enzymes; VCG vs CCG simulation", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_1a7a58f99ebb1dd1": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Uses the honest upper-bound hedge 'up to 49%' and attributes to the source, but reports one side of a contested pair; also loosely labels a primary re-analysis a 'review'.",
+   "evidence": ["Adedeji2024: max 49% non-reproducible", "replication=disputed; has_conflict_source=true; critic_prior SHOULD_CAVEAT"],
+   "failure_modes": ["'review of proof-of-concept studies' mischaracterises a primary re-analysis", "cherry-picks the maximum of 31/40/49%"],
+   "recommended_fix": "Report the full 31-49% range or clarify it is the study's own re-analysis."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Kept to clinical-pathology parameters in rat legacy studies.",
+   "evidence": ["study_system=rat toxicity legacy studies; clinical pathology", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_5fb85f62fac2f6fe": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Model of calibration: explicitly reconciles the apparent contradiction by harmonising metric polarity (non-reproducibility vs concordance), each figure traced to its source.",
+   "evidence": ["Adedeji2024 49% (higher worse) vs Mecklenburg2023 82% and DuchateauNguyen2026 68.5% (higher better)", "directly names and resolves the conflict"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Synthesis stays within the three cited VCG studies without extending beyond them.",
+   "evidence": ["three source systems: rat clinical pathology, NHP toxicity, Wistar Han rat liver enzymes", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_903f059284ea4ece": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Recommendations attributed to 'cautious voices' and 'the anatomic-pathology community' with appropriate normative/conditional framing matching the perspective sources.",
+   "evidence": ["StegerHartmann2023 sensitivity concern; Grevot2023 'validation ... performing VCG and the full control group in parallel'", "replication=single-study, no conflict"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to regulated animal-safety/anatomic-pathology VCG validation, the sources' domain.",
+   "evidence": ["study_system=regulated animal safety data; anatomic pathology VCG validation", "no scope critic_priors"],
+   "failure_modes": ["'digital histopathology slides' detail is not verbatim in the shown passages"],
+   "recommended_fix": "Attach the passage supporting the digital-slide requirement."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_aa7df29718d883ef": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Strong assertion that drift is 'neither hypothetical nor small' is anchored by a single conceptual source; the empirical backing actually lives in the following claims, not this citation.",
+   "evidence": ["Barrett2025 passage is conceptual (data-expiration policy), robustness=1", "'empirical record shows' promises evidence beyond the cited conceptual passage"],
+   "failure_modes": ["asserts empirical magnitude from a conceptual source"],
+   "recommended_fix": "Cite the downstream empirical drift sources (Kellner2025, Gurjanov2023) alongside Barrett2025."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Barrett2025 speaks to general drug-development data expiration; applying it to control-animal data drift is a reasonable but broader conceptual transfer.",
+   "evidence": ["study_system=drug-development data/models/tools; data expiration (conceptual)", "claim narrows to control data specifically"],
+   "failure_modes": ["conceptual source generalised to a specific data type"],
+   "recommended_fix": "Ground the control-data-specific claim in a control-data source."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "conceptual",
+  "evidence_relation": "indirectly_supported",
+  "cap_flags": []
+ },
+ "clm_38235df2df6fd46e": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Exact figures attributed to the specific ViCoG analysis, but the sentence carries a has_conflict_source (temporal-stability dispute vs rasH2) without inline acknowledgment; the counter-view appears in adjacent claims.",
+   "evidence": ["Kellner2025: 'study year emerged as the most important factor'", "has_conflict_source=true (conflict with Nambiar2012 minimal-drift)"],
+   "failure_modes": ["one-sided within a temporal-stability dispute"],
+   "recommended_fix": "Signal that other endpoints (rasH2 tumours) show minimal drift."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to Han Wistar rat clinical laboratory parameters in the multi-company ViCoG database.",
+   "evidence": ["study_system=Han Wistar rat control groups; 5 European companies; ViCoG", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_783e4278cb6093c9": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly framed as 'a single case study' tracing 'part of' the signal, an appropriately hedged causal attribution; means and CIs match the passage.",
+   "evidence": ["Gurjanov2023: calcium 2.87->2.55 mmol/L after 2017 anaesthesia change", "hedges 'part of', 'a single case study'"],
+   "failure_modes": ["'overwhelmingly significant' is mild editorialising"],
+   "recommended_fix": "Replace 'overwhelmingly significant' with the reported effect size/CI."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Inference ('would silently bias any VCG spanning the change') stays tied to the specific serum-calcium/anaesthesia change in Wistar rats.",
+   "evidence": ["study_system=male Wistar rats; serum calcium; VCG feasibility", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": "biological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_9276e86dee341324": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Two independent sources (per-company offsets; duration-dependent liver necrosis 2%->8%) back an empirical claim with matched figures; 'likely' modality fits.",
+   "evidence": ["Kadyrov2025 per-company offsets from combined mean; Snyder2024 '~8% ... in older rats at ages matching terminal sacrifice'", "replication=replicated+single-study"],
+   "failure_modes": ["the '~2% at one-month ages' anchor is not in the shown Snyder2024 passage"],
+   "recommended_fix": "Cite the passage for the ~2% one-month background rate."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to rat control clinical chemistry and rat liver necrosis, the sources' systems.",
+   "evidence": ["study_system=rat acute-tox clinical chemistry (5 companies); control rats liver necrosis", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_8ab6a69e67124113": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Reports a single telemetry study's contrast (same-lab usable, cross-lab not) with wording matching the abstract; appropriately scoped as one endpoint.",
+   "evidence": ["Abernathy2024: 'differences in the time course of QTc ... not possible to use cross-lab controls'", "replication=single-study, no conflict"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Kept within NHP cardiovascular telemetry QTc, the source's exact endpoint and design.",
+   "evidence": ["study_system=NHP; cardiovascular telemetry QTc; contemporary vs historical vs cross-lab", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_2d4ea425b26a600b": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Well-replicated rasH2 stability facts, but 'established' seed plus the extrapolation 'therefore supports reliable historical control data' overstates one side of a has_conflict_source dispute; the counter appears in the next claim.",
+   "evidence": ["Nambiar2012 'minimal drift'; Paranjpe2013 stable spontaneous incidences", "has_conflict_source=true (conflicts with Kellner2025 study-year drift)"],
+   "failure_modes": ["'therefore supports reliable HCD' generalises a model-specific stability result"],
+   "recommended_fix": "Scope the conclusion to the rasH2 model and note contrasting clinical-pathology drift."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stays within the rasH2/Tg.rasH2 transgenic mouse carcinogenicity model of both sources.",
+   "evidence": ["study_system=rasH2 mice; 6-month carcinogenicity; HCD comparison", "no track 3/4 scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": "biological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_9a0460aedf12c503": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly framed as 'the opposite emphasis', directly acknowledging the conflict with the rasH2-stability claim; figure matches the source.",
+   "evidence": ["Kellner2025: 'study year ... the most important factor'", "sentence itself flags the tension ('opposite emphasis')"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to Han Wistar rat control laboratory values in the ViCoG multi-company database.",
+   "evidence": ["study_system=Han Wistar rat control groups; ViCoG", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_b4a75c180a4f03c6": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "A dense list of strain-dependent incidence figures each traced to a direct-support source; empirical enumeration is well-calibrated with 'likely' modality.",
+   "evidence": ["Nolte2011 Leydig ~100%/13.7%/4.2%; Dinse2010 MNCL strain gap; Boyle2018 >50% incidences; Leakey2003 liver-tumour band"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Critic (track 4) flags a species shift: the list is framed as strain-dependent (mostly rat), but the 15-20% liver-tumour band is B6C3F1 mouse (Leakey2003) and one figure is rasH2 mouse (Boyle2018).",
+   "evidence": ["critic_prior track 4: mouse liver-tumour figure folded into a rat strain-variability list", "study_systems mix rats (F344/SD/Wistar) with B6C3F1 and Tg.rasH2 mice"],
+   "failure_modes": ["cross-species figures grouped under 'strain-dependent' rat framing"],
+   "recommended_fix": "Note the species change, e.g. '...and, in B6C3F1 mice, body-weight/diet control shifts liver-tumour incidence into a 15-20% band.'"
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": "biological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_2227162b04bdc115": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "States precise carcinogenicity replicability ranges (65-86%, 36-74%) as firm findings, but the cited Karmaus2026 passage only verifies Hershberger/uterotrophic figures (72%/74%); the headline numbers are unverified against the source shown.",
+   "evidence": ["critic_prior SHOULD_CAVEAT (track 2): 'quantitative claim not covered by the package's authoritative sentence'", "verbatim passage supports endocrine-assay figures, not the carcinogenicity ranges"],
+   "failure_modes": ["specific numbers asserted beyond the verified passage"],
+   "recommended_fix": "Confirm 65-86% and 36-74% against Karmaus2026 full text or cite the primary source carrying them."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Claim is about rodent carcinogenicity replicability, but the source's verbatim evidence concerns Hershberger/uterotrophic endocrine assays, an endpoint mismatch that weakens the transfer.",
+   "evidence": ["study_system=rodent carcinogenicity bioassays", "shown passage discusses Hershberger/uterotrophic assays"],
+   "failure_modes": ["endpoint mismatch between claim and cited passage"],
+   "recommended_fix": "Cite the carcinogenicity-specific figures/section of the review."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_a7e2fac252f8162b": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Three distinct sub-claims (genotoxicity test-condition drivers; litter as statistical unit; dedicated HCD-generation studies) each map to a matching source with appropriate 'likely' modality.",
+   "evidence": ["Raitano2026 'RF ... identified the most relevant variables' for 25/31 compounds; Brown2026 litter-size effects; Paranjpe2025 dedicated HCD study"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each clause stays within its source's domain (genotoxicity guideline datasets; rodent developmental toxicity; rasH2 HCD generation).",
+   "evidence": ["study_systems match each clause; no track 3/4 critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_3a444e16a19c729d": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Carefully hedged trajectory claim ('moving away from ... toward', 'trying to formalise', 'many guidelines still fail', 'more open than solved') that honestly reflects an unresolved methodological field.",
+   "evidence": ["Kluxen2021 weight-of-evidence; Menssen2025 historical control limits; explicit acknowledgment of unresolved state"],
+   "failure_modes": ["the 'forty years ... still fail' framing is not verbatim in the shown passages"],
+   "recommended_fix": "Attach the passage supporting the 'forty years of discussion' characterisation."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to regulatory toxicology HCD/HCL methodology, the sources' shared domain.",
+   "evidence": ["study_systems all HCD/HCL methodology (bioassays, genotoxicity guidelines)", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_e68c476cc68e9d26": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Neutral, accurate description of an EFSA opinion's proposed scheme, matching the abstract's seven-step/three-cluster structure.",
+   "evidence": ["Coja2025: 'stepwise, quantitative approach ... seven distinct steps grouped in three overall clusters'", "modality=likely for a proposal"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Kept within EFSA regulatory pesticide-toxicity HCD guidance, the source's domain.",
+   "evidence": ["study_system=regulatory pesticide toxicity; EFSA guidance", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_a4567c3d0f768b66": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Three real examples of using an HCD range to downgrade signals are attributed to specific studies, with the critical phrase 'simply by adding' implicitly flagging the contested practice; slightly stronger inline caveat would suit the disputed status.",
+   "evidence": ["Kasai2024 'upper limit of ... historical control data'; Starr2012 'widened the HC ... weakening the ... evidence'", "replication=disputed; has_conflict_source=true"],
+   "failure_modes": ["editorial 'simply by' borders on characterising the practice as illegitimate"],
+   "recommended_fix": "State explicitly that the soundness of range-widening reinterpretation is disputed."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each example stays within its rodent carcinogenicity/HCD context (nano-TiO2, glyphosate, vanadium pentoxide).",
+   "evidence": ["study_systems match each example; no track 3/4 scope prior"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "neutral",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_2341e13dc54de552": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Faithfully paraphrases Zarn2024's audit finding ('routinely and exclusively to avoid ... false positive'); the absolutes ('never', 'almost exclusively') mirror the source's own wording; attributed to a single named evaluation.",
+   "evidence": ["Zarn2024: 'HCD was used routinely and exclusively to avoid potential false positive decisions ... using the HCD range'", "has_conflict_source=true but this is itself the critical/counter voice"],
+   "failure_modes": ["'typically without testing the assumption' clause not verbatim in shown abstract"],
+   "recommended_fix": "Cite the passage for the distributional-assumption point."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to JMPR regulatory pesticide toxicology practice (2004-2021), the source's scope.",
+   "evidence": ["study_system=regulatory pesticide toxicology (JMPR); HCD use", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_d69684041ccb6f9b": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The example of HCD used to strengthen a positive finding is supported by Ohnishi2013, but the added 'equally live and equally disputed' characterisation is the author's framing, not stated by the single cited example.",
+   "evidence": ["Ohnishi2013: 'clear evidence of inhalation carcinogenicity'", "'equally disputed' is an interpretive overlay on one example"],
+   "failure_modes": ["'disputed' claim rests on author framing rather than the cited source"],
+   "recommended_fix": "Cite a source that documents the disputed status of this HCD use."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Kept within rodent inhalation carcinogenicity HCD interpretation, the source's context.",
+   "evidence": ["study_system=trichloroethane inhalation carcinogenicity (F344 rats, BDF1 mice)", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_efd5c6a51646f162": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Attributed to the specific Ramazzini study and framed as what that study did, with contested modality; but reports one side of a has_conflict_source carcinogenicity dispute (balanced by the following claim).",
+   "evidence": ["Panzacchi2025 describes RI (7142) and NTP (1180) historical controls", "replication=disputed; has_conflict_source=true"],
+   "failure_modes": ["the specific 1.63%/0.90%/1,670-control leukaemia figures are not in the shown passage"],
+   "recommended_fix": "Attach the passage carrying the 1.63% vs 0.90% leukaemia comparison and the 1,670 pooled-control count."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to the Sprague-Dawley lifetime carcinogenicity study and its RI/NTP historical-control databases.",
+   "evidence": ["study_system=SD rats; lifetime carcinogenicity; RI and NTP HCD", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_db368c270cea08e8": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Attributed to EFSA's stated reasoning and contested modality; presents the regulatory counter-view to the prior Ramazzini claim, so the pair is balanced, though this sentence alone is one source.",
+   "evidence": ["Aguilar2017: Panel noted Ramazzini HCD 'were for the period 1973 up to 1983'", "replication=disputed; has_conflict_source=true; provides the counter-side to clm_efd5c6a51646f162"],
+   "failure_modes": ["'lacked appropriate concurrent control and contemporaneous HCD' only partly verbatim in shown passage"],
+   "recommended_fix": "Attach the passage supporting the missing-concurrent-control point."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Kept within the EFSA re-evaluation of a Ramazzini carcinogenicity study's historical-control adequacy.",
+   "evidence": ["study_system=carcinogenicity re-evaluation; historical-control adequacy (EFSA)", "no scope critic_priors"],
+   "failure_modes": [],
+   "recommended_fix": "No change needed."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ }
+}

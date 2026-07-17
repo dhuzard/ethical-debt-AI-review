@@ -1,0 +1,1022 @@
+{
+ "clm_c476c76dca8e7935": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Conflict is described, not hidden: the sentence narrates the divergent 3D-vs-2D directions and uses the hedge 'trended toward' for the weaker iPSC-hepatocyte result, correctly matching single-study, conflicted evidence.",
+   "evidence": ["Hong2021: '3D HepG2 spheroids were more resistant to nefazodone-induced MPT than 2D'", "Sirenko2016: iPSC-derived hepatocyte spheroid assay", "conflict_notes: direction of 3D-vs-2D sensitivity disagrees"],
+   "failure_modes": [],
+   "recommended_fix": "None; the divergence is stated with appropriate hedging."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stays inside the sources' study systems (HepG2 and iPSC-hepatocyte liver spheroids, in-vitro hepatotoxicity); no extrapolation to other organs, in-vivo, or clinical outcomes.",
+   "evidence": ["study_system: 3D-printed HepG2 spheroids; iPSC-hepatocyte spheroids vs 2D"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": "3D vs 2D liver spheroid hepatotoxicity (HepG2 and iPSC-hepatocytes)",
+   "computational": null,
+   "clinical": null,
+   "methodological": "3D vs 2D in-vitro hepatotoxicity assay design",
+   "conceptual": null
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_cd6d87f2ec6f5bf2": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The causal attribution is hedged with 'appears cell-type driven', but the sentence draws a broad interpretive lesson and the supporting cites are largely cardiotoxicity iPSC studies used to generalise a liver-derived observation.",
+   "evidence": ["'The divergence appears cell-type driven'", "critic_prior track 1: coverage-driven cramming bundling loosely-related papers"],
+   "failure_modes": ["interpretive generalisation leans on loosely-related cardiotoxicity cites"],
+   "recommended_fix": "Trim the citation cluster to the 2-3 most directly relevant cell-type comparisons."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Generalises from a hepatic divergence to a cross-system rule ('the same architectural upgrade can raise or lower apparent sensitivity'); cardiac iPSC cites partly justify the cross-organ leap but the generalisation runs slightly ahead of any single source.",
+   "evidence": ["Zhang2024a/Liu2024/Lee2025a: iPSC cardiomyocyte systems", "Zhou2026: qAOP calibration"],
+   "failure_modes": ["mild cross-organ generalisation"],
+   "recommended_fix": "Scope the lesson to the cited hepatic/cardiac models or add an explicit multi-organ synthesis source."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "suggestive",
+  "claim_polarity": "neutral",
+  "claim_scope": {
+   "biological": "cell-type-dependent toxicity sensitivity (hepatic, cardiac iPSC models)",
+   "computational": "qAOP hierarchical calibration",
+   "clinical": null,
+   "methodological": "comparable reporting for NAM assays",
+   "conceptual": "architecture-vs-biology variability requires disciplined reporting"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_c7ab98a9329c09da": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Enumerated screening-scale figures are precise and each maps to an abstract; descriptive framing ('interrogate hundreds to thousands') makes no claim beyond the counts.",
+   "evidence": ["Wang2018: 293 chemicals", "Russo2023: 2171 chemicals", "Ehrlich2024: 4165 compounds", "Corsi2019: 34 of 67"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each number stays bound to its own screening campaign; the aggregate framing is a fair summary of the enumerated instances with no cross-domain inference.",
+   "evidence": ["study_systems: thyroid NIS, HepaRG, ToxCast/Tox21 hepatotoxicity, VEGFR cardiotoxicity, Great Lakes benchmarks"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "neutral",
+  "claim_scope": {
+   "biological": "thyroid, hepatic, cardiotoxicity screening endpoints",
+   "computational": "high-throughput and in-silico screening (ToxCast/Tox21)",
+   "clinical": null,
+   "methodological": "HTS assay campaigns",
+   "conceptual": null
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_f163265ee397416d": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The coverage-expansion core is supported (Isaacs2022), but rhetorical framing ('accumulate faster than they are curated', 'trend is toward more data') is asserted rather than hedged, and one cite is off-topic.",
+   "evidence": ["Isaacs2022: 'exposure NAMs drastically improve the coverage of the chemical landscape'", "critic_prior track 4: Onyango2023 is a UV-filter risk assessment, not a coverage claim"],
+   "failure_modes": ["assertive trend framing beyond a single source"],
+   "recommended_fix": "Anchor the coverage clause on Isaacs2022 and relocate Onyango2023."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Track-4 citation-scope mismatch: Onyango2023 (weight-of-evidence UV-filter assessment) is used under a coverage-expansion clause it does not support; the generalisation 'every mechanistic screen adds a layer' is broad but defensible.",
+   "evidence": ["critic_prior track 4 (MINOR): cite Isaacs2022 for coverage; relocate Onyango2023"],
+   "failure_modes": ["citation placed outside its study system"],
+   "recommended_fix": "Move Onyango2023 to a weight-of-evidence example; keep Isaacs2022 for coverage."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {
+   "biological": null,
+   "computational": "high-dimensional HTS/exposure data storage and versioning",
+   "clinical": null,
+   "methodological": "high-throughput exposure methods and AOP-mapping screens",
+   "conceptual": "data accumulate faster than curation capacity"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_13d986c989791862": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Self-aware framing ('real but non-comparable in scale ... an inventory rather than a ranking') deliberately avoids over-claiming; each scale figure traces exactly to an abstract.",
+   "evidence": ["MohammedTaha2022: 'over 100,000 unique substances'", "Afantitis2020: '>2000 NMs'", "Bahl2023: 'meta-analysis of 25 proteomic datasets'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Numbers are tied to their specific resources and explicitly declared non-comparable; no ranking or cross-resource inference is made.",
+   "evidence": ["study_systems: NORMAN-SLE, NanoSolveIT NM libraries, PROTEOMAS"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "neutral",
+  "claim_scope": {
+   "biological": "nanomaterials and proteomic toxicology datasets",
+   "computational": "curated chemical/NM databases and proteomic reuse workflow",
+   "clinical": null,
+   "methodological": "FAIR data resources / read-across infrastructure",
+   "conceptual": "resources non-comparable in scale (inventory not ranking)"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_f7f6b499875b3dad": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Attributive reporting throughout ('Curators ... report', 'a workshop ... concluded', 'groups now argue'); positions are ascribed to their sources rather than stated as universal fact.",
+   "evidence": ["Daniel2022: metadata lacking necessitates literature research", "Gant2026: FAIR is 'a prerequisite'", "Papadiamantis2020: capture metadata earlier in lifecycle"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "All cites sit within chemical/nanosafety/AOP data curation; the credit-incentive mismatch flagged for Gant2026 concerns a neighbouring clause, not this within-scope FAIR-prerequisite usage.",
+   "evidence": ["study_systems: ICE database, Tox21/ToxCast, AOP-Wiki, nanosafety FAIR"],
+   "failure_modes": [],
+   "recommended_fix": "None for this clause."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {
+   "biological": null,
+   "computational": "chemical database metadata and data integration (FAIR)",
+   "clinical": null,
+   "methodological": "FAIR metadata capture and stewardship roles",
+   "conceptual": "FAIR data as a prerequisite for trustworthy model outputs"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_c849f8674d03b382": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The '8 recommendations' fact is directly supported, but 'precisely because retrofitting metadata later routinely fails' is a stronger causal justification than the cited passages (which say capture-earlier is easier) explicitly state.",
+   "evidence": ["Papadiamantis2020: '8 key recommendations ... capturing data and metadata much earlier in the data lifecycle'"],
+   "failure_modes": ["causal 'routinely fails' rationale slightly exceeds passage"],
+   "recommended_fix": "Soften to 'because late retrofitting is harder' or cite a source documenting retrofit failure rates."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stays within nanosafety/environmental-chemistry metadata stewardship; the two cites match the domain and the claim does not over-reach.",
+   "evidence": ["Papadiamantis2020 (nanosafety FAIR)", "Baskaran2025 (environmental chemistry FAIR reporting)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {
+   "biological": null,
+   "computational": "metadata capture at point of data generation",
+   "clinical": null,
+   "methodological": "data stewardship / metadata reporting practices",
+   "conceptual": "retrofitting metadata fails; dedicated data-shepherd roles needed"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_0d2db2a7f7ed22ed": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Wording is well hedged ('remains young and unevenly implemented', 'only now being adopted'), but a conflict source exists and a track-1 SHOULD_CAVEAT flags an 'automated FAIRification' sub-clause unsupported by the cited papers.",
+   "evidence": ["Kim2026b: 'lack of harmonization ... a persistent barrier to widespread regulatory adoption'", "Yang2021: 'much effort was dedicated to data governance'", "critic_prior track 1 (SHOULD_CAVEAT)"],
+   "failure_modes": ["an adjacent sub-clause risks running past its cited support"],
+   "recommended_fix": "Add a source for the automated-FAIRification sub-clause or drop it."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "The 'across health and toxicology data' scope is carried by a matching spread of sources (health FAIR review, NAM/NGRA, MPS, cosmetics knowledge base); no organism or domain over-reach.",
+   "evidence": ["Inau2023 (health FAIR), Hartung2025a (MPS), Weber2025 (REACH/CLP NAM), Yang2021 (cosmetics)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": "FAIR implementation, harmonisation, documentation templates",
+   "clinical": null,
+   "methodological": "assay/platform harmonisation; documentation standards (ToxTemp, GIVIMP)",
+   "conceptual": "FAIRification young and uneven; a barrier to regulatory adoption"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_e8fa88016c2215b2": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly frames the conflict as an 'unresolved tension' and presents both directions ('can be assembled ... yet the absence of consensus ... hampers acceptance'), the correct handling of a flagged conflict source.",
+   "evidence": ["Ball2016: 'lack of consensus ... hampers its ... acceptance'", "Pestana2021: NAM data 'could be applied to support read-across'", "conflict_notes: regulatory readiness disputed"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to read-across / regulatory acceptance under REACH; sources match and no extrapolation beyond the regulatory-toxicology context.",
+   "evidence": ["study_systems: ECHA RAAF read-across, triazole case study, ASPA/NGRA"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": null,
+   "computational": "public NAM data assembly for read-across",
+   "clinical": null,
+   "methodological": "read-across regulatory acceptance",
+   "conceptual": "tension between data availability and consensus on required evidence"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_029f6433b8038612": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Presented as 'several converging diagnoses ... frame', signalling these are analyses/perspectives rather than measurements; convergent sourcing (robustness 4) matches an established-modality synthesis.",
+   "evidence": ["Ioannidis2014b: 'reward systems incentivise quantity more than quality, and novelty more than reliability'", "Casadevall2014: impact factor as 'tragedy of the commons'", "Edwards2017: '50 years ... increasingly perverse'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Scope (modern research/biomedical reward economy) is matched by convergent sources across biomedicine, US academia, publishing and ecology; the generalisation rests on multiple independent diagnoses.",
+   "evidence": ["six convergent sources spanning biomedical, academic, and ecology/evolution perspectives"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": null,
+   "methodological": "research evaluation metrics (journal impact factor)",
+   "conceptual": "reward systems incentivise quantity/novelty; tragedy of the commons"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_7a09a94b44e6fa65": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Precise, well-attributed empirical proportions ('almost every institution', 'only one percent', 'in none', 'substantial minority ... at the most research-intensive campuses') matching the audited figures.",
+   "evidence": ["Rice2020: RPT guideline audit", "McKiernan2019: 'higher for R-type institutions (40%) than ... M-type (18%) or B-type (0%)'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "The two samples (international; US/Canada research-intensive) are kept distinct and each figure stays inside its own document set; no over-generalisation.",
+   "evidence": ["Rice2020 (international), McKiernan2019 (US/Canada RPT documents)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": null,
+   "methodological": "RPT evaluation criteria (JIF, data sharing, open access)",
+   "conceptual": "evaluation privileges publications over open practices"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_6c342364ce764126": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Assertions are attributed and grounded ('evaluation systematically privileges academic-facing outputs', 'faculty ... describe ... in overlapping, ill-defined ways'); the evaluative flourish 'cannot bear the evaluative weight' follows directly from the overlapping-definitions finding.",
+   "evidence": ["Alperin2019: metrics 'reward faculty work targeted to academics, and often disregard the public dimensions'", "Morales2021: faculty 'describe these distinct terms in overlapping ways'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stays within the same US/Canada RPT document class it names ('broader analyses of the same document class'); no reach beyond the sampled institutions.",
+   "evidence": ["Alperin2019 (129 US/Canada universities), Schimanski2018, Morales2021 (US/Canada faculty)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": null,
+   "methodological": "RPT evaluation criteria; journal metrics",
+   "conceptual": "evaluation privileges academic outputs; ill-defined journal-quality terms"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_83c7b6aed00642d6": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Carefully hedged ('weak proxies', 'inconsistent and sometimes negative predictors', 'may recognise as little as'); does not overstate the anti-metric evidence.",
+   "evidence": ["Dougherty2022: 'citation counts and impact factors were weak and inconsistent predictors ... sometimes negatively related'", "Arabi2025: bibliometric analysis of metric coverage"],
+   "failure_modes": ["the '10-20% of influential work' figure is not shown in the quoted Arabi2025 passage"],
+   "recommended_fix": "Confirm the 10-20% figure's source passage or cite it explicitly."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Generalisation to 'the instruments' is backed by two domains (behavioural/brain science with 190 replications, and biomedical bibliometrics); no organism/population over-reach.",
+   "evidence": ["Dougherty2022 (behavioural/brain sci + replications), Arabi2025 (biomedical)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": null,
+   "methodological": "citation counts and impact factors as quality proxies",
+   "conceptual": "journal-level metrics are weak/negative proxies for research quality"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_85e768ad430b2459": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'nearly half' matches 46%; the six-category model and 'private asset' framing are correctly attributed to a single study without inflating it.",
+   "evidence": ["Fecher2015: '46% reported they do not make their data electronically available'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to academic researchers surveyed by the source; the commons-vs-private-asset model is the study's own conceptual output.",
+   "evidence": ["study_system: academic researchers (survey + literature review)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": "electronic data availability",
+   "clinical": null,
+   "methodological": "data-sharing behaviour survey",
+   "conceptual": "data behave as a private asset requiring positive incentives"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_1c2e6c48e3b65df7": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Attributes findings to a 45-study meta-synthesis and a systematic review; '11 categories' and 'decisive levers' track the sources with appropriate reporting verbs.",
+   "evidence": ["Perrier2020: 'lack of incentives ... need to be addressed'", "Zuiderwijk2020: systematic review of drivers/inhibitors"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Both cites are cross-study syntheses of researcher data-sharing attitudes; the generalisation is exactly the sources' aggregation level.",
+   "evidence": ["Perrier2020 (45 studies), Zuiderwijk2020 (systematic review)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": null,
+   "methodological": "data-sharing drivers/inhibitors research",
+   "conceptual": "withholding driven by absent rewards, infrastructure, and requirements"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_d806591eda020c9b": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'show the mechanism concretely' and 'structurally undervalues' are fairly strong for a single qualitative interview study (robustness 1); attribution to interviews is present but the certainty runs a little ahead of the design.",
+   "evidence": ["Devriendt2022: 'evaluation system ... mainly focuses on first and last authorship and undervalues the contributor's work'", "robustness=1 (single interview study)"],
+   "failure_modes": ["single qualitative study stated as an established mechanism"],
+   "recommended_fix": "Soften 'show the mechanism concretely' to 'illustrate'."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Extends findings from EU data-sharing-platform stakeholders to data generators/curators generally; a modest generalisation from one interview sample.",
+   "evidence": ["study_system: EU data-sharing-platform stakeholders (interview study)"],
+   "failure_modes": ["single-context generalisation"],
+   "recommended_fix": "Mark as an interview-based illustration rather than a general mechanism."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "suggestive",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": null,
+   "methodological": "authorship/contributorship credit systems",
+   "conceptual": "evaluation undervalues data generators; contributorship as a corrective"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_83af13a6b9286f34": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The audit finding is hedged ('most incomplete or unusable'), but the lead-in 'Even mandates do not close the gap' is asserted from a single ecology audit, and the badge counter-evidence (conflict source) is not caveated in-sentence.",
+   "evidence": ["Roche2015: 'archived datasets were incomplete ... completeness score of 3 or less' (56%)", "conflict_notes: badges increased usable data vs audits found most incomplete"],
+   "failure_modes": ["general 'mandates' conclusion from one specialty; uncaveated counter-evidence"],
+   "recommended_fix": "Scope the claim to the archiving-policy audit or note the badge-scheme counter-result."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "A single ecology/evolution dataset audit (n=100) underwrites a broad statement about mandates in general; the generalisation runs modestly beyond the one study system.",
+   "evidence": ["study_system: ecology/evolution datasets (n=100)"],
+   "failure_modes": ["single-field audit generalised to all archiving mandates"],
+   "recommended_fix": "Attribute the general claim to the broader multi-field evidence marshalled elsewhere."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": "archived dataset completeness/reusability",
+   "clinical": null,
+   "methodological": "public-archiving mandate audit",
+   "conceptual": "mandates raise nominal accessibility, not quality"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_257e366682b2aa9c": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "The Ecuador predictors are hedged, but 'The pattern generalises across national systems' overstates a single-country mixed-methods study; the flagged fix is to phrase it as one additional instance, not proof of generalisation.",
+   "evidence": ["Guerra2026: Ecuador / Latin America open-science adoption", "critic_prior track 4: single-country study headlines a cross-national generalisation"],
+   "failure_modes": ["single-country result stated as a cross-national generalisation"],
+   "recommended_fix": "Rephrase to 'the same pattern appears in systems as different as Ecuador, where ...'."
+  },
+  "transferability_scope_control": {
+   "score": 2,
+   "rationale": "Track-4 scope overreach: a lone Ecuador study is used to assert generalisation 'across national systems', extending well past the single study system.",
+   "evidence": ["critic_prior track 4 (MINOR): defensible only against earlier international/US-Canada evidence, not on its own"],
+   "failure_modes": ["overextended generalisation scope"],
+   "recommended_fix": "Present Ecuador as an added instance and ground the generalisation in the prior international evidence."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "suggestive",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": null,
+   "methodological": "open-practice adoption predictors (metrics, mandates, data services)",
+   "conceptual": "journal metrics lower and mandates raise open-practice adoption (Ecuador/Latin America)"
+  },
+  "evidence_relation": "overextended",
+  "cap_flags": ["overextended_scope"]
+ },
+ "clm_aa27e981cf6a509c": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'honorary and ghost authorship are common' and the junior-harm clause are supported, but 'alphabetical middle-author ordering now dominates large teams' strengthens Mongeon2017's 'frequent / positively correlated' to 'dominates'.",
+   "evidence": ["Pruschak2022: authorship-misconduct survey of 2,222 social scientists", "Mongeon2017: 'alphabetical ordering ... is frequent ... positively correlated with the number of authors'", "Hosseini2022: INAP 'depreciates the value of authorship status'"],
+   "failure_modes": ["'dominates' slightly overstates 'frequent'"],
+   "recommended_fix": "Change 'dominates' to 'is increasingly frequent in'."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Claims about authorship span two fields (social science survey, biomedical bibliometrics) plus a general ethical analysis; the cross-field generalisation is adequately supported.",
+   "evidence": ["Pruschak2022 (social science), Mongeon2017 (biomedical WoS 1980-2015), Hosseini2022 (general)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": null,
+   "methodological": "authorship as a proxy for contribution",
+   "conceptual": "authorship inflation depreciates credit and harms junior/technical contributors"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_dfe5f05328dd9920": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Balanced: remedies are described alongside their limits ('remain unevenly adopted', 'undercut by promotion rules'), each grounded in a cite.",
+   "evidence": ["Vasilevsky2020: Contributor Role Ontology extends CRediT", "Zhang2019b: uneven role participation (software 7.4%)", "Das2020: indexed publications required for promotion"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Credit-infrastructure and adoption cites map to the claim; the 'promotion rules that count indexed publications' generalisation is illustrated by a concrete policy example (Das2020).",
+   "evidence": ["Vasilevsky2020, Zhang2019b (PLOS CRediT), Das2020 (Indian promotion policy)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": null,
+   "computational": "machine-readable role taxonomies (CRediT/CRO)",
+   "clinical": null,
+   "methodological": "structured contributorship credit systems",
+   "conceptual": "contributorship undercut by publication-counting promotion rules"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_15201a7dd85af516": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Describes reforms as in-progress ('being trialled', 'attempt to translate'), avoiding any claim of demonstrated effect.",
+   "evidence": ["LewisWilson2023: 'first ever Wellcome-funding scheme to use partial randomisation'", "Himanen2024: SCOPE five-stage framework", "Gagliardi2023: 10 DORA-compliant measures"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "All cites sit within research-funding allocation and responsible-assessment; no reach beyond that context.",
+   "evidence": ["Wellcome case study, funding-allocation methodology, SCOPE, DORA Delphi"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": null,
+   "methodological": "funding lotteries / partial randomisation; responsible-assessment frameworks (SCOPE, DORA)",
+   "conceptual": "reforms to blunt metric competition"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_09b08153b19ebcdc": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'poorly understood and inconsistently applied' is supported by a broad review plus a discordance study, but 'cannot be relied upon to correct' is a strong conclusion, and 'inconsistently applied' leans on a single MDPI-journal record set.",
+   "evidence": ["Tennant2020: 'subjectivity and bias of reviewers'", "DelasCuevas2026: 'Reviewer discordance was common ... (74.8% and 85.8%)'"],
+   "failure_modes": ["strong normative conclusion; single-journal empirical base for inconsistency"],
+   "recommended_fix": "Attribute 'inconsistently applied' to the single-journal scope or add corroborating audits."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "The empirical inconsistency evidence is one MDPI journal; the broad review (Tennant2020) supports the general claim, but the generalisation to peer review at large partly outruns the single-journal data.",
+   "evidence": ["Tennant2020 (literature review), DelasCuevas2026 (one MDPI journal)"],
+   "failure_modes": ["single-journal result generalised to peer review broadly"],
+   "recommended_fix": "Add a second empirical source spanning journals."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": null,
+   "methodological": "peer review as a quality-control mechanism",
+   "conceptual": "peer review poorly understood/inconsistent; cannot correct incentive effects"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_7d608be1dfe04257": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Precise and fully carried by Danchev2021 ('most ... declared ... willingness' vs '<1% actually and publicly available'); the mispaired-Fanelli2009 critic note references a citation not present in this claim's key list, so the traceability concern is resolved here.",
+   "evidence": ["Danchev2021: 'of 334 articles declaring ... only 2 IPD sets (0.6%) were actually deidentified and publicly available'"],
+   "failure_modes": [],
+   "recommended_fix": "None; Danchev2021 alone supports the sentence."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Scoped precisely to high-impact clinical-trial journals (JAMA/Lancet/NEJM), matching the audit; the conflicting badge-scheme result concerns a different intervention and is not overreached into.",
+   "evidence": ["study_system: 487 clinical trials in JAMA/Lancet/NEJM"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": "clinical-trial data sharing in JAMA/Lancet/NEJM",
+   "methodological": "ICMJE data-sharing-statement requirement",
+   "conceptual": "declared vs actual data-availability gap"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_35052ae4a2cf1a9b": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Three audit figures are precisely hedged ('around one in fifty', 'overwhelming majority ... did not respond or declined', 'roughly one in eight'); the Flanagan2026 direction that a MUST_FIX flagged (most responded) is correctly stated in the current wording.",
+   "evidence": ["Hardwicke2021: raw data 4/188 (2%)", "MartinRodriguez2026: '1,669 authors (93%) either did not respond or declined'", "Flanagan2026: '48 of 79 trials (60.8%) responded'"],
+   "failure_modes": [],
+   "recommended_fix": "None; the prior direction-inversion has been corrected."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Three independent audits across psychology, biomedical papers, and clinical-trial IPD jointly support 'independent audits reproduce the collapse'; each figure stays in its own study system.",
+   "evidence": ["Hardwicke2021 (psychology), MartinRodriguez2026 (biomedical), Flanagan2026 (clinical-trial IPD)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": "clinical-trial IPD sharing on request",
+   "methodological": "data-availability audits and on-request sharing",
+   "conceptual": "pledged vs actual data-sharing collapse"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_0af754065a42c5d8": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'one in five ... omitted required elements' is the exact complement of Hamidi2025's 79.3%, and 'only a quarter' matches Miller2019's 25%; the glass-half-empty framing is accurate.",
+   "evidence": ["Hamidi2025: '79.3% ... addressed all six required elements'", "Miller2019: 'Only 25% of large pharmaceutical companies fully met the data sharing measure'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to NIH DMSPs (one institution) and large-pharma FDA approvals, matching the sources; no over-generalisation across policy regimes.",
+   "evidence": ["Hamidi2025 (NIH DMSPs, one institution), Miller2019 (large pharma, 2015 FDA approvals)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": "large-pharma clinical-data-sharing standard (FDA approvals)",
+   "methodological": "data-management plans and data-sharing standards",
+   "conceptual": "statement presence is not actual sharing"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_c23a21ecd4a131f5": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Attributed to a single audit ('A transparency audit ... found') with precise figures ('about three percent' = 3.1%); no overreach beyond the audited corpus.",
+   "evidence": ["Blackwell2025: 'raw data were available and accessible for only 3.1% of articles'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Bounded exactly to the 255 audited articles using animal models of opioid addiction; no cross-domain extension.",
+   "evidence": ["study_system: 255 articles using animal models of opioid addiction"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "animal models of opioid addiction",
+   "computational": "analytical-code sharing",
+   "clinical": null,
+   "methodological": "transparency/open-science audit (preregistration, sample-size justification)",
+   "conceptual": "near-total absence of open-science practices"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_6769c21dc06b32a1": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The empirical figure ('fewer than two percent fully reproducible') is precise, and the generalisation is carefully framed as adding a specialty to a pattern 'already documented across psychology, clinical medicine, and ecology' rather than proven by this one audit.",
+   "evidence": ["Heckerman2025: 'fewer than 2% of cardiovascular research publications provide sufficient resources ... to fully reproduce'", "critic_prior track 4 (SHOULD_CAVEAT): mild scope inflation"],
+   "failure_modes": ["'unrecovered welfare cost' is a rhetorical add-on beyond the cite"],
+   "recommended_fix": "Keep grounding the systemic claim in the multi-field evidence already marshalled."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "A single cardiovascular audit (639 articles, 3 journals) is used to extend the reproducibility pattern to another specialty; the sentence mitigates by referencing prior fields, so the stretch is mild.",
+   "evidence": ["study_system: 639 cardiovascular articles (Circulation, EHJ, JACC; 2019)"],
+   "failure_modes": ["one-audit-per-specialty basis for a cross-field pattern"],
+   "recommended_fix": "Explicitly cite the multi-field evidence when asserting the pattern is systemic."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": "reproducibility (materials, data, analysis scripts)",
+   "clinical": "cardiovascular literature (Circulation, EHJ, JACC)",
+   "methodological": "reproducibility audit",
+   "conceptual": "irreproducibility pattern spans specialties"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_449dbd86810a3a68": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'located waste at every stage' and the output-outpaces-synthesis point are supported, but 'full information is available for only about half of all studies' is not shown in the quoted passages, and 'at every stage' is a broad summary of the REWARD programme.",
+   "evidence": ["Chan2014: 'When full information about studies is inaccessible, billions ... wasted'", "Bastian2010: '75 trials, and 11 systematic reviews of trials, per day'"],
+   "failure_modes": ["the 'about half' figure lacks a shown supporting passage"],
+   "recommended_fix": "Attach a passage/source for the 'about half of all studies' figure."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to clinical/health research waste, matching the REWARD-series sources; no reach beyond biomedical research output.",
+   "evidence": ["Chan2014, Salman2014, Bastian2010 (health-research reporting/output)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": "clinical trials and systematic reviews",
+   "methodological": "research waste across stages; reporting accessibility",
+   "conceptual": "waste at every research stage; output outpaces synthesis capacity"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_37f3cbe09f84b555": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'mass-produced far faster' and the waste-literature growth are directly supported, but 'undetected software ... errors propagate silently into published results' states as fact Soergel2015's explicitly speculative estimate ('could very well be wrong').",
+   "evidence": ["IOANNIDIS2016: 'publications ... increased 2,728% for systematic reviews ... versus only 153%'", "Soergel2015: 'any reported ... result could very well be wrong if data have passed through a computer'", "Peng2025: 876 research-waste publications"],
+   "failure_modes": ["speculative estimate presented as established fact"],
+   "recommended_fix": "Hedge the computation-error clause to match Soergel2015's estimate language."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each sub-claim stays within its source's domain (systematic-review bibliometrics, scientific computation, research-waste bibliometrics); no domain over-reach.",
+   "evidence": ["IOANNIDIS2016 (reviews), Soergel2015 (computation), Peng2025 (waste literature)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": "software/computation errors in published results",
+   "clinical": null,
+   "methodological": "systematic-review overproduction; research-waste bibliometrics",
+   "conceptual": "the research-waste literature is large and fast-growing"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_a35f932404488ca0": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Exemplary calibration: explicitly flags that the figure 'rests on a modelled economic estimate whose provenance is not fully transparent' and is 'best read as an order-of-magnitude claim rather than a measurement', matching a single, unreplicated modelled source.",
+   "evidence": ["Freedman2015: 'A natural point estimate ... is the midpoint ... or 53.3%'", "replication: unreplicated; robustness=1"],
+   "failure_modes": [],
+   "recommended_fix": "None; the interpretive limits are stated in-text."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Scoped to US preclinical life-science research and explicitly cautions against over-reading; no extrapolation beyond the modelled estimate.",
+   "evidence": ["study_system: US preclinical life-science research (economic modeling)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "suggestive",
+  "claim_polarity": "neutral",
+  "claim_scope": {
+   "biological": "preclinical life-science research reproducibility",
+   "computational": null,
+   "clinical": null,
+   "methodological": "economic modelling of irreproducibility cost",
+   "conceptual": "the 50%/$28B figure is an order-of-magnitude estimate, not a measurement"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_fd152f8f2a2761bc": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Three constructs are kept separate with precise hedges ('around two percent', 'up to a third', 'almost all ... though measured frequency ... is far lower', 'about a fifth', 'very few'); the POSITIVE-NOTE critic confirms the conflation risk was handled well despite the flagged fabrication-prevalence conflict.",
+   "evidence": ["Fanelli2009: pooled 1.97% admit fabrication", "Schneider2024: '94% admitted ... at least one ... mean ... 42%'", "Velicu2025: 'about a fifth ... associate success with problematic research practices'"],
+   "failure_modes": [],
+   "recommended_fix": "None; the mispaired-Fanelli2009 critic notes reference the Danchev pairing, not this correct usage."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each figure is bound to its own study system (survey meta-analysis, five-country survey, DACH SC-IAT) with no over-generalisation.",
+   "evidence": ["Fanelli2009 (meta-analysis), Schneider2024 (5-country), Velicu2025 (Austria/Germany/Switzerland)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": null,
+   "methodological": "misconduct/QRP surveys and implicit-association test",
+   "conceptual": "distinct prevalences of fabrication, QRPs, and success-association"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_6fb2f309e33910be": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Findings attributed across the named surveys and the 'may under narrow conditions be neutral or even useful' clause is carefully hedged to Fanelli2026's stated position.",
+   "evidence": ["Haven2021: 'climate factors explained 22%'", "Brooker2024: 'contract type, career stage ... significantly predict QRP engagement'", "Fanelli2026: HARKing/selective reporting 'may have a neutral or even net positive impact ... under specific conditions'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each survey is attributed to its population (Portuguese universities, Amsterdam, international) and the taxonomy note is Fanelli2026's own scope; no over-reach.",
+   "evidence": ["Entradas2026 (Portugal), Haven2021 (Amsterdam), Brooker2024 (international), Fanelli2026 (QRP classification)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": null,
+   "methodological": "QRP-determinant surveys and QRP taxonomy",
+   "conceptual": "QRP-admission predictors; some omissions may be benign under narrow conditions"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_bb602a1e733f1c18": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly juxtaposes the two opposing interpretations ('concluded that ... whereas ... argued that ...'), attributing each to its study, which is the correct handling of the flagged interpretive conflict.",
+   "evidence": ["John2012: 'some questionable practices may constitute the prevailing research norm'", "Schneider2024: '94% admitted ... at least one ... mean ... 42%'", "conflict_notes: QRP-prevalence interpretation disputed"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each interpretation is scoped to its source (psychologists incentivised survey vs five-country survey); no extension beyond the studies compared.",
+   "evidence": ["John2012 (psychologists), Schneider2024 (Denmark/UK/USA/Croatia/Austria)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": null,
+   "methodological": "QRP-prevalence surveys (incentivised vs cross-national)",
+   "conceptual": "whether QRPs constitute the prevailing research norm (contested)"
+  },
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_d591e12a81b6b780": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Precise and directly supported ('at least thirty' = 'at least 30%'; 'thirty-four ... degrees of freedom' = 34); 'Simulations show' correctly attributes the modelled result.",
+   "evidence": ["Stefan2023: 'even with a single strategy, false-positive rates can typically be raised to at least 30% from the typical 5%'", "Wicherts2016: '34 degrees of freedom'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Both sources concern analytic-flexibility / p-hacking in (psychological) research methods; the general statement stays within that methodological context.",
+   "evidence": ["Stefan2023 (p-hacking simulation), Wicherts2016 (psychological research taxonomy)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": "simulation of false-positive inflation",
+   "clinical": null,
+   "methodological": "p-hacking / researcher degrees of freedom",
+   "conceptual": "analytic flexibility inflates false positives"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ }
+}

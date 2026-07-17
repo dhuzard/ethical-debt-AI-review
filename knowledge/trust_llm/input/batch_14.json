@@ -1,0 +1,1705 @@
+[
+ {
+  "claim_id": "clm_0864ced1e0684459",
+  "section_id": "sec-conclusion",
+  "claim_text": "And the welfare cost is paid regardless: a retrospective harm–benefit analysis judged fewer than 7% of preclinical studies ethically permissible on their realised balance of harm and benefit, with analgesia unreported in the overwhelming majority.",
+  "citation_keys": [
+   "Pound2018",
+   "Bara2014"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Pound2018",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Only the moderate bisphosphonate studies, less than 7% of the total, appeared to minimise harms to animals whilst being associated with benefit for humans.",
+    "study_system": "preclinical animal studies (antifibrinolytics, bisphosphonates, corticosteroids, Tirilazad, antenatal corticosteroids, thrombolytics; rats, rabbits, primates)"
+   },
+   {
+    "cite_key": "Bara2014",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Seventeen (22% of 77) met the composite outcome of, if indicated, using anesthesia and pain control, and stating the method of euthanasia.",
+    "study_system": "critical care animal research publications (mammals)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "The 'analgesia unreported in the overwhelming majority' figure (97% did not report analgesia) is Pound2018's, not Bara2014's. Bara2014 is cited in the body (sec-data-welfare) for sample-size-calculation reporting (~5%) a",
+    "fix": "Attach the analgesia figure to Pound2018 alone, and keep Bara2014 for the broader welfare-under-reporting point, e.g., '... analgesia unreported in the overwhel"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_81394d9bf226b599",
+  "section_id": "sec-conclusion",
+  "claim_text": "Because Reduction was always a claim about information — use no more animals than the knowledge requires — a dataset that cannot be found, trusted, or reused is knowledge that must be regenerated, and the only way to regenerate knowledge from live tissue is to use more animals.",
+  "citation_keys": [
+   "Kramer2015",
+   "Verderio2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Kramer2015",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We show that, under our simulation conditions, the number of current control subjects can be reduced by more than half by including historical controls in the analyses.",
+    "study_system": "biomedical experiments with animal control groups (simulation)"
+   },
+   {
+    "cite_key": "Verderio2023",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The use of too many EUs, besides being unethical, would lead to a waste of effort and resources in terms of money and time. At the same time, the use of an insufficient number of animals could lead to the loss of a significant result due to the lack of statistical power.",
+    "study_system": "3Rs / Reduction and experimental design (EU regulatory context)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 3
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "'Repaying the debt saves animals' is the review's strongest generalization. It is defensible at the mechanism level (VCG/historical-control reuse demonstrably removes a group of animals: Kramer2015, StegerHartmann2020), ",
+    "fix": "No change required; the surrounding paragraphs already bound the claim to the demonstrated mechanism plus an acknowledged projection. Retained as a MINOR note f"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_8c3b964e6f850717",
+  "section_id": "sec-conclusion",
+  "claim_text": "Unusable data are therefore not a downstream inconvenience but a driver of new animal use, and the loop tightens itself: the same reward structure that discourages complete reporting also produces the underpowered, unblinded studies whose results will not replicate, so the field runs experiments it cannot trust and then cannot reuse the animals' data to run better ones.",
+  "citation_keys": [
+   "Smaldino2016",
+   "Freedman2015"
+  ],
+  "modality_seed": "suggestive",
+  "replication": [
+   "single-study",
+   "unreplicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Reform optimism: the manifesto expects methods/reporting/incentive measures to improve reliability, whereas the natural-selection model argues that as long as publication drives careers, incentives ke"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Smaldino2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "We show that despite over 50 years of reviews of low statistical power and its consequences, there has been no detectable increase.",
+    "study_system": "behavioural sciences (power meta-analysis + model)"
+   },
+   {
+    "cite_key": "Freedman2015",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "A natural point estimate of the cumulative irreproducibility rate is the midpoint of the upper and lower bounds, or 53.3%.",
+    "study_system": "US preclinical life-science research (economic modeling)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "Sena2010 supports 'filtered toward positive results' (publication bias in stroke), but Freedman2015 is a modelled economic estimate of preclinical irreproducibility cost; it does not itself establish 'weakly protected ag",
+    "fix": "Acceptable as a high-level synthesis anchor; optionally note that 'analysis-dependent predictor' is evidenced by the Seok2013/Takao2014 pairing that follows, so"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_9ed827bfb1000151",
+  "section_id": "sec-conclusion",
+  "claim_text": "The harm is doubled at the bench, because the animals bred to regenerate lost data are disproportionately animals killed without ever entering an analysis, and euthanising surplus animals is among the strongest reported stressors on the people who must do it.",
+  "citation_keys": [
+   "Persson2024",
+   "LaFollette2020"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated",
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Persson2024",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "their employer and supervisor, Charles W. Hume, explicitly endorsed a welfarist view of animal death, stating: “There is no harm in killing animals provided it be done painlessly”",
+    "study_system": "animal research ethics (moral status of animal death; philosophical foundations of the 3Rs)"
+   },
+   {
+    "cite_key": "LaFollette2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Personnel who reported higher compassion fatigue also reported lower social support, higher animal stress/pain, higher desire to implement more enrichment, and less control over performing euthanasia ('s < 0.05).",
+    "study_system": "US/Canada laboratory animal personnel (professional quality of life; compassion fatigue)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_dc7864ab1c292b10",
+  "section_id": "sec-conclusion",
+  "claim_text": "Naming this loop is the review's central conceptual contribution, because it converts an abstract data-management concern into a specific, actionable claim about the 3Rs, and it locates the harm precisely where the field is least inclined to look — in the byte that is discarded rather than the procedure that is performed.",
+  "citation_keys": [
+   "Pound2018",
+   "Hamilton2023"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether FAIR data sharing meaningfully happens in practice: a cross-specialty meta-analysis finds actual public data availability at only ~2% across medicine, whereas a purpose-built FAIR archive (Ope",
+   "Whether open-data mandates should be universal: meta-research on (mostly quantitative) medical data treats mandates as effective levers worth strengthening and auditing, while a qualitative-research c"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Pound2018",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Only the moderate bisphosphonate studies, less than 7% of the total, appeared to minimise harms to animals whilst being associated with benefit for humans.",
+    "study_system": "preclinical animal studies (antifibrinolytics, bisphosphonates, corticosteroids, Tirilazad, antenatal corticosteroids, thrombolytics; rats, rabbits, primates)"
+   },
+   {
+    "cite_key": "Hamilton2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Of these studies, complete individual participant data were publicly available in 70 (61%), 20 had published partial individual participant data (18%), and 24 had not shared any individual participant data publicly (21%).",
+    "study_system": "Medical and health sciences articles (meta-analysis of 105 meta-research studies, 2,121,580 articles)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_fb1d50db88cb438f",
+  "section_id": "sec-conclusion",
+  "claim_text": "FAIR stewardship interrupts the loop where data are lost to unfindability and non-reuse, but showed the generic FAIR ecosystem is declared far more than it is delivered: formal data-management compliance coexists with near-total non-sharing, even shared data score poorly on reusability, and realized reuse depends less on the principles than on whether a particular repository enforces and checks a standard at deposit.",
+  "citation_keys": [
+   "Wilkinson2016",
+   "VanTuyl2016",
+   "Markiewicz2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Governance orientation of data reuse: the FAIR principles frame maximal findability, accessibility and community reuse of data as the goal, whereas the CARE Principles / Indigenous Data Sovereignty in",
+   "Whether FAIR principles and data-sharing mandates translate into actual, usable data sharing in practice: a review-level claim that FAIR improves data sharing versus an empirical audit finding that ma"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Wilkinson2016",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Good data management is not a goal in itself, but rather is the key conduit leading to knowledge discovery and innovation, and to subsequent data and knowledge integration and reuse by the community after the data publication process.",
+    "study_system": "FAIR guiding principles for scholarly data (foundational statement)"
+   },
+   {
+    "cite_key": "VanTuyl2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Of the 25 projects for which we attempted to locate shared datasets and generate a DATA score, nineteen (76%) had an overall score of 0 ( Fig 1 ).",
+    "study_system": "NSF-funded research projects at Oregon State University"
+   },
+   {
+    "cite_key": "Markiewicz2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "We identified 165 publications that reused OpenNeuro datasets",
+    "study_system": "OpenNeuro brain-imaging data archive (realized data reuse)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "The specific sub-clause 'automated FAIRification can inject the very deficiencies it is meant to cure' is not supported by either cited paper. Inau2023 is an optimistic FAIR scoping review ('FAIR data leads to improved d",
+    "fix": "Add Tahar2026 to the citation group so the automated-FAIRification clause has a supporting source: `{cite:p}`Inau2023, VanTuyl2016, Tahar2026``. (Tahar2026 is i"
+   },
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "Figure-precision / mild scope inflation. The literal 'near two percent' actual-availability figure is Hamilton2023's, not any of the three keys cited here. The three cited studies report related-but-different low numbers",
+    "fix": "Either co-cite `Hamilton2023` as the source of the '~2%' anchor, or reword to 'actual/usable availability and reporting compliance sit far below declared availa"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_ad180950f11e8449",
+  "section_id": "sec-conclusion",
+  "claim_text": "Virtual control groups interrupt the loop at the most concrete point available, reusing curated control-animal data so that a group of animals never enters the next study; found a stable Reduction estimate of roughly a quarter of control animals and an infrastructure that already exists at scale, but a dividend conditional on endpoint-specific concordance and still unaccepted by any regulator for a pivotal preclinical study.",
+  "citation_keys": [
+   "StegerHartmann2020",
+   "Gurjanov2024b",
+   "DuchateauNguyen2026",
+   "SATO2024"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Magnitude of animal reduction from replacing concurrent controls with VCGs: the Japanese industry perspective states approximately 30%, whereas the original concept paper and subsequent consensus stat",
+   "Degree of VCG-CCG concordance: the liver-enzyme simulation reports high agreement (68.5% of comparisons >=90%), whereas the clinical-pathology review reports high non-reproducibility (up to 49% of qua"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "StegerHartmann2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Historical animal control group data may lead to a repository, which could be used to construct virtual control groups (VCGs) for toxicity studies.",
+    "study_system": "regulatory animal toxicity studies (concept paper)"
+   },
+   {
+    "cite_key": "Gurjanov2024b",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Virtual control groups (VCGs) created from historical control data (HCD) can reduce the number of concurrent control group animals needed in regulatory toxicity studies by up to 25%.",
+    "study_system": "28-day rodent toxicity studies; body-weight matching for VCG sampling"
+   },
+   {
+    "cite_key": "DuchateauNguyen2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In 68.5% of all the pairwise comparisons performed there was at least 90% agreement in effect size estimate between analysis done with CCG and VCGs.",
+    "study_system": "Wistar Han rat toxicity studies; liver enzymes ALT/ALP/AST; VCG vs concurrent control simulation"
+   },
+   {
+    "cite_key": "SATO2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Evaluating toxicology study results using historical control data is not new; however, introducing a VCG means replacing the concurrent control group in a toxicology study with a VCG, thereby reducing the number of animals used by approximately 30%.",
+    "study_system": "nonclinical toxicology studies; virtual control groups; Japanese industry/regulatory view"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "'Repaying the debt saves animals' is the review's strongest generalization. It is defensible at the mechanism level (VCG/historical-control reuse demonstrably removes a group of animals: Kramer2015, StegerHartmann2020), ",
+    "fix": "No change required; the surrounding paragraphs already bound the claim to the demonstrated mechanism plus an acknowledged projection. Retained as a MINOR note f"
+   },
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "Partial novel pairing. The 'substantial non-reproducibility for continuous clinical-pathology parameters' half is correctly supported by Adedeji2024 (the 31/40/49% clinical-pathology finding) and the general endpoint-dep",
+    "fix": "Add `Mecklenburg2023` to this pairing to support the dose-limiting-toxicities example, or drop the specific 'such as dose-limiting toxicities' clause and keep t"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_eb57cdac4bcd4c3b",
+  "section_id": "sec-conclusion",
+  "claim_text": "New approach methodologies interrupt the loop by removing the animal altogether, and documented real, sometimes high, predictivity for narrow endpoints — yet also that Replacement pursued without data welfare simply relocates the debt into high-dimensional non-animal datasets that accumulate faster than they are curated and that suffer the same variable readouts as the animal models they replace.",
+  "citation_keys": [
+   "Comess2020",
+   "Carmichael2022",
+   "Hartung2025a",
+   "Kato2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Regulatory readiness of NAMs: proponents assert NAMs are already fit to assure chemical safety in certain settings, whereas the EU endocrine-disruptor review documents continued dependence on animal d",
+   "Transformative promise vs adoption reality for microphysiological systems: one frames MPS as already revolutionizing drug development and reducing animal use, while the expert workshop documents that "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Comess2020",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Out of the tens of thousands of individual chemicals currently in commerce (and many more mixtures, natural products, and metabolites) <10% have been screened for safety.",
+    "study_system": "environmental public health chemical safety data / FAIR + AI infrastructure"
+   },
+   {
+    "cite_key": "Carmichael2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "New approach methodologies (NAMs) that do not use experimental animals are, in certain settings, entirely appropriate for assuring the safety of chemical ingredients, although regulatory adoption has been slow.",
+    "study_system": "next-generation risk assessment (NGRA) for chemical ingredients"
+   },
+   {
+    "cite_key": "Hartung2025a",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Major challenges include standardization issues across terminology and protocols, validation complexities requiring robust reference compounds and benchmarking standards, regulatory uncertainties regarding data requirements and qualification processes, and barriers to effective d",
+    "study_system": "microphysiological systems standardization and data sharing (CAAT)"
+   },
+   {
+    "cite_key": "Kato2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The iHeps co-cultured with non-parenchymal cells demonstrated stable cell viability and function up to 17 days; however, variability was appreciable both within and among studies.",
+    "study_system": "liver microphysiological system (OrganoPlate 2-lane 96, iPSC-hepatocytes)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_ccd63f71a387164b",
+  "section_id": "sec-conclusion",
+  "claim_text": "The reuse of control data is itself double-edged, moreover: the same historical database can be marshalled to dismiss a marginal tumour finding as within the historical range or to support it as exceeding that range, a reminder that reuse without disciplined, outlier-robust method can mislead as readily as it can save animals.",
+  "citation_keys": [
+   "Panzacchi2025",
+   "Aguilar2017"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Adequacy of historical control data for carcinogenicity conclusions: the Ramazzini Institute relies on its own (and NTP) historical control databases to support treatment-related tumor increases, wher",
+   "Adequacy of historical control data for carcinogenicity conclusions: the Ramazzini Institute relies on its own (and NTP) historical control databases to support treatment-related tumor increases, wher"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Panzacchi2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The historical controls of the RI include 7142 animals (3572 males and 3570 females) from studies performed between 1984 and 2008, while NTP historical controls include 1180 animal (590 females and 590 males) from studies performed between 2011 and 2019.",
+    "study_system": "Sprague-Dawley rats; lifetime carcinogenicity; RI and NTP historical control databases"
+   },
+   {
+    "cite_key": "Aguilar2017",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The Panel noted that the data made available by the Ramazzini Institute as regards historical control data for neoplastic lesions were for the period 1973 up to 1983.",
+    "study_system": "Swiss mice carcinogenicity (sucralose); regulatory re-evaluation of historical control adequacy"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_4e8ad9a3fd5c8f66",
+  "section_id": "sec-conclusion",
+  "claim_text": "Each mechanism is a genuine lever; none is self-executing, and each inherits, in a new medium, the immature FAIR adoption that afflicts the animal data.",
+  "citation_keys": [
+   "Inau2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether FAIR principles and data-sharing mandates translate into actual, usable data sharing in practice: a review-level claim that FAIR improves data sharing versus an empirical audit finding that ma"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Inau2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "A total of 68% (23/34) of the publications contained details on the outcomes of FAIRification endeavors and the expected future work.",
+    "study_system": "Health research data FAIR initiatives (scoping review, 2014-2020)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_fb7a3c890857ab8e",
+  "section_id": "sec-conclusion",
+  "claim_text": "The stewardship failure recurs across FAIR data, virtual controls, and non-animal methods not because each field is separately deficient but because they answer to the same reward structure — one that pays for publication counts and journal prestige while pricing data stewardship at essentially zero and treating a researcher's data as a private asset with no release incentive.",
+  "citation_keys": [
+   "Rice2020",
+   "McKiernan2019",
+   "Fecher2015"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Rice2020",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Thirty two (35%) institutions had at least one mention of a specific number of peer reviewed publications.",
+    "study_system": "international universities (biomedical RPT guidelines)"
+   },
+   {
+    "cite_key": "McKiernan2019",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The percentage was higher for R-type institutions (40%) than for either M-type (18%) or B-type (0%) institutions (Table 2).",
+    "study_system": "US/Canada universities (RPT documents)"
+   },
+   {
+    "cite_key": "Fecher2015",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In a study among 1,329 scientists, 46% reported they do not make their data electronically available to others [5].",
+    "study_system": "academic researchers (survey + literature review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_270f91cf2756a98e",
+  "section_id": "sec-conclusion",
+  "claim_text": "framed this as a political economy in which non-sharing, selective reporting, and — at the margin — outright fabrication are individually rational responses to the system that rewards them, so that questionable practices are widely admitted and fraud-enabling operations are growing faster than legitimate science.",
+  "citation_keys": [
+   "Smaldino2016",
+   "Schneider2024",
+   "Richardson2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Reform optimism: the manifesto expects methods/reporting/incentive measures to improve reliability, whereas the natural-selection model argues that as long as publication drives careers, incentives ke",
+   "Interpretation of QRP prevalence: the incentivised psychology survey frames QRPs as the prevailing norm, while the cross-national study argues widespread one-time involvement does not amount to system"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Smaldino2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "We show that despite over 50 years of reviews of low statistical power and its consequences, there has been no detectable increase.",
+    "study_system": "behavioural sciences (power meta-analysis + model)"
+   },
+   {
+    "cite_key": "Schneider2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Ninety-four per cent admitted that they had used at least one of these QRPs, and the mean self-reported rate across all QRP items was 42%, with rates for the individual QRPs ranging from 17% to 57%.",
+    "study_system": "researchers Denmark/UK/USA/Croatia/Austria"
+   },
+   {
+    "cite_key": "Richardson2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "A systematic analysis of more than 20,000 articles published between 1995 and 2014 reported that 3.8% of these articles contained inappropriately duplicated images, with at least half of these cases suggestive of deliberate manipulation (24).",
+    "study_system": "biomedical articles (image screening); paper mills"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_6a4328516f3937c8",
+  "section_id": "sec-conclusion",
+  "claim_text": "This is why voluntary virtue has failed to move the field for a generation, and why an editorial mandate to declare data availability produced near-universal declarations but under one percent of trials with usable public data.",
+  "citation_keys": [
+   "Danchev2021"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether a policy requirement translates into actually available data: a blanket journal data-sharing mandate (ICMJE) produced near-zero actual public data (0.6%), whereas a voluntary badge-plus-verifi"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Danchev2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The commitment to data sharing substantially decreases when we consider indicators of actual vs declared data sharing: of 334 articles declaring that they would share data, only 2 IPD sets (0.6%; 95% CI, 0.0%-1.5%) were actually deidentified and publicly available on the journal ",
+    "study_system": "487 clinical trials in JAMA/Lancet/NEJM"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "Fanelli2009 is mispaired. The specific quantitative claim (editorial data-availability mandate -> near-universal declarations but <1% usable data) is fully and solely supported by Danchev2021. Fanelli2009 is a meta-analy",
+    "fix": "Remove Fanelli2009 from this citation group (Danchev2021 alone supports the sentence), or, if Fanelli2009 is intended to support the 'voluntary virtue has faile"
+   },
+   {
+    "severity": "MUST_FIX",
+    "track": 1,
+    "issue": "Misattribution / interpretive mismatch. The specific claim (an editorial data-sharing requirement produced near-universal declared willingness but <1% actual availability) is fully and correctly supported by Danchev2021.",
+    "fix": "Remove `Fanelli2009` from this pairing, leaving `{cite:p}`Danchev2021``, which carries the claim on its own. If a second supporting citation is wanted for the g"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_61bd9cdd91c77cf6",
+  "section_id": "sec-conclusion",
+  "claim_text": "This is not a hopeful addendum to the technical mechanisms; it is their enabling condition, because a virtual control group that no committee will accept, a FAIR mandate that no one checks, and a NAM dataset that earns its author no credit are all instances of the same inert policy.",
+  "citation_keys": [
+   "SATO2024",
+   "Hamilton2022",
+   "Gant2026"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replicated",
+   "replication_unknown"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Magnitude of animal reduction from replacing concurrent controls with VCGs: the Japanese industry perspective states approximately 30%, whereas the original concept paper and subsequent consensus stat",
+   "Whether journal data-sharing requirements translate into actual availability: a blanket mandatory-deposit policy is associated with ~10x higher odds of sharing, whereas a data-availability statement p"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "SATO2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Evaluating toxicology study results using historical control data is not new; however, introducing a VCG means replacing the concurrent control group in a toxicology study with a VCG, thereby reducing the number of animals used by approximately 30%.",
+    "study_system": "nonclinical toxicology studies; virtual control groups; Japanese industry/regulatory view"
+   },
+   {
+    "cite_key": "Hamilton2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Less than half of the 29 articles that were subject to a blanket mandatory data sharing policy were observed to make data available (14/29, 48%, 95% CI: 31–66%). Furthermore, of the six studies that performed inferential statistics and were subjected to a blanket mandatory code s",
+    "study_system": "306 cancer-related journal articles indexed in PubMed 2019"
+   },
+   {
+    "cite_key": "Gant2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Discussions emphasised that implementation of Findable, Accessible, Interoperable, and Reusable (FAIR) data principles is not just a best practice but rather a prerequisite for building transparent, reliable, and unbiased AI systems.",
+    "study_system": "AI/ML in chemical risk assessment (regulatory science)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 2,
+    "issue": "Denominator mismatch (confirmed against the paper's abstract). Hamilton2022 sampled 306 cancer articles; 59/306 (19%) declared data available; the abstract states data met key FAIR principles in 'less than 1% (1/306)'. T",
+    "fix": "State the denominator correctly, e.g. 'only 1 of 306 sampled oncology articles (0.3%) met the remaining FAIR criteria on inspection' - and drop the 'among datas"
+   },
+   {
+    "severity": "MINOR",
+    "track": 1,
+    "issue": "Gant2026 is mapped to the third example ('a NAM dataset that earns its author no credit'), but Gant2026 does not discuss author credit or evaluation incentives. It is an ECETOC workshop report arguing that FAIR data are ",
+    "fix": "Either accept Gant2026 as support for the NAM-stewardship half of the clause and drop the credit predicate for this cite, or add an incentive-facing source (e.g"
+   },
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "Figure-precision / mild scope inflation. The literal 'near two percent' actual-availability figure is Hamilton2023's, not any of the three keys cited here. The three cited studies report related-but-different low numbers",
+    "fix": "Either co-cite `Hamilton2023` as the source of the '~2%' anchor, or reword to 'actual/usable availability and reporting compliance sit far below declared availa"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_29f4782e7019512e",
+  "section_id": "sec-conclusion",
+  "claim_text": "Even the reform instruments are contested at the root, the field split over whether quantitative metrics can be re-engineered into a force for good or are inherently corrupting and should be abandoned rather than repaired.",
+  "citation_keys": [
+   "Ioannidis2023b",
+   "Gadd2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether quantitative/ranking metrics can be reformed into a force that improves research (pro-metrics) or are inherently socially irresponsible instruments that should be resisted (anti-ranking).",
+   "Whether quantitative/ranking metrics can be reformed into a force that improves research (pro-metrics) or are inherently socially irresponsible instruments that should be resisted (anti-ranking)."
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Ioannidis2023b",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Although often derided, quantitative metrics could help improve research practices if they are rigorous, field-adjusted, and centralized.",
+    "study_system": "researcher assessment (metrics debate)"
+   },
+   {
+    "cite_key": "Gadd2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Draws parallels between the problematic use of GDP to evaluate economic success with the use of global university rankings to evaluate university success.",
+    "study_system": "global university rankings"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_83f9454b1cd95245",
+  "section_id": "sec-conclusion",
+  "claim_text": "showed that the heterogeneous, often-null effects of reporting guidelines and sharing policies resolve into a pattern once they are sorted by whether compliance was merely endorsed or actually enforced: a checklist requested at submission changed almost nothing, while the same class of checklist mandated and checked at revision moved reporting where matched control journals did not, and verified open-practice signals delivered usable data where unenforced mandates did not.",
+  "citation_keys": [
+   "Hair2019",
+   "Macleod2019b",
+   "Kidwell2016"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether journal checklist interventions improve reporting of animal research. IICARus (a randomised trial requesting ARRIVE-checklist completion at submission to PLOS ONE) found no improvement in full",
+   "Whether journal checklist interventions improve reporting of animal research. IICARus (a randomised trial requesting ARRIVE-checklist completion at submission to PLOS ONE) found no improvement in full"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Hair2019",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "1.5% (5/340) of the control group manuscripts) and 0.9% (3/332) of intervention group manuscripts reported all four subitems of the Landis criteria.",
+    "study_system": "in vivo animal manuscripts at PLOS ONE (RCT)"
+   },
+   {
+    "cite_key": "Macleod2019b",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The number of NPG articles meeting all relevant Landis 4 criteria increased from 0/203 prior to May 2013 to 31/181 (16.4%) after (two-sample test for equality of proportions without continuity correction, Χ²=36.2, df=1, p=1.8×10).",
+    "study_system": "Life-sciences (incl. in vivo) articles in Nature Publishing Group journals"
+   },
+   {
+    "cite_key": "Kidwell2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Across the four comparison journals, for the half years prior to 2014, an average of 3.3% of articles reported open data (range = 1.6% to 4.9%), and after January 1, 2014, the average was 2.1% (range = 1.8% to 2.3%).",
+    "study_system": "Psychological Science + 4 comparison journals (n=2,478 articles)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 3,
+    "issue": "The section presents mandated checklists favourably, but the citemap contains Macleod2019b (the IICARus randomised trial), whose null result — a mandated ARRIVE checklist at peer review did NOT improve compliance — nuanc",
+    "fix": "Soften: 'mandating a checklist at submission has been associated with more complete reporting {cite:p}`Han2017`, though a randomised trial of enforced checklist"
+   },
+   {
+    "severity": "MUST_FIX",
+    "track": 1,
+    "issue": "Track-1 contrast mismatch supporting the section's central thesis. Munro2022 is presented in the flagship enforcement figure as an 'enforced or operationalised contrast' and is the largest swing offered as evidence that ",
+    "fix": "Relabel Munro2022 in the caption as an uncontrolled secular time-trend (not an enforcement contrast) and rest the 'enforcement moves behaviour' claim on the gen"
+   },
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 4,
+    "issue": "Field-provenance scope point for a section explicitly about the ANIMAL/preclinical ethical debt. The largest 'enforcement works' magnitudes are drawn from non-animal literatures: Kidwell2016 is Psychological Science (bad",
+    "fix": "Add one clause noting the transfer, e.g. 'the largest documented enforcement effects come from psychology and ecology journals ({cite:p}`Kidwell2016, IvimeyCook"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_81e8eab97ea0932e",
+  "section_id": "sec-conclusion",
+  "claim_text": "A mandatory, checked data-and-code policy pushed provision to nearly all manuscripts, confirming that the operative variable is verification rather than the requirement itself.",
+  "citation_keys": [
+   "IvimeyCook2025"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether data-availability policies translate into actual data sharing: enforced mandatory data/code-sharing policies with editorial checks achieve near-universal (96.5%) provision, whereas voluntary d"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "IvimeyCook2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "96.5% of research manuscripts appeared to have provided data- and/or code via link or supplementary material",
+    "study_system": "Ecology and evolution journals (data/code-sharing mandate)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 4,
+    "issue": "Field-provenance scope point for a section explicitly about the ANIMAL/preclinical ethical debt. The largest 'enforcement works' magnitudes are drawn from non-animal literatures: Kidwell2016 is Psychological Science (bad",
+    "fix": "Add one clause noting the transfer, e.g. 'the largest documented enforcement effects come from psychology and ecology journals ({cite:p}`Kidwell2016, IvimeyCook"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_93764471efaa7066",
+  "section_id": "sec-conclusion",
+  "claim_text": "The levers are not scarce — hundreds of reporting guidelines already exist, and ARRIVE was even reorganised into an \"Essential 10\" after a decade of endorsement failed to lift reporting — so the binding constraint is enforcement, not the absence of a standard.",
+  "citation_keys": [
+   "Christensen2026",
+   "PercieduSert2020a"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Christensen2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "While researchers are not expected to know the details of all 673 currently listed guidelines, cultivating an awareness of this landscape and the ability to see the big picture is mandatory.",
+    "study_system": "Reporting-guideline landscape (EQUATOR Network); OA research journal editorial"
+   },
+   {
+    "cite_key": "PercieduSert2020a",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The first step should be to ensure compliance with the ARRIVE Essential 10 as a minimum requirement.",
+    "study_system": "in vivo animal research reporting (updated guidelines)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_4b972167fb35dabd",
+  "section_id": "sec-conclusion",
+  "claim_text": "The clinical-trial registries tell the same story at scale — a publication condition drove registrations fivefold, yet results reporting decayed wherever it was left unaudited and rose again wherever institutions were monitored and named.",
+  "citation_keys": [
+   "Viergever2015",
+   "Goldacre2018"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Viergever2015",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The annual number of registered clinical trials increased from 3294 in 2004 to 23,384 in 2013.",
+    "study_system": "ICTRP global trial registration (post-ICMJE 2004 policy effect)"
+   },
+   {
+    "cite_key": "Goldacre2018",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Of 7274 trials where results were due, 49.5% (95% confidence interval 48.4% to 50.7%) reported results.",
+    "study_system": "EU Clinical Trials Register (results-reporting mandate compliance)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_91d1129b610834bc",
+  "section_id": "sec-conclusion",
+  "claim_text": "Ethical-review bodies, the lever closest to the animal, mostly lack the expertise and mandate to judge scientific merit or to check that a study is non-duplicative, effects are heterogeneous and frequently small, and field-wide sharing remains near the ~2% floor even as concentrated local stewardship at a single, actively managed institution can lift it severalfold without generalising.",
+  "citation_keys": [
+   "Pippin2025",
+   "Hamilton2023",
+   "Deeb2025",
+   "Hamilton2022"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether ethics-committee/IACUC review can be trusted to safeguard the scientific quality (and hence benefit) of animal research. One proposes a Benefit Assessment Matrix presuming committees can and s",
+   "Whether FAIR data sharing meaningfully happens in practice: a cross-specialty meta-analysis finds actual public data availability at only ~2% across medicine, whereas a purpose-built FAIR archive (Ope"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Pippin2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Because of the limitations of the review process, funding institutions and scientific journals should not use Institutional Animal Care and Use Committee approval of submissions as evidence of adherence to ethical guidelines beyond those legally required.",
+    "study_system": "US Institutional Animal Care and Use Committees (editorial review)"
+   },
+   {
+    "cite_key": "Hamilton2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Of these studies, complete individual participant data were publicly available in 70 (61%), 20 had published partial individual participant data (18%), and 24 had not shared any individual participant data publicly (21%).",
+    "study_system": "Medical and health sciences articles (meta-analysis of 105 meta-research studies, 2,121,580 articles)"
+   },
+   {
+    "cite_key": "Deeb2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The fraction of publications that share all relevant data increased significantly, from 7% in 2014 to 45% in 2023.",
+    "study_system": "University bioscience data-sharing practices (institutional audit)"
+   },
+   {
+    "cite_key": "Hamilton2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Less than half of the 29 articles that were subject to a blanket mandatory data sharing policy were observed to make data available (14/29, 48%, 95% CI: 31–66%). Furthermore, of the six studies that performed inferential statistics and were subjected to a blanket mandatory code s",
+    "study_system": "306 cancer-related journal articles indexed in PubMed 2019"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "The load-bearing claim (the governance->reuse->fewer-animals chain is a projection, not a measurement, and building measurement infrastructure is a priority) is carried by PetitDemouliere2026. Deeb2025 is a single-instit",
+    "fix": "Keep PetitDemouliere2026 (and Wright2023b for standardised control-animal data) as the load-bearing cites; drop Deeb2025 here or relocate it to the para-5 claim"
+   },
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "Figure-precision / mild scope inflation. The literal 'near two percent' actual-availability figure is Hamilton2023's, not any of the three keys cited here. The three cited studies report related-but-different low numbers",
+    "fix": "Either co-cite `Hamilton2023` as the source of the '~2%' anchor, or reword to 'actual/usable availability and reporting compliance sit far below declared availa"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_17367efec5306368",
+  "section_id": "sec-conclusion",
+  "claim_text": "The most-repeated figures — the modelled tens-of-billions irreproducibility cost, the \"most research is wasted\" synthesis, even the specific industry-reproducibility percentages — rest on modelled or non-transparent inputs and are best read as order-of-magnitude claims rather than measurements, a caution we have flagged wherever they appear.",
+  "citation_keys": [
+   "Freedman2015",
+   "Ioannidis2014c"
+  ],
+  "modality_seed": "suggestive",
+  "replication": [
+   "single-study",
+   "unreplicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Freedman2015",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "A natural point estimate of the cumulative irreproducibility rate is the midpoint of the upper and lower bounds, or 53.3%.",
+    "study_system": "US preclinical life-science research (economic modeling)"
+   },
+   {
+    "cite_key": "Ioannidis2014c",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Currently, an estimated 85% of research resources are wasted.",
+    "study_system": "meta-research on biomedical research practices"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "Sena2010 supports 'filtered toward positive results' (publication bias in stroke), but Freedman2015 is a modelled economic estimate of preclinical irreproducibility cost; it does not itself establish 'weakly protected ag",
+    "fix": "Acceptable as a high-level synthesis anchor; optionally note that 'analysis-dependent predictor' is evidenced by the Seok2013/Takao2014 pairing that follows, so"
+   },
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 2,
+    "issue": "Body-summary mischaracterisation. Freedman2015 (a modelled $28B economic estimate) and Ioannidis2014c (the '85% wasted' synthesis) are correctly described by the body as modelled / not-fully-transparent (section 02 expli",
+    "fix": "Remove `Hamilton2023` from this cite group. If the intent is to also flag the 2% figure as one the review interrogates, cite it separately with accurate framing"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_bc3fc47d1b4ea8b0",
+  "section_id": "sec-conclusion",
+  "claim_text": "A minority position holds the crisis narrative is itself overstated and better described as methodological empowerment, and although the balance of evidence weighs against it, the dispute is genuinely open and we have not treated the crisis as more severe than the data support.",
+  "citation_keys": [
+   "Fanelli2018",
+   "Sena2010"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether science faces a genuine reproducibility/false-findings crisis: Ioannidis' framework concludes most published findings are likely false, whereas Fanelli argues the crisis narrative is empirical",
+   "Individual-drug preclinical stroke meta-analyses (e.g. metformin) report strong, statistically significant neuroprotection on every endpoint, whereas cross-intervention analysis shows almost all anima"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Fanelli2018",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This article provides an overview of recent evidence suggesting that this narrative is mistaken, and argues that a narrative of epochal changes and empowerment of scientists would be more accurate, inspiring, and compelling.",
+    "study_system": "science reproducibility discourse (opinion)"
+   },
+   {
+    "cite_key": "Sena2010",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Only 2.2% of publications identified in the included reviews did not report any significant findings.",
+    "study_system": "animal models of acute ischaemic stroke (CAMARADES)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 3,
+    "issue": "Suppressed conflict (package conflict #8, resolution_status: open, and explicitly flagged in the task brief). Ioannidis2005b (paper A: most findings likely false) is cited (conflict box at lines 46-49), but Fanelli2018 (",
+    "fix": "Add a sentence acknowledging the contrarian view, e.g. in paragraph 5 or the structural-pessimism conflict box: 'A minority position holds that the crisis narra"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_c85e265eeac6a324",
+  "section_id": "sec-conclusion",
+  "claim_text": "Because the same phenomenon yields very different values by method, we have preferred juxtaposition of divergent estimates to single anchors, and the review's own quantitative claims inherit that method-dependence.",
+  "citation_keys": [
+   "terRiet2012",
+   "Deutsch2021"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Magnitude of non-publication of animal research: opinion surveys estimate only ~50% of experiments are published, whereas empirical protocol-to-publication tracking finds ~70% publication rates.",
+   "Magnitude of non-publication of animal research: opinion surveys estimate only ~50% of experiments are published, whereas empirical protocol-to-publication tracking finds ~70% publication rates."
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "terRiet2012",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "On average, those working in not-for-profit institutes (n = 421) estimated that 50 percent (interquartile range (IQR) 35 to 70) of all conducted laboratory animal experiments are published.",
+    "study_system": "laboratory-animal researchers survey (Netherlands)"
+   },
+   {
+    "cite_key": "Deutsch2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Regarding the 172 proposals with confirmed conduction, the response rate was higher for proposals generating at least one results publication according to our previous study (54.4%, 62/114 proposals) than for those without any publications (48.3%, 28/58 proposals).",
+    "study_system": "animal-study proposals (Germany)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_e0a6c49c1b16322a",
+  "section_id": "sec-conclusion",
+  "claim_text": "A second limitation is conceptual: the data-welfare construct is load-bearing only where lost data could genuinely have been banked and reused, and merely rhetorical where reuse was impossible in principle; treating every unshared file as literally equivalent to animal suffering would trivialise the physical harms the 3Rs were built to address, and the honest version of the argument concedes this boundary.",
+  "citation_keys": [
+   "Pound2018",
+   "Kramer2015"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Pound2018",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Only the moderate bisphosphonate studies, less than 7% of the total, appeared to minimise harms to animals whilst being associated with benefit for humans.",
+    "study_system": "preclinical animal studies (antifibrinolytics, bisphosphonates, corticosteroids, Tirilazad, antenatal corticosteroids, thrombolytics; rats, rabbits, primates)"
+   },
+   {
+    "cite_key": "Kramer2015",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We show that, under our simulation conditions, the number of current control subjects can be reduced by more than half by including historical controls in the analyses.",
+    "study_system": "biomedical experiments with animal control groups (simulation)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 3
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "'Repaying the debt saves animals' is the review's strongest generalization. It is defensible at the mechanism level (VCG/historical-control reuse demonstrably removes a group of animals: Kramer2015, StegerHartmann2020), ",
+    "fix": "No change required; the surrounding paragraphs already bound the claim to the demonstrated mechanism plus an acknowledged projection. Retained as a MINOR note f"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_83c17c7f48a7ff91",
+  "section_id": "sec-conclusion",
+  "claim_text": "A third is scope: the ~2% availability anchor is a field-wide medical estimate, and even the prescription that would exploit reuse — whether to standardise or to heterogenise animal studies — remains unresolved, so the operational advice the review can give is bounded.",
+  "citation_keys": [
+   "Hamilton2023",
+   "Voelkl2018",
+   "Richter2011"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether FAIR data sharing meaningfully happens in practice: a cross-specialty meta-analysis finds actual public data availability at only ~2% across medicine, whereas a purpose-built FAIR archive (Ope",
+   "Whether open-data mandates should be universal: meta-research on (mostly quantitative) medical data treats mandates as effective levers worth strengthening and auditing, while a qualitative-research c"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Hamilton2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Of these studies, complete individual participant data were publicly available in 70 (61%), 20 had published partial individual participant data (18%), and 24 had not shared any individual participant data publicly (21%).",
+    "study_system": "Medical and health sciences articles (meta-analysis of 105 meta-research studies, 2,121,580 articles)"
+   },
+   {
+    "cite_key": "Voelkl2018",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Therefore, although the studies were sufficiently powered (>0.8) to detect a treatment effect, single-laboratory studies failed to predict the true effect size accurately in more than half of the cases.",
+    "study_system": "preclinical animal studies (simulation; stroke/MI/breast cancer)"
+   },
+   {
+    "cite_key": "Richter2011",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Although heterogenization significantly increased within-experiment variation relative to between-experiment variation, the effect was too weak to account for the large variation between laboratories and improve reproducibility substantially.",
+    "study_system": "Mice (C57BL/6NCrl, DBA/2NCrl); six-laboratory behavioural study"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 2,
+    "issue": "Incorrect quantitative attribution on a landmark citation. The prose states the analysis used '50 real preclinical studies'. Voelkl et al. 2018 actually used 440 preclinical studies across 13 interventions (stroke, myoca",
+    "fix": "Replace 'Using data from 50 real preclinical studies' with 'Using data from 440 preclinical studies across 13 interventions (stroke, myocardial infarction and b"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_910209d9e3210046",
+  "section_id": "sec-conclusion",
+  "claim_text": "First, it remains unproven that FAIRification *causally* increases reuse rather than merely raising nominal availability: optimistic reviews and pessimistic retrieval audits disagree, and even the direction of the effect is uncertain because automated FAIRification can inject the very deficiencies it is meant to cure.",
+  "citation_keys": [
+   "Inau2023",
+   "VanTuyl2016",
+   "Tahar2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether FAIR principles and data-sharing mandates translate into actual, usable data sharing in practice: a review-level claim that FAIR improves data sharing versus an empirical audit finding that ma",
+   "Whether FAIR principles and data-sharing mandates translate into actual, usable data sharing in practice: a review-level claim that FAIR improves data sharing versus an empirical audit finding that ma"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Inau2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "A total of 68% (23/34) of the publications contained details on the outcomes of FAIRification endeavors and the expected future work.",
+    "study_system": "Health research data FAIR initiatives (scoping review, 2014-2020)"
+   },
+   {
+    "cite_key": "VanTuyl2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Of the 25 projects for which we attempted to locate shared datasets and generate a DATA score, nineteen (76%) had an overall score of 0 ( Fig 1 ).",
+    "study_system": "NSF-funded research projects at Oregon State University"
+   },
+   {
+    "cite_key": "Tahar2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Specifically, FHIR-DS contained 1988 distinct DQ issues: nine ambiguous RD cases, two missing data items, and 1977 completeness issues induced by the FAIRification processes.",
+    "study_system": "rare-disease EHR data (German MII / CORD-MI)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "The specific sub-clause 'automated FAIRification can inject the very deficiencies it is meant to cure' is not supported by either cited paper. Inau2023 is an optimistic FAIR scoping review ('FAIR data leads to improved d",
+    "fix": "Add Tahar2026 to the citation group so the automated-FAIRification clause has a supporting source: `{cite:p}`Inau2023, VanTuyl2016, Tahar2026``. (Tahar2026 is i"
+   },
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "Figure-precision / mild scope inflation. The literal 'near two percent' actual-availability figure is Hamilton2023's, not any of the three keys cited here. The three cited studies report related-but-different low numbers",
+    "fix": "Either co-cite `Hamilton2023` as the source of the '~2%' anchor, or reword to 'actual/usable availability and reporting compliance sit far below declared availa"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_e97437bb3da8798d",
+  "section_id": "sec-conclusion",
+  "claim_text": "Second, it is not yet known whether regulators will accept virtual control groups, and the endpoint-dependence of their concordance together with the temporal and cross-laboratory drift of historical data mean the answer may differ for categorical toxicity calls and for continuous clinical-pathology parameters.",
+  "citation_keys": [
+   "DuchateauNguyen2026",
+   "Adedeji2024",
+   "Kellner2025",
+   "SATO2024"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Degree of VCG-CCG concordance: the liver-enzyme simulation reports high agreement (68.5% of comparisons >=90%), whereas the clinical-pathology review reports high non-reproducibility (up to 49% of qua",
+   "Degree of VCG-CCG concordance: the liver-enzyme simulation reports high agreement (68.5% of comparisons >=90%), whereas the clinical-pathology review reports high non-reproducibility (up to 49% of qua"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "DuchateauNguyen2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In 68.5% of all the pairwise comparisons performed there was at least 90% agreement in effect size estimate between analysis done with CCG and VCGs.",
+    "study_system": "Wistar Han rat toxicity studies; liver enzymes ALT/ALP/AST; VCG vs concurrent control simulation"
+   },
+   {
+    "cite_key": "Adedeji2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "When the CCG was replaced with VCG, the result showed that 31% (34 of 108 parameters), 40% (43 out of 107 parameters), and 49% (57 of 115 parameters) of the quantitative parameters were not statistically reproducible in the legacy studies A, B and C respectively ().",
+    "study_system": "rat toxicity legacy studies; clinical pathology; VCG vs concurrent control"
+   },
+   {
+    "cite_key": "Kellner2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In both sexes, the study year emerged as the most important factor with a medium effect (mean effect size: 0.127 for females, 0.117 for males), followed by company (0.097 for females, 0.102 for males) and body weight class (small effect: 0.047 for females, medium effect: 0.089 in",
+    "study_system": "Han Wistar rat control groups; 5 European pharmaceutical companies; ViCoG database"
+   },
+   {
+    "cite_key": "SATO2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Evaluating toxicology study results using historical control data is not new; however, introducing a VCG means replacing the concurrent control group in a toxicology study with a VCG, thereby reducing the number of animals used by approximately 30%.",
+    "study_system": "nonclinical toxicology studies; virtual control groups; Japanese industry/regulatory view"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "Partial novel pairing. The 'substantial non-reproducibility for continuous clinical-pathology parameters' half is correctly supported by Adedeji2024 (the 31/40/49% clinical-pathology finding) and the general endpoint-dep",
+    "fix": "Add `Mecklenburg2023` to this pairing to support the dose-limiting-toxicities example, or drop the specific 'such as dose-limiting toxicities' clause and keep t"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_08d24aa82d7ea119",
+  "section_id": "sec-conclusion",
+  "claim_text": "The clinical cousin of the virtual control — the external control arm — already features in a meaningful share of oncology approvals, which suggests the preclinical acceptance gap is a matter of validation and precedent rather than of principle.",
+  "citation_keys": [
+   "Pignatti2026",
+   "Harrell2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Pignatti2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Currently, the possible role of ECC studies with RWD to establish efficacy in the regulatory context is debated. 6 , 7 A review of cancer drugs approved by the European Medicines Agency (EMA) between 2016 and 2021 found that 17% used an external control arm.",
+    "study_system": "oncology regulatory approvals; EMA 2016-2021"
+   },
+   {
+    "cite_key": "Harrell2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Use of virtual controls, value of the second toxicity species, information sharing and expectations for life-threatening diseases, human specific or well-characterised targets are currently being scrutinised.",
+    "study_system": "regulatory toxicology; 3Rs initiatives; virtual controls and data sharing"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_512370ff7c0fc517",
+  "section_id": "sec-conclusion",
+  "claim_text": "Third, and most consequential, it is unproven that evaluation reform changes behaviour rather than metrics: the reform manifesto and the natural-selection model make opposite predictions, and a scoping review found that of more than a hundred studies of reproducibility interventions only a handful measured reproducibility itself rather than a presumed proxy.",
+  "citation_keys": [
+   "Munafo2017",
+   "Smaldino2016",
+   "Dudda2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Reform optimism: the manifesto expects methods/reporting/incentive measures to improve reliability, whereas the natural-selection model argues that as long as publication drives careers, incentives ke",
+   "Reform optimism: the manifesto expects methods/reporting/incentive measures to improve reliability, whereas the natural-selection model argues that as long as publication drives careers, incentives ke"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Munafo2017",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Studies of statistical power persistently find it to be below (sometimes well below) 50%, across both time and the different disciplines studied.",
+    "study_system": "meta-research across scientific disciplines"
+   },
+   {
+    "cite_key": "Smaldino2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "We show that despite over 50 years of reviews of low statistical power and its consequences, there has been no detectable increase.",
+    "study_system": "behavioural sciences (power meta-analysis + model)"
+   },
+   {
+    "cite_key": "Dudda2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Of the 105 distinct studies we included, 15 directly measured the effect of an intervention on reproducibility or replicability, while the remainder addressed a proxy outcome that might be expected to increase reproducibility or replicability, such as data sharing, methods transp",
+    "study_system": "reproducibility-intervention studies (scoping review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_a9d0abe3b094f003",
+  "section_id": "sec-conclusion",
+  "claim_text": "Underlying all three is a single unmeasured link: the causal chain from a governance requirement, through actual data reuse, to fewer animals used has essentially never been quantified, so the review's central Reduction claim rests on a projection rather than a measurement, and building the infrastructure to measure it — standardised, FAIR control-animal data whose reuse can be tracked to an animal-count saving — is itself a research priority.",
+  "citation_keys": [
+   "PetitDemouliere2026",
+   "Wright2023b",
+   "Deeb2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether research data sharing is substantially improving. A single-institution manual audit (University of Edinburgh biosciences) finds a strong rise to 45% of papers sharing all relevant data by 2023"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "PetitDemouliere2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Early analyses suggest a potential reduction of animal use by up to 25%—but only if large volumes of standardised, interoperable historical data exist.",
+    "study_system": "in vivo behavioral neuroscience; home-cage monitoring data ecosystems (WellFAIR/TEATIME)"
+   },
+   {
+    "cite_key": "Wright2023b",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Generally, the best agreement was achieved when CCGs were replaced with VCGs with the highest level of similarity; the same species, strain, sex, administration route, and vehicle.",
+    "study_system": "rat and dog; eTOX database; histopathological findings"
+   },
+   {
+    "cite_key": "Deeb2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The fraction of publications that share all relevant data increased significantly, from 7% in 2014 to 45% in 2023.",
+    "study_system": "University bioscience data-sharing practices (institutional audit)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "The load-bearing claim (the governance->reuse->fewer-animals chain is a projection, not a measurement, and building measurement infrastructure is a priority) is carried by PetitDemouliere2026. Deeb2025 is a single-instit",
+    "fix": "Keep PetitDemouliere2026 (and Wright2023b for standardised control-animal data) as the load-bearing cites; drop Deeb2025 here or relocate it to the para-5 claim"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_0b811bb560357c82",
+  "section_id": "sec-conclusion",
+  "claim_text": "The debt is real, measurable, and self-reinforcing, and it is repayable — FAIR stewardship, data reuse and virtual control groups, and disciplined stewardship of the data that non-animal methods generate each break the loop, provided incentive and governance reform makes stewardship count.",
+  "citation_keys": [
+   "Wilkinson2016",
+   "StegerHartmann2020",
+   "Comess2020",
+   "Macleod2019b"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Governance orientation of data reuse: the FAIR principles frame maximal findability, accessibility and community reuse of data as the goal, whereas the CARE Principles / Indigenous Data Sovereignty in",
+   "Magnitude of animal reduction from replacing concurrent controls with VCGs: the Japanese industry perspective states approximately 30%, whereas the original concept paper and subsequent consensus stat"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Wilkinson2016",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Good data management is not a goal in itself, but rather is the key conduit leading to knowledge discovery and innovation, and to subsequent data and knowledge integration and reuse by the community after the data publication process.",
+    "study_system": "FAIR guiding principles for scholarly data (foundational statement)"
+   },
+   {
+    "cite_key": "StegerHartmann2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Historical animal control group data may lead to a repository, which could be used to construct virtual control groups (VCGs) for toxicity studies.",
+    "study_system": "regulatory animal toxicity studies (concept paper)"
+   },
+   {
+    "cite_key": "Comess2020",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Out of the tens of thousands of individual chemicals currently in commerce (and many more mixtures, natural products, and metabolites) <10% have been screened for safety.",
+    "study_system": "environmental public health chemical safety data / FAIR + AI infrastructure"
+   },
+   {
+    "cite_key": "Macleod2019b",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The number of NPG articles meeting all relevant Landis 4 criteria increased from 0/203 prior to May 2013 to 31/181 (16.4%) after (two-sample test for equality of proportions without continuity correction, Χ²=36.2, df=1, p=1.8×10).",
+    "study_system": "Life-sciences (incl. in vivo) articles in Nature Publishing Group journals"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "'Repaying the debt saves animals' is the review's strongest generalization. It is defensible at the mechanism level (VCG/historical-control reuse demonstrably removes a group of animals: Kramer2015, StegerHartmann2020), ",
+    "fix": "No change required; the surrounding paragraphs already bound the claim to the demonstrated mechanism plus an acknowledged projection. Retained as a MINOR note f"
+   },
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "Figure-precision / mild scope inflation. The literal 'near two percent' actual-availability figure is Hamilton2023's, not any of the three keys cited here. The three cited studies report related-but-different low numbers",
+    "fix": "Either co-cite `Hamilton2023` as the source of the '~2%' anchor, or reword to 'actual/usable availability and reporting compliance sit far below declared availa"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_573f75fb2c409b5c",
+  "section_id": "sec-conclusion",
+  "claim_text": "Where stewardship has been made to count — a checklist gated at revision, an open-data signal that is verified — behaviour has moved and usable data have followed, so the direction of travel is not in doubt even if its pace is.",
+  "citation_keys": [
+   "Kidwell2016",
+   "IvimeyCook2025"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether transparency interventions deliver genuinely usable open data: badges increased data that was actually available/usable, whereas audits of mandated archives found most datasets incomplete or u",
+   "Whether a policy requirement translates into actually available data: a blanket journal data-sharing mandate (ICMJE) produced near-zero actual public data (0.6%), whereas a voluntary badge-plus-verifi"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Kidwell2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Across the four comparison journals, for the half years prior to 2014, an average of 3.3% of articles reported open data (range = 1.6% to 4.9%), and after January 1, 2014, the average was 2.1% (range = 1.8% to 2.3%).",
+    "study_system": "Psychological Science + 4 comparison journals (n=2,478 articles)"
+   },
+   {
+    "cite_key": "IvimeyCook2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "96.5% of research manuscripts appeared to have provided data- and/or code via link or supplementary material",
+    "study_system": "Ecology and evolution journals (data/code-sharing mandate)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 4,
+    "issue": "Field-provenance scope point for a section explicitly about the ANIMAL/preclinical ethical debt. The largest 'enforcement works' magnitudes are drawn from non-animal literatures: Kidwell2016 is Psychological Science (bad",
+    "fix": "Add one clause noting the transfer, e.g. 'the largest documented enforcement effects come from psychology and ecology journals ({cite:p}`Kidwell2016, IvimeyCook"
+   },
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "Mechanism label slightly overstated. Open-practice badges are an opt-in incentive/reward, not a mandate; calling them 'enforced' places them in the same category as mandatory-at-revision checklists (Macleod2019b) and man",
+    "fix": "Change 'an enforced, visible signal' to 'an incentivised, visible signal' (or 'a visible, rewarded signal') to distinguish it from acceptance-conditioning manda"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_b169e87fdfbdf6ff",
+  "section_id": "sec-conclusion",
+  "claim_text": "The strongest claim of this review is also its simplest, and it survives every qualification above: because animals have already paid for the data with their welfare and, usually, their lives, letting the data go to waste is a welfare harm in its own right, and repaying the debt saves animals.",
+  "citation_keys": [
+   "Pound2018",
+   "Kramer2015",
+   "Hamilton2023"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether FAIR data sharing meaningfully happens in practice: a cross-specialty meta-analysis finds actual public data availability at only ~2% across medicine, whereas a purpose-built FAIR archive (Ope",
+   "Whether open-data mandates should be universal: meta-research on (mostly quantitative) medical data treats mandates as effective levers worth strengthening and auditing, while a qualitative-research c"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Pound2018",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Only the moderate bisphosphonate studies, less than 7% of the total, appeared to minimise harms to animals whilst being associated with benefit for humans.",
+    "study_system": "preclinical animal studies (antifibrinolytics, bisphosphonates, corticosteroids, Tirilazad, antenatal corticosteroids, thrombolytics; rats, rabbits, primates)"
+   },
+   {
+    "cite_key": "Kramer2015",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We show that, under our simulation conditions, the number of current control subjects can be reduced by more than half by including historical controls in the analyses.",
+    "study_system": "biomedical experiments with animal control groups (simulation)"
+   },
+   {
+    "cite_key": "Hamilton2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Of these studies, complete individual participant data were publicly available in 70 (61%), 20 had published partial individual participant data (18%), and 24 had not shared any individual participant data publicly (21%).",
+    "study_system": "Medical and health sciences articles (meta-analysis of 105 meta-research studies, 2,121,580 articles)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 3
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "The 'public code sharing below half a percent' clause is not in the package source sentence, which reports only the 8% declared / 2% actual data figures.",
+    "fix": "Verify the code-sharing figure against full text (plausibly reported by the same meta-analysis)."
+   },
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "'Repaying the debt saves animals' is the review's strongest generalization. It is defensible at the mechanism level (VCG/historical-control reuse demonstrably removes a group of animals: Kramer2015, StegerHartmann2020), ",
+    "fix": "No change required; the surrounding paragraphs already bound the claim to the demonstrated mechanism plus an acknowledged projection. Retained as a MINOR note f"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_6af1006246beb6c6",
+  "section_id": "sec-conclusion",
+  "claim_text": "That is the promise began with, restated at the end not as a new duty invented here but as an obligation the field already holds under the 3Rs.",
+  "citation_keys": [
+   "Strech2019",
+   "Verderio2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether the classic 3Rs framework is inadequate and must be expanded with scientific-value principles (Strech & Dirnagl's 6Rs) or remains conceptually sufficient and merely under-applied (Vitale & Ric",
+   "Whether the classic 3Rs framework is inadequate and must be expanded with scientific-value principles (Strech & Dirnagl's 6Rs) or remains conceptually sufficient and merely under-applied (Vitale & Ric"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Strech2019",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In times where approximately 50% of animal studies are not reported,only the preregistration of animal study protocols allows the identification of biased, delayed or unreported results.",
+    "study_system": "animal research ethics framework (proposal)"
+   },
+   {
+    "cite_key": "Verderio2023",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The use of too many EUs, besides being unethical, would lead to a waste of effort and resources in terms of money and time. At the same time, the use of an insufficient number of animals could lead to the loss of a significant result due to the lack of statistical power.",
+    "study_system": "3Rs / Reduction and experimental design (EU regulatory context)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ }
+]

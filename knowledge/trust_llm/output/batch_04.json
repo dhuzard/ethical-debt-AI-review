@@ -1,0 +1,794 @@
+{
+ "clm_e7b8a1e24acac606": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Claim attributes each expanded-R scheme to its proposing community ('facility managers argue', 'toxicologists and others add') rather than asserting any scheme as correct, so the contested/parallel status is faithfully conveyed. No conflict source; hedging matches evidence.",
+   "evidence": ["modality_seed=contested handled by attribution framing", "DeGrazia2019 partial", "vonderBeck2024 partial 6R", "has_conflict_source=false"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stays within animal-research ethics/framework domain matching the three study systems (principles framework, German facilities, toxicology NAMs). No organism/domain overreach.",
+   "evidence": ["study_system alignment across DeGrazia2019/vonderBeck2024/PetrescuMag2025"],
+   "failure_modes": ["PetrescuMag2025 passage (NAMs publication counts) only loosely underpins the 'fourth R of responsibility' sub-clause"],
+   "recommended_fix": "Anchor the 'responsibility' clause to a source that names the added R explicitly."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "neutral",
+  "claim_scope": "conceptual",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_f7bc014b75d71c25": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Descriptive claim that operational instruments are 'already being built'; directly evidenced (2282 registered protocols) and appropriately factual. No overstatement.",
+   "evidence": ["BannachBrown2024 direct full_text (2282 protocols)", "Romantsik2024/Hair2024 partial", "modality_seed=likely"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Instruments named (preclinical SRs, living evidence summaries, protocol pre-registration) map one-to-one onto the cited study systems; no extension beyond evidence-synthesis/Reduction domain.",
+   "evidence": ["study_system alignment for all three sources"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_7a1a524deb3bba71": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'One camp holds' explicitly frames the assertion as a contested position, and the paired opposing claim supplies the other side, so the has_conflict_source dispute is openly represented rather than smuggled in as fact.",
+   "evidence": ["has_conflict_source=true acknowledged via 'one camp' framing", "Strech2019 direct", "paired with clm_df5252cc7613dded"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Position confined to animal-research ethics framework debate, matching both sources' study systems. No overreach.",
+   "evidence": ["Strech2019 / DeGrazia2019 study_system = animal research ethics framework"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": "conceptual",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_df5252cc7613dded": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'The other holds' frames the counter-position explicitly; conflict is presented via pairing. Single source but the claim only asserts a position, not a fact, so the robustness=2 does not translate to overstatement.",
+   "evidence": ["has_conflict_source=true", "Vitale2022 partial full_text", "paired with clm_7a1a524deb3bba71"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Vitale2022 (Italian project-evaluation experience) is generalized to a stated 'camp' view about the 3Rs; framed as a position so the generalization is disclosed rather than asserted as universal fact.",
+   "evidence": ["Vitale2022 study_system = Italian project-evaluation experience"],
+   "failure_modes": ["single national-experience source used for a general framework position"],
+   "recommended_fix": "Add a second corroborating source for the 'backbone' position if available."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": "conceptual",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_3adb9fff20700258": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'A reconciling reading notes' hedges the synthesis; the limitation clause ('adoption remains slow, patchy, inconsistently interpreted') is itself sourced (Lewis2019), so both the robustness and the caveat are calibrated.",
+   "evidence": ["Petkov2022 direct (withstood replacement)", "Lewis2019 partial (slow/patchy)", "modality_seed=likely"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Four review/consensus sources across NHP ethics and general 3Rs; claim confined to 3Rs framework discourse, no domain overreach.",
+   "evidence": ["study_system alignment across four sources"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": "conceptual",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_9b5d98611310fd70": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'Not metaphorical but mechanical' is an assertive framing for a link partly resting on simulation (Kramer2015). Critic MINOR track-3 flags it as the review's strongest generalization but judges it defensible at the mechanism level and already bounded by surrounding text.",
+   "evidence": ["critic_priors MINOR track3 'strongest generalization... defensible at mechanism level'", "Kramer2015 direct simulation", "modality_seed=likely"],
+   "failure_modes": ["strong 'mechanical' wording built partly on a simulation control-reduction result"],
+   "recommended_fix": "Keep the mechanism/projection boundary explicit as the critic notes; no substantive change required."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Extends demonstrated instrument-level mechanisms (historical-control reuse, living summaries, SR pre-registration) into a general 'byte-to-animal' law; MINOR track-3 marks a mild over-generalization that is retained as defensible.",
+   "evidence": ["critic_priors MINOR track3", "Kramer2015 simulation conditions"],
+   "failure_modes": ["projection from specific Reduction instruments to a universal mechanistic claim"],
+   "recommended_fix": "Retain surrounding sentences that bound the claim to demonstrated mechanism plus acknowledged projection."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_0bb660f333c82695": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Interpretive reframing ('It is precisely the reframing of Reduction...') rests on a single partial source with robustness=1; framing is conceptual rather than empirical so overstatement is limited, but assertive 'precisely' is slightly strong for one source.",
+   "evidence": ["Verderio2023 partial full_text", "robustness=1", "single-study"],
+   "failure_modes": ["assertive 'precisely' on a lone source"],
+   "recommended_fix": "Soften to 'this reframes Reduction as...' or add a corroborating design/reuse source."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Verderio2023 (EU regulatory Reduction/experimental design) matches the claim's Reduction-as-design framing; no scope extension.",
+   "evidence": ["Verderio2023 study_system = 3Rs/Reduction and experimental design"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_6448305860061d9d": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'Surveys of scientists find' and 'a systematic review... confirms' attribute the inversion to its empirical sources; two direct supports (survey + meta-analysis) match the assertion.",
+   "evidence": ["Franco2018 direct (hierarchy inverted)", "LouisMaerten2024 direct meta-analysis", "modality_seed=likely"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Both sources are European lab-animal-science populations and the claim explicitly names 'European researchers', so the generalization is bounded to the sampled region.",
+   "evidence": ["Franco2018 European course participants", "LouisMaerten2024 European animal researchers"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": "conceptual",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_76c9458b7f79c405": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'Fuelling open discord about whether the 3Rs can still guide acceptable use' correctly signals contestation, but the embedded factual claim that rising alternatives 'has failed to lower total animal numbers' is asserted firmly on a single review (robustness=2).",
+   "evidence": ["Grimm2023 partial full_text (discord)", "modality_seed=contested", "disputed replication"],
+   "failure_modes": ["empirical 'failed to lower total numbers' carried by one review source"],
+   "recommended_fix": "Cite a statistics/trend source for the 'total numbers not falling' sub-claim."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Grimm2023 is a multidisciplinary 3Rs review; the claim stays within 3Rs discourse. No overreach.",
+   "evidence": ["Grimm2023 study_system = 3Rs principle in contemporary animal research"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": "conceptual",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_feed5fccac388f12": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Source hedges with 'can generate surpluses'; the claim states 'generate surpluses' as established. Slight strengthening for a single-source design consequence, but the mechanism is uncontroversial.",
+   "evidence": ["Onuma2026 partial abstract ('can generate surpluses')", "modality_seed=established", "single source"],
+   "failure_modes": ["'can' softened to a flat assertion"],
+   "recommended_fix": "Restore modal 'can' or add a facility-level surplus statistic."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Onuma2026 (nonclinical study design, sex-as-variable, Reduction/surplus) matches the claim exactly; no scope extension.",
+   "evidence": ["Onuma2026 study_system alignment"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": -1,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_7b17b47ed7df6121": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "The welfarist-blind-spot-about-death premise is supported by Persson2024 (philosophical), but the empirical rider 'are, disproportionately, animals killed without ever entering an analysis' is asserted as established with no quantitative source.",
+   "evidence": ["Persson2024 partial full_text (Hume welfarist death view)", "modality_seed=established", "single philosophical source"],
+   "failure_modes": ["empirical 'disproportionately' proportion unsupported by the philosophical source"],
+   "recommended_fix": "Cite a surplus-killing/attrition statistic for the 'disproportionately killed' clause or soften to a conjecture."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Extends a philosophical account of animal death (Persson2024) to a specific operational scenario (animals bred to regenerate lost data). Mild domain stretch from ethics to empirical husbandry.",
+   "evidence": ["Persson2024 study_system = moral status of animal death (philosophical)"],
+   "failure_modes": ["philosophical source applied to an operational surplus-killing claim"],
+   "recommended_fix": "Bridge with an empirical surplus/attrition source."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "conceptual",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_d250a5f71653cea0": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Each clause is tied to a specific study and stated at study granularity (strain-specific side effects; meloxicam failing at high dose; IACUC 'ethics of uncertainty'). Two direct supports plus an ethical analysis; no overstatement.",
+   "evidence": ["Reifenrath2022 direct (buprenorphine side effects)", "Roughan2015 direct (meloxicam pain remained)", "Carbone2019 partial (IACUC caution)"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "All within laboratory-rodent analgesia/IACUC review; strain and species specificity preserved ('strain-specific'). No overreach.",
+   "evidence": ["Reifenrath2022 SD vs Lewis rats", "Roughan2015 BALB/c mice", "Carbone2019 rodent/IACUC"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "causal",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "clinical",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_18e623be0ec4ac13": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Claim now presents both sides (scarcity of validated methods AND 'a growing set of evidence-based severity tools is being developed', AND training measurably improves grading), addressing critic track-3/track-4 fixes; residual MUST_FIX prior on conflict balance holds the score below 4.",
+   "evidence": ["critic MUST_FIX track3 (Manthey2021 countervailing) and SHOULD_CAVEAT track4 (emerging tools)", "Manthey2021 cited direct (training improves)", "TappeTheodor2022/Reiber2023 cited (tools)"],
+   "failure_modes": ["compound sentence risks under-weighting the countervailing training/tools evidence relative to the 'too subjective' framing"],
+   "recommended_fix": "Ensure the training-improvement and emerging-tools clauses are given comparable weight to the subjectivity clause."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Grimace-scale 'nine species' claim is anchored to Evangelista2021's cross-species review, but the scarcity framing generalizes over a package that contains multiple validated/emerging tools (track-4), a mild over-generalization of scarcity.",
+   "evidence": ["Evangelista2021 nine-species review", "critic SHOULD_CAVEAT track4"],
+   "failure_modes": ["scarcity generalized across a tool set that includes validated instruments"],
+   "recommended_fix": "Qualify 'scarce' as 'robust cross-model-validated methods remain scarce, though a growing set is emerging'."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_bc32d4cab29c160b": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly names the dispute ('active disagreement over whether volatile agents refine on carbon dioxide') and the absence of a universally humane method, so has_conflict_source is openly represented; eight sources span both sides.",
+   "evidence": ["Hawkins2016 (lack of consensus)", "Marquardt2018 (CO2 more stressful) vs conflict_notes", "AxiakFlammer2019 (alternatives urgently required)"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "'Across species and life stages' is backed by cross-taxon sources (rodents, zebrafish); no organism overreach.",
+   "evidence": ["Hawkins2016 mice/rats/zebrafish", "Saarinen2025/Kohler2017 zebrafish", "DominguezOliva2023 rats"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": "clinical",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_49f8b5e9ffb46941": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Claim presents both poles of the dispute ('found no support...; against this, telomere attrition is proposed...') with the biomarker appropriately hedged ('proposed', 'would, by construction'), addressing the MUST_FIX suppression prior; residual prior keeps it below 4.",
+   "evidence": ["critic MUST_FIX track3 (conflict suppressed)", "Wegener2021 direct (no cumulative effect)", "Bateson2015 partial (telomere proposed)"],
+   "failure_modes": ["the two positions rest on a single source each (NHP dataset vs review)"],
+   "recommended_fix": "Retain the 'against this' framing; optionally flag that the dispute remains open."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "NHP finding is bounded precisely ('thirty-nine rhesus monkeys') and the telomere biomarker is flagged as 'proposed', so neither source is overextended.",
+   "evidence": ["Wegener2021 rhesus macaques", "Bateson2015 review (mice/chickens/humans), presented as a proposal"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": "biological",
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_5caf70956e6edeb8": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Both findings are now contrasted ('...were insufficient to predict death...whereas...a simple welfare measure was a valid basis'), addressing the MUST_FIX suppression prior; each side is a single study so the residual prior holds it at 3.",
+   "evidence": ["critic MUST_FIX track3 (conflict suppressed)", "Krueger2023 direct (score-sheet insufficient)", "Moller2018 partial (simple measure valid)"],
+   "failure_modes": ["conflict rests on two single studies in different disease models"],
+   "recommended_fix": "Keep both citations attached and note the model-specificity of each result."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Both sources are rat models and the claim keeps each result tied to its model (cirrhosis surgery vs kindling); no cross-model overreach.",
+   "evidence": ["Krueger2023 SD rats cirrhosis", "Moller2018 rats kindling"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": "methodological",
+  "evidence_relation": "conflicted",
+  "cap_flags": []
+ },
+ "clm_904a941dad20a3b7": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'One position holds' frames the replacement-primacy stance as contested; the opposing view is supplied by the paired claim, so has_conflict_source is represented. Regulatory-roadmap and publication-growth 'reinforcement' is sourced.",
+   "evidence": ["Fruhwein2025 partial (replacement as overriding imperative)", "Lei2026 (FDA NAMs roadmap)", "PetrescuMag2025 direct (NAMs growth)", "paired with clm_f81f2224341f6394"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to translational/preclinical replacement debate matching the sources (critical analysis, FDA drug-safety roadmap, toxicology NAMs). No overreach.",
+   "evidence": ["study_system alignment across three sources"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": "conceptual",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_f81f2224341f6394": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'The opposing position holds' explicitly frames it as one side of the documented conflict; single source but directly states the position (MartinezLopez2023: animal models 'essential').",
+   "evidence": ["MartinezLopez2023 partial (models essential)", "has_conflict_source=true", "paired with clm_904a941dad20a3b7"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "MartinezLopez2023 is liver-disease-specific but its own text makes the general 'essential to understand human diseases' claim the position quotes, so the generalization is source-internal.",
+   "evidence": ["MartinezLopez2023 study_system = experimental liver disease models (3Rs review)"],
+   "failure_modes": ["single disease-area review carrying a general 'complex disease' position"],
+   "recommended_fix": "Add a broader review to reinforce the general claim."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": "conceptual",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_a3c752ab14c0fb3e": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'The middle ground is empirical and sobering' with 'despite academic enthusiasm...have not been widely adopted' correctly represents the promise-vs-reality conflict; evidence-standards-lacking clause is sourced.",
+   "evidence": ["Marx2020 direct (MPS not widely adopted)", "Weidema2025 partial (standards lacking)", "conflict_notes on MPS promise vs adoption"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to microphysiological-systems/organ-on-chip replacement adoption, matching both sources. No overreach.",
+   "evidence": ["Marx2020 MPS drug development", "Weidema2025 organ-on-chip ethics mapping"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_6916b09b14d5b4e6": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'A standing objection' and 'might buy fragility' hedge well, but the objection's substantive content (rigid standardisation yields non-generalisable results) is only loosely echoed by the generic Karp2021 passage (robustness=1).",
+   "evidence": ["Karp2021 partial full_text (generic 'no perfect experiment')", "single-study", "modality_seed=likely"],
+   "failure_modes": ["specific standardisation/generalisation mechanism not directly stated by the cited passage"],
+   "recommended_fix": "Cite Voelkl/Richter-type standardisation-fallacy work directly for the objection's core."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Karp2021 (preclinical experimental design) is within the reproducibility/design domain of the claim; no organism or domain overreach.",
+   "evidence": ["Karp2021 study_system = preclinical animal experimental design"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "indirectly_supported",
+  "cap_flags": []
+ },
+ "clm_21b3e277813304aa": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Reports the six-lab finding with the study's own wording and draws the calibrated inference 'standardisation alone does not guarantee reproducibility'. Replicated, robustness=4; paired counter-claim supplies the more optimistic view.",
+   "evidence": ["Richter2011 direct full_text (exact quote)", "replicated", "paired with clm_39f6cf7ad3a6d316"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Inference is drawn from a mouse behavioural multi-lab study and kept at the level of standardisation/reproducibility method, not over-generalised to unrelated domains.",
+   "evidence": ["Richter2011 six-laboratory mouse behavioural study"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_39f6cf7ad3a6d316": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "This claim_text says 'a simulation across hundreds of studies', which is accurate for Voelkl2018 (440 studies); the MUST_FIX track-2 quantitative error ('50 studies') is flagged in surrounding prose, not in this atomic claim. Numbers ('two to four laboratories', 'substantially') match the source.",
+   "evidence": ["Voelkl2018 direct full_text", "replicated", "critic MUST_FIX track2 targets prose '50' not this claim"],
+   "failure_modes": ["surrounding section prose reportedly states '50 real preclinical studies' (should read 440 across 13 interventions)"],
+   "recommended_fix": "Fix the '50 studies' figure in the surrounding prose to '440 preclinical studies across 13 interventions'."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Voelkl2018 (stroke/MI/breast-cancer preclinical simulation) supports the multi-lab reproducibility conclusion; claim stays within preclinical design domain.",
+   "evidence": ["Voelkl2018 study_system = preclinical simulation across interventions"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_5f1e453a3471f8dd": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Both findings reported at study granularity with matching figures ('about half', direction/significance more reproducible than magnitude = Mundinger 83%/66%). 'Echoing the rodent pattern' is a supported cross-study link.",
+   "evidence": ["vonKortzfleisch2020 direct (half of effects)", "Mundinger2025 direct (83%/66%)", "replicated"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Mouse mini-experiment and insect multi-lab results are each attributed to their system and the analogy ('echoing') is explicit rather than conflated. No overreach.",
+   "evidence": ["vonKortzfleisch2020 mice", "Mundinger2025 insects"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_7b09fa0e049cf5d6": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Firm 'refuting the claim' is warranted: a >1000-comparison systematic review plus two convergent earlier studies. 'Sometimes less' captures the direction faithfully. Established, robustness=4.",
+   "evidence": ["Kentner2021 direct (no CV differences)", "Wolfer2004 partial (no added variability)", "Lewejohann2005 partial (consistent results)"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Sources are rodents and the '1000+ comparisons' figure is from Kentner2021 (mice and rats); 'animals' is used within the lab-rodent housing domain. No meaningful overreach.",
+   "evidence": ["Kentner2021 mice and rats systematic review"],
+   "failure_modes": ["generic 'animals' where evidence base is rodent"],
+   "recommended_fix": "Optionally specify 'rodents'."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_abe77ba2ae4212d5": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Core claim ('better design and confirmatory multi-lab studies improve reproducibility while holding/lowering numbers') is well hedged ('tends to') and supported by vonKortzfleisch2020/Rotter2026; the 'housing improves data quality' clause partly leans on a miscited Cait2022 (SHOULD_CAVEAT track1).",
+   "evidence": ["vonKortzfleisch2020 direct", "Rotter2026 direct (confirmatory multi-lab)", "critic SHOULD_CAVEAT track1 (Cait2022 does not support this)"],
+   "failure_modes": ["Cait2022 attached to a data-quality claim it does not establish"],
+   "recommended_fix": "Remove Cait2022 here (co-citations already suffice) or relocate it to a welfare/husbandry claim."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Cait2022 (housing morbidity/mortality meta-analysis) is stretched to support 'housing improves data quality', a relevance/scope mismatch flagged by track1; the remaining sources are correctly scoped.",
+   "evidence": ["critic SHOULD_CAVEAT track1", "Cait2022 study_system = housing effects meta-analysis"],
+   "failure_modes": ["source finding (welfare) mapped onto a data-quality conclusion"],
+   "recommended_fix": "Detach Cait2022 from the data-quality clause."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": "methodological",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_e7bdab40bb4ba2eb": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Exemplary calibration: 'not obviously working', 'an exploratory survey concluded', 'a negative result worth stating plainly'. Null result of the first controlled trial is reported honestly.",
+   "evidence": ["Ameli2025 direct (culture not fully established)", "Young2026 direct (no significant QoL change)", "modality_seed=likely"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Both sources are lab-animal-personnel culture-of-care/resiliency studies; claim stays within that domain. No overreach.",
+   "evidence": ["Ameli2025 German experts", "Young2026 personnel across five organizations"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "conceptual",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_d580f607ba5bda7a": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Faithful report of the working group's caution using its own wording ('must not be used as an auditing tool...tick-box exercise'); the opposing assessment stance is supplied by the paired claim, representing has_conflict_source.",
+   "evidence": ["Robinson2019 direct abstract (exact quote)", "paired with clm_d418de153ab1f760"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Robinson2019 (European pharma culture-of-care framework) matches the claim exactly; no scope extension.",
+   "evidence": ["Robinson2019 study_system alignment"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": "conceptual",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_d418de153ab1f760": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'A concept paper argues the opposite' explicitly frames the counter-position within the assessment debate; Hawkins2019 directly supports the human-centric/subjective critique and the objective-criteria remedy.",
+   "evidence": ["Hawkins2019 partial abstract", "has_conflict_source=true", "paired with clm_d580f607ba5bda7a"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Hawkins2019 (culture-of-care assessment concept paper) matches the claim's domain; no overreach.",
+   "evidence": ["Hawkins2019 study_system = culture of care assessment"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": "conceptual",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_0ec9cea7e256702a": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Descriptive of ongoing efforts ('are efforts to make...a lived norm'); incident-reporting system directly evidenced (CIRS-LAS metrics), wellbeing-extension partially. Rhetorical flourish does not overstate.",
+   "evidence": ["Enkelmann2023 direct (CIRS-LAS)", "Ferrara2022 partial (human wellbeing)", "Amarasekara2022 partial"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Culture-of-care personnel wellbeing and incident reporting; sources match the claim's two named efforts. No overreach.",
+   "evidence": ["study_system alignment across three sources"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": "conceptual",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_35f9f6f03212b749": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Empirical stressor and institutional-culture facts are each directly sourced; the 'double harm' conclusion is signposted as the review's through-line synthesis rather than an empirical finding, so the interpretive step is disclosed.",
+   "evidence": ["Rumpel2026 direct (euthanasia/inability-to-alleviate stressors)", "Young2024 direct (institutional culture 70%)", "GoniBalentziaga2021 direct (no choice not to euthanize)"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Personnel-stress evidence (general lab-animal work) is bridged to the review's data-regeneration thesis ('a system that breeds and kills animals to regenerate data it already produced'); the sources do not attribute the stress specifically to data-regeneration, so this is an interpretive extension.",
+   "evidence": ["LaFollette2020/Rumpel2026/Young2024 = general lab-animal personnel stressors"],
+   "failure_modes": ["compassion-fatigue evidence linked to data-waste specifically, beyond source scope"],
+   "recommended_fix": "Keep the data-waste link as explicit synthesis; do not present it as an empirical finding of the cited surveys."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": "conceptual",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_bb4c2a6bfaeed632": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Faithful definitional restatement of FAIR's own framing (exact quote). The has_conflict_source (CARE/Indigenous Data Sovereignty) concerns FAIR's governance orientation, which this purely descriptive definitional claim does not assert against, so no caveat is required here.",
+   "evidence": ["Wilkinson2016 partial full_text (exact quote)", "conflict is about orientation, not about what FAIR states"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Describes FAIR principles from their foundational source; no extension beyond the scholarly-data-management domain.",
+   "evidence": ["Wilkinson2016 study_system = FAIR guiding principles"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "definition",
+  "modality": "established",
+  "claim_polarity": "neutral",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_10c74acd408699e0": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'Extraordinarily influential' and 'most-cited reference in the field' are strong; the shown Qiu2025 passage confirms only the 2529-document corpus, not directly the most-cited ranking, and 'spawned a substantial apparatus' is a soft generalization on one bibliometric source.",
+   "evidence": ["Qiu2025 direct abstract (2529 documents)", "robustness=2", "'most-cited' not explicit in shown passage"],
+   "failure_modes": ["'most-cited reference' ranking not verified by the quoted passage"],
+   "recommended_fix": "Quote the Qiu2025 sentence that names FAIR as the most-cited reference, or soften to 'among the most-cited'."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Qiu2025 (data governance/open sharing bibliometrics in life sciences/medicine) matches 'influence in the field'. No overreach.",
+   "evidence": ["Qiu2025 study_system = data governance/open sharing bibliometrics"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "established",
+  "claim_polarity": "positive",
+  "claim_scope": "conceptual",
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_f454acf779d90621": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Specific and accurate: F-UJI open-source tool (Devaraju2021), maturity models/crosswalks (Corcho2024), and 'strong correlations in discovery and accessibility' (a conservative subset of Peng2022's discovery/accessibility/interoperability/usability). No overstatement.",
+   "evidence": ["Devaraju2021 partial (F-UJI)", "Peng2022 direct (strong correlations)", "Corcho2024 direct (maturity model)"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "All within FAIR assessment tooling/maturity models; the crosswalk claim is bounded to the dimensions the source reports. No overreach.",
+   "evidence": ["study_system alignment across three sources"],
+   "failure_modes": [],
+   "recommended_fix": "none"
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": "methodological",
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ }
+}

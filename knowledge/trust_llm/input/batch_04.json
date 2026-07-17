@@ -1,0 +1,1493 @@
+[
+ {
+  "claim_id": "clm_e7b8a1e24acac606",
+  "section_id": "sec-data-welfare",
+  "claim_text": "A parallel six-principle scheme, three of social benefit and three of animal welfare, is offered as a better bridge between the research and protection communities, facility managers argue for a \"6R\" set adding responsibility and reproducibility, and toxicologists and others add a fourth R of responsibility.",
+  "citation_keys": [
+   "DeGrazia2019",
+   "vonderBeck2024",
+   "PetrescuMag2025"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replicated",
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "DeGrazia2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "These six principles, we argue, constitute a more suitable framework than any other that is currently available, including the canonical 3 Rs advanced in 1959 by William M. S. Russell and Rex L. Burch.",
+    "study_system": "animal research ethics (Beauchamp-DeGrazia principles framework)"
+   },
+   {
+    "cite_key": "vonderBeck2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The 6 Rs must be considered at all times: replacement, reduction, refinement, respect, responsibility, and reproducibility.",
+    "study_system": "laboratory animal facilities in Germany (culture of care; management perspective)"
+   },
+   {
+    "cite_key": "PetrescuMag2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Our findings reveal a steep increase in NAMs publications since 2015, with in vitro and in silico approaches at the forefront.",
+    "study_system": "toxicology new approach methodologies (bibliometric analysis and review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_f7bc014b75d71c25",
+  "section_id": "sec-data-welfare",
+  "claim_text": "The specific operational instruments of data welfare are already being built under these banners: preclinical systematic reviews that establish whether existing animal data are strong enough to translate — and thereby justify or obviate new studies, living evidence summaries that continuously map what has already been shown so it need not be shown again, and pre-registration of review protocols to prevent unplanned duplication.",
+  "citation_keys": [
+   "Romantsik2024",
+   "Hair2024",
+   "BannachBrown2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Romantsik2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "One of the main goals of preclinical SRs is to identify aspiring treatment strategies and evaluate if currently available data is solid enough to translate to clinical trials or highlight the gaps, thus justifying the need for new studies.",
+    "study_system": "preclinical systematic reviews/meta-analyses (evidence synthesis; Reduction)"
+   },
+   {
+    "cite_key": "Hair2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "AD-SOLES aims to offer guidance for research improvement, reduce research waste, highlight knowledge gaps, and support informed decision making for researchers, funders, patients, and the public.",
+    "study_system": "automated evidence synthesis for in vivo Alzheimer's research (Reduction/research waste)"
+   },
+   {
+    "cite_key": "BannachBrown2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "As of December 4th 2023, 2282 animal systematic review protocols have been registered.",
+    "study_system": "preclinical systematic review pre-registration (PROSPERO4animals)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_7a1a524deb3bba71",
+  "section_id": "sec-data-welfare",
+  "claim_text": "One camp holds the welfare-focused 3Rs are conceptually incomplete: animal welfare alone cannot make research ethical if the work lacks scientific value, which is the explicit rationale for bolting a scientific-value dimension onto the framework.",
+  "citation_keys": [
+   "Strech2019",
+   "DeGrazia2019"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether the classic 3Rs framework is inadequate and must be expanded with scientific-value principles (Strech & Dirnagl's 6Rs) or remains conceptually sufficient and merely under-applied (Vitale & Ric",
+   "Whether the classic 3Rs framework is inadequate and must be expanded with scientific-value principles (Strech & Dirnagl's 6Rs) or remains conceptually sufficient and merely under-applied (Vitale & Ric"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Strech2019",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In times where approximately 50% of animal studies are not reported,only the preregistration of animal study protocols allows the identification of biased, delayed or unreported results.",
+    "study_system": "animal research ethics framework (proposal)"
+   },
+   {
+    "cite_key": "DeGrazia2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "These six principles, we argue, constitute a more suitable framework than any other that is currently available, including the canonical 3 Rs advanced in 1959 by William M. S. Russell and Rex L. Burch.",
+    "study_system": "animal research ethics (Beauchamp-DeGrazia principles framework)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_df5252cc7613dded",
+  "section_id": "sec-data-welfare",
+  "claim_text": "The other holds the 3Rs remain the ethical and methodological backbone of animal research, inextricably linked to scientific quality, and that the difficulty of applying all three aspects in every case does not render the principle obsolete or ineffective — only unevenly implemented.",
+  "citation_keys": [
+   "Vitale2022"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether the classic 3Rs framework is inadequate and must be expanded with scientific-value principles (Strech & Dirnagl's 6Rs) or remains conceptually sufficient and merely under-applied (Vitale & Ric",
+   "Whether the classic 3Rs framework is inadequate and must be expanded with scientific-value principles (Strech & Dirnagl's 6Rs) or remains conceptually sufficient and merely under-applied (Vitale & Ric"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Vitale2022",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "This has been a crucial strategic move: it inspired the idea that animal welfare was directly related to scientific quality and therefore was in the scientists’ interests to care for it.",
+    "study_system": "3Rs principle application (Italian project-evaluation experience)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_3adb9fff20700258",
+  "section_id": "sec-data-welfare",
+  "claim_text": "A reconciling reading notes the 3Rs have repeatedly withstood proposed replacements, so the various alternative schemes are better understood as complementary refinements than as substitutes, even as adoption remains slow, patchy, and inconsistently interpreted six decades on.",
+  "citation_keys": [
+   "Petkov2022",
+   "MacArthurClark2017",
+   "Lewis2019",
+   "Lauwereyns2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Petkov2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Yet, the 3Rs appear to have regularly withstood the replacement challenge.",
+    "study_system": "nonhuman primate neuroscience research ethics (international frameworks review)"
+   },
+   {
+    "cite_key": "MacArthurClark2017",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "On the contrary, relevant examples demonstrate the opportunity to practise better science using 3Rs technologies which deliver faster, more reproducible and more cost-effective results.",
+    "study_system": "3Rs contemporary approach (review)"
+   },
+   {
+    "cite_key": "Lewis2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Sixty years since their inception, the extent to which the 3Rs have been adopted and implemented by the global scientific and medical research communities has unfortunately been slow and patchy.",
+    "study_system": "3Rs implementation and application (review)"
+   },
+   {
+    "cite_key": "Lauwereyns2024",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The majority of members of the COST Action IMPROVE approved the interpretation presented here.",
+    "study_system": "3Rs principles interpretation (international consensus paper)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_9b5d98611310fd70",
+  "section_id": "sec-data-welfare",
+  "claim_text": "The link from unusable byte to used animal is not metaphorical but mechanical — it is the same link that makes historical-control reuse count as Reduction, that makes a continuously maintained living evidence summary a Reduction instrument because knowledge kept visible need not be regenerated, and that makes duplicate systematic reviews a waste worth pre-registration to prevent.",
+  "citation_keys": [
+   "Kramer2015",
+   "Hair2024",
+   "BannachBrown2024",
+   "Romantsik2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Kramer2015",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We show that, under our simulation conditions, the number of current control subjects can be reduced by more than half by including historical controls in the analyses.",
+    "study_system": "biomedical experiments with animal control groups (simulation)"
+   },
+   {
+    "cite_key": "Hair2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "AD-SOLES aims to offer guidance for research improvement, reduce research waste, highlight knowledge gaps, and support informed decision making for researchers, funders, patients, and the public.",
+    "study_system": "automated evidence synthesis for in vivo Alzheimer's research (Reduction/research waste)"
+   },
+   {
+    "cite_key": "BannachBrown2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "As of December 4th 2023, 2282 animal systematic review protocols have been registered.",
+    "study_system": "preclinical systematic review pre-registration (PROSPERO4animals)"
+   },
+   {
+    "cite_key": "Romantsik2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "One of the main goals of preclinical SRs is to identify aspiring treatment strategies and evaluate if currently available data is solid enough to translate to clinical trials or highlight the gaps, thus justifying the need for new studies.",
+    "study_system": "preclinical systematic reviews/meta-analyses (evidence synthesis; Reduction)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 3
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 3,
+    "issue": "'Repaying the debt saves animals' is the review's strongest generalization. It is defensible at the mechanism level (VCG/historical-control reuse demonstrably removes a group of animals: Kramer2015, StegerHartmann2020), ",
+    "fix": "No change required; the surrounding paragraphs already bound the claim to the demonstrated mechanism plus an acknowledged projection. Retained as a MINOR note f"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_0bb660f333c82695",
+  "section_id": "sec-data-welfare",
+  "claim_text": "It is precisely the reframing of Reduction as a problem of design and reuse rather than of counting.",
+  "citation_keys": [
+   "Verderio2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Verderio2023",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The use of too many EUs, besides being unethical, would lead to a waste of effort and resources in terms of money and time. At the same time, the use of an insufficient number of animals could lead to the loss of a significant result due to the lack of statistical power.",
+    "study_system": "3Rs / Reduction and experimental design (EU regulatory context)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_6448305860061d9d",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Surveys of scientists find they invert the 3Rs' original ordering, prioritising Refinement over Reduction and Reduction over Replacement, and a systematic review of European researchers' experiences confirms that in their own fields they do not regard Replacement as possible and treat Refinement as the higher, more achievable priority.",
+  "citation_keys": [
+   "Franco2018",
+   "LouisMaerten2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Franco2018",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Finally, the hierarchy of the 3Rs envisaged by Russell and Burch-with Replacement as the main goal, Reduction as an option when there are no non-animal alternatives, and Refinement as the last principle to be applied-appears to have been inverted by European scientists working to",
+    "study_system": "European laboratory-animal-science course participants (scientists; survey)"
+   },
+   {
+    "cite_key": "LouisMaerten2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Our meta-analysis showed that 91% of scientists saw education as beneficial for 3Rs implementation (Q18).",
+    "study_system": "systematic review/meta-analysis of European animal researchers' 3R implementation perceptions (17 publications)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_76c9458b7f79c405",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Reduction — the data-facing R — thus sits in the middle of a hierarchy whose top and bottom absorb most of the attention, even as the rising availability of alternatives has failed to lower total animal numbers, fuelling open discord about whether the 3Rs can still guide acceptable use at all.",
+  "citation_keys": [
+   "Grimm2023"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Grimm2023",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Hence, third, there is discord between the view that the 3Rs principle allows only for minimal change and may even sustain the status quo rather than leading to desirable, more radical, change.",
+    "study_system": "3Rs principle in contemporary animal research (multidisciplinary review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_feed5fccac388f12",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Concrete inefficiencies compound the neglect: male-only study designs generate surpluses of unused female animals in breeding colonies, a Reduction failure at the facility level that no amount of within-experiment refinement addresses.",
+  "citation_keys": [
+   "Onuma2026"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Onuma2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Sex bias is also an animal welfare concern: male-only strategies can generate surpluses of unused females in breeding colonies, challenging the 3Rs-particularly Reduction-when evaluated at the project or facility level.",
+    "study_system": "nonclinical study design (sex as a biological variable; Reduction/surplus animals)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MINOR",
+    "track": 5,
+    "issue": "Package contains two distinct papers whose cite_keys differ only by case: Onuma2026 (10.1002/ame2.70182, correctly cited here) and ONUMA2026 (10.1292/jvms.25-0455, uncited vet-student compassion study). Case-insensitive ",
+    "fix": "Rename one key (e.g. ONUMA2026 -> Onuma2026b) to remove the case-only collision before bibliography build."
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_7b17b47ed7df6121",
+  "section_id": "sec-data-welfare",
+  "claim_text": "And the welfarist blind spot about death matters here too, because the animals bred to regenerate lost data are, disproportionately, animals killed without ever entering an analysis.",
+  "citation_keys": [
+   "Persson2024"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Persson2024",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "their employer and supervisor, Charles W. Hume, explicitly endorsed a welfarist view of animal death, stating: “There is no harm in killing animals provided it be done painlessly”",
+    "study_system": "animal research ethics (moral status of animal death; philosophical foundations of the 3Rs)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_d250a5f71653cea0",
+  "section_id": "sec-data-welfare",
+  "claim_text": "A standard multimodal analgesia regimen intended to reduce suffering instead drove strain-specific side effects severe enough to require euthanasia, so a refinement increased harm; a commonly used analgesic failed to prevent post-surgical pain even at high doses; and committees permit painful procedures under an \"ethics of uncertainty\" in which incomplete knowledge of analgesia, and fear of its effects on data, pushes researchers to withhold pain relief.",
+  "citation_keys": [
+   "Reifenrath2022",
+   "Roughan2015",
+   "Carbone2019"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Reifenrath2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Severe side effects of subcutaneous buprenorphine exposure in the first hours after surgery were observed in Crl:CD(SD) rats, whereas LEW:NHanZtm rats showed better compatibility; especially differences in pica behaviour was noticeable, which was observed in three Crl:CD(SD) rats",
+    "study_system": "laboratory rats (Sprague-Dawley vs Lewis strains; analgesia refinement)"
+   },
+   {
+    "cite_key": "Roughan2015",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Meloxicam at 5 and 20 mg/kg significantly reduced abdominal inflammation; however, all other parameters indicated pain or another negatively affective state remained.",
+    "study_system": "BALB/c mice (laparotomy pain model, meloxicam analgesia)"
+   },
+   {
+    "cite_key": "Carbone2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "I conclude that applying current animal pain management knowledge to prevailing ethical principles will shift IACUC toward greater caution in allowing potentially painful animal experiments, with heightened caution regarding the ability of analgesics to mitigate the animals' pain",
+    "study_system": "laboratory rodent analgesia / IACUC review (ethical analysis)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_18e623be0ec4ac13",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Even the measurement tools are contested: a systematic review of grimace scales found only a handful validated to a high standard across nine species, severity assessment remains largely subjective, with robust cross-model-validated methods still scarce even as a growing set of evidence-based severity tools is now being developed and validated, and the regulatory severity categories are widely judged too underspecified to assign consistently — though the subjectivity is not immovable, since structured training measurably improves personnel's ability to recognise and grade stress severity, even as a minority still cannot reliably tell a healthy animal from a stressed one.",
+  "citation_keys": [
+   "Evangelista2021",
+   "Leenaars2019a",
+   "TappeTheodor2022",
+   "Reiber2023",
+   "Smith2018",
+   "DeVleeschauwer2023",
+   "Manthey2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "How reliably procedure severity can be assigned in practice: a training study finds most personnel can recognise and grade stress after instruction, whereas the FELASA working group finds the regulato",
+   "How reliably procedure severity can be assigned in practice: a training study finds most personnel can recognise and grade stress after instruction, whereas the FELASA working group finds the regulato"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Evangelista2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The Mouse, Rat, Horse and Feline Grimace Scales exhibited high level of evidence.",
+    "study_system": "grimace/facial-expression pain scales in nonhuman mammals (systematic review)"
+   },
+   {
+    "cite_key": "Leenaars2019a",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Objective measures, amongst which determination of the concentrations of stress hormones, can be used to aid severity assessment.",
+    "study_system": "laboratory mice (corticosterone measurement; systematic mapping review)"
+   },
+   {
+    "cite_key": "TappeTheodor2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The WWHow concept integrates intra-operative characteristics for predicting the maximum expected severity of surgical procedures.",
+    "study_system": "mice and rats (post-operative prospective severity assessment)"
+   },
+   {
+    "cite_key": "Reiber2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In conclusion, the bioinformatics approach confirmed the suitability of the composite measure schemes for evidence-based comparative severity assessment in adult and young mice.",
+    "study_system": "laboratory mice (bioinformatics-based severity assessment tool)"
+   },
+   {
+    "cite_key": "Smith2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The examples of severity classification given in Annex VIII are limited in number, and have little descriptive power to aid assignment.",
+    "study_system": "laboratory animal procedures (EU Directive severity classification; consensus guidance)"
+   },
+   {
+    "cite_key": "DeVleeschauwer2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This, in turn, may lead to inconsistencies in severity classification between countries, within countries and even within institutions.",
+    "study_system": "laboratory animal procedure severity classification (Belgium; Directive 2010/63)"
+   },
+   {
+    "cite_key": "Manthey2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The results were assessed comparatively and showed a significant increase in performance in all categories (-value < 0.001).",
+    "study_system": "animal-science course participants (stress-severity assessment training)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 3,
+    "issue": "Conflict [6] one-sided: only the pessimistic 'too subjective/underspecified' side is given. Manthey2021 (the countervailing side) is omitted — an in-training exercise significantly improved personnel's ability to recogni",
+    "fix": "Cite Manthey2021 and hedge: severity judgement is subjective and the categories under-specified (Smith2018, Leenaars2019a), yet targeted training measurably imp"
+   },
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 4,
+    "issue": "The claim faithfully quotes Leenaars2019a, but the same package contains numerous validated/emerging evidence-based severity tools (TappeTheodor2022 — replicated; Reiber2023; Morton2023; Talbot2023; Leitner2026). Present",
+    "fix": "Hedge: 'robust, cross-model-validated methods remain scarce, though a growing set of evidence-based severity tools is being developed and validated {cite:p}`Tap"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_bc32d4cab29c160b",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Across euthanasia — the endpoint the welfarist tradition treats as no harm — reviews find no method that is humane across species and life stages, active disagreement over whether volatile agents refine on carbon dioxide, and continuing searches for alternatives.",
+  "citation_keys": [
+   "Hawkins2016",
+   "Clarkson2022",
+   "Marquardt2018",
+   "DominguezOliva2023",
+   "AxiakFlammer2019",
+   "Clarkson2023",
+   "Saarinen2025",
+   "Kohler2017"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replicated",
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether volatile inhalant anaesthetics are a genuine welfare refinement over CO2 for rodent euthanasia: a mouse blood-catecholamine study finds CO2 more stressful than isoflurane/sevoflurane, whereas ",
+   "Whether volatile inhalant anaesthetics are a genuine welfare refinement over CO2 for rodent euthanasia: a mouse blood-catecholamine study finds CO2 more stressful than isoflurane/sevoflurane, whereas "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Hawkins2016",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, there is a lack of consensus regarding what methods of killing are humane for many species and stages of development.",
+    "study_system": "laboratory animal euthanasia (expert consensus meeting; mice, rats, zebrafish)"
+   },
+   {
+    "cite_key": "Clarkson2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The evidence supports the conclusion that scientists and laboratory personnel should seek to avoid killing laboratory rodents by exposing them to carbon dioxide (CO2), unless exploiting its high-throughput advantage.",
+    "study_system": "laboratory rodent humane killing (review of methods)"
+   },
+   {
+    "cite_key": "Marquardt2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The rise in catecholamine concentrations suggests that CO2 exposure might be linked to a higher stress response compared to isoflurane and sevoflurane exposure, although we did not observe a behavioral correlate for that.",
+    "study_system": "laboratory mice (NMRI, C57Bl/6J; experimental euthanasia comparison)"
+   },
+   {
+    "cite_key": "DominguezOliva2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This study aimed to evaluate pain associated with six methods of euthanasia in Wistar rats (injectable, inhalational, and physical), by applying the Rat Grimace Scale (RGS), comparing the scores, and determining the method with the highest score that might indicate pain for labor",
+    "study_system": "Wistar rats (experimental Rat Grimace Scale evaluation of euthanasia methods)"
+   },
+   {
+    "cite_key": "AxiakFlammer2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "A conclusion from this process was that alternatives to CO2 were urgently required, including a program of research and extension to meet the needs for humane killing of these animals.",
+    "study_system": "laboratory animal euthanasia (Swiss expert symposium on CO2 alternatives)"
+   },
+   {
+    "cite_key": "Clarkson2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Hence, gradual decompression could be the basis of significant refinement for killing laboratory mice.",
+    "study_system": "laboratory mice (experimental humane-killing welfare comparison)"
+   },
+   {
+    "cite_key": "Saarinen2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Zebrafish are widely used in research, accounting for approximately 50% of all laboratory fish across Europe.",
+    "study_system": "zebrafish euthanasia (electrical stunning in housing aquaria)"
+   },
+   {
+    "cite_key": "Kohler2017",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Consequently, the currently recommended methods of euthanasia in the Directive 2010/63/EU are either not applicable or may interfere with research goals.",
+    "study_system": "Zebrafish; euthanasia methods (workshop white paper)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_49f8b5e9ffb46941",
+  "section_id": "sec-data-welfare",
+  "claim_text": "On cumulative harm, a fifteen-year database of blood markers from thirty-nine rhesus monkeys found no support for long-term cumulative effects of implants, fluid control, and repeated procedures, and is offered as a reassuring reference for severity assessment; against this, telomere attrition is proposed as an objective, dose-dependent molecular record of an animal's lifetime negative experience — a biomarker that would, by construction, register cumulative wear that conventional blood markers miss.",
+  "citation_keys": [
+   "Wegener2021",
+   "Bateson2015"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether repeated 'mildly severe' laboratory procedures produce measurable long-term cumulative harm: an NHP blood-marker dataset detects none, whereas the telomere-attrition framework predicts cumulat",
+   "Whether repeated 'mildly severe' laboratory procedures produce measurable long-term cumulative harm: an NHP blood-marker dataset detects none, whereas the telomere-attrition framework predicts cumulat"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Wegener2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "A careful analysis of indicative primate blood markers for chronic inflammation, hydration status, and stress levels, their comparison to baseline values from both the same animals and the literature, and evaluation of additional hematologic, physiological, and behavioral paramet",
+    "study_system": "non-human primates (rhesus macaques) in neuroscience research"
+   },
+   {
+    "cite_key": "Bateson2015",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "I propose that telomere attrition, a cellular biomarker of biological age, provides a molecular measure of cumulative experience that could be used to assess the welfare impact of husbandry regimes and/or experimental procedures on non-human animals.",
+    "study_system": "cumulative welfare / severity biomarker (review; mice, chickens, humans)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 3,
+    "issue": "Conflict [3] fully suppressed: Wegener2021 (15-yr NHP blood-marker dataset finds NO cumulative harm) and Bateson2015 (telomere attrition as cumulative-severity biomarker predicting harm conventional markers miss) are BOT",
+    "fix": "Add a sentence in the Refinement/severity paragraph noting the open dispute: repeated 'mild' procedures may impose cumulative damage conventional markers miss ("
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_5caf70956e6edeb8",
+  "section_id": "sec-data-welfare",
+  "claim_text": "On acute severity, the standard instrument fares no better unaided: in a rat liver-cirrhosis surgery model the usual welfare score-sheet parameters were insufficient to predict death until the cut-offs were retrospectively re-optimised, whereas an evidence-based behavioural and biochemical analysis of electrical kindling concluded that a simple welfare measure was a valid basis for grading severity.",
+  "citation_keys": [
+   "Krueger2023",
+   "Moller2018"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "In a rat surgery/cirrhosis model, standard severity score-sheet parameters were found insufficient to predict mortality, whereas a rat kindling study concludes that a single simple measure (nest scori",
+   "In a rat surgery/cirrhosis model, standard severity score-sheet parameters were found insufficient to predict mortality, whereas a rat kindling study concludes that a single simple measure (nest scori"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Krueger2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In general, scores exceeding 20 were defined as the humane endpoint, and animals were euthanased immediately.",
+    "study_system": "Male Sprague Dawley rats; bile-duct-ligation liver cirrhosis surgery; retrospective severity score-sheet"
+   },
+   {
+    "cite_key": "Moller2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The findings argue against a persistent level of pronounced distress and suggest a classification of the kindling paradigm as a model with moderate severity based on a longer-lasting mild impact on animal behavioral patterns.",
+    "study_system": "Rats; electrical kindling epilepsy model; evidence-based severity assessment"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 3,
+    "issue": "Conflict [12] fully suppressed: Krueger2023 (standard score-sheet parameters insufficient to predict death in a rat cirrhosis model) and Moller2018 (a simple evidence-based severity classification is valid) are BOTH unci",
+    "fix": "Add both: routine score-sheets can fail to predict mortality and need model-specific re-calibration (Krueger2023), even as comprehensive evidence-based analyses"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_904a941dad20a3b7",
+  "section_id": "sec-data-welfare",
+  "claim_text": "One position holds that in translational research replacement should be prioritised over all other considerations, treating animal models as an epistemically and ethically failing paradigm, a stance reinforced by regulatory roadmaps to reduce animal testing and steep growth in non-animal-method publications.",
+  "citation_keys": [
+   "Fruhwein2025",
+   "Lei2026",
+   "PetrescuMag2025"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "replication_unknown"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether new approach methodologies can and should completely replace animals now (replacement as an overriding imperative) versus the position that animal models remain essential for understanding com",
+   "Whether new approach methodologies can and should completely replace animals now (replacement as an overriding imperative) versus the position that animal models remain essential for understanding com"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Fruhwein2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In this context, replacement emerges as the key principle-an imperative that should be prioritized over all other considerations.",
+    "study_system": "preclinical/translational animal research (critical epistemological-ethical analysis)"
+   },
+   {
+    "cite_key": "Lei2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The aim is to address the longstanding challenges of conventional preclinical safety assessment using animal models, including poor translational predictability, high cost, ethical concerns, and inherent interspecies biological differences, resulting in high clinical attrition an",
+    "study_system": "FDA NAMs roadmap (replacement in drug safety assessment)"
+   },
+   {
+    "cite_key": "PetrescuMag2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Our findings reveal a steep increase in NAMs publications since 2015, with in vitro and in silico approaches at the forefront.",
+    "study_system": "toxicology new approach methodologies (bibliometric analysis and review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_f81f2224341f6394",
+  "section_id": "sec-data-welfare",
+  "claim_text": "The opposing position holds that animal models remain essential for understanding complex disease pathogenesis and progression.",
+  "citation_keys": [
+   "MartinezLopez2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether new approach methodologies can and should completely replace animals now (replacement as an overriding imperative) versus the position that animal models remain essential for understanding com",
+   "Whether new approach methodologies can and should completely replace animals now (replacement as an overriding imperative) versus the position that animal models remain essential for understanding com"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "MartinezLopez2023",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Experimentation in animal models is essential to understand the pathogenesis of human diseases and, considering the high prevalence of liver disease worldwide, to understand the pathophysiology of disease progression and the molecular pathways involved, due to the complexity of t",
+    "study_system": "experimental liver disease animal models (3Rs review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_a3c752ab14c0fb3e",
+  "section_id": "sec-data-welfare",
+  "claim_text": "The middle ground is empirical and sobering: an expert workshop concluded that despite academic enthusiasm, microphysiological systems have not been widely adopted by industry nor reached regulated authorisation, with assay qualification and a stakeholder communication gap the major barriers, and mapping reviews of organ-on-chip stress that clear evidence standards for when a model may replace animals are still lacking.",
+  "citation_keys": [
+   "Marx2020",
+   "Weidema2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Transformative promise vs adoption reality for microphysiological systems: one frames MPS as already revolutionizing drug development and reducing animal use, while the expert workshop documents that "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Marx2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Despite the MPS hype in academia and by platform providers, which says this technology is about to reshape the entire in vitro culture landscape in basic and applied research, MPS approaches have neither been widely adopted by the pharmaceutical industry yet nor reached regulated",
+    "study_system": "microphysiological systems / organ-on-chip (drug development; Replacement adoption)"
+   },
+   {
+    "cite_key": "Weidema2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "OoCs promise to enhance drug discovery, reduce dependence on animal models, and enable personalized treatments.",
+    "study_system": "organ-on-chip replacement models (ethics mapping review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_6916b09b14d5b4e6",
+  "section_id": "sec-data-welfare",
+  "claim_text": "A standing objection to Reduction is that it fights reproducibility: rigid standardisation to minimise variance produces results that do not generalise, so cutting animal numbers might buy fragility.",
+  "citation_keys": [
+   "Karp2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Karp2021",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "As there is no perfect experiment for the question being considered, it means we should acknowledge the strengths and weaknesses of our experiments when reporting our results.",
+    "study_system": "preclinical animal experimental design (case studies)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_21b3e277813304aa",
+  "section_id": "sec-data-welfare",
+  "claim_text": "An empirical six-laboratory experiment found that a simple form of population heterogenisation, though it raised within-experiment variation, was too weak to overcome the large between-laboratory variation, so standardisation alone does not guarantee reproducibility.",
+  "citation_keys": [
+   "Richter2011"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "An empirical six-laboratory test found simple within-study heterogenization too weak to overcome between-laboratory variation, whereas a simulation across 440 studies concludes that multi-laboratory d",
+   "An empirical six-laboratory test found simple within-study heterogenization too weak to overcome between-laboratory variation, whereas a simulation across 440 studies concludes that multi-laboratory d"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Richter2011",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Although heterogenization significantly increased within-experiment variation relative to between-experiment variation, the effect was too weak to account for the large variation between laboratories and improve reproducibility substantially.",
+    "study_system": "Mice (C57BL/6NCrl, DBA/2NCrl); six-laboratory behavioural study"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_39f6cf7ad3a6d316",
+  "section_id": "sec-data-welfare",
+  "claim_text": "A simulation across hundreds of studies reached a more optimistic conclusion: multi-laboratory designs using as few as two to four laboratories increased the reproducibility of effect-size estimates substantially without any need for larger samples.",
+  "citation_keys": [
+   "Voelkl2018"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Prescription for improving preclinical reliability: increasing statistical power/sample size within a single standardized laboratory (power view) versus the finding that larger single-lab samples wors",
+   "An empirical six-laboratory test found simple within-study heterogenization too weak to overcome between-laboratory variation, whereas a simulation across 440 studies concludes that multi-laboratory d"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Voelkl2018",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Therefore, although the studies were sufficiently powered (>0.8) to detect a treatment effect, single-laboratory studies failed to predict the true effect size accurately in more than half of the cases.",
+    "study_system": "preclinical animal studies (simulation; stroke/MI/breast cancer)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 2,
+    "issue": "Incorrect quantitative attribution on a landmark citation. The prose states the analysis used '50 real preclinical studies'. Voelkl et al. 2018 actually used 440 preclinical studies across 13 interventions (stroke, myoca",
+    "fix": "Replace 'Using data from 50 real preclinical studies' with 'Using data from 440 preclinical studies across 13 interventions (stroke, myocardial infarction and b"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_5f1e453a3471f8dd",
+  "section_id": "sec-data-welfare",
+  "claim_text": "A single-laboratory \"mini-experiment\" that splits a study across time points improved reproducibility in about half of tested effects using the *same* total number of animals, and a multi-laboratory reproducibility test in insects found the direction and significance of effects far more reproducible than their magnitudes, echoing the rodent pattern.",
+  "citation_keys": [
+   "vonKortzfleisch2020",
+   "Mundinger2025"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "vonKortzfleisch2020",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In line with this, our study demonstrate that the mini-experiment design led to more reproducible results compared to the conventionally standardised design in about half of all investigated treatment effects, even though the total number of animals used was identical.",
+    "study_system": "Mice (four inbred strains); single-laboratory mini-experiment vs conventional design"
+   },
+   {
+    "cite_key": "Mundinger2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "We were able to reproduce the overall statistical significance of the treatment effect in 83% of the replicate experiments; however, reproducing the overall effect size was successful in only 66%, while both criteria were achieved in 58% of cases.",
+    "study_system": "Insects (turnip sawfly, meadow grasshopper, red flour beetle); 3x3 multi-laboratory design"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_7b09fa0e049cf5d6",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Systematic reviews of over a thousand direct comparisons find that environmentally enriched animals are not more variable than barren-housed ones — sometimes less — refuting the claim that welfare-improving housing undermines standardisation, a result anticipated by earlier work showing enrichment raised neither individual variability nor the risk of conflicting replicate outcomes.",
+  "citation_keys": [
+   "Kentner2021",
+   "Wolfer2004",
+   "Lewejohann2005"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Kentner2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Using pairedtests, we found no differences between EE and standard housed mice or rats on CVs across traits (> 0.05), regardless of control housing type (e.g., running wheel, isolated, social/group housing) or whether animals were naive or manipulated/treated (e.g., drug treated,",
+    "study_system": "laboratory mice and rats (environmental enrichment; phenotypic variability; systematic review)"
+   },
+   {
+    "cite_key": "Wolfer2004",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Here we show that environmental enrichment increases neither individual variability in behavioural tests nor the risk of obtaining conflicting data in replicate studies.",
+    "study_system": "laboratory mice (C57BL/6, DBA; enrichment and reproducibility)"
+   },
+   {
+    "cite_key": "Lewejohann2005",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, with regard to the differences between enriched and unstructured housing conditions, overall consistent results were achieved by different experimenters in both laboratories.",
+    "study_system": "C57BL/6 mice (housing, laboratory and experimenter effects on behaviour)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_abe77ba2ae4212d5",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Better design and confirmatory multi-laboratory studies improve reproducibility while holding or lowering animal numbers, and the housing that improves welfare tends to improve data quality rather than degrade it.",
+  "citation_keys": [
+   "vonKortzfleisch2020",
+   "Rotter2026",
+   "Cait2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "vonKortzfleisch2020",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In line with this, our study demonstrate that the mini-experiment design led to more reproducible results compared to the conventionally standardised design in about half of all investigated treatment effects, even though the total number of animals used was identical.",
+    "study_system": "Mice (four inbred strains); single-laboratory mini-experiment vs conventional design"
+   },
+   {
+    "cite_key": "Rotter2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In a unique funding call, 17 studies in Germany aimed to confirm exploratory findings across various biomedical research fields in a rigorously planned and executed multi-laboratory set-up.",
+    "study_system": "preclinical confirmatory multi-laboratory studies (Germany, 17 projects)"
+   },
+   {
+    "cite_key": "Cait2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Together, they indicate that typical research rodents should be termed ‘CRAMPED’ (cold, rotund, abnormal, male-biased, poorly surviving, enclosed and distressed).",
+    "study_system": "laboratory mice and rats (meta-analysis of housing effects)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "Cait2022 is attached, in two places, to claims it does not support. Cait2022 is a meta-analysis showing that conventional (barren) laboratory housing increases rodent morbidity and mortality relative to enriched housing ",
+    "fix": "Remove Cait2022 from both citation groups (the surrounding co-citations already support each claim), or relocate it to a claim about welfare-improving husbandry"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_42b8e37610392712",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Scoping the field, found compassion fatigue the most frequently described work-related stress yet no study empirically linking that stress to research quality, and surveys document the fatigue at scale: most laboratory-animal personnel report having experienced it, poorer professional quality of life tracks less enrichment, physical euthanasia methods, and less control over performing euthanasia, and staff attribute the strain more to institutional culture than to the animal work itself.",
+  "citation_keys": [
+   "Morahan2024",
+   "Thurston2021",
+   "LaFollette2020",
+   "Young2024",
+   "Rumpel2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Morahan2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Compassion fatigue was the most frequently described work-related stress, and its prevalence across Europe and North America is likely to be widespread.",
+    "study_system": "laboratory animal personnel (scoping review)"
+   },
+   {
+    "cite_key": "Thurston2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "A total of 86% of participants had experienced CF at some point in their career, with 41% experiencing a CF event (new or worsening symptoms of CF) during the pandemic.",
+    "study_system": "laboratory animal personnel (compassion fatigue; COVID-19 survey)"
+   },
+   {
+    "cite_key": "LaFollette2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Personnel who reported higher compassion fatigue also reported lower social support, higher animal stress/pain, higher desire to implement more enrichment, and less control over performing euthanasia ('s < 0.05).",
+    "study_system": "US/Canada laboratory animal personnel (professional quality of life; compassion fatigue)"
+   },
+   {
+    "cite_key": "Young2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In response to open-ended questions, participants said their compassion fatigue was impacted by institutional culture (70% of participants), animal research (58%), general mental health (41%), and specific compassion fatigue support (24%).",
+    "study_system": "US laboratory animal personnel (professional quality of life; compassion fatigue)"
+   },
+   {
+    "cite_key": "Rumpel2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Tasks like the euthanasia of surplus animals or being unable to alleviate animal distress due to scientific needs emerged as job-specific stressors.",
+    "study_system": "laboratory animal professionals in German-speaking countries (psychological strain; culture of care)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_e7bdab40bb4ba2eb",
+  "section_id": "sec-data-welfare",
+  "claim_text": "The interventions are not obviously working — an exploratory survey concluded a culture of care is not yet fully established despite two decades of promotion, and the first multi-year controlled trial of resiliency programmes found no significant change in professional quality of life, a negative result worth stating plainly.",
+  "citation_keys": [
+   "Ameli2025",
+   "Young2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Ameli2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The results allow for the initial conclusion that a Culture of Care has not been fully established yet.",
+    "study_system": "German animal-research experts (survey on Culture of Care implementation)"
+   },
+   {
+    "cite_key": "Young2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Therefore, there is a gap in the long-term evaluation of compassion fatigue resiliency programs for personnel that work with animals in research.",
+    "study_system": "laboratory animal personnel across five organizations (2-year pre-post longitudinal trial)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_d580f607ba5bda7a",
+  "section_id": "sec-data-welfare",
+  "claim_text": "An industry working group built a culture-of-care framework but cautioned it must *not* be used as an auditing or benchmarking instrument, only as a starting point for reflection within each establishment's constraints, lest it degrade into a tick-box exercise.",
+  "citation_keys": [
+   "Robinson2019"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "How to assess culture of care: caution against objective auditing/benchmarking that risks becoming a tick-box exercise versus advocacy for more objective, measurable animal-centric 3Rs-based indicator",
+   "How to assess culture of care: caution against objective auditing/benchmarking that risks becoming a tick-box exercise versus advocacy for more objective, measurable animal-centric 3Rs-based indicator"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Robinson2019",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "To prevent it supporting a 'tick-box' exercise, the framework must not be used as an auditing tool, but as a starting point for consideration and discussion about how care manifests within the context and constraints of individual establishments.",
+    "study_system": "European pharmaceutical industry animal research (Culture of Care framework)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_d418de153ab1f760",
+  "section_id": "sec-data-welfare",
+  "claim_text": "A concept paper argues the opposite: most current indicators are human-centric and subjective, and the remedy is *more* objective, measurable, animal-centric criteria assessed separately for each of the 3Rs.",
+  "citation_keys": [
+   "Hawkins2019"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "How to assess culture of care: caution against objective auditing/benchmarking that risks becoming a tick-box exercise versus advocacy for more objective, measurable animal-centric 3Rs-based indicator",
+   "How to assess culture of care: caution against objective auditing/benchmarking that risks becoming a tick-box exercise versus advocacy for more objective, measurable animal-centric 3Rs-based indicator"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Hawkins2019",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Many currently-used criteria and indicators tend to be human-centric and subjective, and we suggest using further objective indicators and animal-centric, 3Rs-based criteria.",
+    "study_system": "culture of care assessment (concept paper)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_0ec9cea7e256702a",
+  "section_id": "sec-data-welfare",
+  "claim_text": "Extending the 3Rs to the wellbeing of the people who do the work, and building safe channels such as incident-reporting systems, are efforts to make that stewardship a lived norm rather than a poster.",
+  "citation_keys": [
+   "Ferrara2022",
+   "Amarasekara2022",
+   "Enkelmann2023"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Ferrara2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Overall, the discussion has shown that we must also promote human wellbeing when promoting culture of care in animal research, because there is strong relationship between culture of care and individual performance.",
+    "study_system": "culture of care / animal-care personnel wellbeing (panel discussion)"
+   },
+   {
+    "cite_key": "Amarasekara2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Even though several tools for assessing the culture of care within an institution have been proposed, an ultimate standard for measuring the concept is lacking.",
+    "study_system": "laboratory animal science culture of care (review/proposal)"
+   },
+   {
+    "cite_key": "Enkelmann2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "CIRS-LAS is open to all individuals working with laboratory animals worldwide and currently exists with 303 registered members, 52 reports, and an average of 71 visitors per month.",
+    "study_system": "laboratory animal science critical-incident reporting system (CIRS-LAS)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_35f9f6f03212b749",
+  "section_id": "sec-data-welfare",
+  "claim_text": "The through-line connects the human and animal costs: euthanising surplus animals and being unable to alleviate distress are among the strongest job-specific stressors reported, in a workforce where nearly everyone has performed euthanasia and where the strain is attributed to institutional culture more than to the animal work itself, so a system that breeds and kills animals to regenerate data it already produced imposes a double harm — on the animals wasted and on the people who must waste them.",
+  "citation_keys": [
+   "LaFollette2020",
+   "Rumpel2026",
+   "GoniBalentziaga2021",
+   "Young2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "LaFollette2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Personnel who reported higher compassion fatigue also reported lower social support, higher animal stress/pain, higher desire to implement more enrichment, and less control over performing euthanasia ('s < 0.05).",
+    "study_system": "US/Canada laboratory animal personnel (professional quality of life; compassion fatigue)"
+   },
+   {
+    "cite_key": "Rumpel2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Tasks like the euthanasia of surplus animals or being unable to alleviate animal distress due to scientific needs emerged as job-specific stressors.",
+    "study_system": "laboratory animal professionals in German-speaking countries (psychological strain; culture of care)"
+   },
+   {
+    "cite_key": "GoniBalentziaga2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "A small percentage of animal caretakers/technicians (11/21 %) and researchers (29/11,4 %) reported that they were never given the choice not to euthanize the rodents they work with (Fig.c).",
+    "study_system": "laboratory rodent personnel in Spain (researchers, caretakers, welfare officers; survey)"
+   },
+   {
+    "cite_key": "Young2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In response to open-ended questions, participants said their compassion fatigue was impacted by institutional culture (70% of participants), animal research (58%), general mental health (41%), and specific compassion fatigue support (24%).",
+    "study_system": "US laboratory animal personnel (professional quality of life; compassion fatigue)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_bb4c2a6bfaeed632",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "The FAIR Principles frame good data management not as an end in itself but as the conduit to knowledge discovery and to downstream reuse by both humans and machines.",
+  "citation_keys": [
+   "Wilkinson2016"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Governance orientation of data reuse: the FAIR principles frame maximal findability, accessibility and community reuse of data as the goal, whereas the CARE Principles / Indigenous Data Sovereignty in"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Wilkinson2016",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Good data management is not a goal in itself, but rather is the key conduit leading to knowledge discovery and innovation, and to subsequent data and knowledge integration and reuse by the community after the data publication process.",
+    "study_system": "FAIR guiding principles for scholarly data (foundational statement)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_10c74acd408699e0",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "The principles have proved extraordinarily influential — a bibliometric analysis of 2,529 documents on data governance and open sharing found the FAIR paper to be the most-cited reference in the field — and they have spawned a substantial apparatus.",
+  "citation_keys": [
+   "Qiu2025"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replication_unknown"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Qiu2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "A total of 2529 valid documents published in the Web of Science Core Collection database from 2000 to 2024 were included in this study.",
+    "study_system": "Data governance and open sharing literature (life sciences/medicine bibliometrics)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_f454acf779d90621",
+  "section_id": "sec-fair-preclinical",
+  "claim_text": "Abstract principles were translated into quantifiable metrics implemented in open-source assessment tools such as F-UJI; maturity models and crosswalks now let a repository score its own compliance across dimensions, and one such crosswalk of three established approaches found strong correlations in the discovery and accessibility dimensions.",
+  "citation_keys": [
+   "Devaraju2021",
+   "Peng2022",
+   "Corcho2024"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Devaraju2021",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "This paper offers two essential contributions to the FAIR assessment of research data objects: a set of core quantifiable FAIR metrics and an open-source tool, F-UJI, that applies the metrics to measure the progress of FAIR aspects of data programmatically.",
+    "study_system": "Research data objects in trustworthy repositories (automated FAIR assessment)"
+   },
+   {
+    "cite_key": "Peng2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Strong correlations are found in data discovery, accessibility, interoperability, and usability due to overlapping requirements in digital object management.",
+    "study_system": "Repository stewardship maturity assessment approaches (CoreTrustSeal/DSMM/FAIR crosswalk)"
+   },
+   {
+    "cite_key": "Corcho2024",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In addition, we analysed a collection of 26 semantic artefacts catalogues, aiming, on the one hand, at completing the maturity model by adding additional features (or sub-criteria) for each of the dimensions identified and, on the other hand, at showing how existing catalogues co",
+    "study_system": "Catalogues of semantic artefacts (ontologies/vocabularies)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ }
+]

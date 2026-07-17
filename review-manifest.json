@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0.0",
+  "review": {
+    "title": "The Ethical Debt: Why wasting animal data is wasting animal lives",
+    "abstract": "A computational critical review of data welfare, FAIR preclinical data, the 3Rs, virtual control groups, new approach methodologies, research incentives, and governance. It argues that allowing animal-derived data to become unfindable, unusable, or unreused creates an ethical debt because the welfare cost of producing those data has already been paid.",
+    "reviewType": "computational-literature-review",
+    "language": "en",
+    "keywords": [
+      "data welfare",
+      "animal welfare",
+      "3Rs",
+      "FAIR data",
+      "virtual control groups",
+      "new approach methodologies",
+      "reproducible research",
+      "TRUST"
+    ],
+    "domains": [
+      "preclinical research",
+      "animal welfare",
+      "research data management",
+      "open science"
+    ],
+    "license": "MIT"
+  },
+  "repository": {
+    "url": "https://github.com/dhuzard/ethical-debt-AI-review"
+  },
+  "contact": {
+    "name": "Damien Huzard",
+    "orcid": "0000-0003-4820-7951",
+    "url": "https://orcid.org/0000-0003-4820-7951"
+  },
+  "contributors": [
+    {
+      "displayName": "Damien Huzard",
+      "givenName": "Damien",
+      "familyName": "Huzard",
+      "orcid": "0000-0003-4820-7951",
+      "githubLogin": "dhuzard",
+      "roles": [
+        "Conceptualization",
+        "Methodology",
+        "Validation",
+        "Writing – review & editing"
+      ]
+    },
+    {
+      "displayName": "Claude (AI research tool)",
+      "roles": [
+        "Investigation",
+        "Data Curation",
+        "Writing – original draft",
+        "Visualization",
+        "Formal Analysis"
+      ]
+    },
+    {
+      "displayName": "Codex (AI research tool)",
+      "roles": [
+        "Writing – review & editing",
+        "Software"
+      ]
+    }
+  ],
+  "artifacts": {
+    "claims": "knowledge/oratlas/claims.jsonl",
+    "citations": "knowledge/oratlas/citations.jsonl",
+    "relations": "knowledge/oratlas/relations.jsonl",
+    "trustAssessments": "knowledge/oratlas/trust-assessments.jsonl",
+    "provenance": "knowledge/oratlas/provenance.json"
+  }
+}

@@ -28,7 +28,8 @@ project:
     - plugins/authorship-plugin.mjs
     - plugins/evidence-explorer-plugin.mjs
     - plugins/figure-lightbox-plugin.mjs
-  github: https://github.com/AllenNeuralDynamics/ComputationalReviewTemplate
+    - plugins/trust-claim-plugin.mjs
+  github: https://github.com/dhuzard/ethical-debt-AI-review
   bibliography:
     - content/references.bib
   toc:
@@ -42,6 +43,8 @@ project:
     - file: content/07_incentives.md
     - file: content/08_governance_pathways.md
     - file: content/09_conclusion.md
+    - file: content/trust_summary.md
+      title: Citation Trust Summary
     - file: content/Methods.md
       title: Methods
     - file: content/evidence_database.md

@@ -1,0 +1,56 @@
+{
+  "schema_version": "2.0.0",
+  "rubric_version": "2.0.0",
+  "gate_id": "phase_16T_trust_score_validation_v2",
+  "status": "pass",
+  "validated_at": "2026-07-16T09:53:30.688Z",
+  "validator": "node scripts/validate-trust.js",
+  "inputs": [
+    "content/01_introduction.md",
+    "content/02_reproducibility_crisis.md",
+    "content/03_data_welfare_3rs.md",
+    "content/04_fair_preclinical_data.md",
+    "content/05_virtual_control_groups.md",
+    "content/06_nams_data.md",
+    "content/07_incentives.md",
+    "content/08_governance_pathways.md",
+    "content/09_conclusion.md",
+    "content/references.bib",
+    "knowledge/TRUST_RUBRIC.md",
+    "knowledge/claim_graph.json",
+    "knowledge/claim_seed_index.json",
+    "knowledge/examples/claim_context.example.json",
+    "knowledge/schemas/claim_context.schema.json",
+    "knowledge/schemas/claim_graph.schema.json",
+    "knowledge/schemas/trust_score.schema.json"
+  ],
+  "outputs": [
+    "knowledge/claim_index.json",
+    "knowledge/trust_score_report.json",
+    "provenance/gate_trust_scores.json"
+  ],
+  "checks": {
+    "deterministic_claim_ids": true,
+    "schema_contract_integrity": true,
+    "exact_prose_anchors": true,
+    "atom_level_citation_attribution": true,
+    "verified_passage_provenance": true,
+    "derived_evidence_relation_integrity": true,
+    "surface_wording_attribution": true,
+    "independence_group_integrity": true,
+    "bibliography_key_doi_alignment": true,
+    "component_rule_integrity": true,
+    "score_formula_integrity": true,
+    "label_integrity": true,
+    "cap_integrity": true,
+    "edge_integrity": true,
+    "derived_artifact_integrity": true
+  },
+  "counts": {
+    "claims": 529,
+    "citation_contexts": 1392,
+    "verified_passages": 1408,
+    "failures": 0
+  },
+  "failures": []
+}

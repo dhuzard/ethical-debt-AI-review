@@ -1,0 +1,1022 @@
+{
+ "clm_b864fe81cf3efc58": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The normative 'should never' matches Foster2026 ('should never supersede a weight-of-evidence evaluation') and Elmore2009 verbatim; has_conflict_source flags that real-world practice deviates, but the claim is a consensus principle, not an empirical universal, so the strong wording is well-calibrated.",
+   "evidence": ["Foster2026 abstract: HCD 'should not be used in isolation ... should never supersede'", "Elmore2009 full_text: concurrent control 'most relevant control data'"],
+   "failure_modes": [],
+   "recommended_fix": "None; wording tracks the sources."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Scoped to the pathology / rodent lifetime-carcinogenicity literature, exactly the study systems of both cited sources.",
+   "evidence": ["study_system: rodent lifetime carcinogenicity bioassays; NTP HCD (B6C3F1 mice)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "established",
+  "claim_polarity": "neutral",
+  "claim_scope": {
+   "biological": "rodent lifetime carcinogenicity bioassays",
+   "computational": null,
+   "clinical": null,
+   "methodological": "historical vs concurrent control use in toxicologic pathology",
+   "conceptual": "weight-of-evidence primacy over historical controls"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_29b038eba86837ce": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Hedges appropriately ('only a supporting input', 'can flip a marginal call'); the D5 four-set example is attributed to Young2016, and has_conflict_source (vanadium re-analysis) is consistent with the cautionary framing.",
+   "evidence": ["Young2016 abstract: 'Four sets of (historical) control groups ... with varying heterogeneity'", "Elmore2009: concurrent control most relevant"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stays within rodent carcinogenicity HCD (D5 rat bioassay; NTP mice); no extrapolation beyond the sources' systems.",
+   "evidence": ["study_system: D5 F344 rat uterine adenocarcinoma; NTP HCD"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": "rodent carcinogenicity bioassays (D5 rat; NTP mice)",
+   "computational": null,
+   "clinical": null,
+   "methodological": "range statistics; historical vs concurrent control selection",
+   "conceptual": "outlier sensitivity can flip marginal calls"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_1a2d92b732c7ead4": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Specific figures (92%, up to 204.5%) are precisely attributed to the Monte-Carlo/simulation sources and hedged ('can inflate ... unless significance levels are recalibrated'); no conflict source and no overclaim.",
+   "evidence": ["Linkov1998 abstract: 'About 92% of chemicals ... significant tumor rate decrease'", "Lin2018 abstract: 'as high as 204.5% of the false negative rate'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to NTP rodent bioassay multiplicity/simulation, matching both sources.",
+   "evidence": ["study_system: NTP rodent cancer bioassays (Monte-Carlo); rodent carcinogenicity simulation (FDA)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "NTP rodent carcinogenicity bioassays",
+   "computational": "Monte-Carlo / simulation",
+   "clinical": null,
+   "methodological": "multiplicity in tumour-site comparisons",
+   "conceptual": "spurious significance from multiple testing"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_1eb0cb83287f9af1": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The >50% figure is directly from Schimera2025; the general test-choice clause is supported by Green2014 and Rahman2008 and is stated as a tendency ('materially shifts'), consistent with single-study/simulation evidence.",
+   "evidence": ["Schimera2025: 'Significant differences ... in more than 50% of the comparisons ... before test item application'", "Rahman2008/Green2014: test-choice effects on FP/FN rates"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "The ecological >50% result is kept to Collembola field studies; the second, general clause about test choice is appropriately non-domain-specific and jointly supported by aquatic (Green2014) and rodent (Rahman2008) simulations.",
+   "evidence": ["study_system: Collembola field ecotox; aquatic solvent controls; rodent carcinogenicity simulation"],
+   "failure_modes": ["Rahman2008 is rodent, not ecological, but supports only the general clause"],
+   "recommended_fix": "Ensure Rahman2008/Green2014 attach to the general test-choice clause, not the ecological one."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "Collembola soil / aquatic ecotoxicology; rodent comparators",
+   "computational": "simulation",
+   "clinical": null,
+   "methodological": "statistical test choice; control variability in control-vs-treated tests",
+   "conceptual": "background variability produces spurious significance"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_c335b82668db7e51": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Balanced interpretive framing ('not arguments against reusing ... must be paired with outlier-robust methods'); no conflict source and the normative synthesis matches both partial-support sources.",
+   "evidence": ["Maronpot2016: 'more reliance on historical control data ... is warranted' for variable-background tumours", "Elmore2025: 'proper statistical analyses, including ... multiple comparisons, concurrent and historical controls'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Kept within rodent carcinogenicity control-data reuse; the recommendation generalises no further than the sources warrant.",
+   "evidence": ["study_system: F344 MNCL background; n-butyl methacrylate rodent bioassay"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {
+   "biological": "rodent carcinogenicity bioassays",
+   "computational": null,
+   "clinical": null,
+   "methodological": "outlier-robust reuse of control data with multiplicity accounting",
+   "conceptual": "reuse-with-safeguards principle"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_433f2aaa72923687": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Power ranges (76.5-80.5% vs 48.8-54.1%; ~77-81% vs 49-54%) are conditioned on 'when external and trial controls are genuinely exchangeable', an explicit and correct caveat given has_conflict_source; the numbers match Wang2026 full text.",
+   "evidence": ["Wang2026 full_text: BIRTH 76.5-80.5% vs NB 48.8-54.1% vs 1:1 78.4-81.2%", "Dron2019/Gaskell2025: down-randomised control arms across designs"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to oncology basket / NSCLC / cardiac-MRI trial designs matching the three sources; explicit exchangeability precondition prevents overgeneralisation.",
+   "evidence": ["study_system: oncology basket simulation; second-line NSCLC IPD; cardiac MRI platform RCT"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": null,
+   "computational": "Bayesian hybrid-arm simulation",
+   "clinical": "oncology basket / NSCLC / cardiac-MRI RCTs",
+   "methodological": "dynamic borrowing / hybrid control-arm power",
+   "conceptual": "borrowing recovers power when exchangeable"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_6acd2ba760e6447b": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Correctly conditioned theoretical result ('when a uniformly most powerful test exists', 'strict frequentist Type I error control'); modality 'established' is justified by replicated theory, and the has_conflict_source tension with efficiency claims is precisely what the conditioning captures.",
+   "evidence": ["KoppSchneider2019: 'no power gain ... when strict control of type I error rate is required'", "Quan2019: 'type I error control denies any borrowing of favorable prior information'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Abstract statistical theory stated at the appropriate level of generality; no domain overextension.",
+   "evidence": ["study_system: statistical theory (dichotomous outcome; type I error)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "established",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": null,
+   "methodological": "frequentist type I error control vs external borrowing",
+   "conceptual": "no power gain under strict error control"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_029a2f7af41ae285": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Enumerated risks are each hedged ('can bias', 'can cause severe error inflation ... unless harmonised', 'can only attenuate, never eliminate'); wording matches the cautionary partial-support sources and the has_conflict_source note.",
+   "evidence": ["Polak2025: 'dynamic borrowing can never eliminate bias ... it can attenuate'", "Overbey2022/Zhu2022: drift/schedule mismatch bias and type I inflation"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to platform/synthetic-control trial and propensity-score-prior methodology matching the four sources.",
+   "evidence": ["study_system: open platform trials; synthetic control PFS; propensity-score power prior"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": "simulation",
+   "clinical": "platform / synthetic-control trials",
+   "methodological": "population drift, non-concurrent controls, propensity-score priors",
+   "conceptual": "borrowing attenuates but cannot eliminate confounding"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_0a33e4d3b1f41757": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Descriptive survey of dynamic-borrowing methods; each method-class is attributed to its source and framed as an aim ('in an effort to ... tune the amount borrowed'). No conflict source and no overstatement of efficacy.",
+   "evidence": ["Neuenschwander2010 (MAP prior); Hupf2021 (semiparametric MAP); Alt2024a (LEAP); Mukhopadhyay2025 (adaptive discounting)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Method-landscape claim scoped to clinical-trial borrowing, matching all seven sources' study systems.",
+   "evidence": ["study_system: phase II-IV clinical trials; rare/pediatric; historical control augmentation"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": null,
+   "computational": "Bayesian prior modelling",
+   "clinical": "clinical trials (phase II-IV; rare/pediatric)",
+   "methodological": "MAP / robust / elastic / LEAP / adaptive priors",
+   "conceptual": "tune borrowing to observed congruence"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_5277efd85b3b6ed6": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The claim is itself the caveat ('can still perform poorly when exchangeability fails ... must be checked case by case'), exactly matching has_conflict_source and the partial-support sources; ideally calibrated.",
+   "evidence": ["Alt2024b: 'operating characteristics ... can be quite poor under a lack of exchangeability'", "Lee2025b: risk of bias under prior-data conflict"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Stated generically about hybrid/external-control designs, matching the methodology sources; no overreach.",
+   "evidence": ["study_system: hybrid RCT + external control; time-to-event borrowing"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "limitation",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": "simulation",
+   "clinical": "hybrid RCT + external-control designs",
+   "methodological": "operating characteristics under non-exchangeability",
+   "conceptual": "case-by-case validation required"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_2f93ed8d7f1a7840": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Broad survey framed cautiously ('in an effort to preserve error control when sources disagree'); the has_conflict_source efficiency debate is acknowledged in the aim-language rather than asserted as settled.",
+   "evidence": ["Feit2020/Isogawa2020: type I inflation and power tradeoffs", "Tian2025/Zheng2025: adaptive borrowing tying quantity to heterogeneity"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Toolkit description scoped to clinical-trial control borrowing across binary/count/time-to-event endpoints, all covered by the 24 sources.",
+   "evidence": ["study_system: phase 2 oncology, vaccine efficacy, pediatric dose-finding, etc."],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": null,
+   "computational": "simulation across binary/count/time-to-event endpoints",
+   "clinical": "clinical-trial control borrowing",
+   "methodological": "power / MAP / distance-based / adaptive priors",
+   "conceptual": "deep, error-control-oriented borrowing toolkit"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_03678e44e399556f": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Pediatric-extrapolation claim is hedged and the 'direct statistical analogue of the preclinical VCG' is presented as an interpretive analogy, not an empirical identity; no conflict source and figures/facts match the sources.",
+   "evidence": ["GamaloSiebers2017: 80% of children treated off-label", "Schwartz2026: SPx 'substantially reduce the control group size while maintaining Frequentist properties'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Scoped to pediatric clinical trials; the cross-domain link to preclinical VCGs is explicitly flagged as an analogy, keeping scope controlled.",
+   "evidence": ["study_system: pediatric drug development; rheumatoid arthritis control-shrinking"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": "pediatric drug trials (adult-to-child extrapolation)",
+   "methodological": "dynamic borrowing shrinking control size with frequentist control",
+   "conceptual": "clinical analogue of preclinical VCG"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_e713b67ededb0a08": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "'The parallel ... is exact' is an unhedged absolute resting on a single source flagged replication='disputed', modality_seed='contested', and has_conflict_source (clinical-pathology non-reproducibility up to 49%). DuchateauNguyen2026 supports only 68.5% >=90% agreement, not an 'exact' parallel, and the causal mechanism ('hedges against the drift that pure reuse cannot detect') is author inference beyond the source.",
+   "evidence": ["DuchateauNguyen2026: '68.5% of all pairwise comparisons ... at least 90% agreement'", "conflict_notes: clinical-pathology review reports up to 49% non-reproducibility"],
+   "failure_modes": ["absolute wording ('exact') on disputed single-study evidence", "unsupported causal-mechanism assertion", "contradicting non-reproducibility evidence not caveated"],
+   "recommended_fix": "Soften 'exact' to 'close/suggestive', attribute to the single simulation, and add the conflicting non-reproducibility caveat."
+  },
+  "transferability_scope_control": {
+   "score": 2,
+   "rationale": "A single Wistar Han rat liver-enzyme VCG simulation is extended to a general 'parallel to preclinical VCGs' and to the clinical dynamic-borrowing-vs-static-pooling analogy, overreaching the source's study system.",
+   "evidence": ["study_system: Wistar Han rat ALT/ALP/AST VCG-vs-CCG simulation"],
+   "failure_modes": ["narrow single-system result generalised to a cross-domain principle"],
+   "recommended_fix": "Restrict the claim to liver-enzyme endpoints in rat toxicity simulation, or cite the clinical dynamic-borrowing sources for the analogue clause."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": "Wistar Han rat liver enzymes (ALT/ALP/AST)",
+   "computational": "VCG vs concurrent-control simulation",
+   "clinical": "analogy to dynamic borrowing",
+   "methodological": "hybrid vs full-replacement control design",
+   "conceptual": "partial reliance hedges undetected drift"
+  },
+  "evidence_relation": "overextended",
+  "cap_flags": ["overextended_scope", "contradicted_without_caveat"]
+ },
+ "clm_a9c84fc0f24ef3eb": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Prevalence figures (17%, 63%, ~44%) are precisely attributed to full-text sources with no conflict source; factual regulatory statistics stated without overreach.",
+   "evidence": ["Pignatti2026/Vennin2026: 17% of EMA 2016-2021 approvals; 63% acceptance", "Taylor2025: 12/27 (44.4%) MM approvals used RWE"],
+   "failure_modes": ["Pignatti2026 and Vennin2026 may report the same underlying 17%/63% source"],
+   "recommended_fix": "Confirm the two 17%/63% citations are not double-counting a single primary analysis."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Kept to EMA/FDA oncology and multiple-myeloma approvals, matching the sources.",
+   "evidence": ["study_system: EMA 2016-2021 oncology; FDA+EMA 2021-2025 MM"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": "EMA/FDA oncology and multiple-myeloma approvals",
+   "methodological": "external control arms / RWE in regulatory submissions",
+   "conceptual": "regulatory adoption of external controls"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_8c2d241af267b282": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "'Vanishingly rare' is backed by concrete figures (7/1,115 = 0.6%; 8.3%) and 'all retrospectively' is attributed; no conflict source and the characterisation matches the data.",
+   "evidence": ["Hartley2025: 'only seven (0.6%) used an external control arm'", "Arondekar2021: '11 (8.3%) included RWE in support of efficacy'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Core figures are within their datasets, but 'remains vanishingly rare elsewhere' generalises from open-label extensions plus FDA oncology to all non-oncology/non-rare-disease settings.",
+   "evidence": ["study_system: open-label extension studies; FDA oncology 2015-2020"],
+   "failure_modes": ["'elsewhere' extends beyond the two surveyed populations"],
+   "recommended_fix": "Restrict 'elsewhere' to the surveyed settings or add supporting breadth."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "contested",
+  "claim_polarity": "neutral",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": "open-label extension studies; FDA oncology approvals",
+   "methodological": "external-control / RWE adoption",
+   "conceptual": "adoption concentrated in oncology/rare disease"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_6d367051b14fc514": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Both figures (44%, 45%) are precisely attributed to full-text sources with no conflict; factual, well-bounded.",
+   "evidence": ["Jahanshahi2021: retrospective natural-history 'most common source (44%)'", "Subramaniam2024: 'Almost half (45%) ... not contemporaneous'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to FDA/EMA approvals using external controls, matching both sources.",
+   "evidence": ["study_system: FDA approvals 2000-2019; FDA/EMA single-arm-trial approvals 2019-2022"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": "FDA/EMA drug-biologic approvals with external controls",
+   "methodological": "retrospective natural-history controls; contemporaneity",
+   "conceptual": "sourcing and non-contemporaneity of external controls"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_5cdda7895426a436": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Faithful to Swaminathan2023 but stated as a definitive pattern ('reproduced ... whereas ... did not') from a single source flagged disputed/contested with has_conflict_source; a 'one study found' hedge is warranted.",
+   "evidence": ["Swaminathan2023: 'ECs from ... RCT placebo arms result in comparable ... treatment effects ... whereas ECs from real-world data ... do not'"],
+   "failure_modes": ["single disputed source presented as a settled directional pattern"],
+   "recommended_fix": "Attribute to the single IPF study and hedge (e.g., 'in one IPF analysis')."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Explicitly scoped to idiopathic pulmonary fibrosis, matching the source; no cross-indication generalisation.",
+   "evidence": ["study_system: idiopathic pulmonary fibrosis (RCT, registry, EHR external controls)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": "idiopathic pulmonary fibrosis trials",
+   "methodological": "external controls from RCT placebo vs registry/EHR",
+   "conceptual": "source-dependent reproducibility of external controls"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_6b376750b6a880eb": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Explicitly conveys the mixed/cautionary picture ('some ... overlapped, others diverged ... could not be assumed to reproduce'); HR figures (1.53 vs 0.91) attributed to Struebing2024; well-calibrated for disputed evidence.",
+   "evidence": ["Walker2026b: 'mixed trial replicability'", "Struebing2024: ECA HR 'consistently higher than ... 0.91 ... unsuccessful at replicating'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to adjuvant breast cancer and first-line metastatic NSCLC, matching the two sources.",
+   "evidence": ["study_system: adjuvant breast cancer; first-line metastatic NSCLC"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": "adjuvant breast cancer; first-line metastatic NSCLC",
+   "methodological": "RWD external control vs RCT; Bayesian borrowing correction",
+   "conceptual": "real-world controls do not reliably reproduce randomised ones"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_f74a2d51bbfa6578": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Appropriately framed as a counterpoint, but 'succeeded' and 'matched ... closely' overstate a single disputed source whose evidence is a non-significant log-rank p (0.4771), which may reflect low power rather than genuine equivalence.",
+   "evidence": ["Walker2024: 'OS ... 10.2 (0.7) vs 11.3 (1.3) months ... Log rank p = 0.4771'"],
+   "failure_modes": ["non-significant difference read as positive 'success'", "single disputed source"],
+   "recommended_fix": "Soften 'succeeded' to 'was not detectably different' and note the single-study, non-significance basis."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Kept to NSCLC EMR-derived cohorts, matching the source.",
+   "evidence": ["study_system: NSCLC (EMR-derived external control)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "comparative",
+  "modality": "contested",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": "non-small-cell lung cancer",
+   "methodological": "EMR-derived external-control emulation",
+   "conceptual": "successful emulation counterexample"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_b263aea4fef52e41": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "'The pattern is that ... RWD [controls] are not [trustworthy]' is a broad generalisation from disputed/contested evidence; the critic_prior (SHOULD_CAVEAT, track 2) flags a quantitative-attribution concern for the >120-confounder clause, though Yap2022 (cited here) does carry that figure. The 'comparatively' hedge partly mitigates.",
+   "evidence": ["Yap2022 full_text: propensity-score matching '>120 potential confounding variables'", "critic_prior SHOULD_CAVEAT: >120 figure attribution"],
+   "failure_modes": ["section-level pattern asserted from a single citation supporting only the sub-clause"],
+   "recommended_fix": "Present as a summary of the preceding IPF/breast/lung evidence and keep the 'comparatively' hedge."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "The trustworthy-vs-untrustworthy 'pattern' generalises across all RWD from largely oncology + IPF evidence; Yap2022 anchors only the >120-confounder clause.",
+   "evidence": ["study_system: oncology external control groups from real-world data"],
+   "failure_modes": ["universal RWD claim from oncology-weighted evidence"],
+   "recommended_fix": "Scope the pattern to the indications actually surveyed."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "mixed",
+  "claim_scope": {
+   "biological": null,
+   "computational": null,
+   "clinical": "oncology external controls (RCT-derived vs RWD)",
+   "methodological": "covariate adjustment burden (>120 confounders)",
+   "conceptual": "RCT-derived controls more trustworthy than RWD-derived"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_3d4a400d1d874c25": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Use-case survey with a built-in hedge ('large apparent benefits', 'in rarer, more probative tests'); no conflict source and each use case is attributed.",
+   "evidence": ["Rolfo2022/Hadoux2026: single-arm oncology RWD comparisons", "Schmidli2019: 'reduce, or even eliminate, the concurrent control group'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Scoped to single-arm oncology/rare-disease and control-augmentation designs covered by the 13 sources.",
+   "evidence": ["study_system: NSCLC, MTC, SCLC, DLBCL, ovarian, pancreatic, RA, AMD, SCI"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": null,
+   "computational": "ML prediction (spinal-cord injury)",
+   "clinical": "single-arm oncology / rare-disease trials with RW/synthetic controls",
+   "methodological": "control augmentation, elimination, trial-effect reproduction",
+   "conceptual": "appeal driving external-control adoption"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_49b313d92d289c9f": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Well-hedged cautionary synthesis ('sometimes more than a hundred covariates', 'acceptance stays case-by-case and contested'); the attached critic_prior (SHOULD_CAVEAT, track 2) is essentially addressed because Yap2022 (>120 confounders) is cited here, so only a minor deduction applies.",
+   "evidence": ["Jaksa2022: 'selection bias and confounding were the most common ECA critiques'", "Yap2022: '>120 potential confounding variables'; critic_prior SHOULD_CAVEAT"],
+   "failure_modes": ["Belthangady2021 refers to >100 intervention arms, not covariates"],
+   "recommended_fix": "Ensure the '>a hundred covariates' clause leans on Yap2022, not Belthangady2021."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Synthesis spans oncology and non-oncology regulatory/HTA external-control evaluations, all within the 14 sources' systems.",
+   "evidence": ["study_system: regulatory/HTA oncology & non-oncology external control arms"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "contested",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": null,
+   "computational": "propensity-score / causal balancing",
+   "clinical": "oncology & non-oncology regulatory/HTA external controls",
+   "methodological": "propensity-score alignment across >100 covariates",
+   "conceptual": "selection bias/confounding; contested acceptance"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_c67750afaa14607c": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The direct quote ('under scrutiny') is from Harrell2024 and the 'five concrete obstacles' from SATO2024; the has_conflict_source disagreement concerns the ~30% animal-reduction figure, which this sentence does not assert, so the claim is well-calibrated.",
+   "evidence": ["Harrell2024: 'virtual controls ... currently being scrutinised'", "SATO2024: obstacles because guidelines mandate concurrent controls"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to regulatory toxicology / 3Rs and the Japanese industry view, matching the sources.",
+   "evidence": ["study_system: regulatory toxicology 3Rs; Japanese nonclinical VCG perspective"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {
+   "biological": "nonclinical toxicology animal studies",
+   "computational": null,
+   "clinical": null,
+   "methodological": "VCG, second-species, concurrent-control requirements",
+   "conceptual": "regulatory scrutiny and obstacles to VCG adoption"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_064516b23c8336d5": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "The projects' regulatory-acceptance aim is directly supported (VICT3R 'aims to ... obtain regulatory acceptance'); the inference 'precisely because it has not yet been secured' is mild and well-grounded. No conflict source.",
+   "evidence": ["StegerHartmann2024: VICT3R 'aims to ... obtain regulatory acceptance for the VCG concept'", "Palazzi2024: partial virtual-control replacement gaining traction"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Scoped to cross-company toxicology control-animal databases, matching both sources.",
+   "evidence": ["study_system: cross-company control-animal database; nonclinical safety"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {
+   "biological": "nonclinical toxicology control-animal databases",
+   "computational": null,
+   "clinical": null,
+   "methodological": "VCG database assembly for regulatory acceptance",
+   "conceptual": "regulatory acceptance not yet secured"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_2a2885cfbaa0d409": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Modestly framed ('a logic already visible where ...'), but 'stand in for live control and treated animals' slightly overstates a single 3-pig study (robustness=1) that calibrated/validated digital twins against swine rather than fully replacing animals.",
+   "evidence": ["VillarValero2025: digital heart twins 'calibrated and validated using measurements ... in preclinical swine models' (3 pigs)"],
+   "failure_modes": ["illustrative single small study framed as an established replacement capability"],
+   "recommended_fix": "Note the small preclinical (3-pig) validation basis and that the model was calibrated on, not yet replacing, animals."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "A single doxorubicin swine cardiotoxicity study is used to illustrate a general 'replace rather than reduce' strategy; the example is scoped but thin for the generalisation.",
+   "evidence": ["study_system: preclinical swine doxorubicin cardiotoxicity (3 pigs)"],
+   "failure_modes": ["one narrow model generalised to a broad replacement logic"],
+   "recommended_fix": "Keep the digital-twin example explicitly illustrative of an emerging, not established, approach."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": "preclinical swine doxorubicin cardiotoxicity",
+   "computational": "digital-twin / computational heart models",
+   "clinical": null,
+   "methodological": "in silico replacement of control and treated animals",
+   "conceptual": "replace rather than reduce animal use"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_0e0e5c5873348982": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Structural statistics are hedged ('fewer than a tenth', 'roughly a quarter', 'already exceeds') and attributed; no conflict source. The AOP-framework rationale matches Tollefsen2014.",
+   "evidence": ["Comess2020: '<10% have been screened for safety'", "Schmidt2016: 'amount of substances with information gaps exceeds present animal testing capacities'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "'Roughly a quarter of the US regulatory inventory' is complex/variable-composition, but the UVCB fraction is from Sauer2020, an EU REACH analysis; the US attribution mildly overreaches the source's jurisdiction.",
+   "evidence": ["Sauer2020: '~10% ... multi-constituent ... ~20% ... UVCBs' under EU legislation"],
+   "failure_modes": ["EU-derived UVCB fraction attributed to the US inventory"],
+   "recommended_fix": "Attribute the ~quarter figure to EU chemicals legislation or cite a US-inventory source."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "neutral",
+  "claim_scope": {
+   "biological": "animal toxicity testing capacity",
+   "computational": null,
+   "clinical": null,
+   "methodological": "adverse-outcome-pathway prioritisation frameworks",
+   "conceptual": "untested-chemical volume exceeds testing capacity"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_447f8047c03dc15b": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Figures are broadly faithful but reframed: Csobonyeiova2016's '~16% of drugs approved' is presented as '~16% of candidates that pass [animal tests]' (a conditional the source does not state), and Brancato2020's general '5%' success is attributed to 'oncology programmes'.",
+   "evidence": ["Csobonyeiova2016: 'Only around 16% drugs are approved for human use'", "Brancato2020: 'successful only in 5% of the cases'"],
+   "failure_modes": ["conditional framing ('that pass them') not in source", "general 5% attributed specifically to oncology"],
+   "recommended_fix": "State 16% as the overall approval rate and attribute the 5% to drug discovery generally (or cite an oncology-specific source)."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "Kidney and bioassay clauses match their sources, but the 16% and oncology-5% clauses transfer general figures into narrower framings.",
+   "evidence": ["Kishi2021: rodent vs human kidney differences; Hilton2022: hundreds of animals, limited relevance"],
+   "failure_modes": ["over-specific attribution of general attrition statistics"],
+   "recommended_fix": "Align the statistics with the exact populations the sources measured."
+  },
+  "source_type": "review",
+  "source_integrity_adjustment": 0,
+  "claim_type": "review_synthesis",
+  "modality": "likely",
+  "claim_polarity": "negative",
+  "claim_scope": {
+   "biological": "rodent bioassays; rodent vs human kidney",
+   "computational": null,
+   "clinical": "drug candidate approval rates",
+   "methodological": "animal-to-human extrapolation",
+   "conceptual": "poor translational validity of animal tests"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_309683a64341b84c": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Sensitivity/specificity and reproducibility figures are precisely attributed to the two multi-lab validations; no conflict source and no overreach.",
+   "evidence": ["Pfuhler2020: 'sensitivity of 77 (80)% and specificity of 88 (97)%'", "Hendriks2024: 'sensitivity of 84.4% and a specificity of 91.2%'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to the reconstructed-human-skin comet assay and the ToxTracker mammalian reporter, matching the sources.",
+   "evidence": ["study_system: Phenion RhE comet (32 chemicals); ToxTracker (7 labs, 64 chemicals)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": "reconstructed human skin / mammalian reporter cells",
+   "computational": null,
+   "clinical": null,
+   "methodological": "in vitro genotoxicity interlaboratory validation",
+   "conceptual": "NAM validation performance"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_cce9bae722869c56": {
+  "uncertainty_calibration": {
+   "score": 2,
+   "rationale": "Selective reporting flagged by critic_prior (MINOR, track 1): only the favourable 85.0% sensitivity from Corvaro2024 is cited, omitting its 68.2% specificity and 76.2% accuracy. The 'equivalent to or better than animal tests' claim is softened by 'presented as', but Casati2017 (cited) notes methods 'in isolation are not sufficient', and Kolle2020 is mis-cited to support performance.",
+   "evidence": ["Corvaro2024: 'accuracy ... 76.2%, sensitivity 85.0%, specificity 68.2%'", "critic_priors: selective reporting; Kolle2020 miscitation"],
+   "failure_modes": ["favourable metric cited, unfavourable specificity/accuracy omitted", "caveat source (Kolle2020) cited as positive support"],
+   "recommended_fix": "Report specificity (68.2%) and accuracy (76.2%) alongside the 85.0% sensitivity, and drop Kolle2020 from the positive-performance group."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "The 85.0% figure is correctly scoped to agrochemical formulations, but 'equivalent to or better than animal tests' generalises beyond what Casati2017's 'insufficient in isolation' caveat supports.",
+   "evidence": ["study_system: OECD Guideline 497 DAs; GARDskin/GARDpotency on 42 agrochemical formulations"],
+   "failure_modes": ["equal-or-better generalisation broader than the cited defined approaches"],
+   "recommended_fix": "Attribute equal-or-better performance to the specific validated DAs and endpoints."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": "skin sensitisation (human-relevant in vitro / in chemico)",
+   "computational": "in silico components of defined approaches",
+   "clinical": null,
+   "methodological": "OECD Guideline 497 defined approaches",
+   "conceptual": "NAM equivalence to animal tests"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_68e741087bb6d4da": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Both results are precisely attributed (36/42 with 100% predictivity for safe compounds; 87% Lynch classification after Bayesian integration); the has_conflict_source note concerns 3D-vs-2D sensitivity direction, which this claim does not assert.",
+   "evidence": ["Sirenko2016: '36 elicited detectable toxicity (86% sensitivity) ... 100% predictivity'", "Drost2019: 'increased the proportion of correctly classified variants to 87%'"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to iPSC hepatocyte spheroids and MMR (Lynch) variant classification, matching the sources.",
+   "evidence": ["study_system: iPSC hepatocyte 3D spheroids; MLH1/MSH2 variants (4 labs)"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "primary",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": "iPSC hepatocyte 3D spheroids; MMR variant function",
+   "computational": "in silico pathogenicity integration",
+   "clinical": "Lynch-syndrome variant classification",
+   "methodological": "high-content 3D assay; functional variant classification",
+   "conceptual": "NAM predictive performance"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_b358313e302e6204": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "Pregnancy-category (94.11%) and aquatic cross-validation (>75%) figures are faithful, but critic_prior (MINOR, track 2) notes the 77% phototoxicity accuracy is specifically Derek Nexus, not a combined 'expert-rule and QSAR software' figure, mildly misattributing the metric.",
+   "evidence": ["Ahuja2024: Derek Nexus 'overall accuracy of 77%'", "KelleciCelik2022: '94.11% for the external validation'"],
+   "failure_modes": ["77% attributed to a combined expert-rule+QSAR category rather than Derek Nexus alone"],
+   "recommended_fix": "Attribute the 77% to Derek Nexus specifically."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each clause (phototoxicity, pregnancy risk, aquatic toxicity) stays within its source's study system.",
+   "evidence": ["study_system: Derek Nexus/OECD Toolbox; 97-antibiotic QSAR; QSAR-ICE-SSD aquatic models"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": "aquatic organisms; drug pregnancy risk",
+   "computational": "in silico QSAR / expert-rule / ML",
+   "clinical": "drug pregnancy-risk categorisation",
+   "methodological": "in silico prediction validation",
+   "conceptual": "NAM predictive accuracy"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_9f401f2694fb8518": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Figures are faithful and qualified: '~80% averaged accuracy', '92% of a large clear-outcome training set' (explicitly the training subset), and bacterial-mutagenicity QSAR 'reliable enough ... alongside other evidence'. The has_conflict_source (in silico reliable vs liver-on-chip missing a genotoxicant) is not overstated.",
+   "evidence": ["Mansouri2020: consensus '~80%' accuracy", "Levet2026: '92% ... well predicted' on 1502 clear-outcome substances; Tcheremenskaia2021: reliable 'in combination with other types of evidence'"],
+   "failure_modes": ["92% is training-set performance, which the claim does note"],
+   "recommended_fix": "None; the 'clear-outcome training set' qualifier is retained."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Each clause (androgen receptor, mechanism of action, data-poor toxicity values, bacterial mutagenicity) is confined to its source's domain.",
+   "evidence": ["study_system: CoMPARA AR consensus; MoA profiler; CTV Predictor; (Q)SAR bacterial mutagenicity"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": "androgen receptor; bacterial mutagenicity; mechanism of toxic action",
+   "computational": "QSAR / consensus in silico models",
+   "clinical": null,
+   "methodological": "consensus modelling; read-across",
+   "conceptual": "in silico regulatory reliability"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ },
+ "clm_3c09546008791d64": {
+  "uncertainty_calibration": {
+   "score": 4,
+   "rationale": "Teratogenicity predictivity (73-82%, rising to 88%), zebrafish correlation, and QSAR meeting OECD thresholds are each attributed to their sources with no conflict source and no overclaim.",
+   "evidence": ["Yao2025: '73%-82% predictivity' across 75 teratogens", "Wang2024a: QSAR meeting OECD internal/external thresholds"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "transferability_scope_control": {
+   "score": 4,
+   "rationale": "Confined to teratogenicity assays, zebrafish developmental toxicity, and QSAR pesticide developmental-toxicity prioritisation, matching the three sources.",
+   "evidence": ["study_system: MEFL/MESCA teratogenicity; zebrafish embryo dev-tox; QSAR/q-RASAR"],
+   "failure_modes": [],
+   "recommended_fix": "None."
+  },
+  "source_type": "mixed",
+  "source_integrity_adjustment": 0,
+  "claim_type": "empirical",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": "zebrafish embryo / stem-cell teratogenicity models",
+   "computational": "QSAR / q-RASAR",
+   "clinical": null,
+   "methodological": "developmental-toxicity NAM validation",
+   "conceptual": "NAM predictivity meeting regulatory thresholds"
+  },
+  "evidence_relation": "directly_supported",
+  "cap_flags": []
+ },
+ "clm_d4191bacb0743936": {
+  "uncertainty_calibration": {
+   "score": 3,
+   "rationale": "The '>10,000 candidate structures' figure is directly supported, but 'the only feasible route' is an unhedged absolute extrapolated from a single QSAR study (robustness=1) that does not itself establish exclusivity of in silico methods.",
+   "evidence": ["Noga2023: 'candidate structures for the Novichoks may be over 10,000 compounds'"],
+   "failure_modes": ["absolute 'only feasible route' beyond what the single source shows"],
+   "recommended_fix": "Soften to 'the only practical route at that scale' and attribute the combinatorial argument to the Novichok case."
+  },
+  "transferability_scope_control": {
+   "score": 3,
+   "rationale": "A single chemical-warfare-agent (Novichok) example is generalised to 'hazard spaces that experiment cannot touch'; the 10,000 figure is class-specific.",
+   "evidence": ["study_system: in silico QSAR for 17 Novichok agents"],
+   "failure_modes": ["one CWA class generalised to a universal claim about experimental limits"],
+   "recommended_fix": "Frame the CWA example as illustrative rather than a general 'only feasible route'."
+  },
+  "source_type": "method",
+  "source_integrity_adjustment": 0,
+  "claim_type": "methodological",
+  "modality": "likely",
+  "claim_polarity": "positive",
+  "claim_scope": {
+   "biological": null,
+   "computational": "in silico QSAR (environmental fate)",
+   "clinical": null,
+   "methodological": "in silico estimation for combinatorial chemical spaces",
+   "conceptual": "hazard space exceeds experimental capacity"
+  },
+  "evidence_relation": "partially_supported",
+  "cap_flags": []
+ }
+}

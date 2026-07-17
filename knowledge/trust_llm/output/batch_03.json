@@ -1,0 +1,818 @@
+{
+  "clm_0d62a1d590283d75": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Wording is measured ('sit in the same range or below', 'attributed in part'), and each headline rate is attributed to a direct-support source. But the 4% Alzheimer's-type figure and the 'roughly 90% attrition' figure do not appear in the supplied passages, and single-study replication for each figure is aggregated into one picture.",
+      "evidence": ["replication=single-study", "modality_seed=likely", "no conflict source", "Tenuta2013/Farid2020/Crescioli2024 direct_support with distinct figures", "Zushin2023 supports species-difference rationale"],
+      "failure_modes": ["two sub-figures (4% Alzheimer, 90% attrition) not traceable to provided passages", "aggregation of heterogeneous estimates as one 'range'"],
+      "recommended_fix": "Attach an explicit source for the 4% and 90% figures, or hedge them as illustrative."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Each figure is bound to a distinct study system (CRPC, biopharm cost model, antibody development) yet folded into a general drug-development attrition narrative and extended to FDA Modernization Act 2.0 policy rationale.",
+      "evidence": ["distinct study_systems per citation", "policy extension via Zushin2023 perspective"],
+      "failure_modes": ["treating non-comparable success-rate metrics as one comparable range"],
+      "recommended_fix": "Flag that the rates come from different indications/methods and are not directly comparable."
+    },
+    "source_type": "mixed",
+    "source_integrity_adjustment": 0,
+    "claim_type": "empirical",
+    "modality": "likely",
+    "claim_polarity": "negative",
+    "claim_scope": "clinical",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_1c8c60b68c0d1bdd": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Hedged with 'some animal assays' and 'can outperform', and the Draize reproducibility and HCS sensitivity figures trace to direct-support passages. Tutty2025 is partial support for the 3D-model claim.",
+      "evidence": ["replication=single-study", "Raabe2024/OBrien2006 direct_support", "Tutty2025 partial_support", "no conflict source"],
+      "failure_modes": ["the 'far more sensitively than conventional assays' comparison is stated by the source's sensitivity figure but the conventional-assay comparator is implicit"],
+      "recommended_fix": "State the conventional-assay comparator explicitly for the sensitivity comparison."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Combines skin-irritation (Draize) and hepatotoxicity (HCS) systems into a general 'human-cell systems can outperform' point; each example stays within its own system but the generalization spans domains.",
+      "evidence": ["Draize=skin irritation study_system", "OBrien2006=hepatotoxicity study_system"],
+      "failure_modes": ["cross-domain generalization from two different assay endpoints"],
+      "recommended_fix": "Frame as illustrative cases rather than a general capability claim."
+    },
+    "source_type": "mixed",
+    "source_integrity_adjustment": 0,
+    "claim_type": "comparative",
+    "modality": "likely",
+    "claim_polarity": "mixed",
+    "claim_scope": "methodological",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_d78793364d963909": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Reports a single systematic harm-benefit analysis; modality 'established' is defensible for a rigorous synthesis. The '<7%' maps to the passage, but 'ethically permissible' is a slightly stronger gloss than 'minimise harms whilst associated with benefit', and the 97% analgesia figure is not in the supplied passage.",
+      "evidence": ["replication=replicated", "modality_seed=established", "Pound2018 full_text direct_support", "no conflict source"],
+      "failure_modes": ["'ethically permissible' reframes the source's harm-minimisation criterion", "97% analgesia figure not in provided passage"],
+      "recommended_fix": "Keep the source's wording ('minimise harms while associated with benefit') and cite the analgesia figure to its exact location."
+    },
+    "transferability_scope_control": {
+      "score": 4,
+      "rationale": "Claim stays inside the paper's study system (six drug classes across rats, rabbits, primates) and does not overgeneralize beyond preclinical research.",
+      "evidence": ["study_system spans the six analyzed interventions", "no scope critic prior"],
+      "failure_modes": [],
+      "recommended_fix": "None required."
+    },
+    "source_type": "review",
+    "source_integrity_adjustment": 0,
+    "claim_type": "empirical",
+    "modality": "established",
+    "claim_polarity": "negative",
+    "claim_scope": "methodological",
+    "evidence_relation": "directly_supported",
+    "cap_flags": []
+  },
+  "clm_7a641959ba3c0c78": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Qualitative hedges ('small minority', 'near zero', 'almost no authors') are appropriate, but a MINOR critic prior notes the synthesis pools four distinct metrics as 'the same low rates', and a second MINOR prior flags that the analgesia figure belongs to Pound2018, not Bara2014.",
+      "evidence": ["replication=replicated+single-study", "critic_priors: 2x MINOR track 1", "Bara2014/Aquarius2025/Ratajczak2024 direct_support"],
+      "failure_modes": ["metric-pooling across denominators", "possible cross-attribution of the analgesia figure"],
+      "recommended_fix": "Say 'consistently low across distinct reporting metrics' and keep each figure with its own source."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Explicitly generalizes across three specialties ('reach the same place from different specialties'); the convergence framing is the point but rests on non-comparable measures.",
+      "evidence": ["critical-care, image-integrity, and data-sharing study_systems", "MINOR track 1 pooling note"],
+      "failure_modes": ["implying a single comparable rate across specialties"],
+      "recommended_fix": "Note the metrics differ; report convergence in direction, not magnitude."
+    },
+    "source_type": "mixed",
+    "source_integrity_adjustment": 0,
+    "claim_type": "review_synthesis",
+    "modality": "likely",
+    "claim_polarity": "negative",
+    "claim_scope": "methodological",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_cf47e0519642c1fe": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Attributed as 'historians argue', which is appropriate for an interpretive history, but 'precisely because' overstates the source's own hedge ('one explanation ... may be found'), and the plural 'historians' rests on a single article (robustness=1).",
+      "evidence": ["replication=single-study", "robustness=1", "Kirk2017 partial_support abstract"],
+      "failure_modes": ["single-source argument presented as scholarly consensus", "'precisely because' hardens a tentative explanation"],
+      "recommended_fix": "Soften to 'one historian argues ... may partly explain' and singularize attribution."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Remains within the history-of-the-3Rs domain but generalizes one article's thesis to 'historians'.",
+      "evidence": ["study_system=history of the 3Rs"],
+      "failure_modes": ["attribution scope inflated from one source to a field"],
+      "recommended_fix": "Attribute to the specific author."
+    },
+    "source_type": "review",
+    "source_integrity_adjustment": 0,
+    "claim_type": "review_synthesis",
+    "modality": "likely",
+    "claim_polarity": "neutral",
+    "claim_scope": "conceptual",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_13c16e5c1a43cd76": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Positions are attributed as scholarly contentions ('contend', 'others trace'), which is appropriate. However, Muller2024's supplied passage ('the 3Rs prioritize research purposes even more strongly than an ethical anthropocentrist would') is in mild tension with the claim's 'not truly anthropocentric' framing, consistent with its partial_support role.",
+      "evidence": ["replication=single-study", "Muller2024/Kirk2022 partial_support", "no conflict source"],
+      "failure_modes": ["partial mismatch between Muller2024 passage direction and the 'animal-centred ethic' gloss"],
+      "recommended_fix": "Quote Muller2024's nuance so the anthropocentrism point is not overread."
+    },
+    "transferability_scope_control": {
+      "score": 4,
+      "rationale": "Both sources are squarely about 3Rs ethics/governance and the claim stays within that conceptual domain.",
+      "evidence": ["study_systems=3Rs ethics and British animal-research governance"],
+      "failure_modes": [],
+      "recommended_fix": "None required."
+    },
+    "source_type": "review",
+    "source_integrity_adjustment": 0,
+    "claim_type": "review_synthesis",
+    "modality": "likely",
+    "claim_polarity": "neutral",
+    "claim_scope": "conceptual",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_456631a5029edfa1": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Modality is honestly 'contested' and disputed; wording ('vary substantially', 'the authors argue') is well hedged. Lauwereyns2024 is a consensus paper used to evidence divergence, which is consistent but partial.",
+      "evidence": ["replication=disputed+replication_unknown", "modality_seed=contested", "both partial_support"],
+      "failure_modes": ["'and beyond' extends past the European sources supplied"],
+      "recommended_fix": "Bound the geographic claim to the EU/Swiss sources or cite the 'beyond' jurisdictions."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Perez2023 is Swiss-specific and Lauwereyns2024 is a European COST action; the claim generalizes to 'the EU and beyond'.",
+      "evidence": ["Swiss-law study_system", "European consensus study_system"],
+      "failure_modes": ["geographic overreach beyond cited jurisdictions"],
+      "recommended_fix": "Constrain to cited jurisdictions."
+    },
+    "source_type": "mixed",
+    "source_integrity_adjustment": 0,
+    "claim_type": "review_synthesis",
+    "modality": "contested",
+    "claim_polarity": "mixed",
+    "claim_scope": "conceptual",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_dfae4f80390c34e9": {
+    "uncertainty_calibration": {
+      "score": 2,
+      "rationale": "Stated with established modality and a causal 'so', but rests on a single partial-support philosophical source whose passage only documents Hume's welfarist quote. The empirical extensions ('largely omitted from 3Rs-based regulation', 'modal outcome of a research life') are not in the supplied passage.",
+      "evidence": ["replication=replication_unknown", "robustness=2", "Persson2024 partial_support", "modality_seed=established"],
+      "failure_modes": ["empirical regulatory and 'modal outcome' claims exceed the single philosophical source"],
+      "recommended_fix": "Downgrade to 'argues that' and support the regulatory-omission claim with a regulatory source."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Extends from a philosophical-foundations analysis to empirical claims about regulatory practice and lab-animal mortality.",
+      "evidence": ["study_system=philosophical foundations of the 3Rs"],
+      "failure_modes": ["conceptual source used to ground an empirical regulatory generalization"],
+      "recommended_fix": "Add an empirical citation for the regulatory-omission and mortality claims."
+    },
+    "source_type": "review",
+    "source_integrity_adjustment": 0,
+    "claim_type": "limitation",
+    "modality": "likely",
+    "claim_polarity": "negative",
+    "claim_scope": "conceptual",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_386250636a5f13ea": {
+    "uncertainty_calibration": {
+      "score": 4,
+      "rationale": "Claim explicitly airs the disagreement (convergence 'argued', graded view 'challenged', sentience 'defended against the objection'), matching the contested modality and has_conflict flag. Each position is attributed to its source.",
+      "evidence": ["replication=disputed", "has_conflict_source=true", "modality_seed=contested", "three partial_support sources with distinct positions"],
+      "failure_modes": ["none material; conflict is surfaced within the sentence"],
+      "recommended_fix": "None required."
+    },
+    "transferability_scope_control": {
+      "score": 4,
+      "rationale": "Stays wholly within the moral-status philosophical domain; no organism or empirical overreach.",
+      "evidence": ["all study_systems are philosophical moral-status reviews"],
+      "failure_modes": [],
+      "recommended_fix": "None required."
+    },
+    "source_type": "review",
+    "source_integrity_adjustment": 0,
+    "claim_type": "review_synthesis",
+    "modality": "contested",
+    "claim_polarity": "neutral",
+    "claim_scope": "conceptual",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_3760af0322777f1d": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Claim states the tension openly (invertebrate 'replacement' convenience 'steadily undercut' by widening evidence), which reads as calibrated. But a MUST_FIX track-3 prior flags the conflict as one-sided, and the strong sentience evidence is cephalopod-specific while the undercutting is asserted for invertebrates broadly.",
+      "evidence": ["has_conflict_source=true", "critic_priors: MUST_FIX track 3", "Schnell2026 direct (cephalopods)", "CrespiAbril2023 partial (echinoderms)"],
+      "failure_modes": ["cephalopod-specific evidence used to undercut invertebrate non-sentience generally"],
+      "recommended_fix": "Confine the 'undercutting' to taxa with actual sentience evidence; keep echinoderm case as an open question."
+    },
+    "transferability_scope_control": {
+      "score": 2,
+      "rationale": "MUST_FIX track-3 prior signals a scope/balance problem: strong-confidence sentience findings for cephalopods are extended to invertebrates as a class used as 'replacement' organisms.",
+      "evidence": ["critic_priors: MUST_FIX track 3", "distinct study_systems (cephalopods vs echinoderms)"],
+      "failure_modes": ["taxonomic overgeneralization from cephalopods to invertebrates"],
+      "recommended_fix": "Restrict sentience conclusions to the assessed taxa."
+    },
+    "source_type": "mixed",
+    "source_integrity_adjustment": 0,
+    "claim_type": "review_synthesis",
+    "modality": "likely",
+    "claim_polarity": "mixed",
+    "claim_scope": "biological",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_09ad604d8c20b32c": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Contested modality with a live conflict (abandon vs retain HBA). The claim frames the synergy view as 'at best, a way to align', a partial hedge, and the opposing camp is developed in adjacent claims. No SHOULD_CAVEAT prior here.",
+      "evidence": ["replication=disputed", "has_conflict_source=true", "Graham2015 direct, Grimm2018 partial"],
+      "failure_modes": ["the synergy framing is one side of a debate held elsewhere in the section"],
+      "recommended_fix": "Signal locally that this is the pro-alignment position."
+    },
+    "transferability_scope_control": {
+      "score": 4,
+      "rationale": "Stays within 3Rs/harm-benefit review territory; no organism or dataset overreach.",
+      "evidence": ["study_systems=3Rs in drug development and HBA models"],
+      "failure_modes": [],
+      "recommended_fix": "None required."
+    },
+    "source_type": "review",
+    "source_integrity_adjustment": 0,
+    "claim_type": "review_synthesis",
+    "modality": "contested",
+    "claim_polarity": "positive",
+    "claim_scope": "methodological",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_56f1452b4cdb38c1": {
+    "uncertainty_calibration": {
+      "score": 4,
+      "rationale": "Cleanly attributed as one person's argument ('a former oversight-committee chair argues'), matching the contested modality and single commentary source; no overclaim of consensus.",
+      "evidence": ["replication=disputed", "has_conflict_source=true", "robustness=2", "Gutfreund2020 partial_support commentary"],
+      "failure_modes": ["none material; explicitly single-voice attribution"],
+      "recommended_fix": "None required."
+    },
+    "transferability_scope_control": {
+      "score": 4,
+      "rationale": "Confined to IACUC/animal-research ethics; the causal claim ('increase net harm') is presented as the author's argument, not generalized fact.",
+      "evidence": ["study_system=IACUC project evaluation"],
+      "failure_modes": [],
+      "recommended_fix": "None required."
+    },
+    "source_type": "review",
+    "source_integrity_adjustment": 0,
+    "claim_type": "methodological",
+    "modality": "contested",
+    "claim_polarity": "negative",
+    "claim_scope": "methodological",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_a9b1141fcb28773b": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Explicitly framed as 'the opposing camp' in a disputed debate, which is well calibrated. Wolfensohn2025's supplied passage stresses the limits of subjective assessment, giving partial rather than full support to 'validated welfare-scoring can supply the missing quantitative side'.",
+      "evidence": ["replication=disputed+single-study", "has_conflict_source=true", "both partial_support"],
+      "failure_modes": ["'validated welfare-scoring' is a slightly stronger read than the source's cautionary passage"],
+      "recommended_fix": "Note that validated scales exist but adoption/validation is uneven per Wolfensohn2025."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Within HBA/welfare-scoring domain; mild stretch from the source's caution to a claim of a ready quantitative solution.",
+      "evidence": ["study_systems=HBA models and welfare assessment"],
+      "failure_modes": ["overreading a cautionary source as a solution"],
+      "recommended_fix": "Bound the quantitative-scoring claim to validated, adopted scales."
+    },
+    "source_type": "review",
+    "source_integrity_adjustment": 0,
+    "claim_type": "methodological",
+    "modality": "contested",
+    "claim_polarity": "positive",
+    "claim_scope": "methodological",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_fa214737c7807886": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Three direct-support findings with specific figures (confidence-not-rigour, 6/30 countries, sparse tools) and an even-handed opener ('favours neither complacency'). Has_conflict is flagged but the claim reports audit facts rather than taking the disputed operationalization side.",
+      "evidence": ["replication=disputed+replicated+replication_unknown", "has_conflict_source=true", "Vogt2016/Hajosi2025/Azilagbetor2025b direct_support"],
+      "failure_modes": ["'authorisation decisions have been shown to rest on confidence' generalizes a Swiss dataset"],
+      "recommended_fix": "Attribute the confidence-vs-rigour finding to the Swiss context explicitly."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Vogt2016 is Swiss but phrased as 'authorisation decisions' generally; the guidance and scoping-tool findings are European/North American. Mild geographic generalization.",
+      "evidence": ["Swiss applications, 30 European countries, Europe/N.America scoping review"],
+      "failure_modes": ["single-country finding phrased as a general regime property"],
+      "recommended_fix": "Keep each finding bound to its jurisdiction."
+    },
+    "source_type": "mixed",
+    "source_integrity_adjustment": 0,
+    "claim_type": "empirical",
+    "modality": "established",
+    "claim_polarity": "negative",
+    "claim_scope": "methodological",
+    "evidence_relation": "directly_supported",
+    "cap_flags": []
+  },
+  "clm_d69d4210068c984a": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Single Swiss study (marked replicated), directly supporting that licensing authorities lack conduct information; 'measures against bias described at very low rates' is consistent with the source. Established modality is reasonable for a large-application audit.",
+      "evidence": ["replication=replicated", "Vogt2016 direct_support", "no conflict source"],
+      "failure_modes": ["'very low rates' phrasing is inferred from the source's qualitative finding"],
+      "recommended_fix": "Cite the specific reported percentages for bias-control measures."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Generalizes a Swiss licensing-application study to 'licensing authorities' broadly.",
+      "evidence": ["study_system=Swiss animal-experiment applications"],
+      "failure_modes": ["national result phrased generically"],
+      "recommended_fix": "Bound to the Swiss authorisation context."
+    },
+    "source_type": "primary",
+    "source_integrity_adjustment": 0,
+    "claim_type": "empirical",
+    "modality": "established",
+    "claim_polarity": "negative",
+    "claim_scope": "methodological",
+    "evidence_relation": "directly_supported",
+    "cap_flags": []
+  },
+  "clm_fe72dfccfa477ae3": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Two direct-support audits with concrete figures (no 3Rs documentation, majority omitting HBA, one-third mixing the Rs). The '59% believing their study achieved its goals' figure is not in the supplied passages.",
+      "evidence": ["replication=replicated", "Jorgensen2021/Jorgensen2025 direct_support", "no conflict source"],
+      "failure_modes": ["59% self-belief figure not traceable in provided passage"],
+      "recommended_fix": "Cite the 59% figure to its exact source location."
+    },
+    "transferability_scope_control": {
+      "score": 4,
+      "rationale": "Both findings are kept explicitly within the Swedish ethics-committee context.",
+      "evidence": ["study_systems=Swedish Animal Ethics Committees"],
+      "failure_modes": [],
+      "recommended_fix": "None required."
+    },
+    "source_type": "primary",
+    "source_integrity_adjustment": 0,
+    "claim_type": "empirical",
+    "modality": "established",
+    "claim_polarity": "negative",
+    "claim_scope": "methodological",
+    "evidence_relation": "directly_supported",
+    "cap_flags": []
+  },
+  "clm_ca5e1409cfd74fd2": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Attributed as 'structural critiques argue', appropriate for a single editorial with an acknowledged opposing position. Modality seed 'established' is generous for a single low-robustness opinion source with has_conflict flagged.",
+      "evidence": ["replication=single-study", "has_conflict_source=true", "robustness=1", "Pippin2025 partial_support editorial"],
+      "failure_modes": ["'established' overstates a single editorial with a live counter-view"],
+      "recommended_fix": "Present as a contested structural critique rather than settled."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Pippin2025 concerns US IACUCs; the claim generalizes to 'oversight bodies' broadly.",
+      "evidence": ["study_system=US IACUCs"],
+      "failure_modes": ["US-specific editorial generalized to oversight bodies at large"],
+      "recommended_fix": "Bound to US IACUCs or add comparable non-US evidence."
+    },
+    "source_type": "review",
+    "source_integrity_adjustment": 0,
+    "claim_type": "methodological",
+    "modality": "likely",
+    "claim_polarity": "negative",
+    "claim_scope": "methodological",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_3c306d7f8c6b5ab3": {
+    "uncertainty_calibration": {
+      "score": 4,
+      "rationale": "A short bridging sentence that explicitly names the tension ('collide with exactly this doubt about feasibility'), matching contested modality and the has_conflict flag; makes no overclaim about the proposal's validity.",
+      "evidence": ["replication=disputed", "has_conflict_source=true", "Bespalov2026 partial_support"],
+      "failure_modes": ["none material"],
+      "recommended_fix": "None required."
+    },
+    "transferability_scope_control": {
+      "score": 4,
+      "rationale": "Stays within ethics-committee/harm-benefit review scope.",
+      "evidence": ["study_system=animal research ethics review / proposed BAM tool"],
+      "failure_modes": [],
+      "recommended_fix": "None required."
+    },
+    "source_type": "method",
+    "source_integrity_adjustment": 0,
+    "claim_type": "review_synthesis",
+    "modality": "contested",
+    "claim_polarity": "neutral",
+    "claim_scope": "methodological",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_80f8f80050baef10": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Directly supported by Joffe2016 ('Expectations for AR are much higher than empirical data show to have been achieved'); established modality is warranted. Has_conflict is flagged but the counter-facet is handled in the adjacent claim.",
+      "evidence": ["replication=replicated", "has_conflict_source=true", "Joffe2016 direct_support"],
+      "failure_modes": ["'well over half the time' is a specific threshold not shown in the supplied passage"],
+      "recommended_fix": "Cite the specific expectation percentage from the survey."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Survey covered public, students, and scientists; 'the public expects' slightly narrows/labels that, and the numeric threshold extends the qualitative passage.",
+      "evidence": ["study_system=general public/medical students/scientists survey"],
+      "failure_modes": ["specific figure exceeds the qualitative supporting passage"],
+      "recommended_fix": "Anchor the numeric expectation to the source."
+    },
+    "source_type": "primary",
+    "source_integrity_adjustment": 0,
+    "claim_type": "empirical",
+    "modality": "established",
+    "claim_polarity": "negative",
+    "claim_scope": "conceptual",
+    "evidence_relation": "directly_supported",
+    "cap_flags": []
+  },
+  "clm_365f5893190655b6": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "A SHOULD_CAVEAT prior asked for the counter-facet (high-benefit scenarios drawing higher support), and the claim now incorporates it, improving balance. The 'ambivalence' mean (4.5) is directly supported; the higher-support counter-facet is not in the supplied passage.",
+      "evidence": ["replication=replicated", "has_conflict_source=true", "critic_priors: SHOULD_CAVEAT track 2", "Brunt2021b direct_support (mean 4.5)"],
+      "failure_modes": ["counter-facet asserted but not in the provided passage"],
+      "recommended_fix": "Cite the specific high-benefit-scenario result within Brunt2021b."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Single US online consultation phrased as 'structured consultations' generally.",
+      "evidence": ["study_system=US public online consultation"],
+      "failure_modes": ["single-consultation result generalized to consultations at large"],
+      "recommended_fix": "Bound to the US consultation."
+    },
+    "source_type": "primary",
+    "source_integrity_adjustment": 0,
+    "claim_type": "empirical",
+    "modality": "established",
+    "claim_polarity": "mixed",
+    "claim_scope": "conceptual",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_7c1696c6d257dadf": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Two direct-support surveys; the negative-affect/openness point maps to Bearth2024. The 'highest where oversight and mutual benefit are made visible' clause only partially maps to ThompsonIritani2026's trusted-source finding.",
+      "evidence": ["replication=replicated", "Bearth2024/ThompsonIritani2026 direct_support", "no conflict source"],
+      "failure_modes": ["the 'oversight and mutual benefit visible' claim is a partial read of a trust-in-sources result"],
+      "recommended_fix": "Tie the visibility claim to a survey item measuring it directly."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Combines a chemical-risk-assessment survey and a US national survey into a general attitude statement across populations.",
+      "evidence": ["study_systems=chemical-risk public survey and US public survey"],
+      "failure_modes": ["cross-survey generalization"],
+      "recommended_fix": "Keep findings attributed to their respective survey contexts."
+    },
+    "source_type": "primary",
+    "source_integrity_adjustment": 0,
+    "claim_type": "empirical",
+    "modality": "established",
+    "claim_polarity": "mixed",
+    "claim_scope": "conceptual",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_127ca3652366fe1d": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "The barrier finding is directly supported by Loser2026 (86%/71%). The closing clause ('convert a defensible harm into an indefensible one') is authorial normative reasoning, clearly framed as argument rather than data.",
+      "evidence": ["replication=replicated+single-study", "Loser2026 direct_support", "MacArthurClark2019 partial_support"],
+      "failure_modes": ["normative extension not tied to a source"],
+      "recommended_fix": "Keep the rhetorical clause marked as the authors' inference."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Within science-communication-of-animal-research scope; the 'price of permission' and harm-inversion framing are conceptual extensions of the review finding.",
+      "evidence": ["study_system=science-communication barriers review"],
+      "failure_modes": ["interpretive leap beyond the survey of barriers"],
+      "recommended_fix": "Signal the inference explicitly."
+    },
+    "source_type": "mixed",
+    "source_integrity_adjustment": 0,
+    "claim_type": "empirical",
+    "modality": "likely",
+    "claim_polarity": "negative",
+    "claim_scope": "conceptual",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_5f94488f471811ee": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "A rhetorical/normative sentence resting on a single image-integrity audit (40% problematic). The empirical anchor is directly supported; 'broken twice over' and 'the promise implicit in every licence' are clearly authorial framing rather than empirical claims.",
+      "evidence": ["replication=single-study", "robustness=2", "Aquarius2025 direct_support"],
+      "failure_modes": ["sweeping normative statement resting on one audit"],
+      "recommended_fix": "Keep the normative claim marked as argument, not finding."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Generalizes from one subarachnoid-haemorrhage image audit to 'the literature' and 'every licence'; the generalization is rhetorical but broad.",
+      "evidence": ["study_system=subarachnoid-haemorrhage image-integrity audit"],
+      "failure_modes": ["single-domain audit extended to all animal literature"],
+      "recommended_fix": "Frame as illustrative of a broader concern, not a proven general property."
+    },
+    "source_type": "primary",
+    "source_integrity_adjustment": 0,
+    "claim_type": "review_synthesis",
+    "modality": "likely",
+    "claim_polarity": "negative",
+    "claim_scope": "methodological",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_145717baadc33c62": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Four direct-support findings quoted with precise figures (no rise over 20 years, 1.0% sample-size estimation, 42% ARRIVE essentials, 2.35% data sharing). A MINOR prior notes these distinct metrics are pooled as comparable low rates.",
+      "evidence": ["replication=replicated+single-study", "critic_priors: MINOR track 1", "Taylor2010/Park2023/Ding2022/Ratajczak2024 direct_support"],
+      "failure_modes": ["heterogeneous metrics presented as one low-reporting picture"],
+      "recommended_fix": "Note the metrics differ; report as consistently low across distinct measures."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Spans mouse/primate, urology, degradable-metal bone, and depression literatures; each figure is bound to its study but the aggregate implies field-wide comparability.",
+      "evidence": ["four distinct specialty study_systems"],
+      "failure_modes": ["cross-specialty comparability implied"],
+      "recommended_fix": "Keep figures attributed to their own literatures."
+    },
+    "source_type": "mixed",
+    "source_integrity_adjustment": 0,
+    "claim_type": "empirical",
+    "modality": "likely",
+    "claim_polarity": "negative",
+    "claim_scope": "methodological",
+    "evidence_relation": "directly_supported",
+    "cap_flags": []
+  },
+  "clm_ff485b34d321b741": {
+    "uncertainty_calibration": {
+      "score": 2,
+      "rationale": "Contested/disputed with a SHOULD_CAVEAT track-3 prior: the section frames mandated checklists favourably, but a randomised trial null result (mandated ARRIVE checklist at peer review not improving compliance) is not surfaced in the claim. The claim does hedge ('associated with', 'only into a minority', 'unchanged or even lower'), partially offsetting.",
+      "evidence": ["replication=disputed+replicated", "has_conflict_source=true", "critic_priors: SHOULD_CAVEAT track 3 + MUST_FIX track 1 (figure labeling) + MINOR track 1"],
+      "failure_modes": ["contradicting randomised null result not surfaced beside the favourable framing"],
+      "recommended_fix": "Add the enforced-checklist RCT null as an explicit counterexample to the 'checklist improves reporting' framing."
+    },
+    "transferability_scope_control": {
+      "score": 2,
+      "rationale": "Pools journal-checklist studies of differing designs into one enforcement narrative; a MUST_FIX track-1 prior notes a related figure mislabels an uncontrolled secular trend as an enforcement contrast, weakening the generalization.",
+      "evidence": ["critic_priors: MUST_FIX track 1, SHOULD_CAVEAT track 3", "Han2017/Macleod2019b/Liu2021/Ding2022 across different journals and designs"],
+      "failure_modes": ["correlational and uncontrolled trends generalized as enforcement effects"],
+      "recommended_fix": "Separate enforced-checklist evidence from secular trends and passive-publication effects."
+    },
+    "source_type": "mixed",
+    "source_integrity_adjustment": 0,
+    "claim_type": "empirical",
+    "modality": "contested",
+    "claim_polarity": "mixed",
+    "claim_scope": "methodological",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_388cb626b155388e": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Both partial-support sources directly endorse the 'right number' logic (too many and too few both waste life and reduce reliability). The definitional reframing of Reduction is well aligned with the passages; likely modality is appropriate.",
+      "evidence": ["replication=single-study", "Verderio2023/Mazoit2026 partial_support", "no conflict source"],
+      "failure_modes": ["definitional 'was never X but Y' framing is interpretive"],
+      "recommended_fix": "Attribute the reinterpretation to the cited reviews."
+    },
+    "transferability_scope_control": {
+      "score": 4,
+      "rationale": "Stays within 3Rs/experimental-design methodology.",
+      "evidence": ["study_systems=Reduction and experimental design"],
+      "failure_modes": [],
+      "recommended_fix": "None required."
+    },
+    "source_type": "review",
+    "source_integrity_adjustment": 0,
+    "claim_type": "definition",
+    "modality": "likely",
+    "claim_polarity": "neutral",
+    "claim_scope": "methodological",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_06a46d8b3cdd9234": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Three case-based reductions with concrete figures; Landes2023 and Kramer2015 directly support their numbers. The ~90% pulmonary-embolism reduction is attributed to Graham2015 whose supplied passage is a generic 3Rs statement, not the PE-specific figure. A MINOR track-3 prior deems the broader 'saves animals' generalization defensible at mechanism level.",
+      "evidence": ["replication=disputed+replicated", "critic_priors: MINOR track 3", "Landes2023/Kramer2015 direct with figures", "Graham2015 passage generic"],
+      "failure_modes": ["the ~90% PE figure not traceable in the supplied Graham2015 passage"],
+      "recommended_fix": "Cite the PE-model reduction figure to its exact source passage."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Specific paradigm case studies generalized toward 'sample-size calculation saves animals'; the MINOR track-3 prior notes this holds at the mechanism level but is a projection in aggregate.",
+      "evidence": ["study_systems=radiation-countermeasure, PE model, historical-control simulation"],
+      "failure_modes": ["case-level demonstrations projected to a general saving"],
+      "recommended_fix": "Bound the generalization to the demonstrated mechanism."
+    },
+    "source_type": "mixed",
+    "source_integrity_adjustment": 0,
+    "claim_type": "empirical",
+    "modality": "likely",
+    "claim_polarity": "positive",
+    "claim_scope": "methodological",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_7f7e470c6bef3d6b": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Four partial-support design/statistics sources, each mapping to its passage (factorial reduction, intracluster-correlation efficiency, no-single-optimum trade-offs). Likely modality is appropriate; claims are hedged ('potentially', 'no single optimum').",
+      "evidence": ["replication=replicated+single-study", "Shaw2002/Shaw2004/Landes2025/Karp2021 partial_support", "no conflict source"],
+      "failure_modes": ["'without loss of validity' is a strong summary of 'potentially ... without loss of scientific validity'"],
+      "recommended_fix": "Preserve the sources' 'potentially' hedge."
+    },
+    "transferability_scope_control": {
+      "score": 4,
+      "rationale": "Confined to preclinical experimental-design methodology.",
+      "evidence": ["study_systems=factorial design, cage-mate correlation, design case studies"],
+      "failure_modes": [],
+      "recommended_fix": "None required."
+    },
+    "source_type": "mixed",
+    "source_integrity_adjustment": 0,
+    "claim_type": "methodological",
+    "modality": "likely",
+    "claim_polarity": "positive",
+    "claim_scope": "methodological",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_77f4c535d50c05b3": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Single partial-support review; Gaskill2020's supplied passage is a general statement that better designs improve power and reduce animal use. The specific 'paired designs demand more animals than randomised block/factorial' comparison is not in the provided passage, and 'so statistical literacy is itself a Reduction technology' is an interpretive conclusion.",
+      "evidence": ["replication=replicated", "Gaskill2020 partial_support", "modality_seed=established"],
+      "failure_modes": ["specific paired-vs-block comparison exceeds the supplied general passage"],
+      "recommended_fix": "Cite the specific comparison or soften to the general design-efficiency point."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Within experimental-design scope; the concrete paired-vs-alternative comparison extends beyond the general supporting passage.",
+      "evidence": ["study_system=statistical power / experimental design review"],
+      "failure_modes": ["specific quantitative comparison generalized from a general review"],
+      "recommended_fix": "Anchor the comparison to a concrete source result."
+    },
+    "source_type": "review",
+    "source_integrity_adjustment": 0,
+    "claim_type": "methodological",
+    "modality": "likely",
+    "claim_polarity": "positive",
+    "claim_scope": "methodological",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_78c1908a83c77516": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Kramer2015 directly supports the data-reuse (historical-controls) mechanism; the claim extends this to a general 'complete reporting and data reuse extend Reduction' principle, which is a reasonable but partly interpretive generalization.",
+      "evidence": ["replication=replicated", "Kramer2015 direct_support", "no conflict source"],
+      "failure_modes": ["'complete reporting' portion is an extension beyond the historical-controls result"],
+      "recommended_fix": "Support the reporting-side claim with a reporting/reuse source."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Generalizes from a control-group simulation to a broad Reduction principle.",
+      "evidence": ["study_system=biomedical control-group simulation"],
+      "failure_modes": ["simulation result generalized to reporting practice"],
+      "recommended_fix": "Bound the mechanism to demonstrated data-reuse cases."
+    },
+    "source_type": "primary",
+    "source_integrity_adjustment": 0,
+    "claim_type": "methodological",
+    "modality": "likely",
+    "claim_polarity": "positive",
+    "claim_scope": "methodological",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_0d0d46cfecd84e09": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Strech2019 directly supports the reporting/preregistration value (~50% unreported). The 'extend Refinement to the scientific record' framing is an authorial conceptual reframe; has_conflict (6Rs vs 3Rs-sufficient) is flagged but this claim presents the expansionist side.",
+      "evidence": ["replication=replicated", "has_conflict_source=true", "Strech2019 direct_support"],
+      "failure_modes": ["conceptual reframing of Refinement is authorial, not source-stated"],
+      "recommended_fix": "Mark the 'Refinement of the record' extension as the authors' framing."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Within animal-research reporting/ethics scope; the metaphorical extension of Refinement is a conceptual move within domain.",
+      "evidence": ["study_system=animal research ethics framework proposal"],
+      "failure_modes": ["principle-name reassignment could be read as source-endorsed"],
+      "recommended_fix": "Keep the reframe attributed."
+    },
+    "source_type": "review",
+    "source_integrity_adjustment": 0,
+    "claim_type": "methodological",
+    "modality": "likely",
+    "claim_polarity": "positive",
+    "claim_scope": "methodological",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_c16c01590fe2e697": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Two partial-support sources on NAMs (Tutty2025) and preclinical evidence synthesis (Romantsik2024); the 'extend Replacement' framing is a conceptual extension consistent with, but broader than, the passages. Likely modality is appropriate.",
+      "evidence": ["replication=replication_unknown+single-study", "Tutty2025/Romantsik2024 partial_support", "no conflict source"],
+      "failure_modes": ["data-reuse-as-Replacement is an interpretive extension"],
+      "recommended_fix": "Attribute the Replacement-extension framing to the authors."
+    },
+    "transferability_scope_control": {
+      "score": 3,
+      "rationale": "Within Replacement/NAM/evidence-synthesis scope; conceptual extension stays in domain.",
+      "evidence": ["study_systems=human liver NAMs and preclinical systematic reviews"],
+      "failure_modes": ["broad principle-extension from two partial sources"],
+      "recommended_fix": "Bound to the cited replacement/reuse practices."
+    },
+    "source_type": "review",
+    "source_integrity_adjustment": 0,
+    "claim_type": "methodological",
+    "modality": "likely",
+    "claim_polarity": "positive",
+    "claim_scope": "methodological",
+    "evidence_relation": "partially_supported",
+    "cap_flags": []
+  },
+  "clm_948f3ebc247231cd": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Strech2019 directly supports both the normative argument (value-less research is unethical) and the ~50%-unreported motivation. Attributed as 'the case for adding'. Has_conflict (3Rs-sufficient counter-view) is flagged and developed elsewhere in the section.",
+      "evidence": ["replication=replicated", "has_conflict_source=true", "Strech2019 direct_support"],
+      "failure_modes": ["one side of the 6Rs-vs-sufficient debate presented locally"],
+      "recommended_fix": "Signal locally that a 3Rs-sufficient counter-position exists."
+    },
+    "transferability_scope_control": {
+      "score": 4,
+      "rationale": "Stays within the animal-research ethics-framework domain.",
+      "evidence": ["study_system=animal research ethics framework proposal"],
+      "failure_modes": [],
+      "recommended_fix": "None required."
+    },
+    "source_type": "review",
+    "source_integrity_adjustment": 0,
+    "claim_type": "review_synthesis",
+    "modality": "established",
+    "claim_polarity": "mixed",
+    "claim_scope": "conceptual",
+    "evidence_relation": "directly_supported",
+    "cap_flags": []
+  },
+  "clm_af778d69fcc6ab54": {
+    "uncertainty_calibration": {
+      "score": 3,
+      "rationale": "Descriptive of one framework paper; Brink2023 directly supports the reproducibility-crisis motivation (Baker survey figures) and the framework's structure. No conflict; established modality is appropriate for a faithful description.",
+      "evidence": ["replication=replicated", "Brink2023 direct_support", "no conflict source"],
+      "failure_modes": ["single-framework description; adoption/uptake not evidenced"],
+      "recommended_fix": "None material; optionally note it is a proposed framework."
+    },
+    "transferability_scope_control": {
+      "score": 4,
+      "rationale": "Describes the cited framework within its own stated scope; no overreach.",
+      "evidence": ["study_system=animal research ethics framework (global)"],
+      "failure_modes": [],
+      "recommended_fix": "None required."
+    },
+    "source_type": "review",
+    "source_integrity_adjustment": 0,
+    "claim_type": "review_synthesis",
+    "modality": "established",
+    "claim_polarity": "neutral",
+    "claim_scope": "conceptual",
+    "evidence_relation": "directly_supported",
+    "cap_flags": []
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "claim_id": "clm_c2d644434ce16083",
+  "section_id": "sec-introduction",
+  "source_file": "content/01_introduction.md",
+  "paragraph_index": 1,
+  "sentence_index": 6,
+  "claim_text": "A retrospective harm–benefit analysis of preclinical research found that, weighing the animals' actual harms against the actual clinical benefit their studies produced, fewer than 7% of the studies examined would have been ethically permissible, and that 97% did not even report whether the animals received analgesia.",
+  "normalized_claim": "a retrospective harm benefit analysis of preclinical research found that weighing the animals actual harms against the actual clinical benefit their studies produced fewer than 7 of the studies examined would have been ethically permissible and that 97 did not even report whether the animals received analgesia",
+  "claim_atoms": [
+    {
+      "atom_id": "a1",
+      "text": "A retrospective harm–benefit analysis of preclinical research found that, weighing the animals' actual harms against the actual clinical benefit their studies produced, fewer than 7% of the studies examined would have been ethically permissible, and that 97% did not even report whether the animals received analgesia."
+    }
+  ],
+  "claim_type": "empirical",
+  "claim_scope": {
+    "biological": "preclinical animal research harms and analgesia reporting",
+    "computational": null,
+    "clinical": "clinical benefit derived from preclinical studies",
+    "methodological": "retrospective harm-benefit weighting",
+    "conceptual": "ethical permissibility of animal research"
+  },
+  "scope_status": "matched",
+  "claim_polarity": "negative",
+  "modality": "established",
+  "wording_strength": "unqualified",
+  "entities": [],
+  "citation_keys": [
+    "Pound2018"
+  ],
+  "dois": [
+    "10.1371/journal.pone.0193758"
+  ],
+  "citation_contexts": [
+    {
+      "cite_key": "Pound2018",
+      "doi": "10.1371/journal.pone.0193758",
+      "role": "direct_support",
+      "source_type": "primary",
+      "bibliography_status": "verified",
+      "integrity_status": "verified_no_known_issue",
+      "integrity_checked_at": "2026-07-08T23:15:00.000Z",
+      "integrity_check_source": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0193758",
+      "passages": [
+        {
+          "text": "Only the moderate bisphosphonate studies, less than 7% of the total, appeared to minimise harms to animals whilst being associated with benefit for humans.",
+          "passage_source": "full_text",
+          "locator": "Full text excerpt (legacy verification record)",
+          "verification_status": "verified",
+          "verification_source": "https://doi.org/10.1371/journal.pone.0193758",
+          "verified_at": "2026-07-08T23:15:00.000Z",
+          "supports_claim_atoms": [
+            "a1"
+          ]
+        }
+      ],
+      "direction_match": true,
+      "supports_claim_atoms": [
+        "a1"
+      ],
+      "independence_group": "grp_c2d64443_1",
+      "independence_basis": "Conservative single-group assignment from the legacy robustness assessment (1 independent citation(s); replication status ['replicated']; documented independent replication; effect size reported.).",
+      "scope_match": "exact",
+      "notes": null
+    }
+  ],
+  "evidence_relation": "directly_supported",
+  "conflicts": [],
+  "knowledge_edges": [],
+  "trust_score": {
+    "rubric_version": "2.0.0",
+    "components": {
+      "traceability": {
+        "score": 4,
+        "rule_id": "T4_ATOM_LEVEL",
+        "rationale": "Every supporting citation has verified passage attribution and eligible citations cover every claim atom. Legacy assessment: 1/1 citations carry a verbatim supporting passage (full text); DOIs present for 1/1.",
+        "evidence": [
+          "Pound2018:1 verified passage(s)"
+        ],
+        "failure_modes": [],
+        "recommended_fix": "Attach a verbatim supporting passage and a resolvable DOI to every citation."
+      },
+      "robustness": {
+        "score": 2,
+        "rule_id": "R2_SINGLE_GROUP",
+        "rationale": "Every atom is covered, but the evidence resolves to one independence group. Legacy assessment: 1 independent citation(s); replication status ['replicated']; documented independent replication; effect size reported.",
+        "evidence": [
+          "grp_c2d64443_1"
+        ],
+        "failure_modes": [
+          "single-source claim",
+          "Every atom is covered, but the evidence resolves to one independence group."
+        ],
+        "recommended_fix": "Add genuinely independent evidence for each atom, documenting shared authors, datasets, laboratories, and cohorts."
+      },
+      "uncertainty_calibration": {
+        "score": 4,
+        "rule_id": "U4_EXACT_CALIBRATION",
+        "rationale": "The surface wording matches direct eligible support. Legacy assessment: The finding is explicitly attributed to a single retrospective harm-benefit analysis and reported as that study's result, matching a replicated, non-conflicted source.",
+        "evidence": [
+          "evidence_relation=directly_supported",
+          "wording=SURFACE_UNQUALIFIED"
+        ],
+        "failure_modes": [],
+        "recommended_fix": "No change; wording correctly localises the figures to the cited analysis."
+      },
+      "source_integrity": {
+        "score": 4,
+        "rule_id": "S4_VERIFIED_PRIMARY",
+        "rationale": "Every relied-upon source is primary, DOI-linked, registry-checked, direction-matched, and passage-verified. Legacy assessment: CrossRef re-resolution: {'VERIFIED': 1}; 1/1 full-text-checked; bibliographically consistent.",
+        "evidence": [
+          "Pound2018:verified/verified_no_known_issue/primary"
+        ],
+        "failure_modes": [],
+        "recommended_fix": "Prefer peer-reviewed primary sources; keep DOIs CrossRef-consistent."
+      },
+      "transferability_scope_control": {
+        "score": 4,
+        "rule_id": "X4_SCOPE_MATCHED",
+        "rationale": "The recorded evidence scope matches the claim. Legacy assessment: Claim stays within the source's preclinical-animal-studies scope and does not generalise beyond the analysed drug classes.",
+        "evidence": [
+          "scope_status=matched",
+          "Pound2018:exact"
+        ],
+        "failure_modes": [],
+        "recommended_fix": "No change needed."
+      }
+    },
+    "raw_score": 90,
+    "overall_score": 90,
+    "trust_label": "high_trust",
+    "capped": false,
+    "cap_value": null,
+    "cap_reasons": [],
+    "cap_reason": null,
+    "computed_from": "validator"
+  },
+  "human_review_required": false,
+  "created_by_phase": "trust_seed",
+  "updated_by_phase": "phase_16T_trust_score_validation_v2",
+  "validation_status": "validated"
+}

@@ -1,0 +1,1651 @@
+[
+ {
+  "claim_id": "clm_311d4823e432a0d6",
+  "section_id": "sec-incentives",
+  "claim_text": "When seventy-three independent teams analysed the same data to test the same hypothesis, their numerical results diverged so widely that most of the variance remained unexplained even after every analytic decision had been coded — a direct demonstration of how much latitude a reward for clean results can exploit.",
+  "citation_keys": [
+   "Breznau2022"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Breznau2022",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Little more than half the reported estimates were statistically not significantly different from zero at 95% CI, while a quarter were significantly different and negative, and 16.9% were statistically significant and positive.",
+    "study_system": "73 research teams / 161 researchers (same dataset)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_3a40e0de2ca97e32",
+  "section_id": "sec-incentives",
+  "claim_text": "Text-mining confirms that such flexibility is common across disciplines, and modelling shows how, when negative results publish at a small fraction of the rate of positive ones, false claims can be canonised as fact, though a competing model argues that publishing potentially non-replicable studies and replicating selectively can be efficient for the community as a whole.",
+  "citation_keys": [
+   "Head2015",
+   "Nissen2016",
+   "Lewandowsky2020"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Magnitude of distortion: the p-hacking text-mining study concludes analytic flexibility is common but only weakly distorts meta-analytic consensus, whereas the theoretical framework concludes bias/fle",
+   "Whether publishing potentially non-replicable / positive-only results is efficient (Lewandowsky & Oberauer model) or corrupts the record by canonizing false facts through publication bias (Nissen et a"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Head2015",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "We found significant evidential value in every discipline represented in our text-mining data, irrespective of whether we tested the p-values from the Results or Abstracts (Table 1; Table 2).",
+    "study_system": "scientific literature (p-value text-mining)"
+   },
+   {
+    "cite_key": "Nissen2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In that analysis, 37 of 38 positive studies were published as positive results, but only 3 of 24 negative studies were published as negative results.",
+    "study_system": "scientific claims (Markov model + case data)"
+   },
+   {
+    "cite_key": "Lewandowsky2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We find that the publication of potentially non-replicable studies minimizes cost and maximizes efficiency of knowledge gain for the scientific community under a variety of assumptions.",
+    "study_system": "scientific community (agent model)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 3,
+    "issue": "Suppressed conflict (package conflict #4, resolution_status: open). Nissen2016 is cited; Lewandowsky2020 (grep count 0) is absent. The section presents the publication-bias-corrupts-the-record view as uncontested when th",
+    "fix": "Add the counter-model near the Nissen2016 citation, e.g.: 'though a competing model argues that publishing potentially non-replicable studies and replicating se"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_750ebe8f7cb3bd99",
+  "section_id": "sec-incentives",
+  "claim_text": "The clinical literature supplies the most concrete measurements: spin — reporting that misrepresents nonsignificant results as favourable — appears in roughly half to three-quarters of nonsignificant randomised-trial reports across general medicine, urology, bariatric, vascular, and emergency-medicine specialties, with industry funding raising the odds.",
+  "citation_keys": [
+   "Boutron2010",
+   "Wu2023",
+   "Rassy2021",
+   "Nguyen2022",
+   "ReynoldsVaughn2020"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Boutron2010",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Spin was identified in the Results and Conclusions sections of the abstracts of 27 (37.5%; 95% CI, 26.4%-49.7%) and 42 (58.3%; 95% CI, 46.1%-69.8%) reports, respectively, with the conclusions of 17 (23.6%; 95% CI, 14.4%-35.1%) focusing only on treatment effectiveness.",
+    "study_system": "RCTs with nonsignificant primary outcomes (general medicine)"
+   },
+   {
+    "cite_key": "Wu2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Spin was identified in 35 studies (76%), with the majority of abstracts (n = 26, 57%) and main texts (n = 35, 76%) containing some level of spin.",
+    "study_system": "urology RCTs with nonsignificant primary outcomes"
+   },
+   {
+    "cite_key": "Rassy2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In total, 16 abstracts (55%) and 18 main texts (62%) were classified as having a spin.",
+    "study_system": "bariatric-surgery RCTs with nonsignificant primary outcomes"
+   },
+   {
+    "cite_key": "Nguyen2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Spin was identified in 9 abstracts (9/18) and 13 main texts (13/18) of AAA articles and 7 abstracts (7/13) and 10 main texts (10/13) of CS articles.",
+    "study_system": "vascular-surgery RCTs with nonsignificant outcomes"
+   },
+   {
+    "cite_key": "ReynoldsVaughn2020",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Industry-funded trials were more likely to have evidence of spin in the abstract (unadjusted odds ratio 3.4; 95% confidence interval 1.1 to 11.9).",
+    "study_system": "emergency-medicine RCTs with nonsignificant primary endpoints"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_2f61be88b70141a5",
+  "section_id": "sec-incentives",
+  "claim_text": "Prospective audits find outcome-switching pervasive and its disclosure rare, undeclared switching survives even direct correction letters, and a striking worked example shows an entire therapeutic conclusion evaporating once analysis is restricted to pre-registered primary outcomes.",
+  "citation_keys": [
+   "Goldacre2019b",
+   "Kapp2022",
+   "Goldacre2019a",
+   "Prior2017"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Goldacre2019b",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Fifty-eight trials had discrepancies requiring a correction letter (87%, journal range 67-100%).",
+    "study_system": "67 trials in 5 high-impact journals (NEJM, Lancet, JAMA, BMJ, Ann Intern Med)"
+   },
+   {
+    "cite_key": "Kapp2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Primary outcome(s) reported in trial registries and published reports were inconsistent in 49% (n = 104) of trials; of them, only 15% (n = 16) disclosed outcome switching in the report.",
+    "study_system": "COVID-19 pharmacological RCT reports (preprints + peer-reviewed)"
+   },
+   {
+    "cite_key": "Goldacre2019a",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Trialists frequently expressed views that contradicted the CONSORT (Consolidated Standards of Reporting Trials) guidelines or made inaccurate statements about correct outcome reporting.",
+    "study_system": "trialists' correspondence (COMPare cohort of 58 trials)"
+   },
+   {
+    "cite_key": "Prior2017",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "When evaluated in registered double-blind trials with analysis restricted to predefined primary outcomes, progestational agents in pregnancy are ineffective.",
+    "study_system": "progestogen pregnancy trials (registered vs all outcomes)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_54f43e0d81d6c2ec",
+  "section_id": "sec-incentives",
+  "claim_text": "Selective reporting further compromises the syntheses built on top of trials.",
+  "citation_keys": [
+   "Heneghan2017",
+   "Littell2026",
+   "DumasMallet2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Heneghan2017",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, many trials continue to measure and report outcomes that fall short of this clear requirement.",
+    "study_system": "clinical trial outcomes (review)"
+   },
+   {
+    "cite_key": "Littell2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Only 12 reviews provided full documentation for their ORB/ARB assessments.",
+    "study_system": "Systematic review of 49 Campbell Collaboration systematic reviews"
+   },
+   {
+    "cite_key": "DumasMallet2021",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "About 10% of all citations in biomedicine are strongly inaccurate and misleading for the reader.",
+    "study_system": "biomedical citation practices (review)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_fb5b2d4285ea87bf",
+  "section_id": "sec-incentives",
+  "claim_text": "Text-mining across disciplines concluded that p-hacking, though common, only weakly perturbs meta-analytic consensus relative to the real effects being measured, whereas the theoretical framework that most published research findings are false holds that bias and flexibility make it more likely than not that a given claim is untrue.",
+  "citation_keys": [
+   "Head2015",
+   "Ioannidis2005b"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "single-study",
+   "unreplicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Magnitude of distortion: the p-hacking text-mining study concludes analytic flexibility is common but only weakly distorts meta-analytic consensus, whereas the theoretical framework concludes bias/fle",
+   "Magnitude of distortion: the p-hacking text-mining study concludes analytic flexibility is common but only weakly distorts meta-analytic consensus, whereas the theoretical framework concludes bias/fle"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Head2015",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "We found significant evidential value in every discipline represented in our text-mining data, irrespective of whether we tested the p-values from the Results or Abstracts (Table 1; Table 2).",
+    "study_system": "scientific literature (p-value text-mining)"
+   },
+   {
+    "cite_key": "Ioannidis2005b",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Simulations show that for most study designs and settings, it is more likely for a research claim to be false than true.",
+    "study_system": "research findings across scientific fields (simulation)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 3,
+    "issue": "Suppressed conflict (package conflict #8, resolution_status: open, and explicitly flagged in the task brief). Ioannidis2005b (paper A: most findings likely false) is cited (conflict box at lines 46-49), but Fanelli2018 (",
+    "fix": "Add a sentence acknowledging the contrarian view, e.g. in paragraph 5 or the structural-pessimism conflict box: 'A minority position holds that the crisis narra"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_3268bc70c2d47faa",
+  "section_id": "sec-incentives",
+  "claim_text": "Statistical power in the behavioural sciences has not detectably improved across more than fifty years of admonition, which model as natural selection: while publication drives careers, methods that generate more publishable results out-reproduce careful ones, and replication slows but does not halt the deterioration.",
+  "citation_keys": [
+   "Smaldino2016"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Reform optimism: the manifesto expects methods/reporting/incentive measures to improve reliability, whereas the natural-selection model argues that as long as publication drives careers, incentives ke"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Smaldino2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "We show that despite over 50 years of reviews of low statistical power and its consequences, there has been no detectable increase.",
+    "study_system": "behavioural sciences (power meta-analysis + model)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_049fd238873333b6",
+  "section_id": "sec-incentives",
+  "claim_text": "Independent measurement agrees — median power in cognitive neuroscience and psychology has stagnated at low levels and correlates negatively with journal impact factor — and only a small fraction of decades of randomised trials used adequate methods, with inadequate methods rising over time.",
+  "citation_keys": [
+   "Szucs2017",
+   "Catillon2019"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Optimism about reform: the credibility-revolution review argues open-science reforms have produced substantive improvement, whereas the power meta-analysis finds no improvement in statistical power ov"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Szucs2017",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Median power to detect small, medium, and large effects was 0.12, 0.44, and 0.73, reflecting no improvement through the past half-century.",
+    "study_system": "3,801 cognitive neuroscience & psychology papers"
+   },
+   {
+    "cite_key": "Catillon2019",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "5.7% of RCTs used adequate methods (N=1173).",
+    "study_system": "RCTs in Cochrane reviews (1990-2015)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_3f0383c9cfdc9fc5",
+  "section_id": "sec-incentives",
+  "claim_text": "That researchers in more academically productive environments produce more hypothesis-confirming results is consistent with competition inflating bias, and using journal rank as an assessment tool tracks unreliability and retraction rather than quality.",
+  "citation_keys": [
+   "Fanelli2010",
+   "Brembs2013"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated",
+   "replication_unknown"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether productivity pressure inflates bias: Fanelli's US-states analysis found higher academic productivity predicted more hypothesis-confirming papers, whereas the later cross-disciplinary meta-asse"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Fanelli2010",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The probability of papers to support the tested hypothesis increased significantly with the per capita academic productivity of the state of the corresponding author (b = 1.383±0.682, Wald test = 4.108, df = 1, p = 0.043, Odds-Ratio (95%CI) = 3.988(1.047–15.193),).",
+    "study_system": "US research papers across disciplines"
+   },
+   {
+    "cite_key": "Brembs2013",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "These data corroborate previous hypotheses: using journal rank as an assessment tool is bad scientific practice.",
+    "study_system": "scholarly journals (review of journal-rank effects)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_a87e5450ad848dff",
+  "section_id": "sec-incentives",
+  "claim_text": "The link between competitive pressure and bias is nonetheless contested: although more productive environments produced more confirmatory results, a later cross-disciplinary meta-assessment found high-output, highly cited authors were not overall at greater risk of bias, locating inflation instead in small, early-career, and misconduct-prone work.",
+  "citation_keys": [
+   "Fanelli2010",
+   "Fanelli2017"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "disputed",
+   "replication_unknown"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether productivity pressure inflates bias: Fanelli's US-states analysis found higher academic productivity predicted more hypothesis-confirming papers, whereas the later cross-disciplinary meta-asse",
+   "Whether productivity pressure inflates bias: Fanelli's US-states analysis found higher academic productivity predicted more hypothesis-confirming papers, whereas the later cross-disciplinary meta-asse"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Fanelli2010",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The probability of papers to support the tested hypothesis increased significantly with the per capita academic productivity of the state of the corresponding author (b = 1.383±0.682, Wald test = 4.108, df = 1, p = 0.043, Odds-Ratio (95%CI) = 3.988(1.047–15.193),).",
+    "study_system": "US research papers across disciplines"
+   },
+   {
+    "cite_key": "Fanelli2017",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "However, we consistently observed a significant risk of small, early, and highly cited studies to overestimate effects and of studies not published in peer-reviewed journals to underestimate them.",
+    "study_system": "random sample of meta-analyses across all disciplines"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_bdba9ede8c153c1f",
+  "section_id": "sec-incentives",
+  "claim_text": "Optimistic syntheses describe a credibility revolution already delivering more negative results and higher-quality registered reports, yet the stagnation of statistical power over the same half-century warns against mistaking activity for improvement.",
+  "citation_keys": [
+   "Korbmacher2023",
+   "Szucs2017"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Optimism about reform: the credibility-revolution review argues open-science reforms have produced substantive improvement, whereas the power meta-analysis finds no improvement in statistical power ov",
+   "Optimism about reform: the credibility-revolution review argues open-science reforms have produced substantive improvement, whereas the power meta-analysis finds no improvement in statistical power ov"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Korbmacher2023",
+    "role": "partial_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Empirical evidence has also found that Registered Reports are perceived to be higher in research quality than regular articles, as well as equivalent in creativity and importance, while also allowing to report more negative results, which may provide further incentives for resear",
+    "study_system": "behavioural/cognitive/social science (meta-science perspective)"
+   },
+   {
+    "cite_key": "Szucs2017",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Median power to detect small, medium, and large effects was 0.12, 0.44, and 0.73, reflecting no improvement through the past half-century.",
+    "study_system": "3,801 cognitive neuroscience & psychology papers"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_7e8f6c8a70191989",
+  "section_id": "sec-incentives",
+  "claim_text": "A minority position holds the crisis narrative is itself overstated and that a story of methodological empowerment fits the trends better, though the stagnation-of-power evidence cuts against it and the tension remains open.",
+  "citation_keys": [
+   "Fanelli2018"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether science faces a genuine reproducibility/false-findings crisis: Ioannidis' framework concludes most published findings are likely false, whereas Fanelli argues the crisis narrative is empirical"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Fanelli2018",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This article provides an overview of recent evidence suggesting that this narrative is mistaken, and argues that a narrative of epochal changes and empowerment of scientists would be more accurate, inspiring, and compelling.",
+    "study_system": "science reproducibility discourse (opinion)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 2,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 3,
+    "issue": "Suppressed conflict (package conflict #8, resolution_status: open, and explicitly flagged in the task brief). Ioannidis2005b (paper A: most findings likely false) is cited (conflict box at lines 46-49), but Fanelli2018 (",
+    "fix": "Add a sentence acknowledging the contrarian view, e.g. in paragraph 5 or the structural-pessimism conflict box: 'A minority position holds that the crisis narra"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_3cea502274c7f660",
+  "section_id": "sec-incentives",
+  "claim_text": "The lived experience of the incentive gradient is documented directly: publication pressure, precarity, overwork, and burnout are pervasive among early-career and mid-career researchers and are perceived to reward speed and quantity over integrity.",
+  "citation_keys": [
+   "Armond2022",
+   "Marck2024",
+   "Srensen2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Armond2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The findings also showed that female researchers perceive greater stress than male researchers.",
+    "study_system": "Hungarian researchers (survey)"
+   },
+   {
+    "cite_key": "Marck2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Workloads were considerable, with 89.5% of participants working overtime and 54.8% reporting burnout.",
+    "study_system": "early/mid-career health academics, 2 Australian universities (survey)"
+   },
+   {
+    "cite_key": "Srensen2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "These systems are widely perceived to reward speed and quantity at the expense of quality and integrity, thereby potentially undermining the robustness of the knowledge produced.",
+    "study_system": "researchers across 7 European countries (36 focus groups)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_3fc9b0ceac9dc786",
+  "section_id": "sec-incentives",
+  "claim_text": "The manifesto for reproducible science argues that measures targeting methods, reporting, reproducibility, evaluation, and incentives — supported by simulation and early empirical evidence — can make research more reliable given iterative adoption by researchers, institutions, funders, and journals.",
+  "citation_keys": [
+   "Munafo2017"
+  ],
+  "modality_seed": "established",
+  "replication": [
+   "replicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Reform optimism: the manifesto expects methods/reporting/incentive measures to improve reliability, whereas the natural-selection model argues that as long as publication drives careers, incentives ke"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Munafo2017",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Studies of statistical power persistently find it to be below (sometimes well below) 50%, across both time and the different disciplines studied.",
+    "study_system": "meta-research across scientific disciplines"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_010594c8fd65cb66",
+  "section_id": "sec-incentives",
+  "claim_text": "The natural-selection model counters that as long as publication drives careers, the incentive system will keep selecting for bad methods, and researcher-level fixes, even replication, are insufficient without institutional change.",
+  "citation_keys": [
+   "Smaldino2016"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Reform optimism: the manifesto expects methods/reporting/incentive measures to improve reliability, whereas the natural-selection model argues that as long as publication drives careers, incentives ke"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Smaldino2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "We show that despite over 50 years of reviews of low statistical power and its consequences, there has been no detectable increase.",
+    "study_system": "behavioural sciences (power meta-analysis + model)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_ff6e9d39d3764d18",
+  "section_id": "sec-incentives",
+  "claim_text": "An earlier systematic screen of more than twenty thousand articles had reported several percent as containing inappropriately duplicated images — a prior baseline that invoke when they show the broker entities enabling fraud are large, resilient, and growing faster than legitimate science.",
+  "citation_keys": [
+   "Richardson2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Richardson2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "A systematic analysis of more than 20,000 articles published between 1995 and 2014 reported that 3.8% of these articles contained inappropriately duplicated images, with at least half of these cases suggestive of deliberate manipulation (24).",
+    "study_system": "biomedical articles (image screening); paper mills"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_4958a1a65a102cfc",
+  "section_id": "sec-incentives",
+  "claim_text": "Detection-based estimates now run well above self-report: a forensic red-flagging method estimates several percent of the biomedical literature to be outright fakes, a machine-learning classifier flagged nearly a tenth of millions of cancer papers as potential paper-mill products, and formulaic single-factor papers exploiting open health databases have exploded from a handful per year to hundreds.",
+  "citation_keys": [
+   "Sabel2025a",
+   "Scancar2026",
+   "Suchak2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Prevalence of data fabrication: survey self-reports pool to ~2% of scientists admitting fabrication, whereas forensic red-flagging/detection of the biomedical literature estimates ~5.8% of papers are "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Sabel2025a",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Applying Bayes' rule resulted in an estimate of 5.8% actual fakes in the biomedical literature.",
+    "study_system": "biomedical literature (forensic red-flagging detection)"
+   },
+   {
+    "cite_key": "Scancar2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "When applied to the cancer research literature, it flagged 261 245 of 2 647 471 papers (9.87%, 95% confidence interval 9.83 to 9.90)",
+    "study_system": "cancer research papers 1999-2024 (ML paper-mill detection)"
+   },
+   {
+    "cite_key": "Suchak2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "An average of 4 papers per annum were published between 2014 and 2021, increasing to 33, 82, and 190 in 2022, 2023, and 2024 (to October 9 only) respectively, with recent formulaic manuscripts targeting a relatively small number of indexed journals with moderate impact factor (av",
+    "study_system": "NHANES-derived single-factor papers (n=341)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_d950b04f2fd7b0f0",
+  "section_id": "sec-incentives",
+  "claim_text": "Reviews trace this flood squarely to academic pressure and monetary publication incentives, and the same reward logic drives authorship inflation, gift and honorary authorship, salami-slicing, and citation gaming.",
+  "citation_keys": [
+   "Wittau2024",
+   "Kocyigit2025",
+   "Marcelino2026",
+   "Ioannidis2023a",
+   "Pruschak2022",
+   "Ding2019"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Wittau2024",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The main drivers of the fake paper flood are the pressure in academic systems and (monetary) incentives to publish in respected scientific journals and sometimes the personal desire for increased 'prestige.'",
+    "study_system": "biomedical literature (paper-mill review)"
+   },
+   {
+    "cite_key": "Kocyigit2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "A total of 764 retracted AI-related papers were examined, with the most retractions occurring in 2023 (n = 667).",
+    "study_system": "retracted AI-related publications in PubMed (bibliometric)"
+   },
+   {
+    "cite_key": "Marcelino2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "While this trend is often attributed to increased scientific collaboration and research complexity, substantial evidence suggests that systemic publication pressures and metric-based evaluation systems have created incentives for \"strategic co-authorship\"-practices including hono",
+    "study_system": "academic publishing (evidence synthesis)"
+   },
+   {
+    "cite_key": "Ioannidis2023a",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This review examines several gaming practices, including authorship-based, citation-based, editorial-based, and journal-based gaming as well as gaming with outright fabrication.",
+    "study_system": "research assessment metrics (review)"
+   },
+   {
+    "cite_key": "Pruschak2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Drawing on data from a survey of 2,222 social scientists from around the globe, we study the prevalence of authorship misconduct in the social sciences.",
+    "study_system": "2,222 social scientists (authorship survey)"
+   },
+   {
+    "cite_key": "Ding2019",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Overall, 18% of journals did not have any policies on either practice, 33% only referred to a generic guideline or checklist without explicit mention about either practice, 36% included policies on duplicate publication and only 13% included policies on both duplicate and salami ",
+    "study_system": "journal editorial policies (n=209 journals)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_71a71cb56703bf87",
+  "section_id": "sec-incentives",
+  "claim_text": "Anonymous self-report surveys pool to around two percent of scientists admitting fabrication, whereas forensic detection of the biomedical literature estimates several percent of papers to be actual fakes and machine screening flags close to a tenth of cancer papers.",
+  "citation_keys": [
+   "Fanelli2009",
+   "Sabel2025a",
+   "Scancar2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Prevalence of data fabrication: survey self-reports pool to ~2% of scientists admitting fabrication, whereas forensic red-flagging/detection of the biomedical literature estimates ~5.8% of papers are ",
+   "Prevalence of data fabrication: survey self-reports pool to ~2% of scientists admitting fabrication, whereas forensic red-flagging/detection of the biomedical literature estimates ~5.8% of papers are "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Fanelli2009",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Meta-analysis yielded a pooled weighted estimate of 1.97% (95%CI: 0.86–4.45), with significant heterogeneity (Cochran's Q = 61.7777, df = 6, P<0.0001).",
+    "study_system": "surveys of scientists (misconduct meta-analysis)"
+   },
+   {
+    "cite_key": "Sabel2025a",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Applying Bayes' rule resulted in an estimate of 5.8% actual fakes in the biomedical literature.",
+    "study_system": "biomedical literature (forensic red-flagging detection)"
+   },
+   {
+    "cite_key": "Scancar2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "When applied to the cancer research literature, it flagged 261 245 of 2 647 471 papers (9.87%, 95% confidence interval 9.83 to 9.90)",
+    "study_system": "cancer research papers 1999-2024 (ML paper-mill detection)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "Fanelli2009 is mispaired. The specific quantitative claim (editorial data-availability mandate -> near-universal declarations but <1% usable data) is fully and solely supported by Danchev2021. Fanelli2009 is a meta-analy",
+    "fix": "Remove Fanelli2009 from this citation group (Danchev2021 alone supports the sentence), or, if Fanelli2009 is intended to support the 'voluntary virtue has faile"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_1b2176fe7acfe895",
+  "section_id": "sec-incentives",
+  "claim_text": "The Declaration on Research Assessment and allied reforms press institutions away from journal metrics; registered reports raise the publication of null findings and are perceived as higher quality; the multi-site replication projects and standing laboratory networks that first exposed the crisis have themselves become durable reform infrastructure; open-practice badges lifted reported open data at one journal from near-baseline to nearly forty percent; transparency ratings offer an alternative to the impact factor; minimum-reporting frameworks operationalise transparency at the article level; and integrity-based assessment principles propose rewarding the behaviours that strengthen science.",
+  "citation_keys": [
+   "Nosek2018",
+   "Allen2019",
+   "OpenScienceCollaboration2015",
+   "Nosek2022",
+   "Neves2020",
+   "Kidwell2016",
+   "Giofre2017",
+   "MayoWilson2021",
+   "Macleod2021",
+   "Moher2018",
+   "Moher2020"
+  ],
+  "modality_seed": "suggestive",
+  "replication": [
+   "replicated",
+   "replication_unknown",
+   "single-study",
+   "unreplicated"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether the Reproducibility Project: Psychology demonstrates low reproducibility (only 36% of replications significant) or, after correcting for alleged statistical errors and accounting for sampling/",
+   "Whether the Reproducibility Project: Psychology demonstrates low reproducibility (only 36% of replications significant) or, after correcting for alleged statistical errors and accounting for sampling/"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Nosek2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Widespread adoption of preregistration will increase distinctiveness between hypothesis generation and hypothesis testing and will improve the credibility of research findings.",
+    "study_system": "research design (preregistration)"
+   },
+   {
+    "cite_key": "Allen2019",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "RRs can thereby increase the chances of publishing null findings, as we demonstrate in 'Benefit 1: Greater faith in research'.",
+    "study_system": "early-career researchers (open science)"
+   },
+   {
+    "cite_key": "OpenScienceCollaboration2015",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Thirty-six percent of replications had statistically significant results; 47% of original effect sizes were in the 95% confidence interval of the replication effect size; 39% of effects were subjectively rated to have replicated the original result; and if no bias in original res",
+    "study_system": "experimental/correlational psychology (100 studies)"
+   },
+   {
+    "cite_key": "Nosek2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Systematic and multi-site replication projects assessed current understandings and observed surprising failures to replicate many published findings.",
+    "study_system": "psychological science (replication)"
+   },
+   {
+    "cite_key": "Neves2020",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The Brazilian Reproducibility Initiative began recruiting collaborators to perform replication experiments in 2018, and currently aims to replicate between 60 and 100 experiments from Brazilian biomedical sciences.",
+    "study_system": "Brazilian biomedical replication network (63 labs)"
+   },
+   {
+    "cite_key": "Kidwell2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Across the four comparison journals, for the half years prior to 2014, an average of 3.3% of articles reported open data (range = 1.6% to 4.9%), and after January 1, 2014, the average was 2.1% (range = 1.8% to 2.3%).",
+    "study_system": "Psychological Science + 4 comparison journals (n=2,478 articles)"
+   },
+   {
+    "cite_key": "Giofre2017",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In Psychological Science, the use of confidence intervals increased markedly overall, from 28% of articles in 2013 to 70% in 2015, as did the availability of open data (3 to 39%) and open materials (7 to 31%).",
+    "study_system": "Psychological Science & JEP:General articles"
+   },
+   {
+    "cite_key": "MayoWilson2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Designed as an alternative to the Journal Impact Factor for evaluating journal quality, the TOP Factor is a quantitative metric that assesses the degree to which journal policies promote transparency and openness.",
+    "study_system": "scientific journals (TOP Factor methodology)"
+   },
+   {
+    "cite_key": "Macleod2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Eighty percent of 211 corresponding authors who responded, and 84% of 33 editorial staff, found the checklist “very” or “somewhat” helpful.",
+    "study_system": "life-science journals (MDAR pilot, 289 manuscripts)"
+   },
+   {
+    "cite_key": "Moher2018",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "A burgeoning number of scientific leaders believe the current system of faculty incentives and rewards is misaligned with the needs of society and disconnected from the evidence about the causes of the reproducibility crisis and suboptimal quality of the scientific publication re",
+    "study_system": "clinical/life-science faculty assessment (expert panel)"
+   },
+   {
+    "cite_key": "Moher2020",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We present five principles: responsible research practices; transparent reporting; open science (open research); valuing a diversity of types of research; and recognizing all contributions to research and scholarly activity.",
+    "study_system": "researcher assessment (integrity framework)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 4,
+    "issue": "Field-provenance scope point for a section explicitly about the ANIMAL/preclinical ethical debt. The largest 'enforcement works' magnitudes are drawn from non-animal literatures: Kidwell2016 is Psychological Science (bad",
+    "fix": "Add one clause noting the transfer, e.g. 'the largest documented enforcement effects come from psychology and ecology journals ({cite:p}`Kidwell2016, IvimeyCook"
+   },
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "Mechanism label slightly overstated. Open-practice badges are an opt-in incentive/reward, not a mandate; calling them 'enforced' places them in the same category as mandatory-at-revision checklists (Macleod2019b) and man",
+    "fix": "Change 'an enforced, visible signal' to 'an incentivised, visible signal' (or 'a visible, rewarded signal') to distinguish it from acceptance-conditioning manda"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_aed8c9a42a3d03f5",
+  "section_id": "sec-incentives",
+  "claim_text": "Open practices are moreover associated with tangible career returns — more citations, attention, and opportunities — a citation advantage that is real but inconsistent across studies for open access, clearer in single-field analyses, and more robust — roughly nine percent more citations — for open data, while a compulsory open-data mandate causally raised a journal's citations.",
+  "citation_keys": [
+   "McKiernan2016",
+   "Klebel2025",
+   "Friederichs2026",
+   "Migliorini2026",
+   "Zhang2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "contested",
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether open access confers a citation advantage: the scoping review finds it inconsistent (fewer than half of studies detect an advantage, over a quarter find none), whereas the single-field empirica",
+   "Whether open access confers a citation advantage: the scoping review finds it inconsistent (fewer than half of studies detect an advantage, over a quarter find none), whereas the single-field empirica"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "McKiernan2016",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We review literature demonstrating that open research is associated with increases in citations, media attention, potential collaborators, job opportunities and funding opportunities.",
+    "study_system": "researchers (open science career effects)"
+   },
+   {
+    "cite_key": "Klebel2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "47.8% of reviewed studies found an OACA, with the remaining studies finding no OACA (27.6%) or only in subsets (23.9%)",
+    "study_system": "Open Science literature (scoping review across OA, open/FAIR data, code, citizen science)"
+   },
+   {
+    "cite_key": "Friederichs2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "PMCID-indexed articles achieved an (untrimmed) average of 16.22 versus 13.19 citations in the non-OA segment",
+    "study_system": "Scientometric analysis of 43,275 medical-education research articles (OA vs non-OA)"
+   },
+   {
+    "cite_key": "Migliorini2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The coefficient for OA status was 0.175 (95% CI 0.071 to 0.279, p = 0.001)",
+    "study_system": "Scientometric regression analysis of 97,806 orthopaedic articles"
+   },
+   {
+    "cite_key": "Zhang2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Specifically, the current-year citations of CIE increased from 0.2 ~ 0.4 to 0.9 ~ 1.0 after the open data policy, which means it increased by around 1.5 ~ 4.0 times.",
+    "study_system": "37 Chinese economics journals 2001-2019 (China Industrial Economics open-data mandate)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 3,
+    "issue": "Conflict presented as resolved (package conflict #12, resolution_status: open). Both keys are present (mechanical pre-check passes), but the substance of the conflict is erased: Klebel2025 is a scoping review that found ",
+    "fix": "Qualify the sentence, e.g.: 'a citation advantage that is real but inconsistent across studies for open access {cite:p}`Klebel2025` while clearer in single-fiel"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_4e0e9f4cb6e2df6d",
+  "section_id": "sec-incentives",
+  "claim_text": "Narrative curricula vitae and article-level metrics are being piloted to make stewardship visible in evaluation, field-normalised article-level indicators and national responsible-evaluation systems offer further templates, and consensus reform agendas, funder integrity plans, and training programmes have proliferated worldwide.",
+  "citation_keys": [
+   "AubertBonn2025",
+   "Albert2025",
+   "Malicki2026",
+   "Arabi2025",
+   "Hutchins2016",
+   "MillonesGomez2026",
+   "AubertBonn2022",
+   "Horbach2022",
+   "Westmore2023",
+   "Kebenei2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "AubertBonn2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Narrative CVs have emerged as enabling qualitative assessments and are becoming more widely piloted.",
+    "study_system": "research assessment reform (workshop report)"
+   },
+   {
+    "cite_key": "Albert2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "First, number of funders currently requiring NCVs remains low overall, although national granting agencies are among the early adopters.",
+    "study_system": "research funding agencies (scoping review of narrative-CV templates)"
+   },
+   {
+    "cite_key": "Malicki2026",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Few institutions consider rigor, reproducibility, or transparency practices for hiring, promotion, or tenure decisions.",
+    "study_system": "academic CV template (Stanford School of Medicine)"
+   },
+   {
+    "cite_key": "Arabi2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "We also find that approximately half of researchers never publish in a venue with an impact factor above 15, which, under journal-level evaluation regimes, may exclude them from consideration for opportunities.",
+    "study_system": "biomedical researchers/articles (bibliometric analysis)"
+   },
+   {
+    "cite_key": "Hutchins2016",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The resulting Relative Citation Ratio is article level and field independent and provides an alternative to the invalid practice of using journal impact factors to identify influential papers.",
+    "study_system": "biomedical bibliometrics (NIH awardees)"
+   },
+   {
+    "cite_key": "MillonesGomez2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "RENACYT captures gradients in productivity and quality but insufficiently differentiates leadership and integrity.",
+    "study_system": "Observational study of Peru's RENACYT registry (9,651 researchers, 2019-2024)"
+   },
+   {
+    "cite_key": "AubertBonn2022",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Here, we translate our findings in four actions that are urgently needed to foster better research.",
+    "study_system": "research assessment / integrity reform"
+   },
+   {
+    "cite_key": "Horbach2022",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "This Consensus View offers a range of examples of how funders are already promoting research integrity, distills 6 core topics that funders should cover in a RIPP, and provides guidelines on how to develop and implement a RIPP.",
+    "study_system": "research funders (consensus)"
+   },
+   {
+    "cite_key": "Westmore2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The EViR Funders' Forum worked together to develop a set of ten Guiding Principles, that if funders adhered to would reduce research waste and ensure value in research.",
+    "study_system": "health-research funders (international forum)"
+   },
+   {
+    "cite_key": "Kebenei2026",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Over 1200 of over 4000 of the participants were reached across all 15 KEMRI research centers.",
+    "study_system": "research-integrity training programme (KEMRI, Kenya)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_7aefc45dfb14b142",
+  "section_id": "sec-incentives",
+  "claim_text": "The declared-versus-actual gap is itself the primary evidence: a policy requirement to state a data-sharing intention produced almost no usable public data, and the same attitude-behaviour gap recurs among the gatekeepers, where most journal editors endorse transparency guidelines yet do not prioritise or intend to implement them.",
+  "citation_keys": [
+   "Danchev2021",
+   "Naaman2023",
+   "Toomey2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether a policy requirement translates into actually available data: a blanket journal data-sharing mandate (ICMJE) produced near-zero actual public data (0.6%), whereas a voluntary badge-plus-verifi"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Danchev2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The commitment to data sharing substantially decreases when we consider indicators of actual vs declared data sharing: of 334 articles declaring that they would share data, only 2 IPD sets (0.6%; 95% CI, 0.0%-1.5%) were actually deidentified and publicly available on the journal ",
+    "study_system": "487 clinical trials in JAMA/Lancet/NEJM"
+   },
+   {
+    "cite_key": "Naaman2023",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "However, 74% (60/81) did not see TOP as a high priority compared with other editorial tasks, 65% (51/79) do not receive positive recognition from colleagues who are important to them when changing journal policies, and 58% (47/81) did not intend to implement TOP in the next year.",
+    "study_system": "journal editors (n=88 survey)"
+   },
+   {
+    "cite_key": "Toomey2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Out of a total possible score of 29, journal scores ranged from 1 to 13 (median = 6).",
+    "study_system": "health psychology & behavioural medicine journals (n=19)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "Fanelli2009 is mispaired. The specific quantitative claim (editorial data-availability mandate -> near-universal declarations but <1% usable data) is fully and solely supported by Danchev2021. Fanelli2009 is a meta-analy",
+    "fix": "Remove Fanelli2009 from this citation group (Danchev2021 alone supports the sentence), or, if Fanelli2009 is intended to support the 'voluntary virtue has faile"
+   },
+   {
+    "severity": "MUST_FIX",
+    "track": 1,
+    "issue": "Misattribution / interpretive mismatch. The specific claim (an editorial data-sharing requirement produced near-universal declared willingness but <1% actual availability) is fully and correctly supported by Danchev2021.",
+    "fix": "Remove `Fanelli2009` from this pairing, leaving `{cite:p}`Danchev2021``, which carries the claim on its own. If a second supporting citation is wanted for the g"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_08e44eebd472062a",
+  "section_id": "sec-incentives",
+  "claim_text": "Uptake studies find open practices spreading only modestly and largely independent of local institutional support, and a pre-post evaluation captured the pattern exactly — engagement with open-science tooling rose sharply while concrete outputs such as preregistrations, protocols, and shared datasets remained essentially absent both before and after.",
+  "citation_keys": [
+   "Brohmer2025",
+   "Cenci2025"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether institutional/policy interventions effectively raise open-research uptake: OA publishing shows strong mandate/repository-driven growth, but preregistration/data-sharing open-science practices "
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Brohmer2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Our findings revealed a modest increase of OS over time but no significant difference between departments with more or less-established OS practices.",
+    "study_system": "379 studies in 91 psychology PhD theses (2 departments)"
+   },
+   {
+    "cite_key": "Cenci2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The number of OSF accounts increased from 7 to 78 after the end of the course.",
+    "study_system": "Pre-post study of an open-science/responsible-research-practices training course, n=80 participants"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_2e0ca6e0360be8d1",
+  "section_id": "sec-incentives",
+  "claim_text": "Cross-national surveys find awareness of the reproducibility problem near-universal even where successful replication remains rare, coordinated replication efforts in fields beyond psychology continue to report low success rates, and where open practices are becoming normative it is so far within isolated subfields rather than across the system.",
+  "citation_keys": [
+   "Chakravorti2025",
+   "Murphy2025a",
+   "Eben2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replication_unknown",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Chakravorti2025",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "14.58% of Indian researchers who reported trying to replicate others’ research obtained affirmative results with the remaining majority reporting unsuccessful or only partially successful results.",
+    "study_system": "Survey of 452 professors in the USA (n=261) and India (n=191)"
+   },
+   {
+    "cite_key": "Murphy2025a",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Overall, 28% of the replications were deemed successful as they achieved statistical significance and compatible effect size estimates",
+    "study_system": "Large replication project in sports and exercise science"
+   },
+   {
+    "cite_key": "Eben2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The most commonly used practices were preregistration (76%) and data sharing (65%).",
+    "study_system": "Exploratory survey of 83 behavioral-addictions researchers (41 early-career, 42 non-ECR)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_fd3af7e9d3ae7a25",
+  "section_id": "sec-incentives",
+  "claim_text": "Most damningly, a scoping review found that of more than a hundred studies of reproducibility interventions, only a handful measured reproducibility itself; the rest measured proxies presumed to help, and a matched comparison found preregistered studies no less likely to report positive results than their non-preregistered counterparts, even as they improved power.",
+  "citation_keys": [
+   "Dudda2025",
+   "vandenAkker2023"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Dudda2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Of the 105 distinct studies we included, 15 directly measured the effect of an intervention on reproducibility or replicability, while the remainder addressed a proxy outcome that might be expected to increase reproducibility or replicability, such as data sharing, methods transp",
+    "study_system": "reproducibility-intervention studies (scoping review)"
+   },
+   {
+    "cite_key": "vandenAkker2023",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "In contrast to our theoretical expectations and prior research, we did not find that preregistered studies had a lower proportion of positive results (Hypothesis 1), smaller effect sizes (Hypothesis 2), or fewer statistical errors (Hypothesis 3) than non-preregistered studies.",
+    "study_system": "193 preregistered vs 193 matched psychology studies"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_a2884d6b2781397b",
+  "section_id": "sec-incentives",
+  "claim_text": "When a signalling device becomes a reward in its own right, it can be gamed or hollowed out — the recurring worry that badges and mandates strip preregistration of its methodological function rather than delivering it.",
+  "citation_keys": [
+   "Vize2024",
+   "Bertin2025"
+  ],
+  "modality_seed": "contested",
+  "replication": [
+   "disputed",
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Vize2024",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Klonsky's overarching concern is that when preregistration ceases to be a tool for research and becomes an indicator of quality itself (a primary example being preregistration badges), it loses its intended benefits.",
+    "study_system": "psychological science (methodological commentary)"
+   },
+   {
+    "cite_key": "Bertin2025",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "While the open science movement grows in importance, the pressure of the trilemma may encourage an opportunistic use of open science practices as a form of virtue signalling compensating for low transparency.",
+    "study_system": "psychological science (conceptual analysis)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 3,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_07c7236fe950f853",
+  "section_id": "sec-incentives",
+  "claim_text": "Empirically, even structured preregistration reduces but does not eliminate researcher degrees of freedom, and independent coders often cannot agree on how many hypotheses a preregistration even states.",
+  "citation_keys": [
+   "Bakker2020"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Bakker2020",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Coders agreed on the number of hypotheses in only 14.29% of the scores.",
+    "study_system": "OSF preregistrations (n=106)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "MUST_FIX",
+    "track": 5,
+    "issue": "SHOULD_CITE. Bakker2020 provides direct empirical evidence — comparing 105 preregistrations, structured formats restricted researcher degrees of freedom better than unstructured (large effect) but neither eliminated them",
+    "fix": "Add Bakker2020 to the preregistration-limits discussion, e.g.: 'empirically, even structured preregistration reduces but does not eliminate researcher degrees o"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_e2a342cf88aca047",
+  "section_id": "sec-incentives",
+  "claim_text": "Open-practice badges not only raised reported open data but made the reported data more likely to be actually available, correct, and complete, whereas audits of datasets archived under blanket mandates found most incomplete or unusable, and a blanket journal data-sharing requirement produced near-zero actual public data.",
+  "citation_keys": [
+   "Kidwell2016",
+   "Roche2015",
+   "Danchev2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether transparency interventions deliver genuinely usable open data: badges increased data that was actually available/usable, whereas audits of mandated archives found most datasets incomplete or u",
+   "Whether a policy requirement translates into actually available data: a blanket journal data-sharing mandate (ICMJE) produced near-zero actual public data (0.6%), whereas a voluntary badge-plus-verifi"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Kidwell2016",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "Across the four comparison journals, for the half years prior to 2014, an average of 3.3% of articles reported open data (range = 1.6% to 4.9%), and after January 1, 2014, the average was 2.1% (range = 1.8% to 2.3%).",
+    "study_system": "Psychological Science + 4 comparison journals (n=2,478 articles)"
+   },
+   {
+    "cite_key": "Roche2015",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In most studies (56%), the archived datasets were incomplete, either because of missing data or insufficient metadata, resulting in a completeness score of 3 or less (Figs 1 and 2A).",
+    "study_system": "ecology/evolution datasets (n=100)"
+   },
+   {
+    "cite_key": "Danchev2021",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "The commitment to data sharing substantially decreases when we consider indicators of actual vs declared data sharing: of 334 articles declaring that they would share data, only 2 IPD sets (0.6%; 95% CI, 0.0%-1.5%) were actually deidentified and publicly available on the journal ",
+    "study_system": "487 clinical trials in JAMA/Lancet/NEJM"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": [
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 4,
+    "issue": "Field-provenance scope point for a section explicitly about the ANIMAL/preclinical ethical debt. The largest 'enforcement works' magnitudes are drawn from non-animal literatures: Kidwell2016 is Psychological Science (bad",
+    "fix": "Add one clause noting the transfer, e.g. 'the largest documented enforcement effects come from psychology and ecology journals ({cite:p}`Kidwell2016, IvimeyCook"
+   },
+   {
+    "severity": "MINOR",
+    "track": 2,
+    "issue": "Mechanism label slightly overstated. Open-practice badges are an opt-in incentive/reward, not a mandate; calling them 'enforced' places them in the same category as mandatory-at-revision checklists (Macleod2019b) and man",
+    "fix": "Change 'an enforced, visible signal' to 'an incentivised, visible signal' (or 'a visible, rewarded signal') to distinguish it from acceptance-conditioning manda"
+   },
+   {
+    "severity": "SHOULD_CAVEAT",
+    "track": 1,
+    "issue": "Fanelli2009 is mispaired. The specific quantitative claim (editorial data-availability mandate -> near-universal declarations but <1% usable data) is fully and solely supported by Danchev2021. Fanelli2009 is a meta-analy",
+    "fix": "Remove Fanelli2009 from this citation group (Danchev2021 alone supports the sentence), or, if Fanelli2009 is intended to support the 'voluntary virtue has faile"
+   }
+  ]
+ },
+ {
+  "claim_id": "clm_03b6daab59434084",
+  "section_id": "sec-incentives",
+  "claim_text": "One position holds that quantitative metrics, if made rigorous, field-adjusted, and centralised, could improve research practices and would recognise more researchers than journal-level judgement does.",
+  "citation_keys": [
+   "Ioannidis2023b"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether quantitative/ranking metrics can be reformed into a force that improves research (pro-metrics) or are inherently socially irresponsible instruments that should be resisted (anti-ranking)."
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Ioannidis2023b",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Although often derided, quantitative metrics could help improve research practices if they are rigorous, field-adjusted, and centralized.",
+    "study_system": "researcher assessment (metrics debate)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_821cf3f6e91ab2c6",
+  "section_id": "sec-incentives",
+  "claim_text": "The opposing view argues that ranking instruments — global university rankings among them — are inherently incompatible with socially responsible practice and should be abandoned rather than repaired.",
+  "citation_keys": [
+   "Gadd2021"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether quantitative/ranking metrics can be reformed into a force that improves research (pro-metrics) or are inherently socially irresponsible instruments that should be resisted (anti-ranking)."
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Gadd2021",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Draws parallels between the problematic use of GDP to evaluate economic success with the use of global university rankings to evaluate university success.",
+    "study_system": "global university rankings"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_c1b69bd6232b1724",
+  "section_id": "sec-incentives",
+  "claim_text": "Reform proposals are real and multiplying, and their diagnosis is now broadly shared, from proposals to restructure publication incentives to the systemic overhaul urged decades ago and the recent declarations reframing metric-gaming as an existential threat.",
+  "citation_keys": [
+   "Nosek2012",
+   "Trueblood2025",
+   "Alberts2014",
+   "Sabel2025b"
+  ],
+  "modality_seed": "suggestive",
+  "replication": [
+   "replicated",
+   "replication_unknown",
+   "single-study",
+   "unreplicated"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Nosek2012",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "When incentives favor novelty over replication, false results persist in the literature unchallenged, reducing efficiency in knowledge accumulation.",
+    "study_system": "scientific incentive structures"
+   },
+   {
+    "cite_key": "Trueblood2025",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Commercial publishing companies have capitalized on the centrality of publishing to the scientific enterprises of knowledge dissemination and academic recognition to extract large profits from academia by leveraging unpaid services from reviewers, creating financial barriers to r",
+    "study_system": "academic publishing system / journal reform"
+   },
+   {
+    "cite_key": "Alberts2014",
+    "role": "direct_support",
+    "passage_source": "abstract",
+    "supporting_passage": "The long-held but erroneous assumption of never-ending rapid growth in biomedical science has created an unsustainable hypercompetitive system that is discouraging even the most outstanding prospective students from entering our profession--and making it difficult for seasoned in",
+    "study_system": "US biomedical research ecosystem (expert analysis)"
+   },
+   {
+    "cite_key": "Sabel2025b",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Adjust incentive systems to merit quality, not quantity, in a reputation economy where the gaming of publication numbers and citation metrics distorts the perception of academic excellence.",
+    "study_system": "Stockholm Declaration action plan on science-publishing reform"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_48c6dd452eee6b42",
+  "section_id": "sec-governance",
+  "claim_text": "Enforced requirements — checklists mandated at revision, availability checked at the point of publication — move behaviour; passively published or web-endorsed guidelines largely do not.",
+  "citation_keys": [
+   "Macleod2019a",
+   "Strech2019"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "replicated",
+   "single-study"
+  ],
+  "has_conflict_source": true,
+  "conflict_notes": [
+   "Whether the classic 3Rs framework is inadequate and must be expanded with scientific-value principles (Strech & Dirnagl's 6Rs) or remains conceptually sufficient and merely under-applied (Vitale & Ric",
+   "Whether the classic 3Rs framework is inadequate and must be expanded with scientific-value principles (Strech & Dirnagl's 6Rs) or remains conceptually sufficient and merely under-applied (Vitale & Ric"
+  ],
+  "citation_contexts": [
+   {
+    "cite_key": "Macleod2019a",
+    "role": "partial_support",
+    "passage_source": "abstract",
+    "supporting_passage": "Finally, we consider strategies for improvement including increased use of brief, pre-registered study protocols; pre-registration, open publication and open data; and the central importance of education in improving research performance.",
+    "study_system": "Animal-based research reproducibility (review)"
+   },
+   {
+    "cite_key": "Strech2019",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "In times where approximately 50% of animal studies are not reported,only the preregistration of animal study protocols allows the identification of biased, delayed or unreported results.",
+    "study_system": "animal research ethics framework (proposal)"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 4,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ },
+ {
+  "claim_id": "clm_58cfba3363124058",
+  "section_id": "sec-governance",
+  "claim_text": "The EQUATOR Network now lists 673 reporting guidelines, so many that no researcher can master the landscape and journal instructions rarely map cleanly onto it.",
+  "citation_keys": [
+   "Christensen2026"
+  ],
+  "modality_seed": "likely",
+  "replication": [
+   "single-study"
+  ],
+  "has_conflict_source": false,
+  "conflict_notes": [],
+  "citation_contexts": [
+   {
+    "cite_key": "Christensen2026",
+    "role": "direct_support",
+    "passage_source": "full_text",
+    "supporting_passage": "While researchers are not expected to know the details of all 673 currently listed guidelines, cultivating an awareness of this landscape and the ability to see the big picture is mandatory.",
+    "study_system": "Reporting-guideline landscape (EQUATOR Network); OA research journal editorial"
+   }
+  ],
+  "mechanical_scores": {
+   "traceability": 4,
+   "robustness": 1,
+   "source_integrity_verification": 4
+  },
+  "critic_priors": []
+ }
+]
