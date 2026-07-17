@@ -5,8 +5,11 @@ import {
   activateConcernedText,
   bindHighlightLifecycle,
   displayComponentScore,
+  ensureProseHighlightStyles,
   findTextQuote,
   formatTrustScore,
+  layoutTrustMarginCards,
+  registerTrustMarginCard,
   renderCitationContexts,
   trustBandText,
 } from '../content/trust-claim-widget.mjs';
@@ -57,6 +60,89 @@ test('build-time target highlighting is coordinated and cleanup is idempotent', 
   active.cleanup();
   active.cleanup();
   assert.equal(classes.has('tc-is-highlighted'), false);
+});
+
+test('document-level prose highlight styles are installed once with MyST dark mode support', () => {
+  const elements = new Map();
+  const head = {
+    appendChild: (element) => elements.set(element.id, element),
+  };
+  const doc = {
+    head,
+    getElementById: (id) => elements.get(id) || null,
+    createElement: () => ({ id: '', textContent: '' }),
+  };
+
+  ensureProseHighlightStyles(doc);
+  ensureProseHighlightStyles(doc);
+
+  assert.equal(elements.size, 1);
+  const style = elements.get('tc-prose-highlight');
+  assert.match(style.textContent, /\.trust-claim-target\.tc-is-highlighted/);
+  assert.match(style.textContent, /mark\.tc-runtime-target/);
+  assert.match(style.textContent, /html\.dark/);
+});
+
+test('desktop margin layout follows exact targets and stacks nearby cards', () => {
+  const makeRectElement = (top, height) => ({
+    getBoundingClientRect: () => ({ top, height }),
+    isConnected: true,
+  });
+  const firstTarget = makeRectElement(100, 20);
+  const secondTarget = makeRectElement(120, 20);
+  const targets = new Map([
+    ['first-target', firstTarget],
+    ['second-target', secondTarget],
+  ]);
+  let narrow = false;
+  const win = {
+    scrollY: 0,
+    addEventListener: () => {},
+    matchMedia: () => ({ matches: narrow }),
+    requestAnimationFrame: (callback) => {
+      callback();
+      return 1;
+    },
+  };
+  const doc = {
+    defaultView: win,
+    fonts: null,
+    getElementById: (id) => targets.get(id) || null,
+    querySelectorAll: () => [],
+  };
+  const makeCard = (naturalTop) => {
+    const aside = {
+      dataset: {},
+      isConnected: true,
+      style: {},
+    };
+    const host = { closest: () => aside };
+    const el = {
+      ...makeRectElement(naturalTop, 54),
+      ownerDocument: doc,
+      getRootNode: () => ({ host }),
+    };
+    return { aside, el };
+  };
+  const first = makeCard(20);
+  const second = makeCard(20);
+
+  const removeFirst = registerTrustMarginCard(first.el, { targetAnchor: 'first-target' });
+  const removeSecond = registerTrustMarginCard(second.el, { targetAnchor: 'second-target' });
+  const positions = layoutTrustMarginCards(doc);
+
+  assert.deepEqual(positions.map(({ top }) => top), [100, 162]);
+  assert.equal(first.aside.style.transform, 'translateY(80px)');
+  assert.equal(second.aside.style.transform, 'translateY(142px)');
+  assert.equal(first.aside.dataset.trustClaimLaidOut, 'true');
+
+  narrow = true;
+  assert.deepEqual(layoutTrustMarginCards(doc), []);
+  assert.equal(first.aside.style.transform, '');
+  assert.equal(first.aside.dataset.trustClaimLaidOut, undefined);
+
+  removeFirst();
+  removeSecond();
 });
 
 test('hovering either the score or exact text highlights both sides', () => {

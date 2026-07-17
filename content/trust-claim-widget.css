@@ -123,9 +123,9 @@
 .tc-critical { background: #d64545; color: #ffffff; }
 .tc-pending { background: #e5e7eb; color: #374151; }
 
-/* These selectors intentionally live outside the widget's shadow root. The
-   build plugin emits a precise inline anchor when it can prove the text match;
-   runtime text-quote matches use semantic <mark> nodes for the same effect. */
+/* The widget mirrors these rules into a document-level style element because
+   MyST loads this file inside a shadow root while the prose anchors live in the
+   surrounding document. */
 .trust-claim-target.tc-is-highlighted,
 .tc-is-highlighted,
 mark.tc-runtime-highlight {
@@ -149,6 +149,9 @@ mark.tc-runtime-target {
   padding: 0;
 }
 
+html.dark .trust-claim-target.tc-is-highlighted,
+html.dark .tc-is-highlighted,
+html.dark mark.tc-runtime-highlight,
 html[data-theme="dark"] .trust-claim-target.tc-is-highlighted,
 html[data-theme="dark"] .tc-is-highlighted,
 html[data-theme="dark"] mark.tc-runtime-highlight {

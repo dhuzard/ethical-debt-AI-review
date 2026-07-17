@@ -678,19 +678,79 @@ const WIDGET_STYLES = `
   }
 `;
 
-// The theme drops each margin aside into a zero-height grid row (`lg:h-0`) so
-// notes never push body prose. With one card per row that is invisible, but a
-// paragraph trailed by several claims (plus a `{margin}` note) stacks multiple
-// zero-height rows at the same offset, so the cards overflow and paint over one
-// another. Giving the trust asides real height lets each grid row grow to its
-// card and the cards stack down the lane instead of colliding. Injected once at
-// the document level because the widget's own styles are shadow-scoped.
+// MyST mounts anywidget CSS inside a shadow root. The text anchors and margin
+// asides live in the surrounding document, so their styles must be installed at
+// document scope instead of relying on the widget stylesheet.
+const PROSE_HIGHLIGHT_STYLE_ID = 'tc-prose-highlight';
+const PROSE_HIGHLIGHT_STYLES = `
+  .trust-claim-target.tc-is-highlighted,
+  .tc-is-highlighted,
+  mark.tc-runtime-highlight {
+    color: inherit;
+    background: #fef08a;
+    border-radius: 0.16rem;
+    box-shadow: 0 0 0 2px rgba(202, 138, 4, 0.32);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    transition: background-color 100ms ease, box-shadow 100ms ease;
+  }
+
+  .trust-claim-target,
+  mark.tc-runtime-target {
+    cursor: help;
+  }
+
+  mark.tc-runtime-target {
+    color: inherit;
+    background: transparent;
+    padding: 0;
+  }
+
+  html.dark .trust-claim-target.tc-is-highlighted,
+  html.dark .tc-is-highlighted,
+  html.dark mark.tc-runtime-highlight,
+  html[data-theme="dark"] .trust-claim-target.tc-is-highlighted,
+  html[data-theme="dark"] .tc-is-highlighted,
+  html[data-theme="dark"] mark.tc-runtime-highlight {
+    color: inherit;
+    background: #854d0e;
+    box-shadow: 0 0 0 2px rgba(250, 204, 21, 0.6);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .trust-claim-target.tc-is-highlighted,
+    .tc-is-highlighted,
+    mark.tc-runtime-highlight {
+      transition: none;
+    }
+  }
+`;
+
+export function ensureProseHighlightStyles(doc) {
+  if (!doc || !doc.head || doc.getElementById(PROSE_HIGHLIGHT_STYLE_ID)) return;
+  const style = doc.createElement('style');
+  style.id = PROSE_HIGHLIGHT_STYLE_ID;
+  style.textContent = PROSE_HIGHLIGHT_STYLES;
+  doc.head.appendChild(style);
+}
+
+// Ordinary margin notes need real height so their content does not collide
+// with the positioned TRUST lane. TRUST asides remain zero-height: JavaScript
+// aligns each card to its exact text anchor and resolves card/card collisions
+// without adding blank rows to the article body.
 const MARGIN_STACK_STYLE_ID = 'tc-margin-stack';
 const MARGIN_STACK_STYLES = `
   @media (min-width: 1024px) {
-    .article-grid .myst-aside.col-margin-right {
+    .article-grid .myst-aside.col-margin-right:not(.trust-claim-aside) {
       height: auto;
       margin-bottom: 0.55rem;
+    }
+
+    .article-grid .myst-aside.trust-claim-aside.col-margin-right {
+      height: 0;
+      margin-bottom: 0;
+      position: relative;
+      z-index: 4;
     }
   }
 `;
@@ -701,6 +761,202 @@ export function ensureMarginStackStyles(doc) {
   style.id = MARGIN_STACK_STYLE_ID;
   style.textContent = MARGIN_STACK_STYLES;
   doc.head.appendChild(style);
+}
+
+const marginLayoutStates = new WeakMap();
+const MARGIN_CARD_GAP = 8;
+const FALLBACK_CARD_HEIGHT = 54;
+
+function containingTrustClaimAside(el) {
+  let current = el;
+  while (current) {
+    const direct = current.closest?.('.trust-claim-aside');
+    if (direct) return direct;
+    const root = current.getRootNode?.();
+    const host = root?.host;
+    if (!host || host === current) break;
+    current = host;
+  }
+  return null;
+}
+
+function runtimeAnchorTarget(doc, anchorName) {
+  if (!anchorName) return null;
+  return Array.from(doc.querySelectorAll?.('[data-trust-claim-anchor]') || [])
+    .find((candidate) => candidate.dataset?.trustClaimAnchor === anchorName) || null;
+}
+
+function concernedTextTarget(doc, selector) {
+  const targetAnchor = selector.targetAnchor
+    ? doc.getElementById(selector.targetAnchor)
+    : null;
+  if (targetAnchor) return targetAnchor;
+
+  const runtimeAnchor = selector.targetAnchor
+    || selector.scopeAnchor
+    || selector.targetId
+    || '';
+  const runtimeTarget = runtimeAnchorTarget(doc, runtimeAnchor);
+  if (runtimeTarget) return runtimeTarget;
+
+  if (selector.targetId) {
+    const explicitTarget = doc.getElementById(selector.targetId);
+    if (explicitTarget) return explicitTarget;
+  }
+  if (selector.scopeAnchor) return doc.getElementById(selector.scopeAnchor);
+  return null;
+}
+
+function absoluteRectTop(element, win) {
+  return element.getBoundingClientRect().top + Number(win?.scrollY || 0);
+}
+
+function measuredHeight(element, fallback = 0) {
+  const rectHeight = Number(element?.getBoundingClientRect?.().height || 0);
+  const scrollHeight = Number(element?.scrollHeight || 0);
+  return Math.max(rectHeight, scrollHeight, fallback);
+}
+
+function marginObstacles(doc, win) {
+  return Array.from(doc.querySelectorAll?.(
+    '.article-grid .myst-aside.col-margin-right:not(.trust-claim-aside)',
+  ) || []).map((aside) => {
+    const top = absoluteRectTop(aside, win);
+    const height = Math.max(
+      measuredHeight(aside),
+      measuredHeight(aside.firstElementChild),
+    );
+    return { top, bottom: top + height };
+  }).filter((obstacle) => obstacle.bottom > obstacle.top)
+    .sort((left, right) => left.top - right.top);
+}
+
+function resetMarginEntry(entry) {
+  entry.aside.style.transform = '';
+  delete entry.aside.dataset?.trustClaimLaidOut;
+}
+
+/** Align desktop margin cards to their exact prose and prevent collisions. */
+export function layoutTrustMarginCards(doc) {
+  const state = marginLayoutStates.get(doc);
+  if (!state) return [];
+  const win = doc.defaultView;
+  const entries = Array.from(state.entries.values())
+    .filter((entry) => entry.aside.isConnected !== false && entry.card.isConnected !== false);
+
+  for (const entry of entries) resetMarginEntry(entry);
+  if (win?.matchMedia?.('(max-width: 1023px)').matches) return [];
+
+  const cards = entries.map((entry) => {
+    const target = concernedTextTarget(doc, entry.selector);
+    if (!target?.getBoundingClientRect || !entry.card?.getBoundingClientRect) return null;
+    return {
+      ...entry,
+      desiredTop: absoluteRectTop(target, win),
+      naturalTop: absoluteRectTop(entry.card, win),
+      height: Number(entry.card.getBoundingClientRect().height || FALLBACK_CARD_HEIGHT),
+    };
+  }).filter(Boolean).sort((left, right) => (
+    left.desiredTop - right.desiredTop || left.order - right.order
+  ));
+
+  const obstacles = marginObstacles(doc, win);
+  let previousBottom = Number.NEGATIVE_INFINITY;
+  const positions = [];
+
+  for (const card of cards) {
+    let top = Math.max(card.desiredTop, previousBottom + MARGIN_CARD_GAP);
+    for (const obstacle of obstacles) {
+      if (top + card.height + MARGIN_CARD_GAP <= obstacle.top) break;
+      if (top < obstacle.bottom + MARGIN_CARD_GAP && top + card.height > obstacle.top) {
+        top = obstacle.bottom + MARGIN_CARD_GAP;
+      }
+    }
+    const offset = Math.round(top - card.naturalTop);
+    if (offset !== 0) card.aside.style.transform = `translateY(${offset}px)`;
+    card.aside.dataset.trustClaimLaidOut = 'true';
+    previousBottom = top + card.height;
+    positions.push({ top, height: card.height, offset });
+  }
+  return positions;
+}
+
+function scheduleTrustMarginLayout(doc) {
+  const state = marginLayoutStates.get(doc);
+  if (!state || state.frame != null) return;
+  const win = doc.defaultView;
+  const run = () => {
+    state.frame = null;
+    layoutTrustMarginCards(doc);
+  };
+  if (typeof win?.requestAnimationFrame === 'function') {
+    state.frame = win.requestAnimationFrame(run);
+  } else {
+    run();
+  }
+}
+
+function marginLayoutState(doc) {
+  let state = marginLayoutStates.get(doc);
+  if (state) return state;
+  state = { entries: new Map(), frame: null, nextOrder: 0 };
+  marginLayoutStates.set(doc, state);
+  const schedule = () => scheduleTrustMarginLayout(doc);
+  doc.defaultView?.addEventListener?.('resize', schedule);
+  doc.defaultView?.addEventListener?.('load', schedule);
+  doc.fonts?.ready?.then?.(schedule);
+  const ResizeObserverClass = doc.defaultView?.ResizeObserver;
+  const article = doc.querySelector?.('article.content') || doc.body;
+  if (ResizeObserverClass && article) {
+    state.resizeObserver = new ResizeObserverClass(schedule);
+    state.resizeObserver.observe(article);
+  }
+  return state;
+}
+
+export function registerTrustMarginCard(el, selector, card = el) {
+  const doc = el.ownerDocument;
+  const aside = containingTrustClaimAside(el);
+  if (!doc || !aside) return () => {};
+  const state = marginLayoutState(doc);
+  const token = {};
+  const entry = {
+    aside,
+    card,
+    selector,
+    order: state.nextOrder,
+    token,
+  };
+  state.nextOrder += 1;
+  state.entries.set(aside, entry);
+  scheduleTrustMarginLayout(doc);
+
+  let active = true;
+  return () => {
+    if (!active) return;
+    active = false;
+    if (state.entries.get(aside)?.token === token) state.entries.delete(aside);
+    resetMarginEntry(entry);
+    scheduleTrustMarginLayout(doc);
+  };
+}
+
+function installClaimInteractions(focusTrigger, hoverTrigger, el, selector, status) {
+  const removeHighlighting = bindHighlightLifecycle(
+    focusTrigger,
+    hoverTrigger,
+    el,
+    selector,
+    status,
+  );
+  const removeMarginLayout = registerTrustMarginCard(el, selector, focusTrigger);
+  let active = true;
+  return () => {
+    if (!active) return;
+    active = false;
+    removeHighlighting();
+    removeMarginLayout();
+  };
 }
 
 /**
@@ -844,6 +1100,7 @@ function render({ model, el }) {
   root.innerHTML = '';
 
   const doc = el.ownerDocument || document;
+  ensureProseHighlightStyles(doc);
   ensureMarginStackStyles(doc);
   const style = doc.createElement('style');
   style.textContent = WIDGET_STYLES;
@@ -870,14 +1127,14 @@ function render({ model, el }) {
     details.appendChild(summary);
     details.appendChild(box);
     root.appendChild(details);
-    el.__trustClaimCleanup = bindHighlightLifecycle(
+    el.__trustClaimCleanup = installClaimInteractions(
       summary,
       summary.querySelector('[data-highlight-trigger]'),
       el,
       targetSelector,
       status,
     );
-    return;
+    return el.__trustClaimCleanup;
   }
 
   const wrapper = doc.createElement('div');
@@ -924,13 +1181,14 @@ function render({ model, el }) {
   wrapper.appendChild(cardButton);
   wrapper.appendChild(panel);
   root.appendChild(wrapper);
-  el.__trustClaimCleanup = bindHighlightLifecycle(
+  el.__trustClaimCleanup = installClaimInteractions(
     cardButton,
     cardButton.querySelector('[data-highlight-trigger]'),
     el,
     targetSelector,
     status,
   );
+  return el.__trustClaimCleanup;
 }
 
 export default { render };
