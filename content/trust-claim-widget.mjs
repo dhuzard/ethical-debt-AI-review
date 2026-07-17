@@ -678,6 +678,31 @@ const WIDGET_STYLES = `
   }
 `;
 
+// The theme drops each margin aside into a zero-height grid row (`lg:h-0`) so
+// notes never push body prose. With one card per row that is invisible, but a
+// paragraph trailed by several claims (plus a `{margin}` note) stacks multiple
+// zero-height rows at the same offset, so the cards overflow and paint over one
+// another. Giving the trust asides real height lets each grid row grow to its
+// card and the cards stack down the lane instead of colliding. Injected once at
+// the document level because the widget's own styles are shadow-scoped.
+const MARGIN_STACK_STYLE_ID = 'tc-margin-stack';
+const MARGIN_STACK_STYLES = `
+  @media (min-width: 1024px) {
+    .article-grid .myst-aside.col-margin-right {
+      height: auto;
+      margin-bottom: 0.55rem;
+    }
+  }
+`;
+
+export function ensureMarginStackStyles(doc) {
+  if (!doc || !doc.head || doc.getElementById(MARGIN_STACK_STYLE_ID)) return;
+  const style = doc.createElement('style');
+  style.id = MARGIN_STACK_STYLE_ID;
+  style.textContent = MARGIN_STACK_STYLES;
+  doc.head.appendChild(style);
+}
+
 /**
  * Bind bidirectional pointer highlighting between the visible score and its
  * exact prose, while keeping the complete score control keyboard-accessible.
@@ -811,7 +836,7 @@ function render({ model, el }) {
     <span class="${badgeClass(trustScore)}" data-highlight-trigger aria-hidden="true" title="Highlight scored text">${escapeHtml(scoreText)}</span>
     <span class="tc-summary-main">
       <span class="tc-summary-head">${escapeHtml(classLabel)}</span>
-      <span class="tc-summary-sub ${bandClass}">${escapeHtml(summaryTitle(trustScore))} - ${escapeHtml(trustBand)}</span>
+      <span class="tc-summary-sub ${bandClass}">TRUST · ${escapeHtml(trustBand)}</span>
     </span>
   `;
 
@@ -819,6 +844,7 @@ function render({ model, el }) {
   root.innerHTML = '';
 
   const doc = el.ownerDocument || document;
+  ensureMarginStackStyles(doc);
   const style = doc.createElement('style');
   style.textContent = WIDGET_STYLES;
   root.appendChild(style);

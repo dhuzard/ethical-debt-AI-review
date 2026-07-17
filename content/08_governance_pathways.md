@@ -630,7 +630,8 @@ The wider open-science evidence supports the "does not generalise" reading. Open
 :::{figure} ../figures/fig_sec8_institution_vs_fieldwide.png
 :name: fig-sec8-institution-vs-fieldwide
 :width: 100%
-**Local, actively stewarded progress does not generalise to the field-wide baseline.** The single-institution series is shown as a trend line; the field-wide values are shown as separate single-point estimates and are deliberately not joined to the trend. Caveats carried verbatim from the underlying comparison: "Not a like-for-like comparison: Deeb2025 (7->45%) is 'shared all relevant data' by a manual openness/FAIR score at one institution (Edinburgh biosciences, incl. supplementary/genomic deposits, 2014->2023 trend); Hamilton2023 (2%) and Hamilton2022 (16%) are verified actual public availability, field-wide." "The gap is confounded by metric definition, discipline, data type, and time window; Deeb is a trend, the Hamilton values are single pooled estimates." Values from.::: {cite:p}`Deeb2025, Hamilton2023, Hamilton2022`
+**Local, actively stewarded progress does not generalise to the field-wide baseline.** The single-institution series is shown as a trend line; the field-wide values are shown as separate single-point estimates and are deliberately not joined to the trend. Caveats carried verbatim from the underlying comparison: "Not a like-for-like comparison: Deeb2025 (7->45%) is 'shared all relevant data' by a manual openness/FAIR score at one institution (Edinburgh biosciences, incl. supplementary/genomic deposits, 2014->2023 trend); Hamilton2023 (2%) and Hamilton2022 (16%) are verified actual public availability, field-wide." "The gap is confounded by metric definition, discipline, data type, and time window; Deeb is a trend, the Hamilton values are single pooled estimates." Values from {cite:p}`Deeb2025, Hamilton2023, Hamilton2022`.
+:::
 
 :::{dropdown} 📓 Figure code
 

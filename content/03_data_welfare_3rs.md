@@ -22,7 +22,9 @@ The failures catalogued in {ref}`sec-repro-crisis` — the unpublished experimen
 
 :::{margin} Provenance
 **Source:** "Only the moderate bisphosphonate studies, less than 7% of the total, appeared to minimise harms to animals whilst being associated with benefit for humans." {cite:t}`Pound2018` (full text)
-**Replication:** low reporting of Reduction/Refinement independently observed by {cite:t}`Bara2014` and.::: {cite:t}`Landes2023`
+
+**Replication:** low reporting of Reduction/Refinement independently observed by {cite:t}`Bara2014` and {cite:t}`Landes2023`.
+:::
 
 ## The 3Rs as a moral contract, not a checklist
 
@@ -824,7 +826,8 @@ A standing objection to Reduction is that it fights reproducibility: rigid stand
 
 :::{admonition} Evidence Conflict — is heterogenisation enough, or do we need multiple laboratories?
 :class: warning
-An empirical six-laboratory experiment found that a simple form of population heterogenisation, though it raised within-experiment variation, was too weak to overcome the large between-laboratory variation, so standardisation alone does not guarantee reproducibility. {cite:p}`Richter2011` A simulation across hundreds of studies reached a more optimistic conclusion: multi-laboratory designs using as few as two to four laboratories increased the reproducibility of effect-size estimates substantially without any need for larger samples. {cite:p}`Voelkl2018` The disagreement is partly one of method — a single empirical test versus a broad simulation — and it is being narrowed by newer designs. A single-laboratory "mini-experiment" that splits a study across time points improved reproducibility in about half of tested effects using the *same* total number of animals, {cite:p}`vonKortzfleisch2020` and a multi-laboratory reproducibility test in insects found the direction and significance of effects far more reproducible than their magnitudes, echoing the rodent pattern.::: {cite:p}`Mundinger2025`
+An empirical six-laboratory experiment found that a simple form of population heterogenisation, though it raised within-experiment variation, was too weak to overcome the large between-laboratory variation, so standardisation alone does not guarantee reproducibility. {cite:p}`Richter2011` A simulation across hundreds of studies reached a more optimistic conclusion: multi-laboratory designs using as few as two to four laboratories increased the reproducibility of effect-size estimates substantially without any need for larger samples. {cite:p}`Voelkl2018` The disagreement is partly one of method — a single empirical test versus a broad simulation — and it is being narrowed by newer designs. A single-laboratory "mini-experiment" that splits a study across time points improved reproducibility in about half of tested effects using the *same* total number of animals, {cite:p}`vonKortzfleisch2020` and a multi-laboratory reproducibility test in insects found the direction and significance of effects far more reproducible than their magnitudes, echoing the rodent pattern. {cite:p}`Mundinger2025`
+:::
 
 :::{trust-claim}
 :claim-id: clm_7a60d8d9292ea08a

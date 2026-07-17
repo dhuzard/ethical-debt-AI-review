@@ -195,7 +195,8 @@ Behind the biased selection of results lies the non-publication of entire experi
 
 :::{admonition} Evidence Conflict
 :class: warning
-How much animal research goes unpublished depends on how the question is asked. Subjective surveys of researchers estimate that only ~50% of experiments are published, {cite:p}`terRiet2012` whereas empirical tracking of registered protocols to publication finds rates closer to 70%. {cite:p}`Deutsch2021` The disagreement is largely resolved by method — impressions of the file drawer are darker than the auditable record — but even the optimistic figure leaves roughly a third of animal experiments unpublished, and self-report data show that the studies most likely to reach print are the ones that produced a result.::: {cite:p}`Deutsch2021`
+How much animal research goes unpublished depends on how the question is asked. Subjective surveys of researchers estimate that only ~50% of experiments are published, {cite:p}`terRiet2012` whereas empirical tracking of registered protocols to publication finds rates closer to 70%. {cite:p}`Deutsch2021` The disagreement is largely resolved by method — impressions of the file drawer are darker than the auditable record — but even the optimistic figure leaves roughly a third of animal experiments unpublished, and self-report data show that the studies most likely to reach print are the ones that produced a result. {cite:p}`Deutsch2021`
+:::
 
 :::{trust-claim}
 :claim-id: clm_bf8871bb74ed0850
@@ -373,7 +374,8 @@ The problem is not unique to preclinical biology, and the cross-domain replicati
 
 :::{admonition} Evidence Conflict
 :class: warning
-How deep the replication crisis runs is itself unsettled. The Reproducibility Project: Psychology reported that only ~36% of replications were statistically significant. {cite:p}`OpenScienceCollaboration2015` A prominent reanalysis argued the project contained three statistical errors and that, corrected for sampling error and power, the data are actually consistent with high reproducibility. {cite:p}`Gilbert2016` A Bayesian treatment of the same 36% rate reached the opposite conclusion, inferring publication bias so large that dozens of negative results were expected to have occurred before one was published. {cite:p}`Ingre2018` The dispute is about how replication should be measured, not about the underlying data — and it has since been reframed by some as a productive "credibility revolution" rather than a failure.::: {cite:p}`Korbmacher2023, Amaral2019`
+How deep the replication crisis runs is itself unsettled. The Reproducibility Project: Psychology reported that only ~36% of replications were statistically significant. {cite:p}`OpenScienceCollaboration2015` A prominent reanalysis argued the project contained three statistical errors and that, corrected for sampling error and power, the data are actually consistent with high reproducibility. {cite:p}`Gilbert2016` A Bayesian treatment of the same 36% rate reached the opposite conclusion, inferring publication bias so large that dozens of negative results were expected to have occurred before one was published. {cite:p}`Ingre2018` The dispute is about how replication should be measured, not about the underlying data — and it has since been reframed by some as a productive "credibility revolution" rather than a failure. {cite:p}`Korbmacher2023, Amaral2019`
+:::
 
 :::{trust-claim}
 :claim-id: clm_f736a082795f4964

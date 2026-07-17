@@ -239,7 +239,8 @@ The same pattern — high accuracy inside a tightly bounded question — recurs 
 :::{figure} ../figures/fig_sec6_in_silico_performance.png
 :name: fig-sec6-in-silico-performance
 :width: 100%
-**High but narrow — and not a shared accuracy axis.** Reported performance of three in silico/QSAR NAMs, each labelled by its true metric. Different metrics on different endpoints: Ahuja2024 = classification accuracy (77%, phototoxicity); KelleciCelik2022 = external-validation accuracy (94.11%, FDA pregnancy category, 97 antibiotics, chosen over internal 83.82%); Hong2022 = cross-validation success rate of interspecies regression models (>75%), a model-reliability rate, not chemical-level accuracy. Reference standards differ (known phototoxicity, FDA pregnancy categories, experimental aquatic toxicity). Bars use distinct hatches and per-bar metric labels rather than a common accuracy scale, because the three quantities are not interchangeable.::: {cite:p}`Ahuja2024, KelleciCelik2022, Hong2022`
+**High but narrow — and not a shared accuracy axis.** Reported performance of three in silico/QSAR NAMs, each labelled by its true metric. Different metrics on different endpoints: Ahuja2024 = classification accuracy (77%, phototoxicity); KelleciCelik2022 = external-validation accuracy (94.11%, FDA pregnancy category, 97 antibiotics, chosen over internal 83.82%); Hong2022 = cross-validation success rate of interspecies regression models (>75%), a model-reliability rate, not chemical-level accuracy. Reference standards differ (known phototoxicity, FDA pregnancy categories, experimental aquatic toxicity). Bars use distinct hatches and per-bar metric labels rather than a common accuracy scale, because the three quantities are not interchangeable. {cite:p}`Ahuja2024, KelleciCelik2022, Hong2022`
+:::
 
 :::{dropdown} 📓 Figure code
 
@@ -485,7 +486,8 @@ The demonstrated-adoption record is markedly more cautious than the promissory o
 
 :::{admonition} Evidence Conflict
 :class: warning
-One strand frames microphysiological systems as bioengineering organ architecture and function so as to revolutionise drug development, reduce animal testing, and enable personalised medicine. {cite:p}`Hartung2025a` An expert workshop assessment counters that these systems have neither been widely adopted by the pharmaceutical industry nor reached regulated drug-authorisation processes at all. {cite:p}`Marx2020` The disagreement is transformative promise versus adoption reality: the same platforms are described as already transforming the field and as not yet in regulated use. It remains open, and the interposed reviews suggest the truth is developmental — real capability, minimal regulated deployment, with data-sharing and standardisation named as the rate-limiting steps.::: {cite:p}`Marx2025, Fabre2020, Brown2024`
+One strand frames microphysiological systems as bioengineering organ architecture and function so as to revolutionise drug development, reduce animal testing, and enable personalised medicine. {cite:p}`Hartung2025a` An expert workshop assessment counters that these systems have neither been widely adopted by the pharmaceutical industry nor reached regulated drug-authorisation processes at all. {cite:p}`Marx2020` The disagreement is transformative promise versus adoption reality: the same platforms are described as already transforming the field and as not yet in regulated use. It remains open, and the interposed reviews suggest the truth is developmental — real capability, minimal regulated deployment, with data-sharing and standardisation named as the rate-limiting steps. {cite:p}`Marx2025, Fabre2020, Brown2024`
+:::
 
 :::{trust-claim}
 :claim-id: clm_cb442711d183b946
@@ -581,7 +583,8 @@ Metabolism is the recurring blind spot. A liver-on-chip genotoxicity assay detec
 
 :::{admonition} Evidence Conflict
 :class: warning
-An expert panel concluded that the human developmental-neurotoxicity in vitro battery may serve for initial screening but is not yet a complete or surrogate approach for classifying a chemical as a human developmental neurotoxicant, and needs further validation. {cite:p}`Juberg2023` A data-generating group presented the same class of battery as a promising approach already usable for neurodevelopmental hazard assessment and prioritisation, while noting its rankings diverged from high-throughput screening. {cite:p}`Klose2021` The conflict is over regulatory readiness of one method: insufficient stand-alone tool versus deployable prioritisation approach. It is unresolved, and the disagreement tracks the vantage point — panel review versus method developer.::: {cite:p}`Fritsche2018, Schmidt2016`
+An expert panel concluded that the human developmental-neurotoxicity in vitro battery may serve for initial screening but is not yet a complete or surrogate approach for classifying a chemical as a human developmental neurotoxicant, and needs further validation. {cite:p}`Juberg2023` A data-generating group presented the same class of battery as a promising approach already usable for neurodevelopmental hazard assessment and prioritisation, while noting its rankings diverged from high-throughput screening. {cite:p}`Klose2021` The conflict is over regulatory readiness of one method: insufficient stand-alone tool versus deployable prioritisation approach. It is unresolved, and the disagreement tracks the vantage point — panel review versus method developer. {cite:p}`Fritsche2018, Schmidt2016`
+:::
 
 :::{trust-claim}
 :claim-id: clm_7bde574d0eb27cc6
@@ -645,7 +648,8 @@ The deepest continuity between NAMs and the animal models they replace is that b
 
 :::{admonition} Evidence Conflict
 :class: warning
-An independent robustness study of a liver microphysiological system found appreciable within- and between-study variability that undercuts its high-throughput utility. {cite:p}`Kato2022` A drug-development perspective frames microphysiological systems as delivering more standardised, predictive, physiologically relevant responses in living tissues. {cite:p}`Kopec2021` The conflict is over the reproducibility of the readouts themselves: measured variability versus asserted standardisation. It is unresolved — and a comparative intestinal-permeability validation reinforces the sceptical side, finding that microphysiological and enteroid systems added variability while a simple static monolayer gave the most accurate human absorption predictions, so complexity did not guarantee predictivity.::: {cite:p}`Moyer2025`
+An independent robustness study of a liver microphysiological system found appreciable within- and between-study variability that undercuts its high-throughput utility. {cite:p}`Kato2022` A drug-development perspective frames microphysiological systems as delivering more standardised, predictive, physiologically relevant responses in living tissues. {cite:p}`Kopec2021` The conflict is over the reproducibility of the readouts themselves: measured variability versus asserted standardisation. It is unresolved — and a comparative intestinal-permeability validation reinforces the sceptical side, finding that microphysiological and enteroid systems added variability while a simple static monolayer gave the most accurate human absorption predictions, so complexity did not guarantee predictivity. {cite:p}`Moyer2025`
+:::
 
 :::{trust-claim}
 :claim-id: clm_0557a7fb753725ae

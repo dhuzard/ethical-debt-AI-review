@@ -41,7 +41,8 @@ The most direct evidence comes from content analysis of the documents that actua
 :::{figure} ../figures/fig_sec7_rpt_criteria.png
 :name: fig-sec7-rpt-criteria
 :width: 100%
-**What researcher-evaluation systems reward.** Prevalence of criteria in formal review, promotion, and tenure (RPT) documents. Bars are prevalence of different RPT criteria across different populations: Rice2020 peer-reviewed-publication mention (95%) and data-sharing mention (1%) in 92 international biomedical-faculty guidelines; McKiernan2019 JIF mention (40%) among research-intensive US/Canada universities only (18% master's, 0% baccalaureate). Confirm the Rice2020 bar definition: 95% = any mention of peer-reviewed publications; 35% (a separate figure) = mention of a specific publication count. Each bar is labelled by its population and definition and no single population is implied; traditional publication/impact criteria (solid) are distinguished from open-science criteria (hatched). Values from {cite:p}`Rice2020` and.::: {cite:p}`McKiernan2019`
+**What researcher-evaluation systems reward.** Prevalence of criteria in formal review, promotion, and tenure (RPT) documents. Bars are prevalence of different RPT criteria across different populations: Rice2020 peer-reviewed-publication mention (95%) and data-sharing mention (1%) in 92 international biomedical-faculty guidelines; McKiernan2019 JIF mention (40%) among research-intensive US/Canada universities only (18% master's, 0% baccalaureate). Confirm the Rice2020 bar definition: 95% = any mention of peer-reviewed publications; 35% (a separate figure) = mention of a specific publication count. Each bar is labelled by its population and definition and no single population is implied; traditional publication/impact criteria (solid) are distinguished from open-science criteria (hatched). Values from {cite:p}`Rice2020` and {cite:p}`McKiernan2019`.
+:::
 
 :::{dropdown} 📓 Figure code
 
@@ -244,7 +245,8 @@ The decisive test of whether incentives reach behaviour is to compare what resea
 :::{figure} ../figures/fig_sec7_declared_vs_actual.png
 :name: fig-sec7-declared-vs-actual
 :width: 100%
-**Declared intent is not usable data.** Data availability under sharing policies, grouped by construct (statement-presence versus declared versus actual). Label each bar by availability stage: Major2025 = has a data-sharing statement (14%, presence only, not sharing); Danchev2021 = declared available (68.6%) vs actually available (0.6%); Hardwicke2021 = raw data actually shared (2%). Statement-presence and actual-sharing are different constructs. Fields differ (clinical trials, psychology, orthopaedics). The orthopaedic statement-presence point (Major2025, 14%) is omitted from the plot because it lacks a canonical citation key in this review's bibliography, though it is retained in the caveat above. Values from {cite:p}`Danchev2021` and.::: {cite:p}`Hardwicke2021`
+**Declared intent is not usable data.** Data availability under sharing policies, grouped by construct (statement-presence versus declared versus actual). Label each bar by availability stage: Major2025 = has a data-sharing statement (14%, presence only, not sharing); Danchev2021 = declared available (68.6%) vs actually available (0.6%); Hardwicke2021 = raw data actually shared (2%). Statement-presence and actual-sharing are different constructs. Fields differ (clinical trials, psychology, orthopaedics). The orthopaedic statement-presence point (Major2025, 14%) is omitted from the plot because it lacks a canonical citation key in this review's bibliography, though it is retained in the caveat above. Values from {cite:p}`Danchev2021` and {cite:p}`Hardwicke2021`.
+:::
 
 :::{dropdown} 📓 Figure code
 
@@ -411,7 +413,8 @@ If non-stewardship is one rational response to the incentive gradient, questiona
 :::{figure} ../figures/fig_sec7_qrp_prevalence.png
 :name: fig-sec7-qrp-prevalence
 :width: 100%
-**Questionable-practice prevalence depends on what is counted.** Behaviour-prevalence estimates (left) are kept separate from an attitudinal measure (right). Not a like-for-like prevalence: 1.97% = self-admitted serious FFP (Fanelli); 94% = any-of-nine-QRP self-admission (Schneider); ~20% = implicit attitudinal association of QRPs with success on an SC-IAT (Velicu), not a self-reported behavior. The 2-to-94 spread is a severity/breadth artifact. The left panel also marks Fanelli's own ~34% any-QRP admission, the closer like-for-like comparator to Schneider's 94%. Values from,, {cite:p}`Fanelli2009` {cite:p}`Schneider2024` and.::: {cite:p}`Velicu2025`
+**Questionable-practice prevalence depends on what is counted.** Behaviour-prevalence estimates (left) are kept separate from an attitudinal measure (right). Not a like-for-like prevalence: 1.97% = self-admitted serious FFP (Fanelli); 94% = any-of-nine-QRP self-admission (Schneider); ~20% = implicit attitudinal association of QRPs with success on an SC-IAT (Velicu), not a self-reported behavior. The 2-to-94 spread is a severity/breadth artifact. The left panel also marks Fanelli's own ~34% any-QRP admission, the closer like-for-like comparator to Schneider's 94%. Values from,, {cite:p}`Fanelli2009` {cite:p}`Schneider2024` and {cite:p}`Velicu2025`.
+:::
 
 :::{dropdown} 📓 Figure code
 
