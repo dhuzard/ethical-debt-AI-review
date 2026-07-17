@@ -1,0 +1,7 @@
+{
+  "name": "ethical-debt-ai-review",
+  "private": true,
+  "dependencies": {
+    "yaml": "2.9.0"
+  }
+}

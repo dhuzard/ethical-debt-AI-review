@@ -3,9 +3,7 @@
 
 import { readFileSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
-import { createRequire } from 'node:module';
-
-const require = createRequire(import.meta.url);
+import { parse } from 'yaml';
 
 const authorshipDirective = {
   name: 'authorship-explorer',
@@ -79,7 +77,6 @@ const authorshipTransform = {
 
         try {
           const raw = readFileSync(yamlPath, 'utf-8');
-          const { parse } = require('yaml');
           const fullData = parse(raw);
 
           // Helper: resolve affiliation ID strings to full objects

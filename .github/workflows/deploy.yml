@@ -32,13 +32,16 @@ jobs:
         with:
           node-version: '24'
 
+      - name: Install Node dependencies
+        run: npm ci --no-audit --no-fund
+
       - name: Validate TRUST knowledge
         run: |
           node scripts/validate-trust.js
           node scripts/test-trust-validator.js
           node --test tests/*.test.mjs
 
-      - name: Install dependencies
+      - name: Install build dependencies
         run: |
           pip install mystmd jupyter matplotlib numpy pandas seaborn
           npm install -g mystmd

@@ -12,6 +12,7 @@ Expected public URL:
 ## Local build
 
 ```bash
+npm ci
 node scripts/validate-trust.js
 node scripts/test-trust-validator.js
 node --test tests/*.test.mjs
