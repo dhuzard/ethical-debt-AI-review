@@ -21,8 +21,7 @@ The failures catalogued in {ref}`sec-repro-crisis` — the unpublished experimen
 :::
 
 :::{margin} Provenance
-**Source:** "Only the moderate bisphosphonate studies, less than 7% of the total, appeared to minimise harms to animals whilst being associated with benefit for humans." {cite:t}`Pound2018` (full text)
-
+**Source:** "Only the moderate bisphosphonate studies, less than 7% of the total, appeared to minimise harms to animals whilst being associated with benefit for humans." {cite:t}`Pound2018` (full text)\
 **Replication:** low reporting of Reduction/Refinement independently observed by {cite:t}`Bara2014` and {cite:t}`Landes2023`.
 :::
 
