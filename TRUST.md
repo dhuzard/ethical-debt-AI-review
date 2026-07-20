@@ -1,6 +1,6 @@
 # TRUST evidence profile
 
-This repository uses the ComputationalReviewTemplate TRUST v2 rubric to score claims on five review-local dimensions: traceability, robustness, uncertainty calibration, source integrity, and transferability/scope control. Those claim-level scores are exported to Oratlas as clearly labeled source assertions. They are not probabilities and are not remapped into Oratlas's ten relation-level criteria.
+This repository uses the **experimental** ComputationalReviewTemplate TRUST v2 rubric to score claims on five review-local dimensions: traceability, robustness, uncertainty calibration, source integrity, and transferability/scope control. These scores are structured audit signals for this review, not probabilities that a claim is true, not universal quality ratings, and not substitutes for scientific judgment. They are exported to Oratlas as clearly labeled source assertions and are not remapped into Oratlas's ten relation-level criteria.
 
 ## Identity integrity
 

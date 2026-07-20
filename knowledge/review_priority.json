@@ -1,0 +1,412 @@
+{
+  "schema_version": "1.0.0",
+  "generated_from": "knowledge/claim_graph.json",
+  "strategy": {
+    "ordering": "Risk concern first, then argumentative weight, section, and stable claim ID.",
+    "concern_weights": {
+      "contradicted_without_caveat": 100,
+      "overextended_scope": 90,
+      "uncapped_low_trust": 70
+    },
+    "argumentative_weight_bonus": {
+      "introduction_or_conclusion": 10,
+      "causal_or_review_synthesis": 5,
+      "other": 0
+    },
+    "calibration_rule": "Select one claim per concern and section where possible, then fill to 12 by ranked order.",
+    "scientific_decisions_made": false
+  },
+  "ranked_claims": [
+    {
+      "claim_id": "clm_02788bd6c8ff7b9b",
+      "section_id": "sec-conclusion",
+      "claim_type": "limitation",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 110,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "high_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_2a4ef9802efaaadf",
+      "section_id": "sec-conclusion",
+      "claim_type": "methodological",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 110,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "high_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_31c2d4e620cc2599",
+      "section_id": "sec-conclusion",
+      "claim_type": "limitation",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 110,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "high_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_536931fcfee707da",
+      "section_id": "sec-conclusion",
+      "claim_type": "empirical",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 110,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "high_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_6ee3813927980898",
+      "section_id": "sec-conclusion",
+      "claim_type": "limitation",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 110,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "high_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_7d8ace4de74bf436",
+      "section_id": "sec-conclusion",
+      "claim_type": "empirical",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 110,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "high_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_a0648b6fbbd227a3",
+      "section_id": "sec-conclusion",
+      "claim_type": "limitation",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 110,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "high_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_af562e6a471544c0",
+      "section_id": "sec-conclusion",
+      "claim_type": "comparative",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 110,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "high_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_c7727fa80e3c709d",
+      "section_id": "sec-conclusion",
+      "claim_type": "causal",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 110,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "high_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_eb649104f2fecfc4",
+      "section_id": "sec-conclusion",
+      "claim_type": "limitation",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 110,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "high_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_3727c094cb228e45",
+      "section_id": "sec-data-welfare",
+      "claim_type": "comparative",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 100,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "standard_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_c4ec854c82d44ccc",
+      "section_id": "sec-data-welfare",
+      "claim_type": "comparative",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 100,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "standard_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_1f133f8e6d25898a",
+      "section_id": "sec-fair-preclinical",
+      "claim_type": "empirical",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 100,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "standard_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_c150da83fe05ed23",
+      "section_id": "sec-fair-preclinical",
+      "claim_type": "methodological",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 100,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "standard_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_069ca2d64382d8ed",
+      "section_id": "sec-governance",
+      "claim_type": "empirical",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 100,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "standard_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_586438c37d91b132",
+      "section_id": "sec-governance",
+      "claim_type": "empirical",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 100,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "standard_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_8ba24a34a7ca163d",
+      "section_id": "sec-governance",
+      "claim_type": "comparative",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 100,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "standard_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_dfb950c9a12a6250",
+      "section_id": "sec-governance",
+      "claim_type": "comparative",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 100,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "standard_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_f3e0e2ed9f6176e2",
+      "section_id": "sec-governance",
+      "claim_type": "methodological",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 100,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "standard_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_fec85973228eb1e5",
+      "section_id": "sec-governance",
+      "claim_type": "comparative",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 100,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "standard_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_29526c0ca0ee6943",
+      "section_id": "sec-incentives",
+      "claim_type": "comparative",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 100,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "standard_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_671d5d4b89026361",
+      "section_id": "sec-incentives",
+      "claim_type": "comparative",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 100,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "standard_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_0fde28aeec8b0c15",
+      "section_id": "sec-introduction",
+      "claim_type": "empirical",
+      "trust_score": 55,
+      "concern": "overextended_scope",
+      "capped": true,
+      "priority_score": 100,
+      "priority_basis": [
+        "overextended_scope",
+        "high_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_9e06ef3c4c66e025",
+      "section_id": "sec-introduction",
+      "claim_type": "causal",
+      "trust_score": 55,
+      "concern": "overextended_scope",
+      "capped": true,
+      "priority_score": 100,
+      "priority_basis": [
+        "overextended_scope",
+        "high_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_018f1c87836f8d42",
+      "section_id": "sec-repro-crisis",
+      "claim_type": "methodological",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 100,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "standard_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_d422ccc8064b9d47",
+      "section_id": "sec-repro-crisis",
+      "claim_type": "empirical",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 100,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "standard_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_f88a8b2eb442ae7f",
+      "section_id": "sec-repro-crisis",
+      "claim_type": "methodological",
+      "trust_score": 60,
+      "concern": "contradicted_without_caveat",
+      "capped": true,
+      "priority_score": 100,
+      "priority_basis": [
+        "contradicted_without_caveat",
+        "standard_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_e351f540fdbcc374",
+      "section_id": "sec-incentives",
+      "claim_type": "empirical",
+      "trust_score": 50,
+      "concern": "overextended_scope",
+      "capped": true,
+      "priority_score": 90,
+      "priority_basis": [
+        "overextended_scope",
+        "standard_argumentative_weight"
+      ]
+    },
+    {
+      "claim_id": "clm_829f80a895bab81c",
+      "section_id": "sec-introduction",
+      "claim_type": "methodological",
+      "trust_score": 65,
+      "concern": "uncapped_low_trust",
+      "capped": false,
+      "priority_score": 80,
+      "priority_basis": [
+        "uncapped_low_trust",
+        "high_argumentative_weight"
+      ]
+    }
+  ],
+  "calibration_subset": [
+    "clm_02788bd6c8ff7b9b",
+    "clm_0fde28aeec8b0c15",
+    "clm_829f80a895bab81c",
+    "clm_2a4ef9802efaaadf",
+    "clm_3727c094cb228e45",
+    "clm_1f133f8e6d25898a",
+    "clm_069ca2d64382d8ed",
+    "clm_29526c0ca0ee6943",
+    "clm_9e06ef3c4c66e025",
+    "clm_018f1c87836f8d42",
+    "clm_31c2d4e620cc2599",
+    "clm_536931fcfee707da"
+  ]
+}

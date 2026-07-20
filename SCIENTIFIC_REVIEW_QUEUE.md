@@ -1,5 +1,14 @@
 # Scientific review queue — The Ethical Debt
 
+Mechanical prioritization and the 12-claim calibration subset are committed in
+`knowledge/review_priority.json`; reviewer procedure and the append-only data-entry
+workflow are in `knowledge/REVIEWER_INSTRUCTIONS.md`. Ranking is not adjudication:
+all outcomes and rationales below still require human scientific judgment.
+
+The separate mechanical structural audit is in `knowledge/claim_quality_flags.json`.
+It flags long compound single-atom claims, empty structured scopes, and suspected
+dangling phrases without declaring them scientifically wrong or editing their prose.
+
 Items on this list require **human scientific judgment**. They are *not* engineering
 tasks — do not resolve them by editing validation, rescoring, or rewording to lift a
 score. Ordinary engineering work belongs in `REVIEW_BACKLOG.md`.

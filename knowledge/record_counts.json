@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "definitions": {
+    "claim": "One canonical claim record in knowledge/claim_graph.json.",
+    "citation_context": "One claim-to-citation context; the same citation may support multiple claims.",
+    "graph_edge": "One explicit edge in the native claim graph.",
+    "unique_citation": "One distinct citation key across all claim citation contexts.",
+    "verified_passage": "One passage whose verification_status is verified; contexts may contain multiple passages.",
+    "human_decision": "One historical reviewer decision record; a decision may replace one source claim with several claims.",
+    "replacement_claim": "One claim record authored inside a historical human decision.",
+    "human_review_flag": "A current graph claim with human_review_required=true; this is pending work, not a completed decision.",
+    "source_reviewed_relation": "An exported relation whose current claim text matches a replacement claim from a source-side human decision."
+  },
+  "claim_graph": {
+    "claims": 529,
+    "citation_contexts": 1392,
+    "graph_edges": 1389,
+    "unique_citation_keys": 994,
+    "unique_dois": 993,
+    "verified_passages": 1408,
+    "trust_bands": {
+      "high_trust": 444,
+      "moderate_trust": 56,
+      "low_trust": 29,
+      "critical_or_unreliable": 0
+    },
+    "capped_claims": 28,
+    "human_review_flags": 29
+  },
+  "human_review": {
+    "decisions": 9,
+    "source_claims_replaced": 9,
+    "replacement_claim_records": 28,
+    "replacement_claims_in_current_graph": 27,
+    "source_reviewed_relations": 34
+  },
+  "oratlas_export": {
+    "claims": 529,
+    "citations": 994,
+    "relations": 1392,
+    "trust_assessments": 1392
+  }
+}

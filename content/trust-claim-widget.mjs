@@ -1056,6 +1056,11 @@ function render({ model, el }) {
   const citationContexts = safeJsonParse(model.get('citationContexts'), []);
   const rationale = safeJsonParse(model.get('rationale'), null);
   const humanReviewRequired = model.get('humanReviewRequired') === true;
+  const humanReviewState = model.get('humanReviewState')
+    || (humanReviewRequired ? 'pending' : 'not-requested');
+  const sourceReviewDecision = model.get('sourceReviewDecision') || '';
+  const sourceReviewerId = model.get('sourceReviewerId') || '';
+  const sourceReviewRecordedAt = model.get('sourceReviewRecordedAt') || '';
   const interactionMode = String(model.get('interactionMode') || 'slideout').toLowerCase();
   const targetSelector = {
     targetAnchor: model.get('targetAnchor') || '',
@@ -1073,11 +1078,14 @@ function render({ model, el }) {
   const accessibleSummary = `${summaryTitle(trustScore)}, ${trustBand}. ${classLabel}. Hover or focus to highlight the scored text.`;
 
   const detailHtml = `
+    <div class="tc-row tc-muted"><strong>Experimental TRUST signal:</strong> structured review audit, not a probability that this claim is true.</div>
     <div class="tc-row"><strong>Claim ID:</strong> ${escapeHtml(claimId || 'placeholder')}</div>
     <div class="tc-row"><strong>Claim meaning:</strong> ${escapeHtml(claimType || 'unspecified')} | ${escapeHtml(modality || 'unspecified')}</div>
     <div class="tc-row"><strong>Evidence status:</strong> ${escapeHtml(evidenceRelation)}</div>
     <div class="tc-row"><strong>Claim text:</strong> ${escapeHtml(claimText || 'No claim text provided.')}</div>
-    <div class="tc-row"><strong>Human review required:</strong> ${humanReviewRequired ? 'yes' : 'no'}</div>
+    <div class="tc-row"><strong>Source human-review state:</strong> ${escapeHtml(humanReviewState)}</div>
+    ${sourceReviewDecision ? `<div class="tc-row"><strong>Source decision:</strong> ${escapeHtml(sourceReviewDecision)} · ${escapeHtml(sourceReviewerId)} · ${escapeHtml(sourceReviewRecordedAt)}</div>` : ''}
+    <div class="tc-row"><strong>Future human review required:</strong> ${humanReviewRequired ? 'yes' : 'no'}</div>
     <div class="tc-subhead">References</div>
     <ul class="tc-list">${renderReferences(citationContexts, cites)}</ul>
     <div class="tc-subhead">Why this score was assigned</div>

@@ -1,0 +1,9 @@
+{
+  "decision_id": "hr_REPLACE_WITH_STABLE_ID",
+  "claim_id": "clm_REPLACE_WITH_CLAIM_ID",
+  "action": "retain|caveat|split|remove|request-more-evidence",
+  "state": "independently-reviewed",
+  "reviewer_id": "REPLACE_WITH_REVIEWER_ID",
+  "recorded_at": "2026-07-20T00:00:00.000Z",
+  "rationale": "Human-authored scientific rationale, including evidence considered."
+}

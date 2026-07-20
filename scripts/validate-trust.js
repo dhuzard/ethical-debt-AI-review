@@ -5,6 +5,10 @@
 const crypto = require('node:crypto');
 const fs = require('node:fs');
 const path = require('node:path');
+const { computeRecordCounts, validateRecordCounts } = require('./record-counts.js');
+const { validateStore: validateHumanReviewStore } = require('./human-review-store.js');
+const { buildReviewPriority, serialize: serializeReviewPriority } = require('./review-priority.js');
+const { auditClaims, serialize: serializeClaimQuality } = require('./claim-quality-audit.js');
 
 const RUBRIC_VERSION = '2.0.0';
 const COMPONENTS = [
@@ -481,7 +485,13 @@ function validateRepository(root = path.resolve(__dirname, '..')) {
   const claimSchema = parseJson(root, 'knowledge/schemas/claim_context.schema.json', errors);
   const graphSchema = parseJson(root, 'knowledge/schemas/claim_graph.schema.json', errors);
   const trustSchema = parseJson(root, 'knowledge/schemas/trust_score.schema.json', errors);
-  if (!graph || !seed || !index || !report || !gate || !example || !claimSchema || !graphSchema || !trustSchema) {
+  const recordCounts = parseJson(root, 'knowledge/record_counts.json', errors);
+  const recordCountsSchema = parseJson(root, 'knowledge/schemas/record_counts.schema.json', errors);
+  const manifest = parseJson(root, 'review-manifest.json', errors);
+  const humanReviews = parseJson(root, 'knowledge/trust_human_review_overrides.json', errors);
+  const humanReviewSchema = parseJson(root, 'knowledge/schemas/human_review_store.schema.json', errors);
+  const lineage = parseJson(root, 'knowledge/trust_v1_to_v2_id_map.json', errors);
+  if (!graph || !seed || !index || !report || !gate || !example || !claimSchema || !graphSchema || !trustSchema || !recordCounts || !recordCountsSchema || !manifest || !humanReviews || !humanReviewSchema || !lineage) {
     return { errors, claims: 0 };
   }
 
@@ -489,12 +499,41 @@ function validateRepository(root = path.resolve(__dirname, '..')) {
     'claim_context.schema.json': claimSchema,
     'claim_graph.schema.json': graphSchema,
     'trust_score.schema.json': trustSchema,
+    'record_counts.schema.json': recordCountsSchema,
+    'human_review_store.schema.json': humanReviewSchema,
   };
   for (const schemaError of validateSchema(graph, graphSchema, schemaRegistry, 'claim_graph.schema.json')) {
     errors.push(`claim_graph schema: ${schemaError}`);
   }
   for (const schemaError of validateSchema(example, claimSchema, schemaRegistry, 'claim_context.schema.json')) {
     errors.push(`claim_context example schema: ${schemaError}`);
+  }
+  for (const schemaError of validateSchema(recordCounts, recordCountsSchema, schemaRegistry, 'record_counts.schema.json')) {
+    errors.push(`record_counts schema: ${schemaError}`);
+  }
+  for (const schemaError of validateSchema(humanReviews, humanReviewSchema, schemaRegistry, 'human_review_store.schema.json')) {
+    errors.push(`human_review_store schema: ${schemaError}`);
+  }
+  errors.push(...validateHumanReviewStore(humanReviews).map(error => `human_review_store: ${error}`));
+  const reviewPriorityPath = path.join(root, 'knowledge/review_priority.json');
+  const expectedReviewPriority = serializeReviewPriority(buildReviewPriority(root));
+  const actualReviewPriority = fs.existsSync(reviewPriorityPath)
+    ? fs.readFileSync(reviewPriorityPath, 'utf8').replace(/\r\n/gu, '\n') : '';
+  if (actualReviewPriority !== expectedReviewPriority) errors.push('review_priority: deterministic artifact is stale');
+  const claimQualityPath = path.join(root, 'knowledge/claim_quality_flags.json');
+  const expectedClaimQuality = serializeClaimQuality(auditClaims(root));
+  const actualClaimQuality = fs.existsSync(claimQualityPath)
+    ? fs.readFileSync(claimQualityPath, 'utf8').replace(/\r\n/gu, '\n') : '';
+  if (actualClaimQuality !== expectedClaimQuality) errors.push('claim_quality_flags: deterministic artifact is stale');
+  errors.push(...validateRecordCounts(root));
+  if (!sameJson(recordCounts, computeRecordCounts(root))) errors.push('record_counts: computed values mismatch');
+  const currentClaimIds = new Set(graph.claims.map(claim => claim.claim_id));
+  const reviewedSourceClaimIds = new Set(humanReviews.decisions.map(decision => decision.claim_id));
+  for (const [sourceId, targetId] of Object.entries(lineage.claim_ids || {})) {
+    if (!/^clm_[a-f0-9]{16}$/u.test(sourceId)) errors.push(`lineage: malformed source claim ID ${sourceId}`);
+    if (!currentClaimIds.has(targetId) && !reviewedSourceClaimIds.has(targetId)) {
+      errors.push(`lineage: target ${targetId} is neither current nor preserved in human-review history`);
+    }
   }
 
   for (const [name, artifact] of [['graph', graph], ['index', index], ['report', report], ['gate', gate]]) {
@@ -744,6 +783,22 @@ function validateRepository(root = path.resolve(__dirname, '..')) {
   if (Object.values(gate.checks).some((value) => value !== true)) errors.push('gate_trust_scores: all checks must be true');
   const expectedCounts = { claims: graph.claims.length, citation_contexts: contextCount, verified_passages: passageCount, failures: 0 };
   if (!sameJson(gate.counts, expectedCounts)) errors.push('gate_trust_scores: counts mismatch');
+
+  const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
+  const summaryPage = fs.readFileSync(path.join(root, 'content/trust_summary.md'), 'utf8');
+  const counts = recordCounts;
+  const requiredProse = [
+    [readme, `${counts.claim_graph.claims} prose-anchored claims`, 'README claim count'],
+    [readme, `${counts.human_review.decisions} historical decisions`, 'README decision count'],
+    [readme, `${counts.claim_graph.human_review_flags} current claims are flagged`, 'README human-review flag count'],
+    [summaryPage, `${counts.claim_graph.claims} claim-level TRUST records`, 'TRUST summary claim count'],
+    [summaryPage, `high ${counts.claim_graph.trust_bands.high_trust} · moderate ${counts.claim_graph.trust_bands.moderate_trust} · low ${counts.claim_graph.trust_bands.low_trust} · critical ${counts.claim_graph.trust_bands.critical_or_unreliable}`, 'TRUST summary band counts'],
+    [summaryPage, `${counts.claim_graph.capped_claims} claims trigger a mandatory cap`, 'TRUST summary capped count'],
+    [summaryPage, `${counts.claim_graph.human_review_flags} remain explicit human-review priorities`, 'TRUST summary review-flag count'],
+  ];
+  for (const [text, expected, label] of requiredProse) {
+    if (!text.replace(/\*\*/gu, '').includes(expected)) errors.push(`${label} must derive from knowledge/record_counts.json`);
+  }
 
   return { errors, claims: graph.claims.length, citationContexts: contextCount, verifiedPassages: passageCount };
 }

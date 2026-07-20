@@ -3,7 +3,11 @@
 
 This review exposes **529 claim-level TRUST records** using rubric v2.0.0. Every score is displayed out of **100**, as five TRUST components worth **20 points each**. The validated data retain the rubric's 0–4 rule level internally and the interface multiplies each component by five. Hovering either the exact scored prose or its score highlights both; opening the card reveals all five component rules, rationales, verified source passages, atom attribution, scope status, and cap reasons.
 
+TRUST v2 is an **experimental, review-local rubric**. Its scores are structured audit signals, not probabilities that claims are true, and they must not be interpreted as universal quality ratings. Canonical count definitions and values are committed in `knowledge/record_counts.json`; the validator fails when this page or the underlying artifacts diverge from it.
+
 The mean overall score is **89.6**. Band distribution: **high 444 · moderate 56 · low 29 · critical 0**. **28** claims trigger a mandatory cap, and **29** remain explicit human-review priorities.
+
+Human-review accounting is separate: 9 historical decisions replaced 9 source claims with 28 replacement records. Of those replacements, 27 remain in the current graph and account for 34 claim-to-citation relations. None of those completed-decision counts reduces or enlarges the separate queue of 29 current review flags.
 
 ![Trust band distribution by section](../figures/fig_trust_by_section.png)
 

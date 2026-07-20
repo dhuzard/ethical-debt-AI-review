@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/human_review_store.schema.json",
+  "title": "Append-only Human Review Decision Store",
+  "type": "object",
+  "required": ["schema_version", "store_policy", "chain_head", "decisions"],
+  "properties": {
+    "schema_version": { "const": "2.0.0" },
+    "store_policy": {
+      "type": "object",
+      "required": ["mutation", "allowed_states", "supersession"],
+      "properties": {
+        "mutation": { "const": "append-only" },
+        "allowed_states": { "type": "array", "items": { "enum": ["pending", "independently-reviewed", "adjudicated"] } },
+        "supersession": { "type": "string", "minLength": 1 }
+      }
+    },
+    "chain_head": { "type": ["string", "null"] },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["decision_id", "claim_id", "action", "state", "reviewer_id", "recorded_at", "rationale", "previous_record_hash", "record_hash"],
+        "properties": {
+          "decision_id": { "type": "string", "minLength": 1 },
+          "claim_id": { "type": "string", "minLength": 1 },
+          "action": { "type": "string", "minLength": 1 },
+          "state": { "enum": ["pending", "independently-reviewed", "adjudicated"] },
+          "reviewer_id": { "type": "string", "minLength": 1 },
+          "recorded_at": { "type": "string", "format": "date-time" },
+          "rationale": { "type": "string", "minLength": 1 },
+          "previous_record_hash": { "type": ["string", "null"] },
+          "record_hash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" }
+        }
+      }
+    }
+  }
+}

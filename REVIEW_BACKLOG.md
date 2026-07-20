@@ -257,7 +257,7 @@ This repository must **not**:
 ## Workstream C — Claim and TRUST knowledge layer
 
 ### ED-C01 — Validate directive → canonical record resolution and exact prose anchors
-- **Status:** ready · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local (validator generic → TRUST fork)
+- **Status:** review · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local (validator generic → TRUST fork)
 - **Goal:** Every public `trust-claim` directive resolves to exactly one
   `claim_graph.json` record, and its `text_quote_selector` anchors to exact prose.
 - **Why it matters:** A directive that resolves to nothing (or to the wrong claim)
@@ -270,7 +270,7 @@ This repository must **not**:
 - **Files:** `scripts/validate-trust.js`, `plugins/trust-claim-plugin.mjs`, `content/*.md`
 
 ### ED-C02 — Validate claim atoms, citation-to-atom attribution, and passages
-- **Status:** backlog · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** TRUST fork (rubric-level)
+- **Status:** review · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** TRUST fork (rubric-level)
 - **Goal:** Every `claim_atom` is an exact substring of `claim_text`; every
   citation context's atom list equals the union of its verified passages' atoms;
   every supporting passage has a locator and verification record.
@@ -284,7 +284,7 @@ This repository must **not**:
 - **Files:** `scripts/validate-trust.js`, `knowledge/claim_graph.json`, `knowledge/schemas/`
 
 ### ED-C03 — Reconcile claim / citation / relation / assessment / human-review counts
-- **Status:** ready · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local
 - **Goal:** One source of truth for every headline number, reflected everywhere.
 - **Why it matters:** Numbers currently conflict across artifacts: graph/export
   = **529 claims, 994 citations, 1,392 relations, 1,392 assessments**, bands
@@ -303,7 +303,7 @@ This repository must **not**:
 - **Files:** `README.md`, `content/trust_summary.md`, `review-manifest.json`, `knowledge/*.json`, `scripts/validate-trust.js`
 
 ### ED-C04 — Make human-review status consistent across sources, reports, and UI
-- **Status:** ready · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local
 - **Goal:** One definition of "human-reviewed" flows from source decisions to reports to the card UI.
 - **Why it matters:** `human_review_required` (graph, 29), overrides decisions (9
   decisions / 28 claims), and export `humanReviewed` (34 relations, matched by
@@ -318,7 +318,7 @@ This repository must **not**:
 - **Files:** `knowledge/claim_graph.json`, `knowledge/trust_human_review_overrides.json`, `content/trust-claim-widget.mjs`, `content/trust_summary.md`
 
 ### ED-C05 — Label native TRUST experimental and non-probabilistic
-- **Status:** ready · **Priority:** P0 · **Size:** S · **Agent:** yes · **Upstream:** local (wording) + TRUST fork (rubric text)
+- **Status:** review · **Priority:** P0 · **Size:** S · **Agent:** yes · **Upstream:** local (wording) + TRUST fork (rubric text)
 - **Goal:** Every public surface labels native TRUST v2 as experimental and states it is not a probability that a claim is true.
 - **Why it matters:** `TRUST.md`/`TRUST_RUBRIC.md` already say it is not a
   probability, but the card UI, `trust_summary.md`, and README do not consistently
@@ -331,7 +331,7 @@ This repository must **not**:
 - **Files:** `content/trust-claim-widget.mjs`, `content/trust_summary.md`, `README.md`, `TRUST.md`
 
 ### ED-C06 — Identify malformed or incomplete claims needing scientific review
-- **Status:** backlog · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
 - **Goal:** Surface claims that are structurally incomplete or scientifically ambiguous for the review queue.
 - **Why it matters:** Some claims are dangling references ("laid out in,", "found a
   stable Reduction estimate") suggesting broken cross-refs or truncated prose.
@@ -352,17 +352,17 @@ This repository must **not**:
 - **Files:** `knowledge/claim_graph.json`
 
 ### ED-C08 — Improved review-level and section-level TRUST summaries (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** local
 - **Goal:** Richer, clearer rollups (distribution, caps, review-state) without implying a single trust number for the review.
 - **Dependencies:** ED-C03. **Files:** `content/trust_summary.md`, `scripts/build_trust_summary.py`
 
 ### ED-C09 — Claim-lineage support across later review versions (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** cross-repository (ORAtlas + TRUST fork)
+- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** cross-repository (ORAtlas + TRUST fork)
 - **Goal:** Stable claim identity across future revisions so ORAtlas can track a claim over versions.
 - **Dependencies:** ED-C03. **Files:** `knowledge/claim_graph.json`, `knowledge/trust_v1_to_v2_id_map.json`
 
 ### ED-C10 — Migration path to future TRUST rubric versions (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** TRUST fork
+- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** TRUST fork
 - **Goal:** Documented, reproducible upgrade when the TRUST fork releases a new rubric.
 - **Dependencies:** none. **Files:** `scripts/migrate-trust-v2.js`, `knowledge/TRUST_RUBRIC.md`
 
@@ -435,7 +435,7 @@ This repository must **not**:
 ## Workstream E — Human review and adjudication
 
 ### ED-E01 — Transparent prioritization strategy + stratified calibration subset
-- **Status:** backlog · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
 - **Goal:** A documented, reproducible strategy for which claims are reviewed first, and a stratified calibration subset for benchmarking.
 - **Why it matters:** Human time is scarce; prioritization must target the highest-consequence claims, not arbitrary ones.
 - **Scope:** Define priority signals (low band, caps, high argumentative weight);
@@ -446,7 +446,7 @@ This repository must **not**:
 - **Files:** `SCIENTIFIC_REVIEW_QUEUE.md`, new `knowledge/review_priority.json`
 
 ### ED-E02 — Decision store: separate states, preserve rationale, never overwrite
-- **Status:** ready · **Priority:** P1 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** yes · **Upstream:** local
 - **Goal:** A durable structure separating pending / independently-reviewed /
   adjudicated states, preserving every decision and reviewer rationale, and never overwriting earlier agent assessments.
 - **Why it matters:** Human decisions are the scientific value; losing or overwriting them is unrecoverable.
@@ -457,7 +457,7 @@ This repository must **not**:
 - **Files:** `knowledge/trust_human_review_overrides.json`, `knowledge/schemas/`, `scripts/validate-trust.js`
 
 ### ED-E03 — Reviewer instructions, data-entry format, deterministic merge
-- **Status:** backlog · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
 - **Goal:** Clear reviewer instructions, a simple data-entry format, and a deterministic process to merge completed reviews back into the graph.
 - **Why it matters:** Without a defined format, human input is inconsistent and hard to merge.
 - **Scope:** Author instructions + template + a deterministic merge script; no synthetic decisions.
@@ -544,7 +544,7 @@ This repository must **not**:
 ## Workstream G — Validation and reproducibility
 
 ### ED-G01 — Schema validation for graph / context / TRUST in CI
-- **Status:** backlog · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local (schemas may sync to TRUST fork)
+- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local (schemas may sync to TRUST fork)
 - **Goal:** Validate `claim_graph.json` and records against `knowledge/schemas/*` in CI.
 - **Why it matters:** Schemas exist but nothing asserts the artifacts conform on every push.
 - **Dependencies:** none.
