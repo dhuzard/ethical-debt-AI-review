@@ -53,6 +53,7 @@ const authorshipTransform = {
   name: 'authorship-data-loader',
   stage: 'document',
   plugin: (opts, utils) => (tree, vfile) => {
+    let widgetIndex = 0;
     // Build section ID → heading text map from the document AST
     const sectionLabels = {};
     function collectHeadings(n) {
@@ -143,7 +144,7 @@ const authorshipTransform = {
 
           // Convert to anywidget node
           node.type = 'anywidget';
-          node.id = `authorship-${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
+          node.id = `authorship-${++widgetIndex}`;
           node.esm = './authorship-widget.mjs';
           node.css = './authorship-widget.css';
           node.model = {

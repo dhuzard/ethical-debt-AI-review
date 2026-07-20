@@ -6,7 +6,7 @@ subtitle: "Why wasting animal data is wasting animal lives"
 # The Ethical Debt
 
 :::{authorship-explorer}
-:authors: ./authors.yml
+:authors: ./authors-detailed.yml
 :height: 600px
 :::
 
@@ -17,11 +17,16 @@ subtitle: "Why wasting animal data is wasting animal lives"
 evidence synthesis were produced by AI components operating under human direction and
 supervision across a staged, gated protocol.
 
+**Public status:** this substantially AI-assisted review is **not peer reviewed**
+and **not fully human-adjudicated**. TRUST v2 is an experimental review-local
+audit signal, not a probability that a claim is true.
+
 :::{warning}
 **What the AI did:** AI directed specialist literature-search and data-curation
 components under human supervision across a staged, gated protocol. It searched PubMed,
-Europe PMC, OpenAlex, and CrossRef; extracted and verified evidence from roughly 1,337
-papers, recording a digital object identifier for each finding so that every claim is
+Europe PMC, OpenAlex, and CrossRef; produced canonical curated packages containing
+1,438 findings representing 1,336 unique DOI/citation identifiers, recording a source
+identifier for each finding so that every claim is
 traceable to its source; drafted the review's sections, figures, and Methods; and ran
 independent, blinded assessments of the figures, prose, and citations, checking each
 against the underlying papers.
@@ -35,7 +40,7 @@ directed the iterative refinement of the text, figures, and analysis.
 
 **All evidence is traceable:** Every factual claim links to a specific paper via DOI,
 verified against CrossRef. See the Methods section for the full protocol and the
-Evidence Database for per-section interactive access to all extracted findings.
+Literature Evidence Explorer for per-section interactive access to all extracted findings.
 ::::
 
 ## Abstract
@@ -49,7 +54,8 @@ the further animal lives needed to regenerate what was lost. On this view, stewa
 animal-derived data is a dimension of animal welfare and of the 3Rs — a claim we call
 *data welfare* — rather than a technical afterthought.
 
-Synthesising evidence from 1,337 unique papers, the review establishes that the debt is
+Synthesising 1,438 curated finding records representing 1,336 unique source
+identifiers, the review argues that the debt is
 real and quantifiable. The published animal record is filtered toward positive results,
 weakly protected against bias, and a poor, analysis-dependent predictor of human outcomes,
 while roughly half of animal experiments are never published and only about 2% of medical

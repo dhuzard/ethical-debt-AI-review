@@ -9,7 +9,7 @@ test('authorship plugin loads YAML and identifies Damien Huzard as the human aut
     type: 'root',
     children: [{
       type: 'authorship-explorer',
-      authorsPath: './authors.yml',
+      authorsPath: './authors-detailed.yml',
       height: '600px',
     }],
   };
@@ -22,6 +22,7 @@ test('authorship plugin loads YAML and identifies Damien Huzard as the human aut
 
   const widget = tree.children[0];
   assert.equal(widget.type, 'anywidget');
+  assert.equal(widget.id, 'authorship-1');
   const envelope = JSON.parse(widget.model.authors);
   const damien = envelope.primary.find(({ id }) => id === 'damien-huzard');
   assert.deepEqual({

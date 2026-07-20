@@ -1,37 +1,70 @@
-# Deploying the live review
+# Reproduce, release, and deploy
 
-The public preview is built and deployed by `.github/workflows/deploy.yml` from the
-`trust-scores` branch. After the TRUST migration is merged, `main` becomes the canonical
-deployment source. Both branches run the same validation, notebook-execution, and MyST build
-steps before GitHub Pages deployment.
+The public site is a preview built from `main`. Release candidates are immutable
+integration references: they are **not peer reviewed**, **not fully
+human-adjudicated**, and use an **experimental TRUST** audit signal.
 
-Expected public URL:
+## Pinned environment
 
-<https://dhuzard.github.io/ethical-debt-AI-review/>
-
-## Local build
+- Node.js 24
+- Python 3.11
+- npm dependencies from `package-lock.json` (`npm ci`)
+- Python dependencies from exact pins in `requirements.txt`
 
 ```bash
-npm ci
-node scripts/validate-trust.js
-node scripts/test-trust-validator.js
-node --test tests/*.test.mjs
-myst build --html
+npm ci --no-audit --no-fund
+python -m pip install --requirement requirements.txt
+npx playwright install chromium firefox webkit
 ```
 
-The generated site is written to `_build/html`. The workflow sets
-`BASE_URL=/ethical-debt-AI-review` so assets resolve under the GitHub Pages project path.
+## Complete local reproduction
 
-## Release policy
+```bash
+npm run validate
+npm test
+npm run test:browser
+python scripts/check_deterministic_figures.py
+npm run build:deterministic
+```
 
-- Preview releases are tagged from `trust-scores` and clearly disclose the incomplete human
-  adjudication pass.
-- Stable releases are tagged from `main` only after the required human review is complete.
-- Oratlas demonstrations should select an exact release or tag, never the moving branch.
-- A review-specific DOI should be added only after a matching archived release exists.
+The figure check executes every notebook twice without modifying the committed
+notebooks, compares both PNG sets byte-for-byte, and verifies the frozen release
+hashes. The deterministic build command runs MyST twice and compares every output
+file after normalizing only MyST's presentation-only random AST keys and derived
+image DOM IDs. The final site remains in `_build/html`.
 
-## Post-deployment checks
+To reproduce only the canonical interoperability export:
 
-Use `provenance/manual_phase21_checklist.md` to verify page responses, internal and DOI links,
-the Authorship Explorer, Evidence Database, TRUST claim cards, figure-code dropdowns, and all
-figures.
+```bash
+node scripts/export-oratlas.js
+node scripts/validate-oratlas.js
+node scripts/build-oratlas-fixtures.js
+```
+
+## Release-candidate procedure
+
+1. Confirm `git status --short` is empty at the intended commit.
+2. Run `npm run release:check`.
+3. Review the limitations in `RELEASE_CONTRACT.md` and release notes.
+4. Create an annotated tag, for example `git tag -a v0.1.0-rc.1 -m "Reference prerelease rc.1"`.
+5. Run `node scripts/validate-release.js --tag v0.1.0-rc.1`.
+6. Push the tag and publish a GitHub **prerelease** whose notes repeat the public
+   status and limitations. ORAtlas must ingest this tag/commit, not a branch.
+
+Tags are immutable. Corrections use a new release candidate. Stable `v1.0.0`
+requires completion of the human scientific-review queue and the manual live-site
+checks; a release candidate does not.
+
+## DOI/Zenodo
+
+`.zenodo.json` is ready for a review-specific deposit. Do not reuse the template
+DOI and do not mint the review DOI before a stable archived release exists. After
+deposit, add the issued DOI to `.zenodo.json`, `README.md`, `FAIR.md`, and the
+release record in one versioned change.
+
+## Deployment
+
+GitHub Actions validates pull requests and deploys GitHub Pages only from `main`.
+The workflow sets `BASE_URL=/ethical-debt-AI-review`. After deployment, complete
+`provenance/manual_phase21_checklist.md`, including page responses, DOI links,
+authorship, both evidence layers, figure displays, and TRUST interactions.

@@ -64,12 +64,14 @@ const evidenceDirective = {
   doc: 'Interactive evidence database explorer widget. The :evidence-dir: option is resolved relative to the calling markdown file. Default "../evidence" is correct when the directive is placed in a content/*.md page (the conventional layout).',
   options: {
     'evidence-dir': { type: String },
+    section: { type: String },
     height: { type: String },
   },
   run(data) {
     return [{
       type: 'evidence-explorer',
       evidenceDir: data.options?.['evidence-dir'] || '../evidence',
+      section: data.options?.section ?? null,
       height: data.options?.height || '700px',
     }];
   },
@@ -188,6 +190,7 @@ const evidenceTransform = {
   name: 'evidence-data-loader',
   stage: 'document',
   plugin: (opts, utils) => (tree, vfile) => {
+    let widgetIndex = 0;
     function transform(node) {
       if (node == null) return;
       if (node.type === 'evidence-explorer') {
@@ -199,7 +202,15 @@ const evidenceTransform = {
           const allConflicts = [];
           const allFigureData = [];
 
-          for (const evidenceFile of discoverEvidencePackages(evidenceDir)) {
+          const packages = discoverEvidencePackages(evidenceDir);
+          const requestedSection = node.section == null
+            ? null
+            : Number(String(node.section).match(/\d+/)?.[0]);
+          const selectedPackages = requestedSection == null
+            ? packages
+            : packages.filter(({ section }) => section === requestedSection);
+
+          for (const evidenceFile of selectedPackages) {
             const sec = evidenceFile.section;
             const ev = JSON.parse(readFileSync(evidenceFile.filePath, 'utf-8'));
 
@@ -228,6 +239,17 @@ const evidenceTransform = {
               conflicts: conflicts.length,
               figure_comparisons: normalizedFigData.length,
               source_file: evidenceFile.filename,
+              package_status: findings.length === 0 ? 'valid-empty' : 'available',
+              replication: {
+                populated: normalizedFindings.filter(finding => Boolean(finding.replication_status)).length,
+                unavailable: normalizedFindings.filter(finding => !finding.replication_status).length,
+              },
+              evidence_gaps: Array.isArray(ev.evidence_gaps)
+                ? { status: 'recorded', count: ev.evidence_gaps.length, items: ev.evidence_gaps }
+                : { status: 'not-recorded', count: null, items: [] },
+              unreplicated_claims: Array.isArray(ev.unreplicated_claims)
+                ? { status: 'recorded', count: ev.unreplicated_claims.length, items: ev.unreplicated_claims }
+                : { status: 'not-recorded', count: null, items: [] },
             });
             allFindings.push(...normalizedFindings);
             allConflicts.push(...conflicts);
@@ -235,10 +257,17 @@ const evidenceTransform = {
           }
 
           node.type = 'anywidget';
-          node.id = 'evidence-explorer-' + Date.now() + '-' + Math.random().toString(36).slice(2,9);
+          node.id = `evidence-explorer-${++widgetIndex}`;
           node.esm = './evidence-explorer-widget.mjs';
           node.model = {
             evidence_data: JSON.stringify({
+              load_status: selectedPackages.length === 0 ? 'absent' : 'loaded',
+              load_message: selectedPackages.length === 0
+                ? (node.section == null
+                  ? 'No evidence packages were discovered.'
+                  : `No evidence package exists for section ${requestedSection}.`)
+                : '',
+              requested_section: requestedSection,
               sections: sections,
               findings: allFindings,
               conflicts: allConflicts,

@@ -156,7 +156,8 @@ This repository must **not**:
 - **Files:** `knowledge/claim_graph.json`, `content/*.md`
 
 ### ED-A04 — Reconcile corpus-size statements
-- **Status:** backlog · **Priority:** P2 · **Size:** S · **Agent:** conditional · **Upstream:** local
+- **Status:** review · **Priority:** P2 · **Size:** S · **Agent:** conditional · **Upstream:** local
+- **Implementation:** PR #8
 - **Goal:** One consistent corpus number across README, `content/provenance.md`, `HANDOFF.md`, and gates.
 - **Why it matters:** README/provenance say 1,337 unique papers; provenance also
   says 1,451 findings; `HANDOFF.md` says "closed at 1,339 unique". A public
@@ -211,7 +212,8 @@ This repository must **not**:
 - **Files:** `plugins/evidence-explorer-plugin.mjs`, `content/evidence-explorer-widget.mjs`, `content/evidence_database.md`
 
 ### ED-B03 — Prevent a green build from shipping a silently empty Evidence Explorer
-- **Status:** ready · **Priority:** P0 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P0 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Implementation:** PR #7
 - **Goal:** CI fails when the evidence layer is empty or under-populated.
 - **Why it matters:** The current build succeeds with zero evidence displayed.
 - **Scope:** Add a validation step (and CI wiring) that loads the evidence
@@ -223,7 +225,8 @@ This repository must **not**:
 - **Files:** `.github/workflows/deploy.yml`, new `scripts/validate-evidence.js`, `tests/`
 
 ### ED-B04 — Distinguish an absent package from a valid zero-finding package
-- **Status:** backlog · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** upstream template
+- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** upstream template
+- **Implementation:** PR #7
 - **Goal:** The explorer and validator must treat "no package" and "package with zero findings" differently.
 - **Why it matters:** Conflating them hides missing evidence behind a legitimate-looking empty state.
 - **Scope:** Explicit empty-vs-missing states in widget and validator.
@@ -233,7 +236,8 @@ This repository must **not**:
 - **Files:** `content/evidence-explorer-widget.mjs`, `scripts/validate-evidence.js`
 
 ### ED-B05 — Reconcile `evidence/README.md` with the actual schema
-- **Status:** backlog · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** upstream template
+- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** upstream template
+- **Implementation:** PR #7
 - **Goal:** Documentation matches real filenames (`evidence_section_NN.json`) and fields.
 - **Why it matters:** README currently documents `section_NN_evidence_package.json`, contradicting the files and the v29 CHANGELOG rename.
 - **Scope:** Update README schema/format section; note the `findings[]`-vs-`argument_groups` convention.
@@ -243,7 +247,8 @@ This repository must **not**:
 - **Files:** `evidence/README.md`
 
 ### ED-B06 — Complete replication / conflict / evidence-gap provenance in packages
-- **Status:** backlog · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Implementation:** PR #7
 - **Goal:** Ensure each finding's replication status, conflicts, and evidence gaps are populated where source data supports it.
 - **Why it matters:** These fields drive contradiction and gap views; empty fields understate uncertainty.
 - **Scope:** Backfill only from traceable source data; flag gaps rather than guessing.
@@ -379,7 +384,8 @@ This repository must **not**:
 ## Workstream D — Review interface and MyST rendering
 
 ### ED-D01 — Separate the Literature Evidence view from the Claims/TRUST view
-- **Status:** backlog · **Priority:** P1 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Implementation:** PR #7
 - **Goal:** Distinct navigation and terminology for the two evidence layers
   (section literature evidence vs claim-level TRUST assessments).
 - **Why it matters:** "Evidence Database" and "Citation Trust Summary" read as one
@@ -391,7 +397,8 @@ This repository must **not**:
 - **Files:** `myst.yml`, `content/evidence_database.md`, `content/trust_summary.md`
 
 ### ED-D02 — Synchronize the single-active-panel TRUST viewer from the TRUST fork
-- **Status:** ready · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** TRUST fork (sync)
+- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** TRUST fork (sync)
+- **Implementation:** PR #7
 - **Goal:** Only one TRUST panel open at a time; no overlapping/stacked panels.
 - **Why it matters:** Overlapping margin panels are a known, fixed defect upstream;
   the local widget has partial single-active highlight logic but not the corrected panel behaviour.
@@ -403,7 +410,8 @@ This repository must **not**:
 - **Files:** `content/trust-claim-widget.mjs`, `content/trust-claim-widget.css`, `plugins/trust-claim-plugin.mjs`, `UPSTREAM_SYNC.md`
 
 ### ED-D03 — Browser + accessibility regression tests
-- **Status:** backlog · **Priority:** P1 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Implementation:** PR #7
 - **Goal:** Automated tests for Safari/WebKit behaviour, exact prose highlighting, and keyboard navigation/accessibility.
 - **Why it matters:** Highlighting and slide-out interactions are the core UX and are currently untested in a real browser.
 - **Scope:** Playwright (Chromium/Firefox/WebKit) tests for highlight exactness, keyboard focus, ARIA states.
@@ -413,7 +421,8 @@ This repository must **not**:
 - **Files:** `tests/`, `.github/workflows/deploy.yml`
 
 ### ED-D04 — Clear empty, incomplete, and error states
-- **Status:** backlog · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Implementation:** PR #7
 - **Goal:** Every widget renders explicit empty/incomplete/error states instead of blank output.
 - **Why it matters:** The empty Evidence Explorer failed silently; UI must fail visibly.
 - **Dependencies:** ED-B02, ED-B04.
@@ -421,12 +430,14 @@ This repository must **not**:
 - **Files:** `content/evidence-explorer-widget.mjs`, `content/trust-claim-widget.mjs`
 
 ### ED-D05 — Better contradiction presentation (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
+- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
+- **Implementation:** PR #7
 - **Goal:** Present inter-study conflicts clearly (both sides, resolution status) in the evidence view.
 - **Dependencies:** ED-B02. **Files:** `content/evidence-explorer-widget.mjs`
 
 ### ED-D06 — Evidence-gap visualization (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
+- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
+- **Implementation:** PR #7
 - **Goal:** Surface `evidence_gaps`/`unreplicated_claims` per section.
 - **Dependencies:** ED-B06. **Files:** `content/evidence-explorer-widget.mjs`
 
@@ -559,13 +570,15 @@ This repository must **not**:
 - **Files:** `scripts/`, `.github/workflows/deploy.yml`
 
 ### ED-G03 — Deterministic figure execution
-- **Status:** backlog · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
+- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
+- **Implementation:** PR #8
 - **Goal:** Figure notebooks produce byte-stable output in the CI environment.
 - **Why it matters:** Non-deterministic figures undermine reproducible releases.
 - **Dependencies:** none. **Files:** `figures/notebooks/`, `scripts/build_trust_figures.py`
 
 ### ED-G04 — Deterministic full build check (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Implementation:** PR #8
 - **Goal:** Re-running the build from clean produces identical `_build` content (modulo timestamps).
 - **Dependencies:** ED-G03. **Files:** `.github/workflows/deploy.yml`
 
@@ -578,7 +591,8 @@ This repository must **not**:
 ## Workstream H — Release, provenance, and documentation
 
 ### ED-H01 — Define and validate the frozen reference-release contract
-- **Status:** ready · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Status:** in-progress · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Implementation:** PR #8; final tag and prerelease deferred to the complete stacked head
 - **Goal:** Acceptance criteria for the first stable ORAtlas-integration release:
   frozen record counts, frozen artifact hashes, validated MyST build, validated
   figures/notebooks, Chromium/Firefox/WebKit checks where possible, updated
@@ -593,7 +607,8 @@ This repository must **not**:
 - **Files:** new `RELEASE_CONTRACT.md`, `DEPLOY.md`, `.github/workflows/deploy.yml`, `knowledge/oratlas/`
 
 ### ED-H02 — Update disclosures and public-status wording
-- **Status:** backlog · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Implementation:** PR #8
 - **Goal:** AI-assistance disclosure, experimental-TRUST status, and "not peer
   reviewed / not fully adjudicated" wording are accurate and consistent across README, releases, and site.
 - **Why it matters:** Overstated status is a scientific-integrity risk.
@@ -602,23 +617,27 @@ This repository must **not**:
 - **Files:** `README.md`, `content/00_frontmatter.md`, `DEPLOY.md`, release notes
 
 ### ED-H03 — DOI / Zenodo preparation (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Implementation:** PR #8
 - **Goal:** Prepare Zenodo metadata and process so a review-specific DOI can be
   minted for the first stable release (distinct from the template DOI).
 - **Dependencies:** ED-H01. **Files:** new `.zenodo.json`, `README.md`, `FAIR.md`
 
 ### ED-H04 — Contributor and CRediT documentation (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Implementation:** PR #8
 - **Goal:** Complete CRediT roles and contributor metadata; resolve MyST contributor warnings.
 - **Dependencies:** none. **Files:** `content/authors.yml`, `review-manifest.json`
 
 ### ED-H05 — Improved reproducibility instructions (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Implementation:** PR #8
 - **Goal:** End-to-end reproduce instructions (pinned deps, exact commands) for validation, export, and build.
 - **Dependencies:** ED-G04. **Files:** `README.md`, `DEPLOY.md`, `requirements.txt`, `package.json`
 
 ### ED-H06 — Changelog and versioning hygiene (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Implementation:** PR #8
 - **Goal:** `CHANGELOG.md` currently documents the *skill catalogue* (v28→v29), not
   the review/release history; add a review-facing changelog and a versioning policy.
 - **Dependencies:** none. **Files:** `CHANGELOG.md`, `DEPLOY.md`

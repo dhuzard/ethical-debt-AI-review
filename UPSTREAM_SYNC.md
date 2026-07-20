@@ -51,8 +51,10 @@ once; sync per component, under its own backlog item.
 - **Upstream commit:** _unrecorded — pin on first sync_
 - **Local commit:** `b89196f` (2026-07-06)
 - **Local modifications:** Rendering tuned to this review's findings/conflicts/figure fields.
-- **Reason for divergence:** Review-specific display; empty/error states pending (**ED-D04**).
-- **Should divergence be removed later?** Partly — empty/incomplete/error states are generic and belong upstream.
+- **Reason for divergence:** Review-specific display plus explicit absent, valid-empty,
+  malformed, conflict-resolution, and evidence-gap provenance states (**ED-B04, ED-D04–D06**).
+- **Should divergence be removed later?** Partly — the state model, accessible tabs,
+  conflict presentation, and gap presentation are generic and should be ported upstream.
 
 ### 3. TRUST claim plugin
 - **Component:** `plugins/trust-claim-plugin.mjs`
@@ -66,12 +68,16 @@ once; sync per component, under its own backlog item.
 ### 4. TRUST claim widget (+ CSS)
 - **Component:** `content/trust-claim-widget.mjs`, `content/trust-claim-widget.css`
 - **Upstream repository:** TRUST fork
-- **Upstream commit:** _unrecorded — pin on first sync_
+- **Upstream commit:** `4838df9af74c` (audited 2026-07-20)
 - **Local commit:** `1d89f86` (2026-07-17)
 - **Local modifications:** Prose highlighting, dark-mode margin cards, single-active highlight cleanup.
 - **Reason for divergence:** Local UI polish (commits "Improve TRUST score and text interactions", "Enhance prose highlighting…").
-- **Known gap:** The corrected **single-active-panel** behaviour (no overlapping TRUST panels) exists upstream and must be synced — **ED-D02**.
-- **Should divergence be removed later?** Yes for panel behaviour — take the fork's fix; keep only genuinely review-specific styling.
+- **Panel audit (ED-D02):** The fork at the pinned commit does not contain the
+  backlog-described single-active-panel implementation; it only coordinates active
+  prose highlights. The local reference implementation now coordinates open panels
+  per document and is covered by unit and three-engine browser tests.
+- **Should divergence be removed later?** Yes for panel behaviour — port the tested
+  document-level coordinator to the TRUST fork; keep only genuinely review-specific styling.
 
 ### 5. Validation skills
 - **Component:** `skills/comprev-*.md` (e.g. `comprev-trust-score-validator.md`, `comprev-evidence-validator.md`, `comprev-citation-validator.md`, `comprev-myst-validator.md`)
@@ -117,3 +123,17 @@ once; sync per component, under its own backlog item.
 - **Local modifications:** Review-specific TOC, four registered plugins, LaTeX/PDF export templates, `BASE_URL` handling.
 - **Reason for divergence:** Review-specific site; expected and permanent.
 - **Should divergence be removed later?** No — configuration is review-owned; only generic plugin/theme patterns track upstream.
+
+### 10. Deterministic widgets, figures, and MyST builds
+- **Component:** `plugins/*-plugin.mjs`, `scripts/check_deterministic_figures.py`,
+  `scripts/check-deterministic-build.js`
+- **Upstream repository:** Template (and TRUST fork for TRUST-specific widgets)
+- **Upstream commit:** _not yet ported_
+- **Local modifications:** Replace time/random anywidget IDs with deterministic
+  per-document IDs; execute notebooks twice and compare frozen PNG hashes; compare
+  two MyST output trees while normalizing only MyST's presentation-only random AST
+  keys and derived image DOM IDs.
+- **Reason for divergence:** The reference release must be reproducible and the
+  inherited plugins made every build byte-different even when content was unchanged.
+- **Should divergence be removed later?** Yes — generic stable widget IDs and build
+  reproducibility gates belong in the Template; the frozen artifact manifest stays local.

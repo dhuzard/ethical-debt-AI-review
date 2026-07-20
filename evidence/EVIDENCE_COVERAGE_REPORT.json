@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0.0",
+  "generated_from": "evidence/evidence_section_NN.json",
+  "policy": "Missing fields are reported as unavailable; no replication state or gap is inferred.",
+  "expected_sections": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "absent_sections": [],
+  "valid_empty_sections": [],
+  "sections": [
+    {
+      "section": 1,
+      "source_file": "evidence_section_01.json",
+      "findings": 11,
+      "conflicts": 26,
+      "replication_status": {
+        "populated": 11,
+        "unavailable": 0
+      },
+      "evidence_gaps": {
+        "status": "not-recorded",
+        "count": null
+      },
+      "unreplicated_claims": {
+        "status": "not-recorded",
+        "count": null
+      }
+    },
+    {
+      "section": 2,
+      "source_file": "evidence_section_02.json",
+      "findings": 182,
+      "conflicts": 10,
+      "replication_status": {
+        "populated": 182,
+        "unavailable": 0
+      },
+      "evidence_gaps": {
+        "status": "not-recorded",
+        "count": null
+      },
+      "unreplicated_claims": {
+        "status": "not-recorded",
+        "count": null
+      }
+    },
+    {
+      "section": 3,
+      "source_file": "evidence_section_03.json",
+      "findings": 192,
+      "conflicts": 16,
+      "replication_status": {
+        "populated": 192,
+        "unavailable": 0
+      },
+      "evidence_gaps": {
+        "status": "not-recorded",
+        "count": null
+      },
+      "unreplicated_claims": {
+        "status": "not-recorded",
+        "count": null
+      }
+    },
+    {
+      "section": 4,
+      "source_file": "evidence_section_04.json",
+      "findings": 279,
+      "conflicts": 17,
+      "replication_status": {
+        "populated": 279,
+        "unavailable": 0
+      },
+      "evidence_gaps": {
+        "status": "not-recorded",
+        "count": null
+      },
+      "unreplicated_claims": {
+        "status": "not-recorded",
+        "count": null
+      }
+    },
+    {
+      "section": 5,
+      "source_file": "evidence_section_05.json",
+      "findings": 244,
+      "conflicts": 22,
+      "replication_status": {
+        "populated": 244,
+        "unavailable": 0
+      },
+      "evidence_gaps": {
+        "status": "not-recorded",
+        "count": null
+      },
+      "unreplicated_claims": {
+        "status": "not-recorded",
+        "count": null
+      }
+    },
+    {
+      "section": 6,
+      "source_file": "evidence_section_06.json",
+      "findings": 168,
+      "conflicts": 11,
+      "replication_status": {
+        "populated": 168,
+        "unavailable": 0
+      },
+      "evidence_gaps": {
+        "status": "not-recorded",
+        "count": null
+      },
+      "unreplicated_claims": {
+        "status": "not-recorded",
+        "count": null
+      }
+    },
+    {
+      "section": 7,
+      "source_file": "evidence_section_07.json",
+      "findings": 175,
+      "conflicts": 12,
+      "replication_status": {
+        "populated": 175,
+        "unavailable": 0
+      },
+      "evidence_gaps": {
+        "status": "not-recorded",
+        "count": null
+      },
+      "unreplicated_claims": {
+        "status": "not-recorded",
+        "count": null
+      }
+    },
+    {
+      "section": 8,
+      "source_file": "evidence_section_08.json",
+      "findings": 177,
+      "conflicts": 11,
+      "replication_status": {
+        "populated": 177,
+        "unavailable": 0
+      },
+      "evidence_gaps": {
+        "status": "not-recorded",
+        "count": null
+      },
+      "unreplicated_claims": {
+        "status": "not-recorded",
+        "count": null
+      }
+    },
+    {
+      "section": 9,
+      "source_file": "evidence_section_09.json",
+      "findings": 10,
+      "conflicts": 0,
+      "replication_status": {
+        "populated": 10,
+        "unavailable": 0
+      },
+      "evidence_gaps": {
+        "status": "not-recorded",
+        "count": null
+      },
+      "unreplicated_claims": {
+        "status": "not-recorded",
+        "count": null
+      }
+    }
+  ]
+}

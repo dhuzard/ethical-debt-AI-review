@@ -2,15 +2,15 @@
 
 ### Why wasting animal data is wasting animal lives
 
-A computational critical review of **data welfare**: the argument that stewardship of animal-derived data is part of animal welfare and the 3Rs, not a technical afterthought. Drawing on a corpus of 1,337 unique papers, the review examines FAIR data, virtual control groups, new approach methodologies, incentives, and governance.
+A computational critical review of **data welfare**: the argument that stewardship of animal-derived data is part of animal welfare and the 3Rs, not a technical afterthought. The canonical curated evidence packages contain **1,438 finding records representing 1,336 unique DOI/citation identifiers**; historical pipeline gates retain their earlier raw and bibliography counts as provenance.
 
 **Interactive preview:** <https://dhuzard.github.io/ethical-debt-AI-review/>
 
 > [!CAUTION]
-> **Public TRUST preview.** This release contains the complete review and its enriched TRUST v2 knowledge layer, but the final human adjudication pass is still in progress. **9 historical decisions** replaced 9 source claims with 28 replacement records; 27 replacement claims remain in the current graph and produce 34 source-reviewed citation relations. Separately, **29 current claims are flagged** for future human review. These are different measures and must not be added together. Scores and wording may change before the stable release. This preview is suitable for testing transparent review infrastructure such as [Open Review Atlas](https://github.com/dhuzard/oratlas), but it must not be represented as peer reviewed or fully human-adjudicated.
+> **Public TRUST preview.** This release contains the complete review and its enriched experimental TRUST v2 knowledge layer, but it is **not peer reviewed** and **not fully human-adjudicated**. **9 historical decisions** replaced 9 source claims with 28 replacement records; 27 replacement claims remain in the current graph and produce 34 source-reviewed citation relations. Separately, **29 current claims are flagged** for future human review. These are different measures and must not be added together. Scores and wording may change before the stable release. This preview is suitable for testing transparent review infrastructure such as [Open Review Atlas](https://github.com/dhuzard/oratlas).
 
 > [!IMPORTANT]
-> **This review was generated with substantial AI assistance.** Under human direction and supervision, AI-directed components searched PubMed, Europe PMC, OpenAlex, and CrossRef; extracted and verified evidence; drafted prose and figures; and ran staged criticism and citation checks. Damien Huzard conceived the review, set its scope and thesis, and performs the human review pass. See the [Methods](content/Methods.md), [Provenance](content/provenance.md), and [Evidence Database](content/evidence_database.md).
+> **This review was generated with substantial AI assistance.** Under human direction and supervision, AI-directed components searched PubMed, Europe PMC, OpenAlex, and CrossRef; extracted and verified evidence; drafted prose and figures; and ran staged criticism and citation checks. Damien Huzard conceived the review, set its scope and thesis, and performs the human review pass. See the [Methods](content/Methods.md), [Provenance](content/provenance.md), and [Literature Evidence Explorer](content/evidence_database.md).
 
 ## The argument
 
@@ -66,16 +66,19 @@ Supporting material includes 21 section figures and a pipeline schematic, re-exe
 
 ## Reproduce the validation and site build
 
-Requirements: Node.js, Python 3.11+, Jupyter, and MyST.
+Requirements: Node.js 24 and Python 3.11. Install exact dependencies from the
+lockfiles, then run the complete release gate:
 
 ```bash
-node scripts/validate-trust.js
-node scripts/test-trust-validator.js
-node --test tests/*.test.mjs
-npx myst build --html
+npm ci --no-audit --no-fund
+python -m pip install --requirement requirements.txt
+npx playwright install chromium firefox webkit
+npm run release:check
 ```
 
-GitHub Actions additionally executes every figure notebook before building the MyST site.
+The release gate validates every evidence/knowledge/export contract, executes all
+figure notebooks twice, runs browser tests in three engines, and builds the MyST
+site twice to detect byte-level drift. See [DEPLOY.md](DEPLOY.md).
 
 Run `node scripts/migrate-trust-v2.js` only when intentionally regenerating the TRUST v2 artifacts and prose directives from the preserved legacy material. The earlier Python TRUST scripts are historical pipeline artifacts and must not overwrite the v2 graph.
 
