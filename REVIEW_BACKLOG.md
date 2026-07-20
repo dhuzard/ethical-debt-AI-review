@@ -23,6 +23,12 @@ Priorities: `P0` integrity/misleading-presentation/data-loss/broken-publication 
 `P1` needed for a reliable public reference release · `P2` valuable after core is
 stable · `P3` exploratory.
 
+On 2026-07-20, the 42 engineering entries left in `review` were accepted after
+their implementation PRs were merged and the repository-wide validation,
+browser, figure, export, and deterministic-build gates passed. They are marked
+`done` below. The eight scientific or coordination-dependent entries remain
+`blocked`; this status audit does not claim that their scientific work is complete.
+
 Companion files:
 
 - `SCIENTIFIC_REVIEW_QUEUE.md` — items needing human scientific judgment (do not do these as engineering).
@@ -30,9 +36,10 @@ Companion files:
 
 ---
 
-## Recommended first implementation tranche
+## Completed first implementation tranche
 
-No more than five items, in this order. Each earlier item de-risks the next.
+The first five implementation targets were completed in this order. The historical
+rationale is retained because it explains the dependency structure of the merged work.
 
 1. **ED-B01 + ED-B02 — Audit and recover the Literature Evidence Database.**
    The Evidence Explorer is *silently empty*: the plugin scans for
@@ -134,7 +141,7 @@ This repository must **not**:
 - **Files:** `knowledge/claim_graph.json`, `content/*.md`, `SCIENTIFIC_REVIEW_QUEUE.md`, `knowledge/trust_human_review_overrides.json`
 
 ### ED-A02 — Apply the 18 deferred SHOULD_CAVEAT amendments
-- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Status:** done · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
 - **Implementation:** PR #9; 15 present in current prose, 1 closed by Phase 16, 2 escalated as SR-30/SR-31
 - **Goal:** Resolve the 18 caveats deferred from Phase 8 to Phase 10 in `provenance/phase10_caveats.json`.
 - **Why it matters:** Several are metric-conflation issues (e.g. a 26% feasibility
@@ -159,7 +166,7 @@ This repository must **not**:
 - **Files:** `knowledge/claim_graph.json`, `content/*.md`
 
 ### ED-A04 — Reconcile corpus-size statements
-- **Status:** review · **Priority:** P2 · **Size:** S · **Agent:** conditional · **Upstream:** local
+- **Status:** done · **Priority:** P2 · **Size:** S · **Agent:** conditional · **Upstream:** local
 - **Implementation:** PR #8
 - **Goal:** One consistent corpus number across README, `content/provenance.md`, `HANDOFF.md`, and gates.
 - **Why it matters:** README/provenance say 1,337 unique papers; provenance also
@@ -176,7 +183,7 @@ This repository must **not**:
 ## Workstream B — Literature evidence database
 
 ### ED-B01 — Audit `evidence/` and produce a machine-readable migration report
-- **Status:** review · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local (loader fix may be upstream template)
+- **Status:** done · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local (loader fix may be upstream template)
 - **Goal:** Inventory every file in `evidence/`, determine why the Evidence
   Explorer renders empty, identify which expected section packages exist, and
   produce a traceable evidence migration report.
@@ -195,7 +202,7 @@ This repository must **not**:
 - **Files:** `evidence/*.json`, `evidence/README.md`, new `evidence/EVIDENCE_MIGRATION_REPORT.md`
 
 ### ED-B02 — Fix the Evidence Explorer so packages actually load
-- **Status:** review · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** upstream template (loader is generic)
+- **Status:** done · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** upstream template (loader is generic)
 - **Goal:** Make the Evidence Explorer read the real files and display the rich findings.
 - **Why it matters:** Two defects make it silently empty/wrong: (1) filename
   mismatch — plugin scans `section_NN_evidence_package.json`/`section_NN_evidence.json`
@@ -215,7 +222,7 @@ This repository must **not**:
 - **Files:** `plugins/evidence-explorer-plugin.mjs`, `content/evidence-explorer-widget.mjs`, `content/evidence_database.md`
 
 ### ED-B03 — Prevent a green build from shipping a silently empty Evidence Explorer
-- **Status:** review · **Priority:** P0 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** done · **Priority:** P0 · **Size:** S · **Agent:** yes · **Upstream:** local
 - **Implementation:** PR #7
 - **Goal:** CI fails when the evidence layer is empty or under-populated.
 - **Why it matters:** The current build succeeds with zero evidence displayed.
@@ -228,7 +235,7 @@ This repository must **not**:
 - **Files:** `.github/workflows/deploy.yml`, new `scripts/validate-evidence.js`, `tests/`
 
 ### ED-B04 — Distinguish an absent package from a valid zero-finding package
-- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** upstream template
+- **Status:** done · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** upstream template
 - **Implementation:** PR #7
 - **Goal:** The explorer and validator must treat "no package" and "package with zero findings" differently.
 - **Why it matters:** Conflating them hides missing evidence behind a legitimate-looking empty state.
@@ -239,7 +246,7 @@ This repository must **not**:
 - **Files:** `content/evidence-explorer-widget.mjs`, `scripts/validate-evidence.js`
 
 ### ED-B05 — Reconcile `evidence/README.md` with the actual schema
-- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** upstream template
+- **Status:** done · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** upstream template
 - **Implementation:** PR #7
 - **Goal:** Documentation matches real filenames (`evidence_section_NN.json`) and fields.
 - **Why it matters:** README currently documents `section_NN_evidence_package.json`, contradicting the files and the v29 CHANGELOG rename.
@@ -250,7 +257,7 @@ This repository must **not**:
 - **Files:** `evidence/README.md`
 
 ### ED-B06 — Complete replication / conflict / evidence-gap provenance in packages
-- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Status:** done · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** local
 - **Implementation:** PR #7
 - **Goal:** Ensure each finding's replication status, conflicts, and evidence gaps are populated where source data supports it.
 - **Why it matters:** These fields drive contradiction and gap views; empty fields understate uncertainty.
@@ -265,7 +272,7 @@ This repository must **not**:
 ## Workstream C — Claim and TRUST knowledge layer
 
 ### ED-C01 — Validate directive → canonical record resolution and exact prose anchors
-- **Status:** review · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local (validator generic → TRUST fork)
+- **Status:** done · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local (validator generic → TRUST fork)
 - **Goal:** Every public `trust-claim` directive resolves to exactly one
   `claim_graph.json` record, and its `text_quote_selector` anchors to exact prose.
 - **Why it matters:** A directive that resolves to nothing (or to the wrong claim)
@@ -278,7 +285,7 @@ This repository must **not**:
 - **Files:** `scripts/validate-trust.js`, `plugins/trust-claim-plugin.mjs`, `content/*.md`
 
 ### ED-C02 — Validate claim atoms, citation-to-atom attribution, and passages
-- **Status:** review · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** TRUST fork (rubric-level)
+- **Status:** done · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** TRUST fork (rubric-level)
 - **Goal:** Every `claim_atom` is an exact substring of `claim_text`; every
   citation context's atom list equals the union of its verified passages' atoms;
   every supporting passage has a locator and verification record.
@@ -292,7 +299,7 @@ This repository must **not**:
 - **Files:** `scripts/validate-trust.js`, `knowledge/claim_graph.json`, `knowledge/schemas/`
 
 ### ED-C03 — Reconcile claim / citation / relation / assessment / human-review counts
-- **Status:** review · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Status:** done · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local
 - **Goal:** One source of truth for every headline number, reflected everywhere.
 - **Why it matters:** Numbers currently conflict across artifacts: graph/export
   = **529 claims, 994 citations, 1,392 relations, 1,392 assessments**, bands
@@ -311,7 +318,7 @@ This repository must **not**:
 - **Files:** `README.md`, `content/trust_summary.md`, `review-manifest.json`, `knowledge/*.json`, `scripts/validate-trust.js`
 
 ### ED-C04 — Make human-review status consistent across sources, reports, and UI
-- **Status:** review · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Status:** done · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local
 - **Goal:** One definition of "human-reviewed" flows from source decisions to reports to the card UI.
 - **Why it matters:** `human_review_required` (graph, 29), overrides decisions (9
   decisions / 28 claims), and export `humanReviewed` (34 relations, matched by
@@ -326,7 +333,7 @@ This repository must **not**:
 - **Files:** `knowledge/claim_graph.json`, `knowledge/trust_human_review_overrides.json`, `content/trust-claim-widget.mjs`, `content/trust_summary.md`
 
 ### ED-C05 — Label native TRUST experimental and non-probabilistic
-- **Status:** review · **Priority:** P0 · **Size:** S · **Agent:** yes · **Upstream:** local (wording) + TRUST fork (rubric text)
+- **Status:** done · **Priority:** P0 · **Size:** S · **Agent:** yes · **Upstream:** local (wording) + TRUST fork (rubric text)
 - **Goal:** Every public surface labels native TRUST v2 as experimental and states it is not a probability that a claim is true.
 - **Why it matters:** `TRUST.md`/`TRUST_RUBRIC.md` already say it is not a
   probability, but the card UI, `trust_summary.md`, and README do not consistently
@@ -339,7 +346,7 @@ This repository must **not**:
 - **Files:** `content/trust-claim-widget.mjs`, `content/trust_summary.md`, `README.md`, `TRUST.md`
 
 ### ED-C06 — Identify malformed or incomplete claims needing scientific review
-- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Status:** done · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
 - **Goal:** Surface claims that are structurally incomplete or scientifically ambiguous for the review queue.
 - **Why it matters:** Some claims are dangling references ("laid out in,", "found a
   stable Reduction estimate") suggesting broken cross-refs or truncated prose.
@@ -361,17 +368,17 @@ This repository must **not**:
 - **Files:** `knowledge/claim_graph.json`
 
 ### ED-C08 — Improved review-level and section-level TRUST summaries (P2)
-- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Status:** done · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** local
 - **Goal:** Richer, clearer rollups (distribution, caps, review-state) without implying a single trust number for the review.
 - **Dependencies:** ED-C03. **Files:** `content/trust_summary.md`, `scripts/build_trust_summary.py`
 
 ### ED-C09 — Claim-lineage support across later review versions (P2)
-- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** cross-repository (ORAtlas + TRUST fork)
+- **Status:** done · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** cross-repository (ORAtlas + TRUST fork)
 - **Goal:** Stable claim identity across future revisions so ORAtlas can track a claim over versions.
 - **Dependencies:** ED-C03. **Files:** `knowledge/claim_graph.json`, `knowledge/trust_v1_to_v2_id_map.json`
 
 ### ED-C10 — Migration path to future TRUST rubric versions (P2)
-- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** TRUST fork
+- **Status:** done · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** TRUST fork
 - **Goal:** Documented, reproducible upgrade when the TRUST fork releases a new rubric.
 - **Dependencies:** none. **Files:** `scripts/migrate-trust-v2.js`, `knowledge/TRUST_RUBRIC.md`
 
@@ -390,7 +397,7 @@ This repository must **not**:
 ## Workstream D — Review interface and MyST rendering
 
 ### ED-D01 — Separate the Literature Evidence view from the Claims/TRUST view
-- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Status:** done · **Priority:** P1 · **Size:** M · **Agent:** yes · **Upstream:** local
 - **Implementation:** PR #7
 - **Goal:** Distinct navigation and terminology for the two evidence layers
   (section literature evidence vs claim-level TRUST assessments).
@@ -403,7 +410,7 @@ This repository must **not**:
 - **Files:** `myst.yml`, `content/evidence_database.md`, `content/trust_summary.md`
 
 ### ED-D02 — Synchronize the single-active-panel TRUST viewer from the TRUST fork
-- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** TRUST fork (sync)
+- **Status:** done · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** TRUST fork (sync)
 - **Implementation:** PR #7
 - **Goal:** Only one TRUST panel open at a time; no overlapping/stacked panels.
 - **Why it matters:** Overlapping margin panels are a known, fixed defect upstream;
@@ -416,7 +423,7 @@ This repository must **not**:
 - **Files:** `content/trust-claim-widget.mjs`, `content/trust-claim-widget.css`, `plugins/trust-claim-plugin.mjs`, `UPSTREAM_SYNC.md`
 
 ### ED-D03 — Browser + accessibility regression tests
-- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Status:** done · **Priority:** P1 · **Size:** M · **Agent:** yes · **Upstream:** local
 - **Implementation:** PR #7
 - **Goal:** Automated tests for Safari/WebKit behaviour, exact prose highlighting, and keyboard navigation/accessibility.
 - **Why it matters:** Highlighting and slide-out interactions are the core UX and are currently untested in a real browser.
@@ -427,7 +434,7 @@ This repository must **not**:
 - **Files:** `tests/`, `.github/workflows/deploy.yml`
 
 ### ED-D04 — Clear empty, incomplete, and error states
-- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** done · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
 - **Implementation:** PR #7
 - **Goal:** Every widget renders explicit empty/incomplete/error states instead of blank output.
 - **Why it matters:** The empty Evidence Explorer failed silently; UI must fail visibly.
@@ -436,13 +443,13 @@ This repository must **not**:
 - **Files:** `content/evidence-explorer-widget.mjs`, `content/trust-claim-widget.mjs`
 
 ### ED-D05 — Better contradiction presentation (P2)
-- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
+- **Status:** done · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
 - **Implementation:** PR #7
 - **Goal:** Present inter-study conflicts clearly (both sides, resolution status) in the evidence view.
 - **Dependencies:** ED-B02. **Files:** `content/evidence-explorer-widget.mjs`
 
 ### ED-D06 — Evidence-gap visualization (P2)
-- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
+- **Status:** done · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
 - **Implementation:** PR #7
 - **Goal:** Surface `evidence_gaps`/`unreplicated_claims` per section.
 - **Dependencies:** ED-B06. **Files:** `content/evidence-explorer-widget.mjs`
@@ -452,7 +459,7 @@ This repository must **not**:
 ## Workstream E — Human review and adjudication
 
 ### ED-E01 — Transparent prioritization strategy + stratified calibration subset
-- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Status:** done · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
 - **Goal:** A documented, reproducible strategy for which claims are reviewed first, and a stratified calibration subset for benchmarking.
 - **Why it matters:** Human time is scarce; prioritization must target the highest-consequence claims, not arbitrary ones.
 - **Scope:** Define priority signals (low band, caps, high argumentative weight);
@@ -463,7 +470,7 @@ This repository must **not**:
 - **Files:** `SCIENTIFIC_REVIEW_QUEUE.md`, new `knowledge/review_priority.json`
 
 ### ED-E02 — Decision store: separate states, preserve rationale, never overwrite
-- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Status:** done · **Priority:** P1 · **Size:** M · **Agent:** yes · **Upstream:** local
 - **Goal:** A durable structure separating pending / independently-reviewed /
   adjudicated states, preserving every decision and reviewer rationale, and never overwriting earlier agent assessments.
 - **Why it matters:** Human decisions are the scientific value; losing or overwriting them is unrecoverable.
@@ -474,7 +481,7 @@ This repository must **not**:
 - **Files:** `knowledge/trust_human_review_overrides.json`, `knowledge/schemas/`, `scripts/validate-trust.js`
 
 ### ED-E03 — Reviewer instructions, data-entry format, deterministic merge
-- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Status:** done · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
 - **Goal:** Clear reviewer instructions, a simple data-entry format, and a deterministic process to merge completed reviews back into the graph.
 - **Why it matters:** Without a defined format, human input is inconsistent and hard to merge.
 - **Scope:** Author instructions + template + a deterministic merge script; no synthetic decisions.
@@ -498,7 +505,7 @@ This repository must **not**:
 ## Workstream F — ORAtlas interoperability
 
 ### ED-F01 — Contract tests against the ORAtlas manifest and artifact schemas
-- **Status:** review · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** cross-repository (schemas from ORAtlas)
+- **Status:** done · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** cross-repository (schemas from ORAtlas)
 - **Goal:** Automated tests validating `review-manifest.json` and the four
   `knowledge/oratlas/*.jsonl` + `provenance.json` against the ORAtlas contract.
 - **Why it matters:** The export currently has no tests; a schema drift in either repo would break ingestion silently.
@@ -510,7 +517,7 @@ This repository must **not**:
 - **Files:** `tests/`, `scripts/export-oratlas.js`, `knowledge/oratlas/`, `review-manifest.json`
 
 ### ED-F02 — Verify and lock export semantics (claim-level, not-assessed, source assessment)
-- **Status:** review · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local (semantics) + cross-repository (contract)
+- **Status:** done · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local (semantics) + cross-repository (contract)
 - **Goal:** Assert, in tests, that the export: keeps native TRUST v2 **claim-level**
   and never emits it as an ORAtlas relation-level aggregate; keeps all ten ORAtlas
   criteria `not-assessed` unless actually assessed; preserves native TRUST under an
@@ -528,7 +535,7 @@ This repository must **not**:
 - **Files:** `scripts/export-oratlas.js`, `tests/`, `TRUST.md`, `knowledge/oratlas/provenance.json`
 
 ### ED-F03 — Prevent source human-review from reading as ORAtlas platform verification
-- **Status:** review · **Priority:** P0 · **Size:** S · **Agent:** yes · **Upstream:** cross-repository
+- **Status:** done · **Priority:** P0 · **Size:** S · **Agent:** yes · **Upstream:** cross-repository
 - **Goal:** The `humanReviewed`/`reviewStatus: human-reviewed` fields must clearly
   denote *source-side* review, not ORAtlas platform adjudication.
 - **Why it matters:** Export marks 34 relations `human-reviewed` by matching claim
@@ -541,7 +548,7 @@ This repository must **not**:
 - **Files:** `scripts/export-oratlas.js`, `knowledge/oratlas/`, `TRUST.md`
 
 ### ED-F04 — Export exact record counts and artifact hashes
-- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** done · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
 - **Goal:** The export writes exact record counts and content hashes for each artifact into `provenance.json`.
 - **Why it matters:** ORAtlas needs to verify it ingested the exact artifacts; hashes make ingestion tamper-evident and reproducible.
 - **Scope:** Add per-artifact SHA-256 and counts to the export provenance; assert in CI.
@@ -550,7 +557,7 @@ This repository must **not**:
 - **Files:** `scripts/export-oratlas.js`, `knowledge/oratlas/provenance.json`
 
 ### ED-F05 — Additional immutable ORAtlas ingestion fixtures (P2)
-- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** cross-repository
+- **Status:** done · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** cross-repository
 - **Goal:** Curated small fixtures (edge cases: contradictory context, capped claim, multi-citation claim) for ORAtlas ingestion tests, pinned to a commit.
 - **Dependencies:** ED-F01. **Files:** new `knowledge/oratlas/fixtures/`
 
@@ -564,7 +571,7 @@ This repository must **not**:
 ## Workstream G — Validation and reproducibility
 
 ### ED-G01 — Schema validation for graph / context / TRUST in CI
-- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local (schemas may sync to TRUST fork)
+- **Status:** done · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local (schemas may sync to TRUST fork)
 - **Goal:** Validate `claim_graph.json` and records against `knowledge/schemas/*` in CI.
 - **Why it matters:** Schemas exist but nothing asserts the artifacts conform on every push.
 - **Dependencies:** none.
@@ -572,27 +579,27 @@ This repository must **not**:
 - **Files:** `knowledge/schemas/`, `scripts/validate-trust.js`, `.github/workflows/deploy.yml`
 
 ### ED-G02 — Record-count and hash checks in CI
-- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** done · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
 - **Goal:** CI asserts the single-source counts (ED-C03) and export hashes (ED-F04) match reality.
 - **Dependencies:** ED-C03, ED-F04.
 - **Acceptance:** Divergence between `record_counts.json`, artifacts, and prose fails CI.
 - **Files:** `scripts/`, `.github/workflows/deploy.yml`
 
 ### ED-G03 — Deterministic figure execution
-- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
+- **Status:** done · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
 - **Implementation:** PR #8
 - **Goal:** Figure notebooks produce byte-stable output in the CI environment.
 - **Why it matters:** Non-deterministic figures undermine reproducible releases.
 - **Dependencies:** none. **Files:** `figures/notebooks/`, `scripts/build_trust_figures.py`
 
 ### ED-G04 — Deterministic full build check (P2)
-- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Status:** done · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** local
 - **Implementation:** PR #8
 - **Goal:** Re-running the build from clean produces identical `_build` content (modulo timestamps).
 - **Dependencies:** ED-G03. **Files:** `.github/workflows/deploy.yml`
 
 ### ED-G05 — Automated living-review monitoring (P3)
-- **Status:** review · **Priority:** P3 · **Size:** L · **Agent:** conditional · **Upstream:** cross-repository
+- **Status:** done · **Priority:** P3 · **Size:** L · **Agent:** conditional · **Upstream:** cross-repository
 - **Implementation:** PR #9; monthly read-only Crossref candidate artifact with no automated evidence mutation
 - **Goal:** Explore monitoring for new literature that would update flagged claims.
 
@@ -601,7 +608,7 @@ This repository must **not**:
 ## Workstream H — Release, provenance, and documentation
 
 ### ED-H01 — Define and validate the frozen reference-release contract
-- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Status:** done · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
 - **Implementation:** PRs #8 and #9; frozen stack head released as prerelease `v0.1.0-rc.1`
 - **Goal:** Acceptance criteria for the first stable ORAtlas-integration release:
   frozen record counts, frozen artifact hashes, validated MyST build, validated
@@ -617,7 +624,7 @@ This repository must **not**:
 - **Files:** new `RELEASE_CONTRACT.md`, `DEPLOY.md`, `.github/workflows/deploy.yml`, `knowledge/oratlas/`
 
 ### ED-H02 — Update disclosures and public-status wording
-- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** done · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
 - **Implementation:** PR #8
 - **Goal:** AI-assistance disclosure, experimental-TRUST status, and "not peer
   reviewed / not fully adjudicated" wording are accurate and consistent across README, releases, and site.
@@ -627,26 +634,26 @@ This repository must **not**:
 - **Files:** `README.md`, `content/00_frontmatter.md`, `DEPLOY.md`, release notes
 
 ### ED-H03 — DOI / Zenodo preparation (P2)
-- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Status:** done · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** local
 - **Implementation:** PR #8
 - **Goal:** Prepare Zenodo metadata and process so a review-specific DOI can be
   minted for the first stable release (distinct from the template DOI).
 - **Dependencies:** ED-H01. **Files:** new `.zenodo.json`, `README.md`, `FAIR.md`
 
 ### ED-H04 — Contributor and CRediT documentation (P2)
-- **Status:** review · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** done · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
 - **Implementation:** PR #8
 - **Goal:** Complete CRediT roles and contributor metadata; resolve MyST contributor warnings.
 - **Dependencies:** none. **Files:** `content/authors.yml`, `review-manifest.json`
 
 ### ED-H05 — Improved reproducibility instructions (P2)
-- **Status:** review · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** done · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
 - **Implementation:** PR #8
 - **Goal:** End-to-end reproduce instructions (pinned deps, exact commands) for validation, export, and build.
 - **Dependencies:** ED-G04. **Files:** `README.md`, `DEPLOY.md`, `requirements.txt`, `package.json`
 
 ### ED-H06 — Changelog and versioning hygiene (P2)
-- **Status:** review · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** done · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
 - **Implementation:** PR #8
 - **Goal:** `CHANGELOG.md` currently documents the *skill catalogue* (v28→v29), not
   the review/release history; add a review-facing changelog and a versioning policy.
@@ -666,4 +673,4 @@ This repository must **not**:
 | F ORAtlas | 3 | 1 | 1 | 1 | 6 |
 | G Validation | 0 | 2 | 2 | 1 | 5 |
 | H Release/docs | 0 | 2 | 4 | 0 | 6 |
-| **Total** | **14** | **17** | **17** | **5** | **53** |
+| **Total** | **11** | **17** | **17** | **5** | **50** |
