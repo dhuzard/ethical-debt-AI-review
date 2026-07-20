@@ -10,6 +10,14 @@ inherited from two upstreams:
 A third repo, `dhuzard/oratlas`, consumes the export; it is tracked in
 `REVIEW_BACKLOG.md` workstream F, not here.
 
+**ORAtlas contract pin (ED-F01–F05):** export validation targets commit
+`102d3fa96d47e9e7773720b0c36802f888cca4fe` and records the pin in
+`knowledge/oratlas/contract-pin.json`. The current contract's `humanReviewed` and
+review-status fields represent platform/relationship verification, so this review
+keeps them false/agent-proposed and carries source-side decisions only inside the
+assessment evidence envelope. Any future first-class `sourceHumanReviewed` field
+belongs in ORAtlas and must be coordinated there before this exporter adopts it.
+
 **Purpose of this log:** record where inherited code diverged locally, so that generic
 fixes are pushed upstream rather than re-implemented here, and so temporary local
 patches are visible and reversible. Per the autonomous-agent rules, any local fix to a

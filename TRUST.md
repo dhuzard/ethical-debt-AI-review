@@ -42,4 +42,4 @@ The review's robustness evidence may record independence groups and replication 
 
 The source graph records known integrity and conflict information where available. It does not constitute a complete Oratlas conflict/dependency assessment, so this criterion remains `not-assessed`.
 
-The canonical enriched scores and rationales remain in `knowledge/claim_graph.json`; `knowledge/oratlas/trust-assessments.jsonl` is the bounded interoperability view.
+The canonical enriched scores and rationales remain in `knowledge/claim_graph.json`; `knowledge/oratlas/trust-assessments.jsonl` is the bounded interoperability view. The native 0–100 value is preserved only in `evidence.sourceAssessment` with its protocol, rubric, unit, components, and source provenance. `aggregateScore` and `aggregateMethod` are explicitly `null`, because repeating a claim-level score for transport does not make it a relation-level aggregate. Source-side human decisions are similarly namespaced under `evidence.sourceHumanReview`; they never set ORAtlas `humanReviewed` or a platform-reviewed `reviewStatus`.
