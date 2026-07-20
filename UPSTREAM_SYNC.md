@@ -123,3 +123,17 @@ once; sync per component, under its own backlog item.
 - **Local modifications:** Review-specific TOC, four registered plugins, LaTeX/PDF export templates, `BASE_URL` handling.
 - **Reason for divergence:** Review-specific site; expected and permanent.
 - **Should divergence be removed later?** No — configuration is review-owned; only generic plugin/theme patterns track upstream.
+
+### 10. Deterministic widgets, figures, and MyST builds
+- **Component:** `plugins/*-plugin.mjs`, `scripts/check_deterministic_figures.py`,
+  `scripts/check-deterministic-build.js`
+- **Upstream repository:** Template (and TRUST fork for TRUST-specific widgets)
+- **Upstream commit:** _not yet ported_
+- **Local modifications:** Replace time/random anywidget IDs with deterministic
+  per-document IDs; execute notebooks twice and compare frozen PNG hashes; compare
+  two MyST output trees while normalizing only MyST's presentation-only random AST
+  keys and derived image DOM IDs.
+- **Reason for divergence:** The reference release must be reproducible and the
+  inherited plugins made every build byte-different even when content was unchanged.
+- **Should divergence be removed later?** Yes — generic stable widget IDs and build
+  reproducibility gates belong in the Template; the frozen artifact manifest stays local.

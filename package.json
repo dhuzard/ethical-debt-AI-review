@@ -1,10 +1,19 @@
 {
   "name": "ethical-debt-ai-review",
   "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.mjs tests/*.test.cjs",
+    "test:browser": "playwright test",
+    "validate": "node scripts/record-counts.js && node scripts/human-review-store.js && node scripts/review-priority.js && node scripts/claim-quality-audit.js && node scripts/validate-evidence.js && node scripts/validate-oratlas.js && node scripts/build-oratlas-fixtures.js && node scripts/validate-trust.js && node scripts/test-trust-validator.js && node scripts/release-artifacts.js && node scripts/validate-release.js",
+    "build": "myst build --html",
+    "build:deterministic": "node scripts/check-deterministic-build.js",
+    "release:check": "npm run validate && npm test && npm run test:browser && python scripts/check_deterministic_figures.py && npm run build:deterministic"
+  },
   "dependencies": {
     "yaml": "2.9.0"
   },
   "devDependencies": {
-    "@playwright/test": "1.61.1"
+    "@playwright/test": "1.61.1",
+    "mystmd": "1.10.1"
   }
 }

@@ -1,0 +1,56 @@
+version: 1
+
+project:
+  affiliations:
+    - id: anthropic
+      name: Anthropic
+      city: San Francisco
+      state: California
+      country: United States
+    - id: neuronautix
+      name: Neuronautix
+      city: Montpellier
+      country: France
+    - id: openai
+      name: OpenAI
+
+  contributors:
+    - id: damien-huzard
+      name: Damien Huzard
+      corresponding: true
+      email: damien.huzard@gmail.com
+      orcid: 0000-0003-4820-7951
+      roles: [Conceptualization, Methodology, Validation, Writing – review & editing, Resources, Funding acquisition]
+      affiliations: [neuronautix]
+      career_stage: Human author
+      is_ai_tool: false
+      credit_levels:
+        - { role: Conceptualization, level: lead, description: "Conceived the review's topic, scope, and central argument." }
+        - { role: Methodology, level: lead, description: "Designed the AI-directed review protocol." }
+        - { role: Validation, level: lead, description: "Reviewed and approved phase-gate outputs." }
+        - { role: "Writing – review & editing", level: supporting, description: "Reviewed and edited AI-produced drafts." }
+        - { role: Resources, level: lead, description: "Provided compute and model access." }
+        - { role: Funding acquisition, level: lead, description: "Funded the work." }
+    - id: ai-pipeline
+      name: Claude (AI research tool)
+      roles: [Investigation, Data Curation, Writing – original draft, Visualization, Formal Analysis]
+      affiliations: [anthropic]
+      career_stage: AI research tool
+      is_ai_tool: true
+      credit_levels:
+        - { role: Investigation, level: lead, description: "Searched literature databases and retrieved evidence." }
+        - { role: Data Curation, level: lead, description: "Built structured evidence and citation artifacts." }
+        - { role: "Writing – original draft", level: lead, description: "Drafted sections under the review protocol." }
+        - { role: Visualization, level: equal, description: "Generated figures from evidence data." }
+        - { role: Formal Analysis, level: lead, description: "Ran figure, prose, and citation audits." }
+      section_contributions:
+        - { section: all-sections, description: "Drafted all sections from evidence packages under orchestrator constraints.", effort: lead }
+    - id: codex
+      name: Codex (AI research tool)
+      roles: [Writing – review & editing, Software]
+      affiliations: [openai]
+      career_stage: AI research tool
+      is_ai_tool: true
+      credit_levels:
+        - { role: "Writing – review & editing", level: supporting, description: "Assisted with review and text-revision passes." }
+        - { role: Software, level: supporting, description: "Contributed validation and reference-implementation tooling." }

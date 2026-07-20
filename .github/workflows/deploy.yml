@@ -46,12 +46,12 @@ jobs:
           node scripts/build-oratlas-fixtures.js
           node scripts/validate-trust.js
           node scripts/test-trust-validator.js
+          node scripts/release-artifacts.js
+          node scripts/validate-release.js
           node --test tests/*.test.mjs tests/*.test.cjs
 
       - name: Install build dependencies
-        run: |
-          pip install mystmd jupyter matplotlib numpy pandas seaborn
-          npm install -g mystmd
+        run: pip install --requirement requirements.txt
 
       - name: Install browser engines
         run: npx playwright install --with-deps chromium firefox webkit
@@ -60,20 +60,12 @@ jobs:
         run: npx playwright test
 
       - name: Execute figure notebooks
-        run: |
-          if ls figures/notebooks/*.ipynb 1>/dev/null 2>&1; then
-            for nb in figures/notebooks/*.ipynb; do
-              echo "Executing $nb..."
-              jupyter execute "$nb" --timeout=120
-            done
-          else
-            echo "No figure notebooks found"
-          fi
+        run: python scripts/check_deterministic_figures.py
 
       - name: Build MyST site
         env:
           BASE_URL: /ethical-debt-AI-review
-        run: myst build --html
+        run: node scripts/check-deterministic-build.js
 
       - name: Upload Pages artifact
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/trust-scores'

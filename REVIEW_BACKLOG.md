@@ -156,7 +156,7 @@ This repository must **not**:
 - **Files:** `knowledge/claim_graph.json`, `content/*.md`
 
 ### ED-A04 — Reconcile corpus-size statements
-- **Status:** backlog · **Priority:** P2 · **Size:** S · **Agent:** conditional · **Upstream:** local
+- **Status:** review · **Priority:** P2 · **Size:** S · **Agent:** conditional · **Upstream:** local
 - **Goal:** One consistent corpus number across README, `content/provenance.md`, `HANDOFF.md`, and gates.
 - **Why it matters:** README/provenance say 1,337 unique papers; provenance also
   says 1,451 findings; `HANDOFF.md` says "closed at 1,339 unique". A public
@@ -569,13 +569,13 @@ This repository must **not**:
 - **Files:** `scripts/`, `.github/workflows/deploy.yml`
 
 ### ED-G03 — Deterministic figure execution
-- **Status:** backlog · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
+- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
 - **Goal:** Figure notebooks produce byte-stable output in the CI environment.
 - **Why it matters:** Non-deterministic figures undermine reproducible releases.
 - **Dependencies:** none. **Files:** `figures/notebooks/`, `scripts/build_trust_figures.py`
 
 ### ED-G04 — Deterministic full build check (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** local
 - **Goal:** Re-running the build from clean produces identical `_build` content (modulo timestamps).
 - **Dependencies:** ED-G03. **Files:** `.github/workflows/deploy.yml`
 
@@ -588,7 +588,7 @@ This repository must **not**:
 ## Workstream H — Release, provenance, and documentation
 
 ### ED-H01 — Define and validate the frozen reference-release contract
-- **Status:** ready · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Status:** in-progress · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
 - **Goal:** Acceptance criteria for the first stable ORAtlas-integration release:
   frozen record counts, frozen artifact hashes, validated MyST build, validated
   figures/notebooks, Chromium/Firefox/WebKit checks where possible, updated
@@ -603,7 +603,7 @@ This repository must **not**:
 - **Files:** new `RELEASE_CONTRACT.md`, `DEPLOY.md`, `.github/workflows/deploy.yml`, `knowledge/oratlas/`
 
 ### ED-H02 — Update disclosures and public-status wording
-- **Status:** backlog · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
 - **Goal:** AI-assistance disclosure, experimental-TRUST status, and "not peer
   reviewed / not fully adjudicated" wording are accurate and consistent across README, releases, and site.
 - **Why it matters:** Overstated status is a scientific-integrity risk.
@@ -612,23 +612,23 @@ This repository must **not**:
 - **Files:** `README.md`, `content/00_frontmatter.md`, `DEPLOY.md`, release notes
 
 ### ED-H03 — DOI / Zenodo preparation (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** local
 - **Goal:** Prepare Zenodo metadata and process so a review-specific DOI can be
   minted for the first stable release (distinct from the template DOI).
 - **Dependencies:** ED-H01. **Files:** new `.zenodo.json`, `README.md`, `FAIR.md`
 
 ### ED-H04 — Contributor and CRediT documentation (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
 - **Goal:** Complete CRediT roles and contributor metadata; resolve MyST contributor warnings.
 - **Dependencies:** none. **Files:** `content/authors.yml`, `review-manifest.json`
 
 ### ED-H05 — Improved reproducibility instructions (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
 - **Goal:** End-to-end reproduce instructions (pinned deps, exact commands) for validation, export, and build.
 - **Dependencies:** ED-G04. **Files:** `README.md`, `DEPLOY.md`, `requirements.txt`, `package.json`
 
 ### ED-H06 — Changelog and versioning hygiene (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P2 · **Size:** S · **Agent:** yes · **Upstream:** local
 - **Goal:** `CHANGELOG.md` currently documents the *skill catalogue* (v28→v29), not
   the review/release history; add a review-facing changelog and a versioning policy.
 - **Dependencies:** none. **Files:** `CHANGELOG.md`, `DEPLOY.md`

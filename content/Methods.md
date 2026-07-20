@@ -581,16 +581,20 @@ Literature searches were conducted across three databases: **PubMed**, **Europe 
 | 6 | New Approach Methodologies (NAMs) and non-animal data | 170 | 41 |
 | 7 | Research incentives, meta-science, and open-science reward systems | 181 | 44 |
 | 8 | Reporting guidelines and research governance | 199 | 38 |
-| **Total** | | **1,451 pre-deduplication; 1,337 unique after cross-cluster de-duplication** | **362 (24.9%)** |
+| **Historical Phase 2 total** | | **1,451 raw finding rows; 1,339 DOI strings at the evidence gate** | **362 (24.9% of raw rows)** |
 
-The per-cluster unique-paper counts are within-cluster totals and sum to 1,451 before cross-cluster de-duplication; 1,337 unique papers remain after de-duplication across clusters.
+The table preserves the historical Phase 2 search/gate accounting. Subsequent
+curation, synthesis-section assembly, and identifier normalization produced the
+canonical public packages: **1,438 finding records representing 1,336 unique
+DOI/citation identifiers**. The bibliography separately contains 1,337 entries.
+These quantities describe different artifact stages and are not interchangeable.
 
 (sec-methods-inclusion)=
 ## Inclusion and Exclusion Criteria
 
 The scope document specified the following inclusion criteria and quantitative targets:
 
-- **Target corpus size:** a hard floor of 1,000 unique papers across all evidence clusters. This floor was exceeded — 1,337 unique papers were retained after cross-cluster de-duplication.
+- **Target corpus size:** a hard floor of 1,000 unique papers across all evidence clusters. This floor was exceeded both at the historical gate (1,339 DOI strings) and in the canonical curated packages (1,336 unique DOI/citation identifiers).
 - **Per-cluster target:** 200 papers per major topic cluster. Clusters yielded 168–199 papers each: a near-target exit that the human reviewer accepted at the evidence gate rather than extending the search, given that the binding total hard floor of 1,000 was comfortably exceeded. We report this outcome honestly and do not claim that the 200-per-cluster target was met.
 - **Full-text target:** ≥50% of extracted findings drawn from full text (see Full-Text Retrieval below).
 - **Citation-density target:** ≥4.0 citations per synthesis paragraph. Body sections achieved 4.2–7.9 citations per synthesis paragraph.
@@ -615,8 +619,8 @@ Structured evidence extraction was performed for each cluster, producing evidenc
 
 | Metric | Count |
 |--------|-------|
-| Total findings | 1,451 |
-| Total conflicts | 90 |
+| Canonical curated findings | 1,438 |
+| Canonical packaged conflicts | 125 |
 | Total figure comparisons | 60 |
 
 Each evidence record was stored as a versioned artifact linked to its cluster, enabling traceability from any claim in the review back to its source evidence.
@@ -629,9 +633,9 @@ Every citation–claim pairing in the review was verified against source metadat
 (sec-methods-trust)=
 ## TRUST Claim Scoring
 
-The published review exposes 510 prose-anchored claim records under TRUST rubric v2.0.0. Each score is recomputed mechanically from five explicit component rules—traceability, robustness, uncertainty calibration, source integrity, and transferability/scope—with mandatory caps applied independently of the weighted score. Citation contexts retain bibliography keys, canonical identifiers, registry-check provenance, claim atoms, evidence relations, and verified source passages of at most 25 words. The migration preserves each legacy claim-level unit as one atom; compound units are therefore marked for substantive splitting when warranted rather than silently receiving invented finer-grained attribution.
+The published review exposes 529 prose-anchored claim records under the experimental TRUST rubric v2.0.0. Each score is recomputed mechanically from five explicit component rules—traceability, robustness, uncertainty calibration, source integrity, and transferability/scope—with mandatory caps applied independently of the weighted score. Citation contexts retain bibliography keys, canonical identifiers, registry-check provenance, claim atoms, evidence relations, and verified source passages of at most 25 words. The migration preserves each legacy claim-level unit as one atom; compound units are therefore marked for substantive splitting when warranted rather than silently receiving invented finer-grained attribution. TRUST is a review-local structured audit signal, not a probability that a claim is true.
 
-The canonical graph, JSON schemas, deterministic claim index, score report, migration map, and validation gate are committed under `knowledge/` and `provenance/`. Every rendered `trust-claim` directive must resolve to one graph record and exact source passage; the deployment workflow blocks publication if schema, targeting, scoring, cap, attribution, bibliography, or derived-artifact checks fail. Aggregate results and human-review priorities are reported in the [Citation Trust Summary](./trust_summary.md).
+The canonical graph, JSON schemas, deterministic claim index, score report, migration map, and validation gate are committed under `knowledge/` and `provenance/`. Every rendered `trust-claim` directive must resolve to one graph record and exact source passage; the deployment workflow blocks publication if schema, targeting, scoring, cap, attribution, bibliography, or derived-artifact checks fail. Aggregate results and human-review priorities are reported in the [Claim & TRUST Audit](./trust_summary.md).
 
 (sec-methods-pipeline)=
 ## Pipeline Execution
@@ -641,7 +645,7 @@ The review was produced through a 21-phase pipeline. All 21 pipeline phases comp
 | Phase | Description | Status | Key Outputs |
 |-------|-------------|--------|-------------|
 | 1 | Scope and thesis definition | complete | `gate_scope.json`: title, audience, clusters, table of contents |
-| 2 | Evidence gathering and compliance | complete | Eight cluster evidence records; 1,451 findings |
+| 2 | Evidence gathering and compliance | complete | Eight historical cluster records; 1,451 raw finding rows |
 | 3 | Citation infrastructure | complete | `citation_key_map`, author name table |
 | 4 | Section outline approval | complete | Argument arc, section plans, figure specs, style guide |
 | 5 | Per-section evidence curation | complete | Curated per-section evidence records |

@@ -1,0 +1,229 @@
+{
+  "schema_version": "1.0.0",
+  "release_series": "v0.1.0-rc",
+  "generated_from": "committed canonical artifacts; no timestamp fields",
+  "record_counts_sha256": "982003d7a8b9ec12688dbacf3ec3acd1cb0fc75e32fe57a28c5880aacc614a4b",
+  "canonical_counts": {
+    "claim_graph": {
+      "claims": 529,
+      "citation_contexts": 1392,
+      "graph_edges": 1389,
+      "unique_citation_keys": 994,
+      "unique_dois": 993,
+      "verified_passages": 1408,
+      "trust_bands": {
+        "high_trust": 444,
+        "moderate_trust": 56,
+        "low_trust": 29,
+        "critical_or_unreliable": 0
+      },
+      "capped_claims": 28,
+      "human_review_flags": 29
+    },
+    "human_review": {
+      "decisions": 9,
+      "source_claims_replaced": 9,
+      "replacement_claim_records": 28,
+      "replacement_claims_in_current_graph": 27,
+      "source_reviewed_relations": 34
+    },
+    "oratlas_export": {
+      "claims": 529,
+      "citations": 994,
+      "relations": 1392,
+      "trust_assessments": 1392
+    }
+  },
+  "files": [
+    {
+      "path": ".zenodo.json",
+      "bytes": 1119,
+      "sha256": "a4679a4904c7f2c79eafb005cd56b9453c90b444425d5ed4b472d6aa56f4db69"
+    },
+    {
+      "path": "evidence/EVIDENCE_COVERAGE_REPORT.json",
+      "bytes": 3978,
+      "sha256": "f70a0ca4f8bc00a4141ad505183bb86bce4a27361aba74dce580e699e44cec04"
+    },
+    {
+      "path": "evidence/EVIDENCE_MIGRATION_REPORT.json",
+      "bytes": 4097,
+      "sha256": "21f6213bb5cc8d5bf603cc1389ab57eb4d99cea4db47c2a5fa2d1152b8ea25c4"
+    },
+    {
+      "path": "figures/fig_methods_pipeline.png",
+      "bytes": 329538,
+      "sha256": "ed75b142ca3d4245dd4933113f35eb6ceae0b6e2ebb4d32078b157dc2a9de587"
+    },
+    {
+      "path": "figures/fig_sec2_bias_inflation.png",
+      "bytes": 229015,
+      "sha256": "1332c0e749611ffee707c33b994365a0aa6f80d92558e9cda2386933aa554b3d"
+    },
+    {
+      "path": "figures/fig_sec2_mouse_human_concordance.png",
+      "bytes": 158778,
+      "sha256": "945fa5bc88ef4d562534a319ac26c8c1a86f29a8585cf307551abadfdcfbdc54"
+    },
+    {
+      "path": "figures/fig_sec2_translational_attrition.png",
+      "bytes": 215155,
+      "sha256": "73c1f851d493f39e55e96452e8619e256c57cf87b7bf2af2fef9524df7de2371"
+    },
+    {
+      "path": "figures/fig_sec3_3rs_underreporting.png",
+      "bytes": 231191,
+      "sha256": "5709a209e51d17c83e06c0a32843842745c46dfbc1b9e0f89c60e373d7c7eb71"
+    },
+    {
+      "path": "figures/fig_sec3_reduction_magnitude.png",
+      "bytes": 218298,
+      "sha256": "061d39917297f95663c0ebe33c4b760da2e9c978c93099e8985a4b8e1e149290"
+    },
+    {
+      "path": "figures/fig_sec3_welfare_to_data_welfare.png",
+      "bytes": 370968,
+      "sha256": "566c224c73444e2212c96c4bab191f7b4905a86f74fae55f056e09315c3658a9"
+    },
+    {
+      "path": "figures/fig_sec4_actual_vs_declared.png",
+      "bytes": 205693,
+      "sha256": "e041b3d82f54504e1ee621c63174084d98f34160cf57374df9a01a983b5a49a0"
+    },
+    {
+      "path": "figures/fig_sec4_dmp_vs_realized.png",
+      "bytes": 303230,
+      "sha256": "ea187d74fd7c6b76b0fda7e5909c8b95c1a9f42e81dd617e14dbc45862f6527f"
+    },
+    {
+      "path": "figures/fig_sec4_fair_reusability.png",
+      "bytes": 166131,
+      "sha256": "89f779b68cee2106242256f6319e804a159b8e05e0bfc547b89b6d93e187255d"
+    },
+    {
+      "path": "figures/fig_sec5_shared_control_scale.png",
+      "bytes": 259721,
+      "sha256": "13c27f79be0570f981e6196f8580035e0051d00d3eb61b0cb65861b359a4a9ec"
+    },
+    {
+      "path": "figures/fig_sec5_vcg_concordance.png",
+      "bytes": 332810,
+      "sha256": "bbf929c0c714ac58ca52f89ed1b847c4db9ac75a4b8e996864ddf3ed87bb1a68"
+    },
+    {
+      "path": "figures/fig_sec5_vcg_reduction.png",
+      "bytes": 324392,
+      "sha256": "2760ab2fe59bfcda41a0908d1decdea8235e420ad451924069464d9bf14f7778"
+    },
+    {
+      "path": "figures/fig_sec6_in_silico_performance.png",
+      "bytes": 311413,
+      "sha256": "337d9bfec3c21d217cc8f20f3318798a3a3ce00e28e04650b3b50c1c2845c23a"
+    },
+    {
+      "path": "figures/fig_sec6_nam_data_scale.png",
+      "bytes": 242542,
+      "sha256": "4715d3ef862f5da3489a2032b95a7716a8e84f423d29ecf55495d859570695a7"
+    },
+    {
+      "path": "figures/fig_sec6_nam_vs_invivo.png",
+      "bytes": 310365,
+      "sha256": "228a7c7da13e157d0fc67493226b593e4fcdfb239b878984b4c47567899cfa80"
+    },
+    {
+      "path": "figures/fig_sec7_declared_vs_actual.png",
+      "bytes": 261770,
+      "sha256": "12559ad64f95b314b7b134b81b7994db120cc999ef4c5e5df2b12e6ebd6ebb03"
+    },
+    {
+      "path": "figures/fig_sec7_qrp_prevalence.png",
+      "bytes": 345378,
+      "sha256": "f3540debbbbfe2000eaf4be28ae2366a27689b22e0220f989d99b0153204ebab"
+    },
+    {
+      "path": "figures/fig_sec7_rpt_criteria.png",
+      "bytes": 269200,
+      "sha256": "0e90584fe772fbfd0125012ebc2aac8774e6ae64b260242fce0aac2a5bc98839"
+    },
+    {
+      "path": "figures/fig_sec8_declared_vs_actual.png",
+      "bytes": 266927,
+      "sha256": "ccf28fddd0c466047bc0f8ebfd9e7b1abc5e61adefbc05d2f6f5e0b601a995a2"
+    },
+    {
+      "path": "figures/fig_sec8_guideline_timeline.png",
+      "bytes": 438535,
+      "sha256": "d0e011d43b2b370241f4116520f189897a832651767fed6bff3d488167b800e0"
+    },
+    {
+      "path": "figures/fig_sec8_institution_vs_fieldwide.png",
+      "bytes": 290199,
+      "sha256": "ba3c788005fdb957898bb1849be77fb9f30125286be895e5fbc260e20e3fa171"
+    },
+    {
+      "path": "figures/fig_trust_by_section.png",
+      "bytes": 196489,
+      "sha256": "e9b13a7dc66e2f571fcfb8e9d4bab058043884a238a6be2d7002a55850c70080"
+    },
+    {
+      "path": "figures/fig_trust_components.png",
+      "bytes": 283246,
+      "sha256": "fb8f73f01b8557cc40ca04ad32575e07fdba4a1f8df9f30eff82d91cd828c830"
+    },
+    {
+      "path": "figures/fig_trust_overall.png",
+      "bytes": 187737,
+      "sha256": "3f440de9c565e0422ec318167dbd6ff565a046ec6d8ef281173c3a2c1ee9017b"
+    },
+    {
+      "path": "knowledge/claim_graph.json",
+      "bytes": 5764393,
+      "sha256": "f2967022c1ff0b9c8a0b658e67d97e596904a31afcfc7e4f7f1b1bf556291321"
+    },
+    {
+      "path": "knowledge/oratlas/citations.jsonl",
+      "bytes": 124448,
+      "sha256": "af46805ccf09e33099e8fc1bb894110f869cee418688410c3b3486e9c3b30f3b"
+    },
+    {
+      "path": "knowledge/oratlas/claims.jsonl",
+      "bytes": 369692,
+      "sha256": "4630ba7c558d2f327b4ab43955fbd5b5d58cb11d4a0708000b05c5895a552a25"
+    },
+    {
+      "path": "knowledge/oratlas/contract-pin.json",
+      "bytes": 291,
+      "sha256": "180a001d508ace362180234fbc7e0f9369acce0c52b9de6e58648a77af93987b"
+    },
+    {
+      "path": "knowledge/oratlas/provenance.json",
+      "bytes": 2079,
+      "sha256": "d730435aa4a42a47c3cf072c8d78b5133db18c56b6368f71f1f017a7edcdf2ab"
+    },
+    {
+      "path": "knowledge/oratlas/relations.jsonl",
+      "bytes": 394856,
+      "sha256": "09a43112c089387e78e029f191bace9124f0cfa89514b608dd73e2a134510b27"
+    },
+    {
+      "path": "knowledge/oratlas/trust-assessments.jsonl",
+      "bytes": 2340810,
+      "sha256": "8f03964d4f3e2efda2b7c96c8fb6d91617fe5531f2c598b0746ad8336d4b1642"
+    },
+    {
+      "path": "knowledge/record_counts.json",
+      "bytes": 1696,
+      "sha256": "982003d7a8b9ec12688dbacf3ec3acd1cb0fc75e32fe57a28c5880aacc614a4b"
+    },
+    {
+      "path": "knowledge/trust_human_review_overrides.json",
+      "bytes": 83470,
+      "sha256": "8799c5a22fc52c28dd7c034d1cf3fcd86812b2d71a287e33b2e3f0d250010ac3"
+    },
+    {
+      "path": "review-manifest.json",
+      "bytes": 2309,
+      "sha256": "ab8ed24bd7b77782a7d2f7cf60e8bf2643fe1c19650052971fa19bb07e232a7a"
+    }
+  ]
+}
