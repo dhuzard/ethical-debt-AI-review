@@ -135,7 +135,7 @@ This repository must **not**:
 
 ### ED-A02 — Apply the 18 deferred SHOULD_CAVEAT amendments
 - **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
-- **Implementation:** final forward-work PR; 15 present in current prose, 1 closed by Phase 16, 2 escalated as SR-30/SR-31
+- **Implementation:** PR #9; 15 present in current prose, 1 closed by Phase 16, 2 escalated as SR-30/SR-31
 - **Goal:** Resolve the 18 caveats deferred from Phase 8 to Phase 10 in `provenance/phase10_caveats.json`.
 - **Why it matters:** Several are metric-conflation issues (e.g. a 26% feasibility
   rate juxtaposed with 25%/11% replication rates) that overstate or blur findings.
@@ -593,7 +593,7 @@ This repository must **not**:
 
 ### ED-G05 — Automated living-review monitoring (P3)
 - **Status:** review · **Priority:** P3 · **Size:** L · **Agent:** conditional · **Upstream:** cross-repository
-- **Implementation:** final forward-work PR; monthly read-only Crossref candidate artifact with no automated evidence mutation
+- **Implementation:** PR #9; monthly read-only Crossref candidate artifact with no automated evidence mutation
 - **Goal:** Explore monitoring for new literature that would update flagged claims.
 
 ---
@@ -601,8 +601,8 @@ This repository must **not**:
 ## Workstream H — Release, provenance, and documentation
 
 ### ED-H01 — Define and validate the frozen reference-release contract
-- **Status:** in-progress · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
-- **Implementation:** PR #8; final tag and prerelease deferred to the complete stacked head
+- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Implementation:** PRs #8 and #9; frozen stack head released as prerelease `v0.1.0-rc.1`
 - **Goal:** Acceptance criteria for the first stable ORAtlas-integration release:
   frozen record counts, frozen artifact hashes, validated MyST build, validated
   figures/notebooks, Chromium/Firefox/WebKit checks where possible, updated
