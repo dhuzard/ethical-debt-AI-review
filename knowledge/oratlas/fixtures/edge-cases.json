@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "source": {
     "repository": "dhuzard/ethical-debt-AI-review",
-    "commit": "STACKED_PR_HEAD"
+    "commit": "2bc70804d465eabf4f5d51dfa72478671adce2f3"
   },
   "cases": {
     "contradicted_capped": {

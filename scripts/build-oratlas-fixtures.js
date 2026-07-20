@@ -19,7 +19,7 @@ function buildFixtures(root = path.resolve(__dirname, '..')) {
   const assessments = readJsonl(path.join(dir, 'trust-assessments.jsonl'));
   return {
     schemaVersion: '1.0.0',
-    source: { repository: 'dhuzard/ethical-debt-AI-review', commit: 'STACKED_PR_HEAD' },
+    source: { repository: 'dhuzard/ethical-debt-AI-review', commit: '2bc70804d465eabf4f5d51dfa72478671adce2f3' },
     cases: Object.fromEntries(Object.entries(CASES).map(([name, claimId]) => [name, {
       claim: claims.find(claim => claim.id === claimId),
       relations: relations.filter(relation => relation.claimId === claimId),
