@@ -37,6 +37,10 @@ jobs:
 
       - name: Validate TRUST knowledge
         run: |
+          node scripts/record-counts.js
+          node scripts/human-review-store.js
+          node scripts/review-priority.js
+          node scripts/claim-quality-audit.js
           node scripts/validate-trust.js
           node scripts/test-trust-validator.js
           node --test tests/*.test.mjs

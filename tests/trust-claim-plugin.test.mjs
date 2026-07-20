@@ -2,9 +2,22 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 
 import {
+  buildHumanReviewIndex,
   createTrustClaimTransform,
   findTextQuote,
 } from '../plugins/trust-claim-plugin.mjs';
+
+test('source decisions are indexed separately from pending review flags', () => {
+  const index = buildHumanReviewIndex({ decisions: [{
+    decision_id: 'hr_demo', state: 'adjudicated', reviewer_id: 'reviewer-1',
+    recorded_at: '2026-07-20T00:00:00.000Z', claims: [{ claim_text: 'Reviewed claim.' }],
+  }] });
+  assert.deepEqual(index.get('Reviewed claim.'), {
+    state: 'adjudicated', decisionId: 'hr_demo', reviewerId: 'reviewer-1',
+    recordedAt: '2026-07-20T00:00:00.000Z',
+  });
+  assert.equal(index.has('Pending claim.'), false);
+});
 
 test('text quotes normalize typography and whitespace but preserve raw offsets', () => {
   const text = 'Lead: “model cards”\nreport subgroup performance.';

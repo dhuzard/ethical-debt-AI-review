@@ -1,0 +1,2336 @@
+{
+  "schema_version": "1.0.0",
+  "generated_from": "knowledge/claim_graph.json",
+  "policy": "Mechanical structural flags only; no claim is invalidated or edited automatically.",
+  "flags": [
+    {
+      "claim_id": "clm_c5b4d84c46bcacf3",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "paragraph_index": 1,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_91c780ade8959f91",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "paragraph_index": 6,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_09ef1fa4df987040",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "paragraph_index": 9,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_9e06ef3c4c66e025",
+      "section_id": "sec-introduction",
+      "source_file": "content/01_introduction.md",
+      "paragraph_index": 11,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_a300641ff2a120ed",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 2,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_a1ca49b3c2903f66",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 13,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_d4208ff8a79259e1",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 14,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_0f35419e6a0dfde9",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 15,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_214e69abf381777c",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 15,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_c610f5bf953c42aa",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 15,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_7cb7b65a1e348f10",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 15,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_eefb9a9b6e60edd2",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 16,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_f736a082795f4964",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 17,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_03ae035bc6eab4a6",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 17,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_01f2693ca87fe046",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 17,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_b0ee7b5d1b95ca82",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 17,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_55e98f414da87a05",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 18,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_1fb35490b38e01b6",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 19,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_751e4830ac94e2aa",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 19,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_0a358cc0f01a1db4",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 19,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_473403c4d01c6552",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 19,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_3a304347c8059b41",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 19,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_65200809c972db1d",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 19,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_c657aafc7eac0002",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 20,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_81018eb990627d11",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 20,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_12e905ceb9b7b6cb",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 20,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_cae2995388dc0a48",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 21,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_c7b1a722f93b6bd9",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 21,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_86453844590a7d31",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 22,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_e49de68b0dda5c25",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 22,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_05eb56c6114ab555",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 22,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_1ce5399b2843cb41",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 24,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_dbbbc12c97bbf7a2",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 24,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_4f6073513385becf",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 25,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_018f1c87836f8d42",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 34,
+      "reason_codes": [
+        "suspected_truncated_or_dangling_phrase",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_2f8f3944e4a574aa",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 34,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_a889c9db52a473e0",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 34,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_a5a45ec9b0591c62",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 34,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_b0859de3fd58897a",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 34,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_e26876dfd3666985",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 35,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_35ac85942839e5c1",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 35,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_2fee41155e5a6f24",
+      "section_id": "sec-repro-crisis",
+      "source_file": "content/02_reproducibility_crisis.md",
+      "paragraph_index": 35,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_91f80701af55051b",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 1,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_8c6c19d72299bd03",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 1,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_2989118ab18dcb40",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 3,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_6eecc3a5f4afc1a2",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 3,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_81cadf0692867021",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 3,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_3d9961bbe18af6a9",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 3,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_43c3076be58b9523",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 4,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_109c0b6fb1673486",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 4,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_52ee3b131b8613a4",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 4,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_7a9c25a1f059fce8",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 5,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_3b3be88fb8d83910",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 5,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_d85a2138d708eea4",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 5,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_80c863005999043b",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 7,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_92db21ac21d1292d",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 7,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_12b4af9e800c6849",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 7,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_c629850b7a5b4651",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 7,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_eb1e137db0d825a3",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 8,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_6cafdda33f66f47a",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 8,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_fa90fc6d45f02c3a",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 8,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_02d1e252ed95def4",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 8,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_20abb8ae0645be30",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 8,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_4e314a8ce603a41e",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 9,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_36f4f709513c90c4",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 25,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_e0c77325a4876794",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 26,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_15e463f2b1c69823",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 26,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_7ca06cf1b52935ab",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 40,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_752fd7f279d42cef",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 40,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_a2a7a6a1619cf819",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 41,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_939fb82196757ce3",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 41,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_d1fdc83be45059ec",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 41,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_8454381efc318e5e",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 55,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_6cc2ab679338d77a",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 55,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_73f474829f06da42",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 55,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_0b4469f1840cce5f",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 55,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_621aaa653420c63a",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 56,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_af5ae421f4c473ef",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 56,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_e8e62b8bf1c52933",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 56,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_f96b7b78f9df42dd",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 58,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_7e6c54a6a5b607d2",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 58,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_697323bd3679a527",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 59,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_77c3a8c1b0f91ecb",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 59,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_bc8296226e34b6e4",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 59,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_a001f264e0170f01",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 59,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_8d93ed705a2c7277",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 60,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_b2019f4edd710100",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 60,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_ebe426b1920fdb71",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 60,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_c4ec854c82d44ccc",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 61,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_3727c094cb228e45",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 61,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_f4d18583dce340ef",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 63,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_58a76bd2cdf3c864",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 63,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_5621811cc329d68c",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 63,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_bd0dd9963aa327ec",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 65,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_7a60d8d9292ea08a",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 66,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_30e16755a05f37df",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 66,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_b3cc620f3c80f54f",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 66,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_d1d648dfef20c988",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 67,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_217ec36a202cc59b",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 67,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_b31d93da4ecf6ba0",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 68,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_aac4f9d25f9eb5c8",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 68,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_3d0ae93ea9b6a102",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 69,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_a0f5a8f19eed4913",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 69,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_d8a33a0e3eb9971d",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 69,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_461ca3d3febdb2d9",
+      "section_id": "sec-data-welfare",
+      "source_file": "content/03_data_welfare_3rs.md",
+      "paragraph_index": 71,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_b80ec0ed83c8b4a8",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 2,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_9a500f407596a13f",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 2,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_46c2d4ea5c825809",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 2,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_8f9fcdc21685a8b4",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 2,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_f1e9694b63fea172",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 3,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_78b539b6cd07db19",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 5,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_7a612ddbb0140991",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 5,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_99fa89339cdec790",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 17,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_72ba5f27396d3484",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 17,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_a0992972ee9fff68",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 18,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_6405dab755531d78",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 18,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_86d73ea0e2ba611f",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 18,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_c28c90fb5fed5c6e",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 18,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_bba58a80f795a50d",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 19,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_3724a884285141aa",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 20,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_82bb1f4c9cbfc5b9",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 20,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_1a871bda548dcf0b",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 22,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_29cf9768156d56c1",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 22,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_38cce2afcea6e857",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 32,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_2866c15afb7fe73d",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 32,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_c68492dfb28e19f6",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 32,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_7fec0200b431d303",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 32,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_7cdb70a617cd9c53",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 43,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_28e4a9ac935d999e",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 44,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_4226fdd142acb1ca",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 44,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_ab8709d52701969a",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 46,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_91ea143f6fe061e1",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 46,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_8a550b210dc46de7",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 46,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_c150da83fe05ed23",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 46,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_d2bed32ff25670f4",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 46,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_4930d8af41d7d7dc",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 47,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_5a196c5559228836",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 47,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_7c4c4fd2a36ac57f",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 47,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_4abc8ee88c1fc4d5",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 48,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_68064118ceb60b7e",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 48,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_1f133f8e6d25898a",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 50,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_e8e7b36f682c5cb9",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 50,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_4b3429eb6be95b94",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 50,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_900419ef75203bb8",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 52,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_97cf287d1f673bb7",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 52,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_79acc89d3f5ecc57",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 54,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_b6e25bebf3352486",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 54,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_d61fd203c186198a",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 54,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_356d764ddbbb85c5",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 56,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_ebbc084ea0300b16",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 56,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_483c1f66c162c4c9",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 58,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_0acc1dab3542368c",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 58,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_6824b7b7b4488f56",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 58,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_d2206d1ef62fe0b8",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 58,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_7dfefc334b5854a2",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 58,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_b9e4c2afdec0507c",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 59,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_248e40d3837465c2",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 59,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_a70e4d51795170f3",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 59,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_4f14f523e998bdbf",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 60,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_128edac99ed0fdb3",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 61,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_40ae00e5f511f91d",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 61,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_b97b249e4ba43f84",
+      "section_id": "sec-fair-preclinical",
+      "source_file": "content/04_fair_preclinical_data.md",
+      "paragraph_index": 64,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_d9da8c9c3e2a5bdf",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 1,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_dd68d8c0b5482ffe",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 2,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_7525523bdd2e915f",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 2,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_27cf6be0f5680752",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 2,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_a1c4b1875a1cafb0",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 2,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_3d63bd98975b6b39",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 19,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_f5d1b5a917155882",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 19,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_87a21fcbb95c67f4",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 20,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_b57e7793a3284a1b",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 20,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_042943aa9ceefcc0",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 20,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_911b7fd76e97ac48",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 20,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_acba205e10c66d41",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 20,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_747c34d6b2e9babe",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 21,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_a196f0a02e97b37f",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 21,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_5591e45f4d3361a4",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 21,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_e49f8b272ae4c791",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 21,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_6668374c08ef06dd",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 40,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_6d2439a0b4027810",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 40,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_7dd72270ce35fea3",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 40,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_e1cffacb3a5d6291",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 40,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_59da77f356da88f0",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 40,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_6b14a2d6ac16d4d7",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 41,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_777a97aa2de7a2fa",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 41,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_15f6b1f32a733ae9",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 41,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_5c15fa31f0344f82",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 41,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_749b8eafc0bb2cce",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 42,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_6d0961cb7957779d",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 42,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_b20a66a2a31cec7f",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 44,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_3108725567111b08",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 44,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_01b62a9e94639de6",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 63,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_e5bd824682e2cefe",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 63,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_6b72d26e70309734",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 63,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_5580ba286d4abf1a",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 63,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_4a1d41336cb3740f",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 63,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_1e6984fae6019813",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 64,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_5e082a4339742007",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 64,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_f67dbe229cd952b2",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 66,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_a95bbd57e1daa505",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 66,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_09da8ad4e9bbdd60",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 66,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_e080b6c23ccb38d9",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 66,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_d06b06f8674669a7",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 66,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_0cbecf4e4075f8b4",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 67,
+      "reason_codes": [
+        "long_compound_single_atom",
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_f8469d0669ad56f7",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 67,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_5714c3bdaf42ab78",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 67,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_f1444b4b9fdb007a",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 68,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_6a3f4893c89b924b",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 68,
+      "reason_codes": [
+        "empty_structured_scope"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_d8eb24c7e2456dc6",
+      "section_id": "sec-virtual-controls",
+      "source_file": "content/05_virtual_control_groups.md",
+      "paragraph_index": 71,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_30768388ada90364",
+      "section_id": "sec-nams-data",
+      "source_file": "content/06_nams_data.md",
+      "paragraph_index": 1,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_3ea93f22403f5abd",
+      "section_id": "sec-nams-data",
+      "source_file": "content/06_nams_data.md",
+      "paragraph_index": 22,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_f58551cb3da1250f",
+      "section_id": "sec-nams-data",
+      "source_file": "content/06_nams_data.md",
+      "paragraph_index": 42,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_c614f728d46564b1",
+      "section_id": "sec-nams-data",
+      "source_file": "content/06_nams_data.md",
+      "paragraph_index": 42,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_c068a1b530c36211",
+      "section_id": "sec-nams-data",
+      "source_file": "content/06_nams_data.md",
+      "paragraph_index": 45,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_46b4bb20d8658e2c",
+      "section_id": "sec-nams-data",
+      "source_file": "content/06_nams_data.md",
+      "paragraph_index": 45,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_635165357f2a6333",
+      "section_id": "sec-nams-data",
+      "source_file": "content/06_nams_data.md",
+      "paragraph_index": 47,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_ea37827edaaf0f69",
+      "section_id": "sec-nams-data",
+      "source_file": "content/06_nams_data.md",
+      "paragraph_index": 50,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_3d0e46ddb0d7bba4",
+      "section_id": "sec-nams-data",
+      "source_file": "content/06_nams_data.md",
+      "paragraph_index": 52,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_fd0a6956653ed15a",
+      "section_id": "sec-nams-data",
+      "source_file": "content/06_nams_data.md",
+      "paragraph_index": 52,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_f3c2df0a0853cf47",
+      "section_id": "sec-nams-data",
+      "source_file": "content/06_nams_data.md",
+      "paragraph_index": 73,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_a0c0019c191ee739",
+      "section_id": "sec-incentives",
+      "source_file": "content/07_incentives.md",
+      "paragraph_index": 1,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_bc0c549d5a40139d",
+      "section_id": "sec-incentives",
+      "source_file": "content/07_incentives.md",
+      "paragraph_index": 2,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_a3f6891cd4a38eb2",
+      "section_id": "sec-incentives",
+      "source_file": "content/07_incentives.md",
+      "paragraph_index": 21,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_cab3ea7f5f231c1e",
+      "section_id": "sec-incentives",
+      "source_file": "content/07_incentives.md",
+      "paragraph_index": 40,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_23fc636e1dd7a23c",
+      "section_id": "sec-incentives",
+      "source_file": "content/07_incentives.md",
+      "paragraph_index": 65,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_2706dce60adaac45",
+      "section_id": "sec-governance",
+      "source_file": "content/08_governance_pathways.md",
+      "paragraph_index": 4,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_39bba55bc0b1dafe",
+      "section_id": "sec-governance",
+      "source_file": "content/08_governance_pathways.md",
+      "paragraph_index": 11,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_4745ec499105777c",
+      "section_id": "sec-governance",
+      "source_file": "content/08_governance_pathways.md",
+      "paragraph_index": 26,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_5dab01aff63377ad",
+      "section_id": "sec-governance",
+      "source_file": "content/08_governance_pathways.md",
+      "paragraph_index": 44,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_0eaf1ecf5cc12376",
+      "section_id": "sec-governance",
+      "source_file": "content/08_governance_pathways.md",
+      "paragraph_index": 56,
+      "reason_codes": [
+        "long_compound_single_atom"
+      ],
+      "requires_scientific_judgment": true
+    },
+    {
+      "claim_id": "clm_536931fcfee707da",
+      "section_id": "sec-conclusion",
+      "source_file": "content/09_conclusion.md",
+      "paragraph_index": 3,
+      "reason_codes": [
+        "suspected_truncated_or_dangling_phrase"
+      ],
+      "requires_scientific_judgment": true
+    }
+  ]
+}

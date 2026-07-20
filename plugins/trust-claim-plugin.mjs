@@ -242,6 +242,35 @@ function stableToken(value, fallback) {
 }
 
 const knowledgeBaseCache = new Map();
+const humanReviewCache = new Map();
+
+export function buildHumanReviewIndex(store) {
+  const index = new Map();
+  for (const decision of store?.decisions || []) {
+    for (const claim of decision.claims || []) {
+      if (!claim.claim_text) continue;
+      index.set(claim.claim_text, {
+        state: decision.state || 'adjudicated',
+        decisionId: decision.decision_id,
+        reviewerId: decision.reviewer_id || decision.reviewer || '',
+        recordedAt: decision.recorded_at || decision.reviewed_at || '',
+      });
+    }
+  }
+  return index;
+}
+
+function loadHumanReview(kbPath, claimText) {
+  const reviewPath = resolve(dirname(kbPath), 'trust_human_review_overrides.json');
+  if (!humanReviewCache.has(reviewPath)) {
+    try {
+      humanReviewCache.set(reviewPath, buildHumanReviewIndex(JSON.parse(readFileSync(reviewPath, 'utf8'))));
+    } catch {
+      humanReviewCache.set(reviewPath, new Map());
+    }
+  }
+  return humanReviewCache.get(reviewPath).get(claimText) || null;
+}
 
 function loadKbClaim(node, docDir) {
   const kbPath = resolve(docDir, node.kbPath || '../knowledge/claim_graph.json');
@@ -311,6 +340,10 @@ export function createTrustClaimTransform() {
       const trustLabel = kbClaim?.trust_score?.trust_label || 'pending_validation';
       const evidenceRelation = kbClaim?.evidence_relation || 'unverified';
       const citationContexts = kbClaim?.citation_contexts || [];
+      const kbPath = resolve(docDir, node.kbPath || '../knowledge/claim_graph.json');
+      const sourceReview = loadHumanReview(kbPath, claimText);
+      const humanReviewState = sourceReview?.state
+        || (kbClaim?.human_review_required ? 'pending' : 'not-requested');
 
       return {
         type: 'anywidget',
@@ -330,6 +363,10 @@ export function createTrustClaimTransform() {
           citationContexts: JSON.stringify(citationContexts),
           rationale: kbClaim?.trust_score?.components || null,
           humanReviewRequired: kbClaim?.human_review_required || false,
+          humanReviewState,
+          sourceReviewDecision: sourceReview?.decisionId || '',
+          sourceReviewerId: sourceReview?.reviewerId || '',
+          sourceReviewRecordedAt: sourceReview?.recordedAt || '',
           interactionMode: node.interaction || 'slideout',
           targetAnchor: targeting.targetAnchor || '',
           scopeAnchor: targeting.scopeAnchor || '',

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/record_counts.schema.json",
+  "title": "Canonical Record Counts",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "definitions", "claim_graph", "human_review", "oratlas_export"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "definitions": { "type": "object", "additionalProperties": { "type": "string" } },
+    "claim_graph": {
+      "type": "object",
+      "required": ["claims", "citation_contexts", "graph_edges", "unique_citation_keys", "unique_dois", "verified_passages", "trust_bands", "capped_claims", "human_review_flags"],
+      "properties": {
+        "claims": { "type": "integer", "minimum": 0 },
+        "citation_contexts": { "type": "integer", "minimum": 0 },
+        "graph_edges": { "type": "integer", "minimum": 0 },
+        "unique_citation_keys": { "type": "integer", "minimum": 0 },
+        "unique_dois": { "type": "integer", "minimum": 0 },
+        "verified_passages": { "type": "integer", "minimum": 0 },
+        "trust_bands": { "type": "object" },
+        "capped_claims": { "type": "integer", "minimum": 0 },
+        "human_review_flags": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "human_review": { "type": "object" },
+    "oratlas_export": { "type": "object" }
+  }
+}

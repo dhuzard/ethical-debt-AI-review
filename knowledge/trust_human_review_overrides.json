@@ -1,5 +1,15 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
+  "store_policy": {
+    "mutation": "append-only",
+    "allowed_states": [
+      "pending",
+      "independently-reviewed",
+      "adjudicated"
+    ],
+    "supersession": "Append a new decision referencing the earlier decision; never edit or delete history."
+  },
+  "chain_head": "sha256:0bdb2469f4dc59657e004b457ffb01d4f498cd5ad2964a687b351d0b7a226d99",
   "decisions": [
     {
       "decision_id": "hr_001_standardisation_rationale",
@@ -130,7 +140,13 @@
           ],
           "conflicts": []
         }
-      ]
+      ],
+      "state": "adjudicated",
+      "reviewer_id": "damien-huzard",
+      "recorded_at": "2026-07-16T00:00:00.000Z",
+      "rationale": "Approved in the PR human-review pass. Split the compound claim and restored two verified passages already preserved in review provenance.",
+      "previous_record_hash": null,
+      "record_hash": "sha256:4cfdcca36a85ec94bf40e7bf3c5350d66ecccdc55378cd35da4a46b787d77cb9"
     },
     {
       "decision_id": "hr_002_infrastructure_examples",
@@ -327,7 +343,13 @@
           ],
           "conflicts": []
         }
-      ]
+      ],
+      "state": "adjudicated",
+      "reviewer_id": "damien-huzard",
+      "recorded_at": "2026-07-16T00:00:00.000Z",
+      "rationale": "Approved in the PR human-review pass. Retain the three source-backed infrastructure statements and remove the unsupported 'islands' and native-capture generalisations.",
+      "previous_record_hash": "sha256:4cfdcca36a85ec94bf40e7bf3c5350d66ecccdc55378cd35da4a46b787d77cb9",
+      "record_hash": "sha256:65d1eec9d6e94513fbaaf666c55d843cf45a8763504181f7d72d839b89ff2f8a"
     },
     {
       "decision_id": "hr_003_arrive_reporting_audits",
@@ -508,7 +530,13 @@
             }
           ]
         }
-      ]
+      ],
+      "state": "adjudicated",
+      "reviewer_id": "damien-huzard",
+      "recorded_at": "2026-07-16T00:00:00.000Z",
+      "rationale": "Approved in the PR human-review pass. Split the numerical findings, correct the Lin2024 study system, remove the unresolved Feng2024 citation and over-attributed absolute statement, and surface the method-dependent improvement conflict.",
+      "previous_record_hash": "sha256:65d1eec9d6e94513fbaaf666c55d843cf45a8763504181f7d72d839b89ff2f8a",
+      "record_hash": "sha256:ab83101458affe707bacec877b731d40a6c2535079d8f2a2b16914d01a6c20d9"
     },
     {
       "decision_id": "hr_004_nih_dmsp_scope",
@@ -588,7 +616,13 @@
           },
           "conflicts": []
         }
-      ]
+      ],
+      "state": "adjudicated",
+      "reviewer_id": "damien-huzard",
+      "recorded_at": "2026-07-16T00:00:00.000Z",
+      "rationale": "Approved in the PR human-review pass. Scope the findings to the single academic medical center, separate plan completeness from the template comparison, and remove the unsupported temporal trend.",
+      "previous_record_hash": "sha256:ab83101458affe707bacec877b731d40a6c2535079d8f2a2b16914d01a6c20d9",
+      "record_hash": "sha256:8869963bc3bf4bc13000faa1e2687fca57696946d5c669504c538071f1442152"
     },
     {
       "decision_id": "hr_005_vcg_endpoint_concordance",
@@ -694,7 +728,13 @@
             }
           ]
         }
-      ]
+      ],
+      "state": "adjudicated",
+      "reviewer_id": "damien-huzard",
+      "recorded_at": "2026-07-16T00:00:00.000Z",
+      "rationale": "Approved in the PR human-review pass. Replace the unsupported exact clinical/preclinical analogy and causal mechanism with scoped, endpoint-specific findings that disclose the conflicting virtual-control evidence.",
+      "previous_record_hash": "sha256:8869963bc3bf4bc13000faa1e2687fca57696946d5c669504c538071f1442152",
+      "record_hash": "sha256:f9fe378d0c5836723d9a4dc117b8c3fe6a9cf0aa571bc336c5d93d8e943ea3a5"
     },
     {
       "decision_id": "hr_006_mouse_human_gene_selection",
@@ -802,7 +842,13 @@
             }
           ]
         }
-      ]
+      ],
+      "state": "adjudicated",
+      "reviewer_id": "damien-huzard",
+      "recorded_at": "2026-07-16T00:00:00.000Z",
+      "rationale": "Approved in the PR human-review pass. Split the conflicting reanalyses into atomic empirical claims and remove the unsupported assertion that gene selection entirely caused the reversal.",
+      "previous_record_hash": "sha256:f9fe378d0c5836723d9a4dc117b8c3fe6a9cf0aa571bc336c5d93d8e943ea3a5",
+      "record_hash": "sha256:4f1fb259f4a58e378485c287c0752b2cdbe01f3ab9b1f3a6c89feb526d97ec39"
     },
     {
       "decision_id": "hr_007_3rs_framework_positions",
@@ -1049,7 +1095,13 @@
             }
           ]
         }
-      ]
+      ],
+      "state": "adjudicated",
+      "reviewer_id": "damien-huzard",
+      "recorded_at": "2026-07-16T00:00:00.000Z",
+      "rationale": "Approved in the PR human-review pass. Replace the broad 'wave' synthesis with four source-attributed framework positions and narrow the Vitale and Ricceri counter-position to what the paper states.",
+      "previous_record_hash": "sha256:4f1fb259f4a58e378485c287c0752b2cdbe01f3ab9b1f3a6c89feb526d97ec39",
+      "record_hash": "sha256:e5e7cd4763f1eab677208469796e8728b20396522c8f5a7518a5e8a3667d5193"
     },
     {
       "decision_id": "hr_008_vcg_endpoint_drift_regulation",
@@ -1346,7 +1398,13 @@
           ],
           "conflicts": []
         }
-      ]
+      ],
+      "state": "adjudicated",
+      "reviewer_id": "damien-huzard",
+      "recorded_at": "2026-07-16T00:00:00.000Z",
+      "rationale": "Approved in the PR human-review pass. Split endpoint agreement, non-reproducibility, temporal drift, and regulatory status into atomic claims, and update the regulatory statement to reflect EMA's March 2026 draft qualification opinion for the narrower rat non-GLP dose-range-finding context.",
+      "previous_record_hash": "sha256:e5e7cd4763f1eab677208469796e8728b20396522c8f5a7518a5e8a3667d5193",
+      "record_hash": "sha256:ee0b86e995df2d8ef151ac47731961c41cd8d05705db6da950ff70936275e841"
     },
     {
       "decision_id": "hr_009_bad_science_model_reforms",
@@ -1551,7 +1609,13 @@
           },
           "conflicts": []
         }
-      ]
+      ],
+      "state": "adjudicated",
+      "reviewer_id": "damien-huzard",
+      "recorded_at": "2026-07-16T00:00:00.000Z",
+      "rationale": "Approved in the PR human-review pass. Replace the false opposition between the selection model and reform manifesto with three source-attributed claims, and add the 2023 independent reimplementation with its coding-error caveat.",
+      "previous_record_hash": "sha256:ee0b86e995df2d8ef151ac47731961c41cd8d05705db6da950ff70936275e841",
+      "record_hash": "sha256:0bdb2469f4dc59657e004b457ffb01d4f498cd5ad2964a687b351d0b7a226d99"
     }
   ]
 }

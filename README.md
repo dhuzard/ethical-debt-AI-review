@@ -7,7 +7,7 @@ A computational critical review of **data welfare**: the argument that stewardsh
 **Interactive preview:** <https://dhuzard.github.io/ethical-debt-AI-review/>
 
 > [!CAUTION]
-> **Public TRUST preview.** This release contains the complete review and its enriched TRUST v2 knowledge layer, but the final human adjudication pass is still in progress. Nine decisions have been completed, and the current enriched graph contains 29 claims explicitly marked for human review (38 flagged decisions in total at this snapshot). Scores and wording may change before the stable release. This preview is suitable for testing transparent review infrastructure such as [Open Review Atlas](https://github.com/dhuzard/oratlas), but it must not be represented as peer reviewed or fully human-adjudicated.
+> **Public TRUST preview.** This release contains the complete review and its enriched TRUST v2 knowledge layer, but the final human adjudication pass is still in progress. **9 historical decisions** replaced 9 source claims with 28 replacement records; 27 replacement claims remain in the current graph and produce 34 source-reviewed citation relations. Separately, **29 current claims are flagged** for future human review. These are different measures and must not be added together. Scores and wording may change before the stable release. This preview is suitable for testing transparent review infrastructure such as [Open Review Atlas](https://github.com/dhuzard/oratlas), but it must not be represented as peer reviewed or fully human-adjudicated.
 
 > [!IMPORTANT]
 > **This review was generated with substantial AI assistance.** Under human direction and supervision, AI-directed components searched PubMed, Europe PMC, OpenAlex, and CrossRef; extracted and verified evidence; drafted prose and figures; and ran staged criticism and citation checks. Damien Huzard conceived the review, set its scope and thesis, and performs the human review pass. See the [Methods](content/Methods.md), [Provenance](content/provenance.md), and [Evidence Database](content/evidence_database.md).
@@ -23,7 +23,7 @@ Animals are used to generate biomedical knowledge at a real welfare cost, yet a 
 
 ## TRUST v2 knowledge layer
 
-The preview contains 529 prose-anchored claims scored with TRUST rubric v2.0.0. Every `trust-claim` directive resolves to a deterministic graph record. In the MyST interface, each claim card exposes:
+The preview contains 529 prose-anchored claims scored with the experimental TRUST rubric v2.0.0. TRUST is a structured review audit signal, not a probability that a claim is true or a universal quality rating. Every `trust-claim` directive resolves to a deterministic graph record. In the MyST interface, each claim card exposes:
 
 - the overall TRUST band and numerical score;
 - traceability, robustness, uncertainty calibration, source integrity, and transferability/scope control;
@@ -34,6 +34,7 @@ The preview contains 529 prose-anchored claims scored with TRUST rubric v2.0.0. 
 Canonical and derived artifacts:
 
 - `knowledge/claim_graph.json` — canonical claim and citation-context graph;
+- `knowledge/record_counts.json` — canonical definitions and exact headline record counts;
 - `knowledge/claim_index.json` — compact claim index used by the interface;
 - `knowledge/trust_score_report.json` — validator-owned score report;
 - `knowledge/trust_human_review_overrides.json` — explicit human decisions;
