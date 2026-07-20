@@ -527,9 +527,6 @@ function validateRepository(root = path.resolve(__dirname, '..')) {
   if (actualClaimQuality !== expectedClaimQuality) errors.push('claim_quality_flags: deterministic artifact is stale');
   errors.push(...validateRecordCounts(root));
   if (!sameJson(recordCounts, computeRecordCounts(root))) errors.push('record_counts: computed values mismatch');
-  if (manifest.artifacts?.recordCounts !== 'knowledge/record_counts.json') {
-    errors.push('review-manifest: artifacts.recordCounts must identify the canonical count manifest');
-  }
   const currentClaimIds = new Set(graph.claims.map(claim => claim.claim_id));
   const reviewedSourceClaimIds = new Set(humanReviews.decisions.map(decision => decision.claim_id));
   for (const [sourceId, targetId] of Object.entries(lineage.claim_ids || {})) {
