@@ -28,7 +28,8 @@ npm run build:deterministic
 ```
 
 The figure check executes every notebook twice without modifying the committed
-notebooks, compares both PNG sets byte-for-byte, and verifies the frozen release
+notebooks and compares both same-runner PNG sets byte-for-byte. The independent
+release-artifact manifest verifies the frozen committed figure
 hashes. The deterministic build command runs MyST twice and compares every output
 file after normalizing only MyST's presentation-only random AST keys and derived
 image DOM IDs. The final site remains in `_build/html`.

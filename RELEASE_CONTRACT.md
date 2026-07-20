@@ -14,8 +14,9 @@ may be tagged only when every automated gate below passes at the exact tag commi
 - TRUST, human-review hash-chain, claim-quality, and pinned ORAtlas contract
   validators pass.
 - All Node tests and Chromium, Firefox, and WebKit regressions pass.
-- Every figure notebook executes twice to byte-identical PNG output and matches
-  the frozen figure hashes.
+- Every figure notebook executes twice to byte-identical PNG output on the same
+  runner; the artifact manifest independently
+  locks the frozen committed figure hashes. Cross-platform rasterization may differ.
 - Two consecutive MyST builds produce byte-identical output trees after removing
   MyST's presentation-only random AST keys and derived image DOM IDs.
 - Node, Python, MyST, Playwright, and scientific Python dependencies are pinned.
