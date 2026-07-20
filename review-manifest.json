@@ -68,7 +68,6 @@
     "citations": "knowledge/oratlas/citations.jsonl",
     "relations": "knowledge/oratlas/relations.jsonl",
     "trustAssessments": "knowledge/oratlas/trust-assessments.jsonl",
-    "recordCounts": "knowledge/record_counts.json",
     "provenance": "knowledge/oratlas/provenance.json"
   }
 }
