@@ -1042,6 +1042,18 @@ export function bindHighlightLifecycle(focusTrigger, hoverTrigger, el, selector,
   };
 }
 
+const activeTrustPanels = new WeakMap();
+
+export function activateTrustPanel(doc, closePanel) {
+  const active = activeTrustPanels.get(doc);
+  if (active && active !== closePanel) active();
+  activeTrustPanels.set(doc, closePanel);
+}
+
+export function releaseTrustPanel(doc, closePanel) {
+  if (activeTrustPanels.get(doc) === closePanel) activeTrustPanels.delete(doc);
+}
+
 function render({ model, el }) {
   if (typeof el.__trustClaimCleanup === 'function') el.__trustClaimCleanup();
 
@@ -1134,6 +1146,11 @@ function render({ model, el }) {
     box.innerHTML = detailHtml;
     details.appendChild(summary);
     details.appendChild(box);
+    const closeDetails = () => { details.open = false; };
+    details.addEventListener('toggle', () => {
+      if (details.open) activateTrustPanel(doc, closeDetails);
+      else releaseTrustPanel(doc, closeDetails);
+    });
     root.appendChild(details);
     el.__trustClaimCleanup = installClaimInteractions(
       summary,
@@ -1176,15 +1193,26 @@ function render({ model, el }) {
     wrapper.classList.remove('is-open');
     cardButton.setAttribute('aria-expanded', 'false');
     panel.setAttribute('aria-hidden', 'true');
+    releaseTrustPanel(doc, closePanel);
   }
 
   cardButton.addEventListener('click', () => {
     const open = wrapper.classList.toggle('is-open');
+    if (open) activateTrustPanel(doc, closePanel);
+    else releaseTrustPanel(doc, closePanel);
     cardButton.setAttribute('aria-expanded', open ? 'true' : 'false');
     panel.setAttribute('aria-hidden', open ? 'false' : 'true');
   });
 
-  if (closeBtn) closeBtn.addEventListener('click', closePanel);
+  if (closeBtn) closeBtn.addEventListener('click', () => {
+    closePanel();
+    cardButton.focus();
+  });
+  panel.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape') return;
+    closePanel();
+    cardButton.focus();
+  });
 
   wrapper.appendChild(cardButton);
   wrapper.appendChild(panel);

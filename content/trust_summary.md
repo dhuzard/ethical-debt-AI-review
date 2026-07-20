@@ -1,5 +1,9 @@
 (sec-trust-summary)=
-# Citation Trust Summary
+# Claim & TRUST Audit
+
+This claim-level audit is distinct from the **Literature Evidence Explorer**. The
+explorer inventories section-level source findings and conflicts; this page audits
+how individual statements in the review use their cited evidence.
 
 This review exposes **529 claim-level TRUST records** using rubric v2.0.0. Every score is displayed out of **100**, as five TRUST components worth **20 points each**. The validated data retain the rubric's 0–4 rule level internally and the interface multiplies each component by five. Hovering either the exact scored prose or its score highlights both; opening the card reveals all five component rules, rationales, verified source passages, atom attribution, scope status, and cap reasons.
 

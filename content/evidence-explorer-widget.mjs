@@ -2,8 +2,24 @@
 // anywidget ESM module for MyST
 // Handles multiple evidence schema variants from different EXPERT agents
 
+export function classifyEvidenceState(rawValue) {
+  try {
+    const data = JSON.parse(rawValue || '{}');
+    if (data.load_status === 'absent') return { kind: 'absent', data };
+    if (!Array.isArray(data.sections) || !Array.isArray(data.findings)) {
+      return { kind: 'error', message: 'The evidence payload is incomplete.', data };
+    }
+    if (data.sections.length === 0) return { kind: 'absent', data };
+    if (data.findings.length === 0) return { kind: 'valid-empty', data };
+    return { kind: 'loaded', data };
+  } catch (error) {
+    return { kind: 'error', message: `The evidence payload could not be read: ${error.message}`, data: {} };
+  }
+}
+
 function render({ model, el }) {
-  const data = JSON.parse(model.get('evidence_data') || '{}');
+  const state = classifyEvidenceState(model.get('evidence_data'));
+  const data = state.data;
   const sections = data.sections || [];
   const findings = data.findings || [];
   const conflicts = data.conflicts || [];
@@ -16,6 +32,7 @@ function render({ model, el }) {
     // Handle 4+ different conflict schemas
     let desc = c.nature_of_conflict || c.description || c.topic || '—';
     let reason = c.likely_reason || c.resolution_notes || c.resolution_status || '';
+    let resolutionStatus = c.resolution_status || 'not recorded';
     let doiA = c.paper_a_doi || '';
     let doiB = c.paper_b_doi || '';
     let sideA = '', sideB = '';
@@ -55,7 +72,7 @@ function render({ model, el }) {
       doiB = c.finding_dois[1] || '';
     }
     
-    return { desc, reason, doiA, doiB, sideA, sideB, section: c.section || '' };
+    return { desc, reason, resolutionStatus, doiA, doiB, sideA, sideB, section: c.section || '' };
   }
   
   function normFigData(fd) {
@@ -100,21 +117,46 @@ function render({ model, el }) {
   el.innerHTML = '';
   const container = document.createElement('div');
   container.className = 'evidence-explorer';
+  container.setAttribute('data-load-state', state.kind);
   container.style.cssText = `max-height:${height};overflow:auto;font-family:system-ui,-apple-system,sans-serif;`;
+
+  if (state.kind !== 'loaded') {
+    const status = document.createElement('div');
+    status.setAttribute('role', state.kind === 'error' ? 'alert' : 'status');
+    status.className = `evidence-state evidence-state-${state.kind}`;
+    status.style.cssText = 'padding:16px;border:1px solid #d1d5db;border-radius:8px;background:#f8fafc;color:#334155;';
+    status.textContent = state.kind === 'absent'
+      ? (data.load_message || 'No evidence package is available for this view.')
+      : state.kind === 'valid-empty'
+        ? 'The evidence package is present and valid, but contains 0 findings.'
+        : state.message;
+    container.appendChild(status);
+    el.appendChild(container);
+    return;
+  }
   
   // Tab bar
-  const tabs = ['Overview', 'Findings', 'Conflicts', 'Figure Data'];
+  const tabs = ['Overview', 'Findings', 'Conflicts', 'Evidence Gaps', 'Figure Data'];
   const tabBar = document.createElement('div');
+  tabBar.setAttribute('role', 'tablist');
+  tabBar.setAttribute('aria-label', 'Literature evidence views');
   tabBar.style.cssText = 'display:flex;gap:0;border-bottom:2px solid #e0e0e0;margin-bottom:16px;';
   
   const panels = {};
   tabs.forEach((tab, i) => {
     const btn = document.createElement('button');
     btn.textContent = tab;
+    btn.setAttribute('role', 'tab');
+    btn.setAttribute('aria-selected', i === 0 ? 'true' : 'false');
+    btn.tabIndex = i === 0 ? 0 : -1;
     btn.style.cssText = `padding:10px 20px;border:none;background:${i===0?'#2563eb':'#f5f5f5'};color:${i===0?'white':'#666'};cursor:pointer;font-size:14px;font-weight:600;border-radius:8px 8px 0 0;margin-right:2px;transition:all 0.2s;`;
     btn.addEventListener('click', () => {
-      tabBar.querySelectorAll('button').forEach(b => { b.style.background='#f5f5f5'; b.style.color='#666'; });
+      tabBar.querySelectorAll('button').forEach(b => {
+        b.style.background='#f5f5f5'; b.style.color='#666';
+        b.setAttribute('aria-selected', 'false'); b.tabIndex = -1;
+      });
       btn.style.background = '#2563eb'; btn.style.color = 'white';
+      btn.setAttribute('aria-selected', 'true'); btn.tabIndex = 0;
       Object.values(panels).forEach(p => p.style.display = 'none');
       panels[tab].style.display = 'block';
     });
@@ -261,9 +303,12 @@ function render({ model, el }) {
   
   const normConflicts = conflicts.map(normConflict);
   conflictsPanel.innerHTML = `<h4 style="margin:0 0 16px 0;">Cross-Study Conflicts (${normConflicts.length})</h4>` +
-    normConflicts.map(c => `
+    (normConflicts.length === 0
+      ? '<div role="status" style="padding:12px;background:#f8fafc;border-radius:6px;">No conflict records are present in the selected package.</div>'
+      : normConflicts.map(c => `
       <div style="background:#fff;border:1px solid #fecaca;border-radius:8px;padding:16px;margin-bottom:12px;">
         <div style="font-weight:600;color:#991b1b;margin-bottom:8px;">&sect;${c.section}: ${c.desc}</div>
+        <div style="font-size:12px;margin-bottom:8px;"><strong>Resolution status:</strong> ${c.resolutionStatus}</div>
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:8px;">
           <div style="background:#fef2f2;padding:10px;border-radius:6px;">
             <div style="font-size:11px;color:#666;margin-bottom:4px;">Side A</div>
@@ -276,11 +321,40 @@ function render({ model, el }) {
             ${c.doiB ? `<a href="https://doi.org/${c.doiB}" target="_blank" style="font-size:11px;color:#2563eb;">${c.doiB}</a>` : '<span style="font-size:11px;color:#999;">No DOI</span>'}
           </div>
         </div>
-        ${c.reason ? `<div style="font-size:12px;color:#666;"><strong>Resolution:</strong> ${c.reason}</div>` : ''}
-      </div>`).join('');
+        ${c.reason ? `<div style="font-size:12px;color:#666;"><strong>Notes:</strong> ${c.reason}</div>` : ''}
+      </div>`).join(''));
   
   panels['Conflicts'] = conflictsPanel;
   container.appendChild(conflictsPanel);
+
+  // === EVIDENCE GAPS PANEL ===
+  const gapsPanel = document.createElement('div');
+  gapsPanel.style.display = 'none';
+  gapsPanel.innerHTML = `
+    <h4 style="margin:0 0 8px 0;">Evidence-gap provenance</h4>
+    <p style="font-size:12px;color:#64748b;margin:0 0 16px 0;">“Not recorded” means the source package has no dedicated field. It does not mean zero gaps or zero unreplicated claims.</p>
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <thead><tr style="background:#f8fafc;">
+        <th style="padding:8px;text-align:left;">Section</th>
+        <th style="padding:8px;text-align:left;">Replication annotation</th>
+        <th style="padding:8px;text-align:left;">Evidence gaps</th>
+        <th style="padding:8px;text-align:left;">Unreplicated claims</th>
+      </tr></thead>
+      <tbody>${sections.map(section => {
+        const replication = section.replication || { populated: 0, unavailable: section.findings };
+        const gaps = section.evidence_gaps || { status: 'not-recorded', count: null };
+        const unreplicated = section.unreplicated_claims || { status: 'not-recorded', count: null };
+        const displayCoverage = item => item.status === 'recorded' ? String(item.count) : 'Not recorded';
+        return `<tr style="border-bottom:1px solid #e2e8f0;">
+          <td style="padding:8px;">&sect;${section.section} ${section.title}</td>
+          <td style="padding:8px;">${replication.populated}/${section.findings} populated${replication.unavailable ? ` · ${replication.unavailable} unavailable` : ''}</td>
+          <td style="padding:8px;">${displayCoverage(gaps)}</td>
+          <td style="padding:8px;">${displayCoverage(unreplicated)}</td>
+        </tr>`;
+      }).join('')}</tbody>
+    </table>`;
+  panels['Evidence Gaps'] = gapsPanel;
+  container.appendChild(gapsPanel);
   
   // === FIGURE DATA PANEL (handles all schema variants) ===
   const figPanel = document.createElement('div');

@@ -1,7 +1,11 @@
 (sec-evidence-database)=
-# Evidence Database
+# Literature Evidence Explorer
 
-Interactive explorer for the evidence packages underlying each section of the review.
+This section-level literature layer exposes the findings, replication annotations,
+conflict records, and comparison data collected for each review section. It is
+distinct from the **Claim & TRUST Audit**, which evaluates the traceability and
+calibration of individual claims in the written review. A missing field is shown
+as “not recorded”; it is never interpreted as a zero.
 
 :::{evidence-explorer}
 :evidence-dir: ../evidence

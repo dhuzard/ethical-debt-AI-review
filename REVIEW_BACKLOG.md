@@ -211,7 +211,7 @@ This repository must **not**:
 - **Files:** `plugins/evidence-explorer-plugin.mjs`, `content/evidence-explorer-widget.mjs`, `content/evidence_database.md`
 
 ### ED-B03 — Prevent a green build from shipping a silently empty Evidence Explorer
-- **Status:** ready · **Priority:** P0 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P0 · **Size:** S · **Agent:** yes · **Upstream:** local
 - **Goal:** CI fails when the evidence layer is empty or under-populated.
 - **Why it matters:** The current build succeeds with zero evidence displayed.
 - **Scope:** Add a validation step (and CI wiring) that loads the evidence
@@ -223,7 +223,7 @@ This repository must **not**:
 - **Files:** `.github/workflows/deploy.yml`, new `scripts/validate-evidence.js`, `tests/`
 
 ### ED-B04 — Distinguish an absent package from a valid zero-finding package
-- **Status:** backlog · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** upstream template
+- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** upstream template
 - **Goal:** The explorer and validator must treat "no package" and "package with zero findings" differently.
 - **Why it matters:** Conflating them hides missing evidence behind a legitimate-looking empty state.
 - **Scope:** Explicit empty-vs-missing states in widget and validator.
@@ -233,7 +233,7 @@ This repository must **not**:
 - **Files:** `content/evidence-explorer-widget.mjs`, `scripts/validate-evidence.js`
 
 ### ED-B05 — Reconcile `evidence/README.md` with the actual schema
-- **Status:** backlog · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** upstream template
+- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** upstream template
 - **Goal:** Documentation matches real filenames (`evidence_section_NN.json`) and fields.
 - **Why it matters:** README currently documents `section_NN_evidence_package.json`, contradicting the files and the v29 CHANGELOG rename.
 - **Scope:** Update README schema/format section; note the `findings[]`-vs-`argument_groups` convention.
@@ -243,7 +243,7 @@ This repository must **not**:
 - **Files:** `evidence/README.md`
 
 ### ED-B06 — Complete replication / conflict / evidence-gap provenance in packages
-- **Status:** backlog · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** conditional · **Upstream:** local
 - **Goal:** Ensure each finding's replication status, conflicts, and evidence gaps are populated where source data supports it.
 - **Why it matters:** These fields drive contradiction and gap views; empty fields understate uncertainty.
 - **Scope:** Backfill only from traceable source data; flag gaps rather than guessing.
@@ -379,7 +379,7 @@ This repository must **not**:
 ## Workstream D — Review interface and MyST rendering
 
 ### ED-D01 — Separate the Literature Evidence view from the Claims/TRUST view
-- **Status:** backlog · **Priority:** P1 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** yes · **Upstream:** local
 - **Goal:** Distinct navigation and terminology for the two evidence layers
   (section literature evidence vs claim-level TRUST assessments).
 - **Why it matters:** "Evidence Database" and "Citation Trust Summary" read as one
@@ -391,7 +391,7 @@ This repository must **not**:
 - **Files:** `myst.yml`, `content/evidence_database.md`, `content/trust_summary.md`
 
 ### ED-D02 — Synchronize the single-active-panel TRUST viewer from the TRUST fork
-- **Status:** ready · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** TRUST fork (sync)
+- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** TRUST fork (sync)
 - **Goal:** Only one TRUST panel open at a time; no overlapping/stacked panels.
 - **Why it matters:** Overlapping margin panels are a known, fixed defect upstream;
   the local widget has partial single-active highlight logic but not the corrected panel behaviour.
@@ -403,7 +403,7 @@ This repository must **not**:
 - **Files:** `content/trust-claim-widget.mjs`, `content/trust-claim-widget.css`, `plugins/trust-claim-plugin.mjs`, `UPSTREAM_SYNC.md`
 
 ### ED-D03 — Browser + accessibility regression tests
-- **Status:** backlog · **Priority:** P1 · **Size:** M · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** yes · **Upstream:** local
 - **Goal:** Automated tests for Safari/WebKit behaviour, exact prose highlighting, and keyboard navigation/accessibility.
 - **Why it matters:** Highlighting and slide-out interactions are the core UX and are currently untested in a real browser.
 - **Scope:** Playwright (Chromium/Firefox/WebKit) tests for highlight exactness, keyboard focus, ARIA states.
@@ -413,7 +413,7 @@ This repository must **not**:
 - **Files:** `tests/`, `.github/workflows/deploy.yml`
 
 ### ED-D04 — Clear empty, incomplete, and error states
-- **Status:** backlog · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
 - **Goal:** Every widget renders explicit empty/incomplete/error states instead of blank output.
 - **Why it matters:** The empty Evidence Explorer failed silently; UI must fail visibly.
 - **Dependencies:** ED-B02, ED-B04.
@@ -421,12 +421,12 @@ This repository must **not**:
 - **Files:** `content/evidence-explorer-widget.mjs`, `content/trust-claim-widget.mjs`
 
 ### ED-D05 — Better contradiction presentation (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
+- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
 - **Goal:** Present inter-study conflicts clearly (both sides, resolution status) in the evidence view.
 - **Dependencies:** ED-B02. **Files:** `content/evidence-explorer-widget.mjs`
 
 ### ED-D06 — Evidence-gap visualization (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
+- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** upstream template
 - **Goal:** Surface `evidence_gaps`/`unreplicated_claims` per section.
 - **Dependencies:** ED-B06. **Files:** `content/evidence-explorer-widget.mjs`
 

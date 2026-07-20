@@ -44,11 +44,11 @@ project:
     - file: content/08_governance_pathways.md
     - file: content/09_conclusion.md
     - file: content/trust_summary.md
-      title: Citation Trust Summary
+      title: Claim & TRUST Audit
     - file: content/Methods.md
       title: Methods
     - file: content/evidence_database.md
-      title: Evidence Database
+      title: Literature Evidence Explorer
     - file: content/provenance.md
       title: Pipeline Provenance
   exports:

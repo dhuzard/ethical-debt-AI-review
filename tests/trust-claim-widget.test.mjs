@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 
 import {
+  activateTrustPanel,
   activateConcernedText,
   bindHighlightLifecycle,
   displayComponentScore,
@@ -12,7 +13,24 @@ import {
   registerTrustMarginCard,
   renderCitationContexts,
   trustBandText,
+  releaseTrustPanel,
 } from '../content/trust-claim-widget.mjs';
+
+test('opening a TRUST panel closes the previously active panel in the document', () => {
+  const doc = {};
+  let firstClosed = 0;
+  let secondClosed = 0;
+  const closeFirst = () => { firstClosed += 1; };
+  const closeSecond = () => { secondClosed += 1; };
+
+  activateTrustPanel(doc, closeFirst);
+  activateTrustPanel(doc, closeSecond);
+  assert.equal(firstClosed, 1);
+  assert.equal(secondClosed, 0);
+  releaseTrustPanel(doc, closeSecond);
+  activateTrustPanel(doc, closeFirst);
+  assert.equal(secondClosed, 0);
+});
 
 test('visible score bands use canonical TRUST wording', () => {
   assert.equal(trustBandText(null), 'Pending validation');

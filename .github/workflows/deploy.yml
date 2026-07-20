@@ -41,16 +41,23 @@ jobs:
           node scripts/human-review-store.js
           node scripts/review-priority.js
           node scripts/claim-quality-audit.js
+          node scripts/validate-evidence.js
           node scripts/validate-oratlas.js
           node scripts/build-oratlas-fixtures.js
           node scripts/validate-trust.js
           node scripts/test-trust-validator.js
-          node --test tests/*.test.mjs
+          node --test tests/*.test.mjs tests/*.test.cjs
 
       - name: Install build dependencies
         run: |
           pip install mystmd jupyter matplotlib numpy pandas seaborn
           npm install -g mystmd
+
+      - name: Install browser engines
+        run: npx playwright install --with-deps chromium firefox webkit
+
+      - name: Run browser and accessibility regressions
+        run: npx playwright test
 
       - name: Execute figure notebooks
         run: |

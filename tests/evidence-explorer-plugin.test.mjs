@@ -1,13 +1,19 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
-import { resolve } from 'node:path';
+import { mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join, resolve } from 'node:path';
 
 import {
   countUniquePapers,
   extractFindings,
 } from '../plugins/evidence-explorer-plugin.mjs';
 import evidenceExplorerPlugin from '../plugins/evidence-explorer-plugin.mjs';
+import { classifyEvidenceState } from '../content/evidence-explorer-widget.mjs';
+import {
+  buildEvidenceCoverage,
+  validateEvidenceCoverage,
+} from '../scripts/validate-evidence.js';
 
 test('Evidence Explorer loads every canonical package and its rich findings', () => {
   const tree = {
@@ -87,6 +93,26 @@ test('rich findings take precedence over argument-group citation keys', () => {
   assert.equal(countUniquePapers(findings), 1);
 });
 
+test('section_NN directive values select one package and report a missing package explicitly', () => {
+  const transform = evidenceExplorerPlugin.transforms.find(({ name }) => name === 'evidence-data-loader');
+  const makeTree = section => ({
+    type: 'root',
+    children: [{ type: 'evidence-explorer', evidenceDir: '../evidence', section }],
+  });
+  const selected = makeTree('section_02');
+  transform.plugin({}, {})(selected, { path: resolve('content/02_reproducibility_crisis.md') });
+  const selectedData = JSON.parse(selected.children[0].model.evidence_data);
+  assert.equal(selectedData.load_status, 'loaded');
+  assert.equal(selectedData.requested_section, 2);
+  assert.deepEqual(selectedData.sections.map(({ section }) => section), [2]);
+
+  const missing = makeTree('section_10');
+  transform.plugin({}, {})(missing, { path: resolve('content/evidence_database.md') });
+  const missingData = JSON.parse(missing.children[0].model.evidence_data);
+  assert.equal(missingData.load_status, 'absent');
+  assert.match(missingData.load_message, /section 10/);
+});
+
 test('legacy argument-group fallback ignores citation-key strings', () => {
   const record = { cite_key: 'Example2026', claim: 'A legacy record.' };
   assert.deepEqual(extractFindings({
@@ -94,4 +120,38 @@ test('legacy argument-group fallback ignores citation-key strings', () => {
       main: { supporting_findings: ['Example2026', record] },
     },
   }), [record]);
+});
+
+test('widget state distinguishes absent, valid-empty, malformed, and loaded payloads', () => {
+  assert.equal(classifyEvidenceState('{').kind, 'error');
+  assert.equal(classifyEvidenceState(JSON.stringify({
+    load_status: 'absent', sections: [], findings: [],
+  })).kind, 'absent');
+  assert.equal(classifyEvidenceState(JSON.stringify({
+    load_status: 'loaded', sections: [{ section: 1 }], findings: [],
+  })).kind, 'valid-empty');
+  assert.equal(classifyEvidenceState(JSON.stringify({
+    load_status: 'loaded', sections: [{ section: 1 }], findings: [{ doi: '10.1/x' }],
+  })).kind, 'loaded');
+});
+
+test('validator fails for an absent package but reports a present zero-finding package separately', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'ethical-debt-evidence-'));
+  try {
+    writeFileSync(join(dir, 'evidence_section_01.json'), JSON.stringify({ findings: [] }));
+    const incomplete = buildEvidenceCoverage(dir, [1, 2]);
+    assert.deepEqual(incomplete.absent_sections, [2]);
+    assert.deepEqual(incomplete.valid_empty_sections, [1]);
+    assert.throws(() => validateEvidenceCoverage(incomplete, 0), /Absent evidence packages: 2/);
+
+    writeFileSync(join(dir, 'evidence_section_02.json'), JSON.stringify({
+      findings: [{ doi: '10.1/example', replication_status: 'replication_unknown' }],
+    }));
+    const complete = buildEvidenceCoverage(dir, [1, 2]);
+    assert.deepEqual(complete.absent_sections, []);
+    assert.deepEqual(complete.valid_empty_sections, [1]);
+    assert.equal(validateEvidenceCoverage(complete, 1), 1);
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+  }
 });

@@ -3,5 +3,8 @@
   "private": true,
   "dependencies": {
     "yaml": "2.9.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.61.1"
   }
 }
