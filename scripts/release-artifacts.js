@@ -5,9 +5,17 @@ import { relative, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 
 const manifestPath = resolve('provenance/release_artifact_manifest.json');
+const normalizedTextExtensions = new Set(['.json', '.jsonl']);
+
+export function artifactBytes(path) {
+  const bytes = readFileSync(path);
+  const extension = path.slice(path.lastIndexOf('.')).toLowerCase();
+  if (!normalizedTextExtensions.has(extension)) return bytes;
+  return Buffer.from(bytes.toString('utf8').replace(/\r\n?/g, '\n'), 'utf8');
+}
 
 export function sha256(path) {
-  return createHash('sha256').update(readFileSync(path)).digest('hex');
+  return createHash('sha256').update(artifactBytes(path)).digest('hex');
 }
 
 function listFiles(path) {
@@ -41,7 +49,7 @@ export function buildReleaseManifest() {
     .filter(path => /\.(json|jsonl|png)$/.test(path))
     .map(path => ({
       path: relative(resolve('.'), path).replaceAll('\\', '/'),
-      bytes: statSync(path).size,
+      bytes: artifactBytes(path).byteLength,
       sha256: sha256(path),
     }))
     .sort((a, b) => a.path.localeCompare(b.path));

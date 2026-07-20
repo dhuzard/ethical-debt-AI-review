@@ -1,0 +1,26 @@
+name: Living literature candidate monitor
+
+on:
+  schedule:
+    - cron: '17 6 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  crossref-candidates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+      - name: Query Crossref for unverified candidates
+        run: node scripts/literature-monitor.mjs --fetch --output monitoring-output.json
+      - name: Upload screening artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: living-literature-candidates
+          path: monitoring-output.json
+          retention-days: 30

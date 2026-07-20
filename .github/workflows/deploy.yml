@@ -4,7 +4,6 @@ on:
   push:
     branches: [main, trust-scores]
   pull_request:
-    branches: [main]
 
 permissions:
   contents: read
@@ -46,6 +45,8 @@ jobs:
           node scripts/build-oratlas-fixtures.js
           node scripts/validate-trust.js
           node scripts/test-trust-validator.js
+          node scripts/validate-forward-work.mjs
+          node scripts/literature-monitor.mjs
           node scripts/release-artifacts.js
           node scripts/validate-release.js
           node --test tests/*.test.mjs tests/*.test.cjs

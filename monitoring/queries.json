@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "from_publication_date": "2026-07-20",
+  "rows_per_query": 20,
+  "topics": [
+    {"id": "replication-preclinical", "query": "preclinical animal research reproducibility replication", "queue_ids": ["SR-01", "SR-20", "SR-21"]},
+    {"id": "animal-reporting-governance", "query": "ARRIVE animal research reporting checklist reproducibility", "queue_ids": ["SR-25", "SR-26", "SR-27", "SR-29"]},
+    {"id": "fair-preclinical-data", "query": "FAIR preclinical animal data reusability metadata", "queue_ids": ["SR-30"]},
+    {"id": "virtual-controls", "query": "virtual control group historical control preclinical toxicology", "queue_ids": ["SR-11", "SR-12", "SR-13", "SR-14", "SR-15"]},
+    {"id": "non-animal-methods", "query": "new approach methodologies organ on chip validation reproducibility toxicology", "queue_ids": ["SR-16", "SR-17", "SR-31"]},
+    {"id": "research-incentives", "query": "research incentives questionable research practices reproducibility intervention", "queue_ids": ["SR-19", "SR-22", "SR-23", "SR-24"]}
+  ]
+}

@@ -120,7 +120,8 @@ This repository must **not**:
 ## Workstream A — Review content and scientific claims
 
 ### ED-A01 — Adjudicate the 29 flagged low-trust / capped claims
-- **Status:** backlog · **Priority:** P1 · **Size:** L · **Agent:** no · **Upstream:** local
+- **Status:** blocked · **Priority:** P1 · **Size:** L · **Agent:** no · **Upstream:** local
+- **Protocol:** `FORWARD_WORK_PROTOCOLS.md` (blocked on qualified human reviewers; no decisions fabricated)
 - **Goal:** Human decision on each of the 29 claims currently flagged
   `human_review_required` (all are `low_trust`; 25 capped `contradicted_without_caveat`, 3 `overextended_scope`, 1 uncapped).
 - **Why it matters:** These are the claims whose current presentation is most
@@ -133,7 +134,8 @@ This repository must **not**:
 - **Files:** `knowledge/claim_graph.json`, `content/*.md`, `SCIENTIFIC_REVIEW_QUEUE.md`, `knowledge/trust_human_review_overrides.json`
 
 ### ED-A02 — Apply the 18 deferred SHOULD_CAVEAT amendments
-- **Status:** backlog · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Implementation:** PR #9; 15 present in current prose, 1 closed by Phase 16, 2 escalated as SR-30/SR-31
 - **Goal:** Resolve the 18 caveats deferred from Phase 8 to Phase 10 in `provenance/phase10_caveats.json`.
 - **Why it matters:** Several are metric-conflation issues (e.g. a 26% feasibility
   rate juxtaposed with 25%/11% replication rates) that overstate or blur findings.
@@ -145,7 +147,8 @@ This repository must **not**:
 - **Files:** `provenance/phase10_caveats.json`, `content/02_*`–`content/08_*`
 
 ### ED-A03 — Scope-control audit of "generalises across …" claims
-- **Status:** backlog · **Priority:** P2 · **Size:** M · **Agent:** no · **Upstream:** local
+- **Status:** blocked · **Priority:** P2 · **Size:** M · **Agent:** no · **Upstream:** local
+- **Protocol:** `FORWARD_WORK_PROTOCOLS.md` (blocked on the ED-A01 human decisions)
 - **Goal:** Review claims capped `overextended_scope` (e.g. the Ecuador
   national-systems generalisation, the ~2% availability anchor) for transferability.
 - **Why it matters:** Overextended scope is a subtle integrity risk distinct from citation error.
@@ -347,7 +350,8 @@ This repository must **not**:
 - **Files:** `knowledge/claim_graph.json`, `content/*.md`, `SCIENTIFIC_REVIEW_QUEUE.md`
 
 ### ED-C07 — Split compound single-atom claims during substantive review (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** L · **Agent:** no · **Upstream:** local
+- **Status:** blocked · **Priority:** P2 · **Size:** L · **Agent:** no · **Upstream:** local
+- **Protocol:** `FORWARD_WORK_PROTOCOLS.md` (only during substantive human review; originals retained)
 - **Goal:** Where a claim bundles multiple propositions, split into finer atoms *when a claim receives substantive human review*.
 - **Why it matters:** One-atom-per-claim is a coarse migration default; finer atoms improve attribution precision.
 - **Scope:** Human-guided atom splitting; preserve original record.
@@ -372,11 +376,13 @@ This repository must **not**:
 - **Dependencies:** none. **Files:** `scripts/migrate-trust-v2.js`, `knowledge/TRUST_RUBRIC.md`
 
 ### ED-C11 — Domain-specific TRUST calibration experiment (P3)
-- **Status:** backlog · **Priority:** P3 · **Size:** L · **Agent:** no · **Upstream:** TRUST fork
+- **Status:** blocked · **Priority:** P3 · **Size:** L · **Agent:** no · **Upstream:** TRUST fork
+- **Protocol:** `FORWARD_WORK_PROTOCOLS.md` (preregistered design; blocked on reviewers and upstream coordination)
 - **Goal:** Explore calibrating component thresholds to preclinical-animal-welfare literature; findings feed the fork, not local overrides.
 
 ### ED-C12 — Formal ontology alignment (P3)
-- **Status:** backlog · **Priority:** P3 · **Size:** L · **Agent:** no · **Upstream:** cross-repository
+- **Status:** blocked · **Priority:** P3 · **Size:** L · **Agent:** no · **Upstream:** cross-repository
+- **Protocol:** `FORWARD_WORK_PROTOCOLS.md` (blocked on target-ontology selection and owner agreement)
 - **Goal:** Explore aligning entities/scope vocabulary with an external ontology.
 
 ---
@@ -477,12 +483,14 @@ This repository must **not**:
 - **Files:** new `knowledge/REVIEWER_INSTRUCTIONS.md`, `scripts/`, `knowledge/trust_human_review_overrides.json`
 
 ### ED-E04 — Additional human adjudication rounds (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** L · **Agent:** no · **Upstream:** local
+- **Status:** blocked · **Priority:** P2 · **Size:** L · **Agent:** no · **Upstream:** local
+- **Protocol:** `FORWARD_WORK_PROTOCOLS.md` (blocked until qualified reviewer capacity exists)
 - **Goal:** Extend adjudication beyond the initial flagged set as capacity allows.
 - **Dependencies:** ED-E01, ED-E02, ED-E03. **Files:** `SCIENTIFIC_REVIEW_QUEUE.md`
 
 ### ED-E05 — Cross-review claim comparison experiments (P3)
-- **Status:** backlog · **Priority:** P3 · **Size:** L · **Agent:** no · **Upstream:** cross-repository (ORAtlas)
+- **Status:** blocked · **Priority:** P3 · **Size:** L · **Agent:** no · **Upstream:** cross-repository (ORAtlas)
+- **Protocol:** `FORWARD_WORK_PROTOCOLS.md` (blocked until a second compatible review is designated)
 - **Goal:** Explore comparing this review's claims against a second review once one exists.
 
 ---
@@ -547,7 +555,8 @@ This repository must **not**:
 - **Dependencies:** ED-F01. **Files:** new `knowledge/oratlas/fixtures/`
 
 ### ED-F06 — Public reviewer contribution workflow through ORAtlas (P3)
-- **Status:** backlog · **Priority:** P3 · **Size:** L · **Agent:** no · **Upstream:** ORAtlas
+- **Status:** blocked · **Priority:** P3 · **Size:** L · **Agent:** no · **Upstream:** ORAtlas
+- **Protocol:** `FORWARD_WORK_PROTOCOLS.md` (proposed immutable contribution contract; blocked on ORAtlas approval)
 - **Goal:** Explore how external reviewers could contribute challenges/assessments via ORAtlas against a frozen release.
 
 ---
@@ -583,7 +592,8 @@ This repository must **not**:
 - **Dependencies:** ED-G03. **Files:** `.github/workflows/deploy.yml`
 
 ### ED-G05 — Automated living-review monitoring (P3)
-- **Status:** backlog · **Priority:** P3 · **Size:** L · **Agent:** conditional · **Upstream:** cross-repository
+- **Status:** review · **Priority:** P3 · **Size:** L · **Agent:** conditional · **Upstream:** cross-repository
+- **Implementation:** PR #9; monthly read-only Crossref candidate artifact with no automated evidence mutation
 - **Goal:** Explore monitoring for new literature that would update flagged claims.
 
 ---
@@ -591,8 +601,8 @@ This repository must **not**:
 ## Workstream H — Release, provenance, and documentation
 
 ### ED-H01 — Define and validate the frozen reference-release contract
-- **Status:** in-progress · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
-- **Implementation:** PR #8; final tag and prerelease deferred to the complete stacked head
+- **Status:** review · **Priority:** P1 · **Size:** M · **Agent:** conditional · **Upstream:** local
+- **Implementation:** PRs #8 and #9; frozen stack head released as prerelease `v0.1.0-rc.1`
 - **Goal:** Acceptance criteria for the first stable ORAtlas-integration release:
   frozen record counts, frozen artifact hashes, validated MyST build, validated
   figures/notebooks, Chromium/Firefox/WebKit checks where possible, updated

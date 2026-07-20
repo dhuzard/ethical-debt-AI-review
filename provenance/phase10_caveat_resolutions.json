@@ -1,0 +1,31 @@
+{
+  "phase": 10,
+  "source": "provenance/phase10_caveats.json",
+  "policy": "Every source item is accounted for. already-applied means the current manuscript contains the requested qualification; phase16-verified-no-change means the later citation gate closed the provenance concern without a prose edit; escalated means scientific source checking remains necessary and no new fact was inferred.",
+  "summary": {
+    "total": 18,
+    "already_applied": 15,
+    "phase16_verified_no_change": 1,
+    "escalated": 2
+  },
+  "resolutions": [
+    {"id": 1, "status": "already-applied", "evidence": "content/02_reproducibility_crisis.md:217", "note": "The manuscript distinguishes the 26% feasibility ceiling from the 25% and 11% replication-success audits."},
+    {"id": 2, "status": "already-applied", "evidence": "content/03_data_welfare_3rs.md:736", "note": "Scarcity is limited to robust cross-model validation and the growing tool set is acknowledged."},
+    {"id": 3, "status": "already-applied", "evidence": "content/03_data_welfare_3rs.md:154", "note": "The higher support for specific high-benefit scenarios is stated as a counter-facet."},
+    {"id": 4, "status": "already-applied", "evidence": "content/03_data_welfare_3rs.md:305", "note": "Checklist efficacy is qualified by the randomized null result and enforcement context."},
+    {"id": 5, "status": "phase16-verified-no-change", "evidence": "provenance/citation_verification_highrisk.json; provenance/gate_fix_prep.json", "note": "The later high-risk citation verification found no actionable correction; the audit trail is retained in Phase 16 artifacts."},
+    {"id": 6, "status": "escalated", "evidence": "SCIENTIFIC_REVIEW_QUEUE.md#sr-30", "note": "The 2.4/10 and 2–3/10 values require full-text confirmation; figure caveats are retained and no new attribution is asserted."},
+    {"id": 7, "status": "already-applied", "evidence": "content/04_fair_preclinical_data.md:384", "note": "The 80% value is explicitly attributed to one analyst as an illustration."},
+    {"id": 8, "status": "already-applied", "evidence": "content/04_fair_preclinical_data.md:727", "note": "The donor-motivation discussion is explicitly identified as outside the animal-data scope."},
+    {"id": 9, "status": "already-applied", "evidence": "content/05_virtual_control_groups.md:950", "note": "The >120-confounder clause is attributed only to Yap2022."},
+    {"id": 10, "status": "already-applied", "evidence": "content/06_nams_data.md:419", "note": "Mone2020 is attached to NAM-enhanced read-across and excluded from the FDA Modernization Acts clause."},
+    {"id": 11, "status": "already-applied", "evidence": "content/06_nams_data.md:419; content/06_nams_data.md:489", "note": "The promissory clause uses Kopanska2022; Marx2025 appears with the adoption-reality discussion."},
+    {"id": 12, "status": "already-applied", "evidence": "content/06_nams_data.md:359", "note": "The DILI performance values are explicitly presented as reported by a qualification review."},
+    {"id": 13, "status": "escalated", "evidence": "SCIENTIFIC_REVIEW_QUEUE.md#sr-31", "note": "The 65–86% and 36–74% carcinogenicity values require confirmation against the Karmaus2026 full text."},
+    {"id": 14, "status": "already-applied", "evidence": "content/07_incentives.md:668", "note": "The image-duplication baseline is explicitly described as an earlier systematic screen cited secondarily by Richardson2025."},
+    {"id": 15, "status": "already-applied", "evidence": "content/07_incentives.md:351", "note": "The specialty audit is framed as an additional specialty within a wider multi-field pattern."},
+    {"id": 16, "status": "already-applied", "evidence": "content/08_governance_pathways.md:882", "note": "Automated whole-literature improvement is contrasted with item-level manual audits."},
+    {"id": 17, "status": "already-applied", "evidence": "content/08_governance_pathways.md:830", "note": "The 20-of-27 result is attributed only to Pavlovic2025."},
+    {"id": 18, "status": "already-applied", "evidence": "content/08_governance_pathways.md:251", "note": "The manuscript identifies the psychology/ecology-to-animal transfer and the smaller animal-specific evidence."}
+  ]
+}

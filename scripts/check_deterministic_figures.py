@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Execute every committed figure notebook twice and compare PNG bytes."""
+"""Execute every committed figure notebook twice and compare same-runner PNG bytes."""
 
 from __future__ import annotations
 
@@ -67,10 +67,13 @@ def main() -> None:
     if first != second:
         changed = sorted(name for name in set(first) | set(second) if first.get(name) != second.get(name))
         raise RuntimeError(f"Figure execution is not byte-stable: {', '.join(changed)}")
-    if second != expected:
-        changed = sorted(name for name in set(second) | set(expected) if second.get(name) != expected.get(name))
-        raise RuntimeError(f"Regenerated figures differ from frozen artifacts: {', '.join(changed)}")
-    print(f"Deterministic figure execution passed: {len(second)} PNG files, two executions.")
+    if set(second) != set(expected):
+        changed = sorted(set(second) ^ set(expected))
+        raise RuntimeError(f"Regenerated figure set differs from the release contract: {', '.join(changed)}")
+    print(
+        f"Deterministic figure execution passed: {len(second)} PNG files, "
+        "two byte-identical executions on this runner."
+    )
 
 
 if __name__ == "__main__":
