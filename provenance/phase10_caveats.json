@@ -1,6 +1,7 @@
 {
  "phase": 10,
  "note": "SHOULD_CAVEAT amendments from Phase 8 blinded critics. Citation discipline: use only keys_already_cited + keys_addable_from_citemap; NO other new citations.",
+ "resolution_artifact": "provenance/phase10_caveat_resolutions.json",
  "items": [
   {
    "id": 1,

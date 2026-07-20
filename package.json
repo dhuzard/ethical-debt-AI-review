@@ -4,7 +4,7 @@
   "scripts": {
     "test": "node --test tests/*.test.mjs tests/*.test.cjs",
     "test:browser": "playwright test",
-    "validate": "node scripts/record-counts.js && node scripts/human-review-store.js && node scripts/review-priority.js && node scripts/claim-quality-audit.js && node scripts/validate-evidence.js && node scripts/validate-oratlas.js && node scripts/build-oratlas-fixtures.js && node scripts/validate-trust.js && node scripts/test-trust-validator.js && node scripts/release-artifacts.js && node scripts/validate-release.js",
+    "validate": "node scripts/record-counts.js && node scripts/human-review-store.js && node scripts/review-priority.js && node scripts/claim-quality-audit.js && node scripts/validate-evidence.js && node scripts/validate-oratlas.js && node scripts/build-oratlas-fixtures.js && node scripts/validate-trust.js && node scripts/test-trust-validator.js && node scripts/validate-forward-work.mjs && node scripts/literature-monitor.mjs && node scripts/release-artifacts.js && node scripts/validate-release.js",
     "build": "myst build --html",
     "build:deterministic": "node scripts/check-deterministic-build.js",
     "release:check": "npm run validate && npm test && npm run test:browser && python scripts/check_deterministic_figures.py && npm run build:deterministic"

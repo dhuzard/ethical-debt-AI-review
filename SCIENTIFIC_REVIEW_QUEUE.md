@@ -261,16 +261,29 @@ statistical/methodological 3 · governance interpretation 5; plus 18 deferred ca
 
 ---
 
-## Group 6 — Wording overstatement
+## Group 6 — Wording overstatement and deferred source verification
 
-The 18 `SHOULD_CAVEAT` amendments deferred to Phase 10 (`provenance/phase10_caveats.json`)
-are wording-overstatement items — e.g. item 1 conflates a 26% experiment-feasibility
-rate with the 25%/11% replication rates in the same "echo" claim. They are tracked for
-application by backlog item **ED-A02**. Each should be applied verbatim from its
-`suggested_fix` only when it needs no new data; otherwise promote it to a numbered
-`SR-` entry here. Do not delete a caveat without recording a decision.
+All 18 Phase 10 `SHOULD_CAVEAT` items are accounted for in
+`provenance/phase10_caveat_resolutions.json`: 15 qualifications are present in the
+current manuscript, one provenance gap was closed by the Phase 16 citation gate,
+and the two source-dependent items below remain escalated. No source-dependent
+number was accepted merely to close the backlog.
 
-- **Status:** pending (batch, via ED-A02) · **Suggested expertise:** subject-matter reviewer per section
+### SR-30
+- **Phase 10 item:** 6 · **Section:** FAIR preclinical data
+- **Claim text:** Reusability sub-scores of 2.4/10 (Uribe2022) and 2–3/10 (Syed2025).
+- **Reason review is needed:** The committed evidence-package source sentences do not contain these exact values; both require confirmation against the full texts and their scoring methods.
+- **Relevant citations:** Uribe2022, Syed2025
+- **Consequence if incorrect:** The figure and prose may report incomparable or incorrectly transcribed scores.
+- **Suggested expertise:** FAIR-data assessment · **Status:** pending · **Decision:** _—_
+
+### SR-31
+- **Phase 10 item:** 13 · **Section:** NAMs and data
+- **Claim text:** Rodent carcinogenicity agreement of 65–86% within species and 36–74% between rat and mouse.
+- **Reason review is needed:** The committed authoritative sentence for Karmaus2026 covers the endocrine-assay figures but not both carcinogenicity ranges; the full text or primary source must be checked.
+- **Relevant citations:** Karmaus2026
+- **Consequence if incorrect:** A quantitative premise in the critique of animal-reference reproducibility would be unsupported.
+- **Suggested expertise:** Regulatory toxicology · **Status:** pending · **Decision:** _—_
 
 ---
 
