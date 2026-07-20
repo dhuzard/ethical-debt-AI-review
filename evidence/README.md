@@ -5,20 +5,20 @@ interactive Evidence Explorer widget on the review site.
 
 ## Expected File Format
 
-The `evidence-explorer-plugin.mjs` scans this directory for per-section
-JSON files named:
+The `evidence-explorer-plugin.mjs` scans this directory for the canonical
+per-section JSON files named:
 
 ```
-section_02_evidence_package.json
-section_03_evidence_package.json
+evidence_section_01.json
+evidence_section_02.json
 ...
-section_NN_evidence_package.json
+evidence_section_NN.json
 ```
 
-One file per core review section. Section numbering starts at 02 (the
-Introduction is section 01 and has no evidence package); the upper bound is
-set by the user's table of contents — typical reviews land between section_08
-and section_13, but the orchestrator is agnostic to the exact section count.
+This review has one file for each section, including the Introduction and
+Conclusion synthesis packages. For compatibility with older template outputs,
+the loader also accepts `section_NN_evidence_package.json` and
+`section_NN_evidence.json`; a canonical file wins if both forms exist.
 
 ## JSON Schema
 
@@ -66,7 +66,8 @@ The pipeline's Phase 5 (Evidence Curation) builds per-section evidence
 packages from the raw cluster evidence. Phase 14 (Assembly) should split
 and copy these into this directory.
 
-A combined `evidence_database.json` may also be generated, but the
-evidence-explorer plugin does **not** read it directly — it requires
-the individual per-section files.
+`unique_papers` and `total_findings` are optional. The explorer derives finding
+counts from `findings[]` and paper counts from unique finding DOI/citation keys.
+A combined `evidence_database.json` may also be generated, but the explorer does
+**not** read it directly — it requires the individual per-section files.
 

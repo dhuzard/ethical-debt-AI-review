@@ -172,7 +172,7 @@ This repository must **not**:
 ## Workstream B — Literature evidence database
 
 ### ED-B01 — Audit `evidence/` and produce a machine-readable migration report
-- **Status:** ready · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local (loader fix may be upstream template)
+- **Status:** review · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local (loader fix may be upstream template)
 - **Goal:** Inventory every file in `evidence/`, determine why the Evidence
   Explorer renders empty, identify which expected section packages exist, and
   produce a traceable evidence migration report.
@@ -191,7 +191,7 @@ This repository must **not**:
 - **Files:** `evidence/*.json`, `evidence/README.md`, new `evidence/EVIDENCE_MIGRATION_REPORT.md`
 
 ### ED-B02 — Fix the Evidence Explorer so packages actually load
-- **Status:** ready · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** upstream template (loader is generic)
+- **Status:** review · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** upstream template (loader is generic)
 - **Goal:** Make the Evidence Explorer read the real files and display the rich findings.
 - **Why it matters:** Two defects make it silently empty/wrong: (1) filename
   mismatch — plugin scans `section_NN_evidence_package.json`/`section_NN_evidence.json`

@@ -2,6 +2,63 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 
+const EVIDENCE_FILE_PATTERNS = [
+  { pattern: /^evidence_section_(\d{2})\.json$/, priority: 0 },
+  { pattern: /^section_(\d{2})_evidence_package\.json$/, priority: 1 },
+  { pattern: /^section_(\d{2})_evidence\.json$/, priority: 2 },
+];
+
+export function discoverEvidencePackages(evidenceDir) {
+  const sections = new Map();
+  for (const filename of readdirSync(evidenceDir)) {
+    for (const { pattern, priority } of EVIDENCE_FILE_PATTERNS) {
+      const match = filename.match(pattern);
+      if (!match) continue;
+      const section = Number(match[1]);
+      const existing = sections.get(section);
+      if (!existing || priority < existing.priority) {
+        sections.set(section, {
+          section,
+          filename,
+          filePath: resolve(evidenceDir, filename),
+          priority,
+        });
+      }
+      break;
+    }
+  }
+  return [...sections.values()].sort((a, b) => a.section - b.section);
+}
+
+export function extractFindings(evidencePackage) {
+  if (Array.isArray(evidencePackage.findings)) {
+    return evidencePackage.findings.filter(finding => finding && typeof finding === 'object');
+  }
+
+  const findings = [];
+  const groups = evidencePackage.argument_groups;
+  if (groups && typeof groups === 'object') {
+    for (const group of Object.values(groups)) {
+      if (!group || typeof group !== 'object') continue;
+      for (const key of ['supporting_findings', 'supporting_evidence', 'counter_findings', 'counter_evidence']) {
+        if (Array.isArray(group[key])) findings.push(...group[key]);
+      }
+    }
+  }
+  if (Array.isArray(evidencePackage.unmatched_findings)) {
+    findings.push(...evidencePackage.unmatched_findings);
+  }
+  return findings.filter(finding => finding && typeof finding === 'object');
+}
+
+export function countUniquePapers(findings) {
+  return new Set(findings
+    .map(finding => finding.doi || finding.cite_key || finding.citeKey)
+    .filter(Boolean)
+    .map(identifier => String(identifier).trim().toLowerCase()))
+    .size;
+}
+
 const evidenceDirective = {
   name: 'evidence-explorer',
   doc: 'Interactive evidence database explorer widget. The :evidence-dir: option is resolved relative to the calling markdown file. Default "../evidence" is correct when the directive is placed in a content/*.md page (the conventional layout).',
@@ -142,60 +199,39 @@ const evidenceTransform = {
           const allConflicts = [];
           const allFigureData = [];
 
-          for (let sec = 2; sec <= 13; sec++) {
-            const padded = String(sec).padStart(2, '0');
-            let filePath = resolve(evidenceDir, 'section_' + padded + '_evidence_package.json');
-            let raw;
-            try {
-              raw = readFileSync(filePath, 'utf-8');
-            } catch (e) {
-              try {
-                filePath = resolve(evidenceDir, 'section_' + padded + '_evidence.json');
-                raw = readFileSync(filePath, 'utf-8');
-              } catch (e2) { continue; }
-            }
-            
-            const ev = JSON.parse(raw);
+          for (const evidenceFile of discoverEvidencePackages(evidenceDir)) {
+            const sec = evidenceFile.section;
+            const ev = JSON.parse(readFileSync(evidenceFile.filePath, 'utf-8'));
 
-            // Extract findings
-            let findings = [];
-            const ag = ev.argument_groups;
-            if (ag && typeof ag === 'object') {
-              for (const [topicKey, topicVal] of Object.entries(ag)) {
-                if (topicVal && typeof topicVal === 'object') {
-                  const supporting = topicVal.supporting_findings || topicVal.supporting_evidence || [];
-                  const counter = topicVal.counter_findings || topicVal.counter_evidence || [];
-                  if (Array.isArray(supporting)) findings.push(...supporting);
-                  if (Array.isArray(counter)) findings.push(...counter);
-                }
-              }
-            }
-            if (Array.isArray(ev.unmatched_findings)) findings.push(...ev.unmatched_findings);
-            if (findings.length === 0 && Array.isArray(ev.findings)) findings = ev.findings;
+            // Rich finding records are canonical. argument_groups are a legacy
+            // fallback and may contain cite-key strings rather than records.
+            const findings = extractFindings(ev);
 
             // Normalize conflicts using the universal normalizer
             const conflicts = (ev.conflicts || []).map(c => normalizeConflict(c, sec));
 
             const figData = ev.figure_data || [];
 
-            findings.forEach(f => {
-              f.section = sec;
-              f.section_title = ev.section_title || '';
-              if (!f.tier && f.replication_status) f.tier = f.replication_status;
-            });
-            figData.forEach(fd => { fd.section = sec; });
+            const normalizedFindings = findings.map(f => ({
+              ...f,
+              section: sec,
+              section_title: ev.section_title || '',
+              tier: f.tier || f.replication_status,
+            }));
+            const normalizedFigData = figData.map(fd => ({ ...fd, section: sec }));
 
             sections.push({
               section: sec,
               title: ev.section_title || ('Section ' + sec),
-              papers: ev.unique_papers || ev.total_findings || findings.length,
-              findings: findings.length,
+              papers: countUniquePapers(normalizedFindings),
+              findings: normalizedFindings.length,
               conflicts: conflicts.length,
-              figure_comparisons: figData.length,
+              figure_comparisons: normalizedFigData.length,
+              source_file: evidenceFile.filename,
             });
-            allFindings.push(...findings);
+            allFindings.push(...normalizedFindings);
             allConflicts.push(...conflicts);
-            allFigureData.push(...figData);
+            allFigureData.push(...normalizedFigData);
           }
 
           node.type = 'anywidget';
