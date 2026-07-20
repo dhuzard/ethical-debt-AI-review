@@ -479,7 +479,7 @@ This repository must **not**:
 ## Workstream F — ORAtlas interoperability
 
 ### ED-F01 — Contract tests against the ORAtlas manifest and artifact schemas
-- **Status:** ready · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** cross-repository (schemas from ORAtlas)
+- **Status:** review · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** cross-repository (schemas from ORAtlas)
 - **Goal:** Automated tests validating `review-manifest.json` and the four
   `knowledge/oratlas/*.jsonl` + `provenance.json` against the ORAtlas contract.
 - **Why it matters:** The export currently has no tests; a schema drift in either repo would break ingestion silently.
@@ -491,7 +491,7 @@ This repository must **not**:
 - **Files:** `tests/`, `scripts/export-oratlas.js`, `knowledge/oratlas/`, `review-manifest.json`
 
 ### ED-F02 — Verify and lock export semantics (claim-level, not-assessed, source assessment)
-- **Status:** ready · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local (semantics) + cross-repository (contract)
+- **Status:** review · **Priority:** P0 · **Size:** M · **Agent:** yes · **Upstream:** local (semantics) + cross-repository (contract)
 - **Goal:** Assert, in tests, that the export: keeps native TRUST v2 **claim-level**
   and never emits it as an ORAtlas relation-level aggregate; keeps all ten ORAtlas
   criteria `not-assessed` unless actually assessed; preserves native TRUST under an
@@ -509,7 +509,7 @@ This repository must **not**:
 - **Files:** `scripts/export-oratlas.js`, `tests/`, `TRUST.md`, `knowledge/oratlas/provenance.json`
 
 ### ED-F03 — Prevent source human-review from reading as ORAtlas platform verification
-- **Status:** ready · **Priority:** P0 · **Size:** S · **Agent:** yes · **Upstream:** cross-repository
+- **Status:** review · **Priority:** P0 · **Size:** S · **Agent:** yes · **Upstream:** cross-repository
 - **Goal:** The `humanReviewed`/`reviewStatus: human-reviewed` fields must clearly
   denote *source-side* review, not ORAtlas platform adjudication.
 - **Why it matters:** Export marks 34 relations `human-reviewed` by matching claim
@@ -522,7 +522,7 @@ This repository must **not**:
 - **Files:** `scripts/export-oratlas.js`, `knowledge/oratlas/`, `TRUST.md`
 
 ### ED-F04 — Export exact record counts and artifact hashes
-- **Status:** backlog · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
 - **Goal:** The export writes exact record counts and content hashes for each artifact into `provenance.json`.
 - **Why it matters:** ORAtlas needs to verify it ingested the exact artifacts; hashes make ingestion tamper-evident and reproducible.
 - **Scope:** Add per-artifact SHA-256 and counts to the export provenance; assert in CI.
@@ -531,7 +531,7 @@ This repository must **not**:
 - **Files:** `scripts/export-oratlas.js`, `knowledge/oratlas/provenance.json`
 
 ### ED-F05 — Additional immutable ORAtlas ingestion fixtures (P2)
-- **Status:** backlog · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** cross-repository
+- **Status:** review · **Priority:** P2 · **Size:** M · **Agent:** yes · **Upstream:** cross-repository
 - **Goal:** Curated small fixtures (edge cases: contradictory context, capped claim, multi-citation claim) for ORAtlas ingestion tests, pinned to a commit.
 - **Dependencies:** ED-F01. **Files:** new `knowledge/oratlas/fixtures/`
 
@@ -552,7 +552,7 @@ This repository must **not**:
 - **Files:** `knowledge/schemas/`, `scripts/validate-trust.js`, `.github/workflows/deploy.yml`
 
 ### ED-G02 — Record-count and hash checks in CI
-- **Status:** backlog · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
+- **Status:** review · **Priority:** P1 · **Size:** S · **Agent:** yes · **Upstream:** local
 - **Goal:** CI asserts the single-source counts (ED-C03) and export hashes (ED-F04) match reality.
 - **Dependencies:** ED-C03, ED-F04.
 - **Acceptance:** Divergence between `record_counts.json`, artifacts, and prose fails CI.

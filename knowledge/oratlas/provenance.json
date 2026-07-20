@@ -4,21 +4,51 @@
   "generator": "scripts/export-oratlas.js",
   "sourceArtifacts": [
     "knowledge/claim_graph.json",
-    "knowledge/trust_human_review_overrides.json"
+    "knowledge/trust_human_review_overrides.json",
+    "knowledge/record_counts.json"
   ],
+  "contract": {
+    "repository": "dhuzard/oratlas",
+    "commit": "102d3fa96d47e9e7773720b0c36802f888cca4fe",
+    "manifestSchema": "packages/contracts/schemas/review-manifest.schema.json",
+    "artifactContract": "packages/contracts/src/artifacts.ts"
+  },
   "sourceSchemaVersion": "2.0.0",
   "sourceRubricVersion": "2.0.0",
   "semantics": {
     "claims": "Canonical claim records from the TRUST v2 claim graph.",
     "relations": "Claim-citation contexts exported without changing their evidence role.",
-    "trust": "Original claim-level five-component scores retained as source aggregates; all Oratlas relation-level criteria explicitly remain not assessed.",
-    "humanReview": "A relation is marked human-reviewed when its canonical claim text occurs in an approved human-review override decision."
+    "trust": "Original claim-level five-component scores are retained only under evidence.sourceAssessment; aggregateScore is null and all Oratlas relation-level criteria explicitly remain not assessed.",
+    "humanReview": "Source-side decisions are retained under evidence.sourceHumanReview with authority=source-review. ORAtlas relation humanReviewed remains false and reviewStatus remains agent-proposed until platform verification."
   },
   "counts": {
     "claims": 529,
     "citations": 994,
     "relations": 1392,
     "trustAssessments": 1392,
-    "humanReviewedRelations": 34
+    "sourceHumanReviewedRelations": 34,
+    "platformHumanReviewedRelations": 0
+  },
+  "artifacts": {
+    "claims.jsonl": {
+      "records": 529,
+      "bytes": 369692,
+      "sha256": "4630ba7c558d2f327b4ab43955fbd5b5d58cb11d4a0708000b05c5895a552a25"
+    },
+    "citations.jsonl": {
+      "records": 994,
+      "bytes": 124448,
+      "sha256": "af46805ccf09e33099e8fc1bb894110f869cee418688410c3b3486e9c3b30f3b"
+    },
+    "relations.jsonl": {
+      "records": 1392,
+      "bytes": 394856,
+      "sha256": "09a43112c089387e78e029f191bace9124f0cfa89514b608dd73e2a134510b27"
+    },
+    "trust-assessments.jsonl": {
+      "records": 1392,
+      "bytes": 2340810,
+      "sha256": "8f03964d4f3e2efda2b7c96c8fb6d91617fe5531f2c598b0746ad8336d4b1642"
+    }
   }
 }

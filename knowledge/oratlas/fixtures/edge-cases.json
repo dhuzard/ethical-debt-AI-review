@@ -1,0 +1,958 @@
+{
+  "schemaVersion": "1.0.0",
+  "source": {
+    "repository": "dhuzard/ethical-debt-AI-review",
+    "commit": "2bc70804d465eabf4f5d51dfa72478671adce2f3"
+  },
+  "cases": {
+    "contradicted_capped": {
+      "claim": {
+        "id": "clm_f88a8b2eb442ae7f",
+        "text": "Their value is not their precision but their convergence with a theoretical prior — that under realistic assumptions about power, bias, and pre-study odds, a research claim in most fields is more likely false than true.",
+        "section": "sec-repro-crisis",
+        "anchor": "content/02_reproducibility_crisis.md#clm_f88a8b2eb442ae7f",
+        "claimType": "methodological",
+        "qualification": "Source claim type: methodological; modality: suggestive; scope status: minor_difference_qualified.",
+        "scope": {
+          "model": "simulation",
+          "outcome": "false-findings prior / crisis narrative",
+          "method": "research-reliability theory; simulation"
+        }
+      },
+      "relations": [
+        {
+          "claimId": "clm_f88a8b2eb442ae7f",
+          "citationId": "Ioannidis2005b",
+          "relationType": "partially-supports",
+          "supportDirection": "mixed",
+          "sourceLocation": "content/02_reproducibility_crisis.md#clm_f88a8b2eb442ae7f",
+          "extractionMethod": "ComputationalReviewTemplate TRUST v2 claim graph",
+          "humanReviewed": false
+        }
+      ],
+      "trustAssessments": [
+        {
+          "claimId": "clm_f88a8b2eb442ae7f",
+          "citationId": "Ioannidis2005b",
+          "protocolVersion": "review-trust-v2.0.0",
+          "assessorType": "agent",
+          "assessorId": "ComputationalReviewTemplate TRUST v2",
+          "assessedAt": "2026-07-16T09:53:30.688Z",
+          "criteria": {
+            "identityIntegrity": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "entailment": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "sourceAccess": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "populationRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "interventionExposureRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "outcomeRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "methodologicalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "statisticalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "replicationConvergence": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "conflictDependency": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            }
+          },
+          "limitations": [
+            "Claim-level source score repeated for transport; not an Oratlas relation score or crosswalk."
+          ],
+          "evidence": {
+            "sourceAssessment": {
+              "protocol": "ComputationalReviewTemplate TRUST",
+              "protocolVersion": "2.0.0",
+              "rubricVersion": "2.0.0",
+              "unit": "claim-level score on a 0-100 scale",
+              "score": 60,
+              "label": "low_trust",
+              "components": {
+                "traceability": [
+                  4,
+                  "T4_ATOM_LEVEL"
+                ],
+                "robustness": [
+                  3,
+                  "R3_ATTRIBUTION_COMPLETE"
+                ],
+                "uncertainty_calibration": [
+                  0,
+                  "U0_OVERSTATED"
+                ],
+                "source_integrity": [
+                  4,
+                  "S4_VERIFIED_PRIMARY"
+                ],
+                "transferability_scope_control": [
+                  3,
+                  "X3_MINOR_QUALIFIER"
+                ]
+              },
+              "provenance": "content/02_reproducibility_crisis.md#clm_f88a8b2eb442ae7f"
+            },
+            "sourceHumanReview": null
+          },
+          "aggregateScore": null,
+          "aggregateMethod": null,
+          "reviewStatus": "agent-proposed"
+        }
+      ]
+    },
+    "overextended_scope": {
+      "claim": {
+        "id": "clm_0fde28aeec8b0c15",
+        "text": "The empirical anchor the review returns to most often — that actual, usable data availability sits near two percent while declared availability and paperwork compliance sit far above it — recurs across FAIR audits, incentive studies, and governance evaluations alike, and it is against that near-static baseline — the empirical ~2% availability anchor — that every enforcement result must be judged.",
+        "section": "sec-introduction",
+        "anchor": "content/01_introduction.md#clm_0fde28aeec8b0c15",
+        "claimType": "empirical",
+        "qualification": "Source claim type: empirical; modality: contested; scope status: overextended.",
+        "scope": {
+          "population": "biomedical/animal research data; medical & health-sciences articles",
+          "model": "biomedical/animal research data; FAIR data & repositories",
+          "outcome": "medical & health-sciences articles; open-data mandates & governance",
+          "method": "data-availability audits; FAIR data & repositories"
+        }
+      },
+      "relations": [
+        {
+          "claimId": "clm_0fde28aeec8b0c15",
+          "citationId": "Hamilton2022",
+          "relationType": "supports",
+          "supportDirection": "positive",
+          "sourceLocation": "content/01_introduction.md#clm_0fde28aeec8b0c15",
+          "extractionMethod": "ComputationalReviewTemplate TRUST v2 claim graph",
+          "humanReviewed": false
+        },
+        {
+          "claimId": "clm_0fde28aeec8b0c15",
+          "citationId": "Hamilton2023",
+          "relationType": "supports",
+          "supportDirection": "positive",
+          "sourceLocation": "content/01_introduction.md#clm_0fde28aeec8b0c15",
+          "extractionMethod": "ComputationalReviewTemplate TRUST v2 claim graph",
+          "humanReviewed": false
+        },
+        {
+          "claimId": "clm_0fde28aeec8b0c15",
+          "citationId": "Macleod2019b",
+          "relationType": "supports",
+          "supportDirection": "positive",
+          "sourceLocation": "content/01_introduction.md#clm_0fde28aeec8b0c15",
+          "extractionMethod": "ComputationalReviewTemplate TRUST v2 claim graph",
+          "humanReviewed": false
+        },
+        {
+          "claimId": "clm_0fde28aeec8b0c15",
+          "citationId": "VanTuyl2016",
+          "relationType": "supports",
+          "supportDirection": "positive",
+          "sourceLocation": "content/01_introduction.md#clm_0fde28aeec8b0c15",
+          "extractionMethod": "ComputationalReviewTemplate TRUST v2 claim graph",
+          "humanReviewed": false
+        }
+      ],
+      "trustAssessments": [
+        {
+          "claimId": "clm_0fde28aeec8b0c15",
+          "citationId": "Hamilton2022",
+          "protocolVersion": "review-trust-v2.0.0",
+          "assessorType": "agent",
+          "assessorId": "ComputationalReviewTemplate TRUST v2",
+          "assessedAt": "2026-07-16T09:53:30.688Z",
+          "criteria": {
+            "identityIntegrity": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "entailment": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "sourceAccess": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "populationRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "interventionExposureRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "outcomeRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "methodologicalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "statisticalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "replicationConvergence": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "conflictDependency": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            }
+          },
+          "limitations": [
+            "Claim-level source score repeated for transport; not an Oratlas relation score or crosswalk."
+          ],
+          "evidence": {
+            "sourceAssessment": {
+              "protocol": "ComputationalReviewTemplate TRUST",
+              "protocolVersion": "2.0.0",
+              "rubricVersion": "2.0.0",
+              "unit": "claim-level score on a 0-100 scale",
+              "score": 55,
+              "label": "low_trust",
+              "components": {
+                "traceability": [
+                  4,
+                  "T4_ATOM_LEVEL"
+                ],
+                "robustness": [
+                  4,
+                  "R4_REPLICATED_PER_ATOM"
+                ],
+                "uncertainty_calibration": [
+                  0,
+                  "U0_OVERSTATED"
+                ],
+                "source_integrity": [
+                  3,
+                  "S3_MIXED_CHECKS"
+                ],
+                "transferability_scope_control": [
+                  0,
+                  "X0_OVEREXTENDED"
+                ]
+              },
+              "provenance": "content/01_introduction.md#clm_0fde28aeec8b0c15"
+            },
+            "sourceHumanReview": null
+          },
+          "aggregateScore": null,
+          "aggregateMethod": null,
+          "reviewStatus": "agent-proposed"
+        },
+        {
+          "claimId": "clm_0fde28aeec8b0c15",
+          "citationId": "Hamilton2023",
+          "protocolVersion": "review-trust-v2.0.0",
+          "assessorType": "agent",
+          "assessorId": "ComputationalReviewTemplate TRUST v2",
+          "assessedAt": "2026-07-16T09:53:30.688Z",
+          "criteria": {
+            "identityIntegrity": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "entailment": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "sourceAccess": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "populationRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "interventionExposureRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "outcomeRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "methodologicalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "statisticalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "replicationConvergence": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "conflictDependency": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            }
+          },
+          "limitations": [
+            "Claim-level source score repeated for transport; not an Oratlas relation score or crosswalk."
+          ],
+          "evidence": {
+            "sourceAssessment": {
+              "protocol": "ComputationalReviewTemplate TRUST",
+              "protocolVersion": "2.0.0",
+              "rubricVersion": "2.0.0",
+              "unit": "claim-level score on a 0-100 scale",
+              "score": 55,
+              "label": "low_trust",
+              "components": {
+                "traceability": [
+                  4,
+                  "T4_ATOM_LEVEL"
+                ],
+                "robustness": [
+                  4,
+                  "R4_REPLICATED_PER_ATOM"
+                ],
+                "uncertainty_calibration": [
+                  0,
+                  "U0_OVERSTATED"
+                ],
+                "source_integrity": [
+                  3,
+                  "S3_MIXED_CHECKS"
+                ],
+                "transferability_scope_control": [
+                  0,
+                  "X0_OVEREXTENDED"
+                ]
+              },
+              "provenance": "content/01_introduction.md#clm_0fde28aeec8b0c15"
+            },
+            "sourceHumanReview": null
+          },
+          "aggregateScore": null,
+          "aggregateMethod": null,
+          "reviewStatus": "agent-proposed"
+        },
+        {
+          "claimId": "clm_0fde28aeec8b0c15",
+          "citationId": "Macleod2019b",
+          "protocolVersion": "review-trust-v2.0.0",
+          "assessorType": "agent",
+          "assessorId": "ComputationalReviewTemplate TRUST v2",
+          "assessedAt": "2026-07-16T09:53:30.688Z",
+          "criteria": {
+            "identityIntegrity": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "entailment": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "sourceAccess": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "populationRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "interventionExposureRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "outcomeRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "methodologicalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "statisticalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "replicationConvergence": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "conflictDependency": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            }
+          },
+          "limitations": [
+            "Claim-level source score repeated for transport; not an Oratlas relation score or crosswalk."
+          ],
+          "evidence": {
+            "sourceAssessment": {
+              "protocol": "ComputationalReviewTemplate TRUST",
+              "protocolVersion": "2.0.0",
+              "rubricVersion": "2.0.0",
+              "unit": "claim-level score on a 0-100 scale",
+              "score": 55,
+              "label": "low_trust",
+              "components": {
+                "traceability": [
+                  4,
+                  "T4_ATOM_LEVEL"
+                ],
+                "robustness": [
+                  4,
+                  "R4_REPLICATED_PER_ATOM"
+                ],
+                "uncertainty_calibration": [
+                  0,
+                  "U0_OVERSTATED"
+                ],
+                "source_integrity": [
+                  3,
+                  "S3_MIXED_CHECKS"
+                ],
+                "transferability_scope_control": [
+                  0,
+                  "X0_OVEREXTENDED"
+                ]
+              },
+              "provenance": "content/01_introduction.md#clm_0fde28aeec8b0c15"
+            },
+            "sourceHumanReview": null
+          },
+          "aggregateScore": null,
+          "aggregateMethod": null,
+          "reviewStatus": "agent-proposed"
+        },
+        {
+          "claimId": "clm_0fde28aeec8b0c15",
+          "citationId": "VanTuyl2016",
+          "protocolVersion": "review-trust-v2.0.0",
+          "assessorType": "agent",
+          "assessorId": "ComputationalReviewTemplate TRUST v2",
+          "assessedAt": "2026-07-16T09:53:30.688Z",
+          "criteria": {
+            "identityIntegrity": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "entailment": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "sourceAccess": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "populationRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "interventionExposureRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "outcomeRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "methodologicalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "statisticalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "replicationConvergence": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "conflictDependency": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            }
+          },
+          "limitations": [
+            "Claim-level source score repeated for transport; not an Oratlas relation score or crosswalk."
+          ],
+          "evidence": {
+            "sourceAssessment": {
+              "protocol": "ComputationalReviewTemplate TRUST",
+              "protocolVersion": "2.0.0",
+              "rubricVersion": "2.0.0",
+              "unit": "claim-level score on a 0-100 scale",
+              "score": 55,
+              "label": "low_trust",
+              "components": {
+                "traceability": [
+                  4,
+                  "T4_ATOM_LEVEL"
+                ],
+                "robustness": [
+                  4,
+                  "R4_REPLICATED_PER_ATOM"
+                ],
+                "uncertainty_calibration": [
+                  0,
+                  "U0_OVERSTATED"
+                ],
+                "source_integrity": [
+                  3,
+                  "S3_MIXED_CHECKS"
+                ],
+                "transferability_scope_control": [
+                  0,
+                  "X0_OVEREXTENDED"
+                ]
+              },
+              "provenance": "content/01_introduction.md#clm_0fde28aeec8b0c15"
+            },
+            "sourceHumanReview": null
+          },
+          "aggregateScore": null,
+          "aggregateMethod": null,
+          "reviewStatus": "agent-proposed"
+        }
+      ]
+    },
+    "multi_citation": {
+      "claim": {
+        "id": "clm_c5b4d84c46bcacf3",
+        "text": "The reproducibility literature independently prices the reliability side of the same failure: a probability-bounds economic model puts the cumulative preclinical irreproducibility rate above half and attaches a modelled cost of tens of billions of dollars a year to it in the United States alone, a figure that sits within broader accountings of avoidable research waste that reach a widely repeated — and, we will argue, over-cited — estimate that most biomedical research investment is squandered, and that is consistent with a theoretical prior holding that, under realistic assumptions about power and bias, most published research claims are more likely false than true.",
+        "section": "sec-introduction",
+        "anchor": "content/01_introduction.md#clm_c5b4d84c46bcacf3",
+        "claimType": "summary",
+        "qualification": "Source claim type: review_synthesis; modality: suggestive; scope status: minor_difference_qualified.",
+        "scope": {
+          "model": "probability-bounds economic modelling of irreproducibility",
+          "outcome": "research waste and reliability of published findings",
+          "method": "meta-research on research waste and false-findings priors; probability-bounds economic modelling of irreproducibility"
+        }
+      },
+      "relations": [
+        {
+          "claimId": "clm_c5b4d84c46bcacf3",
+          "citationId": "Chalmers2014",
+          "relationType": "supports",
+          "supportDirection": "positive",
+          "sourceLocation": "content/01_introduction.md#clm_c5b4d84c46bcacf3",
+          "extractionMethod": "ComputationalReviewTemplate TRUST v2 claim graph",
+          "humanReviewed": false
+        },
+        {
+          "claimId": "clm_c5b4d84c46bcacf3",
+          "citationId": "Freedman2015",
+          "relationType": "supports",
+          "supportDirection": "positive",
+          "sourceLocation": "content/01_introduction.md#clm_c5b4d84c46bcacf3",
+          "extractionMethod": "ComputationalReviewTemplate TRUST v2 claim graph",
+          "humanReviewed": false
+        },
+        {
+          "claimId": "clm_c5b4d84c46bcacf3",
+          "citationId": "Ioannidis2005b",
+          "relationType": "partially-supports",
+          "supportDirection": "mixed",
+          "sourceLocation": "content/01_introduction.md#clm_c5b4d84c46bcacf3",
+          "extractionMethod": "ComputationalReviewTemplate TRUST v2 claim graph",
+          "humanReviewed": false
+        },
+        {
+          "claimId": "clm_c5b4d84c46bcacf3",
+          "citationId": "Ioannidis2014c",
+          "relationType": "supports",
+          "supportDirection": "positive",
+          "sourceLocation": "content/01_introduction.md#clm_c5b4d84c46bcacf3",
+          "extractionMethod": "ComputationalReviewTemplate TRUST v2 claim graph",
+          "humanReviewed": false
+        }
+      ],
+      "trustAssessments": [
+        {
+          "claimId": "clm_c5b4d84c46bcacf3",
+          "citationId": "Chalmers2014",
+          "protocolVersion": "review-trust-v2.0.0",
+          "assessorType": "agent",
+          "assessorId": "ComputationalReviewTemplate TRUST v2",
+          "assessedAt": "2026-07-16T09:53:30.688Z",
+          "criteria": {
+            "identityIntegrity": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "entailment": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "sourceAccess": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "populationRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "interventionExposureRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "outcomeRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "methodologicalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "statisticalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "replicationConvergence": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "conflictDependency": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            }
+          },
+          "limitations": [
+            "Claim-level source score repeated for transport; not an Oratlas relation score or crosswalk."
+          ],
+          "evidence": {
+            "sourceAssessment": {
+              "protocol": "ComputationalReviewTemplate TRUST",
+              "protocolVersion": "2.0.0",
+              "rubricVersion": "2.0.0",
+              "unit": "claim-level score on a 0-100 scale",
+              "score": 95,
+              "label": "high_trust",
+              "components": {
+                "traceability": [
+                  4,
+                  "T4_ATOM_LEVEL"
+                ],
+                "robustness": [
+                  4,
+                  "R4_REPLICATED_PER_ATOM"
+                ],
+                "uncertainty_calibration": [
+                  4,
+                  "U4_EXACT_CALIBRATION"
+                ],
+                "source_integrity": [
+                  4,
+                  "S4_VERIFIED_PRIMARY"
+                ],
+                "transferability_scope_control": [
+                  3,
+                  "X3_MINOR_QUALIFIER"
+                ]
+              },
+              "provenance": "content/01_introduction.md#clm_c5b4d84c46bcacf3"
+            },
+            "sourceHumanReview": null
+          },
+          "aggregateScore": null,
+          "aggregateMethod": null,
+          "reviewStatus": "agent-proposed"
+        },
+        {
+          "claimId": "clm_c5b4d84c46bcacf3",
+          "citationId": "Freedman2015",
+          "protocolVersion": "review-trust-v2.0.0",
+          "assessorType": "agent",
+          "assessorId": "ComputationalReviewTemplate TRUST v2",
+          "assessedAt": "2026-07-16T09:53:30.688Z",
+          "criteria": {
+            "identityIntegrity": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "entailment": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "sourceAccess": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "populationRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "interventionExposureRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "outcomeRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "methodologicalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "statisticalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "replicationConvergence": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "conflictDependency": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            }
+          },
+          "limitations": [
+            "Claim-level source score repeated for transport; not an Oratlas relation score or crosswalk."
+          ],
+          "evidence": {
+            "sourceAssessment": {
+              "protocol": "ComputationalReviewTemplate TRUST",
+              "protocolVersion": "2.0.0",
+              "rubricVersion": "2.0.0",
+              "unit": "claim-level score on a 0-100 scale",
+              "score": 95,
+              "label": "high_trust",
+              "components": {
+                "traceability": [
+                  4,
+                  "T4_ATOM_LEVEL"
+                ],
+                "robustness": [
+                  4,
+                  "R4_REPLICATED_PER_ATOM"
+                ],
+                "uncertainty_calibration": [
+                  4,
+                  "U4_EXACT_CALIBRATION"
+                ],
+                "source_integrity": [
+                  4,
+                  "S4_VERIFIED_PRIMARY"
+                ],
+                "transferability_scope_control": [
+                  3,
+                  "X3_MINOR_QUALIFIER"
+                ]
+              },
+              "provenance": "content/01_introduction.md#clm_c5b4d84c46bcacf3"
+            },
+            "sourceHumanReview": null
+          },
+          "aggregateScore": null,
+          "aggregateMethod": null,
+          "reviewStatus": "agent-proposed"
+        },
+        {
+          "claimId": "clm_c5b4d84c46bcacf3",
+          "citationId": "Ioannidis2005b",
+          "protocolVersion": "review-trust-v2.0.0",
+          "assessorType": "agent",
+          "assessorId": "ComputationalReviewTemplate TRUST v2",
+          "assessedAt": "2026-07-16T09:53:30.688Z",
+          "criteria": {
+            "identityIntegrity": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "entailment": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "sourceAccess": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "populationRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "interventionExposureRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "outcomeRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "methodologicalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "statisticalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "replicationConvergence": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "conflictDependency": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            }
+          },
+          "limitations": [
+            "Claim-level source score repeated for transport; not an Oratlas relation score or crosswalk."
+          ],
+          "evidence": {
+            "sourceAssessment": {
+              "protocol": "ComputationalReviewTemplate TRUST",
+              "protocolVersion": "2.0.0",
+              "rubricVersion": "2.0.0",
+              "unit": "claim-level score on a 0-100 scale",
+              "score": 95,
+              "label": "high_trust",
+              "components": {
+                "traceability": [
+                  4,
+                  "T4_ATOM_LEVEL"
+                ],
+                "robustness": [
+                  4,
+                  "R4_REPLICATED_PER_ATOM"
+                ],
+                "uncertainty_calibration": [
+                  4,
+                  "U4_EXACT_CALIBRATION"
+                ],
+                "source_integrity": [
+                  4,
+                  "S4_VERIFIED_PRIMARY"
+                ],
+                "transferability_scope_control": [
+                  3,
+                  "X3_MINOR_QUALIFIER"
+                ]
+              },
+              "provenance": "content/01_introduction.md#clm_c5b4d84c46bcacf3"
+            },
+            "sourceHumanReview": null
+          },
+          "aggregateScore": null,
+          "aggregateMethod": null,
+          "reviewStatus": "agent-proposed"
+        },
+        {
+          "claimId": "clm_c5b4d84c46bcacf3",
+          "citationId": "Ioannidis2014c",
+          "protocolVersion": "review-trust-v2.0.0",
+          "assessorType": "agent",
+          "assessorId": "ComputationalReviewTemplate TRUST v2",
+          "assessedAt": "2026-07-16T09:53:30.688Z",
+          "criteria": {
+            "identityIntegrity": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "entailment": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "sourceAccess": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "populationRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "interventionExposureRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "outcomeRelevance": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "methodologicalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "statisticalSafeguards": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "replicationConvergence": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            },
+            "conflictDependency": {
+              "rating": "not-assessed",
+              "status": "not-assessed"
+            }
+          },
+          "limitations": [
+            "Claim-level source score repeated for transport; not an Oratlas relation score or crosswalk."
+          ],
+          "evidence": {
+            "sourceAssessment": {
+              "protocol": "ComputationalReviewTemplate TRUST",
+              "protocolVersion": "2.0.0",
+              "rubricVersion": "2.0.0",
+              "unit": "claim-level score on a 0-100 scale",
+              "score": 95,
+              "label": "high_trust",
+              "components": {
+                "traceability": [
+                  4,
+                  "T4_ATOM_LEVEL"
+                ],
+                "robustness": [
+                  4,
+                  "R4_REPLICATED_PER_ATOM"
+                ],
+                "uncertainty_calibration": [
+                  4,
+                  "U4_EXACT_CALIBRATION"
+                ],
+                "source_integrity": [
+                  4,
+                  "S4_VERIFIED_PRIMARY"
+                ],
+                "transferability_scope_control": [
+                  3,
+                  "X3_MINOR_QUALIFIER"
+                ]
+              },
+              "provenance": "content/01_introduction.md#clm_c5b4d84c46bcacf3"
+            },
+            "sourceHumanReview": null
+          },
+          "aggregateScore": null,
+          "aggregateMethod": null,
+          "reviewStatus": "agent-proposed"
+        }
+      ]
+    }
+  }
+}

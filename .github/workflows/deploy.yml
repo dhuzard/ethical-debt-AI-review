@@ -41,6 +41,8 @@ jobs:
           node scripts/human-review-store.js
           node scripts/review-priority.js
           node scripts/claim-quality-audit.js
+          node scripts/validate-oratlas.js
+          node scripts/build-oratlas-fixtures.js
           node scripts/validate-trust.js
           node scripts/test-trust-validator.js
           node --test tests/*.test.mjs

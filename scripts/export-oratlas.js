@@ -2,6 +2,7 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
+const crypto = require("node:crypto");
 
 const root = path.resolve(__dirname, "..");
 const outputDir = path.join(root, "knowledge", "oratlas");
@@ -23,9 +24,18 @@ const trustCriteria = [
   "conflictDependency",
 ];
 
-const approvedClaimTexts = new Set(
-  overrides.decisions.flatMap((decision) => (decision.claims || []).map((claim) => claim.claim_text)),
-);
+const sourceReviewByClaimText = new Map();
+for (const decision of overrides.decisions) {
+  for (const claim of decision.claims || []) {
+    sourceReviewByClaimText.set(claim.claim_text, {
+      authority: "source-review",
+      state: decision.state || "adjudicated",
+      decisionId: decision.decision_id,
+      reviewerId: decision.reviewer_id || decision.reviewer,
+      recordedAt: decision.recorded_at || decision.reviewed_at,
+    });
+  }
+}
 
 const claimTypeMap = {
   empirical: "empirical",
@@ -58,7 +68,11 @@ function compactObject(value) {
 function writeJsonl(name, records) {
   const content = `${records.map((record) => JSON.stringify(record)).join("\n")}\n`;
   fs.writeFileSync(path.join(outputDir, name), content);
-  return Buffer.byteLength(content);
+  return {
+    records: records.length,
+    bytes: Buffer.byteLength(content),
+    sha256: crypto.createHash("sha256").update(content).digest("hex"),
+  };
 }
 
 fs.mkdirSync(outputDir, { recursive: true });
@@ -92,7 +106,7 @@ const notAssessedCriteria = Object.fromEntries(
 );
 
 for (const claim of [...graph.claims].sort((a, b) => a.claim_id.localeCompare(b.claim_id))) {
-  const humanReviewed = approvedClaimTexts.has(claim.claim_text);
+  const sourceHumanReview = sourceReviewByClaimText.get(claim.claim_text) || null;
   for (const context of [...claim.citation_contexts].sort((a, b) => a.cite_key.localeCompare(b.cite_key))) {
     const doi = cleanDoi(context.doi);
     const sourceUrl =
@@ -126,7 +140,9 @@ for (const claim of [...graph.claims].sort((a, b) => a.claim_id.localeCompare(b.
       supportDirection,
       sourceLocation: `${claim.source_file}#${claim.claim_id}`,
       extractionMethod: "ComputationalReviewTemplate TRUST v2 claim graph",
-      humanReviewed,
+      // ORAtlas `humanReviewed` denotes platform/relationship verification.
+      // Source-side prose adjudication is preserved on the source assessment below.
+      humanReviewed: false,
     });
 
     const components = Object.fromEntries(
@@ -147,12 +163,21 @@ for (const claim of [...graph.claims].sort((a, b) => a.claim_id.localeCompare(b.
         "Claim-level source score repeated for transport; not an Oratlas relation score or crosswalk.",
       ],
       evidence: {
-        sourceLabel: claim.trust_score.label,
-        sourceComponents: components,
+        sourceAssessment: {
+          protocol: "ComputationalReviewTemplate TRUST",
+          protocolVersion: "2.0.0",
+          rubricVersion: claim.trust_score.rubric_version,
+          unit: "claim-level score on a 0-100 scale",
+          score: claim.trust_score.overall_score,
+          label: claim.trust_score.trust_label,
+          components,
+          provenance: `${claim.source_file}#${claim.claim_id}`,
+        },
+        sourceHumanReview,
       },
-      aggregateScore: claim.trust_score.overall_score / 100,
-      aggregateMethod: "review-trust-v2-five-component-score",
-      reviewStatus: humanReviewed ? "human-reviewed" : "agent-proposed",
+      aggregateScore: null,
+      aggregateMethod: null,
+      reviewStatus: "agent-proposed",
     });
   }
 }
@@ -163,11 +188,11 @@ trustAssessments.sort((a, b) =>
   `${a.claimId}|${a.citationId}`.localeCompare(`${b.claimId}|${b.citationId}`),
 );
 
-const sizes = {
-  claims: writeJsonl("claims.jsonl", claims),
-  citations: writeJsonl("citations.jsonl", citations),
-  relations: writeJsonl("relations.jsonl", relations),
-  trustAssessments: writeJsonl("trust-assessments.jsonl", trustAssessments),
+const artifacts = {
+  "claims.jsonl": writeJsonl("claims.jsonl", claims),
+  "citations.jsonl": writeJsonl("citations.jsonl", citations),
+  "relations.jsonl": writeJsonl("relations.jsonl", relations),
+  "trust-assessments.jsonl": writeJsonl("trust-assessments.jsonl", trustAssessments),
 };
 
 const provenance = {
@@ -177,23 +202,32 @@ const provenance = {
   sourceArtifacts: [
     "knowledge/claim_graph.json",
     "knowledge/trust_human_review_overrides.json",
+    "knowledge/record_counts.json",
   ],
+  contract: {
+    repository: "dhuzard/oratlas",
+    commit: "102d3fa96d47e9e7773720b0c36802f888cca4fe",
+    manifestSchema: "packages/contracts/schemas/review-manifest.schema.json",
+    artifactContract: "packages/contracts/src/artifacts.ts",
+  },
   sourceSchemaVersion: graph.schema_version,
   sourceRubricVersion: graph.rubric_version,
   semantics: {
     claims: "Canonical claim records from the TRUST v2 claim graph.",
     relations: "Claim-citation contexts exported without changing their evidence role.",
-    trust: "Original claim-level five-component scores retained as source aggregates; all Oratlas relation-level criteria explicitly remain not assessed.",
-    humanReview: "A relation is marked human-reviewed when its canonical claim text occurs in an approved human-review override decision.",
+    trust: "Original claim-level five-component scores are retained only under evidence.sourceAssessment; aggregateScore is null and all Oratlas relation-level criteria explicitly remain not assessed.",
+    humanReview: "Source-side decisions are retained under evidence.sourceHumanReview with authority=source-review. ORAtlas relation humanReviewed remains false and reviewStatus remains agent-proposed until platform verification.",
   },
   counts: {
     claims: claims.length,
     citations: citations.length,
     relations: relations.length,
     trustAssessments: trustAssessments.length,
-    humanReviewedRelations: relations.filter((relation) => relation.humanReviewed).length,
+    sourceHumanReviewedRelations: trustAssessments.filter((assessment) => assessment.evidence.sourceHumanReview).length,
+    platformHumanReviewedRelations: relations.filter((relation) => relation.humanReviewed).length,
   },
+  artifacts,
 };
 fs.writeFileSync(path.join(outputDir, "provenance.json"), `${JSON.stringify(provenance, null, 2)}\n`);
 
-console.log(JSON.stringify({ counts: provenance.counts, bytes: sizes }, null, 2));
+console.log(JSON.stringify({ counts: provenance.counts, artifacts }, null, 2));

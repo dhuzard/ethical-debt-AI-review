@@ -1,0 +1,8 @@
+{
+  "repository": "dhuzard/oratlas",
+  "commit": "102d3fa96d47e9e7773720b0c36802f888cca4fe",
+  "schemaVersion": "1.0.0",
+  "manifestSchema": "packages/contracts/schemas/review-manifest.schema.json",
+  "artifactContract": "packages/contracts/src/artifacts.ts",
+  "verifiedAt": "2026-07-20"
+}
