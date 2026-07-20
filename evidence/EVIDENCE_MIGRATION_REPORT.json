@@ -1,0 +1,57 @@
+{
+  "report_version": 1,
+  "backlog_items": [
+    "ED-B01",
+    "ED-B02"
+  ],
+  "status": "no-content-migration-required",
+  "finding": "All nine curated evidence packages already exist. The Evidence Explorer was empty because its loader did not recognize the canonical evidence_section_NN.json filenames. Its legacy extraction path also preferred argument-group citation-key strings over the rich findings array.",
+  "provenance": {
+    "curation_script": "scripts/build_curation.py",
+    "curation_gate": "provenance/gate_evidence_curated.json",
+    "canonical_filename_pattern": "evidence/evidence_section_NN.json",
+    "raw_cluster_pattern": "evidence/cluster_NN_evidence.json",
+    "supporting_artifacts_per_section": [
+      "evidence/citemap_section_NN.json",
+      "evidence/authortable_section_NN.json",
+      "evidence/scaffold_section_NN.json"
+    ]
+  },
+  "inventory": {
+    "curated_section_packages": 9,
+    "raw_cluster_packages": 8,
+    "citation_maps": 9,
+    "author_tables": 9,
+    "scaffold_extracts": 9
+  },
+  "totals": {
+    "findings": 1438,
+    "section_paper_counts_sum": 1428,
+    "unique_papers_across_sections": 1336,
+    "conflicts_in_section_packages": 125,
+    "figure_comparisons": 60
+  },
+  "count_definitions": {
+    "findings": "Number of rich objects in each package's findings array.",
+    "papers": "Unique non-empty DOI, falling back to citation key, among a section's findings. The per-section sum is not a global unique-paper count.",
+    "conflicts": "Number of objects in each package's conflicts array. A conflict may intentionally appear in more than one section.",
+    "figure_comparisons": "Number of objects in each package's figure_data array."
+  },
+  "sections": [
+    { "section": 1, "package": "evidence/evidence_section_01.json", "source": "synthesis from body-section findings selected by scaffold key_evidence; conflicts from clusters 01 and 02", "findings": 11, "papers": 11, "conflicts": 26, "figure_comparisons": 1 },
+    { "section": 2, "package": "evidence/evidence_section_02.json", "source": "evidence/cluster_01_evidence.json", "findings": 182, "papers": 182, "conflicts": 10, "figure_comparisons": 8 },
+    { "section": 3, "package": "evidence/evidence_section_03.json", "source": "evidence/cluster_02_evidence.json; additional conflicts from cluster 08", "findings": 192, "papers": 192, "conflicts": 16, "figure_comparisons": 9 },
+    { "section": 4, "package": "evidence/evidence_section_04.json", "source": "evidence/cluster_03_evidence.json and the non-reuse partition of evidence/cluster_04_evidence.json", "findings": 279, "papers": 269, "conflicts": 17, "figure_comparisons": 10 },
+    { "section": 5, "package": "evidence/evidence_section_05.json", "source": "the reuse partition of evidence/cluster_04_evidence.json and evidence/cluster_05_evidence.json", "findings": 244, "papers": 244, "conflicts": 22, "figure_comparisons": 8 },
+    { "section": 6, "package": "evidence/evidence_section_06.json", "source": "evidence/cluster_06_evidence.json", "findings": 168, "papers": 168, "conflicts": 11, "figure_comparisons": 5 },
+    { "section": 7, "package": "evidence/evidence_section_07.json", "source": "evidence/cluster_07_evidence.json", "findings": 175, "papers": 175, "conflicts": 12, "figure_comparisons": 9 },
+    { "section": 8, "package": "evidence/evidence_section_08.json", "source": "evidence/cluster_08_evidence.json", "findings": 177, "papers": 177, "conflicts": 11, "figure_comparisons": 10 },
+    { "section": 9, "package": "evidence/evidence_section_09.json", "source": "synthesis from body-section findings selected by scaffold key_evidence", "findings": 10, "papers": 10, "conflicts": 0, "figure_comparisons": 0 }
+  ],
+  "migration": {
+    "content_records_changed": 0,
+    "content_records_reconstructed": 0,
+    "loader_action": "Discover canonical files dynamically, prefer findings objects, and derive paper/finding counts from real fields.",
+    "upstream_action": "Port the generic loader correction to AllenNeuralDynamics/ComputationalReviewTemplate before removing the documented local patch."
+  }
+}

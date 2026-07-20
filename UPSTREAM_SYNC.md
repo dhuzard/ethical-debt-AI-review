@@ -34,7 +34,7 @@ once; sync per component, under its own backlog item.
 - **Local commit:** `b89196f` (2026-07-06)
 - **Local modifications:** Universal conflict normalizer (`normalizeConflict`) handling 15+ conflict-schema variants; section scan range 2–13.
 - **Reason for divergence:** Adapt to this review's heterogeneous conflict shapes.
-- **Known defect (must fix upstream):** Loader scans `section_NN_evidence_package.json` / `section_NN_evidence.json`, but this repo's files are `evidence_section_NN.json`, and finding-extraction prefers `argument_groups` cite-key strings over the rich `findings[]` objects. Tracked by **ED-B02** (fix in Template, sync here; temporary local patch allowed and to be recorded here).
+- **Temporary local patch (ED-B02, in review):** Loader now discovers canonical `evidence_section_NN.json` files dynamically (while retaining both legacy names), prefers rich `findings[]` objects, derives paper counts from DOI/citation keys, and has corpus regression tests. This generic correction still needs to be ported to the Template; remove the local divergence after that upstream sync.
 - **Should divergence be removed later?** Yes — fold the fix into the Template loader and drop any local patch.
 
 ### 2. Evidence Explorer widget
