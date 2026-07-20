@@ -29,7 +29,7 @@ export function validateReleaseContract() {
   if (requirements.some(requirement => !/^[A-Za-z0-9_.-]+==[^=]+$/.test(requirement))) {
     throw new Error('Every Python requirement must use an exact == pin.');
   }
-  if (zenodo.version !== '0.1.0-rc.1' || zenodo.license !== 'MIT' || zenodo.creators?.[0]?.orcid !== '0000-0003-4820-7951') {
+  if (zenodo.version !== '0.1.0-rc.2' || zenodo.license !== 'MIT' || zenodo.creators?.[0]?.orcid !== '0000-0003-4820-7951') {
     throw new Error('Zenodo prerelease metadata is incomplete or inconsistent.');
   }
   for (const path of ['README.md', 'content/00_frontmatter.md', 'content/Methods.md', 'content/provenance.md', 'HANDOFF.md']) {

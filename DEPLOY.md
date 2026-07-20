@@ -47,14 +47,18 @@ node scripts/build-oratlas-fixtures.js
 1. Confirm `git status --short` is empty at the intended commit.
 2. Run `npm run release:check`.
 3. Review the limitations in `RELEASE_CONTRACT.md` and release notes.
-4. Create an annotated tag, for example `git tag -a v0.1.0-rc.1 -m "Reference prerelease rc.1"`.
-5. Run `node scripts/validate-release.js --tag v0.1.0-rc.1`.
+4. Create the next annotated tag: `git tag -a v0.1.0-rc.2 -m "Complete ORAtlas integration fixture rc.2"`.
+5. Run `node scripts/validate-release.js --tag v0.1.0-rc.2`.
 6. Push the tag and publish a GitHub **prerelease** whose notes repeat the public
    status and limitations. ORAtlas must ingest this tag/commit, not a branch.
 
 Tags are immutable. Corrections use a new release candidate. Stable `v1.0.0`
 requires completion of the human scientific-review queue and the manual live-site
 checks; a release candidate does not.
+
+`v0.1.0-rc.1` is historical provenance and must remain unchanged. `v0.1.0-rc.2`
+is the first complete ORAtlas integration fixture and must be created from the
+final merged `main`, after the complete release gate passes there.
 
 ## DOI/Zenodo
 

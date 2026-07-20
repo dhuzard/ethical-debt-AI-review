@@ -4,6 +4,11 @@ The `v0.1.0-rc.N` series is the first immutable integration reference for this
 review, its experimental TRUST layer, and the ORAtlas export. A release candidate
 may be tagged only when every automated gate below passes at the exact tag commit.
 
+`v0.1.0-rc.1` is retained unchanged as a historical candidate predating the final
+merged integration state. `v0.1.0-rc.2` is designated as the first complete
+ORAtlas integration fixture; this designation describes infrastructure coverage,
+not peer review, scientific adjudication, or validation of the TRUST methodology.
+
 ## Automated gates
 
 - Canonical record counts match `knowledge/record_counts.json`.
