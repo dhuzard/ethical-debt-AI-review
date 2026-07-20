@@ -190,6 +190,7 @@ const evidenceTransform = {
   name: 'evidence-data-loader',
   stage: 'document',
   plugin: (opts, utils) => (tree, vfile) => {
+    let widgetIndex = 0;
     function transform(node) {
       if (node == null) return;
       if (node.type === 'evidence-explorer') {
@@ -256,7 +257,7 @@ const evidenceTransform = {
           }
 
           node.type = 'anywidget';
-          node.id = 'evidence-explorer-' + Date.now() + '-' + Math.random().toString(36).slice(2,9);
+          node.id = `evidence-explorer-${++widgetIndex}`;
           node.esm = './evidence-explorer-widget.mjs';
           node.model = {
             evidence_data: JSON.stringify({

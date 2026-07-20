@@ -28,7 +28,10 @@ first phase whose status is not `complete`. All prior work is on disk — zero r
 - `phase2_progress.json` — Phase 2 close-out record
 
 ## Notes for the resuming coordinator
-- Evidence is closed at 1,339 unique (user accepted the documented near-target/saturation exit; hard 1,000 floor met). Do NOT reopen Phase 2 unless asked.
+- Evidence gathering closed historically at a Phase 2 count of 1,339 DOI strings
+  (the accepted near-target/saturation exit). The canonical curated packages now
+  contain 1,438 findings representing 1,336 unique DOI/citation identifiers; see
+  `evidence/EVIDENCE_MIGRATION_REPORT.json`. Do NOT reopen Phase 2 unless asked.
 - Account usage limit was hit ~4x during Phase 2 (rolling ~5h windows). Expect to pause/resume across limit windows; the loop is limit-resilient because every subagent saves append-only to disk.
 - Rule enforced for all evidence subagents: no nested sub-subagents; light frames; prefer PubMed MCP + Europe PMC over slow WebFetch.
 - Direct network (CrossRef/Europe PMC) works from the sandbox Python — bulk mechanical fetches were done via background scripts (zero model tokens) rather than subagents.

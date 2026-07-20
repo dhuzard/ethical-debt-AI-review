@@ -6,8 +6,14 @@ This review was produced by a staged, gated computational protocol under human d
 ## Pipeline Summary
 
 - **Discovery databases:** PubMed, Europe PMC, and OpenAlex, with CrossRef used for bibliographic metadata and digital-object-identifier verification.
-- **Corpus:** 1,337 unique papers after cross-group de-duplication (1,451 findings before de-duplication), organised into eight topic groups mapped onto the review's body sections. The binding corpus floor of 1,000 unique papers was exceeded; the per-group target of 200 was met at 168–199 per group, a documented near-target exit accepted at the evidence gate.
-- **Evidence:** 1,451 extracted findings, 90 recorded inter-study conflicts, and 60 cross-study figure comparisons, each traceable to a source paper by digital object identifier.
+- **Canonical curated corpus:** 1,438 finding records representing 1,336 unique
+  DOI/citation identifiers across the nine section packages, with 125 packaged
+  conflict records and 60 cross-study figure comparisons. These values are
+  computed in `evidence/EVIDENCE_MIGRATION_REPORT.json`.
+- **Historical pipeline counts:** the Phase 2 gate recorded 1,451 raw findings and
+  1,339 distinct DOI strings; the bibliography gate recorded 1,337 entries. Those
+  immutable gate records describe earlier processing stages, not the current
+  curated package cardinality.
 - **Figures:** 21 section figures plus one schematic, each paired with a self-contained, re-executable notebook and rendered from the recorded evidence.
 - **Text:** seven body sections, an Introduction and Conclusion, and an Abstract, each citing only papers held in the verified bibliography.
 - **Assessment:** blinded figure-comparability review, blinded per-section prose critiques, blinded review of the Introduction and Conclusion, and full citation verification against source metadata and, where retrievable, full text.

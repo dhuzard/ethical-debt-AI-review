@@ -33,6 +33,7 @@ test('Evidence Explorer loads every canonical package and its rich findings', ()
 
   const widget = tree.children[0];
   assert.equal(widget.type, 'anywidget');
+  assert.equal(widget.id, 'evidence-explorer-1');
   const data = JSON.parse(widget.model.evidence_data);
   assert.deepEqual(data.sections.map(section => ({
     section: section.section,

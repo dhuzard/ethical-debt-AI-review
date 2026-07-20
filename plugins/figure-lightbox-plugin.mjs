@@ -19,7 +19,7 @@ const lightboxTransform = {
     tree.children = tree.children || [];
     tree.children.push({
       type: 'anywidget',
-      id: `figlightbox-${Date.now()}-${Math.random().toString(36).slice(2, 9)}`,
+      id: 'figlightbox-1',
       esm: './figure-lightbox-widget.mjs',
       model: {},
     });

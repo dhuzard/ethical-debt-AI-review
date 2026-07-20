@@ -16,7 +16,9 @@ project:
 
   contributors:
     - id: damien-huzard
-      name: Damien Huzard
+      name:
+        given: Damien
+        surname: Huzard
       corresponding: true
       email: damien.huzard@gmail.com
       orcid: 0000-0003-4820-7951
@@ -29,31 +31,10 @@ project:
         - Funding acquisition
       affiliations:
         - neuronautix
-      first_name: Damien
-      last_name: Huzard
-      career_stage: Human author
-      is_ai_tool: false
-      credit_levels:
-        - role: Conceptualization
-          level: lead
-          description: "Conceived the review's topic, scope, and central argument."
-        - role: Methodology
-          level: lead
-          description: "Chose the AI-directed approach; the specialist tools produced the initial candidate references and the first-draft prose under this design."
-        - role: Validation
-          level: lead
-          description: "Reviewed and validated the outputs at each phase gate."
-        - role: "Writing – review & editing"
-          level: supporting
-          description: "Light review-and-edit passes over the drafted text."
-        - role: Resources
-          level: lead
-          description: "Provided the compute and model tokens for the run."
-        - role: Funding acquisition
-          level: lead
-          description: "Funded the work."
+      note: Human author; conceived and supervised the review and approved phase gates.
     - id: ai-pipeline
-      name: Claude
+      name:
+        literal: Claude (AI research tool)
       corresponding: false
       roles:
         - Investigation
@@ -63,45 +44,14 @@ project:
         - Formal Analysis
       affiliations:
         - anthropic
-      first_name: Claude
-      last_name: "Opus 4.6 / 4.8"
-      career_stage: AI Research Tool
-      is_ai_tool: true
-      credit_levels:
-        - role: Investigation
-          level: lead
-          description: "Searched literature databases; retrieved and extracted evidence via parallel agent delegations"
-        - role: Data Curation
-          level: lead
-          description: "Built structured evidence JSONs, citation_key_map, author_name_table from database APIs"
-        - role: "Writing – Original Draft"
-          level: lead
-          description: "Drafted all sections following scaffold, evidence packages, and style guide"
-        - role: Visualization
-          level: equal
-          description: "Generated publication-quality figures from evidence data"
-        - role: Formal Analysis
-          level: lead
-          description: "Ran blinded figure audits, blinded text criticism, and citation verification"
-      section_contributions:
-        - section: all-sections
-          description: Drafted all sections from evidence packages under orchestrator constraints
-          effort: lead
+      note: AI system; detailed tool contributions and limitations are documented in CONTRIBUTORS.md.
     - id: codex
-      name: Codex
+      name:
+        literal: Codex (AI research tool)
       corresponding: false
       roles:
         - Writing – review & editing
         - Software
       affiliations:
         - openai
-      first_name: Codex
-      career_stage: AI Research Tool
-      is_ai_tool: true
-      credit_levels:
-        - role: "Writing – review & editing"
-          level: supporting
-          description: "Assisted with some drafting and text-revision passes."
-        - role: Software
-          level: supporting
-          description: "Contributed to some code and tooling passes."
+      note: AI system; detailed tool contributions and limitations are documented in CONTRIBUTORS.md.
