@@ -177,8 +177,8 @@
     },
     {
       "path": "knowledge/claim_graph.json",
-      "bytes": 5764393,
-      "sha256": "f2967022c1ff0b9c8a0b658e67d97e596904a31afcfc7e4f7f1b1bf556291321"
+      "bytes": 5645360,
+      "sha256": "38954f53ae57c3bfa3abdd9213eda413ee85d0fe9d8f0df5e6d0b492d6988901"
     },
     {
       "path": "knowledge/oratlas/citations.jsonl",
@@ -222,8 +222,8 @@
     },
     {
       "path": "review-manifest.json",
-      "bytes": 2309,
-      "sha256": "ab8ed24bd7b77782a7d2f7cf60e8bf2643fe1c19650052971fa19bb07e232a7a"
+      "bytes": 2240,
+      "sha256": "078f0e327b087c3ce276fb5c271ce07429ba62ba3aeeceb29d095a945239e3ec"
     }
   ]
 }
